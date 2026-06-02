@@ -1,0 +1,89 @@
+services:
+  migrate:
+    image: migrate/migrate:v4.18.3
+    container_name: afineback-migrate
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./migrations:/migrations:ro
+    command:
+      [
+        "-path",
+        "/migrations",
+        "-database",
+        "postgres://afine:afine@postgres:5432/afine?sslmode=disable",
+        "up"
+      ]
+    restart: "no"
+    networks:
+      - afine-net
+
+  ml:
+    build: ../nextLessonRecommendation
+    container_name: afineback-ml
+    ports:
+      - "8000:8000"
+    networks:
+      - afine-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: .
+    container_name: afineback-api
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      ml:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      APP_ENV: development
+      PORT: ${PORT:-8081}
+      DATABASE_URL: ${DATABASE_URL:-postgres://afine:afine@postgres:5432/afine?sslmode=disable}
+      JWT_ACCESS_SECRET: ${JWT_ACCESS_SECRET:-dev-only-change-me-please-use-48-bytes-of-entropy}
+      ACCESS_TOKEN_TTL: ${ACCESS_TOKEN_TTL:-15m}
+      REFRESH_TOKEN_TTL: ${REFRESH_TOKEN_TTL:-720h}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      CORS_ORIGINS: http://localhost:3000
+      COOKIE_SECURE: "false"
+    networks:
+      - afine-net
+    ports:
+      - "${PORT:-8081}:${PORT:-8081}"
+    volumes:
+      - ./.env:/app/.env:ro
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: afineback-postgres
+    environment:
+      POSTGRES_USER: afine
+      POSTGRES_PASSWORD: afine
+      POSTGRES_DB: afine
+    ports:
+      - "5432:5432"
+    networks:
+      - afine-net
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U afine -d afine"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+networks:
+  afine-net:
+    driver: bridge
+
+volumes:
+  pgdata:

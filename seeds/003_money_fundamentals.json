@@ -1,0 +1,2930 @@
+{
+  "topic": {
+    "code": "money_fundamentals",
+    "title": {
+      "en": "Money Fundamentals",
+      "ru": "Основы денег",
+      "kz": "Ақша негіздері"
+    },
+    "description": {
+      "en": "What money is, why paper has value, and how inflation erodes it.",
+      "ru": "Что такое деньги, почему бумага имеет ценность и как инфляция её подтачивает.",
+      "kz": "Ақша деген не, қағаздың құны неден және инфляция оны қалай жейді."
+    },
+    "level": "beginner",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "functions_of_money",
+      "orderIndex": 0,
+      "estimatedMinutes": 5,
+      "quizId": 301,
+      "title": {
+        "en": "Functions of Money",
+        "ru": "Функции денег",
+        "kz": "Ақшаның функциялары"
+      },
+      "description": {
+        "en": "Money does three jobs: exchange, measurement, and storing value.",
+        "ru": "Деньги выполняют три задачи: обмен, измерение и хранение ценности.",
+        "kz": "Ақша үш міндет атқарады: айырбас, өлшеу және құнды сақтау."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The problem money solves",
+              "ru": "Какую задачу решают деньги",
+              "kz": "Ақша қандай мәселені шешеді"
+            },
+            "body": {
+              "en": "Before money, trade meant barter: to get bread you needed a baker who happened to want exactly what you had. That rarely lined up. Money exists to remove that problem, and it does three jobs to do so.",
+              "ru": "До денег обмен был бартером: чтобы получить хлеб, нужен был пекарь, которому нужно именно то, что есть у вас. Это совпадало редко. Деньги существуют, чтобы убрать эту проблему, и для этого выполняют три задачи.",
+              "kz": "Ақшаға дейін сауда айырбас арқылы жүрді: нан алу үшін дәл сізде барды қалайтын наубайшы керек еді. Бұл сирек сәйкес келетін. Ақша осы мәселені жою үшін бар және ол үшін үш міндет атқарады."
+            },
+            "tip": {
+              "en": "Money is not wealth itself — it is a tool that makes exchanging, measuring, and storing value possible.",
+              "ru": "Деньги — не само богатство, а инструмент, который делает возможным обмен, измерение и хранение ценности.",
+              "kz": "Ақша — байлықтың өзі емес, құнды айырбастауды, өлшеуді және сақтауды мүмкін ететін құрал."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Job one: a medium of exchange",
+              "ru": "Задача первая: средство обмена",
+              "kz": "Бірінші міндет: айырбас құралы"
+            },
+            "body": {
+              "en": "Because everyone accepts money, you no longer need a direct match. You sell your work for money, then spend that money on anything from anyone. Money breaks one hard trade into two easy ones.",
+              "ru": "Поскольку деньги принимают все, прямое совпадение больше не нужно. Вы продаёте труд за деньги, а потом тратите их на что угодно у кого угодно. Деньги превращают одну трудную сделку в две лёгкие.",
+              "kz": "Ақшаны бәрі қабылдайтындықтан, тікелей сәйкестік енді қажет емес. Еңбегіңізді ақшаға сатасыз, сосын оны кез келген адамнан кез келген нәрсеге жұмсайсыз. Ақша бір қиын мәмілені екі оңайға бөледі."
+            },
+            "example": {
+              "en": "A teacher can't pay rent in lessons. She's paid in tenge, then pays rent in tenge — the landlord needn't want lessons at all.",
+              "ru": "Учитель не заплатит за аренду уроками. Она получает тенге и платит аренду в тенге — арендодателю уроки не нужны вовсе.",
+              "kz": "Мұғалім жалдау ақысын сабақпен төлей алмайды. Ол теңгемен жалақы алып, теңгемен төлейді — үй иесіне сабақ мүлде керек емес."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Jobs two and three: measure and store",
+              "ru": "Задачи вторая и третья: мера и хранение",
+              "kz": "Екінші және үшінші міндет: өлшем және сақтау"
+            },
+            "body": {
+              "en": "Money is also a unit of account — a common scale that lets you compare a car, an hour of work, and a loaf on one ruler. And it is a store of value: you can hold it and spend it later. That last job only works while the money keeps its value.",
+              "ru": "Деньги — ещё и единица учёта: общая шкала, позволяющая сравнить машину, час работы и буханку одной линейкой. И средство сбережения: их можно держать и потратить позже. Эта задача работает, лишь пока деньги сохраняют ценность.",
+              "kz": "Ақша — есеп бірлігі де: көлікті, бір сағат жұмысты және нанды бір өлшеммен салыстыруға мүмкіндік беретін ортақ шкала. Әрі құнды сақтаушы: оны ұстап, кейін жұмсауға болады. Бұл міндет ақша құнын сақтап тұрғанда ғана жұмыс істейді."
+            },
+            "tip": {
+              "en": "\"Store of value\" is why you can earn now and spend later — but inflation attacks exactly this job.",
+              "ru": "«Средство сбережения» — почему можно заработать сейчас, а потратить позже, но именно по этой задаче бьёт инфляция.",
+              "kz": "«Құнды сақтаушы» — қазір тауып, кейін жұмсай алуыңыздың себебі, бірақ инфляция дәл осы міндетке соққы береді."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Three jobs, and what breaks without them",
+              "ru": "Три задачи и что ломается без них",
+              "kz": "Үш міндет және олсыз не бұзылады"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Each function solves a different problem:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Function",
+                        "What it does",
+                        "Without it"
+                      ],
+                      [
+                        "Medium of exchange",
+                        "Lets you trade indirectly",
+                        "Back to barter"
+                      ],
+                      [
+                        "Unit of account",
+                        "A common price scale",
+                        "No way to compare"
+                      ],
+                      [
+                        "Store of value",
+                        "Hold value over time",
+                        "Must spend at once"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Good money does all three. When one fails — usually store of value — people switch to a currency that doesn't."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Каждая функция решает свою проблему:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Функция",
+                        "Что делает",
+                        "Без неё"
+                      ],
+                      [
+                        "Средство обмена",
+                        "Позволяет обмениваться косвенно",
+                        "Назад к бартеру"
+                      ],
+                      [
+                        "Единица учёта",
+                        "Общая шкала цен",
+                        "Нечем сравнивать"
+                      ],
+                      [
+                        "Средство сбережения",
+                        "Хранит ценность во времени",
+                        "Тратить сразу"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Хорошие деньги делают всё три. Когда одна функция отказывает — обычно сбережение — люди переходят на валюту, где она работает."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Әр функция өз мәселесін шешеді:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Функция",
+                        "Не істейді",
+                        "Онсыз"
+                      ],
+                      [
+                        "Айырбас құралы",
+                        "Жанама айырбасқа мүмкіндік",
+                        "Айырбасқа қайта оралу"
+                      ],
+                      [
+                        "Есеп бірлігі",
+                        "Ортақ баға шкаласы",
+                        "Салыстыруға болмайды"
+                      ],
+                      [
+                        "Құнды сақтаушы",
+                        "Құнды уақытпен сақтайды",
+                        "Бірден жұмсау"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Жақсы ақша үшеуін де атқарады. Біреуі істен шыққанда — әдетте сақтау — адамдар ол істейтін валютаға көшеді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Which function is at work?",
+              "ru": "Какая функция работает?",
+              "kz": "Қай функция жұмыста?"
+            },
+            "body": {
+              "en": "Drag each situation to the function of money it shows.",
+              "ru": "Перетащите каждую ситуацию к функции денег, которую она показывает.",
+              "kz": "Әр жағдайды ол көрсететін ақша функциясына сүйреңіз."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Sort each example by the function of money it shows.",
+                "categories": [
+                  {
+                    "id": "exchange",
+                    "label": "Medium of exchange"
+                  },
+                  {
+                    "id": "account",
+                    "label": "Unit of account"
+                  },
+                  {
+                    "id": "store",
+                    "label": "Store of value"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "buycoffee",
+                    "text": "Paying for coffee with a card"
+                  },
+                  {
+                    "id": "pricetag",
+                    "text": "A price tag reading 1,200 ₸"
+                  },
+                  {
+                    "id": "savings",
+                    "text": "Keeping 500,000 ₸ for next year"
+                  },
+                  {
+                    "id": "salary",
+                    "text": "Receiving wages for work done"
+                  },
+                  {
+                    "id": "compare",
+                    "text": "Comparing two phones by price"
+                  },
+                  {
+                    "id": "deposit",
+                    "text": "Leaving money in a deposit"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "buycoffee",
+                    "categoryId": "exchange"
+                  },
+                  {
+                    "itemId": "pricetag",
+                    "categoryId": "account"
+                  },
+                  {
+                    "itemId": "savings",
+                    "categoryId": "store"
+                  },
+                  {
+                    "itemId": "salary",
+                    "categoryId": "exchange"
+                  },
+                  {
+                    "itemId": "compare",
+                    "categoryId": "account"
+                  },
+                  {
+                    "itemId": "deposit",
+                    "categoryId": "store"
+                  }
+                ],
+                "explanation": "Trading uses exchange; pricing and comparing use the unit of account; holding for later is storing value."
+              },
+              "ru": {
+                "instruction": "Распределите каждый пример по функции денег, которую он показывает.",
+                "categories": [
+                  {
+                    "id": "exchange",
+                    "label": "Средство обмена"
+                  },
+                  {
+                    "id": "account",
+                    "label": "Единица учёта"
+                  },
+                  {
+                    "id": "store",
+                    "label": "Средство сбережения"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "buycoffee",
+                    "text": "Оплата кофе картой"
+                  },
+                  {
+                    "id": "pricetag",
+                    "text": "Ценник «1 200 ₸»"
+                  },
+                  {
+                    "id": "savings",
+                    "text": "Отложить 500 000 ₸ на следующий год"
+                  },
+                  {
+                    "id": "salary",
+                    "text": "Получение зарплаты за работу"
+                  },
+                  {
+                    "id": "compare",
+                    "text": "Сравнение двух телефонов по цене"
+                  },
+                  {
+                    "id": "deposit",
+                    "text": "Деньги лежат на вкладе"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "buycoffee",
+                    "categoryId": "exchange"
+                  },
+                  {
+                    "itemId": "pricetag",
+                    "categoryId": "account"
+                  },
+                  {
+                    "itemId": "savings",
+                    "categoryId": "store"
+                  },
+                  {
+                    "itemId": "salary",
+                    "categoryId": "exchange"
+                  },
+                  {
+                    "itemId": "compare",
+                    "categoryId": "account"
+                  },
+                  {
+                    "itemId": "deposit",
+                    "categoryId": "store"
+                  }
+                ],
+                "explanation": "Обмен — это сделки; ценообразование и сравнение — единица учёта; хранение на потом — сбережение."
+              },
+              "kz": {
+                "instruction": "Әр мысалды ол көрсететін ақша функциясына бөліңіз.",
+                "categories": [
+                  {
+                    "id": "exchange",
+                    "label": "Айырбас құралы"
+                  },
+                  {
+                    "id": "account",
+                    "label": "Есеп бірлігі"
+                  },
+                  {
+                    "id": "store",
+                    "label": "Құнды сақтаушы"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "buycoffee",
+                    "text": "Кофені картамен төлеу"
+                  },
+                  {
+                    "id": "pricetag",
+                    "text": "«1 200 ₸» баға белгісі"
+                  },
+                  {
+                    "id": "savings",
+                    "text": "Келесі жылға 500 000 ₸ бөлу"
+                  },
+                  {
+                    "id": "salary",
+                    "text": "Жұмыс үшін жалақы алу"
+                  },
+                  {
+                    "id": "compare",
+                    "text": "Екі телефонды бағамен салыстыру"
+                  },
+                  {
+                    "id": "deposit",
+                    "text": "Ақшаның депозитте тұруы"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "buycoffee",
+                    "categoryId": "exchange"
+                  },
+                  {
+                    "itemId": "pricetag",
+                    "categoryId": "account"
+                  },
+                  {
+                    "itemId": "savings",
+                    "categoryId": "store"
+                  },
+                  {
+                    "itemId": "salary",
+                    "categoryId": "exchange"
+                  },
+                  {
+                    "itemId": "compare",
+                    "categoryId": "account"
+                  },
+                  {
+                    "itemId": "deposit",
+                    "categoryId": "store"
+                  }
+                ],
+                "explanation": "Сауда — айырбас; баға қою мен салыстыру — есеп бірлігі; кейінге сақтау — құнды сақтау."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Money is a tool, judged by its jobs",
+              "ru": "Деньги — инструмент, оцениваемый по задачам",
+              "kz": "Ақша — міндеттері бойынша бағаланатын құрал"
+            },
+            "body": {
+              "en": "Money is whatever does these three jobs well: exchange, measurement, and storage. This is why anything trusted enough can act as money, and why money that stops storing value — through inflation — slowly stops being trusted.",
+              "ru": "Деньги — это то, что хорошо выполняет три задачи: обмен, измерение и хранение. Поэтому деньгами может быть всё, чему достаточно доверяют, и поэтому деньги, переставшие хранить ценность из-за инфляции, постепенно теряют доверие.",
+              "kz": "Ақша — осы үш міндетті жақсы атқаратын кез келген нәрсе: айырбас, өлшеу және сақтау. Сондықтан жеткілікті сенім артылған кез келген нәрсе ақша бола алады, әрі инфляциядан құнды сақтауды тоқтатқан ақша сенімнен бірте-бірте айырылады."
+            },
+            "tip": {
+              "en": "Whenever you use money, notice which of the three jobs it's doing. The next lessons follow what happens to job three.",
+              "ru": "Используя деньги, замечайте, какую из трёх задач они выполняют. Следующие уроки — о том, что происходит с третьей.",
+              "kz": "Ақшаны қолданғанда қай міндетті атқарып тұрғанын байқаңыз. Келесі сабақтар үшінші міндетке не болатынын қарастырады."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 301,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Functions of Money — Check",
+          "ru": "Функции денег — Проверка",
+          "kz": "Ақшаның функциялары — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "What core problem did money first solve?",
+              "ru": "Какую главную проблему изначально решили деньги?",
+              "kz": "Ақша алғаш қандай негізгі мәселені шешті?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Barter required both sides to want exactly what the other had",
+                  "ru": "Бартер требовал, чтобы обе стороны хотели именно то, что есть у другой",
+                  "kz": "Айырбас екі жақтың да екіншісінде барды дәл қалауын талап етті"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "People had too much gold",
+                  "ru": "У людей было слишком много золота",
+                  "kz": "Адамдарда алтын тым көп болды"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Governments wanted to collect taxes",
+                  "ru": "Государства хотели собирать налоги",
+                  "kz": "Мемлекеттер салық жинағысы келді"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Banks needed something to lend",
+                  "ru": "Банкам нужно было что-то выдавать в долг",
+                  "kz": "Банктерге қарызға беретін нәрсе керек болды"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Comparing two products by their price uses money as a:",
+              "ru": "Сравнение двух товаров по цене использует деньги как:",
+              "kz": "Екі тауарды бағасымен салыстыру ақшаны қалай қолданады:"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Unit of account — a common scale for value",
+                  "ru": "Единицу учёта — общую шкалу ценности",
+                  "kz": "Есеп бірлігі — құнның ортақ шкаласы"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Medium of exchange",
+                  "ru": "Средство обмена",
+                  "kz": "Айырбас құралы"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Store of value",
+                  "ru": "Средство сбережения",
+                  "kz": "Құнды сақтаушы"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A form of debt",
+                  "ru": "Форму долга",
+                  "kz": "Қарыз түрі"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which function does inflation attack most directly?",
+              "ru": "Какую функцию инфляция бьёт напрямую?",
+              "kz": "Инфляция қай функцияға тікелей соққы береді?"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Store of value — money held loses what it can buy",
+                  "ru": "Средство сбережения — хранимые деньги теряют покупательную способность",
+                  "kz": "Құнды сақтаушы — сақталған ақша сатып алу қабілетін жоғалтады"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Medium of exchange — you can no longer trade",
+                  "ru": "Средство обмена — больше нельзя обмениваться",
+                  "kz": "Айырбас құралы — енді айырбастауға болмайды"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Unit of account — prices vanish",
+                  "ru": "Единицу учёта — цены исчезают",
+                  "kz": "Есеп бірлігі — бағалар жоғалады"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "None — inflation doesn't affect money's functions",
+                  "ru": "Никакую — инфляция не влияет на функции денег",
+                  "kz": "Ешқайсысын — инфляция ақша функцияларына әсер етпейді"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "fiat_money",
+      "orderIndex": 1,
+      "estimatedMinutes": 5,
+      "quizId": 302,
+      "title": {
+        "en": "Fiat Money",
+        "ru": "Фиатные деньги",
+        "kz": "Фиат ақша"
+      },
+      "description": {
+        "en": "Modern money has value from trust and decree, not metal.",
+        "ru": "Современные деньги ценны благодаря доверию и указу, а не металлу.",
+        "kz": "Қазіргі ақшаның құны металдан емес, сенім мен жарлықтан."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Why does paper have value?",
+              "ru": "Почему бумага имеет ценность?",
+              "kz": "Қағаздың құны неден?"
+            },
+            "body": {
+              "en": "A banknote is printed paper; the number in your banking app is just data. Neither has worth in itself. Modern money is \"fiat\" — it has value because a government declares it legal money and everyone agrees to accept it.",
+              "ru": "Банкнота — это бумага, число в банковском приложении — просто данные. Сами по себе они ничего не стоят. Современные деньги «фиатные»: они имеют ценность, потому что государство объявляет их законным платёжным средством, а все соглашаются их принимать.",
+              "kz": "Банкнот — басылған қағаз, банк қосымшасындағы сан — жай дерек. Олардың өздігінен құны жоқ. Қазіргі ақша «фиат»: оның құны бар, өйткені мемлекет оны заңды ақша деп жариялайды, ал бәрі оны қабылдауға келіседі."
+            },
+            "tip": {
+              "en": "Fiat money's value is an agreement, not a physical property of the note.",
+              "ru": "Ценность фиатных денег — это договорённость, а не физическое свойство купюры.",
+              "kz": "Фиат ақшаның құны — банкноттың физикалық қасиеті емес, келісім."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Money used to be backed by metal",
+              "ru": "Раньше деньги обеспечивались металлом",
+              "kz": "Бұрын ақша металмен қамтамасыз етілді"
+            },
+            "body": {
+              "en": "For a long time, notes were claims on gold or silver — you could exchange paper for a fixed amount of metal. That link was abandoned worldwide in the 20th century. Today no major currency is redeemable for metal; the paper is the money.",
+              "ru": "Долгое время купюры были требованиями на золото или серебро — бумагу можно было обменять на фиксированное количество металла. В XX веке от этой связи отказались по всему миру. Сегодня ни одна крупная валюта не обменивается на металл; бумага и есть деньги.",
+              "kz": "Ұзақ уақыт банкноттар алтынға не күміске құқық берді — қағазды белгілі мөлшердегі металға айырбастауға болатын. ХХ ғасырда бұл байланыстан бүкіл әлемде бас тартты. Бүгінде ірі валюталардың ешқайсысы металға айырбасталмайды; қағаздың өзі ақша."
+            },
+            "example": {
+              "en": "Until 1971 the US dollar was tied to gold at a fixed rate. After that, like every modern currency, its value rested on trust and policy, not metal.",
+              "ru": "До 1971 года доллар США был привязан к золоту по фиксированному курсу. После — как и любая современная валюта, его ценность держалась на доверии и политике, а не на металле.",
+              "kz": "1971 жылға дейін АҚШ доллары алтынға тұрақты бағаммен байланды. Содан кейін, кез келген қазіргі валюта сияқты, оның құны металға емес, сенім мен саясатқа сүйенді."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "What actually holds it up",
+              "ru": "На чём это держится",
+              "kz": "Ол неге сүйенеді"
+            },
+            "body": {
+              "en": "Three things keep fiat money working: confidence that others will accept it, legal-tender status that requires its acceptance, and a limited, controlled supply. Remove the third — print without limit — and trust collapses, which is how hyperinflation destroys a currency.",
+              "ru": "Фиатные деньги держатся на трёх вещах: уверенности, что их примут другие; статусе законного платёжного средства; и ограниченном, контролируемом предложении. Уберите третье — печатайте без меры — и доверие рухнет; так гиперинфляция уничтожает валюту.",
+              "kz": "Фиат ақшаны үш нәрсе ұстап тұрады: басқалардың қабылдайтынына сенім, қабылдауды талап ететін заңды төлем мәртебесі және шектеулі, бақыланатын ұсыныс. Үшіншісін алып тастаңыз — шексіз басып шығарыңыз — сенім құлайды; гиперинфляция валютаны осылай жояды."
+            },
+            "tip": {
+              "en": "Trust plus scarcity is what gives fiat money value. Lose either and the paper becomes just paper.",
+              "ru": "Доверие плюс ограниченность дают фиатным деньгам ценность. Потеряйте одно — и бумага станет просто бумагой.",
+              "kz": "Сенім мен шектеулілік фиат ақшаға құн береді. Біреуін жоғалтсаңыз — қағаз жай қағазға айналады."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Where does the value come from?",
+              "ru": "Откуда берётся ценность?",
+              "kz": "Құн қайдан келеді?"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Different things, different sources of value:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Thing",
+                        "Value comes from"
+                      ],
+                      [
+                        "Gold",
+                        "Physical scarcity and demand"
+                      ],
+                      [
+                        "A banknote",
+                        "Government decree + shared trust"
+                      ],
+                      [
+                        "A bank balance",
+                        "Trust the bank will pay it"
+                      ],
+                      [
+                        "Bitcoin",
+                        "Code-enforced scarcity + belief"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Only gold has intrinsic, physical value here. The rest rely on agreement — fiat money most of all."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Разные вещи — разные источники ценности:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Вещь",
+                        "Откуда ценность"
+                      ],
+                      [
+                        "Золото",
+                        "Физическая редкость и спрос"
+                      ],
+                      [
+                        "Банкнота",
+                        "Указ государства + общее доверие"
+                      ],
+                      [
+                        "Остаток на счёте",
+                        "Доверие, что банк заплатит"
+                      ],
+                      [
+                        "Биткоин",
+                        "Ограниченность в коде + вера"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Здесь только у золота есть внутренняя, физическая ценность. Остальное держится на согласии — фиатные деньги в первую очередь."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Әртүрлі нәрсе — құнның әртүрлі көзі:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Нәрсе",
+                        "Құн қайдан"
+                      ],
+                      [
+                        "Алтын",
+                        "Физикалық сиректік пен сұраныс"
+                      ],
+                      [
+                        "Банкнот",
+                        "Мемлекет жарлығы + ортақ сенім"
+                      ],
+                      [
+                        "Шот қалдығы",
+                        "Банк төлейді деген сенім"
+                      ],
+                      [
+                        "Биткоин",
+                        "Кодпен бекітілген сиректік + сенім"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Мұнда тек алтында ішкі, физикалық құн бар. Қалғаны келісімге сүйенеді — әсіресе фиат ақша."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Intrinsic worth or shared trust?",
+              "ru": "Внутренняя ценность или общее доверие?",
+              "kz": "Ішкі құн ба, ортақ сенім бе?"
+            },
+            "body": {
+              "en": "For each item, where does its value mainly come from?",
+              "ru": "Для каждого — откуда в основном берётся ценность?",
+              "kz": "Әрқайсысы үшін — құн негізінен қайдан келеді?"
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Where does each item's value mainly come from?",
+                "options": [
+                  "Mainly intrinsic / physical",
+                  "Mainly shared trust"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A 10,000 ₸ banknote",
+                    "correct_answer": "Mainly shared trust",
+                    "explanation": "The paper is near-worthless; its value is decree plus acceptance."
+                  },
+                  {
+                    "text": "A gram of gold",
+                    "correct_answer": "Mainly intrinsic / physical",
+                    "explanation": "Gold is scarce and useful, valued across cultures without any decree."
+                  },
+                  {
+                    "text": "The balance shown in your banking app",
+                    "correct_answer": "Mainly shared trust",
+                    "explanation": "It's data backed by trust that the bank and currency will honour it."
+                  },
+                  {
+                    "text": "A litre of clean water in a drought",
+                    "correct_answer": "Mainly intrinsic / physical",
+                    "explanation": "Its value is direct usefulness, not anyone's agreement."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Откуда в основном берётся ценность каждого?",
+                "options": [
+                  "В основном внутренняя / физическая",
+                  "В основном общее доверие"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Банкнота 10 000 ₸",
+                    "correct_answer": "В основном общее доверие",
+                    "explanation": "Бумага почти ничего не стоит; ценность — указ плюс принятие."
+                  },
+                  {
+                    "text": "Грамм золота",
+                    "correct_answer": "В основном внутренняя / физическая",
+                    "explanation": "Золото редкое и полезное, ценится без всякого указа."
+                  },
+                  {
+                    "text": "Остаток в банковском приложении",
+                    "correct_answer": "В основном общее доверие",
+                    "explanation": "Это данные на доверии, что банк и валюта их обеспечат."
+                  },
+                  {
+                    "text": "Литр чистой воды в засуху",
+                    "correct_answer": "В основном внутренняя / физическая",
+                    "explanation": "Ценность — прямая полезность, а не чья-то договорённость."
+                  }
+                ]
+              },
+              "kz": {
+                "instruction": "Әрқайсысының құны негізінен қайдан келеді?",
+                "options": [
+                  "Негізінен ішкі / физикалық",
+                  "Негізінен ортақ сенім"
+                ],
+                "scenarios": [
+                  {
+                    "text": "10 000 ₸ банкнот",
+                    "correct_answer": "Негізінен ортақ сенім",
+                    "explanation": "Қағаздың құны жоқтың қасы; құны — жарлық пен қабылдау."
+                  },
+                  {
+                    "text": "Бір грамм алтын",
+                    "correct_answer": "Негізінен ішкі / физикалық",
+                    "explanation": "Алтын сирек әрі пайдалы, ешқандай жарлықсыз бағаланады."
+                  },
+                  {
+                    "text": "Банк қосымшасындағы қалдық",
+                    "correct_answer": "Негізінен ортақ сенім",
+                    "explanation": "Бұл — банк пен валюта орындайды деген сенімге негізделген дерек."
+                  },
+                  {
+                    "text": "Құрғақшылықтағы бір литр таза су",
+                    "correct_answer": "Негізінен ішкі / физикалық",
+                    "explanation": "Құны — тікелей пайдалылық, ешкімнің келісімі емес."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Money runs on trust",
+              "ru": "Деньги работают на доверии",
+              "kz": "Ақша сенімге сүйенеді"
+            },
+            "body": {
+              "en": "Fiat money is a shared agreement held up by trust, legal status, and limited supply. It works remarkably well while those hold — and fails fast when they don't. This is why how much money exists, and who controls it, matters for everyone.",
+              "ru": "Фиатные деньги — это общая договорённость, держащаяся на доверии, законном статусе и ограниченном предложении. Они работают на удивление хорошо, пока это сохраняется, и быстро рушатся, когда нет. Поэтому всем важно, сколько денег существует и кто это контролирует.",
+              "kz": "Фиат ақша — сенімге, заңды мәртебеге және шектеулі ұсынысқа сүйенген ортақ келісім. Олар тұрғанда ол таңғаларлық жақсы жұмыс істейді, тұрмағанда тез құлайды. Сондықтан қанша ақша бар екені және оны кім бақылайтыны бәріне маңызды."
+            },
+            "tip": {
+              "en": "Because supply isn't physically limited, the amount in circulation is a policy choice — the root of inflation, coming next.",
+              "ru": "Поскольку предложение не ограничено физически, объём в обращении — это политическое решение, корень инфляции, о которой далее.",
+              "kz": "Ұсыныс физикалық шектелмегендіктен, айналыстағы көлем — саяси шешім, бұл — алдағы инфляцияның түп тамыры."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 302,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Fiat Money — Check",
+          "ru": "Фиатные деньги — Проверка",
+          "kz": "Фиат ақша — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "What gives fiat money its value?",
+              "ru": "Что придаёт ценность фиатным деньгам?",
+              "kz": "Фиат ақшаға құнды не береді?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Government decree plus shared trust and a limited supply",
+                  "ru": "Указ государства плюс общее доверие и ограниченное предложение",
+                  "kz": "Мемлекет жарлығы, ортақ сенім және шектеулі ұсыныс"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The gold stored behind each note",
+                  "ru": "Золото, обеспечивающее каждую купюру",
+                  "kz": "Әр банкноттың артындағы алтын"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The quality of the paper it's printed on",
+                  "ru": "Качество бумаги, на которой напечатано",
+                  "kz": "Басылған қағаздың сапасы"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The metal content of the coins",
+                  "ru": "Содержание металла в монетах",
+                  "kz": "Монеталардағы металл мөлшері"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is the main difference between gold and a banknote as money?",
+              "ru": "В чём главное отличие золота от банкноты как денег?",
+              "kz": "Алтын мен банкноттың ақша ретіндегі басты айырмашылығы неде?"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Gold has intrinsic, physical value; a banknote's value rests on agreement",
+                  "ru": "У золота есть внутренняя ценность; ценность банкноты держится на договорённости",
+                  "kz": "Алтынның ішкі, физикалық құны бар; банкнот құны келісімге сүйенеді"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "There is no difference at all",
+                  "ru": "Никакой разницы нет",
+                  "kz": "Ешқандай айырмашылық жоқ"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Banknotes can never lose value",
+                  "ru": "Банкноты никогда не теряют ценность",
+                  "kz": "Банкноттар ешқашан құнын жоғалтпайды"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Gold cannot be used to buy anything",
+                  "ru": "Золото нельзя ни на что потратить",
+                  "kz": "Алтынға ештеңе сатып алуға болмайды"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "If a government prints money without limit, the likely result is:",
+              "ru": "Если государство печатает деньги без меры, вероятный итог:",
+              "kz": "Егер мемлекет ақшаны шексіз басып шығарса, ықтимал нәтиже:"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Trust falls and the currency loses value — toward hyperinflation",
+                  "ru": "Доверие падает, валюта теряет ценность — к гиперинфляции",
+                  "kz": "Сенім құлап, валюта құнын жоғалтады — гиперинфляцияға қарай"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Everyone becomes wealthier",
+                  "ru": "Все становятся богаче",
+                  "kz": "Бәрі байи түседі"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Prices stay exactly the same",
+                  "ru": "Цены остаются прежними",
+                  "kz": "Бағалар бұрынғыдай қалады"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The money becomes backed by gold again",
+                  "ru": "Деньги снова обеспечиваются золотом",
+                  "kz": "Ақша қайтадан алтынмен қамтамасыз етіледі"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "purchasing_power",
+      "orderIndex": 2,
+      "estimatedMinutes": 5,
+      "quizId": 303,
+      "title": {
+        "en": "Purchasing Power",
+        "ru": "Покупательная способность",
+        "kz": "Сатып алу қабілеті"
+      },
+      "description": {
+        "en": "What money buys matters more than the number you hold.",
+        "ru": "Что деньги покупают, важнее числа, которое вы держите.",
+        "kz": "Ақша не сатып алатыны ұстаған саннан маңызды."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The number isn't the point",
+              "ru": "Дело не в числе",
+              "kz": "Мәселе санда емес"
+            },
+            "body": {
+              "en": "100,000 ₸ has no value on its own; its value is what it can buy — a week of groceries, a phone bill, part of the rent. That real buying ability is purchasing power, and the same number can command more or less of it over time.",
+              "ru": "100 000 ₸ сами по себе ничего не значат; их ценность — в том, что на них можно купить: недельные продукты, счёт за телефон, часть аренды. Эта реальная покупательная способность и есть смысл, и одно и то же число со временем может купить больше или меньше.",
+              "kz": "100 000 ₸-нің өздігінен құны жоқ; оның құны — не сатып алуға болатынында: бір апталық азық, телефон шоты, жалдау ақысының бөлігі. Осы нақты сатып алу қабілеті — мән, әрі бір сан уақыт өте көбірек не азырақ сатып ала алады."
+            },
+            "tip": {
+              "en": "Always ask what money buys, not how big the number is. The number alone tells you little.",
+              "ru": "Всегда спрашивайте, что деньги покупают, а не насколько велико число. Само число говорит мало.",
+              "kz": "Әрдайым санның үлкендігін емес, ақша не сатып алатынын сұраңыз. Санның өзі аз нәрсе айтады."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Nominal versus real",
+              "ru": "Номинальное и реальное",
+              "kz": "Номиналды және нақты"
+            },
+            "body": {
+              "en": "The nominal amount is the face number; the real amount is what it actually buys. A 10% raise feels good, but if prices also rose 12%, your real income fell — you can buy less despite a bigger number. Nominal flatters; real tells the truth.",
+              "ru": "Номинальная сумма — это число на бумаге; реальная — то, что на неё реально купишь. Прибавка 10% радует, но если цены выросли на 12%, реальный доход упал — купить можно меньше, несмотря на большее число. Номинал льстит; реальное говорит правду.",
+              "kz": "Номиналды сома — қағаздағы сан; нақты сома — оған шынымен не сатып алатының. 10% қосымша қуантады, бірақ бағалар 12%-ға өссе, нақты табысыңыз төмендеді — сан үлкенірек болса да, азырақ сатып аласыз. Номинал жағымпазданады; нақты шындықты айтады."
+            },
+            "example": {
+              "en": "Salary up from 500,000 to 550,000 ₸ (+10%). Prices up 12%. In real terms you're slightly poorer, even though the number grew.",
+              "ru": "Зарплата выросла с 500 000 до 550 000 ₸ (+10%). Цены — на 12%. В реальном выражении вы чуть беднее, хотя число выросло.",
+              "kz": "Жалақы 500 000-нан 550 000 ₸-ге өсті (+10%). Бағалар 12%-ға өсті. Нақты мәнде сан өссе де, сіз сәл кедейлендіңіз."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Comparing across time and place",
+              "ru": "Сравнение во времени и пространстве",
+              "kz": "Уақыт пен орын бойынша салыстыру"
+            },
+            "body": {
+              "en": "Purchasing power is the honest way to compare money across years or countries. 1,000,000 ₸ a decade ago bought a different basket than it does now. The same salary stretches further in a small town than in a capital. Compare baskets, not numbers.",
+              "ru": "Покупательная способность — честный способ сравнивать деньги между годами или странами. 1 000 000 ₸ десять лет назад покупали другую корзину, чем сейчас. Та же зарплата дальше тянется в маленьком городе, чем в столице. Сравнивайте корзины, а не числа.",
+              "kz": "Сатып алу қабілеті — ақшаны жылдар не елдер арасында салыстырудың адал жолы. Он жыл бұрынғы 1 000 000 ₸ қазіргіден өзге себет сатып алатын. Сол жалақы астанаға қарағанда шағын қалада ұзаққа жетеді. Санды емес, себетті салыстырыңыз."
+            },
+            "tip": {
+              "en": "\"How much do you earn?\" is less useful than \"what can you afford with it, where you live?\"",
+              "ru": "«Сколько вы зарабатываете?» менее полезно, чем «что вы можете себе на это позволить там, где живёте?».",
+              "kz": "«Қанша табасыз?» дегеннен «соған тұрған жеріңізде нені ала аласыз?» пайдалырақ."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same number, less bread",
+              "ru": "То же число, меньше хлеба",
+              "kz": "Сан бірдей, нан азырақ"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "If bread rises while your money sits still:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Year",
+                        "You hold",
+                        "Bread costs",
+                        "Loaves you can buy"
+                      ],
+                      [
+                        "Now",
+                        "100,000 ₸",
+                        "250 ₸",
+                        "400"
+                      ],
+                      [
+                        "+5 yrs",
+                        "100,000 ₸",
+                        "400 ₸",
+                        "250"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The number never changed, but its purchasing power fell by over a third. Idle money quietly buys less."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Если хлеб дорожает, а деньги лежат без дела:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Год",
+                        "У вас",
+                        "Хлеб стоит",
+                        "Буханок купите"
+                      ],
+                      [
+                        "Сейчас",
+                        "100 000 ₸",
+                        "250 ₸",
+                        "400"
+                      ],
+                      [
+                        "+5 лет",
+                        "100 000 ₸",
+                        "400 ₸",
+                        "250"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Число не менялось, но покупательная способность упала более чем на треть. Лежащие деньги тихо покупают меньше."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Нан қымбаттап, ақша қозғалмай жатса:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Жыл",
+                        "Сізде",
+                        "Нан құны",
+                        "Қанша нан аласыз"
+                      ],
+                      [
+                        "Қазір",
+                        "100 000 ₸",
+                        "250 ₸",
+                        "400"
+                      ],
+                      [
+                        "+5 жыл",
+                        "100 000 ₸",
+                        "400 ₸",
+                        "250"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Сан өзгерген жоқ, бірақ сатып алу қабілеті үштен бірден астам төмендеді. Жатқан ақша үнсіз азырақ сатып алады."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Spot the purchasing-power error",
+              "ru": "Найдите ошибку о покупательной способности",
+              "kz": "Сатып алу қабілеті қатесін табыңыз"
+            },
+            "body": {
+              "en": "Each person reasons from the number alone. Find the flaw.",
+              "ru": "Каждый рассуждает только от числа. Найдите изъян.",
+              "kz": "Әркім тек саннан пайымдайды. Қатені табыңыз."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Identify the reasoning error in each case.",
+                "cases": [
+                  {
+                    "text": "\"My salary doubled in 8 years, so I'm twice as well off.\" Over the same years, prices rose 90%.",
+                    "options": [
+                      "a) No error — double is double",
+                      "b) Real gain is tiny once prices are counted"
+                    ],
+                    "correct": "b",
+                    "explanation": "A 100% pay rise against 90% price rise is only a small real improvement."
+                  },
+                  {
+                    "text": "\"I'll keep my 2,000,000 ₸ in cash for 10 years; it's the safe choice.\" Inflation averages 8% a year.",
+                    "options": [
+                      "a) Cash steadily loses purchasing power",
+                      "b) Cash is risk-free in every sense"
+                    ],
+                    "correct": "a",
+                    "explanation": "The number is safe, but what it buys shrinks badly over a decade."
+                  }
+                ],
+                "final_explanation": "Judge money by real purchasing power, not the nominal number. A bigger number can still buy less."
+              },
+              "ru": {
+                "instruction": "Найдите ошибку рассуждения в каждом случае.",
+                "cases": [
+                  {
+                    "text": "«Зарплата удвоилась за 8 лет, значит я вдвое богаче.» За те же годы цены выросли на 90%.",
+                    "options": [
+                      "a) Ошибки нет — вдвое есть вдвое",
+                      "b) Реальный выигрыш мал, если учесть цены"
+                    ],
+                    "correct": "b",
+                    "explanation": "Рост зарплаты на 100% против роста цен на 90% — лишь небольшое реальное улучшение."
+                  },
+                  {
+                    "text": "«Подержу 2 000 000 ₸ наличными 10 лет — это безопасно.» Инфляция в среднем 8% в год.",
+                    "options": [
+                      "a) Наличные неуклонно теряют покупательную способность",
+                      "b) Наличные безрисковы во всех смыслах"
+                    ],
+                    "correct": "a",
+                    "explanation": "Число в безопасности, но за десять лет оно покупает сильно меньше."
+                  }
+                ],
+                "final_explanation": "Оценивайте деньги по реальной покупательной способности, а не по номиналу. Большее число может покупать меньше."
+              },
+              "kz": {
+                "instruction": "Әр жағдайдағы пайымдау қатесін табыңыз.",
+                "cases": [
+                  {
+                    "text": "«Жалақым 8 жылда екі есе өсті, демек екі есе ауқаттымын.» Сол жылдары бағалар 90%-ға өсті.",
+                    "options": [
+                      "a) Қате жоқ — екі есе деген екі есе",
+                      "b) Бағаны ескерсе, нақты ұтыс шамалы"
+                    ],
+                    "correct": "b",
+                    "explanation": "Жалақының 100% өсуі бағаның 90% өсуіне қарсы — небәрі шамалы нақты жақсару."
+                  },
+                  {
+                    "text": "«2 000 000 ₸-ні 10 жыл қолма-қол ұстаймын — қауіпсіз.» Инфляция жылына орташа 8%.",
+                    "options": [
+                      "a) Қолма-қол ақша сатып алу қабілетін біртіндеп жоғалтады",
+                      "b) Қолма-қол ақша барлық мағынада тәуекелсіз"
+                    ],
+                    "correct": "a",
+                    "explanation": "Сан қауіпсіз, бірақ он жылда ол әлдеқайда азырақ сатып алады."
+                  }
+                ],
+                "final_explanation": "Ақшаны номиналмен емес, нақты сатып алу қабілетімен бағалаңыз. Үлкенірек сан азырақ сатып алуы мүмкін."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Measure in what money buys",
+              "ru": "Измеряйте в том, что деньги покупают",
+              "kz": "Ақша не сатып алатынымен өлшеңіз"
+            },
+            "body": {
+              "en": "Purchasing power is the true measure of money, because it counts what you can actually obtain, not the digits you hold. It explains why a raise can leave you worse off and why cash sitting still slowly erodes. The force that erodes it has a name — inflation.",
+              "ru": "Покупательная способность — истинная мера денег, ведь она считает то, что вы реально можете получить, а не цифры на счёте. Она объясняет, почему прибавка может оставить вас в проигрыше и почему лежащие деньги медленно тают. У силы, что их подтачивает, есть имя — инфляция.",
+              "kz": "Сатып алу қабілеті — ақшаның шынайы өлшемі, өйткені ол ұстаған цифрды емес, шынымен ала алатыныңды санайды. Ол қосымша неге шығынға қалдыратынын және жатқан ақша неге баяу еритінін түсіндіреді. Оны жейтін күштің аты бар — инфляция."
+            },
+            "tip": {
+              "en": "Track your money in baskets of goods, not just balances. The next lesson measures the erosion.",
+              "ru": "Считайте деньги в корзинах товаров, а не только в остатках. Следующий урок измеряет это таяние.",
+              "kz": "Ақшаны тек қалдықпен емес, тауар себетімен есептеңіз. Келесі сабақ осы еруді өлшейді."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 303,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Purchasing Power — Check",
+          "ru": "Покупательная способность — Проверка",
+          "kz": "Сатып алу қабілеті — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Purchasing power refers to:",
+              "ru": "Покупательная способность — это:",
+              "kz": "Сатып алу қабілеті дегеніміз:"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "The real goods and services a unit of money can buy",
+                  "ru": "Реальные товары и услуги, которые можно купить на единицу денег",
+                  "kz": "Ақша бірлігі сатып ала алатын нақты тауар мен қызмет"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The number printed on a banknote",
+                  "ru": "Число, напечатанное на купюре",
+                  "kz": "Банкнотта басылған сан"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The total cash in your account",
+                  "ru": "Общую сумму на счёте",
+                  "kz": "Шотыңыздағы жалпы ақша"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The interest a bank pays",
+                  "ru": "Проценты, которые платит банк",
+                  "kz": "Банк төлейтін сыйақы"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Your pay rises 10% but prices rise 12%. In real terms you are:",
+              "ru": "Зарплата выросла на 10%, цены — на 12%. В реальном выражении вы:",
+              "kz": "Жалақы 10%-ға, бағалар 12%-ға өсті. Нақты мәнде сіз:"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Slightly worse off — you can buy a little less than before",
+                  "ru": "Чуть беднее — купить можно немного меньше, чем раньше",
+                  "kz": "Сәл нашарладыңыз — бұрынғыдан сәл азырақ сатып ала аласыз"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Better off, because your number went up",
+                  "ru": "Богаче, ведь число выросло",
+                  "kz": "Байыдыңыз, өйткені сан өсті"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Exactly the same",
+                  "ru": "Точно так же",
+                  "kz": "Дәл сондай"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Twice as wealthy",
+                  "ru": "Вдвое богаче",
+                  "kz": "Екі есе бай"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why is keeping a large sum in cash for many years risky?",
+              "ru": "Почему держать крупную сумму наличными много лет рискованно?",
+              "kz": "Үлкен соманы көп жыл қолма-қол ұстау неге қауіпті?"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Its purchasing power erodes even though the number stays the same",
+                  "ru": "Покупательная способность тает, хотя число не меняется",
+                  "kz": "Сан өзгермесе де, сатып алу қабілеті ериді"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Cash always gets physically lost",
+                  "ru": "Наличные всегда теряются",
+                  "kz": "Қолма-қол ақша әрдайым жоғалады"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Banks forbid holding cash",
+                  "ru": "Банки запрещают держать наличные",
+                  "kz": "Банктер қолма-қол ұстауға тыйым салады"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The number shrinks on its own",
+                  "ru": "Число само уменьшается",
+                  "kz": "Сан өздігінен кемиді"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "inflation_basics",
+      "orderIndex": 3,
+      "estimatedMinutes": 6,
+      "quizId": 304,
+      "title": {
+        "en": "Inflation Basics",
+        "ru": "Основы инфляции",
+        "kz": "Инфляция негіздері"
+      },
+      "description": {
+        "en": "Inflation is the compounding erosion of money's purchasing power.",
+        "ru": "Инфляция — накапливающееся таяние покупательной способности денег.",
+        "kz": "Инфляция — ақшаның сатып алу қабілетінің жинақталып еруі."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Inflation, defined plainly",
+              "ru": "Инфляция простыми словами",
+              "kz": "Инфляция қарапайым тілмен"
+            },
+            "body": {
+              "en": "Inflation is a sustained, general rise in prices across an economy — which is exactly the same thing as money losing purchasing power. A little inflation is normal in almost every country; the question is how much, and how steady.",
+              "ru": "Инфляция — это устойчивый общий рост цен в экономике, что в точности означает потерю покупательной способности денег. Небольшая инфляция нормальна почти везде; вопрос — насколько она велика и стабильна.",
+              "kz": "Инфляция — экономикадағы бағаның тұрақты, жалпы өсуі, бұл — ақшаның сатып алу қабілетін жоғалтуымен дәл бір нәрсе. Шамалы инфляция барлық елде дерлік қалыпты; мәселе — қаншалықты үлкен әрі тұрақты екенінде."
+            },
+            "tip": {
+              "en": "\"Prices rising\" and \"money buying less\" are two ways of saying the same thing.",
+              "ru": "«Цены растут» и «деньги покупают меньше» — два способа сказать одно и то же.",
+              "kz": "«Бағалар өсуде» мен «ақша азырақ сатып алады» — бір нәрсені айтудың екі тәсілі."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "It compounds, quietly",
+              "ru": "Она накапливается, незаметно",
+              "kz": "Ол үнсіз жинақталады"
+            },
+            "body": {
+              "en": "Inflation compounds like interest in reverse. At 10% a year, prices don't just rise 100% over a decade — they more than double, because each year's rise builds on the last. Money left idle shrinks faster than people expect.",
+              "ru": "Инфляция накапливается как проценты, только наоборот. При 10% в год цены за десятилетие не просто вырастут на 100% — они более чем удвоятся, ведь рост каждого года накладывается на предыдущий. Лежащие деньги тают быстрее, чем кажется.",
+              "kz": "Инфляция пайыз сияқты жинақталады, тек кері. Жылына 10%-бен бағалар он жылда жай ғана 100%-ға өспейді — екі еседен астам артады, өйткені әр жылдың өсімі алдыңғысына қосылады. Жатқан ақша адамдар күткеннен тез ериді."
+            },
+            "example": {
+              "en": "At 10% a year, what costs 100,000 ₸ today costs about 259,000 ₸ in ten years — not 200,000. That gap is compounding.",
+              "ru": "При 10% в год то, что сегодня стоит 100 000 ₸, через десять лет стоит около 259 000 ₸ — не 200 000. Этот разрыв и есть накопление.",
+              "kz": "Жылына 10%-бен бүгін 100 000 ₸ тұратын нәрсе он жылда шамамен 259 000 ₸ тұрады — 200 000 емес. Осы айырма — жинақталу."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Why a little is the target",
+              "ru": "Почему немного — это цель",
+              "kz": "Неге азы — мақсат"
+            },
+            "body": {
+              "en": "Central banks, including Kazakhstan's National Bank (НБРК), aim for low, steady inflation rather than zero. A small, predictable rise keeps spending and lending flowing. High or erratic inflation is the danger: it makes planning, saving, and pricing nearly impossible.",
+              "ru": "Центробанки, включая Нацбанк Казахстана (НБРК), стремятся к низкой стабильной инфляции, а не к нулю. Небольшой предсказуемый рост поддерживает траты и кредитование. Опасна высокая или скачущая инфляция: она делает планирование, сбережение и ценообразование почти невозможными.",
+              "kz": "Орталық банктер, соның ішінде Қазақстанның Ұлттық банкі (ҚРҰБ), нөлге емес, төмен әрі тұрақты инфляцияға ұмтылады. Шамалы, болжамды өсім жұмсау мен несиелеуді сақтайды. Жоғары не тұрақсыз инфляция қауіпті: ол жоспарлауды, жинауды және баға қоюды дерлік мүмкін етпейді."
+            },
+            "tip": {
+              "en": "The goal isn't no inflation — it's low and predictable inflation. Surprises do the real damage.",
+              "ru": "Цель — не нулевая инфляция, а низкая и предсказуемая. Реальный вред наносят сюрпризы.",
+              "kz": "Мақсат — инфляцияның жоқтығы емес, төмен әрі болжамды болуы. Нақты зиянды күтпеген жағдайлар келтіреді."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "What idle money is worth later",
+              "ru": "Сколько лежащие деньги стоят потом",
+              "kz": "Жатқан ақша кейін қанша тұрады"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Purchasing power of 1,000,000 ₸ held as cash, at 10% inflation:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Years held",
+                        "Still worth (today's ₸)"
+                      ],
+                      [
+                        "0",
+                        "1,000,000 ₸"
+                      ],
+                      [
+                        "5",
+                        "~620,000 ₸"
+                      ],
+                      [
+                        "10",
+                        "~386,000 ₸"
+                      ],
+                      [
+                        "20",
+                        "~149,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "After 20 years the cash buys about a seventh of what it does today — without a single tenge being spent."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Покупательная способность 1 000 000 ₸ наличными при инфляции 10%:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Лет хранения",
+                        "Стоит (в сегодняшних ₸)"
+                      ],
+                      [
+                        "0",
+                        "1 000 000 ₸"
+                      ],
+                      [
+                        "5",
+                        "~620 000 ₸"
+                      ],
+                      [
+                        "10",
+                        "~386 000 ₸"
+                      ],
+                      [
+                        "20",
+                        "~149 000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Через 20 лет наличные покупают около седьмой части от сегодняшнего — и ни одного тенге не потрачено."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "1 000 000 ₸ қолма-қол ұсталғанда сатып алу қабілеті, инфляция 10%:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ұсталған жыл",
+                        "Тұрады (бүгінгі ₸-мен)"
+                      ],
+                      [
+                        "0",
+                        "1 000 000 ₸"
+                      ],
+                      [
+                        "5",
+                        "~620 000 ₸"
+                      ],
+                      [
+                        "10",
+                        "~386 000 ₸"
+                      ],
+                      [
+                        "20",
+                        "~149 000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "20 жылдан кейін қолма-қол ақша бүгінгінің жетіден біріндей сатып алады — бір теңге де жұмсалмай."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "See inflation eat your money",
+              "ru": "Посмотрите, как инфляция съедает деньги",
+              "kz": "Инфляцияның ақшаңызды жейтінін көріңіз"
+            },
+            "body": {
+              "en": "Set an amount, an inflation rate, and a number of years to see the real value left.",
+              "ru": "Задайте сумму, уровень инфляции и число лет, чтобы увидеть оставшуюся реальную стоимость.",
+              "kz": "Қалған нақты құнды көру үшін соманы, инфляция деңгейін және жыл санын қойыңыз."
+            },
+            "interactiveType": "simulator",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Set an amount, inflation rate, and years to see the remaining purchasing power.",
+                "inputs": [
+                  {
+                    "id": "amount",
+                    "label": "Amount held in cash (₸)",
+                    "default": 1000000
+                  },
+                  {
+                    "id": "rate_pct",
+                    "label": "Inflation rate (% per year)",
+                    "default": 10
+                  },
+                  {
+                    "id": "years",
+                    "label": "Years held",
+                    "default": 10
+                  }
+                ],
+                "presets": [
+                  {
+                    "label": "Low & slow",
+                    "amount": 1000000,
+                    "rate_pct": 5,
+                    "years": 10
+                  },
+                  {
+                    "label": "Kazakhstan-like",
+                    "amount": 1000000,
+                    "rate_pct": 10,
+                    "years": 10
+                  },
+                  {
+                    "label": "High inflation",
+                    "amount": 1000000,
+                    "rate_pct": 20,
+                    "years": 10
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Задайте сумму, уровень инфляции и годы, чтобы увидеть оставшуюся покупательную способность.",
+                "inputs": [
+                  {
+                    "id": "amount",
+                    "label": "Сумма наличными (₸)",
+                    "default": 1000000
+                  },
+                  {
+                    "id": "rate_pct",
+                    "label": "Инфляция (% в год)",
+                    "default": 10
+                  },
+                  {
+                    "id": "years",
+                    "label": "Лет хранения",
+                    "default": 10
+                  }
+                ],
+                "presets": [
+                  {
+                    "label": "Низкая и плавная",
+                    "amount": 1000000,
+                    "rate_pct": 5,
+                    "years": 10
+                  },
+                  {
+                    "label": "Как в Казахстане",
+                    "amount": 1000000,
+                    "rate_pct": 10,
+                    "years": 10
+                  },
+                  {
+                    "label": "Высокая инфляция",
+                    "amount": 1000000,
+                    "rate_pct": 20,
+                    "years": 10
+                  }
+                ]
+              },
+              "kz": {
+                "instruction": "Қалған сатып алу қабілетін көру үшін соманы, инфляцияны және жылды қойыңыз.",
+                "inputs": [
+                  {
+                    "id": "amount",
+                    "label": "Қолма-қол сома (₸)",
+                    "default": 1000000
+                  },
+                  {
+                    "id": "rate_pct",
+                    "label": "Инфляция (жылына %)",
+                    "default": 10
+                  },
+                  {
+                    "id": "years",
+                    "label": "Ұсталған жыл",
+                    "default": 10
+                  }
+                ],
+                "presets": [
+                  {
+                    "label": "Төмен әрі баяу",
+                    "amount": 1000000,
+                    "rate_pct": 5,
+                    "years": 10
+                  },
+                  {
+                    "label": "Қазақстандағыдай",
+                    "amount": 1000000,
+                    "rate_pct": 10,
+                    "years": 10
+                  },
+                  {
+                    "label": "Жоғары инфляция",
+                    "amount": 1000000,
+                    "rate_pct": 20,
+                    "years": 10
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Idle money is shrinking money",
+              "ru": "Лежащие деньги — тающие деньги",
+              "kz": "Жатқан ақша — еритін ақша"
+            },
+            "body": {
+              "en": "Inflation is the steady erosion of purchasing power, and because it compounds, even modest rates do large damage over time. This is the core reason money should be put to work — to at least keep pace with rising prices. That need leads straight into saving and investing.",
+              "ru": "Инфляция — это устойчивое таяние покупательной способности, и поскольку она накапливается, даже умеренные темпы наносят большой урон со временем. Это главная причина пускать деньги в дело — хотя бы чтобы не отставать от роста цен. Эта необходимость ведёт прямо к сбережениям и инвестициям.",
+              "kz": "Инфляция — сатып алу қабілетінің тұрақты еруі, әрі ол жинақталатындықтан, шамалы қарқын да уақыт өте үлкен зиян келтіреді. Бұл — ақшаны іске қосудың басты себебі, кем дегенде баға өсімінен қалмау үшін. Бұл қажеттілік тура жинақ пен инвестицияға жетелейді."
+            },
+            "tip": {
+              "en": "To preserve purchasing power, money must earn at least the inflation rate — the bar every saving choice must clear.",
+              "ru": "Чтобы сохранить покупательную способность, деньги должны приносить хотя бы уровень инфляции — планка для любого решения о сбережениях.",
+              "kz": "Сатып алу қабілетін сақтау үшін ақша кем дегенде инфляция деңгейін табуы керек — әр жинақ шешімі асуға тиіс белес."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 304,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Inflation Basics — Check",
+          "ru": "Основы инфляции — Проверка",
+          "kz": "Инфляция негіздері — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Inflation is best described as:",
+              "ru": "Инфляция лучше всего описывается как:",
+              "kz": "Инфляцияны қалай дұрыс сипаттаймыз:"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "A general rise in prices, equal to money losing purchasing power",
+                  "ru": "Общий рост цен, равный потере покупательной способности денег",
+                  "kz": "Бағаның жалпы өсуі, ақшаның сатып алу қабілетін жоғалтуымен тең"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A rise in one product's price",
+                  "ru": "Рост цены одного товара",
+                  "kz": "Бір тауар бағасының өсуі"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "More money in your bank account",
+                  "ru": "Больше денег на вашем счёте",
+                  "kz": "Шотыңыздағы ақшаның көбеюі"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A tax on purchases",
+                  "ru": "Налог на покупки",
+                  "kz": "Сатып алуға салынатын салық"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why is 10% annual inflation worse than it first sounds over ten years?",
+              "ru": "Почему 10% инфляции в год за десять лет хуже, чем кажется?",
+              "kz": "Жылдық 10% инфляция он жылда неге естілгеннен жаман?"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "It compounds — each year's rise builds on the last, so prices more than double",
+                  "ru": "Она накапливается — рост каждого года множится, и цены более чем удваиваются",
+                  "kz": "Ол жинақталады — әр жыл өсімі алдыңғыға қосылып, бағалар екі еседен астам артады"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Prices rise by exactly 100% total",
+                  "ru": "Цены растут ровно на 100% всего",
+                  "kz": "Бағалар барлығы дәл 100%-ға өседі"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It only affects luxury goods",
+                  "ru": "Затрагивает только предметы роскоши",
+                  "kz": "Тек сәнді тауарларға әсер етеді"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It reverses itself after ten years",
+                  "ru": "Через десять лет всё откатывается",
+                  "kz": "Он жылдан кейін кері қайтады"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why do central banks target low, steady inflation instead of zero?",
+              "ru": "Почему центробанки целятся в низкую стабильную инфляцию, а не в ноль?",
+              "kz": "Орталық банктер неге нөлге емес, төмен әрі тұрақты инфляцияға бағытталады?"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "A small, predictable rise keeps the economy flowing; surprises do the harm",
+                  "ru": "Небольшой предсказуемый рост поддерживает экономику; вред — от сюрпризов",
+                  "kz": "Шамалы, болжамды өсім экономиканы қозғалтады; зиянды күтпеген жағдай келтіреді"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Zero inflation is illegal",
+                  "ru": "Нулевая инфляция запрещена законом",
+                  "kz": "Нөлдік инфляция заңмен тыйым салынған"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "They want money to lose value quickly",
+                  "ru": "Они хотят, чтобы деньги быстро обесценивались",
+                  "kz": "Олар ақшаның тез құнсыздануын қалайды"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Higher inflation is always better",
+                  "ru": "Высокая инфляция всегда лучше",
+                  "kz": "Жоғары инфляция әрдайым жақсы"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "why_money_loses_value",
+      "orderIndex": 4,
+      "estimatedMinutes": 5,
+      "quizId": 305,
+      "title": {
+        "en": "Why Money Loses Value",
+        "ru": "Почему деньги теряют ценность",
+        "kz": "Ақша неге құнсызданады"
+      },
+      "description": {
+        "en": "Prices rise from too much money and from rising costs.",
+        "ru": "Цены растут от избытка денег и от роста издержек.",
+        "kz": "Бағалар тым көп ақшадан және шығын өсуінен көтеріледі."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Inflation isn't an accident",
+              "ru": "Инфляция — не случайность",
+              "kz": "Инфляция — кездейсоқтық емес"
+            },
+            "body": {
+              "en": "Money doesn't lose value at random. Two broad forces drive prices up: more money chasing the same goods, and the cost of producing goods rising. Understanding both turns inflation from something to fear into something you can read.",
+              "ru": "Деньги обесцениваются не случайно. Цены толкают вверх две силы: больше денег при том же количестве товаров и рост издержек производства. Понимание обеих превращает инфляцию из пугающей в читаемую.",
+              "kz": "Ақша кездейсоқ құнсызданбайды. Бағаны екі күш көтереді: тауар саны сол күйде көп ақша және тауар өндіру шығынының өсуі. Екеуін түсіну инфляцияны қорқыныштыдан оқуға болатынға айналдырады."
+            },
+            "tip": {
+              "en": "If you can name why prices are rising, you can judge whether it's likely to last.",
+              "ru": "Если можете назвать причину роста цен, сможете судить, надолго ли это.",
+              "kz": "Баға неге өсіп жатқанын атай алсаңыз, оның ұзаққа созыларын бағалай аласыз."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Too much money for the goods",
+              "ru": "Слишком много денег на товары",
+              "kz": "Тауарға тым көп ақша"
+            },
+            "body": {
+              "en": "When the amount of money or spending grows faster than the amount of goods, buyers compete and prices rise. This can come from rapid money printing, a credit boom, or a surge in demand the economy can't supply fast enough.",
+              "ru": "Когда денег или трат становится больше, чем товаров, покупатели конкурируют и цены растут. Причиной может быть быстрая эмиссия, кредитный бум или всплеск спроса, который экономика не успевает покрыть.",
+              "kz": "Ақша не жұмсау тауардан тез көбейгенде, сатып алушылар бәсекелесіп, бағалар өседі. Бұл жылдам ақша басу, несие бумы немесе экономика үлгермейтін сұраныс серпілісінен туындауы мүмкін."
+            },
+            "example": {
+              "en": "If a government doubles the money supply but the same goods exist, each unit of money is chased harder — prices climb toward the new money level.",
+              "ru": "Если государство удваивает денежную массу при том же объёме товаров, за каждую единицу денег борются сильнее — цены растут к новому уровню.",
+              "kz": "Мемлекет ақша көлемін екі есе арттырып, тауар сол күйде қалса, әр ақша бірлігі үшін күрес күшейеді — бағалар жаңа ақша деңгейіне қарай өседі."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "When making things costs more",
+              "ru": "Когда производство дорожает",
+              "kz": "Өндіріс қымбаттағанда"
+            },
+            "body": {
+              "en": "Prices also rise when production gets more expensive: pricier energy, higher wages, or costlier imports. For Kazakhstan, a large share of goods is imported, so a weaker tenge makes those goods cost more in tenge — feeding inflation from the cost side.",
+              "ru": "Цены растут и когда производство дорожает: дорогая энергия, выше зарплаты, дороже импорт. В Казахстане большая доля товаров импортируется, поэтому слабый тенге удорожает их в тенге — подпитывая инфляцию со стороны издержек.",
+              "kz": "Бағалар өндіріс қымбаттағанда да өседі: қымбат энергия, жоғары жалақы, қымбат импорт. Қазақстанда тауардың үлкен бөлігі импортталады, сондықтан әлсіз теңге оларды теңгемен қымбаттатады — инфляцияны шығын жағынан қоректендіреді."
+            },
+            "tip": {
+              "en": "A weaker national currency tends to raise prices of imported goods — a direct channel for inflation.",
+              "ru": "Слабая национальная валюта обычно поднимает цены на импорт — прямой канал инфляции.",
+              "kz": "Әлсіз ұлттық валюта әдетте импорт бағасын көтереді — инфляцияның тікелей арнасы."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Cause and effect on prices",
+              "ru": "Причина и следствие для цен",
+              "kz": "Бағаға себеп пен салдар"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Common drivers and how they push prices:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Cause",
+                        "Side",
+                        "Effect on prices"
+                      ],
+                      [
+                        "Rapid money printing",
+                        "Money",
+                        "Up"
+                      ],
+                      [
+                        "Credit / spending boom",
+                        "Money",
+                        "Up"
+                      ],
+                      [
+                        "Energy costs rise",
+                        "Cost",
+                        "Up"
+                      ],
+                      [
+                        "Weaker tenge (imports)",
+                        "Cost",
+                        "Up"
+                      ],
+                      [
+                        "Better technology / supply",
+                        "Supply",
+                        "Down or steady"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Most inflation is some mix of these. The last row shows why prices don't only ever rise."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Частые причины и как они двигают цены:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Причина",
+                        "Сторона",
+                        "Влияние на цены"
+                      ],
+                      [
+                        "Быстрая эмиссия",
+                        "Деньги",
+                        "Вверх"
+                      ],
+                      [
+                        "Кредитный бум",
+                        "Деньги",
+                        "Вверх"
+                      ],
+                      [
+                        "Рост цен на энергию",
+                        "Издержки",
+                        "Вверх"
+                      ],
+                      [
+                        "Слабый тенге (импорт)",
+                        "Издержки",
+                        "Вверх"
+                      ],
+                      [
+                        "Лучшие технологии / предложение",
+                        "Предложение",
+                        "Вниз или стабильно"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Большинство инфляции — смесь этого. Последняя строка показывает, почему цены не только растут."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Жиі себептер және олар бағаны қалай қозғайды:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Себеп",
+                        "Жағы",
+                        "Бағаға әсері"
+                      ],
+                      [
+                        "Жылдам ақша басу",
+                        "Ақша",
+                        "Жоғары"
+                      ],
+                      [
+                        "Несие / жұмсау бумы",
+                        "Ақша",
+                        "Жоғары"
+                      ],
+                      [
+                        "Энергия қымбаттауы",
+                        "Шығын",
+                        "Жоғары"
+                      ],
+                      [
+                        "Әлсіз теңге (импорт)",
+                        "Шығын",
+                        "Жоғары"
+                      ],
+                      [
+                        "Жақсы технология / ұсыныс",
+                        "Ұсыныс",
+                        "Төмен не тұрақты"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инфляцияның көбі — осының қоспасы. Соңғы жол бағаның тек өспейтінін көрсетеді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Push prices up or down?",
+              "ru": "Толкает цены вверх или вниз?",
+              "kz": "Бағаны жоғары ма, төмен бе?"
+            },
+            "body": {
+              "en": "For each change, decide which way it tends to push prices.",
+              "ru": "Для каждого изменения решите, куда оно толкает цены.",
+              "kz": "Әр өзгеріс бағаны қай бағытқа итеретінін шешіңіз."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Which way does each change tend to push overall prices?",
+                "options": [
+                  "Tends to push prices up",
+                  "Tends to push prices down"
+                ],
+                "scenarios": [
+                  {
+                    "text": "The central bank sharply increases the money supply",
+                    "correct_answer": "Tends to push prices up",
+                    "explanation": "More money chasing the same goods raises prices."
+                  },
+                  {
+                    "text": "The tenge weakens against the dollar",
+                    "correct_answer": "Tends to push prices up",
+                    "explanation": "Imported goods cost more in tenge, feeding inflation."
+                  },
+                  {
+                    "text": "A new technology cuts production costs across industries",
+                    "correct_answer": "Tends to push prices down",
+                    "explanation": "Cheaper supply can lower prices or hold them steady."
+                  },
+                  {
+                    "text": "Global energy prices jump",
+                    "correct_answer": "Tends to push prices up",
+                    "explanation": "Higher input costs are passed into prices."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Куда каждое изменение обычно толкает общие цены?",
+                "options": [
+                  "Обычно толкает цены вверх",
+                  "Обычно толкает цены вниз"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Центробанк резко увеличивает денежную массу",
+                    "correct_answer": "Обычно толкает цены вверх",
+                    "explanation": "Больше денег при том же товаре поднимает цены."
+                  },
+                  {
+                    "text": "Тенге слабеет к доллару",
+                    "correct_answer": "Обычно толкает цены вверх",
+                    "explanation": "Импорт дорожает в тенге, подпитывая инфляцию."
+                  },
+                  {
+                    "text": "Новая технология снижает издержки во всех отраслях",
+                    "correct_answer": "Обычно толкает цены вниз",
+                    "explanation": "Более дешёвое предложение снижает цены или держит их."
+                  },
+                  {
+                    "text": "Мировые цены на энергию резко растут",
+                    "correct_answer": "Обычно толкает цены вверх",
+                    "explanation": "Рост издержек переносится в цены."
+                  }
+                ]
+              },
+              "kz": {
+                "instruction": "Әр өзгеріс жалпы бағаны әдетте қай бағытқа итереді?",
+                "options": [
+                  "Әдетте бағаны жоғары итереді",
+                  "Әдетте бағаны төмен итереді"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Орталық банк ақша көлемін күрт арттырады",
+                    "correct_answer": "Әдетте бағаны жоғары итереді",
+                    "explanation": "Тауар сол күйде көп ақша бағаны көтереді."
+                  },
+                  {
+                    "text": "Теңге долларға қарсы әлсірейді",
+                    "correct_answer": "Әдетте бағаны жоғары итереді",
+                    "explanation": "Импорт теңгемен қымбаттап, инфляцияны қоректендіреді."
+                  },
+                  {
+                    "text": "Жаңа технология барлық салада шығынды азайтады",
+                    "correct_answer": "Әдетте бағаны төмен итереді",
+                    "explanation": "Арзан ұсыныс бағаны төмендетеді не тұрақтандырады."
+                  },
+                  {
+                    "text": "Әлемдік энергия бағасы күрт өседі",
+                    "correct_answer": "Әдетте бағаны жоғары итереді",
+                    "explanation": "Шығынның өсуі бағаға көшеді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Inflation has readable causes",
+              "ru": "У инфляции есть понятные причины",
+              "kz": "Инфляцияның түсінікті себептері бар"
+            },
+            "body": {
+              "en": "Money loses value mainly from two sides: too much money relative to goods, and rising production costs. Central banks try to manage the money side; the cost side often comes from energy and exchange rates. Knowing the causes lets you read economic news instead of fearing it.",
+              "ru": "Деньги обесцениваются в основном с двух сторон: слишком много денег относительно товаров и рост издержек. Центробанки управляют денежной стороной; издержки часто идут от энергии и курса. Знание причин позволяет читать экономические новости, а не бояться их.",
+              "kz": "Ақша негізінен екі жақтан құнсызданады: тауарға қатысты тым көп ақша және өндіріс шығынының өсуі. Орталық банктер ақша жағын басқарады; шығын жағы көбіне энергия мен бағамнан келеді. Себептерді білу экономикалық жаңалықтан қорықпай, оны оқуға мүмкіндік береді."
+            },
+            "tip": {
+              "en": "When you hear \"prices are rising,\" ask which side it's from — money or costs. The answer hints at how long it lasts.",
+              "ru": "Услышав «цены растут», спросите, с какой это стороны — деньги или издержки. Ответ подскажет, надолго ли.",
+              "kz": "«Бағалар өсуде» дегенді естігенде, бұл қай жақтан — ақша ма, шығын ба деп сұраңыз. Жауап оның ұзақтығын меңзейді."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 305,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Why Money Loses Value — Check",
+          "ru": "Почему деньги теряют ценность — Проверка",
+          "kz": "Ақша неге құнсызданады — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Which is a 'money-side' cause of inflation?",
+              "ru": "Что относится к «денежной» причине инфляции?",
+              "kz": "Инфляцияның «ақша жағындағы» себебі қайсы?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "The money supply growing faster than the supply of goods",
+                  "ru": "Денежная масса растёт быстрее, чем объём товаров",
+                  "kz": "Ақша көлемі тауар көлемінен тез өсуі"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A rise in global energy prices",
+                  "ru": "Рост мировых цен на энергию",
+                  "kz": "Әлемдік энергия бағасының өсуі"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "More expensive imports",
+                  "ru": "Подорожание импорта",
+                  "kz": "Импорттың қымбаттауы"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Higher production wages",
+                  "ru": "Рост зарплат в производстве",
+                  "kz": "Өндірістегі жалақының өсуі"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why does a weaker tenge tend to raise prices in Kazakhstan?",
+              "ru": "Почему слабый тенге обычно поднимает цены в Казахстане?",
+              "kz": "Әлсіз теңге Қазақстанда неге бағаны көтереді?"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Many goods are imported, so they cost more in tenge",
+                  "ru": "Многие товары импортные, поэтому дорожают в тенге",
+                  "kz": "Тауардың көбі импортталады, сондықтан теңгемен қымбаттайды"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A weak currency always means more money is printed",
+                  "ru": "Слабая валюта всегда значит больше эмиссии",
+                  "kz": "Әлсіз валюта әрдайым көбірек ақша басуды білдіреді"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Exports become more expensive at home",
+                  "ru": "Экспорт дорожает внутри страны",
+                  "kz": "Экспорт ел ішінде қымбаттайды"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It has no effect on prices",
+                  "ru": "Это не влияет на цены",
+                  "kz": "Бұл бағаға әсер етпейді"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which change tends to push prices down or keep them steady?",
+              "ru": "Какое изменение обычно тянет цены вниз или держит их?",
+              "kz": "Қай өзгеріс бағаны төмен тартады не тұрақтайды?"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "New technology that lowers production costs",
+                  "ru": "Новая технология, снижающая издержки",
+                  "kz": "Өндіріс шығынын азайтатын жаңа технология"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A sudden surge in the money supply",
+                  "ru": "Резкий рост денежной массы",
+                  "kz": "Ақша көлемінің күрт өсуі"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A jump in energy costs",
+                  "ru": "Скачок цен на энергию",
+                  "kz": "Энергия бағасының секіруі"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A sharply weaker currency",
+                  "ru": "Резко более слабая валюта",
+                  "kz": "Күрт әлсіреген валюта"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 399,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Money Fundamentals — Final",
+      "ru": "Основы денег — Итог",
+      "kz": "Ақша негіздері — Қорытынды"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "The three core functions of money are:",
+          "ru": "Три основные функции денег:",
+          "kz": "Ақшаның үш негізгі функциясы:"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "Medium of exchange, unit of account, store of value",
+              "ru": "Средство обмена, единица учёта, средство сбережения",
+              "kz": "Айырбас құралы, есеп бірлігі, құнды сақтаушы"
+            }
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Earning, spending, borrowing",
+              "ru": "Зарабатывать, тратить, занимать",
+              "kz": "Табу, жұмсау, қарыз алу"
+            }
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Gold, silver, paper",
+              "ru": "Золото, серебро, бумага",
+              "kz": "Алтын, күміс, қағаз"
+            }
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Saving, investing, insuring",
+              "ru": "Сберегать, инвестировать, страховать",
+              "kz": "Жинау, инвестициялау, сақтандыру"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "Fiat money has value primarily because:",
+          "ru": "Фиатные деньги ценны прежде всего потому, что:",
+          "kz": "Фиат ақшаның құны ең алдымен неден:"
+        },
+        "answers": [
+          {
+            "id": 5,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "It is trusted, accepted, and limited in supply",
+              "ru": "Ему доверяют, его принимают, и его предложение ограничено",
+              "kz": "Оған сенеді, қабылдайды, әрі ұсынысы шектеулі"
+            }
+          },
+          {
+            "id": 6,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Each note is backed by gold",
+              "ru": "Каждая купюра обеспечена золотом",
+              "kz": "Әр банкнот алтынмен қамтамасыз етілген"
+            }
+          },
+          {
+            "id": 7,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Paper is inherently valuable",
+              "ru": "Бумага ценна сама по себе",
+              "kz": "Қағаздың өзінде құн бар"
+            }
+          },
+          {
+            "id": 8,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "It can never be over-printed",
+              "ru": "Её невозможно напечатать сверх меры",
+              "kz": "Оны шектен тыс басуға болмайды"
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "A bigger salary number with higher prices can mean:",
+          "ru": "Большее число зарплаты при выросших ценах может означать:",
+          "kz": "Баға өскенде жалақы санының үлкеюі нені білдіруі мүмкін:"
+        },
+        "answers": [
+          {
+            "id": 9,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "Lower real purchasing power despite the larger number",
+              "ru": "Меньшую реальную покупательную способность, несмотря на большее число",
+              "kz": "Сан үлкен болса да, нақты сатып алу қабілетінің төмендеуі"
+            }
+          },
+          {
+            "id": 10,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Always being richer",
+              "ru": "Что вы всегда богаче",
+              "kz": "Әрдайым байырақ болуды"
+            }
+          },
+          {
+            "id": 11,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Prices don't matter",
+              "ru": "Что цены не важны",
+              "kz": "Бағаның маңызы жоқтығын"
+            }
+          },
+          {
+            "id": 12,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Inflation has stopped",
+              "ru": "Что инфляция прекратилась",
+              "kz": "Инфляцияның тоқтағанын"
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "Inflation compounds, which means over a decade at 10% per year, prices:",
+          "ru": "Инфляция накапливается, значит за десять лет при 10% в год цены:",
+          "kz": "Инфляция жинақталады, демек жылына 10%-бен он жылда бағалар:"
+        },
+        "answers": [
+          {
+            "id": 13,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "More than double",
+              "ru": "Более чем удваиваются",
+              "kz": "Екі еседен астам артады"
+            }
+          },
+          {
+            "id": 14,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Rise exactly 100%",
+              "ru": "Растут ровно на 100%",
+              "kz": "Дәл 100%-ға өседі"
+            }
+          },
+          {
+            "id": 15,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Stay the same",
+              "ru": "Остаются прежними",
+              "kz": "Бұрынғыдай қалады"
+            }
+          },
+          {
+            "id": 16,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Fall over time",
+              "ru": "Падают со временем",
+              "kz": "Уақытпен төмендейді"
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "Which pair best captures the two broad causes of inflation?",
+          "ru": "Какая пара лучше всего отражает две основные причины инфляции?",
+          "kz": "Инфляцияның екі негізгі себебін қай жұп жақсы көрсетеді?"
+        },
+        "answers": [
+          {
+            "id": 17,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "Too much money for the goods, and rising production costs",
+              "ru": "Слишком много денег на товары и рост издержек производства",
+              "kz": "Тауарға тым көп ақша және өндіріс шығынының өсуі"
+            }
+          },
+          {
+            "id": 18,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Low salaries and high savings",
+              "ru": "Низкие зарплаты и высокие сбережения",
+              "kz": "Төмен жалақы мен жоғары жинақ"
+            }
+          },
+          {
+            "id": 19,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Too many banks and too few shops",
+              "ru": "Слишком много банков и мало магазинов",
+              "kz": "Тым көп банк пен аз дүкен"
+            }
+          },
+          {
+            "id": 20,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Gold shortages and paper surpluses",
+              "ru": "Нехватка золота и избыток бумаги",
+              "kz": "Алтын тапшылығы мен қағаз артықтығы"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2696 @@
+{
+  "topic": {
+    "code": "financial_decisions",
+    "title": {
+      "en": "Financial Decisions & Trade-offs",
+      "ru": "Финансовые решения и компромиссы",
+      "kz": "Қаржылық шешімдер мен таңдаулар"
+    },
+    "description": {
+      "en": "How to think about money before learning any product.",
+      "ru": "Как думать о деньгах прежде, чем изучать любой продукт.",
+      "kz": "Кез келген өнімді үйренбес бұрын ақша туралы қалай ойлау керек."
+    },
+    "level": "beginner",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "why_finance_is_resource_allocation",
+      "orderIndex": 0,
+      "estimatedMinutes": 4,
+      "quizId": 101,
+      "title": {
+        "en": "Why Finance Is Resource Allocation",
+        "ru": "Почему финансы — это распределение ресурсов",
+        "kz": "Қаржы неге ресурсты бөлу"
+      },
+      "description": {
+        "en": "Finance is not about money. It is about deciding where a finite resource goes.",
+        "ru": "Финансы — не про деньги, а про то, куда направить ограниченный ресурс.",
+        "kz": "Қаржы — ақша туралы емес, шектеулі ресурсты қайда бағыттау туралы."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Finance is not about money",
+              "ru": "Финансы — не про деньги",
+              "kz": "Қаржы — ақша туралы емес"
+            },
+            "body": {
+              "en": "People think finance is about money — earning it, saving it, not running out. That is too small. Finance is really one thing: deciding where a limited resource goes. Money is just how we measure it.",
+              "ru": "Многие думают, что финансы — это про деньги: как их заработать, сберечь и не остаться без них. Это слишком узко. На деле финансы — это одно: решение, куда направить ограниченный ресурс. Деньги — лишь способ его измерить.",
+              "kz": "Көбі қаржыны ақша туралы деп ойлайды: оны табу, жинау, тауысып алмау. Бұл тым тар. Шын мәнінде қаржы — бір ғана нәрсе: шектеулі ресурсты қайда бағыттау туралы шешім. Ақша — оны өлшеу тәсілі ғана."
+            },
+            "tip": {
+              "en": "Swap \"How do I manage my money?\" for \"Where should this go, and why?\"",
+              "ru": "Замените вопрос «Как управлять деньгами?» на «Куда это направить и почему?».",
+              "kz": "«Ақшамды қалай басқарам?» дегеннің орнына «Мұны қайда бағыттаймын және неге?» деп сұраңыз."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Why finance exists",
+              "ru": "Почему существуют финансы",
+              "kz": "Қаржы неге бар"
+            },
+            "body": {
+              "en": "Resources are finite; wants are not. Each tenge is used only once — spend it here, and it is gone for everything else. That is the root of every money topic.",
+              "ru": "Ресурсы ограничены, а желания — нет. Каждый тенге тратится лишь один раз: потратил здесь — больше нигде. Это корень всех тем о деньгах.",
+              "kz": "Ресурс шектеулі, ал қалаулар шексіз. Әр теңге бір-ақ рет жұмсалады: мұнда жұмсасаң — басқа жерге қалмайды. Бұл — ақша туралы барлық тақырыптың түп негізі."
+            },
+            "example": {
+              "en": "Earning 350,000 ₸ or 3,500,000 ₸ a month is the same problem: decide where a finite amount goes. More income raises the ceiling, not the constraint.",
+              "ru": "Зарабатывать 350 000 ₸ или 3 500 000 ₸ в месяц — одна задача: решить, куда направить ограниченную сумму. Больший доход поднимает потолок, но не убирает ограничение.",
+              "kz": "Айына 350 000 ₸ немесе 3 500 000 ₸ табу — бір мәселе: шектеулі соманы қайда бағыттау. Табыстың көп болуы шекараны көтереді, бірақ шектеуді жоймайды."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "What money actually does",
+              "ru": "Что на самом деле делают деньги",
+              "kz": "Ақша шын мәнінде не істейді"
+            },
+            "body": {
+              "en": "Money does two jobs. It is a common unit, so you can compare an hour of work, a week of food, and a share of stock on one scale. And it moves value across time — save it for later, or borrow against it now.",
+              "ru": "У денег две функции. Это общая мера: час работы, недельный запас еды и акцию можно сравнить по одной шкале. И они переносят ценность во времени — отложить на потом или занять под будущее.",
+              "kz": "Ақшаның екі қызметі бар. Ол — ортақ өлшем: бір сағат жұмысты, бір апталық азықты және акцияны бір шкаламен салыстыруға болады. Әрі ол құнды уақыт бойынша жылжытады — кейінге жинау немесе болашақ есебінен қарызға алу."
+            },
+            "tip": {
+              "en": "Holding cash is a choice too: flexibility later over use now.",
+              "ru": "Держать наличные — тоже выбор: гибкость потом вместо использования сейчас.",
+              "kz": "Қолма-қол ақшаны ұстау да — таңдау: қазір пайдаланудың орнына кейінгі икемділік."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "One decision, three disguises",
+              "ru": "Одно решение в трёх обличьях",
+              "kz": "Бір шешім, үш бейне"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Say 50,000 ₸ is left this month. Spend, save, invest — they look like three topics, but they are one decision."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Choice",
+                        "Goes to",
+                        "You give up"
+                      ],
+                      [
+                        "Spend",
+                        "Now",
+                        "Future options"
+                      ],
+                      [
+                        "Save",
+                        "Later / safety",
+                        "Using it today"
+                      ],
+                      [
+                        "Invest",
+                        "Growth",
+                        "Certainty"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The best answer depends on your situation, not on what sounds responsible."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Допустим, в этом месяце осталось 50 000 ₸. Потратить, сберечь, инвестировать — кажется, три темы, но это одно решение."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Выбор",
+                        "Куда идёт",
+                        "Чем жертвуете"
+                      ],
+                      [
+                        "Потратить",
+                        "Сейчас",
+                        "Будущие возможности"
+                      ],
+                      [
+                        "Сберечь",
+                        "Потом / запас",
+                        "Использование сегодня"
+                      ],
+                      [
+                        "Инвестировать",
+                        "Рост",
+                        "Определённость"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Лучший ответ зависит от вашей ситуации, а не от того, что звучит «ответственно»."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Айталық, осы айда 50 000 ₸ артып қалды. Жұмсау, жинау, инвестициялау — үш тақырып сияқты, бірақ бұл — бір шешім."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Таңдау",
+                        "Қайда",
+                        "Неден бас тартасыз"
+                      ],
+                      [
+                        "Жұмсау",
+                        "Қазір",
+                        "Болашақ мүмкіндіктер"
+                      ],
+                      [
+                        "Жинау",
+                        "Кейін / қор",
+                        "Бүгін пайдалану"
+                      ],
+                      [
+                        "Инвестициялау",
+                        "Өсім",
+                        "Айқындық"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ең дұрыс жауап «жауапты» болып естілетінге емес, сіздің жағдайыңызға байланысты."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Allocate the whole pool",
+              "ru": "Распределите весь пул",
+              "kz": "Бүкіл қорды бөліңіз"
+            },
+            "body": {
+              "en": "Split 300,000 ₸ across four uses. It must total exactly 300,000 ₸ — that is the point.",
+              "ru": "Распределите 300 000 ₸ на четыре цели. В сумме — ровно 300 000 ₸. В этом и смысл.",
+              "kz": "300 000 ₸-ні төрт мақсатқа бөліңіз. Жиыны дәл 300 000 ₸ болсын — мәні осында."
+            },
+            "interactiveType": "input_numbers",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Distribute 300,000 ₸ across all four. The total must equal 300,000 ₸.",
+                "fields": [
+                  {
+                    "id": "living",
+                    "label": "Living (rent, food, transport)"
+                  },
+                  {
+                    "id": "wants",
+                    "label": "Wants"
+                  },
+                  {
+                    "id": "future",
+                    "label": "Future self (save / invest)"
+                  },
+                  {
+                    "id": "protection",
+                    "label": "Protection (insurance / buffer)"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 300000
+                },
+                "exampleAnswer": {
+                  "living": "150000",
+                  "wants": "45000",
+                  "future": "75000",
+                  "protection": "30000"
+                },
+                "explanation": "There is no single right split — only one rule: the parts must sum to the whole. Every tenge in one box is a tenge missing from another. That is allocation."
+              },
+              "ru": {
+                "instruction": "Распределите 300 000 ₸ между четырьмя статьями. Сумма должна равняться 300 000 ₸.",
+                "fields": [
+                  {
+                    "id": "living",
+                    "label": "Жильё, еда, транспорт"
+                  },
+                  {
+                    "id": "wants",
+                    "label": "Желания"
+                  },
+                  {
+                    "id": "future",
+                    "label": "Будущее (сбережения / инвестиции)"
+                  },
+                  {
+                    "id": "protection",
+                    "label": "Защита (страховка / запас)"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 300000
+                },
+                "exampleAnswer": {
+                  "living": "150000",
+                  "wants": "45000",
+                  "future": "75000",
+                  "protection": "30000"
+                },
+                "explanation": "Единственно верного деления нет — есть одно правило: части в сумме дают целое. Каждый тенге в одной графе — это тенге, которого нет в другой. Это и есть распределение."
+              },
+              "kz": {
+                "instruction": "300 000 ₸-ні төрт бағанға бөліңіз. Жиыны 300 000 ₸ болуы керек.",
+                "fields": [
+                  {
+                    "id": "living",
+                    "label": "Тұрмыс (пәтер, тамақ, көлік)"
+                  },
+                  {
+                    "id": "wants",
+                    "label": "Қалаулар"
+                  },
+                  {
+                    "id": "future",
+                    "label": "Болашақ (жинақ / инвестиция)"
+                  },
+                  {
+                    "id": "protection",
+                    "label": "Қорғаныс (сақтандыру / қор)"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 300000
+                },
+                "exampleAnswer": {
+                  "living": "150000",
+                  "wants": "45000",
+                  "future": "75000",
+                  "protection": "30000"
+                },
+                "explanation": "Бір ғана дұрыс бөлу жоқ — бір-ақ ереже бар: бөліктердің қосындысы тұтасты береді. Бір бағандағы әр теңге — басқа бағанда жетпейтін теңге. Бөлу деген осы."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "The frame for everything ahead",
+              "ru": "Рамка для всего дальнейшего",
+              "kz": "Алдағы бәріне арналған негіз"
+            },
+            "body": {
+              "en": "Finance is allocating a finite resource across competing uses, over time. Budgeting splits income across now; saving and investing split it across time; insurance splits it against risk. Faced with anything new, ask: what is the resource, what are the uses, where does it create the most value?",
+              "ru": "Финансы — это распределение ограниченного ресурса между конкурирующими целями во времени. Бюджет делит доход в настоящем; сбережения и инвестиции — во времени; страхование — против риска. Встретив новое, спросите: что за ресурс, какие цели, где он создаёт больше ценности?",
+              "kz": "Қаржы — шектеулі ресурсты бәсекелес мақсаттар арасында уақыт бойынша бөлу. Бюджет табысты қазіргі уақытта бөледі; жинақ пен инвестиция — уақыт бойынша; сақтандыру — тәуекелге қарсы. Жаңа нәрсеге тап болғанда сұраңыз: ресурс не, мақсаттар қандай, ол қай жерде көбірек құн жасайды?"
+            },
+            "tip": {
+              "en": "Good financial thinking is not knowing more products. It is asking the allocation question well.",
+              "ru": "Финансовое мышление — это не знание большего числа продуктов, а умение правильно задать вопрос о распределении.",
+              "kz": "Қаржылық ойлау — көп өнімді білу емес, бөлу туралы сұрақты дұрыс қою."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 101,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Why Finance Is Resource Allocation — Check",
+          "ru": "Почему финансы — это распределение ресурсов — Проверка",
+          "kz": "Қаржы — ресурсты бөлу — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why does finance exist as a discipline at all?",
+              "ru": "Почему финансы вообще существуют как дисциплина?",
+              "kz": "Қаржы пән ретінде неге бар?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Resources are finite while uses for them are not, which forces choices",
+                  "ru": "Ресурсы ограничены, а способы их применения — нет, и это вынуждает выбирать",
+                  "kz": "Ресурс шектеулі, ал оны қолдану жолдары шексіз — бұл таңдауға мәжбүрлейді"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Money is complicated and needs constant management",
+                  "ru": "Деньги сложны и требуют постоянного управления",
+                  "kz": "Ақша күрделі, оны үнемі басқару керек"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Banks and governments require people to track it",
+                  "ru": "Банки и государство обязывают это учитывать",
+                  "kz": "Банктер мен мемлекет есепке алуды талап етеді"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Investing reliably beats saving",
+                  "ru": "Инвестиции надёжно выгоднее сбережений",
+                  "kz": "Инвестиция жинақтан әрқашан тиімді"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A person's income doubles. What happens to the core problem they face?",
+              "ru": "Доход человека удвоился. Что происходит с его главной задачей?",
+              "kz": "Адамның табысы екі есе өсті. Оның негізгі мәселесі не болады?"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Its structure is unchanged: they still must decide where a finite amount goes",
+                  "ru": "Её суть не меняется: всё равно нужно решать, куда направить ограниченную сумму",
+                  "kz": "Мәні өзгермейді: бәрібір шектеулі соманы қайда бағыттауды шешу керек"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It disappears — they can now afford everything",
+                  "ru": "Она исчезает — теперь можно позволить всё",
+                  "kz": "Ол жоғалады — енді бәрін алуға болады"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It becomes a pure investing problem",
+                  "ru": "Она превращается в чисто инвестиционную",
+                  "kz": "Ол таза инвестициялық мәселеге айналады"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It is solved by saving the extra income",
+                  "ru": "Она решается, если копить лишний доход",
+                  "kz": "Артық табысты жинаса, шешіледі"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "You keep 100,000 ₸ in cash instead of spending or investing it. This is:",
+              "ru": "Вы держите 100 000 ₸ наличными, а не тратите и не инвестируете. Это:",
+              "kz": "Сіз 100 000 ₸-ні жұмсамай, инвестицияламай, қолма-қол ұстайсыз. Бұл:"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "An allocation decision — flexibility later over use now",
+                  "ru": "Решение о распределении — гибкость потом вместо использования сейчас",
+                  "kz": "Бөлу туралы шешім — қазір пайдаланудың орнына кейінгі икемділік"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Not a financial decision, since the money isn't doing anything",
+                  "ru": "Не финансовое решение, ведь деньги ничего не делают",
+                  "kz": "Қаржылық шешім емес, өйткені ақша ештеңе істемейді"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Always the safest and best choice",
+                  "ru": "Всегда самый безопасный и лучший выбор",
+                  "kz": "Әрқашан ең қауіпсіз әрі үздік таңдау"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The same as having no money at all",
+                  "ru": "То же самое, что вообще не иметь денег",
+                  "kz": "Ақша мүлде жоқпен бірдей"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "opportunity_cost",
+      "orderIndex": 1,
+      "estimatedMinutes": 5,
+      "quizId": 102,
+      "title": {
+        "en": "Opportunity Cost",
+        "ru": "Альтернативные издержки",
+        "kz": "Баламалы шығын"
+      },
+      "description": {
+        "en": "The true cost of a choice is the best thing you give up.",
+        "ru": "Истинная цена выбора — это лучшее, от чего вы отказались.",
+        "kz": "Таңдаудың нақты бағасы — сіз бас тартқан ең жақсы балама."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The hidden price",
+              "ru": "Скрытая цена",
+              "kz": "Жасырын баға"
+            },
+            "body": {
+              "en": "Every choice has a hidden price: the best thing you didn't do with the same resource. That is opportunity cost. The sticker price is only part of the story.",
+              "ru": "У каждого выбора есть скрытая цена — лучшее, что вы не сделали с тем же ресурсом. Это и есть альтернативные издержки. Ценник — лишь часть картины.",
+              "kz": "Әр таңдаудың жасырын бағасы бар — сол ресурспен істемей қалған ең жақсы нәрсе. Бұл — баламалы шығын. Бағасы — бар әңгіменің бір бөлігі ғана."
+            },
+            "tip": {
+              "en": "The real question isn't \"can I afford it?\" but \"what am I giving up to get it?\"",
+              "ru": "Главный вопрос не «могу ли я это позволить?», а «от чего я отказываюсь ради этого?».",
+              "kz": "Басты сұрақ «мұны ала аламын ба?» емес, «бұл үшін неден бас тартамын?»."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Used once, gone for the rest",
+              "ru": "Использован один раз — больше нигде",
+              "kz": "Бір рет қолданылды — қалғанына жоқ"
+            },
+            "body": {
+              "en": "Because a resource is used only once, picking one option rejects all others. The cost of your choice is the value of the best rejected option — not the money alone.",
+              "ru": "Раз ресурс используется лишь однажды, выбор одного варианта отвергает все остальные. Цена выбора — это ценность лучшего отвергнутого варианта, а не только деньги.",
+              "kz": "Ресурс бір-ақ рет қолданылғандықтан, бір нұсқаны таңдау қалғанын жоққа шығарады. Таңдау бағасы — бас тартқан ең жақсы нұсқаның құны, тек ақша ғана емес."
+            },
+            "example": {
+              "en": "Spending 2,000,000 ₸ on a car isn't just 2,000,000 ₸. If invested, that money might have grown to 4,000,000 ₸ over years — the lost growth is part of the cost.",
+              "ru": "Потратить 2 000 000 ₸ на машину — это не только 2 000 000 ₸. Вложенные, эти деньги могли вырасти до 4 000 000 ₸ за годы — упущенный рост тоже часть цены.",
+              "kz": "Көлікке 2 000 000 ₸ жұмсау — бұл тек 2 000 000 ₸ емес. Инвестицияланса, бұл ақша жылдар ішінде 4 000 000 ₸-ге жетуі мүмкін еді — жоғалған өсім де бағаның бөлігі."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Time has a cost too",
+              "ru": "У времени тоже есть цена",
+              "kz": "Уақыттың да бағасы бар"
+            },
+            "body": {
+              "en": "Opportunity cost isn't only about money. An hour spent on one thing is an hour unavailable for everything else — work, rest, learning. Free time is rarely free.",
+              "ru": "Альтернативные издержки касаются не только денег. Час на одно дело — это час, недоступный для всего остального: работы, отдыха, учёбы. Свободное время редко бывает бесплатным.",
+              "kz": "Баламалы шығын тек ақшаға қатысты емес. Бір іске жұмсалған сағат — жұмысқа, демалысқа, оқуға қалмаған сағат. Бос уақыт сирек тегін болады."
+            },
+            "tip": {
+              "en": "A \"free\" two-hour task you dislike still costs two hours of your life.",
+              "ru": "«Бесплатное» двухчасовое дело, которое вам не нравится, всё равно стоит двух часов жизни.",
+              "kz": "Ұнамайтын «тегін» екі сағаттық іс бәрібір өміріңіздің екі сағатына түседі."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Count the hidden cost",
+              "ru": "Считайте скрытую цену",
+              "kz": "Жасырын бағаны санаңыз"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A higher salary isn't automatically better — count the hidden cost."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Job",
+                        "Pay",
+                        "Hidden cost"
+                      ],
+                      [
+                        "A",
+                        "+100,000 ₸/mo",
+                        "3h commute daily"
+                      ],
+                      [
+                        "B",
+                        "base",
+                        "near home"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "B may win once the commute's cost — time, fatigue, transport — is counted."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Более высокая зарплата не всегда лучше — считайте скрытую цену."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Работа",
+                        "Оплата",
+                        "Скрытая цена"
+                      ],
+                      [
+                        "A",
+                        "+100 000 ₸/мес",
+                        "3 ч дороги в день"
+                      ],
+                      [
+                        "B",
+                        "базовая",
+                        "рядом с домом"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "B может выиграть, если учесть цену дороги — время, усталость, транспорт."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Жоғары жалақы әрдайым тиімді емес — жасырын бағаны санаңыз."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Жұмыс",
+                        "Төлем",
+                        "Жасырын баға"
+                      ],
+                      [
+                        "A",
+                        "+100 000 ₸/ай",
+                        "күніне 3 сағат жол"
+                      ],
+                      [
+                        "B",
+                        "базалық",
+                        "үйге жақын"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Жолдың бағасы — уақыт, шаршау, көлік — ескерілсе, B ұтуы мүмкін."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "What's being ignored?",
+              "ru": "Что упускают из виду?",
+              "kz": "Не есепке алынбай тұр?"
+            },
+            "body": {
+              "en": "Each person sees only one number. Spot the cost they forgot.",
+              "ru": "Каждый видит только одну цифру. Найдите цену, о которой забыли.",
+              "kz": "Әркім тек бір санды көреді. Ұмыт қалған бағаны табыңыз."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "For each choice, pick the cost that's being ignored.",
+                "cases": [
+                  {
+                    "text": "Maria buys a 5,000,000 ₸ car in cash and feels it 'cost nothing extra' since she paid in full.",
+                    "options": [
+                      "a) No real cost — she paid cash",
+                      "b) The return that 5,000,000 ₸ could have earned"
+                    ],
+                    "correct": "b",
+                    "explanation": "Paying cash hides the opportunity cost: that money could have grown if invested."
+                  },
+                  {
+                    "text": "Arman takes a job paying 80,000 ₸ more but adding 3 hours of daily commuting; he compares only the salaries.",
+                    "options": [
+                      "a) Three hours a day of his time",
+                      "b) Nothing — more pay is always better"
+                    ],
+                    "correct": "a",
+                    "explanation": "Commuting time is a real cost — those hours can't be reused for anything else."
+                  }
+                ],
+                "final_explanation": "Opportunity cost is the best alternative you give up — money, time, or both. Compare against it, not against zero."
+              },
+              "ru": {
+                "instruction": "Для каждого выбора укажите цену, которую упускают из виду.",
+                "cases": [
+                  {
+                    "text": "Мария покупает машину за 5 000 000 ₸ наличными и считает, что «ничего лишнего не стоило», ведь оплатила сразу.",
+                    "options": [
+                      "a) Реальной цены нет — оплачено наличными",
+                      "b) Доход, который могли бы принести 5 000 000 ₸"
+                    ],
+                    "correct": "b",
+                    "explanation": "Оплата наличными скрывает альтернативные издержки: эти деньги могли вырасти при вложении."
+                  },
+                  {
+                    "text": "Арман берёт работу на 80 000 ₸ больше, но с +3 ч дороги в день; он сравнивает только зарплаты.",
+                    "options": [
+                      "a) Три часа его времени каждый день",
+                      "b) Ничего — больше платят, значит лучше"
+                    ],
+                    "correct": "a",
+                    "explanation": "Время в дороге — реальная цена: эти часы нельзя использовать на другое."
+                  }
+                ],
+                "final_explanation": "Альтернативные издержки — это лучшая упущенная возможность: деньги, время или и то и другое. Сравнивайте с ней, а не с нулём."
+              },
+              "kz": {
+                "instruction": "Әр таңдау үшін есепке алынбай жатқан бағаны таңдаңыз.",
+                "cases": [
+                  {
+                    "text": "Мария 5 000 000 ₸-ге көлікті қолма-қол алып, толық төлегендіктен «артық ештеңе тұрмады» деп ойлайды.",
+                    "options": [
+                      "a) Нақты баға жоқ — қолма-қол төленді",
+                      "b) 5 000 000 ₸ табуы мүмкін болған өсім"
+                    ],
+                    "correct": "b",
+                    "explanation": "Қолма-қол төлеу баламалы шығынды жасырады: бұл ақша инвестицияланса өсуі мүмкін еді."
+                  },
+                  {
+                    "text": "Арман 80 000 ₸ көп төлейтін жұмысқа барады, бірақ күніне +3 сағат жол қосылады; ол тек жалақыны салыстырады.",
+                    "options": [
+                      "a) Күн сайынғы үш сағат уақыты",
+                      "b) Ештеңе — көп төлесе, әрдайым жақсы"
+                    ],
+                    "correct": "a",
+                    "explanation": "Жол уақыты — нақты баға: ол сағаттарды басқа іске жұмсай алмайсыз."
+                  }
+                ],
+                "final_explanation": "Баламалы шығын — бас тартқан ең жақсы балама: ақша, уақыт немесе екеуі де. Нөлмен емес, сонымен салыстырыңыз."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Compare to the best alternative",
+              "ru": "Сравнивайте с лучшей альтернативой",
+              "kz": "Ең жақсы баламамен салыстырыңыз"
+            },
+            "body": {
+              "en": "Opportunity cost turns 'is this worth the price?' into 'is this the best use of this resource?' Saving, investing, and borrowing are all opportunity cost in disguise.",
+              "ru": "Альтернативные издержки превращают вопрос «стоит ли это цены?» в «лучшее ли это применение ресурса?». Сбережения, инвестиции и займы — всё это они в разных обличьях.",
+              "kz": "Баламалы шығын «бұл бағасына тұра ма?» дегенді «бұл ресурстың ең жақсы қолданылуы ма?» дегенге айналдырады. Жинақ, инвестиция, қарыз — бәрі соның түрлі көрінісі."
+            },
+            "tip": {
+              "en": "Money has alternatives. So does time. Compare against the best one, not against zero.",
+              "ru": "У денег есть альтернативы. У времени тоже. Сравнивайте с лучшей, а не с нулём.",
+              "kz": "Ақшаның баламасы бар. Уақыттың да. Нөлмен емес, ең жақсысымен салыстырыңыз."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 102,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Opportunity Cost — Check",
+          "ru": "Альтернативные издержки — Проверка",
+          "kz": "Баламалы шығын — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "The opportunity cost of a choice is:",
+              "ru": "Альтернативные издержки выбора — это:",
+              "kz": "Таңдаудың баламалы шығыны — бұл:"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "The value of the best alternative you gave up",
+                  "ru": "Ценность лучшей альтернативы, от которой вы отказались",
+                  "kz": "Бас тартқан ең жақсы баламаның құны"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Only the money you paid",
+                  "ru": "Только уплаченные деньги",
+                  "kz": "Тек төлеген ақшаңыз"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Nothing, if you wanted the thing",
+                  "ru": "Ничего, если вещь была желанной",
+                  "kz": "Ештеңе, егер ол нәрсені қаласаңыз"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The cheapest available option",
+                  "ru": "Самый дешёвый вариант",
+                  "kz": "Ең арзан нұсқа"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "You spend a free Saturday helping a friend move. No money changes hands, yet there is a cost because:",
+              "ru": "Вы тратите свободную субботу, помогая другу с переездом. Денег никто не платит, но цена есть, потому что:",
+              "kz": "Бос сенбіні досыңызға көшуге көмектесіп өткізесіз. Ешкім ақша төлемейді, бірақ баға бар, өйткені:"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "That time could have gone to its best alternative use",
+                  "ru": "Это время могло пойти на лучшее альтернативное дело",
+                  "kz": "Ол уақыт ең жақсы балама іске жұмсалуы мүмкін еді"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Helping others is always a financial loss",
+                  "ru": "Помощь другим — всегда финансовая потеря",
+                  "kz": "Басқаға көмектесу — әрқашан қаржылық шығын"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "There is no cost without money",
+                  "ru": "Без денег цены не бывает",
+                  "kz": "Ақшасыз баға болмайды"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Weekends have no value",
+                  "ru": "Выходные не имеют ценности",
+                  "kz": "Демалыс күндерінің құны жоқ"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "You have 1,000,000 ₸. Option A: a vacation. Option B: invest at 15%. The opportunity cost of the vacation is best described as:",
+              "ru": "У вас 1 000 000 ₸. Вариант A: отпуск. Вариант B: вложить под 15%. Альтернативные издержки отпуска лучше всего описать как:",
+              "kz": "Сізде 1 000 000 ₸ бар. A нұсқа: демалыс. B нұсқа: 15%-бен инвестициялау. Демалыстың баламалы шығынын қалай дұрыс сипаттаймыз:"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "The growth you'd have earned by investing instead",
+                  "ru": "Доход, который принесли бы инвестиции",
+                  "kz": "Орнына инвестициялағанда табатын өсім"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The 1,000,000 ₸ itself",
+                  "ru": "Сами 1 000 000 ₸",
+                  "kz": "1 000 000 ₸-нің өзі"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Nothing — you enjoyed the trip",
+                  "ru": "Ничего — поездка понравилась",
+                  "kz": "Ештеңе — саяхат ұнады"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The price of the vacation only",
+                  "ru": "Только стоимость отпуска",
+                  "kz": "Тек демалыстың құны"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "time_value_of_money",
+      "orderIndex": 2,
+      "estimatedMinutes": 5,
+      "quizId": 103,
+      "title": {
+        "en": "Time Value of Money",
+        "ru": "Временная стоимость денег",
+        "kz": "Ақшаның уақыттық құны"
+      },
+      "description": {
+        "en": "Money now is worth more than the same money later.",
+        "ru": "Деньги сейчас стоят дороже, чем те же деньги потом.",
+        "kz": "Қазіргі ақша кейінгі сол ақшадан қымбат."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Now beats later",
+              "ru": "Сейчас лучше, чем потом",
+              "kz": "Қазір — кейіннен артық"
+            },
+            "body": {
+              "en": "100,000 ₸ today is worth more than 100,000 ₸ in a year. Not only because of inflation — because money today can be put to work and grow.",
+              "ru": "100 000 ₸ сегодня стоят больше, чем 100 000 ₸ через год. И не только из-за инфляции — деньги сегодня можно пустить в дело и приумножить.",
+              "kz": "Бүгінгі 100 000 ₸ бір жылдан кейінгі 100 000 ₸-ден қымбат. Тек инфляция себебінен емес — бүгінгі ақшаны іске қосып, өсіруге болады."
+            },
+            "tip": {
+              "en": "\"When\" you get money matters as much as \"how much.\"",
+              "ru": "«Когда» вы получите деньги важно не меньше, чем «сколько».",
+              "kz": "Ақшаны «қашан» алатыныңыз «қанша» дегеннен кем маңызды емес."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Money can work",
+              "ru": "Деньги могут работать",
+              "kz": "Ақша жұмыс істей алады"
+            },
+            "body": {
+              "en": "Money today can earn a return, so a future sum must be discounted to compare it with money now. The bridge between the two is an interest or growth rate.",
+              "ru": "Сегодняшние деньги могут приносить доход, поэтому будущую сумму нужно дисконтировать, чтобы сравнить с нынешней. Мост между ними — ставка процента или роста.",
+              "kz": "Бүгінгі ақша табыс әкеле алады, сондықтан болашақ соманы қазіргімен салыстыру үшін дисконттау керек. Екеуінің арасындағы көпір — пайыз немесе өсім мөлшерлемесі."
+            },
+            "example": {
+              "en": "At 15% a year, 100,000 ₸ today becomes 115,000 ₸ in a year. So 115,000 ₸ in a year is worth only 100,000 ₸ today.",
+              "ru": "При 15% годовых 100 000 ₸ сегодня превращаются в 115 000 ₸ через год. Значит, 115 000 ₸ через год сегодня стоят лишь 100 000 ₸.",
+              "kz": "Жылдық 15%-бен бүгінгі 100 000 ₸ бір жылда 115 000 ₸ болады. Демек, бір жылдан кейінгі 115 000 ₸ бүгін небәрі 100 000 ₸ тұрады."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Later needs a premium",
+              "ru": "За «потом» нужна премия",
+              "kz": "«Кейінге» сыйақы керек"
+            },
+            "body": {
+              "en": "Money later is better only if its premium beats what you could have earned meanwhile. Someone paying you later is effectively borrowing from you.",
+              "ru": "Деньги потом выгоднее, только если их премия превышает то, что вы заработали бы за это время. Тот, кто платит позже, фактически берёт у вас в долг.",
+              "kz": "Кейінгі ақша тек оның сыйақысы осы уақытта таба алатыныңыздан асқанда ғана тиімді. Кейін төлейтін адам — шын мәнінде сізден қарыз алып тұр."
+            },
+            "tip": {
+              "en": "The premium for waiting is your interest. If it's too small, say no.",
+              "ru": "Премия за ожидание — это ваш процент. Если она мала — откажитесь.",
+              "kz": "Күтуге берілетін сыйақы — сіздің пайызыңыз. Аз болса — бас тартыңыз."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Put them on the same date",
+              "ru": "Приведите к одной дате",
+              "kz": "Бір күнге келтіріңіз"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Which is better: 100,000 ₸ now, or 110,000 ₸ in a year, if you can earn 15%?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Option",
+                        "Value in 1 year"
+                      ],
+                      [
+                        "Take 100,000 now, invest at 15%",
+                        "115,000 ₸"
+                      ],
+                      [
+                        "Wait for 110,000",
+                        "110,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Now wins — your 15% beats the 10% premium. Drop the rate below 10% and the answer flips."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Что лучше: 100 000 ₸ сейчас или 110 000 ₸ через год, если вы можете заработать 15%?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Вариант",
+                        "Через 1 год"
+                      ],
+                      [
+                        "Взять 100 000 сейчас, вложить под 15%",
+                        "115 000 ₸"
+                      ],
+                      [
+                        "Ждать 110 000",
+                        "110 000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Побеждает «сейчас» — ваши 15% больше премии в 10%. Опустите ставку ниже 10% — и ответ меняется."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Қайсысы тиімді: қазір 100 000 ₸ ма, әлде бір жылдан кейін 110 000 ₸ ба, егер 15% таба алсаңыз?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Нұсқа",
+                        "1 жылдан кейін"
+                      ],
+                      [
+                        "Қазір 100 000 алып, 15%-бен салу",
+                        "115 000 ₸"
+                      ],
+                      [
+                        "110 000-ды күту",
+                        "110 000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "«Қазір» ұтады — сіздің 15%-ыңыз 10% сыйақыдан көп. Мөлшерлемені 10%-дан төмендетсеңіз — жауап өзгереді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Now or later?",
+              "ru": "Сейчас или потом?",
+              "kz": "Қазір ме, кейін бе?"
+            },
+            "body": {
+              "en": "You can invest at 15% a year. For each offer, which is worth more?",
+              "ru": "Вы можете вкладывать под 15% годовых. Что выгоднее в каждом предложении?",
+              "kz": "Сіз жылдық 15%-бен сала аласыз. Әр ұсыныста қайсысы тиімді?"
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "You can invest at 15% a year. For each offer, which is worth more?",
+                "options": [
+                  "Money now",
+                  "Money later"
+                ],
+                "scenarios": [
+                  {
+                    "text": "100,000 ₸ now, or 108,000 ₸ in one year",
+                    "correct_answer": "Money now",
+                    "explanation": "Investing 100,000 at 15% gives 115,000 — more than 108,000."
+                  },
+                  {
+                    "text": "100,000 ₸ now, or 130,000 ₸ in one year",
+                    "correct_answer": "Money later",
+                    "explanation": "130,000 beats the 115,000 you'd get investing — the premium is large enough."
+                  },
+                  {
+                    "text": "200,000 ₸ now, or 210,000 ₸ in one year",
+                    "correct_answer": "Money now",
+                    "explanation": "At 15%, 200,000 grows to 230,000 — far above 210,000."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Вы можете вкладывать под 15% годовых. Что выгоднее в каждом предложении?",
+                "options": [
+                  "Деньги сейчас",
+                  "Деньги потом"
+                ],
+                "scenarios": [
+                  {
+                    "text": "100 000 ₸ сейчас или 108 000 ₸ через год",
+                    "correct_answer": "Деньги сейчас",
+                    "explanation": "Вложив 100 000 под 15%, получите 115 000 — больше 108 000."
+                  },
+                  {
+                    "text": "100 000 ₸ сейчас или 130 000 ₸ через год",
+                    "correct_answer": "Деньги потом",
+                    "explanation": "130 000 больше, чем 115 000 от вложения — премия достаточно велика."
+                  },
+                  {
+                    "text": "200 000 ₸ сейчас или 210 000 ₸ через год",
+                    "correct_answer": "Деньги сейчас",
+                    "explanation": "При 15% 200 000 вырастут до 230 000 — намного больше 210 000."
+                  }
+                ]
+              },
+              "kz": {
+                "instruction": "Сіз жылдық 15%-бен сала аласыз. Әр ұсыныста қайсысы тиімді?",
+                "options": [
+                  "Қазіргі ақша",
+                  "Кейінгі ақша"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Қазір 100 000 ₸ немесе бір жылдан кейін 108 000 ₸",
+                    "correct_answer": "Қазіргі ақша",
+                    "explanation": "100 000-ды 15%-бен салсаңыз 115 000 болады — 108 000-нан көп."
+                  },
+                  {
+                    "text": "Қазір 100 000 ₸ немесе бір жылдан кейін 130 000 ₸",
+                    "correct_answer": "Кейінгі ақша",
+                    "explanation": "130 000 — салымнан түсетін 115 000-нан көп; сыйақы жеткілікті."
+                  },
+                  {
+                    "text": "Қазір 200 000 ₸ немесе бір жылдан кейін 210 000 ₸",
+                    "correct_answer": "Қазіргі ақша",
+                    "explanation": "15%-бен 200 000 230 000-ге жетеді — 210 000-нан әлдеқайда көп."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "A tenge has a date",
+              "ru": "У тенге есть дата",
+              "kz": "Теңгенің күні бар"
+            },
+            "body": {
+              "en": "Time value is the engine under saving, loans, and investing — each trades money across time at some rate. Before comparing amounts, put them on the same date.",
+              "ru": "Временная стоимость — двигатель сбережений, кредитов и инвестиций: все они обменивают деньги во времени по некоторой ставке. Прежде чем сравнивать суммы, приведите их к одной дате.",
+              "kz": "Уақыттық құн — жинақ, несие, инвестицияның қозғаушысы: бәрі ақшаны белгілі мөлшерлемемен уақыт бойынша алмастырады. Соманы салыстырмас бұрын оларды бір күнге келтіріңіз."
+            },
+            "tip": {
+              "en": "Always ask: what could this money earn while I wait?",
+              "ru": "Всегда спрашивайте: что эти деньги могли бы заработать, пока я жду?",
+              "kz": "Әрдайым сұраңыз: күтіп тұрғанда бұл ақша не таба алар еді?"
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 103,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Time Value of Money — Check",
+          "ru": "Временная стоимость денег — Проверка",
+          "kz": "Ақшаның уақыттық құны — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why is money today generally worth more than the same amount in a year?",
+              "ru": "Почему деньги сегодня обычно стоят больше, чем та же сумма через год?",
+              "kz": "Бүгінгі ақша неге әдетте бір жылдан кейінгі сол сомадан қымбат?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Money today can be put to work and earn a return",
+                  "ru": "Сегодняшние деньги можно пустить в дело и получить доход",
+                  "kz": "Бүгінгі ақшаны іске қосып, табыс табуға болады"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Prices always fall over time",
+                  "ru": "Цены всегда со временем падают",
+                  "kz": "Бағалар уақыт өте әрқашан түседі"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Cash is always safer than investing",
+                  "ru": "Наличные всегда безопаснее инвестиций",
+                  "kz": "Қолма-қол ақша әрқашан инвестициядан қауіпсіз"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Banks require money to be spent quickly",
+                  "ru": "Банки требуют тратить деньги быстро",
+                  "kz": "Банктер ақшаны тез жұмсауды талап етеді"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "You can earn 12% a year. Someone offers 105,000 ₸ in a year instead of 100,000 ₸ now. The better choice is:",
+              "ru": "Вы можете зарабатывать 12% в год. Вам предлагают 105 000 ₸ через год вместо 100 000 ₸ сейчас. Лучше:",
+              "kz": "Сіз жылына 12% таба аласыз. Қазіргі 100 000 ₸-нің орнына бір жылдан кейін 105 000 ₸ ұсынады. Дұрысы:"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Take 100,000 now — invested it becomes 112,000, more than 105,000",
+                  "ru": "Взять 100 000 сейчас — вложенные, они станут 112 000, больше 105 000",
+                  "kz": "Қазір 100 000-ды алу — салынса 112 000 болады, 105 000-нан көп"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Wait for 105,000 — more money is always better",
+                  "ru": "Ждать 105 000 — больше денег всегда лучше",
+                  "kz": "105 000-ды күту — көп ақша әрдайым жақсы"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "They are exactly equal",
+                  "ru": "Они абсолютно равны",
+                  "kz": "Олар дәл тең"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It can't be compared",
+                  "ru": "Сравнить нельзя",
+                  "kz": "Салыстыруға болмайды"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "The rate used to compare money across time mainly represents:",
+              "ru": "Ставка для сравнения денег во времени в основном отражает:",
+              "kz": "Ақшаны уақыт бойынша салыстыруға қолданылатын мөлшерлеме негізінен нені білдіреді:"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "What the money could earn (or cost) over that time",
+                  "ru": "То, что деньги могли бы заработать (или стоить) за это время",
+                  "kz": "Ақша сол уақытта таба алатын (немесе тұратын) шаманы"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Only the bank's profit margin",
+                  "ru": "Только маржу прибыли банка",
+                  "kz": "Тек банктің пайда маржасын"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Inflation and nothing else",
+                  "ru": "Только инфляцию",
+                  "kz": "Тек инфляцияны"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A fixed number set by law",
+                  "ru": "Фиксированное число, установленное законом",
+                  "kz": "Заңмен белгіленген тұрақты сан"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "risk_vs_reward",
+      "orderIndex": 3,
+      "estimatedMinutes": 5,
+      "quizId": 104,
+      "title": {
+        "en": "Risk vs Reward",
+        "ru": "Риск и доходность",
+        "kz": "Тәуекел мен табыс"
+      },
+      "description": {
+        "en": "Higher expected return comes only with higher uncertainty.",
+        "ru": "Более высокая ожидаемая доходность бывает только с большей неопределённостью.",
+        "kz": "Жоғары күтілетін табыс тек жоғары белгісіздікпен келеді."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "They move together",
+              "ru": "Они идут вместе",
+              "kz": "Олар бірге жүреді"
+            },
+            "body": {
+              "en": "Reward and risk rise together. Anything promising high returns with no risk is either misunderstood or a scam.",
+              "ru": "Доходность и риск растут вместе. Всё, что обещает высокую прибыль без риска, либо не понято, либо мошенничество.",
+              "kz": "Табыс пен тәуекел қатар өседі. Тәуекелсіз жоғары табыс уәде ететін нәрсе — не дұрыс түсінілмеген, не алаяқтық."
+            },
+            "tip": {
+              "en": "\"Guaranteed high return\" is a contradiction. Treat it as a warning.",
+              "ru": "«Гарантированная высокая доходность» — противоречие. Считайте это предупреждением.",
+              "kz": "«Кепілді жоғары табыс» — қарама-қайшылық. Оны ескерту деп қабылдаңыз."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "What risk really means",
+              "ru": "Что значит риск",
+              "kz": "Тәуекел деген не"
+            },
+            "body": {
+              "en": "Risk means the outcome is uncertain — it could be much better or much worse than expected. Investors accept that uncertainty only because, on average and over time, they expect to be paid for it.",
+              "ru": "Риск означает, что исход неопределён — может выйти куда лучше или куда хуже ожидаемого. Инвесторы соглашаются на это лишь потому, что в среднем и со временем рассчитывают на вознаграждение.",
+              "kz": "Тәуекел дегеніміз — нәтиже белгісіз: күткеннен әлдеқайда жақсы да, нашар да болуы мүмкін. Инвесторлар бұған тек орташа есеппен әрі уақыт өте сыйақы аламыз деп үміттенгендіктен келіседі."
+            },
+            "example": {
+              "en": "A bank deposit might return ~14% with near-certainty. Stocks may average more over decades but can fall 30% in a single year. The extra expected return is the price of the swings.",
+              "ru": "Банковский депозит может дать ~14% почти наверняка. Акции в среднем за десятилетия — больше, но за год могут упасть на 30%. Дополнительная доходность — плата за колебания.",
+              "kz": "Банк депозиті шамамен 14%-ды дерлік кепілді береді. Акциялар ондаған жылда орташа көбірек әкелуі мүмкін, бірақ бір жылда 30%-ға түсуі ықтимал. Қосымша табыс — тербелістердің бағасы."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Match risk to time",
+              "ru": "Риск под срок",
+              "kz": "Тәуекелді мерзімге сай таңда"
+            },
+            "body": {
+              "en": "The right amount of risk depends on the goal and the time you have. Money needed next month should bear almost no risk; money for 20 years away can ride out the swings.",
+              "ru": "Подходящий уровень риска зависит от цели и срока. Деньги, нужные через месяц, должны почти не рисковать; деньги на 20 лет вперёд могут переждать колебания.",
+              "kz": "Тәуекелдің дұрыс мөлшері мақсат пен қолда бар уақытқа байланысты. Келесі айда керек ақша дерлік тәуекелсіз болсын; 20 жылға арналған ақша тербелісті күтіп шыдай алады."
+            },
+            "tip": {
+              "en": "Time turns risk from a threat into a tool. Short horizon, low risk. Long horizon, more.",
+              "ru": "Время превращает риск из угрозы в инструмент. Короткий срок — низкий риск, длинный — выше.",
+              "kz": "Уақыт тәуекелді қауіптен құралға айналдырады. Қысқа мерзім — төмен тәуекел, ұзақ мерзім — жоғарырақ."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "The risk ladder",
+              "ru": "Лестница риска",
+              "kz": "Тәуекел сатысы"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Expected return roughly rises with risk:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Asset",
+                        "Risk",
+                        "Typical role"
+                      ],
+                      [
+                        "Cash / deposit",
+                        "Low",
+                        "Safety, near-term"
+                      ],
+                      [
+                        "Bonds",
+                        "Medium",
+                        "Stability"
+                      ],
+                      [
+                        "Stocks",
+                        "High",
+                        "Long-term growth"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "None is \"best\" — each fits a different job."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ожидаемая доходность примерно растёт с риском:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Актив",
+                        "Риск",
+                        "Типичная роль"
+                      ],
+                      [
+                        "Наличные / депозит",
+                        "Низкий",
+                        "Запас, ближний срок"
+                      ],
+                      [
+                        "Облигации",
+                        "Средний",
+                        "Стабильность"
+                      ],
+                      [
+                        "Акции",
+                        "Высокий",
+                        "Долгосрочный рост"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ни один не «лучший» — каждый под свою задачу."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Күтілетін табыс шамамен тәуекелмен бірге өседі:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Актив",
+                        "Тәуекел",
+                        "Әдеттегі рөлі"
+                      ],
+                      [
+                        "Қолма-қол / депозит",
+                        "Төмен",
+                        "Қор, жақын мерзім"
+                      ],
+                      [
+                        "Облигациялар",
+                        "Орташа",
+                        "Тұрақтылық"
+                      ],
+                      [
+                        "Акциялар",
+                        "Жоғары",
+                        "Ұзақ мерзімді өсім"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ешқайсысы «ең үздік» емес — әрқайсысы өз міндетіне сай."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Pick for the goal",
+              "ru": "Выберите под цель",
+              "kz": "Мақсатқа сай таңдаңыз"
+            },
+            "body": {
+              "en": "Saving for a goal 20+ years away, able to handle short-term swings. Which fits best?",
+              "ru": "Копите на цель через 20+ лет, можете пережить краткосрочные колебания. Что подойдёт?",
+              "kz": "20+ жылдан кейінгі мақсатқа жинап жатырсыз, қысқа мерзімді тербеліске шыдай аласыз. Қайсысы сай?"
+            },
+            "interactiveType": "portfolio_choice",
+            "interactiveContent": {
+              "en": {
+                "instruction": "You're saving for a goal 20+ years away and can handle short-term swings. Which fits best?",
+                "options": [
+                  {
+                    "name": "Conservative",
+                    "data": [
+                      "80% deposits",
+                      "20% stocks"
+                    ]
+                  },
+                  {
+                    "name": "Balanced",
+                    "data": [
+                      "50% bonds",
+                      "50% stocks"
+                    ]
+                  },
+                  {
+                    "name": "Growth",
+                    "data": [
+                      "10% bonds",
+                      "90% stocks"
+                    ]
+                  }
+                ],
+                "correct": "Growth"
+              },
+              "ru": {
+                "instruction": "Вы копите на цель через 20+ лет и можете пережить краткосрочные колебания. Что подойдёт лучше?",
+                "options": [
+                  {
+                    "name": "Консервативный",
+                    "data": [
+                      "80% депозиты",
+                      "20% акции"
+                    ]
+                  },
+                  {
+                    "name": "Сбалансированный",
+                    "data": [
+                      "50% облигации",
+                      "50% акции"
+                    ]
+                  },
+                  {
+                    "name": "Ростовой",
+                    "data": [
+                      "10% облигации",
+                      "90% акции"
+                    ]
+                  }
+                ],
+                "correct": "Ростовой"
+              },
+              "kz": {
+                "instruction": "Сіз 20+ жылдан кейінгі мақсатқа жинап жатырсыз әрі қысқа мерзімді тербеліске шыдай аласыз. Қайсысы сай?",
+                "options": [
+                  {
+                    "name": "Сақ",
+                    "data": [
+                      "80% депозит",
+                      "20% акция"
+                    ]
+                  },
+                  {
+                    "name": "Теңдестірілген",
+                    "data": [
+                      "50% облигация",
+                      "50% акция"
+                    ]
+                  },
+                  {
+                    "name": "Өсу",
+                    "data": [
+                      "10% облигация",
+                      "90% акция"
+                    ]
+                  }
+                ],
+                "correct": "Өсу"
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Take the right risk",
+              "ru": "Берите правильный риск",
+              "kz": "Дұрыс тәуекелді алыңыз"
+            },
+            "body": {
+              "en": "You can't get reward without exposure to risk, but you can match the risk to your goal and time. The skill isn't avoiding risk — it's taking the right risk for the job.",
+              "ru": "Без риска нет вознаграждения, но риск можно подобрать под цель и срок. Мастерство не в избегании риска, а в выборе правильного риска под задачу.",
+              "kz": "Тәуекелсіз сыйақы жоқ, бірақ тәуекелді мақсат пен мерзімге сай таңдауға болады. Шеберлік — тәуекелден қашу емес, міндетке сай дұрыс тәуекелді алу."
+            },
+            "tip": {
+              "en": "Ask not \"is this risky?\" but \"is this risk worth the expected reward, for my timeline?\"",
+              "ru": "Спрашивайте не «рискованно ли это?», а «оправдан ли этот риск ожидаемой доходностью для моего срока?».",
+              "kz": "«Бұл тәуекелді ме?» емес, «бұл тәуекел менің мерзіміме сай күтілетін табысқа тұра ма?» деп сұраңыз."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 104,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Risk vs Reward — Check",
+          "ru": "Риск и доходность — Проверка",
+          "kz": "Тәуекел мен табыс — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An investment promises 30% per year with 'no risk.' The most reasonable conclusion is:",
+              "ru": "Инвестиция обещает 30% в год «без риска». Самый разумный вывод:",
+              "kz": "Инвестиция жылына «тәуекелсіз» 30% уәде етеді. Ең орынды қорытынды:"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "The claim is misleading or a scam — high return without risk doesn't exist",
+                  "ru": "Заявление вводит в заблуждение или это мошенничество — высокой доходности без риска не бывает",
+                  "kz": "Бұл жаңылыстырады немесе алаяқтық — тәуекелсіз жоғары табыс болмайды"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It's a great deal — invest everything",
+                  "ru": "Отличная сделка — вложить всё",
+                  "kz": "Тамаша мәміле — бәрін салу керек"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Returns and risk are unrelated",
+                  "ru": "Доходность и риск не связаны",
+                  "kz": "Табыс пен тәуекелдің байланысы жоқ"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Only banks can offer this safely",
+                  "ru": "Только банки могут предложить это безопасно",
+                  "kz": "Мұны тек банктер қауіпсіз ұсына алады"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "You need your money in 6 months for tuition. The most suitable place is:",
+              "ru": "Деньги нужны через 6 месяцев на учёбу. Куда их лучше всего поместить:",
+              "kz": "Ақша 6 айдан кейін оқуға керек. Ең қолайлы орын:"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "A low-risk option like a deposit, even if it earns less",
+                  "ru": "Низкорисковый вариант, например депозит, пусть и с меньшим доходом",
+                  "kz": "Депозит сияқты төмен тәуекелді нұсқа, табысы аз болса да"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Stocks, to earn the highest return",
+                  "ru": "Акции, чтобы получить максимум",
+                  "kz": "Ең көп табыс үшін акциялар"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Whatever returned most last year",
+                  "ru": "То, что больше всего выросло в прошлом году",
+                  "kz": "Өткен жылы ең көп өскен нәрсе"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A single volatile coin",
+                  "ru": "Одна волатильная монета",
+                  "kz": "Бір құбылмалы монета"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why do investors accept the swings of stocks?",
+              "ru": "Почему инвесторы мирятся с колебаниями акций?",
+              "kz": "Инвесторлар акция тербелісіне неге келіседі?"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "They expect higher long-run returns as compensation for that uncertainty",
+                  "ru": "Они рассчитывают на более высокую долгосрочную доходность как плату за неопределённость",
+                  "kz": "Олар сол белгісіздіктің өтемі ретінде ұзақ мерзімде жоғары табыс күтеді"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Swings make investing more exciting",
+                  "ru": "Колебания делают инвестиции интереснее",
+                  "kz": "Тербеліс инвестицияны қызықты етеді"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Stocks never actually fall for long",
+                  "ru": "Акции на самом деле не падают надолго",
+                  "kz": "Акциялар шын мәнінде ұзаққа түспейді"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "There is no real risk in stocks",
+                  "ru": "В акциях нет реального риска",
+                  "kz": "Акцияда нақты тәуекел жоқ"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "good_decisions_vs_lucky_outcomes",
+      "orderIndex": 4,
+      "estimatedMinutes": 5,
+      "quizId": 105,
+      "title": {
+        "en": "Good Decisions vs Lucky Outcomes",
+        "ru": "Хорошие решения и удачные исходы",
+        "kz": "Дұрыс шешімдер мен сәтті нәтижелер"
+      },
+      "description": {
+        "en": "Judge a choice by its reasoning, not by how it happened to turn out.",
+        "ru": "Оценивайте выбор по рассуждению, а не по тому, как он случайно обернулся.",
+        "kz": "Таңдауды кездейсоқ нәтижесімен емес, ой-түйінімен бағалаңыз."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Outcome isn't proof",
+              "ru": "Исход — не доказательство",
+              "kz": "Нәтиже — дәлел емес"
+            },
+            "body": {
+              "en": "A good outcome doesn't prove a good decision, and a bad outcome doesn't prove a bad one. Luck sits between the choice and the result.",
+              "ru": "Хороший исход не доказывает хорошее решение, а плохой — плохое. Между выбором и результатом стоит удача.",
+              "kz": "Жақсы нәтиже дұрыс шешімді дәлелдемейді, нашар нәтиже де теріс шешімді дәлелдемейді. Таңдау мен нәтиженің арасында сәттілік тұр."
+            },
+            "tip": {
+              "en": "Judge the decision by what you knew then — not by what you learned after.",
+              "ru": "Судите решение по тому, что вы знали тогда, а не по тому, что узнали потом.",
+              "kz": "Шешімді кейін білгеніңізбен емес, сол кездегі білгеніңізбен бағалаңыз."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Two things you don't control",
+              "ru": "Два неподконтрольных фактора",
+              "kz": "Бақыламайтын екі нәрсе"
+            },
+            "body": {
+              "en": "Every decision is made with limited information and an uncertain future. A good decision uses the available information well; the outcome also depends on chance you couldn't control.",
+              "ru": "Любое решение принимается при неполной информации и неопределённом будущем. Хорошее решение хорошо использует доступную информацию; исход же зависит ещё и от неподвластной вам случайности.",
+              "kz": "Әр шешім шектеулі ақпаратпен әрі белгісіз болашақпен қабылданады. Дұрыс шешім қолда бар ақпаратты тиімді пайдаланады; ал нәтиже сіз бақылай алмайтын кездейсоқтыққа да байланысты."
+            },
+            "example": {
+              "en": "Driving home drunk and arriving safely is still a terrible decision. The good outcome was luck, not skill.",
+              "ru": "Сесть пьяным за руль и доехать без аварии — всё равно ужасное решение. Хороший исход — это удача, а не мастерство.",
+              "kz": "Мас күйде көлік айдап, аман жету — бәрібір сұмдық шешім. Жақсы нәтиже — шеберлік емес, сәттілік."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Outcome bias",
+              "ru": "Искажение исходом",
+              "kz": "Нәтижеге бейімделу"
+            },
+            "body": {
+              "en": "Judging decisions only by results is called outcome bias. It makes you repeat lucky mistakes and abandon sound strategies after one bad result.",
+              "ru": "Оценивать решения только по результату — это искажение исходом. Из-за него вы повторяете удачные ошибки и бросаете разумные стратегии после одной неудачи.",
+              "kz": "Шешімді тек нәтижесімен бағалау — нәтижеге бейімделу деп аталады. Соның салдарынан сәтті қателерді қайталап, бір сәтсіздіктен кейін дұрыс стратегиядан бас тартасыз."
+            },
+            "tip": {
+              "en": "One bad year for a sensible investment doesn't make selling the right call.",
+              "ru": "Один плохой год у разумной инвестиции не делает продажу верным решением.",
+              "kz": "Орынды инвестицияның бір нашар жылы сатуды дұрыс шешімге айналдырмайды."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Four combinations",
+              "ru": "Четыре сочетания",
+              "kz": "Төрт ұштасу"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Decision and outcome combine four ways:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Decision",
+                        "Outcome",
+                        "Read it as"
+                      ],
+                      [
+                        "Good",
+                        "Good",
+                        "Earned"
+                      ],
+                      [
+                        "Good",
+                        "Bad",
+                        "Bad luck — keep the process"
+                      ],
+                      [
+                        "Bad",
+                        "Good",
+                        "Lucky — don't repeat"
+                      ],
+                      [
+                        "Bad",
+                        "Bad",
+                        "Learn from it"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Only the matching rows are deserved. The mismatched ones are luck."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Решение и исход дают четыре сочетания:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Решение",
+                        "Исход",
+                        "Как трактовать"
+                      ],
+                      [
+                        "Хорошее",
+                        "Хороший",
+                        "Заслужено"
+                      ],
+                      [
+                        "Хорошее",
+                        "Плохой",
+                        "Не повезло — сохранить подход"
+                      ],
+                      [
+                        "Плохое",
+                        "Хороший",
+                        "Повезло — не повторять"
+                      ],
+                      [
+                        "Плохое",
+                        "Плохой",
+                        "Извлечь урок"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Заслужены только совпадающие строки. Несовпадающие — это удача."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Шешім мен нәтиже төрт түрде ұштасады:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Шешім",
+                        "Нәтиже",
+                        "Қалай түсіну"
+                      ],
+                      [
+                        "Дұрыс",
+                        "Жақсы",
+                        "Лайықты"
+                      ],
+                      [
+                        "Дұрыс",
+                        "Нашар",
+                        "Сәтсіздік — әдісті сақта"
+                      ],
+                      [
+                        "Теріс",
+                        "Жақсы",
+                        "Сәттілік — қайталама"
+                      ],
+                      [
+                        "Теріс",
+                        "Нашар",
+                        "Сабақ ал"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Тек сәйкес жолдар лайықты. Сәйкес келмейтіндері — сәттілік."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Judge the reasoning",
+              "ru": "Оцените рассуждение",
+              "kz": "Ой-түйінді бағала"
+            },
+            "body": {
+              "en": "Judge each decision by its reasoning, ignoring how it turned out.",
+              "ru": "Оценивайте каждое решение по рассуждению, не глядя на исход.",
+              "kz": "Әр шешімді нәтижесіне қарамай, ой-түйіні бойынша бағалаңыз."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Judge each decision by its reasoning, ignoring how it turned out. Good or bad decision?",
+                "options": [
+                  "Good decision",
+                  "Bad decision"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Puts all savings into one unknown coin on a stranger's tip; it happens to triple.",
+                    "correct_answer": "Bad decision",
+                    "explanation": "A concentrated bet on no information. Tripling was luck, not skill."
+                  },
+                  {
+                    "text": "Buys a broad, low-cost index fund for a 20-year goal; it drops 12% the first year.",
+                    "correct_answer": "Good decision",
+                    "explanation": "Sound, diversified, long-horizon choice. One down year doesn't make it wrong."
+                  },
+                  {
+                    "text": "Keeps 6 months of expenses in an emergency fund; no emergency happens this year.",
+                    "correct_answer": "Good decision",
+                    "explanation": "Insurance against uncertainty. A quiet year doesn't mean the fund was wasted."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Оценивайте каждое решение по рассуждению, не глядя на исход. Хорошее или плохое?",
+                "options": [
+                  "Хорошее решение",
+                  "Плохое решение"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Вкладывает все сбережения в одну неизвестную монету по совету незнакомца; она случайно утраивается.",
+                    "correct_answer": "Плохое решение",
+                    "explanation": "Концентрированная ставка без информации. Утроение — удача, а не мастерство."
+                  },
+                  {
+                    "text": "Покупает широкий недорогой индексный фонд на цель в 20 лет; в первый год он падает на 12%.",
+                    "correct_answer": "Хорошее решение",
+                    "explanation": "Разумный, диверсифицированный выбор на долгий срок. Один спад не делает его ошибкой."
+                  },
+                  {
+                    "text": "Держит подушку безопасности на 6 месяцев расходов; в этом году ЧП не случилось.",
+                    "correct_answer": "Хорошее решение",
+                    "explanation": "Страховка от неопределённости. Спокойный год не значит, что фонд был лишним."
+                  }
+                ]
+              },
+              "kz": {
+                "instruction": "Әр шешімді нәтижесіне қарамай, ой-түйіні бойынша бағалаңыз. Дұрыс па, теріс пе?",
+                "options": [
+                  "Дұрыс шешім",
+                  "Теріс шешім"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Бейтаныс адамның кеңесімен барлық жинағын бір белгісіз монетаға салады; ол кездейсоқ үш есе өседі.",
+                    "correct_answer": "Теріс шешім",
+                    "explanation": "Ақпаратсыз шоғырланған тәуекел. Үш есе өсу — шеберлік емес, сәттілік."
+                  },
+                  {
+                    "text": "20 жылдық мақсатқа кең әрі арзан индекс қорын алады; бірінші жылы 12%-ға түседі.",
+                    "correct_answer": "Дұрыс шешім",
+                    "explanation": "Орынды, әртараптандырылған, ұзақ мерзімді таңдау. Бір құлдырау оны қате етпейді."
+                  },
+                  {
+                    "text": "Төтенше қорда 6 айлық шығынды ұстайды; биыл төтенше жағдай болмады.",
+                    "correct_answer": "Дұрыс шешім",
+                    "explanation": "Белгісіздікке қарсы сақтандыру. Тыныш жыл қордың артық болғанын білдірмейді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Grade the process",
+              "ru": "Оценивайте процесс",
+              "kz": "Үдерісті бағала"
+            },
+            "body": {
+              "en": "Over many decisions, good process wins even though any single result can disappoint. Build the habit of asking 'was that well-reasoned?' before 'did it work?'",
+              "ru": "На длинной дистанции хороший процесс побеждает, хотя отдельный результат может разочаровать. Выработайте привычку спрашивать «было ли решение обоснованным?» раньше, чем «сработало ли оно?».",
+              "kz": "Көп шешімнің ішінде дұрыс үдеріс жеңеді, әрбір жеке нәтиже көңіл қалдыруы мүмкін болса да. «Нәтиже берді ме?» дегеннен бұрын «ой-түйіні дұрыс па еді?» деп сұрау әдетін қалыптастырыңыз."
+            },
+            "tip": {
+              "en": "You control the decision. You don't control the dice. Grade yourself on the part you control.",
+              "ru": "Вы управляете решением, но не игральными костями. Оценивайте себя по тому, что в ваших руках.",
+              "kz": "Шешімді сіз бақылайсыз, сүйекті емес. Өзіңізді қолыңыздағы бөлік бойынша бағалаңыз."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 105,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Good Decisions vs Lucky Outcomes — Check",
+          "ru": "Хорошие решения и удачные исходы — Проверка",
+          "kz": "Дұрыс шешімдер мен сәтті нәтижелер — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person bets all their savings on one risky coin from a tip and triples the money. The decision was:",
+              "ru": "Человек ставит все сбережения на одну рискованную монету по наводке и утраивает деньги. Решение было:",
+              "kz": "Адам кеңеспен барлық жинағын бір тәуекелді монетаға тігіп, ақшаны үш есе өсіреді. Шешім:"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Poor — it relied on luck and concentration, despite the good result",
+                  "ru": "Плохим — оно держалось на удаче и концентрации, несмотря на хороший итог",
+                  "kz": "Теріс — жақсы нәтижеге қарамай, сәттілік пен шоғырлануға сүйенді"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Excellent — the result proves it",
+                  "ru": "Отличным — результат это доказывает",
+                  "kz": "Тамаша — нәтиже соны дәлелдейді"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Impossible to judge",
+                  "ru": "Невозможно оценить",
+                  "kz": "Бағалау мүмкін емес"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Good, because no money was lost",
+                  "ru": "Хорошим, ведь деньги не потеряны",
+                  "kz": "Дұрыс, өйткені ақша жоғалмады"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Judging a decision only by how it turned out is called:",
+              "ru": "Оценку решения только по исходу называют:",
+              "kz": "Шешімді тек нәтижесімен бағалауды қалай атайды:"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Outcome bias",
+                  "ru": "Искажением исходом",
+                  "kz": "Нәтижеге бейімделу"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Diversification",
+                  "ru": "Диверсификацией",
+                  "kz": "Әртараптандыру"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Risk tolerance",
+                  "ru": "Толерантностью к риску",
+                  "kz": "Тәуекелге төзімділік"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Compounding",
+                  "ru": "Сложным процентом",
+                  "kz": "Күрделі пайыз"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "A well-reasoned, diversified investment loses 8% in a bad market year. The best conclusion is:",
+              "ru": "Обоснованная, диверсифицированная инвестиция теряет 8% в плохой год рынка. Лучший вывод:",
+              "kz": "Орынды, әртараптандырылған инвестиция нашар нарық жылында 8%-ға кемиді. Ең дұрыс қорытынды:"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "The decision can still be sound — one year's result doesn't prove the process wrong",
+                  "ru": "Решение всё ещё может быть верным — результат одного года не доказывает ошибочность подхода",
+                  "kz": "Шешім әлі де дұрыс болуы мүмкін — бір жылдың нәтижесі әдістің қателігін дәлелдемейді"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The strategy has failed and should be dropped",
+                  "ru": "Стратегия провалилась, её надо бросить",
+                  "kz": "Стратегия сәтсіз болды, оны тастау керек"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Losses always mean a bad decision",
+                  "ru": "Убытки всегда означают плохое решение",
+                  "kz": "Шығын әрдайым теріс шешімді білдіреді"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Diversification caused the loss",
+                  "ru": "Диверсификация и вызвала убыток",
+                  "kz": "Шығынды әртараптандыру тудырды"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 199,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Financial Decisions & Trade-offs — Final",
+      "ru": "Финансовые решения и компромиссы — Итог",
+      "kz": "Қаржылық шешімдер мен таңдаулар — Қорытынды"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "At its core, finance is best described as:",
+          "ru": "По своей сути финансы лучше всего описать как:",
+          "kz": "Негізінде қаржыны қалай дұрыс сипаттаймыз:"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "Allocating a finite resource across competing uses",
+              "ru": "Распределение ограниченного ресурса между конкурирующими целями",
+              "kz": "Шектеулі ресурсты бәсекелес мақсаттар арасында бөлу"
+            }
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Earning and storing as much money as possible",
+              "ru": "Заработок и хранение максимума денег",
+              "kz": "Барынша көп ақша табу және сақтау"
+            }
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Memorizing financial products and terms",
+              "ru": "Запоминание финансовых продуктов и терминов",
+              "kz": "Қаржы өнімдері мен терминдерді жаттау"
+            }
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Avoiding all risk at any cost",
+              "ru": "Избегание любого риска любой ценой",
+              "kz": "Кез келген бағамен барлық тәуекелден қашу"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "The opportunity cost of choosing A over B is:",
+          "ru": "Альтернативные издержки выбора A вместо B — это:",
+          "kz": "B-ның орнына A-ны таңдаудың баламалы шығыны — бұл:"
+        },
+        "answers": [
+          {
+            "id": 5,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "The value of B — the best alternative you gave up",
+              "ru": "Ценность B — лучшей альтернативы, от которой отказались",
+              "kz": "B-ның құны — бас тартқан ең жақсы балама"
+            }
+          },
+          {
+            "id": 6,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "The money you paid for A",
+              "ru": "Деньги, уплаченные за A",
+              "kz": "A үшін төлеген ақша"
+            }
+          },
+          {
+            "id": 7,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Zero, since you chose what you wanted",
+              "ru": "Ноль, ведь вы выбрали желаемое",
+              "kz": "Нөл, өйткені қалағаныңызды таңдадыңыз"
+            }
+          },
+          {
+            "id": 8,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "The total of A and B together",
+              "ru": "Сумма A и B вместе",
+              "kz": "A мен B-ның қосындысы"
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "Money received today is generally worth more than the same amount later because:",
+          "ru": "Деньги, полученные сегодня, обычно ценнее той же суммы потом, потому что:",
+          "kz": "Бүгін алынған ақша әдетте кейінгі сол сомадан қымбат, өйткені:"
+        },
+        "answers": [
+          {
+            "id": 9,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "It can be put to work now and earn a return",
+              "ru": "Их можно пустить в дело сейчас и получить доход",
+              "kz": "Оны қазір іске қосып, табыс табуға болады"
+            }
+          },
+          {
+            "id": 10,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Future money is always fake",
+              "ru": "Будущие деньги всегда ненастоящие",
+              "kz": "Болашақ ақша әрқашан жалған"
+            }
+          },
+          {
+            "id": 11,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Banks forbid waiting",
+              "ru": "Банки запрещают ждать",
+              "kz": "Банктер күтуге тыйым салады"
+            }
+          },
+          {
+            "id": 12,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Older money is more valuable by law",
+              "ru": "Старые деньги ценнее по закону",
+              "kz": "Ескі ақша заң бойынша құндырақ"
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "A product advertises high returns with zero risk. You should:",
+          "ru": "Продукт рекламирует высокую доходность при нулевом риске. Следует:",
+          "kz": "Өнім нөлдік тәуекелмен жоғары табыс жарнамалайды. Қалай істеу керек:"
+        },
+        "answers": [
+          {
+            "id": 13,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "Be very skeptical — such a combination doesn't exist",
+              "ru": "Быть очень скептичным — такого сочетания не бывает",
+              "kz": "Қатты күмәндану — мұндай үйлесім болмайды"
+            }
+          },
+          {
+            "id": 14,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Invest immediately before the offer ends",
+              "ru": "Вложить немедленно, пока предложение действует",
+              "kz": "Ұсыныс біткенше дереу салу"
+            }
+          },
+          {
+            "id": 15,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Assume it's safe if a friend recommends it",
+              "ru": "Считать безопасным, если советует друг",
+              "kz": "Дос ұсынса, қауіпсіз деп санау"
+            }
+          },
+          {
+            "id": 16,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Borrow money to invest more",
+              "ru": "Занять денег, чтобы вложить больше",
+              "kz": "Көбірек салу үшін қарызға алу"
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "A risky, unreasoned bet that happens to pay off was:",
+          "ru": "Рискованная, необоснованная ставка, которая случайно сыграла, была:",
+          "kz": "Кездейсоқ ұтып шыққан тәуекелді, негізсіз тігу — бұл:"
+        },
+        "answers": [
+          {
+            "id": 17,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "A poor decision with a lucky outcome",
+              "ru": "Плохим решением со счастливым исходом",
+              "kz": "Сәтті нәтижесі бар теріс шешім"
+            }
+          },
+          {
+            "id": 18,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "A good decision, proven by the result",
+              "ru": "Хорошим решением, что доказано результатом",
+              "kz": "Нәтижемен дәлелденген дұрыс шешім"
+            }
+          },
+          {
+            "id": 19,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "A skillful, repeatable strategy",
+              "ru": "Умелой, повторяемой стратегией",
+              "kz": "Шебер әрі қайталанатын стратегия"
+            }
+          },
+          {
+            "id": 20,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Proof that risk doesn't matter",
+              "ru": "Доказательством, что риск не важен",
+              "kz": "Тәуекелдің маңызы жоқ екенінің дәлелі"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

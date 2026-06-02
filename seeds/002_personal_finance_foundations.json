@@ -1,0 +1,3025 @@
+{
+  "topic": {
+    "code": "personal_finance_foundations",
+    "title": {
+      "en": "Personal Finance Foundations",
+      "ru": "Основы личных финансов",
+      "kz": "Жеке қаржы негіздері"
+    },
+    "description": {
+      "en": "The whole money system: earning, spending, net worth, cash flow, and goals.",
+      "ru": "Вся денежная система: доход, траты, чистый капитал, поток и цели.",
+      "kz": "Бүкіл ақша жүйесі: табыс, шығыс, таза құн, ағын және мақсаттар."
+    },
+    "level": "beginner",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "what_personal_finance_covers",
+      "orderIndex": 0,
+      "estimatedMinutes": 5,
+      "quizId": 201,
+      "title": {
+        "en": "What Personal Finance Covers",
+        "ru": "Что охватывают личные финансы",
+        "kz": "Жеке қаржы нені қамтиды"
+      },
+      "description": {
+        "en": "The five connected jobs of money: earn, spend, store, protect, grow.",
+        "ru": "Пять связанных задач денег: зарабатывать, тратить, хранить, защищать, приумножать.",
+        "kz": "Ақшаның бес байланысты міндеті: табу, жұмсау, сақтау, қорғау, өсіру."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Five jobs, one system",
+              "ru": "Пять задач, одна система",
+              "kz": "Бес міндет, бір жүйе"
+            },
+            "body": {
+              "en": "Personal finance is everything you do with money across your life, and it splits into five connected jobs: earning it, spending it, storing it, protecting it, and growing it. Learn the map and individual products stop feeling random.",
+              "ru": "Личные финансы — это всё, что вы делаете с деньгами в течение жизни, и они делятся на пять связанных задач: зарабатывать, тратить, хранить, защищать и приумножать. Освойте эту карту — и отдельные продукты перестанут казаться случайными.",
+              "kz": "Жеке қаржы — өміріңізде ақшамен істейтін бәріңіз, ол бес өзара байланысты міндетке бөлінеді: табу, жұмсау, сақтау, қорғау және өсіру. Осы картаны меңгерсеңіз, жеке өнімдер кездейсоқ болып көрінбейді."
+            },
+            "tip": {
+              "en": "If a money decision doesn't fit one of these five jobs, it probably isn't a financial decision.",
+              "ru": "Если денежное решение не вписывается ни в одну из пяти задач, скорее всего это и не финансовое решение.",
+              "kz": "Ақшалай шешім осы бес міндеттің біріне сай келмесе, ол қаржылық шешім емес шығар."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Money in, money out",
+              "ru": "Деньги приходят и уходят",
+              "kz": "Ақша келеді, кетеді"
+            },
+            "body": {
+              "en": "Money in and money out is where most people stop thinking: salary arrives, bills and wants take it away. But income alone never makes anyone secure — a high earner who spends it all is one bad month from trouble.",
+              "ru": "На «приходе и расходе» большинство и останавливается: приходит зарплата, счета и желания её забирают. Но один лишь доход никого не делает защищённым — много зарабатывающий, но тратящий всё, в одном плохом месяце от беды.",
+              "kz": "Көбі ойлауын «ақша кірісі мен шығысында» тоқтатады: жалақы келеді, шот пен қалаулар оны алып кетеді. Бірақ табыстың өзі ешкімді қорғамайды — көп тауып, бәрін жұмсайтын адам бір нашар айдан кейін қиындыққа тап болады."
+            },
+            "example": {
+              "en": "Two people earn 500,000 ₸. One spends all of it; the other spends 380,000 ₸. After a year the second has 1,440,000 ₸ saved — same income, different system.",
+              "ru": "Двое зарабатывают по 500 000 ₸. Один тратит всё, другой — 380 000 ₸. Через год у второго накоплено 1 440 000 ₸ — доход тот же, система разная.",
+              "kz": "Екеуі 500 000 ₸ табады. Бірі бәрін жұмсайды, екіншісі 380 000 ₸ жұмсайды. Бір жылдан кейін екіншісінде 1 440 000 ₸ жинақ — табыс бірдей, жүйе бөлек."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Where security actually comes from",
+              "ru": "Откуда берётся защищённость",
+              "kz": "Қауіпсіздік қайдан келеді"
+            },
+            "body": {
+              "en": "The other three jobs build stability and wealth: saving creates a buffer for shocks, protecting (insurance) stops one event from wiping you out, and growing (investing) makes money work over time. Neglecting these is why income rarely equals security.",
+              "ru": "Остальные три задачи создают устойчивость и богатство: сбережения дают подушку на случай потрясений, защита (страхование) не даёт одному событию обнулить вас, а приумножение (инвестиции) заставляет деньги работать. Из-за их игнорирования доход редко равен защищённости.",
+              "kz": "Қалған үш міндет тұрақтылық пен байлық қалыптастырады: жинақ — соққыға қарсы қор, қорғау (сақтандыру) бір оқиғаның бәрін жоюына жол бермейді, өсіру (инвестиция) ақшаны жұмыс істетеді. Осыларды елемеу — табыстың қауіпсіздікке тең болмауының себебі."
+            },
+            "tip": {
+              "en": "Earning more helps, but what you do with the gap between income and spending decides everything.",
+              "ru": "Зарабатывать больше полезно, но всё решает то, как вы распоряжаетесь разницей между доходом и тратами.",
+              "kz": "Көп табу пайдалы, бірақ бәрін табыс пен шығыс арасындағы айырманы қалай пайдаланғаныңыз шешеді."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "The map of personal finance",
+              "ru": "Карта личных финансов",
+              "kz": "Жеке қаржы картасы"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "The five jobs and what each does:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Job",
+                        "What it does",
+                        "Example"
+                      ],
+                      [
+                        "Earning",
+                        "Brings money in",
+                        "Salary, freelance"
+                      ],
+                      [
+                        "Spending",
+                        "Sends money out",
+                        "Rent, food, wants"
+                      ],
+                      [
+                        "Storing",
+                        "Saves or borrows",
+                        "Emergency fund, loan"
+                      ],
+                      [
+                        "Protecting",
+                        "Limits the downside",
+                        "Insurance"
+                      ],
+                      [
+                        "Growing",
+                        "Builds over time",
+                        "Investments"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "They interact: borrow too much and saving stalls; skip insurance and one event erases years of growth."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Пять задач и что делает каждая:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Задача",
+                        "Что делает",
+                        "Пример"
+                      ],
+                      [
+                        "Зарабатывать",
+                        "Приносит деньги",
+                        "Зарплата, фриланс"
+                      ],
+                      [
+                        "Тратить",
+                        "Отправляет деньги",
+                        "Аренда, еда, желания"
+                      ],
+                      [
+                        "Хранить",
+                        "Сберегает или занимает",
+                        "Подушка, кредит"
+                      ],
+                      [
+                        "Защищать",
+                        "Ограничивает потери",
+                        "Страхование"
+                      ],
+                      [
+                        "Приумножать",
+                        "Растёт со временем",
+                        "Инвестиции"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Они связаны: займёте лишнего — сбережения встанут; пропустите страховку — одно событие сотрёт годы роста."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Бес міндет және әрқайсысы не істейді:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Міндет",
+                        "Не істейді",
+                        "Мысал"
+                      ],
+                      [
+                        "Табу",
+                        "Ақша әкеледі",
+                        "Жалақы, фриланс"
+                      ],
+                      [
+                        "Жұмсау",
+                        "Ақшаны шығарады",
+                        "Жалдау, тамақ, қалаулар"
+                      ],
+                      [
+                        "Сақтау",
+                        "Жинайды не қарызға алады",
+                        "Қор, несие"
+                      ],
+                      [
+                        "Қорғау",
+                        "Шығынды шектейді",
+                        "Сақтандыру"
+                      ],
+                      [
+                        "Өсіру",
+                        "Уақытпен өседі",
+                        "Инвестициялар"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Олар байланысты: артық қарыз алсаң — жинақ тоқтайды; сақтандыруды өткізіп жіберсең — бір оқиға жылдар бойғы өсімді жояды."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Sort the actions",
+              "ru": "Распределите действия",
+              "kz": "Әрекеттерді бөліңіз"
+            },
+            "body": {
+              "en": "Drag each action to the part of the system it belongs to.",
+              "ru": "Перетащите каждое действие в ту часть системы, к которой оно относится.",
+              "kz": "Әр әрекетті өзі жататын жүйенің бөлігіне сүйреңіз."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Sort each action into the right part of the money system.",
+                "categories": [
+                  {
+                    "id": "flow",
+                    "label": "Money flow"
+                  },
+                  {
+                    "id": "safety",
+                    "label": "Safety net"
+                  },
+                  {
+                    "id": "wealth",
+                    "label": "Build wealth"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "salary",
+                    "text": "Receiving your salary"
+                  },
+                  {
+                    "id": "rent",
+                    "text": "Paying monthly rent"
+                  },
+                  {
+                    "id": "fund",
+                    "text": "Keeping 3 months of expenses aside"
+                  },
+                  {
+                    "id": "ins",
+                    "text": "Buying health insurance"
+                  },
+                  {
+                    "id": "index",
+                    "text": "Investing in an index fund"
+                  },
+                  {
+                    "id": "pension",
+                    "text": "Contributing to a pension"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "salary",
+                    "categoryId": "flow"
+                  },
+                  {
+                    "itemId": "rent",
+                    "categoryId": "flow"
+                  },
+                  {
+                    "itemId": "fund",
+                    "categoryId": "safety"
+                  },
+                  {
+                    "itemId": "ins",
+                    "categoryId": "safety"
+                  },
+                  {
+                    "itemId": "index",
+                    "categoryId": "wealth"
+                  },
+                  {
+                    "itemId": "pension",
+                    "categoryId": "wealth"
+                  }
+                ],
+                "explanation": "Earning and spending are the flow; the emergency fund and insurance are your safety net; investments and pensions build long-term wealth."
+              },
+              "ru": {
+                "instruction": "Распределите каждое действие по нужной части денежной системы.",
+                "categories": [
+                  {
+                    "id": "flow",
+                    "label": "Денежный поток"
+                  },
+                  {
+                    "id": "safety",
+                    "label": "Подушка безопасности"
+                  },
+                  {
+                    "id": "wealth",
+                    "label": "Рост капитала"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "salary",
+                    "text": "Получение зарплаты"
+                  },
+                  {
+                    "id": "rent",
+                    "text": "Оплата аренды"
+                  },
+                  {
+                    "id": "fund",
+                    "text": "Отложить расходы на 3 месяца"
+                  },
+                  {
+                    "id": "ins",
+                    "text": "Покупка медстраховки"
+                  },
+                  {
+                    "id": "index",
+                    "text": "Вложение в индексный фонд"
+                  },
+                  {
+                    "id": "pension",
+                    "text": "Взносы в пенсию"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "salary",
+                    "categoryId": "flow"
+                  },
+                  {
+                    "itemId": "rent",
+                    "categoryId": "flow"
+                  },
+                  {
+                    "itemId": "fund",
+                    "categoryId": "safety"
+                  },
+                  {
+                    "itemId": "ins",
+                    "categoryId": "safety"
+                  },
+                  {
+                    "itemId": "index",
+                    "categoryId": "wealth"
+                  },
+                  {
+                    "itemId": "pension",
+                    "categoryId": "wealth"
+                  }
+                ],
+                "explanation": "Доход и траты — это поток; подушка и страховка — защита; инвестиции и пенсия растят долгосрочный капитал."
+              },
+              "kz": {
+                "instruction": "Әр әрекетті ақша жүйесінің дұрыс бөлігіне бөліңіз.",
+                "categories": [
+                  {
+                    "id": "flow",
+                    "label": "Ақша ағыны"
+                  },
+                  {
+                    "id": "safety",
+                    "label": "Қауіпсіздік қоры"
+                  },
+                  {
+                    "id": "wealth",
+                    "label": "Байлық өсіру"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "salary",
+                    "text": "Жалақы алу"
+                  },
+                  {
+                    "id": "rent",
+                    "text": "Айлық жалдау төлемі"
+                  },
+                  {
+                    "id": "fund",
+                    "text": "3 айлық шығынды бөлек қою"
+                  },
+                  {
+                    "id": "ins",
+                    "text": "Медициналық сақтандыру алу"
+                  },
+                  {
+                    "id": "index",
+                    "text": "Индекс қорына салу"
+                  },
+                  {
+                    "id": "pension",
+                    "text": "Зейнетақыға жарна"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "salary",
+                    "categoryId": "flow"
+                  },
+                  {
+                    "itemId": "rent",
+                    "categoryId": "flow"
+                  },
+                  {
+                    "itemId": "fund",
+                    "categoryId": "safety"
+                  },
+                  {
+                    "itemId": "ins",
+                    "categoryId": "safety"
+                  },
+                  {
+                    "itemId": "index",
+                    "categoryId": "wealth"
+                  },
+                  {
+                    "itemId": "pension",
+                    "categoryId": "wealth"
+                  }
+                ],
+                "explanation": "Табыс пен шығыс — ағын; қор мен сақтандыру — қорғаныс; инвестиция мен зейнетақы ұзақ мерзімді байлық өсіреді."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Balance beats brilliance",
+              "ru": "Баланс важнее блеска",
+              "kz": "Тепе-теңдік шеберліктен маңызды"
+            },
+            "body": {
+              "en": "Personal finance is one system with five jobs — earn, spend, store, protect, grow. Strength comes from balance across all five, not from being excellent at one. As you move through this app, slot each new topic into its place on the map.",
+              "ru": "Личные финансы — единая система из пяти задач: зарабатывать, тратить, хранить, защищать, приумножать. Сила — в балансе всех пяти, а не в идеальном владении одной. Двигаясь по приложению, помещайте каждую новую тему на её место на карте.",
+              "kz": "Жеке қаржы — бес міндеттен тұратын бір жүйе: табу, жұмсау, сақтау, қорғау, өсіру. Күш — бесеуінің тепе-теңдігінде, біреуінде ғана үздік болуда емес. Қосымшаны аралай отырып, әр жаңа тақырыпты картадағы орнына қойыңыз."
+            },
+            "tip": {
+              "en": "For any money decision ask: which of the five jobs is this, and is the whole system still balanced?",
+              "ru": "О любом денежном решении спросите: какая это из пяти задач и остаётся ли система сбалансированной?",
+              "kz": "Кез келген ақшалай шешім туралы сұраңыз: бұл бес міндеттің қайсысы және жүйе әлі тепе-тең бе?"
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 201,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "What Personal Finance Covers — Check",
+          "ru": "Что охватывают личные финансы — Проверка",
+          "kz": "Жеке қаржы нені қамтиды — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Personal finance is best understood as:",
+              "ru": "Личные финансы лучше всего понимать как:",
+              "kz": "Жеке қаржыны қалай дұрыс түсінген жөн:"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "A connected system of earning, spending, storing, protecting, and growing money",
+                  "ru": "Связанную систему: зарабатывать, тратить, хранить, защищать и приумножать деньги",
+                  "kz": "Ақшаны табу, жұмсау, сақтау, қорғау және өсіру байланысты жүйесі"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Mainly about cutting your spending",
+                  "ru": "В основном про сокращение трат",
+                  "kz": "Негізінен шығынды қысқарту туралы"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A set of investing tricks",
+                  "ru": "Набор инвестиционных трюков",
+                  "kz": "Инвестициялық айла-тәсілдер жиыны"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Only relevant once you are wealthy",
+                  "ru": "Важно только когда вы уже богаты",
+                  "kz": "Тек бай болғанда ғана маңызды"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why doesn't a high income guarantee financial security?",
+              "ru": "Почему высокий доход не гарантирует финансовую защищённость?",
+              "kz": "Жоғары табыс неге қаржылық қауіпсіздікке кепілдік бермейді?"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Security depends on the whole system — what you store, protect, and grow, not just what you earn",
+                  "ru": "Защищённость зависит от всей системы — что вы храните, защищаете и приумножаете, а не только от заработка",
+                  "kz": "Қауіпсіздік бүкіл жүйеге байланысты — не сақтайсыз, қорғайсыз, өсіресіз, тек тапқаныңызға емес"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "High income always means high security",
+                  "ru": "Высокий доход всегда означает высокую защищённость",
+                  "kz": "Жоғары табыс әрдайым жоғары қауіпсіздікті білдіреді"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Earning more removes the need to save",
+                  "ru": "Чем больше доход, тем меньше нужно копить",
+                  "kz": "Табыс көп болса, жинаудың қажеті жоқ"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Income and security are unrelated",
+                  "ru": "Доход и защищённость не связаны",
+                  "kz": "Табыс пен қауіпсіздіктің байланысы жоқ"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "income_types",
+      "orderIndex": 1,
+      "estimatedMinutes": 5,
+      "quizId": 202,
+      "title": {
+        "en": "Income Types",
+        "ru": "Виды дохода",
+        "kz": "Табыс түрлері"
+      },
+      "description": {
+        "en": "Active income trades time for money; passive income comes from assets.",
+        "ru": "Активный доход меняет время на деньги; пассивный идёт от активов.",
+        "kz": "Белсенді табыс уақытты ақшаға айырбастайды; пассивті табыс активтерден түседі."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Not all income is the same",
+              "ru": "Не всякий доход одинаков",
+              "kz": "Табыстың бәрі бірдей емес"
+            },
+            "body": {
+              "en": "Income is any money you receive, but the source matters as much as the amount. Some income needs your continuous time and effort; some keeps arriving whether you work that day or not.",
+              "ru": "Доход — это любые поступающие деньги, но источник важен не меньше суммы. Один доход требует постоянного времени и сил, другой приходит независимо от того, работали вы в этот день или нет.",
+              "kz": "Табыс — түсетін кез келген ақша, бірақ дереккөз сома сияқты маңызды. Бір табыс үздіксіз уақыт пен күшті талап етеді, екіншісі сол күні жұмыс істедіңіз бе, жоқ па — бәрібір келеді."
+            },
+            "tip": {
+              "en": "Ask not only \"how much?\" but \"what has to keep happening for this to continue?\"",
+              "ru": "Спрашивайте не только «сколько?», но и «что должно продолжаться, чтобы это не прекратилось?».",
+              "kz": "«Қанша?» дегеннен бөлек «бұл жалғасу үшін не болып тұруы керек?» деп сұраңыз."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Active income: time for money",
+              "ru": "Активный доход: время за деньги",
+              "kz": "Белсенді табыс: уақытқа ақша"
+            },
+            "body": {
+              "en": "Active income is money you earn by trading time and effort — a salary, freelance work, a business you run day to day. It is usually reliable and how almost everyone starts, but it has a ceiling: there are only so many hours, and it stops when you stop.",
+              "ru": "Активный доход — деньги, заработанные обменом времени и сил: зарплата, фриланс, бизнес, которым вы управляете ежедневно. Обычно он надёжен и с него все начинают, но у него есть потолок: часов ограниченное число, и он прекращается, когда вы останавливаетесь.",
+              "kz": "Белсенді табыс — уақыт пен күшті айырбастап табатын ақша: жалақы, фриланс, күнделікті жүргізетін бизнес. Әдетте сенімді әрі бәрі содан бастайды, бірақ оның шегі бар: сағат саны шектеулі, ал тоқтасаңыз — ол да тоқтайды."
+            },
+            "example": {
+              "en": "A salaried specialist on 500,000 ₸/month and a freelancer billing per project both depend on showing up. Miss the work, and the income pauses.",
+              "ru": "Штатный специалист с 500 000 ₸/мес и фрилансер с оплатой за проект оба зависят от присутствия. Пропустите работу — и доход останавливается.",
+              "kz": "Айына 500 000 ₸ алатын маман да, жоба бойынша төленетін фрилансер де жұмысқа шығуға тәуелді. Жұмысты өткізіп алсаңыз — табыс тоқтайды."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Passive income: assets at work",
+              "ru": "Пассивный доход: активы работают",
+              "kz": "Пассивті табыс: активтер жұмыста"
+            },
+            "body": {
+              "en": "Passive and portfolio income comes from assets rather than hours — interest on a deposit, rent from an apartment, dividends from shares. It takes money or effort to build first, then arrives with little ongoing time. Building it is how people loosen the time-for-money trap.",
+              "ru": "Пассивный и портфельный доход даёт не время, а активы: проценты по вкладу, аренда квартиры, дивиденды по акциям. Сначала нужны деньги или усилия, затем он приходит почти без затрат времени. Так люди ослабляют ловушку «время за деньги».",
+              "kz": "Пассивті және портфельдік табыс сағаттан емес, активтерден түседі: депозит сыйақысы, пәтер жалдау ақысы, акция дивиденді. Алдымен ақша не күш керек, сосын ол уақытсыз дерлік келеді. Осыны құру — «уақытқа ақша» қақпанын босату жолы."
+            },
+            "tip": {
+              "en": "In Kazakhstan, common sources are deposit interest (сыйақы), apartment rent, and dividends — each taxed differently from salary.",
+              "ru": "В Казахстане частые источники — проценты по вкладу (сыйақы), аренда квартиры и дивиденды; каждый облагается налогом иначе, чем зарплата.",
+              "kz": "Қазақстанда жиі дереккөздер — депозит сыйақысы, пәтер жалдауы және дивидендтер; әрқайсысы жалақыдан өзгеше салықталады."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Does it need your time?",
+              "ru": "Нужно ли ему ваше время?",
+              "kz": "Оған уақытыңыз керек пе?"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sort common income by how much of your time it needs:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Type",
+                        "Source",
+                        "Needs your time?"
+                      ],
+                      [
+                        "Salary",
+                        "Employer",
+                        "Yes, ongoing"
+                      ],
+                      [
+                        "Freelance",
+                        "Clients",
+                        "Yes, per job"
+                      ],
+                      [
+                        "Deposit interest",
+                        "Bank deposit",
+                        "No"
+                      ],
+                      [
+                        "Rent",
+                        "Property",
+                        "A little"
+                      ],
+                      [
+                        "Dividends",
+                        "Shares",
+                        "No"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Financial independence is mostly shifting weight from the top rows to the bottom ones."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Распределите доходы по тому, сколько времени они требуют:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Тип",
+                        "Источник",
+                        "Нужно время?"
+                      ],
+                      [
+                        "Зарплата",
+                        "Работодатель",
+                        "Да, постоянно"
+                      ],
+                      [
+                        "Фриланс",
+                        "Клиенты",
+                        "Да, за проект"
+                      ],
+                      [
+                        "Проценты по вкладу",
+                        "Вклад",
+                        "Нет"
+                      ],
+                      [
+                        "Аренда",
+                        "Недвижимость",
+                        "Немного"
+                      ],
+                      [
+                        "Дивиденды",
+                        "Акции",
+                        "Нет"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Финансовая независимость — это в основном смещение веса с верхних строк к нижним."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Табысты қанша уақыт қажет ететініне қарай бөліңіз:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Түрі",
+                        "Дереккөз",
+                        "Уақыт керек пе?"
+                      ],
+                      [
+                        "Жалақы",
+                        "Жұмыс беруші",
+                        "Иә, үздіксіз"
+                      ],
+                      [
+                        "Фриланс",
+                        "Тапсырыс берушілер",
+                        "Иә, жоба сайын"
+                      ],
+                      [
+                        "Депозит сыйақысы",
+                        "Депозит",
+                        "Жоқ"
+                      ],
+                      [
+                        "Жалдау",
+                        "Жылжымайтын мүлік",
+                        "Аздап"
+                      ],
+                      [
+                        "Дивидендтер",
+                        "Акциялар",
+                        "Жоқ"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Қаржылық тәуелсіздік — негізінен салмақты жоғарғы жолдардан төменгілерге ауыстыру."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Active or passive?",
+              "ru": "Активный или пассивный?",
+              "kz": "Белсенді ме, пассивті ме?"
+            },
+            "body": {
+              "en": "Label each income source by what keeps it coming.",
+              "ru": "Отметьте каждый источник дохода по тому, что его поддерживает.",
+              "kz": "Әр табыс көзін оны не қамтамасыз ететініне қарай белгілеңіз."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Is each income source active or passive?",
+                "options": [
+                  "Active income",
+                  "Passive income"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Monthly salary from a full-time job",
+                    "correct_answer": "Active income",
+                    "explanation": "It stops the moment you stop working — pure time for money."
+                  },
+                  {
+                    "text": "Interest paid on a bank deposit",
+                    "correct_answer": "Passive income",
+                    "explanation": "The deposit earns; no ongoing time from you is required."
+                  },
+                  {
+                    "text": "Payment for a freelance project",
+                    "correct_answer": "Active income",
+                    "explanation": "Earned by trading your time and skill, job by job."
+                  },
+                  {
+                    "text": "Rent from an apartment you own",
+                    "correct_answer": "Passive income",
+                    "explanation": "The asset earns; your time input is small once it's rented."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Каждый источник дохода активный или пассивный?",
+                "options": [
+                  "Активный доход",
+                  "Пассивный доход"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Ежемесячная зарплата на полной занятости",
+                    "correct_answer": "Активный доход",
+                    "explanation": "Прекращается, как только вы перестаёте работать, — чистое время за деньги."
+                  },
+                  {
+                    "text": "Проценты по банковскому вкладу",
+                    "correct_answer": "Пассивный доход",
+                    "explanation": "Зарабатывает вклад; ваше время не требуется."
+                  },
+                  {
+                    "text": "Оплата за фриланс-проект",
+                    "correct_answer": "Активный доход",
+                    "explanation": "Зарабатывается обменом времени и навыка, от проекта к проекту."
+                  },
+                  {
+                    "text": "Аренда вашей квартиры",
+                    "correct_answer": "Пассивный доход",
+                    "explanation": "Зарабатывает актив; ваше время минимально после сдачи."
+                  }
+                ]
+              },
+              "kz": {
+                "instruction": "Әр табыс көзі белсенді ме, пассивті ме?",
+                "options": [
+                  "Белсенді табыс",
+                  "Пассивті табыс"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Толық жұмыс бастылықтағы айлық жалақы",
+                    "correct_answer": "Белсенді табыс",
+                    "explanation": "Жұмысты тоқтатсаңыз бірден тоқтайды — таза уақытқа ақша."
+                  },
+                  {
+                    "text": "Банк депозитіне төленетін сыйақы",
+                    "correct_answer": "Пассивті табыс",
+                    "explanation": "Депозит табады; сізден уақыт талап етілмейді."
+                  },
+                  {
+                    "text": "Фриланс жобасы үшін төлем",
+                    "correct_answer": "Белсенді табыс",
+                    "explanation": "Уақыт пен дағдыны айырбастап, жоба сайын табылады."
+                  },
+                  {
+                    "text": "Өзіңіздің пәтерден жалдау ақысы",
+                    "correct_answer": "Пассивті табыс",
+                    "explanation": "Актив табады; жалға бергеннен кейін уақытыңыз аз кетеді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Use active to build passive",
+              "ru": "Активным строй пассивный",
+              "kz": "Белсендімен пассивтіні құр"
+            },
+            "body": {
+              "en": "Active income trades time for money and has a ceiling; passive income comes from assets and scales beyond your hours. Early on, active income funds life and builds the surplus; over time that surplus buys assets that pay you.",
+              "ru": "Активный доход меняет время на деньги и имеет потолок; пассивный идёт от активов и масштабируется сверх ваших часов. Сначала активный доход обеспечивает жизнь и создаёт излишек; со временем этот излишек покупает активы, которые платят вам.",
+              "kz": "Белсенді табыс уақытты ақшаға айырбастайды және шегі бар; пассивті табыс активтерден түсіп, сағаттан асып масштабталады. Алғашында белсенді табыс өмірді қамтамасыз етіп, артық қаражат жинайды; уақыт өте сол артық қаражат сізге төлейтін активтер сатып алады."
+            },
+            "tip": {
+              "en": "The long-term goal is income that doesn't depend on you showing up.",
+              "ru": "Долгосрочная цель — доход, который не зависит от вашего присутствия.",
+              "kz": "Ұзақ мерзімді мақсат — қатысуыңызға тәуелді емес табыс."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 202,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Income Types — Check",
+          "ru": "Виды дохода — Проверка",
+          "kz": "Табыс түрлері — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Which best describes passive income?",
+              "ru": "Что лучше всего описывает пассивный доход?",
+              "kz": "Пассивті табысты қалай дұрыс сипаттаймыз?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Income from assets that arrives with little ongoing time",
+                  "ru": "Доход от активов, поступающий почти без затрат времени",
+                  "kz": "Активтерден түсетін, уақыт аз кететін табыс"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Any income above your salary",
+                  "ru": "Любой доход сверх зарплаты",
+                  "kz": "Жалақыдан асатын кез келген табыс"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Money earned by working overtime",
+                  "ru": "Деньги за сверхурочную работу",
+                  "kz": "Артық жұмыспен табылған ақша"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Income that is always tax-free",
+                  "ru": "Доход, всегда освобождённый от налога",
+                  "kz": "Әрдайым салықсыз табыс"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "The main limit of relying only on active income is:",
+              "ru": "Главное ограничение опоры только на активный доход:",
+              "kz": "Тек белсенді табысқа сүйенудің басты шектеуі:"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "It has a ceiling — there are only so many hours, and it stops when you stop",
+                  "ru": "У него есть потолок — часов ограниченно, и он прекращается, когда вы останавливаетесь",
+                  "kz": "Оның шегі бар — сағат шектеулі, тоқтасаңыз ол да тоқтайды"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It is always taxed at a higher rate",
+                  "ru": "Он всегда облагается по более высокой ставке",
+                  "kz": "Ол әрдайым жоғары мөлшерлемемен салықталады"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It cannot be saved or invested",
+                  "ru": "Его нельзя сберечь или вложить",
+                  "kz": "Оны жинауға не салуға болмайды"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It is less reliable than passive income",
+                  "ru": "Он менее надёжен, чем пассивный",
+                  "kz": "Ол пассивті табыстан сенімсіз"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Rent received from an apartment you own is mainly:",
+              "ru": "Аренда от вашей квартиры — это в основном:",
+              "kz": "Өзіңіздің пәтерден түсетін жалдау ақысы негізінен:"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Passive income — the asset earns with little of your time",
+                  "ru": "Пассивный доход — актив зарабатывает почти без вашего времени",
+                  "kz": "Пассивті табыс — актив уақытыңызсыз дерлік табады"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Active income — you must work for it daily",
+                  "ru": "Активный доход — нужно работать ежедневно",
+                  "kz": "Белсенді табыс — күн сайын жұмыс істеу керек"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Not income at all",
+                  "ru": "Вовсе не доход",
+                  "kz": "Мүлде табыс емес"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The same as a salary",
+                  "ru": "То же, что зарплата",
+                  "kz": "Жалақымен бірдей"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "assets_liabilities_net_worth",
+      "orderIndex": 2,
+      "estimatedMinutes": 5,
+      "quizId": 203,
+      "title": {
+        "en": "Assets, Liabilities & Net Worth",
+        "ru": "Активы, обязательства и чистый капитал",
+        "kz": "Активтер, міндеттемелер және таза құн"
+      },
+      "description": {
+        "en": "Net worth — what you own minus what you owe — is the truest measure of position.",
+        "ru": "Чистый капитал — имущество минус долги — самый честный показатель положения.",
+        "kz": "Таза құн — иелік минус қарыз — жағдайдың ең шынайы өлшемі."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The one number that tells the truth",
+              "ru": "Одно число, которое говорит правду",
+              "kz": "Шындықты айтатын бір сан"
+            },
+            "body": {
+              "en": "Income shows how much money moves through your hands; it doesn't show whether you're building anything. The number that does is net worth: everything you own minus everything you owe.",
+              "ru": "Доход показывает, сколько денег проходит через ваши руки, но не показывает, строите ли вы что-то. Это показывает чистый капитал: всё, чем вы владеете, минус всё, что вы должны.",
+              "kz": "Табыс қолыңыздан қанша ақша өтетінін көрсетеді, бірақ бірдеңе құрып жатқаныңызды көрсетпейді. Оны таза құн көрсетеді: иеленгеніңіздің бәрінен қарызыңыздың бәрін шегеру."
+            },
+            "tip": {
+              "en": "A big salary with big debts can mean a small or even negative net worth. Flow is not wealth.",
+              "ru": "Большая зарплата с большими долгами может означать малый или даже отрицательный чистый капитал. Поток — не богатство.",
+              "kz": "Үлкен жалақы мен үлкен қарыз аз, тіпті теріс таза құнды білдіруі мүмкін. Ағын — байлық емес."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Own minus owe",
+              "ru": "Имущество минус долги",
+              "kz": "Иелік минус қарыз"
+            },
+            "body": {
+              "en": "An asset is anything you own that has value — cash, deposits, investments, property, a car. A liability is anything you owe — a loan, a credit-card balance, a mortgage. Net worth is simply assets minus liabilities at a moment in time.",
+              "ru": "Актив — всё, чем вы владеете и что имеет ценность: наличные, вклады, инвестиции, недвижимость, машина. Обязательство — всё, что вы должны: кредит, долг по карте, ипотека. Чистый капитал — это активы минус обязательства в данный момент.",
+              "kz": "Актив — құны бар, иеленетін кез келген нәрсе: қолма-қол, депозит, инвестиция, мүлік, көлік. Міндеттеме — қарызыңыздың бәрі: несие, карта қарызы, ипотека. Таза құн — белгілі сәттегі активтер минус міндеттемелер."
+            },
+            "example": {
+              "en": "Own 3,000,000 ₸ in savings and a 6,000,000 ₸ apartment; owe a 4,000,000 ₸ mortgage and 500,000 ₸ on a card → net worth = 9,000,000 − 4,500,000 = 4,500,000 ₸.",
+              "ru": "Есть 3 000 000 ₸ сбережений и квартира за 6 000 000 ₸; должны 4 000 000 ₸ ипотеки и 500 000 ₸ по карте → чистый капитал = 9 000 000 − 4 500 000 = 4 500 000 ₸.",
+              "kz": "3 000 000 ₸ жинақ пен 6 000 000 ₸ пәтер бар; 4 000 000 ₸ ипотека мен 500 000 ₸ карта қарызы бар → таза құн = 9 000 000 − 4 500 000 = 4 500 000 ₸."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "A snapshot, moved by flows",
+              "ru": "Снимок, который двигают потоки",
+              "kz": "Ағындар жылжытатын сурет"
+            },
+            "body": {
+              "en": "Net worth is a stock — a snapshot; income and spending are flows — movement over time. The flows change the stock: every month you save adds to it, every month you overspend on credit subtracts. Tracking the trend shows whether your system actually works.",
+              "ru": "Чистый капитал — это запас, снимок; доход и траты — потоки, движение во времени. Потоки меняют запас: каждый месяц сбережений добавляет, каждый месяц перерасхода в кредит вычитает. Отслеживание тренда показывает, работает ли ваша система.",
+              "kz": "Таза құн — қор, сурет; табыс пен шығыс — ағындар, уақыт бойынша қозғалыс. Ағындар қорды өзгертеді: жинаған әр ай қосады, несиеге артық жұмсаған әр ай азайтады. Үрдісті бақылау жүйеңіздің жұмыс істейтінін көрсетеді."
+            },
+            "tip": {
+              "en": "Don't chase one big number. Watch which direction net worth moves quarter to quarter.",
+              "ru": "Не гонитесь за одной большой цифрой. Следите, в какую сторону движется чистый капитал от квартала к кварталу.",
+              "kz": "Бір үлкен санды қумаңыз. Таза құнның тоқсаннан тоқсанға қай бағытта жылжитынын бақылаңыз."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same income, opposite health",
+              "ru": "Доход тот же, здоровье разное",
+              "kz": "Табыс бір, ал жағдай қарама-қарсы"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two people, identical 700,000 ₸/month income:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Assets",
+                        "Liabilities",
+                        "Net worth"
+                      ],
+                      [
+                        "Person A",
+                        "2,000,000 ₸",
+                        "5,000,000 ₸",
+                        "−3,000,000 ₸"
+                      ],
+                      [
+                        "Person B",
+                        "4,000,000 ₸",
+                        "500,000 ₸",
+                        "3,500,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Same income, opposite financial health. Net worth, not salary, reveals it."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Двое с одинаковым доходом 700 000 ₸/мес:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Активы",
+                        "Обязательства",
+                        "Чистый капитал"
+                      ],
+                      [
+                        "Человек A",
+                        "2 000 000 ₸",
+                        "5 000 000 ₸",
+                        "−3 000 000 ₸"
+                      ],
+                      [
+                        "Человек B",
+                        "4 000 000 ₸",
+                        "500 000 ₸",
+                        "3 500 000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Доход одинаковый, финансовое здоровье противоположное. Это видно по чистому капиталу, а не по зарплате."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Айына 700 000 ₸ бірдей табысы бар екеу:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Активтер",
+                        "Міндеттемелер",
+                        "Таза құн"
+                      ],
+                      [
+                        "A адам",
+                        "2 000 000 ₸",
+                        "5 000 000 ₸",
+                        "−3 000 000 ₸"
+                      ],
+                      [
+                        "B адам",
+                        "4 000 000 ₸",
+                        "500 000 ₸",
+                        "3 500 000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Табыс бірдей, қаржылық жағдай қарама-қарсы. Мұны жалақы емес, таза құн көрсетеді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Calculate your net worth",
+              "ru": "Посчитайте свой чистый капитал",
+              "kz": "Таза құныңызды есептеңіз"
+            },
+            "body": {
+              "en": "Enter what you own and what you owe to see where you stand.",
+              "ru": "Введите, чем владеете и что должны, чтобы увидеть своё положение.",
+              "kz": "Не иеленетіндіңізді және не қарыз екеніңізді енгізіп, жағдайыңызды көріңіз."
+            },
+            "interactiveType": "net_worth_calculator",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Enter your assets and liabilities to calculate your net worth.",
+                "inputs": [
+                  {
+                    "key": "savings",
+                    "label": "Savings & deposits",
+                    "group": "assets"
+                  },
+                  {
+                    "key": "investments",
+                    "label": "Investments",
+                    "group": "assets"
+                  },
+                  {
+                    "key": "property",
+                    "label": "Property value",
+                    "group": "assets"
+                  },
+                  {
+                    "key": "loans",
+                    "label": "Loans / mortgage",
+                    "group": "liabilities"
+                  },
+                  {
+                    "key": "card",
+                    "label": "Credit-card balance",
+                    "group": "liabilities"
+                  }
+                ],
+                "verdict_positive": "You have positive net worth — you own more than you owe.",
+                "verdict_negative": "Your liabilities exceed your assets — net worth is negative for now.",
+                "cta": "Fill in your numbers to see your result"
+              },
+              "ru": {
+                "instruction": "Введите активы и обязательства, чтобы рассчитать чистый капитал.",
+                "inputs": [
+                  {
+                    "key": "savings",
+                    "label": "Сбережения и вклады",
+                    "group": "assets"
+                  },
+                  {
+                    "key": "investments",
+                    "label": "Инвестиции",
+                    "group": "assets"
+                  },
+                  {
+                    "key": "property",
+                    "label": "Стоимость недвижимости",
+                    "group": "assets"
+                  },
+                  {
+                    "key": "loans",
+                    "label": "Кредиты / ипотека",
+                    "group": "liabilities"
+                  },
+                  {
+                    "key": "card",
+                    "label": "Долг по карте",
+                    "group": "liabilities"
+                  }
+                ],
+                "verdict_positive": "У вас положительный чистый капитал — вы владеете большим, чем должны.",
+                "verdict_negative": "Обязательства превышают активы — пока чистый капитал отрицательный.",
+                "cta": "Введите свои цифры, чтобы увидеть результат"
+              },
+              "kz": {
+                "instruction": "Таза құнды есептеу үшін активтер мен міндеттемелерді енгізіңіз.",
+                "inputs": [
+                  {
+                    "key": "savings",
+                    "label": "Жинақ пен депозиттер",
+                    "group": "assets"
+                  },
+                  {
+                    "key": "investments",
+                    "label": "Инвестициялар",
+                    "group": "assets"
+                  },
+                  {
+                    "key": "property",
+                    "label": "Мүлік құны",
+                    "group": "assets"
+                  },
+                  {
+                    "key": "loans",
+                    "label": "Несие / ипотека",
+                    "group": "liabilities"
+                  },
+                  {
+                    "key": "card",
+                    "label": "Карта қарызы",
+                    "group": "liabilities"
+                  }
+                ],
+                "verdict_positive": "Таза құныңыз оң — қарызыңыздан көп иеленесіз.",
+                "verdict_negative": "Міндеттемелер активтерден асады — әзірге таза құн теріс.",
+                "cta": "Нәтижені көру үшін сандарыңызды енгізіңіз"
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Net worth is the scoreboard",
+              "ru": "Чистый капитал — это табло",
+              "kz": "Таза құн — есеп тақтасы"
+            },
+            "body": {
+              "en": "Net worth is the truest measure of financial position because it nets what you own against what you owe. Rising net worth means your decisions are building wealth; falling net worth is a warning even when income is high.",
+              "ru": "Чистый капитал — самый честный показатель финансового положения, ведь он сводит имущество с долгами. Рост чистого капитала означает, что ваши решения создают богатство; падение — тревожный сигнал даже при высоком доходе.",
+              "kz": "Таза құн — қаржылық жағдайдың ең шынайы өлшемі, өйткені ол иелікті қарызбен салыстырады. Таза құнның өсуі шешімдеріңіздің байлық құрып жатқанын білдіреді; төмендеуі — табыс жоғары болса да, ескерту."
+            },
+            "tip": {
+              "en": "Calculate it once, then every few months. The trend matters more than the number.",
+              "ru": "Посчитайте один раз, потом каждые несколько месяцев. Тренд важнее самой цифры.",
+              "kz": "Бір рет есептеп, сосын бірнеше ай сайын қайталаңыз. Сан емес, үрдіс маңызды."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 203,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Assets, Liabilities & Net Worth — Check",
+          "ru": "Активы, обязательства и чистый капитал — Проверка",
+          "kz": "Активтер, міндеттемелер және таза құн — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Your net worth is:",
+              "ru": "Ваш чистый капитал — это:",
+              "kz": "Сіздің таза құныңыз — бұл:"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "What you own minus what you owe",
+                  "ru": "То, чем вы владеете, минус то, что должны",
+                  "kz": "Иеленгеніңіз минус қарызыңыз"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Your annual income",
+                  "ru": "Ваш годовой доход",
+                  "kz": "Жылдық табысыңыз"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The total of your assets only",
+                  "ru": "Сумма только ваших активов",
+                  "kz": "Тек активтеріңіздің жиыны"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Your monthly surplus",
+                  "ru": "Ваш месячный излишек",
+                  "kz": "Айлық артық қаражатыңыз"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Net worth is a 'stock' while income is a 'flow.' This means:",
+              "ru": "Чистый капитал — «запас», а доход — «поток». Это значит:",
+              "kz": "Таза құн — «қор», ал табыс — «ағын». Бұл нені білдіреді:"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Net worth is a snapshot at a moment; flows change it over time",
+                  "ru": "Чистый капитал — снимок в моменте; потоки меняют его со временем",
+                  "kz": "Таза құн — белгілі сәттегі сурет; ағындар оны уақытпен өзгертеді"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "They are the same thing measured twice",
+                  "ru": "Это одно и то же, измеренное дважды",
+                  "kz": "Бұл екі рет өлшенген бір нәрсе"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Income can never affect net worth",
+                  "ru": "Доход никогда не влияет на чистый капитал",
+                  "kz": "Табыс таза құнға ешқашан әсер етпейді"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Net worth changes daily by law",
+                  "ru": "Чистый капитал по закону меняется ежедневно",
+                  "kz": "Таза құн заң бойынша күн сайын өзгереді"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Two people earn the same. One has higher net worth because:",
+              "ru": "Двое зарабатывают одинаково. У одного выше чистый капитал, потому что:",
+              "kz": "Екеуі бірдей табады. Біреуінің таза құны жоғары, өйткені:"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "They own more and owe less — the result of their financial system, not their salary",
+                  "ru": "Он владеет большим и должен меньше — результат финансовой системы, а не зарплаты",
+                  "kz": "Ол көп иеленіп, аз қарыз — жалақының емес, қаржы жүйесінің нәтижесі"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Net worth only depends on income",
+                  "ru": "Чистый капитал зависит только от дохода",
+                  "kz": "Таза құн тек табысқа байланысты"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Higher net worth is impossible on equal incomes",
+                  "ru": "При равных доходах разный капитал невозможен",
+                  "kz": "Тең табыста әртүрлі құн болуы мүмкін емес"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Debts increase net worth",
+                  "ru": "Долги увеличивают чистый капитал",
+                  "kz": "Қарыздар таза құнды арттырады"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "cash_flow",
+      "orderIndex": 3,
+      "estimatedMinutes": 5,
+      "quizId": 204,
+      "title": {
+        "en": "Cash Flow",
+        "ru": "Денежный поток",
+        "kz": "Ақша ағыны"
+      },
+      "description": {
+        "en": "Money in versus money out — the surplus that powers everything else.",
+        "ru": "Приход против расхода — излишек, питающий всё остальное.",
+        "kz": "Кіріс пен шығыс — қалғанының бәрін қозғайтын артық қаражат."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The engine behind net worth",
+              "ru": "Двигатель за чистым капиталом",
+              "kz": "Таза құнның артындағы қозғалтқыш"
+            },
+            "body": {
+              "en": "Cash flow is the money coming in versus the money going out over a period — usually a month. Positive cash flow (more in than out) is the surplus that builds savings and investments; negative cash flow forces you to borrow or sell to cover the gap.",
+              "ru": "Денежный поток — это поступления против расходов за период, обычно за месяц. Положительный поток (приход больше расхода) — это излишек, который растит сбережения и инвестиции; отрицательный заставляет занимать или продавать, чтобы закрыть разрыв.",
+              "kz": "Ақша ағыны — белгілі кезеңдегі (әдетте айлық) кіріс пен шығыстың арақатынасы. Оң ағын (кіріс шығыстан көп) — жинақ пен инвестицияны өсіретін артық қаражат; теріс ағын алшақтықты жабу үшін қарыз алуға не сатуға мәжбүрлейді."
+            },
+            "tip": {
+              "en": "Net worth is the scoreboard; cash flow is the engine that moves it.",
+              "ru": "Чистый капитал — это табло; денежный поток — двигатель, который его двигает.",
+              "kz": "Таза құн — есеп тақтасы; ақша ағыны — оны жылжытатын қозғалтқыш."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Surplus isn't about earning a lot",
+              "ru": "Излишек — не про большой доход",
+              "kz": "Артық қаражат көп табу туралы емес"
+            },
+            "body": {
+              "en": "A surplus comes from earning more than you spend, not from earning a lot. Someone on 400,000 ₸ who spends 350,000 has healthier cash flow than someone on 1,200,000 who spends 1,250,000 — the second goes backwards every month despite triple the income.",
+              "ru": "Излишек возникает оттого, что вы зарабатываете больше, чем тратите, а не оттого, что зарабатываете много. У того, кто получает 400 000 ₸ и тратит 350 000, поток здоровее, чем у того, кто получает 1 200 000 и тратит 1 250 000 — второй каждый месяц уходит в минус, несмотря на тройной доход.",
+              "kz": "Артық қаражат көп табудан емес, тапқаныңнан аз жұмсаудан туады. 400 000 ₸ тауып 350 000 жұмсайтын адамның ағыны 1 200 000 тауып 1 250 000 жұмсайтын адамнан сау — екіншісі үш есе көп тапса да, әр ай артқа кетеді."
+            },
+            "example": {
+              "en": "400,000 in − 350,000 out = +50,000 surplus. 1,200,000 in − 1,250,000 out = −50,000 deficit covered by debt.",
+              "ru": "400 000 приход − 350 000 расход = +50 000 излишек. 1 200 000 − 1 250 000 = −50 000 дефицит, закрытый долгом.",
+              "kz": "400 000 кіріс − 350 000 шығыс = +50 000 артық. 1 200 000 − 1 250 000 = −50 000 тапшылық, қарызбен жабылады."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Timing matters too",
+              "ru": "Сроки тоже важны",
+              "kz": "Уақыт та маңызды"
+            },
+            "body": {
+              "en": "Cash flow also has timing. If income arrives once a month but big bills land early, you can feel broke mid-month even with positive monthly math. Irregular earners must smooth the peaks to cover the troughs.",
+              "ru": "У потока есть и сроки. Если доход приходит раз в месяц, а крупные счета — в начале, к середине месяца можно остаться без денег даже при положительном месячном итоге. Тем, у кого доход нерегулярен, нужно сглаживать пики, чтобы покрыть провалы.",
+              "kz": "Ақша ағынында уақыт та бар. Табыс айына бір рет келіп, ірі шоттар ерте түссе, айлық есеп оң болса да ай ортасында ақшасыз қалуыңыз мүмкін. Табысы тұрақсыздар шыңдарды тегістеп, шұңқырларды жабуы керек."
+            },
+            "tip": {
+              "en": "Match the timing of money in and money out, not just the monthly totals.",
+              "ru": "Сопоставляйте сроки прихода и расхода, а не только месячные итоги.",
+              "kz": "Тек айлық жиынды емес, кіріс пен шығыстың уақытын сәйкестендіріңіз."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A month at a glance",
+              "ru": "Месяц с одного взгляда",
+              "kz": "Бір айға көз тастау"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A simple monthly view:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Flow",
+                        "Amount"
+                      ],
+                      [
+                        "Income",
+                        "450,000 ₸"
+                      ],
+                      [
+                        "− Fixed (rent, utilities)",
+                        "220,000 ₸"
+                      ],
+                      [
+                        "− Variable (food, transport)",
+                        "130,000 ₸"
+                      ],
+                      [
+                        "= Cash flow",
+                        "+100,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "That +100,000 ₸ is what's free to save, invest, or pay down debt — the surplus is the whole point."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Простой взгляд на месяц:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Поток",
+                        "Сумма"
+                      ],
+                      [
+                        "Доход",
+                        "450 000 ₸"
+                      ],
+                      [
+                        "− Постоянные (аренда, ЖКХ)",
+                        "220 000 ₸"
+                      ],
+                      [
+                        "− Переменные (еда, транспорт)",
+                        "130 000 ₸"
+                      ],
+                      [
+                        "= Денежный поток",
+                        "+100 000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Эти +100 000 ₸ можно сберечь, вложить или погасить долг — излишек и есть вся суть."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Бір айға қарапайым көзқарас:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ағын",
+                        "Сома"
+                      ],
+                      [
+                        "Табыс",
+                        "450 000 ₸"
+                      ],
+                      [
+                        "− Тұрақты (жалдау, КҚШ)",
+                        "220 000 ₸"
+                      ],
+                      [
+                        "− Өзгермелі (тамақ, көлік)",
+                        "130 000 ₸"
+                      ],
+                      [
+                        "= Ақша ағыны",
+                        "+100 000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Осы +100 000 ₸ — жинауға, салуға не қарыз өтеуге бос қаражат — артық қаражат бүкіл мәні."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Positive or negative?",
+              "ru": "Положительный или отрицательный?",
+              "kz": "Оң ба, теріс пе?"
+            },
+            "body": {
+              "en": "For each month, is the cash flow positive or negative?",
+              "ru": "Для каждого месяца поток положительный или отрицательный?",
+              "kz": "Әр ай үшін ағын оң ба, теріс пе?"
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Is the cash flow positive or negative?",
+                "options": [
+                  "Positive cash flow",
+                  "Negative cash flow"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Earns 600,000 ₸, spends 520,000 ₸ this month",
+                    "correct_answer": "Positive cash flow",
+                    "explanation": "+80,000 ₸ left over to save or invest."
+                  },
+                  {
+                    "text": "Earns 1,000,000 ₸, spends 1,100,000 ₸ using a credit card",
+                    "correct_answer": "Negative cash flow",
+                    "explanation": "The 100,000 ₸ gap becomes debt — high income, going backwards."
+                  },
+                  {
+                    "text": "Earns 300,000 ₸, spends 290,000 ₸",
+                    "correct_answer": "Positive cash flow",
+                    "explanation": "Small but real surplus — modest income, good control."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Поток положительный или отрицательный?",
+                "options": [
+                  "Положительный поток",
+                  "Отрицательный поток"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Доход 600 000 ₸, траты 520 000 ₸ за месяц",
+                    "correct_answer": "Положительный поток",
+                    "explanation": "+80 000 ₸ остаётся на сбережения или инвестиции."
+                  },
+                  {
+                    "text": "Доход 1 000 000 ₸, траты 1 100 000 ₸ по карте",
+                    "correct_answer": "Отрицательный поток",
+                    "explanation": "Разрыв 100 000 ₸ становится долгом — высокий доход, движение назад."
+                  },
+                  {
+                    "text": "Доход 300 000 ₸, траты 290 000 ₸",
+                    "correct_answer": "Положительный поток",
+                    "explanation": "Небольшой, но реальный излишек — скромный доход, хороший контроль."
+                  }
+                ]
+              },
+              "kz": {
+                "instruction": "Ағын оң ба, теріс пе?",
+                "options": [
+                  "Оң ағын",
+                  "Теріс ағын"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Осы айда 600 000 ₸ табады, 520 000 ₸ жұмсайды",
+                    "correct_answer": "Оң ағын",
+                    "explanation": "Жинауға не салуға +80 000 ₸ артады."
+                  },
+                  {
+                    "text": "1 000 000 ₸ табады, картамен 1 100 000 ₸ жұмсайды",
+                    "correct_answer": "Теріс ағын",
+                    "explanation": "100 000 ₸ алшақтық қарызға айналады — табыс жоғары, бағыт артқа."
+                  },
+                  {
+                    "text": "300 000 ₸ табады, 290 000 ₸ жұмсайды",
+                    "correct_answer": "Оң ағын",
+                    "explanation": "Шағын, бірақ нақты артық — қарапайым табыс, жақсы бақылау."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Fix cash flow first",
+              "ru": "Сначала наладьте поток",
+              "kz": "Алдымен ағынды түзе"
+            },
+            "body": {
+              "en": "Cash flow is the difference between money in and money out, and a positive flow is what feeds saving, investing, and debt payoff. It depends on the gap and the timing, not on income alone. Without a surplus, none of the later topics can work.",
+              "ru": "Денежный поток — это разница между приходом и расходом, и именно положительный поток питает сбережения, инвестиции и погашение долга. Он зависит от разрыва и сроков, а не только от дохода. Без излишка ни одна из последующих тем не сработает.",
+              "kz": "Ақша ағыны — кіріс пен шығыстың айырмасы, ал оң ағын жинақты, инвестицияны, қарыз өтеуді қоректендіреді. Ол тек табысқа емес, алшақтық пен уақытқа байланысты. Артық қаражатсыз алдағы тақырыптардың ешқайсысы жұмыс істемейді."
+            },
+            "tip": {
+              "en": "Every plan to save or invest starts with one question: is your monthly cash flow positive?",
+              "ru": "Любой план копить или инвестировать начинается с вопроса: ваш месячный поток положительный?",
+              "kz": "Жинау не салу жоспары бір сұрақтан басталады: айлық ақша ағыныңыз оң ба?"
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 204,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Cash Flow — Check",
+          "ru": "Денежный поток — Проверка",
+          "kz": "Ақша ағыны — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person earning 1,200,000 ₸/month who spends 1,250,000 ₸ has:",
+              "ru": "Человек с доходом 1 200 000 ₸/мес, тратящий 1 250 000 ₸, имеет:",
+              "kz": "Айына 1 200 000 ₸ тауып, 1 250 000 ₸ жұмсайтын адамда:"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Negative cash flow, despite a high income",
+                  "ru": "Отрицательный поток, несмотря на высокий доход",
+                  "kz": "Жоғары табысқа қарамай теріс ағын"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Positive cash flow because the income is high",
+                  "ru": "Положительный поток, ведь доход высокий",
+                  "kz": "Табыс жоғары болғандықтан оң ағын"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "No cash-flow problem as long as income rises",
+                  "ru": "Нет проблемы потока, пока доход растёт",
+                  "kz": "Табыс өссе ағын мәселесі жоқ"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A strong net worth automatically",
+                  "ru": "Автоматически высокий чистый капитал",
+                  "kz": "Автоматты түрде жоғары таза құн"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can you feel short of money mid-month even with positive monthly cash flow?",
+              "ru": "Почему в середине месяца может не хватать денег даже при положительном месячном потоке?",
+              "kz": "Айлық ағын оң болса да, ай ортасында неге ақша жетіспеуі мүмкін?"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Timing — big bills can land before income arrives",
+                  "ru": "Сроки — крупные счета могут прийти до дохода",
+                  "kz": "Уақыт — ірі шоттар табыс түспей тұрып келуі мүмкін"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Positive cash flow is impossible",
+                  "ru": "Положительный поток невозможен",
+                  "kz": "Оң ағын мүмкін емес"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Monthly totals are always wrong",
+                  "ru": "Месячные итоги всегда неверны",
+                  "kz": "Айлық жиын әрдайым қате"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Banks delay all income deliberately",
+                  "ru": "Банки намеренно задерживают доход",
+                  "kz": "Банктер табысты әдейі кешіктіреді"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Positive cash flow matters most because:",
+              "ru": "Положительный денежный поток важен прежде всего потому, что:",
+              "kz": "Оң ақша ағыны ең маңызды, өйткені:"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "It is the surplus that feeds saving, investing, and debt payoff",
+                  "ru": "Это излишек, питающий сбережения, инвестиции и погашение долга",
+                  "kz": "Бұл жинақ, инвестиция, қарыз өтеуді қоректендіретін артық қаражат"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It guarantees a high income",
+                  "ru": "Он гарантирует высокий доход",
+                  "kz": "Ол жоғары табысқа кепілдік береді"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It removes the need for a budget",
+                  "ru": "Он избавляет от необходимости бюджета",
+                  "kz": "Ол бюджеттің қажетін жояды"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "It is the same as net worth",
+                  "ru": "Это то же, что чистый капитал",
+                  "kz": "Бұл таза құнмен бірдей"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "financial_goals",
+      "orderIndex": 4,
+      "estimatedMinutes": 5,
+      "quizId": 205,
+      "title": {
+        "en": "Financial Goals",
+        "ru": "Финансовые цели",
+        "kz": "Қаржылық мақсаттар"
+      },
+      "description": {
+        "en": "A goal is a specific amount with a deadline; the horizon sets the risk.",
+        "ru": "Цель — конкретная сумма с дедлайном; срок задаёт риск.",
+        "kz": "Мақсат — мерзімі бар нақты сома; мерзім тәуекелді белгілейді."
+      },
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A goal is a number with a date",
+              "ru": "Цель — это сумма с датой",
+              "kz": "Мақсат — күні бар сан"
+            },
+            "body": {
+              "en": "\"I want to save more\" is a wish, not a goal. A goal is a specific amount attached to a deadline: 1,500,000 ₸ for a deposit in 18 months. That structure turns a vague intention into a monthly number you can act on.",
+              "ru": "«Хочу больше копить» — это желание, не цель. Цель — конкретная сумма с дедлайном: 1 500 000 ₸ на первый взнос за 18 месяцев. Такая форма превращает туманное намерение в месячное число, с которым можно работать.",
+              "kz": "«Көбірек жинағым келеді» — қалау, мақсат емес. Мақсат — мерзімі бар нақты сома: 18 айда бастапқы жарнаға 1 500 000 ₸. Бұл құрылым бұлдыр ниетті әрекет етуге болатын айлық санға айналдырады."
+            },
+            "tip": {
+              "en": "If you can't say how much and by when, you can't plan for it yet.",
+              "ru": "Если не можете сказать сколько и к какому сроку, планировать пока рано.",
+              "kz": "Қанша және қашанға дейін екенін айта алмасаңыз, әзірге жоспарлай алмайсыз."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "How much, by when, per month",
+              "ru": "Сколько, к какому сроку, в месяц",
+              "kz": "Қанша, қашанға, айына"
+            },
+            "body": {
+              "en": "A usable goal answers three things: how much, by when, and therefore how much per month. 1,500,000 ₸ in 18 months is about 83,000 ₸ a month. Now it's a budget line you can check, not a hope.",
+              "ru": "Рабочая цель отвечает на три вопроса: сколько, к какому сроку и, значит, сколько в месяц. 1 500 000 ₸ за 18 месяцев — это около 83 000 ₸ в месяц. Теперь это статья бюджета, которую можно проверять, а не надежда.",
+              "kz": "Жұмыс істейтін мақсат үш сұраққа жауап береді: қанша, қашанға, демек айына қанша. 18 айда 1 500 000 ₸ — айына шамамен 83 000 ₸. Енді бұл — тексеруге болатын бюджет жолы, үміт емес."
+            },
+            "example": {
+              "en": "Goal 3,600,000 ₸ in 3 years → 100,000 ₸/month, before any growth on what you save.",
+              "ru": "Цель 3 600 000 ₸ за 3 года → 100 000 ₸/мес, без учёта роста накоплений.",
+              "kz": "Мақсат 3 жылда 3 600 000 ₸ → айына 100 000 ₸, жинаған қаражаттың өсімінсіз."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "The deadline picks the vehicle",
+              "ru": "Срок выбирает инструмент",
+              "kz": "Мерзім құралды таңдайды"
+            },
+            "body": {
+              "en": "The deadline decides where the money should sit. Money needed within a year or two should stay safe and liquid — a deposit — because there's no time to recover from a dip. Money for a goal 10+ years away can accept investment risk, because time smooths the swings.",
+              "ru": "Срок решает, где держать деньги. То, что нужно через год-два, должно оставаться надёжным и ликвидным — вклад — потому что нет времени отыграть просадку. Деньги на цель через 10+ лет могут принять инвестиционный риск, ведь время сглаживает колебания.",
+              "kz": "Мерзім ақшаны қайда ұстауды шешеді. Бір-екі жылда керек ақша сенімді әрі өтімді болуы керек — депозит — өйткені құлдыраудан қалпына келуге уақыт жоқ. 10+ жылдан кейінгі мақсаттың ақшасы инвестициялық тәуекелді қабылдай алады, себебі уақыт тербелісті тегістейді."
+            },
+            "tip": {
+              "en": "Match the goal's timeline to the risk you take. Short goal, low risk. Long goal, more.",
+              "ru": "Сопоставляйте срок цели с уровнем риска. Короткая цель — низкий риск, длинная — выше.",
+              "kz": "Мақсаттың мерзімін алатын тәуекелге сай таңдаңыз. Қысқа мақсат — төмен тәуекел, ұзақ — жоғарырақ."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Four goals, four homes",
+              "ru": "Четыре цели, четыре места",
+              "kz": "Төрт мақсат, төрт орын"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "The deadline sets where each goal's money belongs:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Goal",
+                        "Horizon",
+                        "Where to keep it"
+                      ],
+                      [
+                        "Emergency fund",
+                        "Now / ongoing",
+                        "Cash, instant access"
+                      ],
+                      [
+                        "Trip next summer",
+                        "< 1 year",
+                        "Deposit"
+                      ],
+                      [
+                        "Apartment deposit",
+                        "2–4 years",
+                        "Mostly safe, low risk"
+                      ],
+                      [
+                        "Retirement",
+                        "20+ years",
+                        "Mostly invested"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Same person, four goals, four different homes — set by the deadline, not by importance."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Срок определяет, где место деньгам каждой цели:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Цель",
+                        "Горизонт",
+                        "Где держать"
+                      ],
+                      [
+                        "Подушка",
+                        "Сейчас / постоянно",
+                        "Наличные, мгновенный доступ"
+                      ],
+                      [
+                        "Поездка летом",
+                        "< 1 года",
+                        "Вклад"
+                      ],
+                      [
+                        "Взнос за квартиру",
+                        "2–4 года",
+                        "В основном надёжно, низкий риск"
+                      ],
+                      [
+                        "Пенсия",
+                        "20+ лет",
+                        "В основном инвестиции"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Один человек, четыре цели, четыре разных места — задаёт срок, а не важность."
+                  }
+                ]
+              },
+              "kz": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Мерзім әр мақсаттың ақшасының орнын белгілейді:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Мақсат",
+                        "Көкжиек",
+                        "Қайда ұстау"
+                      ],
+                      [
+                        "Қор",
+                        "Қазір / тұрақты",
+                        "Қолма-қол, бірден қолжетімді"
+                      ],
+                      [
+                        "Жазғы саяхат",
+                        "< 1 жыл",
+                        "Депозит"
+                      ],
+                      [
+                        "Пәтер жарнасы",
+                        "2–4 жыл",
+                        "Негізінен сенімді, төмен тәуекел"
+                      ],
+                      [
+                        "Зейнетақы",
+                        "20+ жыл",
+                        "Негізінен инвестиция"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Бір адам, төрт мақсат, төрт түрлі орын — маңыздылық емес, мерзім белгілейді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Sort by time horizon",
+              "ru": "Распределите по сроку",
+              "kz": "Мерзім бойынша бөліңіз"
+            },
+            "body": {
+              "en": "Drag each goal into its time horizon.",
+              "ru": "Перетащите каждую цель в её горизонт.",
+              "kz": "Әр мақсатты өз мерзіміне сүйреңіз."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Sort each goal by how soon you'll need the money.",
+                "categories": [
+                  {
+                    "id": "short",
+                    "label": "Short-term (< 1 year)"
+                  },
+                  {
+                    "id": "medium",
+                    "label": "Medium (1–5 years)"
+                  },
+                  {
+                    "id": "long",
+                    "label": "Long-term (5+ years)"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "vacation",
+                    "text": "Vacation in 8 months"
+                  },
+                  {
+                    "id": "laptop",
+                    "text": "New laptop in 4 months"
+                  },
+                  {
+                    "id": "downpay",
+                    "text": "Apartment down payment in 3 years"
+                  },
+                  {
+                    "id": "business",
+                    "text": "Start a business in 2 years"
+                  },
+                  {
+                    "id": "retire",
+                    "text": "Retirement in 30 years"
+                  },
+                  {
+                    "id": "uni",
+                    "text": "Child's university in 15 years"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "vacation",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "laptop",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "downpay",
+                    "categoryId": "medium"
+                  },
+                  {
+                    "itemId": "business",
+                    "categoryId": "medium"
+                  },
+                  {
+                    "itemId": "retire",
+                    "categoryId": "long"
+                  },
+                  {
+                    "itemId": "uni",
+                    "categoryId": "long"
+                  }
+                ],
+                "explanation": "The horizon, not the size of the goal, decides how much risk the money can take."
+              },
+              "ru": {
+                "instruction": "Распределите цели по тому, как скоро понадобятся деньги.",
+                "categories": [
+                  {
+                    "id": "short",
+                    "label": "Краткосрочные (< 1 года)"
+                  },
+                  {
+                    "id": "medium",
+                    "label": "Средние (1–5 лет)"
+                  },
+                  {
+                    "id": "long",
+                    "label": "Долгосрочные (5+ лет)"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "vacation",
+                    "text": "Отпуск через 8 месяцев"
+                  },
+                  {
+                    "id": "laptop",
+                    "text": "Ноутбук через 4 месяца"
+                  },
+                  {
+                    "id": "downpay",
+                    "text": "Взнос за квартиру через 3 года"
+                  },
+                  {
+                    "id": "business",
+                    "text": "Запуск бизнеса через 2 года"
+                  },
+                  {
+                    "id": "retire",
+                    "text": "Пенсия через 30 лет"
+                  },
+                  {
+                    "id": "uni",
+                    "text": "Учёба ребёнка через 15 лет"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "vacation",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "laptop",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "downpay",
+                    "categoryId": "medium"
+                  },
+                  {
+                    "itemId": "business",
+                    "categoryId": "medium"
+                  },
+                  {
+                    "itemId": "retire",
+                    "categoryId": "long"
+                  },
+                  {
+                    "itemId": "uni",
+                    "categoryId": "long"
+                  }
+                ],
+                "explanation": "Уровень риска задаёт горизонт, а не размер цели."
+              },
+              "kz": {
+                "instruction": "Мақсаттарды ақша қашан керек болатынына қарай бөліңіз.",
+                "categories": [
+                  {
+                    "id": "short",
+                    "label": "Қысқа мерзімді (< 1 жыл)"
+                  },
+                  {
+                    "id": "medium",
+                    "label": "Орта (1–5 жыл)"
+                  },
+                  {
+                    "id": "long",
+                    "label": "Ұзақ мерзімді (5+ жыл)"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "vacation",
+                    "text": "8 айдан кейінгі демалыс"
+                  },
+                  {
+                    "id": "laptop",
+                    "text": "4 айдан кейінгі ноутбук"
+                  },
+                  {
+                    "id": "downpay",
+                    "text": "3 жылдан кейінгі пәтер жарнасы"
+                  },
+                  {
+                    "id": "business",
+                    "text": "2 жылдан кейін бизнес ашу"
+                  },
+                  {
+                    "id": "retire",
+                    "text": "30 жылдан кейінгі зейнетақы"
+                  },
+                  {
+                    "id": "uni",
+                    "text": "15 жылдан кейінгі баланың оқуы"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "vacation",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "laptop",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "downpay",
+                    "categoryId": "medium"
+                  },
+                  {
+                    "itemId": "business",
+                    "categoryId": "medium"
+                  },
+                  {
+                    "itemId": "retire",
+                    "categoryId": "long"
+                  },
+                  {
+                    "itemId": "uni",
+                    "categoryId": "long"
+                  }
+                ],
+                "explanation": "Тәуекел мөлшерін мақсаттың көлемі емес, мерзімі шешеді."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Goals point your surplus",
+              "ru": "Цели направляют излишек",
+              "kz": "Мақсаттар артық қаражатты бағыттайды"
+            },
+            "body": {
+              "en": "A real goal is a specific amount with a deadline, which converts into a monthly target and a choice of where to keep the money. The horizon — not the goal's importance — sets the risk you should take. Clear goals are what point your surplus somewhere instead of letting it drift.",
+              "ru": "Настоящая цель — конкретная сумма с дедлайном, превращающаяся в месячный план и выбор места хранения. Уровень риска задаёт горизонт, а не важность цели. Чёткие цели направляют излишек, не давая ему растекаться впустую.",
+              "kz": "Нақты мақсат — мерзімі бар нақты сома, ол айлық межеге және ақшаны қайда ұстау таңдауына айналады. Тәуекелді мақсаттың маңыздылығы емес, мерзімі белгілейді. Айқын мақсаттар артық қаражатты бір бағытқа жұмсайды, бостан-босқа ағызбайды."
+            },
+            "tip": {
+              "en": "Write each goal as \"[amount] by [date].\" Then the monthly number and the right account both follow.",
+              "ru": "Записывайте каждую цель как «[сумма] к [дате]». Тогда и месячное число, и нужный счёт определятся сами.",
+              "kz": "Әр мақсатты «[сома] [күнге] дейін» деп жазыңыз. Сонда айлық сан да, қажет шот та өзі шығады."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 205,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Financial Goals — Check",
+          "ru": "Финансовые цели — Проверка",
+          "kz": "Қаржылық мақсаттар — Тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "What turns a vague wish into a usable financial goal?",
+              "ru": "Что превращает туманное желание в рабочую финансовую цель?",
+              "kz": "Бұлдыр қалауды жұмыс істейтін қаржылық мақсатқа не айналдырады?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "A specific amount and a deadline, which give a monthly target",
+                  "ru": "Конкретная сумма и срок, дающие месячный ориентир",
+                  "kz": "Нақты сома мен мерзім — олар айлық межені береді"
+                }
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Wanting it strongly enough",
+                  "ru": "Достаточно сильное желание",
+                  "kz": "Жеткілікті күшті қалау"
+                }
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Telling other people about it",
+                  "ru": "Рассказать о ней другим",
+                  "kz": "Оны басқаларға айту"
+                }
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Choosing the highest-return investment",
+                  "ru": "Выбор самой доходной инвестиции",
+                  "kz": "Ең табысты инвестицияны таңдау"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Money you'll need for a goal in 6 months should mainly be kept in:",
+              "ru": "Деньги на цель через 6 месяцев лучше всего держать в:",
+              "kz": "6 айдан кейінгі мақсатқа керек ақшаны негізінен қайда ұстаған жөн:"
+            },
+            "answers": [
+              {
+                "id": 5,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "A safe, liquid place like a deposit",
+                  "ru": "Надёжном ликвидном месте, например вкладе",
+                  "kz": "Депозит сияқты сенімді әрі өтімді жерде"
+                }
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Volatile stocks for maximum growth",
+                  "ru": "Волатильных акциях ради максимального роста",
+                  "kz": "Барынша өсу үшін құбылмалы акцияларда"
+                }
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "A single risky asset",
+                  "ru": "Одном рискованном активе",
+                  "kz": "Бір тәуекелді активте"
+                }
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Whatever returned most last year",
+                  "ru": "В том, что больше всего выросло в прошлом году",
+                  "kz": "Өткен жылы ең көп өскен нәрседе"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What mainly decides how much risk a goal's money should take?",
+              "ru": "Что в основном определяет, какой риск можно взять для денег под цель?",
+              "kz": "Мақсат ақшасы қандай тәуекел алатынын негізінен не шешеді?"
+            },
+            "answers": [
+              {
+                "id": 9,
+                "order_index": 0,
+                "is_correct": true,
+                "answer_text": {
+                  "en": "Its time horizon — how soon the money is needed",
+                  "ru": "Её горизонт — как скоро понадобятся деньги",
+                  "kz": "Оның мерзімі — ақша қаншалықты жақын керек"
+                }
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "How important the goal feels",
+                  "ru": "Насколько важной кажется цель",
+                  "kz": "Мақсат қаншалықты маңызды сезілуі"
+                }
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "The size of the amount alone",
+                  "ru": "Только размер суммы",
+                  "kz": "Тек соманың көлемі"
+                }
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "is_correct": false,
+                "answer_text": {
+                  "en": "Which asset is popular right now",
+                  "ru": "Какой актив сейчас популярен",
+                  "kz": "Қазір қай актив танымал"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 299,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Personal Finance Foundations — Final",
+      "ru": "Основы личных финансов — Итог",
+      "kz": "Жеке қаржы негіздері — Қорытынды"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "Personal finance is best described as:",
+          "ru": "Личные финансы лучше всего описать как:",
+          "kz": "Жеке қаржыны қалай дұрыс сипаттаймыз:"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "A connected system: earning, spending, storing, protecting, and growing money",
+              "ru": "Связанную систему: зарабатывать, тратить, хранить, защищать, приумножать",
+              "kz": "Байланысты жүйе: табу, жұмсау, сақтау, қорғау, өсіру"
+            }
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Only investing in stocks",
+              "ru": "Только вложения в акции",
+              "kz": "Тек акцияға салу"
+            }
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Cutting spending and nothing else",
+              "ru": "Только сокращение трат",
+              "kz": "Тек шығынды қысқарту"
+            }
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Maximising your salary at all costs",
+              "ru": "Максимизацию зарплаты любой ценой",
+              "kz": "Жалақыны кез келген бағамен арттыру"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "Passive income differs from active income because it:",
+          "ru": "Пассивный доход отличается от активного тем, что:",
+          "kz": "Пассивті табыс белсендіден несімен ерекшеленеді:"
+        },
+        "answers": [
+          {
+            "id": 5,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "Comes from assets and needs little ongoing time",
+              "ru": "Идёт от активов и требует мало времени",
+              "kz": "Активтерден түседі әрі уақыт аз кетеді"
+            }
+          },
+          {
+            "id": 6,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Is always larger than active income",
+              "ru": "Всегда больше активного",
+              "kz": "Әрдайым белсендіден көп"
+            }
+          },
+          {
+            "id": 7,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Requires working more hours",
+              "ru": "Требует больше рабочих часов",
+              "kz": "Көбірек жұмыс сағатын талап етеді"
+            }
+          },
+          {
+            "id": 8,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Is never taxed",
+              "ru": "Никогда не облагается налогом",
+              "kz": "Ешқашан салықталмайды"
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "Net worth equals:",
+          "ru": "Чистый капитал равен:",
+          "kz": "Таза құн неге тең:"
+        },
+        "answers": [
+          {
+            "id": 9,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "Assets minus liabilities",
+              "ru": "Активы минус обязательства",
+              "kz": "Активтер минус міндеттемелер"
+            }
+          },
+          {
+            "id": 10,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Income minus expenses",
+              "ru": "Доход минус расходы",
+              "kz": "Табыс минус шығыс"
+            }
+          },
+          {
+            "id": 11,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Total assets",
+              "ru": "Сумма активов",
+              "kz": "Активтердің жиыны"
+            }
+          },
+          {
+            "id": 12,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Monthly salary times twelve",
+              "ru": "Месячная зарплата на двенадцать",
+              "kz": "Айлық жалақы он екіге"
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "Which person is in the healthiest cash-flow position?",
+          "ru": "У кого самое здоровое положение по денежному потоку?",
+          "kz": "Ақша ағыны жағынан кімнің жағдайы ең сау?"
+        },
+        "answers": [
+          {
+            "id": 13,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "Earns 400,000 ₸, spends 350,000 ₸",
+              "ru": "Доход 400 000 ₸, траты 350 000 ₸",
+              "kz": "400 000 ₸ табады, 350 000 ₸ жұмсайды"
+            }
+          },
+          {
+            "id": 14,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Earns 1,200,000 ₸, spends 1,250,000 ₸",
+              "ru": "Доход 1 200 000 ₸, траты 1 250 000 ₸",
+              "kz": "1 200 000 ₸ табады, 1 250 000 ₸ жұмсайды"
+            }
+          },
+          {
+            "id": 15,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Earns 800,000 ₸, spends 820,000 ₸",
+              "ru": "Доход 800 000 ₸, траты 820 000 ₸",
+              "kz": "800 000 ₸ табады, 820 000 ₸ жұмсайды"
+            }
+          },
+          {
+            "id": 16,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Earns 2,000,000 ₸, spends 2,100,000 ₸",
+              "ru": "Доход 2 000 000 ₸, траты 2 100 000 ₸",
+              "kz": "2 000 000 ₸ табады, 2 100 000 ₸ жұмсайды"
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "Money for a goal 6 months away should mainly be kept in:",
+          "ru": "Деньги на цель через 6 месяцев лучше держать в:",
+          "kz": "6 айдан кейінгі мақсат ақшасын негізінен қайда ұстаған жөн:"
+        },
+        "answers": [
+          {
+            "id": 17,
+            "order_index": 0,
+            "is_correct": true,
+            "answer_text": {
+              "en": "A safe, liquid place — there's no time to recover from a dip",
+              "ru": "Надёжном ликвидном месте — нет времени отыграть просадку",
+              "kz": "Сенімді әрі өтімді жерде — құлдыраудан қалпына келуге уақыт жоқ"
+            }
+          },
+          {
+            "id": 18,
+            "order_index": 1,
+            "is_correct": false,
+            "answer_text": {
+              "en": "High-volatility stocks",
+              "ru": "Высоковолатильных акциях",
+              "kz": "Жоғары құбылмалы акцияларда"
+            }
+          },
+          {
+            "id": 19,
+            "order_index": 2,
+            "is_correct": false,
+            "answer_text": {
+              "en": "A single cryptocurrency",
+              "ru": "Одной криптовалюте",
+              "kz": "Бір криптовалютада"
+            }
+          },
+          {
+            "id": 20,
+            "order_index": 3,
+            "is_correct": false,
+            "answer_text": {
+              "en": "Whatever a friend recommends",
+              "ru": "В том, что советует друг",
+              "kz": "Дос ұсынған нәрседе"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

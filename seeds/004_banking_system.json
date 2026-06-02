@@ -1,0 +1,1431 @@
+{
+"section": "banking_payments",
+  "topic": {
+    "code": "banking_system",
+    "title": {
+      "en": "Banking System",
+      "ru": "Банковская система",
+      "kz": "Банк жүйесі"
+    },
+    "description": {
+      "en": "An overview of how banks function and their role in the economy.",
+      "ru": "Обзор того, как работают банки и их роль в экономике.",
+      "kz": "Банктердің қалай жұмыс істеуі және олардың экономикадағы рөлі туралы шолу."
+    },
+    "level": "beginner",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    
+{"code": "why_banks_exist",
+"title": {
+"en": "Why Banks Exist"
+},
+"description": {
+"en": "Banks connect people who have money today with people who need money today, making the economy more productive."
+},
+"estimatedMinutes": 5,
+"orderIndex": 0,
+"quizId": 401,
+"lesson": {
+"steps": [
+{
+"id": "1",
+"order": 1,
+"stepType": "introduction",
+"title": {
+"en": "The problem banks solve"
+},
+"body": {
+"en": "Imagine thousands of people saving money and thousands of others needing loans. Without a system connecting them, most savings would sit idle while useful projects went unfunded. Banks exist to bridge that gap."
+},
+"tip": {
+"en": "A bank's core job is moving money from where it is unused to where it can be used productively."
+}
+},
+{
+"id": "2",
+"order": 2,
+"stepType": "explanation",
+"title": {
+"en": "Turning savings into loans"
+},
+"body": {
+"en": "Many depositors place money into accounts for safety and convenience. Banks combine these deposits and lend part of the pool to households and businesses that need financing."
+},
+"example": {
+"en": "One person's 500,000 ₸ deposit may help fund part of a business loan worth millions of tenge."
+}
+},
+{
+"id": "3",
+"order": 3,
+"stepType": "explanation",
+"title": {
+"en": "Why people use banks"
+},
+"body": {
+"en": "Banks do more than hold cash. They provide payment systems, transfers, cards, savings accounts, loans, and secure record-keeping. These services make modern economic activity possible."
+},
+"tip": {
+"en": "Most people interact with banks daily even when they never visit a branch."
+}
+},
+{
+"id": "4",
+"order": 4,
+"stepType": "example",
+"title": {
+"en": "How money flows through a bank"
+},
+"content": {
+"en": {
+"blocks": [
+{
+"type": "paragraph",
+"text": "A simplified example shows how banks connect savers and borrowers."
+},
+{
+"type": "table",
+"rows": [
+["Participant","Action","Amount"],
+["Aigerim","Deposits savings","1,000,000 ₸"],
+["Bank","Keeps reserves and manages risk","Part of deposit"],
+["Small business","Receives loan","800,000 ₸"],
+["Business","Buys equipment and grows","Uses loan"]
+]
+},
+{
+"type": "paragraph",
+"text": "The saver keeps access to banking services while the borrower gains capital to invest."
+}
+]
+}
+}
+},
+{
+"id": "5",
+"order": 5,
+"stepType": "interactive",
+"title": {
+"en": "Identify the bank's role"
+},
+"body": {
+"en": "Classify each situation according to whether it mainly involves storing money or providing financing."
+},
+"interactiveType": "drag_drop",
+"interactiveContent": {
+"en": {
+"instruction": "Sort each item into the category that best describes the bank's primary role.",
+"categories": [
+{
+"id": "storage",
+"label": "Store and move money"
+},
+{
+"id": "financing",
+"label": "Provide financing"
+}
+],
+"items": [
+{
+"id": "salary"
+,
+"text": "Receiving salary into an account"
+},
+{
+"id": "transfer",
+"text": "Sending money to a friend"
+},
+{
+"id": "mortgage",
+"text": "Issuing a home loan"
+},
+{
+"id": "businessloan",
+"text": "Funding business expansion"
+}
+],
+"answers": [
+{
+"itemId": "salary",
+"categoryId": "storage"
+},
+{
+"itemId": "transfer",
+"categoryId": "storage"
+},
+{
+"itemId": "mortgage",
+"categoryId": "financing"
+},
+{
+"itemId": "businessloan",
+"categoryId": "financing"
+}
+],
+"explanation": "Banks perform both functions. They help people safely store and move money, while also directing savings toward borrowers who need capital."
+}
+}
+},
+{
+"id": "6",
+"order": 6,
+"stepType": "conclusion",
+"title": {
+"en": "Banks are financial intermediaries"
+},
+"body": {
+"en": "Banks sit between savers and borrowers. By pooling deposits, managing payments, and extending loans, they make money more useful across the economy."
+},
+"tip": {
+"en": "When evaluating a bank later, remember that every product ultimately supports either storing money, moving money, or lending money."
+}
+}
+]
+},
+"quiz": {
+"quiz_id": 401,
+"quiz_type": "subtopic_quiz",
+"title": {
+"en": "Why Banks Exist — Check"
+},
+"questions": [
+{
+"id": 1,
+"question_type": "single_choice",
+"order_index": 0,
+"question_text": {
+"en": "A city has many households saving money but very few ways for businesses to borrow. What problem are banks primarily solving?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "Connecting idle savings with people and businesses that need financing"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Creating wealth without risk"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "Guaranteeing that all businesses succeed"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Eliminating the need for savings"
+},
+"is_correct": false
+}
+]
+},
+{
+"id": 2,
+"question_type": "single_choice",
+"order_index": 1,
+"question_text": {
+"en": "Suppose everyone kept cash at home instead of using banks. Which banking function would become much harder?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "Matching large numbers of savers with borrowers"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Printing physical banknotes"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "Setting government tax rates"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Producing consumer goods"
+},
+"is_correct": false
+}
+]
+},
+{
+"id": 3,
+"question_type": "single_choice",
+"order_index": 2,
+"question_text": {
+"en": "A bank customer receives salary payments, pays bills, and later takes a car loan. What does this illustrate?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "Banks combine payment services and financing services"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Banks only exist to issue loans"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "Banks mainly store physical cash in vaults"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Banks are unnecessary for everyday payments"
+},
+"is_correct": false
+}
+]
+}
+]
+}
+},
+{
+"code": "types_of_accounts",
+"title": {
+"en": "Types of Accounts"
+},
+"description": {
+"en": "Different bank accounts exist for different jobs. Choosing the wrong account can cost money or reduce flexibility."
+},
+"estimatedMinutes": 5,
+"orderIndex": 1,
+"quizId": 402,
+"lesson": {
+"steps": [
+{
+"id": "1",
+"order": 1,
+"stepType": "introduction",
+"title": {
+"en": "One account cannot do everything"
+},
+"body": {
+"en": "People often think a bank account is just a place to keep money. In reality, different accounts are designed for different goals: spending, saving, earning interest, or managing a business."
+},
+"tip": {
+"en": "Choosing an account is really choosing which financial job you need it to perform."
+}
+},
+{
+"id": "2",
+"order": 2,
+"stepType": "explanation",
+"title": {
+"en": "Current accounts for daily life"
+},
+"body": {
+"en": "A current account (sometimes called a checking account) is built for frequent transactions. Salaries arrive here, bills are paid from here, and cards are usually linked to it."
+},
+"example": {
+"en": "A person earning 450,000 ₸ monthly may receive income into a current account and use it for everyday spending."
+}
+},
+{
+"id": "3",
+"order": 3,
+"stepType": "explanation",
+"title": {
+"en": "Savings and term deposits"
+},
+"body": {
+"en": "Savings accounts and term deposits focus on preserving money and earning interest. They usually offer better returns than transaction accounts, but may limit access or withdrawals."
+},
+"tip": {
+"en": "Money needed tomorrow belongs in a transaction account; money not needed soon may belong in savings."
+}
+},
+{
+"id": "4",
+"order": 4,
+"stepType": "example",
+"title": {
+"en": "Matching accounts to goals"
+},
+"content": {
+"en": {
+"blocks": [
+{
+"type": "paragraph",
+"text": "Different goals require different account types."
+},
+{
+"type": "table",
+"rows": [
+["Goal","Account Type","Why"],
+["Receive salary","Current account","Easy transactions"],
+["Emergency fund","Savings account","Accessible and earns interest"],
+["Money for 2 years","Term deposit","Higher interest potential"],
+["Business operations","Business account","Separate personal and business finances"]
+]
+},
+{
+"type": "paragraph",
+"text": "The best account depends on how and when the money will be used."
+}
+]
+}
+}
+},
+{
+"id": "5",
+"order": 5,
+"stepType": "interactive",
+"title": {
+"en": "Choose the appropriate account"
+},
+"body": {
+"en": "Decide which account type best fits each situation."
+},
+"interactiveType": "scenario_selector",
+"interactiveContent": {
+"en": {
+"instruction": "Select the most suitable account category for each scenario.",
+"options": [
+"Current account",
+"Savings or deposit account"
+],
+"scenarios": [
+{
+"text": "You need money available for daily purchases, transfers, and monthly bills.",
+"correct_answer": "Current account",
+"explanation": "Frequent transactions require easy access and payment functionality."
+},
+{
+"text": "You are building an emergency fund that may not be touched for many months.",
+"correct_answer": "Savings or deposit account",
+"explanation": "The goal is preservation and interest, not daily spending."
+},
+{
+"text": "Your employer sends your salary every month and you use a debit card regularly.",
+"correct_answer": "Current account",
+"explanation": "This is the classic purpose of a transaction account."
+}
+]
+}
+}
+},
+{
+"id": "6",
+"order": 6,
+"stepType": "conclusion",
+"title": {
+"en": "Accounts are tools, not products"
+},
+"body": {
+"en": "Each account type solves a different problem. Instead of asking which account is best, ask what job the money needs to do and choose the account that fits that job."
+},
+"tip": {
+"en": "Many people benefit from using more than one account: one for spending and one for savings."
+}
+}
+]
+},
+"quiz": {
+"quiz_id": 402,
+"quiz_type": "subtopic_quiz",
+"title": {
+"en": "Types of Accounts — Check"
+},
+"questions": [
+{
+"id": 1,
+"question_type": "single_choice",
+"order_index": 0,
+"question_text": {
+"en": "Aigerim plans to use money for rent, groceries, and transfers throughout the month. Which account is most appropriate?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "Current account"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Long-term deposit account"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "Investment fund"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Insurance policy"
+},
+"is_correct": false
+}
+]
+},
+{
+"id": 2,
+"question_type": "single_choice",
+"order_index": 1,
+"question_text": {
+"en": "A family has 1,200,000 ₸ reserved for emergencies and expects to leave it untouched for a long period. What is the strongest reason to place it in a savings account rather than a transaction account?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "It may earn interest while remaining relatively accessible"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "It guarantees higher investment returns than stocks"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "It removes all risk from inflation"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "It prevents withdrawals under any circumstances"
+},
+"is_correct": false
+}
+]
+},
+{
+"id": 3,
+"question_type": "single_choice",
+"order_index": 2,
+"question_text": {
+"en": "A person keeps all money in a term deposit but frequently needs cash for daily expenses. What is the main problem?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "The account's purpose does not match the money's intended use"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Term deposits cannot hold money safely"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "Banks prohibit spending deposited money"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Interest is never paid on deposits"
+},
+"is_correct": false
+}
+]
+}
+]
+}
+},
+{
+"code": "how_banks_make_money",
+"title": {
+"en": "How Banks Make Money (and How They Charge You)"
+},
+"description": {
+"en": "Banks earn profit by charging for services and using deposits to generate interest income through lending."
+},
+"estimatedMinutes": 6,
+"orderIndex": 2,
+"quizId": 403,
+"lesson": {
+"steps": [
+{
+"id": "1",
+"order": 1,
+"stepType": "introduction",
+"title": {
+"en": "Banks are businesses, not utilities"
+},
+"body": {
+"en": "Banks feel like infrastructure, but they are profit-driven companies. They earn money by charging fees and by earning interest on loans funded by your deposits."
+},
+"tip": {
+"en": "If a service is free in banking, you are usually paying in another indirect way."
+}
+},
+{
+"id": "2",
+"order": 2,
+"stepType": "explanation",
+"title": {
+"en": "Interest spread: the core profit engine"
+},
+"body": {
+"en": "Banks pay depositors a low interest rate and charge borrowers a higher rate. The difference between these two is called the interest spread, and it is a major source of profit."
+},
+"example": {
+"en": "A bank pays 5% annual interest on deposits but lends money at 18%. The 13% difference helps cover costs and generate profit."
+}
+},
+{
+"id": "3",
+"order": 3,
+"stepType": "explanation",
+"title": {
+"en": "Fees: the visible revenue stream"
+},
+"body": {
+"en": "Banks also charge direct fees for services such as account maintenance, card issuance, transfers, ATM withdrawals, and foreign currency operations."
+},
+"tip": {
+"en": "Small recurring fees matter more than they seem because they accumulate over years."
+}
+},
+{
+"id": "4",
+"order": 4,
+"stepType": "example",
+"title": {
+"en": "Where your money goes in practice"
+},
+"content": {
+"en": {
+"blocks": [
+{
+"type": "paragraph",
+"text": "A single bank account can generate income for the bank in multiple ways."
+},
+{
+"type": "table",
+"rows": [
+["Activity","Bank earns from","Example cost"],
+["Holding deposit","Interest spread","Loan-funded profit margin"],
+["Card usage","Merchant fees","1–3% per transaction"],
+["Transfers","Service fees","Fixed ₸ per transfer"],
+["Foreign currency","Exchange margin","Hidden spread in FX rate"]
+]
+},
+{
+"type": "paragraph",
+"text": "Even if you do not see fees directly, the system still generates revenue from your activity."
+}
+]
+}
+}
+},
+{
+"id": "5",
+"order": 5,
+"stepType": "interactive",
+"title": {
+"en": "Identify the bank’s revenue source"
+},
+"body": {
+"en": "Match each situation to how the bank is earning money."
+},
+"interactiveType": "scenario_selector",
+"interactiveContent": {
+"en": {
+"instruction": "Choose whether the bank earns mainly from interest spread or fees.",
+"options": [
+"Interest spread",
+"Fees"
+],
+"scenarios": [
+{
+"text": "A customer takes a car loan at 16% annual interest.",
+"correct_answer": "Interest spread",
+"explanation": "The bank earns profit from lending money at a higher rate than it pays on deposits."
+},
+{
+"text": "A bank charges 300 ₸ per international transfer.",
+"correct_answer": "Fees",
+"explanation": "This is a direct service charge unrelated to lending."
+},
+{
+"text": "A credit card transaction generates a small percentage paid by the merchant.",
+"correct_answer": "Fees",
+"explanation": "Merchant transaction fees are part of banking fee income."
+}
+]
+}
+}
+},
+{
+"id": "6",
+"order": 6,
+"stepType": "conclusion",
+"title": {
+"en": "Bank profit comes from information and access"
+},
+"body": {
+"en": "Banks profit because they control access to capital and manage risk better than individuals can alone. Their income comes mainly from lending spreads and service fees."
+},
+"tip": {
+"en": "Understanding bank revenue helps you notice where hidden costs appear in everyday banking."
+}
+}
+]
+},
+"quiz": {
+"quiz_id": 403,
+"quiz_type": "subtopic_quiz",
+"title": {
+"en": "How Banks Make Money — Check"
+},
+"questions": [
+{
+"id": 1,
+"question_type": "single_choice",
+"order_index": 0,
+"question_text": {
+"en": "A bank pays 4% interest on deposits and charges 15% on loans. What is the main source of profit here?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "The interest rate difference between loans and deposits"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Printing new money"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "Government subsidies only"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Charging taxes on income"
+},
+"is_correct": false
+}
+]
+},
+{
+"id": 2,
+"question_type": "single_choice",
+"order_index": 1,
+"question_text": {
+"en": "Which of the following is an example of a bank fee rather than interest income?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "Monthly account maintenance charge"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Interest earned on a mortgage loan"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "Interest paid on savings accounts"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Government bond yield"
+},
+"is_correct": false
+}
+]
+},
+{
+"id": 3,
+"question_type": "single_choice",
+"order_index": 2,
+"question_text": {
+"en": "Why can small banking fees still matter a lot over time?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "They accumulate repeatedly over many transactions and years"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "They are always refunded automatically"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "They only apply to large corporations"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "They are unrelated to bank profit"
+},
+"is_correct": false
+}
+]
+}
+]
+}
+},
+{
+"code": "deposit_insurance",
+"title": {
+"en": "Deposit Insurance (KDIF in Kazakhstan)"
+},
+"description": {
+"en": "How deposit insurance protects your money in case a bank fails, and what limits and conditions actually apply."
+},
+"estimatedMinutes": 6,
+"orderIndex": 3,
+"quizId": 404,
+"lesson": {
+"steps": [
+{
+"id": "1",
+"order": 1,
+"stepType": "introduction",
+"title": {
+"en": "What happens if a bank collapses?"
+},
+"body": {
+"en": "Banks are generally stable, but they can fail. Deposit insurance exists to prevent people from losing their savings if a bank becomes insolvent."
+},
+"tip": {
+"en": "The goal is not to make banks risk-free, but to protect ordinary depositors from losing everything."
+}
+},
+{
+"id": "2",
+"order": 2,
+"stepType": "explanation",
+"title": {
+"en": "How deposit insurance works"
+},
+"body": {
+"en": "In Kazakhstan, deposit insurance is provided by the Kazakhstan Deposit Insurance Fund (KDIF). It guarantees repayment of eligible deposits up to a legal limit if a licensed bank fails."
+},
+"example": {
+"en": "If a bank fails and you had 3,000,000 ₸ in insured deposits within the limit, you receive compensation from the fund, not the bank."
+}
+},
+{
+"id": "3",
+"order": 3,
+"stepType": "explanation",
+"title": {
+"en": "What is covered and what is not"
+},
+"body": {
+"en": "Typically, standard deposits in local currency and foreign currency accounts are covered up to a maximum limit per depositor per bank. Investment products are usually not covered."
+},
+"tip": {
+"en": "Protection applies per bank, not per account type — multiple accounts in one bank are aggregated."
+}
+},
+{
+"id": "4",
+"order": 4,
+"stepType": "example",
+"title": {
+"en": "Understanding coverage limits"
+},
+"content": {
+"en": {
+"blocks": [
+{
+"type": "paragraph",
+"text": "Deposit insurance has a cap, which means not all money may be protected if balances are very large."
+},
+{
+"type": "table",
+"rows": [
+["Scenario","Deposit","Covered?","Outcome"],
+["Single bank account","2,000,000 ₸","Yes","Fully protected"],
+["Multiple accounts same bank","5,000,000 ₸ total","Partially","Covered up to limit only"],
+["Different banks","3,000,000 ₸ each","Yes","Each bank insured separately"]
+]
+},
+{
+"type": "paragraph",
+"text": "Risk is not about losing everything instantly — it is about exceeding coverage limits or holding uninsured products."
+}
+]
+}
+}
+},
+{
+"id": "5",
+"order": 5,
+"stepType": "interactive",
+"title": {
+"en": "Check what is protected"
+},
+"body": {
+"en": "Identify whether the money is covered by deposit insurance in typical cases."
+},
+"interactiveType": "scenario_selector",
+"interactiveContent": {
+"en": {
+"instruction": "Select whether the funds are likely insured under KDIF rules.",
+"options": [
+"Covered",
+"Not covered"
+],
+"scenarios": [
+{
+"text": "A fixed-term deposit in a licensed Kazakhstani bank within insurance limits.",
+"correct_answer": "Covered",
+"explanation": "Standard deposits in insured banks are protected up to the legal cap."
+},
+{
+"text": "Investment in a foreign stock ETF through a broker.",
+"correct_answer": "Not covered",
+"explanation": "Investment products are not deposit accounts and are not insured."
+},
+{
+"text": "Savings held in a current account at a licensed bank.",
+"correct_answer": "Covered",
+"explanation": "Transaction accounts are also included in deposit insurance coverage."
+}
+]
+}
+}
+},
+{
+"id": "6",
+"order": 6,
+"stepType": "conclusion",
+"title": {
+"en": "Insurance reduces bank risk for individuals"
+},
+"body": {
+"en": "Deposit insurance ensures that most ordinary savers are protected even if a bank fails, up to a defined limit. It does not eliminate risk completely, but it makes the system stable and predictable."
+},
+"tip": {
+"en": "A good habit is knowing your insurance limit so you never accidentally exceed it in one bank."
+}
+}
+]
+},
+"quiz": {
+"quiz_id": 404,
+"quiz_type": "subtopic_quiz",
+"title": {
+"en": "Deposit Insurance — Check"
+},
+"questions": [
+{
+"id": 1,
+"question_type": "single_choice",
+"order_index": 0,
+"question_text": {
+"en": "What is the main purpose of deposit insurance?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "To protect depositors if a bank becomes insolvent"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "To increase bank profits"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "To eliminate all financial risk in the economy"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "To replace the banking system entirely"
+},
+"is_correct": false
+}
+]
+},
+{
+"id": 2,
+"question_type": "single_choice",
+"order_index": 1,
+"question_text": {
+"en": "A person holds deposits across multiple accounts in the same bank exceeding the insurance limit. What happens?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "Only the insured amount is protected, the rest is at risk"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Each account is fully insured separately with no limit"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "The government guarantees unlimited compensation"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Banks automatically double the coverage"
+},
+"is_correct": false
+}
+]
+},
+{
+"id": 3,
+"question_type": "single_choice",
+"order_index": 2,
+"question_text": {
+"en": "Which of the following is typically NOT covered by deposit insurance?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "Bank savings account deposit"
+},
+"is_correct": false
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Fixed-term deposit in a licensed bank"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "ETF investment through a broker"
+},
+"is_correct": true
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Current account balance"
+},
+"is_correct": false
+}
+]
+}
+]
+}
+},
+{
+"code": "how_to_choose_a_bank",
+"title": {
+"en": "How to Choose a Bank"
+},
+"description": {
+"en": "A practical framework for choosing a bank based on costs, reliability, and usability instead of marketing."
+},
+"estimatedMinutes": 6,
+"orderIndex": 4,
+"quizId": 405,
+"lesson": {
+"steps": [
+{
+"id": "1",
+"order": 1,
+"stepType": "introduction",
+"title": {
+"en": "Most people choose banks incorrectly"
+},
+"body": {
+"en": "People often choose banks based on brand familiarity or bonuses. In reality, the right bank is the one that minimizes your costs and friction for how you actually use money."
+},
+"tip": {
+"en": "A bank is a long-term service relationship, not a one-time choice."
+}
+},
+{
+"id": "2",
+"order": 2,
+"stepType": "explanation",
+"title": {
+"en": "Cost structure matters more than perks"
+},
+"body": {
+"en": "Banks differ in fees for transfers, cards, withdrawals, and currency exchange. Small differences in fees can compound into large losses over years of usage."
+},
+"example": {
+"en": "A 200 ₸ monthly maintenance fee equals 2,400 ₸ per year, which becomes 24,000 ₸ over 10 years without any added value."
+}
+},
+{
+"id": "3",
+"order": 3,
+"stepType": "explanation",
+"title": {
+"en": "Reliability and access matter"
+},
+"body": {
+"en": "A good bank is stable, regulated, and has strong digital access. In Kazakhstan, users also care about app quality, instant payments, and ATM network coverage."
+},
+"tip": {
+"en": "A cheap bank that is hard to use is more expensive in lost time and friction."
+}
+},
+{
+"id": "4",
+"order": 4,
+"stepType": "example",
+"title": {
+"en": "Comparing two banks in practice"
+},
+"content": {
+"en": {
+"blocks": [
+{
+"type": "paragraph",
+"text": "Two banks can look similar but differ significantly in total cost of use."
+},
+{
+"type": "table",
+"rows": [
+["Feature","Bank A","Bank B"],
+["Monthly fee","0 ₸","200 ₸"],
+["Transfer fee","Free","100 ₸ per transfer"],
+["FX margin","Low","High"],
+["App usability","Strong","Average"]
+]
+},
+{
+"type": "paragraph",
+"text": "Over time, Bank A is cheaper and more convenient even if both look similar on the surface."
+}
+]
+}
+}
+},
+{
+"id": "5",
+"order": 5,
+"stepType": "interactive",
+"title": {
+"en": "Choose the better bank setup"
+},
+"body": {
+"en": "Select which bank is more rational based on real usage patterns."
+},
+"interactiveType": "scenario_selector",
+"interactiveContent": {
+"en": {
+"instruction": "Pick the better option for each situation.",
+"options": [
+"Bank A",
+"Bank B"
+],
+"scenarios": [
+{
+"text": "You make frequent transfers and want to minimize ongoing fees.",
+"correct_answer": "Bank A",
+"explanation": "Bank A has lower or zero transfer fees, reducing long-term cost."
+},
+{
+"text": "You rarely use transfers but care about lowest upfront monthly cost.",
+"correct_answer": "Bank A",
+"explanation": "Even in low usage, Bank A avoids recurring fees."
+},
+{
+"text": "You value a smooth mobile app experience for daily banking.",
+"correct_answer": "Bank A",
+"explanation": "Better usability reduces friction and hidden time costs."
+}
+]
+}
+}
+},
+{
+"id": "6",
+"order": 6,
+"stepType": "conclusion",
+"title": {
+"en": "Choose based on usage, not marketing"
+},
+"body": {
+"en": "The best bank is the one aligned with your actual financial behavior. Evaluate fees, usability, and reliability together rather than focusing on promotions or brand popularity."
+},
+"tip": {
+"en": "Re-evaluate your bank when your financial habits change."
+}
+}
+]
+},
+"quiz": {
+"quiz_id": 405,
+"quiz_type": "subtopic_quiz",
+"title": {
+"en": "How to Choose a Bank — Check"
+},
+"questions": [
+{
+"id": 1,
+"question_type": "single_choice",
+"order_index": 0,
+"question_text": {
+"en": "What is the most important factor when choosing a bank?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "How well it matches your actual usage and costs"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Which bank has the most advertisements"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "Which bank offers the largest sign-up bonus"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Which bank is the oldest in the country"
+},
+"is_correct": false
+}
+]
+},
+{
+"id": 2,
+"question_type": "single_choice",
+"order_index": 1,
+"question_text": {
+"en": "A bank charges small monthly fees and high transfer fees. Why can this become expensive over time?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "Because repeated small costs accumulate across many transactions"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "Because banks refund all fees annually"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "Because fees only apply once per lifetime"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "Because transfer fees are always fixed by government law"
+},
+"is_correct": false
+}
+]
+},
+{
+"id": 3,
+"question_type": "single_choice",
+"order_index": 2,
+"question_text": {
+"en": "Why is bank usability (like mobile app quality) financially important?"
+},
+"answers": [
+{
+"id": 1,
+"order_index": 0,
+"answer_text": {
+"en": "It reduces friction and prevents costly mistakes or delays"
+},
+"is_correct": true
+},
+{
+"id": 2,
+"order_index": 1,
+"answer_text": {
+"en": "It increases interest rates automatically"
+},
+"is_correct": false
+},
+{
+"id": 3,
+"order_index": 2,
+"answer_text": {
+"en": "It replaces the need for money management"
+},
+"is_correct": false
+},
+{
+"id": 4,
+"order_index": 3,
+"answer_text": {
+"en": "It guarantees zero fees"
+},
+"is_correct": false
+}
+]
+}
+]
+}
+}
+  ]
+}
