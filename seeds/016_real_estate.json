@@ -1,0 +1,1785 @@
+{
+  "section": "investment_types",
+  "topic": {
+    "code": "real_estate",
+    "orderIndex": 16,
+    "title": {
+      "en": "Real Estate"
+    },
+    "description": {
+      "en": "Property as an asset — mortgages, the rent-versus-buy decision, REITs, and the carrying costs and risks people routinely overlook."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "real_estate_as_an_asset",
+      "title": {
+        "en": "Real Estate as an Asset"
+      },
+      "description": {
+        "en": "Property can store value, produce rent, and provide use, but it is illiquid, expensive to hold, and location-specific."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 1601,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Property is not just a place"
+            },
+            "body": {
+              "en": "Real estate can be both something you use and something you own as an asset. A home gives shelter; an investment property may produce rent and price growth. Mixing those roles can make decisions emotional and financially unclear."
+            },
+            "tip": {
+              "en": "Separate the lifestyle value from the investment value before judging a property."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Three sources of value"
+            },
+            "body": {
+              "en": "Property value can come from use, rental income, and resale value. A family apartment may be valuable because it reduces housing uncertainty. A rental unit must also be judged by cash flow after costs, not only by expected price growth."
+            },
+            "example": {
+              "en": "A flat worth ₸35,000,000 that rents for ₸180,000 per month produces gross rent of ₸2,160,000 per year before maintenance, vacancy, tax, and management costs."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Real estate is illiquid and local"
+            },
+            "body": {
+              "en": "Unlike a listed stock, property may take months to sell and has high transaction costs. Its value depends heavily on neighborhood, building quality, transport, schools, and local job growth. Two apartments in the same city can behave like different assets."
+            },
+            "tip": {
+              "en": "Real estate risk is concentrated: one property, one location, one tenant market."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Price growth is not the whole return"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor buys an apartment for ₸40,000,000 and rents it out for ₸220,000 per month. The headline rent looks attractive, but costs change the picture."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Item",
+                        "Annual amount",
+                        "Effect"
+                      ],
+                      [
+                        "Gross rent",
+                        "₸2,640,000",
+                        "Cash coming in"
+                      ],
+                      [
+                        "Vacancy allowance",
+                        "-₸220,000",
+                        "One month without tenant"
+                      ],
+                      [
+                        "Maintenance and repairs",
+                        "-₸350,000",
+                        "Asset upkeep"
+                      ],
+                      [
+                        "Tax, insurance, management",
+                        "-₸250,000",
+                        "Operating costs"
+                      ],
+                      [
+                        "Net rent before financing",
+                        "₸1,820,000",
+                        "Actual rental income estimate"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The investment is not judged by rent alone. The useful question is net return after realistic costs and risks."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Classify the property factor"
+            },
+            "body": {
+              "en": "Sort each factor by what it mainly affects: use value, income, or liquidity and risk."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each factor to the best category.",
+                "categories": [
+                  {
+                    "id": "use_value",
+                    "label": "Use value"
+                  },
+                  {
+                    "id": "income",
+                    "label": "Rental income"
+                  },
+                  {
+                    "id": "risk_liquidity",
+                    "label": "Risk or liquidity"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "near_school",
+                    "text": "The apartment is close to school and work"
+                  },
+                  {
+                    "id": "tenant_demand",
+                    "text": "Many tenants want this district"
+                  },
+                  {
+                    "id": "hard_to_sell",
+                    "text": "Similar flats often take six months to sell"
+                  },
+                  {
+                    "id": "old_building",
+                    "text": "The building needs frequent repairs"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "near_school",
+                    "categoryId": "use_value"
+                  },
+                  {
+                    "itemId": "tenant_demand",
+                    "categoryId": "income"
+                  },
+                  {
+                    "itemId": "hard_to_sell",
+                    "categoryId": "risk_liquidity"
+                  },
+                  {
+                    "itemId": "old_building",
+                    "categoryId": "risk_liquidity"
+                  }
+                ],
+                "explanation": "A property can be useful, income-producing, and risky at the same time. Good analysis separates these roles."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Analyze the job of the property"
+            },
+            "body": {
+              "en": "Real estate is an asset with use value, income potential, and resale value. It also has concentration, costs, and slow exit. Before buying, decide whether the property is mainly a home, an income asset, or a speculation on future prices."
+            },
+            "tip": {
+              "en": "A good home is not automatically a good investment property."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1601,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Real Estate as an Asset — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A flat rents for ₸250,000 per month, and the owner says the annual income is simply ₸3,000,000. What is missing from this reasoning?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Vacancy, repairs, taxes, insurance, and other costs must be deducted to estimate net income"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Rent can never be used to value property"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The flat has no value unless it is sold immediately"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "All rental income is guaranteed by the tenant"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can two apartments in the same city have very different investment risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Location, building quality, tenant demand, and liquidity can differ sharply"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "All properties in one city always move identically"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Only the number of rooms matters"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Investment risk disappears if the apartment is new"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which question best separates lifestyle value from investment value?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Would I still buy this property if I judged only net cash flow, resale prospects, and risk?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Do I personally like the balcony view?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Is the building popular on social media?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Can I imagine living there someday?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "mortgages",
+      "title": {
+        "en": "Mortgages"
+      },
+      "description": {
+        "en": "A mortgage uses borrowed money to buy property, turning housing into a leveraged decision with monthly cash-flow obligations."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 1602,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A mortgage adds leverage"
+            },
+            "body": {
+              "en": "A mortgage lets you buy property before saving the full price. That increases access, but it also increases exposure. Small changes in income, rates, or property price can matter more because borrowed money is involved."
+            },
+            "tip": {
+              "en": "Leverage magnifies both progress and mistakes."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "The payment is not just price divided by months"
+            },
+            "body": {
+              "en": "Mortgage payments depend on principal, interest rate, term, and repayment structure. A longer term can lower the monthly payment but increase total interest. A lower monthly payment is not always a cheaper loan."
+            },
+            "example": {
+              "en": "Borrowing ₸25,000,000 for 15 years costs much more in monthly cash flow than a 25-year term, but the 25-year term can create far more total interest."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Equity grows slowly at first"
+            },
+            "body": {
+              "en": "Early mortgage payments often contain a large interest portion. Over time, more of each payment goes toward principal. This means owning a home for only a short period may build less equity than expected after fees and interest."
+            },
+            "tip": {
+              "en": "The first years of a mortgage may feel like ownership, but much of the payment can be financing cost."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Down payment changes the risk"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two buyers purchase a ₸40,000,000 apartment. One uses a larger down payment; the other borrows more."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Buyer",
+                        "Down payment",
+                        "Mortgage",
+                        "Main effect"
+                      ],
+                      [
+                        "A",
+                        "₸12,000,000",
+                        "₸28,000,000",
+                        "Lower monthly obligation and lower leverage"
+                      ],
+                      [
+                        "B",
+                        "₸4,000,000",
+                        "₸36,000,000",
+                        "Higher monthly obligation and higher leverage"
+                      ],
+                      [
+                        "If price falls 10%",
+                        "Property loses ₸4,000,000",
+                        "Loss hits owner's equity first"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Borrowing more can make purchase possible, but it leaves less protection if income falls or property value drops."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Test a mortgage payment"
+            },
+            "body": {
+              "en": "Change the loan amount, rate, and term to see how the monthly payment reacts. Use it to understand sensitivity, not to approve a real loan."
+            },
+            "interactiveType": "simulator",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Estimate a monthly mortgage-style payment from loan amount, annual rate, and term.",
+                "inputs": [
+                  {
+                    "id": "principal",
+                    "label": "Loan amount (₸)",
+                    "default": 25000000
+                  },
+                  {
+                    "id": "rate_pct",
+                    "label": "Annual rate (%)",
+                    "default": 16
+                  },
+                  {
+                    "id": "term_months",
+                    "label": "Term (months)",
+                    "default": 240
+                  }
+                ],
+                "presets": [
+                  {
+                    "label": "Small apartment loan",
+                    "principal": 18000000,
+                    "rate_pct": 16,
+                    "term_months": 180
+                  },
+                  {
+                    "label": "Larger mortgage",
+                    "principal": 35000000,
+                    "rate_pct": 15,
+                    "term_months": 240
+                  },
+                  {
+                    "label": "Shorter term",
+                    "principal": 25000000,
+                    "rate_pct": 16,
+                    "term_months": 120
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "A mortgage is a long cash-flow commitment"
+            },
+            "body": {
+              "en": "A mortgage is not only a way to buy property; it is a long-term claim on future income. The safer question is not “Can I get approved?” but “Can I keep paying through income shocks, repairs, and rate changes?”"
+            },
+            "tip": {
+              "en": "Approval is the lender's threshold. Affordability should be your own stricter threshold."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1602,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Mortgages — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A buyer chooses a 25-year mortgage because the monthly payment is lower than a 15-year mortgage. What trade-off should they understand?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The lower monthly payment may come with much higher total interest over time"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The longer term always means the property is cheaper"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The principal disappears faster with a longer term"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Interest is paid only in the final year"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why does a small down payment increase financial risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It increases leverage and leaves less equity cushion if property prices fall"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It guarantees a lower interest rate"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It removes the need for income stability"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It makes repairs free for the buyer"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which mortgage question is most useful before buying?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Could I keep paying after a job loss, repair bill, or rate increase?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "What is the maximum amount the bank will approve?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Can I ignore maintenance because the bank financed the property?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Will the property price rise every year?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "rent_vs_buy",
+      "title": {
+        "en": "Rent vs Buy"
+      },
+      "description": {
+        "en": "Renting and buying are different packages of flexibility, control, risk, and cash-flow commitment."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 1603,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Rent is not wasted by default"
+            },
+            "body": {
+              "en": "Renting buys housing services and flexibility. Buying buys housing services plus exposure to property ownership. The better choice depends on time horizon, costs, stability, and alternatives for your money."
+            },
+            "tip": {
+              "en": "Do not compare rent with mortgage payment alone; compare total packages."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Buying has hidden carrying costs"
+            },
+            "body": {
+              "en": "Owners pay more than a mortgage. Maintenance, repairs, taxes, insurance, building fees, furnishing, and transaction costs all matter. A home that looks affordable from the monthly payment can be expensive after full carrying costs."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Time horizon changes the answer"
+            },
+            "body": {
+              "en": "Buying becomes more attractive when you stay long enough to spread transaction costs and benefit from stability. Renting is often stronger when your job, family needs, or city may change soon. Flexibility has economic value."
+            },
+            "example": {
+              "en": "If selling costs and moving costs total ₸2,000,000, staying only one year can make ownership expensive even if the monthly mortgage looks close to rent."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Monthly payment is only the beginning"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A person compares renting for ₸250,000 per month with buying a similar apartment using a mortgage payment of ₸310,000. The gap is not only ₸60,000."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Cost item",
+                        "Renting",
+                        "Buying"
+                      ],
+                      [
+                        "Monthly housing payment",
+                        "₸250,000 rent",
+                        "₸310,000 mortgage"
+                      ],
+                      [
+                        "Maintenance",
+                        "Usually landlord responsibility",
+                        "Owner pays"
+                      ],
+                      [
+                        "Transaction costs",
+                        "Low",
+                        "High when buying and selling"
+                      ],
+                      [
+                        "Flexibility",
+                        "Higher",
+                        "Lower"
+                      ],
+                      [
+                        "Potential price gain/loss",
+                        "No direct exposure",
+                        "Owner exposed"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The decision is about risk, flexibility, ownership exposure, and total cost, not a single monthly number."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Choose the stronger option"
+            },
+            "body": {
+              "en": "Decide whether renting or buying better matches each situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the housing choice that better fits the scenario.",
+                "options": [
+                  "Renting stronger",
+                  "Buying stronger"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A person may move to another city within one year for work.",
+                    "correct_answer": "Renting stronger",
+                    "explanation": "Flexibility is valuable when the time horizon is short and uncertain."
+                  },
+                  {
+                    "text": "A household has stable income, plans to stay for ten years, and has a strong emergency fund after the down payment.",
+                    "correct_answer": "Buying stronger",
+                    "explanation": "A long horizon and cash buffer make ownership costs easier to absorb."
+                  },
+                  {
+                    "text": "A buyer can barely afford the mortgage and would have no savings left for repairs.",
+                    "correct_answer": "Renting stronger",
+                    "explanation": "Ownership without a buffer can turn normal repairs into financial stress."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Compare full systems"
+            },
+            "body": {
+              "en": "Renting trades ownership exposure for flexibility. Buying trades flexibility for control, stability, leverage, and property risk. The right choice is personal, but the analysis should include full costs, time horizon, and what else your down payment could do."
+            },
+            "tip": {
+              "en": "Rent is not waste; it is the price of housing without ownership risk."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1603,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Rent vs Buy — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Someone says buying is always better because rent is “throwing money away.” What is the strongest response?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Rent pays for housing and flexibility, while buying adds costs, risk, and capital commitment"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Rent is always better than buying in every case"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Buying has no ongoing costs after the down payment"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Renting gives ownership of part of the building"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why does a short expected stay often make renting more attractive?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Buying and selling costs may not be spread over enough years"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Short stays make mortgages interest-free"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Property prices cannot rise in short periods"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Renting removes all financial responsibility"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which comparison is most complete?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Rent plus flexibility versus mortgage, owner costs, transaction costs, risk, and alternative use of down payment"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Rent payment versus mortgage payment only"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Apartment size versus number of bank branches nearby"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The buyer's emotions versus the landlord's personality"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "reits",
+      "title": {
+        "en": "REITs"
+      },
+      "description": {
+        "en": "REITs let investors access property income through listed securities, with more diversification and liquidity but less control."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 3,
+      "quizId": 1604,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Real estate without owning a flat"
+            },
+            "body": {
+              "en": "A REIT is a company or fund structure that owns income-producing real estate. Investors buy shares or units instead of buying a building directly. This changes the access, diversification, liquidity, and control trade-offs."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "What REIT investors actually get"
+            },
+            "body": {
+              "en": "REIT investors usually receive exposure to rent collected from many properties. The REIT manages buildings, tenants, financing, and distributions. The investor owns a market-traded claim, not a specific apartment or office."
+            },
+            "tip": {
+              "en": "A REIT is closer to owning a real estate business than owning one room in a building."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Liquidity cuts both ways"
+            },
+            "body": {
+              "en": "REIT shares can often be sold faster than physical property. That liquidity is useful, but it also means the market price can move daily with interest rates, investor mood, and stock-market conditions. Easier exit does not remove volatility."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Direct property versus REIT"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor has ₸5,000,000. That may be too little to buy a whole apartment, but enough to buy listed real estate exposure through a REIT or fund."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Feature",
+                        "Direct property",
+                        "REIT"
+                      ],
+                      [
+                        "Minimum capital",
+                        "High",
+                        "Lower"
+                      ],
+                      [
+                        "Diversification",
+                        "Usually one property",
+                        "Many properties possible"
+                      ],
+                      [
+                        "Control",
+                        "High over chosen property",
+                        "Low over individual assets"
+                      ],
+                      [
+                        "Liquidity",
+                        "Slow sale process",
+                        "Often easier to sell"
+                      ],
+                      [
+                        "Price movement",
+                        "Less visible daily",
+                        "Visible market volatility"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A REIT solves access and diversification, but gives up direct control and adds market-price volatility."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Direct or REIT?"
+            },
+            "body": {
+              "en": "Match the investor's priority to the more suitable real-estate route."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the route that better matches each priority.",
+                "options": [
+                  "Direct property",
+                  "REIT"
+                ],
+                "scenarios": [
+                  {
+                    "text": "The investor wants to choose one apartment, renovate it, and manage tenants personally.",
+                    "correct_answer": "Direct property",
+                    "explanation": "Direct ownership gives more control over the specific asset."
+                  },
+                  {
+                    "text": "The investor wants exposure to many properties with less capital and easier selling.",
+                    "correct_answer": "REIT",
+                    "explanation": "A REIT can provide diversified property exposure with more liquidity."
+                  },
+                  {
+                    "text": "The investor cannot handle daily market price swings and wants control over repairs.",
+                    "correct_answer": "Direct property",
+                    "explanation": "Direct property has less visible daily pricing and more control, though it still has risk."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "REITs change the trade-off"
+            },
+            "body": {
+              "en": "REITs make real estate more accessible and diversified, but they do not make it risk-free. The investor trades direct control for professional management and market liquidity. The right choice depends on whether you value control, diversification, liquidity, or simplicity most."
+            },
+            "tip": {
+              "en": "REITs are real estate exposure, not the same experience as owning a property."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1604,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "REITs — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why might a small investor choose a REIT instead of buying an apartment?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A REIT can offer real estate exposure with lower capital, diversification, and easier selling"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A REIT guarantees no price volatility"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A REIT gives control over each tenant and repair"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A REIT removes all interest-rate risk"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What does a REIT investor usually own?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A security linked to a portfolio of real estate assets or a real estate business"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A specific room in each building"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A guaranteed fixed deposit at a bank"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A mortgage with no borrower risk"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is a downside of REIT liquidity?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The market price can move daily with rates and investor sentiment"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The investor can never sell"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Liquidity guarantees stable income"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The investor must repair every property personally"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "costs_and_risks",
+      "title": {
+        "en": "Costs and Risks"
+      },
+      "description": {
+        "en": "Real estate returns can be weakened by maintenance, vacancy, leverage, taxes, concentration, and slow exits."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 1605,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Property risk hides in ordinary costs"
+            },
+            "body": {
+              "en": "Real estate often feels safe because it is visible and useful. But visible does not mean simple. Repairs, vacancy, financing, taxes, legal issues, and slow selling can turn a good-looking property into a weak investment."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Cash flow can break before price falls"
+            },
+            "body": {
+              "en": "An owner can struggle even if the property price has not changed. A vacant month, emergency repair, or higher mortgage payment can create a cash-flow problem. Real estate risk often appears as monthly pressure before it appears as a sale loss."
+            },
+            "example": {
+              "en": "A rental that normally brings ₸220,000 can turn negative if one month is vacant and a ₸600,000 heating repair arrives."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Concentration and leverage amplify outcomes"
+            },
+            "body": {
+              "en": "Many owners have most of their wealth in one property and one city. If that property is financed with debt, the owner's equity absorbs losses first. This concentration can be fine when planned, but dangerous when ignored."
+            },
+            "tip": {
+              "en": "Owning one valuable property is not the same as being diversified."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "The overlooked return drag"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A rental apartment looks profitable at first: ₸240,000 monthly rent on a ₸38,000,000 property. But annual costs reduce the return."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Item",
+                        "Annual amount",
+                        "Why it matters"
+                      ],
+                      [
+                        "Gross rent",
+                        "₸2,880,000",
+                        "Headline income"
+                      ],
+                      [
+                        "Vacancy and late payments",
+                        "-₸240,000",
+                        "One month lost"
+                      ],
+                      [
+                        "Repairs and maintenance",
+                        "-₸450,000",
+                        "Normal ownership cost"
+                      ],
+                      [
+                        "Building fees, tax, insurance",
+                        "-₸300,000",
+                        "Recurring obligations"
+                      ],
+                      [
+                        "Net before mortgage",
+                        "₸1,890,000",
+                        "Much lower than headline rent"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "If mortgage interest is added, the cash return may fall further or become negative."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Find the hidden risk"
+            },
+            "body": {
+              "en": "Each property claim ignores a risk. Choose the mistake."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the main error in each real-estate claim.",
+                "cases": [
+                  {
+                    "text": "“The apartment rents for ₸240,000 per month, so my yearly profit is ₸2,880,000.”",
+                    "options": [
+                      "a) No error",
+                      "b) It ignores vacancy, repairs, taxes, and other costs",
+                      "c) Rent can only be counted after the property is sold"
+                    ],
+                    "correct": "b",
+                    "explanation": "Gross rent is not profit. Net return requires deducting realistic ownership costs."
+                  },
+                  {
+                    "text": "“Property is safe because I can always sell quickly if I need cash.”",
+                    "options": [
+                      "a) No error",
+                      "b) Real estate can be illiquid and slow to sell",
+                      "c) Selling always happens above asking price"
+                    ],
+                    "correct": "b",
+                    "explanation": "A sale can take time, require discounts, and involve fees."
+                  },
+                  {
+                    "text": "“I am diversified because my apartment has three rooms.”",
+                    "options": [
+                      "a) One property is still concentrated exposure",
+                      "b) No error",
+                      "c) Room count removes location risk"
+                    ],
+                    "correct": "a",
+                    "explanation": "Diversification means exposure across assets, locations, and risks, not rooms inside one property."
+                  }
+                ],
+                "final_explanation": "Real estate risk is often hidden by gross numbers and physical confidence. Net cash flow, liquidity, leverage, and concentration matter."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Use net, not headline numbers"
+            },
+            "body": {
+              "en": "Real estate decisions should be made with net cash flow, stress tests, and exit risk in mind. A property can be useful and still financially fragile. The safest analysis asks what happens when rent pauses, repairs arrive, rates rise, or selling takes longer than planned."
+            },
+            "tip": {
+              "en": "A property investment is only as strong as its bad-year cash flow."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1605,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Costs and Risks — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A rental property has strong gross rent but frequent repairs and vacancies. What should the investor focus on?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Net cash flow after realistic costs and vacancy"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Gross rent only, because costs do not affect returns"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The property color and floor number only"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Whether rent is paid in round amounts"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can leverage make a property price decline more painful for the owner?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Debt stays fixed while the owner's equity absorbs the decline first"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Debt disappears when the property price falls"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Leverage guarantees higher rent"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A mortgage prevents all losses"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which statement best describes real estate liquidity risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The property may take time to sell, and the seller may need to accept a lower price or pay fees"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A property can always be sold instantly at full asking price"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Liquidity risk only applies to stocks"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Real estate has no transaction costs"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 1699,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Real Estate — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "A rental apartment looks attractive because gross rent is high. What is the most important next step?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Estimate net income after vacancy, maintenance, taxes, fees, and financing costs"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Assume gross rent equals profit"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Ignore the local tenant market"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Buy only because property is visible and physical"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "A buyer chooses the maximum mortgage the bank approves and has no repair buffer left. What is the main issue?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Approval does not prove affordability under income shocks, repairs, or rate changes"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "The bank will automatically pay future repairs"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "A mortgage removes ownership risk"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "A larger loan always lowers total interest"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "When is renting more likely to be financially reasonable?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "When the person may move soon and values flexibility more than ownership exposure"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "When the person believes rent is always wasted"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "When buying has no transaction costs"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "When maintenance costs are ignored"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "What trade-off does a REIT usually offer compared with direct property ownership?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "More accessible and diversified exposure, but less direct control and visible market volatility"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Full control over each apartment and no price movement"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Guaranteed rent with no tenant risk"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Ownership of one specific room in every building"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "Why is one mortgaged apartment not automatically a diversified investment?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It concentrates wealth in one property, location, financing structure, and tenant market"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Diversification depends only on apartment size"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Mortgage debt eliminates concentration risk"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "A property becomes diversified after one year"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

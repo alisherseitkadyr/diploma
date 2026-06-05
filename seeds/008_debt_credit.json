@@ -1,0 +1,395 @@
+{
+  "section": "budgeting_saving_debt",
+  "topic": {
+    "code": "debt_credit",
+    "orderIndex": 8,
+    "title": {
+      "en": "Debt & Credit"
+    },
+    "description": {
+      "en": "How interest and APR truly work, when borrowing helps versus traps you, and how to escape and avoid the debt cycle."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "types_of_debt",
+      "title": {
+        "en": "Types of debt"
+      },
+      "description": {
+        "en": "."
+      },
+      "estimatedMinutes": 1,
+      "orderIndex": 0,
+      "quizId": 801,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "."
+            },
+            "body": {
+              "en": "."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 801,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "."
+        },
+        "passing_score": 70,
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "B"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "how_interest_works",
+      "title": {
+        "en": "How interest works"
+      },
+      "description": {
+        "en": "."
+      },
+      "estimatedMinutes": 1,
+      "orderIndex": 1,
+      "quizId": 802,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "."
+            },
+            "body": {
+              "en": "."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 802,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "."
+        },
+        "passing_score": 70,
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "B"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "apr_and_total_cost",
+      "title": {
+        "en": "APR and total borrowing cost"
+      },
+      "description": {
+        "en": "."
+      },
+      "estimatedMinutes": 1,
+      "orderIndex": 2,
+      "quizId": 803,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "."
+            },
+            "body": {
+              "en": "."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 803,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "."
+        },
+        "passing_score": 70,
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "B"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "microloans_and_debt_trap",
+      "title": {
+        "en": "Microloans, payday loans & the debt trap"
+      },
+      "description": {
+        "en": "."
+      },
+      "estimatedMinutes": 1,
+      "orderIndex": 3,
+      "quizId": 804,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "."
+            },
+            "body": {
+              "en": "."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 804,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "."
+        },
+        "passing_score": 70,
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "B"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "credit_history_and_scores",
+      "title": {
+        "en": "Credit history and scores"
+      },
+      "description": {
+        "en": "."
+      },
+      "estimatedMinutes": 1,
+      "orderIndex": 4,
+      "quizId": 805,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "."
+            },
+            "body": {
+              "en": "."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 805,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "."
+        },
+        "passing_score": 70,
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "B"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "debt_payoff_strategies",
+      "title": {
+        "en": "Debt payoff strategies"
+      },
+      "description": {
+        "en": "."
+      },
+      "estimatedMinutes": 1,
+      "orderIndex": 5,
+      "quizId": 806,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "."
+            },
+            "body": {
+              "en": "."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 806,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "."
+        },
+        "passing_score": 70,
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "B"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

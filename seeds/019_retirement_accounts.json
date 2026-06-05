@@ -1,0 +1,2070 @@
+{
+  "section": "funds_accounts_markets",
+  "topic": {
+    "code": "retirement_accounts",
+    "orderIndex": 19,
+    "title": {
+      "en": "Retirement & Tax-Advantaged Accounts"
+    },
+    "description": {
+      "en": "Why tax-advantaged accounts exist, how employer matching and steady contributions compound, and how Kazakhstan's pension system works."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "why_retirement_accounts_exist",
+      "title": {
+        "en": "Why Retirement Accounts Exist"
+      },
+      "description": {
+        "en": "Retirement accounts solve a timing problem: income arrives during working years, but spending continues after work slows or stops."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 1901,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Retirement is a cash-flow problem"
+            },
+            "body": {
+              "en": "Retirement planning is not only about old age. It is about moving part of today's income into years when work income may be lower or gone. A retirement account creates a structure for that transfer across time."
+            },
+            "tip": {
+              "en": "The core question is: who pays future you when current work income stops?"
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Why ordinary saving is hard"
+            },
+            "body": {
+              "en": "Long-term money is easy to spend when it sits in the same place as short-term money. Retirement accounts add rules, defaults, tax treatment, or employer systems that separate future income from everyday spending. The structure protects the goal from daily decisions."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Time does much of the work"
+            },
+            "body": {
+              "en": "Small contributions matter because they can compound for decades. Starting earlier reduces the pressure to save huge amounts later. Waiting turns the same retirement goal into a much steeper monthly obligation."
+            },
+            "example": {
+              "en": "Saving ₸25,000 monthly for 30 years creates far more opportunity for compounding than saving ₸50,000 monthly for only 10 years."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same income, different time allocation"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two people earn ₸400,000 per month. Both spend money now, but only one deliberately redirects part of income toward later years."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Person",
+                        "Monthly retirement contribution",
+                        "Annual amount moved to future",
+                        "Main effect"
+                      ],
+                      [
+                        "A",
+                        "₸0",
+                        "₸0",
+                        "Future income depends mostly on later choices"
+                      ],
+                      [
+                        "B",
+                        "₸40,000",
+                        "₸480,000",
+                        "Builds a dedicated future-income base"
+                      ],
+                      [
+                        "B over 20 years before returns",
+                        "₸40,000 monthly",
+                        "₸9,600,000",
+                        "Time and discipline create scale"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The account is not magic. It creates a repeated rule that moves money from working years to future spending years."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Separate the time job"
+            },
+            "body": {
+              "en": "Classify each money choice by whether it mainly serves present spending, near-term safety, or future income."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each choice to the time purpose it best serves.",
+                "categories": [
+                  {
+                    "id": "present",
+                    "label": "Present spending"
+                  },
+                  {
+                    "id": "safety",
+                    "label": "Near-term safety"
+                  },
+                  {
+                    "id": "future_income",
+                    "label": "Future income"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "groceries",
+                    "text": "Monthly groceries and transport"
+                  },
+                  {
+                    "id": "emergency_fund",
+                    "text": "Cash reserve for job loss"
+                  },
+                  {
+                    "id": "pension_contribution",
+                    "text": "Regular retirement contribution"
+                  },
+                  {
+                    "id": "vacation_spending",
+                    "text": "A holiday paid from current income"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "groceries",
+                    "categoryId": "present"
+                  },
+                  {
+                    "itemId": "emergency_fund",
+                    "categoryId": "safety"
+                  },
+                  {
+                    "itemId": "pension_contribution",
+                    "categoryId": "future_income"
+                  },
+                  {
+                    "itemId": "vacation_spending",
+                    "categoryId": "present"
+                  }
+                ],
+                "explanation": "Retirement accounts exist to protect future-income money from being mixed with present spending or short-term safety money."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "The account supports the habit"
+            },
+            "body": {
+              "en": "Retirement accounts solve a human and financial problem: future spending needs are real, but today's spending feels closer. The account adds structure, rules, and often tax or employer benefits. Its purpose is to turn long-term saving into a repeatable system."
+            },
+            "tip": {
+              "en": "A retirement account is a bridge from working income to future income."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1901,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Why Retirement Accounts Exist — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person says retirement saving can wait because their income will probably rise later. What is the main issue?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Waiting reduces compounding time and makes the future monthly saving burden larger"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Higher future income always guarantees retirement security"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Retirement accounts only work for people near retirement"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Compounding matters only for one-year goals"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why is it useful to separate retirement money from everyday spending money?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It protects long-term income money from short-term consumption decisions"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It makes the money impossible to invest"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It removes all market risk"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It means no future contributions are needed"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the best mental model for a retirement account?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A system for moving current income into future spending years"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A short-term shopping account"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A guaranteed way to become rich quickly"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A replacement for an emergency fund"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "tax_deferred_accounts",
+      "title": {
+        "en": "Tax-Deferred Accounts"
+      },
+      "description": {
+        "en": "Tax-deferred accounts delay taxation, allowing more money to compound now but creating taxable income later."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 1902,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Tax timing changes compounding"
+            },
+            "body": {
+              "en": "A tax-deferred account does not make taxes disappear. It changes when tax is paid. By delaying tax, more money may stay invested today, which can increase the amount that compounds over time."
+            },
+            "tip": {
+              "en": "Deferred means later, not never."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "The trade-off"
+            },
+            "body": {
+              "en": "With tax deferral, contributions or growth may avoid current tax, depending on the system. Later withdrawals may be taxed as income. This can help when your tax rate now is higher than your expected rate in retirement."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Why the account balance can look bigger"
+            },
+            "body": {
+              "en": "Because tax is delayed, the visible balance may include money that will partly belong to the tax authority later. Comparing a tax-deferred balance with a fully after-tax balance can be misleading. The after-tax value is what funds spending."
+            },
+            "example": {
+              "en": "A ₸10,000,000 deferred balance is not the same as ₸10,000,000 spendable cash if future withdrawals are taxable."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Deferral gives more capital time"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Suppose ₸1,000,000 can be invested. In one case tax is paid first; in the other, tax is delayed until withdrawal."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Path",
+                        "Invested today",
+                        "Tax timing",
+                        "Main idea"
+                      ],
+                      [
+                        "After-tax now",
+                        "₸900,000",
+                        "Tax paid before investing",
+                        "Less capital compounds"
+                      ],
+                      [
+                        "Tax-deferred",
+                        "₸1,000,000",
+                        "Tax paid later",
+                        "More capital compounds before withdrawal"
+                      ],
+                      [
+                        "Decision factor",
+                        "Depends",
+                        "Future tax rate matters",
+                        "Timing can help or hurt"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The benefit is strongest when deferral increases compounding and future tax rates are not higher enough to erase it."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Spot the tax-deferred idea"
+            },
+            "body": {
+              "en": "Choose the correct interpretation of each tax-deferred situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best label for each statement.",
+                "options": [
+                  "Tax delayed",
+                  "After-tax value",
+                  "Misconception"
+                ],
+                "scenarios": [
+                  {
+                    "text": "An account lets more money stay invested now, but withdrawals may be taxable later.",
+                    "correct_answer": "Tax delayed",
+                    "explanation": "The account changes tax timing, not the basic need to fund taxes."
+                  },
+                  {
+                    "text": "A person compares spendable retirement money after future withdrawal taxes.",
+                    "correct_answer": "After-tax value",
+                    "explanation": "Retirement spending depends on what remains after tax."
+                  },
+                  {
+                    "text": "A deferred account means taxes can be ignored forever.",
+                    "correct_answer": "Misconception",
+                    "explanation": "Deferred taxation is delayed taxation, not necessarily zero taxation."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Think in after-tax retirement income"
+            },
+            "body": {
+              "en": "Tax-deferred accounts can be powerful because they let more money work now. But the account balance is not always fully spendable. Good planning asks what the contribution saves today, how the money compounds, and what tax may apply later."
+            },
+            "tip": {
+              "en": "The useful comparison is after-tax income across time, not headline account size."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1902,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Tax-Deferred Accounts — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person says a tax-deferred account means they will never pay tax on that money. What is the correction?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Tax may be delayed until withdrawal rather than eliminated"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Tax-deferred money cannot be invested"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Tax-deferred accounts always lose money"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Tax is paid twice immediately"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can tax deferral help compounding?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "More money may remain invested before tax is paid later"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The investment return becomes guaranteed"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The account removes all fees"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The future tax rate is always zero"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why can a tax-deferred balance overstate spendable wealth?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Some of the balance may be owed as tax when withdrawn"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The balance is always fake"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The account cannot hold real assets"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Deferred accounts cannot be used in retirement"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "tax_free_accounts",
+      "title": {
+        "en": "Tax-Free Accounts"
+      },
+      "description": {
+        "en": "Tax-free accounts usually use after-tax contributions but allow qualified growth or withdrawals to avoid later tax."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 1903,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Pay now to avoid tax later"
+            },
+            "body": {
+              "en": "A tax-free account usually works in the opposite direction from tax deferral. You contribute money after tax, then qualified growth or withdrawals may avoid tax later. The appeal is certainty over future spendable value."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "The benefit depends on future growth"
+            },
+            "body": {
+              "en": "The longer money grows, the more valuable tax-free treatment can become. Paying tax before investing may feel painful, but if the account later grows for decades, avoiding tax on growth can matter a lot. Time magnifies the difference."
+            },
+            "tip": {
+              "en": "Tax-free growth is most valuable when growth has enough time to become large."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Tax-free does not mean rule-free"
+            },
+            "body": {
+              "en": "Tax-free treatment usually depends on meeting account rules, contribution limits, eligible investments, or withdrawal conditions. Breaking rules can create taxes or penalties. The tax benefit is part of a system, not a blank permission slip."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Why future tax-free growth matters"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A person invests ₸1,000,000 after tax. If it doubles over time, the tax treatment of the growth changes the spendable result."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Account treatment",
+                        "Starting amount",
+                        "Future value",
+                        "Tax issue"
+                      ],
+                      [
+                        "Regular taxable account",
+                        "₸1,000,000",
+                        "₸2,000,000",
+                        "Growth may be taxable"
+                      ],
+                      [
+                        "Tax-free account",
+                        "₸1,000,000",
+                        "₸2,000,000",
+                        "Qualified growth may be tax-free"
+                      ],
+                      [
+                        "Main advantage",
+                        "Same contribution",
+                        "More spendable growth",
+                        "If rules are followed"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The account is valuable not because the starting money is larger, but because future growth may be cleaner to spend."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Tax-free or not?"
+            },
+            "body": {
+              "en": "Label each statement by the tax-free account concept it represents."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the best label for each scenario.",
+                "options": [
+                  "After-tax contribution",
+                  "Tax-free growth",
+                  "Rule condition"
+                ],
+                "scenarios": [
+                  {
+                    "text": "The investor contributes money that has already been taxed.",
+                    "correct_answer": "After-tax contribution",
+                    "explanation": "Tax-free accounts often start with after-tax money."
+                  },
+                  {
+                    "text": "Investment gains can be withdrawn without tax if account rules are met.",
+                    "correct_answer": "Tax-free growth",
+                    "explanation": "The main benefit is often avoiding tax on qualified growth or withdrawals."
+                  },
+                  {
+                    "text": "Early or ineligible withdrawals may lose the special treatment.",
+                    "correct_answer": "Rule condition",
+                    "explanation": "The benefit depends on following account rules."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Tax-free favors long horizons"
+            },
+            "body": {
+              "en": "Tax-free accounts can be powerful when after-tax money grows for many years and later withdrawals meet the rules. The decision depends on today's tax cost, expected growth, future tax rates, and rule flexibility. The benefit is future spendable certainty."
+            },
+            "tip": {
+              "en": "Tax-free treatment is most useful when the growth, not just the contribution, becomes large."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1903,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Tax-Free Accounts — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why might a young investor value tax-free growth highly?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Long time horizons can make future growth large, and qualified tax-free treatment protects that growth"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Young investors never pay tax on income"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Tax-free accounts guarantee high returns"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Tax-free accounts remove all contribution limits"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is a common trade-off of tax-free account design?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "You may contribute after-tax money now to reduce tax on qualified growth or withdrawals later"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "You borrow from the account without repayment forever"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "You avoid all rules and limits"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "You receive a guaranteed employer match in every case"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why should rules matter when using a tax-free account?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Breaking withdrawal or eligibility rules can reduce or remove the tax benefit"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Rules only apply to taxable accounts"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Tax-free accounts cannot hold investments"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Rules guarantee the investment will not fall"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "employer_matching",
+      "title": {
+        "en": "Employer Matching"
+      },
+      "description": {
+        "en": "Employer matching turns part of your contribution into extra compensation, but only if you contribute enough and follow the plan rules."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 3,
+      "quizId": 1904,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A match is part of pay"
+            },
+            "body": {
+              "en": "Employer matching means the employer adds money to your retirement account when you contribute. It is not a market return; it is compensation tied to a saving behavior. Ignoring a match can mean leaving part of pay unused."
+            },
+            "tip": {
+              "en": "Treat a reliable match as salary that requires an action to unlock."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "The formula matters"
+            },
+            "body": {
+              "en": "A match might be 50% of your contribution up to a limit, or 100% up to a smaller limit. The value depends on salary, contribution rate, cap, and vesting rules. You need the formula to know the real benefit."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Vesting changes ownership timing"
+            },
+            "body": {
+              "en": "Some plans require you to stay employed for a period before employer contributions fully belong to you. This is called vesting. A match can be valuable, but leaving before vesting may reduce what you keep."
+            },
+            "example": {
+              "en": "If ₸300,000 of employer match vests after two years, leaving after six months may mean keeping less or none of that match, depending on rules."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "How the match boosts saving"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An employee earns ₸500,000 monthly. The employer matches 50% of the employee contribution up to 6% of salary."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Employee contribution",
+                        "Employee amount",
+                        "Employer match",
+                        "Total added"
+                      ],
+                      [
+                        "3% of salary",
+                        "₸15,000",
+                        "₸7,500",
+                        "₸22,500"
+                      ],
+                      [
+                        "6% of salary",
+                        "₸30,000",
+                        "₸15,000",
+                        "₸45,000"
+                      ],
+                      [
+                        "10% of salary",
+                        "₸50,000",
+                        "₸15,000",
+                        "₸65,000"
+                      ],
+                      [
+                        "Key point",
+                        "More saving helps",
+                        "Match capped at 6%",
+                        "Formula sets limit"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The match is strongest up to the cap. Contributions above the cap may still be useful, but they do not unlock more employer money."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Allocate to unlock the match"
+            },
+            "body": {
+              "en": "Use a salary of ₸500,000. Split the monthly income so retirement contribution is at least ₸30,000 to capture the full match in this example."
+            },
+            "interactiveType": "input_numbers",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Distribute ₸500,000 across spending, retirement contribution, and other saving. The total must equal ₸500,000.",
+                "fields": [
+                  {
+                    "id": "spending",
+                    "label": "Current spending"
+                  },
+                  {
+                    "id": "retirement",
+                    "label": "Retirement contribution"
+                  },
+                  {
+                    "id": "other_saving",
+                    "label": "Other saving or goals"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 500000
+                },
+                "exampleAnswer": {
+                  "spending": "390000",
+                  "retirement": "30000",
+                  "other_saving": "80000"
+                },
+                "explanation": "In this match formula, ₸30,000 is the contribution that reaches 6% of salary. Less than that leaves some employer match unused."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Get the match deliberately"
+            },
+            "body": {
+              "en": "Employer matching can be one of the highest-value parts of a retirement system because it adds money before investment returns even begin. But the details matter: formula, cap, eligibility, and vesting. A good first target is often contributing enough to capture the full reliable match."
+            },
+            "tip": {
+              "en": "Match first, then optimize the rest of the plan."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1904,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Employer Matching — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An employer matches 50% of contributions up to 6% of salary. An employee contributes only 2%. What is the issue?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They may be leaving some available employer compensation unused"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They automatically receive the full match anyway"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The match makes investment risk disappear"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The employer contribution replaces the need to save"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why does vesting matter?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It determines when employer contributions fully belong to the employee"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It changes the stock market return every day"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It removes contribution limits"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It guarantees the employee will never change jobs"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What should you calculate to understand a match?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Salary, contribution rate, match formula, cap, and vesting rules"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Only the fund's logo"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Only last year's market return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Only the employee's age"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "contribution_strategy",
+      "title": {
+        "en": "Contribution Strategy"
+      },
+      "description": {
+        "en": "A contribution strategy balances match capture, emergency reserves, debt, tax treatment, automation, and gradual increases."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 1905,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Contribution order matters"
+            },
+            "body": {
+              "en": "Retirement saving competes with rent, debt, emergencies, and short-term goals. A contribution strategy decides what gets funded first and why. The goal is not the maximum contribution immediately, but a sustainable rule that survives real life."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Start with the highest-value steps"
+            },
+            "body": {
+              "en": "Many people first build a small emergency buffer, capture any reliable employer match, and avoid high-interest debt traps. After that, they raise contributions gradually. This order protects against needing to withdraw long-term money during a short-term shock."
+            },
+            "tip": {
+              "en": "A retirement plan without a cash buffer can be broken by one emergency."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Automation beats repeated willpower"
+            },
+            "body": {
+              "en": "Automatic contributions turn saving into a default instead of a monthly debate. Increasing the contribution after raises can also prevent lifestyle creep. The strategy works because it changes the system, not because you feel motivated every month."
+            },
+            "example": {
+              "en": "If income rises by ₸50,000, increasing retirement contributions by ₸15,000 still leaves ₸35,000 for current life while raising future income."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A practical contribution ladder"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A worker earns ₸450,000 monthly and wants a sustainable plan. The sequence matters because each step solves a different risk."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Step",
+                        "Action",
+                        "Why it comes here"
+                      ],
+                      [
+                        "1",
+                        "Build ₸300,000 starter emergency buffer",
+                        "Avoids using debt for small shocks"
+                      ],
+                      [
+                        "2",
+                        "Contribute enough for full employer match",
+                        "Captures extra compensation"
+                      ],
+                      [
+                        "3",
+                        "Pay down very high-interest debt",
+                        "Reduces guaranteed financial drag"
+                      ],
+                      [
+                        "4",
+                        "Raise contribution by 1–2% after salary increases",
+                        "Builds retirement saving without sudden pain"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The plan is a sequence, not a single heroic contribution."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Pick the next contribution move"
+            },
+            "body": {
+              "en": "Choose the best next action for each situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the most sensible next step.",
+                "options": [
+                  "Build buffer",
+                  "Capture match",
+                  "Reduce high-interest debt",
+                  "Increase contribution gradually"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A person has no emergency cash and would use a microloan for a sudden ₸80,000 expense.",
+                    "correct_answer": "Build buffer",
+                    "explanation": "A starter buffer protects the retirement plan from short-term shocks."
+                  },
+                  {
+                    "text": "An employer match is available, but the person contributes below the match cap.",
+                    "correct_answer": "Capture match",
+                    "explanation": "Reliable match is extra compensation tied to contribution behavior."
+                  },
+                  {
+                    "text": "A person pays very high interest on short-term debt while investing small amounts.",
+                    "correct_answer": "Reduce high-interest debt",
+                    "explanation": "High-interest debt can overwhelm investment progress."
+                  },
+                  {
+                    "text": "A person gets a raise and already has a buffer and no high-interest debt.",
+                    "correct_answer": "Increase contribution gradually",
+                    "explanation": "Raising contributions after income growth reduces lifestyle creep."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Make the plan durable"
+            },
+            "body": {
+              "en": "The best contribution strategy is one you can keep through normal problems. Capture high-value benefits, protect against emergencies, avoid expensive debt, automate contributions, and raise them when income grows. Durability matters more than an impressive first month."
+            },
+            "tip": {
+              "en": "A sustainable 8% that continues can beat a painful 20% that stops."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1905,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Contribution Strategy — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person invests for retirement but has no emergency savings and often borrows for small shocks. What is the risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Short-term emergencies can force expensive debt or retirement withdrawals"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Emergency savings are unnecessary if investing exists"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Borrowing for shocks always improves retirement returns"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Retirement accounts are designed for monthly shopping"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why increase retirement contributions after a salary raise?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It raises future saving before the full raise turns into lifestyle spending"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It makes the raise disappear completely"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It guarantees a higher market return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It removes the need for asset allocation"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which contribution strategy is most durable?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A realistic automated contribution that captures match and grows over time"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The highest possible contribution for one month, then stopping"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Skipping emergency savings to look more invested"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Contributing randomly only when markets rise"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "kz_pension_system",
+      "title": {
+        "en": "KZ Pension System: UAPF + Voluntary"
+      },
+      "description": {
+        "en": "Kazakhstan's pension system centers on mandatory accumulated pension contributions through UAPF, with voluntary options adding flexibility."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 5,
+      "quizId": 1906,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Kazakhstan uses an accumulated pension model"
+            },
+            "body": {
+              "en": "Kazakhstan's pension system includes mandatory accumulated pension contributions handled through the Unified Accumulative Pension Fund, often called UAPF. The basic idea is that part of working income is directed toward future retirement income. Voluntary contributions can add another layer."
+            },
+            "tip": {
+              "en": "In Kazakhstan, pension planning is not only personal choice; part of it is built into the income system."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Mandatory contributions create a baseline"
+            },
+            "body": {
+              "en": "Mandatory pension contributions create a retirement base by moving a portion of income into a dedicated pension account. This reduces the chance that retirement saving is skipped completely. But a baseline is not always the same as a complete retirement plan."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Voluntary contributions add control"
+            },
+            "body": {
+              "en": "Voluntary pension contributions can help people increase future retirement income beyond the mandatory level. They may be useful for irregular earners, people with higher retirement goals, or those who started saving late. The key is to understand rules, access, risk, and expected need."
+            },
+            "example": {
+              "en": "Adding ₸20,000 monthly voluntarily creates ₸240,000 per year of extra retirement funding before investment results."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Baseline versus personal target"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A worker earns ₸500,000 monthly and wants stronger future retirement income. The pension system provides a base, but the worker can still plan around the gap."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Layer",
+                        "Monthly amount",
+                        "Purpose"
+                      ],
+                      [
+                        "Mandatory contribution",
+                        "Based on income rules",
+                        "Creates pension baseline"
+                      ],
+                      [
+                        "Voluntary contribution",
+                        "₸20,000",
+                        "Adds extra future income"
+                      ],
+                      [
+                        "Separate long-term investing",
+                        "₸30,000",
+                        "Adds flexibility outside pension rules"
+                      ],
+                      [
+                        "Emergency savings",
+                        "Separate cash",
+                        "Protects long-term accounts from short-term shocks"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The pension account is one layer of the plan. A complete plan may also need flexible savings and investments outside the pension system."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Identify the pension layer"
+            },
+            "body": {
+              "en": "Sort each action by whether it belongs to the mandatory pension base, voluntary pension layer, or flexible personal planning."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each item to the correct pension-planning layer.",
+                "categories": [
+                  {
+                    "id": "mandatory",
+                    "label": "Mandatory pension base"
+                  },
+                  {
+                    "id": "voluntary",
+                    "label": "Voluntary pension layer"
+                  },
+                  {
+                    "id": "flexible",
+                    "label": "Flexible personal planning"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "income_contribution",
+                    "text": "Required pension contribution from working income"
+                  },
+                  {
+                    "id": "extra_pension",
+                    "text": "Additional voluntary pension contribution"
+                  },
+                  {
+                    "id": "emergency_cash",
+                    "text": "Separate emergency fund outside pension rules"
+                  },
+                  {
+                    "id": "brokerage_investing",
+                    "text": "Long-term investing outside the pension account"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "income_contribution",
+                    "categoryId": "mandatory"
+                  },
+                  {
+                    "itemId": "extra_pension",
+                    "categoryId": "voluntary"
+                  },
+                  {
+                    "itemId": "emergency_cash",
+                    "categoryId": "flexible"
+                  },
+                  {
+                    "itemId": "brokerage_investing",
+                    "categoryId": "flexible"
+                  }
+                ],
+                "explanation": "A strong retirement plan can combine the mandatory pension base, voluntary pension contributions, and flexible personal savings or investments."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Know the baseline, then plan the gap"
+            },
+            "body": {
+              "en": "Kazakhstan's pension system creates an important starting point through accumulated pension contributions. But personal retirement readiness still depends on income, contribution history, goals, inflation, and flexible savings. Use the system as a base, then decide what extra layer your future needs require."
+            },
+            "tip": {
+              "en": "Mandatory pension saving is a foundation, not automatically the whole building."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1906,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "KZ Pension System — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why should a worker not treat mandatory pension contributions as the whole retirement plan automatically?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The mandatory base may not fully match their future spending goals, inflation, or flexibility needs"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Mandatory contributions are never invested"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A pension system makes personal planning illegal"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Future spending needs are always lower than expected"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is the role of voluntary pension contributions?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They can add extra retirement funding beyond the mandatory layer"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They replace the need to understand pension rules"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They are the same as daily spending money"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They guarantee unlimited retirement income"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why keep some flexible savings outside pension accounts?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Short-term shocks and flexible goals may need money that is not locked into retirement rules"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Flexible savings always earns more than pensions"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Emergency money should be invested only in risky assets"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Pension accounts are useless if flexible savings exists"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 1999,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Retirement & Tax-Advantaged Accounts — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "What problem do retirement accounts mainly solve?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Moving part of current income into years when work income may be lower or absent"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Making short-term shopping easier"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Guaranteeing high investment returns"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Replacing the need for cash reserves"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "A tax-deferred account has a large balance. What should the owner remember?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Future withdrawals may be taxable, so after-tax spendable value matters"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Deferred means tax never exists"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "The full balance is always tax-free cash"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Tax-deferred accounts cannot compound"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "What makes tax-free growth valuable over long horizons?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Investment gains can become large, and qualified tax-free treatment may protect those gains"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Tax-free accounts remove all market losses"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "After-tax contributions are always larger than pre-tax contributions"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Rules never apply to tax-free accounts"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "Why is employer matching often a high-priority contribution target?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It can add employer money to the account before investment returns begin"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It guarantees the account cannot fall"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It removes vesting rules"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It means the employee should never save more personally"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "In Kazakhstan, how should mandatory pension contributions be viewed in a personal retirement plan?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "As an important baseline that may need voluntary and flexible layers depending on goals"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "As proof that no personal planning is needed"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "As daily spending money"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "As a guarantee that inflation cannot affect retirement income"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1775 @@
+{
+  "section": "funds_accounts_markets",
+  "topic": {
+    "code": "macroeconomics_for_investors",
+    "orderIndex": 21,
+    "title": {
+      "en": "Macroeconomics for Investors"
+    },
+    "description": {
+      "en": "Reading GDP, inflation, unemployment, and the business cycle so that economic news informs your decisions instead of frightening you."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "gdp",
+      "title": {
+        "en": "GDP"
+      },
+      "description": {
+        "en": "GDP measures the value of goods and services produced in an economy, but investors must read growth together with quality, inflation, and expectations."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 0,
+      "quizId": 2101,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "GDP is the economy's output scorecard"
+            },
+            "body": {
+              "en": "Gross domestic product, or GDP, estimates the value of goods and services produced inside an economy. Investors watch it because company sales, employment, tax revenue, and policy decisions often move with economic output. But GDP is a starting point, not a full investment signal."
+            },
+            "tip": {
+              "en": "GDP tells you about output, not automatically about stock returns."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Real growth matters more than nominal growth"
+            },
+            "body": {
+              "en": "Nominal GDP can rise because prices rise, output rises, or both. Real GDP adjusts for inflation and better shows whether the economy is producing more. Investors need this distinction because high nominal growth during high inflation can hide weak real progress."
+            },
+            "example": {
+              "en": "If nominal GDP rises 12% while prices rise 10%, real output growth is much smaller than the headline number suggests."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Markets react to expectations"
+            },
+            "body": {
+              "en": "A strong GDP report can disappoint markets if investors expected even stronger growth. A weak report can be welcomed if it reduces fear of overheating or rate hikes. The market reaction depends on what changed relative to expectations."
+            },
+            "tip": {
+              "en": "Ask whether the data changed expectations, not whether the number looks good in isolation."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same GDP number, different interpretation"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An economy reports 3% real GDP growth. That single number can mean different things depending on context."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Context",
+                        "Interpretation",
+                        "Investor question"
+                      ],
+                      [
+                        "Expected 1% growth",
+                        "Positive surprise",
+                        "Will earnings forecasts rise?"
+                      ],
+                      [
+                        "Expected 5% growth",
+                        "Disappointment",
+                        "Were prices already too optimistic?"
+                      ],
+                      [
+                        "Growth driven by debt boom",
+                        "Quality concern",
+                        "Is the growth sustainable?"
+                      ],
+                      [
+                        "Growth with high inflation",
+                        "Policy concern",
+                        "Will rates rise?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "GDP is useful when read with expectations, inflation, interest rates, and the sources of growth."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Read the GDP signal"
+            },
+            "body": {
+              "en": "Choose what each GDP situation mainly tells an investor to investigate."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best interpretation of each GDP scenario.",
+                "options": [
+                  "Real growth question",
+                  "Expectation gap",
+                  "Growth quality question"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Nominal GDP rises strongly, but inflation is almost as high.",
+                    "correct_answer": "Real growth question",
+                    "explanation": "The investor should separate price increases from actual output growth."
+                  },
+                  {
+                    "text": "GDP grows 2%, but the market expected 4%, and stocks fall.",
+                    "correct_answer": "Expectation gap",
+                    "explanation": "The report was positive in level but weaker than the price had implied."
+                  },
+                  {
+                    "text": "GDP growth depends mainly on a short-term credit surge.",
+                    "correct_answer": "Growth quality question",
+                    "explanation": "The investor should ask whether the growth source is sustainable."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "GDP is context, not a command"
+            },
+            "body": {
+              "en": "GDP helps investors understand the economic environment, but it does not directly tell them what to buy. The useful analysis separates nominal from real growth, compares data with expectations, and checks whether growth is sustainable. Good macro reading adds context to valuation and risk."
+            },
+            "tip": {
+              "en": "Strong GDP can still be bad for markets if it brings inflation pressure or rate fears."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2101,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "GDP — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An economy reports 11% nominal GDP growth while inflation is 9%. What should an investor ask first?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "How much real output actually grew after adjusting for price increases"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Whether nominal growth alone guarantees stock gains"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Whether inflation should be ignored because GDP rose"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Whether all companies automatically doubled profits"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "GDP grows 3%, but markets fall because investors expected 5%. What does this show?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Markets react to data relative to expectations, not only whether the number is positive"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "GDP growth never matters"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A positive GDP number must always lift stocks"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Investors cannot compare forecasts with outcomes"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which use of GDP is most reasonable for an investor?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Using it as context for earnings, policy, and risk rather than as a standalone buy signal"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Buying every stock whenever GDP is positive"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Ignoring inflation and expectations completely"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Treating GDP as the exact return of the stock market"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "inflation_macro",
+      "title": {
+        "en": "Inflation: Macro View"
+      },
+      "description": {
+        "en": "Inflation changes purchasing power, interest rates, company margins, and investor required returns."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 2102,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Inflation changes the measurement stick"
+            },
+            "body": {
+              "en": "Inflation means money buys less over time. For investors, it matters because returns are measured in money, but life is paid for in goods and services. A portfolio can grow in tenge and still lose purchasing power if inflation is higher."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Real return is what matters"
+            },
+            "body": {
+              "en": "Nominal return is the percentage your account shows. Real return subtracts inflation to estimate purchasing-power growth. If an investment earns 10% while prices rise 8%, the real gain is much smaller than the headline return."
+            },
+            "tip": {
+              "en": "Investors spend real returns, not nominal percentages."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Inflation affects companies differently"
+            },
+            "body": {
+              "en": "Some companies can raise prices when costs rise; others cannot. Businesses with pricing power may protect margins better. Companies with fixed costs, weak demand, or heavy borrowing can struggle when inflation and rates rise together."
+            },
+            "example": {
+              "en": "A food producer with strong brands may raise prices faster than a small supplier locked into old contracts."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Nominal gain, weak real result"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor begins with ₸1,000,000 and earns a 12% nominal return in a year when inflation is 10%."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Item",
+                        "Amount",
+                        "Meaning"
+                      ],
+                      [
+                        "Starting portfolio",
+                        "₸1,000,000",
+                        "Initial money"
+                      ],
+                      [
+                        "Nominal return",
+                        "+12%",
+                        "Account grows to ₸1,120,000"
+                      ],
+                      [
+                        "Inflation",
+                        "10%",
+                        "Prices rise during the year"
+                      ],
+                      [
+                        "Approximate real gain",
+                        "About 2%",
+                        "Purchasing power barely improves"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The account balance rose, but most of the increase only kept up with higher prices."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Classify the inflation effect"
+            },
+            "body": {
+              "en": "Sort each inflation effect by whether it mainly affects purchasing power, company margins, or interest rates."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each effect to the correct category.",
+                "categories": [
+                  {
+                    "id": "purchasing_power",
+                    "label": "Purchasing power"
+                  },
+                  {
+                    "id": "margins",
+                    "label": "Company margins"
+                  },
+                  {
+                    "id": "rates",
+                    "label": "Interest rates"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "cash_buys_less",
+                    "text": "Cash buys fewer groceries next year"
+                  },
+                  {
+                    "id": "costs_rise",
+                    "text": "Input costs rise faster than selling prices"
+                  },
+                  {
+                    "id": "central_bank",
+                    "text": "The central bank may raise rates to cool demand"
+                  },
+                  {
+                    "id": "real_return",
+                    "text": "A 9% return is less impressive when inflation is 8%"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "cash_buys_less",
+                    "categoryId": "purchasing_power"
+                  },
+                  {
+                    "itemId": "costs_rise",
+                    "categoryId": "margins"
+                  },
+                  {
+                    "itemId": "central_bank",
+                    "categoryId": "rates"
+                  },
+                  {
+                    "itemId": "real_return",
+                    "categoryId": "purchasing_power"
+                  }
+                ],
+                "explanation": "Inflation affects investors through real wealth, company profits, and policy rates. It is not just a consumer-price headline."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Inflation connects everything"
+            },
+            "body": {
+              "en": "Inflation affects the value of cash, the meaning of returns, company margins, and interest-rate policy. Investors should look beyond the headline rate and ask who can pass on costs, which assets protect purchasing power, and whether policy may tighten. Real outcomes matter most."
+            },
+            "tip": {
+              "en": "A good nominal return can still be weak if inflation is high."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2102,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Inflation: Macro View — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An investment earns 9% while inflation is 11%. What happened to purchasing power?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It likely fell despite the positive nominal return"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It rose by exactly 9%"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It was unaffected because the account gained money"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It doubled because inflation was high"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why do investors care whether a company has pricing power during inflation?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It may help the company protect margins when costs rise"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It guarantees the stock cannot fall"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It means the company has no expenses"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It removes interest-rate risk"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which statement best connects inflation and interest rates?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "High inflation can push central banks toward higher rates, affecting loans, bonds, and valuations"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Inflation never affects policy rates"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Higher inflation always lowers all interest rates"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Rates and inflation are the same number by definition"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "unemployment",
+      "title": {
+        "en": "Unemployment"
+      },
+      "description": {
+        "en": "Unemployment shows labor-market stress, but investors must read it with wages, participation, consumer demand, and policy response."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 2103,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Jobs link households and markets"
+            },
+            "body": {
+              "en": "Unemployment measures people who are looking for work but do not have jobs. It matters to investors because jobs support income, spending, loan repayment, and confidence. But the number needs context before it becomes useful."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Low unemployment can be strong or hot"
+            },
+            "body": {
+              "en": "Low unemployment often signals a healthy economy. But if labor is too tight, wages may rise quickly and add inflation pressure. That can lead to higher interest rates, which may hurt valuations even while employment looks strong."
+            },
+            "tip": {
+              "en": "Good labor news can become rate-risk news if inflation pressure rises."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "High unemployment hits demand"
+            },
+            "body": {
+              "en": "When unemployment rises, households may reduce spending, delay purchases, or struggle with debt. Consumer-facing companies can suffer, while defensive sectors may hold up better. Investors also watch whether policymakers may cut rates or support the economy."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "One jobs report, two market reactions"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A jobs report shows unemployment falling and wages rising. The reaction depends on what investors were worried about before the report."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Market worry",
+                        "Jobs report interpretation",
+                        "Possible reaction"
+                      ],
+                      [
+                        "Recession fear",
+                        "Stronger jobs reduce fear",
+                        "Stocks may rise"
+                      ],
+                      [
+                        "Inflation fear",
+                        "Wage pressure may keep inflation high",
+                        "Bonds and stocks may fall"
+                      ],
+                      [
+                        "Rate-cut hopes",
+                        "Strong jobs delay cuts",
+                        "Interest-rate sensitive assets may weaken"
+                      ],
+                      [
+                        "Consumer spending concern",
+                        "More income supports demand",
+                        "Retail outlook may improve"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The same labor data can be good or bad depending on the macro problem investors are focused on."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Read the labor signal"
+            },
+            "body": {
+              "en": "Choose what each unemployment scenario mainly suggests."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best investor interpretation.",
+                "options": [
+                  "Demand weakness",
+                  "Inflation pressure",
+                  "Policy support possibility"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Unemployment rises quickly and retail sales weaken.",
+                    "correct_answer": "Demand weakness",
+                    "explanation": "Job losses can reduce household spending and hurt consumer-facing businesses."
+                  },
+                  {
+                    "text": "Unemployment is very low and wages accelerate faster than productivity.",
+                    "correct_answer": "Inflation pressure",
+                    "explanation": "Fast wage growth can add cost pressure if not matched by productivity."
+                  },
+                  {
+                    "text": "Unemployment rises during a slowdown, and investors expect central bank easing.",
+                    "correct_answer": "Policy support possibility",
+                    "explanation": "Weak labor markets can increase pressure for rate cuts or support measures."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Labor data is a bridge"
+            },
+            "body": {
+              "en": "Unemployment links households, company revenue, inflation, and policy. A strong labor market can support demand but also create wage pressure. A weak labor market can hurt earnings but increase expectations for policy support. Investors should read jobs data through the current economic problem."
+            },
+            "tip": {
+              "en": "The same unemployment number can mean different things in recession fear versus inflation fear."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2103,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Unemployment — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Unemployment is low, wages are rising fast, and inflation is already high. What might investors worry about?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Wage pressure could keep inflation high and delay rate cuts"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Low unemployment always means all assets rise"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Wage growth has no connection to company costs"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Inflation must immediately disappear"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can rising unemployment hurt consumer companies?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Households may reduce spending when income security weakens"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Unemployment makes consumers buy more expensive goods automatically"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Consumer demand never depends on jobs"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Companies receive more revenue when customers lose income"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the best way to interpret unemployment data for investing?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Connect it to wages, demand, inflation, and likely policy response"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Treat the number as a standalone buy or sell command"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Ignore whether wages are rising"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Assume high unemployment is always good for stocks"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "business_cycles",
+      "title": {
+        "en": "Business Cycles"
+      },
+      "description": {
+        "en": "Business cycles describe expansions and slowdowns, helping investors understand earnings, risk appetite, rates, and sector sensitivity."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 2104,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Economies move in cycles"
+            },
+            "body": {
+              "en": "Economic activity does not grow in a straight line. Expansions, slowdowns, recessions, and recoveries affect profits, jobs, interest rates, and investor confidence. Business cycles help investors organize the environment without pretending to forecast perfectly."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Different assets react differently"
+            },
+            "body": {
+              "en": "Cyclical companies often do well when growth is strong and demand is rising. Defensive companies may hold up better when households cut optional spending. Bonds can benefit if slowdowns lead to lower rates, but inflation can complicate that pattern."
+            },
+            "tip": {
+              "en": "Cycle awareness is about sensitivity, not guaranteed timing."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Markets often move before the data looks clear"
+            },
+            "body": {
+              "en": "Investors try to price the future, so markets can fall before a recession is official and recover before news feels good. Waiting for perfect confirmation can mean reacting late. The challenge is balancing evidence with humility."
+            },
+            "example": {
+              "en": "A stock market can begin recovering while unemployment is still rising if investors believe the worst earnings decline is already priced in."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Cycle stages and investor questions"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Business-cycle labels are imperfect, but they help frame which risks are most important."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Stage",
+                        "Typical features",
+                        "Investor question"
+                      ],
+                      [
+                        "Expansion",
+                        "Growth, hiring, confidence",
+                        "Are valuations too optimistic?"
+                      ],
+                      [
+                        "Late cycle",
+                        "Inflation or capacity pressure",
+                        "Will rates tighten?"
+                      ],
+                      [
+                        "Slowdown",
+                        "Weaker demand and profits",
+                        "Which balance sheets are fragile?"
+                      ],
+                      [
+                        "Recovery",
+                        "Improving expectations",
+                        "Which assets already priced the rebound?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The goal is not to name the stage perfectly. It is to understand which risks deserve more attention."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Match the cycle signal"
+            },
+            "body": {
+              "en": "Classify each signal by the business-cycle concern it most suggests."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each signal to the best cycle interpretation.",
+                "categories": [
+                  {
+                    "id": "expansion",
+                    "label": "Expansion"
+                  },
+                  {
+                    "id": "late_cycle",
+                    "label": "Late-cycle pressure"
+                  },
+                  {
+                    "id": "slowdown",
+                    "label": "Slowdown"
+                  },
+                  {
+                    "id": "recovery",
+                    "label": "Recovery"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "hiring_sales",
+                    "text": "Hiring and sales are broad-based and strong"
+                  },
+                  {
+                    "id": "inflation_rates",
+                    "text": "Inflation pressure rises and policy tightens"
+                  },
+                  {
+                    "id": "earnings_cuts",
+                    "text": "Companies cut earnings forecasts"
+                  },
+                  {
+                    "id": "expectations_improve",
+                    "text": "Leading indicators improve after a weak period"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "hiring_sales",
+                    "categoryId": "expansion"
+                  },
+                  {
+                    "itemId": "inflation_rates",
+                    "categoryId": "late_cycle"
+                  },
+                  {
+                    "itemId": "earnings_cuts",
+                    "categoryId": "slowdown"
+                  },
+                  {
+                    "itemId": "expectations_improve",
+                    "categoryId": "recovery"
+                  }
+                ],
+                "explanation": "Cycle labels are rough maps. They help identify whether growth, inflation, earnings risk, or recovery expectations dominate."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Use cycles as a risk map"
+            },
+            "body": {
+              "en": "Business cycles help investors connect macro data to profits, rates, and risk appetite. They should not be used as precise clocks. A better approach is to ask which assets are sensitive to the current risks and whether your portfolio could survive being early or wrong."
+            },
+            "tip": {
+              "en": "Cycle awareness improves preparation; it does not create perfect forecasts."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2104,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Business Cycles — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why can markets recover before economic news feels good?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Markets price expectations about the future, not only current reported conditions"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Markets never care about earnings"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Recoveries are announced before investors react"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Bad news legally requires prices to rise"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which company is usually more cyclical?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A company selling expensive optional goods that consumers delay in downturns"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A basic utility with stable regulated demand"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A company with no relation to consumer income"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A business whose sales are fixed by long contracts forever"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the best use of business-cycle analysis?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Mapping current risks to earnings, rates, and portfolio sensitivity"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Predicting the exact month every recession begins"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Buying only when all data is perfect"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Ignoring valuations because cycles explain everything"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "reading_economic_news",
+      "title": {
+        "en": "Reading Economic News Without Panic"
+      },
+      "description": {
+        "en": "Economic headlines are useful only when separated into data, expectations, time horizon, portfolio exposure, and decision relevance."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 2105,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Headlines are designed to feel urgent"
+            },
+            "body": {
+              "en": "Economic news often sounds like a command to act immediately. But most headlines are context, not instructions. Investors need a process for deciding whether the news actually changes their plan."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Separate data from interpretation"
+            },
+            "body": {
+              "en": "A headline may mix a data point, a forecast, and an opinion. The data might be real, while the interpretation may be exaggerated. Good reading asks what happened, what was expected, and what decision it affects."
+            },
+            "tip": {
+              "en": "Do not let an emotional headline choose your time horizon."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Relevance depends on exposure"
+            },
+            "body": {
+              "en": "Not every macro event matters equally to your portfolio. A rate change may matter more if you own long bonds or have variable-rate debt. A commodity shock may matter more if your income or investments depend on energy, mining, or transport."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A calmer news checklist"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "You read: “Inflation surprises higher; markets fear more rate hikes.” Before acting, break the headline into decision parts."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Question",
+                        "Why it matters",
+                        "Example answer"
+                      ],
+                      [
+                        "What is the data?",
+                        "Separates fact from tone",
+                        "Inflation was 1% above forecast"
+                      ],
+                      [
+                        "What changed versus expectations?",
+                        "Explains market reaction",
+                        "Rate cuts may be delayed"
+                      ],
+                      [
+                        "What exposure do I have?",
+                        "Connects news to portfolio",
+                        "Long bonds and growth stocks are sensitive"
+                      ],
+                      [
+                        "What is my horizon?",
+                        "Prevents overreaction",
+                        "Goal is 15 years away"
+                      ],
+                      [
+                        "Does my plan change?",
+                        "Turns news into decision",
+                        "Maybe rebalance, not panic sell"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The checklist turns macro news from emotional noise into structured context."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "News or decision?"
+            },
+            "body": {
+              "en": "Choose the best response to each economic headline situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the most useful next step.",
+                "options": [
+                  "Check expectations",
+                  "Check exposure",
+                  "Check time horizon"
+                ],
+                "scenarios": [
+                  {
+                    "text": "GDP growth is positive, but markets fall after the report.",
+                    "correct_answer": "Check expectations",
+                    "explanation": "The number may have disappointed relative to forecasts."
+                  },
+                  {
+                    "text": "Interest-rate news appears, and you own long-duration bond funds.",
+                    "correct_answer": "Check exposure",
+                    "explanation": "Your portfolio has assets directly sensitive to rate changes."
+                  },
+                  {
+                    "text": "A scary recession headline appears, but your investment goal is 25 years away.",
+                    "correct_answer": "Check time horizon",
+                    "explanation": "Long horizons can make immediate headlines less decision-relevant."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Make news earn its place in your plan"
+            },
+            "body": {
+              "en": "Economic news should inform decisions, not trigger reflexes. Read the data, compare it with expectations, connect it to your actual exposure, and check your time horizon. If the news does not change those inputs, it may not deserve action."
+            },
+            "tip": {
+              "en": "A headline is not a portfolio strategy."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2105,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Reading Economic News Without Panic — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A headline says “markets panic after inflation report.” What should an investor do before acting?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Identify the actual data, expectations, portfolio exposure, and time horizon"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Sell everything immediately because the headline says panic"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Ignore all economic data forever"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Buy only the asset mentioned first in the article"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why does portfolio exposure matter when reading macro news?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The same news affects different assets and people differently"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Every investor owns identical assets"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Exposure is irrelevant if the headline is dramatic"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Macroeconomic news affects only banks"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which response shows calm economic-news reading?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A rate headline leads the investor to review bond duration and loan exposure, not panic trade"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The investor sells long-term investments because one article used the word crisis"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The investor changes goals every time GDP is reported"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The investor assumes all forecasts are facts"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 2199,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Macroeconomics for Investors — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "GDP rises strongly in nominal terms, but inflation is also very high. What should an investor check?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Real growth after adjusting for inflation"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Only the nominal GDP number"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Whether all stocks must rise"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Whether inflation has no effect on output data"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "Why can a positive portfolio return still feel weak in real life?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Inflation may have reduced purchasing-power gains"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Positive returns are never real"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Inflation increases every investor's buying power"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Nominal return and real return are always identical"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "Low unemployment and fast wage growth appear while inflation is high. What is a possible market concern?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Inflation pressure and tighter policy may continue"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Consumer income has no effect on the economy"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Low unemployment always causes immediate rate cuts"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Wage growth cannot affect company margins"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "What is the best role of business-cycle analysis?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Understanding which risks dominate and which assets are sensitive to them"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Predicting exact turning points with certainty"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Replacing diversification"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Ignoring valuation because cycle labels decide everything"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "A frightening macro headline appears, but your goals and exposures have not changed. What is the most disciplined response?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Use the headline as context, but avoid action unless it changes the plan's inputs"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Trade immediately because headlines are instructions"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Assume the headline predicts exact future returns"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Forget your time horizon and copy social media reactions"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

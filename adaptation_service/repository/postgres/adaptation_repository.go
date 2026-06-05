@@ -391,6 +391,59 @@ func (r *AdaptationRepository) GetUserSubtopicProgressMap(ctx context.Context, u
 	return progressMap, nil
 }
 
+func (r *AdaptationRepository) GetRepetitionCandidates(ctx context.Context, userID int64) ([]model.RepetitionCandidate, error) {
+	query := `
+		select
+			t.code as topic_code,
+			s.code as subtopic_code,
+			t.level as topic_level,
+			t.order_index as topic_order_index,
+			uqp.best_score_percent::numeric as best_score_percent,
+			uqp.attempts_count,
+			extract(epoch from (now() - uqp.last_attempt_at)) / 86400.0 as days_since_last_review
+		from user_quiz_progress uqp
+		join subtopics s on s.code = uqp.subtopic_code
+		join topics t on t.id = s.topic_id
+		where uqp.user_id = $1
+		  and uqp.quiz_type = 'subtopic_quiz'
+		  and uqp.subtopic_code is not null
+		  and uqp.best_score_percent >= 70
+		order by uqp.last_attempt_at asc
+	`
+
+	rows, err := r.db.Query(ctx, query, userID)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	candidates := make([]model.RepetitionCandidate, 0)
+
+	for rows.Next() {
+		var c model.RepetitionCandidate
+
+		if err := rows.Scan(
+			&c.TopicCode,
+			&c.SubtopicCode,
+			&c.TopicLevel,
+			&c.TopicOrderIndex,
+			&c.BestScorePercent,
+			&c.AttemptsCount,
+			&c.DaysSinceLastReview,
+		); err != nil {
+			return nil, err
+		}
+
+		candidates = append(candidates, c)
+	}
+
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+
+	return candidates, nil
+}
+
 func (r *AdaptationRepository) GetLatestActiveReinforcement(ctx context.Context, userID int64) (*model.ActiveReinforcement, error) {
 	query := `
 		select

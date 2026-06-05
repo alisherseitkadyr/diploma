@@ -2,6 +2,7 @@
 "section": "banking_payments",
   "topic": {
     "code": "banking_system",
+    "orderIndex": 4,
     "title": {
       "en": "Banking System",
       "ru": "Банковская система",

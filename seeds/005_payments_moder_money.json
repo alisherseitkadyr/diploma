@@ -1,0 +1,337 @@
+{
+    "section": "banking_payments",
+    "topic": {
+    "code": "payments_modern_money",
+      "orderIndex": 5,
+    "title": {"en": "Payments & Modern Money"},
+    "description": {"en": "How money actually moves today — cards, wallets, and instant transfers — and the fintech system built around them."},
+    "level": "beginner",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "cards_and_payment_networks",
+      "title": {"en": "Cards and Payment Networks"},
+      "description": {"en": "A card is not money. It is a credential routed through banks and a network that vouch for the payment."},
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 501,
+      "lesson": { "steps": [
+        {"id":"1","order":1,"stepType":"introduction","title":{"en":"Who trusts your card?"},
+         "body":{"en":"A shop in Almaty takes a card from a stranger and trusts it is good for the money, without knowing the person. It can do this because a hidden system of banks and a network stands behind every tap, vouching for the payment."},
+         "tip":{"en":"A card is not money. It is a credential that points to an account."}},
+        {"id":"2","order":2,"stepType":"explanation","title":{"en":"The four parties behind a tap"},
+         "body":{"en":"Four players act on every card payment: your bank (the issuer), the shop's bank (the acquirer), the network (Visa or Mastercard) that routes the message, and the two of you. The network holds no money; it carries the approval and sets the rules."},
+         "example":{"en":"A tap sends a question, not cash: does this account have the funds, and is the card valid? The answer returns in about a second."}},
+        {"id":"3","order":3,"stepType":"explanation","title":{"en":"Authorize now, settle later"},
+         "body":{"en":"The tap first authorizes: your bank places a hold confirming the funds. The real money moves hours later, in a batch, called settlement. The shop pays a fee on each sale (often 1–2.5%), part of which goes to your bank and quietly funds free cards and cashback."},
+         "tip":{"en":"Debit pulls from your own balance; credit borrows the bank's money until you repay."}},
+        {"id":"4","order":4,"stepType":"example","title":{"en":"Where 10,000 ₸ actually goes"},
+         "content":{"en":{"blocks":[
+           {"type":"paragraph","text":"You buy groceries for 10,000 ₸ with a card. The shop does not receive the full amount."},
+           {"type":"table","rows":[["Step","What happens","Money"],["You tap","Issuer holds 10,000 ₸","-10,000 ₸"],["Network routes","Approval sent to shop's bank","0 ₸"],["Settlement","Shop's bank pays the shop minus ~2%","+9,800 ₸"],["Fee split","Most of the 200 ₸ goes to your bank","200 ₸"]]},
+           {"type":"paragraph","text":"The shop prices that lost 2% into everything it sells, so cash customers help pay for card rewards too."}]}}},
+        {"id":"5","order":5,"stepType":"interactive","title":{"en":"Match each player to its job"},
+         "body":{"en":"Three players stand behind every card payment. Sort each job to the one that does it."},
+         "interactiveType":"drag_drop",
+         "interactiveContent":{"en":{
+           "instruction":"Drag each job to the player that does it.",
+           "categories":[{"id":"issuer","label":"Your bank (issuer)"},{"id":"acquirer","label":"Shop's bank (acquirer)"},{"id":"network","label":"Network (Visa/Mastercard)"}],
+           "items":[{"id":"holds","text":"Holds your money and approves the charge"},{"id":"pays_shop","text":"Pays the shop for the sale"},{"id":"routes","text":"Routes the approval between the two banks"},{"id":"rules","text":"Sets the rules and fees both banks follow"}],
+           "answers":[{"itemId":"holds","categoryId":"issuer"},{"itemId":"pays_shop","categoryId":"acquirer"},{"itemId":"routes","categoryId":"network"},{"itemId":"rules","categoryId":"network"}],
+           "explanation":"Your bank guards your money, the shop's bank receives the sale, and the network is the messenger and rule-maker in between. No single party does it all, and that division is what makes the system trustworthy."}}},
+        {"id":"6","order":6,"stepType":"conclusion","title":{"en":"A card is a key, not cash"},
+         "body":{"en":"A card is a credential; the network is a messaging and rules system; the real money moves later between two banks. The cost is hidden in a merchant fee baked into prices. Next we will see how phones and apps sit on top of these same rails."},
+         "tip":{"en":"When a shop offers a cash discount, it is sharing the card fee it just avoided."}}
+      ]},
+      "quiz": {
+        "quiz_id":501,"quiz_type":"subtopic_quiz","title":{"en":"Cards and Payment Networks — Check"},
+        "questions":[
+          {"id":1,"question_type":"single_choice","order_index":0,
+           "question_text":{"en":"A café offers a 3% discount if you pay cash instead of card. What is the most likely reason?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"Card sales cost the café a merchant fee, so cash lets it keep that money"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"Cash is safer to store than card payments"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"Banks forbid cafés from accepting cards for small amounts"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"Cash payments settle instantly while card payments never do"},"is_correct":false}]},
+          {"id":2,"question_type":"single_choice","order_index":1,
+           "question_text":{"en":"You tap your debit card and the app shows the amount as pending, with the money held but not yet gone. What is happening?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"Your bank authorized the charge and placed a hold; settlement will move the money later"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"The payment failed and the money will be released untouched"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"The shop has already received the funds in full"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"The network is storing your money until you confirm again"},"is_correct":false}]},
+          {"id":3,"question_type":"single_choice","order_index":2,
+           "question_text":{"en":"Some call card cashback free money. Where does it ultimately come from?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"Merchant fees on card sales, which shops build into their prices"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"A government subsidy paid to reward card use"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"Interest the network earns on held deposits overnight"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"New money the network creates at no cost to anyone"},"is_correct":false}]}
+        ]
+      }
+    },
+    {
+      "code": "digital_wallets",
+      "title": {"en": "Digital Wallets"},
+      "description": {"en": "Your phone holds a token, not banknotes. Wallets add convenience and a security layer on top of existing rails."},
+      "estimatedMinutes": 5,
+      "orderIndex": 1,
+      "quizId": 502,
+      "lesson": { "steps": [
+        {"id":"1","order":1,"stepType":"introduction","title":{"en":"What is actually on your phone?"},
+         "body":{"en":"You leave the plastic at home and pay with your phone. But the phone holds no banknotes. So what does a digital wallet actually store, and why is it often safer than the card it replaces?"},
+         "tip":{"en":"Ask of any payment tool: is this money, or a pointer to money?"}},
+        {"id":"2","order":2,"stepType":"explanation","title":{"en":"It stores a token, not your card"},
+         "body":{"en":"When you add a card to Apple Pay or Google Pay, the wallet does not keep your real 16-digit number. It stores a token, a stand-in number tied to that one phone. The shop only ever sees the token."},
+         "example":{"en":"If a shop you paid is later hacked, the leaked token is useless anywhere else, unlike a stolen card number that can be reused."}},
+        {"id":"3","order":3,"stepType":"explanation","title":{"en":"Two kinds of wallet in Kazakhstan"},
+         "body":{"en":"Card wallets like Apple Pay and Google Pay ride the Visa or Mastercard rails using a token. App wallets like Kaspi and Halyk can also move money account-to-account by QR, often skipping the card network entirely. Same phone, two different paths underneath."},
+         "tip":{"en":"A QR transfer between two Kaspi accounts may never touch a card network at all."}},
+        {"id":"4","order":4,"stepType":"example","title":{"en":"Card tap vs Kaspi QR"},
+         "content":{"en":{"blocks":[
+           {"type":"paragraph","text":"You pay a small seller 4,500 ₸. The path your money takes changes who gets a cut."},
+           {"type":"table","rows":[["","Card wallet tap","Kaspi QR"],["Rail used","Visa/Mastercard","Account-to-account"],["Who takes a fee","Network plus shop's bank","Often little to none"],["Seller receives","~4,400 ₸","~4,500 ₸"],["Real card number","Hidden by token","Not used at all"]]},
+           {"type":"paragraph","text":"For a tiny seller, avoiding the merchant fee is why a QR sticker often sits next to the card terminal."}]}}},
+        {"id":"5","order":5,"stepType":"interactive","title":{"en":"Fact or myth about wallets"},
+         "body":{"en":"Decide whether each statement about digital wallets is a fact or a common myth."},
+         "interactiveType":"scenario_selector",
+         "interactiveContent":{"en":{
+           "instruction":"Label each statement as a Fact or a Myth.",
+           "options":["Fact","Myth"],
+           "scenarios":[
+             {"text":"The shop sees my real card number when I pay with Apple Pay.","correct_answer":"Myth","explanation":"The shop receives only a token. Your real number stays hidden, which is the core safety gain."},
+             {"text":"A digital wallet usually stores my money like a jar of cash.","correct_answer":"Myth","explanation":"Most wallets point to a card or bank account. A Kaspi-style stored balance is the exception, not the rule."},
+             {"text":"Paying by phone can be safer than carrying the plastic card.","correct_answer":"Fact","explanation":"The token is tied to the device and unlocked by your face or fingerprint, so a lost phone is harder to misuse than a lost card."},
+             {"text":"A Kaspi-to-Kaspi QR payment can avoid the card network's fee.","correct_answer":"Fact","explanation":"It moves account-to-account, so the Visa or Mastercard fee is simply not part of the path."}]}}},
+        {"id":"6","order":6,"stepType":"conclusion","title":{"en":"Mostly an interface, plus a shield"},
+         "body":{"en":"For most wallets the money still travels the rails you already know; the wallet just adds convenience and a security token. App wallets like Kaspi can also move money directly between accounts. Next: the instant-transfer rail that makes those account-to-account payments possible."},
+         "tip":{"en":"Tokenization is the real upgrade, so guard the phone and its unlock."}}
+      ]},
+      "quiz": {
+        "quiz_id":502,"quiz_type":"subtopic_quiz","title":{"en":"Digital Wallets — Check"},
+        "questions":[
+          {"id":1,"question_type":"single_choice","order_index":0,
+           "question_text":{"en":"Your phone with Apple Pay set up is stolen. Why is your exposure usually lower than if your physical card were stolen?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"The wallet holds only a device-bound token that needs your face or fingerprint, not your real card number"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"Banks cannot freeze a physical card but can freeze a phone instantly"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"A stolen phone can never be used for payments under any conditions"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"The wallet maker refunds all fraud automatically with no bank involved"},"is_correct":false}]},
+          {"id":2,"question_type":"single_choice","order_index":1,
+           "question_text":{"en":"A small seller prefers you pay by Kaspi QR rather than by card. From the seller's side, what is the likely advantage?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"The money moves account-to-account and avoids the card network's merchant fee"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"QR payments are reversible, so the seller is better protected"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"Card payments are illegal for small sellers in Kazakhstan"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"QR makes the buyer's money arrive a week sooner"},"is_correct":false}]}
+        ]
+      }
+    },
+    {
+      "code": "instant_payments",
+      "title": {"en": "Instant Payments"},
+      "description": {"en": "Account-to-account transfers in seconds, any hour, settled for good. Speed buys finality, and finality removes the safety net."},
+      "estimatedMinutes": 5,
+      "orderIndex": 2,
+      "quizId": 503,
+      "lesson": { "steps": [
+        {"id":"1","order":1,"stepType":"introduction","title":{"en":"Why transfers used to take days"},
+         "body":{"en":"Sending money once meant waiting one to three business days. Nothing was physically travelling; banks simply batched transfers and processed them in business hours through middlemen. Instant payments remove that wait."},
+         "tip":{"en":"The delay was never about distance. It was about how often banks settled up."}},
+        {"id":"2","order":2,"stepType":"explanation","title":{"en":"Seconds, any hour, final"},
+         "body":{"en":"An instant payment runs through a shared switch that processes each transfer in seconds, around the clock, and settles it for good. You push the money to the other account directly, rather than a shop pulling it from your card."},
+         "example":{"en":"A transfer sent at 2am on a holiday arrives in seconds. There is no business day to wait for."}},
+        {"id":"3","order":3,"stepType":"explanation","title":{"en":"The catch: you cannot take it back"},
+         "body":{"en":"Speed and finality come together. Once an instant payment lands it is usually irrevocable, with no card-style dispute to claw it back. That is exactly why asking a buyer to just send an instant transfer is a scammer's favourite line."},
+         "tip":{"en":"Treat an instant transfer like handing over cash: gone the moment it leaves."}},
+        {"id":"4","order":4,"stepType":"example","title":{"en":"Splitting a 30,000 ₸ dinner"},
+         "content":{"en":{"blocks":[
+           {"type":"paragraph","text":"Four friends split a 30,000 ₸ bill. Compare an instant transfer with an old-style one."},
+           {"type":"table","rows":[["","Instant payment","Old-style transfer"],["Arrives","Seconds","1–3 business days"],["Works at 11pm Sunday","Yes","No"],["Can be reversed","Almost never","Sometimes, slowly"],["Best for","People you trust","-"]]},
+           {"type":"paragraph","text":"The same finality that makes it great between friends makes it risky when paying a stranger upfront."}]}}},
+        {"id":"5","order":5,"stepType":"interactive","title":{"en":"Spot the risky transfer"},
+         "body":{"en":"One of these uses of an instant payment exposes you to loss. Find it."},
+         "interactiveType":"error_detector",
+         "interactiveContent":{"en":{
+           "instruction":"Pick the situation where using an instant payment is the riskiest choice.",
+           "cases":[
+             {"text":"Which use of an instant transfer carries the most risk of losing your money?","options":["a) Repaying a friend 8,000 ₸ for a shared taxi","b) Paying your share of rent to a flatmate you live with","c) Sending 60,000 ₸ upfront to an unknown online seller for a phone","d) Moving money between your own two accounts"],"correct":"c","explanation":"Paying a stranger upfront with an irrevocable method means that if the phone never arrives, there is no chargeback to recover your money. The other three are between trusted parties."}],
+           "final_explanation":"Instant payments are safe among people you trust and dangerous when they replace the buyer protection a card or cash-on-delivery would give you."}}},
+        {"id":"6","order":6,"stepType":"conclusion","title":{"en":"Fast and final, for better and worse"},
+         "body":{"en":"Instant payments give you speed, round-the-clock access, and certainty, at the cost of reversibility. They are ideal for trusted transfers and a trap when paying strangers. Next: open banking, which lets apps start these payments for you, safely."},
+         "tip":{"en":"Match the tool to the trust: irrevocable methods for people you know, protected methods for people you do not."}}
+      ]},
+      "quiz": {
+        "quiz_id":503,"quiz_type":"subtopic_quiz","title":{"en":"Instant Payments — Check"},
+        "questions":[
+          {"id":1,"question_type":"single_choice","order_index":0,
+           "question_text":{"en":"An online seller you have never dealt with insists on an instant bank transfer instead of card or cash-on-delivery. Why should this raise suspicion?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"Instant transfers are irrevocable, so if goods never arrive you have no chargeback to recover the money"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"Instant transfers charge the buyer a large hidden fee"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"Banks block all instant transfers to sellers by default"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"Instant transfers reveal your full card number to the seller"},"is_correct":false}]},
+          {"id":2,"question_type":"single_choice","order_index":1,
+           "question_text":{"en":"A friend repays you by instant transfer at 1am on a public holiday and it arrives at once. What makes this possible?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"The system runs on always-on shared infrastructure rather than bank business-hour batches"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"The friend's bank kept a branch open overnight"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"The money was actually sent earlier and only displayed now"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"Holidays are when banks clear their slowest backlog fastest"},"is_correct":false}]}
+        ]
+      }
+    },
+    {
+      "code": "open_banking",
+      "title": {"en": "Open Banking"},
+      "description": {"en": "Regulated APIs let you grant an app limited, revocable access to your data or payments, without ever sharing your password."},
+      "estimatedMinutes": 5,
+      "orderIndex": 3,
+      "quizId": 504,
+      "lesson": { "steps": [
+        {"id":"1","order":1,"stepType":"introduction","title":{"en":"Your data, locked in your bank"},
+         "body":{"en":"You want a budgeting app to see all your accounts in one place. The old way was to hand it your bank password, which is risky and gives the app the keys to everything. Open banking offers a safer route."},
+         "tip":{"en":"Sharing a password shares everything. Good systems share only what is needed."}},
+        {"id":"2","order":2,"stepType":"explanation","title":{"en":"A token instead of a password"},
+         "body":{"en":"With open banking, your bank exposes a secure, standardised connection called an API. You grant a specific app limited permission through a token, and you can revoke it any time. The app never sees or stores your password."},
+         "example":{"en":"It is like a hotel key card for one room and one weekend, not a copy of the master key."}},
+        {"id":"3","order":3,"stepType":"explanation","title":{"en":"Reading versus acting"},
+         "body":{"en":"Open banking does two things. It can read, letting an app aggregate balances and transactions for budgeting or a faster loan decision. And it can initiate payments, letting an app pay straight from your account, skipping the card network. Each permission is granted separately."},
+         "tip":{"en":"Read access cannot move money; payment access can. Notice which one an app asks for."}},
+        {"id":"4","order":4,"stepType":"example","title":{"en":"Password sharing vs open banking"},
+         "content":{"en":{"blocks":[
+           {"type":"paragraph","text":"A lending app wants three months of your transactions to offer a rate. Two ways to give it access:"},
+           {"type":"table","rows":[["","Share your password","Open-banking token"],["App can see","Everything, indefinitely","Only what you allowed"],["You can revoke","Only by changing the password","Yes, anytime"],["App stores password","Yes","No"],["Can it also pay?","Full control","Only if you grant it"]]},
+           {"type":"paragraph","text":"Same goal, letting the app read your data, but only one path keeps you in control."}]}}},
+        {"id":"5","order":5,"stepType":"interactive","title":{"en":"Pick the safest connection"},
+         "body":{"en":"A budgeting app needs to read your accounts. Which way of granting access keeps you safest?"},
+         "interactiveType":"portfolio_choice",
+         "interactiveContent":{"en":{
+           "instruction":"Choose the safest way to let the app see your transactions.",
+           "options":[
+             {"name":"Share your password","data":["App gets full account access","Access lasts until you change the password","App must store your password"]},
+             {"name":"Open-banking token","data":["App gets only the read access you chose","You can revoke it anytime","Your password is never shared"]},
+             {"name":"Email screenshots monthly","data":["Manual and error-prone","Data sits in your inbox","No live updates"]}],
+           "correct":"Open-banking token"}}},
+        {"id":"6","order":6,"stepType":"conclusion","title":{"en":"Consent you can take back"},
+         "body":{"en":"Open banking means your data and payments stay under your consent: limited, revocable, and password-free. It turns your bank into a platform other safe apps can build on. Next we zoom out to the whole fintech world built on these rails."},
+         "tip":{"en":"Before connecting an app, check what it asks for and that you can switch it off."}}
+      ]},
+      "quiz": {
+        "quiz_id":504,"quiz_type":"subtopic_quiz","title":{"en":"Open Banking — Check"},
+        "questions":[
+          {"id":1,"question_type":"single_choice","order_index":0,
+           "question_text":{"en":"A budgeting app asks for your online-banking password to sync transactions. Why is an open-banking connection the safer choice?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"You grant a limited, revocable token and never share your password, so the app cannot do more than you allowed"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"Open banking hides your transactions from the app entirely"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"Passwords shared with apps are encrypted, so both options are equal"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"Open banking is slower, which makes it harder to attack"},"is_correct":false}]},
+          {"id":2,"question_type":"single_choice","order_index":1,
+           "question_text":{"en":"Beyond reading your account data, what extra capability can open banking provide?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"It can initiate payments directly from your account, bypassing the card network"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"It can raise your credit limit automatically"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"It can change your account password for you"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"It can convert your balance into another currency for free"},"is_correct":false}]}
+        ]
+      }
+    },
+    {
+      "code": "fintech_ecosystem",
+      "title": {"en": "The Fintech Ecosystem"},
+      "description": {"en": "Software layered on existing rails, evolving by unbundling one service and then rebundling many into a super-app."},
+      "estimatedMinutes": 5,
+      "orderIndex": 4,
+      "quizId": 505,
+      "lesson": { "steps": [
+        {"id":"1","order":1,"stepType":"introduction","title":{"en":"What makes a fintech a fintech?"},
+         "body":{"en":"A payment app, a lending app, and a budgeting tool feel like different things. What unites them is simple: each uses software to deliver a financial service more cheaply or conveniently, usually built on top of rails that already exist."},
+         "tip":{"en":"Most fintechs do not replace banks. They sit on top of them."}},
+        {"id":"2","order":2,"stepType":"explanation","title":{"en":"Layers, not magic"},
+         "body":{"en":"Picture three layers. At the bottom are the rails: card networks, instant payments, open-banking APIs. In the middle are services: payments, lending, investing. On top is the app you actually touch. Most fintechs rent the lower layers rather than own a bank."},
+         "example":{"en":"A new pay-by-phone app can launch in months because it builds on Visa's rails instead of constructing its own."}},
+        {"id":"3","order":3,"stepType":"explanation","title":{"en":"Unbundle, then rebundle"},
+         "body":{"en":"A startup often peels off one painful bank service and does it far better. Winners then add more services until they become a super-app. In Kazakhstan, Kaspi bundles payments, shopping, transfers, and lending in one place. The trade-off: huge convenience, but your data and money concentrate in one app."},
+         "tip":{"en":"Convenience and lock-in tend to grow together."}},
+        {"id":"4","order":4,"stepType":"example","title":{"en":"One coffee, many layers"},
+         "content":{"en":{"blocks":[
+           {"type":"paragraph","text":"You buy a 1,500 ₸ coffee and pay in three parts. Several fintech layers quietly take part."},
+           {"type":"table","rows":[["Layer","Example","What it does"],["Rails","Card or instant rail","Moves the money"],["Service","Buy-now-pay-later","Splits 1,500 ₸ into instalments"],["App","Super-app like Kaspi","The screen you tap"],["Data","Open-banking read","Checks you can afford it"]]},
+           {"type":"paragraph","text":"One small purchase can touch all of them without you ever noticing the seams."}]}}},
+        {"id":"5","order":5,"stepType":"interactive","title":{"en":"Sort the fintech services"},
+         "body":{"en":"Each feature belongs to one part of the fintech world. Sort them."},
+         "interactiveType":"drag_drop",
+         "interactiveContent":{"en":{
+           "instruction":"Drag each feature into the right category.",
+           "categories":[{"id":"payments","label":"Payments"},{"id":"lending","label":"Lending"},{"id":"investing","label":"Investing"}],
+           "items":[{"id":"tap","text":"Tap your phone to pay a shop"},{"id":"qr","text":"Send money by QR to a friend"},{"id":"bnpl","text":"Split a purchase into 3 monthly parts"},{"id":"microloan","text":"Borrow 50,000 ₸ until payday"},{"id":"fractional","text":"Buy a small fraction of one share"}],
+           "answers":[{"itemId":"tap","categoryId":"payments"},{"itemId":"qr","categoryId":"payments"},{"itemId":"bnpl","categoryId":"lending"},{"itemId":"microloan","categoryId":"lending"},{"itemId":"fractional","categoryId":"investing"}],
+           "explanation":"Moving money is payments; borrowing against the future, including buy-now-pay-later, is lending; putting money to work for growth is investing. Most super-apps offer all three under one roof."}}},
+        {"id":"6","order":6,"stepType":"conclusion","title":{"en":"Software on old rails"},
+         "body":{"en":"Fintech is mostly software layered on rails that already exist, evolving by unbundling a service and then rebundling many into a super-app. The convenience is real, and so is the cost in data and lock-in. With the plumbing of modern money clear, the next topic turns that flow into a deliberate budget."},
+         "tip":{"en":"Use these tools on purpose: convenience should serve your plan, not replace your judgement."}}
+      ]},
+      "quiz": {
+        "quiz_id":505,"quiz_type":"subtopic_quiz","title":{"en":"The Fintech Ecosystem — Check"},
+        "questions":[
+          {"id":1,"question_type":"single_choice","order_index":0,
+           "question_text":{"en":"How can a new fintech launch a working payment app without becoming a licensed bank?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"It builds on existing rails and partner banks rather than owning the underlying infrastructure"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"Payment apps are exempt from all financial rules"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"It prints its own digital currency to settle payments"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"It must in fact obtain a full banking licence first"},"is_correct":false}]},
+          {"id":2,"question_type":"single_choice","order_index":1,
+           "question_text":{"en":"A super-app lets you pay, shop, borrow, and invest in one place. What is the main trade-off you accept for that convenience?"},
+           "answers":[
+             {"id":1,"order_index":0,"answer_text":{"en":"Your money and data concentrate in a single app, increasing lock-in"},"is_correct":true},
+             {"id":2,"order_index":1,"answer_text":{"en":"Each service becomes more expensive than a standalone app"},"is_correct":false},
+             {"id":3,"order_index":2,"answer_text":{"en":"You lose the ability to use cash anywhere else"},"is_correct":false},
+             {"id":4,"order_index":3,"answer_text":{"en":"The app cannot legally offer more than one service at a time"},"is_correct":false}]}
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id":599,"quiz_type":"final_quiz","title":{"en":"Payments & Modern Money — Final Check"},
+    "questions":[
+      {"id":1,"question_type":"single_choice","order_index":0,
+       "question_text":{"en":"Your bank gives 1% cashback on every card purchase. Thinking about who pays for it, where does that money ultimately come from?"},
+       "answers":[
+         {"id":1,"order_index":0,"answer_text":{"en":"Merchant fees on card sales, which shops fold into the prices everyone pays"},"is_correct":true},
+         {"id":2,"order_index":1,"answer_text":{"en":"A tax rebate the government sends the bank"},"is_correct":false},
+         {"id":3,"order_index":2,"answer_text":{"en":"New money the card network creates for free"},"is_correct":false},
+         {"id":4,"order_index":3,"answer_text":{"en":"Interest your savings earn while you shop"},"is_correct":false}]},
+      {"id":2,"question_type":"single_choice","order_index":1,
+       "question_text":{"en":"You pay for the same 5,000 ₸ item two ways: once by Apple Pay, once by Kaspi QR to the seller's account. Which statement is correct?"},
+       "answers":[
+         {"id":1,"order_index":0,"answer_text":{"en":"Apple Pay rides the card network with a token, while the QR transfer can move account-to-account and skip that fee"},"is_correct":true},
+         {"id":2,"order_index":1,"answer_text":{"en":"Both must use the Visa network and pay identical fees"},"is_correct":false},
+         {"id":3,"order_index":2,"answer_text":{"en":"The QR transfer exposes the seller's real card number"},"is_correct":false},
+         {"id":4,"order_index":3,"answer_text":{"en":"Apple Pay stores your cash on the phone while QR does not"},"is_correct":false}]},
+      {"id":3,"question_type":"single_choice","order_index":2,
+       "question_text":{"en":"A stranger selling concert tickets online will only accept an instant transfer, no card. Why is this the riskiest option for you?"},
+       "answers":[
+         {"id":1,"order_index":0,"answer_text":{"en":"If the tickets never arrive, an instant transfer is irrevocable and cannot be disputed"},"is_correct":true},
+         {"id":2,"order_index":1,"answer_text":{"en":"Instant transfers charge the buyer a 10% fee"},"is_correct":false},
+         {"id":3,"order_index":2,"answer_text":{"en":"The seller can see your full banking password"},"is_correct":false},
+         {"id":4,"order_index":3,"answer_text":{"en":"Instant transfers take three days, so you lose time"},"is_correct":false}]},
+      {"id":4,"question_type":"single_choice","order_index":3,
+       "question_text":{"en":"A loan app offers two ways to verify your income: give it your banking password, or connect via open banking. Why is open banking safer?"},
+       "answers":[
+         {"id":1,"order_index":0,"answer_text":{"en":"You grant a limited, revocable permission and never share your password"},"is_correct":true},
+         {"id":2,"order_index":1,"answer_text":{"en":"Open banking lets the app see more data, which speeds approval"},"is_correct":false},
+         {"id":3,"order_index":2,"answer_text":{"en":"The password option is illegal everywhere"},"is_correct":false},
+         {"id":4,"order_index":3,"answer_text":{"en":"Open banking guarantees you a lower interest rate"},"is_correct":false}]},
+      {"id":5,"question_type":"single_choice","order_index":4,
+       "question_text":{"en":"A friend says a fintech super-app is basically a bank that replaced the banks. What is the more accurate view?"},
+       "answers":[
+         {"id":1,"order_index":0,"answer_text":{"en":"It mostly layers software on existing rails and partner banks, bundling several services into one app"},"is_correct":true},
+         {"id":2,"order_index":1,"answer_text":{"en":"It runs its own independent money system with no banks involved"},"is_correct":false},
+         {"id":3,"order_index":2,"answer_text":{"en":"It is only a budgeting tool with no real payments"},"is_correct":false},
+         {"id":4,"order_index":3,"answer_text":{"en":"It is identical to a single-purpose payment app"},"is_correct":false}]}
+    ]
+  }
+}

@@ -58,6 +58,22 @@ func (h *Handler) GetLearningMap(w http.ResponseWriter, r *http.Request) {
 	response.WriteJSON(w, http.StatusOK, res)
 }
 
+func (h *Handler) GetRepetitionReview(w http.ResponseWriter, r *http.Request) {
+	userID, ok := middleware.UserIDFromContext(r.Context())
+	if !ok {
+		response.WriteError(w, http.StatusUnauthorized, "UNAUTHORIZED")
+		return
+	}
+
+	res, err := h.service.GetRepetitionReview(r.Context(), userID)
+	if err != nil {
+		response.WriteAppError(w, err)
+		return
+	}
+
+	response.WriteJSON(w, http.StatusOK, res)
+}
+
 func (h *Handler) GetTopicLearningMap(w http.ResponseWriter, r *http.Request) {
 	userID, ok := middleware.UserIDFromContext(r.Context())
 	if !ok {

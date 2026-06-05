@@ -1,0 +1,1562 @@
+{ "section": "budgeting_saving_debt",
+  "topic": {
+    "code": "saving_emergency_planning",
+    "orderIndex": 7,
+    "title": {
+      "en": "Saving & Emergency Planning"
+    },
+    "description": {
+      "en": "Why a cash buffer matters more than returns, how large it should be, and where to keep money you cannot afford to lose."
+    },
+    "level": "beginner",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "why_emergency_funds_exist",
+      "title": {
+        "en": "Why Emergency Funds Exist"
+      },
+      "description": {
+        "en": "An emergency fund is self-provided insurance. Its job is not return but availability, breaking the chain from a shock to expensive debt."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 701,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The shock that breaks a plan"
+            },
+            "body": {
+              "en": "Your car needs a 250,000 ₸ repair this week. With a buffer, it is an annoying expense. Without one, it becomes a microloan at a brutal rate that follows you for months. The fund decides which story you live."
+            },
+            "tip": {
+              "en": "An emergency fund is insurance you keep for yourself."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "What it actually protects against"
+            },
+            "body": {
+              "en": "Two kinds of shock hit everyone eventually: income shocks like losing a job, and expense shocks like a medical bill or repair. The fund sits between life's randomness and your long-term plan, absorbing the hit so the plan survives."
+            },
+            "example": {
+              "en": "Lose your income for two months: a buffer pays the rent while you search, instead of forcing a panic decision."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "It is a shock absorber, not an investment"
+            },
+            "body": {
+              "en": "Judge an emergency fund by what it prevents, not what it earns. Holding safe, low-yield cash is the price of never being forced to borrow at high rates or sell investments at the worst possible moment."
+            },
+            "tip": {
+              "en": "The return on an emergency fund is the disaster it quietly avoids."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same shock, two endings"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A 250,000 ₸ emergency arrives. Compare facing it with a fund versus without one."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "With a fund",
+                        "Without a fund"
+                      ],
+                      [
+                        "How you pay",
+                        "Withdraw 250,000 ₸ cash",
+                        "Microloan at high interest"
+                      ],
+                      [
+                        "Extra cost",
+                        "0 ₸",
+                        "Interest piles on for months"
+                      ],
+                      [
+                        "Stress",
+                        "A bad week",
+                        "A debt spiral"
+                      ],
+                      [
+                        "Long-term plan",
+                        "Untouched",
+                        "Derailed"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The expense is identical. The buffer changes a one-week setback into a one-year problem, or avoids it entirely."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Is it really an emergency?"
+            },
+            "body": {
+              "en": "An emergency fund is for true surprises. Decide what counts."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Label each situation as an Emergency or Not an emergency.",
+                "options": [
+                  "Emergency",
+                  "Not an emergency"
+                ],
+                "scenarios": [
+                  {
+                    "text": "You lose your job and need to cover rent while you look for work.",
+                    "correct_answer": "Emergency",
+                    "explanation": "Unexpected, urgent, and necessary. This is exactly the kind of income shock the fund exists for."
+                  },
+                  {
+                    "text": "A phone you have wanted goes on a tempting sale.",
+                    "correct_answer": "Not an emergency",
+                    "explanation": "A want, not a surprise. Spending the fund here leaves nothing for a real shock."
+                  },
+                  {
+                    "text": "An urgent dental treatment you did not see coming.",
+                    "correct_answer": "Emergency",
+                    "explanation": "Unforeseen and necessary, the textbook use of the buffer."
+                  },
+                  {
+                    "text": "Your annual car insurance bill, which arrives the same month every year.",
+                    "correct_answer": "Not an emergency",
+                    "explanation": "Fully predictable. A known yearly cost should be saved for in advance, not drawn from the emergency fund."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "The buffer buys you options"
+            },
+            "body": {
+              "en": "An emergency fund's value is in the bad outcomes it prevents: expensive debt, forced asset sales, and panic decisions. Keep it accessible and leave it alone until a real shock comes. The obvious next question is how large it should be."
+            },
+            "tip": {
+              "en": "If touching it would not prevent a real crisis, it is not an emergency."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 701,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Why Emergency Funds Exist — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Someone says keeping cash in a low-yield account is foolish because investments earn far more. What does this argument miss about an emergency fund?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Its job is availability, not return; it prevents high-interest debt and forced asset sales during a shock"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Nothing; emergency funds should be invested for maximum growth"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Low-yield accounts are actually the highest-returning option available"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Cash always outperforms investments over the long run"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Two people face the same 200,000 ₸ surprise repair. One pays from a buffer; the other takes a high-interest loan. A year later, why is the borrower worse off by more than 200,000 ₸?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The interest kept accumulating, so the same shock cost far more once debt was involved"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The repair price rose for the borrower specifically"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Buffers earn enough interest to make the saver richer overall"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "There is no difference once the repair is paid"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "how_much_is_enough",
+      "title": {
+        "en": "How Much Is Enough"
+      },
+      "description": {
+        "en": "Size the fund from essential monthly expenses, not income, times a runway that scales with how risky your income is."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 1,
+      "quizId": 702,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The wrong number to anchor on"
+            },
+            "body": {
+              "en": "Asked how big an emergency fund should be, most people reach for a share of their income. That is the wrong anchor. What matters is how long you could keep the lights on if income stopped, which depends on costs, not earnings."
+            },
+            "tip": {
+              "en": "Size the fund to your survival costs, not your salary."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Base it on essential spending"
+            },
+            "body": {
+              "en": "Use your essential monthly expenses, the fixed floor from budgeting: rent, food, transport, utilities, minimum debt payments. In a real crisis you cut the wants, so the buffer only needs to cover the necessities, not your full lifestyle."
+            },
+            "example": {
+              "en": "If you spend 320,000 ₸ a month but essentials are 200,000 ₸, the fund is built around the 200,000 ₸."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "The multiplier is about risk"
+            },
+            "body": {
+              "en": "Three to six months of essentials is the common range. Lean toward more months if your income is volatile, you are the only earner, or your job is hard to replace. Lean toward fewer if your income is very stable and a second earner backs you up."
+            },
+            "tip": {
+              "en": "More income uncertainty means more months of runway."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Turning a floor into a target"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "With 200,000 ₸ of essential monthly expenses, the target depends on the runway you need."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Situation",
+                        "Months",
+                        "Target fund"
+                      ],
+                      [
+                        "Stable salary, two earners",
+                        "3",
+                        "600,000 ₸"
+                      ],
+                      [
+                        "Typical salaried worker",
+                        "4",
+                        "800,000 ₸"
+                      ],
+                      [
+                        "Single earner",
+                        "6",
+                        "1,200,000 ₸"
+                      ],
+                      [
+                        "Freelancer, variable income",
+                        "6+",
+                        "1,200,000 ₸ or more"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Same essentials, different targets. The number is personal because the risk is personal."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Who needs a bigger buffer?"
+            },
+            "body": {
+              "en": "Sort each person by how much runway their situation calls for."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each person into the runway their situation suggests.",
+                "categories": [
+                  {
+                    "id": "smaller",
+                    "label": "Smaller buffer (about 3 months)"
+                  },
+                  {
+                    "id": "larger",
+                    "label": "Larger buffer (6+ months)"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "dual",
+                    "text": "Stable government salary, partner also earns"
+                  },
+                  {
+                    "id": "freelance",
+                    "text": "Freelancer with income that swings month to month"
+                  },
+                  {
+                    "id": "sole",
+                    "text": "Sole earner supporting two children"
+                  },
+                  {
+                    "id": "tenured",
+                    "text": "Secure long-term job, easy to replace if lost"
+                  },
+                  {
+                    "id": "niche",
+                    "text": "Highly specialised role that takes months to re-hire for"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "dual",
+                    "categoryId": "smaller"
+                  },
+                  {
+                    "itemId": "freelance",
+                    "categoryId": "larger"
+                  },
+                  {
+                    "itemId": "sole",
+                    "categoryId": "larger"
+                  },
+                  {
+                    "itemId": "tenured",
+                    "categoryId": "smaller"
+                  },
+                  {
+                    "itemId": "niche",
+                    "categoryId": "larger"
+                  }
+                ],
+                "explanation": "The buffer grows with income risk. Stable, replaceable, dual-income situations need less runway; volatile, single-income, or hard-to-replace situations need more, because a gap could last longer."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "A personal, not universal, number"
+            },
+            "body": {
+              "en": "Your target is essential monthly expenses times a runway matched to your income risk. Build it gradually; even one month of cushion changes how a shock feels. Once you know the size, the next decision is where to keep it."
+            },
+            "tip": {
+              "en": "Start with one month of essentials, then build toward your full target."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 702,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "How Much Is Enough — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Two people both spend 300,000 ₸ a month, but one has 120,000 ₸ of wants in there. Whose emergency target is correctly smaller, and why?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The one with more wants, because the fund is sized to essentials, which they can cut in a crisis"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Neither; identical total spending means identical targets"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The one with more wants needs a larger fund to keep buying them"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Targets depend only on income, so both are the same"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A salaried worker with a stable job and a freelancer have the same essential expenses. Why should the freelancer hold more months of buffer?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Their income is less predictable, so a gap could last longer and needs more runway"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Freelancers legally must hold larger emergency funds"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Freelancers always have higher essential expenses"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Stable workers never face emergencies"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "savings_vehicles",
+      "title": {
+        "en": "Savings Vehicles"
+      },
+      "description": {
+        "en": "Match the account to the job. Emergency money needs liquidity and safety; you cannot maximise access, return, and safety at once."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 2,
+      "quizId": 703,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The right home for each tenge"
+            },
+            "body": {
+              "en": "Money has jobs, and the account should match the job. Emergency money's job is to be there instantly and intact. Choosing where it sits is not about chasing the highest rate; it is about fitness for purpose."
+            },
+            "tip": {
+              "en": "Ask what this money must do before asking what it could earn."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Access, safety, return: pick two"
+            },
+            "body": {
+              "en": "Every place to hold money trades off three things: liquidity (how fast you can reach it), safety (whether the amount holds steady), and return (yield). No single option maxes all three at once, so you choose which matter most for this money."
+            },
+            "example": {
+              "en": "A locked deposit raises return by sacrificing access; an investment raises return by sacrificing safety."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "For emergencies, access and safety win"
+            },
+            "body": {
+              "en": "An emergency fund must be reachable within a day and worth exactly what you put in. A term deposit earns more but penalises early withdrawal, the wrong tool here. Investments can be down exactly when the shock hits, which defeats the purpose."
+            },
+            "tip": {
+              "en": "A small fence between you and the fund, like a separate account, beats locking it away."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Comparing the options"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Where could emergency money sit, and how does each option score on the three properties?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Option",
+                        "Access",
+                        "Safety",
+                        "Return",
+                        "Fit for emergency"
+                      ],
+                      [
+                        "Current account",
+                        "Instant",
+                        "High",
+                        "~0%",
+                        "Too tempting to spend"
+                      ],
+                      [
+                        "Savings / demand account",
+                        "1 day",
+                        "High",
+                        "Low",
+                        "Good fit"
+                      ],
+                      [
+                        "Term deposit",
+                        "Locked, penalty",
+                        "High",
+                        "Higher",
+                        "Wrong: not accessible"
+                      ],
+                      [
+                        "Stocks",
+                        "Days",
+                        "Volatile",
+                        "Higher long-term",
+                        "Wrong: may be down"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A separate, easy-access savings account usually wins: reachable, stable, and slightly out of sight."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Where should the buffer live?"
+            },
+            "body": {
+              "en": "You have a 900,000 ₸ emergency fund. Pick the best home for it."
+            },
+            "interactiveType": "portfolio_choice",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the best place to keep an emergency fund.",
+                "options": [
+                  {
+                    "name": "Stock investment account",
+                    "data": [
+                      "Higher expected long-term return",
+                      "Value can be down in a crisis",
+                      "Selling at a loss when you need it"
+                    ]
+                  },
+                  {
+                    "name": "Easy-access savings account",
+                    "data": [
+                      "Reachable within a day",
+                      "Amount stays stable",
+                      "Slightly separated from daily spending"
+                    ]
+                  },
+                  {
+                    "name": "One-year locked term deposit",
+                    "data": [
+                      "Best interest rate",
+                      "Penalty for early withdrawal",
+                      "Cannot reach it when a shock hits"
+                    ]
+                  }
+                ],
+                "correct": "Easy-access savings account"
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Purpose first, yield second"
+            },
+            "body": {
+              "en": "Match each pot of money to its job. For an emergency fund, prioritise liquidity and safety and accept a modest return. Money you will need on a known future date can sit somewhere less liquid, which leads to sinking funds next."
+            },
+            "tip": {
+              "en": "The best emergency account is boring, accessible, and safe."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 703,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Savings Vehicles — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A friend moves their entire emergency fund into stocks to earn more. Six months later the market drops and they lose their job the same week. Why was the choice risky?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Investments can be down exactly when a shock hits, forcing a sale at a loss right when the cash is needed"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Stocks cannot be sold for cash at all"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Emergency funds are legally barred from earning any return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The friend should have used a locked term deposit instead, which has the same access"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A one-year term deposit pays a higher rate than an easy-access savings account. Why is it still a poor home for emergency money?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Reaching it early triggers a penalty, so the money is not truly available when a shock occurs"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Term deposits are not safe and can lose value"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Higher interest always means higher risk of total loss"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Banks never allow term deposits to be withdrawn early under any terms"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "sinking_funds",
+      "title": {
+        "en": "Sinking Funds"
+      },
+      "description": {
+        "en": "Save a little each month for a known future cost, so it never becomes an emergency and never raids your real buffer."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 3,
+      "quizId": 704,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The surprise that was not a surprise"
+            },
+            "body": {
+              "en": "Your annual insurance bill of 120,000 ₸ lands and wrecks the month. But you knew it was coming. A sinking fund turns that yearly shock into a small, painless monthly habit you barely notice."
+            },
+            "tip": {
+              "en": "A cost you can see coming should never arrive as an emergency."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Smooth the lumps"
+            },
+            "body": {
+              "en": "Take a known future cost, divide it by the months until it is due, and set that amount aside each month. Lumpy, irregular bills become a steady line in your budget. Each predictable cost can have its own small fund."
+            },
+            "example": {
+              "en": "A 120,000 ₸ yearly bill is 10,000 ₸ a month. When it arrives, the money is already waiting."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "They protect the emergency fund"
+            },
+            "body": {
+              "en": "The emergency fund is for genuine surprises. If you keep dipping into it for predictable costs, it is never full when a real shock comes. Sinking funds keep those expected costs off the emergency fund entirely."
+            },
+            "tip": {
+              "en": "Separate the predictable from the unpredictable, and fund each on purpose."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Known costs, monthly amounts"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "List your lumpy yearly costs, then convert each to a monthly set-aside."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Future cost",
+                        "When",
+                        "Total",
+                        "Set aside monthly"
+                      ],
+                      [
+                        "Car insurance",
+                        "Yearly",
+                        "120,000 ₸",
+                        "10,000 ₸"
+                      ],
+                      [
+                        "New tyres",
+                        "In 6 months",
+                        "90,000 ₸",
+                        "15,000 ₸"
+                      ],
+                      [
+                        "Holiday gifts",
+                        "In 12 months",
+                        "60,000 ₸",
+                        "5,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Together that is 30,000 ₸ a month so that three predictable bills never feel like a crisis."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Find the misfiled emergency"
+            },
+            "body": {
+              "en": "One of these was treated as an emergency but should have been a sinking fund. Spot it."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Pick the cost that was wrongly treated as an emergency.",
+                "cases": [
+                  {
+                    "text": "Which of these was a predictable cost that a sinking fund should have covered?",
+                    "options": [
+                      "a) An unexpected hospital visit after an accident",
+                      "b) A sudden job loss",
+                      "c) The yearly car insurance bill that comes every spring",
+                      "d) A burst pipe flooding the kitchen"
+                    ],
+                    "correct": "c",
+                    "explanation": "The insurance bill arrives on the same schedule every year, so it is fully predictable and belongs in a sinking fund. The other three are genuine surprises the emergency fund exists for."
+                  }
+                ],
+                "final_explanation": "If you can see a cost coming, save for it in advance. Reserve the emergency fund for the things you truly cannot predict."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Plan the predictable"
+            },
+            "body": {
+              "en": "Sinking funds smooth known lumpy costs into small monthly amounts and shield the emergency fund from predictable drains. Between buffers and sinking funds you now hold several pots of cash; the last topic asks how much idle cash is wise."
+            },
+            "tip": {
+              "en": "One sinking fund per recurring lumpy bill keeps each one off your emergency money."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 704,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Sinking Funds — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Someone repeatedly drains their emergency fund for yearly costs like insurance and gifts, then has nothing left when their car breaks down. What is the underlying mistake?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They used the emergency fund for predictable costs that should have had their own sinking funds"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Their emergency fund was simply too small from the start"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Sinking funds and emergency funds are the same thing"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Predictable costs should also be paid with high-interest debt"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A 96,000 ₸ expense is due in 8 months. How does a sinking fund handle it, and what is the monthly amount?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Set aside 12,000 ₸ a month, so the full amount is ready by the due date"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Pay it all from the emergency fund when it arrives"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Set aside 96,000 ₸ now and stop saving for anything else"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Borrow the amount and repay it over the following 8 months"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "cash_reserves",
+      "title": {
+        "en": "Cash Reserves"
+      },
+      "description": {
+        "en": "Holding cash buys safety and optionality but bleeds to inflation. The skill is enough to be ready, not so much it quietly shrinks."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 4,
+      "quizId": 705,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The cost of feeling safe"
+            },
+            "body": {
+              "en": "Cash feels like the safest place for money, and in the short term it is. But idle cash is quietly shrinking against inflation every year. So the real question is how much idle cash is actually wise to hold."
+            },
+            "tip": {
+              "en": "Cash is safe in value terms and unsafe in purchasing-power terms."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Cash is not free to hold"
+            },
+            "body": {
+              "en": "Holding cash carries two quiet costs. Inflation erodes what each tenge can buy, and the money misses the return it could earn invested. Together these are the price of keeping money on the sidelines."
+            },
+            "example": {
+              "en": "At roughly 10% inflation, 1,000,000 ₸ left idle for a year buys about 100,000 ₸ less by year-end."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "But cash buys options"
+            },
+            "body": {
+              "en": "The same idle cash also buys real value: you avoid forced borrowing or selling, and you can act fast on an opportunity. The right reserve balances that peace and readiness against the drag. Cash beyond your buffer and sinking-fund needs usually belongs invested."
+            },
+            "tip": {
+              "en": "Hold enough cash to be safe and ready, then put the rest to work."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "The price of too much cash"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two people each have 1,500,000 ₸ beyond their monthly needs. Compare holding it all as cash for a year against a balanced approach, with inflation near 10%."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "All in cash",
+                        "Buffer plus invested"
+                      ],
+                      [
+                        "Kept accessible",
+                        "1,500,000 ₸",
+                        "500,000 ₸"
+                      ],
+                      [
+                        "Put to work",
+                        "0 ₸",
+                        "1,000,000 ₸"
+                      ],
+                      [
+                        "Inflation drag",
+                        "~150,000 ₸ lost",
+                        "Only on the cash portion"
+                      ],
+                      [
+                        "Trade-off",
+                        "Maximum safety, real shrinkage",
+                        "Safe enough, money working"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Some cash is wise insurance; too much is a slow, certain loss to inflation."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Wise reserve or lazy cash?"
+            },
+            "body": {
+              "en": "Decide whether each pile of cash is doing a job or just sitting idle."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Label each as a Wise reserve or Lazy cash.",
+                "options": [
+                  "Wise reserve",
+                  "Lazy cash"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Four months of essential expenses in an easy-access savings account.",
+                    "correct_answer": "Wise reserve",
+                    "explanation": "This is the emergency buffer doing its job: accessible, safe, and sized to need."
+                  },
+                  {
+                    "text": "Three years of total income sitting in a current account earning nothing.",
+                    "correct_answer": "Lazy cash",
+                    "explanation": "Far beyond any reasonable buffer, this large pile loses purchasing power to inflation every year for no added safety benefit."
+                  },
+                  {
+                    "text": "Money set aside for a flat deposit you plan to pay in five months.",
+                    "correct_answer": "Wise reserve",
+                    "explanation": "A near-term known goal needs to stay safe and reachable, so cash is the right tool here."
+                  },
+                  {
+                    "text": "A large balance left idle for years because investing feels uncomfortable.",
+                    "correct_answer": "Lazy cash",
+                    "explanation": "Comfort is not a financial job. Long-idle cash beyond your buffer steadily bleeds to inflation."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Balance safety against drag"
+            },
+            "body": {
+              "en": "Cash reserves are a deliberate balance: enough to stay safe and ready, not so much that inflation quietly drains it. Cover your emergency fund and near-term goals in cash, and let the surplus work elsewhere. Next we cross to the other side of money: debt and credit."
+            },
+            "tip": {
+              "en": "Idle cash beyond your buffer is a decision, not a default; make it on purpose."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 705,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Cash Reserves — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A relative keeps several years of income in a current account because cash feels safest. Why is this not as safe as it seems?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Inflation steadily erodes the purchasing power of idle cash, so it loses real value each year"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Cash in a bank can be seized at any time without reason"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Current accounts pay the highest interest available, which is risky"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Holding cash is illegal beyond a certain amount"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Beyond an emergency fund and money for near-term goals, what is usually the wiser place for a large extra cash pile, and why?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Invested, because surplus cash held idle for years loses value to inflation without adding safety"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Kept as cash forever, since cash never carries any cost"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Spent quickly before inflation reaches it"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Moved into the emergency fund, no matter how large that becomes"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 799,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Saving & Emergency Planning — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "A person with no buffer faces a 300,000 ₸ repair and takes a high-interest loan. What core function of an emergency fund did its absence expose?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It breaks the chain from a shock to expensive debt by keeping cash available"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It earns the highest possible return on idle money"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It guarantees repairs will never be needed"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It replaces the need for any insurance"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "Two people have identical essential expenses. The freelancer targets six months of buffer while the tenured salaried worker targets three. Why is this reasonable?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The buffer scales with income risk, and the freelancer's income is far less predictable"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Freelancers always spend more than salaried workers"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Six months is a legal minimum for everyone"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Salaried workers never lose their jobs"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "You hold an emergency fund. Which home keeps it fit for its purpose, and why?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "An easy-access savings account, because it is reachable within a day and stays stable in value"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "A stock portfolio, because higher long-term returns matter most"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "A one-year locked deposit, because the rate is highest"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Cash hidden at home, because banks are unsafe"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "A friend keeps raiding their emergency fund for yearly insurance and holiday gifts, then has nothing for a real shock. What should they set up instead?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Sinking funds that save monthly for those predictable costs, keeping them off the emergency fund"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "A larger emergency fund they can raid more often"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "A credit line to cover all predictable bills"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Nothing; mixing the two pots is fine"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "Someone holds three years of income in a current account because it feels safe. Inflation runs near 10%. What is the most accurate critique?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Far beyond a sensible buffer, the idle cash loses real value to inflation each year without adding safety"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Holding cash carries no cost, so the choice is perfect"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "They should hold even more cash to be safer"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Current accounts are the highest-returning investment available"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

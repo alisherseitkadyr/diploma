@@ -1,0 +1,1478 @@
+{
+  "section": "funds_accounts_markets",
+  "topic": {
+    "code": "interest_rates_central_banks",
+    "orderIndex": 22,
+    "title": {
+      "en": "Interest Rates & Central Banks"
+    },
+    "description": {
+      "en": "Why central banks set rates, how monetary policy reaches your loans and savings, and the difference between real and nominal returns."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "why_central_banks_exist",
+      "title": {
+        "en": "Why Central Banks Exist"
+      },
+      "description": {
+        "en": "Central banks exist to manage money, inflation, financial stability, and trust in the payment system."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 0,
+      "quizId": 2201,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Money needs a stabilizer"
+            },
+            "body": {
+              "en": "A modern economy depends on trust in money, payments, and banks. Central banks exist because private decisions alone can create inflation, panic, credit booms, or liquidity shortages. Their job is to stabilize the monetary system, not to make every asset rise."
+            },
+            "tip": {
+              "en": "A central bank is not an investment adviser; it is a monetary-system manager."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "The main problem is balance"
+            },
+            "body": {
+              "en": "If money and credit grow too fast, inflation can rise and purchasing power can fall. If credit becomes too tight, businesses and households may struggle to borrow, spend, and invest. Central banks try to balance price stability with economic functioning."
+            },
+            "example": {
+              "en": "In Kazakhstan, investors often watch decisions and signals from the National Bank of Kazakhstan because they influence tenge rates, inflation expectations, and credit conditions."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Trust is part of the mechanism"
+            },
+            "body": {
+              "en": "Central banks influence the economy not only through actions, but through expectations. If households and businesses believe inflation will stay high, they may demand higher wages and raise prices faster. Credible policy can reduce that self-reinforcing cycle."
+            },
+            "tip": {
+              "en": "Expectations can move before official statistics do."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "What a central bank tries to influence"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A central bank cannot directly set every price in the economy. It works through financial conditions and expectations."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Problem",
+                        "Central bank concern",
+                        "Possible tool or signal"
+                      ],
+                      [
+                        "Inflation rising",
+                        "Money loses purchasing power",
+                        "Higher policy rate or tighter guidance"
+                      ],
+                      [
+                        "Credit freezing",
+                        "Businesses cannot finance activity",
+                        "Liquidity support or easier policy"
+                      ],
+                      [
+                        "Currency pressure",
+                        "Import prices and confidence affected",
+                        "Rate policy and communication"
+                      ],
+                      [
+                        "Bank panic",
+                        "Payment system trust at risk",
+                        "Emergency liquidity tools"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The exact tool depends on the problem. The purpose is to keep money and credit from becoming destabilizing."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Match the central bank problem"
+            },
+            "body": {
+              "en": "Classify each situation by the problem a central bank is mainly trying to manage."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each situation to the best policy concern.",
+                "categories": [
+                  {
+                    "id": "inflation",
+                    "label": "Inflation control"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Liquidity support"
+                  },
+                  {
+                    "id": "expectations",
+                    "label": "Expectation management"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "prices_fast",
+                    "text": "Prices rise quickly and households expect more increases"
+                  },
+                  {
+                    "id": "banks_short_cash",
+                    "text": "Banks hesitate to lend because short-term funding is stressed"
+                  },
+                  {
+                    "id": "policy_speech",
+                    "text": "The central bank explains it will keep policy tight until inflation slows"
+                  },
+                  {
+                    "id": "wage_price",
+                    "text": "Firms raise prices because they expect costs to keep rising"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "prices_fast",
+                    "categoryId": "inflation"
+                  },
+                  {
+                    "itemId": "banks_short_cash",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "policy_speech",
+                    "categoryId": "expectations"
+                  },
+                  {
+                    "itemId": "wage_price",
+                    "categoryId": "expectations"
+                  }
+                ],
+                "explanation": "Central banks manage more than one variable: actual inflation, credit-system stress, and the expectations that can amplify both."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Central banks manage conditions"
+            },
+            "body": {
+              "en": "Central banks exist because money, credit, and expectations can become unstable. They influence interest rates, liquidity, and confidence to protect purchasing power and financial functioning. For investors, central-bank news matters because it changes the environment in which assets are valued."
+            },
+            "tip": {
+              "en": "Read central-bank actions as changes in financial conditions, not as simple buy or sell signals."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2201,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Why Central Banks Exist — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Inflation is high and households expect prices to keep rising. Why might a central bank communicate a tighter policy stance?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "To influence expectations and reduce the risk of inflation becoming self-reinforcing"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "To guarantee stock prices rise immediately"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "To set the price of every product directly"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "To eliminate all borrowing permanently"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is a central bank mainly trying to stabilize?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The monetary and financial conditions that support price stability and economic functioning"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Every investor's portfolio return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The profit of one selected company"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The exact price of housing in every district"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why do investors follow central-bank decisions?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They affect rates, credit conditions, inflation expectations, and asset valuations"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They reveal the guaranteed future return of stocks"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They remove the need to analyze companies"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They make all assets risk-free"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "monetary_policy",
+      "title": {
+        "en": "Monetary Policy"
+      },
+      "description": {
+        "en": "Monetary policy uses interest rates, liquidity tools, and communication to influence inflation, borrowing, saving, and demand."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 2202,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Policy changes incentives"
+            },
+            "body": {
+              "en": "Monetary policy is how a central bank influences money and credit conditions. It does not force every person to borrow or save. It changes incentives by making money easier or harder to access and by shaping expectations about future rates."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Tightening cools demand"
+            },
+            "body": {
+              "en": "When inflation is too high, a central bank may raise rates or signal tighter conditions. Higher rates make loans more expensive and saving more attractive. This can slow spending and investment, reducing pressure on prices over time."
+            },
+            "tip": {
+              "en": "Tight policy works partly by making some spending plans less affordable."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Easing supports activity"
+            },
+            "body": {
+              "en": "When demand is weak or financial stress is high, a central bank may cut rates or provide liquidity. Lower rates can support borrowing, asset prices, and investment. But easing during high inflation can weaken credibility if it looks too early."
+            },
+            "example": {
+              "en": "A rate cut can reduce future loan costs, but if inflation remains high, real borrowing costs and currency pressure may still matter."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Policy transmission in steps"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Suppose the central bank raises its policy rate because inflation is above target. The effect moves through the economy in stages."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Stage",
+                        "What changes",
+                        "Investor relevance"
+                      ],
+                      [
+                        "Policy rate",
+                        "Central bank rate rises",
+                        "Benchmark for money-market rates"
+                      ],
+                      [
+                        "Bank rates",
+                        "Loans and deposits reprice",
+                        "Borrowers and savers react"
+                      ],
+                      [
+                        "Demand",
+                        "Some spending and investment slow",
+                        "Revenue growth may change"
+                      ],
+                      [
+                        "Inflation expectations",
+                        "Future price growth may cool",
+                        "Valuation assumptions shift"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The chain is not instant or perfect. It works through many decisions made by banks, firms, and households."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Tightening or easing?"
+            },
+            "body": {
+              "en": "Choose which policy direction best matches each situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the likely policy direction or concern.",
+                "options": [
+                  "Tightening",
+                  "Easing",
+                  "Credibility concern"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Inflation is far above target and credit growth is very strong.",
+                    "correct_answer": "Tightening",
+                    "explanation": "Higher rates can cool borrowing and demand."
+                  },
+                  {
+                    "text": "The economy slows sharply and inflation pressure is low.",
+                    "correct_answer": "Easing",
+                    "explanation": "Lower rates or liquidity support can help activity recover."
+                  },
+                  {
+                    "text": "The central bank cuts rates while inflation expectations are still rising.",
+                    "correct_answer": "Credibility concern",
+                    "explanation": "Markets may question whether the central bank is serious about price stability."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Policy works through trade-offs"
+            },
+            "body": {
+              "en": "Monetary policy changes the cost of money and the expectations around it. Tightening can fight inflation but slow growth; easing can support activity but risk inflation or currency pressure. Investors should ask which trade-off the central bank is prioritizing now."
+            },
+            "tip": {
+              "en": "Policy is not good or bad by itself; it is a response to the problem policymakers see."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2202,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Monetary Policy — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A central bank raises rates when inflation is high. What is the intended economic channel?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Make borrowing more expensive, cool demand, and reduce inflation pressure over time"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Force every company to raise dividends"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Guarantee immediate economic growth"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Make all prices fall the next day"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can cutting rates during high inflation damage credibility?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It may make people doubt the central bank's commitment to price stability"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Rate cuts always eliminate inflation instantly"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Credibility has no role in inflation expectations"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A rate cut cannot affect expectations"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which statement best describes monetary policy transmission?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Policy rates affect bank rates, borrowing, saving, demand, expectations, and asset values through a chain"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Policy rates affect only central-bank employees"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Transmission is always instant and exact"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Monetary policy changes only stock ticker symbols"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "how_rate_changes_hit_your_life",
+      "title": {
+        "en": "How Rate Changes Hit Your Life"
+      },
+      "description": {
+        "en": "Interest-rate changes affect loan payments, deposit income, bond prices, housing affordability, currency pressure, and job conditions."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 2203,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Rates are personal"
+            },
+            "body": {
+              "en": "Interest-rate news can sound abstract, but it reaches daily life through loans, deposits, housing, jobs, and investments. The same rate increase can help a saver and hurt a borrower. Your exposure determines whether the change is a benefit, a cost, or both."
+            },
+            "tip": {
+              "en": "Rate risk starts with your own balance sheet."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Borrowers and savers feel opposite effects"
+            },
+            "body": {
+              "en": "Higher rates usually make new loans more expensive and variable-rate debt harder to carry. They can also raise deposit or money-market returns. Lower rates usually make borrowing easier but reduce safe income from savings."
+            },
+            "example": {
+              "en": "A household with a floating-rate loan may feel stress from higher rates, while another household with cash savings may welcome higher deposit rates."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Investments reprice too"
+            },
+            "body": {
+              "en": "Bond prices often fall when market yields rise, especially for longer fixed-rate bonds. Stock valuations can also fall if investors demand higher returns or expect slower growth. Rate changes affect both cash flow and the discount rate used to value assets."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "One rate hike, different households"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "The policy rate rises and banks increase loan and deposit rates. Three households experience the same macro event differently."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Household",
+                        "Exposure",
+                        "Likely effect"
+                      ],
+                      [
+                        "A",
+                        "Variable-rate consumer loan",
+                        "Monthly payments may rise"
+                      ],
+                      [
+                        "B",
+                        "Large cash savings",
+                        "Deposit income may improve"
+                      ],
+                      [
+                        "C",
+                        "Long bond fund",
+                        "Market value may fall as yields rise"
+                      ],
+                      [
+                        "D",
+                        "Planning to buy a home",
+                        "Mortgage affordability may weaken"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The question is not whether rates rose. The question is where your life and portfolio are sensitive to rates."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Map your rate exposure"
+            },
+            "body": {
+              "en": "Classify each item by how a rate increase most directly affects it."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each item to the likely direct effect of higher rates.",
+                "categories": [
+                  {
+                    "id": "higher_cost",
+                    "label": "Higher borrowing cost"
+                  },
+                  {
+                    "id": "higher_income",
+                    "label": "Higher safe income"
+                  },
+                  {
+                    "id": "price_pressure",
+                    "label": "Asset price pressure"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "floating_loan",
+                    "text": "Floating-rate loan"
+                  },
+                  {
+                    "id": "deposit",
+                    "text": "Bank deposit renewing soon"
+                  },
+                  {
+                    "id": "long_bond",
+                    "text": "Long-term fixed-rate bond fund"
+                  },
+                  {
+                    "id": "new_mortgage",
+                    "text": "New mortgage application"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "floating_loan",
+                    "categoryId": "higher_cost"
+                  },
+                  {
+                    "itemId": "deposit",
+                    "categoryId": "higher_income"
+                  },
+                  {
+                    "itemId": "long_bond",
+                    "categoryId": "price_pressure"
+                  },
+                  {
+                    "itemId": "new_mortgage",
+                    "categoryId": "higher_cost"
+                  }
+                ],
+                "explanation": "Rate changes are not uniformly good or bad. They help or hurt depending on whether you borrow, save, or hold rate-sensitive assets."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Find your sensitivity"
+            },
+            "body": {
+              "en": "Interest-rate changes matter because they change the price of time: borrowing now versus saving for later. They affect loans, deposits, bonds, stocks, housing, and sometimes currency pressure. A useful response starts by mapping your own debts, savings, and investment exposures."
+            },
+            "tip": {
+              "en": "The same rate hike can be painful, helpful, or mixed depending on your position."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2203,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "How Rate Changes Hit Your Life — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Rates rise. Which person is most directly exposed to higher monthly costs?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Someone with a variable-rate loan"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Someone with no debt and a renewing deposit"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Someone holding only cash under the mattress"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Someone whose rent is fixed for ten years by contract"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can a long-term fixed-rate bond fund fall when rates rise?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Its older fixed payments become less attractive than new higher-yield bonds"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The fund's bonds stop existing"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Higher rates always increase old bond prices"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Bond funds cannot change value"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the best first step when rate news appears?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Identify your debts, savings, and investments that are sensitive to rate changes"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Assume the news affects everyone in the same way"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Immediately borrow more without checking affordability"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Sell every asset regardless of exposure"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "real_vs_nominal_returns",
+      "title": {
+        "en": "Real vs Nominal Returns"
+      },
+      "description": {
+        "en": "Nominal returns show account growth in money terms; real returns show whether purchasing power actually increased."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 2204,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The account number is not the full story"
+            },
+            "body": {
+              "en": "A nominal return tells you how much your money grew in currency terms. A real return tells you how much your purchasing power grew after inflation. Investors need both because life costs goods and services, not percentages on a statement."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Inflation subtracts from return"
+            },
+            "body": {
+              "en": "A simple approximation is real return equals nominal return minus inflation. If a deposit pays 14% and inflation is 10%, the real return is about 4%. If inflation is 16%, the same deposit loses purchasing power despite positive interest."
+            },
+            "tip": {
+              "en": "Positive nominal return can still be negative real return."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Real rates shape behavior"
+            },
+            "body": {
+              "en": "When real returns on safe savings are positive, saving becomes more rewarding. When real borrowing costs are low or negative, debt can feel easier, but inflation and income risk still matter. Real rates influence saving, borrowing, and asset prices."
+            },
+            "example": {
+              "en": "A 20% loan rate is very different when inflation is 3% versus when inflation is 18%, but affordability still depends on income cash flow."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Three nominal returns, three real outcomes"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Three investors all see their account balances grow. Inflation determines whether their purchasing power really improved."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Nominal return",
+                        "Inflation",
+                        "Approximate real return",
+                        "Interpretation"
+                      ],
+                      [
+                        "12%",
+                        "6%",
+                        "6%",
+                        "Purchasing power rises"
+                      ],
+                      [
+                        "12%",
+                        "12%",
+                        "0%",
+                        "Purchasing power roughly flat"
+                      ],
+                      [
+                        "12%",
+                        "18%",
+                        "-6%",
+                        "Purchasing power falls"
+                      ],
+                      [
+                        "8%",
+                        "3%",
+                        "5%",
+                        "Lower nominal, better real than 12% with 18% inflation"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The best headline return is not always the best real result."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Estimate real return"
+            },
+            "body": {
+              "en": "Allocate a 15% nominal return into inflation and real return. The two parts must total 15."
+            },
+            "interactiveType": "input_numbers",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Split a 15% nominal return into inflation and approximate real return. The total must equal 15.",
+                "fields": [
+                  {
+                    "id": "inflation",
+                    "label": "Inflation (%)"
+                  },
+                  {
+                    "id": "real_return",
+                    "label": "Approximate real return (%)"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 15
+                },
+                "exampleAnswer": {
+                  "inflation": "9",
+                  "real_return": "6"
+                },
+                "explanation": "Using the simple approximation, nominal return is roughly inflation plus real return. Here, 15% nominal with 9% inflation leaves about 6% real return."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Measure wealth in purchasing power"
+            },
+            "body": {
+              "en": "Nominal returns are visible, but real returns determine whether wealth actually grows. Inflation can turn an impressive account gain into a weak outcome. When comparing deposits, bonds, stocks, or loans, always ask what remains after inflation."
+            },
+            "tip": {
+              "en": "The goal is not more currency units alone; it is more future buying power."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2204,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Real vs Nominal Returns — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A deposit pays 13% while inflation is 15%. What is the approximate real return?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "About -2%, so purchasing power falls"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "About +13%, because inflation does not matter"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "About +28%, because returns and inflation add"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Exactly zero in every case"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can a lower nominal return sometimes be better?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "If inflation is much lower, the real return can be higher"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Nominal return is never useful"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Lower nominal returns always mean lower risk and higher profit"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Inflation affects only salaries, not investments"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What should investors ultimately care about?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Purchasing-power growth after inflation"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Only the largest percentage printed in an advertisement"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Nominal return without context"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Whether the return number is a round figure"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 2299,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Interest Rates & Central Banks — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "Why do central banks care about inflation expectations?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Expectations can influence wages, prices, and the persistence of inflation"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Expectations are unrelated to behavior"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Expectations guarantee stock-market returns"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Expectations replace actual inflation data completely"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "A central bank raises rates to fight inflation. What trade-off can result?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Inflation pressure may cool, but borrowing and economic activity can slow"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "All loans become free"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Every asset price must rise immediately"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Saving becomes impossible"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "Which person may benefit most directly from higher deposit rates?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "A saver with cash renewing into higher-rate deposits"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "A borrower with a floating-rate loan"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "A buyer needing a new mortgage"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "An owner of a long-term bond fund during a rate jump"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "A bond fund falls after market yields rise. What is the likely mechanism?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Older fixed payments became less attractive compared with new higher yields"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "The bond market stopped paying interest forever"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Higher yields always increase old bond prices"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "The fund became a stock fund automatically"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "An investment earns 11% while inflation is 14%. What is the best interpretation?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The nominal return is positive, but real purchasing power likely fell"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "The investor gained 25% real return"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Inflation improves every nominal return"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "A positive nominal return always beats inflation"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

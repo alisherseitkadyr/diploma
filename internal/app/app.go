@@ -58,20 +58,14 @@ func New(cfg *config.Config) *App {
 
 	adaptationRepo := adaptationPostgres.NewAdaptationRepository(db)
 
-	var reinforcementMLClient mlclient.Client
-	if cfg.ReinforcementMLServiceURL != "" {
-		reinforcementMLClient = mlclient.NewHTTPClient(cfg.ReinforcementMLServiceURL)
-	}
-
-	var nextLessonMLClient mlclient.Client
-	if cfg.NextLessonMLServiceURL != "" {
-		nextLessonMLClient = mlclient.NewHTTPClient(cfg.NextLessonMLServiceURL)
+	var mlClient mlclient.Client
+	if cfg.NextTopicMLServiceURL != "" {
+		mlClient = mlclient.NewHTTPClient(cfg.NextTopicMLServiceURL)
 	}
 
 	adaptationSvc := adaptationService.NewService(
 		adaptationRepo,
-		reinforcementMLClient,
-		nextLessonMLClient,
+		mlClient,
 	)
 
 	adaptationHandler := adaptationHTTP.NewHandler(adaptationSvc)

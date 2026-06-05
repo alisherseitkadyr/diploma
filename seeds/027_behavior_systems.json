@@ -1,0 +1,2687 @@
+{
+  "section": "building_wealth",
+  "topic": {
+    "code": "behavior_systems",
+    "title": {
+      "en": "Behavior & Systems"
+    },
+    "orderIndex": 27,
+    "description": {
+      "en": "The biases that quietly sabotage good financial plans — and the automation, defaults, and habits that protect you from yourself."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "loss_aversion",
+      "title": {
+        "en": "Loss Aversion"
+      },
+      "description": {
+        "en": "Loss aversion is the tendency to feel losses more strongly than similar gains, which can distort saving, investing, and debt decisions."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 0,
+      "quizId": 2701,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Losses feel louder than gains"
+            },
+            "body": {
+              "en": "Loss aversion means a loss often feels more painful than an equal gain feels pleasant. This can make people avoid useful risks or hold bad decisions too long. In finance, feelings can become expensive if they override the plan."
+            },
+            "tip": {
+              "en": "A painful feeling is information, but it is not automatically an instruction."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Loss aversion can freeze action"
+            },
+            "body": {
+              "en": "People may refuse to sell a poor investment because selling makes the loss feel real. They may also keep too much money in cash because market losses feel scarier than inflation losses. The bias protects comfort today but can harm results over time."
+            },
+            "example": {
+              "en": "An investor refuses to sell a weak stock at a ₸100,000 loss, then misses a better opportunity because admitting the loss feels too painful."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "The reference point matters"
+            },
+            "body": {
+              "en": "Losses are often judged against a reference point: purchase price, highest value, or expected outcome. If the reference point is unrealistic, normal volatility can feel like failure. A written plan helps choose a better reference point before emotions rise."
+            },
+            "tip": {
+              "en": "Compare decisions with your plan, not only with the highest price you once saw."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Two losses, two reactions"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two investors lose ₸150,000 on paper. The financial effect is similar, but their reactions change the outcome."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Investor",
+                        "Reaction",
+                        "Likely result"
+                      ],
+                      [
+                        "A",
+                        "Reviews goal, horizon, and asset quality",
+                        "May hold, rebalance, or sell rationally"
+                      ],
+                      [
+                        "B",
+                        "Panic sells only to stop the discomfort",
+                        "May lock in a loss without checking the plan"
+                      ],
+                      [
+                        "C",
+                        "Refuses to sell a broken investment",
+                        "May keep capital trapped in a poor opportunity"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Loss aversion can push both panic selling and stubborn holding. The better response is plan-based review."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Spot loss aversion"
+            },
+            "body": {
+              "en": "Choose whether each situation shows loss aversion, plan-based action, or a different issue."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best label for each case.",
+                "options": [
+                  "Loss aversion",
+                  "Plan-based action",
+                  "Different issue"
+                ],
+                "scenarios": [
+                  {
+                    "text": "An investor refuses to sell a failing stock only because they do not want to admit a loss.",
+                    "correct_answer": "Loss aversion",
+                    "explanation": "The decision is driven by the pain of realizing the loss."
+                  },
+                  {
+                    "text": "An investor sells a fund because the goal changed from long-term growth to a near-term house payment.",
+                    "correct_answer": "Plan-based action",
+                    "explanation": "The action follows a changed goal, not only discomfort."
+                  },
+                  {
+                    "text": "A person forgets to pay a bill because they did not set a reminder.",
+                    "correct_answer": "Different issue",
+                    "explanation": "That is more about system design than loss aversion."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Make loss decisions before losses happen"
+            },
+            "body": {
+              "en": "Loss aversion is normal, but it should not run the portfolio or budget. Decide in advance when you would sell, rebalance, or continue. A plan turns loss pain into a trigger for review instead of a trigger for panic."
+            },
+            "tip": {
+              "en": "Pre-decided rules are emotional seatbelts."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2701,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Loss Aversion — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An investor keeps a poor stock only because selling would make the loss feel official. What bias is most likely involved?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Loss aversion"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Diversification"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Tax efficiency"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Income smoothing"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which response best protects against loss aversion?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Review the original goal, time horizon, and sell rules before acting"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Always sell after any price decline"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Never sell anything below purchase price"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Ignore every loss forever"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why can too much cash also reflect loss aversion?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Visible market losses may feel scarier than slow purchasing-power loss from inflation"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Cash always gives the highest real return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Cash has no opportunity cost"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Inflation cannot affect cash"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "overconfidence",
+      "title": {
+        "en": "Overconfidence"
+      },
+      "description": {
+        "en": "Overconfidence makes people overestimate their knowledge, prediction skill, and control over uncertain financial outcomes."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 2702,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Confidence can become a risk"
+            },
+            "body": {
+              "en": "Overconfidence is believing your judgment is more accurate than it really is. In finance, it can lead to concentrated bets, frequent trading, weak research, and ignoring downside scenarios. The danger is greatest after a few lucky wins."
+            },
+            "tip": {
+              "en": "Good outcomes can come from luck, not only skill."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Forecasts need humility"
+            },
+            "body": {
+              "en": "Markets, careers, income, and expenses all contain uncertainty. Overconfident people often use single-point forecasts: one expected salary, one expected return, one expected expense level. Better planning uses ranges and asks what happens if the forecast is wrong."
+            },
+            "example": {
+              "en": "Instead of assuming a side business will bring ₸300,000 every month, test a low case of ₸80,000 and a zero-income month."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Overconfidence increases exposure"
+            },
+            "body": {
+              "en": "When people feel certain, they often bet bigger. They may borrow to invest, hold one asset, or skip emergency reserves. The problem is not confidence itself; it is confidence without margin of safety."
+            },
+            "tip": {
+              "en": "If a plan works only when you are exactly right, it is fragile."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same idea, different risk control"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two investors believe a sector will perform well. Their confidence is similar, but their systems differ."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Investor",
+                        "Action",
+                        "Risk control"
+                      ],
+                      [
+                        "A",
+                        "Puts 70% of portfolio into one sector",
+                        "Almost none"
+                      ],
+                      [
+                        "B",
+                        "Limits sector tilt to 10%",
+                        "Position size controls error"
+                      ],
+                      [
+                        "A",
+                        "Uses borrowed money",
+                        "Losses can force selling"
+                      ],
+                      [
+                        "B",
+                        "Sets review rules",
+                        "Decision can be updated with evidence"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Risk control lets a good idea be wrong without ruining the whole plan."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Find the overconfidence signal"
+            },
+            "body": {
+              "en": "Classify each statement as overconfidence, healthy confidence, or risk control."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the best label.",
+                "options": [
+                  "Overconfidence",
+                  "Healthy confidence",
+                  "Risk control"
+                ],
+                "scenarios": [
+                  {
+                    "text": "I cannot be wrong about this stock, so I will put all my savings into it.",
+                    "correct_answer": "Overconfidence",
+                    "explanation": "Certainty leads to excessive concentration."
+                  },
+                  {
+                    "text": "I understand this field well, but I will keep the position small enough to survive being wrong.",
+                    "correct_answer": "Risk control",
+                    "explanation": "The person allows for uncertainty."
+                  },
+                  {
+                    "text": "I can explain my reasons and also the risks that would disprove my view.",
+                    "correct_answer": "Healthy confidence",
+                    "explanation": "Confidence with falsifiable reasoning is stronger than blind certainty."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Use systems to humble confidence"
+            },
+            "body": {
+              "en": "Overconfidence is reduced by position limits, checklists, ranges, second opinions, and written reasons. The goal is not to become fearful. The goal is to make sure one confident mistake cannot destroy the plan."
+            },
+            "tip": {
+              "en": "Confidence should decide research effort; risk rules should decide position size."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2702,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Overconfidence — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person wins on two trades and then uses borrowed money for a much larger third trade. What is the main behavioral risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Overconfidence after lucky or short-term success"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Emergency planning"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Tax withholding"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Mental accounting only"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which planning habit reduces overconfidence?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Using ranges, downside cases, and position limits"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Assuming one forecast must be correct"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Ignoring all disconfirming evidence"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Increasing risk after every win"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why is a margin of safety useful?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It lets the plan survive if assumptions are partly wrong"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It proves losses cannot happen"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It removes the need for skill"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It guarantees the highest return"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "herd_behavior",
+      "title": {
+        "en": "Herd Behavior"
+      },
+      "description": {
+        "en": "Herd behavior is following the crowd because others are doing it, often without checking whether the choice fits your own plan."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 2703,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The crowd can feel like evidence"
+            },
+            "body": {
+              "en": "Herd behavior happens when people copy others because many people seem to be doing the same thing. In finance, popularity can make a decision feel safer than it is. The crowd may be right, late, emotional, or chasing the same story."
+            },
+            "tip": {
+              "en": "Popularity is a signal to investigate, not proof to obey."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Herding creates late entries"
+            },
+            "body": {
+              "en": "People often join after an asset has already risen because the rise creates social proof. This can lead to buying high and selling low when the mood reverses. The problem is not that others are always wrong; it is that your timing and reason may be weak."
+            },
+            "example": {
+              "en": "A token becomes popular online after rising 300%. Buying only because everyone talks about it may mean accepting high price and high disappointment risk."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Your plan is the filter"
+            },
+            "body": {
+              "en": "A popular investment can still be suitable if it fits your goals, risk tolerance, and research. It becomes dangerous when the only reason is fear of missing out. A plan gives you permission to ignore noise that does not fit your needs."
+            },
+            "tip": {
+              "en": "FOMO is not an investment thesis."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Social proof versus personal fit"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A financial product becomes popular among friends. Three people react differently."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Person",
+                        "Reaction",
+                        "Behavior quality"
+                      ],
+                      [
+                        "A",
+                        "Buys because friends are buying",
+                        "Herd-driven"
+                      ],
+                      [
+                        "B",
+                        "Checks costs, risks, and goal fit first",
+                        "Plan-driven"
+                      ],
+                      [
+                        "C",
+                        "Avoids it only because it is popular",
+                        "Still crowd-reactive"
+                      ],
+                      [
+                        "D",
+                        "Uses a small learning position after research",
+                        "Controlled experiment"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The opposite of herding is not automatically doing the opposite. It is deciding from your own process."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Herd or process?"
+            },
+            "body": {
+              "en": "Choose the behavior pattern shown in each situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best label.",
+                "options": [
+                  "Herd behavior",
+                  "Plan-driven review",
+                  "Contrarian reflex"
+                ],
+                "scenarios": [
+                  {
+                    "text": "I bought because every group chat is talking about it.",
+                    "correct_answer": "Herd behavior",
+                    "explanation": "The decision is driven by social proof rather than analysis."
+                  },
+                  {
+                    "text": "I skipped it because it does not fit my time horizon or risk limits.",
+                    "correct_answer": "Plan-driven review",
+                    "explanation": "The person uses personal criteria."
+                  },
+                  {
+                    "text": "I avoid anything popular only because popular things annoy me.",
+                    "correct_answer": "Contrarian reflex",
+                    "explanation": "Automatically opposing the crowd is still crowd-centered, not plan-centered."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Do not outsource judgment to the crowd"
+            },
+            "body": {
+              "en": "Herd behavior is powerful because social proof reduces doubt. But your goals, income, debts, and risk tolerance are not identical to the crowd's. Use popularity as a prompt for research, then let your plan decide."
+            },
+            "tip": {
+              "en": "The crowd does not pay your bills if the decision goes wrong."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2703,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Herd Behavior — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person buys an asset only because friends say everyone is getting rich from it. What is the main risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They may be following social proof without checking price, risk, or fit"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Friends always have illegal information"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Popular assets cannot lose value"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Social popularity guarantees diversification"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is the best response to a popular investment idea?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Check whether it fits your goals, risk limits, costs, and research process"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Buy immediately before thinking"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Reject it automatically because it is popular"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Borrow money so you do not miss out"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why is doing the opposite of the crowd not always better?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It can still be a reaction to the crowd rather than an independent decision"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The crowd is always correct"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Contrarian decisions always guarantee profit"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Independent analysis is impossible"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "mental_accounting",
+      "title": {
+        "en": "Mental Accounting"
+      },
+      "description": {
+        "en": "Mental accounting is separating money into emotional buckets that may not match the true financial picture."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 2704,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Money feels different by label"
+            },
+            "body": {
+              "en": "Mental accounting happens when people treat money differently because of its label or source. A bonus may feel spendable, while salary feels serious. But one tenge has the same purchasing power regardless of where it came from."
+            },
+            "tip": {
+              "en": "Labels help organize money, but they can also hide trade-offs."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Buckets can help or hurt"
+            },
+            "body": {
+              "en": "Budget categories and sinking funds are useful mental accounts when they match goals. The problem appears when buckets ignore reality, such as keeping low-interest savings while carrying high-interest debt. A helpful bucket supports the plan; a harmful bucket avoids a trade-off."
+            },
+            "example": {
+              "en": "Keeping ₸500,000 as “vacation money” while carrying a microloan at very high interest may feel organized but can be financially costly."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Windfalls need rules"
+            },
+            "body": {
+              "en": "Unexpected money often feels less earned and easier to spend. A tax refund, gift, bonus, or freelance payment can disappear quickly without a rule. Pre-deciding a split between debt, saving, investing, and enjoyment reduces emotional spending."
+            },
+            "tip": {
+              "en": "A windfall rule turns surprise money into planned progress."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A bonus with and without rules"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A worker receives a ₸300,000 bonus. The label “extra money” can push very different decisions."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Approach",
+                        "Allocation",
+                        "Result"
+                      ],
+                      [
+                        "No rule",
+                        "₸300,000 spent impulsively",
+                        "Short-term pleasure, no goal progress"
+                      ],
+                      [
+                        "Debt-first rule",
+                        "₸200,000 debt, ₸50,000 savings, ₸50,000 fun",
+                        "Progress plus enjoyment"
+                      ],
+                      [
+                        "Goal rule",
+                        "50% investing, 30% emergency fund, 20% fun",
+                        "Balanced use of surprise money"
+                      ],
+                      [
+                        "Harmful bucket",
+                        "Keeps cash idle while high-interest debt grows",
+                        "Feels safe but costs money"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The bonus is the same. The rule determines whether the label controls the outcome."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Helpful or harmful bucket?"
+            },
+            "body": {
+              "en": "Classify each money bucket behavior."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose whether the mental account helps or hurts.",
+                "options": [
+                  "Helpful bucket",
+                  "Harmful bucket",
+                  "Windfall rule"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A person keeps a separate emergency fund so rent money is not spent accidentally.",
+                    "correct_answer": "Helpful bucket",
+                    "explanation": "The bucket supports a real financial purpose."
+                  },
+                  {
+                    "text": "A person keeps a luxury-shopping fund while missing minimum loan payments.",
+                    "correct_answer": "Harmful bucket",
+                    "explanation": "The label hides a more urgent trade-off."
+                  },
+                  {
+                    "text": "A person automatically splits every bonus into savings, debt payoff, and fun.",
+                    "correct_answer": "Windfall rule",
+                    "explanation": "The rule prevents surprise money from being spent without intention."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Use buckets with reality checks"
+            },
+            "body": {
+              "en": "Mental accounting can organize money, but it should not ignore opportunity cost. Good buckets protect goals and reduce mistakes. Bad buckets let labels override the best use of money."
+            },
+            "tip": {
+              "en": "Ask: if all my money were in one pile, would this still be the best choice?"
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2704,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Mental Accounting — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person treats a bonus as free money and spends it all, while ignoring overdue debt. What bias is likely involved?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Mental accounting"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Market efficiency"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Diversification"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Compound interest"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "When are money buckets helpful?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "When they protect real goals and match financial priorities"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "When they hide high-interest debt"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "When they make every windfall disappear"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "When they ignore opportunity cost"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What question can reduce harmful mental accounting?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "If all my money were one pile, would I still allocate it this way?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Which account label feels most exciting?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "How can I avoid seeing my debts?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Can I spend windfalls without a rule?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "present_bias",
+      "title": {
+        "en": "Present Bias"
+      },
+      "description": {
+        "en": "Present bias makes immediate rewards feel more important than future benefits, leading to procrastination, overspending, and under-saving."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 2705,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Now feels heavier than later"
+            },
+            "body": {
+              "en": "Present bias means immediate comfort or reward feels more important than future benefit. It can make saving, investing, insurance, and debt payoff feel easy to delay. The future is real, but it often feels less urgent."
+            },
+            "tip": {
+              "en": "Present bias does not mean you are lazy; it means your system must protect future you."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Procrastination has a price"
+            },
+            "body": {
+              "en": "Delaying a good financial action can raise the required effort later. Waiting to build an emergency fund leaves you exposed. Waiting to invest reduces compounding time. Waiting to pay high-interest debt lets interest grow."
+            },
+            "example": {
+              "en": "Saving ₸30,000 monthly starting now is easier than needing ₸90,000 monthly later to catch up to the same goal."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Make the future visible"
+            },
+            "body": {
+              "en": "Present bias weakens when the future feels concrete. Naming goals, using progress bars, setting automatic transfers, and creating deadlines make future benefits easier to feel. The goal is to reduce the gap between intention and action."
+            },
+            "tip": {
+              "en": "A goal with date, amount, and automatic transfer beats a vague promise."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Small delay, bigger catch-up"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A person wants to build ₸600,000 in emergency savings. Delaying changes the required monthly action."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Start time",
+                        "Months available",
+                        "Monthly saving needed"
+                      ],
+                      [
+                        "Now",
+                        "12",
+                        "₸50,000"
+                      ],
+                      [
+                        "After 3 months",
+                        "9",
+                        "About ₸66,700"
+                      ],
+                      [
+                        "After 6 months",
+                        "6",
+                        "₸100,000"
+                      ],
+                      [
+                        "After 9 months",
+                        "3",
+                        "₸200,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Present comfort can turn a manageable plan into a stressful one."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Design against present bias"
+            },
+            "body": {
+              "en": "Choose the best system response to each present-bias problem."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the system that best protects future goals.",
+                "options": [
+                  "Automate",
+                  "Make goal visible",
+                  "Reduce friction"
+                ],
+                "scenarios": [
+                  {
+                    "text": "You keep forgetting to transfer money to savings after payday.",
+                    "correct_answer": "Automate",
+                    "explanation": "Automatic transfers remove the need for repeated willpower."
+                  },
+                  {
+                    "text": "A future goal feels abstract and easy to ignore.",
+                    "correct_answer": "Make goal visible",
+                    "explanation": "A named goal with amount, date, and progress makes the future more concrete."
+                  },
+                  {
+                    "text": "Investing requires too many steps, so you keep delaying it.",
+                    "correct_answer": "Reduce friction",
+                    "explanation": "Simplifying the action makes the good behavior easier to start."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Help future you win earlier"
+            },
+            "body": {
+              "en": "Present bias is easiest to beat with systems, not speeches to yourself. Automate good actions, make goals visible, and reduce friction for future-friendly choices. The less each decision depends on mood, the more consistent your progress becomes."
+            },
+            "tip": {
+              "en": "Make the good choice happen before the temptation starts."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2705,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Present Bias — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person keeps delaying emergency savings because the need feels far away. What bias is likely involved?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Present bias"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Loss harvesting"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Asset allocation"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Currency diversification"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which system most directly fights present bias?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Automatic transfer to savings on payday"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Waiting until motivation appears"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Keeping goals vague"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Making saving require more steps"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why does delaying a savings goal usually make it harder?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The same target must be reached in fewer months, requiring larger contributions"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Delays always increase salary automatically"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Future goals become cheaper when ignored"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Time has no effect on required saving"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "money_scripts",
+      "title": {
+        "en": "Money Scripts: What You Inherited from Family"
+      },
+      "description": {
+        "en": "Money scripts are beliefs about money learned from family, culture, and experience that quietly shape financial behavior."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 5,
+      "quizId": 2706,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "You learned money before you studied it"
+            },
+            "body": {
+              "en": "Many financial habits start as stories learned at home: money is dangerous, rich people are greedy, debt is normal, investing is gambling, or spending shows love. These beliefs are money scripts. They may protect you, limit you, or do both."
+            },
+            "tip": {
+              "en": "A money script is not your identity; it is a learned pattern you can examine."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Scripts become automatic rules"
+            },
+            "body": {
+              "en": "A person who grew up with scarcity may save intensely but feel guilty spending on reasonable needs. Another person may avoid checking accounts because money conversations were stressful. The script becomes a shortcut for behavior before conscious thinking begins."
+            },
+            "example": {
+              "en": "If someone learned “investing is only for rich people,” they may delay starting even when small diversified investing would fit their goals."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "You can keep the useful part"
+            },
+            "body": {
+              "en": "Not every inherited money belief is bad. Frugality, generosity, caution, and responsibility can be strengths. The goal is to update the script so it fits your current reality instead of blindly repeating an old environment."
+            },
+            "tip": {
+              "en": "Ask what the script protected before asking what it costs now."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Updating a money script"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A person grew up hearing that debt ruins lives. The script can be updated without rejecting the useful warning."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Old script",
+                        "Useful part",
+                        "Updated script"
+                      ],
+                      [
+                        "All debt is bad",
+                        "Debt can become dangerous",
+                        "Debt must be judged by cost, purpose, and repayment plan"
+                      ],
+                      [
+                        "Spending is irresponsible",
+                        "Waste should be controlled",
+                        "Spending can support values when planned"
+                      ],
+                      [
+                        "Money talk causes fights",
+                        "Money can be emotional",
+                        "Money conversations need structure and calm timing"
+                      ],
+                      [
+                        "Investing is gambling",
+                        "Risk exists",
+                        "Diversified long-term investing differs from speculation"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Updating a script means keeping wisdom while removing the automatic overreaction."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Update the script"
+            },
+            "body": {
+              "en": "Match each old money script with a healthier updated version."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each old script to the best updated script.",
+                "categories": [
+                  {
+                    "id": "debt_context",
+                    "label": "Debt needs context"
+                  },
+                  {
+                    "id": "planned_spending",
+                    "label": "Planned spending"
+                  },
+                  {
+                    "id": "structured_talk",
+                    "label": "Structured money talk"
+                  },
+                  {
+                    "id": "risk_managed",
+                    "label": "Risk can be managed"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "all_debt_bad",
+                    "text": "All debt is always bad"
+                  },
+                  {
+                    "id": "never_spend",
+                    "text": "Spending on yourself is always irresponsible"
+                  },
+                  {
+                    "id": "avoid_talk",
+                    "text": "Money conversations should be avoided"
+                  },
+                  {
+                    "id": "investing_gambling",
+                    "text": "All investing is gambling"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "all_debt_bad",
+                    "categoryId": "debt_context"
+                  },
+                  {
+                    "itemId": "never_spend",
+                    "categoryId": "planned_spending"
+                  },
+                  {
+                    "itemId": "avoid_talk",
+                    "categoryId": "structured_talk"
+                  },
+                  {
+                    "itemId": "investing_gambling",
+                    "categoryId": "risk_managed"
+                  }
+                ],
+                "explanation": "A healthier script keeps the useful warning but adds context, choice, and current information."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Choose your current script"
+            },
+            "body": {
+              "en": "Money scripts shape behavior before numbers are calculated. Notice the belief, ask where it came from, keep the useful part, and rewrite the part that no longer fits. Financial education works better when it updates both knowledge and inherited patterns."
+            },
+            "tip": {
+              "en": "You can respect your family's experience without copying every financial rule."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2706,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Money Scripts — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person avoids investing because they grew up hearing that all investing is gambling. What is the best first step?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Examine the belief, keep the warning about risk, and learn the difference between speculation and diversified investing"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Assume the belief must be completely true forever"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Invest everything immediately to prove the belief wrong"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Ignore risk because the script was emotional"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why are money scripts powerful?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They become automatic rules learned from family, culture, or past experience"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They are always mathematically correct"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They remove the need for budgeting"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They affect only children, never adults"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What does it mean to update a money script?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Keep the useful lesson while changing the part that no longer fits current reality"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Reject every family belief automatically"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Never question old rules"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Replace planning with emotion"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "automation_and_defaults",
+      "title": {
+        "en": "Automation & Default Choices"
+      },
+      "description": {
+        "en": "Automation and defaults make good financial behavior happen with less effort, reducing reliance on memory and motivation."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 6,
+      "quizId": 2707,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Good defaults beat good intentions"
+            },
+            "body": {
+              "en": "Automation makes useful financial actions happen without repeated decisions. Defaults are the settings that happen if you do nothing. When defaults are designed well, progress continues even during busy or low-motivation periods."
+            },
+            "tip": {
+              "en": "Design the system for your tired self, not only your motivated self."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Automation reduces decision fatigue"
+            },
+            "body": {
+              "en": "Payday transfers, bill autopay, automatic investing, and debt payments reduce the number of decisions you must remember. This matters because willpower changes from day to day. A good system moves important actions earlier than optional spending."
+            },
+            "example": {
+              "en": "An automatic ₸40,000 transfer to savings on payday protects the money before it becomes available for impulse spending."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Defaults can help or hurt"
+            },
+            "body": {
+              "en": "If the default is to spend whatever remains, saving becomes accidental. If the default is to save first, spending adjusts around the plan. Defaults also matter for subscriptions, loan minimum payments, and investment contribution rates."
+            },
+            "tip": {
+              "en": "Your default should do the right thing when you take no action."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Changing the default path"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two people earn ₸450,000 monthly. They have the same intention to save but different defaults."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Person",
+                        "Default setup",
+                        "Likely result"
+                      ],
+                      [
+                        "A",
+                        "Spends first, saves what remains",
+                        "Savings depends on mood and leftovers"
+                      ],
+                      [
+                        "B",
+                        "Auto-saves ₸60,000 on payday",
+                        "Goal is funded before spending decisions"
+                      ],
+                      [
+                        "A",
+                        "Pays bills manually",
+                        "Risk of late fees when busy"
+                      ],
+                      [
+                        "B",
+                        "Uses autopay with balance checks",
+                        "Lower missed-payment risk"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Automation does not remove responsibility. It moves responsibility into setup and review."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Design the default"
+            },
+            "body": {
+              "en": "Match each problem with the automation or default that best solves it."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each problem to the best system fix.",
+                "categories": [
+                  {
+                    "id": "payday_transfer",
+                    "label": "Payday transfer"
+                  },
+                  {
+                    "id": "autopay",
+                    "label": "Autopay"
+                  },
+                  {
+                    "id": "subscription_review",
+                    "label": "Subscription review"
+                  },
+                  {
+                    "id": "auto_increase",
+                    "label": "Automatic increase"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "forget_save",
+                    "text": "Forgetting to move money into savings"
+                  },
+                  {
+                    "id": "late_bill",
+                    "text": "Missing bill due dates"
+                  },
+                  {
+                    "id": "silent_fees",
+                    "text": "Paying for unused monthly services"
+                  },
+                  {
+                    "id": "raise_spent",
+                    "text": "Every raise becomes spending"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "forget_save",
+                    "categoryId": "payday_transfer"
+                  },
+                  {
+                    "itemId": "late_bill",
+                    "categoryId": "autopay"
+                  },
+                  {
+                    "itemId": "silent_fees",
+                    "categoryId": "subscription_review"
+                  },
+                  {
+                    "itemId": "raise_spent",
+                    "categoryId": "auto_increase"
+                  }
+                ],
+                "explanation": "Automation works best when each system is matched to a specific failure point."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Automate, then review"
+            },
+            "body": {
+              "en": "Automation and defaults protect important actions from forgetfulness and emotion. But they still need review, especially when income, expenses, goals, or accounts change. The best system runs quietly but is checked intentionally."
+            },
+            "tip": {
+              "en": "Automation is not autopilot forever; it is autopilot with scheduled inspections."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2707,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Automation & Defaults — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why is saving automatically on payday effective?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It funds the goal before optional spending absorbs the money"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It guarantees investment profits"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It removes the need to earn income"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It makes budgeting illegal"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is a dangerous default?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Spending first and saving only whatever happens to remain"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Automatic transfer to an emergency fund"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Bill autopay with balance monitoring"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Scheduled review of subscriptions"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why should automated systems still be reviewed?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Income, expenses, goals, and account details can change"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Automation works only if never checked"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Reviewing systems destroys savings"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Autopay guarantees every bill is correct"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "habit_design",
+      "title": {
+        "en": "Habit Design & Avoiding Self-Sabotage"
+      },
+      "description": {
+        "en": "Habit design uses cues, friction, rewards, and environment changes to make good financial behavior easier and harmful behavior harder."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 7,
+      "quizId": 2708,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Behavior follows environment"
+            },
+            "body": {
+              "en": "Many money mistakes happen not because people lack knowledge, but because their environment makes the wrong action easy. Habit design changes cues, friction, and rewards. The goal is to make good behavior simpler and self-sabotage harder."
+            },
+            "tip": {
+              "en": "Do not only improve motivation; improve the setup."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Cues start habits"
+            },
+            "body": {
+              "en": "A cue is something that triggers behavior: payday, boredom, a sale notification, a bill reminder, or opening an app. If you identify the cue, you can redesign the response. Good habits often start with a clear cue and a small action."
+            },
+            "example": {
+              "en": "Cue: salary arrives. Habit: automatic transfer to savings. Reward: progress bar moves toward the emergency fund target."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Friction protects you"
+            },
+            "body": {
+              "en": "Friction is any step that makes a behavior harder. Add friction to harmful spending by removing saved cards, unsubscribing from sale emails, or using waiting periods. Reduce friction for good actions by using templates, reminders, and automation."
+            },
+            "tip": {
+              "en": "Make bad habits inconvenient and good habits boringly easy."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Redesigning a spending habit"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A person often spends ₸25,000 online late at night after stressful days. The problem is not only the purchase; it is the habit loop."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Habit element",
+                        "Old setup",
+                        "New setup"
+                      ],
+                      [
+                        "Cue",
+                        "Stress and phone scrolling",
+                        "Evening reminder to close shopping apps"
+                      ],
+                      [
+                        "Action",
+                        "One-click purchase",
+                        "Saved cards removed and 24-hour wait rule"
+                      ],
+                      [
+                        "Reward",
+                        "Quick relief",
+                        "Low-cost routine: walk, tea, or journaling"
+                      ],
+                      [
+                        "Review",
+                        "Guilt next morning",
+                        "Weekly spending check without shame"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The new system does not demand perfect discipline. It changes the path of least resistance."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Redesign the habit loop"
+            },
+            "body": {
+              "en": "Match each money habit problem with the best system change."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the best habit-design response.",
+                "options": [
+                  "Add friction",
+                  "Reduce friction",
+                  "Replace reward",
+                  "Use review"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Impulse shopping happens because payment details are saved everywhere.",
+                    "correct_answer": "Add friction",
+                    "explanation": "Removing saved cards adds a pause before spending."
+                  },
+                  {
+                    "text": "Investing is delayed because the process has too many steps.",
+                    "correct_answer": "Reduce friction",
+                    "explanation": "Simplifying the good action makes it more likely to happen."
+                  },
+                  {
+                    "text": "Stress spending provides emotional relief after work.",
+                    "correct_answer": "Replace reward",
+                    "explanation": "The system needs a healthier way to get relief, not only a ban."
+                  },
+                  {
+                    "text": "Small leaks are invisible until the end of the month.",
+                    "correct_answer": "Use review",
+                    "explanation": "A scheduled review makes patterns visible before they grow."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Design for consistency, not perfection"
+            },
+            "body": {
+              "en": "Habit design accepts that humans are inconsistent. Good systems use cues, friction, rewards, and reviews to make the desired behavior easier to repeat. Avoiding self-sabotage is less about never making mistakes and more about making mistakes smaller and recoverable."
+            },
+            "tip": {
+              "en": "A good system catches you before one bad day becomes a bad pattern."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2708,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Habit Design — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person keeps impulse buying because one-click payment is too easy. What system change fits best?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Add friction, such as removing saved cards or adding a waiting period"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Make shopping even faster"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Rely only on guilt after buying"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Stop tracking expenses forever"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why is replacing the reward important for stress spending?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The person still needs a healthier way to get relief from the cue"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Stress spending has no emotional component"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Rewards should always be removed from life"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Replacing rewards guarantees no future spending"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the main goal of habit design in finance?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Make good actions easier and harmful actions harder through the environment"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Prove that willpower is always enough"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Remove all enjoyment from spending"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Avoid reviewing habits"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 2799,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Behavior & Systems — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "An investor refuses to sell a clearly broken investment only because they do not want to admit a loss. What bias is most likely involved?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Loss aversion"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Automation"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Account placement"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Emergency planning"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "After a few lucky wins, a person puts nearly all savings into one trade. What system would best reduce the danger?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Position limits and a downside-case checklist"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "More confidence and less review"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Borrowing more to increase returns"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Ignoring all risks because past trades worked"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "A person buys an asset because everyone in their group chat is buying it. What should they do first?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Check whether it fits their own goals, risk limits, and research process"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Buy immediately to avoid missing out"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Assume popularity removes risk"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Use borrowed money because others are excited"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "Which setup best fights present bias and forgetfulness?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Automatic payday savings with visible goal progress"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "A vague promise to save later"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Making saving require many manual steps"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Spending first and saving leftovers"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "What is the best overall purpose of behavior systems?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "To make good financial behavior easier and protect the plan from predictable human biases"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "To remove all emotions forever"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "To guarantee every investment will profit"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "To replace financial goals with random rules"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

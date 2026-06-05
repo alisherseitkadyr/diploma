@@ -11,8 +11,8 @@ import (
 )
 
 type Client interface {
-	PredictReinforcement(ctx context.Context, req ReinforcementPredictRequest) (*ReinforcementPredictResponse, error)
-	RankNextLessons(ctx context.Context, req NextLessonRankRequest) (*NextLessonRankResponse, error)
+	RankNextTopics(ctx context.Context, req NextTopicRankRequest) (*NextTopicRankResponse, error)
+	RankRepetition(ctx context.Context, req RepetitionRankRequest) (*RepetitionRankResponse, error)
 }
 
 type HTTPClient struct {
@@ -29,7 +29,7 @@ func NewHTTPClient(baseURL string) *HTTPClient {
 	}
 }
 
-func (c *HTTPClient) PredictReinforcement(ctx context.Context, req ReinforcementPredictRequest) (*ReinforcementPredictResponse, error) {
+func (c *HTTPClient) RankNextTopics(ctx context.Context, req NextTopicRankRequest) (*NextTopicRankResponse, error) {
 	body, err := json.Marshal(req)
 	if err != nil {
 		return nil, err
@@ -38,7 +38,7 @@ func (c *HTTPClient) PredictReinforcement(ctx context.Context, req Reinforcement
 	httpReq, err := http.NewRequestWithContext(
 		ctx,
 		http.MethodPost,
-		c.baseURL+"/predict/reinforcement",
+		c.baseURL+"/rank/next-topics",
 		bytes.NewReader(body),
 	)
 	if err != nil {
@@ -57,7 +57,7 @@ func (c *HTTPClient) PredictReinforcement(ctx context.Context, req Reinforcement
 		return nil, fmt.Errorf("ml service returned status %d", resp.StatusCode)
 	}
 
-	var result ReinforcementPredictResponse
+	var result NextTopicRankResponse
 	if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
 		return nil, err
 	}
@@ -65,7 +65,7 @@ func (c *HTTPClient) PredictReinforcement(ctx context.Context, req Reinforcement
 	return &result, nil
 }
 
-func (c *HTTPClient) RankNextLessons(ctx context.Context, req NextLessonRankRequest) (*NextLessonRankResponse, error) {
+func (c *HTTPClient) RankRepetition(ctx context.Context, req RepetitionRankRequest) (*RepetitionRankResponse, error) {
 	body, err := json.Marshal(req)
 	if err != nil {
 		return nil, err
@@ -74,10 +74,9 @@ func (c *HTTPClient) RankNextLessons(ctx context.Context, req NextLessonRankRequ
 	httpReq, err := http.NewRequestWithContext(
 		ctx,
 		http.MethodPost,
-		c.baseURL+"/rank/next-lessons",
+		c.baseURL+"/rank/repetition",
 		bytes.NewReader(body),
 	)
-
 	if err != nil {
 		return nil, err
 	}
@@ -94,7 +93,7 @@ func (c *HTTPClient) RankNextLessons(ctx context.Context, req NextLessonRankRequ
 		return nil, fmt.Errorf("ml service returned status %d", resp.StatusCode)
 	}
 
-	var result NextLessonRankResponse
+	var result RepetitionRankResponse
 	if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
 		return nil, err
 	}

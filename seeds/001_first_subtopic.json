@@ -1,6 +1,7 @@
 {
   "topic": {
     "code": "financial_decisions",
+    "orderIndex": 1,
     "title": {
       "en": "Financial Decisions & Trade-offs",
       "ru": "Финансовые решения и компромиссы",

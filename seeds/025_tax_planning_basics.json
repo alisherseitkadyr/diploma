@@ -1,0 +1,1780 @@
+{
+  "section": "building_wealth",
+  "topic": {
+    "code": "tax_planning_basics",
+    "orderIndex": 25,
+    "title": {
+      "en": "Tax Planning Basics"
+    },
+    "description": {
+      "en": "How taxes shape real returns, what is taxed and when, and Kazakhstan's main personal taxes plus efficient account placement."
+    },
+    "level": "advanced",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "tax_fundamentals",
+      "title": {
+        "en": "Tax Fundamentals"
+      },
+      "description": {
+        "en": "Taxes reduce spendable income and investment returns, so planning starts by knowing what is taxed, when, and who withholds it."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 0,
+      "quizId": 2501,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Taxes are part of the real return"
+            },
+            "body": {
+              "en": "A return is only useful after the costs that reduce it. Taxes can affect salary, interest, dividends, capital gains, business income, and withdrawals. Tax planning means arranging legal choices so that more of the return stays spendable."
+            },
+            "tip": {
+              "en": "Tax planning is legal organization, not hiding income."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Taxable event and tax base"
+            },
+            "body": {
+              "en": "A taxable event is the moment that may create tax, such as receiving salary, earning interest, selling an asset, or taking business income. The tax base is the amount the tax applies to. Knowing both helps you understand why timing matters."
+            },
+            "example": {
+              "en": "Selling an investment for a profit may create a taxable event, while simply watching its market price rise may not create tax yet."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Kazakhstan has several personal layers"
+            },
+            "body": {
+              "en": "In Kazakhstan, personal finance often involves individual income tax, mandatory pension contributions, and social health insurance contributions. The exact treatment depends on income type, employment status, account type, and current rules. The key habit is to separate gross income from net spendable income."
+            },
+            "tip": {
+              "en": "For local rules, check official sources or a qualified tax professional before acting."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Gross income is not spendable income"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A worker sees a monthly salary offer of ₸500,000. That is not the same as monthly spendable income because deductions and contributions may apply."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Layer",
+                        "What it affects",
+                        "Planning question"
+                      ],
+                      [
+                        "Gross salary",
+                        "Starting employment income",
+                        "What is the full compensation package?"
+                      ],
+                      [
+                        "Individual income tax",
+                        "Taxable income",
+                        "What amount remains after tax?"
+                      ],
+                      [
+                        "Mandatory pension contribution",
+                        "Retirement account funding",
+                        "How does it build future income?"
+                      ],
+                      [
+                        "Social health insurance contribution",
+                        "Health-system contribution",
+                        "What is withheld and why?"
+                      ],
+                      [
+                        "Net income",
+                        "Spendable monthly cash flow",
+                        "Can the budget work after deductions?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Tax planning starts by budgeting from net income, not from the headline gross salary."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Identify the tax concept"
+            },
+            "body": {
+              "en": "Classify each item by whether it is a taxable event, tax base, withholding layer, or planning action."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each item to the best tax-planning concept.",
+                "categories": [
+                  {
+                    "id": "taxable_event",
+                    "label": "Taxable event"
+                  },
+                  {
+                    "id": "tax_base",
+                    "label": "Tax base"
+                  },
+                  {
+                    "id": "withholding",
+                    "label": "Withholding or contribution"
+                  },
+                  {
+                    "id": "planning",
+                    "label": "Planning action"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "asset_sale",
+                    "text": "Selling an investment at a profit"
+                  },
+                  {
+                    "id": "profit_amount",
+                    "text": "The gain amount that tax may apply to"
+                  },
+                  {
+                    "id": "pension_contribution",
+                    "text": "Mandatory pension contribution withheld from income"
+                  },
+                  {
+                    "id": "net_budget",
+                    "text": "Building a budget from net income"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "asset_sale",
+                    "categoryId": "taxable_event"
+                  },
+                  {
+                    "itemId": "profit_amount",
+                    "categoryId": "tax_base"
+                  },
+                  {
+                    "itemId": "pension_contribution",
+                    "categoryId": "withholding"
+                  },
+                  {
+                    "itemId": "net_budget",
+                    "categoryId": "planning"
+                  }
+                ],
+                "explanation": "Tax planning becomes clearer when you separate the trigger, the amount being taxed, the deductions, and the planning decision."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Think after tax"
+            },
+            "body": {
+              "en": "Taxes are not a side detail; they shape spendable income and real investment results. Start with the taxable event, the tax base, the timing, and whether tax is withheld automatically. Good planning makes cash flow more realistic and investment comparisons more honest."
+            },
+            "tip": {
+              "en": "The number that matters is what remains after taxes, contributions, fees, and inflation."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2501,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Tax Fundamentals — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person budgets from gross salary and ignores deductions. What is the likely problem?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Their spending plan may overestimate the cash they can actually use"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Gross salary and net income are always identical"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Deductions increase spendable income immediately"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Budgeting works better when taxes are ignored"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which situation is most likely a taxable event?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Selling an investment at a profit"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Watching an asset price rise without selling"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Writing down an investment idea"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Comparing two bank apps"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the safest way to treat Kazakhstan-specific tax rules in planning?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Use the current official rules or qualified advice because treatment depends on income type and status"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Assume all income is taxed the same way forever"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Ignore pension and health insurance contributions"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Use social media comments as final tax guidance"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "capital_gains",
+      "title": {
+        "en": "Capital Gains"
+      },
+      "description": {
+        "en": "Capital gains are profits from selling assets, and tax often depends on whether the gain is realized, where the asset is held, and current rules."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 2502,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A gain is not always taxed immediately"
+            },
+            "body": {
+              "en": "A capital gain is the profit from selling an asset for more than its cost. Many tax systems focus on realized gains, meaning the asset was actually sold. This makes timing important for investors."
+            },
+            "tip": {
+              "en": "Unrealized gain is a paper increase; realized gain is usually where tax questions begin."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Cost basis matters"
+            },
+            "body": {
+              "en": "Cost basis is the amount used to measure gain or loss. It usually starts with what you paid, but fees, currency conversion, or local rules may affect calculation. If your records are weak, you may not know the true gain."
+            },
+            "example": {
+              "en": "Buying shares for ₸900,000 and selling them for ₸1,200,000 creates a ₸300,000 gain before considering fees and tax rules."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Losses can matter too"
+            },
+            "body": {
+              "en": "A capital loss occurs when you sell below your cost basis. Some tax systems allow losses to offset gains, but rules vary. Even when a loss has tax value, selling should still fit the investment plan rather than being done only for tax reasons."
+            },
+            "tip": {
+              "en": "Tax benefit cannot turn a bad investment process into a good one."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Realized versus unrealized"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor buys a fund for ₸1,000,000. Later, the market value changes. Tax questions depend on whether the investor sells."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Situation",
+                        "Market value",
+                        "Action",
+                        "Tax-planning idea"
+                      ],
+                      [
+                        "Price rises",
+                        "₸1,300,000",
+                        "No sale",
+                        "Gain is unrealized"
+                      ],
+                      [
+                        "Price rises and investor sells",
+                        "₸1,300,000",
+                        "Sale",
+                        "Gain may be realized"
+                      ],
+                      [
+                        "Price falls and investor sells",
+                        "₸800,000",
+                        "Sale",
+                        "Loss may be realized"
+                      ],
+                      [
+                        "Price falls but investor holds",
+                        "₸800,000",
+                        "No sale",
+                        "Loss is unrealized"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The investment result and the tax result are connected, but the taxable moment often depends on action."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Realized or unrealized?"
+            },
+            "body": {
+              "en": "Choose whether each case is an unrealized gain, realized gain, realized loss, or no capital-gain issue yet."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best classification.",
+                "options": [
+                  "Unrealized gain",
+                  "Realized gain",
+                  "Realized loss",
+                  "No capital-gain issue yet"
+                ],
+                "scenarios": [
+                  {
+                    "text": "You bought an ETF for ₸500,000. It is now worth ₸650,000, but you still hold it.",
+                    "correct_answer": "Unrealized gain",
+                    "explanation": "The gain exists on paper, but no sale has occurred."
+                  },
+                  {
+                    "text": "You bought shares for ₸700,000 and sold them for ₸900,000.",
+                    "correct_answer": "Realized gain",
+                    "explanation": "The sale turns the price increase into a realized gain."
+                  },
+                  {
+                    "text": "You bought a fund for ₸800,000 and sold it for ₸620,000.",
+                    "correct_answer": "Realized loss",
+                    "explanation": "The sale below cost realizes a loss."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Track basis and timing"
+            },
+            "body": {
+              "en": "Capital-gains planning depends on cost basis, sale price, fees, account type, holding period, and local rules. Good records make tax calculation and decision-making easier. The key habit is to know what gain is only on paper and what gain has been realized."
+            },
+            "tip": {
+              "en": "Keep purchase records before you need them."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2502,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Capital Gains — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "You bought an asset for ₸1,000,000 and sold it for ₸1,350,000. What is the simple capital gain before fees and special rules?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "₸350,000"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "₸1,350,000"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "₸1,000,000"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "₸2,350,000"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why is cost basis important?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It helps calculate the gain or loss when the asset is sold"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It guarantees the asset will rise"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It replaces the need for sale records"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It is always the same as current market value"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the difference between realized and unrealized gain?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Realized gain usually comes from selling; unrealized gain is a paper increase while holding"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Unrealized gain is always tax-free forever"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Realized gain exists only before purchase"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "There is no difference for planning"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "tax_efficiency",
+      "title": {
+        "en": "Tax Efficiency"
+      },
+      "description": {
+        "en": "Tax efficiency means improving after-tax results by controlling timing, turnover, income type, and legal account choices."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 2503,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "After-tax return is the real target"
+            },
+            "body": {
+              "en": "Tax efficiency is about keeping more of what an investment earns after legal taxes are paid. It does not mean choosing investments only for tax reasons. It means comparing choices by after-tax, after-fee, after-inflation results."
+            },
+            "tip": {
+              "en": "A lower pre-tax return can be better if the after-tax result is higher."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Turnover can create tax drag"
+            },
+            "body": {
+              "en": "Frequent buying and selling can realize gains more often. If those gains are taxable, the investor may lose compounding power to repeated tax payments. Lower-turnover strategies can be more tax efficient when they also fit the investment plan."
+            },
+            "example": {
+              "en": "A fund that trades heavily may distribute or realize more taxable gains than a broad index fund that changes holdings slowly."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Income type matters"
+            },
+            "body": {
+              "en": "Interest, dividends, business income, and capital gains may be treated differently depending on jurisdiction and account type. The same pre-tax return can lead to different after-tax outcomes. Tax efficiency begins with knowing which type of income an asset produces."
+            },
+            "tip": {
+              "en": "Do not compare returns without asking what kind of income created them."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same pre-tax return, different after-tax result"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two investments each earn 10% before tax. Their after-tax results can differ if the income type and timing differ."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Investment",
+                        "Pre-tax return",
+                        "Tax pattern",
+                        "Planning issue"
+                      ],
+                      [
+                        "High-turnover strategy",
+                        "10%",
+                        "Gains realized often",
+                        "Compounding may face yearly tax drag"
+                      ],
+                      [
+                        "Low-turnover strategy",
+                        "10%",
+                        "Gains mostly deferred",
+                        "More money may compound before tax"
+                      ],
+                      [
+                        "Interest-paying asset",
+                        "10%",
+                        "Income may be taxed as received",
+                        "Good placement may matter"
+                      ],
+                      [
+                        "Tax-advantaged account",
+                        "10%",
+                        "Tax treatment depends on rules",
+                        "Account choice can improve outcome"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Tax efficiency is not one trick. It is the combined effect of income type, timing, turnover, and account rules."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Find the tax-efficiency lever"
+            },
+            "body": {
+              "en": "Choose the main tax-efficiency lever in each situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the lever that best improves after-tax planning.",
+                "options": [
+                  "Lower turnover",
+                  "Income-type awareness",
+                  "Account choice"
+                ],
+                "scenarios": [
+                  {
+                    "text": "An investor repeatedly sells winners after small price moves and pays tax on gains each year.",
+                    "correct_answer": "Lower turnover",
+                    "explanation": "Reducing unnecessary realized gains can reduce tax drag."
+                  },
+                  {
+                    "text": "Two investments have the same pre-tax return, but one pays regular interest and the other mostly grows in price.",
+                    "correct_answer": "Income-type awareness",
+                    "explanation": "Different income types can create different tax timing or treatment."
+                  },
+                  {
+                    "text": "A highly taxed income-producing asset may fit better in a tax-advantaged account if rules allow.",
+                    "correct_answer": "Account choice",
+                    "explanation": "Where an asset is held can change after-tax results."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Optimize legally and practically"
+            },
+            "body": {
+              "en": "Tax efficiency improves real outcomes by reducing unnecessary tax drag. The main tools are timing, turnover control, income-type awareness, and suitable accounts. The best strategy still has to fit the portfolio, risk tolerance, and local rules."
+            },
+            "tip": {
+              "en": "Never let a tax saving become the only reason for a poor investment."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2503,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Tax Efficiency — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why can frequent trading reduce long-term after-tax results?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It can realize taxable gains often, reducing money left to compound"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Trading frequently guarantees higher return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Taxes only apply to investors who never trade"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Turnover has no relation to taxable events"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which comparison is most tax-aware?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Comparing investments by after-tax, after-fee, after-inflation result"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Choosing only the highest pre-tax headline return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Ignoring income type"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Assuming all accounts have identical rules"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why does income type matter?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Interest, dividends, business income, and gains may be taxed or timed differently"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "All income types are always identical"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Income type affects only the asset name"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Income type guarantees no tax"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "account_placement",
+      "title": {
+        "en": "Account Placement"
+      },
+      "description": {
+        "en": "Account placement means deciding which assets belong in taxable, tax-deferred, or tax-free accounts to improve after-tax results."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 2504,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Where you hold an asset matters"
+            },
+            "body": {
+              "en": "Account placement is the decision about which asset goes in which account type. Two investors can own the same assets but get different after-tax results because they place them differently. The goal is to match asset tax behavior with account tax treatment."
+            },
+            "tip": {
+              "en": "Asset allocation decides what you own; account placement decides where you hold it."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Taxable accounts value flexibility"
+            },
+            "body": {
+              "en": "A taxable account may offer easier access and fewer withdrawal restrictions, but taxes can apply as income or gains occur. Assets that naturally create less annual taxable income may be easier to hold there. Still, rules and personal needs matter."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Tax-advantaged accounts protect certain assets better"
+            },
+            "body": {
+              "en": "Accounts with tax deferral or tax-free treatment can be valuable for assets that produce frequent taxable income or high expected growth. The best placement depends on contribution limits, access rules, time horizon, and future tax rates."
+            },
+            "example": {
+              "en": "An income-producing bond fund may be less tax-efficient in a taxable account than in a suitable tax-advantaged account, if local rules allow that structure."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Asset location logic"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor has three account types and three asset types. The placement is not automatic, but the logic can be organized."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Asset behavior",
+                        "Possible issue",
+                        "Placement question"
+                      ],
+                      [
+                        "Frequent interest income",
+                        "Tax may occur regularly",
+                        "Can a tax-advantaged account reduce drag?"
+                      ],
+                      [
+                        "Broad low-turnover equity fund",
+                        "Gains may be mostly deferred",
+                        "Can taxable account be acceptable?"
+                      ],
+                      [
+                        "High expected growth asset",
+                        "Large future gains possible",
+                        "Would tax-free treatment be valuable?"
+                      ],
+                      [
+                        "Emergency cash",
+                        "Needs access",
+                        "Should stay flexible rather than locked away?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Good placement balances tax efficiency with access, risk, and the actual purpose of the money."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Choose the account logic"
+            },
+            "body": {
+              "en": "Select the account-placement idea that best fits each situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the best placement principle.",
+                "options": [
+                  "Keep flexible",
+                  "Shelter frequent income",
+                  "Protect high growth"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Emergency money may be needed within days.",
+                    "correct_answer": "Keep flexible",
+                    "explanation": "Access matters more than maximum tax optimization for emergency cash."
+                  },
+                  {
+                    "text": "An asset pays regular taxable interest and is meant for long-term holding.",
+                    "correct_answer": "Shelter frequent income",
+                    "explanation": "A suitable tax-advantaged account may reduce repeated tax drag if rules allow."
+                  },
+                  {
+                    "text": "An investment has high expected long-term growth and can stay invested for decades.",
+                    "correct_answer": "Protect high growth",
+                    "explanation": "Tax-free or tax-advantaged treatment may be especially valuable for large future gains."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Placement follows purpose"
+            },
+            "body": {
+              "en": "Account placement can improve after-tax outcomes, but it should not override access needs or risk control. Match assets to accounts based on income type, growth potential, time horizon, and rules. The best placement is useful only if the overall portfolio still fits your goals."
+            },
+            "tip": {
+              "en": "Do not lock short-term money away just to chase tax efficiency."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2504,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Account Placement — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "What is the difference between asset allocation and account placement?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Allocation decides what you own; placement decides where you hold it"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They are exactly the same thing"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Placement ignores tax treatment"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Allocation applies only to bank deposits"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why might a frequent interest-paying asset fit better in a tax-advantaged account?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Regular taxable income can create repeated tax drag if held in a taxable account"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Interest-paying assets always lose money"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Tax-advantaged accounts remove all investment risk"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Interest income never has tax consequences"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why should emergency cash usually prioritize flexibility?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It may be needed quickly, so access can matter more than tax optimization"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Emergency cash should always be locked for decades"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Flexibility means ignoring risk"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Emergency money has no purpose"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "tax_common_mistakes",
+      "title": {
+        "en": "Common Tax Mistakes"
+      },
+      "description": {
+        "en": "Common mistakes include ignoring taxes, letting taxes dominate every decision, poor records, missed deadlines, and confusing tax avoidance with evasion."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 2505,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Taxes create two opposite mistakes"
+            },
+            "body": {
+              "en": "Some people ignore taxes until a bill appears. Others let tax fear control every investment choice. Good planning avoids both extremes: taxes matter, but they are one part of a full financial decision."
+            },
+            "tip": {
+              "en": "Do not ignore taxes, but do not let taxes become the whole strategy."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Poor records create expensive confusion"
+            },
+            "body": {
+              "en": "Without records of purchase price, sale price, fees, dates, and account statements, tax reporting becomes harder. Missing records can lead to mistakes, overpaying, underreporting, or stress near deadlines. Recordkeeping is a financial habit, not an accounting hobby."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Legal planning is not evasion"
+            },
+            "body": {
+              "en": "Tax planning uses legal rules such as account choice, timing, documentation, and allowed deductions. Tax evasion hides income, falsifies records, or breaks rules. The difference matters because illegal shortcuts can create penalties and legal problems."
+            },
+            "example": {
+              "en": "Using a permitted account type is planning. Hiding investment income from reporting is evasion."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "The avoidable mistake chain"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor trades actively through the year but does not download statements or track cost basis."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Mistake",
+                        "Immediate effect",
+                        "Later problem"
+                      ],
+                      [
+                        "No purchase records",
+                        "Gain calculation unclear",
+                        "Possible wrong tax reporting"
+                      ],
+                      [
+                        "No sale records",
+                        "Realized events forgotten",
+                        "Missed reporting requirement"
+                      ],
+                      [
+                        "No deadline calendar",
+                        "Filing delayed",
+                        "Penalties or stress may occur"
+                      ],
+                      [
+                        "Tax-only decisions",
+                        "Poor investments held too long",
+                        "Tax saving hides bad risk"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Most tax mistakes are easier to prevent than to fix."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Detect the tax mistake"
+            },
+            "body": {
+              "en": "Each case contains a common tax-planning mistake. Choose the error."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the main mistake in each tax-planning claim.",
+                "cases": [
+                  {
+                    "text": "“I sold several investments, but I do not need records because the app shows my current balance.”",
+                    "options": [
+                      "a) No error",
+                      "b) Current balance does not replace purchase, sale, and fee records",
+                      "c) Records matter only for cash salaries"
+                    ],
+                    "correct": "b",
+                    "explanation": "Tax reporting often needs transaction history, not just current account value."
+                  },
+                  {
+                    "text": "“I should keep a bad investment forever only because selling might create tax.”",
+                    "options": [
+                      "a) Tax tail wagging the investment dog",
+                      "b) No error",
+                      "c) Taxes are the only factor that matters"
+                    ],
+                    "correct": "a",
+                    "explanation": "Tax impact matters, but a poor investment can remain poor even if selling has tax consequences."
+                  },
+                  {
+                    "text": "“Legal tax planning and hiding income are the same thing.”",
+                    "options": [
+                      "a) No error",
+                      "b) Legal planning follows rules; hiding income is evasion",
+                      "c) Tax rules never distinguish behavior"
+                    ],
+                    "correct": "b",
+                    "explanation": "Planning uses the law; evasion breaks it."
+                  }
+                ],
+                "final_explanation": "Common tax mistakes usually come from missing records, wrong timing, ignoring rules, or letting tax logic replace financial logic."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Build a tax hygiene system"
+            },
+            "body": {
+              "en": "Tax planning becomes easier with clean records, deadline reminders, and decisions based on after-tax outcomes. The goal is not to fear taxes or game the system. The goal is to follow the law, avoid surprises, and make better financial choices."
+            },
+            "tip": {
+              "en": "Good tax hygiene is boring until it saves you from a painful mistake."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2505,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Common Tax Mistakes — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why is poor recordkeeping a tax risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It can make gains, losses, fees, and taxable events hard to calculate correctly"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Records are never needed for investing"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Current portfolio value contains every tax detail automatically"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Poor records always reduce tax legally"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is wrong with keeping a bad investment only to avoid tax from selling?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Tax impact matters, but it should not dominate the investment decision alone"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Taxes should always be ignored"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Selling is always tax-free"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Bad investments become good if held long enough"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which behavior is legal tax planning rather than evasion?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Using allowed account types and keeping proper records"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Hiding income from reporting"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Inventing fake expenses"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Deleting transaction history"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 2599,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Tax Planning Basics — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "Why should a salary budget start from net income rather than gross income?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Taxes, pension contributions, health insurance contributions, and other deductions can reduce spendable cash"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Gross income is never paid by employers"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Net income is always higher than gross income"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Deductions matter only for investors, not workers"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "An investor's ETF rises from ₸1,000,000 to ₸1,250,000, but they do not sell. What is the best description?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "An unrealized gain that may become relevant if sold"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "A realized gain from a sale"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "A guaranteed tax refund"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "No investment change at all"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "Which habit most improves tax efficiency without changing the whole portfolio?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Avoiding unnecessary turnover and comparing after-tax outcomes"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Trading more often because activity always lowers tax"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Ignoring income type"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Choosing investments only by pre-tax return"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "What is account placement?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Choosing which account type should hold each asset to improve fit and after-tax results"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Deciding what color the app account screen uses"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Replacing asset allocation completely"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Holding every asset in the same account regardless of rules"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "Which statement best describes good tax planning?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It legally organizes timing, accounts, records, and decisions to improve after-tax outcomes"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It hides income so no one can see it"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It ignores taxes until a deadline arrives"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It makes taxes the only factor in every decision"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

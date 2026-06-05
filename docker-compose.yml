@@ -20,7 +20,7 @@ services:
       - afine-net
 
   ml:
-    build: ../nextLessonRecommendation
+    build: ../NextTopicLessonPrediction
     container_name: afineback-ml
     ports:
       - "8000:8000"
@@ -51,6 +51,7 @@ services:
       ACCESS_TOKEN_TTL: ${ACCESS_TOKEN_TTL:-15m}
       REFRESH_TOKEN_TTL: ${REFRESH_TOKEN_TTL:-720h}
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      NEXT_TOPIC_ML_SERVICE_URL: http://afineback-ml:8000
       CORS_ORIGINS: http://localhost:3000
       COOKIE_SECURE: "false"
     networks:
@@ -79,6 +80,7 @@ services:
       interval: 5s
       timeout: 5s
       retries: 10
+      start_period: 60s
     restart: unless-stopped
 
 networks:

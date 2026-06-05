@@ -53,6 +53,7 @@ func NewRouter(
 	apiMux.Handle("GET /adaptation/recommendations/home", authMiddleware(http.HandlerFunc(adaptationHandler.GetHomeRecommendations)))
 	apiMux.Handle("GET /adaptation/learning-map", authMiddleware(http.HandlerFunc(adaptationHandler.GetLearningMap)))
 	apiMux.Handle("GET /adaptation/topics/{topicCode}/learning-map", authMiddleware(http.HandlerFunc(adaptationHandler.GetTopicLearningMap)))
+	apiMux.Handle("GET /adaptation/repetition-review", authMiddleware(http.HandlerFunc(adaptationHandler.GetRepetitionReview)))
 
 	rootMux := http.NewServeMux()
 	rootMux.Handle("/api/", http.StripPrefix("/api", apiMux))

@@ -1,0 +1,1806 @@
+{
+  "section": "funds_accounts_markets",
+  "topic": {
+    "code": "etfs_mutual_funds",
+    "orderIndex": 18,
+    "title": {
+      "en": "ETFs & Mutual Funds"
+    },
+    "description": {
+      "en": "How funds pool many investors' money, why low-cost passive index investing usually beats active management, and how to evaluate a fund."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "fund_structure",
+      "title": {
+        "en": "Fund Structure"
+      },
+      "description": {
+        "en": "Funds pool investor money to buy a portfolio of assets, giving access and diversification through one vehicle."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 1801,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A fund is a container"
+            },
+            "body": {
+              "en": "An ETF or mutual fund is not a single investment idea by itself. It is a container that holds many assets such as stocks, bonds, or cash. The fund's value depends on what sits inside the container and how it is managed."
+            },
+            "tip": {
+              "en": "Never judge a fund by its name alone; look through to the holdings."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Pooling changes access"
+            },
+            "body": {
+              "en": "A fund combines money from many investors and uses it to buy a portfolio. This lets one person access hundreds or thousands of securities with a smaller amount of capital. The investor owns units or shares of the fund, not each asset directly."
+            },
+            "example": {
+              "en": "With ₸100,000, buying 500 individual stocks is unrealistic. Buying one broad fund can provide exposure to many companies at once."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "ETF and mutual fund mechanics differ"
+            },
+            "body": {
+              "en": "ETFs usually trade on an exchange during the market day, like stocks. Mutual funds are usually bought or sold at a daily value after the market closes. This affects trading flexibility, but the deeper question is still what the fund owns and costs."
+            },
+            "tip": {
+              "en": "Trading format matters less than holdings, cost, and strategy for long-term investors."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "One fund, many underlying assets"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor buys ₸200,000 of a global equity ETF. The purchase appears as one line in the account, but the economic exposure is spread across many companies."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Layer",
+                        "What investor sees",
+                        "What it means"
+                      ],
+                      [
+                        "Account line",
+                        "Global Equity ETF",
+                        "One tradable fund share"
+                      ],
+                      [
+                        "Fund portfolio",
+                        "1,500+ stocks",
+                        "Diversified company exposure"
+                      ],
+                      [
+                        "Investor claim",
+                        "Fund units",
+                        "Share of the fund's net assets"
+                      ],
+                      [
+                        "Main driver",
+                        "Underlying stock values",
+                        "Fund price follows the portfolio"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The fund simplifies access, but the real investment is still the basket of assets inside."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Look through the fund"
+            },
+            "body": {
+              "en": "Classify each statement by whether it describes the fund wrapper, the underlying holdings, or investor access."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each statement to the best category.",
+                "categories": [
+                  {
+                    "id": "wrapper",
+                    "label": "Fund wrapper"
+                  },
+                  {
+                    "id": "holdings",
+                    "label": "Underlying holdings"
+                  },
+                  {
+                    "id": "access",
+                    "label": "Investor access"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "etf_trades",
+                    "text": "The ETF trades on an exchange during the day"
+                  },
+                  {
+                    "id": "basket",
+                    "text": "The fund owns hundreds of stocks or bonds"
+                  },
+                  {
+                    "id": "small_amount",
+                    "text": "A small investor can get broad exposure with one purchase"
+                  },
+                  {
+                    "id": "fund_units",
+                    "text": "The investor owns units or shares of the fund"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "etf_trades",
+                    "categoryId": "wrapper"
+                  },
+                  {
+                    "itemId": "basket",
+                    "categoryId": "holdings"
+                  },
+                  {
+                    "itemId": "small_amount",
+                    "categoryId": "access"
+                  },
+                  {
+                    "itemId": "fund_units",
+                    "categoryId": "wrapper"
+                  }
+                ],
+                "explanation": "A fund has a wrapper, a portfolio inside it, and an access benefit for investors. Good analysis separates all three."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "The container is not the strategy"
+            },
+            "body": {
+              "en": "ETFs and mutual funds are ways to hold portfolios, not automatic guarantees of quality. A fund can be broad or narrow, cheap or expensive, simple or risky. Start by identifying the holdings, the strategy, the cost, and how the fund is traded."
+            },
+            "tip": {
+              "en": "Ask what the fund owns before asking whether it is an ETF or mutual fund."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1801,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Fund Structure — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A friend says they bought “an ETF,” so their investment must be diversified. What is the best response?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "An ETF is a wrapper; diversification depends on what the ETF holds"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Every ETF must hold thousands of stocks"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "ETFs cannot lose money because they are funds"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The exchange guarantees diversification"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can a fund help a small investor access broad markets?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It pools money and lets the investor buy units linked to a larger portfolio"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It gives direct ownership of every company certificate"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It removes all market risk by being pooled"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It pays the same return regardless of holdings"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which question best looks through the fund structure?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "What assets does the fund actually own, and in what weights?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Is the fund name short?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Does the app display the fund in a bright color?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Did the fund price move today?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "active_vs_passive",
+      "title": {
+        "en": "Active vs Passive"
+      },
+      "description": {
+        "en": "Active funds try to beat a benchmark; passive funds try to track one, usually with lower cost and less manager judgment."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 1802,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Two different promises"
+            },
+            "body": {
+              "en": "An active fund usually promises judgment: the manager chooses securities to beat a benchmark. A passive fund usually promises discipline: it tracks a benchmark as closely as possible. The question is not which sounds smarter, but which promise is more realistic after costs."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Active management must overcome costs"
+            },
+            "body": {
+              "en": "An active manager can be right, but the fund must outperform enough to cover higher fees, trading costs, and mistakes. Before fees, investors as a group own the market. After fees, higher-cost groups face a harder starting point."
+            },
+            "tip": {
+              "en": "Skill must be large enough, persistent enough, and available cheaply enough to matter."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Passive does not mean risk-free"
+            },
+            "body": {
+              "en": "A passive fund follows an index, so it accepts the market's winners and losers rather than trying to avoid them. It can fall sharply when the index falls. Passive investing reduces manager-selection risk, not market risk."
+            },
+            "example": {
+              "en": "A passive global stock fund can still decline 25% in a bad market because it owns the market instead of avoiding it."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "The cost hurdle"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two funds invest in the same market. The active fund tries to beat the index, but it charges more."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Fund",
+                        "Gross return before fees",
+                        "Annual fee",
+                        "Net return to investor"
+                      ],
+                      [
+                        "Passive index fund",
+                        "10.0%",
+                        "0.2%",
+                        "9.8%"
+                      ],
+                      [
+                        "Active fund",
+                        "10.6%",
+                        "1.5%",
+                        "9.1%"
+                      ],
+                      [
+                        "Active fund needed",
+                        "Above 11.7%",
+                        "1.5%",
+                        "Above 10.2% net"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Even when the active manager does slightly better before fees, the investor can still receive less after fees."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Identify the strategy"
+            },
+            "body": {
+              "en": "Label each fund description as active, passive, or a misconception."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the best label for each fund description.",
+                "options": [
+                  "Active",
+                  "Passive",
+                  "Misconception"
+                ],
+                "scenarios": [
+                  {
+                    "text": "The manager selects stocks they believe will outperform the benchmark.",
+                    "correct_answer": "Active",
+                    "explanation": "The fund relies on manager judgment to beat a reference point."
+                  },
+                  {
+                    "text": "The fund aims to hold the securities in an index and match its performance before small costs.",
+                    "correct_answer": "Passive",
+                    "explanation": "The goal is tracking, not security selection."
+                  },
+                  {
+                    "text": "A passive fund cannot lose money because nobody is actively trading it.",
+                    "correct_answer": "Misconception",
+                    "explanation": "Passive funds can fall when their underlying market falls."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Judge the promise after costs"
+            },
+            "body": {
+              "en": "Active funds ask you to believe manager skill will overcome costs and competition. Passive funds ask you to accept market returns with low implementation cost. Neither is magic; the better choice depends on fees, benchmark, evidence, and your need for simplicity."
+            },
+            "tip": {
+              "en": "A fund should be judged by net results, not by how intelligent its strategy sounds."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1802,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Active vs Passive — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An active fund beats its index by 0.8% before fees but charges 1.4% more than a passive alternative. What should you focus on?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The active advantage may disappear after costs, leaving lower net return"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Before-fee return is the only number that matters"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Higher fees automatically prove higher skill"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Passive funds have no costs at all"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What risk does passive investing mainly reduce?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The risk of choosing an underperforming manager or strategy"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The risk that the market itself falls"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The risk that all assets have volatility"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The risk of needing a long time horizon"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which statement best describes active investing?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It tries to beat a benchmark through selection, timing, or weighting decisions"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It guarantees higher return than passive investing"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It always costs less than index tracking"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It removes the need to compare with a benchmark"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "index_investing",
+      "title": {
+        "en": "Index Investing"
+      },
+      "description": {
+        "en": "Index investing uses rules-based market exposure to capture broad returns without needing to pick winners."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 1803,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Indexing changes the question"
+            },
+            "body": {
+              "en": "Index investing does not ask which single company will win. It asks which market exposure you want to own. The investor accepts broad participation instead of trying to identify the few best securities in advance."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Rules create discipline"
+            },
+            "body": {
+              "en": "An index follows rules about which securities are included and how they are weighted. A fund that tracks the index follows those rules rather than reacting to headlines. This can reduce emotional decisions and unnecessary trading."
+            },
+            "tip": {
+              "en": "The index rulebook is the strategy."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Broad exposure captures winners automatically"
+            },
+            "body": {
+              "en": "In many markets, a small number of strong performers can drive a large share of long-term returns. A broad index fund owns future winners before they are obvious. The trade-off is that it also owns weak companies until the index rules remove or reduce them."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Why missing winners hurts"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Imagine a simple market of five stocks. One company becomes very successful, two do fine, and two fall."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Choice",
+                        "What investor owns",
+                        "Result intuition"
+                      ],
+                      [
+                        "Broad index",
+                        "All five stocks",
+                        "Captures the big winner and the losers"
+                      ],
+                      [
+                        "Picked three manually",
+                        "Misses the big winner",
+                        "May trail badly despite avoiding some losers"
+                      ],
+                      [
+                        "Concentrated guess",
+                        "One chosen stock",
+                        "Can win big or lose badly"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Indexing accepts average ownership of the market to avoid the hard problem of identifying winners early."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Choose the index logic"
+            },
+            "body": {
+              "en": "Match each statement to the index-investing idea it represents."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each statement to the best concept.",
+                "categories": [
+                  {
+                    "id": "rules",
+                    "label": "Rules-based strategy"
+                  },
+                  {
+                    "id": "broad_exposure",
+                    "label": "Broad exposure"
+                  },
+                  {
+                    "id": "tradeoff",
+                    "label": "Trade-off"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "criteria",
+                    "text": "The fund includes companies based on index criteria"
+                  },
+                  {
+                    "id": "many_stocks",
+                    "text": "The investor owns many securities instead of one guess"
+                  },
+                  {
+                    "id": "owns_losers",
+                    "text": "The fund also holds weak companies inside the index"
+                  },
+                  {
+                    "id": "less_headline",
+                    "text": "The strategy does not change because of every news story"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "criteria",
+                    "categoryId": "rules"
+                  },
+                  {
+                    "itemId": "many_stocks",
+                    "categoryId": "broad_exposure"
+                  },
+                  {
+                    "itemId": "owns_losers",
+                    "categoryId": "tradeoff"
+                  },
+                  {
+                    "itemId": "less_headline",
+                    "categoryId": "rules"
+                  }
+                ],
+                "explanation": "Index investing is disciplined market exposure. It avoids stock-picking, but it still owns the market's risks."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Indexing is humble by design"
+            },
+            "body": {
+              "en": "Index investing works from a humble assumption: consistently picking winners is hard. Instead of trying to outsmart the market, the investor chooses broad exposure, low cost, and patience. The main decision becomes which index matches the goal."
+            },
+            "tip": {
+              "en": "Indexing is not doing nothing; it is choosing a rule and sticking to it."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1803,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Index Investing — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why can a broad index fund benefit from future winning companies even before investors know which they are?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It already owns many companies, including potential future winners"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It predicts every winner in advance"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It excludes all companies that might fall"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It guarantees every company inside will succeed"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is the main trade-off of broad index investing?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "You capture broad market exposure but also hold weak companies in the index"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "You receive guaranteed positive returns every year"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "You avoid all market volatility"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "You never need to choose an asset allocation"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which question is most important when choosing an index fund?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Which index does it track, and does that exposure match my goal?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Does the fund name sound advanced?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Was the fund's return positive yesterday?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Does the fund own exactly one company?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "fund_evaluation",
+      "title": {
+        "en": "Fund Evaluation"
+      },
+      "description": {
+        "en": "A fund should be judged by exposure, cost, tracking quality, risk, liquidity, and fit with the investor's goal."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 1804,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Evaluation starts with fit"
+            },
+            "body": {
+              "en": "A fund can be good and still wrong for you. Evaluation begins with the job: growth, income, stability, inflation protection, or diversification. Only after the job is clear do cost, risk, and performance become meaningful."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Exposure is the first filter"
+            },
+            "body": {
+              "en": "Exposure means what the fund actually owns and how concentrated it is. A fund labeled “technology” is very different from a global total-market fund. Before comparing returns, confirm that the fund gives the market exposure you intended."
+            },
+            "tip": {
+              "en": "Wrong exposure at a low fee is still wrong exposure."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Costs and tracking matter"
+            },
+            "body": {
+              "en": "The expense ratio reduces investor return every year. For index funds, tracking difference shows how closely the fund follows its benchmark after costs and implementation. A cheap fund that tracks poorly may not deliver the exposure you expected."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Three funds with different jobs"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor wants long-term global stock exposure. Three funds look similar at first, but the details matter."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Fund",
+                        "Exposure",
+                        "Fee",
+                        "Main concern"
+                      ],
+                      [
+                        "A",
+                        "Global developed-market stocks",
+                        "0.20%",
+                        "May miss emerging markets"
+                      ],
+                      [
+                        "B",
+                        "One technology sector",
+                        "0.45%",
+                        "Too concentrated for broad exposure"
+                      ],
+                      [
+                        "C",
+                        "Global stocks plus emerging markets",
+                        "0.25%",
+                        "Closer fit if global coverage is the goal"
+                      ],
+                      [
+                        "D",
+                        "Global stocks",
+                        "1.80%",
+                        "High fee creates large return drag"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The best fund is not simply the one with the highest recent return. It is the one that fits the intended exposure at a reasonable cost."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Evaluate the fund signal"
+            },
+            "body": {
+              "en": "Classify each evaluation point as exposure, cost, tracking, or liquidity."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each fund detail to the category it mainly helps evaluate.",
+                "categories": [
+                  {
+                    "id": "exposure",
+                    "label": "Exposure"
+                  },
+                  {
+                    "id": "cost",
+                    "label": "Cost"
+                  },
+                  {
+                    "id": "tracking",
+                    "label": "Tracking"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Liquidity"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "holdings",
+                    "text": "Top holdings and sector weights"
+                  },
+                  {
+                    "id": "expense_ratio",
+                    "text": "Annual expense ratio"
+                  },
+                  {
+                    "id": "tracking_diff",
+                    "text": "Difference from benchmark return"
+                  },
+                  {
+                    "id": "bid_ask",
+                    "text": "Bid-ask spread and trading volume"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "holdings",
+                    "categoryId": "exposure"
+                  },
+                  {
+                    "itemId": "expense_ratio",
+                    "categoryId": "cost"
+                  },
+                  {
+                    "itemId": "tracking_diff",
+                    "categoryId": "tracking"
+                  },
+                  {
+                    "itemId": "bid_ask",
+                    "categoryId": "liquidity"
+                  }
+                ],
+                "explanation": "Fund evaluation works best as a checklist: exposure first, then cost, tracking, liquidity, and fit."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Do not chase the scoreboard"
+            },
+            "body": {
+              "en": "Recent performance is easy to see, but it is a weak starting point. A good evaluation asks what the fund owns, how much it costs, how well it does its job, and whether that job belongs in your plan. Fit beats excitement."
+            },
+            "tip": {
+              "en": "A fund is not “best” in general; it is suitable or unsuitable for a specific purpose."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1804,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Fund Evaluation — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An investor wants broad global stock exposure but chooses a fund because it had the best one-year return. The fund owns only one sector. What is the main problem?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The exposure does not match the investor's goal, even if recent return was high"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "One-year return always predicts the next year"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Sector funds are always safer than global funds"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Exposure does not matter if the app shows profit"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why does the expense ratio matter for long-term fund investors?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It reduces investor return every year and compounds as a drag over time"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It is paid only if the fund loses money"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It increases the fund's benchmark return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It is refunded automatically at retirement"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "For an index fund, what does tracking difference help evaluate?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "How closely the fund delivered the benchmark return after costs and implementation"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Whether the fund manager can predict recessions"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Whether every holding paid a dividend"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Whether the fund name is accurate in every language"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "fund_common_mistakes",
+      "title": {
+        "en": "Common Mistakes"
+      },
+      "description": {
+        "en": "Fund investors often chase recent winners, ignore fees, overlap holdings, misunderstand risk, and buy funds that do not match their goals."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 1805,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Funds can make mistakes feel diversified"
+            },
+            "body": {
+              "en": "A fund can look safer than a single stock, but poor fund choices still create risk. Investors can overpay, chase performance, duplicate exposure, or buy a narrow fund thinking it is broad. The wrapper can hide the mistake."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Performance chasing buys yesterday"
+            },
+            "body": {
+              "en": "A fund with excellent recent returns may have benefited from a temporary trend. Buying only after strong performance can mean paying after the easy gains already happened. The better question is whether the strategy still fits your future need."
+            },
+            "tip": {
+              "en": "Past return is evidence to examine, not a command to buy."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Overlap is hidden concentration"
+            },
+            "body": {
+              "en": "Owning several funds does not guarantee diversification if they hold the same companies or sectors. Three funds can all be dominated by the same large technology stocks. The account may look diversified by product count but concentrated by exposure."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Three funds, one exposure"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor buys three funds to diversify ₸600,000. The names differ, but the holdings overlap."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Fund",
+                        "Label",
+                        "Hidden issue"
+                      ],
+                      [
+                        "Fund A",
+                        "Global growth",
+                        "Large technology weight"
+                      ],
+                      [
+                        "Fund B",
+                        "Innovation leaders",
+                        "Large technology weight"
+                      ],
+                      [
+                        "Fund C",
+                        "U.S. market",
+                        "Large technology weight"
+                      ],
+                      [
+                        "Portfolio result",
+                        "Three products",
+                        "One dominant exposure"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Diversification depends on underlying holdings, not the number of fund names in the account."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Find the fund mistake"
+            },
+            "body": {
+              "en": "Each case shows a common fund-investing mistake. Choose the error."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the main mistake in each fund decision.",
+                "cases": [
+                  {
+                    "text": "“This fund returned 40% last year, so it is the safest choice for my emergency money.”",
+                    "options": [
+                      "a) No error",
+                      "b) Recent high return does not mean low risk or emergency suitability",
+                      "c) Emergency money should always chase high growth"
+                    ],
+                    "correct": "b",
+                    "explanation": "Emergency money needs stability and access, not recent high return."
+                  },
+                  {
+                    "text": "“I bought five funds, so I must be diversified.”",
+                    "options": [
+                      "a) No error",
+                      "b) Fund count does not prove different underlying exposure",
+                      "c) More funds always reduce all risk to zero"
+                    ],
+                    "correct": "b",
+                    "explanation": "The funds may overlap in holdings, sectors, or regions."
+                  },
+                  {
+                    "text": "“A 2% annual fee is small, so it cannot matter over decades.”",
+                    "options": [
+                      "a) Costs compound as a long-term drag",
+                      "b) No error",
+                      "c) Fees only apply to losing years"
+                    ],
+                    "correct": "a",
+                    "explanation": "A recurring fee reduces the amount left to compound year after year."
+                  }
+                ],
+                "final_explanation": "The common fund mistakes share one pattern: judging the surface label instead of exposure, cost, time horizon, and purpose."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Use funds deliberately"
+            },
+            "body": {
+              "en": "Funds are powerful because they simplify access and diversification, but simplicity can make hidden errors easier. Avoid chasing recent winners, ignoring fees, duplicating exposure, and using risky funds for short-term needs. The fund should serve the plan, not replace the plan."
+            },
+            "tip": {
+              "en": "More fund names do not automatically mean more diversification."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1805,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Common Fund Mistakes — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An investor buys the top-performing fund of last year without checking what it owns. What is the main risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They may be chasing a past trend that no longer fits their goal or risk tolerance"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Top-performing funds are always illegal"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Funds with high returns never hold real assets"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Checking holdings is unnecessary if returns were high"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can owning many funds still leave an investor concentrated?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The funds may hold similar companies, sectors, regions, or factors"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "More than one fund always cancels all risk"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Different fund names guarantee different holdings"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Concentration only applies to single stocks"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which use of a fund is most likely mismatched?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Using a volatile equity fund for money needed next month"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Using a broad low-cost equity fund for a long-term goal"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Checking a fund's holdings before buying"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Comparing fees between similar funds"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 1899,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "ETFs & Mutual Funds — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "A person says an ETF is automatically diversified. What should you check first?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The underlying holdings and weights inside the ETF"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Whether the ticker has three letters"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Whether it trades during the day"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Whether the app lists it under popular funds"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "An active fund has higher gross return than its benchmark but lower net return after fees. What does this show?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Costs can overcome manager skill from the investor's perspective"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Gross return is always irrelevant"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Passive funds have no market risk"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Active funds cannot ever outperform before fees"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "Why does broad index investing reduce the need to identify future winners?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The investor already owns broad exposure that can include winners before they are obvious"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "The index guarantees every company will succeed"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "The index avoids all weak companies from the start"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "The fund manager secretly predicts every winner"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "Which fund evaluation order is most sensible?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Goal and exposure first, then cost, tracking, liquidity, and risk"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Recent return first, then ignore the rest"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Fund name first, then app popularity"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Lowest share price first, then logo design"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "An investor owns five funds, but all are heavily exposed to the same large technology companies. What is the issue?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Product count is high, but underlying exposure is still concentrated"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Five funds always create perfect diversification"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Technology exposure cannot affect fund risk"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "The account is diversified because each fund has a different name"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -44,3 +44,13 @@ type ActiveReinforcement struct {
 	ScorePercent float64
 	CreatedAt    time.Time
 }
+
+type RepetitionCandidate struct {
+	TopicCode           string
+	SubtopicCode        string
+	TopicLevel          string
+	TopicOrderIndex     int
+	BestScorePercent    float64
+	AttemptsCount       int
+	DaysSinceLastReview float64
+}

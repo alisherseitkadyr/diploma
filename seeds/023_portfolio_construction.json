@@ -1,0 +1,1736 @@
+{
+  "section": "building_wealth",
+  "topic": {
+    "code": "portfolio_construction",
+    "orderIndex": 23,
+    "title": {
+      "en": "Portfolio Construction"
+    },
+    "description": {
+      "en": "Assembling assets into a coherent whole — allocation, diversification, rebalancing, and matching the mix to your life stage and goals."
+    },
+    "level": "advanced",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "asset_allocation",
+      "title": {
+        "en": "Asset Allocation"
+      },
+      "description": {
+        "en": "Asset allocation decides how much of a portfolio goes to major asset groups, shaping most of its risk and return pattern."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 0,
+      "quizId": 2301,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Allocation is the portfolio's engine"
+            },
+            "body": {
+              "en": "Asset allocation is the split between major asset groups such as stocks, bonds, cash, and real assets. It matters because each group behaves differently in growth, inflation, stress, and calm markets. The mix often matters more than any single fund choice."
+            },
+            "tip": {
+              "en": "Before asking which stock or fund to buy, ask what role the whole portfolio needs."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Risk comes from the mix"
+            },
+            "body": {
+              "en": "A portfolio with 90% stocks will usually behave very differently from one with 40% stocks and 60% bonds or cash. Higher growth exposure can raise long-term return potential, but also increases short-term drawdown risk. Allocation turns goals into a risk budget."
+            },
+            "example": {
+              "en": "A ₸2,000,000 portfolio at 80% stocks has ₸1,600,000 exposed to equity risk. A 30% stock-market fall could reduce the portfolio by about ₸480,000 before considering other assets."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Each asset has a job"
+            },
+            "body": {
+              "en": "Stocks usually provide growth potential, bonds can provide income and stability, and cash provides liquidity. Real estate or commodities may add inflation sensitivity or different risk exposure. A good allocation gives every asset a reason to be there."
+            },
+            "tip": {
+              "en": "If you cannot explain an asset's job, it may not belong in the portfolio."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Three portfolios, three behaviors"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Three investors each have ₸3,000,000, but their allocations create different risk profiles."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Portfolio",
+                        "Stocks",
+                        "Bonds",
+                        "Cash",
+                        "Likely behavior"
+                      ],
+                      [
+                        "Growth-focused",
+                        "80%",
+                        "15%",
+                        "5%",
+                        "Higher long-term potential, larger drawdowns"
+                      ],
+                      [
+                        "Balanced",
+                        "60%",
+                        "30%",
+                        "10%",
+                        "Moderate growth and smoother ride"
+                      ],
+                      [
+                        "Conservative",
+                        "30%",
+                        "45%",
+                        "25%",
+                        "Lower volatility, lower growth potential"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The best allocation depends on the investor's goal, horizon, and ability to tolerate losses without abandoning the plan."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Build the allocation"
+            },
+            "body": {
+              "en": "Allocate a portfolio across stocks, bonds, and cash. The total must equal 100%."
+            },
+            "interactiveType": "input_numbers",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Distribute 100 across stocks, bonds, and cash. The total must equal 100.",
+                "fields": [
+                  {
+                    "id": "stocks",
+                    "label": "Stocks (%)"
+                  },
+                  {
+                    "id": "bonds",
+                    "label": "Bonds (%)"
+                  },
+                  {
+                    "id": "cash",
+                    "label": "Cash (%)"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 100
+                },
+                "exampleAnswer": {
+                  "stocks": "60",
+                  "bonds": "30",
+                  "cash": "10"
+                },
+                "explanation": "There is no universal correct split. The point is that risk and return come from the total mix, and every percentage assigned to one asset is unavailable for another."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Allocation turns intention into structure"
+            },
+            "body": {
+              "en": "Asset allocation is the bridge between goals and investment behavior. It decides how much growth, stability, and liquidity the portfolio carries. A strong allocation is not the most exciting one; it is the one the investor can keep through realistic market conditions."
+            },
+            "tip": {
+              "en": "The right allocation is measured by staying power, not just expected return."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2301,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Asset Allocation — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Two investors own the same stock fund, but one has 20% in it and the other has 90%. Why will their outcomes differ?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The fund's impact depends on its weight in the total portfolio"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The fund changes its return for each investor"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A smaller weight always guarantees higher return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Portfolio weights do not affect risk"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which allocation best fits money needed for a home down payment in six months?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Mostly cash or very stable short-term instruments"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "100% volatile stocks for maximum growth"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Only high-risk crypto assets"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A portfolio chosen by last year's best-performing asset"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the best reason to include cash in a portfolio?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Liquidity and stability for near-term needs or opportunities"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Cash always earns the highest long-term return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Cash removes inflation risk completely"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Cash guarantees stock-market gains"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "portfolio_diversification",
+      "title": {
+        "en": "Diversification in a Portfolio"
+      },
+      "description": {
+        "en": "Diversification spreads exposure across assets whose risks are not identical, reducing dependence on one outcome."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 2302,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Diversification is not owning many things"
+            },
+            "body": {
+              "en": "A portfolio can contain many assets and still be concentrated if they all depend on the same risk. Diversification means spreading exposure across different drivers of return. The purpose is to avoid one mistake or one environment dominating everything."
+            },
+            "tip": {
+              "en": "Count risks, not just asset names."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Correlation is the hidden link"
+            },
+            "body": {
+              "en": "Assets that rise and fall together provide less diversification than they appear to. Assets with different drivers can smooth the ride, though they may not protect in every crisis. Diversification reduces specific risks; it does not remove market risk completely."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Concentration can be intentional or accidental"
+            },
+            "body": {
+              "en": "Some investors choose concentration because they have strong evidence and can tolerate failure. Many others become concentrated accidentally through overlapping funds, employer stock, local real estate, or one sector. Accidental concentration is risk without a clear reason."
+            },
+            "example": {
+              "en": "Owning a Kazakhstan apartment, salary from a local bank, and shares of the same bank can concentrate wealth, income, and housing in one economic environment."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Five holdings, one real bet"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor believes they are diversified because they own five investments. The exposures reveal a different story."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Holding",
+                        "Label",
+                        "Dominant exposure"
+                      ],
+                      [
+                        "Tech fund A",
+                        "Global growth",
+                        "Large technology stocks"
+                      ],
+                      [
+                        "Tech fund B",
+                        "Innovation",
+                        "Large technology stocks"
+                      ],
+                      [
+                        "Single stock",
+                        "Cloud company",
+                        "Technology sector"
+                      ],
+                      [
+                        "Employer shares",
+                        "Salary source",
+                        "Same sector income risk"
+                      ],
+                      [
+                        "Crypto token",
+                        "Digital asset",
+                        "High risk appetite cycle"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The portfolio has many lines, but much of it depends on the same growth and risk-appetite environment."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Find the diversification issue"
+            },
+            "body": {
+              "en": "Classify each situation by the diversification problem it creates."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the main diversification issue.",
+                "options": [
+                  "Overlap",
+                  "Single-sector concentration",
+                  "Income-asset concentration"
+                ],
+                "scenarios": [
+                  {
+                    "text": "An investor owns three funds, but all have the same top ten technology holdings.",
+                    "correct_answer": "Overlap",
+                    "explanation": "Different fund names do not guarantee different underlying exposure."
+                  },
+                  {
+                    "text": "A portfolio holds 75% in energy companies because that sector performed well last year.",
+                    "correct_answer": "Single-sector concentration",
+                    "explanation": "The portfolio depends heavily on one industry's conditions."
+                  },
+                  {
+                    "text": "A person works for a bank and also holds most savings in that bank's shares.",
+                    "correct_answer": "Income-asset concentration",
+                    "explanation": "Job income and investments are tied to the same company risk."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Diversification buys humility"
+            },
+            "body": {
+              "en": "Diversification accepts that the future is uncertain and that your best idea can be wrong. It spreads risk across different assets, sectors, regions, and return drivers. A diversified portfolio may not always feel exciting, but it reduces the chance that one bad outcome controls your financial life."
+            },
+            "tip": {
+              "en": "The goal is not maximum number of holdings; it is fewer single points of failure."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2302,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Portfolio Diversification — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An investor owns five funds, but all heavily hold the same companies. What is the main problem?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The portfolio has product diversity but not true exposure diversity"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Five funds always guarantee perfect diversification"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Funds cannot overlap by definition"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Company exposure does not matter inside funds"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can employer stock be risky for an employee's portfolio?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Job income and investment wealth may depend on the same company"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Employer stock always pays a guaranteed return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Employees cannot understand their employer"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Salary eliminates stock risk"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which portfolio is more diversified in principle?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "One spread across regions, sectors, and asset types with different risk drivers"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "One with ten different names all tied to the same industry"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "One made only of the investor's favorite company"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "One chosen only from last month's winners"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "rebalancing",
+      "title": {
+        "en": "Rebalancing"
+      },
+      "description": {
+        "en": "Rebalancing restores a portfolio to its target allocation after market moves change the weights."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 2303,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Portfolios drift"
+            },
+            "body": {
+              "en": "Even if you choose a careful allocation, market movements will change it. Assets that rise become a larger share; assets that fall become smaller. Rebalancing brings the portfolio back to the intended risk level."
+            },
+            "tip": {
+              "en": "Without rebalancing, yesterday's winners slowly rewrite your risk plan."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Rebalancing is risk control"
+            },
+            "body": {
+              "en": "Rebalancing is not mainly about predicting which asset will win next. It is about preventing the portfolio from becoming more aggressive or conservative than intended. The action can feel uncomfortable because it often means trimming what recently worked."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Rules reduce emotion"
+            },
+            "body": {
+              "en": "Investors can rebalance by calendar, by threshold, or with new contributions. A threshold rule might rebalance when an asset drifts five percentage points from target. The rule matters because emotions are strongest after big moves."
+            },
+            "example": {
+              "en": "If the target is 60% stocks and the portfolio reaches 70%, a rule may move part of the gains into bonds or cash."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A drifted portfolio"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor starts with ₸5,000,000 at a 60/30/10 target. After a strong stock year, the weights drift."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Asset",
+                        "Target weight",
+                        "Current weight",
+                        "Rebalancing direction"
+                      ],
+                      [
+                        "Stocks",
+                        "60%",
+                        "72%",
+                        "Trim or direct less new money here"
+                      ],
+                      [
+                        "Bonds",
+                        "30%",
+                        "21%",
+                        "Add or redirect contributions"
+                      ],
+                      [
+                        "Cash",
+                        "10%",
+                        "7%",
+                        "Restore if liquidity target matters"
+                      ],
+                      [
+                        "Portfolio risk",
+                        "Balanced target",
+                        "More aggressive now",
+                        "Return to plan"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Rebalancing turns a risk target into a repeated discipline rather than a one-time decision."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Rebalance the drift"
+            },
+            "body": {
+              "en": "Choose the action that best restores the target allocation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best rebalancing action.",
+                "options": [
+                  "Trim overweight asset",
+                  "Add to underweight asset",
+                  "No action needed"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Target stocks are 60%, but current stocks are 72%.",
+                    "correct_answer": "Trim overweight asset",
+                    "explanation": "Stocks have become larger than intended, increasing portfolio risk."
+                  },
+                  {
+                    "text": "Target bonds are 30%, but current bonds are 21%.",
+                    "correct_answer": "Add to underweight asset",
+                    "explanation": "Adding to bonds helps restore the intended balance."
+                  },
+                  {
+                    "text": "Target cash is 10%, and current cash is 10.5%.",
+                    "correct_answer": "No action needed",
+                    "explanation": "A small difference may not justify trading, especially after costs and taxes."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Rebalancing protects the original decision"
+            },
+            "body": {
+              "en": "Rebalancing keeps the portfolio aligned with the risk level you chose before emotions took over. It can reduce concentration in recent winners and restore neglected assets. A good rebalancing rule is simple enough to follow and flexible enough to avoid unnecessary trading."
+            },
+            "tip": {
+              "en": "Rebalance to manage risk, not to prove you know what will happen next."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2303,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Rebalancing — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A 60% stock target drifts to 78% after a market rally. What is the main reason to rebalance?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The portfolio now carries more equity risk than intended"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Stocks must fall tomorrow"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Rebalancing guarantees higher returns"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The original target becomes illegal"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can rebalancing feel emotionally difficult?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It often means trimming recent winners or adding to assets that recently lagged"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It always requires selling everything"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It removes the need for an allocation"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It is done only after losses are impossible"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which rebalancing method reduces emotional decision-making?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A pre-set calendar or threshold rule"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Changing targets every time news is scary"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Buying only what went up yesterday"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Never checking the portfolio again"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "lifecycle_investing",
+      "title": {
+        "en": "Lifecycle Investing"
+      },
+      "description": {
+        "en": "Lifecycle investing adjusts portfolio risk as goals, age, income stability, and time horizon change."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 2304,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Risk capacity changes over time"
+            },
+            "body": {
+              "en": "A good portfolio for a 25-year goal may be wrong for money needed in two years. Lifecycle investing adjusts risk as time horizon, income stability, family needs, and withdrawal plans change. The investor changes; the portfolio should notice."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Human capital is part of the picture"
+            },
+            "body": {
+              "en": "A young worker with stable income may have time to recover from market losses. Someone near retirement or with unstable income has less room for large drawdowns. Risk capacity depends on future earning power, not age alone."
+            },
+            "tip": {
+              "en": "Age is a clue, not the full allocation rule."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Goal timing creates different buckets"
+            },
+            "body": {
+              "en": "Money needed soon should usually be more stable than money needed decades later. One person can have multiple allocations at once: cash for emergencies, conservative assets for near goals, and growth assets for long goals. The time horizon belongs to the goal, not only the person."
+            },
+            "example": {
+              "en": "A 30-year-old may hold stocks for retirement but cash for tuition due next semester."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same investor, different goals"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor has three goals. Each goal needs a different risk level because the timing is different."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Goal",
+                        "Time horizon",
+                        "Possible allocation logic"
+                      ],
+                      [
+                        "Emergency fund",
+                        "Any time",
+                        "Cash or very stable instruments"
+                      ],
+                      [
+                        "Home down payment",
+                        "2 years",
+                        "Mostly stable, limited market risk"
+                      ],
+                      [
+                        "Retirement",
+                        "30 years",
+                        "Higher growth exposure possible"
+                      ],
+                      [
+                        "Child education",
+                        "10 years",
+                        "Balanced and gradually de-risked"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Lifecycle investing is really goal-cycle investing: match risk to when the money must work."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Match risk to horizon"
+            },
+            "body": {
+              "en": "Choose the allocation style that best fits each goal."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the most suitable risk posture.",
+                "options": [
+                  "Stable cash-like",
+                  "Balanced",
+                  "Growth-focused"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Money may be needed next month for an emergency.",
+                    "correct_answer": "Stable cash-like",
+                    "explanation": "Emergency money needs liquidity and stability more than growth."
+                  },
+                  {
+                    "text": "A goal is 8–10 years away and the investor can tolerate moderate fluctuation.",
+                    "correct_answer": "Balanced",
+                    "explanation": "A middle horizon can support some growth while controlling volatility."
+                  },
+                  {
+                    "text": "Retirement is 30 years away and income is stable.",
+                    "correct_answer": "Growth-focused",
+                    "explanation": "Long horizons can allow more exposure to growth assets if the investor can stay invested."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Lifecycle means adapting risk deliberately"
+            },
+            "body": {
+              "en": "Lifecycle investing adjusts portfolios as time horizons shorten and life constraints change. It is not simply becoming conservative every birthday. It is matching each goal to its horizon, flexibility, and consequences of loss."
+            },
+            "tip": {
+              "en": "The closer the deadline, the less room there is for market recovery."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2304,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Lifecycle Investing — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why might a young person still keep some money in cash?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Some goals, like emergencies or near expenses, have short horizons regardless of age"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Young people cannot invest in growth assets"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Cash always has the highest long-term return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Age alone decides every allocation"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What does human capital mean in portfolio planning?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Future earning power and income stability that affect risk capacity"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The number of investment apps installed"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The market value of a single stock"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A guaranteed pension amount for everyone"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "A retiree will withdraw money yearly for living costs. Why might their allocation need more stability?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Large losses near withdrawals can force selling at bad prices"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Retirement eliminates inflation risk"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Stable assets guarantee unlimited returns"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Withdrawals make asset allocation irrelevant"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "portfolio_mistakes",
+      "title": {
+        "en": "Portfolio Mistakes"
+      },
+      "description": {
+        "en": "Common portfolio mistakes include chasing returns, ignoring costs, overconcentrating, mismatching risk to goals, and changing plans under stress."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 2305,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A portfolio can fail without a bad asset"
+            },
+            "body": {
+              "en": "Many portfolio failures do not come from one terrible investment. They come from a weak structure: wrong allocation, overlapping exposures, no rebalancing rule, or risk that does not match the goal. A collection of good assets can still make a bad portfolio."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Return chasing breaks the plan"
+            },
+            "body": {
+              "en": "Buying what recently performed best often increases exposure after the easy gains happened. It can also lead to selling lagging assets right before they recover. A portfolio built by recent returns usually lacks a stable reason to hold anything."
+            },
+            "tip": {
+              "en": "If the reason to buy is only “it went up,” the reason to sell may arrive too late."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Costs and taxes quietly change outcomes"
+            },
+            "body": {
+              "en": "High fees, frequent trading, spreads, and taxes can reduce returns without dramatic headlines. These costs are easy to ignore because they appear small each time. Over years, repeated friction can turn a good strategy into a weak result."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A mistake hidden in a normal account"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor has ₸4,000,000 across several investments. The account looks active, but the structure is fragile."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Choice",
+                        "Looks like",
+                        "Hidden problem"
+                      ],
+                      [
+                        "Three growth funds",
+                        "Diversification",
+                        "Overlapping holdings"
+                      ],
+                      [
+                        "No cash reserve",
+                        "Fully invested",
+                        "Forced selling risk"
+                      ],
+                      [
+                        "Frequent switching",
+                        "Active management",
+                        "Costs, taxes, and timing mistakes"
+                      ],
+                      [
+                        "No target weights",
+                        "Flexibility",
+                        "No risk-control rule"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The account has investments, but not a coherent portfolio policy."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Detect the portfolio mistake"
+            },
+            "body": {
+              "en": "Each case contains a portfolio construction mistake. Choose the error."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the main mistake in each portfolio decision.",
+                "cases": [
+                  {
+                    "text": "“This fund returned 35% last year, so I moved my whole retirement account into it.”",
+                    "options": [
+                      "a) No error",
+                      "b) Return chasing and concentration risk",
+                      "c) Diversification improves when everything is in one fund"
+                    ],
+                    "correct": "b",
+                    "explanation": "Recent performance alone is not a portfolio policy, and moving everything creates concentration."
+                  },
+                  {
+                    "text": "“I need the money in one year, but I invested it mostly in volatile stocks.”",
+                    "options": [
+                      "a) Goal-risk mismatch",
+                      "b) No error",
+                      "c) Short horizons always need maximum volatility"
+                    ],
+                    "correct": "a",
+                    "explanation": "Short deadlines have little time to recover from drawdowns."
+                  },
+                  {
+                    "text": "“I own eight funds, but I never check whether they hold the same assets.”",
+                    "options": [
+                      "a) No error",
+                      "b) Fund overlap can hide concentration",
+                      "c) More fund names always remove overlap"
+                    ],
+                    "correct": "b",
+                    "explanation": "Diversification depends on underlying exposure, not product count."
+                  }
+                ],
+                "final_explanation": "Portfolio mistakes usually come from missing structure: no target, no role for each asset, no risk match, and no rule for maintenance."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Write the portfolio policy before stress"
+            },
+            "body": {
+              "en": "A strong portfolio has target allocation, diversification logic, rebalancing rules, cost awareness, and goal fit. The policy should be clear before markets become emotional. Without structure, every headline can become a reason to change everything."
+            },
+            "tip": {
+              "en": "A portfolio is not a list of assets; it is a set of roles and rules."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2305,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Portfolio Mistakes — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "What is wrong with building a portfolio only from last year's best-performing assets?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It may chase past returns without a stable reason for future risk exposure"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Past performance always guarantees future returns"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It always creates the lowest-risk allocation"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It removes the need for rebalancing"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why is holding no cash reserve a portfolio risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "An emergency can force selling long-term assets at a bad time"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Cash always beats stocks over decades"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Cash reserves make diversification impossible"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A portfolio without cash cannot rise"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which habit best prevents emotional portfolio changes?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Using written target weights and rebalancing rules before stress arrives"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Changing allocation after every headline"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Buying only assets that recently doubled"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Never defining what each asset is for"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 2399,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Portfolio Construction — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "Why is asset allocation usually more important than choosing one exciting fund?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Allocation sets the portfolio's overall exposure to growth, stability, and liquidity"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Fund choice never matters at all"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Allocation guarantees no losses"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Exciting funds always underperform"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "An investor owns many funds that all depend on the same sector. What is the issue?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The portfolio may be concentrated despite having many product names"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Many fund names guarantee diversification"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Sector exposure cannot affect risk"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Diversification is only about account size"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "What does rebalancing mainly protect?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The intended risk level and target allocation"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "The ability to predict next month's winner"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "A guarantee of higher returns every year"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "The portfolio from all market declines"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "Why can one investor hold both cash and stocks at the same time?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Different goals can have different time horizons and risk needs"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Cash and stocks are identical assets"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Cash guarantees stock growth"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Only age determines every holding"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "Which statement best describes a coherent portfolio?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Each asset has a role, target weight, risk purpose, and maintenance rule"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It contains whatever rose most recently"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It changes completely after every headline"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It has many assets but no defined goal"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

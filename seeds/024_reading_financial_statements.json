@@ -1,0 +1,1580 @@
+{
+  "section": "building_wealth",
+
+  "topic": {
+    "orderIndex": 24,
+    "code": "reading_financial_statements",
+    "title": {
+      "en": "Reading Financial Statements (Lite)"
+    },
+    "description": {
+      "en": "Reading the three core statements and a handful of ratios well enough to judge a company's financial health for yourself."
+    },
+    "level": "advanced",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "income_statement",
+      "title": {
+        "en": "Income Statement"
+      },
+      "description": {
+        "en": "The income statement shows revenue, costs, profit, and margins over a period, but profit quality matters as much as the headline number."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 0,
+      "quizId": 2401,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Profit is a story over time"
+            },
+            "body": {
+              "en": "An income statement shows how much a company earned and spent during a period. It starts with revenue and works down to profit. Investors use it to understand whether the business model turns sales into earnings."
+            },
+            "tip": {
+              "en": "A profitable company is not only one with high sales; it keeps enough after costs."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Revenue is not profit"
+            },
+            "body": {
+              "en": "Revenue is the money a company earns from selling goods or services. Costs must be subtracted before owners see profit. A company can grow revenue quickly and still lose money if costs grow faster."
+            },
+            "example": {
+              "en": "If revenue rises from ₸10 billion to ₸14 billion but costs rise from ₸9 billion to ₸15 billion, growth did not create profit."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Margins show efficiency"
+            },
+            "body": {
+              "en": "A margin compares profit to revenue. Gross margin shows what remains after direct costs; operating margin shows what remains after running the business. Margins help compare companies of different sizes."
+            },
+            "tip": {
+              "en": "Margins answer: how much of each tenge of sales survives each cost layer?"
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "From sales to profit"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A company reports a simplified annual income statement. Each line removes a different cost layer."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Line item",
+                        "Amount",
+                        "Meaning"
+                      ],
+                      [
+                        "Revenue",
+                        "₸20 billion",
+                        "Sales made during the year"
+                      ],
+                      [
+                        "Cost of goods sold",
+                        "-₸12 billion",
+                        "Direct cost of products or services"
+                      ],
+                      [
+                        "Gross profit",
+                        "₸8 billion",
+                        "Money left after direct costs"
+                      ],
+                      [
+                        "Operating expenses",
+                        "-₸5 billion",
+                        "Staff, rent, marketing, administration"
+                      ],
+                      [
+                        "Operating profit",
+                        "₸3 billion",
+                        "Profit from core operations"
+                      ],
+                      [
+                        "Net profit",
+                        "₸2.2 billion",
+                        "Profit after interest, tax, and other items"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The investor should ask whether profit comes from normal operations or from one-time effects."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Classify the income item"
+            },
+            "body": {
+              "en": "Sort each item by the part of the income statement it belongs to."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each item to the correct income-statement category.",
+                "categories": [
+                  {
+                    "id": "revenue",
+                    "label": "Revenue"
+                  },
+                  {
+                    "id": "direct_cost",
+                    "label": "Direct cost"
+                  },
+                  {
+                    "id": "operating_expense",
+                    "label": "Operating expense"
+                  },
+                  {
+                    "id": "profit",
+                    "label": "Profit measure"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "sales",
+                    "text": "Customer sales"
+                  },
+                  {
+                    "id": "materials",
+                    "text": "Materials used to make products"
+                  },
+                  {
+                    "id": "marketing",
+                    "text": "Marketing and office salaries"
+                  },
+                  {
+                    "id": "operating_profit",
+                    "text": "Operating profit"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "sales",
+                    "categoryId": "revenue"
+                  },
+                  {
+                    "itemId": "materials",
+                    "categoryId": "direct_cost"
+                  },
+                  {
+                    "itemId": "marketing",
+                    "categoryId": "operating_expense"
+                  },
+                  {
+                    "itemId": "operating_profit",
+                    "categoryId": "profit"
+                  }
+                ],
+                "explanation": "The income statement shows how revenue becomes profit after different cost layers."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Read profit quality"
+            },
+            "body": {
+              "en": "The income statement helps you judge growth, margins, and operating discipline. Strong revenue is useful only if the company can convert it into durable profit. Look for trends, cost control, and whether profits come from the core business."
+            },
+            "tip": {
+              "en": "One good profit year matters less than a business model that can repeat it."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2401,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Income Statement — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A company doubles revenue but its net loss grows. What is the best interpretation?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Sales growth is not enough if costs grow faster than revenue"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Revenue and profit are the same thing"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A larger loss proves the company has no customers"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Costs do not matter when revenue grows"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why are margins useful when comparing two companies of different size?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They show how much profit is generated from each unit of revenue"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They ignore costs completely"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They guarantee future stock returns"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They are the same as cash in the bank"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which profit measure focuses most on the core business before interest and tax effects?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Operating profit"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Revenue"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Total assets"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Cash balance"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "balance_sheet",
+      "title": {
+        "en": "Balance Sheet"
+      },
+      "description": {
+        "en": "The balance sheet shows what a company owns, owes, and what remains for shareholders at a point in time."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 2402,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A snapshot of financial position"
+            },
+            "body": {
+              "en": "A balance sheet shows what a company owns and owes at one date. Assets are resources, liabilities are obligations, and equity is what remains for owners. It helps investors judge financial strength, not just recent profit."
+            },
+            "tip": {
+              "en": "Income statements show performance over time; balance sheets show position at a point in time."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "The equation must balance"
+            },
+            "body": {
+              "en": "The basic equation is assets equal liabilities plus equity. If a company buys an asset with borrowed money, assets and liabilities both rise. Equity is not automatically cash; it is the residual claim after obligations."
+            },
+            "example": {
+              "en": "If a company has ₸50 billion in assets and ₸30 billion in liabilities, equity is ₸20 billion."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Liquidity and leverage matter"
+            },
+            "body": {
+              "en": "Liquidity asks whether the company has enough cash or near-cash assets to meet short-term obligations. Leverage asks how much of the business is financed with debt. A profitable company can still face danger if it cannot pay bills when due."
+            },
+            "tip": {
+              "en": "Solvency is about survival; profitability is about earning power."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Reading the financial position"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A company reports a simplified balance sheet at year-end."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Item",
+                        "Amount",
+                        "Interpretation"
+                      ],
+                      [
+                        "Cash",
+                        "₸4 billion",
+                        "Immediate liquidity"
+                      ],
+                      [
+                        "Inventory and receivables",
+                        "₸10 billion",
+                        "Working assets that must convert to cash"
+                      ],
+                      [
+                        "Property and equipment",
+                        "₸26 billion",
+                        "Long-term operating assets"
+                      ],
+                      [
+                        "Total assets",
+                        "₸40 billion",
+                        "Resources controlled"
+                      ],
+                      [
+                        "Short-term liabilities",
+                        "₸8 billion",
+                        "Obligations due soon"
+                      ],
+                      [
+                        "Long-term debt",
+                        "₸17 billion",
+                        "Financing obligations"
+                      ],
+                      [
+                        "Equity",
+                        "₸15 billion",
+                        "Residual owner claim"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The investor should ask whether the company has enough liquidity and whether debt is reasonable for its earnings stability."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Assets or liabilities?"
+            },
+            "body": {
+              "en": "Classify balance-sheet items by whether they are resources, obligations, or residual owner claim."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each item to the correct balance-sheet category.",
+                "categories": [
+                  {
+                    "id": "asset",
+                    "label": "Asset"
+                  },
+                  {
+                    "id": "liability",
+                    "label": "Liability"
+                  },
+                  {
+                    "id": "equity",
+                    "label": "Equity"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "cash",
+                    "text": "Cash in bank accounts"
+                  },
+                  {
+                    "id": "loan",
+                    "text": "Bank loan payable"
+                  },
+                  {
+                    "id": "inventory",
+                    "text": "Inventory held for sale"
+                  },
+                  {
+                    "id": "retained",
+                    "text": "Retained earnings"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "cash",
+                    "categoryId": "asset"
+                  },
+                  {
+                    "itemId": "loan",
+                    "categoryId": "liability"
+                  },
+                  {
+                    "itemId": "inventory",
+                    "categoryId": "asset"
+                  },
+                  {
+                    "itemId": "retained",
+                    "categoryId": "equity"
+                  }
+                ],
+                "explanation": "Assets are resources, liabilities are obligations, and equity is the residual claim after liabilities."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Strength is more than profit"
+            },
+            "body": {
+              "en": "The balance sheet shows whether a company has the resources and financing structure to survive stress. Investors should check liquidity, debt, asset quality, and equity cushion. A strong income statement is weaker if the balance sheet is fragile."
+            },
+            "tip": {
+              "en": "A company can be profitable and still financially stretched."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2402,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Balance Sheet — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A company has ₸80 billion in assets and ₸55 billion in liabilities. What is equity?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "₸25 billion"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "₸135 billion"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "₸55 billion"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "₸80 billion"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can high short-term liabilities be dangerous?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The company may need cash soon even if long-term prospects look good"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Short-term liabilities are always free money"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They increase equity automatically"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They prove revenue is growing"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which question is most balance-sheet focused?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Can the company meet obligations and manage debt if conditions worsen?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Did revenue grow this quarter?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Was the brand advertisement successful?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "How many products did customers review?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "cash_flow_statement",
+      "title": {
+        "en": "Cash Flow Statement"
+      },
+      "description": {
+        "en": "The cash flow statement explains how cash actually moved through operations, investment, and financing."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 2403,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Profit is not the same as cash"
+            },
+            "body": {
+              "en": "A company can report profit while cash is leaving the business. The cash flow statement shows where cash came from and where it went. Investors use it to test whether accounting profit is supported by actual cash generation."
+            },
+            "tip": {
+              "en": "Cash flow answers: did money actually move into the company?"
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Three cash-flow sections"
+            },
+            "body": {
+              "en": "Operating cash flow comes from the core business. Investing cash flow shows spending on assets or proceeds from selling assets. Financing cash flow shows money raised from or returned to lenders and owners."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Free cash flow shows flexibility"
+            },
+            "body": {
+              "en": "Free cash flow is often operating cash flow minus capital spending. It suggests how much cash remains after maintaining or growing the asset base. Positive free cash flow can fund debt repayment, dividends, buybacks, or reinvestment."
+            },
+            "example": {
+              "en": "If operating cash flow is ₸9 billion and capital spending is ₸4 billion, free cash flow is about ₸5 billion."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A profitable company with weak cash"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A company reports ₸3 billion in net profit, but its cash flow statement tells a more cautious story."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Cash-flow line",
+                        "Amount",
+                        "Interpretation"
+                      ],
+                      [
+                        "Operating cash flow",
+                        "₸1 billion",
+                        "Core business generated less cash than profit"
+                      ],
+                      [
+                        "Capital spending",
+                        "-₸4 billion",
+                        "Heavy investment in assets"
+                      ],
+                      [
+                        "Free cash flow",
+                        "-₸3 billion",
+                        "Cash left after investment is negative"
+                      ],
+                      [
+                        "New debt raised",
+                        "₸3.5 billion",
+                        "Financing covered the cash gap"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The company may be investing for growth, but investors should ask whether future cash generation will justify the spending."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Classify the cash flow"
+            },
+            "body": {
+              "en": "Sort each cash movement into operating, investing, or financing cash flow."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each cash movement to the correct cash-flow section.",
+                "categories": [
+                  {
+                    "id": "operating",
+                    "label": "Operating"
+                  },
+                  {
+                    "id": "investing",
+                    "label": "Investing"
+                  },
+                  {
+                    "id": "financing",
+                    "label": "Financing"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "customer_cash",
+                    "text": "Cash received from customers"
+                  },
+                  {
+                    "id": "equipment",
+                    "text": "Cash paid to buy equipment"
+                  },
+                  {
+                    "id": "new_debt",
+                    "text": "Cash received from issuing debt"
+                  },
+                  {
+                    "id": "dividend",
+                    "text": "Cash paid as dividends"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "customer_cash",
+                    "categoryId": "operating"
+                  },
+                  {
+                    "itemId": "equipment",
+                    "categoryId": "investing"
+                  },
+                  {
+                    "itemId": "new_debt",
+                    "categoryId": "financing"
+                  },
+                  {
+                    "itemId": "dividend",
+                    "categoryId": "financing"
+                  }
+                ],
+                "explanation": "Operating cash comes from the business, investing cash changes asset capacity, and financing cash changes funding from owners or lenders."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Cash tests the story"
+            },
+            "body": {
+              "en": "The cash flow statement tests whether earnings are turning into usable money. Strong companies usually need healthy operating cash flow over time. Negative free cash flow is not always bad, but it needs a clear reason and a path to future cash generation."
+            },
+            "tip": {
+              "en": "Profit can be promised by accounting; bills are paid with cash."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2403,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Cash Flow Statement — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A company reports profit but operating cash flow is negative for several years. What should an investor ask?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Why accounting profit is not converting into cash from the core business"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Whether cash flow is irrelevant if profit exists"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Whether negative cash flow guarantees success"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Whether the balance sheet should be ignored"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which cash flow is most directly connected to the core business?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Operating cash flow"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Financing cash flow from issuing debt"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Investing cash flow from buying equipment"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Cash paid to shareholders as dividends"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "If operating cash flow is ₸12 billion and capital spending is ₸5 billion, what is approximate free cash flow?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "₸7 billion"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "₸17 billion"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "₸5 billion"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "-₸12 billion"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "core_ratios",
+      "title": {
+        "en": "Core Ratios"
+      },
+      "description": {
+        "en": "Core ratios turn financial statements into comparable signals about profitability, leverage, liquidity, valuation, and efficiency."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 2404,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Ratios compress questions"
+            },
+            "body": {
+              "en": "Financial ratios turn statement numbers into comparisons. They help investors ask sharper questions about profitability, debt, liquidity, valuation, and efficiency. A ratio is useful only when you know what problem it is trying to reveal."
+            },
+            "tip": {
+              "en": "Ratios are tools for questions, not automatic buy or sell signals."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Profitability and efficiency"
+            },
+            "body": {
+              "en": "Margins show how much profit survives from revenue. Return on equity shows how much profit is generated relative to shareholder equity. These ratios help judge whether the business turns resources into profits efficiently."
+            },
+            "example": {
+              "en": "A company with ₸2 billion net profit and ₸20 billion equity has return on equity of about 10%."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Debt and valuation ratios"
+            },
+            "body": {
+              "en": "Debt-to-equity shows how much leverage supports the business. The P/E ratio compares market price to earnings. A high P/E may reflect growth expectations, while high debt may reflect risk, but neither number is meaningful without industry and company context."
+            },
+            "tip": {
+              "en": "A ratio becomes useful when compared with history, peers, and business quality."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A small ratio dashboard"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A simplified company dashboard shows why ratios should be read together."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ratio",
+                        "Value",
+                        "Question it raises"
+                      ],
+                      [
+                        "Operating margin",
+                        "18%",
+                        "Is the core business profitable?"
+                      ],
+                      [
+                        "Return on equity",
+                        "14%",
+                        "Does equity produce solid earnings?"
+                      ],
+                      [
+                        "Debt-to-equity",
+                        "1.8x",
+                        "Is leverage adding risk?"
+                      ],
+                      [
+                        "Current ratio",
+                        "1.1x",
+                        "Is short-term liquidity tight?"
+                      ],
+                      [
+                        "P/E ratio",
+                        "28x",
+                        "Are investors pricing in high growth?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "No single ratio decides the investment. The pattern tells you what to investigate next."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Match ratio to question"
+            },
+            "body": {
+              "en": "Choose which ratio best helps answer each investor question."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each ratio to the question it best addresses.",
+                "categories": [
+                  {
+                    "id": "profitability",
+                    "label": "Profitability"
+                  },
+                  {
+                    "id": "leverage",
+                    "label": "Leverage"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Liquidity"
+                  },
+                  {
+                    "id": "valuation",
+                    "label": "Valuation"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "margin",
+                    "text": "Operating margin"
+                  },
+                  {
+                    "id": "debt_equity",
+                    "text": "Debt-to-equity"
+                  },
+                  {
+                    "id": "current_ratio",
+                    "text": "Current ratio"
+                  },
+                  {
+                    "id": "pe",
+                    "text": "P/E ratio"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "margin",
+                    "categoryId": "profitability"
+                  },
+                  {
+                    "itemId": "debt_equity",
+                    "categoryId": "leverage"
+                  },
+                  {
+                    "itemId": "current_ratio",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "pe",
+                    "categoryId": "valuation"
+                  }
+                ],
+                "explanation": "Ratios are organized by the question they answer: profit quality, debt risk, short-term safety, or price paid for earnings."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Use ratios as a conversation with the business"
+            },
+            "body": {
+              "en": "Core ratios help you read financial statements faster, but they do not replace judgment. Compare ratios with peers, history, and the business model. A good ratio points to a question; a full investment view needs the answer."
+            },
+            "tip": {
+              "en": "The dangerous ratio is the one used without context."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2404,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Core Ratios — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A company has a high P/E ratio. What is the most careful interpretation?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Investors may be pricing in high growth, but the valuation needs context"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The stock is automatically a bargain"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The company has no earnings"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Debt risk has disappeared"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which ratio best helps evaluate short-term liquidity?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Current ratio"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "P/E ratio"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Dividend yield"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Gross margin"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why should ratios be compared with peers and history?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A ratio's meaning depends on industry, business model, and trend"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Ratios are useless if compared"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Every industry has identical normal ratios"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "One ratio always gives the final answer"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 2499,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Reading Financial Statements — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "A company grows sales quickly but margins shrink and losses increase. What should an investor conclude?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Revenue growth is not enough if the company cannot convert sales into profit"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Sales growth alone proves the company is healthy"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Margins do not matter if revenue rises"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Losses are impossible when sales rise"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "What does the balance sheet show that the income statement does not?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Assets, liabilities, and equity at a point in time"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Only customer reviews"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Only daily stock price movement"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Only the company's advertising budget trend"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "Why is operating cash flow important when profit looks strong?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It tests whether core business earnings are turning into actual cash"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It proves the stock price must rise"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It replaces all other statements"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It measures only new debt raised"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "Which ratio is most directly about leverage?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Debt-to-equity"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Operating margin"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "P/E ratio"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Revenue growth rate"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "What is the best way to use financial statements together?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Income statement for profitability, balance sheet for position, cash flow for cash reality, ratios for comparison"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Use only the statement with the biggest number"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Ignore cash flow if profit is positive"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Use ratios without context or comparison"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

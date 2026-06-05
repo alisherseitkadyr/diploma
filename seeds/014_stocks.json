@@ -1,0 +1,2070 @@
+{
+  "section": "investment_types",
+  "topic": {
+    "code": "stocks",
+    "orderIndex": 14,
+    "title": {
+      "en": "Stocks"
+    },
+    "description": {
+      "en": "What owning a share actually means, why prices move, and how to read a quote and a market index without being misled."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "ownership_and_shares",
+      "title": {
+        "en": "Ownership and Shares"
+      },
+      "description": {
+        "en": "A stock is a small ownership claim on a business, not just a price moving on a screen."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 1401,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A share is a claim"
+            },
+            "body": {
+              "en": "When you buy a share, you are not buying a lottery ticket or a line on a chart. You are buying a small ownership claim on a company. The share matters because the company can create value, lose value, or return cash to owners."
+            },
+            "tip": {
+              "en": "Start with the business first; the ticker is only a label for the ownership claim."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "What owners receive"
+            },
+            "body": {
+              "en": "Shareholders benefit in two main ways: the share price can rise, or the company can pay dividends. Neither is guaranteed. Both depend on business performance and how investors value that performance."
+            },
+            "example": {
+              "en": "If you buy shares for ₸200,000 and later sell for ₸240,000, the ₸40,000 gain is capital growth. If you also received ₸6,000 in dividends, that is separate cash return."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Ownership is proportional"
+            },
+            "body": {
+              "en": "Your share of profits and voting power usually depends on how many shares you own compared with all shares outstanding. Owning ten shares may feel small, but the logic is the same as owning a large stake. You participate according to your fraction."
+            },
+            "tip": {
+              "en": "The number of shares alone is meaningless without knowing total shares and price."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Tiny owner, same logic"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A company has 10,000,000 shares outstanding. You buy 100 shares at ₸1,500 each, spending ₸150,000."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Item",
+                        "Value",
+                        "Meaning"
+                      ],
+                      [
+                        "Your shares",
+                        "100",
+                        "Your ownership units"
+                      ],
+                      [
+                        "Total shares",
+                        "10,000,000",
+                        "All ownership units"
+                      ],
+                      [
+                        "Your ownership",
+                        "0.001%",
+                        "Your fraction of the company"
+                      ],
+                      [
+                        "Company market value",
+                        "₸15,000,000,000",
+                        "10,000,000 × ₸1,500"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "You are a tiny owner, but the economic logic is real: if the business becomes more valuable, your fractional claim may become more valuable too."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Classify the stock idea"
+            },
+            "body": {
+              "en": "Sort each statement by what it describes. This helps separate ownership, price movement, and cash return."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each statement to the correct category.",
+                "categories": [
+                  {
+                    "id": "ownership",
+                    "label": "Ownership claim"
+                  },
+                  {
+                    "id": "capital_gain",
+                    "label": "Capital gain"
+                  },
+                  {
+                    "id": "dividend",
+                    "label": "Dividend"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "fraction",
+                    "text": "You own a small fraction of the company"
+                  },
+                  {
+                    "id": "sell_higher",
+                    "text": "You sell shares for more than you paid"
+                  },
+                  {
+                    "id": "cash_paid",
+                    "text": "The company distributes cash to shareholders"
+                  },
+                  {
+                    "id": "shares_outstanding",
+                    "text": "Your stake depends on your shares versus total shares"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "fraction",
+                    "categoryId": "ownership"
+                  },
+                  {
+                    "itemId": "sell_higher",
+                    "categoryId": "capital_gain"
+                  },
+                  {
+                    "itemId": "cash_paid",
+                    "categoryId": "dividend"
+                  },
+                  {
+                    "itemId": "shares_outstanding",
+                    "categoryId": "ownership"
+                  }
+                ],
+                "explanation": "Stocks combine ownership, changing market prices, and sometimes cash distributions. Mixing them up leads to weak decisions."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Think like a fractional owner"
+            },
+            "body": {
+              "en": "A stock is valuable because it represents a claim on a real business. Price changes matter, but they are not the whole story. Before buying a stock, ask what business you are becoming a fractional owner of and why that claim might be worth more later."
+            },
+            "tip": {
+              "en": "A ticker can move every second; the business changes much more slowly."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1401,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Ownership and Shares — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "You buy 20 shares of a company because each share costs only ₸500. What extra information is most important before saying the company is cheap?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "How much of the business each share represents and what the business is worth"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Whether 20 is a round number of shares"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Whether the share price was higher yesterday"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Whether the company name is familiar"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A company pays no dividend, but its share price rises after profits grow. How can shareholders still benefit?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They may gain through capital appreciation when the ownership claim becomes more valuable"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They cannot benefit unless cash is paid every year"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They automatically receive the profit in their bank account"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The broker must compensate them for missing dividends"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why is “I own 100 shares” incomplete information?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Because ownership depends on total shares outstanding and the company's value"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Because 100 shares is always too few to matter"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Because only dividend stocks count as real ownership"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Because share count alone tells you the future return"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "why_stock_prices_move",
+      "title": {
+        "en": "Why Stock Prices Move"
+      },
+      "description": {
+        "en": "Stock prices move when expectations about future cash flows, risk, or investor demand change."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 1402,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Price is a changing opinion"
+            },
+            "body": {
+              "en": "A stock price is the market's current negotiated opinion about a company's future. It changes when buyers and sellers update what they believe the business is worth. News matters only because it changes expectations."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Expectations drive surprises"
+            },
+            "body": {
+              "en": "A company can report profit growth and still fall if investors expected even more. Another company can lose money and rise if the loss is smaller than feared. Prices react to the gap between reality and expectation."
+            },
+            "tip": {
+              "en": "Ask not only “Was the news good?” but “Was it better or worse than expected?”"
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Risk changes value too"
+            },
+            "body": {
+              "en": "Investors pay less for uncertain cash flows than for reliable ones. If debt rises, regulation changes, or demand weakens, the same expected profit may deserve a lower price. Price moves can reflect risk, not just profit."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Good result, falling price"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A retailer reports ₸12 billion in quarterly profit. That sounds good, but the market expected ₸15 billion after strong sales rumors."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Factor",
+                        "Before report",
+                        "After report"
+                      ],
+                      [
+                        "Expected profit",
+                        "₸15 billion",
+                        "₸12 billion actual"
+                      ],
+                      [
+                        "Growth story",
+                        "Very strong",
+                        "Still growing, but slower"
+                      ],
+                      [
+                        "Investor reaction",
+                        "High price justified",
+                        "Price adjusts lower"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The price can fall even though the company is profitable because the old price already assumed a stronger future."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Expectation or business change?"
+            },
+            "body": {
+              "en": "Label what mainly explains each price move. The same headline can mean different things depending on expectations."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the best explanation for each stock-price move.",
+                "options": [
+                  "Expectation gap",
+                  "Risk change",
+                  "Business improvement"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Profit rose 10%, but analysts expected 25%, and the stock fell.",
+                    "correct_answer": "Expectation gap",
+                    "explanation": "The result was positive but worse than the price had implied."
+                  },
+                  {
+                    "text": "A company wins a five-year supply contract and expected cash flows rise.",
+                    "correct_answer": "Business improvement",
+                    "explanation": "The business may generate more future cash than before."
+                  },
+                  {
+                    "text": "A new law threatens the company's main revenue source, and the stock drops.",
+                    "correct_answer": "Risk change",
+                    "explanation": "Even if current profit is unchanged, future cash flows are now less certain."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Look beneath the headline"
+            },
+            "body": {
+              "en": "Stock prices move because the market updates expectations about future cash flows and risk. A headline alone rarely explains the move. The useful question is what changed relative to what investors already believed."
+            },
+            "tip": {
+              "en": "Price moves are about revisions, not just events."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1402,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Why Stock Prices Move — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A company announces record revenue, but the stock drops 8%. Which explanation is most reasonable?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The market may have expected even stronger revenue or better margins"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Record revenue always means the price should rise"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The stock market ignores company results completely"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A falling price proves the revenue announcement was fake"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Two firms expect the same profit next year. One has stable contracts; the other depends on one uncertain customer. Why might the second trade at a lower price?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Investors may discount uncertain cash flows more heavily"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Investors never buy companies with one customer"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Stable contracts make share count irrelevant"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Expected profit is the only thing that affects price"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which question best helps explain a stock move after news?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "What changed compared with what investors already expected?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Was the headline written in a positive tone?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Did the share price have a round number?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Did the company post on social media?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "dividends",
+      "title": {
+        "en": "Dividends"
+      },
+      "description": {
+        "en": "Dividends are cash distributions from a company, but yield alone does not tell you whether they are safe or attractive."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 2,
+      "quizId": 1403,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Dividends are not free money"
+            },
+            "body": {
+              "en": "A dividend is cash a company chooses to distribute to shareholders. It can be useful income, but it also leaves the business. The real question is whether the company can pay it without weakening itself."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Yield links dividend to price"
+            },
+            "body": {
+              "en": "Dividend yield compares annual dividend to share price. A ₸100 annual dividend on a ₸2,000 share is a 5% yield. The yield can rise because dividends grow, or because the share price falls."
+            },
+            "tip": {
+              "en": "A high yield can signal income, but it can also signal fear."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Sustainability matters"
+            },
+            "body": {
+              "en": "A dividend is safer when it is supported by repeatable cash flow. If a company pays more than it can afford, it may cut the dividend later. A high yield with shrinking profits can be a warning, not a bargain."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same yield, different quality"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two stocks both show a 6% dividend yield. The yield looks equal, but the source of the dividend is different."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Company",
+                        "Annual dividend",
+                        "Cash flow trend",
+                        "Interpretation"
+                      ],
+                      [
+                        "A",
+                        "₸120 on a ₸2,000 share",
+                        "Stable and growing",
+                        "More sustainable"
+                      ],
+                      [
+                        "B",
+                        "₸120 on a ₸2,000 share",
+                        "Falling for three years",
+                        "Higher cut risk"
+                      ],
+                      [
+                        "C",
+                        "₸120 on a ₸1,500 share",
+                        "Unclear",
+                        "Higher yield partly from price drop"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Dividend investing is not only choosing the highest percentage. It is judging whether the cash distribution can continue."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Find the dividend mistake"
+            },
+            "body": {
+              "en": "Each case has a tempting dividend conclusion. Pick the reasoning error."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the main mistake in each dividend claim.",
+                "cases": [
+                  {
+                    "text": "“This stock yields 12%, so it is automatically better than a 4% stock.”",
+                    "options": [
+                      "a) No error",
+                      "b) Yield alone ignores dividend safety and price risk",
+                      "c) Lower yield always means lower risk"
+                    ],
+                    "correct": "b",
+                    "explanation": "A high yield can reflect a falling price or expected dividend cut."
+                  },
+                  {
+                    "text": "“The company paid a dividend last year, so next year’s dividend is guaranteed.”",
+                    "options": [
+                      "a) No error",
+                      "b) Past dividends do not guarantee future payments",
+                      "c) Dividends must rise every year"
+                    ],
+                    "correct": "b",
+                    "explanation": "Dividends are company decisions and depend on future cash flow."
+                  },
+                  {
+                    "text": "“The dividend was paid from borrowed money, but income investors should ignore that.”",
+                    "options": [
+                      "a) Borrowed dividends may be unsustainable",
+                      "b) No error",
+                      "c) Borrowing always makes dividends safer"
+                    ],
+                    "correct": "a",
+                    "explanation": "A dividend funded by debt can weaken the company if cash flow does not recover."
+                  }
+                ],
+                "final_explanation": "Dividend quality depends on source, sustainability, and price. Yield is a starting point, not a verdict."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Income needs a source"
+            },
+            "body": {
+              "en": "Dividends can turn ownership into cash flow, but they must be supported by the business. A useful dividend question is not “How high is the yield?” It is “Can the company keep paying this without damaging future value?”"
+            },
+            "tip": {
+              "en": "A sustainable 4% can be better than an unsafe 12%."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1403,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Dividends — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A stock's dividend yield jumps from 5% to 10% because the share price fell sharply while the dividend stayed the same. What should you consider?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The market may expect the dividend to be cut or the business to weaken"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The dividend income has become risk-free"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The company must be twice as profitable"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The stock is automatically cheaper in a good way"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which dividend looks more sustainable?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A company with moderate yield and stable cash flow covering the dividend"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A company borrowing heavily to pay a very high dividend"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A company with falling sales and the highest yield in the sector"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A company that promises dividends will never change"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why are dividends not simply “extra money” on top of a stock's value?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Cash paid out leaves the company and may reduce resources available for growth"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Dividends are paid by the broker, not the company"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Dividends never affect shareholder return"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Dividends are always paid from government support"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "stock_orders",
+      "title": {
+        "en": "Stock Orders"
+      },
+      "description": {
+        "en": "Market, limit, and stop orders control how trades execute, but each solves a different problem."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 1404,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "An order is an instruction"
+            },
+            "body": {
+              "en": "Buying a stock is not just choosing the company. You must also tell the market how you want the trade executed. Order type controls the trade-off between speed, price certainty, and execution certainty."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Market versus limit"
+            },
+            "body": {
+              "en": "A market order prioritizes execution: buy or sell now at the best available price. A limit order prioritizes price: trade only at your chosen price or better. The first may execute at a worse price; the second may not execute at all."
+            },
+            "tip": {
+              "en": "Market orders answer “now?” Limit orders answer “at this price?”"
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Stop orders manage triggers"
+            },
+            "body": {
+              "en": "A stop order becomes active after a trigger price is reached. It can help manage exits, but it does not guarantee a perfect sale price in a fast-moving market. A trigger is not the same as a guaranteed result."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Three instructions, three trade-offs"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A stock last traded at ₸3,000. You want to buy, but the price is moving quickly."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Order",
+                        "Instruction",
+                        "Main risk"
+                      ],
+                      [
+                        "Market buy",
+                        "Buy immediately",
+                        "Final price may be above ₸3,000"
+                      ],
+                      [
+                        "Limit buy at ₸2,950",
+                        "Buy only at ₸2,950 or lower",
+                        "Order may not execute"
+                      ],
+                      [
+                        "Stop sell at ₸2,700",
+                        "Sell after price falls to trigger",
+                        "Sale may occur below trigger in a gap"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "No order type removes risk. Each chooses which risk you are willing to accept."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Choose the right order"
+            },
+            "body": {
+              "en": "Pick the order type that best matches the investor's priority."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best order type for each situation.",
+                "options": [
+                  "Market order",
+                  "Limit order",
+                  "Stop order"
+                ],
+                "scenarios": [
+                  {
+                    "text": "You want to buy a highly liquid stock immediately and accept the current market price.",
+                    "correct_answer": "Market order",
+                    "explanation": "The priority is fast execution."
+                  },
+                  {
+                    "text": "You only want to buy if the stock falls to ₸4,800 or below.",
+                    "correct_answer": "Limit order",
+                    "explanation": "The priority is a maximum acceptable price."
+                  },
+                  {
+                    "text": "You own a stock and want an exit instruction to activate if it falls below a chosen level.",
+                    "correct_answer": "Stop order",
+                    "explanation": "The priority is creating a trigger-based exit."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Execution is part of the decision"
+            },
+            "body": {
+              "en": "Order types shape what can go wrong during a trade. Market orders risk price uncertainty; limit orders risk non-execution; stop orders risk imperfect execution after a trigger. A good order matches the problem you are actually trying to solve."
+            },
+            "tip": {
+              "en": "The best order type depends on your priority, not on a universal rule."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1404,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Stock Orders — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "You want to buy a stock, but only if the price is ₸10,000 or lower. Which order best matches that instruction?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A limit buy order at ₸10,000"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A market buy order"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A stop sell order"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Any order, because the broker chooses the best price automatically"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is the main risk of using a market order on a stock with low trading volume?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The final execution price may be worse than expected"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The order will always be rejected"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The company will issue more shares immediately"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The dividend will be canceled"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "A stop order triggers after a price falls quickly overnight. Why might the sale price be lower than the stop level?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The stop is a trigger, and the market may execute at the next available price"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Stop orders guarantee the exact trigger price"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The broker converts all stop orders into dividends"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A falling price cancels the order automatically"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "how_to_read_a_stock_quote",
+      "title": {
+        "en": "How to Read a Stock Quote"
+      },
+      "description": {
+        "en": "A quote shows price, change, volume, bid-ask spread, market value, and ratios — but each number answers a different question."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 1405,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A quote is a dashboard"
+            },
+            "body": {
+              "en": "A stock quote compresses many facts into one screen. Some numbers describe today’s trading; others describe the business or valuation. Reading a quote well means knowing which number answers which question."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Price is not value by itself"
+            },
+            "body": {
+              "en": "A ₸1,000 stock is not automatically cheaper than a ₸10,000 stock. Price per share depends on how many shares exist. Market capitalization gives a better view of what the whole company is valued at."
+            },
+            "example": {
+              "en": "A company with 1 billion shares at ₸1,000 is valued at ₸1 trillion. A company with 10 million shares at ₸10,000 is valued at ₸100 billion."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Trading data versus business data"
+            },
+            "body": {
+              "en": "Volume and bid-ask spread tell you about trading liquidity. Ratios like P/E compare price to earnings and help frame valuation. Neither type of data is enough alone: liquidity helps execution, while valuation helps judgment."
+            },
+            "tip": {
+              "en": "Do not use one quote number to answer every question."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Reading one quote screen"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A quote shows these values for a stock. Each line points to a different question."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Quote item",
+                        "Example",
+                        "What it helps answer"
+                      ],
+                      [
+                        "Last price",
+                        "₸7,200",
+                        "Where the latest trade happened"
+                      ],
+                      [
+                        "Day change",
+                        "+2.1%",
+                        "How price moved today"
+                      ],
+                      [
+                        "Volume",
+                        "85,000 shares",
+                        "How actively it traded"
+                      ],
+                      [
+                        "Bid / ask",
+                        "₸7,190 / ₸7,220",
+                        "Approximate buy-sell gap"
+                      ],
+                      [
+                        "Market cap",
+                        "₸720 billion",
+                        "Whole-company market value"
+                      ],
+                      [
+                        "P/E ratio",
+                        "14",
+                        "Price compared with earnings"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The quote is useful only when you match the number to the decision: trading now, valuing the company, or comparing alternatives."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Match quote data to the question"
+            },
+            "body": {
+              "en": "Choose which quote item best answers each investor question."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each quote item to the question it best helps answer.",
+                "categories": [
+                  {
+                    "id": "company_value",
+                    "label": "Whole-company value"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Trading liquidity"
+                  },
+                  {
+                    "id": "valuation",
+                    "label": "Price versus earnings"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "market_cap",
+                    "text": "Market capitalization"
+                  },
+                  {
+                    "id": "volume",
+                    "text": "Daily trading volume"
+                  },
+                  {
+                    "id": "pe_ratio",
+                    "text": "P/E ratio"
+                  },
+                  {
+                    "id": "spread",
+                    "text": "Bid-ask spread"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "market_cap",
+                    "categoryId": "company_value"
+                  },
+                  {
+                    "itemId": "volume",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "pe_ratio",
+                    "categoryId": "valuation"
+                  },
+                  {
+                    "itemId": "spread",
+                    "categoryId": "liquidity"
+                  }
+                ],
+                "explanation": "A quote screen mixes trading, size, and valuation information. Each number has a job."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Read with a purpose"
+            },
+            "body": {
+              "en": "A stock quote is not a buy or sell signal by itself. It is a dashboard of price, liquidity, size, and valuation. Start with the question you are answering, then choose the quote item that actually relates to it."
+            },
+            "tip": {
+              "en": "Low share price is not the same as cheap valuation."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1405,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "How to Read a Stock Quote — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Company A trades at ₸800 per share and Company B trades at ₸8,000 per share. What can you conclude from share price alone?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Almost nothing about which company is cheaper without shares outstanding and earnings"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Company A is definitely ten times cheaper"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Company B is definitely higher quality"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Company A must have a smaller market capitalization"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which quote item is most directly useful for understanding how easy it may be to trade without moving the price much?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Volume and bid-ask spread"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Company logo"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Dividend payment date only"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The color of today's price change"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why is market capitalization often more useful than share price for comparing company size?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It reflects price multiplied by shares outstanding"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It ignores the market's opinion"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It equals the company's cash balance"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It shows the exact future return"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "market_indexes",
+      "title": {
+        "en": "Market Indexes"
+      },
+      "description": {
+        "en": "Indexes summarize baskets of stocks, but their construction determines what they really represent."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 5,
+      "quizId": 1406,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "An index is a shortcut"
+            },
+            "body": {
+              "en": "A market index summarizes a group of stocks into one number. It helps answer broad questions like whether a market segment rose or fell. But the index only represents the stocks and weighting rules inside it."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "What an index can represent"
+            },
+            "body": {
+              "en": "An index may track a country, sector, region, or investment style. The S&P 500 tracks large U.S. companies, MSCI World tracks developed-market stocks, and KASE-related indexes reflect parts of Kazakhstan's market. Each is a map, not the whole territory."
+            },
+            "tip": {
+              "en": "Always ask: which companies are inside, and how are they weighted?"
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Weighting changes the story"
+            },
+            "body": {
+              "en": "Many indexes are weighted by market capitalization, so larger companies influence the index more. If a few giants rise, the index can rise even while many smaller members fall. The headline number may hide internal differences."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "When the index and the average stock disagree"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Imagine an index with only three stocks. The largest stock dominates the index because it has the biggest market value."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Stock",
+                        "Index weight",
+                        "Today's return",
+                        "Impact on index"
+                      ],
+                      [
+                        "Large Bank",
+                        "70%",
+                        "+3%",
+                        "+2.1%"
+                      ],
+                      [
+                        "Retailer",
+                        "20%",
+                        "-2%",
+                        "-0.4%"
+                      ],
+                      [
+                        "Telecom",
+                        "10%",
+                        "-3%",
+                        "-0.3%"
+                      ],
+                      [
+                        "Index result",
+                        "100%",
+                        "",
+                        "+1.4%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The index rises even though two of three stocks fell. Weighting explains the difference."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Pick the right index idea"
+            },
+            "body": {
+              "en": "Choose what each index-related statement mainly describes."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best label for each scenario.",
+                "options": [
+                  "Coverage",
+                  "Weighting",
+                  "Benchmark use"
+                ],
+                "scenarios": [
+                  {
+                    "text": "An index tracks large U.S. companies but not small private businesses.",
+                    "correct_answer": "Coverage",
+                    "explanation": "Coverage defines what is inside and outside the index."
+                  },
+                  {
+                    "text": "A few mega-cap companies cause most of the index move today.",
+                    "correct_answer": "Weighting",
+                    "explanation": "Market-cap weighting gives larger firms more influence."
+                  },
+                  {
+                    "text": "An investor compares their fund return with MSCI World to judge performance.",
+                    "correct_answer": "Benchmark use",
+                    "explanation": "A benchmark is a reference point for evaluating results."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Indexes simplify, but also filter"
+            },
+            "body": {
+              "en": "An index is useful because it compresses many stocks into one reference point. It is dangerous when treated as the entire market without checking coverage and weighting. To read an index well, ask what it includes, what it excludes, and which companies drive it."
+            },
+            "tip": {
+              "en": "The market can be up while many stocks are down."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1406,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Market Indexes — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An index rises 1%, but most stocks inside it fell. How is this possible?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Large heavily weighted stocks may have risen enough to lift the index"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Indexes cannot rise unless every stock rises"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The index must be calculated incorrectly"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Falling stocks are automatically removed before calculation"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why might MSCI World and a Kazakhstan-focused index behave differently on the same day?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They cover different markets and companies"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "All indexes must hold the same stocks"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Local indexes only move after global indexes close"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A country-focused index has no sector exposure"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the best use of an index as a benchmark?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "To compare an investment against a relevant market reference"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "To guarantee the investment will match future returns"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "To prove individual stocks are unnecessary in every situation"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "To remove all risk from investing"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 1499,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Stocks — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "A friend says a ₸600 stock is cheaper than a ₸6,000 stock. What should you say?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Share price alone is not enough; compare business value, shares outstanding, and earnings"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "The ₸600 stock must be a better investment"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "The ₸6,000 stock must pay higher dividends"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Both stocks have the same market capitalization"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "A company reports higher profit, but the stock falls because investors expected even more. What lesson does this show?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Prices respond to changes versus expectations, not just whether news sounds good"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Profit never matters to stock prices"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "A profitable company should always rise"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Investors only care about dividends"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "A stock has a 14% dividend yield after a major price drop. What is the most careful interpretation?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The yield may be high because the market doubts the dividend's sustainability"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "The stock is automatically a safe income asset"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "The company is legally required to keep the dividend unchanged"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "The dividend yield proves the stock price will recover"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "You want to buy only if a stock reaches ₸9,500 or lower. Which order matches your goal?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "A limit buy order at ₸9,500"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "A market buy order"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "A stop sell order"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "A dividend reinvestment instruction"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "An index is up because a few very large companies rose, while many smaller members fell. What explains this?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Market-cap weighting can give larger companies more influence"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Indexes ignore large companies"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Every member must have risen equally"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "An index cannot contain companies of different sizes"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

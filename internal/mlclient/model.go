@@ -24,53 +24,59 @@ type ReinforcementPredictResponse struct {
 	ModelName          string  `json:"model_name,omitempty"`
 }
 
-type NextLessonRankRequest struct {
-	Items []NextLessonRankItem `json:"items"`
+type NextTopicRankRequest struct {
+	Items []NextTopicRankItem `json:"items"`
 }
 
-type NextLessonRankItem struct {
-	CandidateSubtopicCode string `json:"candidate_subtopic_code"`
-
-	UserLevelNum           int `json:"user_level_num"`
-	PracticalExperienceNum int `json:"practical_experience_num"`
-	LearningGoalNum        int `json:"learning_goal_num"`
-	TimeCommitmentMinutes  int `json:"time_commitment_minutes"`
-
-	CompletedSubtopicsCount        int     `json:"completed_subtopics_count"`
-	CompletionRatio                float64 `json:"completion_ratio"`
-	AverageBestScorePercent        float64 `json:"average_best_score_percent"`
-	AverageAllAttemptsScorePercent float64 `json:"average_all_attempts_score_percent"`
-	LastQuizScore                  float64 `json:"last_quiz_score"`
-	FailedQuizCount                int     `json:"failed_quiz_count"`
-	DaysSinceLastActivity          int     `json:"days_since_last_activity"`
-
-	CandidateLevelNum           int `json:"candidate_level_num"`
-	CandidateTopicOrderIndex    int `json:"candidate_topic_order_index"`
-	CandidateSubtopicOrderIndex int `json:"candidate_subtopic_order_index"`
-	CandidateEstimatedMinutes   int `json:"candidate_estimated_minutes"`
-
-	IsPreferredTopic           int `json:"is_preferred_topic"`
-	IsSameTopicAsLastCompleted int `json:"is_same_topic_as_last_completed"`
-	IsNextSubtopicInSameTopic  int `json:"is_next_subtopic_in_same_topic"`
-	IsFirstSubtopicInTopic     int `json:"is_first_subtopic_in_topic"`
-	IsLevelMatch               int `json:"is_level_match"`
-	IsTimeCommitmentMatch      int `json:"is_time_commitment_match"`
-	IsTopicNotStarted          int `json:"is_topic_not_started"`
-	IsTopicInProgress          int `json:"is_topic_in_progress"`
-
-	NeedReinforcement     int     `json:"need_reinforcement"`
-	LastScoreForCandidate float64 `json:"last_score_for_candidate"`
-	BestScoreForCandidate float64 `json:"best_score_for_candidate"`
-	AttemptsForCandidate  int     `json:"attempts_for_candidate"`
+type NextTopicRankItem struct {
+	CandidateTopicCode            string  `json:"candidate_topic_code"`
+	UserSkillIndex                float64 `json:"user_skill_index"`
+	LearningGoalNum               int     `json:"learning_goal_num"`
+	AverageBestScorePercent       float64 `json:"average_best_score_percent"`
+	CandidateTopicOrderIndex      int     `json:"candidate_topic_order_index"`
+	CandidateTopicDifficultyIndex float64 `json:"candidate_topic_difficulty_index"`
+	DifficultyGap                 float64 `json:"difficulty_gap"`
+	IsPreferredTopic              int     `json:"is_preferred_topic"`
 }
 
-type NextLessonRankResponse struct {
-	Items        []NextLessonRankResult `json:"items"`
+type NextTopicRankResponse struct {
+	Items        []NextTopicRankResult `json:"items"`
+	ModelName    string                `json:"model_name"`
+	ModelVersion string                `json:"model_version"`
+}
+
+type NextTopicRankResult struct {
+	CandidateTopicCode string  `json:"candidate_topic_code"`
+	Score              float64 `json:"score"`
+}
+
+type RepetitionRankItem struct {
+	ConceptCode            string  `json:"concept_code"`
+	TopicCode              *string `json:"topic_code,omitempty"`
+	UserSkillIndex         float64 `json:"user_skill_index"`
+	ConceptDifficultyIndex float64 `json:"concept_difficulty_index"`
+	DaysSinceLastReview    float64 `json:"days_since_last_review"`
+	ReviewCount            int     `json:"review_count"`
+	RecallSuccessRate      float64 `json:"recall_success_rate"`
+	LastRecallCorrect      int     `json:"last_recall_correct"`
+	AverageLatencySeconds  float64 `json:"average_latency_seconds"`
+}
+
+type RepetitionRankRequest struct {
+	Items []RepetitionRankItem `json:"items"`
+}
+
+type RepetitionRankResult struct {
+	ConceptCode                string  `json:"concept_code"`
+	TopicCode                  *string `json:"topic_code"`
+	RecallProbability          float64 `json:"recall_probability"`
+	PriorityScore              float64 `json:"priority_score"`
+	ReviewAction               string  `json:"review_action"`
+	RecommendedReviewDelayDays int     `json:"recommended_review_delay_days"`
+}
+
+type RepetitionRankResponse struct {
+	Items        []RepetitionRankResult `json:"items"`
 	ModelName    string                 `json:"model_name"`
 	ModelVersion string                 `json:"model_version"`
-}
-
-type NextLessonRankResult struct {
-	CandidateSubtopicCode string  `json:"candidate_subtopic_code"`
-	Score                 float64 `json:"score"`
 }

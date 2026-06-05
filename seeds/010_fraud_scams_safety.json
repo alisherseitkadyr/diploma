@@ -1,0 +1,1441 @@
+{
+  "section": "insurance_protection",
+    "topic": {
+      "code": "fraud_scams_safety",
+      "orderIndex": 10,
+    "title": {
+      "en": "Fraud, Scams & Financial Safety"
+    },
+    "description": {
+      "en": "How financial fraud and investment and crypto scams operate, and a practical playbook to recognize and avoid them."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "financial_fraud_basics",
+      "title": {
+        "en": "Financial Fraud Basics"
+      },
+      "description": {
+        "en": "How fraud works, why identity theft is valuable, and how pressure turns normal people into easy targets."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 1001,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Fraud is not just theft"
+            },
+            "body": {
+              "en": "Financial fraud usually starts before money moves. The scammer first tries to control information, emotion, or identity. Once they control one of those, the transfer looks voluntary from the outside."
+            },
+            "tip": {
+              "en": "The first defense is slowing down the decision, not guessing whether the person sounds trustworthy."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "The fraud triangle"
+            },
+            "body": {
+              "en": "Most scams combine three forces: a believable story, urgency, and a payment path that is hard to reverse. Remove one part and the scam becomes weaker. That is why fraud often feels like an emergency."
+            },
+            "example": {
+              "en": "A message saying your account will be blocked in 10 minutes creates urgency. A link to a fake bank page creates the payment or login path."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Why identity is money"
+            },
+            "body": {
+              "en": "Your name, phone number, card data, SMS code, and account login are not just personal details. Together, they can let someone borrow, transfer, reset passwords, or impersonate you. Fraud often targets access, not cash directly."
+            },
+            "tip": {
+              "en": "Treat verification codes like keys. A real support worker does not need you to read them aloud."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "One message, several risks"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A student receives a message: “Your bank card is blocked. Confirm your identity now or lose access.” The link opens a page asking for card data and an SMS code."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Signal",
+                        "What it tries to control",
+                        "Why it matters"
+                      ],
+                      [
+                        "Blocked-card warning",
+                        "Urgency",
+                        "Reduces careful thinking"
+                      ],
+                      [
+                        "Bank-looking page",
+                        "Trust",
+                        "Makes the fake request feel official"
+                      ],
+                      [
+                        "SMS code request",
+                        "Access",
+                        "Can approve a transfer or reset login"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The correct response is not to argue with the message. It is to leave the link and contact the bank through the app or official number."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Spot the fraud signal"
+            },
+            "body": {
+              "en": "Read each case and label the main warning sign. The goal is to identify the mechanism, not memorize scam formats."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the strongest warning sign in each scenario.",
+                "options": [
+                  "Urgency pressure",
+                  "Request for secret access",
+                  "Unverified payment path"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A caller says your account will be frozen today unless you act immediately.",
+                    "correct_answer": "Urgency pressure",
+                    "explanation": "The call may be fake, but the key mechanism is time pressure that prevents verification."
+                  },
+                  {
+                    "text": "A support agent asks you to read the six-digit SMS code you just received.",
+                    "correct_answer": "Request for secret access",
+                    "explanation": "Codes can authorize login, password reset, or payment. They should not be shared."
+                  },
+                  {
+                    "text": "A seller asks you to leave the marketplace app and pay through a separate link.",
+                    "correct_answer": "Unverified payment path",
+                    "explanation": "Leaving the protected platform removes dispute tools and makes reversal harder."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Fraud is a process"
+            },
+            "body": {
+              "en": "Fraud works by moving you from uncertainty to action before you verify. The safer habit is to separate message, identity, and payment path. If any one is unverified, pause before money or access moves."
+            },
+            "tip": {
+              "en": "A real emergency can survive a verification call. A scam often cannot."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1001,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Financial Fraud Basics — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A caller knows your full name, bank name, and last four card digits, then asks for an SMS code to “cancel a suspicious transfer.” What is the best interpretation?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They may still be a scammer because partial personal data does not prove authority"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They are safe because they already know account details"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The SMS code is harmless if the transfer is being canceled"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It is safe if the caller sounds professional"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A payment link arrives after a buyer says the marketplace app is “too slow.” What is the main risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The payment path may bypass platform protections and be harder to reverse"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The buyer is definitely trying to negotiate a lower price"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The card fee will always be higher outside the app"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The product will automatically become uninsured"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which response best breaks the scam process when you receive a bank-warning message with a link?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Close the message and check through the official app or phone number"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Open the link but avoid entering your card number"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Reply to ask whether the message is real"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Forward the message to a friend and follow their advice"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "investment_scams",
+      "title": {
+        "en": "Investment Scams"
+      },
+      "description": {
+        "en": "How fake opportunities use return promises, social proof, and withdrawal tricks to make losses look like investments."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 1002,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A scam copies the shape of investing"
+            },
+            "body": {
+              "en": "Investment scams use real investment words: portfolio, signals, arbitrage, dividends, guaranteed income. The language feels financial, but the economics do not work. The key test is whether the promised return makes sense for the risk."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "The impossible promise"
+            },
+            "body": {
+              "en": "High return with low risk is rare. A promise of 5% per month sounds small, but it compounds to almost 80% per year before fees. If such a return were safe and repeatable, large investors would compete it away."
+            },
+            "example": {
+              "en": "₸500,000 growing at 5% monthly becomes about ₸898,000 after one year. That is not a normal safe-income product."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Why early withdrawals may work"
+            },
+            "body": {
+              "en": "Some scams allow small early withdrawals to build trust. That does not prove profit exists. It may only prove new deposits are available to pay old users."
+            },
+            "tip": {
+              "en": "A withdrawal test reduces one risk, but it does not prove the business model is real."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A guaranteed plan that does not add up"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A platform promises 4% per month, no loss, and a bonus if you invite friends. You consider placing ₸1,000,000."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Claim",
+                        "What it implies",
+                        "Question to ask"
+                      ],
+                      [
+                        "4% monthly",
+                        "About 60% per year compounded",
+                        "What risk creates this return?"
+                      ],
+                      [
+                        "No loss",
+                        "Risk is hidden or denied",
+                        "Who absorbs losses?"
+                      ],
+                      [
+                        "Referral bonus",
+                        "Growth may depend on new deposits",
+                        "Is revenue from investing or recruitment?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The problem is not one suspicious detail. It is the combination: high return, no risk, and incentives to bring in more depositors."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Find the broken logic"
+            },
+            "body": {
+              "en": "Each case contains a claim. Choose the mistake that makes the investment reasoning unsafe."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the main error in each investment claim.",
+                "cases": [
+                  {
+                    "text": "“The platform pays 6% per month and says capital is fully protected because trades are made by AI.”",
+                    "options": [
+                      "a) No error",
+                      "b) Return is treated as safe without explaining who bears the risk",
+                      "c) AI always means lower fees"
+                    ],
+                    "correct": "b",
+                    "explanation": "Technology does not remove market risk. A protected return needs a credible source of protection."
+                  },
+                  {
+                    "text": "“My friend withdrew ₸50,000, so the platform must be legitimate.”",
+                    "options": [
+                      "a) No error",
+                      "b) One withdrawal proves long-term solvency",
+                      "c) A small withdrawal does not prove the profit source is real"
+                    ],
+                    "correct": "c",
+                    "explanation": "Early withdrawals can be funded by new deposits or marketing budgets."
+                  },
+                  {
+                    "text": "“The project pays extra when I invite people, but it is still mainly an investment.”",
+                    "options": [
+                      "a) Referral rewards may show dependence on new inflows",
+                      "b) Referral rewards always make an investment safer",
+                      "c) No error"
+                    ],
+                    "correct": "a",
+                    "explanation": "If payouts rely on recruitment, the economics may collapse when new money slows."
+                  }
+                ],
+                "final_explanation": "Investment scams usually fail the same test: they cannot explain a realistic source of return, a real risk bearer, and a sustainable business model."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Return must come from somewhere"
+            },
+            "body": {
+              "en": "A real investment return comes from a business, loan interest, rent, price change, or risk premium. A scam often replaces that explanation with confidence, secrecy, or social proof. Before investing, ask what economic engine pays you."
+            },
+            "tip": {
+              "en": "If the return is clear but the risk is vague, the risk is probably being hidden."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1002,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Investment Scams — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A platform offers 3% weekly returns and says losses are impossible because it uses “private trading signals.” What is the strongest concern?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The promised return is very high while the risk explanation is missing"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Weekly returns are illegal in every situation"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Private signals always produce lower returns than public signals"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The platform should offer returns daily instead"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Someone says a project is safe because many people in a Telegram group posted screenshots of profits. What should you think?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Social proof can be manufactured and does not prove the business model"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A large group automatically makes the investment diversified"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Screenshots are stronger evidence than audited statements"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Profit screenshots prove the regulator approved the project"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which question best tests whether an investment opportunity is economically real?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "What activity generates the return, and who loses money if it goes wrong?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "How attractive is the website design?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "How quickly can I invite friends?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Does the platform use modern financial vocabulary?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "crypto_scams",
+      "title": {
+        "en": "Crypto Scams"
+      },
+      "description": {
+        "en": "How crypto scams exploit custody, irreversible transfers, fake tokens, and confusion between technology and trust."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 1003,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Crypto changes the fraud surface"
+            },
+            "body": {
+              "en": "Crypto does not make fraud new, but it changes what scammers target. Transfers can be hard to reverse, wallets depend on secret keys, and fake tokens can look technical enough to confuse beginners. The core question is still trust and control."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Custody is the center"
+            },
+            "body": {
+              "en": "In crypto, whoever controls the private key or exchange account controls the asset. A scammer does not need to break a blockchain if they can make you approve a transfer, reveal a seed phrase, or connect a wallet to a malicious site."
+            },
+            "tip": {
+              "en": "A seed phrase is not a password reset tool. It is control of the wallet."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Irreversibility raises the cost of mistakes"
+            },
+            "body": {
+              "en": "Many crypto transfers are final once confirmed. That makes verification more important before sending. A small address error, fake support chat, or wrong network can turn a normal mistake into a permanent loss."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same asset, different risks"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two people each hold the equivalent of ₸400,000 in crypto. Their market exposure is similar, but their custody risk is different."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Situation",
+                        "Main control point",
+                        "Main risk"
+                      ],
+                      [
+                        "Exchange account with weak password",
+                        "Login and SMS/email access",
+                        "Account takeover"
+                      ],
+                      [
+                        "Self-custody wallet",
+                        "Seed phrase and transaction approvals",
+                        "Loss or malicious approval"
+                      ],
+                      [
+                        "Unknown high-yield crypto platform",
+                        "Platform operator",
+                        "Withdrawal freeze or exit scam"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Crypto safety is not only about price volatility. It is also about who can move the asset."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Classify the crypto risk"
+            },
+            "body": {
+              "en": "Sort each situation by the risk it mainly creates. Some cases are about custody, others about fake returns or fake assets."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each crypto situation to the best risk category.",
+                "categories": [
+                  {
+                    "id": "custody",
+                    "label": "Custody risk"
+                  },
+                  {
+                    "id": "fake_return",
+                    "label": "Fake return"
+                  },
+                  {
+                    "id": "fake_asset",
+                    "label": "Fake asset"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "seed_phrase",
+                    "text": "A support chat asks for your seed phrase"
+                  },
+                  {
+                    "id": "daily_profit",
+                    "text": "A site promises 2% daily profit with no risk"
+                  },
+                  {
+                    "id": "copy_token",
+                    "text": "A token uses a famous logo but an unknown contract address"
+                  },
+                  {
+                    "id": "wallet_approval",
+                    "text": "A website asks you to approve unlimited spending from your wallet"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "seed_phrase",
+                    "categoryId": "custody"
+                  },
+                  {
+                    "itemId": "daily_profit",
+                    "categoryId": "fake_return"
+                  },
+                  {
+                    "itemId": "copy_token",
+                    "categoryId": "fake_asset"
+                  },
+                  {
+                    "itemId": "wallet_approval",
+                    "categoryId": "custody"
+                  }
+                ],
+                "explanation": "Crypto scams often attack control first. Fake returns and fake assets matter too, but losing custody can move the asset immediately."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Technology is not trust"
+            },
+            "body": {
+              "en": "A blockchain can verify transactions, but it does not verify every project, token, exchange, or person contacting you. In crypto, safety depends on custody, verification, and understanding what can be reversed. Do not confuse technical language with reliability."
+            },
+            "tip": {
+              "en": "Before sending crypto, verify asset, address, network, and reason separately."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1003,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Crypto Scams — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A stranger in a support chat asks for your seed phrase to “sync your wallet.” What is the correct reasoning?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The seed phrase gives control of the wallet and should not be shared"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It is safe if the chat appears after clicking a help button"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It is safe if you change your password afterward"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The seed phrase only shows balances, not spending power"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "You are about to buy a token that has the same name and logo as a popular project but a different contract address. What is the main risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It may be a fake asset designed to look familiar"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It must be cheaper because it is early"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It is automatically safer because fewer people know it"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The logo proves it belongs to the original team"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why can a small test transfer be useful before sending a larger crypto amount?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It can reduce address and network mistake risk before the full amount moves"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It guarantees the recipient is honest"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It reverses the large transfer if anything goes wrong"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It proves the asset price will not fall"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "protection_playbook",
+      "title": {
+        "en": "How to Protect Yourself: Practical Playbook"
+      },
+      "description": {
+        "en": "A repeatable decision system for verifying messages, securing accounts, limiting losses, and reacting quickly after a mistake."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 1004,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Safety is a system, not a mood"
+            },
+            "body": {
+              "en": "You cannot rely on feeling careful every time. Scammers choose moments when you are busy, worried, or excited. A protection playbook gives you rules to follow before emotion takes over."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Verify through a separate channel"
+            },
+            "body": {
+              "en": "Do not verify a message using the contact details inside that same message. Use the bank app, official website, card back number, or known contact. Separate-channel verification breaks the scammer's control of the conversation."
+            },
+            "tip": {
+              "en": "Never let the suspicious message choose the verification route."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Limit what one mistake can cost"
+            },
+            "body": {
+              "en": "Good security assumes mistakes happen. Separate cards, payment limits, strong passwords, two-factor authentication, and alerts reduce damage. The goal is not perfect behavior; it is smaller losses when behavior is imperfect."
+            },
+            "example": {
+              "en": "Keeping only ₸30,000 on a daily spending card limits exposure better than keeping a full salary balance there."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A simple response sequence"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "You clicked a suspicious delivery-payment link and entered card details. Panic wastes time; sequence matters."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Action",
+                        "Why it comes early",
+                        "Example"
+                      ],
+                      [
+                        "Freeze or block the card",
+                        "Stops new charges",
+                        "Use the bank app immediately"
+                      ],
+                      [
+                        "Call the bank officially",
+                        "Creates a fraud record",
+                        "Use the number in the app"
+                      ],
+                      [
+                        "Change related passwords",
+                        "Protects linked access",
+                        "Email and marketplace accounts"
+                      ],
+                      [
+                        "Monitor transactions",
+                        "Finds delayed charges",
+                        "Check alerts for several days"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "After a mistake, the right question is not “How could I fall for this?” It is “What access did I expose, and how do I close it?”"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Choose the safer response"
+            },
+            "body": {
+              "en": "Pick the action that best protects access, money, or evidence in each situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the safest next step.",
+                "options": [
+                  "Verify separately",
+                  "Limit exposure",
+                  "React and contain"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A bank message says to click a link to prevent account closure.",
+                    "correct_answer": "Verify separately",
+                    "explanation": "Use the official app or known number instead of the link in the message."
+                  },
+                  {
+                    "text": "You keep your full monthly salary on the same card used for online shopping.",
+                    "correct_answer": "Limit exposure",
+                    "explanation": "Separate funds or lower card limits so one compromised card cannot drain everything."
+                  },
+                  {
+                    "text": "You entered card details on a suspicious website five minutes ago.",
+                    "correct_answer": "React and contain",
+                    "explanation": "Freeze the card, contact the bank through official channels, and monitor transactions."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "The playbook in one line"
+            },
+            "body": {
+              "en": "Pause before action, verify through a separate channel, limit how much one mistake can cost, and react quickly if access is exposed. This system works across bank fraud, investment scams, and crypto scams because all of them need either trust, access, or irreversible payment."
+            },
+            "tip": {
+              "en": "Good protection is boring on purpose: fewer urgent decisions, fewer single points of failure."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1004,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "How to Protect Yourself — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A message claims to be from your bank and includes a phone number to call urgently. What is the safest next step?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Ignore that number and contact the bank through the official app or known number"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Call the number because phone calls are safer than links"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Reply asking the sender to prove they work for the bank"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Send only your card number but not the SMS code"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which setup best limits the damage from one compromised card?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Use a separate card with a low balance or spending limit for online purchases"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Keep all money on one card so it is easier to monitor"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Use the same password everywhere to avoid forgetting it"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Disable transaction alerts to avoid panic"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "You entered your login and password on a fake page. What should come first?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Change the password from the official site and secure related accounts"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Wait to see whether anything happens"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Warn friends before securing your own access"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Delete the browser history so the page disappears"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 1099,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Fraud, Scams & Financial Safety — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "A caller creates urgency, knows some personal details, and asks for an SMS code. Which model best explains the danger?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "They are combining trust signals with access control to make you authorize the fraud"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "They are safe because real scammers never know personal details"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "The only risk is that the call wastes time"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "The danger disappears if the caller says the transfer is being canceled"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "An investment platform promises 5% per month and says the strategy has no downside because it is “AI-managed.” What should you focus on first?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Whether the return source and risk bearer are realistically explained"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Whether the app interface looks modern"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Whether you can invite friends for a bonus"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Whether the platform uses finance vocabulary correctly"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "A crypto site asks you to connect your wallet and approve unlimited spending to receive a reward. What is the main concern?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The approval may give the site control to move assets from the wallet"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Rewards are always taxed immediately"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Wallet connection can only display balances"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Unlimited approval is safer because it avoids repeated confirmations"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "Which habit is the strongest general defense across bank fraud, fake investments, and crypto scams?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Pause and verify through a separate trusted channel before moving money or access"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Trust offers that come from friends because they have already checked them"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Act quickly when the message mentions account closure"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Use the same payment method everywhere for convenience"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "You clicked a suspicious payment link and entered card details. What is the best immediate sequence?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Freeze the card, contact the bank officially, change related passwords, and monitor transactions"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Wait for a charge before doing anything"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Ask the suspicious website to delete your information"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Only change your marketplace password and keep the card active"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

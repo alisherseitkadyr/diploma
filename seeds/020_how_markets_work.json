@@ -1,0 +1,1736 @@
+{
+  "section": "funds_accounts_markets",
+  "topic": {
+    "code": "how_markets_work",
+    "orderIndex": 20,
+    "title": {
+      "en": "How Markets Work"
+    },
+    "description": {
+      "en": "Who is on the other side of every trade, how shares first reach the market, and why consistently beating prices is so hard."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "market_participants",
+      "title": {
+        "en": "Market Participants"
+      },
+      "description": {
+        "en": "Every market price is formed by participants with different goals, information, time horizons, and constraints."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 2001,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Every trade has two sides"
+            },
+            "body": {
+              "en": "When you buy a security, someone else sells it. That does not mean one side is stupid. It means participants may have different goals, time horizons, risk limits, taxes, or information."
+            },
+            "tip": {
+              "en": "Before trading, ask why the other side might willingly take the opposite position."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Participants want different things"
+            },
+            "body": {
+              "en": "A pension fund may want stable long-term exposure. A trader may want a short-term price move. A company insider may need liquidity, while a market maker earns from spreads. The same price can make sense to different people for different reasons."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Liquidity comes from interaction"
+            },
+            "body": {
+              "en": "Markets work better when many buyers and sellers are willing to trade. More liquidity usually means tighter bid-ask spreads and easier execution. Thin markets can move sharply because one large order overwhelms available buyers or sellers."
+            },
+            "example": {
+              "en": "Selling ₸5,000,000 of a heavily traded ETF may barely move the price; selling the same amount of a tiny stock can push the price down."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same stock, different motives"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A stock trades at ₸8,000. Four participants may look at the same quote and act differently."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Participant",
+                        "Possible action",
+                        "Reason"
+                      ],
+                      [
+                        "Long-term investor",
+                        "Buy",
+                        "Wants ownership for 10 years"
+                      ],
+                      [
+                        "Retiree",
+                        "Sell",
+                        "Needs cash for expenses"
+                      ],
+                      [
+                        "Trader",
+                        "Sell short-term",
+                        "Expects weak earnings this week"
+                      ],
+                      [
+                        "Market maker",
+                        "Buy and sell",
+                        "Provides liquidity and earns spread"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A trade happens because motives differ, not because the price has only one obvious meaning."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Match the participant"
+            },
+            "body": {
+              "en": "Choose which participant motive best fits each scenario."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the participant role that best explains the action.",
+                "options": [
+                  "Long-term investor",
+                  "Trader",
+                  "Liquidity provider",
+                  "Cash-needing seller"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A fund buys a broad index and plans to hold it for many years.",
+                    "correct_answer": "Long-term investor",
+                    "explanation": "The motive is long-term exposure, not a quick price move."
+                  },
+                  {
+                    "text": "A person sells shares to fund a house down payment next month.",
+                    "correct_answer": "Cash-needing seller",
+                    "explanation": "The sale may reflect personal liquidity needs, not a negative view of the company."
+                  },
+                  {
+                    "text": "A firm quotes both buy and sell prices all day to help trades happen.",
+                    "correct_answer": "Liquidity provider",
+                    "explanation": "Market makers and similar participants help connect buyers and sellers."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Markets aggregate motives"
+            },
+            "body": {
+              "en": "A market price is created by many participants acting for different reasons. Understanding the other side of a trade makes you more careful about confidence. Your decision should account for liquidity, time horizon, and why someone else is willing to trade."
+            },
+            "tip": {
+              "en": "A price is not a command. It is the current meeting point of many motives."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2001,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Market Participants — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "You buy a stock because you think it is undervalued. What should you remember about the seller?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They may have different goals or constraints, not necessarily worse information"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They must be irrational if they sell"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They legally know the future price"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They cannot have a valid reason to sell"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can a low-liquidity stock move sharply after one large sell order?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "There may not be enough buyers near the current price to absorb the order"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Low liquidity guarantees higher profit"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The exchange cancels all buyers"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The company must issue dividends immediately"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which statement best describes market participants?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They can trade the same asset for different reasons and time horizons"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They all have identical goals"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Only professional traders influence prices"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Retail investors never trade with institutions"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "primary_and_secondary_markets",
+      "title": {
+        "en": "Primary and Secondary Markets"
+      },
+      "description": {
+        "en": "Primary markets raise new capital for issuers; secondary markets let investors trade existing securities with each other."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 2002,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Not every trade funds a company"
+            },
+            "body": {
+              "en": "Buying a share on an exchange usually does not send money to the company. It sends money to another investor selling an existing share. Companies raise new money mainly in primary markets."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Primary markets create new securities"
+            },
+            "body": {
+              "en": "In a primary market transaction, an issuer sells new shares or bonds to raise capital. The money goes to the issuer, often for growth, refinancing, or strengthening the balance sheet. IPOs and new bond issues are common examples."
+            },
+            "tip": {
+              "en": "Primary market: money moves from investors to the issuer."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Secondary markets create exit and price discovery"
+            },
+            "body": {
+              "en": "Secondary markets let investors buy and sell securities after issuance. The issuer usually does not receive cash from these trades, but benefits indirectly because liquid markets can make future fundraising easier. Secondary trading also reveals what investors currently believe securities are worth."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Where the money goes"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A company issues shares, then months later those shares trade between investors."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Event",
+                        "Market type",
+                        "Who receives investor money?"
+                      ],
+                      [
+                        "Company sells new shares for ₸10 billion",
+                        "Primary",
+                        "The company"
+                      ],
+                      [
+                        "Investor A sells shares to Investor B",
+                        "Secondary",
+                        "Investor A"
+                      ],
+                      [
+                        "Company issues new bonds",
+                        "Primary",
+                        "The company"
+                      ],
+                      [
+                        "Bondholder sells bond before maturity",
+                        "Secondary",
+                        "Bondholder"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Secondary markets do not usually fund the company directly, but they make ownership easier to enter and exit."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Primary or secondary?"
+            },
+            "body": {
+              "en": "Classify each market event by where it belongs."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each event to the correct market type.",
+                "categories": [
+                  {
+                    "id": "primary",
+                    "label": "Primary market"
+                  },
+                  {
+                    "id": "secondary",
+                    "label": "Secondary market"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "new_shares",
+                    "text": "A company sells newly issued shares"
+                  },
+                  {
+                    "id": "exchange_trade",
+                    "text": "One investor buys existing shares from another"
+                  },
+                  {
+                    "id": "new_bond",
+                    "text": "A company issues a new bond to raise money"
+                  },
+                  {
+                    "id": "fund_sells",
+                    "text": "A fund sells shares it already owned"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "new_shares",
+                    "categoryId": "primary"
+                  },
+                  {
+                    "itemId": "exchange_trade",
+                    "categoryId": "secondary"
+                  },
+                  {
+                    "itemId": "new_bond",
+                    "categoryId": "primary"
+                  },
+                  {
+                    "itemId": "fund_sells",
+                    "categoryId": "secondary"
+                  }
+                ],
+                "explanation": "Primary markets finance issuers. Secondary markets transfer existing securities between investors."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Both markets support the system"
+            },
+            "body": {
+              "en": "Primary markets help companies and governments raise capital. Secondary markets give investors liquidity and continuous pricing. A strong secondary market can make primary issuance more attractive because investors know they may later exit."
+            },
+            "tip": {
+              "en": "Primary markets create securities; secondary markets keep them tradable."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2002,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Primary and Secondary Markets — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "You buy shares of a listed company from another investor through an app. Who usually receives your money?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The selling investor, not the company"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The company directly in every trade"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The government pension fund automatically"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "No one, because app trades are simulated"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why do companies care about secondary markets if they do not receive money from every trade?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Liquidity and pricing can make future fundraising easier and more attractive"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Secondary markets force investors to lend for free"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Secondary markets remove all business risk"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Companies receive every bid-ask spread"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which event is a primary market transaction?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A company issues new bonds to investors"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "An investor sells an old bond to another investor"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A trader buys shares from a fund on an exchange"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A retiree sells shares for living expenses"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "ipos",
+      "title": {
+        "en": "IPOs"
+      },
+      "description": {
+        "en": "An IPO is the first public sale of a company's shares, bringing new capital, liquidity, scrutiny, and valuation uncertainty."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 2003,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Going public changes the company"
+            },
+            "body": {
+              "en": "An IPO, or initial public offering, is when a company first sells shares to public investors. It can raise capital and allow early owners to sell some shares. It also brings public reporting, market pressure, and a visible share price."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "IPO price is negotiated, not discovered perfectly"
+            },
+            "body": {
+              "en": "Before trading begins, banks and the company estimate demand and set an offering price. That price is not guaranteed to be fair. Once shares trade publicly, the market may price them higher or lower based on broader investor demand."
+            },
+            "tip": {
+              "en": "An IPO price is an opening negotiation, not proof of value."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Early excitement can hide uncertainty"
+            },
+            "body": {
+              "en": "New listings often have limited public history and strong marketing attention. Investors may extrapolate growth too far or ignore risks. A good IPO decision still asks about business quality, valuation, lockups, profitability, and competition."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "From private company to public stock"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A private company wants to raise ₸50 billion to expand. It sells new shares to public investors through an IPO."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Stage",
+                        "What happens",
+                        "Main question"
+                      ],
+                      [
+                        "Before IPO",
+                        "Company is privately held",
+                        "What is the business worth?"
+                      ],
+                      [
+                        "IPO offering",
+                        "New shares sold to investors",
+                        "Is the offer price reasonable?"
+                      ],
+                      [
+                        "First trading day",
+                        "Shares trade publicly",
+                        "Does market demand differ from offer assumptions?"
+                      ],
+                      [
+                        "After IPO",
+                        "Public reporting begins",
+                        "Can the company deliver results?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The IPO gives access to public investors, but it does not remove the need to judge price and business risk."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Find the IPO mistake"
+            },
+            "body": {
+              "en": "Each claim contains a common IPO reasoning error. Choose the mistake."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the main error in each IPO claim.",
+                "cases": [
+                  {
+                    "text": "“The IPO is popular, so the stock must be worth buying at any price.”",
+                    "options": [
+                      "a) Popularity does not replace valuation analysis",
+                      "b) No error",
+                      "c) Popular IPOs cannot fall"
+                    ],
+                    "correct": "a",
+                    "explanation": "Demand can push price above reasonable value."
+                  },
+                  {
+                    "text": "“The company is newly public, so there is no business risk.”",
+                    "options": [
+                      "a) No error",
+                      "b) New public status does not remove competition, execution, or profitability risk",
+                      "c) IPO companies cannot have debt"
+                    ],
+                    "correct": "b",
+                    "explanation": "Public listing changes access, not the economics of the company."
+                  },
+                  {
+                    "text": "“If the first-day price jumps, the offer price was definitely perfect.”",
+                    "options": [
+                      "a) No error",
+                      "b) First-day movement reflects demand and pricing tension, not perfect valuation",
+                      "c) First-day jumps guarantee long-term returns"
+                    ],
+                    "correct": "b",
+                    "explanation": "A first-day jump can mean strong demand, underpricing, or speculation."
+                  }
+                ],
+                "final_explanation": "IPO investing requires separating access, excitement, valuation, and business quality."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "An IPO is a beginning, not a verdict"
+            },
+            "body": {
+              "en": "An IPO can be important for a company, but investors still need ordinary investment discipline. The public listing creates tradable shares and new information, not guaranteed value. Evaluate the business, price, incentives, and uncertainty before joining the excitement."
+            },
+            "tip": {
+              "en": "A famous IPO can still be an overpriced investment."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2003,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "IPOs — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why can an IPO be risky even when demand is high?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "High demand can coexist with uncertain valuation, limited history, and overexcitement"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "High demand guarantees no loss"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "IPO shares are not real shares"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Public companies cannot face competition"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What does an IPO usually allow a company to do?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Sell shares to public investors and potentially raise capital"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Avoid all future reporting"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Guarantee dividend payments forever"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Eliminate business risk"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which question is most useful before buying an IPO?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Is the offered valuation reasonable compared with the company's risks and future cash flows?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Is the IPO being discussed online?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Did the stock rise in the first hour?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Is the company logo familiar?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "market_efficiency",
+      "title": {
+        "en": "Market Efficiency"
+      },
+      "description": {
+        "en": "Market efficiency means prices often reflect available information quickly, making consistent outperformance difficult but not making markets perfect."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 2004,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Prices are hard to beat"
+            },
+            "body": {
+              "en": "Market efficiency is the idea that prices often incorporate available information quickly. If many smart participants search for mispricing, obvious bargains become rare. This does not mean prices are always correct, but it makes beating them consistently hard."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Information has competition"
+            },
+            "body": {
+              "en": "When news appears, investors, algorithms, funds, and traders react. Their buying and selling moves the price toward a new estimate of value. By the time a casual investor sees the headline, much of the information may already be reflected."
+            },
+            "tip": {
+              "en": "Knowing public news is not enough; you need an insight the price has not already captured."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Efficiency is not perfection"
+            },
+            "body": {
+              "en": "Markets can overreact, underreact, or misprice assets, especially when uncertainty is high. But finding a mistake is different from benefiting after costs, timing, and risk. A price can be wrong and still hard to trade profitably."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "The headline is already in the price"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A company announces strong earnings at 9:00. Thousands of participants read and trade on the news quickly."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Time",
+                        "Event",
+                        "Price effect"
+                      ],
+                      [
+                        "Before news",
+                        "Investors estimate earnings",
+                        "Old expectations in price"
+                      ],
+                      [
+                        "9:00",
+                        "Earnings released",
+                        "Fast reaction begins"
+                      ],
+                      [
+                        "9:01–9:10",
+                        "Large traders update models",
+                        "Price jumps or falls"
+                      ],
+                      [
+                        "Later",
+                        "Retail investors read headlines",
+                        "Easy part may already be priced"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The issue is not whether the news matters. It is whether you can act before the price adjusts."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Efficiency or misconception?"
+            },
+            "body": {
+              "en": "Label each statement about market efficiency."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the best label.",
+                "options": [
+                  "Efficiency idea",
+                  "Misconception",
+                  "Possible inefficiency"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Public information can be reflected in prices very quickly.",
+                    "correct_answer": "Efficiency idea",
+                    "explanation": "This is the core reason beating public news is difficult."
+                  },
+                  {
+                    "text": "Market efficiency means prices are always perfectly correct.",
+                    "correct_answer": "Misconception",
+                    "explanation": "Efficiency is about how hard mispricing is to exploit, not perfection."
+                  },
+                  {
+                    "text": "A small, ignored company has little analyst coverage and confusing financial statements.",
+                    "correct_answer": "Possible inefficiency",
+                    "explanation": "Less attention and more complexity can create room for pricing mistakes, though profit is not guaranteed."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Respect the price, but do not worship it"
+            },
+            "body": {
+              "en": "Market efficiency teaches humility. Prices are not always right, but they are formed by competition among many informed participants. If you think you see a bargain, ask what you know that the market has missed and why it has not already been priced."
+            },
+            "tip": {
+              "en": "The harder question is not “Am I right?” but “Why is the market wrong?”"
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2004,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Market Efficiency — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A company releases obvious good news, and the stock jumps before you can buy. What does this illustrate?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Public information can be incorporated into prices quickly"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Good news never affects stocks"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Only retail investors set prices"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The market must be illegal"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is the correct meaning of market efficiency?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Prices often reflect available information enough that consistent outperformance is difficult"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Prices are always perfectly correct"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "No investor can ever make money"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "All assets have the same return"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "You believe a stock is mispriced. Which question best tests your reasoning?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "What information or interpretation do I have that the current price does not already reflect?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Did the stock fall yesterday?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Is the ticker easy to remember?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Do I personally like the product?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "bull_and_bear_markets",
+      "title": {
+        "en": "Bull and Bear Markets"
+      },
+      "description": {
+        "en": "Bull and bear markets describe broad rising or falling market environments, but labels can oversimplify risk and opportunity."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 2005,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Market mood becomes a label"
+            },
+            "body": {
+              "en": "A bull market usually describes a broad period of rising prices and optimism. A bear market describes a broad decline and pessimism. These labels summarize conditions, but they do not tell you exactly what to buy, sell, or feel."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Bull markets can hide risk"
+            },
+            "body": {
+              "en": "Rising markets can make risky decisions feel intelligent. Leverage, concentration, and weak analysis may look good while prices rise. The danger is confusing a favorable environment with personal skill."
+            },
+            "tip": {
+              "en": "A bull market can reward bad process for a while."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Bear markets can create opportunity and stress"
+            },
+            "body": {
+              "en": "Falling markets reduce prices, but they also test cash flow, patience, and risk tolerance. A lower price is useful only if the investor can hold through uncertainty and the asset remains fundamentally sound. Panic selling turns temporary volatility into permanent loss."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same investor, different market environment"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor contributes ₸100,000 monthly to a broad equity fund. The meaning of the same action changes with the market environment."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Environment",
+                        "Investor feeling",
+                        "Risk to manage"
+                      ],
+                      [
+                        "Bull market",
+                        "Confidence grows",
+                        "Overconfidence and chasing returns"
+                      ],
+                      [
+                        "Bear market",
+                        "Fear rises",
+                        "Stopping contributions or selling low"
+                      ],
+                      [
+                        "Sideways market",
+                        "Impatience grows",
+                        "Abandoning the plan too early"
+                      ],
+                      [
+                        "All markets",
+                        "Uncertainty remains",
+                        "Need a rule-based plan"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The plan should be designed before market mood changes, not invented during panic or excitement."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Market label, investor risk"
+            },
+            "body": {
+              "en": "Choose the main behavioral risk in each market scenario."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best risk label.",
+                "options": [
+                  "Overconfidence",
+                  "Panic selling",
+                  "Plan discipline"
+                ],
+                "scenarios": [
+                  {
+                    "text": "After two years of rising prices, an investor borrows money to buy more because they feel unstoppable.",
+                    "correct_answer": "Overconfidence",
+                    "explanation": "Bull markets can make leverage and concentration feel safer than they are."
+                  },
+                  {
+                    "text": "After a 25% market fall, an investor sells a long-term fund needed only in 15 years.",
+                    "correct_answer": "Panic selling",
+                    "explanation": "The investor may be converting a temporary market decline into a permanent decision."
+                  },
+                  {
+                    "text": "An investor keeps a fixed monthly contribution because the goal and horizon have not changed.",
+                    "correct_answer": "Plan discipline",
+                    "explanation": "A pre-set rule reduces emotional reaction to market labels."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Labels are context, not instructions"
+            },
+            "body": {
+              "en": "Bull and bear markets describe broad price environments, but they are not complete investment strategies. The useful response depends on time horizon, cash needs, asset quality, and risk tolerance. A plan built only around mood will change at the worst moments."
+            },
+            "tip": {
+              "en": "Use market labels to understand context, not to replace your plan."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2005,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Bull and Bear Markets — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why can a bull market make weak investment decisions look smart temporarily?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Rising prices can reward risk-taking even when the process is poor"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Bull markets eliminate all risk"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Every investor becomes skilled during a bull market"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Bad companies cannot rise in bull markets"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A long-term investor sells after a broad 30% decline even though their goal is 20 years away. What risk is this?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Panic selling that may lock in a loss"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Perfect market timing"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Primary market issuance"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Guaranteed risk reduction with no trade-off"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the best use of bull and bear market labels?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They provide context, but decisions still need goals, horizon, and risk analysis"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They tell every investor exactly when to buy and sell"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They replace asset allocation"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They prove future returns with certainty"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 2099,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "How Markets Work — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "Why is it useful to think about the other side of a trade?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It forces you to consider different motives, information, and constraints behind the price"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It proves the seller is always wrong"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It guarantees your trade will profit"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It removes the need for liquidity analysis"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "You buy existing listed shares from another investor. What market is this usually?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Secondary market"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Primary market"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Internal company payroll"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "A tax-deferred account"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "What is a key risk of buying an IPO mainly because it is popular?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Popularity can hide valuation risk and limited public history"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "IPOs cannot trade after listing"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "IPO shares never represent ownership"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Popular IPOs are guaranteed by the exchange"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "What does market efficiency suggest about trading on public headlines?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The information may already be reflected in the price by the time you react"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Public headlines are never relevant"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Prices are always perfectly correct"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Only private investors can move markets"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "A bear market makes an investor want to abandon a long-term plan. What should they check first?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Whether their goal, time horizon, cash needs, and asset quality actually changed"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Whether the market label sounds scary"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Whether all assets should be sold immediately"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Whether bull markets are guaranteed next week"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

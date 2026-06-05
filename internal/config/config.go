@@ -15,8 +15,7 @@ type Config struct {
 	GoogleClientID            string
 	AccessTokenTTL            time.Duration
 	RefreshTokenTTL           time.Duration
-	ReinforcementMLServiceURL string
-	NextLessonMLServiceURL    string
+	NextTopicMLServiceURL string
 }
 
 func Load() *Config {
@@ -42,8 +41,7 @@ func Load() *Config {
 		GoogleClientID:            os.Getenv("GOOGLE_CLIENT_ID"),
 		AccessTokenTTL:            accessTokenTTL,
 		RefreshTokenTTL:           refreshTokenTTL,
-		ReinforcementMLServiceURL: os.Getenv("REINFORCEMENT_ML_SERVICE_URL"),
-		NextLessonMLServiceURL:    os.Getenv("NEXT_LESSON_ML_SERVICE_URL"),
+		NextTopicMLServiceURL: os.Getenv("NEXT_TOPIC_ML_SERVICE_URL"),
 	}
 
 	validate(cfg)
@@ -70,10 +68,7 @@ func validate(cfg *Config) {
 	if cfg.RefreshTokenTTL <= 0 {
 		log.Fatal("REFRESH_TOKEN_TTL must be greater than 0")
 	}
-	if cfg.ReinforcementMLServiceURL == "" {
-		log.Println("REINFORCEMENT_ML_SERVICE_URL is empty, reinforcement ML calls will be disabled")
-	}
-	if cfg.NextLessonMLServiceURL == "" {
-		log.Println("NEXT_LESSON_ML_SERVICE_URL is empty, next lesson ML calls will use fallback ranker")
+	if cfg.NextTopicMLServiceURL == "" {
+		log.Println("NEXT_TOPIC_ML_SERVICE_URL is empty, next topic ML calls will use fallback ranker")
 	}
 }

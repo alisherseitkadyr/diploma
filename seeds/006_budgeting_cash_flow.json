@@ -1,0 +1,1809 @@
+{
+  "section": "budgeting_saving_debt",
+  "topic": {
+    "code": "budgeting_cash_flow",
+    "orderIndex": 6,
+    "title": {
+      "en": "Budgeting & Cash Flow"
+    },
+    "description": {
+      "en": "Turning income into a deliberate plan — separating fixed from variable spending, choosing a budgeting system, and resisting lifestyle creep."
+    },
+    "level": "beginner",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "fixed_and_variable_expenses",
+      "title": {
+        "en": "Fixed and Variable Expenses"
+      },
+      "description": {
+        "en": "Fixed expenses repeat and are harder to change quickly; variable expenses move month to month and give more room for adjustment."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 601,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Not all spending behaves the same"
+            },
+            "body": {
+              "en": "A budget becomes easier when you know which expenses are fixed and which are variable. Fixed expenses repeat and are harder to change quickly. Variable expenses change more often and usually give the first room for adjustment."
+            },
+            "tip": {
+              "en": "The category matters because it tells you how fast you can change the spending."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Fixed expenses create commitments"
+            },
+            "body": {
+              "en": "Rent, loan payments, subscriptions, and insurance premiums can behave like fixed expenses. They often repeat automatically and must be paid before flexible choices. Too many fixed commitments can make a good income feel tight."
+            },
+            "example": {
+              "en": "If ₸250,000 of a ₸400,000 income is fixed before food and transport, the budget has little room to breathe."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Variable expenses reveal habits"
+            },
+            "body": {
+              "en": "Food delivery, taxis, entertainment, gifts, and shopping may change every month. These expenses are not automatically bad, but they need limits. Small variable leaks can become the difference between saving and running out of money."
+            },
+            "tip": {
+              "en": "Variable spending is where awareness often creates quick progress."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A monthly expense map"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A student-worker earns ₸320,000 per month. The first step is seeing which expenses are locked in and which can be adjusted."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Expense",
+                        "Monthly amount",
+                        "Type",
+                        "Planning note"
+                      ],
+                      [
+                        "Rent",
+                        "₸120,000",
+                        "Fixed",
+                        "Hard to change this month"
+                      ],
+                      [
+                        "Phone plan",
+                        "₸7,000",
+                        "Fixed",
+                        "Can review once in a while"
+                      ],
+                      [
+                        "Groceries",
+                        "₸65,000",
+                        "Variable",
+                        "Can set a weekly limit"
+                      ],
+                      [
+                        "Food delivery",
+                        "₸45,000",
+                        "Variable",
+                        "Good place to reduce leakage"
+                      ],
+                      [
+                        "Transport",
+                        "₸28,000",
+                        "Variable",
+                        "Depends on habits and schedule"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The goal is not to shame spending. The goal is to know which levers can move quickly."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Sort the expenses"
+            },
+            "body": {
+              "en": "Classify each expense by how it usually behaves in a monthly budget."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each expense into fixed or variable.",
+                "categories": [
+                  {
+                    "id": "fixed",
+                    "label": "Fixed expense"
+                  },
+                  {
+                    "id": "variable",
+                    "label": "Variable expense"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "rent",
+                    "text": "Rent payment"
+                  },
+                  {
+                    "id": "subscription",
+                    "text": "Monthly subscription"
+                  },
+                  {
+                    "id": "delivery",
+                    "text": "Food delivery"
+                  },
+                  {
+                    "id": "shopping",
+                    "text": "Clothes shopping"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "rent",
+                    "categoryId": "fixed"
+                  },
+                  {
+                    "itemId": "subscription",
+                    "categoryId": "fixed"
+                  },
+                  {
+                    "itemId": "delivery",
+                    "categoryId": "variable"
+                  },
+                  {
+                    "itemId": "shopping",
+                    "categoryId": "variable"
+                  }
+                ],
+                "explanation": "Fixed expenses repeat and are harder to change quickly. Variable expenses change with behavior and usually offer faster adjustment."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Control starts with behavior type"
+            },
+            "body": {
+              "en": "Fixed expenses shape how much freedom your budget has before the month begins. Variable expenses show where habits can change this month. A strong budget watches both: reduce fixed commitments slowly and manage variable spending weekly."
+            },
+            "tip": {
+              "en": "A low fixed-cost life is easier to adapt when income changes."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 601,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Fixed and Variable Expenses — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why can high fixed expenses make a budget fragile?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They use income before flexible choices and are hard to reduce quickly"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They are always smaller than variable expenses"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They disappear when income falls"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They never repeat"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which expense is usually variable?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Food delivery"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Rent contract"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Fixed loan payment"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Monthly insurance premium"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the best first step when cash feels tight this month?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Review variable spending because it can often be adjusted fastest"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Ignore all spending until next month"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Cancel rent immediately without a housing plan"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Assume income is the only problem"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "budgeting_systems",
+      "title": {
+        "en": "Budgeting Systems"
+      },
+      "description": {
+        "en": "A budgeting system turns income into a repeatable rule, such as zero-based budgeting, envelope categories, or percentage-based planning."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 602,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A budget is a system, not a punishment"
+            },
+            "body": {
+              "en": "A budget is a plan for what each tenge should do before it disappears. It is not only for people with low income. A good system reduces surprise and makes spending choices intentional."
+            },
+            "tip": {
+              "en": "The best budget is the one you can actually maintain."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Zero-based budgeting gives every tenge a job"
+            },
+            "body": {
+              "en": "In zero-based budgeting, income minus planned expenses, saving, and debt payments equals zero. Zero does not mean you spend everything. It means every tenge is assigned to a purpose, including saving."
+            },
+            "example": {
+              "en": "If income is ₸300,000, the plan might assign ₸210,000 to expenses, ₸50,000 to savings, and ₸40,000 to debt repayment."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Simple percentage systems reduce effort"
+            },
+            "body": {
+              "en": "A percentage system splits income into broad groups, such as needs, wants, and savings. It is less precise than zero-based budgeting but easier to maintain. It works well when you need structure without tracking every receipt."
+            },
+            "tip": {
+              "en": "More detailed is not always better if it makes you quit."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Choosing a system"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Three people can use different systems because their problems are different."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Situation",
+                        "Possible system",
+                        "Why it fits"
+                      ],
+                      [
+                        "Money disappears without knowing where",
+                        "Zero-based budget",
+                        "Every tenge is assigned"
+                      ],
+                      [
+                        "Overspending in food and shopping",
+                        "Envelope categories",
+                        "Limits problem categories"
+                      ],
+                      [
+                        "Busy person wants simple rules",
+                        "Percentage budget",
+                        "Tracks broad groups"
+                      ],
+                      [
+                        "Irregular income",
+                        "Priority-based budget",
+                        "Funds essentials first"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A budgeting system should solve the user's real failure point, not just look perfect on paper."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Pick the budget system"
+            },
+            "body": {
+              "en": "Choose which budgeting system best fits each situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the most suitable budgeting system.",
+                "options": [
+                  "Zero-based budget",
+                  "Envelope categories",
+                  "Percentage budget",
+                  "Priority-based budget"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Income is irregular, and essentials must be protected first.",
+                    "correct_answer": "Priority-based budget",
+                    "explanation": "Irregular income needs essentials, savings, and debt priorities funded before optional spending."
+                  },
+                  {
+                    "text": "The person overspends mostly on restaurants and delivery.",
+                    "correct_answer": "Envelope categories",
+                    "explanation": "Category limits help control specific spending leaks."
+                  },
+                  {
+                    "text": "The person wants a simple monthly split without tracking every item.",
+                    "correct_answer": "Percentage budget",
+                    "explanation": "A percentage system gives broad structure with lower effort."
+                  },
+                  {
+                    "text": "The person wants every tenge assigned before the month begins.",
+                    "correct_answer": "Zero-based budget",
+                    "explanation": "Zero-based budgeting assigns all income to expenses, saving, debt, or goals."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Fit beats perfection"
+            },
+            "body": {
+              "en": "Budgeting systems are tools, not personality tests. The right system fits your income pattern, problem categories, and tracking tolerance. A simple system used every month beats a perfect spreadsheet abandoned after two weeks."
+            },
+            "tip": {
+              "en": "Choose the system that reduces mistakes with the least friction."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 602,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Budgeting Systems — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "In zero-based budgeting, what does “zero” mean?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Every tenge is assigned to a purpose, including saving or debt repayment"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "You must spend all income on shopping"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Your bank balance must become zero"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Savings are not allowed"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which system is best for controlling one problem category like food delivery?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Envelope categories"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Ignoring categories"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A system with no limits"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Only checking income once a year"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What makes a budgeting system successful?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It is realistic enough to repeat consistently"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It is as complicated as possible"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It tracks every coin even if the user quits"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It removes all spending choices forever"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "spending_analysis",
+      "title": {
+        "en": "Spending Analysis"
+      },
+      "description": {
+        "en": "Spending analysis finds patterns, leaks, and trade-offs in past behavior so future budgets can be realistic."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 603,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Your past spending is data"
+            },
+            "body": {
+              "en": "Spending analysis means looking at what actually happened, not what you planned or hoped. It turns bank history into information about habits. This helps create a budget that fits real behavior."
+            },
+            "tip": {
+              "en": "A budget based on memory is usually too optimistic."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Look for patterns, not guilt"
+            },
+            "body": {
+              "en": "The goal is not to feel bad about every purchase. The goal is to find repeated patterns: daily snacks, taxis after late mornings, subscriptions, impulse shopping, or weekend spending. Repeated small choices often matter more than one big mistake."
+            },
+            "example": {
+              "en": "₸3,000 spent five times a week becomes about ₸60,000 per month."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Separate needs, wants, and leaks"
+            },
+            "body": {
+              "en": "Needs support basic living and obligations. Wants improve life but are optional. Leaks are spending you barely value after it happens. The best cuts often come from leaks, not from removing every want."
+            },
+            "tip": {
+              "en": "A good budget protects joy by removing low-value leakage."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "One month of spending clues"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A person reviews one month of spending and groups it by pattern."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Category",
+                        "Monthly total",
+                        "Pattern found",
+                        "Possible action"
+                      ],
+                      [
+                        "Groceries",
+                        "₸70,000",
+                        "Stable and necessary",
+                        "Keep planned limit"
+                      ],
+                      [
+                        "Food delivery",
+                        "₸58,000",
+                        "Mostly late-night orders",
+                        "Meal prep or delivery cap"
+                      ],
+                      [
+                        "Subscriptions",
+                        "₸18,000",
+                        "Two unused services",
+                        "Cancel unused ones"
+                      ],
+                      [
+                        "Taxis",
+                        "₸42,000",
+                        "Often after waking late",
+                        "Fix morning routine"
+                      ],
+                      [
+                        "Entertainment",
+                        "₸35,000",
+                        "High value with friends",
+                        "Keep but plan"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Spending analysis works best when it asks which expenses create value and which only happen by default."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Need, want, or leak?"
+            },
+            "body": {
+              "en": "Classify each expense by how it functions in the budget."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each expense to the best category.",
+                "categories": [
+                  {
+                    "id": "need",
+                    "label": "Need"
+                  },
+                  {
+                    "id": "want",
+                    "label": "Want"
+                  },
+                  {
+                    "id": "leak",
+                    "label": "Leak"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "rent",
+                    "text": "Rent payment"
+                  },
+                  {
+                    "id": "friend_dinner",
+                    "text": "Planned dinner with friends"
+                  },
+                  {
+                    "id": "unused_subscription",
+                    "text": "Unused subscription"
+                  },
+                  {
+                    "id": "panic_taxi",
+                    "text": "Taxi caused by repeatedly waking late"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "rent",
+                    "categoryId": "need"
+                  },
+                  {
+                    "itemId": "friend_dinner",
+                    "categoryId": "want"
+                  },
+                  {
+                    "itemId": "unused_subscription",
+                    "categoryId": "leak"
+                  },
+                  {
+                    "itemId": "panic_taxi",
+                    "categoryId": "leak"
+                  }
+                ],
+                "explanation": "Needs and meaningful wants can stay planned. Leaks are the easiest targets because they provide little value after the money is gone."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Use analysis to choose one fix"
+            },
+            "body": {
+              "en": "Spending analysis should end with action, not only labels. Find one or two repeated leaks and design a fix for them. A small repeated improvement can change cash flow more than a dramatic one-week spending ban."
+            },
+            "tip": {
+              "en": "Track to learn, then change the system."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 603,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Spending Analysis — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Why analyze past spending before building a budget?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It shows real patterns and helps make the next budget realistic"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It proves all spending is bad"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It replaces the need to plan"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It guarantees income will rise"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which expense is most likely a leak?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "An unused subscription that renews monthly"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Rent for the place you live"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A planned gift you value"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Groceries within a realistic limit"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is the best outcome of spending analysis?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Finding repeated low-value patterns and choosing a system fix"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Feeling guilty about every purchase"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Deleting all wants from life"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Avoiding bank statements"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "conscious_spending",
+      "title": {
+        "en": "Conscious Spending"
+      },
+      "description": {
+        "en": "Conscious spending means spending freely on what matters after protecting essentials, goals, and future stability."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 604,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Spend on purpose"
+            },
+            "body": {
+              "en": "Conscious spending is not extreme frugality. It means choosing where money creates real value for your life. You protect essentials and goals first, then spend more confidently on what you truly care about."
+            },
+            "tip": {
+              "en": "A budget should create permission for good spending, not only restrictions."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Cut low value, not all joy"
+            },
+            "body": {
+              "en": "The goal is to reduce spending that gives little lasting value, not to remove everything enjoyable. A person who loves sports may spend on training and cut random shopping. Another person may keep travel and reduce restaurant delivery."
+            },
+            "example": {
+              "en": "Cutting ₸30,000 of unused subscriptions can protect ₸30,000 for a hobby you actually enjoy."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Use values as filters"
+            },
+            "body": {
+              "en": "Values turn budgeting from a list of limits into a list of priorities. Ask which expenses support health, relationships, learning, freedom, or comfort. Spending that supports values can be planned; spending that only fills boredom can be redesigned."
+            },
+            "tip": {
+              "en": "Conscious spending asks: will I still be glad I spent this next week?"
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same spending, different value"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two people each spend ₸40,000 on entertainment. The money amount is the same, but the value is different."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Spending",
+                        "Value created",
+                        "Decision"
+                      ],
+                      [
+                        "Concert with close friends",
+                        "Relationships and memories",
+                        "Plan and enjoy"
+                      ],
+                      [
+                        "Random online shopping from boredom",
+                        "Short distraction",
+                        "Add friction or limit"
+                      ],
+                      [
+                        "Gym membership used weekly",
+                        "Health and routine",
+                        "Keep if affordable"
+                      ],
+                      [
+                        "Subscription never opened",
+                        "No real value",
+                        "Cancel"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Conscious spending is not about the category name. It is about whether the spending serves a priority."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Keep, cut, or redesign?"
+            },
+            "body": {
+              "en": "Choose the conscious spending response that best fits each case."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the best action.",
+                "options": [
+                  "Keep and plan",
+                  "Cut",
+                  "Redesign with a limit"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A hobby costs ₸25,000 monthly and strongly supports health and friendships.",
+                    "correct_answer": "Keep and plan",
+                    "explanation": "High-value spending can be protected when essentials and goals are covered."
+                  },
+                  {
+                    "text": "A subscription renews monthly but has not been used for three months.",
+                    "correct_answer": "Cut",
+                    "explanation": "Unused spending creates little value and is a strong cut candidate."
+                  },
+                  {
+                    "text": "Food delivery is enjoyable, but the monthly total keeps surprising you.",
+                    "correct_answer": "Redesign with a limit",
+                    "explanation": "A category limit keeps some enjoyment while preventing leakage."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "A budget can protect joy"
+            },
+            "body": {
+              "en": "Conscious spending works because it connects money to values. Protect essentials, saving, debt payments, and future goals first. Then spend intentionally on the things that make life better and cut the things that do not."
+            },
+            "tip": {
+              "en": "The point is not to spend less everywhere; it is to spend better."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 604,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Conscious Spending — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "What is conscious spending?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Spending intentionally on what matters after protecting essentials and goals"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Never spending on enjoyment"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Buying anything that feels good immediately"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Ignoring future needs"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which expense is the best cut candidate?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A monthly service you no longer use"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A planned activity that supports health and relationships"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Groceries within a reasonable budget"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Emergency fund transfer"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why can budgeting increase enjoyment?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It creates permission to spend on chosen priorities without guilt"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It removes every fun expense"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It makes wants more important than needs"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It prevents saving"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "lifestyle_inflation",
+      "title": {
+        "en": "Lifestyle Inflation"
+      },
+      "description": {
+        "en": "Lifestyle inflation happens when spending rises with income, preventing raises from becoming savings, freedom, or long-term progress."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 605,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Raises can vanish"
+            },
+            "body": {
+              "en": "Lifestyle inflation happens when higher income automatically becomes higher spending. It feels normal because each upgrade seems affordable. But if every raise becomes a bill, more income does not create more freedom."
+            },
+            "tip": {
+              "en": "A raise changes wealth only if some of it is kept."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Fixed upgrades are the most dangerous"
+            },
+            "body": {
+              "en": "Some upgrades are easy to reverse, like one celebration dinner. Others become monthly commitments, like higher rent, car payments, or subscriptions. Fixed upgrades reduce flexibility because they continue even if income falls."
+            },
+            "example": {
+              "en": "A ₸40,000 monthly subscription bundle turns a raise into ₸480,000 of annual fixed spending."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Capture the raise first"
+            },
+            "body": {
+              "en": "A simple rule protects income growth: save or invest part of every raise before upgrading lifestyle. This still allows enjoyment, but prevents the full raise from disappearing. The rule works best when automated immediately after income increases."
+            },
+            "tip": {
+              "en": "Split the raise before your habits claim it."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Two raise outcomes"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two workers each receive a ₸80,000 monthly raise. Their income rises equally, but their future changes differently."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Worker",
+                        "Lifestyle increase",
+                        "New saving",
+                        "Annual result"
+                      ],
+                      [
+                        "A",
+                        "₸80,000",
+                        "₸0",
+                        "Income feels higher, wealth unchanged"
+                      ],
+                      [
+                        "B",
+                        "₸40,000",
+                        "₸40,000",
+                        "₸480,000 saved in one year"
+                      ],
+                      [
+                        "C",
+                        "₸20,000",
+                        "₸60,000",
+                        "₸720,000 saved in one year"
+                      ],
+                      [
+                        "Key idea",
+                        "Enjoy some",
+                        "Capture some",
+                        "Raise creates progress"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Lifestyle inflation is controlled when part of the raise is captured before it becomes normal spending."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Split the raise"
+            },
+            "body": {
+              "en": "Allocate a ₸80,000 monthly raise between lifestyle and savings. The total must equal ₸80,000."
+            },
+            "interactiveType": "input_numbers",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Distribute the ₸80,000 raise across lifestyle upgrade and increased savings. The total must equal ₸80,000.",
+                "fields": [
+                  {
+                    "id": "lifestyle",
+                    "label": "Lifestyle upgrade"
+                  },
+                  {
+                    "id": "savings",
+                    "label": "Increased savings or investing"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 80000
+                },
+                "exampleAnswer": {
+                  "lifestyle": "40000",
+                  "savings": "40000"
+                },
+                "explanation": "There is no single correct split, but capturing part of every raise prevents lifestyle inflation from absorbing all income growth."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Let raises buy freedom too"
+            },
+            "body": {
+              "en": "Lifestyle inflation is not about never improving your life. It is about making sure higher income also improves stability, savings, and choice. Capture part of every raise first, then enjoy the rest intentionally."
+            },
+            "tip": {
+              "en": "Upgrade life slowly enough that your future also gets richer."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 605,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Lifestyle Inflation — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "What is lifestyle inflation?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Spending rises automatically as income rises, leaving little extra progress"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Prices rise across the whole economy"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Savings grow faster than income"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Budgeting becomes impossible after a raise"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why are fixed lifestyle upgrades risky?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They create ongoing commitments that continue even if income changes"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They are always free after the first month"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They increase emergency savings automatically"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They cannot affect cash flow"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What is a good response to a salary raise?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Automatically save or invest part of it before increasing lifestyle spending"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Spend all of it immediately because it is new money"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Ignore goals because income increased"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Take on new fixed costs without checking the budget"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 699,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Budgeting & Cash Flow — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "Why is it useful to separate fixed and variable expenses?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "They behave differently and can be changed at different speeds"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Fixed and variable expenses are always the same"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Variable expenses never matter"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Fixed expenses can always be cut instantly"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "Which budgeting system gives every tenge a job?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Zero-based budgeting"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Ignoring expenses"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Only checking balances once a year"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Spending first and saving leftovers"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "What is a spending leak?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Repeated low-value spending that you barely value after it happens"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "A planned essential bill"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "A meaningful expense that supports your values"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Money moved into savings"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "What does conscious spending encourage?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Cutting low-value spending while protecting meaningful priorities"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Never spending on anything enjoyable"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Buying everything that feels good immediately"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Ignoring future goals"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "How can lifestyle inflation be controlled after a raise?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Capture part of the raise for saving or investing before spending expands"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Turn the whole raise into fixed monthly commitments"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Stop budgeting because income increased"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Assume higher income automatically creates wealth"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

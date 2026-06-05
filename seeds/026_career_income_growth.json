@@ -1,0 +1,1801 @@
+{
+  "section": "building_wealth",
+  "topic": {
+    "code": "career_income_growth",
+    "orderIndex": 26,
+    "title": {
+      "en": "Career & Income Growth"
+    },
+    "description": {
+      "en": "Growing the income side of the equation — career capital, salary negotiation, choosing among raises and side income, and money rules for the self-employed."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "career_capital",
+      "title": {
+        "en": "Career Capital"
+      },
+      "description": {
+        "en": "Career capital is the set of skills, reputation, relationships, and proof that increases your future earning power."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 0,
+      "quizId": 2601,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Income growth starts before the raise"
+            },
+            "body": {
+              "en": "Your income is not determined only by effort this month. It is shaped by the value you can prove, the problems you can solve, and how replaceable your work is. Career capital is the asset that makes future income easier to grow."
+            },
+            "tip": {
+              "en": "Career capital is an investment in future earning power."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Skills become capital when they are useful"
+            },
+            "body": {
+              "en": "A skill raises income when it solves problems that employers or clients are willing to pay for. Technical ability, communication, project ownership, and domain knowledge can all become career capital. The value comes from usefulness, not from certificates alone."
+            },
+            "example": {
+              "en": "Learning data analysis is more valuable when you use it to reduce reporting time, find revenue leaks, or improve decisions."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Proof compounds with reputation"
+            },
+            "body": {
+              "en": "People pay more when they trust that you can deliver. Projects, measurable results, references, and visible ownership turn ability into evidence. Over time, reputation reduces the need to prove yourself from zero each time."
+            },
+            "tip": {
+              "en": "A skill without proof is potential; proof turns it into market value."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Three income-building moves"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A specialist earns ₸350,000 per month and wants to grow income over the next year. Different actions build different kinds of career capital."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Action",
+                        "Career capital built",
+                        "Income logic"
+                      ],
+                      [
+                        "Automate weekly reports",
+                        "Problem-solving proof",
+                        "Saves manager time and shows ownership"
+                      ],
+                      [
+                        "Learn client communication",
+                        "Trust and visibility",
+                        "Can handle higher-value work"
+                      ],
+                      [
+                        "Document project results",
+                        "Evidence",
+                        "Supports promotion or job-change story"
+                      ],
+                      [
+                        "Build a portfolio",
+                        "External proof",
+                        "Makes freelance or new-job offers easier"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The strongest moves create both skill and evidence that someone can verify."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Sort the career capital"
+            },
+            "body": {
+              "en": "Classify each action by what type of career capital it mainly builds."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each action to the best category.",
+                "categories": [
+                  {
+                    "id": "skill",
+                    "label": "Skill"
+                  },
+                  {
+                    "id": "proof",
+                    "label": "Proof"
+                  },
+                  {
+                    "id": "reputation",
+                    "label": "Reputation"
+                  },
+                  {
+                    "id": "network",
+                    "label": "Network"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "course_project",
+                    "text": "Learning a tool by completing a real project"
+                  },
+                  {
+                    "id": "metric_result",
+                    "text": "Showing that your work cut processing time by 30%"
+                  },
+                  {
+                    "id": "reliable_delivery",
+                    "text": "Consistently delivering work before deadlines"
+                  },
+                  {
+                    "id": "mentor_contact",
+                    "text": "Building relationships with people in your target field"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "course_project",
+                    "categoryId": "skill"
+                  },
+                  {
+                    "itemId": "metric_result",
+                    "categoryId": "proof"
+                  },
+                  {
+                    "itemId": "reliable_delivery",
+                    "categoryId": "reputation"
+                  },
+                  {
+                    "itemId": "mentor_contact",
+                    "categoryId": "network"
+                  }
+                ],
+                "explanation": "Career capital grows fastest when skill, proof, reputation, and network support each other."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Build the asset behind the income"
+            },
+            "body": {
+              "en": "Income growth is easier when you build career capital deliberately. Learn useful skills, turn them into measurable results, and make the results visible. The goal is not to look busy; it is to become clearly more valuable in the labor market."
+            },
+            "tip": {
+              "en": "Your career capital is the asset your salary is priced from."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2601,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Career Capital — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person completes many online courses but cannot show any work results. What is missing?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Proof that the skills create value in real situations"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "More certificates with longer titles"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A lower salary expectation"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Less practice and more passive study"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which action most directly turns skill into career capital?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Using the skill to solve a measurable workplace problem and documenting the result"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Reading about the skill but never applying it"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Waiting for a manager to guess your abilities"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Changing job titles without changing responsibilities"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why does reputation affect income growth?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It lowers perceived risk for employers or clients who consider paying you more"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It replaces the need to deliver results"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It guarantees every negotiation will succeed"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It matters only for famous people"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "negotiating_your_salary",
+      "title": {
+        "en": "Negotiating Your Salary"
+      },
+      "description": {
+        "en": "Salary negotiation is a structured conversation about market value, evidence, alternatives, and total compensation."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 2602,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Negotiation is not begging"
+            },
+            "body": {
+              "en": "Salary negotiation is not asking for kindness. It is presenting a case for the value of your work compared with the market and the role. The stronger your evidence and alternatives, the calmer the conversation becomes."
+            },
+            "tip": {
+              "en": "Negotiation is easier when it is based on value, not emotion."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Prepare the evidence"
+            },
+            "body": {
+              "en": "Good negotiation starts before the meeting. You need market salary ranges, measurable results, expanded responsibilities, and examples of value created. A vague statement like “I work hard” is weaker than “I reduced support tickets by 25%.”"
+            },
+            "example": {
+              "en": "A ₸450,000 target is easier to defend if similar roles pay ₸420,000–₸500,000 and your recent project saved ₸2 million annually."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Total compensation matters"
+            },
+            "body": {
+              "en": "Salary is important, but total compensation includes bonuses, benefits, paid leave, training, remote work, pension contributions, and growth path. A slightly lower salary can be better if it offers faster skill growth or better benefits. Compare the full package, not only the monthly number."
+            },
+            "tip": {
+              "en": "Negotiate the package, not only the base salary."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "A stronger negotiation case"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A product analyst earns ₸400,000 and wants ₸480,000. The case is stronger when built from evidence and market context."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Evidence",
+                        "Weak version",
+                        "Strong version"
+                      ],
+                      [
+                        "Market range",
+                        "People earn more",
+                        "Comparable roles pay ₸450,000–₸520,000"
+                      ],
+                      [
+                        "Performance",
+                        "I worked hard",
+                        "Dashboard reduced reporting time by 12 hours weekly"
+                      ],
+                      [
+                        "Role scope",
+                        "I do many tasks",
+                        "I now own reporting for three teams"
+                      ],
+                      [
+                        "Ask",
+                        "Give me more",
+                        "I would like to adjust base pay to ₸480,000 based on scope and market"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The strong version makes it easier for a manager to justify the raise internally."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Build the negotiation case"
+            },
+            "body": {
+              "en": "Classify each preparation item by the part of a salary negotiation it strengthens."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each item to the negotiation pillar it supports.",
+                "categories": [
+                  {
+                    "id": "market",
+                    "label": "Market evidence"
+                  },
+                  {
+                    "id": "performance",
+                    "label": "Performance evidence"
+                  },
+                  {
+                    "id": "scope",
+                    "label": "Role scope"
+                  },
+                  {
+                    "id": "package",
+                    "label": "Total package"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "salary_range",
+                    "text": "Comparable salaries for similar roles"
+                  },
+                  {
+                    "id": "saved_time",
+                    "text": "Project saved the team 10 hours per week"
+                  },
+                  {
+                    "id": "new_tasks",
+                    "text": "You now manage work previously owned by a senior teammate"
+                  },
+                  {
+                    "id": "training_budget",
+                    "text": "Employer offers paid certification and flexible schedule"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "salary_range",
+                    "categoryId": "market"
+                  },
+                  {
+                    "itemId": "saved_time",
+                    "categoryId": "performance"
+                  },
+                  {
+                    "itemId": "new_tasks",
+                    "categoryId": "scope"
+                  },
+                  {
+                    "itemId": "training_budget",
+                    "categoryId": "package"
+                  }
+                ],
+                "explanation": "A strong negotiation connects market value, proven results, role scope, and the full compensation package."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Ask with structure"
+            },
+            "body": {
+              "en": "Salary negotiation improves when you prepare evidence, know the market, and understand your alternatives. The goal is to make your value easy to see and easy to approve. If the answer is no, ask what measurable path would justify a future adjustment."
+            },
+            "tip": {
+              "en": "A useful no becomes a roadmap when it includes clear conditions for yes later."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2602,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Negotiating Your Salary — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Which raise request is strongest?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Comparable roles pay ₸450,000–₸520,000, and my expanded role delivered measurable results, so I am requesting ₸480,000"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "I want more because life is expensive"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "My friend earns more, so I should too"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "I worked here for a while, so any number is fine"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why compare total compensation instead of salary alone?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Benefits, bonuses, flexibility, training, and growth path can change the real value of a job"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Base salary never matters"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Benefits are always more valuable than money"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Total compensation removes the need to negotiate"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "A manager says a raise is not possible now. What is the most useful next question?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "What measurable results or responsibilities would make the raise possible in the next review?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Can we ignore the budget completely?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Should I stop working carefully?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Can I get a raise without changing value or scope?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "side_income_vs_promotion_vs_job_change",
+      "title": {
+        "en": "Side Income vs Promotion vs Job Change"
+      },
+      "description": {
+        "en": "Income growth choices have different risk, time, learning, and upside trade-offs."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 2603,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "More income has different paths"
+            },
+            "body": {
+              "en": "A raise, promotion, job change, and side income can all increase money coming in. But they do not create the same risk or the same future options. The best path depends on time, energy, skills, stability, and upside."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Promotion deepens one path"
+            },
+            "body": {
+              "en": "A promotion often increases pay by expanding responsibility inside the same organization. It can build leadership proof and stability, but may depend on company budgets and internal politics. The upside can be limited if the company has slow pay bands."
+            },
+            "tip": {
+              "en": "Promotion is strongest when it adds marketable responsibility, not only a new title."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Job change and side income change the risk mix"
+            },
+            "body": {
+              "en": "A job change can reset pay faster by testing your value in the market, but it adds transition risk. Side income can diversify income and build business skills, but it consumes time and may be unstable. More income is useful only if it does not destroy health, learning, or main-job performance."
+            },
+            "example": {
+              "en": "A ₸120,000 monthly side project sounds good, but if it reduces sleep and blocks a promotion worth ₸200,000 monthly, the trade-off may be poor."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Choosing the income path"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A specialist earns ₸500,000 monthly and wants to raise income. Three paths create different trade-offs."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Path",
+                        "Potential benefit",
+                        "Main cost or risk"
+                      ],
+                      [
+                        "Promotion",
+                        "Higher salary and stronger internal role",
+                        "May take time and depend on company structure"
+                      ],
+                      [
+                        "Job change",
+                        "Faster market-rate reset",
+                        "Transition risk and uncertainty"
+                      ],
+                      [
+                        "Side income",
+                        "Extra income and optional independence",
+                        "Time pressure, irregular cash flow, tax/admin work"
+                      ],
+                      [
+                        "Skill upgrade first",
+                        "Improves all paths",
+                        "Delayed income increase"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The best choice is not the one with the largest headline amount; it is the one with the best risk-adjusted path for your situation."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Pick the income path"
+            },
+            "body": {
+              "en": "Choose which income-growth path best matches each situation."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the most suitable path.",
+                "options": [
+                  "Promotion",
+                  "Job change",
+                  "Side income",
+                  "Skill upgrade first"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Your company has an open senior role, and you already perform most of the responsibilities.",
+                    "correct_answer": "Promotion",
+                    "explanation": "The value and role scope already exist internally, so a promotion case may be efficient."
+                  },
+                  {
+                    "text": "Your pay is far below market, and the company has frozen raises for a year.",
+                    "correct_answer": "Job change",
+                    "explanation": "The external market may reset pay faster than waiting internally."
+                  },
+                  {
+                    "text": "You have a stable job and a small weekend service that can grow without harming your main work.",
+                    "correct_answer": "Side income",
+                    "explanation": "Side income can add diversification when time and energy costs are controlled."
+                  },
+                  {
+                    "text": "You want higher income but lack the core skills needed for your target roles.",
+                    "correct_answer": "Skill upgrade first",
+                    "explanation": "Building career capital may improve every later path."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Choose the path, not only the money"
+            },
+            "body": {
+              "en": "Income growth is a portfolio of choices. Promotion, job change, and side income each trade off stability, upside, time, and learning. A strong decision compares net income, risk, future options, and the energy cost of earning that money."
+            },
+            "tip": {
+              "en": "The best income path grows money without damaging the asset that earns it: you."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2603,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Side Income vs Promotion vs Job Change — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person is underpaid relative to market, but their company has frozen raises. Which path may reset income fastest?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Testing the external market through a job change"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Waiting silently for the freeze to end"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Taking unpaid extra work with no discussion"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Ignoring market data"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "When can side income be a poor choice even if it brings money?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "When it harms health, main-job performance, or higher-value career growth"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "When it is planned carefully"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "When it uses skills the person already has"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "When it is small but sustainable"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What makes a promotion especially valuable for long-term income?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It adds responsibility and proof that are valuable both inside and outside the company"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It changes the title but not the work or skills"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It removes all future negotiation needs"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It guarantees side income without effort"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "freelancer_self_employed_money",
+      "title": {
+        "en": "Money Rules for Freelancers & Self-Employed"
+      },
+      "description": {
+        "en": "Self-employed income needs stronger cash buffers, tax planning, pricing discipline, and separation between business and personal money."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 2604,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Self-employed income is lumpy"
+            },
+            "body": {
+              "en": "Freelancers and self-employed people often earn unevenly: one month is strong, the next is quiet. This makes budgeting harder than with a fixed salary. The solution is not only earning more, but building systems for irregular cash flow."
+            },
+            "tip": {
+              "en": "A good freelance month is not the same as safe monthly income."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Separate business and personal money"
+            },
+            "body": {
+              "en": "Business revenue is not personal income. From each payment, money may need to go to taxes, tools, marketing, unpaid time, insurance, pension, and a buffer. Paying yourself a steady amount helps prevent overspending after high-revenue months."
+            },
+            "example": {
+              "en": "A ₸700,000 client payment may become ₸350,000 personal pay after setting aside tax, software, equipment, savings, and future slow months."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Pricing must include unpaid work"
+            },
+            "body": {
+              "en": "An hourly rate must cover more than the hour spent delivering work. It must also cover client search, admin, revisions, taxes, equipment, learning, and days without paid projects. A freelancer who prices only visible work often underpays themselves."
+            },
+            "tip": {
+              "en": "Freelance price should cover the business, not just the task."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Turning revenue into pay"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A self-employed designer receives ₸900,000 this month. Instead of treating all of it as spendable income, they allocate it first."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Use",
+                        "Amount",
+                        "Reason"
+                      ],
+                      [
+                        "Tax and required contributions",
+                        "₸180,000",
+                        "Avoids future tax shock"
+                      ],
+                      [
+                        "Business tools and marketing",
+                        "₸90,000",
+                        "Keeps the business operating"
+                      ],
+                      [
+                        "Slow-month buffer",
+                        "₸180,000",
+                        "Smooths irregular income"
+                      ],
+                      [
+                        "Personal salary",
+                        "₸400,000",
+                        "Stable household spending"
+                      ],
+                      [
+                        "Learning/equipment fund",
+                        "₸50,000",
+                        "Maintains career capital"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The allocation turns unpredictable revenue into a more stable financial system."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Allocate freelance revenue"
+            },
+            "body": {
+              "en": "Split ₸900,000 of freelance revenue across business needs. The total must equal ₸900,000."
+            },
+            "interactiveType": "input_numbers",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Distribute ₸900,000 across all categories. The total must equal ₸900,000.",
+                "fields": [
+                  {
+                    "id": "taxes",
+                    "label": "Taxes and required contributions"
+                  },
+                  {
+                    "id": "business_costs",
+                    "label": "Business costs"
+                  },
+                  {
+                    "id": "buffer",
+                    "label": "Slow-month buffer"
+                  },
+                  {
+                    "id": "personal_pay",
+                    "label": "Personal pay"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 900000
+                },
+                "exampleAnswer": {
+                  "taxes": "180000",
+                  "business_costs": "120000",
+                  "buffer": "200000",
+                  "personal_pay": "400000"
+                },
+                "explanation": "Irregular revenue becomes safer when tax, business costs, and slow-month reserves are separated before personal spending."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Build a business cash-flow system"
+            },
+            "body": {
+              "en": "Self-employment needs stronger money rules because income is less predictable and many benefits are not automatic. Separate accounts, tax reserves, buffers, and realistic pricing make the work sustainable. The goal is to turn irregular revenue into stable decisions."
+            },
+            "tip": {
+              "en": "Self-employed income is safer when you pay yourself from the business, not directly from each client payment."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2604,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Freelancer & Self-Employed Money — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A freelancer receives ₸800,000 and spends it all as personal income. What is the main risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They may have nothing left for taxes, business costs, slow months, and required contributions"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Freelance revenue is always tax-free"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Business costs do not exist for freelancers"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Client payments are the same as net salary"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why should freelance pricing include unpaid work?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Client search, admin, revisions, tools, and downtime are real business costs"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Only visible delivery time matters"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Freelancers never need marketing or equipment"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Unpaid work is paid by the client automatically"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which system best fits irregular self-employed income?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Separate business money, reserve tax, build a slow-month buffer, and pay yourself steadily"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Spend each payment immediately because another client may appear"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Mix all business and personal spending in one account"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Ignore required contributions until the end of the year"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "lifestyle_inflation_and_ratchet",
+      "title": {
+        "en": "Lifestyle Inflation & the Savings Ratchet"
+      },
+      "description": {
+        "en": "Income growth improves wealth only when some of each raise is captured before lifestyle spending expands."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 2605,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Raises can disappear quietly"
+            },
+            "body": {
+              "en": "Lifestyle inflation happens when spending rises automatically with income. It feels natural because each upgrade seems affordable. But if every raise becomes a new expense, higher income does not create more freedom."
+            },
+            "tip": {
+              "en": "More income only builds wealth if some of it is captured."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "The savings ratchet captures raises"
+            },
+            "body": {
+              "en": "A savings ratchet is a rule: when income rises, savings rises first. You can still improve your lifestyle, but only after part of the raise goes to future goals. This turns income growth into automatic progress instead of automatic spending."
+            },
+            "example": {
+              "en": "If monthly income rises by ₸100,000, a 50% ratchet saves ₸50,000 and leaves ₸50,000 for lifestyle upgrades."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Fixed costs are the danger zone"
+            },
+            "body": {
+              "en": "Lifestyle inflation is most dangerous when it becomes fixed: bigger rent, car payments, subscriptions, and debt. Fixed costs reduce flexibility because they remain even if income falls. The safest upgrades are reversible or paid from surplus after savings."
+            },
+            "tip": {
+              "en": "A raise used for fixed commitments can reduce freedom instead of increasing it."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Two people get the same raise"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two workers each receive a ₸120,000 monthly raise. Their wealth path changes based on what happens before spending adjusts."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Worker",
+                        "New spending",
+                        "New saving",
+                        "Result"
+                      ],
+                      [
+                        "A",
+                        "₸120,000",
+                        "₸0",
+                        "Lifestyle rises, freedom unchanged"
+                      ],
+                      [
+                        "B",
+                        "₸60,000",
+                        "₸60,000",
+                        "Lifestyle improves and goals accelerate"
+                      ],
+                      [
+                        "B after 12 months",
+                        "₸720,000 spent",
+                        "₸720,000 saved",
+                        "Raise creates both comfort and progress"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The raise is the same. The rule for capturing it creates the difference."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Apply the savings ratchet"
+            },
+            "body": {
+              "en": "Split a ₸120,000 raise between lifestyle and savings. The total must equal ₸120,000."
+            },
+            "interactiveType": "input_numbers",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Distribute the ₸120,000 raise across lifestyle upgrade and increased savings. The total must equal ₸120,000.",
+                "fields": [
+                  {
+                    "id": "lifestyle",
+                    "label": "Lifestyle upgrade"
+                  },
+                  {
+                    "id": "savings",
+                    "label": "Increased savings or investing"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 120000
+                },
+                "exampleAnswer": {
+                  "lifestyle": "60000",
+                  "savings": "60000"
+                },
+                "explanation": "The exact split can vary, but the ratchet principle is that savings rises before the whole raise becomes spending."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Let income growth create freedom"
+            },
+            "body": {
+              "en": "Lifestyle inflation is not about never enjoying money. It is about preventing every raise from becoming permanent spending. A savings ratchet lets your lifestyle improve while your financial resilience improves too."
+            },
+            "tip": {
+              "en": "Upgrade life slowly enough that your future self also gets a raise."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 2605,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Lifestyle Inflation & Savings Ratchet — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A person gets a raise and immediately commits all of it to higher rent and subscriptions. What is the risk?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Their fixed costs rise, but savings and flexibility may not improve"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Higher income always guarantees wealth"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Subscriptions cannot affect cash flow"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Fixed costs disappear if income falls"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is the purpose of a savings ratchet?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "To increase saving automatically when income rises before lifestyle absorbs the full raise"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "To prevent any lifestyle improvement forever"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "To spend raises faster"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "To replace budgeting completely"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why are reversible upgrades safer than fixed commitments?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They can be reduced more easily if income falls or goals change"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They always earn investment returns"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They never cost money"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They eliminate inflation"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 2699,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Career & Income Growth — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "Why is career capital more useful than simply working more hours?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It increases the value and proof of what you can offer, which can raise future earning power"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It guarantees income without skills"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It replaces the need to deliver results"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It matters only after retirement"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "What makes a salary negotiation stronger?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Market data, measurable results, expanded scope, and a clear compensation request"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Only saying that life is expensive"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Avoiding all numbers"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Assuming the employer knows your value automatically"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "A side project pays money but harms sleep and main-job performance. What should be considered?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The opportunity cost: it may reduce higher-value career growth or stability"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Only the extra cash received"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Whether it sounds impressive online"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Ignoring health because income increased"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "Why should self-employed people separate business revenue from personal income?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Revenue must cover taxes, business costs, buffers, and unpaid time before personal pay"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "All client payments are pure personal salary"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Business expenses never happen"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Separate accounts reduce income automatically"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "What does a savings ratchet do after a raise?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It captures part of the raise for savings or investing before spending expands fully"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It forces all raises to be spent immediately"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It makes lifestyle upgrades illegal"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It removes the need for income growth"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -13,9 +13,8 @@ import (
 )
 
 type Service struct {
-	adaptationRepo        repository.AdaptationRepository
-	reinforcementMLClient mlclient.Client
-	nextLessonMLClient    mlclient.Client
+	adaptationRepo repository.AdaptationRepository
+	mlClient       mlclient.Client
 }
 
 const (
@@ -29,13 +28,11 @@ const (
 
 func NewService(
 	adaptationRepo repository.AdaptationRepository,
-	reinforcementMLClient mlclient.Client,
-	nextLessonMLClient mlclient.Client,
+	mlClient mlclient.Client,
 ) service.AdaptationService {
 	return &Service{
-		adaptationRepo:        adaptationRepo,
-		reinforcementMLClient: reinforcementMLClient,
-		nextLessonMLClient:    nextLessonMLClient,
+		adaptationRepo: adaptationRepo,
+		mlClient:       mlClient,
 	}
 }
 
@@ -52,87 +49,7 @@ func (s *Service) ProcessQuizResult(ctx context.Context, input service.ProcessQu
 		return nil, err
 	}
 
-	if isStrongResult(features) {
-		result := &dto.ReinforcementResponse{
-			NeedsReinforcement: false,
-			Prediction:         0,
-			Probability:        0,
-			Confidence:         1,
-			DecisionSource:     "rule_strong_result",
-			ModelName:          "rule_based",
-		}
-
-		if err := s.savePrediction(ctx, input, features, result); err != nil {
-			logger.Error(
-				"adaptation service: failed to save reinforcement prediction: user_id=%d attempt_id=%d err=%v",
-				input.UserID,
-				input.AttemptID,
-				err,
-			)
-		}
-
-		return result, nil
-	}
-
-	if s.reinforcementMLClient == nil {
-		result := fallbackReinforcement(features)
-
-		if err := s.savePrediction(ctx, input, features, result); err != nil {
-			logger.Error(
-				"adaptation service: failed to save fallback reinforcement prediction: user_id=%d attempt_id=%d err=%v",
-				input.UserID,
-				input.AttemptID,
-				err,
-			)
-		}
-
-		return result, nil
-	}
-
-	mlResult, err := s.reinforcementMLClient.PredictReinforcement(ctx, mlclient.ReinforcementPredictRequest{
-		UserLevel:              features.UserLevel,
-		LearningGoal:           features.LearningGoal,
-		TopicCode:              features.TopicCode,
-		SubtopicCode:           features.SubtopicCode,
-		TopicLevel:             features.TopicLevel,
-		QuizType:               features.QuizType,
-		QuizScore:              features.QuizScore,
-		AvgLast3Scores:         features.AvgLast3Scores,
-		PreviousFailsSameTopic: features.PreviousFailsSameTopic,
-		SubtopicOrder:          features.SubtopicOrder,
-		PreferredTopicMatch:    features.PreferredTopicMatch,
-		CompletedInteractive:   features.CompletedInteractive,
-	})
-	if err != nil {
-		logger.Error(
-			"adaptation service: failed to call ML service: user_id=%d attempt_id=%d err=%v",
-			input.UserID,
-			input.AttemptID,
-			err,
-		)
-
-		result := fallbackReinforcement(features)
-
-		if err := s.savePrediction(ctx, input, features, result); err != nil {
-			logger.Error(
-				"adaptation service: failed to save fallback reinforcement prediction: user_id=%d attempt_id=%d err=%v",
-				input.UserID,
-				input.AttemptID,
-				err,
-			)
-		}
-
-		return result, nil
-	}
-
-	result := &dto.ReinforcementResponse{
-		NeedsReinforcement: mlResult.NeedsReinforcement,
-		Prediction:         mlResult.Prediction,
-		Probability:        mlResult.Probability,
-		Confidence:         mlResult.Confidence,
-		DecisionSource:     "ml",
-		ModelName:          mlResult.ModelName,
-	}
+	result := fallbackReinforcement(features)
 
 	if err := s.savePrediction(ctx, input, features, result); err != nil {
 		logger.Error(

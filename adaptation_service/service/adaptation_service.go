@@ -21,4 +21,5 @@ type AdaptationService interface {
 	GetHomeRecommendations(ctx context.Context, userID int64, languageCode string) (*dto.HomeRecommendationsResponse, error)
 	GetLearningMap(ctx context.Context, userID int64, languageCode string) (*dto.LearningMapResponse, error)
 	GetTopicLearningMap(ctx context.Context, userID int64, topicCode, languageCode string) (*dto.TopicLearningMapResponse, error)
+	GetRepetitionReview(ctx context.Context, userID int64) (*dto.RepetitionReviewResponse, error)
 }

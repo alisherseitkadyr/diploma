@@ -13,4 +13,5 @@ type AdaptationRepository interface {
 	ListLearningMapSubtopics(ctx context.Context, languageCode string) ([]model.CandidateSubtopic, error)
 	GetUserSubtopicProgressMap(ctx context.Context, userID int64) (map[string]model.UserSubtopicProgress, error)
 	GetLatestActiveReinforcement(ctx context.Context, userID int64) (*model.ActiveReinforcement, error)
+	GetRepetitionCandidates(ctx context.Context, userID int64) ([]model.RepetitionCandidate, error)
 }

@@ -1,0 +1,1480 @@
+{
+  "section": "investment_types",
+  "topic": {
+    "code": "crypto_digital_assets",
+    "orderIndex": 17,
+    "title": {
+      "en": "Crypto & Digital Assets (Lite)"
+    },
+    "description": {
+      "en": "What a blockchain really is, how the major crypto assets differ, the custody question, and the risks specific to this asset class."
+    },
+    "level": "intermediate",
+    "prerequisite_id": null
+  },
+  "subtopics": [
+    {
+      "code": "blockchain_basics",
+      "title": {
+        "en": "Blockchain Basics"
+      },
+      "description": {
+        "en": "A blockchain is a shared record of transactions maintained by a network, not a magic guarantee that every project is valuable."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 1701,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "A blockchain is a shared ledger"
+            },
+            "body": {
+              "en": "A blockchain is a database shared across many computers. It records transactions in blocks that are linked together. The key idea is not “digital money” alone, but a record that can be updated without one central bookkeeper."
+            },
+            "tip": {
+              "en": "Blockchain explains how records are kept; it does not prove that an asset is a good investment."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Why blocks are linked"
+            },
+            "body": {
+              "en": "Each block contains recent transactions and a reference to the previous block. Changing an old record would require changing later records too, which becomes difficult when many independent participants verify the chain. This creates tamper resistance, not perfect safety."
+            },
+            "example": {
+              "en": "If a wallet sends 0.05 BTC, the network records that transaction in a block. Later blocks build on top of that record, making reversal increasingly difficult."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Consensus replaces the central updater"
+            },
+            "body": {
+              "en": "A blockchain needs rules for deciding which transactions are valid and which block is added next. These rules are called consensus. Different blockchains use different consensus designs, so security, speed, cost, and decentralization can vary a lot."
+            },
+            "tip": {
+              "en": "Do not treat all blockchains as equal just because they share the same word."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "What the ledger can and cannot prove"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A blockchain record can show that a transaction happened, but it cannot automatically explain whether the transaction was wise, legal, or fair."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Question",
+                        "Blockchain can help answer?",
+                        "Why"
+                      ],
+                      [
+                        "Did this address send tokens?",
+                        "Yes",
+                        "The transaction can be visible on-chain"
+                      ],
+                      [
+                        "Was the sender tricked?",
+                        "No",
+                        "The ledger records action, not intention"
+                      ],
+                      [
+                        "Is this token valuable?",
+                        "No",
+                        "Value depends on demand, utility, risk, and trust"
+                      ],
+                      [
+                        "Can the transfer be easily reversed?",
+                        "Usually no",
+                        "Finality depends on the network"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The technology can verify records, but humans still must judge value, risk, and trust."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "What does blockchain prove?"
+            },
+            "body": {
+              "en": "Decide whether each statement is a ledger fact, an investment judgment, or a user-risk issue."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each statement to the best category.",
+                "categories": [
+                  {
+                    "id": "ledger_fact",
+                    "label": "Ledger fact"
+                  },
+                  {
+                    "id": "investment_judgment",
+                    "label": "Investment judgment"
+                  },
+                  {
+                    "id": "user_risk",
+                    "label": "User risk"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "transaction_seen",
+                    "text": "A transaction from one address to another is recorded"
+                  },
+                  {
+                    "id": "token_future",
+                    "text": "A token will become more valuable next year"
+                  },
+                  {
+                    "id": "wrong_address",
+                    "text": "A user sends funds to the wrong address"
+                  },
+                  {
+                    "id": "block_added",
+                    "text": "A new block was added after network validation"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "transaction_seen",
+                    "categoryId": "ledger_fact"
+                  },
+                  {
+                    "itemId": "token_future",
+                    "categoryId": "investment_judgment"
+                  },
+                  {
+                    "itemId": "wrong_address",
+                    "categoryId": "user_risk"
+                  },
+                  {
+                    "itemId": "block_added",
+                    "categoryId": "ledger_fact"
+                  }
+                ],
+                "explanation": "A blockchain can verify some records, but it does not automatically verify value, honesty, or user decisions."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Separate record quality from asset quality"
+            },
+            "body": {
+              "en": "Blockchain is a way to maintain a shared transaction history. It can reduce reliance on a central recordkeeper, but it does not remove market risk, scams, custody mistakes, or weak projects. Good crypto thinking separates the ledger mechanism from the investment claim."
+            },
+            "tip": {
+              "en": "A verified transaction can still be a bad transaction."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1701,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Blockchain Basics — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A token promoter says the project is safe because “all transactions are on-chain.” What is the best response?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "On-chain records can show transactions, but they do not prove the token is valuable or safe"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "On-chain records guarantee the price will rise"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A blockchain cannot record transactions at all"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Visible transactions mean the promoter cannot mislead buyers"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why is changing an old blockchain record usually difficult?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Later blocks build on it and the network follows rules for validating the shared history"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Every blockchain record is stored only on one laptop"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Transactions are hidden from all users"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Old records automatically delete themselves"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which question is blockchain technology best suited to answer?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Was this transaction recorded on this network?"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Will this token outperform stocks?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Was every buyer making a wise decision?"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Is the project team honest?"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "bitcoin_ethereum_stablecoins",
+      "title": {
+        "en": "Bitcoin, Ethereum & Stablecoins"
+      },
+      "description": {
+        "en": "Bitcoin, Ethereum, and stablecoins are digital assets with different purposes, risks, and reasons for demand."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 1,
+      "quizId": 1702,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Crypto assets are not one thing"
+            },
+            "body": {
+              "en": "Bitcoin, Ethereum, and stablecoins are often grouped together as crypto, but they try to solve different problems. Treating them as identical leads to weak reasoning. The useful question is what role the asset is supposed to play."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Bitcoin is mainly a scarce digital asset"
+            },
+            "body": {
+              "en": "Bitcoin is often valued for scarcity, independence from a single issuer, and its long network history. It does not produce cash flow like a bond or rental property. Its price depends heavily on demand, belief, liquidity, and risk appetite."
+            },
+            "tip": {
+              "en": "Scarcity can support value, but scarcity alone does not guarantee return."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Ethereum and stablecoins have different anchors"
+            },
+            "body": {
+              "en": "Ethereum is a platform for applications and smart contracts, so demand can relate to network use and ecosystem activity. Stablecoins aim to track another asset, often the U.S. dollar, but their risk depends on reserves, issuer trust, and redemption rules. A stable price target is not the same as zero risk."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Same label, different risk engine"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor puts ₸300,000 into three digital assets. The word “crypto” hides very different risk sources."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Asset type",
+                        "Main idea",
+                        "What can go wrong"
+                      ],
+                      [
+                        "Bitcoin",
+                        "Scarce digital asset",
+                        "Demand falls, volatility rises, regulation changes"
+                      ],
+                      [
+                        "Ethereum",
+                        "Programmable network asset",
+                        "Network competition, technical risk, fee and usage changes"
+                      ],
+                      [
+                        "Stablecoin",
+                        "Tracks a reference asset",
+                        "Issuer, reserves, redemption, or regulatory problems"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The same portfolio value can face price risk, technology risk, platform risk, and issuer risk at once."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Match the asset to the role"
+            },
+            "body": {
+              "en": "Choose the asset type that best matches each description. The goal is to reason from purpose, not popularity."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the asset type that best matches the scenario.",
+                "options": [
+                  "Bitcoin",
+                  "Ethereum",
+                  "Stablecoin"
+                ],
+                "scenarios": [
+                  {
+                    "text": "An asset is mainly discussed as scarce digital money with no issuer promising cash flows.",
+                    "correct_answer": "Bitcoin",
+                    "explanation": "Bitcoin's investment case is often tied to scarcity, network trust, and demand."
+                  },
+                  {
+                    "text": "An asset is used to pay fees and interact with decentralized applications on a programmable network.",
+                    "correct_answer": "Ethereum",
+                    "explanation": "Ethereum's role is connected to network activity and smart-contract use."
+                  },
+                  {
+                    "text": "An asset tries to keep its price close to one U.S. dollar through reserves and issuer redemption.",
+                    "correct_answer": "Stablecoin",
+                    "explanation": "Stablecoins target price stability, but depend on reserve and issuer quality."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Purpose defines the risk"
+            },
+            "body": {
+              "en": "Bitcoin, Ethereum, and stablecoins should be analyzed by their role. Bitcoin is mostly a scarce digital asset, Ethereum is a programmable network asset, and stablecoins are claims designed to track another asset. Different purpose means different risk."
+            },
+            "tip": {
+              "en": "Do not ask “Is crypto good?” Ask “Which asset, what role, and what risk?”"
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1702,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Bitcoin, Ethereum & Stablecoins — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A friend says a stablecoin is risk-free because its price is supposed to stay near one dollar. What is the best correction?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The price target reduces volatility aim, but issuer, reserve, redemption, and regulatory risks can remain"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Stablecoins must always rise faster than inflation"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Stablecoins are identical to government-insured bank deposits everywhere"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A stable price target means there is no counterparty risk"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why is Bitcoin not valued the same way as a rental apartment or bond?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It does not promise rent, interest, or cash flow; demand and scarcity play a larger role"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It legally guarantees monthly income"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It has tenants and maintenance costs"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It must be valued only by dividend yield"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "What makes Ethereum's risk different from Bitcoin's in this simplified view?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Ethereum's value can be linked to programmable network use, applications, and competition"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Ethereum is a stablecoin with guaranteed reserves"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Ethereum has no technical or market risk"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Bitcoin and Ethereum must always move for the same reason"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "custody_wallets_vs_exchanges",
+      "title": {
+        "en": "Custody: Wallets vs Exchanges"
+      },
+      "description": {
+        "en": "Crypto ownership depends on control of keys or accounts; wallets and exchanges shift convenience, responsibility, and failure points."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 1703,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Custody is control"
+            },
+            "body": {
+              "en": "In crypto, custody means who can move the asset. If assets sit on an exchange, account security and the exchange's solvency matter. If assets sit in a self-custody wallet, private keys and seed phrases become the main responsibility."
+            },
+            "tip": {
+              "en": "The custody question is: who can authorize movement?"
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Exchanges trade convenience for counterparty risk"
+            },
+            "body": {
+              "en": "An exchange can make buying, selling, and password recovery easier. But the user depends on the exchange to safeguard assets and honor withdrawals. If the account is hacked or the exchange fails, control can disappear quickly."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Self-custody trades counterparty risk for user risk"
+            },
+            "body": {
+              "en": "A self-custody wallet gives the user direct control, but mistakes become harder to fix. Losing a seed phrase, signing a malicious approval, or sending to the wrong network can cause permanent loss. More control means more operational responsibility."
+            },
+            "tip": {
+              "en": "A seed phrase is not a hint. It is the master key."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Two custody models, different failure points"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two users each hold ₸800,000 worth of digital assets. Their market risk may be similar, but their custody risk is different."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Setup",
+                        "Who controls movement?",
+                        "Main failure point"
+                      ],
+                      [
+                        "Exchange account",
+                        "Exchange system plus user login",
+                        "Account takeover, frozen withdrawals, exchange failure"
+                      ],
+                      [
+                        "Self-custody wallet",
+                        "Whoever controls the seed phrase and approvals",
+                        "Lost seed phrase, malicious signing, wrong address"
+                      ],
+                      [
+                        "Hardware wallet",
+                        "User controls keys offline",
+                        "Backup loss, approval mistakes, device misuse"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Custody does not remove market volatility. It decides which operational risks sit between the user and the asset."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Classify the custody risk"
+            },
+            "body": {
+              "en": "Sort each situation by the custody model or risk it mainly represents."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each situation to the best category.",
+                "categories": [
+                  {
+                    "id": "exchange_risk",
+                    "label": "Exchange risk"
+                  },
+                  {
+                    "id": "self_custody_risk",
+                    "label": "Self-custody risk"
+                  },
+                  {
+                    "id": "security_habit",
+                    "label": "Security habit"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "withdrawals_frozen",
+                    "text": "The platform pauses withdrawals"
+                  },
+                  {
+                    "id": "lost_seed",
+                    "text": "A user loses the only seed phrase backup"
+                  },
+                  {
+                    "id": "two_factor",
+                    "text": "A user enables app-based two-factor authentication"
+                  },
+                  {
+                    "id": "fake_approval",
+                    "text": "A wallet signs an unlimited spending approval on a fake site"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "withdrawals_frozen",
+                    "categoryId": "exchange_risk"
+                  },
+                  {
+                    "itemId": "lost_seed",
+                    "categoryId": "self_custody_risk"
+                  },
+                  {
+                    "itemId": "two_factor",
+                    "categoryId": "security_habit"
+                  },
+                  {
+                    "itemId": "fake_approval",
+                    "categoryId": "self_custody_risk"
+                  }
+                ],
+                "explanation": "Exchange custody depends on institutions and account security. Self-custody depends on key protection and careful transaction approval."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Choose responsibility deliberately"
+            },
+            "body": {
+              "en": "There is no custody choice with zero risk. Exchanges can be convenient but add platform dependence. Self-custody reduces some counterparty risk but makes the user responsible for keys, backups, and approvals. The right setup matches knowledge, amount, and risk tolerance."
+            },
+            "tip": {
+              "en": "For custody, convenience and control usually move in opposite directions."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1703,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Custody: Wallets vs Exchanges — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A user keeps all crypto on an exchange because password recovery feels safer. What risk remains?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The user depends on the exchange's security, solvency, and withdrawal access"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The assets become immune to market price changes"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The exchange legally guarantees profit"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The user's account cannot be hacked"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "What is the main responsibility in self-custody?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Protecting the seed phrase, verifying transactions, and avoiding malicious approvals"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Waiting for the exchange to reset every mistaken transfer"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Choosing a high dividend rate"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Ignoring backups because the blockchain stores passwords"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why is sharing a seed phrase more dangerous than sharing a normal username?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The seed phrase can give control over the wallet's assets"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A seed phrase only changes the wallet's display language"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A username can move assets by itself"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Seed phrases are public identifiers like email addresses"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "crypto_major_risks",
+      "title": {
+        "en": "Major Risks"
+      },
+      "description": {
+        "en": "Crypto risk includes volatility, liquidity, regulation, scams, technical failures, custody mistakes, and concentration."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 1704,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Crypto risk is layered"
+            },
+            "body": {
+              "en": "Crypto risk is not only that the price can fall. A user can be right about long-term adoption and still lose money through leverage, scams, exchange failure, wrong transfers, or buying an illiquid token. The asset class combines market risk with operational risk."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Volatility changes decision quality"
+            },
+            "body": {
+              "en": "A large price swing can force emotional selling, liquidation, or overconfidence. If an asset can fall 50% before any long-term thesis plays out, position size matters. The question is not only “Can it rise?” but “Can I survive the path?”"
+            },
+            "example": {
+              "en": "A ₸600,000 position falling 50% becomes ₸300,000. To return to ₸600,000, it then needs a 100% gain."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Small tokens add liquidity and project risk"
+            },
+            "body": {
+              "en": "Large assets can still be risky, but smaller tokens often add weaker liquidity, unclear teams, fragile demand, and easier manipulation. A listed price is not the same as an exit at that price. If few buyers exist, selling can move the market against you."
+            },
+            "tip": {
+              "en": "Liquidity means the ability to exit near a fair price when you need to, not just seeing a price on a screen."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "One portfolio, many risk layers"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An investor puts ₸1,000,000 into crypto. The risk depends not only on the total amount but on how it is split and stored."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Position",
+                        "Amount",
+                        "Main risk"
+                      ],
+                      [
+                        "Bitcoin",
+                        "₸400,000",
+                        "Volatility and demand risk"
+                      ],
+                      [
+                        "Ethereum",
+                        "₸250,000",
+                        "Network, competition, and volatility risk"
+                      ],
+                      [
+                        "Small token",
+                        "₸250,000",
+                        "Liquidity, project, and manipulation risk"
+                      ],
+                      [
+                        "Stablecoin",
+                        "₸100,000",
+                        "Issuer and reserve risk"
+                      ],
+                      [
+                        "All held on one exchange",
+                        "₸1,000,000",
+                        "Platform and account risk"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Diversifying across tokens does not solve custody risk if everything depends on one platform."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Find the main crypto risk"
+            },
+            "body": {
+              "en": "Each case hides a different risk. Choose the main one."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the main error or risk in each crypto claim.",
+                "cases": [
+                  {
+                    "text": "“This small token is listed at ₸50, so I can sell all my coins at that price anytime.”",
+                    "options": [
+                      "a) No error",
+                      "b) It ignores liquidity and market depth",
+                      "c) Token prices never change"
+                    ],
+                    "correct": "b",
+                    "explanation": "A displayed price does not guarantee a large exit without moving the price."
+                  },
+                  {
+                    "text": "“I use 5x leverage because Bitcoin usually recovers after drops.”",
+                    "options": [
+                      "a) Leverage can force liquidation before recovery happens",
+                      "b) No error",
+                      "c) Leverage removes volatility"
+                    ],
+                    "correct": "a",
+                    "explanation": "The path matters. A temporary drop can still wipe out a leveraged position."
+                  },
+                  {
+                    "text": "“I bought four different tokens on one exchange, so custody risk is diversified.”",
+                    "options": [
+                      "a) No error",
+                      "b) Holding all assets on one platform keeps platform risk concentrated",
+                      "c) Four tokens eliminate all market risk"
+                    ],
+                    "correct": "b",
+                    "explanation": "Token diversification does not diversify the custody failure point."
+                  }
+                ],
+                "final_explanation": "Crypto risk should be mapped in layers: market, liquidity, project, regulatory, scam, custody, and behavior risk."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Size positions for survival"
+            },
+            "body": {
+              "en": "Crypto can offer exposure to new digital networks, but the risk stack is unusually wide. Good decisions limit position size, avoid leverage, verify custody, and treat small tokens with extra caution. The goal is not to predict every outcome; it is to avoid one mistake ending the whole plan."
+            },
+            "tip": {
+              "en": "In crypto, risk control matters before return chasing."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 1704,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Major Risks — Check"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An asset falls 50% from ₸600,000 to ₸300,000. What gain is needed to get back to ₸600,000?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "100%"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "50%"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "25%"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "10%"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Why can a small token be harder to exit than a major asset?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "There may be fewer buyers and lower market depth, so selling can push the price down"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Small tokens are always backed by bank deposits"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A displayed price guarantees unlimited liquidity"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Small tokens legally cannot fall"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which setup best reduces a single point of failure?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Avoiding excessive concentration in one token, one platform, or one risky custody method"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Using high leverage to recover faster"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Holding every asset on the same exchange account"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Buying only tokens promoted by influencers"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "finalQuiz": {
+    "quiz_id": 1799,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Crypto & Digital Assets — Final Check"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "A blockchain record proves a transfer happened. What does it not automatically prove?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "That the asset is valuable, the project is honest, or the transfer was a good decision"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "That a transaction exists on the ledger"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "That an address sent assets"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "That the network recorded data"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "Why should Bitcoin, Ethereum, and stablecoins be analyzed separately?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "They have different purposes, value drivers, and risk sources"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "They are legally identical in every way"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "They always move for the same reason"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "They all guarantee stable purchasing power"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "What is the main trade-off between exchange custody and self-custody?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Exchange custody offers convenience with platform dependence; self-custody offers control with user responsibility"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Exchange custody removes all risk; self-custody removes all volatility"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Both are identical because custody never matters"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Self-custody means someone else holds the seed phrase for you"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "An investor owns several tokens but stores all of them on one exchange. What risk remains concentrated?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Platform and account custody risk"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "The number of token names"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "The ability of tokens to have different prices"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "The existence of blockchain records"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "Why is leverage especially dangerous in volatile crypto assets?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "A temporary price move can force liquidation before any long-term recovery occurs"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Leverage prevents prices from falling"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Leverage turns every token into a stablecoin"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Leverage removes the need for custody security"
+            },
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

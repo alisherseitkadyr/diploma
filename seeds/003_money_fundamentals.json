@@ -1,6 +1,7 @@
 {
   "topic": {
     "code": "money_fundamentals",
+    "orderIndex": 3,
     "title": {
       "en": "Money Fundamentals",
       "ru": "Основы денег",
