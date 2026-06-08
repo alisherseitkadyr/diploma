@@ -39,8 +39,7 @@ services:
     depends_on:
       migrate:
         condition: service_completed_successfully
-      ml:
-        condition: service_healthy
+
     env_file:
       - .env
     environment:
@@ -51,8 +50,8 @@ services:
       ACCESS_TOKEN_TTL: ${ACCESS_TOKEN_TTL:-15m}
       REFRESH_TOKEN_TTL: ${REFRESH_TOKEN_TTL:-720h}
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
-      NEXT_TOPIC_ML_SERVICE_URL: http://afineback-ml:8000
-      CORS_ORIGINS: http://localhost:3000
+      NEXT_TOPIC_ML_SERVICE_URL: ${ML_URL}
+      CORS_ORIGINS: ${CORS_ORIGINS:}
       COOKIE_SECURE: "false"
     networks:
       - afine-net
@@ -66,9 +65,9 @@ services:
     image: postgres:16-alpine
     container_name: afineback-postgres
     environment:
-      POSTGRES_USER: afine
-      POSTGRES_PASSWORD: afine
-      POSTGRES_DB: afine
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
     ports:
       - "5432:5432"
     networks:
