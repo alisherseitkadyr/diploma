@@ -1,27 +1,20 @@
 {
   "section": "budgeting_saving_debt",
+  
   "topic": {
     "code": "debt_credit",
+    "title": {"en": "Debt & Credit"},
     "orderIndex": 8,
-    "title": {
-      "en": "Debt & Credit"
-    },
-    "description": {
-      "en": "How interest and APR truly work, when borrowing helps versus traps you, and how to escape and avoid the debt cycle."
-    },
+    "description": {"en": "How interest and APR truly work, when borrowing helps versus traps you, and how to escape and avoid the debt cycle."},
     "level": "intermediate",
     "prerequisite_id": null
   },
   "subtopics": [
     {
       "code": "types_of_debt",
-      "title": {
-        "en": "Types of debt"
-      },
-      "description": {
-        "en": "."
-      },
-      "estimatedMinutes": 1,
+      "title": {"en": "Types of Debt"},
+      "description": {"en": "Not all debt is equal — secured vs unsecured, instalment vs revolving, productive vs consumptive. Knowing the type determines the risk and the right response."},
+      "estimatedMinutes": 5,
       "orderIndex": 0,
       "quizId": 801,
       "lesson": {
@@ -30,47 +23,116 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {
-              "en": "."
-            },
-            "body": {
-              "en": "."
+            "title": {"en": "Debt is a tool — and tools have the right and wrong jobs"},
+            "body": {"en": "A mortgage finances an asset that may appreciate. A payday loan finances a shortfall at 400% APR. Both are debt, but they operate on entirely different mechanics. Recognising which type of debt you are dealing with is the first step to evaluating whether it makes your financial situation better or worse."},
+            "tip": {"en": "Before borrowing, ask: does this debt create an asset, cover a genuine emergency, or simply defer consumption I can't afford?"}
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {"en": "Secured vs unsecured debt"},
+            "body": {"en": "Secured debt is backed by collateral — an asset the lender can seize if you default. Mortgages (collateral: property) and auto loans (collateral: vehicle) are secured. Because the lender has recourse, rates are lower. Unsecured debt has no collateral — credit cards, personal loans, microloans. The lender bears more risk, so rates are higher. Defaulting on secured debt means losing the asset; defaulting on unsecured triggers collections and credit damage."},
+            "example": {"en": "Mortgage at 12% (secured by flat). Personal loan at 24% (unsecured). Microloan at 120%+ APR (unsecured, short-term). The rate difference directly reflects the lender's collateral protection — or lack of it."}
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {"en": "Instalment vs revolving debt"},
+            "body": {"en": "Instalment debt has a fixed schedule: borrow once, repay in equal payments over a set term. Mortgages, car loans, and student loans work this way — the balance falls predictably. Revolving debt has a limit you can borrow and repay repeatedly. Credit cards are the main example. The danger: revolving debt has no automatic endpoint. You can carry a balance indefinitely, paying interest forever without reducing principal if you only pay the minimum."},
+            "tip": {"en": "Minimum credit card payments are designed to maximise the bank's interest income, not to help you pay off debt quickly."}
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {"en": "Four debts, four risk profiles"},
+            "content": {
+              "en": {
+                "blocks": [
+                  {"type": "paragraph", "text": "Each debt type carries a different rate, structure, and risk. Knowing which type you hold determines how urgently it needs to be addressed."},
+                  {"type": "table", "rows": [
+                    ["Debt type", "Typical KZ rate", "Secured?", "Fixed end date?", "Primary risk"],
+                    ["Mortgage", "11–14%", "Yes (property)", "Yes (15–30 yr)", "Losing the home on default"],
+                    ["Auto loan", "14–18%", "Yes (vehicle)", "Yes (3–7 yr)", "Repossession; depreciation outpaces equity"],
+                    ["Credit card", "24–36%", "No", "No", "Revolving trap; interest compounds on unpaid balance"],
+                    ["Microloan / payday", "120–600% APR", "No", "Short (days–months)", "Debt spiral; doubles in weeks if unpaid"]
+                  ]},
+                  {"type": "paragraph", "text": "The bottom two rows are where most debt emergencies begin. High rates + no fixed payoff date + easy rollover = the conditions for a debt trap."}
+                ]
+              }
             }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {"en": "Classify each debt"},
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each debt description to its correct classification.",
+                "categories": [
+                  {"id": "secured", "label": "Secured debt"},
+                  {"id": "unsecured", "label": "Unsecured debt"},
+                  {"id": "revolving", "label": "Revolving debt"}
+                ],
+                "items": [
+                  {"id": "mortgage", "text": "Home loan; bank holds the property title as collateral"},
+                  {"id": "cc", "text": "Credit card with a 500,000 ₸ limit you can reuse each month"},
+                  {"id": "personal", "text": "Personal loan for 300,000 ₸ to be repaid in 24 fixed monthly instalments"},
+                  {"id": "car", "text": "Auto loan; lender can repossess the vehicle on default"},
+                  {"id": "overdraft", "text": "Bank overdraft that resets each month as salary arrives"}
+                ],
+                "answers": [
+                  {"itemId": "mortgage", "categoryId": "secured"},
+                  {"itemId": "cc", "categoryId": "revolving"},
+                  {"itemId": "personal", "categoryId": "unsecured"},
+                  {"itemId": "car", "categoryId": "secured"},
+                  {"itemId": "overdraft", "categoryId": "revolving"}
+                ],
+                "explanation": "Secured debt is tied to a specific asset. Revolving debt can be reused up to a limit with no fixed repayment end. Unsecured instalment debt has a fixed schedule but no collateral — the personal loan fits here."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {"en": "Type of debt determines urgency and strategy"},
+            "body": {"en": "A low-rate mortgage is structurally different from a high-rate revolving credit card — treating them the same leads to the wrong decisions. Productive debt (financing appreciating or income-producing assets) can be managed steadily. Consumptive high-rate debt demands immediate attention. Understanding how interest actually accumulates is the next building block."},
+            "tip": {"en": "List every debt you hold and classify it: secured or unsecured, instalment or revolving, productive or consumptive. That map tells you where to focus first."}
           }
         ]
       },
       "quiz": {
         "quiz_id": 801,
         "quiz_type": "subtopic_quiz",
-        "title": {
-          "en": "."
-        },
-        "passing_score": 70,
+        "title": {"en": "Types of Debt — Check"},
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {
-              "en": "?"
-            },
+            "question_text": {"en": "Aliya has a credit card balance of 200,000 ₸ at 30% APR. She pays only the minimum each month. What structural feature of revolving debt makes this dangerous?"},
             "answers": [
-              {
-                "id": 1,
-                "order_index": 0,
-                "answer_text": {
-                  "en": "A"
-                },
-                "is_correct": true
-              },
-              {
-                "id": 2,
-                "order_index": 1,
-                "answer_text": {
-                  "en": "B"
-                },
-                "is_correct": false
-              }
+              {"id": 1, "order_index": 0, "answer_text": {"en": "There is no fixed end date — she can carry the balance indefinitely while interest compounds, never automatically paying it off"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "Credit cards have variable rates that rise over time, increasing her payments"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "Minimum payments are illegal in Kazakhstan — she must pay in full monthly"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "Revolving debt is secured by her salary, so default leads to wage garnishment"}, "is_correct": false}
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {"en": "Why do secured loans typically carry lower interest rates than unsecured loans of the same size?"},
+            "answers": [
+              {"id": 1, "order_index": 0, "answer_text": {"en": "The lender can seize collateral on default, reducing their loss exposure and therefore the risk premium they charge"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "Secured loans are regulated by the government to keep rates low for homeowners"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "Borrowers with collateral are wealthier on average, so banks compete harder for them"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "Secured loan repayments are automatically deducted from salary, reducing default risk"}, "is_correct": false}
             ]
           }
         ]
@@ -78,13 +140,9 @@
     },
     {
       "code": "how_interest_works",
-      "title": {
-        "en": "How interest works"
-      },
-      "description": {
-        "en": "."
-      },
-      "estimatedMinutes": 1,
+      "title": {"en": "How Interest Works"},
+      "description": {"en": "Interest is not a flat fee — it compounds on unpaid balances. Understanding the mechanics reveals why small debts become large ones."},
+      "estimatedMinutes": 5,
       "orderIndex": 1,
       "quizId": 802,
       "lesson": {
@@ -93,47 +151,115 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {
-              "en": "."
-            },
-            "body": {
-              "en": "."
+            "title": {"en": "You are not paying interest on what you borrowed"},
+            "body": {"en": "Most people think of interest as a fixed fee on the original loan amount. In reality, interest is calculated on the outstanding balance — which grows if you don't pay enough each period. Miss a payment or pay only the minimum, and next month's interest is charged on a higher base. This is how a manageable debt becomes an unmanageable one."},
+            "tip": {"en": "Every unpaid tenge of interest becomes principal. Next month, interest is charged on that too."}
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {"en": "Simple vs compound interest on debt"},
+            "body": {"en": "Simple interest charges a fixed percentage of the original principal each period — rare in consumer lending. Compound interest charges a percentage of the current outstanding balance, which includes previously unpaid interest. Most credit cards, consumer loans, and microloans use compound interest. This means unpaid interest is added to the balance and itself earns interest — the same compounding that builds investment wealth works against you in debt."},
+            "example": {"en": "Borrow 100,000 ₸ at 3% monthly. Month 1: 3,000 ₸ interest. If unpaid, Month 2 interest is on 103,000 ₸ = 3,090 ₸. Month 3 on 106,090 ₸ = 3,183 ₸. After 12 months without any payment: balance = ~142,576 ₸. The debt grew by 42.6% in one year."}
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {"en": "How loan amortisation works"},
+            "body": {"en": "On an instalment loan, each payment covers two things: accrued interest and a reduction of principal. In the early months, most of the payment goes to interest because the outstanding balance is large. As the principal shrinks, the interest portion falls and more of each payment chips away at the balance. This front-loading of interest is why paying off a loan early saves disproportionately — you eliminate the most interest-heavy period."},
+            "tip": {"en": "On a 5-year loan, extra payments in years 1–2 save far more interest than the same payments in years 4–5, because you cut the high-interest early period."}
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {"en": "Amortisation in action: where your payments really go"},
+            "content": {
+              "en": {
+                "blocks": [
+                  {"type": "paragraph", "text": "Loan: 1,200,000 ₸ at 18% annual rate (1.5% monthly), 24-month term. Monthly payment: ~59,900 ₸."},
+                  {"type": "table", "rows": [
+                    ["Month", "Opening balance", "Interest portion", "Principal portion", "Closing balance"],
+                    ["1", "1,200,000 ₸", "18,000 ₸", "41,900 ₸", "1,158,100 ₸"],
+                    ["6", "1,008,200 ₸", "15,123 ₸", "44,777 ₸", "963,423 ₸"],
+                    ["12", "763,400 ₸", "11,451 ₸", "48,449 ₸", "714,951 ₸"],
+                    ["18", "486,500 ₸", "7,298 ₸", "52,602 ₸", "433,898 ₸"],
+                    ["24", "59,500 ₸", "893 ₸", "59,007 ₸", "0 ₸"]
+                  ]},
+                  {"type": "paragraph", "text": "In month 1, 30% of the payment (18,000 ₸) goes to interest. By month 24, only 1.5% does. Total interest paid over 24 months: ~237,600 ₸ — nearly 20% on top of the original 1,200,000 ₸."}
+                ]
+              }
             }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {"en": "What happens when you miss a payment?"},
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "A borrower has a 500,000 ₸ balance at 2% monthly interest. Evaluate what happens under each payment scenario after 3 months.",
+                "options": ["Balance falls", "Balance unchanged", "Balance grows"],
+                "scenarios": [
+                  {
+                    "text": "The borrower pays exactly 10,000 ₸ per month. Monthly interest accrues at 2% = 10,000 ₸ on the 500,000 ₸ balance.",
+                    "correct_answer": "Balance unchanged",
+                    "explanation": "Paying exactly the interest keeps the balance flat but makes zero progress on principal. The borrower is running in place — paying indefinitely and never reducing the debt."
+                  },
+                  {
+                    "text": "The borrower misses one month entirely, then resumes normal minimum payments the following month.",
+                    "correct_answer": "Balance grows",
+                    "explanation": "The missed month's interest (10,000 ₸) is added to principal. Now interest is charged on 510,000 ₸. One missed payment permanently increases the balance and every future interest charge."
+                  },
+                  {
+                    "text": "The borrower pays 25,000 ₸ per month: 10,000 ₸ covers interest, 15,000 ₸ reduces principal.",
+                    "correct_answer": "Balance falls",
+                    "explanation": "Any payment above the interest charge reduces principal. The smaller the balance, the less interest accrues — creating a virtuous cycle that accelerates payoff."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {"en": "Interest is compounding working against you"},
+            "body": {"en": "The same mechanics that make investing powerful — returns on returns — make debt dangerous when unpaid. Every missed payment or minimum-only payment adds to the principal that earns next month's interest. APR is the standardised way to compare these rates across different products and compounding frequencies, which is why it matters."},
+            "tip": {"en": "On any debt, calculate: how much of my monthly payment goes to interest? That's the cost of delay. Any extra payment goes directly to principal and reduces all future interest."}
           }
         ]
       },
       "quiz": {
         "quiz_id": 802,
         "quiz_type": "subtopic_quiz",
-        "title": {
-          "en": "."
-        },
-        "passing_score": 70,
+        "title": {"en": "How Interest Works — Check"},
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {
-              "en": "?"
-            },
+            "question_text": {"en": "Ruslan has a 400,000 ₸ credit card balance at 3% monthly interest. He pays exactly 12,000 ₸ per month — the exact interest charge. After 12 months, what is his balance?"},
             "answers": [
-              {
-                "id": 1,
-                "order_index": 0,
-                "answer_text": {
-                  "en": "A"
-                },
-                "is_correct": true
-              },
-              {
-                "id": 2,
-                "order_index": 1,
-                "answer_text": {
-                  "en": "B"
-                },
-                "is_correct": false
-              }
+              {"id": 1, "order_index": 0, "answer_text": {"en": "Still 400,000 ₸ — he covered interest exactly but made no principal reduction"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "About 256,000 ₸ — 12 payments of 12,000 ₸ reduced the balance"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "About 536,000 ₸ — interest compounds on unpaid principal each month"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "Zero — 12 months of payments always clears any credit card balance"}, "is_correct": false}
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {"en": "On an amortising loan, why does making an extra principal payment in month 2 save more interest than making the same extra payment in month 20?"},
+            "answers": [
+              {"id": 1, "order_index": 0, "answer_text": {"en": "Reducing the balance early eliminates interest on that amount for all remaining months — the earlier the reduction, the more months of interest are avoided"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "Banks charge higher interest rates in the early months of a loan"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "Extra payments are only applied to principal in the first half of the loan term"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "The interest rate is higher on larger balances, so reducing the balance early lowers the rate"}, "is_correct": false}
             ]
           }
         ]
@@ -141,13 +267,9 @@
     },
     {
       "code": "apr_and_total_cost",
-      "title": {
-        "en": "APR and total borrowing cost"
-      },
-      "description": {
-        "en": "."
-      },
-      "estimatedMinutes": 1,
+      "title": {"en": "APR and Total Borrowing Cost"},
+      "description": {"en": "APR is the single number that lets you compare any two loans fairly. But the total cost is what actually leaves your account — and it can be shocking."},
+      "estimatedMinutes": 5,
       "orderIndex": 2,
       "quizId": 803,
       "lesson": {
@@ -156,47 +278,116 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {
-              "en": "."
-            },
-            "body": {
-              "en": "."
+            "title": {"en": "Lenders quote rates in ways that flatter them"},
+            "body": {"en": "A lender might advertise '3% per month' or '2% processing fee plus 18% annual rate' or '0% interest — just a small service charge.' These all describe borrowing costs, but they cannot be directly compared without a common standard. Annual Percentage Rate (APR) converts any borrowing cost into a standardised annual figure, making comparison possible."},
+            "tip": {"en": "Always convert any quoted rate to APR before comparing. '3% per month' is 36% APR — not 3%."}
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {"en": "What APR includes — and what it doesn't"},
+            "body": {"en": "APR captures the interest rate plus mandatory fees (origination fees, insurance required by the lender, administrative charges) expressed as an annual percentage of the loan amount. It does not include optional insurance, late fees, or prepayment penalties — those add to the true cost but are excluded from the APR calculation. A loan with a low APR but heavy late fees can cost more in practice than a higher-APR loan repaid on time."},
+            "example": {"en": "Loan A: 20% APR, no fees. Loan B: 18% APR + 3% origination fee on 500,000 ₸ = 15,000 ₸ upfront. The effective APR of Loan B on a 1-year term is closer to 21%. The advertised rate was lower; the true cost was higher."}
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {"en": "Total Cost of Credit: the number that really matters"},
+            "body": {"en": "APR tells you the rate. Total Cost of Credit (TCC) tells you the absolute tenge amount you will pay above the principal. TCC = all repayments − original loan amount. On a long-term loan, TCC can exceed the principal — you pay back more than twice what you borrowed. This figure should be front of mind for any major borrowing decision, not just the monthly payment."},
+            "tip": {"en": "Ask the lender: 'What is the total amount I will repay over the life of this loan?' That number minus the principal is your true cost."}
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {"en": "Same loan, different terms: what changes?"},
+            "content": {
+              "en": {
+                "blocks": [
+                  {"type": "paragraph", "text": "Loan amount: 2,000,000 ₸ at 16% annual rate. Comparing 3 different repayment terms."},
+                  {"type": "table", "rows": [
+                    ["Term", "Monthly payment", "Total repaid", "Total interest paid", "Interest as % of principal"],
+                    ["2 years", "~97,800 ₸", "~2,347,200 ₸", "~347,200 ₸", "17.4%"],
+                    ["5 years", "~48,700 ₸", "~2,922,000 ₸", "~922,000 ₸", "46.1%"],
+                    ["10 years", "~33,700 ₸", "~4,044,000 ₸", "~2,044,000 ₸", "102.2%"]
+                  ]},
+                  {"type": "paragraph", "text": "Extending from 2 to 10 years cuts the monthly payment by 65% — but increases total interest paid by nearly 6×. The 10-year borrower pays back 2,044,000 ₸ in interest alone on a 2,000,000 ₸ loan. Longer terms feel affordable; they are not cheap."}
+                ]
+              }
             }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {"en": "Which loan is actually cheaper?"},
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Each borrower is comparing two loan offers. Find the reasoning error in their conclusion.",
+                "cases": [
+                  {
+                    "text": "\"Loan A charges 2% per month. Loan B charges 26% per year. I'll take Loan B — 26% sounds higher than 2%.\"",
+                    "options": ["a) No error — 26% annual is higher than 2% monthly", "b) Error — 2% monthly = 24% APR, so Loan B at 26% APR is actually more expensive"],
+                    "correct": "b",
+                    "explanation": "2% monthly compounds to approximately 26.8% effective annual rate. But even as simple APR, 2% × 12 = 24% vs Loan B's 26%. Comparing monthly to annual rates without conversion leads to the wrong choice."
+                  },
+                  {
+                    "text": "\"Both loans are 500,000 ₸ at 18% APR. Loan A is 2 years; Loan B is 4 years. I'll take Loan B — lower monthly payment means it's cheaper.\"",
+                    "options": ["a) No error — lower monthly payment always means lower total cost", "b) Error — lower monthly payment comes from a longer term, which increases total interest paid"],
+                    "correct": "b",
+                    "explanation": "Same APR, longer term = more months of interest. Loan B's lower monthly payment is offset by paying for twice as long. Total cost of Loan B is substantially higher than Loan A."
+                  },
+                  {
+                    "text": "\"This loan has a 0% interest rate for 12 months, then 28% APR. I'll pay it off in 10 months to avoid the high rate.\"",
+                    "options": ["a) No error — paying off before the rate kicks in avoids the 28% APR", "b) Error — you cannot pay off a 0% loan early without penalty"],
+                    "correct": "a",
+                    "explanation": "Using a 0% promotional period and paying off before it expires is a legitimate strategy. As long as the full balance is cleared before month 12, no high-rate interest is incurred. The plan is sound."
+                  }
+                ],
+                "final_explanation": "APR standardises rate comparison. Term length determines total cost. Always calculate total repayment = monthly payment × number of payments, then subtract the principal to find true interest cost."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {"en": "APR compares; Total Cost of Credit decides"},
+            "body": {"en": "APR is the right tool for comparing two loans at the same term. Total Cost of Credit is the right tool for understanding what borrowing actually costs you in tenge. Use both: APR to filter options, TCC to make the final call. This framework becomes critical when evaluating the most dangerous products in the KZ market: microloans and payday loans."},
+            "tip": {"en": "Before signing any loan, write down: principal, APR, term, and total repayment. If the lender won't give you total repayment in writing, treat that as a warning sign."}
           }
         ]
       },
       "quiz": {
         "quiz_id": 803,
         "quiz_type": "subtopic_quiz",
-        "title": {
-          "en": "."
-        },
-        "passing_score": 70,
+        "title": {"en": "APR and Total Borrowing Cost — Check"},
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {
-              "en": "?"
-            },
+            "question_text": {"en": "A lender advertises 'just 4% per month — no annual fees.' What is the approximate APR?"},
             "answers": [
-              {
-                "id": 1,
-                "order_index": 0,
-                "answer_text": {
-                  "en": "A"
-                },
-                "is_correct": true
-              },
-              {
-                "id": 2,
-                "order_index": 1,
-                "answer_text": {
-                  "en": "B"
-                },
-                "is_correct": false
-              }
+              {"id": 1, "order_index": 0, "answer_text": {"en": "~60% APR using simple annualisation (4% × 12) — and even higher on a compound basis"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "4% — the rate is already stated as a monthly figure"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "About 24% — monthly rates are divided by 3 to annualise"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "About 48% — multiply monthly rate by the number of compounding periods"}, "is_correct": false}
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {"en": "A borrower takes 3,000,000 ₸ over 15 years at 14% APR. Monthly payment is 39,600 ₸. What is the Total Cost of Credit?"},
+            "answers": [
+              {"id": 1, "order_index": 0, "answer_text": {"en": "~4,128,000 ₸ — total repaid (39,600 × 180) minus 3,000,000 ₸ principal"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "~420,000 ₸ — 14% of 3,000,000 ₸"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "~3,000,000 ₸ — the loan amount is also the total cost"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "~6,300,000 ₸ — 14% APR over 15 years means paying 210% of principal"}, "is_correct": false}
             ]
           }
         ]
@@ -204,13 +395,9 @@
     },
     {
       "code": "microloans_and_debt_trap",
-      "title": {
-        "en": "Microloans, payday loans & the debt trap"
-      },
-      "description": {
-        "en": "."
-      },
-      "estimatedMinutes": 1,
+      "title": {"en": "Microloans, Payday Loans & the Debt Trap"},
+      "description": {"en": "Kazakhstan's microloan market offers fast cash at rates that can exceed 500% APR. Understanding exactly how the debt trap forms — and how to exit — is a financial survival skill."},
+      "estimatedMinutes": 6,
       "orderIndex": 3,
       "quizId": 804,
       "lesson": {
@@ -219,47 +406,114 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {
-              "en": "."
-            },
-            "body": {
-              "en": "."
+            "title": {"en": "Fast money, compound catastrophe"},
+            "body": {"en": "Microfinance organisations (MFOs) in Kazakhstan offer loans approved in minutes with no credit check, often framed as a convenient solution for short-term cash gaps. The true cost is buried in a daily rate that converts to 200–600% APR. For millions of Kazakhstani borrowers, these products are the entry point to a debt spiral that takes years to exit."},
+            "tip": {"en": "In KZ, MFO daily rates are often quoted as 0.5–1% per day. That is 182–365% APR at minimum. This is not a coincidence — it is a business model."}
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {"en": "How the debt trap forms: rollover and reborrowing"},
+            "body": {"en": "A payday loan is typically due in full in 7–30 days. The borrower, unable to repay in full, 'rolls over' the loan — extending the term by paying only the fee, resetting the clock. Or they take a new loan to repay the old one. Each rollover adds fees to principal. Within a few cycles, the total owed can exceed the original sum. The trap is not dishonesty — it is arithmetic combined with tight cash flow."},
+            "example": {"en": "Borrow 50,000 ₸ for 30 days at 1.5%/day. Day 30 interest: 22,500 ₸. Total due: 72,500 ₸. Unable to pay in full, borrower rolls over for another 30 days — now 72,500 ₸ × 1.5%/day compounds. After 90 days without full repayment: balance ≈ 153,000 ₸ on an original 50,000 ₸ loan."}
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {"en": "Regulatory context and legal protections in Kazakhstan"},
+            "body": {"en": "The National Bank of Kazakhstan has introduced limits on MFO rates, and the total debt owed to an MFO cannot legally exceed the original principal by more than a set multiplier. Despite this, enforcement is uneven and many borderline-legal products exist. The most important protection is not regulatory — it is refusing to borrow from MFOs for non-emergency consumption needs. An emergency fund (Topic 4) is the real alternative."},
+            "tip": {"en": "If you are considering an MFO loan, ask: would I accept this cost if it were printed in large text on the front page? If not, it is not the right product."}
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {"en": "The real cost of a 'quick' 100,000 ₸ MFO loan"},
+            "content": {
+              "en": {
+                "blocks": [
+                  {"type": "paragraph", "text": "Borrower takes 100,000 ₸ from an MFO at 0.8%/day. They intend to repay in 30 days but can only make partial payments. Here is what happens over 90 days."},
+                  {"type": "table", "rows": [
+                    ["Day", "Balance", "Daily interest", "Payment made", "Notes"],
+                    ["0", "100,000 ₸", "—", "—", "Loan received"],
+                    ["30", "124,800 ₸", "999 ₸/day", "10,000 ₸", "Partial payment; balance still growing"],
+                    ["60", "141,700 ₸", "1,134 ₸/day", "10,000 ₸", "Each day costs more than the last"],
+                    ["90", "161,200 ₸", "1,290 ₸/day", "10,000 ₸", "Paid 30,000 ₸ total; owe 61% more than borrowed"]
+                  ]},
+                  {"type": "paragraph", "text": "After 90 days and 30,000 ₸ in payments, the borrower owes 61,200 ₸ more than the original 100,000 ₸. They have paid 30,000 ₸ and their debt has grown by 61,200 ₸. The daily rate ensures that partial payments never keep pace with compounding interest at this rate."}
+                ]
+              }
             }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {"en": "Exit strategy: which option breaks the cycle?"},
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Sanzhar has an MFO debt of 200,000 ₸ at 0.9%/day (~329% APR). He has several options. Which one actually breaks the debt cycle versus which merely delays or worsens it?",
+                "options": ["Breaks the debt cycle", "Delays or worsens the cycle"],
+                "scenarios": [
+                  {
+                    "text": "Sanzhar takes a new 200,000 ₸ MFO loan from a different lender to fully repay the first one.",
+                    "correct_answer": "Delays or worsens the cycle",
+                    "explanation": "Replacing one high-rate MFO debt with another resets the clock without reducing the cost. He still owes the same amount at the same rate — and may now have fees from the new loan too."
+                  },
+                  {
+                    "text": "Sanzhar borrows 200,000 ₸ from a family member at 0% interest and repays the MFO immediately, then repays the family member over 6 months.",
+                    "correct_answer": "Breaks the debt cycle",
+                    "explanation": "Replacing the MFO debt with a 0% informal loan stops the compounding immediately. Even a formal personal bank loan at 25% APR would break the cycle — anything with a lower rate than ~329% APR wins."
+                  },
+                  {
+                    "text": "Sanzhar continues making minimum MFO payments while waiting for his annual bonus to pay off the full balance.",
+                    "correct_answer": "Delays or worsens the cycle",
+                    "explanation": "At 0.9%/day, minimum payments almost certainly cover less than the daily interest accrual. Each month of waiting adds thousands of tenge to the balance. Unless the bonus arrives within days, the debt will be larger when he finally pays."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {"en": "Prevention is the only reliable defence"},
+            "body": {"en": "The exit from MFO debt requires replacing it with a lower-rate instrument: a bank personal loan, a family loan, or an employer advance. Any of these dominates the MFO rate and stops the compounding. But the most powerful tool is not taking the loan in the first place — which requires a functional emergency fund, a skill from earlier sections. Credit history is what opens the door to lower-rate alternatives over time."},
+            "tip": {"en": "If MFO debt feels unavoidable, the underlying issue is a cash flow gap — insufficient income, excessive spending, or no savings buffer. Address the cause, not just the symptom."}
           }
         ]
       },
       "quiz": {
         "quiz_id": 804,
         "quiz_type": "subtopic_quiz",
-        "title": {
-          "en": "."
-        },
-        "passing_score": 70,
+        "title": {"en": "Microloans, Payday Loans & the Debt Trap — Check"},
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {
-              "en": "?"
-            },
+            "question_text": {"en": "An MFO charges 1% per day. A borrower takes 80,000 ₸ for 30 days and cannot repay. She rolls over the loan for another 30 days, paying only the month's fees. What is the approximate balance after 60 days?"},
             "answers": [
-              {
-                "id": 1,
-                "order_index": 0,
-                "answer_text": {
-                  "en": "A"
-                },
-                "is_correct": true
-              },
-              {
-                "id": 2,
-                "order_index": 1,
-                "answer_text": {
-                  "en": "B"
-                },
-                "is_correct": false
-              }
+              {"id": 1, "order_index": 0, "answer_text": {"en": "~107,000 ₸ — 80,000 ₸ compounded at 1%/day for 60 days"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "~80,000 ₸ — she paid the fees, so the principal is unchanged"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "~96,000 ₸ — 80,000 ₸ plus 2 months of 10% fee"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "~160,000 ₸ — loan doubles every 30 days at 1%/day"}, "is_correct": false}
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {"en": "What is the most effective way to break out of an MFO debt spiral?"},
+            "answers": [
+              {"id": 1, "order_index": 0, "answer_text": {"en": "Replace the MFO debt with any lower-rate credit (bank loan, family loan) that stops daily compounding at the MFO's rate"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "Negotiate with the MFO to reduce the daily rate to 0.5%"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "Make minimum payments and wait for the debt to stabilise over time"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "Take a second MFO loan to extend the repayment period"}, "is_correct": false}
             ]
           }
         ]
@@ -267,13 +521,9 @@
     },
     {
       "code": "credit_history_and_scores",
-      "title": {
-        "en": "Credit history and scores"
-      },
-      "description": {
-        "en": "."
-      },
-      "estimatedMinutes": 1,
+      "title": {"en": "Credit History and Scores"},
+      "description": {"en": "Your credit history is a financial track record that determines your access to lower-rate borrowing. In Kazakhstan, the First Credit Bureau (FCB) tracks it — knowing how it works lets you build and protect it."},
+      "estimatedMinutes": 5,
       "orderIndex": 4,
       "quizId": 805,
       "lesson": {
@@ -282,47 +532,120 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {
-              "en": "."
-            },
-            "body": {
-              "en": "."
+            "title": {"en": "Your borrowing past determines your future rate"},
+            "body": {"en": "Lenders have no way to observe your financial behaviour directly. Credit history is the record they use instead — a standardised track record of how reliably you have repaid past obligations. A strong credit history unlocks lower rates, higher limits, and faster approvals. A poor one means higher costs or outright rejection, pushing you toward the high-rate lenders of last resort."},
+            "tip": {"en": "In Kazakhstan, check your credit report at the First Credit Bureau (1cb.kz) — every citizen is entitled to one free report per year."}
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {"en": "What goes into your credit history"},
+            "body": {"en": "KZ credit bureaus record: every loan and credit product you have opened, payment dates (on time or late), outstanding balances, number of credit enquiries (each application is logged), and any defaults or restructurings. Payment history is the most heavily weighted factor — a single 60-day late payment can damage your score for years. Enquiries matter less but accumulate quickly if you shop for credit frequently."},
+            "example": {"en": "Behaviour that builds credit: on-time payments every month, low utilisation on credit cards, long relationship with one or two lenders, rare credit applications. Behaviour that damages it: missed payments, defaults, using 90%+ of credit card limits, multiple loan applications in a short period."}
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {"en": "How to build credit from zero in Kazakhstan"},
+            "body": {"en": "With no credit history, lenders treat you as an unknown risk. The fastest way to build history is a secured credit card (deposit-backed) or a small instalment loan that you repay on time for 6–12 months. Each on-time payment is reported to the bureau and improves your file. Starting small and reliable is better than starting large — the goal is a track record, not a large credit line."},
+            "tip": {"en": "Set up automatic payments for minimum amounts on every credit product. A missed payment from forgetting costs more in score damage than almost any other mistake."}
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {"en": "How credit behaviour affects loan rates over time"},
+            "content": {
+              "en": {
+                "blocks": [
+                  {"type": "paragraph", "text": "Two borrowers both want a 5,000,000 ₸ mortgage at the same bank. Their credit histories differ significantly."},
+                  {"type": "table", "rows": [
+                    ["Factor", "Borrower A (strong history)", "Borrower B (weak history)"],
+                    ["Payment history", "100% on time for 5 years", "3 late payments, 1 restructured loan"],
+                    ["Current utilisation", "18% of credit card limit", "87% of credit card limit"],
+                    ["Credit enquiries (last 12 months)", "1", "7"],
+                    ["Mortgage rate offered", "12.5%", "17.0%"],
+                    ["Monthly payment (20-year term)", "~57,100 ₸", "~72,600 ₸"],
+                    ["Total extra cost over 20 years", "—", "~3,720,000 ₸ more"]
+                  ]},
+                  {"type": "paragraph", "text": "The 4.5% rate difference costs Borrower B over 3.7 million tenge on a single mortgage. Credit history is not a bureaucratic formality — it directly determines the price of every major financial product you access."}
+                ]
+              }
             }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {"en": "Does this help or hurt your credit score?"},
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each action into the correct category based on its effect on your credit history.",
+                "categories": [
+                  {"id": "helps", "label": "Helps credit history"},
+                  {"id": "hurts", "label": "Hurts credit history"},
+                  {"id": "neutral", "label": "Neutral / minimal impact"}
+                ],
+                "items": [
+                  {"id": "ontime", "text": "Paying every loan instalment on time for 3 consecutive years"},
+                  {"id": "maxcc", "text": "Using 95% of your credit card limit every month"},
+                  {"id": "autodebit", "text": "Setting up automatic minimum payment on your credit card"},
+                  {"id": "multiapply", "text": "Applying to 6 different lenders for a loan in one month"},
+                  {"id": "closedold", "text": "Closing your oldest credit card account you no longer use"},
+                  {"id": "checkreport", "text": "Checking your own credit report on 1cb.kz"}
+                ],
+                "answers": [
+                  {"itemId": "ontime", "categoryId": "helps"},
+                  {"itemId": "maxcc", "categoryId": "hurts"},
+                  {"itemId": "autodebit", "categoryId": "helps"},
+                  {"itemId": "multiapply", "categoryId": "hurts"},
+                  {"itemId": "closedold", "categoryId": "hurts"},
+                  {"itemId": "checkreport", "categoryId": "neutral"}
+                ],
+                "explanation": "Payment history and utilisation are the two biggest factors. Closing old accounts reduces your credit history length and available limit. Multiple applications in a short period signal financial stress. Checking your own report is a 'soft enquiry' and does not affect your score."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {"en": "Credit history is a long-term asset"},
+            "body": {"en": "A strong credit file is built over years and damaged in weeks. It is not a score to chase for its own sake — it is infrastructure that determines your access to lower-cost borrowing for homes, cars, and business. The discipline that builds credit (on-time payments, low utilisation) is the same discipline that prevents debt problems. The final piece is knowing which debts to pay off first and in what order."},
+            "tip": {"en": "If you have a poor credit history, the path back is slow and mechanical: pay on time, every time, for 12–24 consecutive months. There is no shortcut."}
           }
         ]
       },
       "quiz": {
         "quiz_id": 805,
         "quiz_type": "subtopic_quiz",
-        "title": {
-          "en": "."
-        },
-        "passing_score": 70,
+        "title": {"en": "Credit History and Scores — Check"},
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {
-              "en": "?"
-            },
+            "question_text": {"en": "Mira has a good credit history but applies to 8 different banks for a personal loan in one month, hoping to find the best rate. What unintended effect might this have on her credit file?"},
             "answers": [
-              {
-                "id": 1,
-                "order_index": 0,
-                "answer_text": {
-                  "en": "A"
-                },
-                "is_correct": true
-              },
-              {
-                "id": 2,
-                "order_index": 1,
-                "answer_text": {
-                  "en": "B"
-                },
-                "is_correct": false
-              }
+              {"id": 1, "order_index": 0, "answer_text": {"en": "Each application is a hard enquiry on her credit file — multiple enquiries in a short period signal financial stress and can lower her score"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "No effect — shopping for rates is legally protected and enquiries are not recorded in Kazakhstan"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "Her score improves because showing multiple lenders trust her signals creditworthiness"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "It helps because banks offer better rates to customers who demonstrate they are comparison shopping"}, "is_correct": false}
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {"en": "Dima has never borrowed money in his life and has a large savings account. He applies for a mortgage but is offered a higher rate than a colleague who earns less. Why?"},
+            "answers": [
+              {"id": 1, "order_index": 0, "answer_text": {"en": "No credit history means no repayment track record — the lender cannot assess default risk and prices the uncertainty with a higher rate"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "Banks penalise customers with savings because they are less likely to borrow repeatedly"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "Savings accounts are treated as liabilities in KZ credit scoring"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "His colleague has a higher credit score because he has a higher income"}, "is_correct": false}
             ]
           }
         ]
@@ -330,13 +653,9 @@
     },
     {
       "code": "debt_payoff_strategies",
-      "title": {
-        "en": "Debt payoff strategies"
-      },
-      "description": {
-        "en": "."
-      },
-      "estimatedMinutes": 1,
+      "title": {"en": "Debt Payoff Strategies"},
+      "description": {"en": "Two proven methods — avalanche and snowball — approach the same goal differently. Choosing the right one depends on whether you optimise for mathematics or psychology."},
+      "estimatedMinutes": 5,
       "orderIndex": 5,
       "quizId": 806,
       "lesson": {
@@ -345,51 +664,202 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {
-              "en": "."
-            },
-            "body": {
-              "en": "."
+            "title": {"en": "More than minimum: the only way out"},
+            "body": {"en": "Minimum payments on multiple debts keep you in debt indefinitely while maximising total interest paid. Getting out requires making more than the minimums — and directing the extra money strategically. Two systematic methods exist: the avalanche (mathematical optimum) and the snowball (psychological optimum). Both work; the best one is the one you will actually follow."},
+            "tip": {"en": "The first step in any debt payoff plan: list every debt with its balance, interest rate, and minimum payment. Without this map, strategy is impossible."}
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {"en": "The debt avalanche: highest rate first"},
+            "body": {"en": "The avalanche method targets the highest-interest debt with all extra money, while paying minimums on everything else. When that debt is cleared, the freed payment rolls into the next highest-rate debt — creating an accelerating payoff. Mathematically, this minimises total interest paid and clears debt fastest in tenge terms. The drawback: high-rate debts are often the largest, so the first win can take a long time."},
+            "example": {"en": "Debt A: 50,000 ₸ at 36% (MFO). Debt B: 300,000 ₸ at 22% (credit card). Debt C: 1,000,000 ₸ at 15% (personal loan). Avalanche order: A → B → C. Even though A is small, its 36% rate means every day it exists costs more per tenge than either other debt."}
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {"en": "The debt snowball: smallest balance first"},
+            "body": {"en": "The snowball method targets the smallest balance first, regardless of interest rate. Each cleared debt delivers a concrete win and frees up a payment to add to the next debt. Psychologically, the early victories sustain motivation through what is otherwise a long, invisible process. The cost: you may pay more total interest if small debts have lower rates. Research shows borrowers using the snowball method are more likely to stay the course and become debt-free."},
+            "tip": {"en": "Choose avalanche if you are highly analytical and motivated by data. Choose snowball if you have struggled to maintain financial habits in the past — the wins matter more than the math."}
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {"en": "Avalanche vs snowball: the numbers side by side"},
+            "content": {
+              "en": {
+                "blocks": [
+                  {"type": "paragraph", "text": "Three debts, 50,000 ₸/month available for payoff (above minimums combined). Which method clears debt faster and at lower total cost?"},
+                  {"type": "table", "rows": [
+                    ["Debt", "Balance", "Rate", "Minimum payment"],
+                    ["MFO loan", "80,000 ₸", "36%", "4,000 ₸"],
+                    ["Credit card", "250,000 ₸", "28%", "8,000 ₸"],
+                    ["Personal loan", "600,000 ₸", "18%", "15,000 ₸"]
+                  ]},
+                  {"type": "table", "rows": [
+                    ["Method", "Order", "Months to debt-free", "Total interest paid"],
+                    ["Avalanche", "MFO → Credit card → Personal", "~21 months", "~184,000 ₸"],
+                    ["Snowball", "MFO → Credit card → Personal", "~21 months", "~193,000 ₸"]
+                  ]},
+                  {"type": "paragraph", "text": "In this case the order happens to be the same for both methods (smallest balance also has the highest rate). The avalanche saves ~9,000 ₸. In scenarios where they diverge, the avalanche saves more but the snowball delivers earlier wins on smaller debts. The difference is rarely enormous — consistency matters more than method selection."}
+                ]
+              }
             }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {"en": "Build the payoff order"},
+            "interactiveType": "portfolio_choice",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Aigerim has four debts and wants to use the debt avalanche method. She has 40,000 ₸/month above her combined minimum payments. Which payoff order correctly applies the avalanche?",
+                "options": [
+                  {
+                    "name": "Order A",
+                    "data": [
+                      "1st: MFO loan — 30,000 ₸ at 42% APR",
+                      "2nd: Credit card — 150,000 ₸ at 30% APR",
+                      "3rd: Car loan — 400,000 ₸ at 16% APR",
+                      "4th: Mortgage — 8,000,000 ₸ at 12% APR"
+                    ]
+                  },
+                  {
+                    "name": "Order B",
+                    "data": [
+                      "1st: MFO loan — 30,000 ₸ (smallest balance)",
+                      "2nd: Credit card — 150,000 ₸",
+                      "3rd: Car loan — 400,000 ₸",
+                      "4th: Mortgage — 8,000,000 ₸"
+                    ]
+                  },
+                  {
+                    "name": "Order C",
+                    "data": [
+                      "1st: Mortgage — 8,000,000 ₸ (largest balance, focus resources)",
+                      "2nd: Car loan — 400,000 ₸",
+                      "3rd: Credit card — 150,000 ₸",
+                      "4th: MFO loan — 30,000 ₸"
+                    ]
+                  }
+                ],
+                "correct": "Order A",
+                "explanation": "Avalanche = highest rate first, regardless of balance size. The MFO at 42% costs the most per tenge of outstanding debt. Although it happens to also be the smallest balance here, the decision is driven by rate, not size. Order C (largest balance first) is neither avalanche nor snowball — it maximises total interest paid."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {"en": "The method matters less than the commitment"},
+            "body": {"en": "Both avalanche and snowball outperform the alternative — making minimum payments and hoping the debt eventually disappears. The real enemy of debt payoff is not the wrong method; it is the absence of any method. Pick one, automate the extra payments, and do not accumulate new high-rate debt while paying off the old. With the debt management framework complete, you now have the full toolkit for the Debt & Credit topic."},
+            "tip": {"en": "Debt payoff accelerates non-linearly: as each balance clears, the freed payment compounds into the next one. The last debt gets the most firepower — this is the avalanche/snowball's most powerful feature."}
           }
         ]
       },
       "quiz": {
         "quiz_id": 806,
         "quiz_type": "subtopic_quiz",
-        "title": {
-          "en": "."
-        },
-        "passing_score": 70,
+        "title": {"en": "Debt Payoff Strategies — Check"},
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {
-              "en": "?"
-            },
+            "question_text": {"en": "Temur has three debts: 500,000 ₸ at 14%, 100,000 ₸ at 32%, and 200,000 ₸ at 22%. He uses the avalanche method. Which debt gets his extra monthly payment first?"},
             "answers": [
-              {
-                "id": 1,
-                "order_index": 0,
-                "answer_text": {
-                  "en": "A"
-                },
-                "is_correct": true
-              },
-              {
-                "id": 2,
-                "order_index": 1,
-                "answer_text": {
-                  "en": "B"
-                },
-                "is_correct": false
-              }
+              {"id": 1, "order_index": 0, "answer_text": {"en": "The 100,000 ₸ debt at 32% — highest interest rate regardless of balance size"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "The 500,000 ₸ debt at 14% — largest balance means more total interest over time"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "The 100,000 ₸ debt at 32% — smallest balance means it clears fastest"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "All three simultaneously — splitting the extra payment reduces interest across all debts equally"}, "is_correct": false}
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {"en": "A borrower switches from avalanche to snowball mid-plan after 4 months because the avalanche's first debt is large and she feels no progress. What is the likely financial trade-off?"},
+            "answers": [
+              {"id": 1, "order_index": 0, "answer_text": {"en": "She will pay slightly more total interest but is more likely to stay committed and actually become debt-free"}, "is_correct": true},
+              {"id": 2, "order_index": 1, "answer_text": {"en": "Switching methods resets her repayment clock and adds a penalty from the lender"}, "is_correct": false},
+              {"id": 3, "order_index": 2, "answer_text": {"en": "The snowball always costs less total interest than the avalanche"}, "is_correct": false},
+              {"id": 4, "order_index": 3, "answer_text": {"en": "It makes no difference — both methods produce identical total interest paid"}, "is_correct": false}
             ]
           }
         ]
       }
     }
-  ]
+  ],
+  "finalQuiz": {
+    "quiz_id": 899,
+    "quiz_type": "final_quiz",
+    "title": {"en": "Debt & Credit — Final Check"},
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {"en": "Asel has a mortgage (secured, 13% APR) and a credit card balance (unsecured, 31% APR). She has extra cash this month. Which debt should she prioritise, and why?"},
+        "answers": [
+          {"id": 1, "order_index": 0, "answer_text": {"en": "The credit card — higher APR means more interest accruing per tenge of outstanding balance, regardless of which debt is secured"}, "is_correct": true},
+          {"id": 2, "order_index": 1, "answer_text": {"en": "The mortgage — secured debt is more dangerous because the lender can take her home"}, "is_correct": false},
+          {"id": 3, "order_index": 2, "answer_text": {"en": "Neither — extra cash should go into savings before any debt repayment"}, "is_correct": false},
+          {"id": 4, "order_index": 3, "answer_text": {"en": "The mortgage — larger balance means more total interest over time"}, "is_correct": false}
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {"en": "A lender quotes '1.2% per month, no annual fee.' A bank offers '15% APR.' Which is cheaper, and how do you know?"},
+        "answers": [
+          {"id": 1, "order_index": 0, "answer_text": {"en": "The bank at 15% APR — 1.2% monthly = ~14.4% simple APR or ~15.4% compound APR, making them roughly equivalent or the MFO slightly more expensive"}, "is_correct": true},
+          {"id": 2, "order_index": 1, "answer_text": {"en": "The lender at 1.2% monthly — it sounds much lower than 15%"}, "is_correct": false},
+          {"id": 3, "order_index": 2, "answer_text": {"en": "The bank at 15% — monthly rates are always more expensive than annual rates by definition"}, "is_correct": false},
+          {"id": 4, "order_index": 3, "answer_text": {"en": "They are incomparable — monthly and annual rates use different methodologies"}, "is_correct": false}
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {"en": "A person borrows 60,000 ₸ from an MFO at 1.5%/day for 20 days and cannot repay. She rolls over for another 20 days. Approximately what does she owe at the end of day 40?"},
+        "answers": [
+          {"id": 1, "order_index": 0, "answer_text": {"en": "~107,000 ₸ — 60,000 ₸ compounded at 1.5%/day for 40 days (60,000 × 1.015^40)"}, "is_correct": true},
+          {"id": 2, "order_index": 1, "answer_text": {"en": "~78,000 ₸ — 60,000 ₸ plus 30% flat fee for 2 rollovers"}, "is_correct": false},
+          {"id": 3, "order_index": 2, "answer_text": {"en": "~61,800 ₸ — daily interest is small and barely affects the balance"}, "is_correct": false},
+          {"id": 4, "order_index": 3, "answer_text": {"en": "~120,000 ₸ — MFO loans always double in 40 days by law"}, "is_correct": false}
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {"en": "Baurzhan has never borrowed money and has 5,000,000 ₸ in savings. He applies for a mortgage and is surprised to be offered a higher rate than his colleague with a modest salary but 4 years of on-time loan payments. What explains this?"},
+        "answers": [
+          {"id": 1, "order_index": 0, "answer_text": {"en": "Savings prove wealth, not repayment discipline — lenders price the risk of default, which requires a track record of repayment, not just assets"}, "is_correct": true},
+          {"id": 2, "order_index": 1, "answer_text": {"en": "Banks in Kazakhstan are required to charge higher rates to wealthy borrowers"}, "is_correct": false},
+          {"id": 3, "order_index": 2, "answer_text": {"en": "His savings disqualify him from preferential mortgage rates reserved for low-income borrowers"}, "is_correct": false},
+          {"id": 4, "order_index": 3, "answer_text": {"en": "His colleague has a lower rate because his salary is lower — banks offer subsidised rates to lower earners"}, "is_correct": false}
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {"en": "Dinara uses the debt snowball even though her highest-rate debt (38% APR) is not the smallest balance. Her friend says she is being mathematically irrational. Who is right?"},
+        "answers": [
+          {"id": 1, "order_index": 0, "answer_text": {"en": "Both have a point — the avalanche saves more interest mathematically, but snowball's early wins increase the probability that Dinara stays committed and becomes debt-free"}, "is_correct": true},
+          {"id": 2, "order_index": 1, "answer_text": {"en": "The friend is fully right — any deviation from the avalanche method is financially irrational"}, "is_correct": false},
+          {"id": 3, "order_index": 2, "answer_text": {"en": "Dinara is fully right — psychological sustainability always produces better outcomes than mathematical optimisation"}, "is_correct": false},
+          {"id": 4, "order_index": 3, "answer_text": {"en": "Neither — both methods produce identical total interest paid in all scenarios"}, "is_correct": false}
+        ]
+      }
+    ]
+  }
 }

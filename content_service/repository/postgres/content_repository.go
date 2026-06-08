@@ -313,6 +313,44 @@ func (r *ContentRepository) MarkSubtopicRead(ctx context.Context, userID int64, 
 	return err
 }
 
+func (r *ContentRepository) GetRandomTip(ctx context.Context, languageCode string) (*dto.TipResponse, error) {
+	query := `
+		select
+			t.id,
+			s.code,
+			tt.title,
+			tt.body,
+			tt.icon_key,
+			tt.theme_key
+		from tips t
+		join tip_translations tt
+			on tt.tip_id = t.id
+		   and tt.language_code = $1
+		join sections s
+			on s.id = t.section_id
+		where t.status = 'published'
+		order by random()
+		limit 1
+	`
+
+	var tip dto.TipResponse
+	if err := r.db.QueryRow(ctx, query, languageCode).Scan(
+		&tip.ID,
+		&tip.SectionCode,
+		&tip.Title,
+		&tip.Body,
+		&tip.IconKey,
+		&tip.ThemeKey,
+	); err != nil {
+		if errors.Is(err, pgx.ErrNoRows) {
+			return nil, contentErrors.ErrNoTipsFound
+		}
+		return nil, err
+	}
+
+	return &tip, nil
+}
+
 func (r *ContentRepository) GetExploreView(ctx context.Context, userID int64, languageCode string) (*dto.ExploreViewResponse, error) {
 	const query = `
 		with subtopic_counts as (

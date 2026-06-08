@@ -89,3 +89,12 @@ func (s *Service) GetExploreView(ctx context.Context, userID int64, languageCode
 	}
 	return view, nil
 }
+
+func (s *Service) GetTip(ctx context.Context, languageCode string) (*dto.TipResponse, error) {
+	tip, err := s.contentRepo.GetRandomTip(ctx, languageCode)
+	if err != nil {
+		logger.Error("content service: failed to get random tip: language_code=%s err=%v", languageCode, err)
+		return nil, err
+	}
+	return tip, nil
+}

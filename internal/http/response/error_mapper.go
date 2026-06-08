@@ -107,6 +107,7 @@ func MapError(err error) AppError {
 		errors.Is(err, contentErrors.ErrTopicNotFound),
 		errors.Is(err, contentErrors.ErrSubtopicNotFound),
 		errors.Is(err, contentErrors.ErrLessonNotFound),
+		errors.Is(err, contentErrors.ErrNoTipsFound),
 
 		errors.Is(err, progressErrors.ErrUserProgressNotFound),
 		errors.Is(err, progressErrors.ErrLearningStatsNotFound),

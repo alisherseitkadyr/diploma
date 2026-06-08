@@ -13,4 +13,5 @@ type ContentRepository interface {
 	GetLessonBySubtopicCode(ctx context.Context, subtopicCode, languageCode string) (*dto.LessonResponse, error)
 	MarkSubtopicRead(ctx context.Context, userID int64, subtopicCode string) error
 	GetExploreView(ctx context.Context, userID int64, languageCode string) (*dto.ExploreViewResponse, error)
+	GetRandomTip(ctx context.Context, languageCode string) (*dto.TipResponse, error)
 }

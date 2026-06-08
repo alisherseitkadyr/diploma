@@ -114,3 +114,15 @@ func (h *Handler) GetExploreView(w http.ResponseWriter, r *http.Request) {
 
 	response.WriteJSON(w, http.StatusOK, res)
 }
+
+func (h *Handler) GetTip(w http.ResponseWriter, r *http.Request) {
+	languageCode := getLanguageCode(r)
+
+	res, err := h.service.GetTip(r.Context(), languageCode)
+	if err != nil {
+		response.WriteAppError(w, err)
+		return
+	}
+
+	response.WriteJSON(w, http.StatusOK, res)
+}

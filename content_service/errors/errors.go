@@ -7,4 +7,5 @@ var (
 	ErrLessonNotFound      = errors.New("LESSON_NOT_FOUND")
 	ErrInvalidLanguageCode = errors.New("INVALID_LANGUAGE_CODE")
 	ErrSubtopicNotFound    = errors.New("SUBTOPIC_NOT_FOUND")
+	ErrNoTipsFound         = errors.New("NO_TIPS_FOUND")
 )

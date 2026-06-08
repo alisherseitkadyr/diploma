@@ -1,6 +1,5 @@
 # Backend API Integration Specification for Flutter
 
-This document is based on the current Go backend project `diplomaBackend`.
 
 Updated: `GET /api/content/topics/{topicCode}/subtopics` now describes regular subtopics with the `quizId` field, and `finalQuiz` is described as a separate final quiz card for the topic.
 

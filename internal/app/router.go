@@ -43,6 +43,7 @@ func NewRouter(
 	apiMux.Handle("GET /content/subtopics/{subtopicCode}/lesson", authMiddleware(http.HandlerFunc(contentHandler.GetLessonBySubtopicCode)))
 	apiMux.Handle("POST /content/subtopics/{subtopicCode}/complete", authMiddleware(http.HandlerFunc(contentHandler.CompleteSubtopic)))
 	apiMux.Handle("GET /content/explore", authMiddleware(http.HandlerFunc(contentHandler.GetExploreView)))
+	apiMux.Handle("GET /content/tip", authMiddleware(http.HandlerFunc(contentHandler.GetTip)))
 
 	apiMux.Handle("GET /assessment/quizzes/{quizId}", authMiddleware(http.HandlerFunc(assessmentHandler.GetQuizByID)))
 	apiMux.Handle("POST /assessment/quizzes/{quizId}/start", authMiddleware(http.HandlerFunc(assessmentHandler.StartQuiz)))

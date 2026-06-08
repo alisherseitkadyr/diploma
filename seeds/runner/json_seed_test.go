@@ -38,7 +38,7 @@ func TestFirstSubtopicSeedDecodes(t *testing.T) {
 	}
 
 	for _, step := range seed.Lesson.Steps {
-		content, err := lessonStepContent(step)
+		content, err := lessonStepContent(step, seed.Subtopic)
 		if err != nil {
 			t.Fatalf("build content for step %s: %v", step.ID, err)
 		}

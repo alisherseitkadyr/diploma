@@ -1,0 +1,1604 @@
+{
+  "tips": [
+  {
+    "section": "financial_foundations",
+    "iconKey": "scale",
+    "themeKey": "violet",
+    "weight": 2,
+    "title": {
+      "en": "Every purchase is a 'no'",
+      "ru": "Каждая покупка — это «нет»",
+      "kk": "Әр сатып алу — бұл «жоқ»"
+    },
+    "body": {
+      "en": "Spending on one thing quietly says no to everything else that money could have done. That is opportunity cost.",
+      "ru": "Потратив на одно, вы тихо отказываете всему остальному, на что могли пойти эти деньги. Это альтернативные издержки.",
+      "kk": "Бір нәрсеге жұмсау — сол ақша істей алатын қалғанының бәріне үнсіз «жоқ» деу. Бұл — баламалы шығын."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "clock",
+    "themeKey": "violet",
+    "weight": 1,
+    "title": {
+      "en": "Money now beats money later",
+      "ru": "Деньги сейчас лучше, чем потом",
+      "kk": "Қазіргі ақша кейіннен артық"
+    },
+    "body": {
+      "en": "Money today can be put to work and grow, so the same amount is worth more now than in a year.",
+      "ru": "Сегодняшние деньги можно пустить в дело, поэтому та же сумма сейчас ценнее, чем через год.",
+      "kk": "Бүгінгі ақшаны іске қосып өсіруге болады, сондықтан сол сома қазір бір жылдан кейінгіден қымбат."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "alert",
+    "themeKey": "violet",
+    "weight": 2,
+    "title": {
+      "en": "No return without risk",
+      "ru": "Нет дохода без риска",
+      "kk": "Тәуекелсіз табыс жоқ"
+    },
+    "body": {
+      "en": "Reward and risk rise together. Anything promising high returns with zero risk is a misunderstanding or a scam.",
+      "ru": "Доходность и риск растут вместе. Обещание высокой прибыли без риска — заблуждение или мошенничество.",
+      "kk": "Табыс пен тәуекел қатар өседі. Тәуекелсіз жоғары табыс уәдесі — қателік немесе алаяқтық."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "brain",
+    "themeKey": "violet",
+    "weight": 1,
+    "title": {
+      "en": "Judge the decision, not the luck",
+      "ru": "Оценивайте решение, а не удачу",
+      "kk": "Сәттілікті емес, шешімді бағала"
+    },
+    "body": {
+      "en": "A good outcome can come from a bad decision, and vice versa. Judge choices by their reasoning, not their result.",
+      "ru": "Хороший исход может быть и у плохого решения, и наоборот. Судите по логике выбора, а не по результату.",
+      "kk": "Жақсы нәтиже теріс шешімнен де шығуы мүмкін, керісінше де. Шешімді нәтиже емес, ой-түйіні бойынша бағалаңыз."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "wallet",
+    "themeKey": "violet",
+    "weight": 1,
+    "title": {
+      "en": "Income raises the ceiling, not the rule",
+      "ru": "Доход поднимает потолок, а не правило",
+      "kk": "Табыс шектеуді емес, шегін көтереді"
+    },
+    "body": {
+      "en": "Earning more lifts how much you can allocate, but you still must choose where it goes. The problem never disappears.",
+      "ru": "Больший доход поднимает сумму для распределения, но решать, куда она идёт, всё равно вам. Задача не исчезает.",
+      "kk": "Көп табыс бөлуге болатын соманы көтереді, бірақ оны қайда бағыттауды бәрібір шешесіз. Мәселе жоғалмайды."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "coins",
+    "themeKey": "violet",
+    "weight": 1,
+    "title": {
+      "en": "Holding cash is a choice too",
+      "ru": "Держать наличные — тоже выбор",
+      "kk": "Қолма-қол ұстау да — таңдау"
+    },
+    "body": {
+      "en": "Leaving money idle is an active decision: you choose flexibility now over what it could earn or buy later.",
+      "ru": "Оставить деньги без дела — активное решение: вы выбираете гибкость сейчас вместо будущего дохода или покупки.",
+      "kk": "Ақшаны бос қалдыру — белсенді шешім: кейінгі табыс не сатып алудың орнына қазіргі икемділікті таңдайсыз."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "trending",
+    "themeKey": "violet",
+    "weight": 1,
+    "title": {
+      "en": "Wealth is the gap, used well",
+      "ru": "Богатство — это разрыв, использованный с умом",
+      "kk": "Байлық — ақылмен пайдаланылған айырма"
+    },
+    "body": {
+      "en": "Wealth comes from the gap between income and spending put to work, not from income alone.",
+      "ru": "Богатство рождается из разницы между доходом и тратами, пущенной в дело, а не из одного дохода.",
+      "kk": "Байлық табыс пен шығыс арасындағы, іске қосылған айырмадан туады, тек табыстан емес."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "chart",
+    "themeKey": "violet",
+    "weight": 1,
+    "title": {
+      "en": "A bigger number can buy less",
+      "ru": "Большее число может купить меньше",
+      "kk": "Үлкен сан азырақ сатып алуы мүмкін"
+    },
+    "body": {
+      "en": "If prices rose more than your money did, you are poorer in real terms despite the larger number.",
+      "ru": "Если цены выросли сильнее ваших денег, в реальном выражении вы беднее, несмотря на большее число.",
+      "kk": "Бағалар ақшаңыздан көп өссе, сан үлкен болса да, нақты мәнде кедейленесіз."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "target",
+    "themeKey": "violet",
+    "weight": 1,
+    "title": {
+      "en": "Compare on the same terms",
+      "ru": "Сравнивайте на равных условиях",
+      "kk": "Бірдей шартпен салыстыр"
+    },
+    "body": {
+      "en": "Before choosing, put options on the same footing — same date, same risk, same total cost — or you compare nothing.",
+      "ru": "Перед выбором приведите варианты к общим условиям — срок, риск, полная стоимость — иначе сравнения нет.",
+      "kk": "Таңдамас бұрын нұсқаларды бір негізге келтіріңіз — мерзім, тәуекел, толық құн — әйтпесе салыстыру жоқ."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "hourglass",
+    "themeKey": "violet",
+    "weight": 1,
+    "title": {
+      "en": "Time turns risk into a tool",
+      "ru": "Время делает риск инструментом",
+      "kk": "Уақыт тәуекелді құралға айналдырады"
+    },
+    "body": {
+      "en": "Money you need soon should take little risk; money for decades away can ride out the swings.",
+      "ru": "Деньги, нужные скоро, должны рисковать мало; деньги на десятилетия могут переждать колебания.",
+      "kk": "Жақында керек ақша аз тәуекел алсын; ондаған жылға арналған ақша тербелісті күтіп шыдай алады."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "refresh",
+    "themeKey": "violet",
+    "weight": 1,
+    "title": {
+      "en": "Process beats single results",
+      "ru": "Процесс важнее единичного результата",
+      "kk": "Үдеріс жеке нәтижеден маңызды"
+    },
+    "body": {
+      "en": "Over many decisions, a sound process wins even when any single outcome disappoints. Build the process.",
+      "ru": "На дистанции разумный процесс побеждает, даже если отдельный исход разочаровал. Стройте процесс.",
+      "kk": "Көп шешімде дұрыс үдеріс жеңеді, жеке нәтиже көңіл қалдырса да. Үдерісті құрыңыз."
+    }
+  },
+  {
+    "section": "financial_foundations",
+    "iconKey": "scale",
+    "themeKey": "violet",
+    "weight": 1,
+    "title": {
+      "en": "The true cost includes your time",
+      "ru": "Истинная цена включает ваше время",
+      "kk": "Нақты бағаға уақытыңыз да кіреді"
+    },
+    "body": {
+      "en": "A 'free' task you dislike still costs hours of your life. Count time as a real resource, like money.",
+      "ru": "«Бесплатное» неприятное дело всё равно стоит часов жизни. Считайте время реальным ресурсом, как деньги.",
+      "kk": "Ұнамайтын «тегін» іс бәрібір өміріңіздің сағаттарына түседі. Уақытты ақша сияқты нақты ресурс деп санаңыз."
+    }
+  },
+  {
+    "section": "banking_payments",
+    "iconKey": "bank",
+    "themeKey": "blue",
+    "weight": 1,
+    "title": {
+      "en": "How banks really earn",
+      "ru": "Как банки на самом деле зарабатывают",
+      "kk": "Банктер шын мәнінде қалай табады"
+    },
+    "body": {
+      "en": "Banks pay you a little on deposits and charge borrowers more. The gap, plus fees, is their profit.",
+      "ru": "Банк платит вам немного по вкладам и берёт больше с заёмщиков. Эта разница и комиссии — их прибыль.",
+      "kk": "Банк салымға аз төлеп, қарыз алушыдан көп алады. Осы айырма мен комиссиялар — олардың пайдасы."
+    }
+  },
+  {
+    "section": "banking_payments",
+    "iconKey": "percent",
+    "themeKey": "blue",
+    "weight": 1,
+    "title": {
+      "en": "Small fees compound against you",
+      "ru": "Мелкие комиссии копятся против вас",
+      "kk": "Шағын комиссиялар сізге қарсы жинақталады"
+    },
+    "body": {
+      "en": "Monthly maintenance, ATM and card fees look tiny but add up to real money over years. Audit them.",
+      "ru": "Обслуживание, банкоматы, карты кажутся мелочью, но за годы складываются в реальные деньги. Проверьте их.",
+      "kk": "Қызмет көрсету, банкомат, карта ақысы ұсақ көрінеді, бірақ жылдар бойы нақты ақшаға айналады. Тексеріңіз."
+    }
+  },
+  {
+    "section": "banking_payments",
+    "iconKey": "shield",
+    "themeKey": "blue",
+    "weight": 2,
+    "title": {
+      "en": "Know your deposit insurance limit",
+      "ru": "Знай лимит страхования вкладов",
+      "kk": "Депозит кепілдігінің шегін біл"
+    },
+    "body": {
+      "en": "Deposit insurance (KDIF in Kazakhstan) protects your savings only up to a set limit. Don't exceed it in one bank.",
+      "ru": "Страхование вкладов (КФГД в Казахстане) защищает сбережения лишь до лимита. Не превышайте его в одном банке.",
+      "kk": "Депозитке кепілдік (Қазақстанда ҚДКҚ) жинағыңызды белгілі шекке дейін ғана қорғайды. Бір банкте одан аспаңыз."
+    }
+  },
+  {
+    "section": "banking_payments",
+    "iconKey": "wallet",
+    "themeKey": "blue",
+    "weight": 1,
+    "title": {
+      "en": "Keep emergency cash liquid",
+      "ru": "Держите подушку доступной",
+      "kk": "Төтенше қорды қолжетімді ұста"
+    },
+    "body": {
+      "en": "Your emergency fund should be reachable instantly, not locked in a term deposit you can't break without loss.",
+      "ru": "Подушка должна быть доступна мгновенно, а не заперта в срочном вкладе, который не снять без потерь.",
+      "kk": "Төтенше қор бірден қолжетімді болсын, шығынсыз бұза алмайтын мерзімді депозитте бұғатталмасын."
+    }
+  },
+  {
+    "section": "banking_payments",
+    "iconKey": "coins",
+    "themeKey": "blue",
+    "weight": 1,
+    "title": {
+      "en": "Idle balances lose to inflation",
+      "ru": "Лежащие остатки проигрывают инфляции",
+      "kk": "Жатқан қалдықтар инфляцияға ұтылады"
+    },
+    "body": {
+      "en": "Large sums sitting in a no-interest account quietly lose purchasing power every year. Park them where they earn.",
+      "ru": "Крупные суммы на беспроцентном счёте каждый год теряют покупательную способность. Держите их там, где они работают.",
+      "kk": "Пайызсыз шоттағы үлкен сома жыл сайын сатып алу қабілетін жоғалтады. Оларды табыс әкелетін жерде ұстаңыз."
+    }
+  },
+  {
+    "section": "banking_payments",
+    "iconKey": "refresh",
+    "themeKey": "blue",
+    "weight": 2,
+    "title": {
+      "en": "Automate saving on payday",
+      "ru": "Автоматизируй сбережения в день зарплаты",
+      "kk": "Жалақы күні жинақты автоматтандыр"
+    },
+    "body": {
+      "en": "Set an automatic transfer to savings the day you're paid, so you save first and spend what's left.",
+      "ru": "Настройте автоперевод на сбережения в день зарплаты — так вы сначала копите, а тратите остаток.",
+      "kk": "Жалақы күні жинаққа автоаударымды реттеңіз — алдымен жинап, қалғанын жұмсайсыз."
+    }
+  },
+  {
+    "section": "banking_payments",
+    "iconKey": "percent",
+    "themeKey": "blue",
+    "weight": 1,
+    "title": {
+      "en": "Read the effective rate",
+      "ru": "Читай эффективную ставку",
+      "kk": "Тиімді мөлшерлемені оқы"
+    },
+    "body": {
+      "en": "The headline rate often hides conditions. Compare the effective annual rate to know what a deposit truly pays.",
+      "ru": "Заявленная ставка часто скрывает условия. Сравнивайте эффективную годовую ставку, чтобы знать реальный доход.",
+      "kk": "Жарияланған мөлшерлеме шарттарды жиі жасырады. Нақты табысты білу үшін тиімді жылдық мөлшерлемені салыстырыңыз."
+    }
+  },
+  {
+    "section": "banking_payments",
+    "iconKey": "card",
+    "themeKey": "blue",
+    "weight": 1,
+    "title": {
+      "en": "Wallets are handy — check fees",
+      "ru": "Кошельки удобны — проверь комиссии",
+      "kk": "Әмияндар ыңғайлы — комиссияны тексер"
+    },
+    "body": {
+      "en": "Digital wallets make paying easy, but transfers and withdrawals can carry fees. Know them before relying on one.",
+      "ru": "Цифровые кошельки упрощают оплату, но переводы и снятие могут иметь комиссии. Узнайте их заранее.",
+      "kk": "Цифрлық әмияндар төлемді жеңілдетеді, бірақ аударым мен шешуде комиссия болуы мүмкін. Алдын ала біліңіз."
+    }
+  },
+  {
+    "section": "banking_payments",
+    "iconKey": "layers",
+    "themeKey": "blue",
+    "weight": 1,
+    "title": {
+      "en": "Separate accounts, fewer mistakes",
+      "ru": "Разделяй счета — меньше ошибок",
+      "kk": "Шоттарды бөл — қате аз"
+    },
+    "body": {
+      "en": "One account for bills, one for spending, one for saving makes overspending visible and harder to do.",
+      "ru": "Один счёт для счетов, один для трат, один для сбережений делает перерасход заметным и трудным.",
+      "kk": "Бір шот шоттарға, бірі жұмсауға, бірі жинаққа — артық жұмсауды көрнекі әрі қиын етеді."
+    }
+  },
+  {
+    "section": "banking_payments",
+    "iconKey": "alert",
+    "themeKey": "blue",
+    "weight": 2,
+    "title": {
+      "en": "Your bank never asks for codes",
+      "ru": "Банк никогда не просит коды",
+      "kk": "Банк ешқашан код сұрамайды"
+    },
+    "body": {
+      "en": "No real bank will ask for your password or one-time code. Anyone who does is trying to rob you.",
+      "ru": "Настоящий банк не спросит пароль или одноразовый код. Кто просит — пытается вас обокрасть.",
+      "kk": "Нағыз банк құпиясөзді не бір реттік кодты сұрамайды. Сұраған адам сізді тонамақ."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "piggy",
+    "themeKey": "emerald",
+    "weight": 2,
+    "title": {
+      "en": "Pay yourself first",
+      "ru": "Сначала заплати себе",
+      "kk": "Алдымен өзіңе төле"
+    },
+    "body": {
+      "en": "Save the moment money arrives, not from whatever is left at month's end — there is rarely anything left.",
+      "ru": "Откладывайте сразу при получении денег, а не из остатка в конце месяца — остатка почти не бывает.",
+      "kk": "Ақша түскен сәтте жинаңыз, ай соңындағы қалдықтан емес — қалдық сирек қалады."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "home",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "Lower one fixed cost forever",
+      "ru": "Снизь один постоянный расход навсегда",
+      "kk": "Бір тұрақты шығынды біржола азайт"
+    },
+    "body": {
+      "en": "Cutting a fixed cost once — rent, subscriptions, a plan — saves every month with no ongoing effort.",
+      "ru": "Урезав постоянный расход однажды — аренду, подписки, тариф — вы экономите каждый месяц без усилий.",
+      "kk": "Тұрақты шығынды бір рет қысқартсаң — жалдау, жазылым, тариф — еш күшсіз әр ай үнемдейсің."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "trending",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "Beware lifestyle inflation",
+      "ru": "Остерегайся роста образа жизни",
+      "kk": "Тұрмыс инфляциясынан сақтан"
+    },
+    "body": {
+      "en": "When income rises, spending tends to rise to match it. Bank part of every raise before you adjust.",
+      "ru": "С ростом дохода траты подтягиваются за ним. Откладывайте часть каждой прибавки до того, как привыкнете.",
+      "kk": "Табыс өскенде шығыс соған ілеседі. Әдеттенбес бұрын әр қосымшаның бір бөлігін жинаңыз."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "shield",
+    "themeKey": "emerald",
+    "weight": 2,
+    "title": {
+      "en": "An emergency fund stops debt spirals",
+      "ru": "Подушка останавливает долговые спирали",
+      "kk": "Төтенше қор қарыз шиыршығын тоқтатады"
+    },
+    "body": {
+      "en": "Three to six months of expenses in reserve means a surprise bill becomes an inconvenience, not a loan.",
+      "ru": "Резерв на 3–6 месяцев расходов превращает внезапный счёт в неудобство, а не в кредит.",
+      "kk": "3–6 айлық шығын қоры күтпеген шотты несие емес, жай қолайсыздыққа айналдырады."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "chart",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "50/30/20 is a starting frame",
+      "ru": "50/30/20 — стартовая рамка",
+      "kk": "50/30/20 — бастапқы негіз"
+    },
+    "body": {
+      "en": "Roughly half to needs, a third to wants, a fifth to savings — a useful default to adjust, not a strict law.",
+      "ru": "Примерно половина — нужды, треть — желания, пятая часть — сбережения. Это ориентир, а не строгий закон.",
+      "kk": "Шамамен жартысы — қажет, үштен бірі — қалау, бестен бірі — жинақ. Бұл — бағдар, қатаң заң емес."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "search",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "Track one month, change behavior",
+      "ru": "Отследи месяц — изменишь поведение",
+      "kk": "Бір ай қадағала — мінезің өзгереді"
+    },
+    "body": {
+      "en": "Just recording every expense for a month exposes the quiet leaks. Awareness alone cuts waste.",
+      "ru": "Запись всех трат за месяц обнажает тихие утечки. Одно осознание уже сокращает лишнее.",
+      "kk": "Бір ай бойы әр шығынды жазу үнсіз ағуларды ашады. Тек хабардарлық артықты азайтады."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "alert",
+    "themeKey": "emerald",
+    "weight": 2,
+    "title": {
+      "en": "Kill high-interest debt first",
+      "ru": "Сначала убей дорогой долг",
+      "kk": "Алдымен қымбат қарызды жой"
+    },
+    "body": {
+      "en": "Paying off a 30% loan is a guaranteed 30% return — better than almost any investment. Clear it before investing.",
+      "ru": "Погасить заём под 30% — гарантированные 30% дохода, лучше почти любой инвестиции. Закройте его до вложений.",
+      "kk": "30%-дық қарызды жабу — кепілді 30% табыс, кез келген инвестициядан артық. Салмас бұрын жабыңыз."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "trending",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "Avalanche: pay the highest rate",
+      "ru": "Лавина: гаси самую высокую ставку",
+      "kk": "Көшкін: ең жоғары мөлшерлемені жап"
+    },
+    "body": {
+      "en": "Attacking the highest-interest debt first minimizes the total interest you pay across all your loans.",
+      "ru": "Сначала бить по долгу с наибольшей ставкой — так вы платите меньше всего процентов по всем займам.",
+      "kk": "Алдымен ең жоғары мөлшерлемелі қарызды соғу — барлық несие бойынша ең аз пайыз төлейсіз."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "check",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "Snowball: pay the smallest first",
+      "ru": "Снежок: гаси самый маленький",
+      "kk": "Қарша: ең кішісін бірінші жап"
+    },
+    "body": {
+      "en": "Clearing the smallest balance first gives quick wins and momentum. Pick the method you'll actually stick to.",
+      "ru": "Погасив сначала самый малый долг, вы получаете быстрые победы и импульс. Выберите метод, которого будете держаться.",
+      "kk": "Ең кіші қарызды бірінші жабу жылдам жеңіс пен серпін береді. Ұстанатын әдісті таңдаңыз."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "alert",
+    "themeKey": "emerald",
+    "weight": 2,
+    "title": {
+      "en": "Avoid the payday-loan trap",
+      "ru": "Избегай ловушки микрозаймов",
+      "kk": "Микронесие қақпанынан аулақ бол"
+    },
+    "body": {
+      "en": "Microloans and payday loans carry brutal effective rates and roll over fast. They are a last resort, never a habit.",
+      "ru": "Микрозаймы и займы до зарплаты несут жестокие ставки и быстро продлеваются. Это крайность, а не привычка.",
+      "kk": "Микронесие мен жалақыға дейінгі қарыз қатал мөлшерлемелі әрі тез ұзарады. Бұл — амалсыздық, әдет емес."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "percent",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "APR is the real price of borrowing",
+      "ru": "ГЭСВ — настоящая цена займа",
+      "kk": "ЖТСМ — қарыздың нақты бағасы"
+    },
+    "body": {
+      "en": "The APR folds in interest and fees into one yearly cost. Always compare loans by APR, not the monthly payment.",
+      "ru": "Годовая эффективная ставка сводит проценты и комиссии в одну цифру. Сравнивайте займы по ней, а не по платежу.",
+      "kk": "Жылдық тиімді мөлшерлеме пайыз бен комиссияны бір санға жинайды. Несиені айлық төлеммен емес, сонымен салыстырыңыз."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "alert",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "Minimum payments keep you stuck",
+      "ru": "Минимальный платёж держит в долгу",
+      "kk": "Ең аз төлем сізді қарызда ұстайды"
+    },
+    "body": {
+      "en": "Minimum payments are designed so most goes to interest. Pay more than the minimum to actually shrink the balance.",
+      "ru": "Минимальный платёж устроен так, что почти всё идёт в проценты. Платите больше, чтобы реально гасить долг.",
+      "kk": "Ең аз төлем дерлік бәрі пайызға кетсін деп жасалған. Қарызды шынымен азайту үшін одан көп төлеңіз."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "calendar",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "Use sinking funds for known costs",
+      "ru": "Копи заранее на известные расходы",
+      "kk": "Белгілі шығынға алдын ала жина"
+    },
+    "body": {
+      "en": "Save a little monthly for predictable future costs — car service, gifts, taxes — so they never become debt.",
+      "ru": "Откладывайте понемногу на предсказуемые траты — ремонт, подарки, налоги — чтобы они не стали долгом.",
+      "kk": "Болжамды шығынға — көлік жөндеу, сыйлық, салық — айына аздап жинаңыз, олар қарызға айналмасын."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "heart",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "Spend freely on what you value",
+      "ru": "Трать свободно на то, что цените",
+      "kk": "Бағалайтыныңа еркін жұмса"
+    },
+    "body": {
+      "en": "Cut hard on things you don't care about so you can spend without guilt on the few things you truly value.",
+      "ru": "Режьте безжалостно ненужное, чтобы без вины тратить на то немногое, что для вас по-настоящему важно.",
+      "kk": "Маңызды емес нәрсеге қатты қысыңыз, шынымен бағалайтын азғантай нәрсеге кінәсіз жұмсаңыз."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "check",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "Pay on time, every time",
+      "ru": "Плати вовремя, всегда",
+      "kk": "Әрқашан уақытында төле"
+    },
+    "body": {
+      "en": "Your repayment history shapes future borrowing terms. One reliable habit — paying on time — lowers your cost of credit.",
+      "ru": "История платежей определяет будущие условия займов. Привычка платить вовремя снижает стоимость кредита.",
+      "kk": "Төлем тарихы болашақ несие шартын белгілейді. Уақытында төлеу әдеті несие құнын төмендетеді."
+    }
+  },
+  {
+    "section": "budgeting_saving_debt",
+    "iconKey": "piggy",
+    "themeKey": "emerald",
+    "weight": 1,
+    "title": {
+      "en": "A budget is a plan, not a punishment",
+      "ru": "Бюджет — это план, а не наказание",
+      "kk": "Бюджет — жоспар, жаза емес"
+    },
+    "body": {
+      "en": "A budget simply tells your money where to go in advance. It gives freedom, not restriction.",
+      "ru": "Бюджет просто заранее говорит деньгам, куда идти. Он даёт свободу, а не ограничение.",
+      "kk": "Бюджет ақшаға қайда баруды алдын ала айтады. Ол шектеу емес, еркіндік береді."
+    }
+  },
+  {
+    "section": "insurance_protection",
+    "iconKey": "shield",
+    "themeKey": "amber",
+    "weight": 1,
+    "title": {
+      "en": "Insurance trades catastrophe for a small cost",
+      "ru": "Страховка меняет катастрофу на малую плату",
+      "kk": "Сақтандыру апатты шағын төлемге айырбастайды"
+    },
+    "body": {
+      "en": "You pay a small, predictable premium so a rare disaster doesn't wipe you out. That's the whole point of insurance.",
+      "ru": "Вы платите малую предсказуемую премию, чтобы редкая катастрофа вас не разорила. В этом весь смысл страховки.",
+      "kk": "Сирек апат сізді күйретпес үшін шағын, болжамды сыйлықақы төлейсіз. Сақтандырудың бар мәні осы."
+    }
+  },
+  {
+    "section": "insurance_protection",
+    "iconKey": "shield",
+    "themeKey": "amber",
+    "weight": 1,
+    "title": {
+      "en": "Insure only what you can't replace",
+      "ru": "Страхуй лишь то, что не заменишь",
+      "kk": "Тек алмастыра алмайтыныңды сақтандыр"
+    },
+    "body": {
+      "en": "Insure the losses that would ruin you — health, home, income. Pay small, replaceable losses yourself.",
+      "ru": "Страхуйте то, что вас разорит — здоровье, жильё, доход. Мелкие потери покрывайте сами.",
+      "kk": "Сізді күйрететінді сақтандырыңыз — денсаулық, тұрғын үй, табыс. Ұсақ шығынды өзіңіз жабыңыз."
+    }
+  },
+  {
+    "section": "insurance_protection",
+    "iconKey": "percent",
+    "themeKey": "amber",
+    "weight": 1,
+    "title": {
+      "en": "Higher deductible, lower premium",
+      "ru": "Выше франшиза — ниже премия",
+      "kk": "Франшиза жоғары — сыйлықақы төмен"
+    },
+    "body": {
+      "en": "Choosing a higher deductible cuts your premium. It makes sense once you have an emergency fund to cover the gap.",
+      "ru": "Высокая франшиза снижает премию. Это разумно, когда есть подушка, чтобы покрыть разницу.",
+      "kk": "Жоғары франшиза сыйлықақыны азайтады. Айырманы жабатын қорыңыз болса, бұл орынды."
+    }
+  },
+  {
+    "section": "insurance_protection",
+    "iconKey": "alert",
+    "themeKey": "amber",
+    "weight": 1,
+    "title": {
+      "en": "Skip warranties on cheap things",
+      "ru": "Не страхуй дешёвое",
+      "kk": "Арзан нәрсені сақтандырма"
+    },
+    "body": {
+      "en": "Extended warranties on inexpensive gadgets rarely pay off. Self-insure anything you could simply rebuy.",
+      "ru": "Расширенные гарантии на дешёвую технику редко окупаются. То, что легко перекупить, страхуйте сами.",
+      "kk": "Арзан техникаға кеңейтілген кепілдік сирек ақталады. Оңай қайта алатынды өзіңіз сақтандырыңыз."
+    }
+  },
+  {
+    "section": "insurance_protection",
+    "iconKey": "heart",
+    "themeKey": "amber",
+    "weight": 1,
+    "title": {
+      "en": "Life insurance is for dependents",
+      "ru": "Страхование жизни — для зависящих",
+      "kk": "Өмірді сақтандыру — асырауындағыларға"
+    },
+    "body": {
+      "en": "Life insurance matters most when people rely on your income. If no one depends on you, you may not need it.",
+      "ru": "Страхование жизни важно, когда от вашего дохода кто-то зависит. Если нет — оно может быть лишним.",
+      "kk": "Өмірді сақтандыру табысыңызға тәуелді адам болғанда маңызды. Ешкім тәуелді болмаса — қажет емес шығар."
+    }
+  },
+  {
+    "section": "insurance_protection",
+    "iconKey": "search",
+    "themeKey": "amber",
+    "weight": 1,
+    "title": {
+      "en": "Read what a policy excludes",
+      "ru": "Читай, что полис не покрывает",
+      "kk": "Полис нені жаппайтынын оқы"
+    },
+    "body": {
+      "en": "The exclusions matter more than the cover page. Know what is not covered before you need to claim.",
+      "ru": "Исключения важнее обложки. Узнайте, что не покрывается, до того как понадобится возмещение.",
+      "kk": "Алып тастаулар мұқабадан маңызды. Өтем керек болмай тұрып, не жабылмайтынын біліңіз."
+    }
+  },
+  {
+    "section": "insurance_protection",
+    "iconKey": "alert",
+    "themeKey": "amber",
+    "weight": 2,
+    "title": {
+      "en": "Scams sell urgency and secrecy",
+      "ru": "Мошенники продают спешку и секрет",
+      "kk": "Алаяқтар асығыс пен құпияны сатады"
+    },
+    "body": {
+      "en": "Pressure to act now and 'tell no one' are scam signals. Legitimate finance gives you time to think and check.",
+      "ru": "Давление «действуй сейчас» и «никому не говори» — признаки аферы. Честные финансы дают время подумать.",
+      "kk": "«Қазір әрекет ет», «ешкімге айтпа» қысымы — алаяқтық белгісі. Адал қаржы ойлануға уақыт береді."
+    }
+  },
+  {
+    "section": "insurance_protection",
+    "iconKey": "alert",
+    "themeKey": "amber",
+    "weight": 2,
+    "title": {
+      "en": "'Guaranteed high return' is the red flag",
+      "ru": "«Гарантированный доход» — главный сигнал",
+      "kk": "«Кепілді жоғары табыс» — басты белгі"
+    },
+    "body": {
+      "en": "The single clearest scam signal is a promise of high returns with no risk. It does not exist anywhere.",
+      "ru": "Самый ясный признак аферы — обещание высокой доходности без риска. Такого не существует нигде.",
+      "kk": "Алаяқтықтың ең анық белгісі — тәуекелсіз жоғары табыс уәдесі. Ондай ешбір жерде болмайды."
+    }
+  },
+  {
+    "section": "insurance_protection",
+    "iconKey": "lock",
+    "themeKey": "amber",
+    "weight": 2,
+    "title": {
+      "en": "Guard your codes and keys",
+      "ru": "Береги коды и ключи",
+      "kk": "Код пен кілтіңді сақта"
+    },
+    "body": {
+      "en": "One-time codes, passwords and recovery phrases are the keys to your money. Never share them with anyone, ever.",
+      "ru": "Одноразовые коды, пароли и фразы восстановления — ключи к вашим деньгам. Никому и никогда их не сообщайте.",
+      "kk": "Бір реттік код, құпиясөз, қалпына келтіру тіркесі — ақшаңыздың кілті. Оларды ешкімге, ешқашан бермеңіз."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "trending",
+    "themeKey": "teal",
+    "weight": 2,
+    "title": {
+      "en": "Compounding rewards time most",
+      "ru": "Сложный процент любит время",
+      "kk": "Күрделі пайыз уақытты сүйеді"
+    },
+    "body": {
+      "en": "Returns earning their own returns grow slowly then explosively. Starting early beats investing more later.",
+      "ru": "Доход, приносящий доход, растёт сперва медленно, потом взрывно. Начать рано важнее, чем вложить больше позже.",
+      "kk": "Табыс әкелетін табыс алдымен баяу, сосын күрт өседі. Ерте бастау кейін көп салудан артық."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "percent",
+    "themeKey": "teal",
+    "weight": 1,
+    "title": {
+      "en": "Rule of 72",
+      "ru": "Правило 72",
+      "kk": "72 ережесі"
+    },
+    "body": {
+      "en": "To estimate years to double your money, divide 72 by the annual return. At 8%, money doubles in about 9 years.",
+      "ru": "Чтобы прикинуть, за сколько удвоятся деньги, разделите 72 на годовую доходность. При 8% — примерно 9 лет.",
+      "kk": "Ақшаның екі еселену жылын болжау үшін 72-ні жылдық табысқа бөліңіз. 8%-бен — шамамен 9 жыл."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "chart",
+    "themeKey": "teal",
+    "weight": 1,
+    "title": {
+      "en": "Investing defends against inflation",
+      "ru": "Инвестиции защищают от инфляции",
+      "kk": "Инвестиция инфляциядан қорғайды"
+    },
+    "body": {
+      "en": "Cash quietly loses value each year. Investing is partly defense — keeping your money's purchasing power alive.",
+      "ru": "Наличные тихо теряют ценность ежегодно. Инвестиции — отчасти защита покупательной способности денег.",
+      "kk": "Қолма-қол ақша жыл сайын үнсіз құнсызданады. Инвестиция — ішінара ақшаның сатып алу қабілетін қорғау."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "clock",
+    "themeKey": "teal",
+    "weight": 2,
+    "title": {
+      "en": "Start early, even small",
+      "ru": "Начни рано, пусть мало",
+      "kk": "Ерте баста, аз болса да"
+    },
+    "body": {
+      "en": "A small amount invested for a long time can beat a large amount invested late. Time is the rarest ingredient.",
+      "ru": "Малая сумма за долгий срок может обогнать крупную, вложенную поздно. Время — самый редкий ингредиент.",
+      "kk": "Ұзақ салынған шағын сома кеш салынған үлкеннен озуы мүмкін. Уақыт — ең сирек ингредиент."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "refresh",
+    "themeKey": "teal",
+    "weight": 2,
+    "title": {
+      "en": "Invest regularly, ignore timing",
+      "ru": "Вкладывай регулярно, забудь о моменте",
+      "kk": "Тұрақты сал, сәтті ұмыт"
+    },
+    "body": {
+      "en": "Putting in a fixed amount on a schedule (dollar-cost averaging) removes guesswork and smooths out market swings.",
+      "ru": "Вкладывая фиксированную сумму по графику, вы убираете угадывание и сглаживаете колебания рынка.",
+      "kk": "Кестемен тұрақты сома салу болжамды жояды әрі нарық тербелісін тегістейді."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "hourglass",
+    "themeKey": "teal",
+    "weight": 1,
+    "title": {
+      "en": "Time in the market beats timing it",
+      "ru": "Время в рынке важнее выбора момента",
+      "kk": "Нарықтағы уақыт сәтті таңдаудан артық"
+    },
+    "body": {
+      "en": "Trying to jump in and out at the right moments usually loses. Staying invested through the swings usually wins.",
+      "ru": "Попытки войти и выйти в нужный миг обычно проигрывают. Оставаться в рынке сквозь колебания обычно выгоднее.",
+      "kk": "Дәл сәтте кіріп-шығу әрекеті көбіне ұтылады. Тербеліс ішінде нарықта қалу көбіне ұтады."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "trending",
+    "themeKey": "teal",
+    "weight": 1,
+    "title": {
+      "en": "Volatility is the entry fee",
+      "ru": "Волатильность — плата за вход",
+      "kk": "Құбылмалылық — кіру ақысы"
+    },
+    "body": {
+      "en": "Price swings are the cost of higher long-term returns, not a sign something is broken. Expect them and hold.",
+      "ru": "Колебания цен — плата за более высокую доходность, а не поломка. Ожидайте их и держите.",
+      "kk": "Баға тербелісі — жоғары ұзақ мерзімді табыстың ақысы, ақау емес. Күтіңіз де ұстаңыз."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "layers",
+    "themeKey": "teal",
+    "weight": 2,
+    "title": {
+      "en": "Diversification is the free lunch",
+      "ru": "Диверсификация — бесплатный обед",
+      "kk": "Әртараптандыру — тегін түскі ас"
+    },
+    "body": {
+      "en": "Spreading money across many assets lowers risk without lowering expected return. It's the rare thing you get for free.",
+      "ru": "Распределение по многим активам снижает риск, не снижая ожидаемую доходность. Редкая вещь даром.",
+      "kk": "Ақшаны көп активке бөлу күтілетін табысты азайтпай тәуекелді төмендетеді. Тегін берілетін сирек нәрсе."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "hourglass",
+    "themeKey": "teal",
+    "weight": 1,
+    "title": {
+      "en": "Match risk to your horizon",
+      "ru": "Подбирай риск под срок",
+      "kk": "Тәуекелді мерзіміңе сай таңда"
+    },
+    "body": {
+      "en": "Money for next year stays safe; money for 20 years can hold riskier, higher-returning assets. Let the deadline decide.",
+      "ru": "Деньги на год — в безопасности; деньги на 20 лет — в более рискованных активах. Решает срок.",
+      "kk": "Бір жылдық ақша қауіпсіз; 20 жылдық ақша тәуекелді, табысты активте бола алады. Мерзім шешеді."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "brain",
+    "themeKey": "teal",
+    "weight": 1,
+    "title": {
+      "en": "Risk tolerance is what you can hold",
+      "ru": "Толерантность к риску — что выдержишь",
+      "kk": "Тәуекелге төзім — нені ұстай аласың"
+    },
+    "body": {
+      "en": "Your real risk tolerance is how big a drop you can sit through without selling. Be honest before a crash, not during.",
+      "ru": "Настоящая терпимость к риску — какое падение вы переждёте, не продав. Будьте честны до обвала, а не во время.",
+      "kk": "Нақты тәуекелге төзім — сатпай шыдай алатын құлдырау. Дағдарыс кезінде емес, оған дейін адал болыңыз."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "chart",
+    "themeKey": "teal",
+    "weight": 1,
+    "title": {
+      "en": "Expected return is an average",
+      "ru": "Ожидаемая доходность — это среднее",
+      "kk": "Күтілетін табыс — орташа шама"
+    },
+    "body": {
+      "en": "An '8% expected return' is a long-run average, not a promise for any single year. Some years are negative.",
+      "ru": "«8% доходности» — долгосрочное среднее, а не обещание на год. Бывают и отрицательные годы.",
+      "kk": "«8% табыс» — ұзақ мерзімді орташа, бір жылға уәде емес. Кейбір жылдар теріс болады."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "shield",
+    "themeKey": "teal",
+    "weight": 1,
+    "title": {
+      "en": "Don't invest money you'll soon need",
+      "ru": "Не вкладывай деньги, нужные скоро",
+      "kk": "Жақында керек ақшаны салма"
+    },
+    "body": {
+      "en": "If you'll need the money within a few years, keep it safe. Markets can fall just when you need to withdraw.",
+      "ru": "Если деньги нужны через пару лет, держите их в безопасности. Рынок может упасть как раз к моменту снятия.",
+      "kk": "Ақша бірнеше жылда керек болса, қауіпсіз ұстаңыз. Нарық дәл шешетін кезде құлауы мүмкін."
+    }
+  },
+  {
+    "section": "investing_basics",
+    "iconKey": "alert",
+    "themeKey": "teal",
+    "weight": 2,
+    "title": {
+      "en": "The biggest risk is panic-selling",
+      "ru": "Главный риск — паническая продажа",
+      "kk": "Ең үлкен тәуекел — үреймен сату"
+    },
+    "body": {
+      "en": "For most beginners, the real danger isn't a market drop — it's selling at the bottom out of fear. Hold the plan.",
+      "ru": "Для новичков главная опасность — не падение рынка, а продажа на дне от страха. Держитесь плана.",
+      "kk": "Жаңадан бастаушылар үшін басты қауіп — нарық құлауы емес, қорқыныштан түбінде сату. Жоспарды ұстаныңыз."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "trending",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "A stock is part of a business",
+      "ru": "Акция — это доля бизнеса",
+      "kk": "Акция — бизнестің бөлігі"
+    },
+    "body": {
+      "en": "Buying a share makes you a part-owner of a real company, not a gambler on a number. Think like an owner.",
+      "ru": "Покупая акцию, вы становитесь совладельцем реальной компании, а не игроком на цифре. Думайте как владелец.",
+      "kk": "Акция сатып алу сізді нақты компанияның бір иесі етеді, санмен ойнаушы емес. Иеленуші ретінде ойлаңыз."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "chart",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "Prices move on expectations",
+      "ru": "Цены движут ожидания",
+      "kk": "Бағаны күтулер қозғайды"
+    },
+    "body": {
+      "en": "Stock prices reflect what people expect a company to earn in the future, not just what it earns today.",
+      "ru": "Цены акций отражают ожидаемую будущую прибыль компании, а не только сегодняшнюю.",
+      "kk": "Акция бағасы компанияның болашақ табысына деген күтуді көрсетеді, тек бүгінгісін емес."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "coins",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "Reinvest dividends to compound",
+      "ru": "Реинвестируй дивиденды",
+      "kk": "Дивидендті қайта сал"
+    },
+    "body": {
+      "en": "Dividends are a slice of profit paid to owners. Reinvesting them buys more shares and feeds compounding.",
+      "ru": "Дивиденды — часть прибыли владельцам. Реинвестируя их, вы покупаете больше акций и усиливаете рост.",
+      "kk": "Дивиденд — иелерге төленетін пайда үлесі. Оны қайта салу көбірек акция әперіп, өсімді күшейтеді."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "layers",
+    "themeKey": "indigo",
+    "weight": 2,
+    "title": {
+      "en": "An index tracks the whole market",
+      "ru": "Индекс отслеживает весь рынок",
+      "kk": "Индекс бүкіл нарықты қадағалайды"
+    },
+    "body": {
+      "en": "An index like the S&P 500 or MSCI World follows hundreds of companies at once — instant diversification in one number.",
+      "ru": "Индекс вроде S&P 500 или MSCI World отслеживает сотни компаний сразу — мгновенная диверсификация.",
+      "kk": "S&P 500 не MSCI World сияқты индекс жүздеген компанияны қатар қадағалайды — лезде әртараптандыру."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "bond",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "A bond means you're the lender",
+      "ru": "Облигация — ты кредитор",
+      "kk": "Облигация — сен қарыз берушісің"
+    },
+    "body": {
+      "en": "When you buy a bond you lend money and get paid interest. You don't own the company — you're owed by it.",
+      "ru": "Покупая облигацию, вы даёте в долг и получаете проценты. Вы не владелец, вам должны.",
+      "kk": "Облигация алғанда сіз қарыз беріп, пайыз аласыз. Иесі емессіз — сізге қарыз."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "percent",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "Rates up, bond prices down",
+      "ru": "Ставки вверх — облигации вниз",
+      "kk": "Мөлшерлеме өссе — облигация түседі"
+    },
+    "body": {
+      "en": "Existing bonds lose value when new bonds offer higher rates. That inverse link is interest-rate risk.",
+      "ru": "Старые облигации дешевеют, когда новые дают более высокую ставку. Эта обратная связь — процентный риск.",
+      "kk": "Жаңа облигация жоғары мөлшерлеме берсе, ескілері арзандайды. Бұл кері байланыс — пайыздық тәуекел."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "alert",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "Higher yield, higher credit risk",
+      "ru": "Выше доход — выше кредитный риск",
+      "kk": "Табыс жоғары — несие тәуекелі жоғары"
+    },
+    "body": {
+      "en": "A bond paying unusually high interest is usually paying you for a higher chance the borrower won't repay.",
+      "ru": "Облигация с необычно высокой ставкой обычно платит за повышенный риск невозврата.",
+      "kk": "Әдеттен тыс жоғары пайызды облигация әдетте қайтармау қаупінің артқанын өтейді."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "home",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "Real estate has hidden costs",
+      "ru": "У недвижимости скрытые расходы",
+      "kk": "Жылжымайтын мүлікте жасырын шығын бар"
+    },
+    "body": {
+      "en": "A property ties up cash and carries tax, maintenance, insurance and vacancy costs. The price tag isn't the full cost.",
+      "ru": "Недвижимость замораживает деньги и несёт налоги, ремонт, страховку, простои. Цена — не вся стоимость.",
+      "kk": "Мүлік ақшаны байлап, салық, жөндеу, сақтандыру, бос тұру шығынын әкеледі. Баға — бүкіл құн емес."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "home",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "Rent vs buy is about time and total cost",
+      "ru": "Аренда или покупка — вопрос срока и затрат",
+      "kk": "Жалдау ма, сатып алу ма — мерзім мен шығын мәселесі"
+    },
+    "body": {
+      "en": "'Rent is wasted money' is a myth. The right choice depends on how long you'll stay and the full cost of each.",
+      "ru": "«Аренда — выброшенные деньги» — миф. Выбор зависит от срока проживания и полной стоимости каждого варианта.",
+      "kk": "«Жалдау — далаға кеткен ақша» деген миф. Таңдау тұру мерзімі мен әрқайсысының толық құнына байланысты."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "alert",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "A mortgage amplifies both ways",
+      "ru": "Ипотека усиливает в обе стороны",
+      "kk": "Ипотека екі жаққа да күшейтеді"
+    },
+    "body": {
+      "en": "Borrowing to buy property is leverage: it multiplies gains when prices rise and losses when they fall.",
+      "ru": "Заём на покупку — это рычаг: он множит и прибыль при росте цен, и убыток при падении.",
+      "kk": "Мүлік алуға қарыз — иінтірек: баға өссе пайданы, түссе шығынды еселейді."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "layers",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "REITs give property exposure simply",
+      "ru": "REIT — простой доступ к недвижимости",
+      "kk": "REIT — мүлікке оңай қол жеткізу"
+    },
+    "body": {
+      "en": "A REIT lets you own a share of income property without buying, managing or repairing a building yourself.",
+      "ru": "REIT позволяет владеть долей доходной недвижимости без покупки, управления и ремонта здания.",
+      "kk": "REIT ғимаратты сатып алмай, басқармай, жөндемей табысты мүліктің үлесін иеленуге мүмкіндік береді."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "alert",
+    "themeKey": "indigo",
+    "weight": 2,
+    "title": {
+      "en": "Crypto is speculative — size it tiny",
+      "ru": "Крипта спекулятивна — держи долю малой",
+      "kk": "Крипто алыпсатарлық — үлесін кіші ұста"
+    },
+    "body": {
+      "en": "Crypto is extremely volatile and unproven as a store of value. If you hold any, risk only what you can lose entirely.",
+      "ru": "Крипта крайне волатильна и не доказана как средство сбережения. Рискуйте лишь тем, что можете потерять целиком.",
+      "kk": "Крипто өте құбылмалы әрі құн сақтаушы ретінде дәлелденбеген. Ұстасаңыз — тек толық жоғалта алатыныңды тәуекел ет."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "lock",
+    "themeKey": "indigo",
+    "weight": 1,
+    "title": {
+      "en": "Not your keys, not your coins",
+      "ru": "Не твои ключи — не твои монеты",
+      "kk": "Кілт сенікі емес — монета да сенікі емес"
+    },
+    "body": {
+      "en": "Crypto left on an exchange depends on that exchange's survival. Custody risk is real — exchanges fail and freeze.",
+      "ru": "Крипта на бирже зависит от выживания биржи. Риск хранения реален — биржи рушатся и замораживают средства.",
+      "kk": "Биржадағы крипто сол биржаның тірлігіне тәуелді. Сақтау тәуекелі нақты — биржалар құлап, қаражатты бұғаттайды."
+    }
+  },
+  {
+    "section": "investment_types",
+    "iconKey": "chart",
+    "themeKey": "indigo",
+    "weight": 2,
+    "title": {
+      "en": "Past winners aren't future winners",
+      "ru": "Прошлые лидеры — не будущие",
+      "kk": "Өткен жеңімпаз — болашақ жеңімпаз емес"
+    },
+    "body": {
+      "en": "Buying whatever performed best last year usually disappoints. Chasing winners is one of the most common losing habits.",
+      "ru": "Покупать прошлогодних лидеров — обычно разочарование. Погоня за победителями — частая проигрышная привычка.",
+      "kk": "Өткен жылы үздік болғанды сатып алу көбіне көңіл қалдырады. Жеңімпазды қуу — жиі ұтылдыратын әдет."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "layers",
+    "themeKey": "cyan",
+    "weight": 2,
+    "title": {
+      "en": "Index funds are the simple winner",
+      "ru": "Индексные фонды — простой победитель",
+      "kk": "Индекс қоры — қарапайым жеңімпаз"
+    },
+    "body": {
+      "en": "A low-cost index fund buys the whole market cheaply. For most people it's the simplest, most reliable strategy.",
+      "ru": "Дешёвый индексный фонд покупает весь рынок недорого. Для большинства это самая простая и надёжная стратегия.",
+      "kk": "Арзан индекс қоры бүкіл нарықты үнемді сатып алады. Көпшілік үшін ең қарапайым әрі сенімді жол."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "chart",
+    "themeKey": "cyan",
+    "weight": 2,
+    "title": {
+      "en": "Most active funds lose to the index",
+      "ru": "Большинство активных фондов уступают индексу",
+      "kk": "Белсенді қорлардың көбі индекске ұтылады"
+    },
+    "body": {
+      "en": "After fees, the majority of active funds underperform a simple index over the long run. Costs are the reason.",
+      "ru": "После комиссий большинство активных фондов проигрывают простому индексу на длинной дистанции. Причина — расходы.",
+      "kk": "Комиссиядан кейін белсенді қорлардың көбі ұзақ мерзімде қарапайым индекске ұтылады. Себебі — шығын."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "percent",
+    "themeKey": "cyan",
+    "weight": 2,
+    "title": {
+      "en": "Low fees are within your control",
+      "ru": "Низкие комиссии — в твоей власти",
+      "kk": "Төмен комиссия — сенің қолыңда"
+    },
+    "body": {
+      "en": "You can't control returns, but you can control costs. Choosing low-fee funds is one of the surest ways to keep more.",
+      "ru": "Доходность не в вашей власти, а расходы — да. Выбор дешёвых фондов — вернейший способ оставить себе больше.",
+      "kk": "Табысты бақылай алмайсыз, шығынды — иә. Арзан қор таңдау — көбірек сақтаудың ең сенімді жолы."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "alert",
+    "themeKey": "cyan",
+    "weight": 2,
+    "title": {
+      "en": "One percent costs a fortune",
+      "ru": "Один процент стоит состояния",
+      "kk": "Бір пайыз байлыққа түседі"
+    },
+    "body": {
+      "en": "A 1% annual fee can quietly eat a quarter or more of your final balance over an investing lifetime. Mind the fee.",
+      "ru": "Комиссия 1% в год может тихо съесть четверть и больше итогового капитала за всю жизнь. Следите за ней.",
+      "kk": "Жылдық 1% комиссия инвестор ғұмырында түпкі капиталдың ширегін не одан көбін жеуі мүмкін. Назар аударыңыз."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "savings",
+    "themeKey": "cyan",
+    "weight": 2,
+    "title": {
+      "en": "Tax-advantaged accounts first",
+      "ru": "Сначала используй налоговые льготы",
+      "kk": "Алдымен салықтық жеңілдіктерді пайдалан"
+    },
+    "body": {
+      "en": "Investing inside a tax-advantaged account compounds faster because you are not paying tax on gains each year.",
+      "ru": "Инвестиции на льготном счёте растут быстрее, потому что вы не платите налог с прибыли каждый год.",
+      "kk": "Салықтық жеңілдікті шотта инвестиция тезірек өседі, себебі жыл сайын пайдадан салық төлемейсің."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "coins",
+    "themeKey": "cyan",
+    "weight": 2,
+    "title": {
+      "en": "Always capture the employer match",
+      "ru": "Всегда бери взнос работодателя",
+      "kk": "Жұмыс берушінің қосуын әрқашан ал"
+    },
+    "body": {
+      "en": "If an employer matches pension contributions, that match is free money. Always contribute enough to get all of it.",
+      "ru": "Если работодатель софинансирует пенсию, это бесплатные деньги. Вносите столько, чтобы получить весь матч.",
+      "kk": "Жұмыс беруші зейнетақыға қосса, бұл — тегін ақша. Толық алу үшін жеткілікті жарна салыңыз."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "bank",
+    "themeKey": "cyan",
+    "weight": 1,
+    "title": {
+      "en": "Know your pension base",
+      "ru": "Знай свою пенсионную основу",
+      "kk": "Зейнетақы негізіңді біл"
+    },
+    "body": {
+      "en": "In Kazakhstan, ENPF is the mandatory pension base; voluntary contributions build on top of it. Understand both layers.",
+      "ru": "В Казахстане ЕНПФ — обязательная основа пенсии; добровольные взносы — сверху. Понимайте оба уровня.",
+      "kk": "Қазақстанда БЖЗҚ — міндетті зейнетақы негізі; ерікті жарна оның үстіне қосылады. Екі қабатты да түсініңіз."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "chart",
+    "themeKey": "cyan",
+    "weight": 1,
+    "title": {
+      "en": "Markets price in known news",
+      "ru": "Рынок уже учёл известные новости",
+      "kk": "Нарық белгілі жаңалықты бағаға қосқан"
+    },
+    "body": {
+      "en": "By the time news reaches you, prices have usually already moved. You can't easily profit from what everyone knows.",
+      "ru": "К тому моменту, как новость дошла до вас, цены обычно уже сдвинулись. На общеизвестном не заработать.",
+      "kk": "Жаңалық сізге жеткенде бағалар әдетте әлдеқашан өзгерген. Бәрі білетін нәрседен оңай пайда таппайсыз."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "refresh",
+    "themeKey": "cyan",
+    "weight": 1,
+    "title": {
+      "en": "Bull and bear markets are normal",
+      "ru": "Бычий и медвежий рынки — это норма",
+      "kk": "Өсу мен құлдырау нарығы — қалыпты"
+    },
+    "body": {
+      "en": "Markets rise and fall in cycles. A downturn is a normal phase, not an emergency that requires you to act.",
+      "ru": "Рынки растут и падают циклами. Спад — нормальная фаза, а не ЧП, требующее действий.",
+      "kk": "Нарық циклмен өсіп-түседі. Құлдырау — қалыпты кезең, әрекет талап ететін төтенше жағдай емес."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "layers",
+    "themeKey": "cyan",
+    "weight": 1,
+    "title": {
+      "en": "Owning all of it is the smart default",
+      "ru": "Владеть всем рынком — разумно по умолчанию",
+      "kk": "Бүкіл нарықты иелену — ақылды әдепкі"
+    },
+    "body": {
+      "en": "Since beating the market reliably is nearly impossible, simply owning the whole market is the sensible default.",
+      "ru": "Поскольку надёжно обыгрывать рынок почти невозможно, владеть всем рынком — разумный выбор по умолчанию.",
+      "kk": "Нарықты сенімді жеңу мүмкін емеске жақын болғандықтан, бүкіл нарықты иелену — ақылды әдепкі."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "brain",
+    "themeKey": "cyan",
+    "weight": 1,
+    "title": {
+      "en": "Read news to understand, not to trade",
+      "ru": "Читай новости, чтобы понимать",
+      "kk": "Жаңалықты түсіну үшін оқы"
+    },
+    "body": {
+      "en": "Use economic news to build a calm picture of the world, not as a trigger to buy or sell. Reaction is the enemy.",
+      "ru": "Используйте новости, чтобы спокойно понимать мир, а не как повод купить или продать. Реакция — враг.",
+      "kk": "Жаңалықты дүниені байсалды түсіну үшін қолданыңыз, сату-сатып алу сигналы ретінде емес. Реакция — жау."
+    }
+  },
+  {
+    "section": "funds_accounts_markets",
+    "iconKey": "trending",
+    "themeKey": "cyan",
+    "weight": 1,
+    "title": {
+      "en": "Contributions are the quiet engine",
+      "ru": "Взносы — тихий двигатель роста",
+      "kk": "Жарналар — өсімнің үнсіз қозғалтқышы"
+    },
+    "body": {
+      "en": "Steady contributions and reinvested gains do more for your wealth over time than any clever trade ever will.",
+      "ru": "Регулярные взносы и реинвестированный доход дают для богатства больше, чем любая хитрая сделка.",
+      "kk": "Тұрақты жарна мен қайта салынған табыс байлыққа кез келген айлакер мәміледен көп үлес қосады."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "layers",
+    "themeKey": "rose",
+    "weight": 2,
+    "title": {
+      "en": "Allocation drives most of your result",
+      "ru": "Распределение определяет почти всё",
+      "kk": "Бөлу нәтиженің көбін шешеді"
+    },
+    "body": {
+      "en": "How you split between stocks and bonds shapes most of your long-term return and risk — more than picking any single asset.",
+      "ru": "Деление между акциями и облигациями определяет большую часть доходности и риска — важнее выбора отдельного актива.",
+      "kk": "Акция мен облигация арасындағы бөлініс ұзақ табыс пен тәуекелдің көбін айқындайды — жеке актив таңдаудан маңызды."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "refresh",
+    "themeKey": "rose",
+    "weight": 1,
+    "title": {
+      "en": "Rebalance to control risk drift",
+      "ru": "Ребалансируй, чтобы держать риск",
+      "kk": "Тәуекелді ұстау үшін қайта теңгерімде"
+    },
+    "body": {
+      "en": "After a big run, your mix drifts toward more risk. Rebalancing back to your target keeps your risk where you chose it.",
+      "ru": "После сильного роста ваш набор смещается к большему риску. Ребалансировка возвращает риск к выбранному уровню.",
+      "kk": "Қатты өсімнен кейін құрамыңыз тәуекелге қарай ауады. Қайта теңгерімдеу тәуекелді таңдаған деңгейде ұстайды."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "hourglass",
+    "themeKey": "rose",
+    "weight": 1,
+    "title": {
+      "en": "Shift to safety as goals near",
+      "ru": "С приближением цели — к безопасности",
+      "kk": "Мақсат жақындағанда — қауіпсіздікке"
+    },
+    "body": {
+      "en": "As a goal approaches, gradually move that money to safer assets so a late crash can't undo years of progress.",
+      "ru": "По мере приближения цели постепенно переводите деньги в безопасные активы, чтобы обвал не стёр годы прогресса.",
+      "kk": "Мақсат жақындаған сайын ол ақшаны қауіпсіз активке көшіріңіз, кеш құлдырау жылдар жетістігін жоймасын."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "check",
+    "themeKey": "rose",
+    "weight": 2,
+    "title": {
+      "en": "The best portfolio is the one you keep",
+      "ru": "Лучший портфель — тот, что удержишь",
+      "kk": "Үздік портфель — ұстай алатының"
+    },
+    "body": {
+      "en": "A simple plan you'll actually stick with beats a clever one you'll abandon in a panic. Boring and consistent wins.",
+      "ru": "Простой план, которого вы будете держаться, лучше умного, брошенного в панике. Скучное и постоянное побеждает.",
+      "kk": "Ұстанатын қарапайым жоспар үреймен тастайтын ақылдыдан артық. Жалықтыратын әрі тұрақты ұтады."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "percent",
+    "themeKey": "rose",
+    "weight": 1,
+    "title": {
+      "en": "Taxes shape your real return",
+      "ru": "Налоги формируют реальный доход",
+      "kk": "Салық нақты табысты қалыптастырады"
+    },
+    "body": {
+      "en": "What you keep matters more than what you earn. Placing assets in the right accounts can meaningfully raise after-tax returns.",
+      "ru": "Важно не сколько вы заработали, а сколько оставили. Правильное размещение активов повышает доход после налогов.",
+      "kk": "Тапқаныңнан сақтағаның маңызды. Активтерді дұрыс шотқа орналастыру салықтан кейінгі табысты арттырады."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "clock",
+    "themeKey": "rose",
+    "weight": 1,
+    "title": {
+      "en": "Holding longer can defer tax",
+      "ru": "Долгое владение откладывает налог",
+      "kk": "Ұзақ ұстау салықты кейінге қалдырады"
+    },
+    "body": {
+      "en": "Capital gains are usually taxed only when you sell. Holding investments longer lets gains compound before tax bites.",
+      "ru": "Прирост капитала обычно облагается лишь при продаже. Долгое владение даёт прибыли расти до налога.",
+      "kk": "Капитал өсімі әдетте сатқанда ғана салықталады. Ұзақ ұстау пайданы салыққа дейін өсіруге мүмкіндік береді."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "trending",
+    "themeKey": "rose",
+    "weight": 2,
+    "title": {
+      "en": "Earning more often beats optimizing",
+      "ru": "Зарабатывать больше часто важнее оптимизации",
+      "kk": "Көп табу оңтайландырудан жиі артық"
+    },
+    "body": {
+      "en": "For most people, growing income lifts wealth faster than fine-tuning a small portfolio. Invest in your earning power.",
+      "ru": "Для большинства рост дохода поднимает богатство быстрее, чем тонкая настройка небольшого портфеля.",
+      "kk": "Көпшілік үшін табысты өсіру шағын портфельді реттеуден тез байытады. Табу қабілетіне салым салыңыз."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "handshake",
+    "themeKey": "rose",
+    "weight": 2,
+    "title": {
+      "en": "Negotiate — a raise compounds for life",
+      "ru": "Договаривайся — прибавка растёт всю жизнь",
+      "kk": "Келіс — қосымша өмір бойы өседі"
+    },
+    "body": {
+      "en": "A successful salary negotiation raises every future paycheck and pension contribution. Few hours pay off for decades.",
+      "ru": "Удачные переговоры о зарплате повышают каждую будущую выплату и пенсионный взнос. Часы окупаются десятилетиями.",
+      "kk": "Сәтті жалақы келіссөзі әрбір болашақ төлем мен зейнетақы жарнасын көтереді. Бірнеше сағат ондаған жыл ақталады."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "brain",
+    "themeKey": "rose",
+    "weight": 1,
+    "title": {
+      "en": "You inherited money scripts",
+      "ru": "Ты унаследовал денежные сценарии",
+      "kk": "Сен ақша сценарийін мұра еттің"
+    },
+    "body": {
+      "en": "Beliefs about money absorbed from family quietly drive your habits. Naming them is the first step to changing them.",
+      "ru": "Усвоенные в семье установки о деньгах тихо управляют привычками. Назвать их — первый шаг к переменам.",
+      "kk": "Отбасынан сіңген ақша туралы наным әдеттеріңді үнсіз басқарады. Оларды атау — өзгертудің алғашқы қадамы."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "refresh",
+    "themeKey": "rose",
+    "weight": 2,
+    "title": {
+      "en": "Automate good decisions",
+      "ru": "Автоматизируй хорошие решения",
+      "kk": "Дұрыс шешімдерді автоматтандыр"
+    },
+    "body": {
+      "en": "Willpower runs out; systems don't. Automate saving and investing so the right thing happens without a daily choice.",
+      "ru": "Сила воли кончается, системы — нет. Автоматизируйте сбережения, чтобы верное случалось без ежедневного выбора.",
+      "kk": "Ерік-жігер таусылады, жүйе таусылмайды. Жинақ пен инвестицияны автоматтандырыңыз, дұрысы күнделікті таңдаусыз болсын."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "brain",
+    "themeKey": "rose",
+    "weight": 1,
+    "title": {
+      "en": "Losses hurt about twice as much",
+      "ru": "Потери ранят примерно вдвое сильнее",
+      "kk": "Шығын шамамен екі есе ауыр тиеді"
+    },
+    "body": {
+      "en": "We feel losses about twice as strongly as equal gains. Knowing this stops you from selling in fear at the worst time.",
+      "ru": "Потери ощущаются примерно вдвое сильнее равной прибыли. Знание этого удержит от панической продажи.",
+      "kk": "Шығынды тең пайдадан шамамен екі есе күшті сезінеміз. Мұны білу ең нашар сәтте үреймен сатудан сақтайды."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "eye",
+    "themeKey": "rose",
+    "weight": 1,
+    "title": {
+      "en": "Don't check your portfolio daily",
+      "ru": "Не проверяй портфель каждый день",
+      "kk": "Портфельді күн сайын тексерме"
+    },
+    "body": {
+      "en": "The more often you look, the more swings you see and the more you're tempted to react. Check rarely, act rarely.",
+      "ru": "Чем чаще смотрите, тем больше колебаний видите и сильнее тянет реагировать. Смотрите редко, действуйте редко.",
+      "kk": "Жиі қараған сайын тербелісті көп көресіз әрі әрекет етуге азғырыласыз. Сирек қараңыз, сирек әрекет етіңіз."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "check",
+    "themeKey": "rose",
+    "weight": 1,
+    "title": {
+      "en": "Make the smart option the default",
+      "ru": "Сделай умный выбор стандартным",
+      "kk": "Ақылды таңдауды әдепкі ет"
+    },
+    "body": {
+      "en": "People mostly stick with the default. Set automatic contributions and sensible defaults, and good behavior takes care of itself.",
+      "ru": "Люди обычно держатся настроек по умолчанию. Задайте автовзносы и разумные значения — и поведение наладится само.",
+      "kk": "Адамдар көбіне әдепкіні ұстайды. Автожарна мен орынды әдепкілерді орнатыңыз, дұрыс мінез өзі реттеледі."
+    }
+  },
+  {
+    "section": "building_wealth",
+    "iconKey": "target",
+    "themeKey": "rose",
+    "weight": 1,
+    "title": {
+      "en": "The goal is freedom, not a big number",
+      "ru": "Цель — свобода, а не большое число",
+      "kk": "Мақсат — еркіндік, үлкен сан емес"
+    },
+    "body": {
+      "en": "Wealth isn't about an impressive balance; it's about options and freedom over your time. Keep the real goal in view.",
+      "ru": "Богатство — не про впечатляющий счёт, а про возможности и свободу распоряжаться временем. Помните настоящую цель.",
+      "kk": "Байлық — әсерлі шот емес; бұл — уақытыңызға деген мүмкіндік пен еркіндік. Нағыз мақсатты ұмытпаңыз."
+    }
+  }
+]
+}

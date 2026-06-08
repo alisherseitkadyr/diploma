@@ -21,6 +21,17 @@ type jsonSeed struct {
 	Lesson    jsonSeedLesson     `json:"lesson"`
 	Quiz      jsonSeedQuiz       `json:"quiz"`
 	FinalQuiz jsonSeedQuiz       `json:"finalQuiz"`
+	Tips      []jsonSeedTip      `json:"tips"`
+}
+
+type jsonSeedTip struct {
+	Section  string          `json:"section"`
+	Title    localizedString `json:"title"`
+	Body     localizedString `json:"body"`
+	IconKey  string          `json:"iconKey"`
+	ThemeKey string          `json:"themeKey"`
+	Weight   int             `json:"weight"`
+	Status   string          `json:"status"`
 }
 
 type jsonSeedTopic struct {
@@ -191,6 +202,12 @@ func runJSONSeed(ctx context.Context, tx pgx.Tx, data []byte) error {
 	if err := json.Unmarshal(data, &seed); err != nil {
 		return fmt.Errorf("decode json seed: %w", err)
 	}
+
+	// Tip-only seed: skip topic/subtopic pipeline entirely.
+	if len(seed.Tips) > 0 {
+		return seedTips(ctx, tx, seed.Tips)
+	}
+
 	if err := seed.validate(); err != nil {
 		return err
 	}
@@ -221,6 +238,58 @@ func runJSONSeed(ctx context.Context, tx pgx.Tx, data []byte) error {
 		}
 	}
 
+	return nil
+}
+
+func seedTips(ctx context.Context, tx pgx.Tx, tips []jsonSeedTip) error {
+	for _, t := range tips {
+		sectionCode := strings.TrimSpace(t.Section)
+		if sectionCode == "" {
+			return fmt.Errorf("tip seed: section is required (title: %q)", t.Title.ForLang("en"))
+		}
+
+		sectionID, err := lookupSectionID(ctx, tx, sectionCode)
+		if err != nil {
+			return fmt.Errorf("tip seed: %w", err)
+		}
+
+		weight := t.Weight
+		if weight <= 0 {
+			weight = 1
+		}
+		status := strings.TrimSpace(t.Status)
+		if status == "" {
+			status = "published"
+		}
+
+		var tipID int64
+		if err := tx.QueryRow(ctx, `
+			insert into tips (section_id, weight, status)
+			values ($1, $2, $3)
+			returning id
+		`, sectionID, weight, status).Scan(&tipID); err != nil {
+			return fmt.Errorf("insert tip %q: %w", t.Title.ForLang("en"), err)
+		}
+
+		for _, lang := range supportedSeedLanguages {
+			if _, err := tx.Exec(ctx, `
+				insert into tip_translations (tip_id, language_code, title, body, icon_key, theme_key)
+				values ($1, $2, $3, $4, $5, $6)
+				on conflict (tip_id, language_code) do update set
+					title     = excluded.title,
+					body      = excluded.body,
+					icon_key  = excluded.icon_key,
+					theme_key = excluded.theme_key
+			`, tipID, lang,
+				t.Title.ForLang(lang),
+				t.Body.ForLang(lang),
+				t.IconKey,
+				t.ThemeKey,
+			); err != nil {
+				return fmt.Errorf("insert tip translation %q/%s: %w", t.Title.ForLang("en"), lang, err)
+			}
+		}
+	}
 	return nil
 }
 

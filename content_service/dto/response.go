@@ -55,6 +55,17 @@ type LessonResponse struct {
 	Steps         []LessonStepResponse `json:"steps"`
 }
 
+// ── Tip ───────────────────────────────────────────────────────
+
+type TipResponse struct {
+	ID          int64  `json:"id"`
+	SectionCode string `json:"sectionCode"`
+	Title       string `json:"title"`
+	Body        string `json:"body"`
+	IconKey     string `json:"iconKey"`
+	ThemeKey    string `json:"themeKey"`
+}
+
 // ── Explore view (sections + topics + progress) ───────────────
 
 type ExploreTopicResponse struct {

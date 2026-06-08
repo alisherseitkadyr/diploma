@@ -12,4 +12,5 @@ type ContentService interface {
 	GetLessonBySubtopicCode(ctx context.Context, subtopicCode, languageCode string) (*dto.LessonResponse, error)
 	CompleteSubtopic(ctx context.Context, userID int64, subtopicCode string) error
 	GetExploreView(ctx context.Context, userID int64, languageCode string) (*dto.ExploreViewResponse, error)
+	GetTip(ctx context.Context, languageCode string) (*dto.TipResponse, error)
 }
