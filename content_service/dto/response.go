@@ -9,6 +9,8 @@ type TopicResponse struct {
 	OrderIndex  int    `json:"orderIndex"`
 	Title       string `json:"title"`
 	Description string `json:"description,omitempty"`
+	IconPath    string `json:"icon_path,omitempty"`
+	XpReward    int    `json:"xp"`
 }
 
 type SubtopicResponse struct {
@@ -79,6 +81,7 @@ type ExploreTopicResponse struct {
 	LessonsDone      int    `json:"lessonsDone"`
 	LessonsTotal     int    `json:"lessonsTotal"`
 	XpReward         int    `json:"xpReward"`
+	IconPath         string `json:"icon_path,omitempty"`
 }
 
 type ExploreSectionResponse struct {

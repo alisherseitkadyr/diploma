@@ -1,337 +1,2776 @@
 {
-    "section": "banking_payments",
-    "topic": {
+  "section": "banking_payments",
+  "topic": {
     "code": "payments_modern_money",
-      "orderIndex": 5,
-    "title": {"en": "Payments & Modern Money"},
-    "description": {"en": "How money actually moves today — cards, wallets, and instant transfers — and the fintech system built around them."},
+    "orderIndex": 5,
+    "icon_path": "assets/topics/005.png",
+    "title": {
+      "en": "Payments & Modern Money",
+      "ru": "Платежи и современные деньги",
+      "kk": "Төлемдер және заманауи ақша"
+    },
+    "description": {
+      "en": "How money actually moves today — cards, wallets, and instant transfers — and the fintech system built around them.",
+      "ru": "Как деньги на самом деле перемещаются сегодня — карты, кошельки и мгновенные переводы — и финтех-система вокруг них.",
+      "kk": "Бүгінде ақшаның шын мәнінде қалай қозғалатыны — карталар, әмияндар және жедел аударымдар — әрі олардың айналасындағы финтех жүйесі."
+    },
     "level": "beginner",
     "prerequisite_id": null
   },
   "subtopics": [
     {
       "code": "cards_and_payment_networks",
-      "title": {"en": "Cards and Payment Networks"},
-      "description": {"en": "A card is not money. It is a credential routed through banks and a network that vouch for the payment."},
+      "title": {
+        "en": "Cards and Payment Networks",
+        "ru": "Карты и платёжные сети",
+        "kk": "Карталар және төлем желілері"
+      },
+      "description": {
+        "en": "A card is not money. It is a credential routed through banks and a network that vouch for the payment.",
+        "ru": "Карта — это не деньги. Это платёжный идентификатор, который проходит через банки и сеть, подтверждающие платёж.",
+        "kk": "Карта — ақша емес. Бұл төлемді растайтын банктер мен желі арқылы өтетін сәйкестендіру құралы."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 0,
       "quizId": 501,
-      "lesson": { "steps": [
-        {"id":"1","order":1,"stepType":"introduction","title":{"en":"Who trusts your card?"},
-         "body":{"en":"A shop in Almaty takes a card from a stranger and trusts it is good for the money, without knowing the person. It can do this because a hidden system of banks and a network stands behind every tap, vouching for the payment."},
-         "tip":{"en":"A card is not money. It is a credential that points to an account."}},
-        {"id":"2","order":2,"stepType":"explanation","title":{"en":"The four parties behind a tap"},
-         "body":{"en":"Four players act on every card payment: your bank (the issuer), the shop's bank (the acquirer), the network (Visa or Mastercard) that routes the message, and the two of you. The network holds no money; it carries the approval and sets the rules."},
-         "example":{"en":"A tap sends a question, not cash: does this account have the funds, and is the card valid? The answer returns in about a second."}},
-        {"id":"3","order":3,"stepType":"explanation","title":{"en":"Authorize now, settle later"},
-         "body":{"en":"The tap first authorizes: your bank places a hold confirming the funds. The real money moves hours later, in a batch, called settlement. The shop pays a fee on each sale (often 1–2.5%), part of which goes to your bank and quietly funds free cards and cashback."},
-         "tip":{"en":"Debit pulls from your own balance; credit borrows the bank's money until you repay."}},
-        {"id":"4","order":4,"stepType":"example","title":{"en":"Where 10,000 ₸ actually goes"},
-         "content":{"en":{"blocks":[
-           {"type":"paragraph","text":"You buy groceries for 10,000 ₸ with a card. The shop does not receive the full amount."},
-           {"type":"table","rows":[["Step","What happens","Money"],["You tap","Issuer holds 10,000 ₸","-10,000 ₸"],["Network routes","Approval sent to shop's bank","0 ₸"],["Settlement","Shop's bank pays the shop minus ~2%","+9,800 ₸"],["Fee split","Most of the 200 ₸ goes to your bank","200 ₸"]]},
-           {"type":"paragraph","text":"The shop prices that lost 2% into everything it sells, so cash customers help pay for card rewards too."}]}}},
-        {"id":"5","order":5,"stepType":"interactive","title":{"en":"Match each player to its job"},
-         "body":{"en":"Three players stand behind every card payment. Sort each job to the one that does it."},
-         "interactiveType":"drag_drop",
-         "interactiveContent":{"en":{
-           "instruction":"Drag each job to the player that does it.",
-           "categories":[{"id":"issuer","label":"Your bank (issuer)"},{"id":"acquirer","label":"Shop's bank (acquirer)"},{"id":"network","label":"Network (Visa/Mastercard)"}],
-           "items":[{"id":"holds","text":"Holds your money and approves the charge"},{"id":"pays_shop","text":"Pays the shop for the sale"},{"id":"routes","text":"Routes the approval between the two banks"},{"id":"rules","text":"Sets the rules and fees both banks follow"}],
-           "answers":[{"itemId":"holds","categoryId":"issuer"},{"itemId":"pays_shop","categoryId":"acquirer"},{"itemId":"routes","categoryId":"network"},{"itemId":"rules","categoryId":"network"}],
-           "explanation":"Your bank guards your money, the shop's bank receives the sale, and the network is the messenger and rule-maker in between. No single party does it all, and that division is what makes the system trustworthy."}}},
-        {"id":"6","order":6,"stepType":"conclusion","title":{"en":"A card is a key, not cash"},
-         "body":{"en":"A card is a credential; the network is a messaging and rules system; the real money moves later between two banks. The cost is hidden in a merchant fee baked into prices. Next we will see how phones and apps sit on top of these same rails."},
-         "tip":{"en":"When a shop offers a cash discount, it is sharing the card fee it just avoided."}}
-      ]},
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Who trusts your card?",
+              "ru": "Кто доверяет вашей карте?",
+              "kk": "Сіздің картаңызға кім сенеді?"
+            },
+            "body": {
+              "en": "A shop in Almaty takes a card from a stranger and trusts it is good for the money, without knowing the person. It can do this because a hidden system of banks and a network stands behind every tap, vouching for the payment.",
+              "ru": "Магазин в Алматы принимает карту у незнакомого человека и доверяет, что по ней есть деньги. Это возможно потому, что за каждым касанием стоит скрытая система банков и платёжной сети, подтверждающая платёж.",
+              "kk": "Алматыдағы дүкен бейтаныс адамның картасын қабылдап, онда төлеуге ақша бар деп сенеді. Бұл әрбір жанасудың артында төлемді растайтын банктер мен төлем желісінің жасырын жүйесі тұрғандықтан мүмкін."
+            },
+            "tip": {
+              "en": "A card is not money. It is a credential that points to an account.",
+              "ru": "Карта — это не деньги. Это ключ-идентификатор, который указывает на счёт.",
+              "kk": "Карта — ақша емес. Ол шотқа сілтейтін сәйкестендіру құралы."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "The four parties behind a tap",
+              "ru": "Четыре стороны за одним касанием",
+              "kk": "Бір жанасудың артындағы төрт тарап"
+            },
+            "body": {
+              "en": "Four players act on every card payment: your bank (the issuer), the shop's bank (the acquirer), the network (Visa or Mastercard) that routes the message, and the two of you. The network holds no money; it carries the approval and sets the rules.",
+              "ru": "В каждом карточном платеже участвуют четыре стороны: ваш банк (эмитент), банк магазина (эквайер), сеть (Visa или Mastercard), которая передаёт сообщение, и вы с продавцом. Сеть не хранит деньги; она передаёт одобрение и задаёт правила.",
+              "kk": "Әр карталық төлемге төрт тарап қатысады: сіздің банк (эмитент), дүкеннің банкі (эквайер), хабарламаны бағыттайтын желі (Visa немесе Mastercard) және сіз бен сатушы. Желі ақшаны ұстамайды; ол мақұлдауды жеткізіп, ережелерді белгілейді."
+            },
+            "example": {
+              "en": "A tap sends a question, not cash: does this account have the funds, and is the card valid? The answer returns in about a second.",
+              "ru": "Касание отправляет не наличные, а вопрос: есть ли на счёте средства и действительна ли карта? Ответ возвращается примерно за секунду.",
+              "kk": "Жанасу қолма-қол ақша емес, сұрақ жібереді: бұл шотта қаражат бар ма және карта жарамды ма? Жауап шамамен бір секундта келеді."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Authorize now, settle later",
+              "ru": "Авторизация сейчас, расчёт позже",
+              "kk": "Қазір авторизация, есеп айырысу кейін"
+            },
+            "body": {
+              "en": "The tap first authorizes: your bank places a hold confirming the funds. The real money moves hours later, in a batch, called settlement. The shop pays a fee on each sale (often 1–2.5%), part of which goes to your bank and quietly funds free cards and cashback.",
+              "ru": "Сначала касание авторизует платёж: ваш банк блокирует сумму, подтверждая наличие средств. Реальные деньги переходят позже, пакетной обработкой — это называется расчётом. Магазин платит комиссию с каждой продажи (часто 1–2,5%), часть которой идёт вашему банку и незаметно финансирует бесплатные карты и кэшбэк.",
+              "kk": "Алдымен жанасу төлемді авторизациялайды: сіздің банк қаражатты растау үшін соманы бұғаттайды. Нақты ақша бірнеше сағаттан кейін пакетпен өтеді — бұл есеп айырысу деп аталады. Дүкен әр сатылымнан комиссия төлейді (көбіне 1–2,5%), оның бір бөлігі сіздің банкке барып, тегін карталар мен кэшбэкті қаржыландырады."
+            },
+            "tip": {
+              "en": "Debit pulls from your own balance; credit borrows the bank's money until you repay.",
+              "ru": "Дебетовая карта списывает ваши собственные деньги; кредитная использует деньги банка, пока вы их не вернёте.",
+              "kk": "Дебеттік карта өз теңгеріміңізден алады; кредиттік карта банк ақшасын қарызға береді, сіз оны кейін қайтарасыз."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Where 10,000 ₸ actually goes",
+              "ru": "Куда на самом деле уходят 10 000 ₸",
+              "kk": "10 000 ₸ шын мәнінде қайда кетеді"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "You buy groceries for 10,000 ₸ with a card. The shop does not receive the full amount."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Step",
+                        "What happens",
+                        "Money"
+                      ],
+                      [
+                        "You tap",
+                        "Issuer holds 10,000 ₸",
+                        "-10,000 ₸"
+                      ],
+                      [
+                        "Network routes",
+                        "Approval sent to shop's bank",
+                        "0 ₸"
+                      ],
+                      [
+                        "Settlement",
+                        "Shop's bank pays the shop minus ~2%",
+                        "+9,800 ₸"
+                      ],
+                      [
+                        "Fee split",
+                        "Most of the 200 ₸ goes to your bank",
+                        "200 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The shop prices that lost 2% into everything it sells, so cash customers help pay for card rewards too."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Вы покупаете продукты на 10 000 ₸ картой. Магазин получает не всю сумму."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Шаг",
+                        "Что происходит",
+                        "Деньги"
+                      ],
+                      [
+                        "Вы прикладываете карту",
+                        "Эмитент блокирует 10 000 ₸",
+                        "-10,000 ₸"
+                      ],
+                      [
+                        "Сеть направляет платёж",
+                        "Одобрение отправляется банку магазина",
+                        "0 ₸"
+                      ],
+                      [
+                        "Расчёт",
+                        "Банк магазина платит магазину за вычетом ~2%",
+                        "+9,800 ₸"
+                      ],
+                      [
+                        "Раздел комиссии",
+                        "Большая часть 200 ₸ уходит вашему банку",
+                        "200 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Магазин закладывает потерянные 2% в цены на все товары, поэтому покупатели с наличными тоже помогают оплачивать карточные бонусы."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Сіз картамен 10 000 ₸-ге азық-түлік сатып аласыз. Дүкен толық соманы алмайды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қадам",
+                        "Не болады",
+                        "Ақша"
+                      ],
+                      [
+                        "Сіз картаны жақындатасыз",
+                        "Эмитент 10 000 ₸ бұғаттайды",
+                        "-10,000 ₸"
+                      ],
+                      [
+                        "Желі бағыттайды",
+                        "Мақұлдау дүкеннің банкіне жіберіледі",
+                        "0 ₸"
+                      ],
+                      [
+                        "Есеп айырысу",
+                        "Дүкеннің банкі дүкенге ~2% шегеріп төлейді",
+                        "+9,800 ₸"
+                      ],
+                      [
+                        "Комиссияны бөлу",
+                        "200 ₸-нің көп бөлігі сіздің банкке кетеді",
+                        "200 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Дүкен жоғалған 2%-ды барлық тауар бағасына қосады, сондықтан қолма-қол төлейтіндер де карта сыйақыларын төлеуге қатысады."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Match each player to its job",
+              "ru": "Сопоставьте каждого участника с его задачей",
+              "kk": "Әр қатысушыны оның міндетімен сәйкестендіріңіз"
+            },
+            "body": {
+              "en": "Three players stand behind every card payment. Sort each job to the one that does it.",
+              "ru": "За каждым карточным платежом стоят три участника. Отнесите каждую задачу к тому, кто её выполняет.",
+              "kk": "Әр карталық төлемнің артында үш қатысушы тұр. Әр міндетті оны орындайтын тарапқа орналастырыңыз."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each job to the player that does it.",
+                "categories": [
+                  {
+                    "id": "issuer",
+                    "label": "Your bank (issuer)"
+                  },
+                  {
+                    "id": "acquirer",
+                    "label": "Shop's bank (acquirer)"
+                  },
+                  {
+                    "id": "network",
+                    "label": "Network (Visa/Mastercard)"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "holds",
+                    "text": "Holds your money and approves the charge"
+                  },
+                  {
+                    "id": "pays_shop",
+                    "text": "Pays the shop for the sale"
+                  },
+                  {
+                    "id": "routes",
+                    "text": "Routes the approval between the two banks"
+                  },
+                  {
+                    "id": "rules",
+                    "text": "Sets the rules and fees both banks follow"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "holds",
+                    "categoryId": "issuer"
+                  },
+                  {
+                    "itemId": "pays_shop",
+                    "categoryId": "acquirer"
+                  },
+                  {
+                    "itemId": "routes",
+                    "categoryId": "network"
+                  },
+                  {
+                    "itemId": "rules",
+                    "categoryId": "network"
+                  }
+                ],
+                "explanation": "Your bank guards your money, the shop's bank receives the sale, and the network is the messenger and rule-maker in between. No single party does it all, and that division is what makes the system trustworthy."
+              },
+              "ru": {
+                "instruction": "Перетащите каждую задачу к участнику, который её выполняет.",
+                "categories": [
+                  {
+                    "id": "issuer",
+                    "label": "Ваш банк (эмитент)"
+                  },
+                  {
+                    "id": "acquirer",
+                    "label": "Банк магазина (эквайер)"
+                  },
+                  {
+                    "id": "network",
+                    "label": "Сеть (Visa/Mastercard)"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "holds",
+                    "text": "Блокирует ваши деньги и одобряет списание"
+                  },
+                  {
+                    "id": "pays_shop",
+                    "text": "Платит магазину за продажу"
+                  },
+                  {
+                    "id": "routes",
+                    "text": "Передаёт одобрение между двумя банками"
+                  },
+                  {
+                    "id": "rules",
+                    "text": "Устанавливает правила и комиссии для обоих банков"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "holds",
+                    "categoryId": "issuer"
+                  },
+                  {
+                    "itemId": "pays_shop",
+                    "categoryId": "acquirer"
+                  },
+                  {
+                    "itemId": "routes",
+                    "categoryId": "network"
+                  },
+                  {
+                    "itemId": "rules",
+                    "categoryId": "network"
+                  }
+                ],
+                "explanation": "Ваш банк защищает ваши деньги, банк магазина принимает продажу, а сеть между ними передаёт сообщения и задаёт правила. Ни одна сторона не делает всё сразу, и именно это разделение делает систему надёжной."
+              },
+              "kk": {
+                "instruction": "Әр міндетті оны орындайтын қатысушыға сүйреңіз.",
+                "categories": [
+                  {
+                    "id": "issuer",
+                    "label": "Сіздің банк (эмитент)"
+                  },
+                  {
+                    "id": "acquirer",
+                    "label": "Дүкеннің банкі (эквайер)"
+                  },
+                  {
+                    "id": "network",
+                    "label": "Желі (Visa/Mastercard)"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "holds",
+                    "text": "Ақшаңызды бұғаттап, төлемді мақұлдайды"
+                  },
+                  {
+                    "id": "pays_shop",
+                    "text": "Сатылым үшін дүкенге төлейді"
+                  },
+                  {
+                    "id": "routes",
+                    "text": "Екі банк арасында мақұлдауды жеткізеді"
+                  },
+                  {
+                    "id": "rules",
+                    "text": "Екі банк ұстанатын ережелер мен комиссияларды белгілейді"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "holds",
+                    "categoryId": "issuer"
+                  },
+                  {
+                    "itemId": "pays_shop",
+                    "categoryId": "acquirer"
+                  },
+                  {
+                    "itemId": "routes",
+                    "categoryId": "network"
+                  },
+                  {
+                    "itemId": "rules",
+                    "categoryId": "network"
+                  }
+                ],
+                "explanation": "Сіздің банк ақшаңызды қорғайды, дүкеннің банкі сатылымды қабылдайды, ал желі екеуінің арасында хабаршы әрі ереже орнатушы болады. Бір тарап бәрін жалғыз жасамайды, осы бөлініс жүйені сенімді етеді."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "A card is a key, not cash",
+              "ru": "Карта — это ключ, а не наличные",
+              "kk": "Карта — қолма-қол ақша емес, кілт"
+            },
+            "body": {
+              "en": "A card is a credential; the network is a messaging and rules system; the real money moves later between two banks. The cost is hidden in a merchant fee baked into prices. Next we will see how phones and apps sit on top of these same rails.",
+              "ru": "Карта — это платёжный идентификатор; сеть — система сообщений и правил; реальные деньги позже перемещаются между двумя банками. Стоимость скрыта в торговой комиссии, заложенной в цены. Далее посмотрим, как телефоны и приложения работают поверх этих же рельсов.",
+              "kk": "Карта — төлем құралы; желі — хабарлама мен ережелер жүйесі; нақты ақша кейін екі банк арасында қозғалады. Шығын бағаларға енгізілген саудагер комиссиясында жасырын. Келесіде телефондар мен қолданбалардың осы рельстердің үстінде қалай жұмыс істейтінін көреміз."
+            },
+            "tip": {
+              "en": "When a shop offers a cash discount, it is sharing the card fee it just avoided.",
+              "ru": "Когда магазин даёт скидку за наличные, он делится комиссией по карте, которой избежал.",
+              "kk": "Дүкен қолма-қол төлемге жеңілдік берсе, ол карта комиссиясынан үнемдеген бөлігін сізбен бөліседі."
+            }
+          }
+        ]
+      },
       "quiz": {
-        "quiz_id":501,"quiz_type":"subtopic_quiz","title":{"en":"Cards and Payment Networks — Check"},
-        "questions":[
-          {"id":1,"question_type":"single_choice","order_index":0,
-           "question_text":{"en":"A café offers a 3% discount if you pay cash instead of card. What is the most likely reason?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"Card sales cost the café a merchant fee, so cash lets it keep that money"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"Cash is safer to store than card payments"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"Banks forbid cafés from accepting cards for small amounts"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"Cash payments settle instantly while card payments never do"},"is_correct":false}]},
-          {"id":2,"question_type":"single_choice","order_index":1,
-           "question_text":{"en":"You tap your debit card and the app shows the amount as pending, with the money held but not yet gone. What is happening?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"Your bank authorized the charge and placed a hold; settlement will move the money later"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"The payment failed and the money will be released untouched"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"The shop has already received the funds in full"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"The network is storing your money until you confirm again"},"is_correct":false}]},
-          {"id":3,"question_type":"single_choice","order_index":2,
-           "question_text":{"en":"Some call card cashback free money. Where does it ultimately come from?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"Merchant fees on card sales, which shops build into their prices"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"A government subsidy paid to reward card use"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"Interest the network earns on held deposits overnight"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"New money the network creates at no cost to anyone"},"is_correct":false}]}
+        "quiz_id": 501,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Cards and Payment Networks — Check",
+          "ru": "Карты и платёжные сети — проверка",
+          "kk": "Карталар және төлем желілері — тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A café offers a 3% discount if you pay cash instead of card. What is the most likely reason?",
+              "ru": "Кафе предлагает скидку 3%, если платить наличными, а не картой. Самая вероятная причина?",
+              "kk": "Кафе картамен емес, қолма-қол төлесеңіз 3% жеңілдік ұсынады. Ең ықтимал себебі қандай?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Card sales cost the café a merchant fee, so cash lets it keep that money",
+                  "ru": "Продажи по карте стоят кафе торговой комиссии, а наличные позволяют сохранить эти деньги",
+                  "kk": "Картамен сатылым кафе үшін саудагер комиссиясын тудырады, ал қолма-қол төлем сол ақшаны сақтауға мүмкіндік береді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Cash is safer to store than card payments",
+                  "ru": "Наличные хранить безопаснее, чем карточные платежи",
+                  "kk": "Қолма-қол ақшаны сақтау карталық төлемдерден қауіпсіз"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Banks forbid cafés from accepting cards for small amounts",
+                  "ru": "Банки запрещают кафе принимать карты на маленькие суммы",
+                  "kk": "Банктер кафелерге шағын сомаларға карта қабылдауға тыйым салады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Cash payments settle instantly while card payments never do",
+                  "ru": "Наличные расчёты проходят мгновенно, а карточные никогда не рассчитываются",
+                  "kk": "Қолма-қол төлем бірден есептеледі, ал карталық төлем ешқашан есептелмейді"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "You tap your debit card and the app shows the amount as pending, with the money held but not yet gone. What is happening?",
+              "ru": "Вы прикладываете дебетовую карту, и приложение показывает сумму как ожидающую: деньги заблокированы, но ещё не ушли. Что происходит?",
+              "kk": "Сіз дебеттік картаны жақындатасыз, қолданба соманы күтілуде деп көрсетеді: ақша бұғатталған, бірақ әлі кетпеген. Не болып жатыр?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Your bank authorized the charge and placed a hold; settlement will move the money later",
+                  "ru": "Ваш банк авторизовал списание и заблокировал сумму; расчёт переведёт деньги позже",
+                  "kk": "Сіздің банк төлемді авторизациялап, соманы бұғаттады; есеп айырысу ақшаны кейін аударады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The payment failed and the money will be released untouched",
+                  "ru": "Платёж не прошёл, и деньги будут разблокированы без изменений",
+                  "kk": "Төлем өтпеді, ақша өзгеріссіз босатылады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The shop has already received the funds in full",
+                  "ru": "Магазин уже получил всю сумму",
+                  "kk": "Дүкен толық соманы әлдеқашан алды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The network is storing your money until you confirm again",
+                  "ru": "Сеть хранит ваши деньги, пока вы не подтвердите ещё раз",
+                  "kk": "Желі ақшаңызды сіз қайта растағанша сақтап тұр"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Some call card cashback free money. Where does it ultimately come from?",
+              "ru": "Некоторые называют карточный кэшбэк бесплатными деньгами. Откуда он в итоге берётся?",
+              "kk": "Кейбіреулер карта кэшбэгін тегін ақша дейді. Ол түптеп келгенде қайдан келеді?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Merchant fees on card sales, which shops build into their prices",
+                  "ru": "Из торговых комиссий по карточным продажам, которые магазины закладывают в цены",
+                  "kk": "Дүкендер бағаларына енгізетін карталық сатылымдардағы саудагер комиссияларынан"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A government subsidy paid to reward card use",
+                  "ru": "Из государственной субсидии за использование карт",
+                  "kk": "Карта қолданғаны үшін берілетін мемлекеттік субсидиядан"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Interest the network earns on held deposits overnight",
+                  "ru": "Из процентов, которые сеть зарабатывает на ночных депозитах",
+                  "kk": "Желі түнде ұсталған депозиттерден табатын пайыздан"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "New money the network creates at no cost to anyone",
+                  "ru": "Из новых денег, которые сеть создаёт бесплатно",
+                  "kk": "Желі ешкімге шығынсыз жасайтын жаңа ақшадан"
+                },
+                "is_correct": false
+              }
+            ]
+          }
         ]
       }
     },
     {
       "code": "digital_wallets",
-      "title": {"en": "Digital Wallets"},
-      "description": {"en": "Your phone holds a token, not banknotes. Wallets add convenience and a security layer on top of existing rails."},
+      "title": {
+        "en": "Digital Wallets",
+        "ru": "Цифровые кошельки",
+        "kk": "Цифрлық әмияндар"
+      },
+      "description": {
+        "en": "Your phone holds a token, not banknotes. Wallets add convenience and a security layer on top of existing rails.",
+        "ru": "Ваш телефон хранит токен, а не банкноты. Кошельки добавляют удобство и слой безопасности поверх существующих платёжных рельсов.",
+        "kk": "Телефоныңыз банкнот емес, токен сақтайды. Әмияндар бар төлем рельстерінің үстіне ыңғайлылық пен қауіпсіздік қабатын қосады."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 1,
       "quizId": 502,
-      "lesson": { "steps": [
-        {"id":"1","order":1,"stepType":"introduction","title":{"en":"What is actually on your phone?"},
-         "body":{"en":"You leave the plastic at home and pay with your phone. But the phone holds no banknotes. So what does a digital wallet actually store, and why is it often safer than the card it replaces?"},
-         "tip":{"en":"Ask of any payment tool: is this money, or a pointer to money?"}},
-        {"id":"2","order":2,"stepType":"explanation","title":{"en":"It stores a token, not your card"},
-         "body":{"en":"When you add a card to Apple Pay or Google Pay, the wallet does not keep your real 16-digit number. It stores a token, a stand-in number tied to that one phone. The shop only ever sees the token."},
-         "example":{"en":"If a shop you paid is later hacked, the leaked token is useless anywhere else, unlike a stolen card number that can be reused."}},
-        {"id":"3","order":3,"stepType":"explanation","title":{"en":"Two kinds of wallet in Kazakhstan"},
-         "body":{"en":"Card wallets like Apple Pay and Google Pay ride the Visa or Mastercard rails using a token. App wallets like Kaspi and Halyk can also move money account-to-account by QR, often skipping the card network entirely. Same phone, two different paths underneath."},
-         "tip":{"en":"A QR transfer between two Kaspi accounts may never touch a card network at all."}},
-        {"id":"4","order":4,"stepType":"example","title":{"en":"Card tap vs Kaspi QR"},
-         "content":{"en":{"blocks":[
-           {"type":"paragraph","text":"You pay a small seller 4,500 ₸. The path your money takes changes who gets a cut."},
-           {"type":"table","rows":[["","Card wallet tap","Kaspi QR"],["Rail used","Visa/Mastercard","Account-to-account"],["Who takes a fee","Network plus shop's bank","Often little to none"],["Seller receives","~4,400 ₸","~4,500 ₸"],["Real card number","Hidden by token","Not used at all"]]},
-           {"type":"paragraph","text":"For a tiny seller, avoiding the merchant fee is why a QR sticker often sits next to the card terminal."}]}}},
-        {"id":"5","order":5,"stepType":"interactive","title":{"en":"Fact or myth about wallets"},
-         "body":{"en":"Decide whether each statement about digital wallets is a fact or a common myth."},
-         "interactiveType":"scenario_selector",
-         "interactiveContent":{"en":{
-           "instruction":"Label each statement as a Fact or a Myth.",
-           "options":["Fact","Myth"],
-           "scenarios":[
-             {"text":"The shop sees my real card number when I pay with Apple Pay.","correct_answer":"Myth","explanation":"The shop receives only a token. Your real number stays hidden, which is the core safety gain."},
-             {"text":"A digital wallet usually stores my money like a jar of cash.","correct_answer":"Myth","explanation":"Most wallets point to a card or bank account. A Kaspi-style stored balance is the exception, not the rule."},
-             {"text":"Paying by phone can be safer than carrying the plastic card.","correct_answer":"Fact","explanation":"The token is tied to the device and unlocked by your face or fingerprint, so a lost phone is harder to misuse than a lost card."},
-             {"text":"A Kaspi-to-Kaspi QR payment can avoid the card network's fee.","correct_answer":"Fact","explanation":"It moves account-to-account, so the Visa or Mastercard fee is simply not part of the path."}]}}},
-        {"id":"6","order":6,"stepType":"conclusion","title":{"en":"Mostly an interface, plus a shield"},
-         "body":{"en":"For most wallets the money still travels the rails you already know; the wallet just adds convenience and a security token. App wallets like Kaspi can also move money directly between accounts. Next: the instant-transfer rail that makes those account-to-account payments possible."},
-         "tip":{"en":"Tokenization is the real upgrade, so guard the phone and its unlock."}}
-      ]},
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "What is actually on your phone?",
+              "ru": "Что на самом деле находится в вашем телефоне?",
+              "kk": "Телефоныңызда шын мәнінде не бар?"
+            },
+            "body": {
+              "en": "You leave the plastic at home and pay with your phone. But the phone holds no banknotes. So what does a digital wallet actually store, and why is it often safer than the card it replaces?",
+              "ru": "Вы оставляете пластиковую карту дома и платите телефоном. Но телефон не хранит банкноты. Что же на самом деле хранит цифровой кошелёк и почему он часто безопаснее карты?",
+              "kk": "Сіз пластик картаны үйде қалдырып, телефонмен төлейсіз. Бірақ телефон банкнот сақтамайды. Цифрлық әмиян шын мәнінде нені сақтайды және неге ол көбіне картаның өзінен қауіпсіз?"
+            },
+            "tip": {
+              "en": "Ask of any payment tool: is this money, or a pointer to money?",
+              "ru": "О любом платёжном инструменте спрашивайте: это деньги или указатель на деньги?",
+              "kk": "Кез келген төлем құралы туралы сұраңыз: бұл ақша ма, әлде ақшаға сілтеме ме?"
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "It stores a token, not your card",
+              "ru": "Он хранит токен, а не вашу карту",
+              "kk": "Ол картаңызды емес, токенді сақтайды"
+            },
+            "body": {
+              "en": "When you add a card to Apple Pay or Google Pay, the wallet does not keep your real 16-digit number. It stores a token, a stand-in number tied to that one phone. The shop only ever sees the token.",
+              "ru": "Когда вы добавляете карту в Apple Pay или Google Pay, кошелёк не хранит ваш настоящий 16-значный номер. Он хранит токен — заменяющий номер, привязанный к одному телефону. Магазин видит только токен.",
+              "kk": "Картаны Apple Pay немесе Google Pay-ға қосқанда, әмиян сіздің нақты 16 таңбалы нөміріңізді сақтамайды. Ол бір телефонға байланған алмастырушы нөмір — токенді сақтайды. Дүкен тек токенді көреді."
+            },
+            "example": {
+              "en": "If a shop you paid is later hacked, the leaked token is useless anywhere else, unlike a stolen card number that can be reused.",
+              "ru": "Если магазин, где вы платили, взломают, утёкший токен будет бесполезен в другом месте — в отличие от украденного номера карты, который можно использовать снова.",
+              "kk": "Сіз төлеген дүкен кейін бұзылса, шыққан токен басқа жерде жарамсыз болады — қайта қолдануға болатын ұрланған карта нөмірінен айырмашылығы осы."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Two kinds of wallet in Kazakhstan",
+              "ru": "Два вида кошельков в Казахстане",
+              "kk": "Қазақстандағы әмияндардың екі түрі"
+            },
+            "body": {
+              "en": "Card wallets like Apple Pay and Google Pay ride the Visa or Mastercard rails using a token. App wallets like Kaspi and Halyk can also move money account-to-account by QR, often skipping the card network entirely. Same phone, two different paths underneath.",
+              "ru": "Карточные кошельки вроде Apple Pay и Google Pay работают по рельсам Visa или Mastercard с помощью токена. Кошельки-приложения вроде Kaspi и Halyk также могут переводить деньги со счёта на счёт по QR, часто полностью обходя карточную сеть. Один и тот же телефон — два разных пути внутри.",
+              "kk": "Apple Pay және Google Pay сияқты карталық әмияндар токен арқылы Visa немесе Mastercard рельстерімен жүреді. Kaspi және Halyk сияқты қолданба-әмияндар QR арқылы шоттан шотқа ақша аудара алады, көбіне карта желісін толық айналып өтеді. Бір телефон, бірақ астында екі түрлі жол."
+            },
+            "tip": {
+              "en": "A QR transfer between two Kaspi accounts may never touch a card network at all.",
+              "ru": "QR-перевод между двумя счетами Kaspi может вообще не проходить через карточную сеть.",
+              "kk": "Екі Kaspi шоты арасындағы QR аударым карта желісіне мүлде тимеуі мүмкін."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Card tap vs Kaspi QR",
+              "ru": "Касание картой и Kaspi QR",
+              "kk": "Картамен жанасу және Kaspi QR"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "You pay a small seller 4,500 ₸. The path your money takes changes who gets a cut."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Card wallet tap",
+                        "Kaspi QR"
+                      ],
+                      [
+                        "Rail used",
+                        "Visa/Mastercard",
+                        "Account-to-account"
+                      ],
+                      [
+                        "Who takes a fee",
+                        "Network plus shop's bank",
+                        "Often little to none"
+                      ],
+                      [
+                        "Seller receives",
+                        "~4,400 ₸",
+                        "~4,500 ₸"
+                      ],
+                      [
+                        "Real card number",
+                        "Hidden by token",
+                        "Not used at all"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "For a tiny seller, avoiding the merchant fee is why a QR sticker often sits next to the card terminal."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Вы платите небольшому продавцу 4 500 ₸. Маршрут денег определяет, кто получит комиссию."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Касание карточным кошельком",
+                        "Kaspi QR"
+                      ],
+                      [
+                        "Используемый рельс",
+                        "Visa/Mastercard",
+                        "Со счёта на счёт"
+                      ],
+                      [
+                        "Кто берёт комиссию",
+                        "Сеть плюс банк магазина",
+                        "Часто мало или вообще ничего"
+                      ],
+                      [
+                        "Продавец получает",
+                        "~4,400 ₸",
+                        "~4,500 ₸"
+                      ],
+                      [
+                        "Настоящий номер карты",
+                        "Скрыт токеном",
+                        "Вообще не используется"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Для маленького продавца избегание торговой комиссии — причина, почему QR-наклейка часто лежит рядом с терминалом."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Сіз шағын сатушыға 4 500 ₸ төлейсіз. Ақшаның жүретін жолы кімнің үлес алатынын өзгертеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Карталық әмиянмен жанасу",
+                        "Kaspi QR"
+                      ],
+                      [
+                        "Қолданылатын рельс",
+                        "Visa/Mastercard",
+                        "Шоттан шотқа"
+                      ],
+                      [
+                        "Кім комиссия алады",
+                        "Желі және дүкеннің банкі",
+                        "Көбіне аз немесе мүлде жоқ"
+                      ],
+                      [
+                        "Сатушы алады",
+                        "~4,400 ₸",
+                        "~4,500 ₸"
+                      ],
+                      [
+                        "Нақты карта нөмірі",
+                        "Токен арқылы жасырылған",
+                        "Мүлде қолданылмайды"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Шағын сатушы үшін саудагер комиссиясынан қашу — QR жапсырмасының терминал жанында тұруының себебі."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Fact or myth about wallets",
+              "ru": "Факт или миф о кошельках",
+              "kk": "Әмияндар туралы факт немесе миф"
+            },
+            "body": {
+              "en": "Decide whether each statement about digital wallets is a fact or a common myth.",
+              "ru": "Определите, является ли каждое утверждение о цифровых кошельках фактом или распространённым мифом.",
+              "kk": "Цифрлық әмияндар туралы әр мәлімдеме факт пе, әлде кең таралған миф пе — анықтаңыз."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Label each statement as a Fact or a Myth.",
+                "options": [
+                  "Fact",
+                  "Myth"
+                ],
+                "scenarios": [
+                  {
+                    "text": "The shop sees my real card number when I pay with Apple Pay.",
+                    "correct_answer": "Myth",
+                    "explanation": "The shop receives only a token. Your real number stays hidden, which is the core safety gain."
+                  },
+                  {
+                    "text": "A digital wallet usually stores my money like a jar of cash.",
+                    "correct_answer": "Myth",
+                    "explanation": "Most wallets point to a card or bank account. A Kaspi-style stored balance is the exception, not the rule."
+                  },
+                  {
+                    "text": "Paying by phone can be safer than carrying the plastic card.",
+                    "correct_answer": "Fact",
+                    "explanation": "The token is tied to the device and unlocked by your face or fingerprint, so a lost phone is harder to misuse than a lost card."
+                  },
+                  {
+                    "text": "A Kaspi-to-Kaspi QR payment can avoid the card network's fee.",
+                    "correct_answer": "Fact",
+                    "explanation": "It moves account-to-account, so the Visa or Mastercard fee is simply not part of the path."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Отметьте каждое утверждение как факт или миф.",
+                "options": [
+                  "Факт",
+                  "Миф"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Магазин видит мой настоящий номер карты, когда я плачу Apple Pay.",
+                    "correct_answer": "Миф",
+                    "explanation": "Магазин получает только токен. Ваш настоящий номер остаётся скрытым — это главный плюс безопасности."
+                  },
+                  {
+                    "text": "Цифровой кошелёк обычно хранит мои деньги как банка с наличными.",
+                    "correct_answer": "Миф",
+                    "explanation": "Большинство кошельков указывают на карту или банковский счёт. Хранимый баланс в стиле Kaspi — скорее исключение, а не правило."
+                  },
+                  {
+                    "text": "Оплата телефоном может быть безопаснее, чем ношение пластиковой карты.",
+                    "correct_answer": "Факт",
+                    "explanation": "Токен привязан к устройству и открывается лицом или отпечатком, поэтому потерянный телефон сложнее использовать неправильно, чем потерянную карту."
+                  },
+                  {
+                    "text": "QR-платёж Kaspi-to-Kaspi может избежать комиссии карточной сети.",
+                    "correct_answer": "Факт",
+                    "explanation": "Он движется со счёта на счёт, поэтому комиссия Visa или Mastercard просто не входит в маршрут."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр мәлімдемені Факт немесе Миф деп белгілеңіз.",
+                "options": [
+                  "Факт",
+                  "Миф"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Мен Apple Pay арқылы төлегенде дүкен менің нақты карта нөмірімді көреді.",
+                    "correct_answer": "Миф",
+                    "explanation": "Дүкен тек токенді алады. Нақты нөміріңіз жасырын қалады — қауіпсіздіктің негізгі артықшылығы осы."
+                  },
+                  {
+                    "text": "Цифрлық әмиян әдетте ақшамды қолма-қол ақша салынған құты сияқты сақтайды.",
+                    "correct_answer": "Миф",
+                    "explanation": "Көп әмиян картаға немесе банк шотына сілтейді. Kaspi сияқты сақталатын теңгерім — ереже емес, ерекше жағдай."
+                  },
+                  {
+                    "text": "Телефонмен төлеу пластик картаны алып жүруден қауіпсізірек болуы мүмкін.",
+                    "correct_answer": "Факт",
+                    "explanation": "Токен құрылғыға байланған және бетіңізбен немесе саусақ ізіңізбен ашылады, сондықтан жоғалған телефонды теріс пайдалану жоғалған картаға қарағанда қиынырақ."
+                  },
+                  {
+                    "text": "Kaspi-to-Kaspi QR төлемі карта желісінің комиссиясын айналып өтуі мүмкін.",
+                    "correct_answer": "Факт",
+                    "explanation": "Ол шоттан шотқа өтеді, сондықтан Visa немесе Mastercard комиссиясы бұл жолға кірмейді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Mostly an interface, plus a shield",
+              "ru": "В основном интерфейс плюс защита",
+              "kk": "Көбіне интерфейс және қорғаныс"
+            },
+            "body": {
+              "en": "For most wallets the money still travels the rails you already know; the wallet just adds convenience and a security token. App wallets like Kaspi can also move money directly between accounts. Next: the instant-transfer rail that makes those account-to-account payments possible.",
+              "ru": "В большинстве кошельков деньги всё равно движутся по уже знакомым рельсам; кошелёк лишь добавляет удобство и защитный токен. Кошельки-приложения вроде Kaspi также могут переводить деньги напрямую между счетами. Далее — рельс мгновенных переводов, который делает такие платежи возможными.",
+              "kk": "Көп әмиянда ақша сіз білетін рельстермен жүреді; әмиян тек ыңғайлылық пен қауіпсіздік токенін қосады. Kaspi сияқты қолданба-әмияндар ақшаны шоттар арасында тікелей аудара алады. Келесі — осындай шоттан шотқа төлемдерді мүмкін ететін жедел аударым рельсі."
+            },
+            "tip": {
+              "en": "Tokenization is the real upgrade, so guard the phone and its unlock.",
+              "ru": "Токенизация — настоящее улучшение, поэтому берегите телефон и способ его разблокировки.",
+              "kk": "Токенизация — шынайы жақсарту, сондықтан телефонды және оны ашу тәсілін қорғаңыз."
+            }
+          }
+        ]
+      },
       "quiz": {
-        "quiz_id":502,"quiz_type":"subtopic_quiz","title":{"en":"Digital Wallets — Check"},
-        "questions":[
-          {"id":1,"question_type":"single_choice","order_index":0,
-           "question_text":{"en":"Your phone with Apple Pay set up is stolen. Why is your exposure usually lower than if your physical card were stolen?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"The wallet holds only a device-bound token that needs your face or fingerprint, not your real card number"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"Banks cannot freeze a physical card but can freeze a phone instantly"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"A stolen phone can never be used for payments under any conditions"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"The wallet maker refunds all fraud automatically with no bank involved"},"is_correct":false}]},
-          {"id":2,"question_type":"single_choice","order_index":1,
-           "question_text":{"en":"A small seller prefers you pay by Kaspi QR rather than by card. From the seller's side, what is the likely advantage?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"The money moves account-to-account and avoids the card network's merchant fee"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"QR payments are reversible, so the seller is better protected"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"Card payments are illegal for small sellers in Kazakhstan"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"QR makes the buyer's money arrive a week sooner"},"is_correct":false}]}
+        "quiz_id": 502,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Digital Wallets — Check",
+          "ru": "Цифровые кошельки — проверка",
+          "kk": "Цифрлық әмияндар — тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Your phone with Apple Pay set up is stolen. Why is your exposure usually lower than if your physical card were stolen?",
+              "ru": "Ваш телефон с настроенным Apple Pay украли. Почему риск обычно ниже, чем при краже физической карты?",
+              "kk": "Apple Pay орнатылған телефоныңыз ұрланды. Неге әдетте қауіп физикалық карта ұрланғаннан төмен?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The wallet holds only a device-bound token that needs your face or fingerprint, not your real card number",
+                  "ru": "Кошелёк хранит только привязанный к устройству токен, которому нужны лицо или отпечаток, а не настоящий номер карты",
+                  "kk": "Әмиян нақты карта нөмірін емес, бетіңізді немесе саусақ ізіңізді қажет ететін құрылғыға байланған токенді ғана сақтайды"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Banks cannot freeze a physical card but can freeze a phone instantly",
+                  "ru": "Банки не могут заблокировать физическую карту, но могут мгновенно заблокировать телефон",
+                  "kk": "Банктер физикалық картаны бұғаттай алмайды, бірақ телефонды бірден бұғаттай алады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A stolen phone can never be used for payments under any conditions",
+                  "ru": "Украденный телефон никогда и ни при каких условиях нельзя использовать для платежей",
+                  "kk": "Ұрланған телефонды еш жағдайда төлем үшін қолдануға болмайды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The wallet maker refunds all fraud automatically with no bank involved",
+                  "ru": "Создатель кошелька автоматически возвращает все мошеннические списания без участия банка",
+                  "kk": "Әмиян жасаушы банк қатыспай барлық алаяқтық төлемдерді автоматты қайтарады"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A small seller prefers you pay by Kaspi QR rather than by card. From the seller's side, what is the likely advantage?",
+              "ru": "Небольшой продавец предпочитает, чтобы вы платили Kaspi QR, а не картой. В чём вероятное преимущество для продавца?",
+              "kk": "Шағын сатушы картамен емес, Kaspi QR арқылы төлеуді қалайды. Сатушы үшін ықтимал артықшылық қандай?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The money moves account-to-account and avoids the card network's merchant fee",
+                  "ru": "Деньги идут со счёта на счёт и обходят торговую комиссию карточной сети",
+                  "kk": "Ақша шоттан шотқа өтеді және карта желісінің саудагер комиссиясын айналып өтеді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "QR payments are reversible, so the seller is better protected",
+                  "ru": "QR-платежи можно отменить, поэтому продавец лучше защищён",
+                  "kk": "QR төлемдерді қайтаруға болады, сондықтан сатушы жақсы қорғалған"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Card payments are illegal for small sellers in Kazakhstan",
+                  "ru": "Карточные платежи незаконны для малых продавцов в Казахстане",
+                  "kk": "Қазақстанда шағын сатушыларға карталық төлем қабылдау заңсыз"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "QR makes the buyer's money arrive a week sooner",
+                  "ru": "QR позволяет деньгам покупателя прийти на неделю раньше",
+                  "kk": "QR сатып алушының ақшасын бір апта ертерек жеткізеді"
+                },
+                "is_correct": false
+              }
+            ]
+          }
         ]
       }
     },
     {
       "code": "instant_payments",
-      "title": {"en": "Instant Payments"},
-      "description": {"en": "Account-to-account transfers in seconds, any hour, settled for good. Speed buys finality, and finality removes the safety net."},
+      "title": {
+        "en": "Instant Payments",
+        "ru": "Мгновенные платежи",
+        "kk": "Жедел төлемдер"
+      },
+      "description": {
+        "en": "Account-to-account transfers in seconds, any hour, settled for good. Speed buys finality, and finality removes the safety net.",
+        "ru": "Переводы со счёта на счёт за секунды, в любое время, с окончательным расчётом. Скорость даёт финальность, а финальность убирает страховочную сетку.",
+        "kk": "Шоттан шотқа бірнеше секундта, кез келген уақытта, түпкілікті есеп айырысумен аудару. Жылдамдық финалдылық береді, ал финалдылық қауіпсіздік торын алып тастайды."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 2,
       "quizId": 503,
-      "lesson": { "steps": [
-        {"id":"1","order":1,"stepType":"introduction","title":{"en":"Why transfers used to take days"},
-         "body":{"en":"Sending money once meant waiting one to three business days. Nothing was physically travelling; banks simply batched transfers and processed them in business hours through middlemen. Instant payments remove that wait."},
-         "tip":{"en":"The delay was never about distance. It was about how often banks settled up."}},
-        {"id":"2","order":2,"stepType":"explanation","title":{"en":"Seconds, any hour, final"},
-         "body":{"en":"An instant payment runs through a shared switch that processes each transfer in seconds, around the clock, and settles it for good. You push the money to the other account directly, rather than a shop pulling it from your card."},
-         "example":{"en":"A transfer sent at 2am on a holiday arrives in seconds. There is no business day to wait for."}},
-        {"id":"3","order":3,"stepType":"explanation","title":{"en":"The catch: you cannot take it back"},
-         "body":{"en":"Speed and finality come together. Once an instant payment lands it is usually irrevocable, with no card-style dispute to claw it back. That is exactly why asking a buyer to just send an instant transfer is a scammer's favourite line."},
-         "tip":{"en":"Treat an instant transfer like handing over cash: gone the moment it leaves."}},
-        {"id":"4","order":4,"stepType":"example","title":{"en":"Splitting a 30,000 ₸ dinner"},
-         "content":{"en":{"blocks":[
-           {"type":"paragraph","text":"Four friends split a 30,000 ₸ bill. Compare an instant transfer with an old-style one."},
-           {"type":"table","rows":[["","Instant payment","Old-style transfer"],["Arrives","Seconds","1–3 business days"],["Works at 11pm Sunday","Yes","No"],["Can be reversed","Almost never","Sometimes, slowly"],["Best for","People you trust","-"]]},
-           {"type":"paragraph","text":"The same finality that makes it great between friends makes it risky when paying a stranger upfront."}]}}},
-        {"id":"5","order":5,"stepType":"interactive","title":{"en":"Spot the risky transfer"},
-         "body":{"en":"One of these uses of an instant payment exposes you to loss. Find it."},
-         "interactiveType":"error_detector",
-         "interactiveContent":{"en":{
-           "instruction":"Pick the situation where using an instant payment is the riskiest choice.",
-           "cases":[
-             {"text":"Which use of an instant transfer carries the most risk of losing your money?","options":["a) Repaying a friend 8,000 ₸ for a shared taxi","b) Paying your share of rent to a flatmate you live with","c) Sending 60,000 ₸ upfront to an unknown online seller for a phone","d) Moving money between your own two accounts"],"correct":"c","explanation":"Paying a stranger upfront with an irrevocable method means that if the phone never arrives, there is no chargeback to recover your money. The other three are between trusted parties."}],
-           "final_explanation":"Instant payments are safe among people you trust and dangerous when they replace the buyer protection a card or cash-on-delivery would give you."}}},
-        {"id":"6","order":6,"stepType":"conclusion","title":{"en":"Fast and final, for better and worse"},
-         "body":{"en":"Instant payments give you speed, round-the-clock access, and certainty, at the cost of reversibility. They are ideal for trusted transfers and a trap when paying strangers. Next: open banking, which lets apps start these payments for you, safely."},
-         "tip":{"en":"Match the tool to the trust: irrevocable methods for people you know, protected methods for people you do not."}}
-      ]},
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Why transfers used to take days",
+              "ru": "Почему переводы раньше занимали дни",
+              "kk": "Неге бұрын аударымдар бірнеше күн алатын"
+            },
+            "body": {
+              "en": "Sending money once meant waiting one to three business days. Nothing was physically travelling; banks simply batched transfers and processed them in business hours through middlemen. Instant payments remove that wait.",
+              "ru": "Раньше отправка денег означала ожидание от одного до трёх рабочих дней. Ничто физически не перемещалось; банки просто собирали переводы в пакеты и обрабатывали их в рабочие часы через посредников. Мгновенные платежи убирают это ожидание.",
+              "kk": "Бұрын ақша жіберу бірден үш жұмыс күніне дейін күтуді білдіретін. Ештеңе физикалық түрде жүрмейтін; банктер аударымдарды пакетке жинап, жұмыс уақытында делдалдар арқылы өңдейтін. Жедел төлемдер осы күтуді жояды."
+            },
+            "tip": {
+              "en": "The delay was never about distance. It was about how often banks settled up.",
+              "ru": "Задержка никогда не была про расстояние. Она была про то, как часто банки рассчитывались между собой.",
+              "kk": "Кідіріс ешқашан қашықтыққа байланысты болған жоқ. Ол банктердің қаншалықты жиі есеп айырысатынына байланысты болды."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Seconds, any hour, final",
+              "ru": "Секунды, любое время, окончательно",
+              "kk": "Секундтар, кез келген уақыт, түпкілікті"
+            },
+            "body": {
+              "en": "An instant payment runs through a shared switch that processes each transfer in seconds, around the clock, and settles it for good. You push the money to the other account directly, rather than a shop pulling it from your card.",
+              "ru": "Мгновенный платёж проходит через общую систему, которая обрабатывает каждый перевод за секунды, круглосуточно и окончательно. Вы напрямую отправляете деньги на другой счёт, а не магазин списывает их с вашей карты.",
+              "kk": "Жедел төлем әр аударымды секундтар ішінде, тәулік бойы және түпкілікті өңдейтін ортақ жүйе арқылы өтеді. Дүкен картаңыздан тартып алмайды, сіз ақшаны басқа шотқа тікелей жібересіз."
+            },
+            "example": {
+              "en": "A transfer sent at 2am on a holiday arrives in seconds. There is no business day to wait for.",
+              "ru": "Перевод, отправленный в 2 часа ночи в праздник, приходит за секунды. Рабочего дня ждать не нужно.",
+              "kk": "Мереке күні түнгі 2-де жіберілген аударым секундтарда келеді. Жұмыс күнін күтудің қажеті жоқ."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "The catch: you cannot take it back",
+              "ru": "Подвох: вернуть назад нельзя",
+              "kk": "Маңызды тұсы: кері қайтару қиын"
+            },
+            "body": {
+              "en": "Speed and finality come together. Once an instant payment lands it is usually irrevocable, with no card-style dispute to claw it back. That is exactly why asking a buyer to just send an instant transfer is a scammer's favourite line.",
+              "ru": "Скорость и окончательность идут вместе. Когда мгновенный платёж дошёл, он обычно безотзывный: нет карточного спора, чтобы вернуть деньги. Именно поэтому просьба «просто отправьте мгновенный перевод» — любимая фраза мошенников.",
+              "kk": "Жылдамдық пен түпкіліктілік қатар жүреді. Жедел төлем жеткеннен кейін ол әдетте қайтарылмайды: картадағыдай дау ашып қайтару жоқ. Сондықтан «жай ғана жедел аударым жіберіңіз» дегені алаяқтардың сүйікті сөзі."
+            },
+            "tip": {
+              "en": "Treat an instant transfer like handing over cash: gone the moment it leaves.",
+              "ru": "Относитесь к мгновенному переводу как к передаче наличных: ушло — значит ушло.",
+              "kk": "Жедел аударымды қолма-қол ақша бергендей қабылдаңыз: шыққан сәтте кетті."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Splitting a 30,000 ₸ dinner",
+              "ru": "Разделить ужин на 30 000 ₸",
+              "kk": "30 000 ₸ кешкі асты бөлу"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Four friends split a 30,000 ₸ bill. Compare an instant transfer with an old-style one."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Instant payment",
+                        "Old-style transfer"
+                      ],
+                      [
+                        "Arrives",
+                        "Seconds",
+                        "1–3 business days"
+                      ],
+                      [
+                        "Works at 11pm Sunday",
+                        "Yes",
+                        "No"
+                      ],
+                      [
+                        "Can be reversed",
+                        "Almost never",
+                        "Sometimes, slowly"
+                      ],
+                      [
+                        "Best for",
+                        "People you trust",
+                        "-"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The same finality that makes it great between friends makes it risky when paying a stranger upfront."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Четверо друзей делят счёт на 30 000 ₸. Сравните мгновенный перевод со старым вариантом."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Мгновенный платёж",
+                        "Старый перевод"
+                      ],
+                      [
+                        "Приходит",
+                        "Секунды",
+                        "1–3 рабочих дня"
+                      ],
+                      [
+                        "Работает в воскресенье в 23:00",
+                        "Да",
+                        "Нет"
+                      ],
+                      [
+                        "Можно отменить",
+                        "Почти никогда",
+                        "Иногда, медленно"
+                      ],
+                      [
+                        "Лучше всего для",
+                        "Людей, которым вы доверяете",
+                        "-"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Та же окончательность, которая удобна между друзьями, делает оплату незнакомцу вперёд рискованной."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Төрт дос 30 000 ₸ шотты бөліседі. Жедел аударымды ескі үлгідегі аударыммен салыстырыңыз."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Жедел төлем",
+                        "Ескі үлгідегі аударым"
+                      ],
+                      [
+                        "Келеді",
+                        "Секундтар",
+                        "1–3 жұмыс күні"
+                      ],
+                      [
+                        "Жексенбі 23:00-де жұмыс істейді",
+                        "Иә",
+                        "Жоқ"
+                      ],
+                      [
+                        "Кері қайтаруға болады",
+                        "Дерлік ешқашан",
+                        "Кейде, баяу"
+                      ],
+                      [
+                        "Ең қолайлы",
+                        "Сенетін адамдар",
+                        "-"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Достар арасында ыңғайлы ететін сол түпкіліктілік бейтаныс адамға алдын ала төлеуді қауіпті етеді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Spot the risky transfer",
+              "ru": "Найдите рискованный перевод",
+              "kk": "Қауіпті аударымды табыңыз"
+            },
+            "body": {
+              "en": "One of these uses of an instant payment exposes you to loss. Find it.",
+              "ru": "Один из этих вариантов использования мгновенного платежа может привести к потере денег. Найдите его.",
+              "kk": "Жедел төлемді қолданудың осы нұсқаларының бірі ақша жоғалту қаупін тудырады. Соны табыңыз."
+            },
+            "interactiveType": "error_detector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Pick the situation where using an instant payment is the riskiest choice.",
+                "cases": [
+                  {
+                    "text": "Which use of an instant transfer carries the most risk of losing your money?",
+                    "options": [
+                      "a) Repaying a friend 8,000 ₸ for a shared taxi",
+                      "b) Paying your share of rent to a flatmate you live with",
+                      "c) Sending 60,000 ₸ upfront to an unknown online seller for a phone",
+                      "d) Moving money between your own two accounts"
+                    ],
+                    "correct": "c",
+                    "explanation": "Paying a stranger upfront with an irrevocable method means that if the phone never arrives, there is no chargeback to recover your money. The other three are between trusted parties."
+                  }
+                ],
+                "final_explanation": "Instant payments are safe among people you trust and dangerous when they replace the buyer protection a card or cash-on-delivery would give you."
+              },
+              "ru": {
+                "instruction": "Выберите ситуацию, где мгновенный платёж — самый рискованный выбор.",
+                "cases": [
+                  {
+                    "text": "Какое использование мгновенного перевода несёт наибольший риск потерять деньги?",
+                    "options": [
+                      "a) Вернуть другу 8 000 ₸ за совместное такси",
+                      "b) Оплатить свою часть аренды соседу, с которым живёте",
+                      "c) Отправить 60 000 ₸ вперёд неизвестному онлайн-продавцу за телефон",
+                      "d) Перевести деньги между двумя своими счетами"
+                    ],
+                    "correct": "c",
+                    "explanation": "Оплата незнакомцу вперёд безотзывным способом означает: если телефон не придёт, чарджбэка для возврата денег нет. Остальные три варианта — между доверенными сторонами."
+                  }
+                ],
+                "final_explanation": "Мгновенные платежи безопасны между людьми, которым вы доверяете, и опасны, когда заменяют защиту покупателя, которую дают карта или оплата при получении."
+              },
+              "kk": {
+                "instruction": "Жедел төлем ең қауіпті таңдау болатын жағдайды таңдаңыз.",
+                "cases": [
+                  {
+                    "text": "Жедел аударымды қолданудың қайсысы ақша жоғалту қаупін ең көп тудырады?",
+                    "options": [
+                      "a) Ортақ такси үшін досыңызға 8 000 ₸ қайтару",
+                      "b) Бірге тұратын көршіңізге жалдау ақысының өз үлесін төлеу",
+                      "c) Белгісіз онлайн сатушыға телефон үшін алдын ала 60 000 ₸ жіберу",
+                      "d) Өз екі шотыңыз арасында ақша аудару"
+                    ],
+                    "correct": "c",
+                    "explanation": "Бейтаныс адамға қайтарылмайтын әдіспен алдын ала төлеу телефон келмесе, ақшаны қайтару үшін чарджбэк жоқ дегенді білдіреді. Қалған үшеуі сенімді тараптар арасында."
+                  }
+                ],
+                "final_explanation": "Жедел төлемдер сенетін адамдар арасында қауіпсіз, бірақ карта немесе алған кезде төлеу беретін сатып алушы қорғанысын алмастырса, қауіпті."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Fast and final, for better and worse",
+              "ru": "Быстро и окончательно — и хорошо, и плохо",
+              "kk": "Жылдам әрі түпкілікті — жақсысы да, жаманы да бар"
+            },
+            "body": {
+              "en": "Instant payments give you speed, round-the-clock access, and certainty, at the cost of reversibility. They are ideal for trusted transfers and a trap when paying strangers. Next: open banking, which lets apps start these payments for you, safely.",
+              "ru": "Мгновенные платежи дают скорость, круглосуточный доступ и уверенность, но ценой обратимости. Они идеальны для переводов доверенным людям и опасны при оплате незнакомцам. Далее — open banking, который позволяет приложениям безопасно запускать такие платежи за вас.",
+              "kk": "Жедел төлемдер жылдамдық, тәулік бойғы қолжетімділік және анықтық береді, бірақ қайтарымдылық есебінен. Олар сенімді адамдарға аударымдар үшін жақсы, ал бейтаныстарға төлеуде тұзақ. Келесі — қолданбаларға мұндай төлемдерді сіз үшін қауіпсіз бастауға мүмкіндік беретін open banking."
+            },
+            "tip": {
+              "en": "Match the tool to the trust: irrevocable methods for people you know, protected methods for people you do not.",
+              "ru": "Подбирайте инструмент под уровень доверия: безотзывные методы — для знакомых, защищённые — для незнакомых.",
+              "kk": "Құралды сенім деңгейіне сәйкестендіріңіз: қайтарылмайтын әдістер — таныстарға, қорғалған әдістер — бейтаныстарға."
+            }
+          }
+        ]
+      },
       "quiz": {
-        "quiz_id":503,"quiz_type":"subtopic_quiz","title":{"en":"Instant Payments — Check"},
-        "questions":[
-          {"id":1,"question_type":"single_choice","order_index":0,
-           "question_text":{"en":"An online seller you have never dealt with insists on an instant bank transfer instead of card or cash-on-delivery. Why should this raise suspicion?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"Instant transfers are irrevocable, so if goods never arrive you have no chargeback to recover the money"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"Instant transfers charge the buyer a large hidden fee"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"Banks block all instant transfers to sellers by default"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"Instant transfers reveal your full card number to the seller"},"is_correct":false}]},
-          {"id":2,"question_type":"single_choice","order_index":1,
-           "question_text":{"en":"A friend repays you by instant transfer at 1am on a public holiday and it arrives at once. What makes this possible?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"The system runs on always-on shared infrastructure rather than bank business-hour batches"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"The friend's bank kept a branch open overnight"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"The money was actually sent earlier and only displayed now"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"Holidays are when banks clear their slowest backlog fastest"},"is_correct":false}]}
+        "quiz_id": 503,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Instant Payments — Check",
+          "ru": "Мгновенные платежи — проверка",
+          "kk": "Жедел төлемдер — тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "An online seller you have never dealt with insists on an instant bank transfer instead of card or cash-on-delivery. Why should this raise suspicion?",
+              "ru": "Онлайн-продавец, с которым вы никогда не работали, настаивает на мгновенном банковском переводе вместо карты или оплаты при получении. Почему это подозрительно?",
+              "kk": "Бұрын жұмыс істемеген онлайн сатушы карта немесе алған кезде төлеудің орнына жедел банк аударымын талап етеді. Неге бұл күмәнді?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Instant transfers are irrevocable, so if goods never arrive you have no chargeback to recover the money",
+                  "ru": "Мгновенные переводы безотзывны, поэтому если товар не придёт, чарджбэка для возврата денег нет",
+                  "kk": "Жедел аударымдар қайтарылмайды, сондықтан тауар келмесе, ақшаны қайтаруға чарджбэк жоқ"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Instant transfers charge the buyer a large hidden fee",
+                  "ru": "Мгновенные переводы взимают с покупателя большую скрытую комиссию",
+                  "kk": "Жедел аударымдар сатып алушыдан үлкен жасырын комиссия алады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Banks block all instant transfers to sellers by default",
+                  "ru": "Банки по умолчанию блокируют все мгновенные переводы продавцам",
+                  "kk": "Банктер сатушыларға барлық жедел аударымдарды әдепкіде бұғаттайды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Instant transfers reveal your full card number to the seller",
+                  "ru": "Мгновенные переводы раскрывают продавцу полный номер вашей карты",
+                  "kk": "Жедел аударымдар сатушыға картаңыздың толық нөмірін ашады"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A friend repays you by instant transfer at 1am on a public holiday and it arrives at once. What makes this possible?",
+              "ru": "Друг возвращает вам деньги мгновенным переводом в 1 час ночи в праздник, и перевод приходит сразу. Что делает это возможным?",
+              "kk": "Досыңыз мереке күні түнгі 1-де жедел аударыммен ақша қайтарады, ол бірден келеді. Бұл қалай мүмкін?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The system runs on always-on shared infrastructure rather than bank business-hour batches",
+                  "ru": "Система работает на постоянно включённой общей инфраструктуре, а не на банковских пакетах в рабочие часы",
+                  "kk": "Жүйе банктің жұмыс уақытындағы пакеттеріне емес, әрдайым қосулы ортақ инфрақұрылымға сүйенеді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The friend's bank kept a branch open overnight",
+                  "ru": "Банк друга держал отделение открытым всю ночь",
+                  "kk": "Досыңыздың банкі бөлімшені түні бойы ашық ұстады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The money was actually sent earlier and only displayed now",
+                  "ru": "Деньги на самом деле были отправлены раньше и только сейчас отобразились",
+                  "kk": "Ақша шын мәнінде бұрын жіберіліп, енді ғана көрінді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Holidays are when banks clear their slowest backlog fastest",
+                  "ru": "В праздники банки быстрее всего разбирают самые медленные очереди",
+                  "kk": "Мерекеде банктер ең баяу кезекті ең жылдам өңдейді"
+                },
+                "is_correct": false
+              }
+            ]
+          }
         ]
       }
     },
     {
       "code": "open_banking",
-      "title": {"en": "Open Banking"},
-      "description": {"en": "Regulated APIs let you grant an app limited, revocable access to your data or payments, without ever sharing your password."},
+      "title": {
+        "en": "Open Banking",
+        "ru": "Открытый банкинг",
+        "kk": "Ашық банкинг"
+      },
+      "description": {
+        "en": "Regulated APIs let you grant an app limited, revocable access to your data or payments, without ever sharing your password.",
+        "ru": "Регулируемые API позволяют дать приложению ограниченный и отзывной доступ к вашим данным или платежам, не передавая пароль.",
+        "kk": "Реттелетін API қолданбаға деректеріңізге немесе төлемдеріңізге шектеулі, қайтарып алуға болатын қолжетімділік береді, парольді ешқашан бөліспейсіз."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 3,
       "quizId": 504,
-      "lesson": { "steps": [
-        {"id":"1","order":1,"stepType":"introduction","title":{"en":"Your data, locked in your bank"},
-         "body":{"en":"You want a budgeting app to see all your accounts in one place. The old way was to hand it your bank password, which is risky and gives the app the keys to everything. Open banking offers a safer route."},
-         "tip":{"en":"Sharing a password shares everything. Good systems share only what is needed."}},
-        {"id":"2","order":2,"stepType":"explanation","title":{"en":"A token instead of a password"},
-         "body":{"en":"With open banking, your bank exposes a secure, standardised connection called an API. You grant a specific app limited permission through a token, and you can revoke it any time. The app never sees or stores your password."},
-         "example":{"en":"It is like a hotel key card for one room and one weekend, not a copy of the master key."}},
-        {"id":"3","order":3,"stepType":"explanation","title":{"en":"Reading versus acting"},
-         "body":{"en":"Open banking does two things. It can read, letting an app aggregate balances and transactions for budgeting or a faster loan decision. And it can initiate payments, letting an app pay straight from your account, skipping the card network. Each permission is granted separately."},
-         "tip":{"en":"Read access cannot move money; payment access can. Notice which one an app asks for."}},
-        {"id":"4","order":4,"stepType":"example","title":{"en":"Password sharing vs open banking"},
-         "content":{"en":{"blocks":[
-           {"type":"paragraph","text":"A lending app wants three months of your transactions to offer a rate. Two ways to give it access:"},
-           {"type":"table","rows":[["","Share your password","Open-banking token"],["App can see","Everything, indefinitely","Only what you allowed"],["You can revoke","Only by changing the password","Yes, anytime"],["App stores password","Yes","No"],["Can it also pay?","Full control","Only if you grant it"]]},
-           {"type":"paragraph","text":"Same goal, letting the app read your data, but only one path keeps you in control."}]}}},
-        {"id":"5","order":5,"stepType":"interactive","title":{"en":"Pick the safest connection"},
-         "body":{"en":"A budgeting app needs to read your accounts. Which way of granting access keeps you safest?"},
-         "interactiveType":"portfolio_choice",
-         "interactiveContent":{"en":{
-           "instruction":"Choose the safest way to let the app see your transactions.",
-           "options":[
-             {"name":"Share your password","data":["App gets full account access","Access lasts until you change the password","App must store your password"]},
-             {"name":"Open-banking token","data":["App gets only the read access you chose","You can revoke it anytime","Your password is never shared"]},
-             {"name":"Email screenshots monthly","data":["Manual and error-prone","Data sits in your inbox","No live updates"]}],
-           "correct":"Open-banking token"}}},
-        {"id":"6","order":6,"stepType":"conclusion","title":{"en":"Consent you can take back"},
-         "body":{"en":"Open banking means your data and payments stay under your consent: limited, revocable, and password-free. It turns your bank into a platform other safe apps can build on. Next we zoom out to the whole fintech world built on these rails."},
-         "tip":{"en":"Before connecting an app, check what it asks for and that you can switch it off."}}
-      ]},
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Your data, locked in your bank",
+              "ru": "Ваши данные, запертые в банке",
+              "kk": "Банкте жабық тұрған деректеріңіз"
+            },
+            "body": {
+              "en": "You want a budgeting app to see all your accounts in one place. The old way was to hand it your bank password, which is risky and gives the app the keys to everything. Open banking offers a safer route.",
+              "ru": "Вы хотите, чтобы приложение для бюджета видело все ваши счета в одном месте. Старый способ — дать ему банковский пароль, что рискованно и даёт приложению ключи ко всему. Открытый банкинг предлагает более безопасный путь.",
+              "kk": "Бюджет қолданбасы барлық шоттарыңызды бір жерде көрсін дейсіз. Ескі әдіс — оған банк паролін беру, бұл қауіпті және қолданбаға бәріне кілт береді. Ашық банкинг қауіпсіз жол ұсынады."
+            },
+            "tip": {
+              "en": "Sharing a password shares everything. Good systems share only what is needed.",
+              "ru": "Передача пароля открывает всё. Хорошие системы делятся только тем, что нужно.",
+              "kk": "Парольді бөлісу бәрін ашады. Жақсы жүйелер тек қажет нәрсені ғана бөліседі."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "A token instead of a password",
+              "ru": "Токен вместо пароля",
+              "kk": "Парольдің орнына токен"
+            },
+            "body": {
+              "en": "With open banking, your bank exposes a secure, standardised connection called an API. You grant a specific app limited permission through a token, and you can revoke it any time. The app never sees or stores your password.",
+              "ru": "При открытом банкинге ваш банк предоставляет безопасное стандартизированное подключение — API. Вы даёте конкретному приложению ограниченное разрешение через токен и можете отозвать его в любой момент. Приложение никогда не видит и не хранит ваш пароль.",
+              "kk": "Ашық банкингте банк API деп аталатын қауіпсіз, стандартталған қосылым береді. Сіз нақты қолданбаға токен арқылы шектеулі рұқсат бересіз және оны кез келген уақытта қайтара аласыз. Қолданба пароліңізді ешқашан көрмейді және сақтамайды."
+            },
+            "example": {
+              "en": "It is like a hotel key card for one room and one weekend, not a copy of the master key.",
+              "ru": "Это как карточка отеля для одной комнаты и одного уикенда, а не копия мастер-ключа.",
+              "kk": "Бұл бір бөлмеге және бір демалысқа арналған қонақүй картасы сияқты, басты кілттің көшірмесі емес."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Reading versus acting",
+              "ru": "Чтение и действие",
+              "kk": "Оқу және әрекет ету"
+            },
+            "body": {
+              "en": "Open banking does two things. It can read, letting an app aggregate balances and transactions for budgeting or a faster loan decision. And it can initiate payments, letting an app pay straight from your account, skipping the card network. Each permission is granted separately.",
+              "ru": "Открытый банкинг делает две вещи. Он может читать: приложение собирает балансы и операции для бюджета или более быстрого решения по кредиту. И он может инициировать платежи: приложение платит прямо с вашего счёта, обходя карточную сеть. Каждое разрешение выдаётся отдельно.",
+              "kk": "Ашық банкинг екі нәрсе жасайды. Ол оқи алады: қолданба бюджет немесе несие шешімін жылдамдату үшін теңгерімдер мен операцияларды жинайды. Және төлем бастай алады: қолданба карта желісін айналып өтіп, тікелей шотыңыздан төлейді. Әр рұқсат бөлек беріледі."
+            },
+            "tip": {
+              "en": "Read access cannot move money; payment access can. Notice which one an app asks for.",
+              "ru": "Доступ на чтение не может двигать деньги; платёжный доступ может. Обращайте внимание, что именно просит приложение.",
+              "kk": "Оқу қолжетімділігі ақша қозғалта алмайды; төлем қолжетімділігі қозғалта алады. Қолданба қайсысын сұрайтынына назар аударыңыз."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Password sharing vs open banking",
+              "ru": "Передача пароля и открытый банкинг",
+              "kk": "Парольді беру және ашық банкинг"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A lending app wants three months of your transactions to offer a rate. Two ways to give it access:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Share your password",
+                        "Open-banking token"
+                      ],
+                      [
+                        "App can see",
+                        "Everything, indefinitely",
+                        "Only what you allowed"
+                      ],
+                      [
+                        "You can revoke",
+                        "Only by changing the password",
+                        "Yes, anytime"
+                      ],
+                      [
+                        "App stores password",
+                        "Yes",
+                        "No"
+                      ],
+                      [
+                        "Can it also pay?",
+                        "Full control",
+                        "Only if you grant it"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Same goal, letting the app read your data, but only one path keeps you in control."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Кредитное приложение хочет видеть ваши операции за три месяца, чтобы предложить ставку. Два способа дать доступ:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Поделиться паролем",
+                        "Токен открытого банкинга"
+                      ],
+                      [
+                        "Приложение видит",
+                        "Всё, бессрочно",
+                        "Только то, что вы разрешили"
+                      ],
+                      [
+                        "Можно отозвать",
+                        "Только сменив пароль",
+                        "Да, в любое время"
+                      ],
+                      [
+                        "Приложение хранит пароль",
+                        "Да",
+                        "Нет"
+                      ],
+                      [
+                        "Может ли оно ещё и платить?",
+                        "Полный контроль",
+                        "Только если вы разрешите"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Цель одна — дать приложению прочитать данные, но только один путь сохраняет контроль за вами."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Несие қолданбасы мөлшерлеме ұсыну үшін үш айлық операцияларыңызды көргісі келеді. Қолжетімділік берудің екі жолы:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Парольді бөлісу",
+                        "Ашық банкинг токені"
+                      ],
+                      [
+                        "Қолданба көре алады",
+                        "Барлығын, мерзімсіз",
+                        "Тек сіз рұқсат еткенді"
+                      ],
+                      [
+                        "Қайтарып алуға болады",
+                        "Тек парольді ауыстыру арқылы",
+                        "Иә, кез келген уақытта"
+                      ],
+                      [
+                        "Қолданба парольді сақтайды",
+                        "Иә",
+                        "Жоқ"
+                      ],
+                      [
+                        "Ол төлем де жасай ала ма?",
+                        "Толық бақылау",
+                        "Тек сіз рұқсат берсеңіз"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Мақсат бір — қолданбаға деректерді оқыту, бірақ тек бір жол бақылауды сізде қалдырады."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Pick the safest connection",
+              "ru": "Выберите самое безопасное подключение",
+              "kk": "Ең қауіпсіз қосылымды таңдаңыз"
+            },
+            "body": {
+              "en": "A budgeting app needs to read your accounts. Which way of granting access keeps you safest?",
+              "ru": "Приложению для бюджета нужно читать ваши счета. Какой способ доступа безопаснее?",
+              "kk": "Бюджет қолданбасына шоттарыңызды оқу керек. Қолжетімділік берудің қай жолы қауіпсіз?"
+            },
+            "interactiveType": "portfolio_choice",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose the safest way to let the app see your transactions.",
+                "options": [
+                  {
+                    "name": "Share your password",
+                    "data": [
+                      "App gets full account access",
+                      "Access lasts until you change the password",
+                      "App must store your password"
+                    ]
+                  },
+                  {
+                    "name": "Open-banking token",
+                    "data": [
+                      "App gets only the read access you chose",
+                      "You can revoke it anytime",
+                      "Your password is never shared"
+                    ]
+                  },
+                  {
+                    "name": "Email screenshots monthly",
+                    "data": [
+                      "Manual and error-prone",
+                      "Data sits in your inbox",
+                      "No live updates"
+                    ]
+                  }
+                ],
+                "correct": "Open-banking token"
+              },
+              "ru": {
+                "instruction": "Выберите самый безопасный способ показать приложению ваши операции.",
+                "options": [
+                  {
+                    "name": "Поделиться паролем",
+                    "data": [
+                      "Приложение получает полный доступ к счёту",
+                      "Доступ действует, пока вы не смените пароль",
+                      "Приложение должно хранить ваш пароль"
+                    ]
+                  },
+                  {
+                    "name": "Токен открытого банкинга",
+                    "data": [
+                      "Приложение получает только выбранный вами доступ на чтение",
+                      "Вы можете отозвать его в любой момент",
+                      "Ваш пароль никогда не передаётся"
+                    ]
+                  },
+                  {
+                    "name": "Отправлять скриншоты по email каждый месяц",
+                    "data": [
+                      "Вручную и с риском ошибок",
+                      "Данные лежат в почте",
+                      "Нет обновлений в реальном времени"
+                    ]
+                  }
+                ],
+                "correct": "Токен открытого банкинга"
+              },
+              "kk": {
+                "instruction": "Қолданбаға операцияларыңызды көрсетудің ең қауіпсіз жолын таңдаңыз.",
+                "options": [
+                  {
+                    "name": "Парольді бөлісу",
+                    "data": [
+                      "Қолданба шотқа толық қолжетімділік алады",
+                      "Қолжетімділік парольді ауыстырғанша жалғасады",
+                      "Қолданба пароліңізді сақтауы керек"
+                    ]
+                  },
+                  {
+                    "name": "Ашық банкинг токені",
+                    "data": [
+                      "Қолданба тек сіз таңдаған оқу қолжетімділігін алады",
+                      "Сіз оны кез келген уақытта қайтара аласыз",
+                      "Пароліңіз ешқашан берілмейді"
+                    ]
+                  },
+                  {
+                    "name": "Ай сайын email арқылы скриншот жіберу",
+                    "data": [
+                      "Қолмен және қателікке бейім",
+                      "Деректер поштаңызда жатады",
+                      "Нақты уақыттағы жаңартулар жоқ"
+                    ]
+                  }
+                ],
+                "correct": "Ашық банкинг токені"
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Consent you can take back",
+              "ru": "Согласие, которое можно забрать",
+              "kk": "Қайтарып алуға болатын келісім"
+            },
+            "body": {
+              "en": "Open banking means your data and payments stay under your consent: limited, revocable, and password-free. It turns your bank into a platform other safe apps can build on. Next we zoom out to the whole fintech world built on these rails.",
+              "ru": "Открытый банкинг означает, что ваши данные и платежи остаются под вашим согласием: ограниченным, отзывным и без пароля. Он превращает банк в платформу, на которой могут строиться безопасные приложения. Далее посмотрим шире на весь финтех-мир на этих рельсах.",
+              "kk": "Ашық банкинг деректеріңіз бен төлемдеріңіз сіздің келісіміңізге бағынады дегенді білдіреді: шектеулі, қайтарып алынатын және парольсіз. Ол банкіңізді қауіпсіз қолданбалар құрыла алатын платформаға айналдырады. Келесіде осы рельстерге құрылған бүкіл финтех әлеміне кеңірек қараймыз."
+            },
+            "tip": {
+              "en": "Before connecting an app, check what it asks for and that you can switch it off.",
+              "ru": "Перед подключением приложения проверьте, что оно просит и можно ли это отключить.",
+              "kk": "Қолданбаны қоспас бұрын оның не сұрайтынын және оны өшіруге болатынын тексеріңіз."
+            }
+          }
+        ]
+      },
       "quiz": {
-        "quiz_id":504,"quiz_type":"subtopic_quiz","title":{"en":"Open Banking — Check"},
-        "questions":[
-          {"id":1,"question_type":"single_choice","order_index":0,
-           "question_text":{"en":"A budgeting app asks for your online-banking password to sync transactions. Why is an open-banking connection the safer choice?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"You grant a limited, revocable token and never share your password, so the app cannot do more than you allowed"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"Open banking hides your transactions from the app entirely"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"Passwords shared with apps are encrypted, so both options are equal"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"Open banking is slower, which makes it harder to attack"},"is_correct":false}]},
-          {"id":2,"question_type":"single_choice","order_index":1,
-           "question_text":{"en":"Beyond reading your account data, what extra capability can open banking provide?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"It can initiate payments directly from your account, bypassing the card network"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"It can raise your credit limit automatically"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"It can change your account password for you"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"It can convert your balance into another currency for free"},"is_correct":false}]}
+        "quiz_id": 504,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Open Banking — Check",
+          "ru": "Открытый банкинг — проверка",
+          "kk": "Ашық банкинг — тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A budgeting app asks for your online-banking password to sync transactions. Why is an open-banking connection the safer choice?",
+              "ru": "Приложение для бюджета просит пароль от онлайн-банкинга для синхронизации операций. Почему подключение через открытый банкинг безопаснее?",
+              "kk": "Бюджет қолданбасы операцияларды синхрондау үшін онлайн-банкинг паролін сұрайды. Неге ашық банкинг арқылы қосылу қауіпсіз?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "You grant a limited, revocable token and never share your password, so the app cannot do more than you allowed",
+                  "ru": "Вы даёте ограниченный отзывной токен и не передаёте пароль, поэтому приложение не может сделать больше, чем вы разрешили",
+                  "kk": "Сіз шектеулі, қайтарып алынатын токен бересіз және парольді бөліспейсіз, сондықтан қолданба рұқсат еткеннен артық жасай алмайды"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Open banking hides your transactions from the app entirely",
+                  "ru": "Открытый банкинг полностью скрывает ваши операции от приложения",
+                  "kk": "Ашық банкинг операцияларыңызды қолданбадан толық жасырады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Passwords shared with apps are encrypted, so both options are equal",
+                  "ru": "Пароли, переданные приложениям, шифруются, поэтому оба варианта одинаковы",
+                  "kk": "Қолданбаларға берілген парольдер шифрланады, сондықтан екі нұсқа бірдей"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Open banking is slower, which makes it harder to attack",
+                  "ru": "Открытый банкинг медленнее, поэтому его сложнее атаковать",
+                  "kk": "Ашық банкинг баяу, сондықтан оған шабуыл жасау қиын"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Beyond reading your account data, what extra capability can open banking provide?",
+              "ru": "Помимо чтения данных счёта, какую дополнительную возможность может дать открытый банкинг?",
+              "kk": "Шот деректерін оқудан бөлек, ашық банкинг қандай қосымша мүмкіндік бере алады?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It can initiate payments directly from your account, bypassing the card network",
+                  "ru": "Он может инициировать платежи прямо с вашего счёта, обходя карточную сеть",
+                  "kk": "Ол карта желісін айналып өтіп, шотыңыздан тікелей төлем бастай алады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It can raise your credit limit automatically",
+                  "ru": "Он может автоматически повысить ваш кредитный лимит",
+                  "kk": "Ол кредит лимитіңізді автоматты көтере алады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It can change your account password for you",
+                  "ru": "Он может сменить пароль от счёта за вас",
+                  "kk": "Ол шотыңыздың паролін сіз үшін өзгерте алады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It can convert your balance into another currency for free",
+                  "ru": "Он может бесплатно конвертировать баланс в другую валюту",
+                  "kk": "Ол теңгеріміңізді басқа валютаға тегін айырбастай алады"
+                },
+                "is_correct": false
+              }
+            ]
+          }
         ]
       }
     },
     {
       "code": "fintech_ecosystem",
-      "title": {"en": "The Fintech Ecosystem"},
-      "description": {"en": "Software layered on existing rails, evolving by unbundling one service and then rebundling many into a super-app."},
+      "title": {
+        "en": "The Fintech Ecosystem",
+        "ru": "Финтех-экосистема",
+        "kk": "Финтех экожүйесі"
+      },
+      "description": {
+        "en": "Software layered on existing rails, evolving by unbundling one service and then rebundling many into a super-app.",
+        "ru": "Программное обеспечение поверх существующих рельсов: сначала выделяет одну услугу, затем снова объединяет многие в суперприложение.",
+        "kk": "Бар рельстердің үстіндегі бағдарламалық қабат: алдымен бір қызметті бөледі, кейін көп қызметті суперқолданбаға қайта біріктіреді."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 4,
       "quizId": 505,
-      "lesson": { "steps": [
-        {"id":"1","order":1,"stepType":"introduction","title":{"en":"What makes a fintech a fintech?"},
-         "body":{"en":"A payment app, a lending app, and a budgeting tool feel like different things. What unites them is simple: each uses software to deliver a financial service more cheaply or conveniently, usually built on top of rails that already exist."},
-         "tip":{"en":"Most fintechs do not replace banks. They sit on top of them."}},
-        {"id":"2","order":2,"stepType":"explanation","title":{"en":"Layers, not magic"},
-         "body":{"en":"Picture three layers. At the bottom are the rails: card networks, instant payments, open-banking APIs. In the middle are services: payments, lending, investing. On top is the app you actually touch. Most fintechs rent the lower layers rather than own a bank."},
-         "example":{"en":"A new pay-by-phone app can launch in months because it builds on Visa's rails instead of constructing its own."}},
-        {"id":"3","order":3,"stepType":"explanation","title":{"en":"Unbundle, then rebundle"},
-         "body":{"en":"A startup often peels off one painful bank service and does it far better. Winners then add more services until they become a super-app. In Kazakhstan, Kaspi bundles payments, shopping, transfers, and lending in one place. The trade-off: huge convenience, but your data and money concentrate in one app."},
-         "tip":{"en":"Convenience and lock-in tend to grow together."}},
-        {"id":"4","order":4,"stepType":"example","title":{"en":"One coffee, many layers"},
-         "content":{"en":{"blocks":[
-           {"type":"paragraph","text":"You buy a 1,500 ₸ coffee and pay in three parts. Several fintech layers quietly take part."},
-           {"type":"table","rows":[["Layer","Example","What it does"],["Rails","Card or instant rail","Moves the money"],["Service","Buy-now-pay-later","Splits 1,500 ₸ into instalments"],["App","Super-app like Kaspi","The screen you tap"],["Data","Open-banking read","Checks you can afford it"]]},
-           {"type":"paragraph","text":"One small purchase can touch all of them without you ever noticing the seams."}]}}},
-        {"id":"5","order":5,"stepType":"interactive","title":{"en":"Sort the fintech services"},
-         "body":{"en":"Each feature belongs to one part of the fintech world. Sort them."},
-         "interactiveType":"drag_drop",
-         "interactiveContent":{"en":{
-           "instruction":"Drag each feature into the right category.",
-           "categories":[{"id":"payments","label":"Payments"},{"id":"lending","label":"Lending"},{"id":"investing","label":"Investing"}],
-           "items":[{"id":"tap","text":"Tap your phone to pay a shop"},{"id":"qr","text":"Send money by QR to a friend"},{"id":"bnpl","text":"Split a purchase into 3 monthly parts"},{"id":"microloan","text":"Borrow 50,000 ₸ until payday"},{"id":"fractional","text":"Buy a small fraction of one share"}],
-           "answers":[{"itemId":"tap","categoryId":"payments"},{"itemId":"qr","categoryId":"payments"},{"itemId":"bnpl","categoryId":"lending"},{"itemId":"microloan","categoryId":"lending"},{"itemId":"fractional","categoryId":"investing"}],
-           "explanation":"Moving money is payments; borrowing against the future, including buy-now-pay-later, is lending; putting money to work for growth is investing. Most super-apps offer all three under one roof."}}},
-        {"id":"6","order":6,"stepType":"conclusion","title":{"en":"Software on old rails"},
-         "body":{"en":"Fintech is mostly software layered on rails that already exist, evolving by unbundling a service and then rebundling many into a super-app. The convenience is real, and so is the cost in data and lock-in. With the plumbing of modern money clear, the next topic turns that flow into a deliberate budget."},
-         "tip":{"en":"Use these tools on purpose: convenience should serve your plan, not replace your judgement."}}
-      ]},
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "What makes a fintech a fintech?",
+              "ru": "Что делает финтех финтехом?",
+              "kk": "Финтехті финтех ететін не?"
+            },
+            "body": {
+              "en": "A payment app, a lending app, and a budgeting tool feel like different things. What unites them is simple: each uses software to deliver a financial service more cheaply or conveniently, usually built on top of rails that already exist.",
+              "ru": "Платёжное приложение, кредитное приложение и инструмент для бюджета кажутся разными вещами. Объединяет их простое: каждое использует софт, чтобы доставлять финансовую услугу дешевле или удобнее, обычно поверх уже существующих рельсов.",
+              "kk": "Төлем қолданбасы, несие қолданбасы және бюджет құралы әртүрлі көрінеді. Оларды біріктіретін нәрсе қарапайым: әрқайсысы қаржы қызметін арзанырақ немесе ыңғайлырақ беру үшін софт қолданады, әдетте бар рельстердің үстіне құрылады."
+            },
+            "tip": {
+              "en": "Most fintechs do not replace banks. They sit on top of them.",
+              "ru": "Большинство финтехов не заменяют банки. Они работают поверх них.",
+              "kk": "Көп финтех банктерді алмастырмайды. Олар банктердің үстінде жұмыс істейді."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Layers, not magic",
+              "ru": "Слои, а не магия",
+              "kk": "Сиқыр емес, қабаттар"
+            },
+            "body": {
+              "en": "Picture three layers. At the bottom are the rails: card networks, instant payments, open-banking APIs. In the middle are services: payments, lending, investing. On top is the app you actually touch. Most fintechs rent the lower layers rather than own a bank.",
+              "ru": "Представьте три слоя. Внизу — рельсы: карточные сети, мгновенные платежи, API открытого банкинга. В середине — услуги: платежи, кредитование, инвестирование. Наверху — приложение, которым вы пользуетесь. Большинство финтехов арендуют нижние слои, а не владеют банком.",
+              "kk": "Үш қабатты елестетіңіз. Төменде рельстер: карта желілері, жедел төлемдер, ашық банкинг API. Ортада қызметтер: төлемдер, несие беру, инвестициялау. Жоғарыда сіз қолданатын қолданба. Көп финтех банкке ие болмай, төменгі қабаттарды жалдайды."
+            },
+            "example": {
+              "en": "A new pay-by-phone app can launch in months because it builds on Visa's rails instead of constructing its own.",
+              "ru": "Новое приложение для оплаты телефоном может запуститься за месяцы, потому что строится на рельсах Visa, а не создаёт свои.",
+              "kk": "Телефонмен төлеуге арналған жаңа қолданба бірнеше айда іске қосыла алады, өйткені өз рельстерін салмай, Visa рельстеріне сүйенеді."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Unbundle, then rebundle",
+              "ru": "Сначала разобрать, потом собрать заново",
+              "kk": "Алдымен бөлу, кейін қайта біріктіру"
+            },
+            "body": {
+              "en": "A startup often peels off one painful bank service and does it far better. Winners then add more services until they become a super-app. In Kazakhstan, Kaspi bundles payments, shopping, transfers, and lending in one place. The trade-off: huge convenience, but your data and money concentrate in one app.",
+              "ru": "Стартап часто выделяет одну неудобную банковскую услугу и делает её намного лучше. Победители затем добавляют больше услуг, пока не становятся суперприложением. В Казахстане Kaspi объединяет платежи, покупки, переводы и кредиты в одном месте. Компромисс: огромное удобство, но ваши данные и деньги концентрируются в одном приложении.",
+              "kk": "Стартап жиі банктің бір ауыр қызметін бөліп алып, оны әлдеқайда жақсы жасайды. Жеңімпаздар кейін көбірек қызмет қосып, суперқолданбаға айналады. Қазақстанда Kaspi төлемдер, сатып алу, аударымдар және несиені бір жерге біріктіреді. Айырбасы: үлкен ыңғайлылық, бірақ деректеріңіз бен ақшаңыз бір қолданбада шоғырланады."
+            },
+            "tip": {
+              "en": "Convenience and lock-in tend to grow together.",
+              "ru": "Удобство и привязка к экосистеме обычно растут вместе.",
+              "kk": "Ыңғайлылық пен экожүйеге байланып қалу әдетте бірге өседі."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "One coffee, many layers",
+              "ru": "Один кофе, много слоёв",
+              "kk": "Бір кофе, көп қабат"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "You buy a 1,500 ₸ coffee and pay in three parts. Several fintech layers quietly take part."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Layer",
+                        "Example",
+                        "What it does"
+                      ],
+                      [
+                        "Rails",
+                        "Card or instant rail",
+                        "Moves the money"
+                      ],
+                      [
+                        "Service",
+                        "Buy-now-pay-later",
+                        "Splits 1,500 ₸ into instalments"
+                      ],
+                      [
+                        "App",
+                        "Super-app like Kaspi",
+                        "The screen you tap"
+                      ],
+                      [
+                        "Data",
+                        "Open-banking read",
+                        "Checks you can afford it"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "One small purchase can touch all of them without you ever noticing the seams."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Вы покупаете кофе за 1 500 ₸ и платите в три части. Несколько финтех-слоёв незаметно участвуют в этом."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Слой",
+                        "Пример",
+                        "Что делает"
+                      ],
+                      [
+                        "Рельсы",
+                        "Карточный или мгновенный рельс",
+                        "Перемещает деньги"
+                      ],
+                      [
+                        "Услуга",
+                        "Купи сейчас — плати позже",
+                        "Делит 1 500 ₸ на платежи"
+                      ],
+                      [
+                        "Приложение",
+                        "Суперприложение вроде Kaspi",
+                        "Экран, по которому вы нажимаете"
+                      ],
+                      [
+                        "Данные",
+                        "Чтение через открытый банкинг",
+                        "Проверяет, можете ли вы себе это позволить"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Одна маленькая покупка может задействовать все эти слои, а вы даже не заметите стыков."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Сіз 1 500 ₸ кофені сатып алып, үш бөлікпен төлейсіз. Бірнеше финтех қабаты байқалмай қатысады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қабат",
+                        "Мысал",
+                        "Не істейді"
+                      ],
+                      [
+                        "Рельстер",
+                        "Карталық немесе жедел рельс",
+                        "Ақшаны жылжытады"
+                      ],
+                      [
+                        "Қызмет",
+                        "Қазір сатып ал — кейін төле",
+                        "1 500 ₸-ні бөліп төлеуге бөледі"
+                      ],
+                      [
+                        "Қолданба",
+                        "Kaspi сияқты суперқолданба",
+                        "Сіз басатын экран"
+                      ],
+                      [
+                        "Деректер",
+                        "Ашық банкинг арқылы оқу",
+                        "Сіз оны төлей алатыныңызды тексереді"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Бір шағын сатып алу осы қабаттардың бәріне тиіп өтуі мүмкін, ал сіз оны байқамайсыз."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Sort the fintech services",
+              "ru": "Разберите финтех-услуги",
+              "kk": "Финтех қызметтерін сұрыптаңыз"
+            },
+            "body": {
+              "en": "Each feature belongs to one part of the fintech world. Sort them.",
+              "ru": "Каждая функция относится к одной части финтех-мира. Рассортируйте их.",
+              "kk": "Әр функция финтех әлемінің бір бөлігіне жатады. Оларды сұрыптаңыз."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Drag each feature into the right category.",
+                "categories": [
+                  {
+                    "id": "payments",
+                    "label": "Payments"
+                  },
+                  {
+                    "id": "lending",
+                    "label": "Lending"
+                  },
+                  {
+                    "id": "investing",
+                    "label": "Investing"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "tap",
+                    "text": "Tap your phone to pay a shop"
+                  },
+                  {
+                    "id": "qr",
+                    "text": "Send money by QR to a friend"
+                  },
+                  {
+                    "id": "bnpl",
+                    "text": "Split a purchase into 3 monthly parts"
+                  },
+                  {
+                    "id": "microloan",
+                    "text": "Borrow 50,000 ₸ until payday"
+                  },
+                  {
+                    "id": "fractional",
+                    "text": "Buy a small fraction of one share"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "tap",
+                    "categoryId": "payments"
+                  },
+                  {
+                    "itemId": "qr",
+                    "categoryId": "payments"
+                  },
+                  {
+                    "itemId": "bnpl",
+                    "categoryId": "lending"
+                  },
+                  {
+                    "itemId": "microloan",
+                    "categoryId": "lending"
+                  },
+                  {
+                    "itemId": "fractional",
+                    "categoryId": "investing"
+                  }
+                ],
+                "explanation": "Moving money is payments; borrowing against the future, including buy-now-pay-later, is lending; putting money to work for growth is investing. Most super-apps offer all three under one roof."
+              },
+              "ru": {
+                "instruction": "Перетащите каждую функцию в правильную категорию.",
+                "categories": [
+                  {
+                    "id": "payments",
+                    "label": "Платежи"
+                  },
+                  {
+                    "id": "lending",
+                    "label": "Кредитование"
+                  },
+                  {
+                    "id": "investing",
+                    "label": "Инвестирование"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "tap",
+                    "text": "Приложить телефон, чтобы заплатить в магазине"
+                  },
+                  {
+                    "id": "qr",
+                    "text": "Отправить деньги другу по QR"
+                  },
+                  {
+                    "id": "bnpl",
+                    "text": "Разделить покупку на 3 ежемесячные части"
+                  },
+                  {
+                    "id": "microloan",
+                    "text": "Занять 50 000 ₸ до зарплаты"
+                  },
+                  {
+                    "id": "fractional",
+                    "text": "Купить небольшую долю одной акции"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "tap",
+                    "categoryId": "payments"
+                  },
+                  {
+                    "itemId": "qr",
+                    "categoryId": "payments"
+                  },
+                  {
+                    "itemId": "bnpl",
+                    "categoryId": "lending"
+                  },
+                  {
+                    "itemId": "microloan",
+                    "categoryId": "lending"
+                  },
+                  {
+                    "itemId": "fractional",
+                    "categoryId": "investing"
+                  }
+                ],
+                "explanation": "Движение денег — это платежи; заём под будущий доход, включая «купи сейчас — плати позже», — это кредитование; использование денег для роста — инвестирование. Большинство суперприложений предлагают все три в одном месте."
+              },
+              "kk": {
+                "instruction": "Әр функцияны дұрыс санатқа сүйреңіз.",
+                "categories": [
+                  {
+                    "id": "payments",
+                    "label": "Төлемдер"
+                  },
+                  {
+                    "id": "lending",
+                    "label": "Несие беру"
+                  },
+                  {
+                    "id": "investing",
+                    "label": "Инвестициялау"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "tap",
+                    "text": "Дүкенде төлеу үшін телефонды жақындату"
+                  },
+                  {
+                    "id": "qr",
+                    "text": "Досыңызға QR арқылы ақша жіберу"
+                  },
+                  {
+                    "id": "bnpl",
+                    "text": "Сатып алуды 3 айлық бөлікке бөлу"
+                  },
+                  {
+                    "id": "microloan",
+                    "text": "Жалақыға дейін 50 000 ₸ қарыз алу"
+                  },
+                  {
+                    "id": "fractional",
+                    "text": "Бір акцияның шағын бөлігін сатып алу"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "tap",
+                    "categoryId": "payments"
+                  },
+                  {
+                    "itemId": "qr",
+                    "categoryId": "payments"
+                  },
+                  {
+                    "itemId": "bnpl",
+                    "categoryId": "lending"
+                  },
+                  {
+                    "itemId": "microloan",
+                    "categoryId": "lending"
+                  },
+                  {
+                    "itemId": "fractional",
+                    "categoryId": "investing"
+                  }
+                ],
+                "explanation": "Ақшаны жылжыту — төлемдер; болашақ табыс есебінен қарыз алу, соның ішінде «қазір сатып ал — кейін төле», — несие беру; ақшаны өсіруге жұмыс істету — инвестициялау. Көп суперқолданба үшеуін де бір жерде ұсынады."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Software on old rails",
+              "ru": "Софт на старых рельсах",
+              "kk": "Ескі рельстердегі софт"
+            },
+            "body": {
+              "en": "Fintech is mostly software layered on rails that already exist, evolving by unbundling a service and then rebundling many into a super-app. The convenience is real, and so is the cost in data and lock-in. With the plumbing of modern money clear, the next topic turns that flow into a deliberate budget.",
+              "ru": "Финтех — это в основном софт поверх уже существующих рельсов: он развивается, выделяя отдельную услугу, а затем объединяя многие в суперприложение. Удобство реально, как и цена в виде данных и привязки. Теперь, когда «сантехника» современных денег понятна, следующая тема превратит этот поток в осознанный бюджет.",
+              "kk": "Финтех — көбіне бар рельстердің үстіндегі софт: ол бір қызметті бөліп алып, кейін көп қызметті суперқолданбаға біріктіру арқылы дамиды. Ыңғайлылық нақты, деректер мен байланып қалу құны да нақты. Заманауи ақшаның «құбырлары» түсінікті болған соң, келесі тақырып осы ағынды саналы бюджетке айналдырады."
+            },
+            "tip": {
+              "en": "Use these tools on purpose: convenience should serve your plan, not replace your judgement.",
+              "ru": "Используйте эти инструменты осознанно: удобство должно служить вашему плану, а не заменять суждение.",
+              "kk": "Бұл құралдарды мақсатпен қолданыңыз: ыңғайлылық жоспарыңызға қызмет етуі керек, пайымыңызды алмастырмауы керек."
+            }
+          }
+        ]
+      },
       "quiz": {
-        "quiz_id":505,"quiz_type":"subtopic_quiz","title":{"en":"The Fintech Ecosystem — Check"},
-        "questions":[
-          {"id":1,"question_type":"single_choice","order_index":0,
-           "question_text":{"en":"How can a new fintech launch a working payment app without becoming a licensed bank?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"It builds on existing rails and partner banks rather than owning the underlying infrastructure"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"Payment apps are exempt from all financial rules"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"It prints its own digital currency to settle payments"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"It must in fact obtain a full banking licence first"},"is_correct":false}]},
-          {"id":2,"question_type":"single_choice","order_index":1,
-           "question_text":{"en":"A super-app lets you pay, shop, borrow, and invest in one place. What is the main trade-off you accept for that convenience?"},
-           "answers":[
-             {"id":1,"order_index":0,"answer_text":{"en":"Your money and data concentrate in a single app, increasing lock-in"},"is_correct":true},
-             {"id":2,"order_index":1,"answer_text":{"en":"Each service becomes more expensive than a standalone app"},"is_correct":false},
-             {"id":3,"order_index":2,"answer_text":{"en":"You lose the ability to use cash anywhere else"},"is_correct":false},
-             {"id":4,"order_index":3,"answer_text":{"en":"The app cannot legally offer more than one service at a time"},"is_correct":false}]}
+        "quiz_id": 505,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "The Fintech Ecosystem — Check",
+          "ru": "Финтех-экосистема — проверка",
+          "kk": "Финтех экожүйесі — тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "How can a new fintech launch a working payment app without becoming a licensed bank?",
+              "ru": "Как новый финтех может запустить рабочее платёжное приложение, не становясь лицензированным банком?",
+              "kk": "Жаңа финтех лицензияланған банк болмай-ақ жұмыс істейтін төлем қолданбасын қалай іске қоса алады?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It builds on existing rails and partner banks rather than owning the underlying infrastructure",
+                  "ru": "Он строится на существующих рельсах и банках-партнёрах, а не владеет базовой инфраструктурой",
+                  "kk": "Ол базалық инфрақұрылымға ие болмай, бар рельстер мен серіктес банктерге сүйенеді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Payment apps are exempt from all financial rules",
+                  "ru": "Платёжные приложения освобождены от всех финансовых правил",
+                  "kk": "Төлем қолданбалары барлық қаржылық ережелерден босатылған"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It prints its own digital currency to settle payments",
+                  "ru": "Он печатает собственную цифровую валюту для расчётов",
+                  "kk": "Ол төлемдерді есептеу үшін өз цифрлық валютасын шығарады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It must in fact obtain a full banking licence first",
+                  "ru": "На самом деле сначала он обязан получить полную банковскую лицензию",
+                  "kk": "Шын мәнінде ол алдымен толық банк лицензиясын алуы керек"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A super-app lets you pay, shop, borrow, and invest in one place. What is the main trade-off you accept for that convenience?",
+              "ru": "Суперприложение позволяет платить, покупать, брать в долг и инвестировать в одном месте. Какой главный компромисс вы принимаете за это удобство?",
+              "kk": "Суперқолданба бір жерде төлеуге, сатып алуға, қарыз алуға және инвестициялауға мүмкіндік береді. Бұл ыңғайлылық үшін қандай негізгі айырбас қабылдайсыз?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Your money and data concentrate in a single app, increasing lock-in",
+                  "ru": "Ваши деньги и данные концентрируются в одном приложении, усиливая привязку",
+                  "kk": "Ақшаңыз бен деректеріңіз бір қолданбада шоғырланып, байланып қалуды күшейтеді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Each service becomes more expensive than a standalone app",
+                  "ru": "Каждая услуга становится дороже, чем в отдельном приложении",
+                  "kk": "Әр қызмет жеке қолданбаға қарағанда қымбаттайды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "You lose the ability to use cash anywhere else",
+                  "ru": "Вы теряете возможность использовать наличные где-либо ещё",
+                  "kk": "Сіз басқа жерде қолма-қол ақша қолдану мүмкіндігін жоғалтасыз"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The app cannot legally offer more than one service at a time",
+                  "ru": "Приложение не может законно предлагать больше одной услуги одновременно",
+                  "kk": "Қолданба заң бойынша бір уақытта бірден көп қызмет ұсына алмайды"
+                },
+                "is_correct": false
+              }
+            ]
+          }
         ]
       }
     }
   ],
   "finalQuiz": {
-    "quiz_id":599,"quiz_type":"final_quiz","title":{"en":"Payments & Modern Money — Final Check"},
-    "questions":[
-      {"id":1,"question_type":"single_choice","order_index":0,
-       "question_text":{"en":"Your bank gives 1% cashback on every card purchase. Thinking about who pays for it, where does that money ultimately come from?"},
-       "answers":[
-         {"id":1,"order_index":0,"answer_text":{"en":"Merchant fees on card sales, which shops fold into the prices everyone pays"},"is_correct":true},
-         {"id":2,"order_index":1,"answer_text":{"en":"A tax rebate the government sends the bank"},"is_correct":false},
-         {"id":3,"order_index":2,"answer_text":{"en":"New money the card network creates for free"},"is_correct":false},
-         {"id":4,"order_index":3,"answer_text":{"en":"Interest your savings earn while you shop"},"is_correct":false}]},
-      {"id":2,"question_type":"single_choice","order_index":1,
-       "question_text":{"en":"You pay for the same 5,000 ₸ item two ways: once by Apple Pay, once by Kaspi QR to the seller's account. Which statement is correct?"},
-       "answers":[
-         {"id":1,"order_index":0,"answer_text":{"en":"Apple Pay rides the card network with a token, while the QR transfer can move account-to-account and skip that fee"},"is_correct":true},
-         {"id":2,"order_index":1,"answer_text":{"en":"Both must use the Visa network and pay identical fees"},"is_correct":false},
-         {"id":3,"order_index":2,"answer_text":{"en":"The QR transfer exposes the seller's real card number"},"is_correct":false},
-         {"id":4,"order_index":3,"answer_text":{"en":"Apple Pay stores your cash on the phone while QR does not"},"is_correct":false}]},
-      {"id":3,"question_type":"single_choice","order_index":2,
-       "question_text":{"en":"A stranger selling concert tickets online will only accept an instant transfer, no card. Why is this the riskiest option for you?"},
-       "answers":[
-         {"id":1,"order_index":0,"answer_text":{"en":"If the tickets never arrive, an instant transfer is irrevocable and cannot be disputed"},"is_correct":true},
-         {"id":2,"order_index":1,"answer_text":{"en":"Instant transfers charge the buyer a 10% fee"},"is_correct":false},
-         {"id":3,"order_index":2,"answer_text":{"en":"The seller can see your full banking password"},"is_correct":false},
-         {"id":4,"order_index":3,"answer_text":{"en":"Instant transfers take three days, so you lose time"},"is_correct":false}]},
-      {"id":4,"question_type":"single_choice","order_index":3,
-       "question_text":{"en":"A loan app offers two ways to verify your income: give it your banking password, or connect via open banking. Why is open banking safer?"},
-       "answers":[
-         {"id":1,"order_index":0,"answer_text":{"en":"You grant a limited, revocable permission and never share your password"},"is_correct":true},
-         {"id":2,"order_index":1,"answer_text":{"en":"Open banking lets the app see more data, which speeds approval"},"is_correct":false},
-         {"id":3,"order_index":2,"answer_text":{"en":"The password option is illegal everywhere"},"is_correct":false},
-         {"id":4,"order_index":3,"answer_text":{"en":"Open banking guarantees you a lower interest rate"},"is_correct":false}]},
-      {"id":5,"question_type":"single_choice","order_index":4,
-       "question_text":{"en":"A friend says a fintech super-app is basically a bank that replaced the banks. What is the more accurate view?"},
-       "answers":[
-         {"id":1,"order_index":0,"answer_text":{"en":"It mostly layers software on existing rails and partner banks, bundling several services into one app"},"is_correct":true},
-         {"id":2,"order_index":1,"answer_text":{"en":"It runs its own independent money system with no banks involved"},"is_correct":false},
-         {"id":3,"order_index":2,"answer_text":{"en":"It is only a budgeting tool with no real payments"},"is_correct":false},
-         {"id":4,"order_index":3,"answer_text":{"en":"It is identical to a single-purpose payment app"},"is_correct":false}]}
+    "quiz_id": 599,
+    "quiz_type": "final_quiz",
+    "title": {
+      "en": "Payments & Modern Money — Final Check",
+      "ru": "Платежи и современные деньги — итоговая проверка",
+      "kk": "Төлемдер және заманауи ақша — қорытынды тексеру"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "question_type": "single_choice",
+        "order_index": 0,
+        "question_text": {
+          "en": "Your bank gives 1% cashback on every card purchase. Thinking about who pays for it, where does that money ultimately come from?",
+          "ru": "Ваш банк даёт 1% кэшбэка за каждую покупку картой. Если подумать, кто за это платит, откуда в итоге берутся эти деньги?",
+          "kk": "Банкіңіз әр карталық сатып алуға 1% кэшбэк береді. Оны кім төлейтінін ойласақ, бұл ақша түптеп келгенде қайдан келеді?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Merchant fees on card sales, which shops fold into the prices everyone pays",
+              "ru": "Из торговых комиссий по карточным продажам, которые магазины включают в цены для всех покупателей",
+              "kk": "Дүкендер барлық сатып алушы төлейтін бағаларға енгізетін карталық сатылымдардағы саудагер комиссияларынан"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "A tax rebate the government sends the bank",
+              "ru": "Из налогового возврата, который государство отправляет банку",
+              "kk": "Мемлекет банкке жіберетін салық қайтарымынан"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "New money the card network creates for free",
+              "ru": "Из новых денег, которые карточная сеть создаёт бесплатно",
+              "kk": "Карта желісі тегін жасайтын жаңа ақшадан"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Interest your savings earn while you shop",
+              "ru": "Из процентов, которые ваши сбережения зарабатывают, пока вы покупаете",
+              "kk": "Сіз сатып алып жатқанда жинағыңыз табатын пайыздан"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type": "single_choice",
+        "order_index": 1,
+        "question_text": {
+          "en": "You pay for the same 5,000 ₸ item two ways: once by Apple Pay, once by Kaspi QR to the seller's account. Which statement is correct?",
+          "ru": "Вы платите за один и тот же товар на 5 000 ₸ двумя способами: один раз через Apple Pay, другой — через Kaspi QR на счёт продавца. Какое утверждение верно?",
+          "kk": "Сіз 5 000 ₸ тұратын бір затты екі жолмен төлейсіз: бір рет Apple Pay арқылы, бір рет сатушының шотына Kaspi QR арқылы. Қай тұжырым дұрыс?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Apple Pay rides the card network with a token, while the QR transfer can move account-to-account and skip that fee",
+              "ru": "Apple Pay идёт по карточной сети с токеном, а QR-перевод может идти со счёта на счёт и обходить эту комиссию",
+              "kk": "Apple Pay токенмен карта желісі арқылы жүреді, ал QR аударым шоттан шотқа өтіп, сол комиссияны айналып өте алады"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Both must use the Visa network and pay identical fees",
+              "ru": "Оба обязательно используют сеть Visa и платят одинаковые комиссии",
+              "kk": "Екеуі де міндетті түрде Visa желісін қолданып, бірдей комиссия төлейді"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "The QR transfer exposes the seller's real card number",
+              "ru": "QR-перевод раскрывает настоящий номер карты продавца",
+              "kk": "QR аударым сатушының нақты карта нөмірін ашады"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Apple Pay stores your cash on the phone while QR does not",
+              "ru": "Apple Pay хранит ваши наличные на телефоне, а QR — нет",
+              "kk": "Apple Pay қолма-қол ақшаңызды телефонда сақтайды, ал QR сақтамайды"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_type": "single_choice",
+        "order_index": 2,
+        "question_text": {
+          "en": "A stranger selling concert tickets online will only accept an instant transfer, no card. Why is this the riskiest option for you?",
+          "ru": "Незнакомец продаёт билеты на концерт онлайн и принимает только мгновенный перевод, не карту. Почему это самый рискованный вариант для вас?",
+          "kk": "Онлайн концерт билетін сататын бейтаныс адам тек жедел аударымды қабылдайды, карта емес. Неге бұл сіз үшін ең қауіпті нұсқа?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "If the tickets never arrive, an instant transfer is irrevocable and cannot be disputed",
+              "ru": "Если билеты не придут, мгновенный перевод безотзывный и его нельзя оспорить",
+              "kk": "Билеттер келмесе, жедел аударым қайтарылмайды және даулауға болмайды"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Instant transfers charge the buyer a 10% fee",
+              "ru": "Мгновенные переводы взимают с покупателя комиссию 10%",
+              "kk": "Жедел аударымдар сатып алушыдан 10% комиссия алады"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "The seller can see your full banking password",
+              "ru": "Продавец может увидеть ваш полный банковский пароль",
+              "kk": "Сатушы толық банк пароліңізді көре алады"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Instant transfers take three days, so you lose time",
+              "ru": "Мгновенные переводы идут три дня, поэтому вы теряете время",
+              "kk": "Жедел аударымдар үш күн алады, сондықтан уақыт жоғалтасыз"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_type": "single_choice",
+        "order_index": 3,
+        "question_text": {
+          "en": "A loan app offers two ways to verify your income: give it your banking password, or connect via open banking. Why is open banking safer?",
+          "ru": "Кредитное приложение предлагает два способа подтвердить доход: дать банковский пароль или подключиться через открытый банкинг. Почему открытый банкинг безопаснее?",
+          "kk": "Несие қолданбасы табысыңызды растаудың екі жолын ұсынады: банк паролін беру немесе ашық банкинг арқылы қосылу. Неге ашық банкинг қауіпсіз?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "You grant a limited, revocable permission and never share your password",
+              "ru": "Вы даёте ограниченное отзывное разрешение и никогда не передаёте пароль",
+              "kk": "Сіз шектеулі, қайтарып алынатын рұқсат бересіз және парольді ешқашан бөліспейсіз"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Open banking lets the app see more data, which speeds approval",
+              "ru": "Открытый банкинг даёт приложению больше данных, что ускоряет одобрение",
+              "kk": "Ашық банкинг қолданбаға көбірек дерек көрсетеді, бұл мақұлдауды жылдамдатады"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "The password option is illegal everywhere",
+              "ru": "Вариант с паролем везде незаконен",
+              "kk": "Пароль нұсқасы барлық жерде заңсыз"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Open banking guarantees you a lower interest rate",
+              "ru": "Открытый банкинг гарантирует более низкую ставку",
+              "kk": "Ашық банкинг сізге төмен пайыздық мөлшерлеме кепілдейді"
+            },
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type": "single_choice",
+        "order_index": 4,
+        "question_text": {
+          "en": "A friend says a fintech super-app is basically a bank that replaced the banks. What is the more accurate view?",
+          "ru": "Друг говорит, что финтех-суперприложение — это по сути банк, который заменил банки. Какой взгляд точнее?",
+          "kk": "Досыңыз финтех суперқолданба — банктерді алмастырған банк дейді. Дәлірек көзқарас қандай?"
+        },
+        "answers": [
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It mostly layers software on existing rails and partner banks, bundling several services into one app",
+              "ru": "Оно в основном накладывает софт на существующие рельсы и банки-партнёры, объединяя несколько услуг в одном приложении",
+              "kk": "Ол көбіне бар рельстер мен серіктес банктердің үстіне софт қойып, бірнеше қызметті бір қолданбаға біріктіреді"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It runs its own independent money system with no banks involved",
+              "ru": "Оно запускает собственную независимую денежную систему без участия банков",
+              "kk": "Ол банктер қатыспайтын өз тәуелсіз ақша жүйесін жүргізеді"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It is only a budgeting tool with no real payments",
+              "ru": "Это только инструмент бюджета без реальных платежей",
+              "kk": "Бұл нақты төлемдері жоқ тек бюджет құралы"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It is identical to a single-purpose payment app",
+              "ru": "Оно идентично однофункциональному платёжному приложению",
+              "kk": "Ол бір мақсатты төлем қолданбасымен бірдей"
+            },
+            "is_correct": false
+          }
+        ]
+      }
     ]
   }
 }

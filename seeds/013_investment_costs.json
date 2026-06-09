@@ -1,18 +1,35 @@
 {
-  "section":"investing_basics",
+  "section": "investing_basics",
   "topic": {
     "code": "investment_costs",
     "orderIndex": 13,
-    "title": {"en": "Investment Costs"},
-    "description": {"en": "How fees silently compound against you, the costs you never see on a statement, and why a single percent matters enormously over decades."},
+    "icon_path": "assets/topics/013.png",
+    "title": {
+      "en": "Investment Costs",
+      "ru": "Инвестиционные издержки",
+      "kk": "Инвестициялық шығындар"
+    },
+    "description": {
+      "en": "How fees silently compound against you, the costs you never see on a statement, and why a single percent matters enormously over decades.",
+      "ru": "Как комиссии незаметно работают против вас через сложный процент, какие расходы не видны в выписке и почему один процент имеет огромное значение на горизонте десятилетий.",
+      "kk": "Комиссиялар күрделі өсім арқылы сізге қалай үнсіз қарсы жұмыс істейді, үзінді көшірмеде көрінбейтін шығындар қандай және неге бір пайыздың өзі ондаған жылда өте маңызды болады."
+    },
     "level": "intermediate",
     "prerequisite_id": null
   },
   "subtopics": [
     {
       "code": "fees_the_silent_killer",
-      "title": {"en": "Fees: the silent wealth killer"},
-      "description": {"en": "Investment fees reduce every future return — not just today's balance. Small percentages, compounded for decades, destroy surprising amounts of wealth."},
+      "title": {
+        "en": "Fees: the silent wealth killer",
+        "ru": "Комиссии: тихий разрушитель капитала",
+        "kk": "Комиссиялар: байлықты үнсіз азайтатын фактор"
+      },
+      "description": {
+        "en": "Investment fees reduce every future return — not just today's balance. Small percentages, compounded for decades, destroy surprising amounts of wealth.",
+        "ru": "Инвестиционные комиссии уменьшают не только сегодняшний баланс, но и каждую будущую доходность. Небольшие проценты, накапливаясь десятилетиями, способны уничтожить неожиданно большую часть капитала.",
+        "kk": "Инвестициялық комиссиялар бүгінгі балансты ғана емес, барлық болашақ табысты азайтады. Ондаған жыл бойы жиналған шағын пайыздар капиталдың күтпеген үлкен бөлігін жоя алады."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 0,
       "quizId": 1301,
@@ -22,43 +39,196 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "The cost nobody talks about"},
-            "body": {"en": "Most investors watch their portfolio go up or down and never notice the steady drain happening underneath. Fees do not appear as a loss on your statement — they are simply the return you never received. That invisibility is what makes them dangerous."},
-            "tip": {"en": "A fee is not a line item. It is a missing compounding curve."}
+            "title": {
+              "en": "The cost nobody talks about",
+              "ru": "Расход, о котором почти не говорят",
+              "kk": "Көп айтылмайтын шығын"
+            },
+            "body": {
+              "en": "Most investors watch their portfolio go up or down and never notice the steady drain happening underneath. Fees do not appear as a loss on your statement — they are simply the return you never received. That invisibility is what makes them dangerous.",
+              "ru": "Большинство инвесторов следят, растёт или падает портфель, но не замечают постоянную утечку внутри. Комиссии не выглядят как убыток в выписке — это просто доходность, которую вы так и не получили. Именно невидимость делает их опасными.",
+              "kk": "Көп инвестор портфелінің өскенін немесе түскенін бақылайды, бірақ ішіндегі тұрақты ағуды байқамайды. Комиссиялар үзінді көшірмеде шығын болып көрінбейді — бұл сіз ала алмаған табыс. Олардың қауіптілігі де осы көрінбеуінде."
+            },
+            "tip": {
+              "en": "A fee is not a line item. It is a missing compounding curve.",
+              "ru": "Комиссия — это не просто строка расходов. Это недополученная кривая сложного роста.",
+              "kk": "Комиссия — жай ғана бөлек жол емес. Ол — жоғалған күрделі өсу қисығы."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "How fees reduce compound growth"},
-            "body": {"en": "Compounding means each year's return earns returns in future years. When a fee shaves off 1%, it does not just cost 1% of today's balance — it removes that amount from every future compounding cycle. The loss accelerates over time exactly the way gains do."},
-            "example": {"en": "₸1,000,000 growing at 8% for 30 years becomes ₸10,060,000. Growing at 7% (after a 1% fee), it becomes ₸7,612,000. The 1% fee cost ₸2,448,000 — nearly 2.5× the original investment."}
+            "title": {
+              "en": "How fees reduce compound growth",
+              "ru": "Как комиссии уменьшают сложный рост",
+              "kk": "Комиссиялар күрделі өсуді қалай азайтады"
+            },
+            "body": {
+              "en": "Compounding means each year's return earns returns in future years. When a fee shaves off 1%, it does not just cost 1% of today's balance — it removes that amount from every future compounding cycle. The loss accelerates over time exactly the way gains do.",
+              "ru": "Сложный процент означает, что доходность каждого года приносит доходность в последующие годы. Когда комиссия забирает 1%, она стоит не только 1% сегодняшнего баланса — она убирает эту сумму из всех будущих циклов накопления. Потеря ускоряется со временем так же, как ускоряется прибыль.",
+              "kk": "Күрделі өсім дегеніміз — әр жылдың табысы келесі жылдары тағы табыс әкеледі. Комиссия 1% алып қойса, ол бүгінгі баланстың 1%-ымен ғана шектелмейді — сол сома барлық болашақ жинақталу циклдерінен алынады. Шығын да табыс сияқты уақыт өткен сайын үдейді."
+            },
+            "example": {
+              "en": "₸1,000,000 growing at 8% for 30 years becomes ₸10,060,000. Growing at 7% (after a 1% fee), it becomes ₸7,612,000. The 1% fee cost ₸2,448,000 — nearly 2.5× the original investment.",
+              "ru": "₸1 000 000, растущие под 8% в течение 30 лет, превращаются в ₸10 060 000. При росте под 7% после комиссии 1% сумма составит ₸7 612 000. Комиссия в 1% стоила ₸2 448 000 — почти в 2,5 раза больше первоначальной инвестиции.",
+              "kk": "₸1 000 000 30 жыл бойы 8% өссе, ₸10 060 000 болады. 1% комиссиядан кейін 7% өссе, ₸7 612 000 болады. 1% комиссияның құны ₸2 448 000 — бастапқы инвестициядан шамамен 2,5 есе көп."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "What the expense ratio actually charges"},
-            "body": {"en": "The most common fund fee is the expense ratio — an annual percentage of assets under management, charged daily in tiny increments. You never write a check; the fund's NAV simply grows slightly slower than its underlying assets. A 1.5% expense ratio on a fund earning 8% means you keep 6.5%."},
-            "tip": {"en": "Expense ratios are quoted annually. A 1.5% ratio means the fund takes 1.5% of everything you have, every year, forever."}
+            "title": {
+              "en": "What the expense ratio actually charges",
+              "ru": "Что на самом деле взимает коэффициент расходов",
+              "kk": "Шығын коэффициенті нақты нені ұстайды"
+            },
+            "body": {
+              "en": "The most common fund fee is the expense ratio — an annual percentage of assets under management, charged daily in tiny increments. You never write a check; the fund's NAV simply grows slightly slower than its underlying assets. A 1.5% expense ratio on a fund earning 8% means you keep 6.5%.",
+              "ru": "Самая распространённая комиссия фонда — коэффициент расходов: годовой процент от активов под управлением, списываемый каждый день малыми долями. Вы не выписываете чек; просто СЧА фонда растёт немного медленнее, чем его базовые активы. Коэффициент расходов 1,5% у фонда с доходностью 8% означает, что вам остаётся 6,5%.",
+              "kk": "Қордағы ең кең тараған комиссия — шығын коэффициенті: басқарудағы активтердің жылдық пайызы, күн сайын өте шағын бөліктермен ұсталады. Сіз чек жазбайсыз; қордың таза актив құны базалық активтерге қарағанда сәл баяу өседі. 8% табыс әкелетін қордағы 1,5% шығын коэффициенті сізде 6,5% қалатынын білдіреді."
+            },
+            "tip": {
+              "en": "Expense ratios are quoted annually. A 1.5% ratio means the fund takes 1.5% of everything you have, every year, forever.",
+              "ru": "Коэффициенты расходов указываются в годовом выражении. Показатель 1,5% означает, что фонд забирает 1,5% от всего вашего капитала каждый год, постоянно.",
+              "kk": "Шығын коэффициенттері жылдық түрде көрсетіледі. 1,5% дегеніміз — қор жыл сайын сіздегі барлық активтің 1,5%-ын алып отырады."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Two funds, thirty years"},
+            "title": {
+              "en": "Two funds, thirty years",
+              "ru": "Два фонда, тридцать лет",
+              "kk": "Екі қор, отыз жыл"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Two investors each put ₸2,000,000 into funds tracking the same index. Both earn 8% gross. The only difference is the expense ratio."},
-                  {"type": "table", "rows": [
-                    ["", "Low-cost fund", "Expensive fund"],
-                    ["Expense ratio", "0.1%", "1.5%"],
-                    ["Net annual return", "7.9%", "6.5%"],
-                    ["Value after 30 years", "₸19,800,000", "₸12,900,000"],
-                    ["Difference", "—", "–₸6,900,000"]
-                  ]},
-                  {"type": "paragraph", "text": "The expensive fund investor paid ₸6,900,000 to receive identical market exposure. That is what the fee compounded into over 30 years."}
+                  {
+                    "type": "paragraph",
+                    "text": "Two investors each put ₸2,000,000 into funds tracking the same index. Both earn 8% gross. The only difference is the expense ratio."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Low-cost fund",
+                        "Expensive fund"
+                      ],
+                      [
+                        "Expense ratio",
+                        "0.1%",
+                        "1.5%"
+                      ],
+                      [
+                        "Net annual return",
+                        "7.9%",
+                        "6.5%"
+                      ],
+                      [
+                        "Value after 30 years",
+                        "₸19,800,000",
+                        "₸12,900,000"
+                      ],
+                      [
+                        "Difference",
+                        "—",
+                        "–₸6,900,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The expensive fund investor paid ₸6,900,000 to receive identical market exposure. That is what the fee compounded into over 30 years."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два инвестора вложили по ₸2 000 000 в фонды, отслеживающие один и тот же индекс. Оба получают 8% до комиссий. Единственное отличие — коэффициент расходов."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Фонд с низкими расходами",
+                        "Дорогой фонд"
+                      ],
+                      [
+                        "Коэффициент расходов",
+                        "0.1%",
+                        "1.5%"
+                      ],
+                      [
+                        "Чистая годовая доходность",
+                        "7.9%",
+                        "6.5%"
+                      ],
+                      [
+                        "Стоимость через 30 лет",
+                        "₸19,800,000",
+                        "₸12,900,000"
+                      ],
+                      [
+                        "Разница",
+                        "—",
+                        "–₸6,900,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор дорогого фонда заплатил ₸6 900 000 за такую же рыночную экспозицию. Вот во что превратилась комиссия за 30 лет."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі инвестор бір индексті қадағалайтын қорларға әрқайсысы ₸2 000 000 салды. Екеуі де комиссияға дейін 8% табыс табады. Жалғыз айырмашылық — шығын коэффициенті."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Төмен шығынды қор",
+                        "Қымбат қор"
+                      ],
+                      [
+                        "Шығын коэффициенті",
+                        "0.1%",
+                        "1.5%"
+                      ],
+                      [
+                        "Таза жылдық табыс",
+                        "7.9%",
+                        "6.5%"
+                      ],
+                      [
+                        "30 жылдан кейінгі құн",
+                        "₸19,800,000",
+                        "₸12,900,000"
+                      ],
+                      [
+                        "Айырмашылық",
+                        "—",
+                        "–₸6,900,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Қымбат қордың инвесторы дәл сондай нарықтық экспозиция үшін ₸6 900 000 төледі. 30 жылда комиссия осындай сомаға айналды."
+                  }
                 ]
               }
             }
@@ -67,29 +237,167 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Sort these costs"},
-            "body": {"en": "Not every charge works the same way. Drag each fee type to how it is extracted from your investment."},
+            "title": {
+              "en": "Sort these costs",
+              "ru": "Распределите эти расходы",
+              "kk": "Осы шығындарды сұрыптаңыз"
+            },
+            "body": {
+              "en": "Not every charge works the same way. Drag each fee type to how it is extracted from your investment.",
+              "ru": "Не каждый сбор работает одинаково. Перетащите каждый тип комиссии туда, где показано, как она взимается с вашей инвестиции.",
+              "kk": "Әрбір төлем бірдей жұмыс істемейді. Әр комиссия түрін инвестициядан қалай алынатынына қарай сүйреп апарыңыз."
+            },
             "interactiveType": "drag_drop",
             "interactiveContent": {
               "en": {
                 "instruction": "Sort each fee type by how it is charged.",
                 "categories": [
-                  {"id": "annual_pct", "label": "Taken as % of assets annually"},
-                  {"id": "per_trade", "label": "Charged per transaction"}
+                  {
+                    "id": "annual_pct",
+                    "label": "Taken as % of assets annually"
+                  },
+                  {
+                    "id": "per_trade",
+                    "label": "Charged per transaction"
+                  }
                 ],
                 "items": [
-                  {"id": "expense_ratio", "text": "Expense ratio"},
-                  {"id": "management_fee", "text": "Fund management fee"},
-                  {"id": "brokerage_comm", "text": "Brokerage commission"},
-                  {"id": "transaction_fee", "text": "Transaction fee"}
+                  {
+                    "id": "expense_ratio",
+                    "text": "Expense ratio"
+                  },
+                  {
+                    "id": "management_fee",
+                    "text": "Fund management fee"
+                  },
+                  {
+                    "id": "brokerage_comm",
+                    "text": "Brokerage commission"
+                  },
+                  {
+                    "id": "transaction_fee",
+                    "text": "Transaction fee"
+                  }
                 ],
                 "answers": [
-                  {"itemId": "expense_ratio", "categoryId": "annual_pct"},
-                  {"itemId": "management_fee", "categoryId": "annual_pct"},
-                  {"itemId": "brokerage_comm", "categoryId": "per_trade"},
-                  {"itemId": "transaction_fee", "categoryId": "per_trade"}
+                  {
+                    "itemId": "expense_ratio",
+                    "categoryId": "annual_pct"
+                  },
+                  {
+                    "itemId": "management_fee",
+                    "categoryId": "annual_pct"
+                  },
+                  {
+                    "itemId": "brokerage_comm",
+                    "categoryId": "per_trade"
+                  },
+                  {
+                    "itemId": "transaction_fee",
+                    "categoryId": "per_trade"
+                  }
                 ],
                 "explanation": "Annual percentage fees compound against you over time and are usually the larger long-term cost. Transaction fees hurt most when you trade frequently on small amounts."
+              },
+              "ru": {
+                "instruction": "Распределите каждый тип комиссии по способу её взимания.",
+                "categories": [
+                  {
+                    "id": "annual_pct",
+                    "label": "Взимается как % от активов ежегодно"
+                  },
+                  {
+                    "id": "per_trade",
+                    "label": "Взимается за каждую сделку"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "expense_ratio",
+                    "text": "Коэффициент расходов"
+                  },
+                  {
+                    "id": "management_fee",
+                    "text": "Комиссия за управление фондом"
+                  },
+                  {
+                    "id": "brokerage_comm",
+                    "text": "Брокерская комиссия"
+                  },
+                  {
+                    "id": "transaction_fee",
+                    "text": "Комиссия за транзакцию"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "expense_ratio",
+                    "categoryId": "annual_pct"
+                  },
+                  {
+                    "itemId": "management_fee",
+                    "categoryId": "annual_pct"
+                  },
+                  {
+                    "itemId": "brokerage_comm",
+                    "categoryId": "per_trade"
+                  },
+                  {
+                    "itemId": "transaction_fee",
+                    "categoryId": "per_trade"
+                  }
+                ],
+                "explanation": "Ежегодные процентные комиссии со временем работают против вас через сложный эффект и обычно становятся главным долгосрочным расходом. Комиссии за транзакции сильнее всего вредят, когда вы часто торгуете небольшими суммами."
+              },
+              "kk": {
+                "instruction": "Әр комиссия түрін алыну тәсілі бойынша сұрыптаңыз.",
+                "categories": [
+                  {
+                    "id": "annual_pct",
+                    "label": "Жыл сайын активтердің % ретінде алынады"
+                  },
+                  {
+                    "id": "per_trade",
+                    "label": "Әр транзакция үшін алынады"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "expense_ratio",
+                    "text": "Шығын коэффициенті"
+                  },
+                  {
+                    "id": "management_fee",
+                    "text": "Қорды басқару комиссиясы"
+                  },
+                  {
+                    "id": "brokerage_comm",
+                    "text": "Брокерлік комиссия"
+                  },
+                  {
+                    "id": "transaction_fee",
+                    "text": "Транзакция комиссиясы"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "expense_ratio",
+                    "categoryId": "annual_pct"
+                  },
+                  {
+                    "itemId": "management_fee",
+                    "categoryId": "annual_pct"
+                  },
+                  {
+                    "itemId": "brokerage_comm",
+                    "categoryId": "per_trade"
+                  },
+                  {
+                    "itemId": "transaction_fee",
+                    "categoryId": "per_trade"
+                  }
+                ],
+                "explanation": "Жылдық пайыздық комиссиялар уақыт өте күрделі түрде сізге қарсы жұмыс істейді және әдетте ұзақ мерзімдегі ең үлкен шығын болады. Транзакция комиссиялары әсіресе шағын сомамен жиі сауда жасағанда зиян келтіреді."
               }
             }
           },
@@ -97,51 +405,187 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "The fee question is always worth asking"},
-            "body": {"en": "Fees are the one investment variable entirely within your control. Market returns fluctuate; fees do not. Before choosing any fund, ask: what is the expense ratio, and what do I get for it? Paying more is only justified when it produces reliably more — which, for most funds, the evidence does not support."},
-            "tip": {"en": "Total cost of ownership matters more than the advertised return. Always read the fee before the performance chart."}
+            "title": {
+              "en": "The fee question is always worth asking",
+              "ru": "Вопрос о комиссиях всегда стоит задать",
+              "kk": "Комиссия туралы сұрақты әрқашан қою керек"
+            },
+            "body": {
+              "en": "Fees are the one investment variable entirely within your control. Market returns fluctuate; fees do not. Before choosing any fund, ask: what is the expense ratio, and what do I get for it? Paying more is only justified when it produces reliably more — which, for most funds, the evidence does not support.",
+              "ru": "Комиссии — это единственная инвестиционная переменная, полностью находящаяся под вашим контролем. Рыночная доходность меняется, комиссии — нет. Перед выбором фонда спросите: каков коэффициент расходов и что я получаю взамен? Платить больше оправдано только тогда, когда это стабильно даёт больше, а для большинства фондов доказательств этого нет.",
+              "kk": "Комиссиялар — сіз толық бақылай алатын жалғыз инвестициялық айнымалы. Нарықтық табыс өзгеріп тұрады, ал комиссиялар өзгермейді. Қор таңдаудан бұрын сұраңыз: шығын коэффициенті қанша және мен ол үшін не аламын? Көбірек төлеу тұрақты түрде көбірек нәтиже берсе ғана орынды, ал көп қорда мұны дәлелдейтін дерек жоқ."
+            },
+            "tip": {
+              "en": "Total cost of ownership matters more than the advertised return. Always read the fee before the performance chart.",
+              "ru": "Полная стоимость владения важнее заявленной доходности. Всегда смотрите комиссии до графика результатов.",
+              "kk": "Иеленудің толық құны жарнамаланған табыстан маңыздырақ. Нәтиже графигінен бұрын комиссияны оқыңыз."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1301,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Fees: the silent wealth killer — Check"},
+        "title": {
+          "en": "Fees: the silent wealth killer — Check",
+          "ru": "Комиссии: тихий разрушитель капитала — проверка",
+          "kk": "Комиссиялар: байлықты үнсіз азайтатын фактор — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "An investor switches from a 1.2% expense ratio fund to a 0.15% fund tracking the same index. What is the primary source of the long-term gain from this switch?"},
+            "question_text": {
+              "en": "An investor switches from a 1.2% expense ratio fund to a 0.15% fund tracking the same index. What is the primary source of the long-term gain from this switch?",
+              "ru": "Инвестор переходит из фонда с коэффициентом расходов 1,2% в фонд с коэффициентом 0,15%, отслеживающий тот же индекс. В чём главный источник долгосрочной выгоды от такого перехода?",
+              "kk": "Инвестор шығын коэффициенті 1,2% қордан сол индексті қадағалайтын 0,15% қорға ауысады. Бұл ауысудың ұзақ мерзімді негізгі пайдасы неден туындайды?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "The saved fee now compounds alongside the investment, growing larger each year"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "The lower-cost fund tracks the index more accurately, producing higher gross returns"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Brokers charge lower transaction fees on cheaper funds"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "The fee reduction appears as a one-time credit to the account"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The saved fee now compounds alongside the investment, growing larger each year",
+                  "ru": "Сэкономленная комиссия теперь накапливается вместе с инвестицией и с каждым годом становится больше",
+                  "kk": "Үнемделген комиссия енді инвестициямен бірге жиналып, жыл сайын ұлғаяды"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The lower-cost fund tracks the index more accurately, producing higher gross returns",
+                  "ru": "Более дешёвый фонд точнее отслеживает индекс и поэтому даёт более высокую валовую доходность",
+                  "kk": "Арзан қор индексті дәлірек қадағалап, жоғары жалпы табыс береді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Brokers charge lower transaction fees on cheaper funds",
+                  "ru": "Брокеры берут меньшие транзакционные комиссии за более дешёвые фонды",
+                  "kk": "Брокерлер арзан қорлар үшін төмен транзакция комиссиясын алады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The fee reduction appears as a one-time credit to the account",
+                  "ru": "Снижение комиссии появляется на счёте как единовременное зачисление",
+                  "kk": "Комиссияның азаюы шотқа бір реттік түсім ретінде түседі"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "A fund charges a 1.8% annual expense ratio and earned 7% last year. What did the investor actually receive?"},
+            "question_text": {
+              "en": "A fund charges a 1.8% annual expense ratio and earned 7% last year. What did the investor actually receive?",
+              "ru": "Фонд взимает годовой коэффициент расходов 1,8% и заработал 7% за прошлый год. Сколько фактически получил инвестор?",
+              "kk": "Қор жылдық 1,8% шығын коэффициентін алады және өткен жылы 7% тапты. Инвестор нақты қанша алды?"
+            },
             "answers": [
-              {"id": 5, "order_index": 0, "answer_text": {"en": "5.2%, because the expense ratio is deducted from gross return"}, "is_correct": true},
-              {"id": 6, "order_index": 1, "answer_text": {"en": "7%, because fees are charged separately from performance"}, "is_correct": false},
-              {"id": 7, "order_index": 2, "answer_text": {"en": "8.8%, because the fee is added to the return as an incentive"}, "is_correct": false},
-              {"id": 8, "order_index": 3, "answer_text": {"en": "7% minus a flat ₸18,000 per ₸1,000,000 invested"}, "is_correct": false}
+              {
+                "id": 5,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "5.2%, because the expense ratio is deducted from gross return",
+                  "ru": "5,2%, потому что коэффициент расходов вычитается из валовой доходности",
+                  "kk": "5,2%, себебі шығын коэффициенті жалпы табыстан шегеріледі"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 6,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "7%, because fees are charged separately from performance",
+                  "ru": "7%, потому что комиссии взимаются отдельно от результатов",
+                  "kk": "7%, себебі комиссиялар нәтижеден бөлек алынады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 7,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "8.8%, because the fee is added to the return as an incentive",
+                  "ru": "8,8%, потому что комиссия добавляется к доходности как стимул",
+                  "kk": "8,8%, себебі комиссия ынталандыру ретінде табысқа қосылады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 8,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "7% minus a flat ₸18,000 per ₸1,000,000 invested",
+                  "ru": "7% минус фиксированные ₸18 000 за каждый инвестированный ₸1 000 000",
+                  "kk": "7% минус әр инвестицияланған ₸1 000 000 үшін тұрақты ₸18 000"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 3,
             "question_type": "single_choice",
             "order_index": 2,
-            "question_text": {"en": "Why do expense ratio costs grow larger in absolute terms over time, even if the percentage stays constant?"},
+            "question_text": {
+              "en": "Why do expense ratio costs grow larger in absolute terms over time, even if the percentage stays constant?",
+              "ru": "Почему расходы по коэффициенту расходов со временем растут в абсолютном выражении, даже если процент остаётся постоянным?",
+              "kk": "Пайыз тұрақты болса да, шығын коэффициентінің шығыны уақыт өте абсолют мәнде неге өседі?"
+            },
             "answers": [
-              {"id": 9, "order_index": 0, "answer_text": {"en": "The fee is applied to a growing balance, so the same percentage extracts more money as the portfolio grows"}, "is_correct": true},
-              {"id": 10, "order_index": 1, "answer_text": {"en": "Fund managers raise their rates every year to match inflation"}, "is_correct": false},
-              {"id": 11, "order_index": 2, "answer_text": {"en": "Regulators require higher fees as funds accumulate more assets"}, "is_correct": false},
-              {"id": 12, "order_index": 3, "answer_text": {"en": "The percentage is applied to cumulative deposits, not the current balance"}, "is_correct": false}
+              {
+                "id": 9,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The fee is applied to a growing balance, so the same percentage extracts more money as the portfolio grows",
+                  "ru": "Комиссия применяется к растущему балансу, поэтому тот же процент забирает всё больше денег по мере роста портфеля",
+                  "kk": "Комиссия өсіп жатқан балансқа қолданылады, сондықтан портфель өскен сайын сол пайыз көбірек ақша алады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 10,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Fund managers raise their rates every year to match inflation",
+                  "ru": "Управляющие фондами ежегодно повышают ставки, чтобы соответствовать инфляции",
+                  "kk": "Қор менеджерлері инфляцияға сай жыл сайын мөлшерлемелерін көтереді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 11,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Regulators require higher fees as funds accumulate more assets",
+                  "ru": "Регуляторы требуют повышать комиссии по мере роста активов фонда",
+                  "kk": "Қор активтері көбейген сайын реттеушілер жоғары комиссия талап етеді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 12,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The percentage is applied to cumulative deposits, not the current balance",
+                  "ru": "Процент применяется к сумме всех внесённых средств, а не к текущему балансу",
+                  "kk": "Пайыз ағымдағы балансқа емес, барлық салымдардың жиынтығына қолданылады"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -149,8 +593,16 @@
     },
     {
       "code": "hidden_costs",
-      "title": {"en": "Hidden costs"},
-      "description": {"en": "Beyond the expense ratio, investments carry costs that never appear on a statement: bid-ask spreads, turnover taxes, load charges, and advisor markups."},
+      "title": {
+        "en": "Hidden costs",
+        "ru": "Скрытые издержки",
+        "kk": "Жасырын шығындар"
+      },
+      "description": {
+        "en": "Beyond the expense ratio, investments carry costs that never appear on a statement: bid-ask spreads, turnover taxes, load charges, and advisor markups.",
+        "ru": "Помимо коэффициента расходов, у инвестиций есть издержки, которые не появляются в выписке: спреды bid-ask, налоговые издержки из-за оборота, входные/выходные комиссии и наценки советников.",
+        "kk": "Шығын коэффициентінен бөлек, инвестицияларда үзінді көшірмеде көрінбейтін шығындар бар: bid-ask спредтері, айналымға байланысты салықтар, кіріс/шығыс комиссиялары және кеңесші үстемелері."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 1,
       "quizId": 1302,
@@ -160,44 +612,211 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "The costs that never show up"},
-            "body": {"en": "The expense ratio is printed in every fund prospectus. The real cost of owning that fund is higher. Several charges are built into prices, transaction mechanics, and fund behavior — invisible on your statement, but real drains on return."},
-            "tip": {"en": "If a fee is never listed, it does not mean it was not paid."}
+            "title": {
+              "en": "The costs that never show up",
+              "ru": "Издержки, которые не отображаются",
+              "kk": "Ешқашан көрінбейтін шығындар"
+            },
+            "body": {
+              "en": "The expense ratio is printed in every fund prospectus. The real cost of owning that fund is higher. Several charges are built into prices, transaction mechanics, and fund behavior — invisible on your statement, but real drains on return.",
+              "ru": "Коэффициент расходов указан в каждом проспекте фонда. Но реальная стоимость владения фондом выше. Некоторые издержки встроены в цены, механику сделок и поведение фонда — они невидимы в выписке, но реально уменьшают доходность.",
+              "kk": "Шығын коэффициенті әр қор проспектісінде жазылады. Бірақ қорды иеленудің нақты құны одан жоғары. Бірнеше шығын бағаға, мәміле механикасына және қордың әрекетіне енгізілген — үзінді көшірмеде көрінбейді, бірақ табысты нақты азайтады."
+            },
+            "tip": {
+              "en": "If a fee is never listed, it does not mean it was not paid.",
+              "ru": "Если комиссия нигде не указана, это не значит, что она не была уплачена.",
+              "kk": "Комиссия көрсетілмесе, ол төленбеді деген сөз емес."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Bid-ask spread and market impact"},
-            "body": {"en": "Every time you buy or sell a security, you transact at a slightly worse price than the midpoint. The spread between the buy price (ask) and sell price (bid) is captured by market makers, not your broker. For liquid stocks this is tiny; for thinly-traded ETFs or bonds, it can be 0.5–1% per trade."},
-            "example": {"en": "You buy an ETF with a bid of ₸10,000 and an ask of ₸10,080. You immediately pay an 0.8% hidden cost before the position even begins earning. Sell the same day and you pay it again."}
+            "title": {
+              "en": "Bid-ask spread and market impact",
+              "ru": "Спред bid-ask и рыночное влияние",
+              "kk": "Bid-ask спреді және нарықтық әсер"
+            },
+            "body": {
+              "en": "Every time you buy or sell a security, you transact at a slightly worse price than the midpoint. The spread between the buy price (ask) and sell price (bid) is captured by market makers, not your broker. For liquid stocks this is tiny; for thinly-traded ETFs or bonds, it can be 0.5–1% per trade.",
+              "ru": "Каждый раз, когда вы покупаете или продаёте ценную бумагу, сделка проходит по цене немного хуже средней. Разницу между ценой покупки (ask) и продажи (bid) забирают маркет-мейкеры, а не ваш брокер. Для ликвидных акций это почти незаметно; для малоликвидных ETF или облигаций это может быть 0,5–1% за сделку.",
+              "kk": "Бағалы қағазды сатып алған немесе сатқан сайын сіз орташа бағадан сәл нашар бағамен мәміле жасайсыз. Сатып алу бағасы (ask) мен сату бағасы (bid) арасындағы спредті брокер емес, маркет-мейкерлер алады. Өтімді акцияларда бұл өте аз; сирек сатылатын ETF немесе облигацияларда бір мәміле үшін 0,5–1% болуы мүмкін."
+            },
+            "example": {
+              "en": "You buy an ETF with a bid of ₸10,000 and an ask of ₸10,080. You immediately pay an 0.8% hidden cost before the position even begins earning. Sell the same day and you pay it again.",
+              "ru": "Вы покупаете ETF с bid ₸10 000 и ask ₸10 080. Вы сразу платите скрытую издержку 0,8% ещё до того, как позиция начнёт приносить доход. Продадите в тот же день — заплатите её снова.",
+              "kk": "Сіз bid бағасы ₸10 000, ask бағасы ₸10 080 болатын ETF сатып аласыз. Позиция табыс әкелмей тұрып-ақ 0,8% жасырын шығын төлейсіз. Сол күні сатсаңыз, оны қайта төлейсіз."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Turnover, loads, and advisor markups"},
-            "body": {"en": "Active funds trade frequently; each trade incurs spread costs and, in taxable accounts, triggers capital gains taxes. Front-end loads (entry fees up to 5%) and back-end loads (exit fees) are charged directly and are especially common with funds sold through financial advisors. Some advisors also charge a 'wrap fee' — an annual percentage of assets on top of the fund's own expense ratio."},
-            "tip": {"en": "A 1% advisor wrap fee + 0.8% fund expense ratio + transaction costs can easily total 2.5% per year — before you have earned anything."}
+            "title": {
+              "en": "Turnover, loads, and advisor markups",
+              "ru": "Оборот, входные/выходные комиссии и наценки советников",
+              "kk": "Айналым, кіру/шығу комиссиялары және кеңесші үстемелері"
+            },
+            "body": {
+              "en": "Active funds trade frequently; each trade incurs spread costs and, in taxable accounts, triggers capital gains taxes. Front-end loads (entry fees up to 5%) and back-end loads (exit fees) are charged directly and are especially common with funds sold through financial advisors. Some advisors also charge a 'wrap fee' — an annual percentage of assets on top of the fund's own expense ratio.",
+              "ru": "Активные фонды часто совершают сделки; каждая сделка создаёт расходы на спред, а на налогооблагаемых счетах может запускать налог на прирост капитала. Front-end load — входная комиссия до 5% — и back-end load — комиссия при выходе — взимаются напрямую и особенно часто встречаются у фондов, продаваемых через финансовых советников. Некоторые советники также берут wrap fee — годовой процент от активов сверх собственного коэффициента расходов фонда.",
+              "kk": "Белсенді қорлар жиі сауда жасайды; әр мәміле спред шығынын тудырады, ал салық салынатын шоттарда капитал өсіміне салық туындатуы мүмкін. Front-end load — 5%-ға дейінгі кіру комиссиясы, back-end load — шығу комиссиясы — тікелей алынады және әсіресе қаржы кеңесшілері арқылы сатылатын қорларда жиі кездеседі. Кейбір кеңесшілер сондай-ақ wrap fee алады — қордың өз шығын коэффициентіне қоса активтердің жылдық пайызы."
+            },
+            "tip": {
+              "en": "A 1% advisor wrap fee + 0.8% fund expense ratio + transaction costs can easily total 2.5% per year — before you have earned anything.",
+              "ru": "Wrap fee советника 1% + коэффициент расходов фонда 0,8% + транзакционные издержки легко могут дать 2,5% в год — ещё до того, как вы что-либо заработали.",
+              "kk": "Кеңесшінің 1% wrap fee-і + қордың 0,8% шығын коэффициенті + транзакциялық шығындар оңай 2,5% жылдық шығынға жетуі мүмкін — сіз бірдеңе таппай тұрып."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "The full cost stack"},
+            "title": {
+              "en": "The full cost stack",
+              "ru": "Полный набор издержек",
+              "kk": "Толық шығын қабаттары"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "An investor in an actively-managed fund sold through an advisor accumulates the following charges on a ₸5,000,000 position:"},
-                  {"type": "table", "rows": [
-                    ["Cost layer", "Type", "Annual cost"],
-                    ["Fund expense ratio", "Visible", "₸60,000 (1.2%)"],
-                    ["Advisor wrap fee", "Visible on advisor statement", "₸50,000 (1.0%)"],
-                    ["Bid-ask spread (estimated)", "Hidden", "₸15,000 (0.3%)"],
-                    ["Turnover-related tax drag", "Hidden", "₸25,000 (0.5%)"],
-                    ["Total", "", "₸150,000 (3.0%)"]
-                  ]},
-                  {"type": "paragraph", "text": "If the market earns 8%, this investor keeps 5%. The same exposure via a 0.1% index ETF held in a tax-efficient account would cost roughly ₸5,000 per year."}
+                  {
+                    "type": "paragraph",
+                    "text": "An investor in an actively-managed fund sold through an advisor accumulates the following charges on a ₸5,000,000 position:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Cost layer",
+                        "Type",
+                        "Annual cost"
+                      ],
+                      [
+                        "Fund expense ratio",
+                        "Visible",
+                        "₸60,000 (1.2%)"
+                      ],
+                      [
+                        "Advisor wrap fee",
+                        "Visible on advisor statement",
+                        "₸50,000 (1.0%)"
+                      ],
+                      [
+                        "Bid-ask spread (estimated)",
+                        "Hidden",
+                        "₸15,000 (0.3%)"
+                      ],
+                      [
+                        "Turnover-related tax drag",
+                        "Hidden",
+                        "₸25,000 (0.5%)"
+                      ],
+                      [
+                        "Total",
+                        "",
+                        "₸150,000 (3.0%)"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "If the market earns 8%, this investor keeps 5%. The same exposure via a 0.1% index ETF held in a tax-efficient account would cost roughly ₸5,000 per year."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор в активно управляемом фонде, проданном через советника, получает следующие расходы по позиции ₸5 000 000:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Слой издержек",
+                        "Тип",
+                        "Годовая стоимость"
+                      ],
+                      [
+                        "Коэффициент расходов фонда",
+                        "Видимый",
+                        "₸60,000 (1.2%)"
+                      ],
+                      [
+                        "Wrap fee советника",
+                        "Видно в отчёте советника",
+                        "₸50,000 (1.0%)"
+                      ],
+                      [
+                        "Спред bid-ask (оценка)",
+                        "Скрытый",
+                        "₸15,000 (0.3%)"
+                      ],
+                      [
+                        "Налоговая нагрузка из-за оборота",
+                        "Скрытый",
+                        "₸25,000 (0.5%)"
+                      ],
+                      [
+                        "Итого",
+                        "",
+                        "₸150,000 (3.0%)"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Если рынок зарабатывает 8%, этому инвестору остаётся 5%. Такая же экспозиция через индексный ETF с расходами 0,1% на налогово эффективном счёте стоила бы примерно ₸5 000 в год."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Кеңесші арқылы сатылған белсенді басқарылатын қордағы инвестор ₸5 000 000 позициясы бойынша мынадай шығындарға ұшырайды:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Шығын қабаты",
+                        "Түрі",
+                        "Жылдық құны"
+                      ],
+                      [
+                        "Қордың шығын коэффициенті",
+                        "Көрінетін",
+                        "₸60,000 (1.2%)"
+                      ],
+                      [
+                        "Кеңесшінің wrap fee-і",
+                        "Кеңесші есебінде көрінеді",
+                        "₸50,000 (1.0%)"
+                      ],
+                      [
+                        "Bid-ask спреді (бағалау)",
+                        "Жасырын",
+                        "₸15,000 (0.3%)"
+                      ],
+                      [
+                        "Айналымға байланысты салықтық тежелу",
+                        "Жасырын",
+                        "₸25,000 (0.5%)"
+                      ],
+                      [
+                        "Барлығы",
+                        "",
+                        "₸150,000 (3.0%)"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Нарық 8% тапса, бұл инвесторда 5% қалады. Дәл сондай экспозицияны салық жағынан тиімді шотта 0,1% индекс ETF арқылы алу жылына шамамен ₸5 000 тұрар еді."
+                  }
                 ]
               }
             }
@@ -206,8 +825,16 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Spot the errors in this investment pitch"},
-            "body": {"en": "A fund salesperson makes three claims. Identify which statements misrepresent the true cost picture."},
+            "title": {
+              "en": "Spot the errors in this investment pitch",
+              "ru": "Найдите ошибки в инвестиционной презентации",
+              "kk": "Осы инвестициялық ұсыныстағы қателерді табыңыз"
+            },
+            "body": {
+              "en": "A fund salesperson makes three claims. Identify which statements misrepresent the true cost picture.",
+              "ru": "Продавец фонда делает три заявления. Определите, какие из них искажают реальную картину издержек.",
+              "kk": "Қор сатушысы үш мәлімдеме жасайды. Қайсысы нақты шығын көрінісін бұрмалайтынын анықтаңыз."
+            },
             "interactiveType": "error_detector",
             "interactiveContent": {
               "en": {
@@ -215,24 +842,99 @@
                 "cases": [
                   {
                     "text": "\"Our fund has no fees — we only charge a 1.5% expense ratio, which is deducted from fund assets, not from your account.\"",
-                    "options": ["a) No error — expense ratios are separate from fees", "b) Error — expense ratios are fees, taken from investor assets"],
+                    "options": [
+                      "a) No error — expense ratios are separate from fees",
+                      "b) Error — expense ratios are fees, taken from investor assets"
+                    ],
                     "correct": "b",
                     "explanation": "Expense ratios are fees. They reduce the fund's NAV daily, which is equivalent to taking money from every investor's share of the fund."
                   },
                   {
                     "text": "\"There is no cost to sell. Our back-end load only applies if you exit within 5 years.\"",
-                    "options": ["a) No error — the load only applies under specific conditions", "b) Error — calling a conditional fee 'no cost' is misleading"],
+                    "options": [
+                      "a) No error — the load only applies under specific conditions",
+                      "b) Error — calling a conditional fee 'no cost' is misleading"
+                    ],
                     "correct": "b",
                     "explanation": "A back-end load is a real cost. Framing it as 'no cost' because it is conditional on exit timing understates the actual fee structure. Most investors do not know their holding period in advance."
                   },
                   {
                     "text": "\"Our expense ratio is 0.75%, so your total cost of ownership is 0.75% per year.\"",
-                    "options": ["a) No error — the expense ratio is the total cost", "b) Error — the expense ratio excludes spread, turnover, and possible advisor fees"],
+                    "options": [
+                      "a) No error — the expense ratio is the total cost",
+                      "b) Error — the expense ratio excludes spread, turnover, and possible advisor fees"
+                    ],
                     "correct": "b",
                     "explanation": "Expense ratio is only one layer. Transaction costs, bid-ask spreads, tax drag from portfolio turnover, and any advisor fees layer on top."
                   }
                 ],
                 "final_explanation": "The total cost of owning an investment includes every layer: the stated expense ratio, transaction mechanics, tax drag, and third-party advisor charges. The expense ratio alone is always an underestimate."
+              },
+              "ru": {
+                "instruction": "Каждое утверждение ниже взято из презентации фонда. Определите, есть ли в нём ошибка.",
+                "cases": [
+                  {
+                    "text": "«У нашего фонда нет комиссий — мы берём только коэффициент расходов 1,5%, который вычитается из активов фонда, а не с вашего счёта».",
+                    "options": [
+                      "a) Ошибки нет — коэффициенты расходов отдельно от комиссий",
+                      "b) Ошибка — коэффициенты расходов являются комиссиями и берутся из активов инвесторов"
+                    ],
+                    "correct": "b",
+                    "explanation": "Коэффициенты расходов — это комиссии. Они ежедневно уменьшают СЧА фонда, что равнозначно списанию денег из доли каждого инвестора в фонде."
+                  },
+                  {
+                    "text": "«Продажа ничего не стоит. Наша комиссия при выходе применяется только если вы выходите в течение 5 лет».",
+                    "options": [
+                      "a) Ошибки нет — комиссия применяется только при определённых условиях",
+                      "b) Ошибка — называть условную комиссию «нулевой стоимостью» вводит в заблуждение"
+                    ],
+                    "correct": "b",
+                    "explanation": "Комиссия при выходе — реальная издержка. Представлять её как «нулевую стоимость» только потому, что она зависит от срока выхода, значит занижать реальную структуру комиссий. Большинство инвесторов заранее не знают точный срок владения."
+                  },
+                  {
+                    "text": "«Наш коэффициент расходов — 0,75%, значит ваша полная стоимость владения составляет 0,75% в год».",
+                    "options": [
+                      "a) Ошибки нет — коэффициент расходов и есть полная стоимость",
+                      "b) Ошибка — коэффициент расходов не включает спред, оборот и возможные комиссии советника"
+                    ],
+                    "correct": "b",
+                    "explanation": "Коэффициент расходов — лишь один слой. Сверху добавляются транзакционные расходы, спреды bid-ask, налоговая нагрузка от оборота портфеля и любые комиссии советника."
+                  }
+                ],
+                "final_explanation": "Полная стоимость владения инвестицией включает все слои: заявленный коэффициент расходов, механику сделок, налоговую нагрузку и комиссии стороннего советника. Один только коэффициент расходов всегда занижает реальную стоимость."
+              },
+              "kk": {
+                "instruction": "Төмендегі әр мәлімдеме қор ұсынысынан алынған. Онда қате бар-жоғын анықтаңыз.",
+                "cases": [
+                  {
+                    "text": "«Біздің қорда комиссия жоқ — біз тек 1,5% шығын коэффициентін аламыз, ол сіздің шотыңыздан емес, қор активтерінен шегеріледі».",
+                    "options": [
+                      "a) Қате жоқ — шығын коэффициенттері комиссиялардан бөлек",
+                      "b) Қате — шығын коэффициенттері инвестор активтерінен алынатын комиссиялар"
+                    ],
+                    "correct": "b",
+                    "explanation": "Шығын коэффициенттері — комиссиялар. Олар қордың таза актив құнын күн сайын азайтады, бұл әр инвестордың қордағы үлесінен ақша алғанмен тең."
+                  },
+                  {
+                    "text": "«Сату құны жоқ. Біздің шығу комиссиямыз тек 5 жыл ішінде шықсаңыз ғана қолданылады».",
+                    "options": [
+                      "a) Қате жоқ — комиссия тек белгілі бір шарттарда қолданылады",
+                      "b) Қате — шартты комиссияны «құны жоқ» деп атау жаңылыстырады"
+                    ],
+                    "correct": "b",
+                    "explanation": "Шығу комиссиясы — нақты шығын. Ол шығу уақытына байланысты болғандықтан «құны жоқ» деп көрсету нақты комиссия құрылымын төмендетіп көрсетеді. Көп инвестор ұстау мерзімін алдын ала білмейді."
+                  },
+                  {
+                    "text": "«Біздің шығын коэффициентіміз 0,75%, демек сіздің толық иелену құныңыз жылына 0,75%».",
+                    "options": [
+                      "a) Қате жоқ — шығын коэффициенті толық құнның өзі",
+                      "b) Қате — шығын коэффициенті спредті, айналымды және ықтимал кеңесші комиссияларын қамтымайды"
+                    ],
+                    "correct": "b",
+                    "explanation": "Шығын коэффициенті — тек бір қабат. Оның үстіне транзакциялық шығындар, bid-ask спредтері, портфель айналымынан болатын салықтық тежелу және кез келген кеңесші комиссиялары қосылады."
+                  }
+                ],
+                "final_explanation": "Инвестицияны иеленудің толық құны барлық қабатты қамтиды: көрсетілген шығын коэффициенті, мәміле механикасы, салықтық тежелу және үшінші тарап кеңесші алымдары. Жалғыз шығын коэффициенті әрдайым нақты құнды төмендетіп көрсетеді."
               }
             }
           },
@@ -240,39 +942,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Ask for the all-in cost"},
-            "body": {"en": "When evaluating any investment, the question to ask is not 'what is the expense ratio?' but 'what is my all-in annual cost?' Add the expense ratio, any advisor fee, estimated spread costs (higher for illiquid assets), and the tax efficiency of the fund's trading strategy. The difference between a 0.2% and a 3% all-in cost is often larger than the difference in gross returns between funds."},
-            "tip": {"en": "Request a full fee disclosure from any advisor. A trustworthy one will give it to you without hesitation."}
+            "title": {
+              "en": "Ask for the all-in cost",
+              "ru": "Запрашивайте полную стоимость",
+              "kk": "Толық құнын сұраңыз"
+            },
+            "body": {
+              "en": "When evaluating any investment, the question to ask is not 'what is the expense ratio?' but 'what is my all-in annual cost?' Add the expense ratio, any advisor fee, estimated spread costs (higher for illiquid assets), and the tax efficiency of the fund's trading strategy. The difference between a 0.2% and a 3% all-in cost is often larger than the difference in gross returns between funds.",
+              "ru": "Оценивая любую инвестицию, спрашивайте не только «каков коэффициент расходов?», а «какова моя полная годовая стоимость?». Сложите коэффициент расходов, любые комиссии советника, оценочные расходы на спред (выше для неликвидных активов) и налоговую эффективность торговой стратегии фонда. Разница между полной стоимостью 0,2% и 3% часто больше, чем разница в валовой доходности между фондами.",
+              "kk": "Кез келген инвестицияны бағалағанда «шығын коэффициенті қандай?» деп қана емес, «менің толық жылдық құным қанша?» деп сұраңыз. Шығын коэффициентін, кез келген кеңесші комиссиясын, болжалды спред шығындарын (өтімсіз активтерде жоғары) және қордың сауда стратегиясының салықтық тиімділігін қосыңыз. Толық құндағы 0,2% пен 3% айырмашылығы көбіне қорлардың жалпы табыс айырмасынан үлкен болады."
+            },
+            "tip": {
+              "en": "Request a full fee disclosure from any advisor. A trustworthy one will give it to you without hesitation.",
+              "ru": "Попросите любого советника раскрыть все комиссии. Надёжный советник сделает это без колебаний.",
+              "kk": "Кез келген кеңесшіден барлық комиссияларды толық ашуды сұраңыз. Сенімді кеңесші оны еш кідіріссіз береді."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1302,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Hidden costs — Check"},
+        "title": {
+          "en": "Hidden costs — Check",
+          "ru": "Скрытые издержки — проверка",
+          "kk": "Жасырын шығындар — тексеру"
+        },
         "questions": [
           {
             "id": 4,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "An ETF and a mutual fund both track the same index and both have a 0.5% expense ratio. The ETF trades in thin markets; the mutual fund is priced once daily at NAV. Which is likely more expensive to own for a buy-and-hold investor, and why?"},
+            "question_text": {
+              "en": "An ETF and a mutual fund both track the same index and both have a 0.5% expense ratio. The ETF trades in thin markets; the mutual fund is priced once daily at NAV. Which is likely more expensive to own for a buy-and-hold investor, and why?",
+              "ru": "ETF и взаимный фонд отслеживают один и тот же индекс и оба имеют коэффициент расходов 0,5%. ETF торгуется на малоликвидном рынке; взаимный фонд оценивается раз в день по СЧА. Чем, вероятнее всего, владеть дороже для инвестора buy-and-hold и почему?",
+              "kk": "ETF пен өзара қор бір индексті қадағалайды және екеуінің де шығын коэффициенті 0,5%. ETF өтімділігі төмен нарықта саудаланады; өзара қор күніне бір рет таза актив құнымен бағаланады. Buy-and-hold инвесторы үшін қайсысын иелену қымбатырақ болуы мүмкін және неге?"
+            },
             "answers": [
-              {"id": 13, "order_index": 0, "answer_text": {"en": "The ETF, because wide bid-ask spreads add a hidden cost each time it is bought or sold"}, "is_correct": true},
-              {"id": 14, "order_index": 1, "answer_text": {"en": "The mutual fund, because daily pricing allows more frequent fee deductions"}, "is_correct": false},
-              {"id": 15, "order_index": 2, "answer_text": {"en": "They cost the same; the only fee that matters is the expense ratio"}, "is_correct": false},
-              {"id": 16, "order_index": 3, "answer_text": {"en": "The ETF, because exchange-traded products are always subject to a brokerage surcharge"}, "is_correct": false}
+              {
+                "id": 13,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The ETF, because wide bid-ask spreads add a hidden cost each time it is bought or sold",
+                  "ru": "ETF, потому что широкие спреды bid-ask добавляют скрытую издержку при каждой покупке или продаже",
+                  "kk": "ETF, себебі кең bid-ask спредтері әр сатып алу немесе сату кезінде жасырын шығын қосады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 14,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The mutual fund, because daily pricing allows more frequent fee deductions",
+                  "ru": "Взаимный фонд, потому что ежедневная оценка позволяет чаще списывать комиссии",
+                  "kk": "Өзара қор, себебі күнделікті баға белгілеу комиссияларды жиірек шегеруге мүмкіндік береді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 15,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They cost the same; the only fee that matters is the expense ratio",
+                  "ru": "Они стоят одинаково; важна только комиссия в виде коэффициента расходов",
+                  "kk": "Олардың құны бірдей; маңызды жалғыз комиссия — шығын коэффициенті"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 16,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The ETF, because exchange-traded products are always subject to a brokerage surcharge",
+                  "ru": "ETF, потому что биржевые продукты всегда облагаются брокерской надбавкой",
+                  "kk": "ETF, себебі биржада сатылатын өнімдерге әрдайым брокерлік үстеме қолданылады"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 5,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "A fund manager actively trades the portfolio 150 times per year. In a taxable account, what cost does this trading activity primarily create for investors that would not exist in a passively-managed fund?"},
+            "question_text": {
+              "en": "A fund manager actively trades the portfolio 150 times per year. In a taxable account, what cost does this trading activity primarily create for investors that would not exist in a passively-managed fund?",
+              "ru": "Управляющий фондом активно торгует портфелем 150 раз в год. Какую издержку для инвесторов на налогооблагаемом счёте в основном создаёт такая торговля, которой не было бы в пассивном фонде?",
+              "kk": "Қор менеджері портфельді жылына 150 рет белсенді саудалайды. Салық салынатын шотта бұл сауда инвесторлар үшін пассивті қорда болмайтын қандай негізгі шығын тудырады?"
+            },
             "answers": [
-              {"id": 17, "order_index": 0, "answer_text": {"en": "Capital gains tax events triggered by each sale, reducing after-tax returns"}, "is_correct": true},
-              {"id": 18, "order_index": 1, "answer_text": {"en": "A higher expense ratio, because the fund must pay for each trade"}, "is_correct": false},
-              {"id": 19, "order_index": 2, "answer_text": {"en": "Reduced diversification, because frequent trading concentrates the portfolio"}, "is_correct": false},
-              {"id": 20, "order_index": 3, "answer_text": {"en": "A mandatory front-end load charged by the exchange"}, "is_correct": false}
+              {
+                "id": 17,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Capital gains tax events triggered by each sale, reducing after-tax returns",
+                  "ru": "Налоговые события по приросту капитала при каждой продаже, снижающие доходность после налогов",
+                  "kk": "Әр сатылымнан туындайтын капитал өсіміне салық оқиғалары, олар салықтан кейінгі табысты азайтады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 18,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A higher expense ratio, because the fund must pay for each trade",
+                  "ru": "Более высокий коэффициент расходов, потому что фонд должен платить за каждую сделку",
+                  "kk": "Жоғары шығын коэффициенті, себебі қор әр мәміле үшін төлеуі керек"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 19,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Reduced diversification, because frequent trading concentrates the portfolio",
+                  "ru": "Снижение диверсификации, потому что частая торговля концентрирует портфель",
+                  "kk": "Диверсификацияның төмендеуі, себебі жиі сауда портфельді шоғырландырады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 20,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A mandatory front-end load charged by the exchange",
+                  "ru": "Обязательная входная комиссия, взимаемая биржей",
+                  "kk": "Биржа алатын міндетті кіру комиссиясы"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -280,8 +1078,16 @@
     },
     {
       "code": "impact_of_one_percent",
-      "title": {"en": "The long-term impact of 1%"},
-      "description": {"en": "One percentage point of additional cost, sustained over a full investing career, transfers a staggering share of terminal wealth from the investor to the industry. The math is unambiguous."},
+      "title": {
+        "en": "The long-term impact of 1%",
+        "ru": "Долгосрочное влияние 1%",
+        "kk": "1%-дың ұзақ мерзімді әсері"
+      },
+      "description": {
+        "en": "One percentage point of additional cost, sustained over a full investing career, transfers a staggering share of terminal wealth from the investor to the industry. The math is unambiguous.",
+        "ru": "Один дополнительный процентный пункт расходов, сохраняющийся всю инвестиционную карьеру, переводит огромную долю итогового капитала от инвестора к индустрии. Математика здесь однозначна.",
+        "kk": "Инвестициялық өмір бойы сақталатын қосымша бір пайыздық пункт шығын инвестордың қорытынды капиталының өте үлкен үлесін индустрияға өткізеді. Математика айқын."
+      },
       "estimatedMinutes": 6,
       "orderIndex": 2,
       "quizId": 1303,
@@ -291,43 +1097,211 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "Why 1% is not a rounding error"},
-            "body": {"en": "In ordinary life, 1% is negligible. In compound growth over decades, 1% is the difference between financial independence and falling short. Fees are not subtracted once — they are missing from every cycle of compounding for the life of the investment."},
-            "tip": {"en": "Compounding works both for you (returns) and against you (fees). The math is symmetric."}
+            "title": {
+              "en": "Why 1% is not a rounding error",
+              "ru": "Почему 1% — не погрешность округления",
+              "kk": "Неге 1% жай ғана дөңгелектеу қатесі емес"
+            },
+            "body": {
+              "en": "In ordinary life, 1% is negligible. In compound growth over decades, 1% is the difference between financial independence and falling short. Fees are not subtracted once — they are missing from every cycle of compounding for the life of the investment.",
+              "ru": "В обычной жизни 1% кажется мелочью. В сложном росте на протяжении десятилетий 1% может быть разницей между финансовой независимостью и нехваткой средств. Комиссии не вычитаются один раз — они отсутствуют в каждом цикле накопления на протяжении всей жизни инвестиции.",
+              "kk": "Күнделікті өмірде 1% елеусіз көрінеді. Ал ондаған жылдық күрделі өсімде 1% қаржылық тәуелсіздік пен жетпей қалудың айырмасы болуы мүмкін. Комиссиялар бір рет қана шегерілмейді — олар инвестицияның бүкіл өміріндегі әр жинақталу циклінен жоғалады."
+            },
+            "tip": {
+              "en": "Compounding works both for you (returns) and against you (fees). The math is symmetric.",
+              "ru": "Сложный процент работает и на вас (доходность), и против вас (комиссии). Математика симметрична.",
+              "kk": "Күрделі өсім сіздің пайдаңызға да (табыс), қарсыңызға да (комиссия) жұмыс істейді. Математика симметриялы."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "The fraction of wealth transferred"},
-            "body": {"en": "The right way to think about fees is not 'I pay 1% per year' but 'what fraction of my final wealth does this fee represent?' Over 30 years at 7% gross, a 1% fee leaves you with roughly 75% of what you would have had at 0% fees. The fee consumed approximately 25% of terminal wealth — paid in annual increments that felt painless."},
-            "example": {"en": "A 30-year-old saving ₸100,000 per year until 60 at 7% gross ends with ₸94,000,000 at 0% fees. At 1% fees (6% net), the same contributions produce ₸79,000,000. The fee extracted ₸15,000,000 — 16% of the final balance, paid by forgoing compounding."}
+            "title": {
+              "en": "The fraction of wealth transferred",
+              "ru": "Доля капитала, которая переходит другим",
+              "kk": "Ауысып кететін капитал үлесі"
+            },
+            "body": {
+              "en": "The right way to think about fees is not 'I pay 1% per year' but 'what fraction of my final wealth does this fee represent?' Over 30 years at 7% gross, a 1% fee leaves you with roughly 75% of what you would have had at 0% fees. The fee consumed approximately 25% of terminal wealth — paid in annual increments that felt painless.",
+              "ru": "Правильнее думать о комиссиях не как «я плачу 1% в год», а как «какую долю моего итогового капитала представляет эта комиссия?». За 30 лет при валовой доходности 7% комиссия 1% оставляет вам примерно 75% от того, что было бы при нулевых комиссиях. Комиссия съела около 25% итогового капитала — ежегодными небольшими списаниями, которые казались безболезненными.",
+              "kk": "Комиссия туралы дұрыс ойлау: «жылына 1% төлеймін» емес, «бұл комиссия менің соңғы капиталымның қандай үлесін білдіреді?» деп қарау. 30 жылда 7% жалпы табыс кезінде 1% комиссия сізге комиссиясыз нұсқаның шамамен 75%-ын ғана қалдырады. Комиссия қорытынды капиталдың шамамен 25%-ын жейді — жыл сайын ауыр сезілмейтін шағын бөліктермен."
+            },
+            "example": {
+              "en": "A 30-year-old saving ₸100,000 per year until 60 at 7% gross ends with ₸94,000,000 at 0% fees. At 1% fees (6% net), the same contributions produce ₸79,000,000. The fee extracted ₸15,000,000 — 16% of the final balance, paid by forgoing compounding.",
+              "ru": "30-летний инвестор, откладывающий ₸100 000 в год до 60 лет при 7% валовой доходности, получает ₸94 000 000 при 0% комиссий. При комиссии 1% (6% чистыми) те же взносы дают ₸79 000 000. Комиссия забрала ₸15 000 000 — 16% итогового баланса, уплаченные через недополученный сложный рост.",
+              "kk": "30 жастағы адам 60 жасқа дейін жылына ₸100 000 жинап, 7% жалпы табыс алса, 0% комиссияда ₸94 000 000 жинайды. 1% комиссияда (6% таза) сол салымдар ₸79 000 000 береді. Комиссия ₸15 000 000 алды — соңғы баланстың 16%-ы, ол жоғалған күрделі өсім арқылы төленді."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Why the loss accelerates in the final years"},
-            "body": {"en": "Because most compounding happens in the final years of a long investment (the portfolio doubles roughly every 9–10 years at 7%), fee drag is also largest in those years in absolute terms. The 1% extracted in year 29 costs far more than the 1% extracted in year 1, because it comes off a much larger base and blocks one more compounding cycle."},
-            "tip": {"en": "The most expensive fee is the one on your largest balance — which is always in the last years before you withdraw."}
+            "title": {
+              "en": "Why the loss accelerates in the final years",
+              "ru": "Почему потери ускоряются в последние годы",
+              "kk": "Неге шығын соңғы жылдары үдейді"
+            },
+            "body": {
+              "en": "Because most compounding happens in the final years of a long investment (the portfolio doubles roughly every 9–10 years at 7%), fee drag is also largest in those years in absolute terms. The 1% extracted in year 29 costs far more than the 1% extracted in year 1, because it comes off a much larger base and blocks one more compounding cycle.",
+              "ru": "Поскольку большая часть сложного роста происходит в последние годы долгой инвестиции (при 7% портфель примерно удваивается каждые 9–10 лет), комиссионное торможение в абсолютном выражении тоже максимально именно тогда. 1%, забранный на 29-м году, стоит намного больше, чем 1%, забранный на 1-м году, потому что он списывается с гораздо большей базы и блокирует ещё один цикл накопления.",
+              "kk": "Ұзақ инвестицияда күрделі өсімнің көп бөлігі соңғы жылдары болады (7% кезінде портфель шамамен әр 9–10 жылда екі еселенеді), сондықтан комиссиялық тежелу де абсолют мәнде сол жылдары ең үлкен. 29-жылы алынған 1% 1-жылы алынған 1%-дан әлдеқайда қымбат, себебі ол үлкенірек базадан алынып, тағы бір жинақталу циклін бөгейді."
+            },
+            "tip": {
+              "en": "The most expensive fee is the one on your largest balance — which is always in the last years before you withdraw.",
+              "ru": "Самая дорогая комиссия — та, что взимается с вашего крупнейшего баланса, а он обычно бывает в последние годы перед выводом средств.",
+              "kk": "Ең қымбат комиссия — ең үлкен балансқа салынатыны, ал ол әдетте қаражатты шешер алдындағы соңғы жылдары болады."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Fee impact across time horizons"},
+            "title": {
+              "en": "Fee impact across time horizons",
+              "ru": "Влияние комиссий на разных горизонтах",
+              "kk": "Комиссия әсері әртүрлі уақыт горизонттарында"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Starting balance: ₸5,000,000. Gross return: 8% per year. How much less does the investor have after paying 1% in annual fees?"},
-                  {"type": "table", "rows": [
-                    ["Horizon", "At 8% (0% fee)", "At 7% (1% fee)", "Wealth lost to fees"],
-                    ["10 years", "₸10,795,000", "₸9,836,000", "₸959,000 (8.9%)"],
-                    ["20 years", "₸23,305,000", "₸19,348,000", "₸3,957,000 (17%)"],
-                    ["30 years", "₸50,313,000", "₸38,061,000", "₸12,252,000 (24.4%)"],
-                    ["40 years", "₸108,623,000", "₸74,872,000", "₸33,751,000 (31.1%)"]
-                  ]},
-                  {"type": "paragraph", "text": "The percentage of wealth lost to fees grows every decade. After 40 years, a 1% fee has consumed nearly one-third of what compounding would otherwise have delivered."}
+                  {
+                    "type": "paragraph",
+                    "text": "Starting balance: ₸5,000,000. Gross return: 8% per year. How much less does the investor have after paying 1% in annual fees?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Horizon",
+                        "At 8% (0% fee)",
+                        "At 7% (1% fee)",
+                        "Wealth lost to fees"
+                      ],
+                      [
+                        "10 years",
+                        "₸10,795,000",
+                        "₸9,836,000",
+                        "₸959,000 (8.9%)"
+                      ],
+                      [
+                        "20 years",
+                        "₸23,305,000",
+                        "₸19,348,000",
+                        "₸3,957,000 (17%)"
+                      ],
+                      [
+                        "30 years",
+                        "₸50,313,000",
+                        "₸38,061,000",
+                        "₸12,252,000 (24.4%)"
+                      ],
+                      [
+                        "40 years",
+                        "₸108,623,000",
+                        "₸74,872,000",
+                        "₸33,751,000 (31.1%)"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The percentage of wealth lost to fees grows every decade. After 40 years, a 1% fee has consumed nearly one-third of what compounding would otherwise have delivered."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Начальный баланс: ₸5 000 000. Валовая доходность: 8% в год. Насколько меньше будет у инвестора после уплаты ежегодной комиссии 1%?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Горизонт",
+                        "При 8% (0% комиссии)",
+                        "При 7% (1% комиссии)",
+                        "Капитал, потерянный из-за комиссий"
+                      ],
+                      [
+                        "10 лет",
+                        "₸10,795,000",
+                        "₸9,836,000",
+                        "₸959,000 (8.9%)"
+                      ],
+                      [
+                        "20 лет",
+                        "₸23,305,000",
+                        "₸19,348,000",
+                        "₸3,957,000 (17%)"
+                      ],
+                      [
+                        "30 лет",
+                        "₸50,313,000",
+                        "₸38,061,000",
+                        "₸12,252,000 (24.4%)"
+                      ],
+                      [
+                        "40 лет",
+                        "₸108,623,000",
+                        "₸74,872,000",
+                        "₸33,751,000 (31.1%)"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Доля капитала, потерянного из-за комиссий, растёт каждое десятилетие. Через 40 лет комиссия 1% съедает почти треть того, что иначе дал бы сложный рост."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Бастапқы баланс: ₸5 000 000. Жалпы табыс: жылына 8%. Жыл сайын 1% комиссия төлегеннен кейін инвесторда қаншаға аз қалады?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Горизонт",
+                        "8% кезінде (0% комиссия)",
+                        "7% кезінде (1% комиссия)",
+                        "Комиссиядан жоғалған капитал"
+                      ],
+                      [
+                        "10 жыл",
+                        "₸10,795,000",
+                        "₸9,836,000",
+                        "₸959,000 (8.9%)"
+                      ],
+                      [
+                        "20 жыл",
+                        "₸23,305,000",
+                        "₸19,348,000",
+                        "₸3,957,000 (17%)"
+                      ],
+                      [
+                        "30 жыл",
+                        "₸50,313,000",
+                        "₸38,061,000",
+                        "₸12,252,000 (24.4%)"
+                      ],
+                      [
+                        "40 жыл",
+                        "₸108,623,000",
+                        "₸74,872,000",
+                        "₸33,751,000 (31.1%)"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Комиссиядан жоғалған капиталдың пайызы әр онжылдық сайын өседі. 40 жылдан кейін 1% комиссия күрделі өсім әкелетін соманың шамамен үштен бірін жеп қояды."
+                  }
                 ]
               }
             }
@@ -336,20 +1310,118 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Loan cost simulator"},
-            "body": {"en": "Investment fees work analogously to interest on a loan — a percentage applied to a balance for years. Use this simulator to feel how rate changes affect total cost over a fixed term, which mirrors fee drag logic."},
+            "title": {
+              "en": "Loan cost simulator",
+              "ru": "Симулятор стоимости кредита",
+              "kk": "Қарыз құны симуляторы"
+            },
+            "body": {
+              "en": "Investment fees work analogously to interest on a loan — a percentage applied to a balance for years. Use this simulator to feel how rate changes affect total cost over a fixed term, which mirrors fee drag logic.",
+              "ru": "Инвестиционные комиссии работают похоже на проценты по кредиту — это процент, применяемый к балансу годами. Используйте этот симулятор, чтобы почувствовать, как изменение ставки влияет на общую стоимость за фиксированный срок; это отражает логику комиссионного торможения.",
+              "kk": "Инвестициялық комиссиялар қарыз пайыздарына ұқсас жұмыс істейді — балансқа жылдар бойы қолданылатын пайыз. Бұл симуляторды қолданып, мөлшерлеме өзгерісі белгіленген мерзімдегі жалпы құнға қалай әсер ететінін сезіңіз; бұл комиссиялық тежелу логикасына ұқсайды."
+            },
             "interactiveType": "simulator",
             "interactiveContent": {
               "en": {
                 "instruction": "Adjust the annual rate to see how total interest paid changes. Compare 1% vs 2% — a difference that mirrors the fee drag gap between a low-cost index fund and an expensive active fund.",
                 "inputs": [
-                  {"id": "principal", "label": "Starting portfolio (₸)", "default": 5000000},
-                  {"id": "rate_pct", "label": "Annual fee / rate (%)", "default": 1},
-                  {"id": "term_months", "label": "Investment horizon (months)", "default": 360}
+                  {
+                    "id": "principal",
+                    "label": "Starting portfolio (₸)",
+                    "default": 5000000
+                  },
+                  {
+                    "id": "rate_pct",
+                    "label": "Annual fee / rate (%)",
+                    "default": 1
+                  },
+                  {
+                    "id": "term_months",
+                    "label": "Investment horizon (months)",
+                    "default": 360
+                  }
                 ],
                 "presets": [
-                  {"label": "Index fund (0.1%)", "principal": 5000000, "rate_pct": 0.1, "term_months": 360},
-                  {"label": "Active fund (1.5%)", "principal": 5000000, "rate_pct": 1.5, "term_months": 360}
+                  {
+                    "label": "Index fund (0.1%)",
+                    "principal": 5000000,
+                    "rate_pct": 0.1,
+                    "term_months": 360
+                  },
+                  {
+                    "label": "Active fund (1.5%)",
+                    "principal": 5000000,
+                    "rate_pct": 1.5,
+                    "term_months": 360
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Изменяйте годовую ставку, чтобы увидеть, как меняется общая сумма процентов. Сравните 1% и 2% — это похоже на разрыв в комиссионном торможении между дешёвым индексным фондом и дорогим активным фондом.",
+                "inputs": [
+                  {
+                    "id": "principal",
+                    "label": "Начальный портфель (₸)",
+                    "default": 5000000
+                  },
+                  {
+                    "id": "rate_pct",
+                    "label": "Годовая комиссия / ставка (%)",
+                    "default": 1
+                  },
+                  {
+                    "id": "term_months",
+                    "label": "Инвестиционный горизонт (месяцы)",
+                    "default": 360
+                  }
+                ],
+                "presets": [
+                  {
+                    "label": "Индексный фонд (0,1%)",
+                    "principal": 5000000,
+                    "rate_pct": 0.1,
+                    "term_months": 360
+                  },
+                  {
+                    "label": "Активный фонд (1,5%)",
+                    "principal": 5000000,
+                    "rate_pct": 1.5,
+                    "term_months": 360
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Жылдық мөлшерлемені өзгертіп, төленетін жалпы пайыздың қалай өзгеретінін көріңіз. 1% пен 2%-ды салыстырыңыз — бұл арзан индекс қор мен қымбат белсенді қор арасындағы комиссиялық тежелу айырмасын көрсетеді.",
+                "inputs": [
+                  {
+                    "id": "principal",
+                    "label": "Бастапқы портфель (₸)",
+                    "default": 5000000
+                  },
+                  {
+                    "id": "rate_pct",
+                    "label": "Жылдық комиссия / мөлшерлеме (%)",
+                    "default": 1
+                  },
+                  {
+                    "id": "term_months",
+                    "label": "Инвестициялық горизонт (ай)",
+                    "default": 360
+                  }
+                ],
+                "presets": [
+                  {
+                    "label": "Индекс қоры (0,1%)",
+                    "principal": 5000000,
+                    "rate_pct": 0.1,
+                    "term_months": 360
+                  },
+                  {
+                    "label": "Белсенді қор (1,5%)",
+                    "principal": 5000000,
+                    "rate_pct": 1.5,
+                    "term_months": 360
+                  }
                 ]
               }
             }
@@ -358,51 +1430,187 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "The single most actionable insight in investing"},
-            "body": {"en": "You cannot control market returns. You can control costs. Choosing a 0.1% index fund over a 1.5% active fund is the only guaranteed alpha in retail investing — it is certain before markets open. Over a working career, this single decision is likely worth more than any individual stock pick, tactical shift, or market-timing call."},
-            "tip": {"en": "Check every fund you own today. Look up the expense ratio. Add the advisor fee if applicable. If the total exceeds 0.5%, ask what you are getting for it."}
+            "title": {
+              "en": "The single most actionable insight in investing",
+              "ru": "Самый практичный вывод в инвестировании",
+              "kk": "Инвестициядағы ең іске жарамды бір қорытынды"
+            },
+            "body": {
+              "en": "You cannot control market returns. You can control costs. Choosing a 0.1% index fund over a 1.5% active fund is the only guaranteed alpha in retail investing — it is certain before markets open. Over a working career, this single decision is likely worth more than any individual stock pick, tactical shift, or market-timing call.",
+              "ru": "Вы не можете контролировать рыночную доходность. Но можете контролировать издержки. Выбор индексного фонда с комиссией 0,1% вместо активного фонда с 1,5% — единственная гарантированная «альфа» для розничного инвестора: она известна ещё до открытия рынка. За рабочую карьеру это решение, вероятно, стоит больше, чем выбор отдельной акции, тактический сдвиг или попытка угадать рынок.",
+              "kk": "Сіз нарықтық табысты бақылай алмайсыз. Бірақ шығындарды бақылай аласыз. 1,5% белсенді қордың орнына 0,1% индекс қорын таңдау — бөлшек инвестор үшін жалғыз кепілді альфа; ол нарық ашылмай тұрып белгілі. Еңбек жолы бойында бұл бір шешім жеке акция таңдаудан, тактикалық ауысудан немесе нарықты дәл табуға тырысудан құндырақ болуы мүмкін."
+            },
+            "tip": {
+              "en": "Check every fund you own today. Look up the expense ratio. Add the advisor fee if applicable. If the total exceeds 0.5%, ask what you are getting for it.",
+              "ru": "Проверьте каждый фонд, которым владеете сегодня. Найдите его коэффициент расходов. Добавьте комиссию советника, если она есть. Если итог превышает 0,5%, спросите, что именно вы за это получаете.",
+              "kk": "Бүгін иелігіңіздегі әр қорды тексеріңіз. Шығын коэффициентін табыңыз. Кеңесші комиссиясы болса, қосыңыз. Егер жалпысы 0,5%-дан асса, ол үшін не алып жатқаныңызды сұраңыз."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1303,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "The long-term impact of 1% — Check"},
+        "title": {
+          "en": "The long-term impact of 1% — Check",
+          "ru": "Долгосрочное влияние 1% — проверка",
+          "kk": "1%-дың ұзақ мерзімді әсері — тексеру"
+        },
         "questions": [
           {
             "id": 6,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "Two investors start with ₸3,000,000 and hold for 35 years. Investor A earns 7.9% (0.1% fee). Investor B earns 6.5% (1.5% fee). Both indexes return the same 8% gross. Which statement best describes what happened?"},
+            "question_text": {
+              "en": "Two investors start with ₸3,000,000 and hold for 35 years. Investor A earns 7.9% (0.1% fee). Investor B earns 6.5% (1.5% fee). Both indexes return the same 8% gross. Which statement best describes what happened?",
+              "ru": "Два инвестора начинают с ₸3 000 000 и держат инвестиции 35 лет. Инвестор A зарабатывает 7,9% (комиссия 0,1%). Инвестор B зарабатывает 6,5% (комиссия 1,5%). Оба индекса дают одинаковые 8% до комиссий. Какое утверждение лучше всего описывает ситуацию?",
+              "kk": "Екі инвестор ₸3 000 000-нан бастап, 35 жыл ұстайды. Инвестор A 7,9% табады (0,1% комиссия). Инвестор B 6,5% табады (1,5% комиссия). Екі индекс те комиссияға дейін 8% береді. Не болғанын қай мәлімдеме жақсы сипаттайды?"
+            },
             "answers": [
-              {"id": 21, "order_index": 0, "answer_text": {"en": "The fee difference compounded over 35 years, leaving Investor B with significantly less terminal wealth despite identical market exposure"}, "is_correct": true},
-              {"id": 22, "order_index": 1, "answer_text": {"en": "The outcomes are similar because 1.4% is a small annual difference"}, "is_correct": false},
-              {"id": 23, "order_index": 2, "answer_text": {"en": "Investor B likely outperformed because active management justifies higher fees"}, "is_correct": false},
-              {"id": 24, "order_index": 3, "answer_text": {"en": "The fee difference only matters if the market underperforms"}, "is_correct": false}
+              {
+                "id": 21,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The fee difference compounded over 35 years, leaving Investor B with significantly less terminal wealth despite identical market exposure",
+                  "ru": "Разница в комиссиях накапливалась 35 лет, поэтому у инвестора B итоговый капитал намного меньше, несмотря на одинаковую рыночную экспозицию",
+                  "kk": "Комиссия айырмасы 35 жыл бойы жинақталып, бірдей нарықтық экспозицияға қарамастан инвестор B-нің соңғы капиталы әлдеқайда аз болды"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 22,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The outcomes are similar because 1.4% is a small annual difference",
+                  "ru": "Результаты похожи, потому что 1,4% — небольшая годовая разница",
+                  "kk": "Нәтижелер ұқсас, себебі 1,4% — шағын жылдық айырмашылық"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 23,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Investor B likely outperformed because active management justifies higher fees",
+                  "ru": "Инвестор B, вероятно, обогнал A, потому что активное управление оправдывает более высокие комиссии",
+                  "kk": "Инвестор B жақсырақ нәтиже көрсеткен болуы мүмкін, себебі белсенді басқару жоғары комиссияны ақтайды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 24,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The fee difference only matters if the market underperforms",
+                  "ru": "Разница в комиссиях важна только если рынок показывает слабый результат",
+                  "kk": "Комиссия айырмасы нарық нашар нәтиже көрсетсе ғана маңызды"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 7,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "An investor is 55 and plans to retire at 65. She has ₸20,000,000 in a fund with a 1.8% expense ratio. A colleague points out a comparable fund at 0.2%. Why is the fee reduction particularly valuable at this stage?"},
+            "question_text": {
+              "en": "An investor is 55 and plans to retire at 65. She has ₸20,000,000 in a fund with a 1.8% expense ratio. A colleague points out a comparable fund at 0.2%. Why is the fee reduction particularly valuable at this stage?",
+              "ru": "Инвестору 55 лет, и она планирует выйти на пенсию в 65. У неё ₸20 000 000 в фонде с коэффициентом расходов 1,8%. Коллега указывает на сопоставимый фонд с 0,2%. Почему снижение комиссии особенно ценно на этом этапе?",
+              "kk": "Инвестор 55 жаста және 65-те зейнетке шығуды жоспарлайды. Оның 1,8% шығын коэффициенті бар қорда ₸20 000 000 бар. Әріптесі 0,2% болатын ұқсас қорды көрсетеді. Неге бұл кезеңде комиссияны азайту ерекше құнды?"
+            },
             "answers": [
-              {"id": 25, "order_index": 0, "answer_text": {"en": "The fee is applied to a large balance, so the absolute amount saved per year is substantial, even over only 10 years"}, "is_correct": true},
-              {"id": 26, "order_index": 1, "answer_text": {"en": "It is not very valuable — a 10-year horizon is too short for fee differences to matter"}, "is_correct": false},
-              {"id": 27, "order_index": 2, "answer_text": {"en": "The benefit is mainly psychological, not financial"}, "is_correct": false},
-              {"id": 28, "order_index": 3, "answer_text": {"en": "Switching funds at 55 triggers tax events that typically outweigh fee savings"}, "is_correct": false}
+              {
+                "id": 25,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The fee is applied to a large balance, so the absolute amount saved per year is substantial, even over only 10 years",
+                  "ru": "Комиссия применяется к большому балансу, поэтому абсолютная экономия в год значительна даже на горизонте всего 10 лет",
+                  "kk": "Комиссия үлкен балансқа қолданылады, сондықтан жыл сайынғы нақты үнем едәуір, тіпті 10 жылдық мерзімде де"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 26,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It is not very valuable — a 10-year horizon is too short for fee differences to matter",
+                  "ru": "Это не очень ценно — 10-летний горизонт слишком короткий, чтобы разница в комиссиях имела значение",
+                  "kk": "Бұл аса құнды емес — 10 жылдық горизонт комиссия айырмасы маңызды болуы үшін тым қысқа"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 27,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The benefit is mainly psychological, not financial",
+                  "ru": "Польза в основном психологическая, а не финансовая",
+                  "kk": "Пайдасы негізінен психологиялық, қаржылық емес"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 28,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Switching funds at 55 triggers tax events that typically outweigh fee savings",
+                  "ru": "Переход между фондами в 55 лет запускает налоговые события, которые обычно перекрывают экономию на комиссиях",
+                  "kk": "55 жаста қор ауыстыру әдетте комиссия үнемінен асып түсетін салық оқиғаларын тудырады"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 8,
             "question_type": "single_choice",
             "order_index": 2,
-            "question_text": {"en": "A financial advisor says: 'I charge 1%, but I generate 1% better returns than you would on your own, so my fee costs you nothing.' What is the strongest counterargument?"},
+            "question_text": {
+              "en": "A financial advisor says: 'I charge 1%, but I generate 1% better returns than you would on your own, so my fee costs you nothing.' What is the strongest counterargument?",
+              "ru": "Финансовый советник говорит: «Я беру 1%, но зарабатываю на 1% больше, чем вы смогли бы сами, поэтому моя комиссия вам ничего не стоит». Какой самый сильный контраргумент?",
+              "kk": "Қаржы кеңесшісі: «Мен 1% аламын, бірақ сіз өзіңіз тапқаннан 1% көбірек табыс әкелемін, сондықтан менің комиссиям сізге ештеңе тұрмайды» дейді. Ең күшті қарсы уәж қандай?"
+            },
             "answers": [
-              {"id": 29, "order_index": 0, "answer_text": {"en": "Consistently generating 1% excess return after costs is extremely rare and unverifiable in advance; the fee is certain, the excess return is not"}, "is_correct": true},
-              {"id": 30, "order_index": 1, "answer_text": {"en": "Advisors are legally prohibited from claiming they generate excess returns"}, "is_correct": false},
-              {"id": 31, "order_index": 2, "answer_text": {"en": "The advisor's fee is tax-deductible, so the net cost is lower than stated"}, "is_correct": false},
-              {"id": 32, "order_index": 3, "answer_text": {"en": "A 1% advisor fee is below the industry average and therefore reasonable"}, "is_correct": false}
+              {
+                "id": 29,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Consistently generating 1% excess return after costs is extremely rare and unverifiable in advance; the fee is certain, the excess return is not",
+                  "ru": "Стабильно создавать 1% сверхдоходности после расходов крайне редко и заранее непроверяемо; комиссия гарантирована, а сверхдоходность — нет",
+                  "kk": "Шығындардан кейін тұрақты 1% артық табыс жасау өте сирек және алдын ала тексерілмейді; комиссия анық, ал артық табыс анық емес"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 30,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Advisors are legally prohibited from claiming they generate excess returns",
+                  "ru": "Советникам законом запрещено заявлять, что они создают сверхдоходность",
+                  "kk": "Кеңесшілерге артық табыс жасаймыз деп айту заң бойынша тыйым салынған"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 31,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The advisor's fee is tax-deductible, so the net cost is lower than stated",
+                  "ru": "Комиссия советника вычитается из налогов, поэтому чистая стоимость ниже заявленной",
+                  "kk": "Кеңесшінің комиссиясы салықтан шегеріледі, сондықтан таза құны көрсетілгеннен төмен"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 32,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A 1% advisor fee is below the industry average and therefore reasonable",
+                  "ru": "Комиссия советника 1% ниже среднего по индустрии, поэтому она разумна",
+                  "kk": "Кеңесшінің 1% комиссиясы саладағы орташа деңгейден төмен, сондықтан орынды"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -412,66 +1620,270 @@
   "finalQuiz": {
     "quiz_id": 1399,
     "quiz_type": "final_quiz",
-    "title": {"en": "Investment Costs — Final Quiz"},
+    "title": {
+      "en": "Investment Costs — Final Quiz",
+      "ru": "Инвестиционные издержки — итоговый тест",
+      "kk": "Инвестициялық шығындар — қорытынды тест"
+    },
     "questions": [
       {
         "id": 9,
         "question_type": "single_choice",
         "order_index": 0,
-        "question_text": {"en": "An expense ratio of 1.2% means the fund charges 1.2% of what, and how often?"},
+        "question_text": {
+          "en": "An expense ratio of 1.2% means the fund charges 1.2% of what, and how often?",
+          "ru": "Коэффициент расходов 1,2% означает, что фонд взимает 1,2% от чего и как часто?",
+          "kk": "1,2% шығын коэффициенті қор ненің 1,2%-ын және қаншалықты жиі алатынын білдіреді?"
+        },
         "answers": [
-          {"id": 33, "order_index": 0, "answer_text": {"en": "1.2% of assets under management, deducted from returns annually (in daily increments)"}, "is_correct": true},
-          {"id": 34, "order_index": 1, "answer_text": {"en": "1.2% of each individual transaction, charged at purchase and sale"}, "is_correct": false},
-          {"id": 35, "order_index": 2, "answer_text": {"en": "1.2% of cumulative deposits, charged once at account opening"}, "is_correct": false},
-          {"id": 36, "order_index": 3, "answer_text": {"en": "1.2% of profits only, charged at the end of each calendar year"}, "is_correct": false}
+          {
+            "id": 33,
+            "order_index": 0,
+            "answer_text": {
+              "en": "1.2% of assets under management, deducted from returns annually (in daily increments)",
+              "ru": "1,2% от активов под управлением, вычитается из доходности ежегодно небольшими ежедневными долями",
+              "kk": "Басқарудағы активтердің 1,2%-ы, жыл сайын табыстан күнделікті шағын бөліктермен шегеріледі"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 34,
+            "order_index": 1,
+            "answer_text": {
+              "en": "1.2% of each individual transaction, charged at purchase and sale",
+              "ru": "1,2% от каждой отдельной сделки, взимается при покупке и продаже",
+              "kk": "Әр жеке транзакцияның 1,2%-ы, сатып алу және сату кезінде алынады"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 35,
+            "order_index": 2,
+            "answer_text": {
+              "en": "1.2% of cumulative deposits, charged once at account opening",
+              "ru": "1,2% от всех внесённых средств, взимается один раз при открытии счёта",
+              "kk": "Жиналған барлық салымдардың 1,2%-ы, шот ашқанда бір рет алынады"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 36,
+            "order_index": 3,
+            "answer_text": {
+              "en": "1.2% of profits only, charged at the end of each calendar year",
+              "ru": "1,2% только от прибыли, взимается в конце каждого календарного года",
+              "kk": "Тек пайданың 1,2%-ы, әр күнтізбелік жылдың соңында алынады"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 10,
         "question_type": "single_choice",
         "order_index": 1,
-        "question_text": {"en": "Two funds track the same benchmark. Fund A has a 0.1% expense ratio. Fund B has a 1.6% expense ratio and is actively managed. For Fund B to justify its higher cost, what must be true?"},
+        "question_text": {
+          "en": "Two funds track the same benchmark. Fund A has a 0.1% expense ratio. Fund B has a 1.6% expense ratio and is actively managed. For Fund B to justify its higher cost, what must be true?",
+          "ru": "Два фонда отслеживают один и тот же бенчмарк. У фонда A коэффициент расходов 0,1%. У фонда B коэффициент 1,6%, и он активно управляется. Что должно быть верно, чтобы фонд B оправдал более высокую стоимость?",
+          "kk": "Екі қор бірдей бенчмаркті қадағалайды. Қор A-ның шығын коэффициенті 0,1%. Қор B-ның шығын коэффициенті 1,6% және ол белсенді басқарылады. Қор B жоғары құнын ақтау үшін не дұрыс болуы керек?"
+        },
         "answers": [
-          {"id": 37, "order_index": 0, "answer_text": {"en": "Fund B must consistently produce gross returns more than 1.5 percentage points above the benchmark after all costs, which very few active funds achieve over long periods"}, "is_correct": true},
-          {"id": 38, "order_index": 1, "answer_text": {"en": "Fund B must be in a higher-risk asset class where active selection adds value"}, "is_correct": false},
-          {"id": 39, "order_index": 2, "answer_text": {"en": "Fund B must have a lower standard deviation than the benchmark"}, "is_correct": false},
-          {"id": 40, "order_index": 3, "answer_text": {"en": "Fund B must be offered by a larger, more reputable fund house"}, "is_correct": false}
+          {
+            "id": 37,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Fund B must consistently produce gross returns more than 1.5 percentage points above the benchmark after all costs, which very few active funds achieve over long periods",
+              "ru": "Фонд B должен стабильно давать валовую доходность более чем на 1,5 процентного пункта выше бенчмарка после всех расходов, а очень немногие активные фонды достигают этого на длинных периодах",
+              "kk": "Қор B барлық шығындардан кейін бенчмарктен 1,5 пайыздық пункттен артық жалпы табысты тұрақты түрде көрсетуі керек, ал ұзақ мерзімде мұны өте аз белсенді қор жасай алады"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 38,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Fund B must be in a higher-risk asset class where active selection adds value",
+              "ru": "Фонд B должен быть в более рискованном классе активов, где активный отбор добавляет ценность",
+              "kk": "Қор B белсенді таңдаудың құны бар жоғары тәуекелді актив класында болуы керек"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 39,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Fund B must have a lower standard deviation than the benchmark",
+              "ru": "Фонд B должен иметь более низкое стандартное отклонение, чем бенчмарк",
+              "kk": "Қор B-ның стандартты ауытқуы бенчмарктен төмен болуы керек"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 40,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Fund B must be offered by a larger, more reputable fund house",
+              "ru": "Фонд B должен предлагаться более крупной и авторитетной управляющей компанией",
+              "kk": "Қор B ірі әрі беделді басқарушы компания ұсынуы керек"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 11,
         "question_type": "single_choice",
         "order_index": 2,
-        "question_text": {"en": "An investor notices that their ETF's market price is ₸1,005 but the NAV of its underlying holdings is ₸1,000. They sell immediately. Which hidden cost have they most likely encountered?"},
+        "question_text": {
+          "en": "An investor notices that their ETF's market price is ₸1,005 but the NAV of its underlying holdings is ₸1,000. They sell immediately. Which hidden cost have they most likely encountered?",
+          "ru": "Инвестор замечает, что рыночная цена его ETF — ₸1 005, а СЧА базовых активов — ₸1 000. Он сразу продаёт. С какой скрытой издержкой он, скорее всего, столкнулся?",
+          "kk": "Инвестор ETF-інің нарықтық бағасы ₸1 005, ал оның базалық активтерінің таза актив құны ₸1 000 екенін байқайды. Ол бірден сатады. Ол қандай жасырын шығынға тап болуы ықтимал?"
+        },
         "answers": [
-          {"id": 41, "order_index": 0, "answer_text": {"en": "The bid-ask spread — they bought at the ask (above NAV) and will sell at the bid (below NAV), paying the spread both ways"}, "is_correct": true},
-          {"id": 42, "order_index": 1, "answer_text": {"en": "A front-end load charged at the time of purchase"}, "is_correct": false},
-          {"id": 43, "order_index": 2, "answer_text": {"en": "A turnover tax triggered by the fund rebalancing its holdings"}, "is_correct": false},
-          {"id": 44, "order_index": 3, "answer_text": {"en": "An advisor markup applied automatically at the point of sale"}, "is_correct": false}
+          {
+            "id": 41,
+            "order_index": 0,
+            "answer_text": {
+              "en": "The bid-ask spread — they bought at the ask (above NAV) and will sell at the bid (below NAV), paying the spread both ways",
+              "ru": "Спред bid-ask — он купил по ask выше СЧА и продаст по bid ниже СЧА, заплатив спред в обе стороны",
+              "kk": "Bid-ask спреді — ол ask бағасымен (NAV-тан жоғары) сатып алып, bid бағасымен (NAV-тан төмен) сатады, спредті екі жаққа да төлейді"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 42,
+            "order_index": 1,
+            "answer_text": {
+              "en": "A front-end load charged at the time of purchase",
+              "ru": "Входная комиссия, взимаемая при покупке",
+              "kk": "Сатып алу кезінде алынатын кіру комиссиясы"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 43,
+            "order_index": 2,
+            "answer_text": {
+              "en": "A turnover tax triggered by the fund rebalancing its holdings",
+              "ru": "Налог из-за оборота, вызванный ребалансировкой активов фонда",
+              "kk": "Қор активтерін қайта теңгергенде туындайтын айналым салығы"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 44,
+            "order_index": 3,
+            "answer_text": {
+              "en": "An advisor markup applied automatically at the point of sale",
+              "ru": "Наценка советника, автоматически применяемая в момент продажи",
+              "kk": "Сату сәтінде автоматты қолданылатын кеңесші үстемесі"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 12,
         "question_type": "single_choice",
         "order_index": 3,
-        "question_text": {"en": "Why does fee drag as a percentage of terminal wealth increase over longer time horizons, even if the annual fee percentage stays constant?"},
+        "question_text": {
+          "en": "Why does fee drag as a percentage of terminal wealth increase over longer time horizons, even if the annual fee percentage stays constant?",
+          "ru": "Почему комиссионное торможение как доля итогового капитала увеличивается на длинных горизонтах, даже если годовой процент комиссии остаётся постоянным?",
+          "kk": "Жылдық комиссия пайызы тұрақты болса да, неге комиссиялық тежелу соңғы капиталдың үлесі ретінде ұзақ горизонтта өседі?"
+        },
         "answers": [
-          {"id": 45, "order_index": 0, "answer_text": {"en": "Fees compound alongside returns — the missing return from year 1 would have generated its own returns in years 2 through 30, and those are also lost"}, "is_correct": true},
-          {"id": 46, "order_index": 1, "answer_text": {"en": "Fund managers raise fee percentages slightly each year to keep pace with inflation"}, "is_correct": false},
-          {"id": 47, "order_index": 2, "answer_text": {"en": "Regulatory costs increase as funds age, which are passed on to investors"}, "is_correct": false},
-          {"id": 48, "order_index": 3, "answer_text": {"en": "Long-term investors are charged a loyalty premium for holding funds longer than 10 years"}, "is_correct": false}
+          {
+            "id": 45,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Fees compound alongside returns — the missing return from year 1 would have generated its own returns in years 2 through 30, and those are also lost",
+              "ru": "Комиссии накапливаются вместе с доходностью — недополученная доходность первого года сама приносила бы доходность со 2-го по 30-й год, и она тоже теряется",
+              "kk": "Комиссиялар табыспен бірге жинақталады — 1-жылдағы жоғалған табыс 2–30 жылдары өз табысын әкелер еді, олар да жоғалады"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 46,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Fund managers raise fee percentages slightly each year to keep pace with inflation",
+              "ru": "Управляющие фондами немного повышают проценты комиссий каждый год, чтобы поспевать за инфляцией",
+              "kk": "Қор менеджерлері инфляцияға ілесу үшін комиссия пайыздарын жыл сайын аздап көтереді"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 47,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Regulatory costs increase as funds age, which are passed on to investors",
+              "ru": "Регуляторные расходы растут по мере старения фондов и перекладываются на инвесторов",
+              "kk": "Қорлар ескірген сайын реттеушілік шығындар өсіп, инвесторларға беріледі"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 48,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Long-term investors are charged a loyalty premium for holding funds longer than 10 years",
+              "ru": "С долгосрочных инвесторов взимают премию за лояльность за владение фондами более 10 лет",
+              "kk": "Ұзақ мерзімді инвесторлардан қорларды 10 жылдан артық ұстағаны үшін адалдық үстемесі алынады"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 13,
         "question_type": "single_choice",
         "order_index": 4,
-        "question_text": {"en": "An investor holds a fund with a 0.9% expense ratio plus a 1.1% annual advisor fee. The market returns 7%. What is the investor's approximate net return, and what is the total cost as a fraction of gross return?"},
+        "question_text": {
+          "en": "An investor holds a fund with a 0.9% expense ratio plus a 1.1% annual advisor fee. The market returns 7%. What is the investor's approximate net return, and what is the total cost as a fraction of gross return?",
+          "ru": "Инвестор держит фонд с коэффициентом расходов 0,9% плюс годовая комиссия советника 1,1%. Рынок даёт 7%. Какова примерная чистая доходность инвестора и какова общая стоимость как доля валовой доходности?",
+          "kk": "Инвестор 0,9% шығын коэффициенті бар қорды ұстайды және жылдық 1,1% кеңесші комиссиясын төлейді. Нарық 7% табыс береді. Инвестордың шамамен таза табысы қандай және жалпы шығын жалпы табыстың қандай үлесі?"
+        },
         "answers": [
-          {"id": 49, "order_index": 0, "answer_text": {"en": "Net return ~5%; total cost is 2% — about 28.6% of the 7% gross return consumed by fees"}, "is_correct": true},
-          {"id": 50, "order_index": 1, "answer_text": {"en": "Net return ~7%; fees are always charged on principal, not return"}, "is_correct": false},
-          {"id": 51, "order_index": 2, "answer_text": {"en": "Net return ~6.1%; only the expense ratio reduces the investment return, the advisor fee is separate"}, "is_correct": false},
-          {"id": 52, "order_index": 3, "answer_text": {"en": "Net return ~5.3%; the advisor fee is capped at 0.7% when combined with an expense ratio above 1%"}, "is_correct": false}
+          {
+            "id": 49,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Net return ~5%; total cost is 2% — about 28.6% of the 7% gross return consumed by fees",
+              "ru": "Чистая доходность около 5%; общая стоимость 2% — примерно 28,6% от валовой доходности 7% съедены комиссиями",
+              "kk": "Таза табыс шамамен 5%; жалпы шығын 2% — 7% жалпы табыстың шамамен 28,6%-ын комиссиялар жейді"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 50,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Net return ~7%; fees are always charged on principal, not return",
+              "ru": "Чистая доходность около 7%; комиссии всегда взимаются с капитала, а не с доходности",
+              "kk": "Таза табыс шамамен 7%; комиссиялар әрдайым табыстан емес, негізгі капиталдан алынады"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 51,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Net return ~6.1%; only the expense ratio reduces the investment return, the advisor fee is separate",
+              "ru": "Чистая доходность около 6,1%; инвестиционную доходность уменьшает только коэффициент расходов, комиссия советника отдельно",
+              "kk": "Таза табыс шамамен 6,1%; инвестициялық табысты тек шығын коэффициенті азайтады, кеңесші комиссиясы бөлек"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 52,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Net return ~5.3%; the advisor fee is capped at 0.7% when combined with an expense ratio above 1%",
+              "ru": "Чистая доходность около 5,3%; комиссия советника ограничена 0,7% при сочетании с коэффициентом расходов выше 1%",
+              "kk": "Таза табыс шамамен 5,3%; шығын коэффициенті 1%-дан жоғары болғанда кеңесші комиссиясы 0,7%-бен шектеледі"
+            },
+            "is_correct": false
+          }
         ]
       }
     ]

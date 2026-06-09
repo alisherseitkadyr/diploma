@@ -41,6 +41,7 @@ type jsonSeedTopic struct {
 	Level          string          `json:"level"`
 	OrderIndex     int             `json:"orderIndex"`
 	PrerequisiteID *int64          `json:"prerequisite_id"`
+	IconPath       string          `json:"icon_path"`
 }
 
 type jsonSeedSubtopic struct {
@@ -380,16 +381,17 @@ func seedTopic(ctx context.Context, tx pgx.Tx, seed jsonSeed) (int64, error) {
 
 	var topicID int64
 	if err := tx.QueryRow(ctx, `
-		insert into topics (code, level, order_index, is_active, section_id)
-		values ($1, $2, $3, true, $4)
+		insert into topics (code, level, order_index, is_active, section_id, icon_path)
+		values ($1, $2, $3, true, $4, nullif($5, ''))
 		on conflict (code) do update set
 			level = excluded.level,
 			order_index = excluded.order_index,
 			is_active = excluded.is_active,
 			section_id = coalesce(excluded.section_id, topics.section_id),
+			icon_path = coalesce(excluded.icon_path, topics.icon_path),
 			updated_at = now()
 		returning id
-	`, seed.Topic.Code, level, orderIndex, sectionID).Scan(&topicID); err != nil {
+	`, seed.Topic.Code, level, orderIndex, sectionID, seed.Topic.IconPath).Scan(&topicID); err != nil {
 		return 0, fmt.Errorf("upsert topic %q: %w", seed.Topic.Code, err)
 	}
 

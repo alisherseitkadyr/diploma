@@ -27,7 +27,14 @@ func (r *ContentRepository) ListTopics(ctx context.Context, languageCode string)
 			t.level,
 			t.order_index,
 			tt.title,
-			tt.description
+			tt.description,
+			coalesce(t.icon_path, ''),
+			case t.level
+				when 'beginner'     then 50
+				when 'intermediate' then 75
+				when 'advanced'     then 100
+				else 50
+			end
 		from topics t
 		join topic_translations tt
 			on tt.topic_id = t.id
@@ -61,6 +68,8 @@ func (r *ContentRepository) ListTopics(ctx context.Context, languageCode string)
 			&item.OrderIndex,
 			&item.Title,
 			&description,
+			&item.IconPath,
+			&item.XpReward,
 		); err != nil {
 			return nil, err
 		}
@@ -386,7 +395,8 @@ func (r *ContentRepository) GetExploreView(ctx context.Context, userID int64, la
 				else 0
 			end,
 			coalesce(sc.total, 0),
-			coalesce(sc.done,  0)
+			coalesce(sc.done,  0),
+			coalesce(t.icon_path, '')
 		from sections sec
 		left join section_translations st
 			on st.section_id = sec.id and st.language_code = $1
@@ -420,22 +430,23 @@ func (r *ContentRepository) GetExploreView(ctx context.Context, userID int64, la
 			secTitle string
 			secDesc  string
 
-			topicID    *int64
-			topicCode  *string
-			topicLevel *string
-			topicOrder *int
-			topicTitle *string
-			topicDesc  string
-			estMins    int
-			xpReward   int
-			lesTotal   int
-			lesDone    int
+			topicID       *int64
+			topicCode     *string
+			topicLevel    *string
+			topicOrder    *int
+			topicTitle    *string
+			topicDesc     string
+			estMins       int
+			xpReward      int
+			lesTotal      int
+			lesDone       int
+			topicIconPath string
 		)
 
 		if err := rows.Scan(
 			&secID, &secCode, &secOrder, &secIcon, &secTitle, &secDesc,
 			&topicID, &topicCode, &topicLevel, &topicOrder, &topicTitle,
-			&topicDesc, &estMins, &xpReward, &lesTotal, &lesDone,
+			&topicDesc, &estMins, &xpReward, &lesTotal, &lesDone, &topicIconPath,
 		); err != nil {
 			return nil, err
 		}
@@ -471,6 +482,7 @@ func (r *ContentRepository) GetExploreView(ctx context.Context, userID int64, la
 				XpReward:         xpReward,
 				LessonsTotal:     lesTotal,
 				LessonsDone:      lesDone,
+				IconPath:         topicIconPath,
 			})
 			sec.LessonsDone += lesDone
 			sec.LessonsTotal += lesTotal

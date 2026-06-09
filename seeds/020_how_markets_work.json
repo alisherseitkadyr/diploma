@@ -3,11 +3,16 @@
   "topic": {
     "code": "how_markets_work",
     "orderIndex": 20,
+    "icon_path": "assets/topics/020.png",
     "title": {
-      "en": "How Markets Work"
+      "en": "How Markets Work",
+      "ru": "Как работают рынки",
+      "kk": "Нарықтар қалай жұмыс істейді"
     },
     "description": {
-      "en": "Who is on the other side of every trade, how shares first reach the market, and why consistently beating prices is so hard."
+      "en": "Who is on the other side of every trade, how shares first reach the market, and why consistently beating prices is so hard.",
+      "ru": "Кто находится по другую сторону каждой сделки, как акции впервые попадают на рынок и почему стабильно обыгрывать цены так трудно.",
+      "kk": "Әр мәміленің қарсы жағында кім тұрады, акциялар нарыққа алғаш қалай шығады және бағаларды тұрақты түрде жеңу неге қиын."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "market_participants",
       "title": {
-        "en": "Market Participants"
+        "en": "Market Participants",
+        "ru": "Участники рынка",
+        "kk": "Нарық қатысушылары"
       },
       "description": {
-        "en": "Every market price is formed by participants with different goals, information, time horizons, and constraints."
+        "en": "Every market price is formed by participants with different goals, information, time horizons, and constraints.",
+        "ru": "Каждая рыночная цена формируется участниками с разными целями, информацией, горизонтами и ограничениями.",
+        "kk": "Әр нарықтық бағаны мақсаттары, ақпараты, мерзімі және шектеулері әртүрлі қатысушылар қалыптастырады."
       },
       "estimatedMinutes": 5,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Every trade has two sides"
+              "en": "Every trade has two sides",
+              "ru": "У каждой сделки есть две стороны",
+              "kk": "Әр мәміленің екі жағы бар"
             },
             "body": {
-              "en": "When you buy a security, someone else sells it. That does not mean one side is stupid. It means participants may have different goals, time horizons, risk limits, taxes, or information."
+              "en": "When you buy a security, someone else sells it. That does not mean one side is stupid. It means participants may have different goals, time horizons, risk limits, taxes, or information.",
+              "ru": "Когда вы покупаете ценную бумагу, кто-то другой её продаёт. Это не значит, что одна сторона глупа. Это значит, что у участников могут быть разные цели, горизонты, лимиты риска, налоги или информация.",
+              "kk": "Сіз бағалы қағаз сатып алғанда, оны басқа біреу сатады. Бұл бір жақ ақымақ деген сөз емес. Қатысушылардың мақсаттары, уақыт көкжиектері, тәуекел шектері, салықтары немесе ақпараты әртүрлі болуы мүмкін."
             },
             "tip": {
-              "en": "Before trading, ask why the other side might willingly take the opposite position."
+              "en": "Before trading, ask why the other side might willingly take the opposite position.",
+              "ru": "Перед сделкой спросите себя, почему другая сторона добровольно занимает противоположную позицию.",
+              "kk": "Сауда жасамас бұрын, қарсы жақ неге өз еркімен қарама-қарсы позиция алуы мүмкін екенін сұраңыз."
             }
           },
           {
@@ -45,10 +60,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Participants want different things"
+              "en": "Participants want different things",
+              "ru": "Участники хотят разного",
+              "kk": "Қатысушылар әртүрлі нәрсе қалайды"
             },
             "body": {
-              "en": "A pension fund may want stable long-term exposure. A trader may want a short-term price move. A company insider may need liquidity, while a market maker earns from spreads. The same price can make sense to different people for different reasons."
+              "en": "A pension fund may want stable long-term exposure. A trader may want a short-term price move. A company insider may need liquidity, while a market maker earns from spreads. The same price can make sense to different people for different reasons.",
+              "ru": "Пенсионному фонду может нужна стабильная долгосрочная экспозиция. Трейдеру — краткосрочное движение цены. Инсайдеру компании может нужна ликвидность, а маркет-мейкер зарабатывает на спредах. Одна и та же цена может быть разумной для разных людей по разным причинам.",
+              "kk": "Зейнетақы қоры тұрақты ұзақ мерзімді экспозицияны қалауы мүмкін. Трейдер қысқа мерзімді баға қозғалысын іздеуі мүмкін. Компания инсайдеріне өтімділік керек болуы мүмкін, ал маркет-мейкер спредтен табыс табады. Бір баға әртүрлі адамдарға әртүрлі себеппен қисынды көрінуі мүмкін."
             }
           },
           {
@@ -56,13 +75,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Liquidity comes from interaction"
+              "en": "Liquidity comes from interaction",
+              "ru": "Ликвидность возникает из взаимодействия",
+              "kk": "Өтімділік өзара әрекеттен туындайды"
             },
             "body": {
-              "en": "Markets work better when many buyers and sellers are willing to trade. More liquidity usually means tighter bid-ask spreads and easier execution. Thin markets can move sharply because one large order overwhelms available buyers or sellers."
+              "en": "Markets work better when many buyers and sellers are willing to trade. More liquidity usually means tighter bid-ask spreads and easier execution. Thin markets can move sharply because one large order overwhelms available buyers or sellers.",
+              "ru": "Рынки работают лучше, когда много покупателей и продавцов готовы торговать. Более высокая ликвидность обычно означает более узкие спреды bid-ask и более лёгкое исполнение. Неликвидные рынки могут резко двигаться, потому что один крупный ордер превышает объём доступных покупателей или продавцов.",
+              "kk": "Көптеген сатып алушы мен сатушы сауда жасауға дайын болса, нарықтар жақсы жұмыс істейді. Өтімділік жоғары болса, bid-ask спредтері әдетте тар болады және орындау жеңілдейді. Өтімділігі төмен нарықтар бір ірі ордер қолжетімді сатып алушыларды немесе сатушыларды басып кеткенде күрт қозғалуы мүмкін."
             },
             "example": {
-              "en": "Selling ₸5,000,000 of a heavily traded ETF may barely move the price; selling the same amount of a tiny stock can push the price down."
+              "en": "Selling ₸5,000,000 of a heavily traded ETF may barely move the price; selling the same amount of a tiny stock can push the price down.",
+              "ru": "Продажа ETF на ₸5 000 000 с высоким оборотом может почти не сдвинуть цену; продажа такой же суммы маленькой акции может продавить цену вниз.",
+              "kk": "Көп сатылатын ETF-тен ₸5 000 000 сату бағаны әрең қозғауы мүмкін; сол сомада шағын акцияны сату бағаны төмен итеруі мүмкін."
             }
           },
           {
@@ -70,7 +95,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same stock, different motives"
+              "en": "Same stock, different motives",
+              "ru": "Одна акция, разные мотивы",
+              "kk": "Бір акция, әртүрлі мотивтер"
             },
             "content": {
               "en": {
@@ -114,6 +141,90 @@
                     "text": "A trade happens because motives differ, not because the price has only one obvious meaning."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Акция торгуется по ₸8 000. Четыре участника могут смотреть на одну и ту же котировку и действовать по-разному."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Участник",
+                        "Возможное действие",
+                        "Причина"
+                      ],
+                      [
+                        "Долгосрочный инвестор",
+                        "Купить",
+                        "Хочет владеть 10 лет"
+                      ],
+                      [
+                        "Пенсионер",
+                        "Продать",
+                        "Нужны деньги на расходы"
+                      ],
+                      [
+                        "Трейдер",
+                        "Продать краткосрочно",
+                        "Ожидает слабую прибыль на этой неделе"
+                      ],
+                      [
+                        "Маркет-мейкер",
+                        "Покупать и продавать",
+                        "Обеспечивает ликвидность и зарабатывает спред"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Сделка происходит потому, что мотивы различаются, а не потому, что у цены есть только один очевидный смысл."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Акция ₸8 000 бағамен саудаланады. Төрт қатысушы бір котировкаға қарап, әртүрлі әрекет етуі мүмкін."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қатысушы",
+                        "Мүмкін әрекет",
+                        "Себеп"
+                      ],
+                      [
+                        "Ұзақ мерзімді инвестор",
+                        "Сатып алу",
+                        "10 жыл иелік еткісі келеді"
+                      ],
+                      [
+                        "Зейнеткер",
+                        "Сату",
+                        "Шығындарға ақша керек"
+                      ],
+                      [
+                        "Трейдер",
+                        "Қысқа мерзімде сату",
+                        "Осы аптада әлсіз табыс күтеді"
+                      ],
+                      [
+                        "Маркет-мейкер",
+                        "Сатып алу және сату",
+                        "Өтімділік береді және спредтен табады"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Мәміле мотивтер әртүрлі болғандықтан болады, бағаның бір ғана айқын мағынасы болғандықтан емес."
+                  }
+                ]
               }
             }
           },
@@ -122,10 +233,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Match the participant"
+              "en": "Match the participant",
+              "ru": "Сопоставьте участника",
+              "kk": "Қатысушыны сәйкестендіріңіз"
             },
             "body": {
-              "en": "Choose which participant motive best fits each scenario."
+              "en": "Choose which participant motive best fits each scenario.",
+              "ru": "Выберите, какой мотив участника лучше всего подходит к каждому сценарию.",
+              "kk": "Әр сценарийге қай қатысушы мотиві жақсы сәйкес келетінін таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -154,6 +269,58 @@
                     "explanation": "Market makers and similar participants help connect buyers and sellers."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите роль участника, которая лучше всего объясняет действие.",
+                "options": [
+                  "Долгосрочный инвестор",
+                  "Трейдер",
+                  "Поставщик ликвидности",
+                  "Продавец, которому нужны деньги"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Фонд покупает широкий индекс и планирует держать его много лет.",
+                    "correct_answer": "Долгосрочный инвестор",
+                    "explanation": "Мотив — долгосрочная экспозиция, а не быстрое движение цены."
+                  },
+                  {
+                    "text": "Человек продаёт акции, чтобы оплатить первый взнос за дом в следующем месяце.",
+                    "correct_answer": "Продавец, которому нужны деньги",
+                    "explanation": "Продажа может отражать личную потребность в ликвидности, а не негативное мнение о компании."
+                  },
+                  {
+                    "text": "Фирма весь день выставляет цены покупки и продажи, чтобы сделки могли совершаться.",
+                    "correct_answer": "Поставщик ликвидности",
+                    "explanation": "Маркет-мейкеры и похожие участники помогают соединять покупателей и продавцов."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әрекетті ең жақсы түсіндіретін қатысушы рөлін таңдаңыз.",
+                "options": [
+                  "Ұзақ мерзімді инвестор",
+                  "Трейдер",
+                  "Өтімділік жеткізушісі",
+                  "Қолма-қол ақша қажет сатушы"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Қор кең индексті сатып алып, оны көп жыл ұстауды жоспарлайды.",
+                    "correct_answer": "Ұзақ мерзімді инвестор",
+                    "explanation": "Мотив — жылдам баға қозғалысы емес, ұзақ мерзімді экспозиция."
+                  },
+                  {
+                    "text": "Адам келесі айда үйдің бастапқы жарнасын төлеу үшін акцияларын сатады.",
+                    "correct_answer": "Қолма-қол ақша қажет сатушы",
+                    "explanation": "Сату компанияға теріс көзқарасты емес, жеке өтімділік қажеттілігін көрсетуі мүмкін."
+                  },
+                  {
+                    "text": "Фирма мәмілелер жүруі үшін күні бойы сатып алу және сату бағаларын қояды.",
+                    "correct_answer": "Өтімділік жеткізушісі",
+                    "explanation": "Маркет-мейкерлер және ұқсас қатысушылар сатып алушылар мен сатушыларды байланыстыруға көмектеседі."
+                  }
+                ]
               }
             }
           },
@@ -162,13 +329,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Markets aggregate motives"
+              "en": "Markets aggregate motives",
+              "ru": "Рынки объединяют мотивы",
+              "kk": "Нарықтар мотивтерді біріктіреді"
             },
             "body": {
-              "en": "A market price is created by many participants acting for different reasons. Understanding the other side of a trade makes you more careful about confidence. Your decision should account for liquidity, time horizon, and why someone else is willing to trade."
+              "en": "A market price is created by many participants acting for different reasons. Understanding the other side of a trade makes you more careful about confidence. Your decision should account for liquidity, time horizon, and why someone else is willing to trade.",
+              "ru": "Рыночная цена создаётся множеством участников, действующих по разным причинам. Понимание другой стороны сделки делает уверенность более осторожной. В решении нужно учитывать ликвидность, горизонт и то, почему кто-то другой готов торговать.",
+              "kk": "Нарықтық баға әртүрлі себеппен әрекет ететін көптеген қатысушылар арқылы қалыптасады. Мәміленің қарсы жағын түсіну сіздің сенімділігіңізді абайырақ етеді. Шешімде өтімділікті, уақыт көкжиегін және басқа біреудің неге сауда жасауға дайын екенін ескеру керек."
             },
             "tip": {
-              "en": "A price is not a command. It is the current meeting point of many motives."
+              "en": "A price is not a command. It is the current meeting point of many motives.",
+              "ru": "Цена — не приказ. Это текущая точка встречи множества мотивов.",
+              "kk": "Баға — бұйрық емес. Ол көптеген мотивтердің қазіргі түйісу нүктесі."
             }
           }
         ]
@@ -177,7 +350,9 @@
         "quiz_id": 2001,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Market Participants — Check"
+          "en": "Market Participants — Check",
+          "ru": "Участники рынка — проверка",
+          "kk": "Нарық қатысушылары — тексеру"
         },
         "questions": [
           {
@@ -185,14 +360,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "You buy a stock because you think it is undervalued. What should you remember about the seller?"
+              "en": "You buy a stock because you think it is undervalued. What should you remember about the seller?",
+              "ru": "Вы покупаете акцию, потому что считаете её недооценённой. Что нужно помнить о продавце?",
+              "kk": "Сіз акцияны төмен бағаланған деп ойлап сатып аласыз. Сатушы туралы нені есте сақтау керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They may have different goals or constraints, not necessarily worse information"
+                  "en": "They may have different goals or constraints, not necessarily worse information",
+                  "ru": "У него могут быть другие цели или ограничения, а не обязательно худшая информация",
+                  "kk": "Олардың мақсаты немесе шектеуі басқа болуы мүмкін, міндетті түрде ақпараты нашар емес"
                 },
                 "is_correct": true
               },
@@ -200,7 +379,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They must be irrational if they sell"
+                  "en": "They must be irrational if they sell",
+                  "ru": "Если он продаёт, он обязательно иррационален",
+                  "kk": "Егер сатса, олар міндетті түрде қисынсыз"
                 },
                 "is_correct": false
               },
@@ -208,7 +389,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They legally know the future price"
+                  "en": "They legally know the future price",
+                  "ru": "Он законно знает будущую цену",
+                  "kk": "Олар болашақ бағаны заңды түрде біледі"
                 },
                 "is_correct": false
               },
@@ -216,7 +399,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "They cannot have a valid reason to sell"
+                  "en": "They cannot have a valid reason to sell",
+                  "ru": "У него не может быть веской причины продавать",
+                  "kk": "Оларда сатуға негізді себеп болуы мүмкін емес"
                 },
                 "is_correct": false
               }
@@ -227,14 +412,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can a low-liquidity stock move sharply after one large sell order?"
+              "en": "Why can a low-liquidity stock move sharply after one large sell order?",
+              "ru": "Почему акция с низкой ликвидностью может резко двинуться после одного крупного ордера на продажу?",
+              "kk": "Неліктен өтімділігі төмен акция бір ірі сату ордерінен кейін күрт қозғалуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "There may not be enough buyers near the current price to absorb the order"
+                  "en": "There may not be enough buyers near the current price to absorb the order",
+                  "ru": "Около текущей цены может не хватить покупателей, чтобы поглотить ордер",
+                  "kk": "Ағымдағы баға маңында ордерді сіңіруге жеткілікті сатып алушы болмауы мүмкін"
                 },
                 "is_correct": true
               },
@@ -242,7 +431,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Low liquidity guarantees higher profit"
+                  "en": "Low liquidity guarantees higher profit",
+                  "ru": "Низкая ликвидность гарантирует более высокую прибыль",
+                  "kk": "Төмен өтімділік жоғары пайданы кепілдейді"
                 },
                 "is_correct": false
               },
@@ -250,7 +441,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The exchange cancels all buyers"
+                  "en": "The exchange cancels all buyers",
+                  "ru": "Биржа отменяет всех покупателей",
+                  "kk": "Биржа барлық сатып алушыларды жояды"
                 },
                 "is_correct": false
               },
@@ -258,7 +451,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The company must issue dividends immediately"
+                  "en": "The company must issue dividends immediately",
+                  "ru": "Компания должна немедленно выплатить дивиденды",
+                  "kk": "Компания дереу дивиденд төлеуі керек"
                 },
                 "is_correct": false
               }
@@ -269,14 +464,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which statement best describes market participants?"
+              "en": "Which statement best describes market participants?",
+              "ru": "Какое утверждение лучше всего описывает участников рынка?",
+              "kk": "Нарық қатысушыларын қай тұжырым жақсы сипаттайды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They can trade the same asset for different reasons and time horizons"
+                  "en": "They can trade the same asset for different reasons and time horizons",
+                  "ru": "Они могут торговать одним и тем же активом по разным причинам и с разными горизонтами",
+                  "kk": "Олар бір активті әртүрлі себеппен және әртүрлі мерзіммен саудалай алады"
                 },
                 "is_correct": true
               },
@@ -284,7 +483,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They all have identical goals"
+                  "en": "They all have identical goals",
+                  "ru": "У всех них одинаковые цели",
+                  "kk": "Олардың бәрінің мақсаты бірдей"
                 },
                 "is_correct": false
               },
@@ -292,7 +493,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Only professional traders influence prices"
+                  "en": "Only professional traders influence prices",
+                  "ru": "На цены влияют только профессиональные трейдеры",
+                  "kk": "Бағаға тек кәсіби трейдерлер әсер етеді"
                 },
                 "is_correct": false
               },
@@ -300,7 +503,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Retail investors never trade with institutions"
+                  "en": "Retail investors never trade with institutions",
+                  "ru": "Розничные инвесторы никогда не торгуют с институтами",
+                  "kk": "Бөлшек инвесторлар институттармен ешқашан саудаласпайды"
                 },
                 "is_correct": false
               }
@@ -312,10 +517,14 @@
     {
       "code": "primary_and_secondary_markets",
       "title": {
-        "en": "Primary and Secondary Markets"
+        "en": "Primary and Secondary Markets",
+        "ru": "Первичный и вторичный рынки",
+        "kk": "Бастапқы және қайталама нарықтар"
       },
       "description": {
-        "en": "Primary markets raise new capital for issuers; secondary markets let investors trade existing securities with each other."
+        "en": "Primary markets raise new capital for issuers; secondary markets let investors trade existing securities with each other.",
+        "ru": "Первичные рынки привлекают новый капитал для эмитентов; вторичные рынки позволяют инвесторам торговать уже выпущенными ценными бумагами друг с другом.",
+        "kk": "Бастапқы нарықтар эмитенттерге жаңа капитал тартады; қайталама нарықтар инвесторларға бұрын шығарылған бағалы қағаздарды бір-бірімен саудалауға мүмкіндік береді."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -327,10 +536,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Not every trade funds a company"
+              "en": "Not every trade funds a company",
+              "ru": "Не каждая сделка финансирует компанию",
+              "kk": "Әр мәміле компанияны қаржыландырмайды"
             },
             "body": {
-              "en": "Buying a share on an exchange usually does not send money to the company. It sends money to another investor selling an existing share. Companies raise new money mainly in primary markets."
+              "en": "Buying a share on an exchange usually does not send money to the company. It sends money to another investor selling an existing share. Companies raise new money mainly in primary markets.",
+              "ru": "Покупка акции на бирже обычно не отправляет деньги компании. Деньги получает другой инвестор, продающий уже существующую акцию. Компании привлекают новые деньги в основном на первичных рынках.",
+              "kk": "Биржада акция сатып алу әдетте ақшаны компанияға жібермейді. Ақша бұрыннан бар акцияны сататын басқа инвесторға барады. Компаниялар жаңа ақшаны негізінен бастапқы нарықтарда тартады."
             }
           },
           {
@@ -338,13 +551,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Primary markets create new securities"
+              "en": "Primary markets create new securities",
+              "ru": "Первичные рынки создают новые ценные бумаги",
+              "kk": "Бастапқы нарықтар жаңа бағалы қағаздар жасайды"
             },
             "body": {
-              "en": "In a primary market transaction, an issuer sells new shares or bonds to raise capital. The money goes to the issuer, often for growth, refinancing, or strengthening the balance sheet. IPOs and new bond issues are common examples."
+              "en": "In a primary market transaction, an issuer sells new shares or bonds to raise capital. The money goes to the issuer, often for growth, refinancing, or strengthening the balance sheet. IPOs and new bond issues are common examples.",
+              "ru": "В сделке на первичном рынке эмитент продаёт новые акции или облигации, чтобы привлечь капитал. Деньги идут эмитенту — часто на рост, рефинансирование или укрепление баланса. Типичные примеры — IPO и новые выпуски облигаций.",
+              "kk": "Бастапқы нарық мәмілесінде эмитент капитал тарту үшін жаңа акциялар немесе облигациялар сатады. Ақша эмитентке барады — көбіне өсімге, қайта қаржыландыруға немесе балансты күшейтуге. IPO және жаңа облигация шығарылымдары — кең тараған мысалдар."
             },
             "tip": {
-              "en": "Primary market: money moves from investors to the issuer."
+              "en": "Primary market: money moves from investors to the issuer.",
+              "ru": "Первичный рынок: деньги переходят от инвесторов к эмитенту.",
+              "kk": "Бастапқы нарық: ақша инвесторлардан эмитентке өтеді."
             }
           },
           {
@@ -352,10 +571,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Secondary markets create exit and price discovery"
+              "en": "Secondary markets create exit and price discovery",
+              "ru": "Вторичные рынки создают выход и ценовое открытие",
+              "kk": "Қайталама нарықтар шығу мүмкіндігін және баға қалыптасуын жасайды"
             },
             "body": {
-              "en": "Secondary markets let investors buy and sell securities after issuance. The issuer usually does not receive cash from these trades, but benefits indirectly because liquid markets can make future fundraising easier. Secondary trading also reveals what investors currently believe securities are worth."
+              "en": "Secondary markets let investors buy and sell securities after issuance. The issuer usually does not receive cash from these trades, but benefits indirectly because liquid markets can make future fundraising easier. Secondary trading also reveals what investors currently believe securities are worth.",
+              "ru": "Вторичные рынки позволяют инвесторам покупать и продавать ценные бумаги после выпуска. Эмитент обычно не получает деньги от таких сделок, но выигрывает косвенно: ликвидные рынки могут облегчить будущий сбор капитала. Вторичная торговля также показывает, сколько, по мнению инвесторов, стоят бумаги сейчас.",
+              "kk": "Қайталама нарықтар инвесторларға бағалы қағаздарды шығарылғаннан кейін сатып алып, сатуға мүмкіндік береді. Эмитент әдетте бұл мәмілелерден ақша алмайды, бірақ жанама пайда көреді, өйткені өтімді нарықтар болашақта капитал тартуды жеңілдетуі мүмкін. Қайталама сауда инвесторлардың бағалы қағаздарды қазір қаншаға бағалайтынын да көрсетеді."
             }
           },
           {
@@ -363,7 +586,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Where the money goes"
+              "en": "Where the money goes",
+              "ru": "Куда идут деньги",
+              "kk": "Ақша қайда барады"
             },
             "content": {
               "en": {
@@ -407,6 +632,90 @@
                     "text": "Secondary markets do not usually fund the company directly, but they make ownership easier to enter and exit."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания выпускает акции, а спустя месяцы эти акции торгуются между инвесторами."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Событие",
+                        "Тип рынка",
+                        "Кто получает деньги инвестора?"
+                      ],
+                      [
+                        "Компания продаёт новые акции на ₸10 млрд",
+                        "Первичный",
+                        "Компания"
+                      ],
+                      [
+                        "Инвестор A продаёт акции инвестору B",
+                        "Вторичный",
+                        "Инвестор A"
+                      ],
+                      [
+                        "Компания выпускает новые облигации",
+                        "Первичный",
+                        "Компания"
+                      ],
+                      [
+                        "Владелец облигации продаёт её до погашения",
+                        "Вторичный",
+                        "Владелец облигации"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Вторичные рынки обычно не финансируют компанию напрямую, но делают вход и выход из владения проще."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания акция шығарады, ал бірнеше айдан кейін бұл акциялар инвесторлар арасында саудаланады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Оқиға",
+                        "Нарық түрі",
+                        "Инвестордың ақшасын кім алады?"
+                      ],
+                      [
+                        "Компания ₸10 млрд-қа жаңа акциялар сатады",
+                        "Бастапқы",
+                        "Компания"
+                      ],
+                      [
+                        "Инвестор A акцияларды инвестор B-ға сатады",
+                        "Қайталама",
+                        "Инвестор A"
+                      ],
+                      [
+                        "Компания жаңа облигациялар шығарады",
+                        "Бастапқы",
+                        "Компания"
+                      ],
+                      [
+                        "Облигация иесі оны өтеу мерзіміне дейін сатады",
+                        "Қайталама",
+                        "Облигация иесі"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Қайталама нарықтар әдетте компанияны тікелей қаржыландырмайды, бірақ иелікке кіруді және одан шығуды жеңілдетеді."
+                  }
+                ]
               }
             }
           },
@@ -415,10 +724,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Primary or secondary?"
+              "en": "Primary or secondary?",
+              "ru": "Первичный или вторичный?",
+              "kk": "Бастапқы ма, қайталама ма?"
             },
             "body": {
-              "en": "Classify each market event by where it belongs."
+              "en": "Classify each market event by where it belongs.",
+              "ru": "Классифицируйте каждое рыночное событие по типу рынка.",
+              "kk": "Әр нарықтық оқиғаны тиісті түріне қарай жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -471,6 +784,106 @@
                   }
                 ],
                 "explanation": "Primary markets finance issuers. Secondary markets transfer existing securities between investors."
+              },
+              "ru": {
+                "instruction": "Перетащите каждое событие к правильному типу рынка.",
+                "categories": [
+                  {
+                    "id": "primary",
+                    "label": "Первичный рынок"
+                  },
+                  {
+                    "id": "secondary",
+                    "label": "Вторичный рынок"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "new_shares",
+                    "text": "Компания продаёт недавно выпущенные акции"
+                  },
+                  {
+                    "id": "exchange_trade",
+                    "text": "Один инвестор покупает существующие акции у другого"
+                  },
+                  {
+                    "id": "new_bond",
+                    "text": "Компания выпускает новую облигацию, чтобы привлечь деньги"
+                  },
+                  {
+                    "id": "fund_sells",
+                    "text": "Фонд продаёт акции, которыми уже владел"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "new_shares",
+                    "categoryId": "primary"
+                  },
+                  {
+                    "itemId": "exchange_trade",
+                    "categoryId": "secondary"
+                  },
+                  {
+                    "itemId": "new_bond",
+                    "categoryId": "primary"
+                  },
+                  {
+                    "itemId": "fund_sells",
+                    "categoryId": "secondary"
+                  }
+                ],
+                "explanation": "Первичные рынки финансируют эмитентов. Вторичные рынки передают существующие ценные бумаги между инвесторами."
+              },
+              "kk": {
+                "instruction": "Әр оқиғаны дұрыс нарық түріне сүйреңіз.",
+                "categories": [
+                  {
+                    "id": "primary",
+                    "label": "Бастапқы нарық"
+                  },
+                  {
+                    "id": "secondary",
+                    "label": "Қайталама нарық"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "new_shares",
+                    "text": "Компания жаңадан шығарылған акцияларды сатады"
+                  },
+                  {
+                    "id": "exchange_trade",
+                    "text": "Бір инвестор бар акцияларды басқа инвестордан сатып алады"
+                  },
+                  {
+                    "id": "new_bond",
+                    "text": "Компания ақша тарту үшін жаңа облигация шығарады"
+                  },
+                  {
+                    "id": "fund_sells",
+                    "text": "Қор өзінде бұрыннан бар акцияларды сатады"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "new_shares",
+                    "categoryId": "primary"
+                  },
+                  {
+                    "itemId": "exchange_trade",
+                    "categoryId": "secondary"
+                  },
+                  {
+                    "itemId": "new_bond",
+                    "categoryId": "primary"
+                  },
+                  {
+                    "itemId": "fund_sells",
+                    "categoryId": "secondary"
+                  }
+                ],
+                "explanation": "Бастапқы нарықтар эмитенттерді қаржыландырады. Қайталама нарықтар бар бағалы қағаздарды инвесторлар арасында ауыстырады."
               }
             }
           },
@@ -479,13 +892,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Both markets support the system"
+              "en": "Both markets support the system",
+              "ru": "Оба рынка поддерживают систему",
+              "kk": "Екі нарық та жүйені қолдайды"
             },
             "body": {
-              "en": "Primary markets help companies and governments raise capital. Secondary markets give investors liquidity and continuous pricing. A strong secondary market can make primary issuance more attractive because investors know they may later exit."
+              "en": "Primary markets help companies and governments raise capital. Secondary markets give investors liquidity and continuous pricing. A strong secondary market can make primary issuance more attractive because investors know they may later exit.",
+              "ru": "Первичные рынки помогают компаниям и государствам привлекать капитал. Вторичные рынки дают инвесторам ликвидность и постоянное ценообразование. Сильный вторичный рынок делает первичные выпуски привлекательнее, потому что инвесторы знают, что смогут выйти позже.",
+              "kk": "Бастапқы нарықтар компаниялар мен үкіметтерге капитал тартуға көмектеседі. Қайталама нарықтар инвесторларға өтімділік пен үздіксіз баға береді. Күшті қайталама нарық бастапқы шығарылымды тартымды етеді, өйткені инвесторлар кейін шыға алатынын біледі."
             },
             "tip": {
-              "en": "Primary markets create securities; secondary markets keep them tradable."
+              "en": "Primary markets create securities; secondary markets keep them tradable.",
+              "ru": "Первичные рынки создают ценные бумаги; вторичные рынки сохраняют их торгуемыми.",
+              "kk": "Бастапқы нарықтар бағалы қағаздарды жасайды; қайталама нарықтар оларды саудаланатын күйде сақтайды."
             }
           }
         ]
@@ -494,7 +913,9 @@
         "quiz_id": 2002,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Primary and Secondary Markets — Check"
+          "en": "Primary and Secondary Markets — Check",
+          "ru": "Первичный и вторичный рынки — проверка",
+          "kk": "Бастапқы және қайталама нарықтар — тексеру"
         },
         "questions": [
           {
@@ -502,14 +923,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "You buy shares of a listed company from another investor through an app. Who usually receives your money?"
+              "en": "You buy shares of a listed company from another investor through an app. Who usually receives your money?",
+              "ru": "Вы покупаете акции листинговой компании у другого инвестора через приложение. Кто обычно получает ваши деньги?",
+              "kk": "Сіз қолданба арқылы листингтегі компанияның акцияларын басқа инвестордан сатып аласыз. Ақшаңызды әдетте кім алады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The selling investor, not the company"
+                  "en": "The selling investor, not the company",
+                  "ru": "Продающий инвестор, а не компания",
+                  "kk": "Компания емес, сатушы инвестор"
                 },
                 "is_correct": true
               },
@@ -517,7 +942,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The company directly in every trade"
+                  "en": "The company directly in every trade",
+                  "ru": "Компания напрямую в каждой сделке",
+                  "kk": "Әр мәміледе тікелей компания"
                 },
                 "is_correct": false
               },
@@ -525,7 +952,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The government pension fund automatically"
+                  "en": "The government pension fund automatically",
+                  "ru": "Государственный пенсионный фонд автоматически",
+                  "kk": "Мемлекеттік зейнетақы қоры автоматты түрде"
                 },
                 "is_correct": false
               },
@@ -533,7 +962,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "No one, because app trades are simulated"
+                  "en": "No one, because app trades are simulated",
+                  "ru": "Никто, потому что сделки в приложении симулируются",
+                  "kk": "Ешкім, өйткені қолданбадағы мәмілелер симуляцияланған"
                 },
                 "is_correct": false
               }
@@ -544,14 +975,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why do companies care about secondary markets if they do not receive money from every trade?"
+              "en": "Why do companies care about secondary markets if they do not receive money from every trade?",
+              "ru": "Почему компаниям важны вторичные рынки, если они не получают деньги от каждой сделки?",
+              "kk": "Компаниялар әр мәміледен ақша алмаса да, неге қайталама нарықтарға мән береді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Liquidity and pricing can make future fundraising easier and more attractive"
+                  "en": "Liquidity and pricing can make future fundraising easier and more attractive",
+                  "ru": "Ликвидность и ценообразование могут сделать будущий сбор капитала проще и привлекательнее",
+                  "kk": "Өтімділік пен баға белгілеу болашақ капитал тартуды жеңіл әрі тартымды етуі мүмкін"
                 },
                 "is_correct": true
               },
@@ -559,7 +994,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Secondary markets force investors to lend for free"
+                  "en": "Secondary markets force investors to lend for free",
+                  "ru": "Вторичные рынки заставляют инвесторов бесплатно давать займы",
+                  "kk": "Қайталама нарықтар инвесторларды тегін қарыз беруге мәжбүрлейді"
                 },
                 "is_correct": false
               },
@@ -567,7 +1004,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Secondary markets remove all business risk"
+                  "en": "Secondary markets remove all business risk",
+                  "ru": "Вторичные рынки устраняют весь бизнес-риск",
+                  "kk": "Қайталама нарықтар барлық бизнес тәуекелін жояды"
                 },
                 "is_correct": false
               },
@@ -575,7 +1014,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Companies receive every bid-ask spread"
+                  "en": "Companies receive every bid-ask spread",
+                  "ru": "Компании получают каждый спред bid-ask",
+                  "kk": "Компаниялар әр bid-ask спредін алады"
                 },
                 "is_correct": false
               }
@@ -586,14 +1027,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which event is a primary market transaction?"
+              "en": "Which event is a primary market transaction?",
+              "ru": "Какое событие является сделкой первичного рынка?",
+              "kk": "Қай оқиға бастапқы нарық мәмілесі болып саналады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A company issues new bonds to investors"
+                  "en": "A company issues new bonds to investors",
+                  "ru": "Компания выпускает новые облигации для инвесторов",
+                  "kk": "Компания инвесторларға жаңа облигациялар шығарады"
                 },
                 "is_correct": true
               },
@@ -601,7 +1046,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "An investor sells an old bond to another investor"
+                  "en": "An investor sells an old bond to another investor",
+                  "ru": "Инвестор продаёт старую облигацию другому инвестору",
+                  "kk": "Инвестор ескі облигацияны басқа инвесторға сатады"
                 },
                 "is_correct": false
               },
@@ -609,7 +1056,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A trader buys shares from a fund on an exchange"
+                  "en": "A trader buys shares from a fund on an exchange",
+                  "ru": "Трейдер покупает акции у фонда на бирже",
+                  "kk": "Трейдер биржада қордан акция сатып алады"
                 },
                 "is_correct": false
               },
@@ -617,7 +1066,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A retiree sells shares for living expenses"
+                  "en": "A retiree sells shares for living expenses",
+                  "ru": "Пенсионер продаёт акции на расходы на жизнь",
+                  "kk": "Зейнеткер өмір сүру шығындары үшін акция сатады"
                 },
                 "is_correct": false
               }
@@ -629,10 +1080,14 @@
     {
       "code": "ipos",
       "title": {
-        "en": "IPOs"
+        "en": "IPOs",
+        "ru": "IPO",
+        "kk": "IPO"
       },
       "description": {
-        "en": "An IPO is the first public sale of a company's shares, bringing new capital, liquidity, scrutiny, and valuation uncertainty."
+        "en": "An IPO is the first public sale of a company's shares, bringing new capital, liquidity, scrutiny, and valuation uncertainty.",
+        "ru": "IPO — это первая публичная продажа акций компании, которая приносит новый капитал, ликвидность, внимание рынка и неопределённость оценки.",
+        "kk": "IPO — компания акцияларының алғашқы жария сатылымы; ол жаңа капитал, өтімділік, бақылау және бағалаудағы белгісіздік әкеледі."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -644,10 +1099,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Going public changes the company"
+              "en": "Going public changes the company",
+              "ru": "Выход на биржу меняет компанию",
+              "kk": "Қоғамдық нарыққа шығу компанияны өзгертеді"
             },
             "body": {
-              "en": "An IPO, or initial public offering, is when a company first sells shares to public investors. It can raise capital and allow early owners to sell some shares. It also brings public reporting, market pressure, and a visible share price."
+              "en": "An IPO, or initial public offering, is when a company first sells shares to public investors. It can raise capital and allow early owners to sell some shares. It also brings public reporting, market pressure, and a visible share price.",
+              "ru": "IPO, или первичное публичное размещение, происходит, когда компания впервые продаёт акции публичным инвесторам. Это может привлечь капитал и позволить ранним владельцам продать часть акций. Но также появляются публичная отчётность, давление рынка и видимая цена акции.",
+              "kk": "IPO, яғни алғашқы жария орналастыру, компанияның акцияларын алғаш рет жария инвесторларға сатуы. Ол капитал тартып, ерте иелерге кей акцияларын сатуға мүмкіндік береді. Сонымен бірге жария есептілік, нарық қысымы және көрінетін акция бағасы пайда болады."
             }
           },
           {
@@ -655,13 +1114,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "IPO price is negotiated, not discovered perfectly"
+              "en": "IPO price is negotiated, not discovered perfectly",
+              "ru": "Цена IPO согласовывается, а не идеально обнаруживается",
+              "kk": "IPO бағасы келіссөзбен белгіленеді, мінсіз анықталмайды"
             },
             "body": {
-              "en": "Before trading begins, banks and the company estimate demand and set an offering price. That price is not guaranteed to be fair. Once shares trade publicly, the market may price them higher or lower based on broader investor demand."
+              "en": "Before trading begins, banks and the company estimate demand and set an offering price. That price is not guaranteed to be fair. Once shares trade publicly, the market may price them higher or lower based on broader investor demand.",
+              "ru": "До начала торгов банки и компания оценивают спрос и устанавливают цену размещения. Эта цена не гарантированно справедлива. Когда акции начинают публично торговаться, рынок может оценить их выше или ниже в зависимости от общего спроса инвесторов.",
+              "kk": "Сауда басталмай тұрып, банктер мен компания сұранысты бағалап, орналастыру бағасын белгілейді. Бұл баға міндетті түрде әділ болмайды. Акциялар жария саудаланғаннан кейін, нарық кең инвесторлық сұранысқа қарай оларды жоғарырақ немесе төменірек бағалауы мүмкін."
             },
             "tip": {
-              "en": "An IPO price is an opening negotiation, not proof of value."
+              "en": "An IPO price is an opening negotiation, not proof of value.",
+              "ru": "Цена IPO — это стартовое соглашение, а не доказательство стоимости.",
+              "kk": "IPO бағасы — бастапқы келісім, құнның дәлелі емес."
             }
           },
           {
@@ -669,10 +1134,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Early excitement can hide uncertainty"
+              "en": "Early excitement can hide uncertainty",
+              "ru": "Ранний ажиотаж может скрывать неопределённость",
+              "kk": "Ерте қызығушылық белгісіздікті жасыруы мүмкін"
             },
             "body": {
-              "en": "New listings often have limited public history and strong marketing attention. Investors may extrapolate growth too far or ignore risks. A good IPO decision still asks about business quality, valuation, lockups, profitability, and competition."
+              "en": "New listings often have limited public history and strong marketing attention. Investors may extrapolate growth too far or ignore risks. A good IPO decision still asks about business quality, valuation, lockups, profitability, and competition.",
+              "ru": "У новых листингов часто мало публичной истории и много маркетингового внимания. Инвесторы могут слишком далеко экстраполировать рост или игнорировать риски. Хорошее решение по IPO всё равно требует оценки качества бизнеса, стоимости, lock-up периодов, прибыльности и конкуренции.",
+              "kk": "Жаңа листингтердің жария тарихы жиі аз, ал маркетингтік назар көп болады. Инвесторлар өсімді тым ұзаққа созып болжауы немесе тәуекелдерді елемеуі мүмкін. Жақсы IPO шешімі бәрібір бизнес сапасын, бағалауды, lock-up шарттарын, табыстылықты және бәсекені сұрайды."
             }
           },
           {
@@ -680,7 +1149,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "From private company to public stock"
+              "en": "From private company to public stock",
+              "ru": "От частной компании к публичной акции",
+              "kk": "Жеке компаниядан жария акцияға"
             },
             "content": {
               "en": {
@@ -724,6 +1195,90 @@
                     "text": "The IPO gives access to public investors, but it does not remove the need to judge price and business risk."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Частная компания хочет привлечь ₸50 млрд для расширения. Она продаёт новые акции публичным инвесторам через IPO."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Этап",
+                        "Что происходит",
+                        "Главный вопрос"
+                      ],
+                      [
+                        "До IPO",
+                        "Компания находится в частной собственности",
+                        "Сколько стоит бизнес?"
+                      ],
+                      [
+                        "Размещение IPO",
+                        "Новые акции проданы инвесторам",
+                        "Разумна ли цена предложения?"
+                      ],
+                      [
+                        "Первый день торгов",
+                        "Акции торгуются публично",
+                        "Отличается ли рыночный спрос от предположений размещения?"
+                      ],
+                      [
+                        "После IPO",
+                        "Начинается публичная отчётность",
+                        "Сможет ли компания показать результаты?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "IPO даёт доступ публичным инвесторам, но не отменяет необходимости оценивать цену и бизнес-риск."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Жеке компания кеңею үшін ₸50 млрд тартқысы келеді. Ол IPO арқылы жария инвесторларға жаңа акциялар сатады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Кезең",
+                        "Не болады",
+                        "Негізгі сұрақ"
+                      ],
+                      [
+                        "IPO-ға дейін",
+                        "Компания жеке меншікте",
+                        "Бизнес қанша тұрады?"
+                      ],
+                      [
+                        "IPO орналастыруы",
+                        "Жаңа акциялар инвесторларға сатылды",
+                        "Ұсыныс бағасы орынды ма?"
+                      ],
+                      [
+                        "Алғашқы сауда күні",
+                        "Акциялар жария саудаланады",
+                        "Нарық сұранысы ұсыныс болжамдарынан өзгеше ме?"
+                      ],
+                      [
+                        "IPO-дан кейін",
+                        "Жария есептілік басталады",
+                        "Компания нәтиже көрсете ала ма?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "IPO жария инвесторларға қолжетімділік береді, бірақ баға мен бизнес тәуекелін бағалау қажеттілігін жоймайды."
+                  }
+                ]
               }
             }
           },
@@ -732,10 +1287,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Find the IPO mistake"
+              "en": "Find the IPO mistake",
+              "ru": "Найдите ошибку в IPO",
+              "kk": "IPO қатесін табыңыз"
             },
             "body": {
-              "en": "Each claim contains a common IPO reasoning error. Choose the mistake."
+              "en": "Each claim contains a common IPO reasoning error. Choose the mistake.",
+              "ru": "В каждом утверждении есть типичная ошибка рассуждения об IPO. Выберите ошибку.",
+              "kk": "Әр тұжырымда IPO туралы жиі кездесетін ойлау қатесі бар. Қатені таңдаңыз."
             },
             "interactiveType": "error_detector",
             "interactiveContent": {
@@ -774,6 +1333,78 @@
                   }
                 ],
                 "final_explanation": "IPO investing requires separating access, excitement, valuation, and business quality."
+              },
+              "ru": {
+                "instruction": "Выберите главную ошибку в каждом утверждении об IPO.",
+                "cases": [
+                  {
+                    "text": "«IPO популярно, значит акцию стоит покупать по любой цене».",
+                    "options": [
+                      "a) Популярность не заменяет анализ оценки",
+                      "b) Ошибки нет",
+                      "c) Популярные IPO не могут падать"
+                    ],
+                    "correct": "a",
+                    "explanation": "Спрос может поднять цену выше разумной стоимости."
+                  },
+                  {
+                    "text": "«Компания недавно стала публичной, значит бизнес-риска нет».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Новый публичный статус не устраняет риск конкуренции, исполнения или прибыльности",
+                      "c) У компаний после IPO не бывает долга"
+                    ],
+                    "correct": "b",
+                    "explanation": "Публичный листинг меняет доступ, а не экономику компании."
+                  },
+                  {
+                    "text": "«Если цена в первый день подскочила, значит цена размещения была идеально правильной».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Движение первого дня отражает спрос и напряжение ценообразования, а не идеальную оценку",
+                      "c) Скачок в первый день гарантирует долгосрочную доходность"
+                    ],
+                    "correct": "b",
+                    "explanation": "Скачок в первый день может означать сильный спрос, недооценку или спекуляции."
+                  }
+                ],
+                "final_explanation": "Инвестирование в IPO требует отделять доступ, ажиотаж, оценку и качество бизнеса."
+              },
+              "kk": {
+                "instruction": "Әр IPO тұжырымындағы негізгі қатені таңдаңыз.",
+                "cases": [
+                  {
+                    "text": "«IPO танымал, сондықтан акцияны кез келген бағамен сатып алуға тұрарлық».",
+                    "options": [
+                      "a) Танымалдық бағалау талдауын алмастырмайды",
+                      "b) Қате жоқ",
+                      "c) Танымал IPO-лар құламайды"
+                    ],
+                    "correct": "a",
+                    "explanation": "Сұраныс бағаны орынды құннан жоғары итеруі мүмкін."
+                  },
+                  {
+                    "text": "«Компания жаңа ғана жария болды, сондықтан бизнес тәуекелі жоқ».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Жаңа жария мәртебе бәсеке, орындау немесе табыстылық тәуекелін жоймайды",
+                      "c) IPO компанияларында қарыз болмайды"
+                    ],
+                    "correct": "b",
+                    "explanation": "Жария листинг қолжетімділікті өзгертеді, компания экономикасын емес."
+                  },
+                  {
+                    "text": "«Егер бірінші күні баға секірсе, ұсыныс бағасы міндетті түрде мінсіз болды».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Бірінші күнгі қозғалыс мінсіз бағалауды емес, сұраныс пен баға белгілеу шиеленісін көрсетеді",
+                      "c) Бірінші күнгі секіріс ұзақ мерзімді табысты кепілдейді"
+                    ],
+                    "correct": "b",
+                    "explanation": "Бірінші күнгі секіріс күшті сұранысты, төмен бағалауды немесе алыпсатарлықты білдіруі мүмкін."
+                  }
+                ],
+                "final_explanation": "IPO инвестициясында қолжетімділікті, қызығушылықты, бағалауды және бизнес сапасын бөлу керек."
               }
             }
           },
@@ -782,13 +1413,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "An IPO is a beginning, not a verdict"
+              "en": "An IPO is a beginning, not a verdict",
+              "ru": "IPO — это начало, а не вердикт",
+              "kk": "IPO — үкім емес, бастама"
             },
             "body": {
-              "en": "An IPO can be important for a company, but investors still need ordinary investment discipline. The public listing creates tradable shares and new information, not guaranteed value. Evaluate the business, price, incentives, and uncertainty before joining the excitement."
+              "en": "An IPO can be important for a company, but investors still need ordinary investment discipline. The public listing creates tradable shares and new information, not guaranteed value. Evaluate the business, price, incentives, and uncertainty before joining the excitement.",
+              "ru": "IPO может быть важным для компании, но инвесторам всё равно нужна обычная инвестиционная дисциплина. Публичный листинг создаёт торгуемые акции и новую информацию, но не гарантированную стоимость. Оцените бизнес, цену, стимулы и неопределённость, прежде чем присоединяться к ажиотажу.",
+              "kk": "IPO компания үшін маңызды болуы мүмкін, бірақ инвесторларға әдеттегі инвестициялық тәртіп бәрібір қажет. Жария листинг саудаланатын акциялар мен жаңа ақпарат жасайды, бірақ құнды кепілдемейді. Қызығушылыққа қосылмас бұрын бизнесті, бағаны, ынталандыруларды және белгісіздікті бағалаңыз."
             },
             "tip": {
-              "en": "A famous IPO can still be an overpriced investment."
+              "en": "A famous IPO can still be an overpriced investment.",
+              "ru": "Известное IPO всё равно может быть переоценённой инвестицией.",
+              "kk": "Танымал IPO да тым қымбат инвестиция болуы мүмкін."
             }
           }
         ]
@@ -797,7 +1434,9 @@
         "quiz_id": 2003,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "IPOs — Check"
+          "en": "IPOs — Check",
+          "ru": "IPO — проверка",
+          "kk": "IPO — тексеру"
         },
         "questions": [
           {
@@ -805,14 +1444,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why can an IPO be risky even when demand is high?"
+              "en": "Why can an IPO be risky even when demand is high?",
+              "ru": "Почему IPO может быть рискованным даже при высоком спросе?",
+              "kk": "Сұраныс жоғары болса да, IPO неге тәуекелді болуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "High demand can coexist with uncertain valuation, limited history, and overexcitement"
+                  "en": "High demand can coexist with uncertain valuation, limited history, and overexcitement",
+                  "ru": "Высокий спрос может сочетаться с неопределённой оценкой, ограниченной историей и чрезмерным ажиотажем",
+                  "kk": "Жоғары сұраныс белгісіз бағалаумен, шектеулі тарихпен және шамадан тыс қызығушылықпен қатар жүруі мүмкін"
                 },
                 "is_correct": true
               },
@@ -820,7 +1463,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "High demand guarantees no loss"
+                  "en": "High demand guarantees no loss",
+                  "ru": "Высокий спрос гарантирует отсутствие убытков",
+                  "kk": "Жоғары сұраныс шығын болмайтынын кепілдейді"
                 },
                 "is_correct": false
               },
@@ -828,7 +1473,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "IPO shares are not real shares"
+                  "en": "IPO shares are not real shares",
+                  "ru": "Акции IPO — не настоящие акции",
+                  "kk": "IPO акциялары нағыз акция емес"
                 },
                 "is_correct": false
               },
@@ -836,7 +1483,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Public companies cannot face competition"
+                  "en": "Public companies cannot face competition",
+                  "ru": "Публичные компании не сталкиваются с конкуренцией",
+                  "kk": "Жария компаниялар бәсекеге тап болмайды"
                 },
                 "is_correct": false
               }
@@ -847,14 +1496,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What does an IPO usually allow a company to do?"
+              "en": "What does an IPO usually allow a company to do?",
+              "ru": "Что IPO обычно позволяет сделать компании?",
+              "kk": "IPO компанияға әдетте не істеуге мүмкіндік береді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Sell shares to public investors and potentially raise capital"
+                  "en": "Sell shares to public investors and potentially raise capital",
+                  "ru": "Продать акции публичным инвесторам и потенциально привлечь капитал",
+                  "kk": "Акцияларды жария инвесторларға сатып, капитал тартуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -862,7 +1515,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Avoid all future reporting"
+                  "en": "Avoid all future reporting",
+                  "ru": "Избежать всей будущей отчётности",
+                  "kk": "Барлық болашақ есептіліктен қашу"
                 },
                 "is_correct": false
               },
@@ -870,7 +1525,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Guarantee dividend payments forever"
+                  "en": "Guarantee dividend payments forever",
+                  "ru": "Гарантировать дивиденды навсегда",
+                  "kk": "Дивидендтерді мәңгі кепілдеу"
                 },
                 "is_correct": false
               },
@@ -878,7 +1535,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Eliminate business risk"
+                  "en": "Eliminate business risk",
+                  "ru": "Устранить бизнес-риск",
+                  "kk": "Бизнес тәуекелін жою"
                 },
                 "is_correct": false
               }
@@ -889,14 +1548,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which question is most useful before buying an IPO?"
+              "en": "Which question is most useful before buying an IPO?",
+              "ru": "Какой вопрос наиболее полезен перед покупкой IPO?",
+              "kk": "IPO сатып алар алдында ең пайдалы сұрақ қайсы?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Is the offered valuation reasonable compared with the company's risks and future cash flows?"
+                  "en": "Is the offered valuation reasonable compared with the company's risks and future cash flows?",
+                  "ru": "Разумна ли предлагаемая оценка относительно рисков компании и будущих денежных потоков?",
+                  "kk": "Ұсынылған бағалау компания тәуекелдері мен болашақ ақша ағындарымен салыстырғанда орынды ма?"
                 },
                 "is_correct": true
               },
@@ -904,7 +1567,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Is the IPO being discussed online?"
+                  "en": "Is the IPO being discussed online?",
+                  "ru": "Обсуждают ли IPO онлайн?",
+                  "kk": "IPO онлайн талқыланып жатыр ма?"
                 },
                 "is_correct": false
               },
@@ -912,7 +1577,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Did the stock rise in the first hour?"
+                  "en": "Did the stock rise in the first hour?",
+                  "ru": "Выросла ли акция в первый час?",
+                  "kk": "Акция бірінші сағатта өсті ме?"
                 },
                 "is_correct": false
               },
@@ -920,7 +1587,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Is the company logo familiar?"
+                  "en": "Is the company logo familiar?",
+                  "ru": "Знаком ли логотип компании?",
+                  "kk": "Компания логотипі таныс па?"
                 },
                 "is_correct": false
               }
@@ -932,10 +1601,14 @@
     {
       "code": "market_efficiency",
       "title": {
-        "en": "Market Efficiency"
+        "en": "Market Efficiency",
+        "ru": "Эффективность рынка",
+        "kk": "Нарық тиімділігі"
       },
       "description": {
-        "en": "Market efficiency means prices often reflect available information quickly, making consistent outperformance difficult but not making markets perfect."
+        "en": "Market efficiency means prices often reflect available information quickly, making consistent outperformance difficult but not making markets perfect.",
+        "ru": "Эффективность рынка означает, что цены часто быстро отражают доступную информацию, поэтому стабильно обгонять рынок трудно, хотя рынки не становятся идеальными.",
+        "kk": "Нарық тиімділігі бағалар қолжетімді ақпаратты жиі тез көрсететінін білдіреді; сондықтан тұрақты түрде озып шығу қиын, бірақ нарықтар мінсіз емес."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -947,10 +1620,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Prices are hard to beat"
+              "en": "Prices are hard to beat",
+              "ru": "Цены трудно обыгрывать",
+              "kk": "Бағаны жеңу қиын"
             },
             "body": {
-              "en": "Market efficiency is the idea that prices often incorporate available information quickly. If many smart participants search for mispricing, obvious bargains become rare. This does not mean prices are always correct, but it makes beating them consistently hard."
+              "en": "Market efficiency is the idea that prices often incorporate available information quickly. If many smart participants search for mispricing, obvious bargains become rare. This does not mean prices are always correct, but it makes beating them consistently hard.",
+              "ru": "Эффективность рынка — это идея, что цены часто быстро включают доступную информацию. Когда много умных участников ищут неправильные оценки, очевидные выгодные сделки становятся редкими. Это не значит, что цены всегда правильные, но стабильно обыгрывать их трудно.",
+              "kk": "Нарық тиімділігі — бағалар қолжетімді ақпаратты жиі тез қамтиды деген идея. Көптеген ақылды қатысушы қате бағалауды іздесе, айқын арзан мүмкіндіктер сирек болады. Бұл бағалар әрқашан дұрыс деген сөз емес, бірақ оларды тұрақты түрде жеңуді қиындатады."
             }
           },
           {
@@ -958,13 +1635,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Information has competition"
+              "en": "Information has competition",
+              "ru": "У информации есть конкуренция",
+              "kk": "Ақпаратта бәсеке бар"
             },
             "body": {
-              "en": "When news appears, investors, algorithms, funds, and traders react. Their buying and selling moves the price toward a new estimate of value. By the time a casual investor sees the headline, much of the information may already be reflected."
+              "en": "When news appears, investors, algorithms, funds, and traders react. Their buying and selling moves the price toward a new estimate of value. By the time a casual investor sees the headline, much of the information may already be reflected.",
+              "ru": "Когда появляется новость, реагируют инвесторы, алгоритмы, фонды и трейдеры. Их покупки и продажи двигают цену к новой оценке стоимости. К тому моменту, когда обычный инвестор видит заголовок, большая часть информации уже может быть отражена в цене.",
+              "kk": "Жаңалық шыққанда инвесторлар, алгоритмдер, қорлар және трейдерлер әрекет етеді. Олардың сатып алуы мен сатуы бағаны жаңа құн бағасына қарай жылжытады. Қарапайым инвестор тақырыпты көргенше, ақпараттың көп бөлігі бағада көрініп қойған болуы мүмкін."
             },
             "tip": {
-              "en": "Knowing public news is not enough; you need an insight the price has not already captured."
+              "en": "Knowing public news is not enough; you need an insight the price has not already captured.",
+              "ru": "Знать публичную новость недостаточно; нужен инсайт, который цена ещё не учла.",
+              "kk": "Қоғамдық жаңалықты білу жеткіліксіз; баға әлі қамтымаған түсінік керек."
             }
           },
           {
@@ -972,10 +1655,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Efficiency is not perfection"
+              "en": "Efficiency is not perfection",
+              "ru": "Эффективность — не совершенство",
+              "kk": "Тиімділік — мінсіздік емес"
             },
             "body": {
-              "en": "Markets can overreact, underreact, or misprice assets, especially when uncertainty is high. But finding a mistake is different from benefiting after costs, timing, and risk. A price can be wrong and still hard to trade profitably."
+              "en": "Markets can overreact, underreact, or misprice assets, especially when uncertainty is high. But finding a mistake is different from benefiting after costs, timing, and risk. A price can be wrong and still hard to trade profitably.",
+              "ru": "Рынки могут чрезмерно реагировать, недореагировать или неверно оценивать активы, особенно при высокой неопределённости. Но найти ошибку — не то же самое, что заработать после учёта затрат, тайминга и риска. Цена может быть ошибочной, но торговать на этом прибыльно всё равно трудно.",
+              "kk": "Нарықтар әсіресе белгісіздік жоғары кезде шамадан тыс реакция жасап, жеткіліксіз реакция жасап немесе активтерді қате бағалай алады. Бірақ қатені табу — шығындар, уақыт және тәуекелден кейін пайда көрумен бірдей емес. Баға қате болуы мүмкін, бірақ одан табысты сауда жасау бәрібір қиын."
             }
           },
           {
@@ -983,7 +1670,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "The headline is already in the price"
+              "en": "The headline is already in the price",
+              "ru": "Заголовок уже в цене",
+              "kk": "Тақырып бағаға енгізіліп қойған"
             },
             "content": {
               "en": {
@@ -1027,6 +1716,90 @@
                     "text": "The issue is not whether the news matters. It is whether you can act before the price adjusts."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания объявляет сильные результаты в 9:00. Тысячи участников быстро читают новость и торгуют на ней."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Время",
+                        "Событие",
+                        "Влияние на цену"
+                      ],
+                      [
+                        "До новости",
+                        "Инвесторы оценивают прибыль",
+                        "Старые ожидания в цене"
+                      ],
+                      [
+                        "9:00",
+                        "Отчётность опубликована",
+                        "Начинается быстрая реакция"
+                      ],
+                      [
+                        "9:01–9:10",
+                        "Крупные трейдеры обновляют модели",
+                        "Цена подскакивает или падает"
+                      ],
+                      [
+                        "Позже",
+                        "Розничные инвесторы читают заголовки",
+                        "Лёгкая часть уже может быть в цене"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Вопрос не в том, важна ли новость. Вопрос в том, успеете ли вы действовать до корректировки цены."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания 9:00-де күшті табыс жариялайды. Мыңдаған қатысушы жаңалықты тез оқып, соған қарай сауда жасайды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Уақыт",
+                        "Оқиға",
+                        "Бағаға әсері"
+                      ],
+                      [
+                        "Жаңалыққа дейін",
+                        "Инвесторлар табысты бағалайды",
+                        "Ескі күтулер бағада"
+                      ],
+                      [
+                        "9:00",
+                        "Табыс жарияланды",
+                        "Жылдам реакция басталады"
+                      ],
+                      [
+                        "9:01–9:10",
+                        "Ірі трейдерлер модельдерін жаңартады",
+                        "Баға секіреді немесе түседі"
+                      ],
+                      [
+                        "Кейін",
+                        "Бөлшек инвесторлар тақырыптарды оқиды",
+                        "Оңай бөлік бағаға енген болуы мүмкін"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Мәселе жаңалықтың маңызды-маңызды еместігінде емес. Мәселе баға түзелмей тұрып әрекет ете аласыз ба дегенде."
+                  }
+                ]
               }
             }
           },
@@ -1035,10 +1808,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Efficiency or misconception?"
+              "en": "Efficiency or misconception?",
+              "ru": "Эффективность или заблуждение?",
+              "kk": "Тиімділік пе, қате түсінік пе?"
             },
             "body": {
-              "en": "Label each statement about market efficiency."
+              "en": "Label each statement about market efficiency.",
+              "ru": "Отметьте каждое утверждение об эффективности рынка.",
+              "kk": "Нарық тиімділігі туралы әр тұжырымды белгілеңіз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1066,6 +1843,56 @@
                     "explanation": "Less attention and more complexity can create room for pricing mistakes, though profit is not guaranteed."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучший ярлык.",
+                "options": [
+                  "Идея эффективности",
+                  "Заблуждение",
+                  "Возможная неэффективность"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Публичная информация может очень быстро отражаться в ценах.",
+                    "correct_answer": "Идея эффективности",
+                    "explanation": "Это главная причина, почему трудно обыгрывать публичные новости."
+                  },
+                  {
+                    "text": "Эффективность рынка означает, что цены всегда идеально правильные.",
+                    "correct_answer": "Заблуждение",
+                    "explanation": "Эффективность — это о том, насколько трудно использовать неправильную оценку, а не о совершенстве."
+                  },
+                  {
+                    "text": "Маленькая, игнорируемая компания имеет мало аналитического покрытия и запутанную отчётность.",
+                    "correct_answer": "Возможная неэффективность",
+                    "explanation": "Меньше внимания и больше сложности могут создавать пространство для ошибок в цене, хотя прибыль не гарантирована."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ең жақсы белгіні таңдаңыз.",
+                "options": [
+                  "Тиімділік идеясы",
+                  "Қате түсінік",
+                  "Мүмкін тиімсіздік"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Қоғамдық ақпарат бағаларда өте тез көрінуі мүмкін.",
+                    "correct_answer": "Тиімділік идеясы",
+                    "explanation": "Қоғамдық жаңалықты жеңу қиын болуының негізгі себебі осы."
+                  },
+                  {
+                    "text": "Нарық тиімділігі бағалар әрқашан мінсіз дұрыс дегенді білдіреді.",
+                    "correct_answer": "Қате түсінік",
+                    "explanation": "Тиімділік — мінсіздік емес, қате бағалауды пайдалану қаншалықты қиын екені туралы."
+                  },
+                  {
+                    "text": "Кішкентай, еленбейтін компанияны аз аналитик қамтиды және қаржылық есептері шатасқан болуы мүмкін.",
+                    "correct_answer": "Мүмкін тиімсіздік",
+                    "explanation": "Аз назар және көп күрделілік бағалау қателеріне орын ашуы мүмкін, бірақ пайда кепілденбейді."
+                  }
+                ]
               }
             }
           },
@@ -1074,13 +1901,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Respect the price, but do not worship it"
+              "en": "Respect the price, but do not worship it",
+              "ru": "Уважайте цену, но не поклоняйтесь ей",
+              "kk": "Бағаны құрметтеңіз, бірақ оған табынбаңыз"
             },
             "body": {
-              "en": "Market efficiency teaches humility. Prices are not always right, but they are formed by competition among many informed participants. If you think you see a bargain, ask what you know that the market has missed and why it has not already been priced."
+              "en": "Market efficiency teaches humility. Prices are not always right, but they are formed by competition among many informed participants. If you think you see a bargain, ask what you know that the market has missed and why it has not already been priced.",
+              "ru": "Эффективность рынка учит скромности. Цены не всегда правы, но они формируются конкуренцией множества информированных участников. Если вам кажется, что вы видите выгодную сделку, спросите себя, что вы знаете такого, что рынок пропустил, и почему это ещё не учтено в цене.",
+              "kk": "Нарық тиімділігі кішіпейілділікке үйретеді. Бағалар әрқашан дұрыс емес, бірақ олар көптеген ақпаратты қатысушылар арасындағы бәсекемен қалыптасады. Егер тиімді мүмкіндік көріп тұрмын десеңіз, нарық нені жіберіп алды және неге ол бағаға енбеді деп сұраңыз."
             },
             "tip": {
-              "en": "The harder question is not “Am I right?” but “Why is the market wrong?”"
+              "en": "The harder question is not “Am I right?” but “Why is the market wrong?”",
+              "ru": "Более трудный вопрос не «Прав ли я?», а «Почему рынок ошибается?»",
+              "kk": "Қиынырақ сұрақ — «Мен дұрыспын ба?» емес, «Нарық неге қателесіп тұр?»"
             }
           }
         ]
@@ -1089,7 +1922,9 @@
         "quiz_id": 2004,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Market Efficiency — Check"
+          "en": "Market Efficiency — Check",
+          "ru": "Эффективность рынка — проверка",
+          "kk": "Нарық тиімділігі — тексеру"
         },
         "questions": [
           {
@@ -1097,14 +1932,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A company releases obvious good news, and the stock jumps before you can buy. What does this illustrate?"
+              "en": "A company releases obvious good news, and the stock jumps before you can buy. What does this illustrate?",
+              "ru": "Компания публикует очевидно хорошие новости, и акция подскакивает до того, как вы успеваете купить. Что это показывает?",
+              "kk": "Компания анық жақсы жаңалық шығарады, ал акция сіз сатып алып үлгермей тұрып секіреді. Бұл нені көрсетеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Public information can be incorporated into prices quickly"
+                  "en": "Public information can be incorporated into prices quickly",
+                  "ru": "Публичная информация может быстро включаться в цены",
+                  "kk": "Қоғамдық ақпарат бағаларға тез енуі мүмкін"
                 },
                 "is_correct": true
               },
@@ -1112,7 +1951,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Good news never affects stocks"
+                  "en": "Good news never affects stocks",
+                  "ru": "Хорошие новости никогда не влияют на акции",
+                  "kk": "Жақсы жаңалықтар акцияларға ешқашан әсер етпейді"
                 },
                 "is_correct": false
               },
@@ -1120,7 +1961,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Only retail investors set prices"
+                  "en": "Only retail investors set prices",
+                  "ru": "Цены устанавливают только розничные инвесторы",
+                  "kk": "Бағаны тек бөлшек инвесторлар белгілейді"
                 },
                 "is_correct": false
               },
@@ -1128,7 +1971,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The market must be illegal"
+                  "en": "The market must be illegal",
+                  "ru": "Рынок должен быть незаконным",
+                  "kk": "Нарық заңсыз болуы керек"
                 },
                 "is_correct": false
               }
@@ -1139,14 +1984,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What is the correct meaning of market efficiency?"
+              "en": "What is the correct meaning of market efficiency?",
+              "ru": "Каково правильное значение эффективности рынка?",
+              "kk": "Нарық тиімділігінің дұрыс мағынасы қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Prices often reflect available information enough that consistent outperformance is difficult"
+                  "en": "Prices often reflect available information enough that consistent outperformance is difficult",
+                  "ru": "Цены часто достаточно отражают доступную информацию, поэтому стабильное опережение рынка трудно",
+                  "kk": "Бағалар қолжетімді ақпаратты жеткілікті көрсетеді, сондықтан тұрақты түрде озып шығу қиын"
                 },
                 "is_correct": true
               },
@@ -1154,7 +2003,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Prices are always perfectly correct"
+                  "en": "Prices are always perfectly correct",
+                  "ru": "Цены всегда идеально правильные",
+                  "kk": "Бағалар әрқашан мінсіз дұрыс"
                 },
                 "is_correct": false
               },
@@ -1162,7 +2013,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "No investor can ever make money"
+                  "en": "No investor can ever make money",
+                  "ru": "Ни один инвестор никогда не может заработать",
+                  "kk": "Ешбір инвестор ешқашан ақша таба алмайды"
                 },
                 "is_correct": false
               },
@@ -1170,7 +2023,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "All assets have the same return"
+                  "en": "All assets have the same return",
+                  "ru": "Все активы имеют одинаковую доходность",
+                  "kk": "Барлық активтің табыстылығы бірдей"
                 },
                 "is_correct": false
               }
@@ -1181,14 +2036,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "You believe a stock is mispriced. Which question best tests your reasoning?"
+              "en": "You believe a stock is mispriced. Which question best tests your reasoning?",
+              "ru": "Вы считаете, что акция оценена неверно. Какой вопрос лучше всего проверяет вашу логику?",
+              "kk": "Сіз акция қате бағаланған деп ойлайсыз. Қай сұрақ сіздің ойыңызды жақсы тексереді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "What information or interpretation do I have that the current price does not already reflect?"
+                  "en": "What information or interpretation do I have that the current price does not already reflect?",
+                  "ru": "Какая информация или интерпретация у меня есть, которую текущая цена ещё не отражает?",
+                  "kk": "Менде ағымдағы баға әлі көрсетпеген қандай ақпарат немесе түсіндіру бар?"
                 },
                 "is_correct": true
               },
@@ -1196,7 +2055,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Did the stock fall yesterday?"
+                  "en": "Did the stock fall yesterday?",
+                  "ru": "Акция вчера упала?",
+                  "kk": "Акция кеше түсті ме?"
                 },
                 "is_correct": false
               },
@@ -1204,7 +2065,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Is the ticker easy to remember?"
+                  "en": "Is the ticker easy to remember?",
+                  "ru": "Легко ли запомнить тикер?",
+                  "kk": "Тикерді есте сақтау оңай ма?"
                 },
                 "is_correct": false
               },
@@ -1212,7 +2075,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Do I personally like the product?"
+                  "en": "Do I personally like the product?",
+                  "ru": "Нравится ли мне лично продукт?",
+                  "kk": "Маған өнім жеке ұнай ма?"
                 },
                 "is_correct": false
               }
@@ -1224,10 +2089,14 @@
     {
       "code": "bull_and_bear_markets",
       "title": {
-        "en": "Bull and Bear Markets"
+        "en": "Bull and Bear Markets",
+        "ru": "Бычьи и медвежьи рынки",
+        "kk": "Бұқа және аю нарықтары"
       },
       "description": {
-        "en": "Bull and bear markets describe broad rising or falling market environments, but labels can oversimplify risk and opportunity."
+        "en": "Bull and bear markets describe broad rising or falling market environments, but labels can oversimplify risk and opportunity.",
+        "ru": "Бычьи и медвежьи рынки описывают широкую среду роста или падения цен, но такие ярлыки могут чрезмерно упрощать риск и возможности.",
+        "kk": "Бұқа және аю нарықтары кең өсу немесе төмендеу ортасын сипаттайды, бірақ бұл атаулар тәуекел мен мүмкіндікті тым жеңілдетуі мүмкін."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1239,10 +2108,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Market mood becomes a label"
+              "en": "Market mood becomes a label",
+              "ru": "Настроение рынка становится ярлыком",
+              "kk": "Нарық көңіл күйі атауға айналады"
             },
             "body": {
-              "en": "A bull market usually describes a broad period of rising prices and optimism. A bear market describes a broad decline and pessimism. These labels summarize conditions, but they do not tell you exactly what to buy, sell, or feel."
+              "en": "A bull market usually describes a broad period of rising prices and optimism. A bear market describes a broad decline and pessimism. These labels summarize conditions, but they do not tell you exactly what to buy, sell, or feel.",
+              "ru": "Бычий рынок обычно означает широкий период роста цен и оптимизма. Медвежий рынок — широкий спад и пессимизм. Эти ярлыки описывают условия, но не говорят точно, что покупать, продавать или чувствовать.",
+              "kk": "Бұқа нарығы әдетте баға өсуі мен оптимизмнің кең кезеңін сипаттайды. Аю нарығы кең құлдырау мен пессимизмді білдіреді. Бұл атаулар жағдайды қысқаша көрсетеді, бірақ нақты не сатып алу, сату немесе сезіну керегін айтпайды."
             }
           },
           {
@@ -1250,13 +2123,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Bull markets can hide risk"
+              "en": "Bull markets can hide risk",
+              "ru": "Бычьи рынки могут скрывать риск",
+              "kk": "Бұқа нарығы тәуекелді жасыруы мүмкін"
             },
             "body": {
-              "en": "Rising markets can make risky decisions feel intelligent. Leverage, concentration, and weak analysis may look good while prices rise. The danger is confusing a favorable environment with personal skill."
+              "en": "Rising markets can make risky decisions feel intelligent. Leverage, concentration, and weak analysis may look good while prices rise. The danger is confusing a favorable environment with personal skill.",
+              "ru": "Растущие рынки могут заставить рискованные решения казаться умными. Плечо, концентрация и слабый анализ могут выглядеть хорошо, пока цены растут. Опасность — спутать благоприятную среду с личным мастерством.",
+              "kk": "Өсіп жатқан нарықтар тәуекелді шешімдерді ақылды сияқты көрсетеді. Бағалар өсіп тұрғанда, левередж, концентрация және әлсіз талдау жақсы көрінуі мүмкін. Қауіп — қолайлы ортаны жеке шеберлікпен шатастыру."
             },
             "tip": {
-              "en": "A bull market can reward bad process for a while."
+              "en": "A bull market can reward bad process for a while.",
+              "ru": "Бычий рынок может какое-то время вознаграждать плохой процесс.",
+              "kk": "Бұқа нарығы біраз уақыт нашар процесті де марапаттауы мүмкін."
             }
           },
           {
@@ -1264,10 +2143,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Bear markets can create opportunity and stress"
+              "en": "Bear markets can create opportunity and stress",
+              "ru": "Медвежьи рынки могут создавать возможности и стресс",
+              "kk": "Аю нарығы мүмкіндік те, стресс те туғызуы мүмкін"
             },
             "body": {
-              "en": "Falling markets reduce prices, but they also test cash flow, patience, and risk tolerance. A lower price is useful only if the investor can hold through uncertainty and the asset remains fundamentally sound. Panic selling turns temporary volatility into permanent loss."
+              "en": "Falling markets reduce prices, but they also test cash flow, patience, and risk tolerance. A lower price is useful only if the investor can hold through uncertainty and the asset remains fundamentally sound. Panic selling turns temporary volatility into permanent loss.",
+              "ru": "Падающие рынки снижают цены, но также проверяют денежный поток, терпение и толерантность к риску. Низкая цена полезна только если инвестор способен держать актив через неопределённость, а сам актив остаётся фундаментально качественным. Паническая продажа превращает временную волатильность в постоянный убыток.",
+              "kk": "Құлдыраған нарықтар бағаларды төмендетеді, бірақ ақша ағынын, шыдамды және тәуекелге төзімділікті де сынайды. Төмен баға инвестор белгісіздік кезінде ұстай алса және актив фундаменталды түрде мықты болса ғана пайдалы. Дүрбелеңмен сату уақытша құбылмалылықты тұрақты шығынға айналдырады."
             }
           },
           {
@@ -1275,7 +2158,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same investor, different market environment"
+              "en": "Same investor, different market environment",
+              "ru": "Тот же инвестор, другая рыночная среда",
+              "kk": "Сол инвестор, басқа нарық ортасы"
             },
             "content": {
               "en": {
@@ -1319,6 +2204,90 @@
                     "text": "The plan should be designed before market mood changes, not invented during panic or excitement."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор ежемесячно вносит ₸100 000 в широкий фонд акций. Значение одного и того же действия меняется в зависимости от рыночной среды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Среда",
+                        "Ощущение инвестора",
+                        "Риск, которым нужно управлять"
+                      ],
+                      [
+                        "Бычий рынок",
+                        "Уверенность растёт",
+                        "Излишняя уверенность и погоня за доходностью"
+                      ],
+                      [
+                        "Медвежий рынок",
+                        "Страх растёт",
+                        "Остановка взносов или продажа по низкой цене"
+                      ],
+                      [
+                        "Боковой рынок",
+                        "Нетерпение растёт",
+                        "Слишком ранний отказ от плана"
+                      ],
+                      [
+                        "Все рынки",
+                        "Неопределённость сохраняется",
+                        "Нужен план на основе правил"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "План нужно создать до смены рыночного настроения, а не придумывать во время паники или эйфории."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор ай сайын кең акциялар қорына ₸100 000 салады. Бір әрекеттің мағынасы нарық ортасына қарай өзгереді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Орта",
+                        "Инвестордың сезімі",
+                        "Басқарылатын тәуекел"
+                      ],
+                      [
+                        "Бұқа нарығы",
+                        "Сенімділік өседі",
+                        "Шамадан тыс сенімділік және табысты қуалау"
+                      ],
+                      [
+                        "Аю нарығы",
+                        "Қорқыныш өседі",
+                        "Жарналарды тоқтату немесе төмен бағамен сату"
+                      ],
+                      [
+                        "Бүйірлік нарық",
+                        "Шыдамсыздық өседі",
+                        "Жоспардан тым ерте бас тарту"
+                      ],
+                      [
+                        "Барлық нарықтар",
+                        "Белгісіздік қалады",
+                        "Ережеге негізделген жоспар қажет"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Жоспар нарық көңіл күйі өзгермей тұрып жасалуы керек, дүрбелең немесе эйфория кезінде ойлап табылмауы керек."
+                  }
+                ]
               }
             }
           },
@@ -1327,10 +2296,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Market label, investor risk"
+              "en": "Market label, investor risk",
+              "ru": "Рыночный ярлык и риск инвестора",
+              "kk": "Нарық атауы, инвестор тәуекелі"
             },
             "body": {
-              "en": "Choose the main behavioral risk in each market scenario."
+              "en": "Choose the main behavioral risk in each market scenario.",
+              "ru": "Выберите основной поведенческий риск в каждом рыночном сценарии.",
+              "kk": "Әр нарық сценарийіндегі негізгі мінез-құлық тәуекелін таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1358,6 +2331,56 @@
                     "explanation": "A pre-set rule reduces emotional reaction to market labels."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучший ярлык риска.",
+                "options": [
+                  "Излишняя уверенность",
+                  "Паническая продажа",
+                  "Дисциплина плана"
+                ],
+                "scenarios": [
+                  {
+                    "text": "После двух лет роста цен инвестор занимает деньги, чтобы купить ещё, потому что чувствует себя непобедимым.",
+                    "correct_answer": "Излишняя уверенность",
+                    "explanation": "Бычьи рынки могут заставить плечо и концентрацию казаться безопаснее, чем они есть."
+                  },
+                  {
+                    "text": "После падения рынка на 25% инвестор продаёт долгосрочный фонд, который понадобится только через 15 лет.",
+                    "correct_answer": "Паническая продажа",
+                    "explanation": "Инвестор может превращать временное снижение рынка в постоянное решение."
+                  },
+                  {
+                    "text": "Инвестор сохраняет фиксированный ежемесячный взнос, потому что цель и горизонт не изменились.",
+                    "correct_answer": "Дисциплина плана",
+                    "explanation": "Заранее заданное правило снижает эмоциональную реакцию на рыночные ярлыки."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ең жақсы тәуекел белгісін таңдаңыз.",
+                "options": [
+                  "Шамадан тыс сенімділік",
+                  "Дүрбелеңмен сату",
+                  "Жоспар тәртібі"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Екі жылдық баға өсімінен кейін инвестор өзін тоқтатылмайтындай сезініп, көбірек сатып алу үшін қарыз алады.",
+                    "correct_answer": "Шамадан тыс сенімділік",
+                    "explanation": "Бұқа нарықтары левередж бен концентрацияны шын мәніндегіден қауіпсізірек етіп көрсетуі мүмкін."
+                  },
+                  {
+                    "text": "Нарық 25% түскеннен кейін инвестор тек 15 жылдан соң керек болатын ұзақ мерзімді қорды сатады.",
+                    "correct_answer": "Дүрбелеңмен сату",
+                    "explanation": "Инвестор уақытша нарық төмендеуін тұрақты шешімге айналдырып жатқан болуы мүмкін."
+                  },
+                  {
+                    "text": "Инвестор ай сайынғы тұрақты жарнаны сақтайды, өйткені мақсат пен уақыт көкжиегі өзгермеді.",
+                    "correct_answer": "Жоспар тәртібі",
+                    "explanation": "Алдын ала қойылған ереже нарық атауларына эмоционалды реакцияны азайтады."
+                  }
+                ]
               }
             }
           },
@@ -1366,13 +2389,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Labels are context, not instructions"
+              "en": "Labels are context, not instructions",
+              "ru": "Ярлыки — это контекст, а не инструкции",
+              "kk": "Атаулар — нұсқау емес, контекст"
             },
             "body": {
-              "en": "Bull and bear markets describe broad price environments, but they are not complete investment strategies. The useful response depends on time horizon, cash needs, asset quality, and risk tolerance. A plan built only around mood will change at the worst moments."
+              "en": "Bull and bear markets describe broad price environments, but they are not complete investment strategies. The useful response depends on time horizon, cash needs, asset quality, and risk tolerance. A plan built only around mood will change at the worst moments.",
+              "ru": "Бычьи и медвежьи рынки описывают широкую ценовую среду, но не являются полноценными инвестиционными стратегиями. Полезная реакция зависит от горизонта, потребности в деньгах, качества активов и толерантности к риску. План, построенный только на настроении, меняется в худшие моменты.",
+              "kk": "Бұқа және аю нарықтары кең баға ортасын сипаттайды, бірақ олар толық инвестициялық стратегия емес. Дұрыс әрекет уақыт көкжиегіне, ақша қажеттілігіне, актив сапасына және тәуекелге төзімділікке байланысты. Тек көңіл күйге құрылған жоспар ең нашар сәттерде өзгереді."
             },
             "tip": {
-              "en": "Use market labels to understand context, not to replace your plan."
+              "en": "Use market labels to understand context, not to replace your plan.",
+              "ru": "Используйте рыночные ярлыки для понимания контекста, а не для замены плана.",
+              "kk": "Нарық атауларын жоспарды алмастыру үшін емес, контексті түсіну үшін қолданыңыз."
             }
           }
         ]
@@ -1381,7 +2410,9 @@
         "quiz_id": 2005,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Bull and Bear Markets — Check"
+          "en": "Bull and Bear Markets — Check",
+          "ru": "Бычьи и медвежьи рынки — проверка",
+          "kk": "Бұқа және аю нарықтары — тексеру"
         },
         "questions": [
           {
@@ -1389,14 +2420,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why can a bull market make weak investment decisions look smart temporarily?"
+              "en": "Why can a bull market make weak investment decisions look smart temporarily?",
+              "ru": "Почему бычий рынок может временно делать слабые инвестиционные решения похожими на умные?",
+              "kk": "Неге бұқа нарығы әлсіз инвестициялық шешімдерді уақытша ақылды сияқты көрсете алады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Rising prices can reward risk-taking even when the process is poor"
+                  "en": "Rising prices can reward risk-taking even when the process is poor",
+                  "ru": "Рост цен может вознаграждать риск даже при плохом процессе",
+                  "kk": "Баға өскенде, процесс нашар болса да, тәуекел алу марапатталуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1404,7 +2439,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Bull markets eliminate all risk"
+                  "en": "Bull markets eliminate all risk",
+                  "ru": "Бычьи рынки устраняют весь риск",
+                  "kk": "Бұқа нарықтары барлық тәуекелді жояды"
                 },
                 "is_correct": false
               },
@@ -1412,7 +2449,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Every investor becomes skilled during a bull market"
+                  "en": "Every investor becomes skilled during a bull market",
+                  "ru": "Каждый инвестор становится умелым во время бычьего рынка",
+                  "kk": "Бұқа нарығында әр инвестор шебер болады"
                 },
                 "is_correct": false
               },
@@ -1420,7 +2459,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Bad companies cannot rise in bull markets"
+                  "en": "Bad companies cannot rise in bull markets",
+                  "ru": "Плохие компании не могут расти на бычьих рынках",
+                  "kk": "Нашар компаниялар бұқа нарығында өсе алмайды"
                 },
                 "is_correct": false
               }
@@ -1431,14 +2472,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "A long-term investor sells after a broad 30% decline even though their goal is 20 years away. What risk is this?"
+              "en": "A long-term investor sells after a broad 30% decline even though their goal is 20 years away. What risk is this?",
+              "ru": "Долгосрочный инвестор продаёт после общего падения на 30%, хотя его цель через 20 лет. Что это за риск?",
+              "kk": "Ұзақ мерзімді инвестор мақсатына 20 жыл қалса да, нарық 30% түскеннен кейін сатады. Бұл қандай тәуекел?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Panic selling that may lock in a loss"
+                  "en": "Panic selling that may lock in a loss",
+                  "ru": "Паническая продажа, которая может зафиксировать убыток",
+                  "kk": "Шығынды бекітіп қоюы мүмкін дүрбелеңмен сату"
                 },
                 "is_correct": true
               },
@@ -1446,7 +2491,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Perfect market timing"
+                  "en": "Perfect market timing",
+                  "ru": "Идеальный рыночный тайминг",
+                  "kk": "Мінсіз нарық таймингі"
                 },
                 "is_correct": false
               },
@@ -1454,7 +2501,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Primary market issuance"
+                  "en": "Primary market issuance",
+                  "ru": "Выпуск на первичном рынке",
+                  "kk": "Бастапқы нарықтағы шығарылым"
                 },
                 "is_correct": false
               },
@@ -1462,7 +2511,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Guaranteed risk reduction with no trade-off"
+                  "en": "Guaranteed risk reduction with no trade-off",
+                  "ru": "Гарантированное снижение риска без компромисса",
+                  "kk": "Ешбір ымырасыз кепілді тәуекел азайту"
                 },
                 "is_correct": false
               }
@@ -1473,14 +2524,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the best use of bull and bear market labels?"
+              "en": "What is the best use of bull and bear market labels?",
+              "ru": "Как лучше всего использовать ярлыки бычьего и медвежьего рынка?",
+              "kk": "Бұқа және аю нарығы атауларын ең дұрыс қолдану қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They provide context, but decisions still need goals, horizon, and risk analysis"
+                  "en": "They provide context, but decisions still need goals, horizon, and risk analysis",
+                  "ru": "Они дают контекст, но решения всё равно требуют целей, горизонта и анализа риска",
+                  "kk": "Олар контекст береді, бірақ шешімдерге бәрібір мақсат, мерзім және тәуекел талдауы керек"
                 },
                 "is_correct": true
               },
@@ -1488,7 +2543,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They tell every investor exactly when to buy and sell"
+                  "en": "They tell every investor exactly when to buy and sell",
+                  "ru": "Они точно говорят каждому инвестору, когда покупать и продавать",
+                  "kk": "Олар әр инвесторға қашан сатып алып, қашан сатуды дәл айтады"
                 },
                 "is_correct": false
               },
@@ -1496,7 +2553,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They replace asset allocation"
+                  "en": "They replace asset allocation",
+                  "ru": "Они заменяют распределение активов",
+                  "kk": "Олар активтерді бөлуді алмастырады"
                 },
                 "is_correct": false
               },
@@ -1504,7 +2563,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "They prove future returns with certainty"
+                  "en": "They prove future returns with certainty",
+                  "ru": "Они с уверенностью доказывают будущую доходность",
+                  "kk": "Олар болашақ табысты нақты дәлелдейді"
                 },
                 "is_correct": false
               }
@@ -1518,7 +2579,9 @@
     "quiz_id": 2099,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "How Markets Work — Final Check"
+      "en": "How Markets Work — Final Check",
+      "ru": "Как работают рынки — итоговая проверка",
+      "kk": "Нарықтар қалай жұмыс істейді — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1526,14 +2589,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "Why is it useful to think about the other side of a trade?"
+          "en": "Why is it useful to think about the other side of a trade?",
+          "ru": "Почему полезно думать о другой стороне сделки?",
+          "kk": "Мәміленің қарсы жағы туралы ойлау неге пайдалы?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "It forces you to consider different motives, information, and constraints behind the price"
+              "en": "It forces you to consider different motives, information, and constraints behind the price",
+              "ru": "Это заставляет учитывать разные мотивы, информацию и ограничения, стоящие за ценой",
+              "kk": "Бұл бағаның артындағы әртүрлі мотивтерді, ақпаратты және шектеулерді ескеруге мәжбүрлейді"
             },
             "is_correct": true
           },
@@ -1541,7 +2608,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "It proves the seller is always wrong"
+              "en": "It proves the seller is always wrong",
+              "ru": "Это доказывает, что продавец всегда неправ",
+              "kk": "Бұл сатушы әрқашан қателесетінін дәлелдейді"
             },
             "is_correct": false
           },
@@ -1549,7 +2618,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "It guarantees your trade will profit"
+              "en": "It guarantees your trade will profit",
+              "ru": "Это гарантирует прибыльность вашей сделки",
+              "kk": "Бұл мәмілеңіздің пайда әкелетінін кепілдейді"
             },
             "is_correct": false
           },
@@ -1557,7 +2628,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "It removes the need for liquidity analysis"
+              "en": "It removes the need for liquidity analysis",
+              "ru": "Это устраняет необходимость анализа ликвидности",
+              "kk": "Бұл өтімділік талдауын қажетсіз етеді"
             },
             "is_correct": false
           }
@@ -1568,14 +2641,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "You buy existing listed shares from another investor. What market is this usually?"
+          "en": "You buy existing listed shares from another investor. What market is this usually?",
+          "ru": "Вы покупаете уже существующие листинговые акции у другого инвестора. Какой это обычно рынок?",
+          "kk": "Сіз басқа инвестордан бұрыннан бар листингтегі акцияларды сатып аласыз. Бұл әдетте қандай нарық?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Secondary market"
+              "en": "Secondary market",
+              "ru": "Вторичный рынок",
+              "kk": "Қайталама нарық"
             },
             "is_correct": true
           },
@@ -1583,7 +2660,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Primary market"
+              "en": "Primary market",
+              "ru": "Первичный рынок",
+              "kk": "Бастапқы нарық"
             },
             "is_correct": false
           },
@@ -1591,7 +2670,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Internal company payroll"
+              "en": "Internal company payroll",
+              "ru": "Внутренняя зарплатная система компании",
+              "kk": "Компанияның ішкі жалақы жүйесі"
             },
             "is_correct": false
           },
@@ -1599,7 +2680,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "A tax-deferred account"
+              "en": "A tax-deferred account",
+              "ru": "Счёт с отсроченным налогообложением",
+              "kk": "Салығы кейінге қалдырылған шот"
             },
             "is_correct": false
           }
@@ -1610,14 +2693,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "What is a key risk of buying an IPO mainly because it is popular?"
+          "en": "What is a key risk of buying an IPO mainly because it is popular?",
+          "ru": "Какой ключевой риск покупки IPO главным образом из-за его популярности?",
+          "kk": "IPO-ны негізінен танымалдығы үшін сатып алудың негізгі тәуекелі қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Popularity can hide valuation risk and limited public history"
+              "en": "Popularity can hide valuation risk and limited public history",
+              "ru": "Популярность может скрывать риск оценки и ограниченную публичную историю",
+              "kk": "Танымалдық бағалау тәуекелін және шектеулі жария тарихты жасыра алады"
             },
             "is_correct": true
           },
@@ -1625,7 +2712,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "IPOs cannot trade after listing"
+              "en": "IPOs cannot trade after listing",
+              "ru": "IPO не могут торговаться после листинга",
+              "kk": "IPO листингтен кейін саудалана алмайды"
             },
             "is_correct": false
           },
@@ -1633,7 +2722,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "IPO shares never represent ownership"
+              "en": "IPO shares never represent ownership",
+              "ru": "Акции IPO никогда не представляют владение",
+              "kk": "IPO акциялары ешқашан меншік үлесін білдірмейді"
             },
             "is_correct": false
           },
@@ -1641,7 +2732,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Popular IPOs are guaranteed by the exchange"
+              "en": "Popular IPOs are guaranteed by the exchange",
+              "ru": "Популярные IPO гарантируются биржей",
+              "kk": "Танымал IPO-ларға биржа кепілдік береді"
             },
             "is_correct": false
           }
@@ -1652,14 +2745,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "What does market efficiency suggest about trading on public headlines?"
+          "en": "What does market efficiency suggest about trading on public headlines?",
+          "ru": "Что эффективность рынка говорит о торговле на публичных заголовках?",
+          "kk": "Нарық тиімділігі қоғамдық тақырыптарға қарап сауда жасау туралы нені меңзейді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The information may already be reflected in the price by the time you react"
+              "en": "The information may already be reflected in the price by the time you react",
+              "ru": "К моменту вашей реакции информация уже может быть отражена в цене",
+              "kk": "Сіз әрекет еткенше ақпарат бағада көрініс тауып қойған болуы мүмкін"
             },
             "is_correct": true
           },
@@ -1667,7 +2764,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Public headlines are never relevant"
+              "en": "Public headlines are never relevant",
+              "ru": "Публичные заголовки никогда не важны",
+              "kk": "Қоғамдық тақырыптар ешқашан маңызды емес"
             },
             "is_correct": false
           },
@@ -1675,7 +2774,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Prices are always perfectly correct"
+              "en": "Prices are always perfectly correct",
+              "ru": "Цены всегда идеально правильные",
+              "kk": "Бағалар әрқашан мінсіз дұрыс"
             },
             "is_correct": false
           },
@@ -1683,7 +2784,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Only private investors can move markets"
+              "en": "Only private investors can move markets",
+              "ru": "Только частные инвесторы могут двигать рынки",
+              "kk": "Нарықтарды тек жеке инвесторлар қозғай алады"
             },
             "is_correct": false
           }
@@ -1694,14 +2797,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "A bear market makes an investor want to abandon a long-term plan. What should they check first?"
+          "en": "A bear market makes an investor want to abandon a long-term plan. What should they check first?",
+          "ru": "Медвежий рынок заставляет инвестора хотеть отказаться от долгосрочного плана. Что ему сначала проверить?",
+          "kk": "Аю нарығы инвесторды ұзақ мерзімді жоспардан бас тартқысы келтіреді. Ол алдымен нені тексеруі керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Whether their goal, time horizon, cash needs, and asset quality actually changed"
+              "en": "Whether their goal, time horizon, cash needs, and asset quality actually changed",
+              "ru": "Действительно ли изменились его цель, горизонт, потребность в деньгах и качество активов",
+              "kk": "Мақсаты, уақыт көкжиегі, ақша қажеттілігі және актив сапасы шынымен өзгерді ме"
             },
             "is_correct": true
           },
@@ -1709,7 +2816,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Whether the market label sounds scary"
+              "en": "Whether the market label sounds scary",
+              "ru": "Звучит ли рыночный ярлык пугающе",
+              "kk": "Нарық атауы қорқынышты естіле ме"
             },
             "is_correct": false
           },
@@ -1717,7 +2826,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Whether all assets should be sold immediately"
+              "en": "Whether all assets should be sold immediately",
+              "ru": "Нужно ли немедленно продать все активы",
+              "kk": "Барлық активті дереу сату керек пе"
             },
             "is_correct": false
           },
@@ -1725,7 +2836,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Whether bull markets are guaranteed next week"
+              "en": "Whether bull markets are guaranteed next week",
+              "ru": "Гарантирован ли бычий рынок на следующей неделе",
+              "kk": "Келесі аптада бұқа нарығы кепілдендірілген бе"
             },
             "is_correct": false
           }

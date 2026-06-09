@@ -3,11 +3,16 @@
   "topic": {
     "code": "stocks",
     "orderIndex": 14,
+    "icon_path": "assets/topics/014.png",
     "title": {
-      "en": "Stocks"
+      "en": "Stocks",
+      "ru": "Акции",
+      "kk": "Акциялар"
     },
     "description": {
-      "en": "What owning a share actually means, why prices move, and how to read a quote and a market index without being misled."
+      "en": "What owning a share actually means, why prices move, and how to read a quote and a market index without being misled.",
+      "ru": "Что на самом деле означает владение акцией, почему меняются цены и как читать котировку и рыночный индекс без заблуждений.",
+      "kk": "Акцияға иелік ету нені білдіретінін, бағалар неге өзгеретінін және баға белгілеу мен нарық индексін қалай дұрыс оқуды түсіну."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "ownership_and_shares",
       "title": {
-        "en": "Ownership and Shares"
+        "en": "Ownership and Shares",
+        "ru": "Владение и акции",
+        "kk": "Иелік ету және акциялар"
       },
       "description": {
-        "en": "A stock is a small ownership claim on a business, not just a price moving on a screen."
+        "en": "A stock is a small ownership claim on a business, not just a price moving on a screen.",
+        "ru": "Акция — это небольшая доля владения бизнесом, а не просто цена, движущаяся на экране.",
+        "kk": "Акция — экрандағы қозғалатын баға ғана емес, бизнестегі шағын меншік үлесі."
       },
       "estimatedMinutes": 5,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A share is a claim"
+              "en": "A share is a claim",
+              "ru": "Акция — это право на долю",
+              "kk": "Акция — үлеске құқық"
             },
             "body": {
-              "en": "When you buy a share, you are not buying a lottery ticket or a line on a chart. You are buying a small ownership claim on a company. The share matters because the company can create value, lose value, or return cash to owners."
+              "en": "When you buy a share, you are not buying a lottery ticket or a line on a chart. You are buying a small ownership claim on a company. The share matters because the company can create value, lose value, or return cash to owners.",
+              "ru": "Покупая акцию, вы покупаете не лотерейный билет и не линию на графике. Вы покупаете небольшую долю владения компанией. Акция важна потому, что компания может создавать стоимость, терять стоимость или возвращать деньги владельцам.",
+              "kk": "Акция сатып алғанда сіз лотерея билетін немесе графиктегі сызықты алмайсыз. Сіз компаниядағы шағын меншік үлесін аласыз. Акцияның мәні бар, өйткені компания құн жасай алады, құнын жоғалта алады немесе иелеріне ақша қайтара алады."
             },
             "tip": {
-              "en": "Start with the business first; the ticker is only a label for the ownership claim."
+              "en": "Start with the business first; the ticker is only a label for the ownership claim.",
+              "ru": "Начинайте с бизнеса; тикер — всего лишь ярлык для доли владения.",
+              "kk": "Алдымен бизнесті түсініңіз; тикер — меншік үлесінің тек белгісі."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "What owners receive"
+              "en": "What owners receive",
+              "ru": "Что получают владельцы",
+              "kk": "Иелер не алады"
             },
             "body": {
-              "en": "Shareholders benefit in two main ways: the share price can rise, or the company can pay dividends. Neither is guaranteed. Both depend on business performance and how investors value that performance."
+              "en": "Shareholders benefit in two main ways: the share price can rise, or the company can pay dividends. Neither is guaranteed. Both depend on business performance and how investors value that performance.",
+              "ru": "Акционеры получают выгоду двумя основными способами: цена акции может вырасти, или компания может выплатить дивиденды. Ни то ни другое не гарантировано. Оба зависят от результатов бизнеса и от того, как инвесторы оценивают эти результаты.",
+              "kk": "Акционерлер екі негізгі жолмен пайда көреді: акция бағасы өсуі мүмкін немесе компания дивиденд төлеуі мүмкін. Екеуі де кепілдендірілмейді. Бұл бизнес нәтижесіне және инвесторлардың оны қалай бағалауына байланысты."
             },
             "example": {
-              "en": "If you buy shares for ₸200,000 and later sell for ₸240,000, the ₸40,000 gain is capital growth. If you also received ₸6,000 in dividends, that is separate cash return."
+              "en": "If you buy shares for ₸200,000 and later sell for ₸240,000, the ₸40,000 gain is capital growth. If you also received ₸6,000 in dividends, that is separate cash return.",
+              "ru": "Если вы купили акции за ₸200,000, а позже продали за ₸240,000, прибыль ₸40,000 — это прирост капитала. Если вы также получили ₸6,000 дивидендов, это отдельный денежный доход.",
+              "kk": "Егер акцияларды ₸200,000-ға сатып алып, кейін ₸240,000-ға сатсаңыз, ₸40,000 пайда — капитал өсімі. Егер қосымша ₸6,000 дивиденд алсаңыз, бұл бөлек ақшалай табыс."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Ownership is proportional"
+              "en": "Ownership is proportional",
+              "ru": "Владение пропорционально",
+              "kk": "Иелік ету үлеске пропорционал"
             },
             "body": {
-              "en": "Your share of profits and voting power usually depends on how many shares you own compared with all shares outstanding. Owning ten shares may feel small, but the logic is the same as owning a large stake. You participate according to your fraction."
+              "en": "Your share of profits and voting power usually depends on how many shares you own compared with all shares outstanding. Owning ten shares may feel small, but the logic is the same as owning a large stake. You participate according to your fraction.",
+              "ru": "Ваша доля прибыли и право голоса обычно зависят от того, сколько акций у вас есть по сравнению со всеми выпущенными акциями. Десять акций могут казаться малой долей, но логика такая же, как и при крупном пакете. Вы участвуете согласно своей доле.",
+              "kk": "Пайдадағы үлесіңіз және дауыс беру құқығыңыз әдетте сіз иеленетін акция санының барлық шығарылған акцияларға қатынасына байланысты. Он акция аз көрінуі мүмкін, бірақ логика ірі үлеспен бірдей. Сіз өз үлесіңізге қарай қатысасыз."
             },
             "tip": {
-              "en": "The number of shares alone is meaningless without knowing total shares and price."
+              "en": "The number of shares alone is meaningless without knowing total shares and price.",
+              "ru": "Количество акций само по себе ничего не говорит без общего числа акций и цены.",
+              "kk": "Жалпы акция саны мен бағасын білмей, акция санының өзі мағына бермейді."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Tiny owner, same logic"
+              "en": "Tiny owner, same logic",
+              "ru": "Маленький владелец, та же логика",
+              "kk": "Шағын иесі, бірақ логика бірдей"
             },
             "content": {
               "en": {
@@ -117,6 +146,90 @@
                     "text": "You are a tiny owner, but the economic logic is real: if the business becomes more valuable, your fractional claim may become more valuable too."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У компании 10,000,000 акций в обращении. Вы покупаете 100 акций по ₸1,500 каждая, потратив ₸150,000."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Пункт",
+                        "Значение",
+                        "Смысл"
+                      ],
+                      [
+                        "Ваши акции",
+                        "100",
+                        "Ваши единицы владения"
+                      ],
+                      [
+                        "Всего акций",
+                        "10,000,000",
+                        "Все единицы владения"
+                      ],
+                      [
+                        "Ваша доля владения",
+                        "0.001%",
+                        "Ваша доля компании"
+                      ],
+                      [
+                        "Рыночная стоимость компании",
+                        "₸15,000,000,000",
+                        "10,000,000 × ₸1,500"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Вы очень маленький владелец, но экономическая логика реальна: если бизнес становится ценнее, ваша доля тоже может стать ценнее."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компанияның айналымда 10,000,000 акциясы бар. Сіз әрқайсысын ₸1,500-дан 100 акция сатып алып, ₸150,000 жұмсайсыз."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Тармақ",
+                        "Мән",
+                        "Мағынасы"
+                      ],
+                      [
+                        "Сіздің акцияларыңыз",
+                        "100",
+                        "Сіздің меншік бірліктеріңіз"
+                      ],
+                      [
+                        "Жалпы акция саны",
+                        "10,000,000",
+                        "Барлық меншік бірліктері"
+                      ],
+                      [
+                        "Сіздің меншік үлесіңіз",
+                        "0.001%",
+                        "Компаниядағы үлесіңіз"
+                      ],
+                      [
+                        "Компанияның нарықтық құны",
+                        "₸15,000,000,000",
+                        "10,000,000 × ₸1,500"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Сіз өте шағын иесіз, бірақ экономикалық логика нақты: бизнес қымбаттаса, сіздің үлесіңіз де қымбаттауы мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -125,10 +238,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Classify the stock idea"
+              "en": "Classify the stock idea",
+              "ru": "Классифицируйте идею об акции",
+              "kk": "Акция туралы ойды жіктеңіз"
             },
             "body": {
-              "en": "Sort each statement by what it describes. This helps separate ownership, price movement, and cash return."
+              "en": "Sort each statement by what it describes. This helps separate ownership, price movement, and cash return.",
+              "ru": "Распределите каждое утверждение по тому, что оно описывает. Это помогает отделить владение, движение цены и денежный доход.",
+              "kk": "Әр тұжырымды нені сипаттайтынына қарай бөліңіз. Бұл меншік үлесін, баға қозғалысын және ақшалай табысты ажыратуға көмектеседі."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -185,6 +302,114 @@
                   }
                 ],
                 "explanation": "Stocks combine ownership, changing market prices, and sometimes cash distributions. Mixing them up leads to weak decisions."
+              },
+              "ru": {
+                "instruction": "Перетащите каждое утверждение в правильную категорию.",
+                "categories": [
+                  {
+                    "id": "ownership",
+                    "label": "Право на долю владения"
+                  },
+                  {
+                    "id": "capital_gain",
+                    "label": "Прирост капитала"
+                  },
+                  {
+                    "id": "dividend",
+                    "label": "Дивиденд"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "fraction",
+                    "text": "Вы владеете небольшой долей компании"
+                  },
+                  {
+                    "id": "sell_higher",
+                    "text": "Вы продаёте акции дороже, чем купили"
+                  },
+                  {
+                    "id": "cash_paid",
+                    "text": "Компания распределяет деньги акционерам"
+                  },
+                  {
+                    "id": "shares_outstanding",
+                    "text": "Ваша доля зависит от ваших акций относительно общего числа акций"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "fraction",
+                    "categoryId": "ownership"
+                  },
+                  {
+                    "itemId": "sell_higher",
+                    "categoryId": "capital_gain"
+                  },
+                  {
+                    "itemId": "cash_paid",
+                    "categoryId": "dividend"
+                  },
+                  {
+                    "itemId": "shares_outstanding",
+                    "categoryId": "ownership"
+                  }
+                ],
+                "explanation": "Акции объединяют владение, меняющиеся рыночные цены и иногда денежные выплаты. Если смешивать эти понятия, решения становятся слабее."
+              },
+              "kk": {
+                "instruction": "Әр тұжырымды дұрыс санатқа сүйреңіз.",
+                "categories": [
+                  {
+                    "id": "ownership",
+                    "label": "Меншік үлесіне құқық"
+                  },
+                  {
+                    "id": "capital_gain",
+                    "label": "Капитал өсімі"
+                  },
+                  {
+                    "id": "dividend",
+                    "label": "Дивиденд"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "fraction",
+                    "text": "Сіз компанияның шағын үлесіне иесіз"
+                  },
+                  {
+                    "id": "sell_higher",
+                    "text": "Сіз акцияларды сатып алған бағадан жоғары сатасыз"
+                  },
+                  {
+                    "id": "cash_paid",
+                    "text": "Компания акционерлерге ақша таратады"
+                  },
+                  {
+                    "id": "shares_outstanding",
+                    "text": "Сіздің үлесіңіз акцияларыңыздың жалпы акция санына қатынасына байланысты"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "fraction",
+                    "categoryId": "ownership"
+                  },
+                  {
+                    "itemId": "sell_higher",
+                    "categoryId": "capital_gain"
+                  },
+                  {
+                    "itemId": "cash_paid",
+                    "categoryId": "dividend"
+                  },
+                  {
+                    "itemId": "shares_outstanding",
+                    "categoryId": "ownership"
+                  }
+                ],
+                "explanation": "Акциялар меншік үлесін, өзгеретін нарық бағаларын және кейде ақшалай төлемдерді біріктіреді. Оларды шатастыру әлсіз шешімдерге әкеледі."
               }
             }
           },
@@ -193,13 +418,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Think like a fractional owner"
+              "en": "Think like a fractional owner",
+              "ru": "Думайте как владелец доли",
+              "kk": "Үлес иесі сияқты ойлаңыз"
             },
             "body": {
-              "en": "A stock is valuable because it represents a claim on a real business. Price changes matter, but they are not the whole story. Before buying a stock, ask what business you are becoming a fractional owner of and why that claim might be worth more later."
+              "en": "A stock is valuable because it represents a claim on a real business. Price changes matter, but they are not the whole story. Before buying a stock, ask what business you are becoming a fractional owner of and why that claim might be worth more later.",
+              "ru": "Акция ценна потому, что представляет право на долю в реальном бизнесе. Изменения цены важны, но это не вся история. Перед покупкой спросите себя, совладельцем какого бизнеса вы становитесь и почему эта доля может стоить дороже в будущем.",
+              "kk": "Акция құнды, өйткені ол нақты бизнеске қатысты үлесті білдіреді. Баға өзгерістері маңызды, бірақ бұл толық сурет емес. Акция сатып алар алдында қандай бизнестің үлес иесі болатыныңызды және бұл үлес неге кейін қымбаттауы мүмкін екенін сұраңыз."
             },
             "tip": {
-              "en": "A ticker can move every second; the business changes much more slowly."
+              "en": "A ticker can move every second; the business changes much more slowly.",
+              "ru": "Тикер может двигаться каждую секунду; бизнес меняется гораздо медленнее.",
+              "kk": "Тикер әр секунд сайын өзгеруі мүмкін; бизнес әлдеқайда баяу өзгереді."
             }
           }
         ]
@@ -208,7 +439,9 @@
         "quiz_id": 1401,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Ownership and Shares — Check"
+          "en": "Ownership and Shares — Check",
+          "ru": "Владение и акции — проверка",
+          "kk": "Иелік ету және акциялар — тексеру"
         },
         "questions": [
           {
@@ -216,14 +449,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "You buy 20 shares of a company because each share costs only ₸500. What extra information is most important before saying the company is cheap?"
+              "en": "You buy 20 shares of a company because each share costs only ₸500. What extra information is most important before saying the company is cheap?",
+              "ru": "Вы покупаете 20 акций компании, потому что каждая стоит всего ₸500. Какая дополнительная информация важнее всего, прежде чем сказать, что компания дешёвая?",
+              "kk": "Әр акциясы небәрі ₸500 болғандықтан, сіз компанияның 20 акциясын сатып алдыңыз. Компания арзан деп айту үшін ең маңызды қосымша ақпарат қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "How much of the business each share represents and what the business is worth"
+                  "en": "How much of the business each share represents and what the business is worth",
+                  "ru": "Какую долю бизнеса представляет каждая акция и сколько стоит сам бизнес",
+                  "kk": "Әр акция бизнестің қандай үлесін білдіреді және бизнестің құны қанша"
                 },
                 "is_correct": true
               },
@@ -231,7 +468,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Whether 20 is a round number of shares"
+                  "en": "Whether 20 is a round number of shares",
+                  "ru": "Является ли 20 круглым числом акций",
+                  "kk": "20 акция дөңгелек сан ба"
                 },
                 "is_correct": false
               },
@@ -239,7 +478,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Whether the share price was higher yesterday"
+                  "en": "Whether the share price was higher yesterday",
+                  "ru": "Была ли цена акции вчера выше",
+                  "kk": "Кеше акция бағасы жоғары болды ма"
                 },
                 "is_correct": false
               },
@@ -247,7 +488,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Whether the company name is familiar"
+                  "en": "Whether the company name is familiar",
+                  "ru": "Знакомо ли название компании",
+                  "kk": "Компания атауы таныс па"
                 },
                 "is_correct": false
               }
@@ -258,14 +501,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "A company pays no dividend, but its share price rises after profits grow. How can shareholders still benefit?"
+              "en": "A company pays no dividend, but its share price rises after profits grow. How can shareholders still benefit?",
+              "ru": "Компания не платит дивиденды, но цена её акций растёт после увеличения прибыли. Как акционеры всё равно могут получить выгоду?",
+              "kk": "Компания дивиденд төлемейді, бірақ пайда өскеннен кейін акция бағасы көтеріледі. Акционерлер қалай пайда көре алады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They may gain through capital appreciation when the ownership claim becomes more valuable"
+                  "en": "They may gain through capital appreciation when the ownership claim becomes more valuable",
+                  "ru": "Они могут заработать на росте капитала, когда доля владения становится дороже",
+                  "kk": "Меншік үлесі қымбаттағанда олар капитал өсімінен пайда көре алады"
                 },
                 "is_correct": true
               },
@@ -273,7 +520,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They cannot benefit unless cash is paid every year"
+                  "en": "They cannot benefit unless cash is paid every year",
+                  "ru": "Они не могут получить выгоду, если деньги не выплачиваются каждый год",
+                  "kk": "Жыл сайын ақша төленбесе, олар пайда көре алмайды"
                 },
                 "is_correct": false
               },
@@ -281,7 +530,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They automatically receive the profit in their bank account"
+                  "en": "They automatically receive the profit in their bank account",
+                  "ru": "Они автоматически получают прибыль на банковский счёт",
+                  "kk": "Пайда олардың банк шотына автоматты түрде түседі"
                 },
                 "is_correct": false
               },
@@ -289,7 +540,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The broker must compensate them for missing dividends"
+                  "en": "The broker must compensate them for missing dividends",
+                  "ru": "Брокер обязан компенсировать им отсутствие дивидендов",
+                  "kk": "Брокер төленбеген дивидендті өтеуге міндетті"
                 },
                 "is_correct": false
               }
@@ -300,14 +553,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why is “I own 100 shares” incomplete information?"
+              "en": "Why is “I own 100 shares” incomplete information?",
+              "ru": "Почему фраза «у меня 100 акций» неполная?",
+              "kk": "Неге «менде 100 акция бар» деген ақпарат толық емес?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Because ownership depends on total shares outstanding and the company's value"
+                  "en": "Because ownership depends on total shares outstanding and the company's value",
+                  "ru": "Потому что владение зависит от общего числа выпущенных акций и стоимости компании",
+                  "kk": "Өйткені меншік үлесі шығарылған акциялардың жалпы санына және компания құнына байланысты"
                 },
                 "is_correct": true
               },
@@ -315,7 +572,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Because 100 shares is always too few to matter"
+                  "en": "Because 100 shares is always too few to matter",
+                  "ru": "Потому что 100 акций всегда слишком мало, чтобы иметь значение",
+                  "kk": "Өйткені 100 акция әрқашан маңызды болу үшін тым аз"
                 },
                 "is_correct": false
               },
@@ -323,7 +582,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Because only dividend stocks count as real ownership"
+                  "en": "Because only dividend stocks count as real ownership",
+                  "ru": "Потому что только дивидендные акции считаются настоящим владением",
+                  "kk": "Өйткені тек дивиденд төлейтін акциялар ғана нақты меншік саналады"
                 },
                 "is_correct": false
               },
@@ -331,7 +592,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Because share count alone tells you the future return"
+                  "en": "Because share count alone tells you the future return",
+                  "ru": "Потому что одно количество акций показывает будущую доходность",
+                  "kk": "Өйткені акция санының өзі болашақ табысты көрсетеді"
                 },
                 "is_correct": false
               }
@@ -343,10 +606,14 @@
     {
       "code": "why_stock_prices_move",
       "title": {
-        "en": "Why Stock Prices Move"
+        "en": "Why Stock Prices Move",
+        "ru": "Почему движутся цены акций",
+        "kk": "Акция бағалары неге өзгереді"
       },
       "description": {
-        "en": "Stock prices move when expectations about future cash flows, risk, or investor demand change."
+        "en": "Stock prices move when expectations about future cash flows, risk, or investor demand change.",
+        "ru": "Цены акций меняются, когда меняются ожидания о будущих денежных потоках, риске или спросе инвесторов.",
+        "kk": "Акция бағалары болашақ ақша ағындары, тәуекел немесе инвестор сұранысы туралы күтілім өзгергенде қозғалады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -358,10 +625,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Price is a changing opinion"
+              "en": "Price is a changing opinion",
+              "ru": "Цена — это меняющееся мнение",
+              "kk": "Баға — өзгеріп отыратын пікір"
             },
             "body": {
-              "en": "A stock price is the market's current negotiated opinion about a company's future. It changes when buyers and sellers update what they believe the business is worth. News matters only because it changes expectations."
+              "en": "A stock price is the market's current negotiated opinion about a company's future. It changes when buyers and sellers update what they believe the business is worth. News matters only because it changes expectations.",
+              "ru": "Цена акции — это текущее согласованное мнение рынка о будущем компании. Она меняется, когда покупатели и продавцы обновляют представление о стоимости бизнеса. Новости важны только потому, что меняют ожидания.",
+              "kk": "Акция бағасы — нарықтың компания болашағы туралы қазіргі келісілген пікірі. Ол сатып алушылар мен сатушылар бизнестің құны туралы ойларын жаңартқанда өзгереді. Жаңалықтар тек күтілімді өзгерткені үшін маңызды."
             }
           },
           {
@@ -369,13 +640,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Expectations drive surprises"
+              "en": "Expectations drive surprises",
+              "ru": "Ожидания создают сюрпризы",
+              "kk": "Күтілімдер тосын әсер тудырады"
             },
             "body": {
-              "en": "A company can report profit growth and still fall if investors expected even more. Another company can lose money and rise if the loss is smaller than feared. Prices react to the gap between reality and expectation."
+              "en": "A company can report profit growth and still fall if investors expected even more. Another company can lose money and rise if the loss is smaller than feared. Prices react to the gap between reality and expectation.",
+              "ru": "Компания может показать рост прибыли и всё равно упасть, если инвесторы ожидали большего. Другая компания может получить убыток, но вырасти, если убыток меньше опасений. Цены реагируют на разницу между реальностью и ожиданием.",
+              "kk": "Компания пайда өсімін көрсетсе де, инвесторлар одан да көп күткен болса, акция төмендеуі мүмкін. Басқа компания шығын көрсе де, шығын күткеннен аз болса, өсуі мүмкін. Баға шындық пен күтілім арасындағы айырмаға жауап береді."
             },
             "tip": {
-              "en": "Ask not only “Was the news good?” but “Was it better or worse than expected?”"
+              "en": "Ask not only “Was the news good?” but “Was it better or worse than expected?”",
+              "ru": "Спрашивайте не только «новость хорошая?», но и «она лучше или хуже ожиданий?»",
+              "kk": "«Жаңалық жақсы ма?» деп қана емес, «ол күткеннен жақсы ма, әлде нашар ма?» деп сұраңыз."
             }
           },
           {
@@ -383,10 +660,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Risk changes value too"
+              "en": "Risk changes value too",
+              "ru": "Риск тоже меняет стоимость",
+              "kk": "Тәуекел де құнды өзгертеді"
             },
             "body": {
-              "en": "Investors pay less for uncertain cash flows than for reliable ones. If debt rises, regulation changes, or demand weakens, the same expected profit may deserve a lower price. Price moves can reflect risk, not just profit."
+              "en": "Investors pay less for uncertain cash flows than for reliable ones. If debt rises, regulation changes, or demand weakens, the same expected profit may deserve a lower price. Price moves can reflect risk, not just profit.",
+              "ru": "Инвесторы платят меньше за неопределённые денежные потоки, чем за надёжные. Если растёт долг, меняется регулирование или слабеет спрос, та же ожидаемая прибыль может заслуживать более низкой цены. Движение цены может отражать риск, а не только прибыль.",
+              "kk": "Инвесторлар сенімді ақша ағындарына қарағанда белгісіз ақша ағындары үшін аз төлейді. Қарыз өссе, реттеу өзгерсе немесе сұраныс әлсіресе, бірдей күтілетін пайда төмен бағалануы мүмкін. Баға қозғалысы тек пайданы емес, тәуекелді де көрсете алады."
             }
           },
           {
@@ -394,7 +675,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Good result, falling price"
+              "en": "Good result, falling price",
+              "ru": "Хороший результат, падающая цена",
+              "kk": "Жақсы нәтиже, бірақ баға төмендеді"
             },
             "content": {
               "en": {
@@ -433,6 +716,80 @@
                     "text": "The price can fall even though the company is profitable because the old price already assumed a stronger future."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ритейлер сообщает о квартальной прибыли ₸12 млрд. Звучит хорошо, но рынок ожидал ₸15 млрд после слухов о сильных продажах."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Фактор",
+                        "До отчёта",
+                        "После отчёта"
+                      ],
+                      [
+                        "Ожидаемая прибыль",
+                        "₸15 млрд",
+                        "₸12 млрд фактически"
+                      ],
+                      [
+                        "История роста",
+                        "Очень сильная",
+                        "Всё ещё растёт, но медленнее"
+                      ],
+                      [
+                        "Реакция инвесторов",
+                        "Высокая цена оправдана",
+                        "Цена корректируется вниз"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Цена может упасть, даже если компания прибыльна, потому что старая цена уже предполагала более сильное будущее."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Бөлшек сауда компаниясы тоқсандық пайдасы ₸12 млрд екенін хабарлайды. Бұл жақсы естіледі, бірақ нарық күшті сатылым туралы қауесеттерден кейін ₸15 млрд күткен."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Фактор",
+                        "Есепке дейін",
+                        "Есептен кейін"
+                      ],
+                      [
+                        "Күтілетін пайда",
+                        "₸15 млрд",
+                        "Нақты ₸12 млрд"
+                      ],
+                      [
+                        "Өсу тарихы",
+                        "Өте күшті",
+                        "Әлі өсіп жатыр, бірақ баяу"
+                      ],
+                      [
+                        "Инвестор реакциясы",
+                        "Жоғары баға ақталған",
+                        "Баға төмен қарай түзетіледі"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Компания пайдалы болса да, баға түсуі мүмкін, өйткені бұрынғы баға әлдеқайда күшті болашақты ескеріп қойған."
+                  }
+                ]
               }
             }
           },
@@ -441,10 +798,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Expectation or business change?"
+              "en": "Expectation or business change?",
+              "ru": "Ожидания или изменение бизнеса?",
+              "kk": "Күтілім бе, әлде бизнес өзгерісі ме?"
             },
             "body": {
-              "en": "Label what mainly explains each price move. The same headline can mean different things depending on expectations."
+              "en": "Label what mainly explains each price move. The same headline can mean different things depending on expectations.",
+              "ru": "Отметьте, что главным образом объясняет каждое движение цены. Один и тот же заголовок может означать разное в зависимости от ожиданий.",
+              "kk": "Әр баға қозғалысын негізінен не түсіндіретінін белгілеңіз. Бір тақырып күтілімге қарай әртүрлі мағына беруі мүмкін."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -472,6 +833,56 @@
                     "explanation": "Even if current profit is unchanged, future cash flows are now less certain."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучшее объяснение каждого движения цены акции.",
+                "options": [
+                  "Разрыв с ожиданиями",
+                  "Изменение риска",
+                  "Улучшение бизнеса"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Прибыль выросла на 10%, но аналитики ожидали 25%, и акция упала.",
+                    "correct_answer": "Разрыв с ожиданиями",
+                    "explanation": "Результат был положительным, но хуже, чем предполагала цена."
+                  },
+                  {
+                    "text": "Компания получает пятилетний контракт на поставки, и ожидаемые денежные потоки растут.",
+                    "correct_answer": "Улучшение бизнеса",
+                    "explanation": "Бизнес может генерировать больше будущих денег, чем раньше."
+                  },
+                  {
+                    "text": "Новый закон угрожает основному источнику выручки компании, и акция падает.",
+                    "correct_answer": "Изменение риска",
+                    "explanation": "Даже если текущая прибыль не изменилась, будущие денежные потоки теперь менее определённы."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр акция бағасы қозғалысына ең жақсы түсіндіруді таңдаңыз.",
+                "options": [
+                  "Күтілім айырмасы",
+                  "Тәуекел өзгерісі",
+                  "Бизнестің жақсаруы"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Пайда 10% өсті, бірақ аналитиктер 25% күткен, сондықтан акция түсті.",
+                    "correct_answer": "Күтілім айырмасы",
+                    "explanation": "Нәтиже оң болды, бірақ баға меңзегеннен нашар."
+                  },
+                  {
+                    "text": "Компания бес жылдық жеткізу келісімшартын ұтып алып, күтілетін ақша ағындары өседі.",
+                    "correct_answer": "Бизнестің жақсаруы",
+                    "explanation": "Бизнес бұрынғыдан көбірек болашақ ақша ағынын жасай алады."
+                  },
+                  {
+                    "text": "Жаңа заң компанияның негізгі кіріс көзіне қауіп төндіреді, сондықтан акция төмендейді.",
+                    "correct_answer": "Тәуекел өзгерісі",
+                    "explanation": "Қазіргі пайда өзгермесе де, болашақ ақша ағындары енді азырақ анық."
+                  }
+                ]
               }
             }
           },
@@ -480,13 +891,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Look beneath the headline"
+              "en": "Look beneath the headline",
+              "ru": "Смотрите глубже заголовка",
+              "kk": "Тақырыптың астарына қараңыз"
             },
             "body": {
-              "en": "Stock prices move because the market updates expectations about future cash flows and risk. A headline alone rarely explains the move. The useful question is what changed relative to what investors already believed."
+              "en": "Stock prices move because the market updates expectations about future cash flows and risk. A headline alone rarely explains the move. The useful question is what changed relative to what investors already believed.",
+              "ru": "Цены акций движутся, потому что рынок обновляет ожидания о будущих денежных потоках и риске. Один заголовок редко объясняет движение. Полезный вопрос — что изменилось относительно того, во что инвесторы уже верили.",
+              "kk": "Акция бағалары нарық болашақ ақша ағындары мен тәуекел туралы күтілімін жаңартқандықтан өзгереді. Бір тақырып қозғалысты сирек толық түсіндіреді. Пайдалы сұрақ: инвесторлар бұрын ойлағанмен салыстырғанда не өзгерді?"
             },
             "tip": {
-              "en": "Price moves are about revisions, not just events."
+              "en": "Price moves are about revisions, not just events.",
+              "ru": "Движение цен связано с пересмотром ожиданий, а не только с событиями.",
+              "kk": "Баға қозғалысы тек оқиғаға емес, күтілімнің қайта қаралуына байланысты."
             }
           }
         ]
@@ -495,7 +912,9 @@
         "quiz_id": 1402,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Why Stock Prices Move — Check"
+          "en": "Why Stock Prices Move — Check",
+          "ru": "Почему движутся цены акций — проверка",
+          "kk": "Акция бағалары неге өзгереді — тексеру"
         },
         "questions": [
           {
@@ -503,14 +922,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A company announces record revenue, but the stock drops 8%. Which explanation is most reasonable?"
+              "en": "A company announces record revenue, but the stock drops 8%. Which explanation is most reasonable?",
+              "ru": "Компания объявляет рекордную выручку, но акция падает на 8%. Какое объяснение наиболее разумно?",
+              "kk": "Компания рекордтық кіріс жариялады, бірақ акция 8% төмендеді. Ең қисынды түсіндіру қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The market may have expected even stronger revenue or better margins"
+                  "en": "The market may have expected even stronger revenue or better margins",
+                  "ru": "Рынок мог ожидать ещё более сильной выручки или более высокой маржи",
+                  "kk": "Нарық одан да жоғары кіріс немесе жақсы маржаны күткен болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -518,7 +941,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Record revenue always means the price should rise"
+                  "en": "Record revenue always means the price should rise",
+                  "ru": "Рекордная выручка всегда означает, что цена должна вырасти",
+                  "kk": "Рекордтық кіріс баға міндетті түрде өседі дегенді білдіреді"
                 },
                 "is_correct": false
               },
@@ -526,7 +951,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The stock market ignores company results completely"
+                  "en": "The stock market ignores company results completely",
+                  "ru": "Фондовый рынок полностью игнорирует результаты компаний",
+                  "kk": "Қор нарығы компания нәтижелерін толық елемейді"
                 },
                 "is_correct": false
               },
@@ -534,7 +961,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A falling price proves the revenue announcement was fake"
+                  "en": "A falling price proves the revenue announcement was fake",
+                  "ru": "Падение цены доказывает, что объявление о выручке было ложным",
+                  "kk": "Бағаның түсуі кіріс туралы хабар жалған екенін дәлелдейді"
                 },
                 "is_correct": false
               }
@@ -545,14 +974,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Two firms expect the same profit next year. One has stable contracts; the other depends on one uncertain customer. Why might the second trade at a lower price?"
+              "en": "Two firms expect the same profit next year. One has stable contracts; the other depends on one uncertain customer. Why might the second trade at a lower price?",
+              "ru": "Две фирмы ожидают одинаковую прибыль в следующем году. У одной стабильные контракты, другая зависит от одного ненадёжного клиента. Почему вторая может торговаться дешевле?",
+              "kk": "Екі фирма келесі жылы бірдей пайда күтеді. Бірінде тұрақты келісімшарттар бар, екіншісі бір белгісіз клиентке тәуелді. Неге екіншісі төмен бағалануы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Investors may discount uncertain cash flows more heavily"
+                  "en": "Investors may discount uncertain cash flows more heavily",
+                  "ru": "Инвесторы могут сильнее дисконтировать неопределённые денежные потоки",
+                  "kk": "Инвесторлар белгісіз ақша ағындарын көбірек дисконттауы мүмкін"
                 },
                 "is_correct": true
               },
@@ -560,7 +993,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Investors never buy companies with one customer"
+                  "en": "Investors never buy companies with one customer",
+                  "ru": "Инвесторы никогда не покупают компании с одним клиентом",
+                  "kk": "Инвесторлар бір ғана клиенті бар компанияларды ешқашан сатып алмайды"
                 },
                 "is_correct": false
               },
@@ -568,7 +1003,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Stable contracts make share count irrelevant"
+                  "en": "Stable contracts make share count irrelevant",
+                  "ru": "Стабильные контракты делают количество акций неважным",
+                  "kk": "Тұрақты келісімшарттар акция санын маңызды емес етеді"
                 },
                 "is_correct": false
               },
@@ -576,7 +1013,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Expected profit is the only thing that affects price"
+                  "en": "Expected profit is the only thing that affects price",
+                  "ru": "Ожидаемая прибыль — единственное, что влияет на цену",
+                  "kk": "Күтілетін пайда бағаға әсер ететін жалғыз нәрсе"
                 },
                 "is_correct": false
               }
@@ -587,14 +1026,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which question best helps explain a stock move after news?"
+              "en": "Which question best helps explain a stock move after news?",
+              "ru": "Какой вопрос лучше всего помогает объяснить движение акции после новости?",
+              "kk": "Жаңалықтан кейін акция қозғалысын түсіндіруге қай сұрақ жақсы көмектеседі?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "What changed compared with what investors already expected?"
+                  "en": "What changed compared with what investors already expected?",
+                  "ru": "Что изменилось по сравнению с тем, чего инвесторы уже ожидали?",
+                  "kk": "Инвесторлар бұрын күткенмен салыстырғанда не өзгерді?"
                 },
                 "is_correct": true
               },
@@ -602,7 +1045,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Was the headline written in a positive tone?"
+                  "en": "Was the headline written in a positive tone?",
+                  "ru": "Был ли заголовок написан в позитивном тоне?",
+                  "kk": "Тақырып позитивті түрде жазылды ма?"
                 },
                 "is_correct": false
               },
@@ -610,7 +1055,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Did the share price have a round number?"
+                  "en": "Did the share price have a round number?",
+                  "ru": "Была ли цена акции круглым числом?",
+                  "kk": "Акция бағасы дөңгелек сан болды ма?"
                 },
                 "is_correct": false
               },
@@ -618,7 +1065,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Did the company post on social media?"
+                  "en": "Did the company post on social media?",
+                  "ru": "Публиковала ли компания пост в соцсетях?",
+                  "kk": "Компания әлеуметтік желіде жазба жариялады ма?"
                 },
                 "is_correct": false
               }
@@ -630,10 +1079,14 @@
     {
       "code": "dividends",
       "title": {
-        "en": "Dividends"
+        "en": "Dividends",
+        "ru": "Дивиденды",
+        "kk": "Дивидендтер"
       },
       "description": {
-        "en": "Dividends are cash distributions from a company, but yield alone does not tell you whether they are safe or attractive."
+        "en": "Dividends are cash distributions from a company, but yield alone does not tell you whether they are safe or attractive.",
+        "ru": "Дивиденды — это денежные выплаты компании, но одна доходность не показывает, безопасны они или привлекательны.",
+        "kk": "Дивидендтер — компанияның ақшалай төлемдері, бірақ кірістілік көрсеткіші олардың қауіпсіз не тартымды екенін жалғыз өзі көрсетпейді."
       },
       "estimatedMinutes": 5,
       "orderIndex": 2,
@@ -645,10 +1098,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Dividends are not free money"
+              "en": "Dividends are not free money",
+              "ru": "Дивиденды — не бесплатные деньги",
+              "kk": "Дивидендтер тегін ақша емес"
             },
             "body": {
-              "en": "A dividend is cash a company chooses to distribute to shareholders. It can be useful income, but it also leaves the business. The real question is whether the company can pay it without weakening itself."
+              "en": "A dividend is cash a company chooses to distribute to shareholders. It can be useful income, but it also leaves the business. The real question is whether the company can pay it without weakening itself.",
+              "ru": "Дивиденд — это деньги, которые компания решает распределить акционерам. Это может быть полезный доход, но деньги также уходят из бизнеса. Главный вопрос — может ли компания платить их, не ослабляя себя.",
+              "kk": "Дивиденд — компания акционерлерге таратуды таңдаған ақша. Бұл пайдалы табыс болуы мүмкін, бірақ ол бизнестен шығады. Негізгі сұрақ — компания оны өзіне зиян келтірмей төлей ала ма."
             }
           },
           {
@@ -656,13 +1113,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Yield links dividend to price"
+              "en": "Yield links dividend to price",
+              "ru": "Доходность связывает дивиденд с ценой",
+              "kk": "Кірістілік дивидендті бағамен байланыстырады"
             },
             "body": {
-              "en": "Dividend yield compares annual dividend to share price. A ₸100 annual dividend on a ₸2,000 share is a 5% yield. The yield can rise because dividends grow, or because the share price falls."
+              "en": "Dividend yield compares annual dividend to share price. A ₸100 annual dividend on a ₸2,000 share is a 5% yield. The yield can rise because dividends grow, or because the share price falls.",
+              "ru": "Дивидендная доходность сравнивает годовой дивиденд с ценой акции. Дивиденд ₸100 в год при цене акции ₸2,000 даёт доходность 5%. Доходность может вырасти из-за роста дивидендов или из-за падения цены акции.",
+              "kk": "Дивиденд кірістілігі жылдық дивидендті акция бағасымен салыстырады. ₸2,000 тұратын акцияға ₸100 жылдық дивиденд 5% кірістілік береді. Кірістілік дивиденд өскенде немесе акция бағасы түскенде көтерілуі мүмкін."
             },
             "tip": {
-              "en": "A high yield can signal income, but it can also signal fear."
+              "en": "A high yield can signal income, but it can also signal fear.",
+              "ru": "Высокая доходность может означать доход, но также может означать страх.",
+              "kk": "Жоғары кірістілік табысты білдіруі мүмкін, бірақ қорқынышты да көрсетуі мүмкін."
             }
           },
           {
@@ -670,10 +1133,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Sustainability matters"
+              "en": "Sustainability matters",
+              "ru": "Устойчивость важна",
+              "kk": "Тұрақтылық маңызды"
             },
             "body": {
-              "en": "A dividend is safer when it is supported by repeatable cash flow. If a company pays more than it can afford, it may cut the dividend later. A high yield with shrinking profits can be a warning, not a bargain."
+              "en": "A dividend is safer when it is supported by repeatable cash flow. If a company pays more than it can afford, it may cut the dividend later. A high yield with shrinking profits can be a warning, not a bargain.",
+              "ru": "Дивиденд безопаснее, когда он поддержан повторяемым денежным потоком. Если компания платит больше, чем может себе позволить, позже она может сократить дивиденд. Высокая доходность при падающей прибыли может быть предупреждением, а не выгодой.",
+              "kk": "Дивиденд тұрақты ақша ағынымен қамтамасыз етілсе, қауіпсізірек. Компания шамасынан көп төлесе, кейін дивидендті қысқартуы мүмкін. Пайда азайып жатқанда жоғары кірістілік тиімділік емес, ескерту болуы мүмкін."
             }
           },
           {
@@ -681,7 +1148,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same yield, different quality"
+              "en": "Same yield, different quality",
+              "ru": "Одинаковая доходность, разное качество",
+              "kk": "Бірдей кірістілік, әртүрлі сапа"
             },
             "content": {
               "en": {
@@ -724,6 +1193,88 @@
                     "text": "Dividend investing is not only choosing the highest percentage. It is judging whether the cash distribution can continue."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Две акции показывают дивидендную доходность 6%. Доходность выглядит одинаковой, но источник дивиденда различается."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Компания",
+                        "Годовой дивиденд",
+                        "Тренд денежного потока",
+                        "Интерпретация"
+                      ],
+                      [
+                        "A",
+                        "₸120 на акцию ₸2,000",
+                        "Стабилен и растёт",
+                        "Более устойчиво"
+                      ],
+                      [
+                        "B",
+                        "₸120 на акцию ₸2,000",
+                        "Снижается три года",
+                        "Более высокий риск сокращения"
+                      ],
+                      [
+                        "C",
+                        "₸120 на акцию ₸1,500",
+                        "Неясно",
+                        "Более высокая доходность частично из-за падения цены"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Дивидендное инвестирование — это не просто выбор самого высокого процента. Это оценка того, сможет ли денежная выплата продолжаться."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі акцияның да дивиденд кірістілігі 6%. Кірістілік бірдей көрінеді, бірақ дивидендтің көзі әртүрлі."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Компания",
+                        "Жылдық дивиденд",
+                        "Ақша ағынының үрдісі",
+                        "Түсіндіру"
+                      ],
+                      [
+                        "A",
+                        "₸2,000 акцияға ₸120",
+                        "Тұрақты және өсіп жатыр",
+                        "Тұрақтырақ"
+                      ],
+                      [
+                        "B",
+                        "₸2,000 акцияға ₸120",
+                        "Үш жыл бойы төмендеп жатыр",
+                        "Қысқарту тәуекелі жоғары"
+                      ],
+                      [
+                        "C",
+                        "₸1,500 акцияға ₸120",
+                        "Түсініксіз",
+                        "Жоғары кірістілік ішінара бағаның түсуінен"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Дивидендтік инвестиция ең жоғары пайызды таңдау ғана емес. Бұл ақшалай төлем жалғаса ала ма дегенді бағалау."
+                  }
+                ]
               }
             }
           },
@@ -732,10 +1283,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Find the dividend mistake"
+              "en": "Find the dividend mistake",
+              "ru": "Найдите ошибку в дивидендах",
+              "kk": "Дивидендтегі қатені табыңыз"
             },
             "body": {
-              "en": "Each case has a tempting dividend conclusion. Pick the reasoning error."
+              "en": "Each case has a tempting dividend conclusion. Pick the reasoning error.",
+              "ru": "В каждом случае есть привлекательный вывод о дивидендах. Выберите ошибку в рассуждении.",
+              "kk": "Әр жағдайда дивиденд туралы тартымды қорытынды бар. Ойлаудағы қатені таңдаңыз."
             },
             "interactiveType": "error_detector",
             "interactiveContent": {
@@ -774,6 +1329,78 @@
                   }
                 ],
                 "final_explanation": "Dividend quality depends on source, sustainability, and price. Yield is a starting point, not a verdict."
+              },
+              "ru": {
+                "instruction": "Выберите главную ошибку в каждом утверждении о дивидендах.",
+                "cases": [
+                  {
+                    "text": "«Эта акция даёт 12%, значит она автоматически лучше акции с 4%».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Одна доходность игнорирует безопасность дивиденда и ценовой риск",
+                      "c) Более низкая доходность всегда означает меньший риск"
+                    ],
+                    "correct": "b",
+                    "explanation": "Высокая доходность может отражать падение цены или ожидаемое сокращение дивиденда."
+                  },
+                  {
+                    "text": "«Компания платила дивиденд в прошлом году, значит дивиденд в следующем году гарантирован».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Прошлые дивиденды не гарантируют будущие выплаты",
+                      "c) Дивиденды обязаны расти каждый год"
+                    ],
+                    "correct": "b",
+                    "explanation": "Дивиденды — это решения компании, и они зависят от будущего денежного потока."
+                  },
+                  {
+                    "text": "«Дивиденд был выплачен за счёт заёмных денег, но инвесторы ради дохода должны это игнорировать».",
+                    "options": [
+                      "a) Дивиденды за счёт долга могут быть неустойчивыми",
+                      "b) Ошибки нет",
+                      "c) Заём всегда делает дивиденды безопаснее"
+                    ],
+                    "correct": "a",
+                    "explanation": "Дивиденд, профинансированный долгом, может ослабить компанию, если денежный поток не восстановится."
+                  }
+                ],
+                "final_explanation": "Качество дивиденда зависит от источника, устойчивости и цены. Доходность — отправная точка, а не вердикт."
+              },
+              "kk": {
+                "instruction": "Әр дивиденд туралы тұжырымдағы негізгі қатені таңдаңыз.",
+                "cases": [
+                  {
+                    "text": "«Бұл акция 12% береді, сондықтан ол 4% акциядан автоматты түрде жақсы».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Тек кірістілік дивиденд қауіпсіздігі мен баға тәуекелін елемейді",
+                      "c) Төмен кірістілік әрқашан төмен тәуекелді білдіреді"
+                    ],
+                    "correct": "b",
+                    "explanation": "Жоғары кірістілік бағаның түсуін немесе дивиденд қысқарады деген күтілімді көрсетуі мүмкін."
+                  },
+                  {
+                    "text": "«Компания былтыр дивиденд төледі, сондықтан келесі жылғы дивиденд кепілдендірілген».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Бұрынғы дивидендтер болашақ төлемдерге кепілдік бермейді",
+                      "c) Дивидендтер жыл сайын өсуі тиіс"
+                    ],
+                    "correct": "b",
+                    "explanation": "Дивидендтер — компания шешімі және олар болашақ ақша ағынына байланысты."
+                  },
+                  {
+                    "text": "«Дивиденд қарыз ақшадан төленді, бірақ табыс инвесторлары бұған мән бермеуі керек».",
+                    "options": [
+                      "a) Қарыздан төленген дивидендтер тұрақсыз болуы мүмкін",
+                      "b) Қате жоқ",
+                      "c) Қарыз алу дивидендті әрқашан қауіпсіз етеді"
+                    ],
+                    "correct": "a",
+                    "explanation": "Қарызбен қаржыланған дивиденд ақша ағыны қалпына келмесе, компанияны әлсіретуі мүмкін."
+                  }
+                ],
+                "final_explanation": "Дивиденд сапасы оның көзіне, тұрақтылығына және бағасына байланысты. Кірістілік — бастапқы нүкте, үкім емес."
               }
             }
           },
@@ -782,13 +1409,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Income needs a source"
+              "en": "Income needs a source",
+              "ru": "Доходу нужен источник",
+              "kk": "Табыстың көзі болуы керек"
             },
             "body": {
-              "en": "Dividends can turn ownership into cash flow, but they must be supported by the business. A useful dividend question is not “How high is the yield?” It is “Can the company keep paying this without damaging future value?”"
+              "en": "Dividends can turn ownership into cash flow, but they must be supported by the business. A useful dividend question is not “How high is the yield?” It is “Can the company keep paying this without damaging future value?”",
+              "ru": "Дивиденды могут превратить владение в денежный поток, но они должны поддерживаться бизнесом. Полезный вопрос о дивидендах — не «насколько высока доходность?», а «может ли компания продолжать платить это без ущерба будущей стоимости?»",
+              "kk": "Дивидендтер меншік үлесін ақша ағынына айналдыра алады, бірақ оларды бизнес қолдауы керек. Пайдалы сұрақ: «кірістілік қаншалықты жоғары?» емес, «компания болашақ құнға зиян келтірмей төлей ала ма?»"
             },
             "tip": {
-              "en": "A sustainable 4% can be better than an unsafe 12%."
+              "en": "A sustainable 4% can be better than an unsafe 12%.",
+              "ru": "Устойчивые 4% могут быть лучше небезопасных 12%.",
+              "kk": "Тұрақты 4% қауіпсіз емес 12%-дан жақсы болуы мүмкін."
             }
           }
         ]
@@ -797,7 +1430,9 @@
         "quiz_id": 1403,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Dividends — Check"
+          "en": "Dividends — Check",
+          "ru": "Дивиденды — проверка",
+          "kk": "Дивидендтер — тексеру"
         },
         "questions": [
           {
@@ -805,14 +1440,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A stock's dividend yield jumps from 5% to 10% because the share price fell sharply while the dividend stayed the same. What should you consider?"
+              "en": "A stock's dividend yield jumps from 5% to 10% because the share price fell sharply while the dividend stayed the same. What should you consider?",
+              "ru": "Дивидендная доходность акции выросла с 5% до 10%, потому что цена резко упала, а дивиденд не изменился. Что стоит учитывать?",
+              "kk": "Акцияның дивиденд кірістілігі 5%-дан 10%-ға өсті, себебі баға күрт түсті, ал дивиденд өзгермеді. Нені ескеру керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The market may expect the dividend to be cut or the business to weaken"
+                  "en": "The market may expect the dividend to be cut or the business to weaken",
+                  "ru": "Рынок может ожидать сокращения дивиденда или ослабления бизнеса",
+                  "kk": "Нарық дивиденд қысқарады немесе бизнес әлсірейді деп күтуі мүмкін"
                 },
                 "is_correct": true
               },
@@ -820,7 +1459,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The dividend income has become risk-free"
+                  "en": "The dividend income has become risk-free",
+                  "ru": "Дивидендный доход стал безрисковым",
+                  "kk": "Дивиденд табысы тәуекелсіз болды"
                 },
                 "is_correct": false
               },
@@ -828,7 +1469,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The company must be twice as profitable"
+                  "en": "The company must be twice as profitable",
+                  "ru": "Компания должна быть вдвое прибыльнее",
+                  "kk": "Компания екі есе пайдалы болуы керек"
                 },
                 "is_correct": false
               },
@@ -836,7 +1479,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The stock is automatically cheaper in a good way"
+                  "en": "The stock is automatically cheaper in a good way",
+                  "ru": "Акция автоматически стала дешёвой в хорошем смысле",
+                  "kk": "Акция автоматты түрде жақсы мағынада арзандады"
                 },
                 "is_correct": false
               }
@@ -847,14 +1492,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which dividend looks more sustainable?"
+              "en": "Which dividend looks more sustainable?",
+              "ru": "Какой дивиденд выглядит более устойчивым?",
+              "kk": "Қай дивиденд тұрақтырақ көрінеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A company with moderate yield and stable cash flow covering the dividend"
+                  "en": "A company with moderate yield and stable cash flow covering the dividend",
+                  "ru": "Компания с умеренной доходностью и стабильным денежным потоком, покрывающим дивиденд",
+                  "kk": "Дивидендті жабатын тұрақты ақша ағыны және орташа кірістілігі бар компания"
                 },
                 "is_correct": true
               },
@@ -862,7 +1511,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "A company borrowing heavily to pay a very high dividend"
+                  "en": "A company borrowing heavily to pay a very high dividend",
+                  "ru": "Компания, которая много занимает, чтобы платить очень высокий дивиденд",
+                  "kk": "Өте жоғары дивиденд төлеу үшін көп қарыз алатын компания"
                 },
                 "is_correct": false
               },
@@ -870,7 +1521,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A company with falling sales and the highest yield in the sector"
+                  "en": "A company with falling sales and the highest yield in the sector",
+                  "ru": "Компания с падающими продажами и самой высокой доходностью в секторе",
+                  "kk": "Сатылымы төмендеп, сектордағы ең жоғары кірістілігі бар компания"
                 },
                 "is_correct": false
               },
@@ -878,7 +1531,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A company that promises dividends will never change"
+                  "en": "A company that promises dividends will never change",
+                  "ru": "Компания, обещающая, что дивиденды никогда не изменятся",
+                  "kk": "Дивиденд ешқашан өзгермейді деп уәде беретін компания"
                 },
                 "is_correct": false
               }
@@ -889,14 +1544,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why are dividends not simply “extra money” on top of a stock's value?"
+              "en": "Why are dividends not simply “extra money” on top of a stock's value?",
+              "ru": "Почему дивиденды — это не просто «дополнительные деньги» сверх стоимости акции?",
+              "kk": "Неге дивидендтер акция құнына қосымша «артық ақша» емес?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Cash paid out leaves the company and may reduce resources available for growth"
+                  "en": "Cash paid out leaves the company and may reduce resources available for growth",
+                  "ru": "Выплаченные деньги уходят из компании и могут уменьшить ресурсы для роста",
+                  "kk": "Төленген ақша компаниядан шығады және өсуге арналған ресурстарды азайтуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -904,7 +1563,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Dividends are paid by the broker, not the company"
+                  "en": "Dividends are paid by the broker, not the company",
+                  "ru": "Дивиденды платит брокер, а не компания",
+                  "kk": "Дивидендті компания емес, брокер төлейді"
                 },
                 "is_correct": false
               },
@@ -912,7 +1573,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Dividends never affect shareholder return"
+                  "en": "Dividends never affect shareholder return",
+                  "ru": "Дивиденды никогда не влияют на доходность акционера",
+                  "kk": "Дивидендтер акционер табысына ешқашан әсер етпейді"
                 },
                 "is_correct": false
               },
@@ -920,7 +1583,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Dividends are always paid from government support"
+                  "en": "Dividends are always paid from government support",
+                  "ru": "Дивиденды всегда выплачиваются из государственной поддержки",
+                  "kk": "Дивидендтер әрқашан мемлекеттік қолдаудан төленеді"
                 },
                 "is_correct": false
               }
@@ -932,10 +1597,14 @@
     {
       "code": "stock_orders",
       "title": {
-        "en": "Stock Orders"
+        "en": "Stock Orders",
+        "ru": "Биржевые заявки",
+        "kk": "Биржалық өтінімдер"
       },
       "description": {
-        "en": "Market, limit, and stop orders control how trades execute, but each solves a different problem."
+        "en": "Market, limit, and stop orders control how trades execute, but each solves a different problem.",
+        "ru": "Рыночные, лимитные и стоп-заявки управляют исполнением сделок, но каждая решает свою задачу.",
+        "kk": "Нарықтық, лимиттік және стоп-өтінімдер мәміленің қалай орындалатынын басқарады, бірақ әрқайсысы басқа мәселені шешеді."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -947,10 +1616,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "An order is an instruction"
+              "en": "An order is an instruction",
+              "ru": "Заявка — это инструкция",
+              "kk": "Өтінім — нұсқау"
             },
             "body": {
-              "en": "Buying a stock is not just choosing the company. You must also tell the market how you want the trade executed. Order type controls the trade-off between speed, price certainty, and execution certainty."
+              "en": "Buying a stock is not just choosing the company. You must also tell the market how you want the trade executed. Order type controls the trade-off between speed, price certainty, and execution certainty.",
+              "ru": "Покупка акции — это не только выбор компании. Вы также должны сказать рынку, как хотите исполнить сделку. Тип заявки управляет компромиссом между скоростью, определённостью цены и гарантией исполнения.",
+              "kk": "Акция сатып алу — тек компания таңдау емес. Нарыққа мәмілені қалай орындау керегін де айту керек. Өтінім түрі жылдамдық, баға анықтығы және орындалу ықтималдығы арасындағы таңдауды басқарады."
             }
           },
           {
@@ -958,13 +1631,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Market versus limit"
+              "en": "Market versus limit",
+              "ru": "Рыночная против лимитной",
+              "kk": "Нарықтық пен лимиттік"
             },
             "body": {
-              "en": "A market order prioritizes execution: buy or sell now at the best available price. A limit order prioritizes price: trade only at your chosen price or better. The first may execute at a worse price; the second may not execute at all."
+              "en": "A market order prioritizes execution: buy or sell now at the best available price. A limit order prioritizes price: trade only at your chosen price or better. The first may execute at a worse price; the second may not execute at all.",
+              "ru": "Рыночная заявка ставит на первое место исполнение: купить или продать сейчас по лучшей доступной цене. Лимитная заявка ставит на первое место цену: торговать только по выбранной цене или лучше. Первая может исполниться по хуже ожидаемой цене; вторая может не исполниться вообще.",
+              "kk": "Нарықтық өтінім орындалуды бірінші қояды: қазір ең жақсы қолжетімді бағамен сатып алу немесе сату. Лимиттік өтінім бағаны бірінші қояды: тек таңдаған бағаңызбен немесе одан жақсы бағамен сауда жасау. Біріншісі нашар бағамен орындалуы мүмкін; екіншісі мүлде орындалмауы мүмкін."
             },
             "tip": {
-              "en": "Market orders answer “now?” Limit orders answer “at this price?”"
+              "en": "Market orders answer “now?” Limit orders answer “at this price?”",
+              "ru": "Рыночные заявки отвечают на вопрос «сейчас?». Лимитные — «по этой цене?»",
+              "kk": "Нарықтық өтінім «қазір ме?» дегенге жауап береді. Лимиттік өтінім «осы бағамен бе?» дегенге жауап береді."
             }
           },
           {
@@ -972,10 +1651,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Stop orders manage triggers"
+              "en": "Stop orders manage triggers",
+              "ru": "Стоп-заявки управляют триггерами",
+              "kk": "Стоп-өтінімдер триггерлерді басқарады"
             },
             "body": {
-              "en": "A stop order becomes active after a trigger price is reached. It can help manage exits, but it does not guarantee a perfect sale price in a fast-moving market. A trigger is not the same as a guaranteed result."
+              "en": "A stop order becomes active after a trigger price is reached. It can help manage exits, but it does not guarantee a perfect sale price in a fast-moving market. A trigger is not the same as a guaranteed result.",
+              "ru": "Стоп-заявка становится активной после достижения триггерной цены. Она может помочь управлять выходом, но не гарантирует идеальную цену продажи на быстро движущемся рынке. Триггер — не то же самое, что гарантированный результат.",
+              "kk": "Стоп-өтінім триггер бағасына жеткеннен кейін белсенді болады. Ол шығуды басқаруға көмектеседі, бірақ тез қозғалатын нарықта мінсіз сату бағасына кепілдік бермейді. Триггер кепілдендірілген нәтиже емес."
             }
           },
           {
@@ -983,7 +1666,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Three instructions, three trade-offs"
+              "en": "Three instructions, three trade-offs",
+              "ru": "Три инструкции, три компромисса",
+              "kk": "Үш нұсқау, үш таңдау"
             },
             "content": {
               "en": {
@@ -1022,6 +1707,80 @@
                     "text": "No order type removes risk. Each chooses which risk you are willing to accept."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Последняя сделка по акции была по ₸3,000. Вы хотите купить, но цена быстро движется."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Заявка",
+                        "Инструкция",
+                        "Главный риск"
+                      ],
+                      [
+                        "Рыночная покупка",
+                        "Купить немедленно",
+                        "Итоговая цена может быть выше ₸3,000"
+                      ],
+                      [
+                        "Лимитная покупка по ₸2,950",
+                        "Купить только по ₸2,950 или ниже",
+                        "Заявка может не исполниться"
+                      ],
+                      [
+                        "Стоп-продажа по ₸2,700",
+                        "Продать после падения цены до триггера",
+                        "Продажа может пройти ниже триггера при гэпе"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ни один тип заявки не убирает риск. Каждый выбирает, какой риск вы готовы принять."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Акция соңғы рет ₸3,000 бағамен саудаланды. Сіз сатып алғыңыз келеді, бірақ баға тез қозғалып жатыр."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Өтінім",
+                        "Нұсқау",
+                        "Негізгі тәуекел"
+                      ],
+                      [
+                        "Нарықтық сатып алу",
+                        "Дереу сатып алу",
+                        "Соңғы баға ₸3,000-нан жоғары болуы мүмкін"
+                      ],
+                      [
+                        "₸2,950 бағасындағы лимиттік сатып алу",
+                        "Тек ₸2,950 немесе одан төмен бағамен сатып алу",
+                        "Өтінім орындалмауы мүмкін"
+                      ],
+                      [
+                        "₸2,700 деңгейіндегі стоп-сату",
+                        "Баға триггерге түскеннен кейін сату",
+                        "Гэп кезінде сату триггерден төмен бағамен орындалуы мүмкін"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ешбір өтінім түрі тәуекелді жоймайды. Әрқайсысы сіз қабылдауға дайын тәуекелді таңдайды."
+                  }
+                ]
               }
             }
           },
@@ -1030,10 +1789,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Choose the right order"
+              "en": "Choose the right order",
+              "ru": "Выберите правильную заявку",
+              "kk": "Дұрыс өтінімді таңдаңыз"
             },
             "body": {
-              "en": "Pick the order type that best matches the investor's priority."
+              "en": "Pick the order type that best matches the investor's priority.",
+              "ru": "Выберите тип заявки, который лучше всего соответствует приоритету инвестора.",
+              "kk": "Инвестордың басымдығына ең жақсы сәйкес келетін өтінім түрін таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1061,6 +1824,56 @@
                     "explanation": "The priority is creating a trigger-based exit."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучший тип заявки для каждой ситуации.",
+                "options": [
+                  "Рыночная заявка",
+                  "Лимитная заявка",
+                  "Стоп-заявка"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Вы хотите немедленно купить высоколиквидную акцию и принимаете текущую рыночную цену.",
+                    "correct_answer": "Рыночная заявка",
+                    "explanation": "Приоритет — быстрое исполнение."
+                  },
+                  {
+                    "text": "Вы хотите купить только если акция упадёт до ₸4,800 или ниже.",
+                    "correct_answer": "Лимитная заявка",
+                    "explanation": "Приоритет — максимальная приемлемая цена."
+                  },
+                  {
+                    "text": "Вы владеете акцией и хотите, чтобы инструкция на выход активировалась, если цена упадёт ниже выбранного уровня.",
+                    "correct_answer": "Стоп-заявка",
+                    "explanation": "Приоритет — создать выход на основе триггера."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр жағдай үшін ең жақсы өтінім түрін таңдаңыз.",
+                "options": [
+                  "Нарықтық өтінім",
+                  "Лимиттік өтінім",
+                  "Стоп-өтінім"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Сіз жоғары өтімді акцияны дереу сатып алғыңыз келеді және қазіргі нарық бағасын қабылдайсыз.",
+                    "correct_answer": "Нарықтық өтінім",
+                    "explanation": "Басымдық — жылдам орындалу."
+                  },
+                  {
+                    "text": "Сіз акция ₸4,800 немесе одан төмен түссе ғана сатып алғыңыз келеді.",
+                    "correct_answer": "Лимиттік өтінім",
+                    "explanation": "Басымдық — ең жоғары қолайлы баға."
+                  },
+                  {
+                    "text": "Сіз акцияға иесіз және ол таңдалған деңгейден төмен түссе, шығу нұсқауы іске қосылғанын қалайсыз.",
+                    "correct_answer": "Стоп-өтінім",
+                    "explanation": "Басымдық — триггерге негізделген шығу жасау."
+                  }
+                ]
               }
             }
           },
@@ -1069,13 +1882,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Execution is part of the decision"
+              "en": "Execution is part of the decision",
+              "ru": "Исполнение — часть решения",
+              "kk": "Орындалу — шешімнің бөлігі"
             },
             "body": {
-              "en": "Order types shape what can go wrong during a trade. Market orders risk price uncertainty; limit orders risk non-execution; stop orders risk imperfect execution after a trigger. A good order matches the problem you are actually trying to solve."
+              "en": "Order types shape what can go wrong during a trade. Market orders risk price uncertainty; limit orders risk non-execution; stop orders risk imperfect execution after a trigger. A good order matches the problem you are actually trying to solve.",
+              "ru": "Типы заявок определяют, что может пойти не так во время сделки. Рыночные заявки несут риск неопределённой цены; лимитные — риск неисполнения; стоп-заявки — риск неточного исполнения после триггера. Хорошая заявка соответствует задаче, которую вы реально решаете.",
+              "kk": "Өтінім түрлері мәміле кезінде не қате болуы мүмкін екенін анықтайды. Нарықтық өтінімде баға белгісіздігі, лимиттік өтінімде орындалмау, стоп-өтінімде триггерден кейін дәл емес орындалу тәуекелі бар. Жақсы өтінім нақты шешкіңіз келген мәселеге сәйкес келеді."
             },
             "tip": {
-              "en": "The best order type depends on your priority, not on a universal rule."
+              "en": "The best order type depends on your priority, not on a universal rule.",
+              "ru": "Лучший тип заявки зависит от вашего приоритета, а не от универсального правила.",
+              "kk": "Ең жақсы өтінім түрі әмбебап ережеге емес, сіздің басымдығыңызға байланысты."
             }
           }
         ]
@@ -1084,7 +1903,9 @@
         "quiz_id": 1404,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Stock Orders — Check"
+          "en": "Stock Orders — Check",
+          "ru": "Биржевые заявки — проверка",
+          "kk": "Биржалық өтінімдер — тексеру"
         },
         "questions": [
           {
@@ -1092,14 +1913,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "You want to buy a stock, but only if the price is ₸10,000 or lower. Which order best matches that instruction?"
+              "en": "You want to buy a stock, but only if the price is ₸10,000 or lower. Which order best matches that instruction?",
+              "ru": "Вы хотите купить акцию, но только если цена ₸10,000 или ниже. Какая заявка лучше всего соответствует этой инструкции?",
+              "kk": "Сіз акцияны тек бағасы ₸10,000 немесе одан төмен болса ғана сатып алғыңыз келеді. Қай өтінім осы нұсқауға жақсы сәйкес келеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A limit buy order at ₸10,000"
+                  "en": "A limit buy order at ₸10,000",
+                  "ru": "Лимитная заявка на покупку по ₸10,000",
+                  "kk": "₸10,000 бағасындағы лимиттік сатып алу өтінімі"
                 },
                 "is_correct": true
               },
@@ -1107,7 +1932,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "A market buy order"
+                  "en": "A market buy order",
+                  "ru": "Рыночная заявка на покупку",
+                  "kk": "Нарықтық сатып алу өтінімі"
                 },
                 "is_correct": false
               },
@@ -1115,7 +1942,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A stop sell order"
+                  "en": "A stop sell order",
+                  "ru": "Стоп-заявка на продажу",
+                  "kk": "Стоп-сату өтінімі"
                 },
                 "is_correct": false
               },
@@ -1123,7 +1952,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Any order, because the broker chooses the best price automatically"
+                  "en": "Any order, because the broker chooses the best price automatically",
+                  "ru": "Любая заявка, потому что брокер автоматически выбирает лучшую цену",
+                  "kk": "Кез келген өтінім, өйткені брокер ең жақсы бағаны автоматты түрде таңдайды"
                 },
                 "is_correct": false
               }
@@ -1134,14 +1965,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What is the main risk of using a market order on a stock with low trading volume?"
+              "en": "What is the main risk of using a market order on a stock with low trading volume?",
+              "ru": "Каков главный риск использования рыночной заявки по акции с низким объёмом торгов?",
+              "kk": "Сауда көлемі төмен акцияда нарықтық өтінім қолданудың негізгі тәуекелі қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The final execution price may be worse than expected"
+                  "en": "The final execution price may be worse than expected",
+                  "ru": "Итоговая цена исполнения может быть хуже ожидаемой",
+                  "kk": "Соңғы орындалу бағасы күткеннен нашар болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1149,7 +1984,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The order will always be rejected"
+                  "en": "The order will always be rejected",
+                  "ru": "Заявка всегда будет отклонена",
+                  "kk": "Өтінім әрқашан қабылданбайды"
                 },
                 "is_correct": false
               },
@@ -1157,7 +1994,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The company will issue more shares immediately"
+                  "en": "The company will issue more shares immediately",
+                  "ru": "Компания сразу выпустит больше акций",
+                  "kk": "Компания бірден көбірек акция шығарады"
                 },
                 "is_correct": false
               },
@@ -1165,7 +2004,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The dividend will be canceled"
+                  "en": "The dividend will be canceled",
+                  "ru": "Дивиденд будет отменён",
+                  "kk": "Дивиденд жойылады"
                 },
                 "is_correct": false
               }
@@ -1176,14 +2017,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "A stop order triggers after a price falls quickly overnight. Why might the sale price be lower than the stop level?"
+              "en": "A stop order triggers after a price falls quickly overnight. Why might the sale price be lower than the stop level?",
+              "ru": "Стоп-заявка срабатывает после быстрого ночного падения цены. Почему цена продажи может быть ниже стоп-уровня?",
+              "kk": "Баға түнде тез төмендегеннен кейін стоп-өтінім іске қосылады. Неге сату бағасы стоп деңгейінен төмен болуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The stop is a trigger, and the market may execute at the next available price"
+                  "en": "The stop is a trigger, and the market may execute at the next available price",
+                  "ru": "Стоп — это триггер, а рынок может исполнить по следующей доступной цене",
+                  "kk": "Стоп — триггер, ал нарық келесі қолжетімді бағамен орындауы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1191,7 +2036,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Stop orders guarantee the exact trigger price"
+                  "en": "Stop orders guarantee the exact trigger price",
+                  "ru": "Стоп-заявки гарантируют точную триггерную цену",
+                  "kk": "Стоп-өтінімдер нақты триггер бағасына кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -1199,7 +2046,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The broker converts all stop orders into dividends"
+                  "en": "The broker converts all stop orders into dividends",
+                  "ru": "Брокер превращает все стоп-заявки в дивиденды",
+                  "kk": "Брокер барлық стоп-өтінімдерді дивидендке айналдырады"
                 },
                 "is_correct": false
               },
@@ -1207,7 +2056,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A falling price cancels the order automatically"
+                  "en": "A falling price cancels the order automatically",
+                  "ru": "Падающая цена автоматически отменяет заявку",
+                  "kk": "Бағаның түсуі өтінімді автоматты түрде жояды"
                 },
                 "is_correct": false
               }
@@ -1219,10 +2070,14 @@
     {
       "code": "how_to_read_a_stock_quote",
       "title": {
-        "en": "How to Read a Stock Quote"
+        "en": "How to Read a Stock Quote",
+        "ru": "Как читать котировку акции",
+        "kk": "Акция бағасын қалай оқу керек"
       },
       "description": {
-        "en": "A quote shows price, change, volume, bid-ask spread, market value, and ratios — but each number answers a different question."
+        "en": "A quote shows price, change, volume, bid-ask spread, market value, and ratios — but each number answers a different question.",
+        "ru": "Котировка показывает цену, изменение, объём, спред bid-ask, рыночную стоимость и коэффициенты — но каждое число отвечает на свой вопрос.",
+        "kk": "Баға белгілеу бағаны, өзгерісті, көлемді, bid-ask спредін, нарықтық құнды және коэффициенттерді көрсетеді — бірақ әр сан басқа сұраққа жауап береді."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1234,10 +2089,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A quote is a dashboard"
+              "en": "A quote is a dashboard",
+              "ru": "Котировка — это панель показателей",
+              "kk": "Баға белгілеу — көрсеткіштер панелі"
             },
             "body": {
-              "en": "A stock quote compresses many facts into one screen. Some numbers describe today’s trading; others describe the business or valuation. Reading a quote well means knowing which number answers which question."
+              "en": "A stock quote compresses many facts into one screen. Some numbers describe today’s trading; others describe the business or valuation. Reading a quote well means knowing which number answers which question.",
+              "ru": "Котировка акции сжимает много фактов в один экран. Одни числа описывают сегодняшнюю торговлю, другие — бизнес или оценку. Хорошо читать котировку означает понимать, какое число отвечает на какой вопрос.",
+              "kk": "Акция бағасы көптеген деректі бір экранға жинайды. Кейбір сандар бүгінгі сауданы, басқалары бизнес немесе бағалауды сипаттайды. Бағаны дұрыс оқу — қай сан қай сұраққа жауап беретінін білу."
             }
           },
           {
@@ -1245,13 +2104,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Price is not value by itself"
+              "en": "Price is not value by itself",
+              "ru": "Цена сама по себе не является стоимостью",
+              "kk": "Баға өздігінен құн емес"
             },
             "body": {
-              "en": "A ₸1,000 stock is not automatically cheaper than a ₸10,000 stock. Price per share depends on how many shares exist. Market capitalization gives a better view of what the whole company is valued at."
+              "en": "A ₸1,000 stock is not automatically cheaper than a ₸10,000 stock. Price per share depends on how many shares exist. Market capitalization gives a better view of what the whole company is valued at.",
+              "ru": "Акция за ₸1,000 не обязательно дешевле акции за ₸10,000. Цена за акцию зависит от количества выпущенных акций. Рыночная капитализация лучше показывает, во сколько рынок оценивает всю компанию.",
+              "kk": "₸1,000 тұратын акция ₸10,000 акциядан автоматты түрде арзан емес. Бір акция бағасы акция санына байланысты. Нарықтық капитализация бүкіл компанияның қалай бағаланғанын жақсырақ көрсетеді."
             },
             "example": {
-              "en": "A company with 1 billion shares at ₸1,000 is valued at ₸1 trillion. A company with 10 million shares at ₸10,000 is valued at ₸100 billion."
+              "en": "A company with 1 billion shares at ₸1,000 is valued at ₸1 trillion. A company with 10 million shares at ₸10,000 is valued at ₸100 billion.",
+              "ru": "Компания с 1 млрд акций по ₸1,000 оценивается в ₸1 трлн. Компания с 10 млн акций по ₸10,000 оценивается в ₸100 млрд.",
+              "kk": "1 млрд акциясы ₸1,000-нан тұратын компания ₸1 трлн болып бағаланады. 10 млн акциясы ₸10,000-нан тұратын компания ₸100 млрд болып бағаланады."
             }
           },
           {
@@ -1259,13 +2124,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Trading data versus business data"
+              "en": "Trading data versus business data",
+              "ru": "Торговые данные против данных о бизнесе",
+              "kk": "Сауда деректері және бизнес деректері"
             },
             "body": {
-              "en": "Volume and bid-ask spread tell you about trading liquidity. Ratios like P/E compare price to earnings and help frame valuation. Neither type of data is enough alone: liquidity helps execution, while valuation helps judgment."
+              "en": "Volume and bid-ask spread tell you about trading liquidity. Ratios like P/E compare price to earnings and help frame valuation. Neither type of data is enough alone: liquidity helps execution, while valuation helps judgment.",
+              "ru": "Объём и спред bid-ask говорят о торговой ликвидности. Коэффициенты вроде P/E сравнивают цену с прибылью и помогают оценивать стоимость. Ни один тип данных сам по себе недостаточен: ликвидность помогает исполнению, а оценка — суждению.",
+              "kk": "Көлем және bid-ask спреді сауда өтімділігі туралы айтады. P/E сияқты коэффициенттер бағаны пайдамен салыстырып, бағалауға көмектеседі. Ешбір дерек түрі жалғыз жеткіліксіз: өтімділік орындауға, бағалау шешімге көмектеседі."
             },
             "tip": {
-              "en": "Do not use one quote number to answer every question."
+              "en": "Do not use one quote number to answer every question.",
+              "ru": "Не используйте одно число из котировки для ответа на все вопросы.",
+              "kk": "Баға белгілеудегі бір санды барлық сұраққа жауап ретінде қолданбаңыз."
             }
           },
           {
@@ -1273,7 +2144,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Reading one quote screen"
+              "en": "Reading one quote screen",
+              "ru": "Чтение одного экрана котировки",
+              "kk": "Бір баға экранын оқу"
             },
             "content": {
               "en": {
@@ -1327,6 +2200,110 @@
                     "text": "The quote is useful only when you match the number to the decision: trading now, valuing the company, or comparing alternatives."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Котировка показывает эти значения для акции. Каждая строка указывает на отдельный вопрос."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Элемент котировки",
+                        "Пример",
+                        "На какой вопрос помогает ответить"
+                      ],
+                      [
+                        "Последняя цена",
+                        "₸7,200",
+                        "Где прошла последняя сделка"
+                      ],
+                      [
+                        "Изменение за день",
+                        "+2.1%",
+                        "Как цена изменилась сегодня"
+                      ],
+                      [
+                        "Объём",
+                        "85,000 акций",
+                        "Насколько активно шли торги"
+                      ],
+                      [
+                        "Bid / ask",
+                        "₸7,190 / ₸7,220",
+                        "Примерный разрыв между покупкой и продажей"
+                      ],
+                      [
+                        "Рыночная капитализация",
+                        "₸720 млрд",
+                        "Рыночная стоимость всей компании"
+                      ],
+                      [
+                        "Коэффициент P/E",
+                        "14",
+                        "Цена по сравнению с прибылью"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Котировка полезна только тогда, когда вы связываете число с решением: торговать сейчас, оценивать компанию или сравнивать альтернативы."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Баға белгілеу акция бойынша осы мәндерді көрсетеді. Әр жол басқа сұраққа қатысты."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Баға көрсеткіші",
+                        "Мысал",
+                        "Қай сұраққа жауап беруге көмектеседі"
+                      ],
+                      [
+                        "Соңғы баға",
+                        "₸7,200",
+                        "Соңғы мәміле қай бағамен өтті"
+                      ],
+                      [
+                        "Күндік өзгеріс",
+                        "+2.1%",
+                        "Бүгін баға қалай өзгерді"
+                      ],
+                      [
+                        "Көлем",
+                        "85,000 акция",
+                        "Қаншалықты белсенді саудаланды"
+                      ],
+                      [
+                        "Bid / ask",
+                        "₸7,190 / ₸7,220",
+                        "Сатып алу мен сату арасындағы шамамен айырма"
+                      ],
+                      [
+                        "Нарықтық капитализация",
+                        "₸720 млрд",
+                        "Бүкіл компанияның нарықтық құны"
+                      ],
+                      [
+                        "P/E коэффициенті",
+                        "14",
+                        "Баға пайдамен салыстырғанда"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Баға белгілеу санды шешіммен байланыстырғанда ғана пайдалы: қазір сауда жасау, компанияны бағалау немесе баламаларды салыстыру."
+                  }
+                ]
               }
             }
           },
@@ -1335,10 +2312,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Match quote data to the question"
+              "en": "Match quote data to the question",
+              "ru": "Сопоставьте данные котировки с вопросом",
+              "kk": "Баға деректерін сұрақпен сәйкестендіріңіз"
             },
             "body": {
-              "en": "Choose which quote item best answers each investor question."
+              "en": "Choose which quote item best answers each investor question.",
+              "ru": "Выберите, какой элемент котировки лучше всего отвечает на каждый вопрос инвестора.",
+              "kk": "Әр инвестор сұрағына қай баға көрсеткіші жақсы жауап беретінін таңдаңыз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -1395,6 +2376,114 @@
                   }
                 ],
                 "explanation": "A quote screen mixes trading, size, and valuation information. Each number has a job."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый элемент котировки к вопросу, на который он лучше всего отвечает.",
+                "categories": [
+                  {
+                    "id": "company_value",
+                    "label": "Стоимость всей компании"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Торговая ликвидность"
+                  },
+                  {
+                    "id": "valuation",
+                    "label": "Цена против прибыли"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "market_cap",
+                    "text": "Рыночная капитализация"
+                  },
+                  {
+                    "id": "volume",
+                    "text": "Дневной объём торгов"
+                  },
+                  {
+                    "id": "pe_ratio",
+                    "text": "Коэффициент P/E"
+                  },
+                  {
+                    "id": "spread",
+                    "text": "Спред bid-ask"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "market_cap",
+                    "categoryId": "company_value"
+                  },
+                  {
+                    "itemId": "volume",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "pe_ratio",
+                    "categoryId": "valuation"
+                  },
+                  {
+                    "itemId": "spread",
+                    "categoryId": "liquidity"
+                  }
+                ],
+                "explanation": "Экран котировки смешивает информацию о торговле, размере и оценке. У каждого числа своя задача."
+              },
+              "kk": {
+                "instruction": "Әр баға көрсеткішін ол ең жақсы жауап беретін сұраққа сүйреңіз.",
+                "categories": [
+                  {
+                    "id": "company_value",
+                    "label": "Бүкіл компания құны"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Сауда өтімділігі"
+                  },
+                  {
+                    "id": "valuation",
+                    "label": "Баға мен пайда"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "market_cap",
+                    "text": "Нарықтық капитализация"
+                  },
+                  {
+                    "id": "volume",
+                    "text": "Күндік сауда көлемі"
+                  },
+                  {
+                    "id": "pe_ratio",
+                    "text": "P/E коэффициенті"
+                  },
+                  {
+                    "id": "spread",
+                    "text": "Bid-ask спреді"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "market_cap",
+                    "categoryId": "company_value"
+                  },
+                  {
+                    "itemId": "volume",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "pe_ratio",
+                    "categoryId": "valuation"
+                  },
+                  {
+                    "itemId": "spread",
+                    "categoryId": "liquidity"
+                  }
+                ],
+                "explanation": "Баға экраны сауда, көлем және бағалау ақпаратын біріктіреді. Әр санның өз қызметі бар."
               }
             }
           },
@@ -1403,13 +2492,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Read with a purpose"
+              "en": "Read with a purpose",
+              "ru": "Читайте с целью",
+              "kk": "Мақсатпен оқыңыз"
             },
             "body": {
-              "en": "A stock quote is not a buy or sell signal by itself. It is a dashboard of price, liquidity, size, and valuation. Start with the question you are answering, then choose the quote item that actually relates to it."
+              "en": "A stock quote is not a buy or sell signal by itself. It is a dashboard of price, liquidity, size, and valuation. Start with the question you are answering, then choose the quote item that actually relates to it.",
+              "ru": "Котировка акции сама по себе не является сигналом купить или продать. Это панель цены, ликвидности, размера и оценки. Начните с вопроса, на который отвечаете, затем выберите показатель, который действительно к нему относится.",
+              "kk": "Акция бағасы өздігінен сатып алу немесе сату сигналы емес. Ол баға, өтімділік, көлем және бағалау панелі. Алдымен жауап беретін сұрағыңызды анықтап, содан кейін соған қатысты көрсеткішті таңдаңыз."
             },
             "tip": {
-              "en": "Low share price is not the same as cheap valuation."
+              "en": "Low share price is not the same as cheap valuation.",
+              "ru": "Низкая цена акции — не то же самое, что дешёвая оценка.",
+              "kk": "Төмен акция бағасы арзан бағалаумен бірдей емес."
             }
           }
         ]
@@ -1418,7 +2513,9 @@
         "quiz_id": 1405,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "How to Read a Stock Quote — Check"
+          "en": "How to Read a Stock Quote — Check",
+          "ru": "Как читать котировку акции — проверка",
+          "kk": "Акция бағасын қалай оқу керек — тексеру"
         },
         "questions": [
           {
@@ -1426,14 +2523,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Company A trades at ₸800 per share and Company B trades at ₸8,000 per share. What can you conclude from share price alone?"
+              "en": "Company A trades at ₸800 per share and Company B trades at ₸8,000 per share. What can you conclude from share price alone?",
+              "ru": "Компания A торгуется по ₸800 за акцию, а компания B — по ₸8,000. Что можно заключить только по цене акции?",
+              "kk": "A компаниясының акциясы ₸800, B компаниясының акциясы ₸8,000. Тек акция бағасына қарап не қорытынды жасауға болады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Almost nothing about which company is cheaper without shares outstanding and earnings"
+                  "en": "Almost nothing about which company is cheaper without shares outstanding and earnings",
+                  "ru": "Почти ничего о том, какая компания дешевле, без числа акций в обращении и прибыли",
+                  "kk": "Айналымдағы акция саны мен пайдасыз қай компания арзанырақ екенін дерлік білу мүмкін емес"
                 },
                 "is_correct": true
               },
@@ -1441,7 +2542,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Company A is definitely ten times cheaper"
+                  "en": "Company A is definitely ten times cheaper",
+                  "ru": "Компания A точно в десять раз дешевле",
+                  "kk": "A компаниясы міндетті түрде он есе арзан"
                 },
                 "is_correct": false
               },
@@ -1449,7 +2552,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Company B is definitely higher quality"
+                  "en": "Company B is definitely higher quality",
+                  "ru": "Компания B точно более качественная",
+                  "kk": "B компаниясы міндетті түрде сапалырақ"
                 },
                 "is_correct": false
               },
@@ -1457,7 +2562,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Company A must have a smaller market capitalization"
+                  "en": "Company A must have a smaller market capitalization",
+                  "ru": "У компании A обязательно меньшая рыночная капитализация",
+                  "kk": "A компаниясының нарықтық капитализациясы міндетті түрде кіші"
                 },
                 "is_correct": false
               }
@@ -1468,14 +2575,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which quote item is most directly useful for understanding how easy it may be to trade without moving the price much?"
+              "en": "Which quote item is most directly useful for understanding how easy it may be to trade without moving the price much?",
+              "ru": "Какой элемент котировки наиболее прямо помогает понять, насколько легко торговать, сильно не двигая цену?",
+              "kk": "Бағаны қатты қозғалтпай сауда жасау қаншалықты оңай екенін түсінуге қай көрсеткіш ең пайдалы?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Volume and bid-ask spread"
+                  "en": "Volume and bid-ask spread",
+                  "ru": "Объём и спред bid-ask",
+                  "kk": "Көлем және bid-ask спреді"
                 },
                 "is_correct": true
               },
@@ -1483,7 +2594,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Company logo"
+                  "en": "Company logo",
+                  "ru": "Логотип компании",
+                  "kk": "Компания логотипі"
                 },
                 "is_correct": false
               },
@@ -1491,7 +2604,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Dividend payment date only"
+                  "en": "Dividend payment date only",
+                  "ru": "Только дата выплаты дивиденда",
+                  "kk": "Тек дивиденд төлеу күні"
                 },
                 "is_correct": false
               },
@@ -1499,7 +2614,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The color of today's price change"
+                  "en": "The color of today's price change",
+                  "ru": "Цвет сегодняшнего изменения цены",
+                  "kk": "Бүгінгі баға өзгерісінің түсі"
                 },
                 "is_correct": false
               }
@@ -1510,14 +2627,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why is market capitalization often more useful than share price for comparing company size?"
+              "en": "Why is market capitalization often more useful than share price for comparing company size?",
+              "ru": "Почему рыночная капитализация часто полезнее цены акции для сравнения размера компаний?",
+              "kk": "Компания көлемін салыстыруда неге нарықтық капитализация акция бағасынан жиі пайдалырақ?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It reflects price multiplied by shares outstanding"
+                  "en": "It reflects price multiplied by shares outstanding",
+                  "ru": "Она отражает цену, умноженную на количество акций в обращении",
+                  "kk": "Ол бағаның айналымдағы акция санына көбейтіндісін көрсетеді"
                 },
                 "is_correct": true
               },
@@ -1525,7 +2646,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It ignores the market's opinion"
+                  "en": "It ignores the market's opinion",
+                  "ru": "Она игнорирует мнение рынка",
+                  "kk": "Ол нарық пікірін елемейді"
                 },
                 "is_correct": false
               },
@@ -1533,7 +2656,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It equals the company's cash balance"
+                  "en": "It equals the company's cash balance",
+                  "ru": "Она равна денежному балансу компании",
+                  "kk": "Ол компанияның ақша қалдығына тең"
                 },
                 "is_correct": false
               },
@@ -1541,7 +2666,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It shows the exact future return"
+                  "en": "It shows the exact future return",
+                  "ru": "Она показывает точную будущую доходность",
+                  "kk": "Ол нақты болашақ табысты көрсетеді"
                 },
                 "is_correct": false
               }
@@ -1553,10 +2680,14 @@
     {
       "code": "market_indexes",
       "title": {
-        "en": "Market Indexes"
+        "en": "Market Indexes",
+        "ru": "Рыночные индексы",
+        "kk": "Нарық индекстері"
       },
       "description": {
-        "en": "Indexes summarize baskets of stocks, but their construction determines what they really represent."
+        "en": "Indexes summarize baskets of stocks, but their construction determines what they really represent.",
+        "ru": "Индексы обобщают корзины акций, но их методика определяет, что они действительно представляют.",
+        "kk": "Индекстер акциялар себетін жинақтайды, бірақ олардың құрылымы нені нақты көрсететінін анықтайды."
       },
       "estimatedMinutes": 6,
       "orderIndex": 5,
@@ -1568,10 +2699,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "An index is a shortcut"
+              "en": "An index is a shortcut",
+              "ru": "Индекс — это сокращение",
+              "kk": "Индекс — қысқа жол"
             },
             "body": {
-              "en": "A market index summarizes a group of stocks into one number. It helps answer broad questions like whether a market segment rose or fell. But the index only represents the stocks and weighting rules inside it."
+              "en": "A market index summarizes a group of stocks into one number. It helps answer broad questions like whether a market segment rose or fell. But the index only represents the stocks and weighting rules inside it.",
+              "ru": "Рыночный индекс сводит группу акций в одно число. Он помогает отвечать на общие вопросы, например вырос или упал сегмент рынка. Но индекс представляет только акции и правила взвешивания внутри него.",
+              "kk": "Нарық индексі акциялар тобын бір санға жинақтайды. Ол нарық сегменті өсті ме, түсті ме деген жалпы сұрақтарға жауап береді. Бірақ индекс тек ішіндегі акциялар мен салмақтау ережелерін көрсетеді."
             }
           },
           {
@@ -1579,13 +2714,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "What an index can represent"
+              "en": "What an index can represent",
+              "ru": "Что может представлять индекс",
+              "kk": "Индекс нені көрсете алады"
             },
             "body": {
-              "en": "An index may track a country, sector, region, or investment style. The S&P 500 tracks large U.S. companies, MSCI World tracks developed-market stocks, and KASE-related indexes reflect parts of Kazakhstan's market. Each is a map, not the whole territory."
+              "en": "An index may track a country, sector, region, or investment style. The S&P 500 tracks large U.S. companies, MSCI World tracks developed-market stocks, and KASE-related indexes reflect parts of Kazakhstan's market. Each is a map, not the whole territory.",
+              "ru": "Индекс может отслеживать страну, сектор, регион или инвестиционный стиль. S&P 500 отслеживает крупные компании США, MSCI World — акции развитых рынков, а индексы, связанные с KASE, отражают части рынка Казахстана. Каждый индекс — карта, а не вся территория.",
+              "kk": "Индекс елді, секторды, өңірді немесе инвестициялық стильді бақылай алады. S&P 500 АҚШ-тың ірі компанияларын, MSCI World дамыған нарық акцияларын, ал KASE-ке қатысты индекстер Қазақстан нарығының бөліктерін көрсетеді. Әрқайсысы бүкіл аумақ емес, карта."
             },
             "tip": {
-              "en": "Always ask: which companies are inside, and how are they weighted?"
+              "en": "Always ask: which companies are inside, and how are they weighted?",
+              "ru": "Всегда спрашивайте: какие компании внутри и как они взвешены?",
+              "kk": "Әрқашан сұраңыз: ішінде қандай компаниялар бар және олар қалай салмақталған?"
             }
           },
           {
@@ -1593,10 +2734,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Weighting changes the story"
+              "en": "Weighting changes the story",
+              "ru": "Взвешивание меняет картину",
+              "kk": "Салмақтау көріністі өзгертеді"
             },
             "body": {
-              "en": "Many indexes are weighted by market capitalization, so larger companies influence the index more. If a few giants rise, the index can rise even while many smaller members fall. The headline number may hide internal differences."
+              "en": "Many indexes are weighted by market capitalization, so larger companies influence the index more. If a few giants rise, the index can rise even while many smaller members fall. The headline number may hide internal differences.",
+              "ru": "Многие индексы взвешены по рыночной капитализации, поэтому крупные компании сильнее влияют на индекс. Если несколько гигантов растут, индекс может расти, даже когда многие меньшие участники падают. Главное число может скрывать внутренние различия.",
+              "kk": "Көптеген индекстер нарықтық капитализация бойынша салмақталады, сондықтан ірі компаниялар индекске көбірек әсер етеді. Бірнеше алып өссе, көптеген шағын қатысушылар төмендесе де индекс өсуі мүмкін. Негізгі сан ішкі айырмашылықтарды жасыруы мүмкін."
             }
           },
           {
@@ -1604,7 +2749,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "When the index and the average stock disagree"
+              "en": "When the index and the average stock disagree",
+              "ru": "Когда индекс и средняя акция расходятся",
+              "kk": "Индекс пен орташа акция сәйкес келмегенде"
             },
             "content": {
               "en": {
@@ -1653,6 +2800,100 @@
                     "text": "The index rises even though two of three stocks fell. Weighting explains the difference."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Представьте индекс всего из трёх акций. Самая крупная акция доминирует в индексе, потому что имеет самую большую рыночную стоимость."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Акция",
+                        "Вес в индексе",
+                        "Сегодняшняя доходность",
+                        "Влияние на индекс"
+                      ],
+                      [
+                        "Крупный банк",
+                        "70%",
+                        "+3%",
+                        "+2.1%"
+                      ],
+                      [
+                        "Ритейлер",
+                        "20%",
+                        "-2%",
+                        "-0.4%"
+                      ],
+                      [
+                        "Телеком",
+                        "10%",
+                        "-3%",
+                        "-0.3%"
+                      ],
+                      [
+                        "Результат индекса",
+                        "100%",
+                        "",
+                        "+1.4%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Индекс растёт, хотя две из трёх акций упали. Разницу объясняет взвешивание."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Тек үш акциядан тұратын индексті елестетіңіз. Ең ірі акция нарықтық құны ең үлкен болғандықтан индексте басым."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Акция",
+                        "Индекстегі салмақ",
+                        "Бүгінгі табыс",
+                        "Индекске әсері"
+                      ],
+                      [
+                        "Ірі банк",
+                        "70%",
+                        "+3%",
+                        "+2.1%"
+                      ],
+                      [
+                        "Бөлшек сатушы",
+                        "20%",
+                        "-2%",
+                        "-0.4%"
+                      ],
+                      [
+                        "Телеком",
+                        "10%",
+                        "-3%",
+                        "-0.3%"
+                      ],
+                      [
+                        "Индекс нәтижесі",
+                        "100%",
+                        "",
+                        "+1.4%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Үш акцияның екеуі төмендесе де индекс өседі. Айырманы салмақтау түсіндіреді."
+                  }
+                ]
               }
             }
           },
@@ -1661,10 +2902,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Pick the right index idea"
+              "en": "Pick the right index idea",
+              "ru": "Выберите правильную идею об индексе",
+              "kk": "Индекс туралы дұрыс ойды таңдаңыз"
             },
             "body": {
-              "en": "Choose what each index-related statement mainly describes."
+              "en": "Choose what each index-related statement mainly describes.",
+              "ru": "Выберите, что главным образом описывает каждое утверждение об индексе.",
+              "kk": "Индекс туралы әр тұжырым негізінен нені сипаттайтынын таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1692,6 +2937,56 @@
                     "explanation": "A benchmark is a reference point for evaluating results."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучший ярлык для каждого сценария.",
+                "options": [
+                  "Охват",
+                  "Взвешивание",
+                  "Использование бенчмарка"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Индекс отслеживает крупные компании США, но не малые частные бизнесы.",
+                    "correct_answer": "Охват",
+                    "explanation": "Охват определяет, что входит в индекс и что остаётся вне его."
+                  },
+                  {
+                    "text": "Несколько мегакрупных компаний вызывают большую часть сегодняшнего движения индекса.",
+                    "correct_answer": "Взвешивание",
+                    "explanation": "Взвешивание по рыночной капитализации даёт крупным компаниям больше влияния."
+                  },
+                  {
+                    "text": "Инвестор сравнивает доходность своего фонда с MSCI World, чтобы оценить результат.",
+                    "correct_answer": "Использование бенчмарка",
+                    "explanation": "Бенчмарк — это ориентир для оценки результатов."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр сценарий үшін ең жақсы белгіні таңдаңыз.",
+                "options": [
+                  "Қамту",
+                  "Салмақтау",
+                  "Бенчмарк ретінде қолдану"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Индекс АҚШ-тың ірі компанияларын бақылайды, бірақ шағын жеке бизнестерді қамтымайды.",
+                    "correct_answer": "Қамту",
+                    "explanation": "Қамту индекстің ішінде не бар, сыртында не бар екенін анықтайды."
+                  },
+                  {
+                    "text": "Бүгінгі индекс қозғалысының көбін бірнеше мега-кап компания тудырады.",
+                    "correct_answer": "Салмақтау",
+                    "explanation": "Нарықтық капитализация бойынша салмақтау ірі фирмаларға көбірек ықпал береді."
+                  },
+                  {
+                    "text": "Инвестор нәтижені бағалау үшін өз қорының табысын MSCI World-пен салыстырады.",
+                    "correct_answer": "Бенчмарк ретінде қолдану",
+                    "explanation": "Бенчмарк — нәтижелерді бағалауға арналған бағдар."
+                  }
+                ]
               }
             }
           },
@@ -1700,13 +2995,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Indexes simplify, but also filter"
+              "en": "Indexes simplify, but also filter",
+              "ru": "Индексы упрощают, но также фильтруют",
+              "kk": "Индекстер жеңілдетеді, бірақ сүзгіден де өткізеді"
             },
             "body": {
-              "en": "An index is useful because it compresses many stocks into one reference point. It is dangerous when treated as the entire market without checking coverage and weighting. To read an index well, ask what it includes, what it excludes, and which companies drive it."
+              "en": "An index is useful because it compresses many stocks into one reference point. It is dangerous when treated as the entire market without checking coverage and weighting. To read an index well, ask what it includes, what it excludes, and which companies drive it.",
+              "ru": "Индекс полезен, потому что сжимает множество акций в одну точку отсчёта. Опасно считать его всем рынком, не проверяя охват и взвешивание. Чтобы правильно читать индекс, спрашивайте, что он включает, что исключает и какие компании им движут.",
+              "kk": "Индекс пайдалы, өйткені көптеген акцияны бір бағдарға жинақтайды. Қамтуы мен салмағын тексермей, оны бүкіл нарық деп қабылдау қауіпті. Индексті дұрыс оқу үшін оның нені қамтитынын, нені қамтымайтынын және қай компаниялар оны қозғайтынын сұраңыз."
             },
             "tip": {
-              "en": "The market can be up while many stocks are down."
+              "en": "The market can be up while many stocks are down.",
+              "ru": "Рынок может быть в плюсе, даже если многие акции падают.",
+              "kk": "Көптеген акциялар төмендесе де, нарық жоғары болуы мүмкін."
             }
           }
         ]
@@ -1715,7 +3016,9 @@
         "quiz_id": 1406,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Market Indexes — Check"
+          "en": "Market Indexes — Check",
+          "ru": "Рыночные индексы — проверка",
+          "kk": "Нарық индекстері — тексеру"
         },
         "questions": [
           {
@@ -1723,14 +3026,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "An index rises 1%, but most stocks inside it fell. How is this possible?"
+              "en": "An index rises 1%, but most stocks inside it fell. How is this possible?",
+              "ru": "Индекс вырос на 1%, но большинство акций внутри него упали. Как это возможно?",
+              "kk": "Индекс 1% өсті, бірақ ішіндегі акциялардың көбі түсті. Бұл қалай мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Large heavily weighted stocks may have risen enough to lift the index"
+                  "en": "Large heavily weighted stocks may have risen enough to lift the index",
+                  "ru": "Крупные акции с большим весом могли вырасти достаточно, чтобы поднять индекс",
+                  "kk": "Салмағы үлкен ірі акциялар индексті көтеруге жеткілікті өскен болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1738,7 +3045,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Indexes cannot rise unless every stock rises"
+                  "en": "Indexes cannot rise unless every stock rises",
+                  "ru": "Индексы не могут расти, если не растёт каждая акция",
+                  "kk": "Әр акция өспесе, индекстер өсе алмайды"
                 },
                 "is_correct": false
               },
@@ -1746,7 +3055,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The index must be calculated incorrectly"
+                  "en": "The index must be calculated incorrectly",
+                  "ru": "Индекс наверняка рассчитан неправильно",
+                  "kk": "Индекс қате есептелген болуы керек"
                 },
                 "is_correct": false
               },
@@ -1754,7 +3065,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Falling stocks are automatically removed before calculation"
+                  "en": "Falling stocks are automatically removed before calculation",
+                  "ru": "Падающие акции автоматически удаляются перед расчётом",
+                  "kk": "Төмендеген акциялар есептеу алдында автоматты түрде алынып тасталады"
                 },
                 "is_correct": false
               }
@@ -1765,14 +3078,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why might MSCI World and a Kazakhstan-focused index behave differently on the same day?"
+              "en": "Why might MSCI World and a Kazakhstan-focused index behave differently on the same day?",
+              "ru": "Почему MSCI World и индекс, ориентированный на Казахстан, могут вести себя по-разному в один день?",
+              "kk": "Неге MSCI World және Қазақстанға бағытталған индекс бір күнде әртүрлі қозғалуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They cover different markets and companies"
+                  "en": "They cover different markets and companies",
+                  "ru": "Они охватывают разные рынки и компании",
+                  "kk": "Олар әртүрлі нарықтар мен компанияларды қамтиды"
                 },
                 "is_correct": true
               },
@@ -1780,7 +3097,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "All indexes must hold the same stocks"
+                  "en": "All indexes must hold the same stocks",
+                  "ru": "Все индексы должны содержать одни и те же акции",
+                  "kk": "Барлық индекстер бірдей акцияларды ұстауы керек"
                 },
                 "is_correct": false
               },
@@ -1788,7 +3107,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Local indexes only move after global indexes close"
+                  "en": "Local indexes only move after global indexes close",
+                  "ru": "Локальные индексы движутся только после закрытия глобальных индексов",
+                  "kk": "Жергілікті индекстер тек жаһандық индекстер жабылғаннан кейін қозғалады"
                 },
                 "is_correct": false
               },
@@ -1796,7 +3117,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A country-focused index has no sector exposure"
+                  "en": "A country-focused index has no sector exposure",
+                  "ru": "Индекс, ориентированный на страну, не имеет секторной экспозиции",
+                  "kk": "Елге бағытталған индексте секторлық әсер жоқ"
                 },
                 "is_correct": false
               }
@@ -1807,14 +3130,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the best use of an index as a benchmark?"
+              "en": "What is the best use of an index as a benchmark?",
+              "ru": "Как лучше всего использовать индекс как бенчмарк?",
+              "kk": "Индексті бенчмарк ретінде ең жақсы қалай қолдануға болады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "To compare an investment against a relevant market reference"
+                  "en": "To compare an investment against a relevant market reference",
+                  "ru": "Чтобы сравнить инвестицию с релевантным рыночным ориентиром",
+                  "kk": "Инвестицияны сәйкес нарықтық бағдармен салыстыру үшін"
                 },
                 "is_correct": true
               },
@@ -1822,7 +3149,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "To guarantee the investment will match future returns"
+                  "en": "To guarantee the investment will match future returns",
+                  "ru": "Чтобы гарантировать, что инвестиция повторит будущую доходность",
+                  "kk": "Инвестиция болашақ табысты қайталайтынына кепілдік беру үшін"
                 },
                 "is_correct": false
               },
@@ -1830,7 +3159,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "To prove individual stocks are unnecessary in every situation"
+                  "en": "To prove individual stocks are unnecessary in every situation",
+                  "ru": "Чтобы доказать, что отдельные акции не нужны ни в одной ситуации",
+                  "kk": "Жеке акциялар әр жағдайда қажет емес екенін дәлелдеу үшін"
                 },
                 "is_correct": false
               },
@@ -1838,7 +3169,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "To remove all risk from investing"
+                  "en": "To remove all risk from investing",
+                  "ru": "Чтобы убрать весь риск из инвестирования",
+                  "kk": "Инвестициядағы барлық тәуекелді алып тастау үшін"
                 },
                 "is_correct": false
               }
@@ -1852,7 +3185,9 @@
     "quiz_id": 1499,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Stocks — Final Check"
+      "en": "Stocks — Final Check",
+      "ru": "Акции — итоговая проверка",
+      "kk": "Акциялар — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1860,14 +3195,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "A friend says a ₸600 stock is cheaper than a ₸6,000 stock. What should you say?"
+          "en": "A friend says a ₸600 stock is cheaper than a ₸6,000 stock. What should you say?",
+          "ru": "Друг говорит, что акция за ₸600 дешевле акции за ₸6,000. Что ответить?",
+          "kk": "Досыңыз ₸600 акция ₸6,000 акциядан арзан дейді. Не айту керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Share price alone is not enough; compare business value, shares outstanding, and earnings"
+              "en": "Share price alone is not enough; compare business value, shares outstanding, and earnings",
+              "ru": "Одной цены акции недостаточно; сравните стоимость бизнеса, количество акций в обращении и прибыль",
+              "kk": "Тек акция бағасы жеткіліксіз; бизнес құнын, айналымдағы акция санын және пайданы салыстырыңыз"
             },
             "is_correct": true
           },
@@ -1875,7 +3214,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "The ₸600 stock must be a better investment"
+              "en": "The ₸600 stock must be a better investment",
+              "ru": "Акция за ₸600 обязательно лучшая инвестиция",
+              "kk": "₸600 акция міндетті түрде жақсы инвестиция"
             },
             "is_correct": false
           },
@@ -1883,7 +3224,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "The ₸6,000 stock must pay higher dividends"
+              "en": "The ₸6,000 stock must pay higher dividends",
+              "ru": "Акция за ₸6,000 обязательно платит более высокие дивиденды",
+              "kk": "₸6,000 акция міндетті түрде жоғары дивиденд төлейді"
             },
             "is_correct": false
           },
@@ -1891,7 +3234,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Both stocks have the same market capitalization"
+              "en": "Both stocks have the same market capitalization",
+              "ru": "У обеих акций одинаковая рыночная капитализация",
+              "kk": "Екі акцияның нарықтық капитализациясы бірдей"
             },
             "is_correct": false
           }
@@ -1902,14 +3247,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "A company reports higher profit, but the stock falls because investors expected even more. What lesson does this show?"
+          "en": "A company reports higher profit, but the stock falls because investors expected even more. What lesson does this show?",
+          "ru": "Компания сообщает о более высокой прибыли, но акция падает, потому что инвесторы ожидали ещё большего. Какой урок это показывает?",
+          "kk": "Компания жоғары пайда туралы хабарлайды, бірақ инвесторлар одан да көп күткендіктен акция төмендейді. Бұл қандай сабақ береді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Prices respond to changes versus expectations, not just whether news sounds good"
+              "en": "Prices respond to changes versus expectations, not just whether news sounds good",
+              "ru": "Цены реагируют на изменения относительно ожиданий, а не просто на то, звучит ли новость хорошо",
+              "kk": "Бағалар жаңалықтың жақсы естілуіне ғана емес, күтіліммен салыстырғандағы өзгеріске жауап береді"
             },
             "is_correct": true
           },
@@ -1917,7 +3266,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Profit never matters to stock prices"
+              "en": "Profit never matters to stock prices",
+              "ru": "Прибыль никогда не важна для цен акций",
+              "kk": "Пайда акция бағасы үшін ешқашан маңызды емес"
             },
             "is_correct": false
           },
@@ -1925,7 +3276,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "A profitable company should always rise"
+              "en": "A profitable company should always rise",
+              "ru": "Прибыльная компания всегда должна расти",
+              "kk": "Пайдалы компания әрқашан өсуі керек"
             },
             "is_correct": false
           },
@@ -1933,7 +3286,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Investors only care about dividends"
+              "en": "Investors only care about dividends",
+              "ru": "Инвесторов интересуют только дивиденды",
+              "kk": "Инвесторларды тек дивидендтер қызықтырады"
             },
             "is_correct": false
           }
@@ -1944,14 +3299,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "A stock has a 14% dividend yield after a major price drop. What is the most careful interpretation?"
+          "en": "A stock has a 14% dividend yield after a major price drop. What is the most careful interpretation?",
+          "ru": "У акции дивидендная доходность 14% после сильного падения цены. Какая самая осторожная интерпретация?",
+          "kk": "Баға қатты түскеннен кейін акцияның дивиденд кірістілігі 14%. Ең сақ түсіндіру қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The yield may be high because the market doubts the dividend's sustainability"
+              "en": "The yield may be high because the market doubts the dividend's sustainability",
+              "ru": "Доходность может быть высокой, потому что рынок сомневается в устойчивости дивиденда",
+              "kk": "Кірістілік жоғары болуы мүмкін, өйткені нарық дивидендтің тұрақтылығына күмәнданады"
             },
             "is_correct": true
           },
@@ -1959,7 +3318,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "The stock is automatically a safe income asset"
+              "en": "The stock is automatically a safe income asset",
+              "ru": "Акция автоматически является безопасным доходным активом",
+              "kk": "Акция автоматты түрде қауіпсіз табыс активі"
             },
             "is_correct": false
           },
@@ -1967,7 +3328,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "The company is legally required to keep the dividend unchanged"
+              "en": "The company is legally required to keep the dividend unchanged",
+              "ru": "Компания по закону обязана сохранить дивиденд неизменным",
+              "kk": "Компания заң бойынша дивидендті өзгеріссіз сақтауға міндетті"
             },
             "is_correct": false
           },
@@ -1975,7 +3338,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "The dividend yield proves the stock price will recover"
+              "en": "The dividend yield proves the stock price will recover",
+              "ru": "Дивидендная доходность доказывает, что цена акции восстановится",
+              "kk": "Дивиденд кірістілігі акция бағасы қалпына келетінін дәлелдейді"
             },
             "is_correct": false
           }
@@ -1986,14 +3351,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "You want to buy only if a stock reaches ₸9,500 or lower. Which order matches your goal?"
+          "en": "You want to buy only if a stock reaches ₸9,500 or lower. Which order matches your goal?",
+          "ru": "Вы хотите купить только если акция достигнет ₸9,500 или ниже. Какая заявка соответствует цели?",
+          "kk": "Сіз акция ₸9,500 немесе одан төмен болғанда ғана сатып алғыңыз келеді. Қай өтінім мақсатыңызға сәйкес?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "A limit buy order at ₸9,500"
+              "en": "A limit buy order at ₸9,500",
+              "ru": "Лимитная заявка на покупку по ₸9,500",
+              "kk": "₸9,500 бағасындағы лимиттік сатып алу өтінімі"
             },
             "is_correct": true
           },
@@ -2001,7 +3370,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "A market buy order"
+              "en": "A market buy order",
+              "ru": "Рыночная заявка на покупку",
+              "kk": "Нарықтық сатып алу өтінімі"
             },
             "is_correct": false
           },
@@ -2009,7 +3380,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "A stop sell order"
+              "en": "A stop sell order",
+              "ru": "Стоп-заявка на продажу",
+              "kk": "Стоп-сату өтінімі"
             },
             "is_correct": false
           },
@@ -2017,7 +3390,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "A dividend reinvestment instruction"
+              "en": "A dividend reinvestment instruction",
+              "ru": "Инструкция по реинвестированию дивидендов",
+              "kk": "Дивидендті қайта инвестициялау нұсқауы"
             },
             "is_correct": false
           }
@@ -2028,14 +3403,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "An index is up because a few very large companies rose, while many smaller members fell. What explains this?"
+          "en": "An index is up because a few very large companies rose, while many smaller members fell. What explains this?",
+          "ru": "Индекс вырос, потому что несколько очень крупных компаний поднялись, а многие меньшие участники упали. Что это объясняет?",
+          "kk": "Индекс бірнеше өте ірі компания өскендіктен көтерілді, ал көптеген кіші мүшелер төмендеді. Мұны не түсіндіреді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Market-cap weighting can give larger companies more influence"
+              "en": "Market-cap weighting can give larger companies more influence",
+              "ru": "Взвешивание по рыночной капитализации может давать крупным компаниям больше влияния",
+              "kk": "Нарықтық капитализация бойынша салмақтау ірі компанияларға көбірек ықпал бере алады"
             },
             "is_correct": true
           },
@@ -2043,7 +3422,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Indexes ignore large companies"
+              "en": "Indexes ignore large companies",
+              "ru": "Индексы игнорируют крупные компании",
+              "kk": "Индекстер ірі компанияларды елемейді"
             },
             "is_correct": false
           },
@@ -2051,7 +3432,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Every member must have risen equally"
+              "en": "Every member must have risen equally",
+              "ru": "Каждый участник должен был вырасти одинаково",
+              "kk": "Әр мүше бірдей өсуі керек еді"
             },
             "is_correct": false
           },
@@ -2059,7 +3442,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "An index cannot contain companies of different sizes"
+              "en": "An index cannot contain companies of different sizes",
+              "ru": "Индекс не может содержать компании разного размера",
+              "kk": "Индекс әртүрлі көлемдегі компанияларды қамти алмайды"
             },
             "is_correct": false
           }

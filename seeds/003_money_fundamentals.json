@@ -2,6 +2,7 @@
   "topic": {
     "code": "money_fundamentals",
     "orderIndex": 3,
+    "icon_path": "assets/topics/003.png",
     "title": {
       "en": "Money Fundamentals",
       "ru": "Основы денег",

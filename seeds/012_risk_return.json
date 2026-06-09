@@ -3,16 +3,33 @@
   "topic": {
     "code": "risk_return",
     "orderIndex": 12,
-    "title": {"en": "Risk & Return"},
-    "description": {"en": "The iron link between risk and expected return, what volatility really measures, and how to match risk to your own tolerance and time horizon."},
+    "icon_path": "assets/topics/012.png",
+    "title": {
+      "en": "Risk & Return",
+      "ru": "Риск и доходность",
+      "kk": "Тәуекел және табыстылық"
+    },
+    "description": {
+      "en": "The iron link between risk and expected return, what volatility really measures, and how to match risk to your own tolerance and time horizon.",
+      "ru": "Жёсткая связь между риском и ожидаемой доходностью, что на самом деле измеряет волатильность и как соотнести риск с вашей терпимостью к нему и временным горизонтом.",
+      "kk": "Тәуекел мен күтілетін табыстылықтың тығыз байланысы, құбылмалылықтың нені өлшейтіні және тәуекелді өз төзімділігіңіз бен уақыт көкжиегіңізге қалай сәйкестендіру керегі."
+    },
     "level": "intermediate",
     "prerequisite_id": null
   },
   "subtopics": [
     {
       "code": "expected_return",
-      "title": {"en": "Expected Return"},
-      "description": {"en": "Expected return is not a guarantee — it is a probability-weighted average of outcomes. Understanding this prevents the most common investing mistake."},
+      "title": {
+        "en": "Expected Return",
+        "ru": "Ожидаемая доходность",
+        "kk": "Күтілетін табыстылық"
+      },
+      "description": {
+        "en": "Expected return is not a guarantee — it is a probability-weighted average of outcomes. Understanding this prevents the most common investing mistake.",
+        "ru": "Ожидаемая доходность — не гарантия, а средневзвешенное по вероятностям значение возможных исходов. Понимание этого помогает избежать самой частой ошибки инвестора.",
+        "kk": "Күтілетін табыстылық — кепілдік емес, ықтималдықпен өлшенген нәтижелердің орташа мәні. Мұны түсіну инвестициядағы ең жиі қателіктің алдын алады."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 0,
       "quizId": 1201,
@@ -22,42 +39,229 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "Return is a distribution, not a number"},
-            "body": {"en": "When an investment is described as 'returning 12% per year,' that is an average — not a promise. Any single year might deliver 30%, −15%, or exactly 12%. Understanding expected return means understanding that you are buying a range of outcomes, not a fixed payoff."},
-            "tip": {"en": "Ask: 'What is the range of outcomes?' not just 'What is the average return?'"}
+            "title": {
+              "en": "Return is a distribution, not a number",
+              "ru": "Доходность — это распределение, а не одно число",
+              "kk": "Табыстылық — бір сан емес, нәтижелердің таралуы"
+            },
+            "body": {
+              "en": "When an investment is described as 'returning 12% per year,' that is an average — not a promise. Any single year might deliver 30%, −15%, or exactly 12%. Understanding expected return means understanding that you are buying a range of outcomes, not a fixed payoff.",
+              "ru": "Когда про инвестицию говорят, что она «приносит 12% в год», это среднее значение, а не обещание. В отдельный год результат может быть 30%, −15% или ровно 12%. Понимать ожидаемую доходность значит понимать, что вы покупаете диапазон возможных исходов, а не фиксированную выплату.",
+              "kk": "Инвестиция «жылына 12% береді» деп сипатталса, бұл уәде емес, орташа көрсеткіш. Бір жылда нәтиже 30%, −15% немесе дәл 12% болуы мүмкін. Күтілетін табыстылықты түсіну — нақты төлемді емес, ықтимал нәтижелер диапазонын қабылдап отырғаныңызды түсіну."
+            },
+            "tip": {
+              "en": "Ask: 'What is the range of outcomes?' not just 'What is the average return?'",
+              "ru": "Спрашивайте не только: «Какая средняя доходность?», а ещё: «Какой диапазон возможных исходов?»",
+              "kk": "Тек «орташа табыстылық қандай?» деп емес, «нәтижелер диапазоны қандай?» деп сұраңыз."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "How expected return is calculated"},
-            "body": {"en": "Expected return is the probability-weighted average of all possible outcomes. Multiply each possible return by its probability, then sum them. If a stock has a 50% chance of returning 20% and a 50% chance of returning −5%, the expected return is (0.5 × 20%) + (0.5 × −5%) = 7.5%."},
-            "example": {"en": "Asset A: 60% chance of +15%, 40% chance of −5%. Expected return = (0.6 × 15) + (0.4 × −5) = 9% − 2% = 7%. Asset B: guaranteed 7%. Same expected return — very different risk profiles."}
+            "title": {
+              "en": "How expected return is calculated",
+              "ru": "Как рассчитывается ожидаемая доходность",
+              "kk": "Күтілетін табыстылық қалай есептеледі"
+            },
+            "body": {
+              "en": "Expected return is the probability-weighted average of all possible outcomes. Multiply each possible return by its probability, then sum them. If a stock has a 50% chance of returning 20% and a 50% chance of returning −5%, the expected return is (0.5 × 20%) + (0.5 × −5%) = 7.5%.",
+              "ru": "Ожидаемая доходность — это среднее всех возможных исходов с учётом их вероятностей. Умножьте каждый возможный результат на его вероятность и сложите. Если у акции есть 50% шанс дать 20% и 50% шанс дать −5%, ожидаемая доходность равна (0.5 × 20%) + (0.5 × −5%) = 7.5%.",
+              "kk": "Күтілетін табыстылық — барлық ықтимал нәтижелердің ықтималдықпен өлшенген орташа мәні. Әр ықтимал табысты оның ықтималдығына көбейтіп, бәрін қосыңыз. Егер акцияның 20% табыс беру ықтималдығы 50%, ал −5% нәтиже беру ықтималдығы 50% болса, күтілетін табыстылық (0.5 × 20%) + (0.5 × −5%) = 7.5% болады."
+            },
+            "example": {
+              "en": "Asset A: 60% chance of +15%, 40% chance of −5%. Expected return = (0.6 × 15) + (0.4 × −5) = 9% − 2% = 7%. Asset B: guaranteed 7%. Same expected return — very different risk profiles.",
+              "ru": "Актив A: 60% шанс +15%, 40% шанс −5%. Ожидаемая доходность = (0.6 × 15) + (0.4 × −5) = 9% − 2% = 7%. Актив B: гарантированные 7%. Ожидаемая доходность одинаковая, но профили риска совершенно разные.",
+              "kk": "Актив A: +15% ықтималдығы 60%, −5% ықтималдығы 40%. Күтілетін табыстылық = (0.6 × 15) + (0.4 × −5) = 9% − 2% = 7%. Актив B: кепілді 7%. Күтілетін табыстылық бірдей, бірақ тәуекел бейіні мүлде басқа."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Historical vs forward-looking expected return"},
-            "body": {"en": "Past average returns are the most common proxy for expected return, but they are backward-looking. Markets reprice constantly. A stock that returned 18%/year for 10 years may now be so expensive that future expected returns are much lower. Expected return is always an estimate about the future, not a measurement of the past."},
-            "tip": {"en": "High past returns can mean lower future expected returns if the asset has been repriced upward. Be skeptical of chasing recent performance."}
+            "title": {
+              "en": "Historical vs forward-looking expected return",
+              "ru": "Историческая и прогнозная ожидаемая доходность",
+              "kk": "Тарихи және болашаққа бағытталған күтілетін табыстылық"
+            },
+            "body": {
+              "en": "Past average returns are the most common proxy for expected return, but they are backward-looking. Markets reprice constantly. A stock that returned 18%/year for 10 years may now be so expensive that future expected returns are much lower. Expected return is always an estimate about the future, not a measurement of the past.",
+              "ru": "Прошлая средняя доходность часто используется как приблизительная оценка ожидаемой доходности, но она смотрит назад. Рынки постоянно переоценивают активы. Акция, которая приносила 18% в год в течение 10 лет, сегодня может быть настолько дорогой, что будущая ожидаемая доходность будет намного ниже. Ожидаемая доходность — это всегда оценка будущего, а не измерение прошлого.",
+              "kk": "Өткен орташа табыстар күтілетін табыстылыққа жиі жуықтама ретінде қолданылады, бірақ олар өткенге қарайды. Нарықтар активтерді үнемі қайта бағалайды. 10 жыл бойы жылына 18% берген акция қазір тым қымбат болуы мүмкін, сондықтан болашақ күтілетін табысы әлдеқайда төмен болады. Күтілетін табыстылық — өткенді өлшеу емес, болашақ туралы баға."
+            },
+            "tip": {
+              "en": "High past returns can mean lower future expected returns if the asset has been repriced upward. Be skeptical of chasing recent performance.",
+              "ru": "Высокая доходность в прошлом может означать более низкую будущую ожидаемую доходность, если актив уже сильно подорожал. Осторожно относитесь к погоне за недавними результатами.",
+              "kk": "Егер активтің бағасы қатты өсіп кеткен болса, жоғары өткен табыс болашақ күтілетін табыстың төмендеуін білдіруі мүмкін. Соңғы нәтижелердің соңынан қуалауға сақ болыңыз."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Three assets, same average — different realities"},
+            "title": {
+              "en": "Three assets, same average — different realities",
+              "ru": "Три актива, одинаковое среднее — разные реальности",
+              "kk": "Үш актив, орташа мән бірдей — шындық әртүрлі"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Each of these produced an average return of 10%/year over 5 years. But the paths were very different."},
-                  {"type": "table", "rows": [
-                    ["Asset", "Year 1", "Year 2", "Year 3", "Year 4", "Year 5", "Average"],
-                    ["Deposit", "+10%", "+10%", "+10%", "+10%", "+10%", "10%"],
-                    ["Bond fund", "+12%", "+8%", "+11%", "+9%", "+10%", "10%"],
-                    ["Equity fund", "+35%", "−20%", "+28%", "−8%", "+15%", "10%"]
-                  ]},
-                  {"type": "paragraph", "text": "An investor who needed to withdraw in Year 2 of the equity fund locked in a loss despite the 10% long-run average. Same expected return, but the equity fund's path-dependence creates real risk for short horizons."}
+                  {
+                    "type": "paragraph",
+                    "text": "Each of these produced an average return of 10%/year over 5 years. But the paths were very different."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Asset",
+                        "Year 1",
+                        "Year 2",
+                        "Year 3",
+                        "Year 4",
+                        "Year 5",
+                        "Average"
+                      ],
+                      [
+                        "Deposit",
+                        "+10%",
+                        "+10%",
+                        "+10%",
+                        "+10%",
+                        "+10%",
+                        "10%"
+                      ],
+                      [
+                        "Bond fund",
+                        "+12%",
+                        "+8%",
+                        "+11%",
+                        "+9%",
+                        "+10%",
+                        "10%"
+                      ],
+                      [
+                        "Equity fund",
+                        "+35%",
+                        "−20%",
+                        "+28%",
+                        "−8%",
+                        "+15%",
+                        "10%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "An investor who needed to withdraw in Year 2 of the equity fund locked in a loss despite the 10% long-run average. Same expected return, but the equity fund's path-dependence creates real risk for short horizons."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Каждый из этих активов дал среднюю доходность 10% в год за 5 лет. Но путь к этому результату был очень разным."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Актив",
+                        "Год 1",
+                        "Год 2",
+                        "Год 3",
+                        "Год 4",
+                        "Год 5",
+                        "Среднее"
+                      ],
+                      [
+                        "Депозит",
+                        "+10%",
+                        "+10%",
+                        "+10%",
+                        "+10%",
+                        "+10%",
+                        "10%"
+                      ],
+                      [
+                        "Фонд облигаций",
+                        "+12%",
+                        "+8%",
+                        "+11%",
+                        "+9%",
+                        "+10%",
+                        "10%"
+                      ],
+                      [
+                        "Фонд акций",
+                        "+35%",
+                        "−20%",
+                        "+28%",
+                        "−8%",
+                        "+15%",
+                        "10%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор, которому пришлось вывести деньги на втором году из фонда акций, зафиксировал убыток, несмотря на долгосрочное среднее 10%. Ожидаемая доходность та же, но зависимость результата от пути создаёт реальный риск на коротком горизонте."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Бұлардың әрқайсысы 5 жылда орта есеппен жылына 10% табыс берді. Бірақ оған жету жолы өте әртүрлі болды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Актив",
+                        "1-жыл",
+                        "2-жыл",
+                        "3-жыл",
+                        "4-жыл",
+                        "5-жыл",
+                        "Орташа"
+                      ],
+                      [
+                        "Депозит",
+                        "+10%",
+                        "+10%",
+                        "+10%",
+                        "+10%",
+                        "+10%",
+                        "10%"
+                      ],
+                      [
+                        "Облигациялар қоры",
+                        "+12%",
+                        "+8%",
+                        "+11%",
+                        "+9%",
+                        "+10%",
+                        "10%"
+                      ],
+                      [
+                        "Акциялар қоры",
+                        "+35%",
+                        "−20%",
+                        "+28%",
+                        "−8%",
+                        "+15%",
+                        "10%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Акциялар қорынан 2-жылы ақша шығаруға мәжбүр болған инвестор ұзақ мерзімді 10% орташа көрсеткішке қарамастан шығынды бекітті. Күтілетін табыстылық бірдей, бірақ акция қорының нәтижесі жолға тәуелді болғандықтан қысқа мерзімде нақты тәуекел тудырады."
+                  }
                 ]
               }
             }
@@ -66,12 +270,19 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Which asset fits each situation?"},
+            "title": {
+              "en": "Which asset fits each situation?",
+              "ru": "Какой актив подходит к каждой ситуации?",
+              "kk": "Әр жағдайға қай актив сәйкес келеді?"
+            },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
               "en": {
                 "instruction": "Each investor has an expected return target. Decide whether prioritizing expected return or minimizing return variability matters more for their situation.",
-                "options": ["Maximize expected return", "Minimize variability"],
+                "options": [
+                  "Maximize expected return",
+                  "Minimize variability"
+                ],
                 "scenarios": [
                   {
                     "text": "Arman is 28, invests for retirement in 35 years, and won't touch the money until then.",
@@ -89,6 +300,54 @@
                     "explanation": "Payroll is a fixed obligation on a fixed date. This money cannot afford any loss. Expected return is irrelevant — capital certainty is the only goal."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "У каждого инвестора есть цель по ожидаемой доходности. Решите, что для его ситуации важнее: максимизировать ожидаемую доходность или снизить разброс результатов.",
+                "options": [
+                  "Максимизировать ожидаемую доходность",
+                  "Минимизировать изменчивость"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Арману 28 лет, он инвестирует на пенсию через 35 лет и не будет трогать эти деньги до этого срока.",
+                    "correct_answer": "Максимизировать ожидаемую доходность",
+                    "explanation": "При горизонте 35 лет краткосрочные колебания почти не важны. Более высокая ожидаемая доходность, даже с высокой изменчивостью, за такой срок создаёт намного больше капитала."
+                  },
+                  {
+                    "text": "Гульшат выходит на пенсию через 8 месяцев, и со следующего года портфель должен покрывать её расходы на жизнь.",
+                    "correct_answer": "Минимизировать изменчивость",
+                    "explanation": "Если вывод средств начнётся уже через несколько месяцев, сильную просадку сейчас будет невозможно восстановить. Сохранение капитала важнее, чем попытка получить дополнительную ожидаемую доходность."
+                  },
+                  {
+                    "text": "Компания держит резерв на 90 дней, чтобы платить зарплаты, если поступления от клиентов задержатся.",
+                    "correct_answer": "Минимизировать изменчивость",
+                    "explanation": "Зарплата — фиксированное обязательство на конкретную дату. Эти деньги не могут позволить себе убыток. Ожидаемая доходность здесь не важна — цель только в надёжности капитала."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр инвестордың күтілетін табыс мақсаты бар. Оның жағдайында күтілетін табысты арттыру маңызды ма, әлде нәтиженің құбылуын азайту маңызды ма — соны таңдаңыз.",
+                "options": [
+                  "Күтілетін табыстылықты барынша арттыру",
+                  "Өзгергіштікті азайту"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Арман 28 жаста, 35 жылдан кейінгі зейнетке инвестиция салады және сол уақытқа дейін бұл ақшаны қозғамайды.",
+                    "correct_answer": "Күтілетін табыстылықты барынша арттыру",
+                    "explanation": "35 жылдық көкжиекте қысқа мерзімді ауытқулар маңызды емес. Жоғары өзгергіштік болса да, жоғары күтілетін табыстылық бұл мерзімде әлдеқайда көп капитал қалыптастырады."
+                  },
+                  {
+                    "text": "Гүлшат 8 айдан кейін зейнетке шығады және келесі жылдан бастап өмір сүру шығындарын портфелінен төлеуі керек.",
+                    "correct_answer": "Өзгергіштікті азайту",
+                    "explanation": "Ақша бірнеше айдан кейін шығарыла бастаса, қазіргі үлкен просадканы қалпына келтіруге уақыт болмайды. Қосымша табыс іздегеннен гөрі капиталды сақтау маңызды."
+                  },
+                  {
+                    "text": "Компания дебиторлық төлемдер кешіксе, жалақы төлеу үшін 90 күндік резерв ұстайды.",
+                    "correct_answer": "Өзгергіштікті азайту",
+                    "explanation": "Жалақы — нақты күндегі міндетті төлем. Бұл ақша шығынға ұшырамауы керек. Күтілетін табыс маңызды емес — басты мақсат капиталдың сақталуы."
+                  }
+                ]
               }
             }
           },
@@ -96,39 +355,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Expected return is a starting point, not an answer"},
-            "body": {"en": "Every return estimate carries a range of outcomes around it. A higher expected return almost always comes with a wider range — more upside, but more downside too. This is not a flaw in markets; it is their core mechanic. The next concept, volatility, gives that range a precise shape."},
-            "tip": {"en": "Before accepting an expected return figure, ask: 'What is the worst realistic outcome within this range, and can I absorb it?'"}
+            "title": {
+              "en": "Expected return is a starting point, not an answer",
+              "ru": "Ожидаемая доходность — это отправная точка, а не готовый ответ",
+              "kk": "Күтілетін табыстылық — жауап емес, бастапқы нүкте"
+            },
+            "body": {
+              "en": "Every return estimate carries a range of outcomes around it. A higher expected return almost always comes with a wider range — more upside, but more downside too. This is not a flaw in markets; it is their core mechanic. The next concept, volatility, gives that range a precise shape.",
+              "ru": "Любая оценка доходности имеет вокруг себя диапазон возможных исходов. Более высокая ожидаемая доходность почти всегда означает более широкий диапазон: больше потенциал роста, но и больше падение. Это не недостаток рынков, а их базовый механизм. Следующее понятие — волатильность — придаёт этому диапазону точную форму.",
+              "kk": "Әр табыстылық бағасының айналасында нәтижелер диапазоны бар. Жоғары күтілетін табыс көбіне кеңірек диапазонмен келеді: өсу мүмкіндігі де көп, құлдырау қаупі де көп. Бұл нарықтың кемшілігі емес, негізгі механикасы. Келесі ұғым — құбылмалылық — осы диапазонға нақты пішін береді."
+            },
+            "tip": {
+              "en": "Before accepting an expected return figure, ask: 'What is the worst realistic outcome within this range, and can I absorb it?'",
+              "ru": "Прежде чем принять оценку ожидаемой доходности, спросите: «Какой худший реалистичный исход в этом диапазоне, и могу ли я его выдержать?»",
+              "kk": "Күтілетін табыстылық санын қабылдамас бұрын: «Бұл диапазондағы ең нашар шынайы нәтиже қандай және мен оны көтере аламын ба?» деп сұраңыз."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1201,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Expected Return — Check"},
+        "title": {
+          "en": "Expected Return — Check",
+          "ru": "Ожидаемая доходность — проверка",
+          "kk": "Күтілетін табыстылық — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "An equity fund averaged 14%/year for the past 8 years. A new investor plans to hold for 2 years. What is the most important caveat about using 14% as her expected return?"},
+            "question_text": {
+              "en": "An equity fund averaged 14%/year for the past 8 years. A new investor plans to hold for 2 years. What is the most important caveat about using 14% as her expected return?",
+              "ru": "Фонд акций в среднем приносил 14% в год за последние 8 лет. Новый инвестор планирует держать его 2 года. Какое главное ограничение есть у использования 14% как ожидаемой доходности?",
+              "kk": "Акциялар қоры соңғы 8 жылда орта есеппен жылына 14% берді. Жаңа инвестор оны 2 жыл ұстауды жоспарлайды. 14%-ды күтілетін табыстылық ретінде қолданудағы ең маңызды ескерту қандай?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Past averages are backward-looking; actual return over any 2-year window could be far higher or lower"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "14% is only valid for investors who held for the full 8 years"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Expected return figures are legally required to be conservative, so the real return will be higher"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "A 2-year horizon is too short to have any expected return"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Past averages are backward-looking; actual return over any 2-year window could be far higher or lower",
+                  "ru": "Прошлые средние значения смотрят назад; фактическая доходность за любой двухлетний период может быть намного выше или ниже",
+                  "kk": "Өткен орташа мәндер өткенге қарайды; кез келген 2 жылдық кезеңдегі нақты табыс әлдеқайда жоғары немесе төмен болуы мүмкін"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "14% is only valid for investors who held for the full 8 years",
+                  "ru": "14% применимы только к инвесторам, которые держали актив все 8 лет",
+                  "kk": "14% тек толық 8 жыл ұстаған инвесторларға ғана қатысты"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Expected return figures are legally required to be conservative, so the real return will be higher",
+                  "ru": "По закону оценки ожидаемой доходности обязаны быть консервативными, поэтому реальная доходность будет выше",
+                  "kk": "Күтілетін табыстылық көрсеткіштері заң бойынша консервативті болуы тиіс, сондықтан нақты табыс жоғары болады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A 2-year horizon is too short to have any expected return",
+                  "ru": "Горизонт 2 года слишком короткий, чтобы иметь какую-либо ожидаемую доходность",
+                  "kk": "2 жылдық көкжиек кез келген күтілетін табыстылық үшін тым қысқа"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Asset X has a 70% chance of returning +20% and a 30% chance of returning −10%. What is its expected return?"},
+            "question_text": {
+              "en": "Asset X has a 70% chance of returning +20% and a 30% chance of returning −10%. What is its expected return?",
+              "ru": "У актива X есть 70% шанс дать +20% и 30% шанс дать −10%. Какова его ожидаемая доходность?",
+              "kk": "X активінің +20% нәтиже беру ықтималдығы 70%, ал −10% нәтиже беру ықтималдығы 30%. Оның күтілетін табыстылығы қандай?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "11% — (0.7 × 20%) + (0.3 × −10%)"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "5% — the midpoint between +20% and −10%"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "20% — the most likely outcome"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "14% — the average of the two outcomes"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "11% — (0.7 × 20%) + (0.3 × −10%)",
+                  "ru": "11% — (0.7 × 20%) + (0.3 × −10%)",
+                  "kk": "11% — (0.7 × 20%) + (0.3 × −10%)"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "5% — the midpoint between +20% and −10%",
+                  "ru": "5% — середина между +20% и −10%",
+                  "kk": "5% — +20% пен −10% арасындағы орта нүкте"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "20% — the most likely outcome",
+                  "ru": "20% — наиболее вероятный исход",
+                  "kk": "20% — ең ықтимал нәтиже"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "14% — the average of the two outcomes",
+                  "ru": "14% — среднее двух исходов",
+                  "kk": "14% — екі нәтиженің орташа мәні"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -136,8 +491,16 @@
     },
     {
       "code": "volatility",
-      "title": {"en": "Volatility"},
-      "description": {"en": "Volatility measures how much returns scatter around their average. High volatility is not inherently bad — it depends entirely on your horizon and need for capital."},
+      "title": {
+        "en": "Volatility",
+        "ru": "Волатильность",
+        "kk": "Құбылмалылық"
+      },
+      "description": {
+        "en": "Volatility measures how much returns scatter around their average. High volatility is not inherently bad — it depends entirely on your horizon and need for capital.",
+        "ru": "Волатильность показывает, насколько доходности разбросаны вокруг среднего значения. Высокая волатильность не является плохой сама по себе — всё зависит от вашего горизонта и потребности в капитале.",
+        "kk": "Құбылмалылық табыстылықтың орташа мәннен қаншалықты ауытқитынын өлшейді. Жоғары құбылмалылық өздігінен жаман емес — бәрі сіздің уақыт көкжиегіңізге және капиталға қажеттілігіңізге байланысты."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 1,
       "quizId": 1202,
@@ -147,44 +510,229 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "Volatility is not loss — it is uncertainty"},
-            "body": {"en": "Most people hear 'volatile' and think 'dangerous.' But volatility just means returns vary widely from year to year. A stock that swings between +40% and −25% is highly volatile. Whether that volatility hurts you depends entirely on whether you need to sell during a down year."},
-            "tip": {"en": "Volatility only converts into real loss when you are forced to sell. On paper, it is just noise."}
+            "title": {
+              "en": "Volatility is not loss — it is uncertainty",
+              "ru": "Волатильность — это не убыток, а неопределённость",
+              "kk": "Құбылмалылық — шығын емес, белгісіздік"
+            },
+            "body": {
+              "en": "Most people hear 'volatile' and think 'dangerous.' But volatility just means returns vary widely from year to year. A stock that swings between +40% and −25% is highly volatile. Whether that volatility hurts you depends entirely on whether you need to sell during a down year.",
+              "ru": "Многие слышат «волатильно» и думают «опасно». Но волатильность означает лишь, что доходность сильно меняется от года к году. Акция, которая колеблется между +40% и −25%, очень волатильна. Навредит ли это вам, полностью зависит от того, нужно ли вам продавать в год падения.",
+              "kk": "Көп адам «құбылмалы» дегенді «қауіпті» деп түсінеді. Бірақ құбылмалылық табыстардың жылдан жылға қатты өзгеретінін ғана білдіреді. +40% пен −25% арасында ауытқитын акция өте құбылмалы. Ол сізге зиян келтіре ме, жоқ па — бәрі төмен жылда сатуға мәжбүр боласыз ба, соған байланысты."
+            },
+            "tip": {
+              "en": "Volatility only converts into real loss when you are forced to sell. On paper, it is just noise.",
+              "ru": "Волатильность превращается в реальный убыток только тогда, когда вы вынуждены продавать. На бумаге это просто шум.",
+              "kk": "Құбылмалылық нақты шығынға тек сатуға мәжбүр болған кезде айналады. Қағаз жүзінде бұл тек шу."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Standard deviation: the measure of scatter"},
-            "body": {"en": "Volatility is formally measured as the standard deviation of returns. If an asset averages 10%/year with a standard deviation of 15%, roughly two-thirds of years fall between −5% and +25%. A wider standard deviation means less predictability. This is the statistical definition of risk in finance."},
-            "example": {"en": "Fund A: avg 10%, std dev 5% → most years between +5% and +15%. Fund B: avg 10%, std dev 20% → most years between −10% and +30%. Same average return, but Fund B's range makes planning far harder."}
+            "title": {
+              "en": "Standard deviation: the measure of scatter",
+              "ru": "Стандартное отклонение: мера разброса",
+              "kk": "Стандартты ауытқу: шашырау өлшемі"
+            },
+            "body": {
+              "en": "Volatility is formally measured as the standard deviation of returns. If an asset averages 10%/year with a standard deviation of 15%, roughly two-thirds of years fall between −5% and +25%. A wider standard deviation means less predictability. This is the statistical definition of risk in finance.",
+              "ru": "Формально волатильность измеряется стандартным отклонением доходности. Если актив в среднем даёт 10% в год при стандартном отклонении 15%, примерно две трети лет окажутся в диапазоне от −5% до +25%. Чем шире стандартное отклонение, тем ниже предсказуемость. Это статистическое определение риска в финансах.",
+              "kk": "Құбылмалылық формалды түрде табыстылықтың стандартты ауытқуы арқылы өлшенеді. Егер актив орта есеппен жылына 10% берсе және стандартты ауытқуы 15% болса, жылдардың шамамен үштен екісі −5% пен +25% аралығында болады. Стандартты ауытқу неғұрлым кең болса, болжамдылық соғұрлым төмен. Қаржыдағы тәуекелдің статистикалық анықтамасы осы."
+            },
+            "example": {
+              "en": "Fund A: avg 10%, std dev 5% → most years between +5% and +15%. Fund B: avg 10%, std dev 20% → most years between −10% and +30%. Same average return, but Fund B's range makes planning far harder.",
+              "ru": "Фонд A: среднее 10%, стандартное отклонение 5% → большинство лет между +5% и +15%. Фонд B: среднее 10%, стандартное отклонение 20% → большинство лет между −10% и +30%. Средняя доходность одинаковая, но диапазон фонда B делает планирование намного сложнее.",
+              "kk": "Қор A: орташа 10%, стандартты ауытқу 5% → көп жылдар +5% пен +15% аралығында. Қор B: орташа 10%, стандартты ауытқу 20% → көп жылдар −10% пен +30% аралығында. Орташа табыс бірдей, бірақ B қорының диапазоны жоспарлауды әлдеқайда қиындатады."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Why volatility increases for higher expected returns"},
-            "body": {"en": "In liquid markets, investors demand higher expected returns to compensate for uncertainty. If an asset were guaranteed to return 12%, every rational investor would buy it until the price rose and the return fell. Uncertainty is what allows high returns to persist — investors must be rewarded for tolerating it."},
-            "tip": {"en": "High volatility is the price of high expected return. There is no free lunch that delivers both consistently."}
+            "title": {
+              "en": "Why volatility increases for higher expected returns",
+              "ru": "Почему волатильность растёт вместе с ожидаемой доходностью",
+              "kk": "Неліктен жоғары күтілетін табыспен бірге құбылмалылық өседі"
+            },
+            "body": {
+              "en": "In liquid markets, investors demand higher expected returns to compensate for uncertainty. If an asset were guaranteed to return 12%, every rational investor would buy it until the price rose and the return fell. Uncertainty is what allows high returns to persist — investors must be rewarded for tolerating it.",
+              "ru": "На ликвидных рынках инвесторы требуют более высокой ожидаемой доходности как компенсацию за неопределённость. Если бы актив гарантированно приносил 12%, каждый рациональный инвестор покупал бы его, пока цена не выросла бы, а доходность не снизилась. Именно неопределённость позволяет высокой доходности сохраняться: инвесторы должны получать вознаграждение за её принятие.",
+              "kk": "Өтімді нарықтарда инвесторлар белгісіздік үшін жоғары күтілетін табыс талап етеді. Егер актив 12% табысты кепілдесе, барлық ұтымды инвесторлар оны сатып алып, бағасы өсіп, табысы төмендегенше сұраныс жасар еді. Жоғары табыстың сақталуына мүмкіндік беретін нәрсе — белгісіздік; инвесторлар оған төзгені үшін сыйақы алуы керек."
+            },
+            "tip": {
+              "en": "High volatility is the price of high expected return. There is no free lunch that delivers both consistently.",
+              "ru": "Высокая волатильность — это цена высокой ожидаемой доходности. Бесплатного варианта, который стабильно даёт и то и другое, не существует.",
+              "kk": "Жоғары құбылмалылық — жоғары күтілетін табыстың бағасы. Екеуін де тұрақты беретін тегін мүмкіндік жоқ."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "The volatility spectrum across asset classes"},
+            "title": {
+              "en": "The volatility spectrum across asset classes",
+              "ru": "Спектр волатильности по классам активов",
+              "kk": "Актив кластары бойынша құбылмалылық спектрі"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Approximate historical annual volatility (standard deviation) for major asset classes. These figures are global benchmarks; KZ-specific assets may differ."},
-                  {"type": "table", "rows": [
-                    ["Asset class", "Approx. avg return", "Approx. volatility", "Typical worst year"],
-                    ["Cash / deposits", "4–9%", "~1%", "Near 0%"],
-                    ["Government bonds", "5–8%", "5–8%", "−8% to −12%"],
-                    ["Diversified equities", "9–12%", "15–20%", "−30% to −50%"],
-                    ["Emerging market equities", "10–14%", "20–30%", "−50% to −70%"],
-                    ["Crypto (Bitcoin)", "~60–100%*", "70–100%", "−70% to −85%"]
-                  ]},
-                  {"type": "paragraph", "text": "* Crypto return estimates are highly uncertain. The key takeaway: higher expected return comes with materially higher volatility and much larger potential drawdowns."}
+                  {
+                    "type": "paragraph",
+                    "text": "Approximate historical annual volatility (standard deviation) for major asset classes. These figures are global benchmarks; KZ-specific assets may differ."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Asset class",
+                        "Approx. avg return",
+                        "Approx. volatility",
+                        "Typical worst year"
+                      ],
+                      [
+                        "Cash / deposits",
+                        "4–9%",
+                        "~1%",
+                        "Near 0%"
+                      ],
+                      [
+                        "Government bonds",
+                        "5–8%",
+                        "5–8%",
+                        "−8% to −12%"
+                      ],
+                      [
+                        "Diversified equities",
+                        "9–12%",
+                        "15–20%",
+                        "−30% to −50%"
+                      ],
+                      [
+                        "Emerging market equities",
+                        "10–14%",
+                        "20–30%",
+                        "−50% to −70%"
+                      ],
+                      [
+                        "Crypto (Bitcoin)",
+                        "~60–100%*",
+                        "70–100%",
+                        "−70% to −85%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "* Crypto return estimates are highly uncertain. The key takeaway: higher expected return comes with materially higher volatility and much larger potential drawdowns."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Примерная историческая годовая волатильность (стандартное отклонение) для основных классов активов. Это глобальные ориентиры; активы Казахстана могут отличаться."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Класс актива",
+                        "Примерная средняя доходность",
+                        "Примерная волатильность",
+                        "Типичный худший год"
+                      ],
+                      [
+                        "Наличные / депозиты",
+                        "4–9%",
+                        "~1%",
+                        "Near 0%"
+                      ],
+                      [
+                        "Государственные облигации",
+                        "5–8%",
+                        "5–8%",
+                        "−8% to −12%"
+                      ],
+                      [
+                        "Диверсифицированные акции",
+                        "9–12%",
+                        "15–20%",
+                        "−30% to −50%"
+                      ],
+                      [
+                        "Акции развивающихся рынков",
+                        "10–14%",
+                        "20–30%",
+                        "−50% to −70%"
+                      ],
+                      [
+                        "Крипто (Bitcoin)",
+                        "~60–100%*",
+                        "70–100%",
+                        "−70% to −85%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "* Оценки доходности криптоактивов крайне неопределённы. Главный вывод: более высокая ожидаемая доходность сопровождается заметно более высокой волатильностью и намного большими возможными просадками."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Негізгі актив кластары үшін шамамен тарихи жылдық құбылмалылық (стандартты ауытқу). Бұл жаһандық бағдарлар; Қазақстанға тән активтер өзгеше болуы мүмкін."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Актив класы",
+                        "Шамамен орташа табыстылық",
+                        "Шамамен құбылмалылық",
+                        "Әдеттегі ең нашар жыл"
+                      ],
+                      [
+                        "Қолма-қол ақша / депозиттер",
+                        "4–9%",
+                        "~1%",
+                        "Near 0%"
+                      ],
+                      [
+                        "Мемлекеттік облигациялар",
+                        "5–8%",
+                        "5–8%",
+                        "−8% to −12%"
+                      ],
+                      [
+                        "Диверсификацияланған акциялар",
+                        "9–12%",
+                        "15–20%",
+                        "−30% to −50%"
+                      ],
+                      [
+                        "Дамушы нарық акциялары",
+                        "10–14%",
+                        "20–30%",
+                        "−50% to −70%"
+                      ],
+                      [
+                        "Крипто (Bitcoin)",
+                        "~60–100%*",
+                        "70–100%",
+                        "−70% to −85%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "* Крипто табыстылығының бағалары өте белгісіз. Негізгі ой: жоғары күтілетін табыс айтарлықтай жоғары құбылмалылықпен және әлдеқайда үлкен ықтимал просадкалармен келеді."
+                  }
                 ]
               }
             }
@@ -193,12 +741,19 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "High volatility: helpful or harmful?"},
+            "title": {
+              "en": "High volatility: helpful or harmful?",
+              "ru": "Высокая волатильность: полезна или вредна?",
+              "kk": "Жоғары құбылмалылық: пайдалы ма, зиянды ма?"
+            },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
               "en": {
                 "instruction": "For each investor, decide whether high volatility in their portfolio is acceptable or genuinely harmful to their financial goals.",
-                "options": ["Acceptable", "Genuinely harmful"],
+                "options": [
+                  "Acceptable",
+                  "Genuinely harmful"
+                ],
                 "scenarios": [
                   {
                     "text": "Dias is 30 and investing 40,000 ₸/month into an equity index fund for retirement at 60. He never plans to touch it early.",
@@ -216,6 +771,54 @@
                     "explanation": "Obligations are fixed and imminent. Any volatility in the portfolio directly threatens the ability to meet payments — sequence risk is immediate, not theoretical."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Для каждого инвестора решите, приемлема ли высокая волатильность портфеля или она действительно вредна для его финансовых целей.",
+                "options": [
+                  "Приемлемо",
+                  "Действительно вредно"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Диасу 30 лет, он инвестирует 40,000 ₸ в месяц в индексный фонд акций на пенсию в 60 лет. Он не планирует трогать эти деньги раньше.",
+                    "correct_answer": "Приемлемо",
+                    "explanation": "Горизонт 30 лет легко поглощает волатильность. Годы отрицательной доходности успеют восстановиться, а цель — высокая ожидаемая доходность акций. Волатильность здесь — несущественный шум."
+                  },
+                  {
+                    "text": "Весь резервный фонд Айнур в размере 5,000,000 ₸ находится в высоковолатильном ETF.",
+                    "correct_answer": "Действительно вредно",
+                    "explanation": "Резервный фонд должен быть доступен сразу и в полной стоимости. Просадка на 30% именно в момент, когда деньги нужны, превращает вопрос ликвидности в постоянный убыток."
+                  },
+                  {
+                    "text": "Пенсионный фонд должен в следующем месяце выплатить фиксированные ежемесячные выплаты 10,000 пенсионерам из своего портфеля.",
+                    "correct_answer": "Действительно вредно",
+                    "explanation": "Обязательства фиксированы и близки по сроку. Любая волатильность портфеля напрямую угрожает способности выполнить выплаты — риск последовательности здесь немедленный, а не теоретический."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр инвестор үшін портфельдегі жоғары құбылмалылық қабылдауға бола ма, әлде қаржылық мақсаттарына нақты зиянды ма — соны анықтаңыз.",
+                "options": [
+                  "Қабылдауға болады",
+                  "Нақты зиянды"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Диас 30 жаста және 60 жастағы зейнетке шығу үшін айына 40,000 ₸ акция индекс қорына салады. Ол бұл ақшаны ерте қозғамайды.",
+                    "correct_answer": "Қабылдауға болады",
+                    "explanation": "30 жылдық көкжиек құбылмалылықты оңай сіңіреді. Теріс табыс жылдары қалпына келеді, ал акциялардан жоғары күтілетін табыс — мақсат. Мұнда құбылмалылық маңызды емес шу ғана."
+                  },
+                  {
+                    "text": "Айнұрдың 5,000,000 ₸ төтенше қоры толықтай жоғары құбылмалы ETF-те тұр.",
+                    "correct_answer": "Нақты зиянды",
+                    "explanation": "Төтенше қор толық құнымен дереу қолжетімді болуы керек. Ақша керек кезде 30% просадка болса, өтімділік мәселесі тұрақты шығынға айналады."
+                  },
+                  {
+                    "text": "Зейнетақы қоры келесі айда портфелінен 10,000 зейнеткерге белгіленген ай сайынғы төлемдерді төлеуі керек.",
+                    "correct_answer": "Нақты зиянды",
+                    "explanation": "Міндеттемелер нақты және жақын. Портфельдегі кез келген құбылмалылық төлемдерді орындау қабілетіне тікелей қауіп төндіреді — реттілік тәуекелі мұнда теориялық емес, дереу."
+                  }
+                ]
               }
             }
           },
@@ -223,39 +826,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Volatility is contextual, not absolute"},
-            "body": {"en": "Volatility is not good or bad in isolation — it is appropriate or inappropriate for a given investor's horizon and obligations. Matching volatility to context is what risk categories are designed to help with. The next step is understanding the full taxonomy of risks that investors actually face."},
-            "tip": {"en": "When someone says an investment is 'risky,' ask: risky for whom, over what period, and relative to what alternative?"}
+            "title": {
+              "en": "Volatility is contextual, not absolute",
+              "ru": "Волатильность зависит от контекста, а не является абсолютной",
+              "kk": "Құбылмалылық абсолютті емес, контекстке тәуелді"
+            },
+            "body": {
+              "en": "Volatility is not good or bad in isolation — it is appropriate or inappropriate for a given investor's horizon and obligations. Matching volatility to context is what risk categories are designed to help with. The next step is understanding the full taxonomy of risks that investors actually face.",
+              "ru": "Волатильность сама по себе не хороша и не плоха — она подходит или не подходит конкретному горизонту и обязательствам инвестора. Категории риска помогают сопоставить волатильность с контекстом. Следующий шаг — понять полную систему рисков, с которыми сталкиваются инвесторы.",
+              "kk": "Құбылмалылық жеке алғанда жақсы да, жаман да емес — ол белгілі бір инвестордың көкжиегі мен міндеттемелеріне сай немесе сай емес. Тәуекел санаттары құбылмалылықты контекстке сәйкестендіруге көмектеседі. Келесі қадам — инвесторлар кездесетін тәуекелдердің толық жүйесін түсіну."
+            },
+            "tip": {
+              "en": "When someone says an investment is 'risky,' ask: risky for whom, over what period, and relative to what alternative?",
+              "ru": "Когда кто-то говорит, что инвестиция «рискованная», спросите: рискованная для кого, на каком сроке и по сравнению с какой альтернативой?",
+              "kk": "Біреу инвестицияны «тәуекелді» десе, сұраңыз: кім үшін, қай мерзімде және қандай баламамен салыстырғанда тәуекелді?"
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1202,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Volatility — Check"},
+        "title": {
+          "en": "Volatility — Check",
+          "ru": "Волатильность — проверка",
+          "kk": "Құбылмалылық — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "Two funds both average 9%/year. Fund A has a standard deviation of 4%; Fund B has 22%. An investor with a 25-year horizon and no near-term withdrawal needs should prefer which, and why?"},
+            "question_text": {
+              "en": "Two funds both average 9%/year. Fund A has a standard deviation of 4%; Fund B has 22%. An investor with a 25-year horizon and no near-term withdrawal needs should prefer which, and why?",
+              "ru": "Два фонда в среднем дают 9% в год. У фонда A стандартное отклонение 4%, у фонда B — 22%. Какой фонд должен предпочесть инвестор с горизонтом 25 лет и без ближайших потребностей в выводе средств, и почему?",
+              "kk": "Екі қор да орта есеппен жылына 9% береді. A қорының стандартты ауытқуы 4%, B қорыныкі 22%. 25 жылдық көкжиегі бар және жақын арада ақша шығаруды қажет етпейтін инвестор қайсын таңдауы керек және неге?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Either could be appropriate — on a 25-year horizon, higher volatility is tolerable if it offers better long-run return prospects"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Fund A — lower volatility is always preferable regardless of horizon"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Fund B — higher volatility always means higher eventual return"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Fund A — standard deviation above 10% makes an investment legally unsuitable for individuals"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Either could be appropriate — on a 25-year horizon, higher volatility is tolerable if it offers better long-run return prospects",
+                  "ru": "Подойти может любой — на горизонте 25 лет более высокая волатильность терпима, если она даёт лучшие долгосрочные перспективы доходности",
+                  "kk": "Екеуі де сәйкес болуы мүмкін — 25 жылдық көкжиекте жоғары құбылмалылық ұзақ мерзімді табыс перспективасы жақсы болса, төзуге болады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Fund A — lower volatility is always preferable regardless of horizon",
+                  "ru": "Фонд A — более низкая волатильность всегда предпочтительнее независимо от горизонта",
+                  "kk": "A қоры — төмен құбылмалылық көкжиекке қарамастан әрқашан жақсы"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Fund B — higher volatility always means higher eventual return",
+                  "ru": "Фонд B — более высокая волатильность всегда означает более высокую итоговую доходность",
+                  "kk": "B қоры — жоғары құбылмалылық әрқашан жоғары соңғы табыс деген сөз"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Fund A — standard deviation above 10% makes an investment legally unsuitable for individuals",
+                  "ru": "Фонд A — стандартное отклонение выше 10% юридически делает инвестицию неподходящей для физических лиц",
+                  "kk": "A қоры — стандартты ауытқу 10%-дан жоғары болса, инвестиция жеке тұлғаларға заң бойынша жарамсыз болады"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Why do markets persistently offer higher expected returns for more volatile assets?"},
+            "question_text": {
+              "en": "Why do markets persistently offer higher expected returns for more volatile assets?",
+              "ru": "Почему рынки устойчиво предлагают более высокую ожидаемую доходность за более волатильные активы?",
+              "kk": "Неліктен нарықтар құбылмалы активтерге тұрақты түрде жоғары күтілетін табыс ұсынады?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Investors must be compensated for tolerating uncertainty — if they weren't, prices would rise until the excess return disappeared"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Regulators set higher return mandates for volatile products to protect investors"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Volatile assets grow faster because their prices move more frequently"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Higher volatility reduces competition for the asset, allowing higher returns"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Investors must be compensated for tolerating uncertainty — if they weren't, prices would rise until the excess return disappeared",
+                  "ru": "Инвесторы должны получать компенсацию за принятие неопределённости; иначе цены выросли бы до тех пор, пока избыточная доходность не исчезла",
+                  "kk": "Инвесторлар белгісіздікке төзгені үшін өтемақы алуы керек; әйтпесе бағалар өсіп, артық табыс жоғалғанша жалғасар еді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Regulators set higher return mandates for volatile products to protect investors",
+                  "ru": "Регуляторы устанавливают более высокие обязательные доходности для волатильных продуктов, чтобы защитить инвесторов",
+                  "kk": "Реттеушілер инвесторларды қорғау үшін құбылмалы өнімдерге жоғары табыс талаптарын қояды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Volatile assets grow faster because their prices move more frequently",
+                  "ru": "Волатильные активы растут быстрее, потому что их цены меняются чаще",
+                  "kk": "Құбылмалы активтер тезірек өседі, себебі олардың бағасы жиірек қозғалады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Higher volatility reduces competition for the asset, allowing higher returns",
+                  "ru": "Более высокая волатильность снижает конкуренцию за актив и поэтому позволяет получать более высокую доходность",
+                  "kk": "Жоғары құбылмалылық активке бәсекені азайтып, жоғары табыс алуға мүмкіндік береді"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -263,8 +962,16 @@
     },
     {
       "code": "risk_categories",
-      "title": {"en": "Risk Categories"},
-      "description": {"en": "Volatility is one risk among many. Market, credit, liquidity, inflation, and concentration risk each threaten your portfolio in different ways and require different defenses."},
+      "title": {
+        "en": "Risk Categories",
+        "ru": "Категории риска",
+        "kk": "Тәуекел санаттары"
+      },
+      "description": {
+        "en": "Volatility is one risk among many. Market, credit, liquidity, inflation, and concentration risk each threaten your portfolio in different ways and require different defenses.",
+        "ru": "Volatility is one risk among many. Market, credit, liquidity, inflation, and concentration risk each threaten your portfolio in different ways and require different defenses.",
+        "kk": "Volatility is one risk among many. Market, credit, liquidity, inflation, and concentration risk each threaten your portfolio in different ways and require different defenses."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 2,
       "quizId": 1203,
@@ -274,42 +981,193 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "Risk is not one thing"},
-            "body": {"en": "Most investors think of risk as 'the price might fall.' But a portfolio can be destroyed by a company defaulting on its bonds, by being unable to sell an asset when needed, or by inflation quietly eating returns. Each risk type has a different cause, behaves differently, and requires a different response."},
-            "tip": {"en": "For each investment you hold, ask: what specifically could go wrong, and is that the kind of risk I am prepared to absorb?"}
+            "title": {
+              "en": "Risk is not one thing",
+              "ru": "Риск — это не что-то одно",
+              "kk": "Тәуекел бір ғана нәрсе емес"
+            },
+            "body": {
+              "en": "Most investors think of risk as 'the price might fall.' But a portfolio can be destroyed by a company defaulting on its bonds, by being unable to sell an asset when needed, or by inflation quietly eating returns. Each risk type has a different cause, behaves differently, and requires a different response.",
+              "ru": "Большинство инвесторов думают о риске как о ситуации, когда «цена может упасть». Но портфель может пострадать и от дефолта компании по облигациям, и от невозможности продать актив в нужный момент, и от инфляции, которая незаметно съедает доходность. У каждого типа риска своя причина, своё поведение и свой способ защиты.",
+              "kk": "Көп инвестор тәуекелді «баға түсіп кетуі мүмкін» деп түсінеді. Бірақ портфельді компанияның облигациялары бойынша дефолты, активті керек кезде сата алмау немесе инфляцияның табысты үнсіз жеп қоюы да бұзуы мүмкін. Әр тәуекел түрінің себебі, мінез-құлқы және оған жауап беру тәсілі бөлек."
+            },
+            "tip": {
+              "en": "For each investment you hold, ask: what specifically could go wrong, and is that the kind of risk I am prepared to absorb?",
+              "ru": "По каждой инвестиции в портфеле спрашивайте: что именно может пойти не так, и готов ли я принять именно этот тип риска?",
+              "kk": "Портфельдегі әр инвестиция бойынша сұраңыз: нақты не дұрыс болмай қалуы мүмкін және мен дәл осы тәуекелді көтеруге дайынмын ба?"
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Market, credit, and liquidity risk"},
-            "body": {"en": "Market risk is the broad movement of asset prices — a recession hits all stocks. Credit risk is the chance a borrower defaults — a bond issuer stops paying. Liquidity risk is being unable to sell an asset at a fair price when needed — a niche real estate fund with a 90-day redemption queue. These three are the most common sources of loss."},
-            "example": {"en": "2008: all three struck together. Stock markets fell 40–50% (market risk), banks stopped paying on mortgage-backed bonds (credit risk), and many funds froze redemptions (liquidity risk). Each required a different recovery path."}
+            "title": {
+              "en": "Market, credit, and liquidity risk",
+              "ru": "Market, credit, and liquidity risk",
+              "kk": "Market, credit, and liquidity risk"
+            },
+            "body": {
+              "en": "Market risk is the broad movement of asset prices — a recession hits all stocks. Credit risk is the chance a borrower defaults — a bond issuer stops paying. Liquidity risk is being unable to sell an asset at a fair price when needed — a niche real estate fund with a 90-day redemption queue. These three are the most common sources of loss.",
+              "ru": "Рыночный риск — это широкое движение цен активов: рецессия бьёт по всем акциям. Кредитный риск — вероятность дефолта заёмщика: эмитент облигаций прекращает выплаты. Риск ликвидности — невозможность продать актив по справедливой цене, когда это нужно: например, узкий фонд недвижимости с очередью на погашение 90 дней. Эти три риска чаще всего приводят к потерям.",
+              "kk": "Нарықтық тәуекел — актив бағаларының кең қозғалысы: рецессия барлық акцияларға әсер етеді. Кредиттік тәуекел — қарыз алушының дефолт жасау ықтималдығы: облигация эмитенті төлемді тоқтатады. Өтімділік тәуекелі — активті қажет кезде әділ бағамен сата алмау: мысалы, 90 күндік өтеу кезегі бар тар жылжымайтын мүлік қоры. Осы үшеуі шығынның ең жиі көздері."
+            },
+            "example": {
+              "en": "2008: all three struck together. Stock markets fell 40–50% (market risk), banks stopped paying on mortgage-backed bonds (credit risk), and many funds froze redemptions (liquidity risk). Each required a different recovery path.",
+              "ru": "2008 год: все три риска сработали одновременно. Фондовые рынки упали на 40–50% (рыночный риск), банки перестали платить по ипотечным облигациям (кредитный риск), а многие фонды заморозили погашения (риск ликвидности). Для каждого требовался свой путь восстановления.",
+              "kk": "2008 жылы үшеуі бірге соққы берді. Акция нарықтары 40–50% құлады (нарықтық тәуекел), банктер ипотекалық облигациялар бойынша төлемді тоқтатты (кредиттік тәуекел), көптеген қорлар өтеуді тоқтатты (өтімділік тәуекелі). Әрқайсысына бөлек қалпына келу жолы қажет болды."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Inflation risk and concentration risk"},
-            "body": {"en": "Inflation risk is the loss of purchasing power when your returns trail price increases — the slow drain covered earlier. Concentration risk is overexposure to a single company, sector, or geography. If 80% of your portfolio is in one stock, its collapse is your collapse, regardless of how well-diversified the remaining 20% is."},
-            "tip": {"en": "Concentration risk is the most avoidable risk — it requires no sophisticated hedging, just spreading capital across multiple positions."}
+            "title": {
+              "en": "Inflation risk and concentration risk",
+              "ru": "Inflation risk and concentration risk",
+              "kk": "Inflation risk and concentration risk"
+            },
+            "body": {
+              "en": "Inflation risk is the loss of purchasing power when your returns trail price increases — the slow drain covered earlier. Concentration risk is overexposure to a single company, sector, or geography. If 80% of your portfolio is in one stock, its collapse is your collapse, regardless of how well-diversified the remaining 20% is.",
+              "ru": "Инфляционный риск — это потеря покупательной способности, когда доходность отстаёт от роста цен; ранее мы называли это медленным истощением. Риск концентрации — чрезмерная доля одной компании, сектора или страны. Если 80% портфеля вложено в одну акцию, её обвал становится вашим обвалом, даже если оставшиеся 20% хорошо диверсифицированы.",
+              "kk": "Инфляциялық тәуекел — табыстылық бағаның өсуінен артта қалғанда сатып алу қабілетінің жоғалуы. Бұл бұрын айтылған баяу азаю. Шоғырлану тәуекелі — бір компанияға, секторға немесе географияға тым көп тәуелді болу. Егер портфельдің 80%-ы бір акцияда болса, сол акцияның құлауы — сіздің құлауыңыз, қалған 20% қаншалықты диверсификацияланғанына қарамастан."
+            },
+            "tip": {
+              "en": "Concentration risk is the most avoidable risk — it requires no sophisticated hedging, just spreading capital across multiple positions.",
+              "ru": "Риск концентрации — самый предотвратимый риск: для него не нужен сложный хедж, достаточно распределить капитал между несколькими позициями.",
+              "kk": "Шоғырлану тәуекелі — ең оңай алдын алуға болатын тәуекел: күрделі хедж керек емес, капиталды бірнеше позицияға бөлу жеткілікті."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Same loss, different risk type — different lesson"},
+            "title": {
+              "en": "Same loss, different risk type — different lesson",
+              "ru": "Одинаковая потеря, разный тип риска — разный урок",
+              "kk": "Бірдей шығын, тәуекел түрі әртүрлі — сабақ та әртүрлі"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Three investors each lost 40% of their portfolio in different scenarios. What risk caused each loss, and what would have prevented it?"},
-                  {"type": "table", "rows": [
-                    ["Investor", "What happened", "Risk type", "How to prevent"],
-                    ["Aliya", "Held only one telecom stock; it collapsed after fraud", "Concentration risk", "Diversify across companies"],
-                    ["Ruslan", "Bond issuer went bankrupt; received 20 cents per tenge", "Credit risk", "Check issuer credit rating; diversify bonds"],
-                    ["Sana", "Needed cash urgently; real estate fund had 6-month redemption lock", "Liquidity risk", "Match asset liquidity to cash-need timeline"]
-                  ]},
-                  {"type": "paragraph", "text": "Each loss had a specific, identifiable cause — and a specific prevention. Recognizing risk type before investing allows targeted mitigation, not just vague caution."}
+                  {
+                    "type": "paragraph",
+                    "text": "Three investors each lost 40% of their portfolio in different scenarios. What risk caused each loss, and what would have prevented it?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Investor",
+                        "What happened",
+                        "Risk type",
+                        "How to prevent"
+                      ],
+                      [
+                        "Aliya",
+                        "Held only one telecom stock; it collapsed after fraud",
+                        "Concentration risk",
+                        "Diversify across companies"
+                      ],
+                      [
+                        "Ruslan",
+                        "Bond issuer went bankrupt; received 20 cents per tenge",
+                        "Credit risk",
+                        "Check issuer credit rating; diversify bonds"
+                      ],
+                      [
+                        "Sana",
+                        "Needed cash urgently; real estate fund had 6-month redemption lock",
+                        "Liquidity risk",
+                        "Match asset liquidity to cash-need timeline"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Each loss had a specific, identifiable cause — and a specific prevention. Recognizing risk type before investing allows targeted mitigation, not just vague caution."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Три инвестора потеряли по 40% портфеля в разных ситуациях. Какой риск вызвал каждую потерю и что могло её предотвратить?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Investor",
+                        "What happened",
+                        "Risk type",
+                        "How to prevent"
+                      ],
+                      [
+                        "Aliya",
+                        "Держала только одну телеком-акцию; она обвалилась после мошенничества",
+                        "Риск концентрации",
+                        "Diversify across companies"
+                      ],
+                      [
+                        "Ruslan",
+                        "Эмитент облигаций обанкротился; инвестор получил 20 тиынов на тенге",
+                        "Кредитный риск",
+                        "Проверять кредитный рейтинг эмитента; диверсифицировать облигации"
+                      ],
+                      [
+                        "Sana",
+                        "Срочно понадобились деньги; фонд недвижимости имел 6-месячную блокировку вывода",
+                        "Риск ликвидности",
+                        "Сопоставлять ликвидность актива со сроком потребности в деньгах"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "У каждой потери была конкретная и распознаваемая причина — и конкретная профилактика. Если определить тип риска до инвестирования, можно применять точные меры снижения риска, а не просто «быть осторожным»."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Үш инвестор әртүрлі жағдайда портфелінің 40%-ын жоғалтты. Әр шығынды қандай тәуекел тудырды және оны не алдын алар еді?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Investor",
+                        "What happened",
+                        "Risk type",
+                        "How to prevent"
+                      ],
+                      [
+                        "Aliya",
+                        "Тек бір телеком акциясын ұстады; алаяқтықтан кейін ол құлады",
+                        "Шоғырлану тәуекелі",
+                        "Diversify across companies"
+                      ],
+                      [
+                        "Ruslan",
+                        "Облигация эмитенті банкрот болды; әр теңгеге 20 тиын алды",
+                        "Кредиттік тәуекел",
+                        "Эмитенттің кредиттік рейтингін тексеру; облигацияларды диверсификациялау"
+                      ],
+                      [
+                        "Sana",
+                        "Ақша шұғыл қажет болды; жылжымайтын мүлік қорында 6 айлық шығу шектеуі болды",
+                        "Өтімділік тәуекелі",
+                        "Актив өтімділігін ақша қажет болатын мерзіммен сәйкестендіру"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Әр шығынның нақты анықталатын себебі және нақты алдын алу жолы болды. Инвестиция алдында тәуекел түрін тану жай ғана сақтық емес, мақсатты түрде азайтуға мүмкіндік береді."
+                  }
                 ]
               }
             }
@@ -318,33 +1176,222 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Name the risk type"},
+            "title": {
+              "en": "Name the risk type",
+              "ru": "Name the risk type",
+              "kk": "Name the risk type"
+            },
             "interactiveType": "drag_drop",
             "interactiveContent": {
               "en": {
                 "instruction": "Drag each scenario to the risk type it best illustrates.",
                 "categories": [
-                  {"id": "market", "label": "Market risk"},
-                  {"id": "credit", "label": "Credit risk"},
-                  {"id": "liquidity", "label": "Liquidity risk"},
-                  {"id": "concentration", "label": "Concentration risk"},
-                  {"id": "inflation", "label": "Inflation risk"}
+                  {
+                    "id": "market",
+                    "label": "Market risk"
+                  },
+                  {
+                    "id": "credit",
+                    "label": "Credit risk"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Liquidity risk"
+                  },
+                  {
+                    "id": "concentration",
+                    "label": "Concentration risk"
+                  },
+                  {
+                    "id": "inflation",
+                    "label": "Inflation risk"
+                  }
                 ],
                 "items": [
-                  {"id": "recession", "text": "A global recession pushes all equity markets down 35%"},
-                  {"id": "default", "text": "A corporate bond issuer misses an interest payment and enters restructuring"},
-                  {"id": "lock", "text": "An investor cannot exit a private equity fund for 3 years due to lock-up terms"},
-                  {"id": "oneshare", "text": "70% of a portfolio sits in a single energy company"},
-                  {"id": "depositinflation", "text": "A deposit earns 6% but inflation runs at 10% for 5 consecutive years"}
+                  {
+                    "id": "recession",
+                    "text": "A global recession pushes all equity markets down 35%"
+                  },
+                  {
+                    "id": "default",
+                    "text": "A corporate bond issuer misses an interest payment and enters restructuring"
+                  },
+                  {
+                    "id": "lock",
+                    "text": "An investor cannot exit a private equity fund for 3 years due to lock-up terms"
+                  },
+                  {
+                    "id": "oneshare",
+                    "text": "70% of a portfolio sits in a single energy company"
+                  },
+                  {
+                    "id": "depositinflation",
+                    "text": "A deposit earns 6% but inflation runs at 10% for 5 consecutive years"
+                  }
                 ],
                 "answers": [
-                  {"itemId": "recession", "categoryId": "market"},
-                  {"itemId": "default", "categoryId": "credit"},
-                  {"itemId": "lock", "categoryId": "liquidity"},
-                  {"itemId": "oneshare", "categoryId": "concentration"},
-                  {"itemId": "depositinflation", "categoryId": "inflation"}
+                  {
+                    "itemId": "recession",
+                    "categoryId": "market"
+                  },
+                  {
+                    "itemId": "default",
+                    "categoryId": "credit"
+                  },
+                  {
+                    "itemId": "lock",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "oneshare",
+                    "categoryId": "concentration"
+                  },
+                  {
+                    "itemId": "depositinflation",
+                    "categoryId": "inflation"
+                  }
                 ],
                 "explanation": "Each risk type has a distinct mechanism: market risk is systemic price movement; credit risk is counterparty failure; liquidity risk is inability to exit; concentration risk is overexposure to one source of failure; inflation risk is purchasing power erosion."
+              },
+              "ru": {
+                "instruction": "Drag each scenario to the risk type it best illustrates.",
+                "categories": [
+                  {
+                    "id": "market",
+                    "label": "Рыночный риск"
+                  },
+                  {
+                    "id": "credit",
+                    "label": "Кредитный риск"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Риск ликвидности"
+                  },
+                  {
+                    "id": "concentration",
+                    "label": "Риск концентрации"
+                  },
+                  {
+                    "id": "inflation",
+                    "label": "Инфляционный риск"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "recession",
+                    "text": "A global recession pushes all equity markets down 35%"
+                  },
+                  {
+                    "id": "default",
+                    "text": "A corporate bond issuer misses an interest payment and enters restructuring"
+                  },
+                  {
+                    "id": "lock",
+                    "text": "Инвестор не может выйти из фонда private equity 3 года из-за условий блокировки"
+                  },
+                  {
+                    "id": "oneshare",
+                    "text": "70% of a portfolio sits in a single energy company"
+                  },
+                  {
+                    "id": "depositinflation",
+                    "text": "A deposit earns 6% but inflation runs at 10% for 5 consecutive years"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "recession",
+                    "categoryId": "market"
+                  },
+                  {
+                    "itemId": "default",
+                    "categoryId": "credit"
+                  },
+                  {
+                    "itemId": "lock",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "oneshare",
+                    "categoryId": "concentration"
+                  },
+                  {
+                    "itemId": "depositinflation",
+                    "categoryId": "inflation"
+                  }
+                ],
+                "explanation": "У каждого риска свой механизм: рыночный риск — системное движение цен; кредитный риск — отказ контрагента; риск ликвидности — невозможность выйти из актива; риск концентрации — чрезмерная зависимость от одного источника провала; инфляционный риск — потеря покупательной способности."
+              },
+              "kk": {
+                "instruction": "Drag each scenario to the risk type it best illustrates.",
+                "categories": [
+                  {
+                    "id": "market",
+                    "label": "Нарықтық тәуекел"
+                  },
+                  {
+                    "id": "credit",
+                    "label": "Кредиттік тәуекел"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Өтімділік тәуекелі"
+                  },
+                  {
+                    "id": "concentration",
+                    "label": "Шоғырлану тәуекелі"
+                  },
+                  {
+                    "id": "inflation",
+                    "label": "Инфляциялық тәуекел"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "recession",
+                    "text": "A global recession pushes all equity markets down 35%"
+                  },
+                  {
+                    "id": "default",
+                    "text": "A corporate bond issuer misses an interest payment and enters restructuring"
+                  },
+                  {
+                    "id": "lock",
+                    "text": "Инвестор lock-up шарттарына байланысты private equity қорынан 3 жыл шыға алмайды"
+                  },
+                  {
+                    "id": "oneshare",
+                    "text": "70% of a portfolio sits in a single energy company"
+                  },
+                  {
+                    "id": "depositinflation",
+                    "text": "A deposit earns 6% but inflation runs at 10% for 5 consecutive years"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "recession",
+                    "categoryId": "market"
+                  },
+                  {
+                    "itemId": "default",
+                    "categoryId": "credit"
+                  },
+                  {
+                    "itemId": "lock",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "oneshare",
+                    "categoryId": "concentration"
+                  },
+                  {
+                    "itemId": "depositinflation",
+                    "categoryId": "inflation"
+                  }
+                ],
+                "explanation": "Әр тәуекел түрінің механизмі бөлек: нарықтық тәуекел — жүйелік баға қозғалысы; кредиттік тәуекел — контрагенттің міндеттемені орындамауы; өтімділік тәуекелі — активтен шыға алмау; шоғырлану тәуекелі — бір сәтсіздік көзіне тым тәуелді болу; инфляциялық тәуекел — сатып алу қабілетінің әлсіреуі."
               }
             }
           },
@@ -352,39 +1399,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Risk management starts with naming the risk"},
-            "body": {"en": "You cannot defend against a risk you have not identified. Before any investment, name the specific risks it carries. Diversification addresses concentration and partial market risk. Liquidity matching addresses liquidity risk. Credit analysis addresses credit risk. Each has a specific tool. Risk tolerance is the personal calibration of how much of each you can accept."},
-            "tip": {"en": "A portfolio review question: 'Which of the five risk types is currently largest in my holdings, and is that intentional?'"}
+            "title": {
+              "en": "Risk management starts with naming the risk",
+              "ru": "Risk management starts with naming the risk",
+              "kk": "Risk management starts with naming the risk"
+            },
+            "body": {
+              "en": "You cannot defend against a risk you have not identified. Before any investment, name the specific risks it carries. Diversification addresses concentration and partial market risk. Liquidity matching addresses liquidity risk. Credit analysis addresses credit risk. Each has a specific tool. Risk tolerance is the personal calibration of how much of each you can accept.",
+              "ru": "You cannot defend against a risk you have not identified. Before any investment, name the specific risks it carries. Diversification addresses concentration and partial market risk. Liquidity matching addresses liquidity risk. Credit analysis addresses credit risk. Each has a specific tool. Risk tolerance is the personal calibration of how much of each you can accept.",
+              "kk": "You cannot defend against a risk you have not identified. Before any investment, name the specific risks it carries. Diversification addresses concentration and partial market risk. Liquidity matching addresses liquidity risk. Credit analysis addresses credit risk. Each has a specific tool. Risk tolerance is the personal calibration of how much of each you can accept."
+            },
+            "tip": {
+              "en": "A portfolio review question: 'Which of the five risk types is currently largest in my holdings, and is that intentional?'",
+              "ru": "Вопрос для проверки портфеля: «Какой из пяти типов риска сейчас самый большой в моих активах, и это сделано намеренно?»",
+              "kk": "Портфельді тексеру сұрағы: «Бес тәуекел түрінің қайсысы менің активтерімде қазір ең үлкен және бұл әдейі ме?»"
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1203,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Risk Categories — Check"},
+        "title": {
+          "en": "Risk Categories — Check",
+          "ru": "Категории риска — проверка",
+          "kk": "Тәуекел санаттары — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "An investor holds 5 bonds from different companies in the same sector. The sector enters a downturn and all 5 lose value simultaneously. Which risk types are most clearly at work?"},
+            "question_text": {
+              "en": "An investor holds 5 bonds from different companies in the same sector. The sector enters a downturn and all 5 lose value simultaneously. Which risk types are most clearly at work?",
+              "ru": "Инвестор держит 5 облигаций разных компаний из одного сектора. Сектор входит в спад, и все 5 облигаций одновременно теряют стоимость. Какие типы риска здесь проявились сильнее всего?",
+              "kk": "Инвестор бір сектордағы әртүрлі компаниялардың 5 облигациясын ұстайды. Сектор құлдырауға кіріп, бесеуі де бір уақытта құнын жоғалтады. Қай тәуекел түрлері ең анық көрінеді?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Market risk and concentration risk — sector-wide decline hits all holdings, and all are in the same segment"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Credit risk only — bond losses always mean the issuer is defaulting"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Liquidity risk — bonds in a declining sector cannot be sold"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Inflation risk — sector downturns are caused by rising prices"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Market risk and concentration risk — sector-wide decline hits all holdings, and all are in the same segment",
+                  "ru": "Рыночный риск и риск концентрации — спад всего сектора ударил по всем позициям, потому что они находятся в одном сегменте",
+                  "kk": "Нарықтық тәуекел және шоғырлану тәуекелі — секторлық құлдырау барлық позицияларға әсер етті, себебі бәрі бір сегментте"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Credit risk only — bond losses always mean the issuer is defaulting",
+                  "ru": "Только кредитный риск — убытки по облигациям всегда означают дефолт эмитента",
+                  "kk": "Тек кредиттік тәуекел — облигациядағы шығын әрқашан эмитент дефолтын білдіреді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Liquidity risk — bonds in a declining sector cannot be sold",
+                  "ru": "Риск ликвидности — облигации падающего сектора невозможно продать",
+                  "kk": "Өтімділік тәуекелі — құлдыраған сектордағы облигацияларды сату мүмкін емес"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Inflation risk — sector downturns are caused by rising prices",
+                  "ru": "Инфляционный риск — секторные спады вызваны ростом цен",
+                  "kk": "Инфляциялық тәуекел — секторлық құлдыраулар бағаның өсуінен болады"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Investor needs 2,000,000 ₸ in 30 days for a tax payment. She holds that sum in an illiquid private fund with a 60-day exit window. Which risk has she failed to manage?"},
+            "question_text": {
+              "en": "Investor needs 2,000,000 ₸ in 30 days for a tax payment. She holds that sum in an illiquid private fund with a 60-day exit window. Which risk has she failed to manage?",
+              "ru": "Инвестору нужно 2,000,000 ₸ через 30 дней для налогового платежа. Эта сумма находится в неликвидном частном фонде с 60-дневным окном выхода. Какой риск она не учла?",
+              "kk": "Инвесторға 30 күннен кейін салық төлеу үшін 2,000,000 ₸ керек. Ол бұл соманы шығу терезесі 60 күн болатын өтімсіз жеке қорда ұстайды. Ол қандай тәуекелді басқара алмады?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Liquidity risk — she cannot access her capital when obligated to pay"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Credit risk — private funds carry default risk"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Inflation risk — the fund return may trail inflation"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Concentration risk — all money is in one fund"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Liquidity risk — she cannot access her capital when obligated to pay",
+                  "ru": "Риск ликвидности — она не может получить капитал к сроку обязательного платежа",
+                  "kk": "Өтімділік тәуекелі — міндетті төлем уақыты келгенде капиталына қол жеткізе алмайды"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Credit risk — private funds carry default risk",
+                  "ru": "Кредитный риск — частные фонды несут риск дефолта",
+                  "kk": "Кредиттік тәуекел — жеке қорларда дефолт тәуекелі бар"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Inflation risk — the fund return may trail inflation",
+                  "ru": "Инфляционный риск — доходность фонда может отставать от инфляции",
+                  "kk": "Инфляциялық тәуекел — қор табысы инфляциядан қалып қоюы мүмкін"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Concentration risk — all money is in one fund",
+                  "ru": "Риск концентрации — все деньги находятся в одном фонде",
+                  "kk": "Шоғырлану тәуекелі — барлық ақша бір қорда"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -392,8 +1535,16 @@
     },
     {
       "code": "diversification",
-      "title": {"en": "Diversification"},
-      "description": {"en": "Spreading capital across uncorrelated assets reduces portfolio volatility without sacrificing expected return — the closest thing to a free lunch in investing."},
+      "title": {
+        "en": "Diversification",
+        "ru": "Диверсификация",
+        "kk": "Диверсификация"
+      },
+      "description": {
+        "en": "Spreading capital across uncorrelated assets reduces portfolio volatility without sacrificing expected return — the closest thing to a free lunch in investing.",
+        "ru": "Распределение капитала между некоррелирующими активами снижает волатильность портфеля без потери ожидаемой доходности — это почти «бесплатный обед» в инвестировании.",
+        "kk": "Капиталды бір-бірімен төмен корреляциялы активтерге бөлу күтілетін табысты төмендетпей портфель құбылмалылығын азайтады — инвестициядағы «тегін түскі асқа» ең жақын нәрсе."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 3,
       "quizId": 1204,
@@ -403,43 +1554,211 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "The only free lunch in finance"},
-            "body": {"en": "Adding more assets to a portfolio generally reduces its overall volatility — without reducing expected return — as long as the assets do not move perfectly in sync. This is diversification: a mathematical property, not a strategy preference. Nobel Prize-winning portfolio theory is built on this single insight."},
-            "tip": {"en": "Diversification does not eliminate risk. It eliminates the part of risk that is specific to individual assets — the part that is genuinely unnecessary to hold."}
+            "title": {
+              "en": "The only free lunch in finance",
+              "ru": "The only free lunch in finance",
+              "kk": "The only free lunch in finance"
+            },
+            "body": {
+              "en": "Adding more assets to a portfolio generally reduces its overall volatility — without reducing expected return — as long as the assets do not move perfectly in sync. This is diversification: a mathematical property, not a strategy preference. Nobel Prize-winning portfolio theory is built on this single insight.",
+              "ru": "Добавление активов в портфель обычно снижает его общую волатильность без снижения ожидаемой доходности, если активы не движутся полностью синхронно. Это диверсификация: математическое свойство, а не вопрос вкуса. Теория портфеля, отмеченная Нобелевской премией, построена на этой идее.",
+              "kk": "Портфельге көбірек актив қосу, егер олар толық синхронды қозғалмаса, жалпы құбылмалылықты төмендетеді және күтілетін табысты азайтпайды. Бұл — диверсификация: стратегия талғамы емес, математикалық қасиет. Нобель сыйлығын алған портфель теориясы осы бір түсінікке құрылған."
+            },
+            "tip": {
+              "en": "Diversification does not eliminate risk. It eliminates the part of risk that is specific to individual assets — the part that is genuinely unnecessary to hold.",
+              "ru": "Диверсификация не устраняет риск полностью. Она устраняет ту часть риска, которая связана с отдельными активами, — ту часть, которую действительно не обязательно держать.",
+              "kk": "Диверсификация тәуекелді толық жоймайды. Ол жеке активтерге тән тәуекел бөлігін — ұстау қажет емес бөлігін — жояды."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Correlation: the key variable"},
-            "body": {"en": "Two assets that move together (correlation = +1) provide no diversification benefit — when one falls, the other falls too. Two assets that move oppositely (correlation = −1) perfectly offset each other. Most assets fall somewhere between these extremes. Diversification works because most real-world assets are only partially correlated."},
-            "example": {"en": "Holding 10 stocks in the same sector gives weak diversification — sector downturns hit all at once. Holding equities + government bonds + real estate + foreign currency gives stronger diversification because their drivers of return differ."}
+            "title": {
+              "en": "Correlation: the key variable",
+              "ru": "Корреляция: ключевая переменная",
+              "kk": "Корреляция: негізгі айнымалы"
+            },
+            "body": {
+              "en": "Two assets that move together (correlation = +1) provide no diversification benefit — when one falls, the other falls too. Two assets that move oppositely (correlation = −1) perfectly offset each other. Most assets fall somewhere between these extremes. Diversification works because most real-world assets are only partially correlated.",
+              "ru": "Два актива, которые движутся вместе (корреляция = +1), не дают выгоды от диверсификации: когда падает один, падает и другой. Два актива, движущиеся противоположно (корреляция = −1), идеально компенсируют друг друга. Большинство активов находится между этими крайностями. Диверсификация работает потому, что реальные активы обычно коррелируют лишь частично.",
+              "kk": "Бірге қозғалатын екі актив (корреляция = +1) диверсификация пайдасын бермейді: бірі түссе, екіншісі де түседі. Қарама-қарсы қозғалатын екі актив (корреляция = −1) бірін-бірі толық өтейді. Көп актив осы екі шектің арасында. Диверсификация нақты әлемдегі активтердің көбіне тек ішінара корреляциялануына сүйенеді."
+            },
+            "example": {
+              "en": "Holding 10 stocks in the same sector gives weak diversification — sector downturns hit all at once. Holding equities + government bonds + real estate + foreign currency gives stronger diversification because their drivers of return differ.",
+              "ru": "10 акций из одного сектора дают слабую диверсификацию: спад сектора бьёт по всем сразу. Акции + государственные облигации + недвижимость + иностранная валюта дают более сильную диверсификацию, потому что источники их доходности различаются.",
+              "kk": "Бір сектордағы 10 акцияны ұстау әлсіз диверсификация береді: сектор құлдыраса, бәрі бірге зардап шегеді. Акциялар + мемлекеттік облигациялар + жылжымайтын мүлік + шетел валютасы күштірек диверсификация береді, себебі олардың табыс драйверлері әртүрлі."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Systematic vs unsystematic risk"},
-            "body": {"en": "Unsystematic (specific) risk affects only one company or sector — a CEO scandal, a product recall, a factory fire. This risk vanishes with diversification. Systematic (market) risk affects all assets — a global recession, interest rate changes — and cannot be diversified away. Diversification removes the avoidable part; the unavoidable part remains."},
-            "tip": {"en": "After about 20–30 uncorrelated stocks, adding more reduces specific risk only marginally. Diversification has diminishing returns beyond a point."}
+            "title": {
+              "en": "Systematic vs unsystematic risk",
+              "ru": "Систематический и несистематический риск",
+              "kk": "Жүйелік және жүйелік емес тәуекел"
+            },
+            "body": {
+              "en": "Unsystematic (specific) risk affects only one company or sector — a CEO scandal, a product recall, a factory fire. This risk vanishes with diversification. Systematic (market) risk affects all assets — a global recession, interest rate changes — and cannot be diversified away. Diversification removes the avoidable part; the unavoidable part remains.",
+              "ru": "Несистематический (специфический) риск касается одной компании или сектора: скандал с CEO, отзыв продукта, пожар на заводе. Этот риск исчезает при диверсификации. Систематический (рыночный) риск влияет на все активы: глобальная рецессия, изменение ставок — его нельзя убрать диверсификацией. Диверсификация убирает устранимую часть, но неизбежная остаётся.",
+              "kk": "Жүйелік емес (нақты) тәуекел бір компанияға немесе секторға ғана әсер етеді: CEO дауы, өнімді қайтару, зауыттағы өрт. Бұл тәуекел диверсификациямен жоғалады. Жүйелік (нарықтық) тәуекел барлық активтерге әсер етеді: жаһандық рецессия, пайыздық мөлшерлеме өзгерісі — оны диверсификациямен жою мүмкін емес. Диверсификация жоюға болатын бөлікті алып тастайды, ал болмайтын бөлік қалады."
+            },
+            "tip": {
+              "en": "After about 20–30 uncorrelated stocks, adding more reduces specific risk only marginally. Diversification has diminishing returns beyond a point.",
+              "ru": "After about 20–30 uncorrelated stocks, adding more reduces specific risk only marginally. Diversification has diminishing returns beyond a point.",
+              "kk": "After about 20–30 uncorrelated stocks, adding more reduces specific risk only marginally. Diversification has diminishing returns beyond a point."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "How diversification changes the portfolio picture"},
+            "title": {
+              "en": "How diversification changes the portfolio picture",
+              "ru": "How diversification changes the portfolio picture",
+              "kk": "How diversification changes the portfolio picture"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Assume each individual asset below has 10% expected return and 20% volatility. Portfolio volatility falls as more uncorrelated assets are added."},
-                  {"type": "table", "rows": [
-                    ["Portfolio", "Holdings", "Expected return", "Approx. portfolio volatility"],
-                    ["1 stock", "1 equity", "10%", "20%"],
-                    ["5 stocks (same sector)", "5 equities", "10%", "~16%"],
-                    ["20 stocks (mixed sectors)", "20 equities", "10%", "~10%"],
-                    ["Equities + bonds + real estate", "Mixed assets", "10%", "~7–9%"]
-                  ]},
-                  {"type": "paragraph", "text": "Expected return stays at 10% throughout. Volatility drops substantially as correlation between holdings decreases. The mixed-asset portfolio at the bottom benefits from low cross-asset correlation, not just more holdings."}
+                  {
+                    "type": "paragraph",
+                    "text": "Assume each individual asset below has 10% expected return and 20% volatility. Portfolio volatility falls as more uncorrelated assets are added."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Portfolio",
+                        "Holdings",
+                        "Expected return",
+                        "Approx. portfolio volatility"
+                      ],
+                      [
+                        "1 stock",
+                        "1 equity",
+                        "10%",
+                        "20%"
+                      ],
+                      [
+                        "5 stocks (same sector)",
+                        "5 equities",
+                        "10%",
+                        "~16%"
+                      ],
+                      [
+                        "20 stocks (mixed sectors)",
+                        "20 equities",
+                        "10%",
+                        "~10%"
+                      ],
+                      [
+                        "Equities + bonds + real estate",
+                        "Mixed assets",
+                        "10%",
+                        "~7–9%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Expected return stays at 10% throughout. Volatility drops substantially as correlation between holdings decreases. The mixed-asset portfolio at the bottom benefits from low cross-asset correlation, not just more holdings."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Assume each individual asset below has 10% expected return and 20% volatility. Portfolio volatility falls as more uncorrelated assets are added."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Portfolio",
+                        "Holdings",
+                        "Expected return",
+                        "Approx. portfolio volatility"
+                      ],
+                      [
+                        "1 stock",
+                        "1 equity",
+                        "10%",
+                        "20%"
+                      ],
+                      [
+                        "5 stocks (same sector)",
+                        "5 equities",
+                        "10%",
+                        "~16%"
+                      ],
+                      [
+                        "20 stocks (mixed sectors)",
+                        "20 equities",
+                        "10%",
+                        "~10%"
+                      ],
+                      [
+                        "Equities + bonds + real estate",
+                        "Mixed assets",
+                        "10%",
+                        "~7–9%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ожидаемая доходность везде остаётся 10%. Волатильность заметно снижается по мере уменьшения корреляции между позициями. Смешанный портфель внизу выигрывает не просто от большего числа активов, а от низкой корреляции между классами активов."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Assume each individual asset below has 10% expected return and 20% volatility. Portfolio volatility falls as more uncorrelated assets are added."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Portfolio",
+                        "Holdings",
+                        "Expected return",
+                        "Approx. portfolio volatility"
+                      ],
+                      [
+                        "1 stock",
+                        "1 equity",
+                        "10%",
+                        "20%"
+                      ],
+                      [
+                        "5 stocks (same sector)",
+                        "5 equities",
+                        "10%",
+                        "~16%"
+                      ],
+                      [
+                        "20 stocks (mixed sectors)",
+                        "20 equities",
+                        "10%",
+                        "~10%"
+                      ],
+                      [
+                        "Equities + bonds + real estate",
+                        "Mixed assets",
+                        "10%",
+                        "~7–9%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Күтілетін табыс барлық жерде 10% болып қалады. Позициялар арасындағы корреляция азайған сайын құбылмалылық айтарлықтай төмендейді. Төмендегі аралас актив портфелі тек актив саны көп болғандықтан емес, активтер арасындағы төмен корреляциядан пайда көреді."
+                  }
                 ]
               }
             }
@@ -448,7 +1767,11 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Does this add real diversification?"},
+            "title": {
+              "en": "Does this add real diversification?",
+              "ru": "Добавляет ли это настоящую диверсификацию?",
+              "kk": "Бұл нақты диверсификация қосады ма?"
+            },
             "interactiveType": "error_detector",
             "interactiveContent": {
               "en": {
@@ -456,24 +1779,99 @@
                 "cases": [
                   {
                     "text": "\"I own shares in 15 different Kazakhstani oil companies. I'm diversified because I have 15 positions.\"",
-                    "options": ["a) Correct — 15 positions is sufficient diversification", "b) Error — high correlation within the same sector eliminates most benefit"],
+                    "options": [
+                      "a) Correct — 15 positions is sufficient diversification",
+                      "b) Error — high correlation within the same sector eliminates most benefit"
+                    ],
                     "correct": "b",
                     "explanation": "Diversification requires low correlation. 15 companies in the same sector move together in sector downturns. This is concentrated exposure dressed up as diversification."
                   },
                   {
                     "text": "\"I hold a global equity index fund (covering 1,600 stocks across 40 countries) as my only investment.\"",
-                    "options": ["a) Correct — this is well-diversified within equities", "b) Error — one fund cannot be diversified"],
+                    "options": [
+                      "a) Correct — this is well-diversified within equities",
+                      "b) Error — one fund cannot be diversified"
+                    ],
                     "correct": "a",
                     "explanation": "A global index fund provides broad geographic and sector diversification within equities. This is genuinely diversified for its asset class, though it still carries full equity market (systematic) risk."
                   },
                   {
                     "text": "\"I split my savings equally between three large Kazakhstani banks' deposit accounts.\"",
-                    "options": ["a) Correct — three banks means three separate risks", "b) Error — all three deposits carry the same macro and sector risk"],
+                    "options": [
+                      "a) Correct — three banks means three separate risks",
+                      "b) Error — all three deposits carry the same macro and sector risk"
+                    ],
                     "correct": "b",
                     "explanation": "If KZ banking sector faces systemic stress, all three deposits are affected simultaneously. This reduces single-bank failure risk but provides little diversification against broader financial sector risk."
                   }
                 ],
                 "final_explanation": "True diversification requires low correlation between holdings — different industries, geographies, and asset classes. Counting the number of positions without checking their correlation is one of the most common portfolio mistakes."
+              },
+              "ru": {
+                "instruction": "Каждый инвестор считает, что хорошо диверсифицирован. Определите, прав он или совершает типичную ошибку диверсификации.",
+                "cases": [
+                  {
+                    "text": "«У меня акции 15 разных казахстанских нефтяных компаний. Я диверсифицирован, потому что у меня 15 позиций.»",
+                    "options": [
+                      "a) Correct — 15 positions is sufficient diversification",
+                      "b) Error — high correlation within the same sector eliminates most benefit"
+                    ],
+                    "correct": "b",
+                    "explanation": "Diversification requires low correlation. 15 companies in the same sector move together in sector downturns. This is concentrated exposure dressed up as diversification."
+                  },
+                  {
+                    "text": "«Моя единственная инвестиция — глобальный индексный фонд акций, включающий 1,600 акций из 40 стран.»",
+                    "options": [
+                      "a) Correct — this is well-diversified within equities",
+                      "b) Error — one fund cannot be diversified"
+                    ],
+                    "correct": "a",
+                    "explanation": "A global index fund provides broad geographic and sector diversification within equities. This is genuinely diversified for its asset class, though it still carries full equity market (systematic) risk."
+                  },
+                  {
+                    "text": "«Я поровну разделил сбережения между депозитами в трёх крупных казахстанских банках.»",
+                    "options": [
+                      "a) Correct — three banks means three separate risks",
+                      "b) Error — all three deposits carry the same macro and sector risk"
+                    ],
+                    "correct": "b",
+                    "explanation": "Если банковский сектор Казахстана столкнётся с системным стрессом, все три депозита пострадают одновременно. Это снижает риск краха одного банка, но почти не защищает от широкого риска финансового сектора."
+                  }
+                ],
+                "final_explanation": "Настоящая диверсификация требует низкой корреляции между позициями: разные отрасли, страны и классы активов. Просто считать количество позиций без проверки их корреляции — одна из самых частых ошибок портфеля."
+              },
+              "kk": {
+                "instruction": "Әр инвестор өзін жақсы диверсификацияланған деп ойлайды. Оның дұрыс екенін немесе жиі кездесетін диверсификация қатесін жасап тұрғанын анықтаңыз.",
+                "cases": [
+                  {
+                    "text": "«Мен 15 түрлі қазақстандық мұнай компаниясының акциясын ұстаймын. 15 позициям бар, демек диверсификацияланғанмын.»",
+                    "options": [
+                      "a) Correct — 15 positions is sufficient diversification",
+                      "b) Error — high correlation within the same sector eliminates most benefit"
+                    ],
+                    "correct": "b",
+                    "explanation": "Diversification requires low correlation. 15 companies in the same sector move together in sector downturns. This is concentrated exposure dressed up as diversification."
+                  },
+                  {
+                    "text": "«Менің жалғыз инвестициям — 40 елдегі 1,600 акцияны қамтитын жаһандық акция индекс қоры.»",
+                    "options": [
+                      "a) Correct — this is well-diversified within equities",
+                      "b) Error — one fund cannot be diversified"
+                    ],
+                    "correct": "a",
+                    "explanation": "A global index fund provides broad geographic and sector diversification within equities. This is genuinely diversified for its asset class, though it still carries full equity market (systematic) risk."
+                  },
+                  {
+                    "text": "«Жинағымды үш ірі қазақстандық банктегі депозиттерге тең бөлдім.»",
+                    "options": [
+                      "a) Correct — three banks means three separate risks",
+                      "b) Error — all three deposits carry the same macro and sector risk"
+                    ],
+                    "correct": "b",
+                    "explanation": "Егер Қазақстан банк секторы жүйелік күйзеліске ұшыраса, үш депозит те бір уақытта әсер алады. Бұл бір банктің құлау тәуекелін азайтады, бірақ кең қаржы секторы тәуекелінен аз қорғайды."
+                  }
+                ],
+                "final_explanation": "Нақты диверсификация позициялар арасындағы төмен корреляцияны талап етеді: әртүрлі салалар, географиялар және актив кластары. Корреляцияны тексермей позиция санын санау — портфельдегі ең жиі қателердің бірі."
               }
             }
           },
@@ -481,39 +1879,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Diversification removes the risk you don't get paid for"},
-            "body": {"en": "Specific risk carries no reward — markets don't pay you for holding a concentrated position when you could have diversified it away. Holding a single stock that returns 15% is not smarter than a diversified portfolio returning 15%; it is just luckier. The goal is maximum expected return per unit of risk — and diversification shifts that ratio in your favour."},
-            "tip": {"en": "Check correlation, not just count. Ten holdings in one sector is less diversified than three holdings in three different asset classes."}
+            "title": {
+              "en": "Diversification removes the risk you don't get paid for",
+              "ru": "Диверсификация убирает риск, за который вам не платят",
+              "kk": "Диверсификация сізге ақы төленбейтін тәуекелді алып тастайды"
+            },
+            "body": {
+              "en": "Specific risk carries no reward — markets don't pay you for holding a concentrated position when you could have diversified it away. Holding a single stock that returns 15% is not smarter than a diversified portfolio returning 15%; it is just luckier. The goal is maximum expected return per unit of risk — and diversification shifts that ratio in your favour.",
+              "ru": "Специфический риск не вознаграждается: рынки не платят вам за концентрированную позицию, если вы могли убрать этот риск диверсификацией. Держать одну акцию с доходностью 15% не умнее, чем диверсифицированный портфель с 15%; это просто удачнее. Цель — максимальная ожидаемая доходность на единицу риска, и диверсификация улучшает это соотношение.",
+              "kk": "Нақты тәуекел үшін сыйақы жоқ: оны диверсификациямен алып тастауға болатын кезде нарық сізге шоғырланған позиция ұстағаныңыз үшін төлемейді. 15% табыс берген бір акцияны ұстау 15% берген диверсификацияланған портфельден ақылдырақ емес; жай ғана сәттірек. Мақсат — тәуекел бірлігіне шаққандағы ең жоғары күтілетін табыс, ал диверсификация бұл қатынасты сіздің пайдаңызға өзгертеді."
+            },
+            "tip": {
+              "en": "Check correlation, not just count. Ten holdings in one sector is less diversified than three holdings in three different asset classes.",
+              "ru": "Check correlation, not just count. Ten holdings in one sector is less diversified than three holdings in three different asset classes.",
+              "kk": "Check correlation, not just count. Ten holdings in one sector is less diversified than three holdings in three different asset classes."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1204,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Diversification — Check"},
+        "title": {
+          "en": "Diversification — Check",
+          "ru": "Диверсификация — проверка",
+          "kk": "Диверсификация — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "A global recession hits and virtually all equity markets fall 40%. An investor who held 50 stocks across 20 countries sees her portfolio fall 38%. Why did diversification fail to protect her?"},
+            "question_text": {
+              "en": "A global recession hits and virtually all equity markets fall 40%. An investor who held 50 stocks across 20 countries sees her portfolio fall 38%. Why did diversification fail to protect her?",
+              "ru": "Наступает глобальная рецессия, и почти все рынки акций падают на 40%. Инвестор, державшая 50 акций из 20 стран, видит падение портфеля на 38%. Почему диверсификация её не защитила?",
+              "kk": "Жаһандық рецессия болып, іс жүзінде барлық акция нарықтары 40% құлады. 20 елдегі 50 акция ұстаған инвестор портфелінің 38% түскенін көреді. Неліктен диверсификация оны қорғай алмады?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Systematic risk cannot be diversified away — global recessions affect all equities simultaneously"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "She did not diversify enough — 50 stocks is still too concentrated"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Geographic diversification only works in bull markets"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Diversification only reduces volatility in the long run, not in single-year events"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Systematic risk cannot be diversified away — global recessions affect all equities simultaneously",
+                  "ru": "Систематический риск нельзя убрать диверсификацией — глобальные рецессии одновременно влияют на все акции",
+                  "kk": "Жүйелік тәуекелді диверсификациямен жою мүмкін емес — жаһандық рецессиялар барлық акцияларға бір уақытта әсер етеді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "She did not diversify enough — 50 stocks is still too concentrated",
+                  "ru": "Она недостаточно диверсифицировалась — 50 акций всё ещё слишком концентрировано",
+                  "kk": "Ол жеткілікті диверсификация жасамаған — 50 акция әлі де тым шоғырланған"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Geographic diversification only works in bull markets",
+                  "ru": "Geographic diversification only works in bull markets",
+                  "kk": "Geographic diversification only works in bull markets"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Diversification only reduces volatility in the long run, not in single-year events",
+                  "ru": "Диверсификация снижает волатильность только в долгосрочном периоде, а не в событиях одного года",
+                  "kk": "Диверсификация құбылмалылықты тек ұзақ мерзімде азайтады, бір жылдық оқиғаларда емес"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Two assets each return 11%/year on average. Asset A and Asset B have a correlation of −0.3. What happens to portfolio expected return and volatility if you combine them equally?"},
+            "question_text": {
+              "en": "Two assets each return 11%/year on average. Asset A and Asset B have a correlation of −0.3. What happens to portfolio expected return and volatility if you combine them equally?",
+              "ru": "Два актива в среднем дают по 11% в год. Корреляция между активами A и B равна −0.3. Что произойдёт с ожидаемой доходностью и волатильностью портфеля, если объединить их поровну?",
+              "kk": "Екі активтің әрқайсысы орта есеппен жылына 11% береді. A және B активтерінің корреляциясы −0.3. Оларды тең біріктірсеңіз, портфельдің күтілетін табысы мен құбылмалылығы не болады?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Expected return stays at 11%; portfolio volatility falls below either asset's individual volatility"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Both expected return and volatility fall — mixing assets always reduces both"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Expected return rises to 22%; volatility is unchanged"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Nothing changes — combining two assets of equal return has no effect"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Expected return stays at 11%; portfolio volatility falls below either asset's individual volatility",
+                  "ru": "Ожидаемая доходность остаётся 11%; волатильность портфеля становится ниже волатильности каждого отдельного актива",
+                  "kk": "Күтілетін табыс 11% болып қалады; портфель құбылмалылығы әр активтің жеке құбылмалылығынан төмендейді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Both expected return and volatility fall — mixing assets always reduces both",
+                  "ru": "И ожидаемая доходность, и волатильность падают — смешивание активов всегда снижает оба показателя",
+                  "kk": "Күтілетін табыс та, құбылмалылық та төмендейді — активтерді араластыру әрқашан екеуін де азайтады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Expected return rises to 22%; volatility is unchanged",
+                  "ru": "Ожидаемая доходность растёт до 22%; волатильность не меняется",
+                  "kk": "Күтілетін табыс 22%-ға өседі; құбылмалылық өзгермейді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Nothing changes — combining two assets of equal return has no effect",
+                  "ru": "Ничего не меняется — объединение двух активов с одинаковой доходностью не даёт эффекта",
+                  "kk": "Ештеңе өзгермейді — бірдей табысты екі активті біріктіру әсер етпейді"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -521,8 +2015,16 @@
     },
     {
       "code": "risk_tolerance",
-      "title": {"en": "Risk Tolerance"},
-      "description": {"en": "Risk tolerance is the amount of volatility and potential loss you can absorb — financially and emotionally — without abandoning your plan."},
+      "title": {
+        "en": "Risk Tolerance",
+        "ru": "Толерантность к риску",
+        "kk": "Тәуекелге төзімділік"
+      },
+      "description": {
+        "en": "Risk tolerance is the amount of volatility and potential loss you can absorb — financially and emotionally — without abandoning your plan.",
+        "ru": "Толерантность к риску — это объём волатильности и возможных потерь, который вы можете выдержать финансово и эмоционально, не бросая свой план.",
+        "kk": "Тәуекелге төзімділік — жоспардан бас тартпай, қаржылық және эмоциялық тұрғыда көтере алатын құбылмалылық пен ықтимал шығын көлемі."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 4,
       "quizId": 1205,
@@ -532,42 +2034,193 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "Two investors, same portfolio, different outcomes"},
-            "body": {"en": "Two people can hold identical portfolios and have completely different experiences. One sleeps through a 30% drawdown; the other panic-sells at the bottom and locks in a permanent loss. The difference is not the portfolio — it is risk tolerance. Misjudging it is one of the most destructive financial mistakes."},
-            "tip": {"en": "The real test of risk tolerance is not how you feel about risk in the abstract. It is how you act when your portfolio is down 35%."}
+            "title": {
+              "en": "Two investors, same portfolio, different outcomes",
+              "ru": "Two investors, same portfolio, different outcomes",
+              "kk": "Two investors, same portfolio, different outcomes"
+            },
+            "body": {
+              "en": "Two people can hold identical portfolios and have completely different experiences. One sleeps through a 30% drawdown; the other panic-sells at the bottom and locks in a permanent loss. The difference is not the portfolio — it is risk tolerance. Misjudging it is one of the most destructive financial mistakes.",
+              "ru": "Два человека могут держать одинаковые портфели и переживать это совершенно по-разному. Один спокойно спит во время просадки 30%; другой в панике продаёт на дне и фиксирует постоянный убыток. Разница не в портфеле, а в толерантности к риску. Ошибка в её оценке — одна из самых разрушительных финансовых ошибок.",
+              "kk": "Екі адам бірдей портфель ұстап, оны мүлде әртүрлі сезінуі мүмкін. Бірі 30% просадка кезінде тыныш ұйықтайды; екіншісі түбінде үреймен сатып, тұрақты шығынды бекітеді. Айырмашылық портфельде емес — тәуекелге төзімділікте. Оны қате бағалау ең зиянды қаржылық қателердің бірі."
+            },
+            "tip": {
+              "en": "The real test of risk tolerance is not how you feel about risk in the abstract. It is how you act when your portfolio is down 35%.",
+              "ru": "The real test of risk tolerance is not how you feel about risk in the abstract. It is how you act when your portfolio is down 35%.",
+              "kk": "The real test of risk tolerance is not how you feel about risk in the abstract. It is how you act when your portfolio is down 35%."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Risk capacity vs risk appetite"},
-            "body": {"en": "Risk capacity is what you can financially afford to lose — determined by income stability, time horizon, obligations, and emergency reserves. Risk appetite is how much volatility you can tolerate emotionally without making irrational decisions. Your actual risk tolerance is the lower of these two. Holding more risk than either allows is dangerous; holding less is just inefficient."},
-            "example": {"en": "A 28-year-old engineer with a stable salary, no debt, and a 6-month emergency fund has high risk capacity. If she also stays calm during market drops, her tolerance is genuinely high. If she would sell during a crash, her appetite is the binding constraint — regardless of capacity."}
+            "title": {
+              "en": "Risk capacity vs risk appetite",
+              "ru": "Risk capacity vs risk appetite",
+              "kk": "Risk capacity vs risk appetite"
+            },
+            "body": {
+              "en": "Risk capacity is what you can financially afford to lose — determined by income stability, time horizon, obligations, and emergency reserves. Risk appetite is how much volatility you can tolerate emotionally without making irrational decisions. Your actual risk tolerance is the lower of these two. Holding more risk than either allows is dangerous; holding less is just inefficient.",
+              "ru": "Рисковая способность — это то, что вы финансово можете позволить себе потерять; она зависит от стабильности дохода, горизонта, обязательств и резервов. Рисковый аппетит — это сколько волатильности вы можете эмоционально выдержать без иррациональных решений. Ваша реальная толерантность к риску равна меньшему из этих двух показателей. Держать больше риска, чем позволяет любой из них, опасно; держать меньше — просто неэффективно.",
+              "kk": "Тәуекел сыйымдылығы — қаржылық тұрғыда жоғалта алатын мөлшер; ол табыс тұрақтылығы, уақыт көкжиегі, міндеттемелер және төтенше резервтермен анықталады. Тәуекел аппетиті — иррационалды шешім қабылдамай эмоциялық тұрғыда көтере алатын құбылмалылық. Нақты төзімділік осы екеуінің төменгі мәні. Екеуінің біреуі рұқсат еткеннен көп тәуекел ұстау қауіпті; аз ұстау жай ғана тиімсіз."
+            },
+            "example": {
+              "en": "A 28-year-old engineer with a stable salary, no debt, and a 6-month emergency fund has high risk capacity. If she also stays calm during market drops, her tolerance is genuinely high. If she would sell during a crash, her appetite is the binding constraint — regardless of capacity.",
+              "ru": "28-летний инженер со стабильной зарплатой, без долгов и с резервом на 6 месяцев имеет высокую рисковую способность. Если она также сохраняет спокойствие во время падений рынка, её толерантность действительно высокая. Если же она продаст активы во время обвала, ограничением становится эмоциональный аппетит к риску — независимо от финансовой способности.",
+              "kk": "28 жастағы тұрақты жалақысы бар, қарызы жоқ және 6 айлық төтенше қоры бар инженердің тәуекел сыйымдылығы жоғары. Егер ол нарық құлаған кезде де сабыр сақтаса, төзімділігі шынымен жоғары. Егер құлдырауда сатар болса, шектеуші фактор — қаржылық сыйымдылыққа қарамастан, эмоциялық аппетит."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "How risk tolerance changes over time"},
-            "body": {"en": "Risk capacity typically falls as you approach retirement — fewer working years means less ability to recover from losses. Emotional risk appetite can change after major market events; many investors discover their tolerance was lower than they thought after their first large drawdown. Reassessing periodically, especially after life changes, keeps the portfolio calibrated."},
-            "tip": {"en": "Your risk tolerance at 30 is not your risk tolerance at 55. Revisit it when income, family, or health change significantly."}
+            "title": {
+              "en": "How risk tolerance changes over time",
+              "ru": "How risk tolerance changes over time",
+              "kk": "How risk tolerance changes over time"
+            },
+            "body": {
+              "en": "Risk capacity typically falls as you approach retirement — fewer working years means less ability to recover from losses. Emotional risk appetite can change after major market events; many investors discover their tolerance was lower than they thought after their first large drawdown. Reassessing periodically, especially after life changes, keeps the portfolio calibrated.",
+              "ru": "Рисковая способность обычно снижается по мере приближения к пенсии: меньше рабочих лет означает меньше возможностей восстановиться после потерь. Эмоциональный аппетит к риску может измениться после крупных рыночных событий; многие инвесторы после первой большой просадки понимают, что их толерантность была ниже, чем они думали. Периодическая переоценка, особенно после жизненных изменений, помогает держать портфель настроенным правильно.",
+              "kk": "Зейнетке жақындаған сайын тәуекел сыйымдылығы әдетте төмендейді: жұмыс жылдары азайған сайын шығыннан қалпына келу мүмкіндігі де азаяды. Эмоциялық тәуекел аппетиті ірі нарық оқиғаларынан кейін өзгеруі мүмкін; көп инвестор алғашқы үлкен просадкадан кейін төзімділігі ойлағанынан төмен екенін байқайды. Әсіресе өмірдегі өзгерістерден кейін қайта бағалау портфельді дұрыс күйде ұстайды."
+            },
+            "tip": {
+              "en": "Your risk tolerance at 30 is not your risk tolerance at 55. Revisit it when income, family, or health change significantly.",
+              "ru": "Your risk tolerance at 30 is not your risk tolerance at 55. Revisit it when income, family, or health change significantly.",
+              "kk": "Your risk tolerance at 30 is not your risk tolerance at 55. Revisit it when income, family, or health change significantly."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Matching portfolios to risk profiles"},
+            "title": {
+              "en": "Matching portfolios to risk profiles",
+              "ru": "Matching portfolios to risk profiles",
+              "kk": "Matching portfolios to risk profiles"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Three investors, three different risk tolerances. Here is how portfolio composition changes to match."},
-                  {"type": "table", "rows": [
-                    ["Profile", "Typical allocation", "Expected annual return", "Typical worst year"],
-                    ["Conservative (low tolerance)", "80% bonds/deposits, 20% equities", "5–7%", "−5% to −10%"],
-                    ["Balanced (medium tolerance)", "50% equities, 50% bonds/other", "7–9%", "−15% to −25%"],
-                    ["Aggressive (high tolerance)", "80–100% equities, global", "9–12%", "−30% to −50%"]
-                  ]},
-                  {"type": "paragraph", "text": "These are not age brackets — a 65-year-old with a large pension and no dependents may comfortably hold an aggressive allocation. Profile reflects financial situation and emotional temperament, not birthdate."}
+                  {
+                    "type": "paragraph",
+                    "text": "Three investors, three different risk tolerances. Here is how portfolio composition changes to match."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Profile",
+                        "Typical allocation",
+                        "Expected annual return",
+                        "Typical worst year"
+                      ],
+                      [
+                        "Conservative (low tolerance)",
+                        "80% bonds/deposits, 20% equities",
+                        "5–7%",
+                        "−5% to −10%"
+                      ],
+                      [
+                        "Balanced (medium tolerance)",
+                        "50% equities, 50% bonds/other",
+                        "7–9%",
+                        "−15% to −25%"
+                      ],
+                      [
+                        "Aggressive (high tolerance)",
+                        "80–100% equities, global",
+                        "9–12%",
+                        "−30% to −50%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "These are not age brackets — a 65-year-old with a large pension and no dependents may comfortably hold an aggressive allocation. Profile reflects financial situation and emotional temperament, not birthdate."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Three investors, three different risk tolerances. Here is how portfolio composition changes to match."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Профиль",
+                        "Типичное распределение",
+                        "Ожидаемая годовая доходность",
+                        "Типичный худший год"
+                      ],
+                      [
+                        "Conservative (low tolerance)",
+                        "80% bonds/deposits, 20% equities",
+                        "5–7%",
+                        "−5% to −10%"
+                      ],
+                      [
+                        "Balanced (medium tolerance)",
+                        "50% equities, 50% bonds/other",
+                        "7–9%",
+                        "−15% to −25%"
+                      ],
+                      [
+                        "Aggressive (high tolerance)",
+                        "80–100% equities, global",
+                        "9–12%",
+                        "−30% to −50%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Это не возрастные категории: 65-летний человек с большой пенсией и без иждивенцев может спокойно держать агрессивное распределение. Профиль отражает финансовую ситуацию и эмоциональный темперамент, а не дату рождения."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Three investors, three different risk tolerances. Here is how portfolio composition changes to match."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Бейін",
+                        "Әдеттегі бөлу",
+                        "Күтілетін жылдық табыстылық",
+                        "Әдеттегі ең нашар жыл"
+                      ],
+                      [
+                        "Conservative (low tolerance)",
+                        "80% bonds/deposits, 20% equities",
+                        "5–7%",
+                        "−5% to −10%"
+                      ],
+                      [
+                        "Balanced (medium tolerance)",
+                        "50% equities, 50% bonds/other",
+                        "7–9%",
+                        "−15% to −25%"
+                      ],
+                      [
+                        "Aggressive (high tolerance)",
+                        "80–100% equities, global",
+                        "9–12%",
+                        "−30% to −50%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Бұл жас санаттары емес: үлкен зейнетақысы бар және асырауындағы адамдары жоқ 65 жастағы адам агрессивті бөлуді жайлы ұстай алады. Профиль туған күнді емес, қаржылық жағдай мен эмоциялық мінезді көрсетеді."
+                  }
                 ]
               }
             }
@@ -576,7 +2229,11 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Assess this investor's true risk tolerance"},
+            "title": {
+              "en": "Assess this investor's true risk tolerance",
+              "ru": "Оцените реальную толерантность инвестора к риску",
+              "kk": "Осы инвестордың нақты тәуекелге төзімділігін бағалаңыз"
+            },
             "interactiveType": "portfolio_choice",
             "interactiveContent": {
               "en": {
@@ -584,19 +2241,108 @@
                 "options": [
                   {
                     "name": "Aggressive",
-                    "data": ["90% global equities", "10% bonds", "Expected return: ~11%", "Worst year estimate: −45%"]
+                    "data": [
+                      "90% global equities",
+                      "10% bonds",
+                      "Expected return: ~11%",
+                      "Worst year estimate: −45%"
+                    ]
                   },
                   {
                     "name": "Balanced",
-                    "data": ["55% equities", "35% bonds", "10% deposits", "Expected return: ~8%", "Worst year estimate: −20%"]
+                    "data": [
+                      "55% equities",
+                      "35% bonds",
+                      "10% deposits",
+                      "Expected return: ~8%",
+                      "Worst year estimate: −20%"
+                    ]
                   },
                   {
                     "name": "Conservative",
-                    "data": ["20% equities", "60% bonds", "20% deposits", "Expected return: ~6%", "Worst year estimate: −8%"]
+                    "data": [
+                      "20% equities",
+                      "60% bonds",
+                      "20% deposits",
+                      "Expected return: ~6%",
+                      "Worst year estimate: −8%"
+                    ]
                   }
                 ],
                 "correct": "Balanced",
                 "explanation": "His risk capacity is high (long horizon, stable income, no debt), but his emotional risk appetite is low — proven by panic-selling before. The Balanced portfolio respects both constraints. Aggressive would likely trigger another panic sale; Conservative leaves significant long-run wealth on the table given his 30-year horizon."
+              },
+              "ru": {
+                "instruction": "Нурсултану 35 лет, он зарабатывает 400,000 ₸ в месяц, имеет стабильную работу, не имеет долгов, держит резерв на 6 месяцев и планирует выйти на пенсию в 65 лет. Но во время прошлого падения рынка он в панике продал весь портфель и год сидел в наличных, пропустив восстановление. Какой портфель ему подходит лучше всего?",
+                "options": [
+                  {
+                    "name": "Агрессивный",
+                    "data": [
+                      "90% глобальные акции",
+                      "10% облигации",
+                      "Ожидаемая доходность: ~11%",
+                      "Оценка худшего года: −45%"
+                    ]
+                  },
+                  {
+                    "name": "Сбалансированный",
+                    "data": [
+                      "55% акции",
+                      "35% облигации",
+                      "10% депозиты",
+                      "Ожидаемая доходность: ~8%",
+                      "Оценка худшего года: −20%"
+                    ]
+                  },
+                  {
+                    "name": "Консервативный",
+                    "data": [
+                      "20% акции",
+                      "60% облигации",
+                      "20% депозиты",
+                      "Ожидаемая доходность: ~6%",
+                      "Оценка худшего года: −8%"
+                    ]
+                  }
+                ],
+                "correct": "Сбалансированный",
+                "explanation": "Его рисковая способность высокая: долгий горизонт, стабильный доход, нет долгов. Но эмоциональный аппетит к риску низкий, что уже доказала паническая продажа. Сбалансированный портфель учитывает оба ограничения. Агрессивный, вероятно, снова приведёт к панике; консервативный оставит слишком много долгосрочного потенциала неиспользованным при горизонте 30 лет."
+              },
+              "kk": {
+                "instruction": "Нұрсұлтан 35 жаста, тұрақты жұмысы бар, айына 400,000 ₸ табады, қарызы жоқ, 6 айлық төтенше қоры бар және 65 жаста зейнетке шығуды жоспарлайды. Бірақ өткен нарық құлдырауында ол үреймен бүкіл портфелін сатып, бір жыл қолма-қол ақшада отырды да, қалпына келуді өткізіп алды. Оған қай портфель ең қолайлы?",
+                "options": [
+                  {
+                    "name": "Агрессивті",
+                    "data": [
+                      "90% жаһандық акциялар",
+                      "10% облигациялар",
+                      "Күтілетін табыстылық: ~11%",
+                      "Ең нашар жыл бағасы: −45%"
+                    ]
+                  },
+                  {
+                    "name": "Теңгерімді",
+                    "data": [
+                      "55% акциялар",
+                      "35% облигациялар",
+                      "10% депозиттер",
+                      "Күтілетін табыстылық: ~8%",
+                      "Ең нашар жыл бағасы: −20%"
+                    ]
+                  },
+                  {
+                    "name": "Консервативті",
+                    "data": [
+                      "20% акциялар",
+                      "60% облигациялар",
+                      "20% депозиттер",
+                      "Күтілетін табыстылық: ~6%",
+                      "Ең нашар жыл бағасы: −8%"
+                    ]
+                  }
+                ],
+                "correct": "Теңгерімді",
+                "explanation": "Оның тәуекел сыйымдылығы жоғары: ұзақ көкжиек, тұрақты табыс, қарыз жоқ. Бірақ эмоциялық тәуекел аппетиті төмен — бұған бұрынғы үрейлі сату дәлел. Теңгерімді портфель екі шектеуді де ескереді. Агрессивті портфель қайтадан үрейлі сатуға әкелуі мүмкін; консервативті портфель 30 жылдық көкжиекте ұзақ мерзімді байлықтың көп бөлігін пайдаланбай қалдырады."
               }
             }
           },
@@ -604,39 +2350,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "The right portfolio is the one you will hold through a crash"},
-            "body": {"en": "The best allocation on paper is worthless if you abandon it during the first downturn. Risk tolerance is not a personality test score — it is the calibration that determines whether you stay invested through volatility or destroy your returns by selling at lows. Portfolio construction, covered next, is the process of turning risk tolerance into a concrete allocation."},
-            "tip": {"en": "If reviewing your portfolio during a 30% drop makes you want to sell everything, your allocation is already too aggressive for your real tolerance."}
+            "title": {
+              "en": "The right portfolio is the one you will hold through a crash",
+              "ru": "The right portfolio is the one you will hold through a crash",
+              "kk": "The right portfolio is the one you will hold through a crash"
+            },
+            "body": {
+              "en": "The best allocation on paper is worthless if you abandon it during the first downturn. Risk tolerance is not a personality test score — it is the calibration that determines whether you stay invested through volatility or destroy your returns by selling at lows. Portfolio construction, covered next, is the process of turning risk tolerance into a concrete allocation.",
+              "ru": "Лучшее распределение на бумаге бесполезно, если вы бросаете его при первом падении. Толерантность к риску — не результат теста личности, а настройка, которая определяет, останетесь ли вы инвестированным во время волатильности или уничтожите доходность продажей на минимумах. Построение портфеля, о котором речь дальше, превращает толерантность к риску в конкретное распределение активов.",
+              "kk": "Қағаздағы ең жақсы бөлу бірінші құлдырауда одан бас тартсаңыз, құнсыз. Тәуекелге төзімділік — тұлғалық тест ұпайы емес; ол құбылмалылық кезінде инвестицияда қала аласыз ба, әлде төменде сатып табысыңызды бұзасыз ба — соны анықтайтын баптау. Келесі тақырыптағы портфель құру осы төзімділікті нақты бөлуге айналдырады."
+            },
+            "tip": {
+              "en": "If reviewing your portfolio during a 30% drop makes you want to sell everything, your allocation is already too aggressive for your real tolerance.",
+              "ru": "If reviewing your portfolio during a 30% drop makes you want to sell everything, your allocation is already too aggressive for your real tolerance.",
+              "kk": "If reviewing your portfolio during a 30% drop makes you want to sell everything, your allocation is already too aggressive for your real tolerance."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1205,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Risk Tolerance — Check"},
+        "title": {
+          "en": "Risk Tolerance — Check",
+          "ru": "Толерантность к риску — проверка",
+          "kk": "Тәуекелге төзімділік — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "Asel has high risk capacity (stable income, 25-year horizon, no obligations) but discovers during a market crash that she cannot stop checking her portfolio and feels overwhelming anxiety. What does this tell her about her investment approach?"},
+            "question_text": {
+              "en": "Asel has high risk capacity (stable income, 25-year horizon, no obligations) but discovers during a market crash that she cannot stop checking her portfolio and feels overwhelming anxiety. What does this tell her about her investment approach?",
+              "ru": "У Асель высокая рисковая способность: стабильный доход, горизонт 25 лет, нет обязательств. Но во время рыночного обвала она понимает, что не может перестать проверять портфель и испытывает сильную тревогу. Что это говорит о её инвестиционном подходе?",
+              "kk": "Әселдің тәуекел сыйымдылығы жоғары: тұрақты табыс, 25 жылдық көкжиек, міндеттемелер жоқ. Бірақ нарық құлаған кезде ол портфелін тексеруді тоқтата алмай, қатты мазасызданатынын байқайды. Бұл оның инвестициялық тәсілі туралы не айтады?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Her emotional risk appetite is lower than her financial capacity — she should reduce equity exposure to a level she can hold through downturns without panic"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "She should ignore the anxiety — capacity is the only relevant measure for a 25-year horizon"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "She has high risk tolerance since her financial situation objectively supports it"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "She should switch to cash until she feels comfortable — this preserves capital during crashes"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Her emotional risk appetite is lower than her financial capacity — she should reduce equity exposure to a level she can hold through downturns without panic",
+                  "ru": "Её эмоциональный аппетит к риску ниже финансовой способности — ей стоит снизить долю акций до уровня, который она сможет удерживать во время падений без паники",
+                  "kk": "Оның эмоциялық тәуекел аппетиті қаржылық сыйымдылығынан төмен — ол акция үлесін құлдырауларда үрейсіз ұстай алатын деңгейге дейін азайтуы керек"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "She should ignore the anxiety — capacity is the only relevant measure for a 25-year horizon",
+                  "ru": "Ей следует игнорировать тревогу — при горизонте 25 лет важна только финансовая способность",
+                  "kk": "Ол мазасыздықты елемеуі керек — 25 жылдық көкжиекте жалғыз маңызды өлшем қаржылық сыйымдылық"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "She has high risk tolerance since her financial situation objectively supports it",
+                  "ru": "She has high risk tolerance since her financial situation objectively supports it",
+                  "kk": "She has high risk tolerance since her financial situation objectively supports it"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "She should switch to cash until she feels comfortable — this preserves capital during crashes",
+                  "ru": "Ей следует перейти в наличные, пока она не почувствует комфорт — это сохраняет капитал во время обвалов",
+                  "kk": "Ол өзін жайлы сезінгенше қолма-қол ақшаға көшуі керек — бұл құлдырауларда капиталды сақтайды"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "A 58-year-old investor has an aggressive all-equity portfolio identical to the one she held at 30. She retires in 2 years. What has most likely changed about the appropriateness of this allocation?"},
+            "question_text": {
+              "en": "A 58-year-old investor has an aggressive all-equity portfolio identical to the one she held at 30. She retires in 2 years. What has most likely changed about the appropriateness of this allocation?",
+              "ru": "58-летний инвестор держит агрессивный портфель из одних акций, такой же, как в 30 лет. Она выходит на пенсию через 2 года. Что, скорее всего, изменилось в уместности такого распределения?",
+              "kk": "58 жастағы инвестор 30 жасындағыдай толық акциядан тұратын агрессивті портфель ұстайды. Ол 2 жылдан кейін зейнетке шығады. Бұл бөлудің сәйкестігі туралы ең ықтимал не өзгерді?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Her risk capacity has fallen — she has little time to recover from a large drawdown before needing to draw down the portfolio"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Nothing — risk tolerance is fixed over a lifetime once established"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Only her emotional appetite has changed — capacity remains the same regardless of age"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "The allocation is now more appropriate because she is closer to the money and more motivated to monitor it"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Her risk capacity has fallen — she has little time to recover from a large drawdown before needing to draw down the portfolio",
+                  "ru": "Её рисковая способность снизилась — у неё мало времени восстановиться после большой просадки до начала использования портфеля",
+                  "kk": "Оның тәуекел сыйымдылығы төмендеді — портфельден ақша шығара бастағанға дейін үлкен просадкадан қалпына келуге уақыты аз"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Nothing — risk tolerance is fixed over a lifetime once established",
+                  "ru": "Ничего — толерантность к риску после формирования остаётся неизменной на всю жизнь",
+                  "kk": "Ештеңе — тәуекелге төзімділік бір қалыптасқаннан кейін өмір бойы өзгермейді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Only her emotional appetite has changed — capacity remains the same regardless of age",
+                  "ru": "Изменился только эмоциональный аппетит — финансовая способность не зависит от возраста",
+                  "kk": "Тек эмоциялық аппетиті өзгерді — сыйымдылық жасқа қарамастан бірдей қалады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The allocation is now more appropriate because she is closer to the money and more motivated to monitor it",
+                  "ru": "The allocation is now more appropriate because she is closer to the money and more motivated to monitor it",
+                  "kk": "The allocation is now more appropriate because she is closer to the money and more motivated to monitor it"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -646,66 +2488,270 @@
   "finalQuiz": {
     "quiz_id": 1299,
     "quiz_type": "final_quiz",
-    "title": {"en": "Risk & Return — Final Check"},
+    "title": {
+      "en": "Risk & Return — Final Check",
+      "ru": "Риск и доходность — итоговая проверка",
+      "kk": "Тәуекел және табыстылық — қорытынды тексеру"
+    },
     "questions": [
       {
         "id": 1,
         "question_type": "single_choice",
         "order_index": 0,
-        "question_text": {"en": "A fund advertises an average annual return of 16% over 10 years. A cautious investor treats this as a reliable forecast for the next 10 years. What is the key flaw in this reasoning?"},
+        "question_text": {
+          "en": "A fund advertises an average annual return of 16% over 10 years. A cautious investor treats this as a reliable forecast for the next 10 years. What is the key flaw in this reasoning?",
+          "ru": "Фонд рекламирует среднюю годовую доходность 16% за 10 лет. Осторожный инвестор считает это надёжным прогнозом на следующие 10 лет. В чём главная ошибка такого рассуждения?",
+          "kk": "Қор 10 жылдағы орташа жылдық табыстылығын 16% деп жарнамалайды. Сақ инвестор мұны келесі 10 жылға сенімді болжам деп қабылдайды. Бұл ойлаудағы басты қате қандай?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Past averages do not guarantee future outcomes — the return distribution could be very different going forward, especially if the fund has been repriced"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "16% is too high to be a real return — any fund claiming this must be a scam"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "10-year averages are not statistically valid — only 20+ year averages can be used"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "The flaw is using an arithmetic average instead of a geometric average"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Past averages do not guarantee future outcomes — the return distribution could be very different going forward, especially if the fund has been repriced",
+              "ru": "Прошлые средние показатели не гарантируют будущих результатов — распределение доходности в будущем может быть совсем другим, особенно если фонд уже переоценён",
+              "kk": "Өткен орташа көрсеткіштер болашақ нәтижелерге кепілдік бермейді — болашақтағы табыс таралуы мүлде басқа болуы мүмкін, әсіресе қор қайта бағаланған болса"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "16% is too high to be a real return — any fund claiming this must be a scam",
+              "ru": "16% слишком много для реальной доходности — любой фонд с таким заявлением обязательно мошеннический",
+              "kk": "16% нақты табыс үшін тым жоғары — мұны айтқан кез келген қор міндетті түрде алаяқтық"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "10-year averages are not statistically valid — only 20+ year averages can be used",
+              "ru": "Средние за 10 лет статистически недействительны — использовать можно только средние за 20+ лет",
+              "kk": "10 жылдық орташа мәндер статистикалық тұрғыда жарамсыз — тек 20+ жылдық орташа мәндерді қолдануға болады"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "The flaw is using an arithmetic average instead of a geometric average",
+              "ru": "The flaw is using an arithmetic average instead of a geometric average",
+              "kk": "The flaw is using an arithmetic average instead of a geometric average"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 2,
         "question_type": "single_choice",
         "order_index": 1,
-        "question_text": {"en": "Markets are rising strongly. An investor shifts her entire portfolio into equities to 'ride the momentum,' eliminating all bonds and cash. Which risk has she most increased?"},
+        "question_text": {
+          "en": "Markets are rising strongly. An investor shifts her entire portfolio into equities to 'ride the momentum,' eliminating all bonds and cash. Which risk has she most increased?",
+          "ru": "Рынки быстро растут. Инвестор переводит весь портфель в акции, чтобы «поймать момент», убирая все облигации и наличные. Какой риск она сильнее всего увеличила?",
+          "kk": "Нарықтар қатты өсіп жатыр. Инвестор «серпінді пайдалану» үшін бүкіл портфелін акцияларға ауыстырып, барлық облигациялар мен қолма-қол ақшаны алып тастайды. Ол қай тәуекелді ең көп арттырды?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Concentration and liquidity risk — she is fully exposed to equity market movements with no buffer"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "Inflation risk — equities are more sensitive to inflation than bonds"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "Credit risk — equity investors are the first to lose in bankruptcy"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "No risk increased — equities outperform in strong markets, so this is the optimal choice"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Concentration and liquidity risk — she is fully exposed to equity market movements with no buffer",
+              "ru": "Риск концентрации и ликвидности — она полностью зависит от движения рынка акций и не имеет буфера",
+              "kk": "Шоғырлану және өтімділік тәуекелі — ол буферсіз толықтай акция нарығы қозғалысына тәуелді"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Inflation risk — equities are more sensitive to inflation than bonds",
+              "ru": "Инфляционный риск — акции чувствительнее к инфляции, чем облигации",
+              "kk": "Инфляциялық тәуекел — акциялар облигацияларға қарағанда инфляцияға сезімтал"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Credit risk — equity investors are the first to lose in bankruptcy",
+              "ru": "Кредитный риск — инвесторы в акции первыми теряют деньги при банкротстве",
+              "kk": "Кредиттік тәуекел — банкроттықта акция инвесторлары бірінші болып жоғалтады"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "No risk increased — equities outperform in strong markets, so this is the optimal choice",
+              "ru": "Риск не вырос — акции лучше показывают себя на сильных рынках, значит это оптимальный выбор",
+              "kk": "Тәуекел өскен жоқ — күшті нарықта акциялар жақсы нәтиже береді, сондықтан бұл оңтайлы таңдау"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 3,
         "question_type": "single_choice",
         "order_index": 2,
-        "question_text": {"en": "An investor owns 25 stocks in different global sectors. During a country-specific political crisis, her 3 KZ-listed stocks each drop 50% while her other 22 stocks are unaffected. Her overall portfolio falls about 6%. What does this illustrate about diversification?"},
+        "question_text": {
+          "en": "An investor owns 25 stocks in different global sectors. During a country-specific political crisis, her 3 KZ-listed stocks each drop 50% while her other 22 stocks are unaffected. Her overall portfolio falls about 6%. What does this illustrate about diversification?",
+          "ru": "Инвестор держит 25 акций из разных глобальных секторов. Во время политического кризиса в одной стране её 3 акции, листингованные в Казахстане, падают на 50%, а остальные 22 акции не затронуты. Весь портфель падает примерно на 6%. Что это показывает о диверсификации?",
+          "kk": "Инвестор әртүрлі жаһандық секторлардан 25 акция ұстайды. Бір елге тән саяси дағдарыс кезінде оның KZ листингіндегі 3 акциясы 50%-ға түседі, ал қалған 22 акция әсер алмайды. Жалпы портфелі шамамен 6%-ға түседі. Бұл диверсификация туралы нені көрсетеді?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Diversification absorbed most of the country-specific risk — a concentrated KZ-only portfolio would have suffered the full 50% drop"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "Diversification failed — she still lost 6%, which proves it doesn't work"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "She would have been better off with a KZ-only portfolio to avoid foreign exchange risk"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "25 stocks is not enough for diversification to function"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Diversification absorbed most of the country-specific risk — a concentrated KZ-only portfolio would have suffered the full 50% drop",
+              "ru": "Диверсификация поглотила большую часть странового риска — концентрированный портфель только из KZ-акций получил бы полное падение на 50%",
+              "kk": "Диверсификация елге тән тәуекелдің көп бөлігін сіңірді — тек KZ акцияларынан тұратын шоғырланған портфель толық 50% құлдырауға ұшырар еді"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Diversification failed — she still lost 6%, which proves it doesn't work",
+              "ru": "Диверсификация не сработала — она всё равно потеряла 6%, значит это не работает",
+              "kk": "Диверсификация сәтсіз болды — ол бәрібір 6% жоғалтты, демек бұл жұмыс істемейді"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "She would have been better off with a KZ-only portfolio to avoid foreign exchange risk",
+              "ru": "Ей было бы лучше держать только KZ-портфель, чтобы избежать валютного риска",
+              "kk": "Валюталық тәуекелден қашу үшін оған тек KZ портфелі жақсырақ болар еді"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "25 stocks is not enough for diversification to function",
+              "ru": "25 stocks is not enough for diversification to function",
+              "kk": "25 stocks is not enough for diversification to function"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 4,
         "question_type": "single_choice",
         "order_index": 3,
-        "question_text": {"en": "Which of the following risks cannot be reduced by diversification, regardless of how many different assets an investor holds?"},
+        "question_text": {
+          "en": "Which of the following risks cannot be reduced by diversification, regardless of how many different assets an investor holds?",
+          "ru": "Какой из следующих рисков нельзя снизить диверсификацией, независимо от количества активов у инвестора?",
+          "kk": "Инвестор қанша әртүрлі актив ұстаса да, төмендегі тәуекелдердің қайсысын диверсификациямен азайту мүмкін емес?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Systematic risk — broad economic downturns affect all asset classes simultaneously"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "Concentration risk — spreading across many assets always eliminates it"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "Single-company credit risk — this can be diversified by holding many bonds"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "Sector-specific risk — different sectors always move in opposite directions"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Systematic risk — broad economic downturns affect all asset classes simultaneously",
+              "ru": "Систематический риск — широкие экономические спады одновременно влияют на все классы активов",
+              "kk": "Жүйелік тәуекел — кең экономикалық құлдыраулар барлық актив кластарына бір уақытта әсер етеді"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Concentration risk — spreading across many assets always eliminates it",
+              "ru": "Риск концентрации — распределение по многим активам всегда его устраняет",
+              "kk": "Шоғырлану тәуекелі — көптеген активке бөлу оны әрқашан жояды"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Single-company credit risk — this can be diversified by holding many bonds",
+              "ru": "Кредитный риск одной компании — его можно диверсифицировать, держа много облигаций",
+              "kk": "Бір компанияның кредиттік тәуекелі — көп облигация ұстау арқылы диверсификациялауға болады"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Sector-specific risk — different sectors always move in opposite directions",
+              "ru": "Секторный риск — разные секторы всегда движутся в противоположные стороны",
+              "kk": "Секторға тән тәуекел — әртүрлі секторлар әрқашан қарама-қарсы қозғалады"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 5,
         "question_type": "single_choice",
         "order_index": 4,
-        "question_text": {"en": "Marat has a 30-year horizon and high income stability, but he panic-sold his entire portfolio during the last market correction. A financial advisor tells him to hold a 90% equity portfolio because his 'objective risk capacity is high.' What is missing from this advice?"},
+        "question_text": {
+          "en": "Marat has a 30-year horizon and high income stability, but he panic-sold his entire portfolio during the last market correction. A financial advisor tells him to hold a 90% equity portfolio because his 'objective risk capacity is high.' What is missing from this advice?",
+          "ru": "У Марата горизонт 30 лет и высокая стабильность дохода, но во время последней коррекции рынка он в панике продал весь портфель. Финансовый консультант советует ему держать 90% портфеля в акциях, потому что его «объективная рисковая способность высокая». Чего не хватает в этом совете?",
+          "kk": "Мараттың көкжиегі 30 жыл және табысы тұрақты, бірақ соңғы нарықтық түзетуде ол үреймен бүкіл портфелін сатып жіберді. Қаржы кеңесшісі оған «объективті тәуекел сыйымдылығы жоғары» болғандықтан 90% акция портфелін ұстауды айтады. Бұл кеңесте не жетіспейді?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Emotional risk appetite — proven willingness to stay invested through downturns is part of true risk tolerance, not just financial capacity"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "Nothing — financial capacity is the only valid measure; emotional reactions should be ignored"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "Income stability analysis — his income is not guaranteed over 30 years"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "A longer time horizon — 30 years is not enough for aggressive equity allocation"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Emotional risk appetite — proven willingness to stay invested through downturns is part of true risk tolerance, not just financial capacity",
+              "ru": "Эмоционального аппетита к риску — доказанная готовность оставаться инвестированным во время падений является частью настоящей толерантности к риску, а не только финансовой способности",
+              "kk": "Эмоциялық тәуекел аппетиті — құлдырауларда инвестицияда қалуға дәлелденген дайындық нақты тәуекелге төзімділіктің бөлігі, тек қаржылық сыйымдылық емес"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Nothing — financial capacity is the only valid measure; emotional reactions should be ignored",
+              "ru": "Ничего — финансовая способность является единственным правильным показателем, эмоциональные реакции нужно игнорировать",
+              "kk": "Ештеңе — қаржылық сыйымдылық жалғыз дұрыс өлшем, эмоциялық реакцияларды елемеу керек"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Income stability analysis — his income is not guaranteed over 30 years",
+              "ru": "Анализа стабильности дохода — его доход не гарантирован на 30 лет",
+              "kk": "Табыс тұрақтылығын талдау — оның табысы 30 жылға кепілденбеген"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "A longer time horizon — 30 years is not enough for aggressive equity allocation",
+              "ru": "Более длинного горизонта — 30 лет недостаточно для агрессивной доли акций",
+              "kk": "Ұзағырақ уақыт көкжиегі — 30 жыл агрессивті акция бөлуіне жеткіліксіз"
+            },
+            "is_correct": false
+          }
         ]
       }
     ]

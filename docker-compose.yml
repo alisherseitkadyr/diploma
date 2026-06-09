@@ -84,8 +84,9 @@ services:
     restart: unless-stopped
 
   seed:
-    build: .
-    command: ["./seeds/runner"]
+    build:
+      context: .
+      target: seed-runner
     environment:
       DATABASE_URL: ${DATABASE_URL}
       SEEDS_DIR: seeds

@@ -3,11 +3,16 @@
   "topic": {
     "code": "portfolio_construction",
     "orderIndex": 23,
+    "icon_path": "assets/topics/023.png",
     "title": {
-      "en": "Portfolio Construction"
+      "en": "Portfolio Construction",
+      "ru": "Построение портфеля",
+      "kk": "Портфель құру"
     },
     "description": {
-      "en": "Assembling assets into a coherent whole — allocation, diversification, rebalancing, and matching the mix to your life stage and goals."
+      "en": "Assembling assets into a coherent whole — allocation, diversification, rebalancing, and matching the mix to your life stage and goals.",
+      "ru": "Сборка активов в единое целое: распределение, диверсификация, ребалансировка и подбор состава под жизненный этап и цели.",
+      "kk": "Сборка активов в единое целое: распределение, диверсификация, ребалансировка и подбор состава под жизненный этап и цели."
     },
     "level": "advanced",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "asset_allocation",
       "title": {
-        "en": "Asset Allocation"
+        "en": "Asset Allocation",
+        "ru": "Распределение активов",
+        "kk": "Активтерді бөлу"
       },
       "description": {
-        "en": "Asset allocation decides how much of a portfolio goes to major asset groups, shaping most of its risk and return pattern."
+        "en": "Asset allocation decides how much of a portfolio goes to major asset groups, shaping most of its risk and return pattern.",
+        "ru": "Распределение активов определяет, какая доля портфеля приходится на основные группы активов, и формирует большую часть его риска и доходности.",
+        "kk": "Распределение активов определяет, какая доля портфеля приходится на основные группы активов, и формирует большую часть его риска и доходности."
       },
       "estimatedMinutes": 6,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Allocation is the portfolio's engine"
+              "en": "Allocation is the portfolio's engine",
+              "ru": "Распределение — двигатель портфеля",
+              "kk": "Распределение — двигатель портфеля"
             },
             "body": {
-              "en": "Asset allocation is the split between major asset groups such as stocks, bonds, cash, and real assets. It matters because each group behaves differently in growth, inflation, stress, and calm markets. The mix often matters more than any single fund choice."
+              "en": "Asset allocation is the split between major asset groups such as stocks, bonds, cash, and real assets. It matters because each group behaves differently in growth, inflation, stress, and calm markets. The mix often matters more than any single fund choice.",
+              "ru": "Распределение активов — это деление портфеля между основными группами: акциями, облигациями, деньгами и реальными активами. Это важно, потому что каждая группа по-разному ведёт себя при росте, инфляции, стрессе и спокойных рынках. Состав портфеля часто важнее выбора одного конкретного фонда.",
+              "kk": "Распределение активов — это деление портфеля между основными группами: акциями, облигациями, деньгами и реальными активами. Это важно, потому что каждая группа по-разному ведёт себя при росте, инфляции, стрессе и спокойных рынках. Состав портфеля часто важнее выбора одного конкретного фонда."
             },
             "tip": {
-              "en": "Before asking which stock or fund to buy, ask what role the whole portfolio needs."
+              "en": "Before asking which stock or fund to buy, ask what role the whole portfolio needs.",
+              "ru": "Прежде чем спрашивать, какую акцию или фонд купить, спросите, какую роль должен выполнять весь портфель.",
+              "kk": "Прежде чем спрашивать, какую акцию или фонд купить, спросите, какую роль должен выполнять весь портфель."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Risk comes from the mix"
+              "en": "Risk comes from the mix",
+              "ru": "Риск рождается из состава",
+              "kk": "Риск рождается из состава"
             },
             "body": {
-              "en": "A portfolio with 90% stocks will usually behave very differently from one with 40% stocks and 60% bonds or cash. Higher growth exposure can raise long-term return potential, but also increases short-term drawdown risk. Allocation turns goals into a risk budget."
+              "en": "A portfolio with 90% stocks will usually behave very differently from one with 40% stocks and 60% bonds or cash. Higher growth exposure can raise long-term return potential, but also increases short-term drawdown risk. Allocation turns goals into a risk budget.",
+              "ru": "Портфель с 90% акций обычно будет вести себя совсем иначе, чем портфель с 40% акций и 60% облигаций или денег. Более высокая доля активов роста может повысить долгосрочный потенциал доходности, но также увеличивает риск краткосрочных просадок. Распределение превращает цели в бюджет риска.",
+              "kk": "Портфель с 90% акций обычно будет вести себя совсем иначе, чем портфель с 40% акций и 60% облигаций или денег. Более высокая доля активов роста может повысить долгосрочный потенциал доходности, но также увеличивает риск краткосрочных просадок. Распределение превращает цели в бюджет риска."
             },
             "example": {
-              "en": "A ₸2,000,000 portfolio at 80% stocks has ₸1,600,000 exposed to equity risk. A 30% stock-market fall could reduce the portfolio by about ₸480,000 before considering other assets."
+              "en": "A ₸2,000,000 portfolio at 80% stocks has ₸1,600,000 exposed to equity risk. A 30% stock-market fall could reduce the portfolio by about ₸480,000 before considering other assets.",
+              "ru": "В портфеле на ₸2 000 000 при доле акций 80% риск акций касается ₸1 600 000. Падение рынка акций на 30% может снизить портфель примерно на ₸480 000 без учёта других активов.",
+              "kk": "В портфеле на ₸2 000 000 при доле акций 80% риск акций касается ₸1 600 000. Падение рынка акций на 30% может снизить портфель примерно на ₸480 000 без учёта других активов."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Each asset has a job"
+              "en": "Each asset has a job",
+              "ru": "У каждого актива есть задача",
+              "kk": "У каждого актива есть задача"
             },
             "body": {
-              "en": "Stocks usually provide growth potential, bonds can provide income and stability, and cash provides liquidity. Real estate or commodities may add inflation sensitivity or different risk exposure. A good allocation gives every asset a reason to be there."
+              "en": "Stocks usually provide growth potential, bonds can provide income and stability, and cash provides liquidity. Real estate or commodities may add inflation sensitivity or different risk exposure. A good allocation gives every asset a reason to be there.",
+              "ru": "Акции обычно дают потенциал роста, облигации могут давать доход и стабильность, а деньги обеспечивают ликвидность. Недвижимость или сырьевые товары могут добавить чувствительность к инфляции или иной тип риска. В хорошем распределении у каждого актива есть причина быть в портфеле.",
+              "kk": "Акции обычно дают потенциал роста, облигации могут давать доход и стабильность, а деньги обеспечивают ликвидность. Недвижимость или сырьевые товары могут добавить чувствительность к инфляции или иной тип риска. В хорошем распределении у каждого актива есть причина быть в портфеле."
             },
             "tip": {
-              "en": "If you cannot explain an asset's job, it may not belong in the portfolio."
+              "en": "If you cannot explain an asset's job, it may not belong in the portfolio.",
+              "ru": "Если вы не можете объяснить задачу актива, возможно, ему не место в портфеле.",
+              "kk": "Если вы не можете объяснить задачу актива, возможно, ему не место в портфеле."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Three portfolios, three behaviors"
+              "en": "Three portfolios, three behaviors",
+              "ru": "Три портфеля — три поведения",
+              "kk": "Три портфеля — три поведения"
             },
             "content": {
               "en": {
@@ -120,6 +149,96 @@
                     "text": "The best allocation depends on the investor's goal, horizon, and ability to tolerate losses without abandoning the plan."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У трёх инвесторов по ₸3 000 000, но их распределение создаёт разные профили риска."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Портфель",
+                        "Акции",
+                        "Облигации",
+                        "Деньги",
+                        "Вероятное поведение"
+                      ],
+                      [
+                        "Ориентация на рост",
+                        "80%",
+                        "15%",
+                        "5%",
+                        "Более высокий долгосрочный потенциал, более крупные просадки"
+                      ],
+                      [
+                        "Сбалансированный",
+                        "60%",
+                        "30%",
+                        "10%",
+                        "Умеренный рост и более плавная динамика"
+                      ],
+                      [
+                        "Консервативный",
+                        "30%",
+                        "45%",
+                        "25%",
+                        "Ниже волатильность, ниже потенциал роста"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Лучшее распределение зависит от цели инвестора, горизонта и способности переносить убытки, не бросая план."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У трёх инвесторов по ₸3 000 000, но их распределение создаёт разные профили риска."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Портфель",
+                        "Акциялар",
+                        "Облигациялар",
+                        "Қолма-қол қаражат",
+                        "Ықтимал мінез-құлық"
+                      ],
+                      [
+                        "Өсуге бағытталған",
+                        "80%",
+                        "15%",
+                        "5%",
+                        "KK: Более высокий долгосрочный потенциал, более крупные просадки"
+                      ],
+                      [
+                        "Теңгерімді",
+                        "60%",
+                        "30%",
+                        "10%",
+                        "KK: Умеренный рост и более плавная динамика"
+                      ],
+                      [
+                        "Консервативті",
+                        "30%",
+                        "45%",
+                        "25%",
+                        "KK: Ниже волатильность, ниже потенциал роста"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Лучшее распределение зависит от цели инвестора, горизонта и способности переносить убытки, не бросая план."
+                  }
+                ]
               }
             }
           },
@@ -128,10 +247,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Build the allocation"
+              "en": "Build the allocation",
+              "ru": "Соберите распределение",
+              "kk": "Бөлуді құрыңыз"
             },
             "body": {
-              "en": "Allocate a portfolio across stocks, bonds, and cash. The total must equal 100%."
+              "en": "Allocate a portfolio across stocks, bonds, and cash. The total must equal 100%.",
+              "ru": "Распределите портфель между акциями, облигациями и деньгами. Сумма должна быть равна 100%.",
+              "kk": "Распределите портфель между акциями, облигациями и деньгами. Сумма должна быть равна 100%."
             },
             "interactiveType": "input_numbers",
             "interactiveContent": {
@@ -160,6 +283,58 @@
                   "cash": "10"
                 },
                 "explanation": "There is no universal correct split. The point is that risk and return come from the total mix, and every percentage assigned to one asset is unavailable for another."
+              },
+              "ru": {
+                "instruction": "Распределите 100 между акциями, облигациями и деньгами. Сумма должна быть равна 100.",
+                "fields": [
+                  {
+                    "id": "stocks",
+                    "label": "Акции (%)"
+                  },
+                  {
+                    "id": "bonds",
+                    "label": "Облигации (%)"
+                  },
+                  {
+                    "id": "cash",
+                    "label": "Деньги (%)"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 100
+                },
+                "exampleAnswer": {
+                  "stocks": "60",
+                  "bonds": "30",
+                  "cash": "10"
+                },
+                "explanation": "Универсально правильной доли нет. Смысл в том, что риск и доходность идут от общего состава, а каждый процент, отданный одному активу, недоступен для другого."
+              },
+              "kk": {
+                "instruction": "Распределите 100 между акциями, облигациями и деньгами. Сумма должна быть равна 100.",
+                "fields": [
+                  {
+                    "id": "stocks",
+                    "label": "Акциялар (%)"
+                  },
+                  {
+                    "id": "bonds",
+                    "label": "Облигациялар (%)"
+                  },
+                  {
+                    "id": "cash",
+                    "label": "Қолма-қол қаражат (%)"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 100
+                },
+                "exampleAnswer": {
+                  "stocks": "60",
+                  "bonds": "30",
+                  "cash": "10"
+                },
+                "explanation": "Универсально правильной доли нет. Смысл в том, что риск и доходность идут от общего состава, а каждый процент, отданный одному активу, недоступен для другого."
               }
             }
           },
@@ -168,13 +343,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Allocation turns intention into structure"
+              "en": "Allocation turns intention into structure",
+              "ru": "Распределение превращает намерение в структуру",
+              "kk": "Распределение превращает намерение в структуру"
             },
             "body": {
-              "en": "Asset allocation is the bridge between goals and investment behavior. It decides how much growth, stability, and liquidity the portfolio carries. A strong allocation is not the most exciting one; it is the one the investor can keep through realistic market conditions."
+              "en": "Asset allocation is the bridge between goals and investment behavior. It decides how much growth, stability, and liquidity the portfolio carries. A strong allocation is not the most exciting one; it is the one the investor can keep through realistic market conditions.",
+              "ru": "Распределение активов — мост между целями и инвестиционным поведением. Оно определяет, сколько роста, стабильности и ликвидности несёт портфель. Сильное распределение — не самое захватывающее, а то, которое инвестор сможет удерживать в реальных рыночных условиях.",
+              "kk": "Распределение активов — мост между целями и инвестиционным поведением. Оно определяет, сколько роста, стабильности и ликвидности несёт портфель. Сильное распределение — не самое захватывающее, а то, которое инвестор сможет удерживать в реальных рыночных условиях."
             },
             "tip": {
-              "en": "The right allocation is measured by staying power, not just expected return."
+              "en": "The right allocation is measured by staying power, not just expected return.",
+              "ru": "Правильное распределение измеряется устойчивостью, а не только ожидаемой доходностью.",
+              "kk": "Правильное распределение измеряется устойчивостью, а не только ожидаемой доходностью."
             }
           }
         ]
@@ -183,7 +364,9 @@
         "quiz_id": 2301,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Asset Allocation — Check"
+          "en": "Asset Allocation — Check",
+          "ru": "Распределение активов — проверка",
+          "kk": "Активтерді бөлу — тексеру"
         },
         "questions": [
           {
@@ -191,14 +374,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Two investors own the same stock fund, but one has 20% in it and the other has 90%. Why will their outcomes differ?"
+              "en": "Two investors own the same stock fund, but one has 20% in it and the other has 90%. Why will their outcomes differ?",
+              "ru": "Два инвестора владеют одним и тем же фондом акций, но у одного в нём 20%, а у другого 90%. Почему их результаты будут отличаться?",
+              "kk": "Два инвестора владеют одним и тем же фондом акций, но у одного в нём 20%, а у другого 90%. Почему их результаты будут отличаться?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The fund's impact depends on its weight in the total portfolio"
+                  "en": "The fund's impact depends on its weight in the total portfolio",
+                  "ru": "Влияние фонда зависит от его веса в общем портфеле",
+                  "kk": "Влияние фонда зависит от его веса в общем портфеле"
                 },
                 "is_correct": true
               },
@@ -206,7 +393,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The fund changes its return for each investor"
+                  "en": "The fund changes its return for each investor",
+                  "ru": "Фонд меняет доходность для каждого инвестора",
+                  "kk": "Фонд меняет доходность для каждого инвестора"
                 },
                 "is_correct": false
               },
@@ -214,7 +403,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A smaller weight always guarantees higher return"
+                  "en": "A smaller weight always guarantees higher return",
+                  "ru": "Меньший вес всегда гарантирует более высокую доходность",
+                  "kk": "Меньший вес всегда гарантирует более высокую доходность"
                 },
                 "is_correct": false
               },
@@ -222,7 +413,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Portfolio weights do not affect risk"
+                  "en": "Portfolio weights do not affect risk",
+                  "ru": "Веса в портфеле не влияют на риск",
+                  "kk": "Веса в портфеле не влияют на риск"
                 },
                 "is_correct": false
               }
@@ -233,14 +426,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which allocation best fits money needed for a home down payment in six months?"
+              "en": "Which allocation best fits money needed for a home down payment in six months?",
+              "ru": "Какое распределение лучше подходит для денег, нужных на первоначальный взнос за жильё через шесть месяцев?",
+              "kk": "Какое распределение лучше подходит для денег, нужных на первоначальный взнос за жильё через шесть месяцев?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Mostly cash or very stable short-term instruments"
+                  "en": "Mostly cash or very stable short-term instruments",
+                  "ru": "В основном деньги или очень стабильные краткосрочные инструменты",
+                  "kk": "В основном деньги или очень стабильные краткосрочные инструменты"
                 },
                 "is_correct": true
               },
@@ -248,7 +445,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "100% volatile stocks for maximum growth"
+                  "en": "100% volatile stocks for maximum growth",
+                  "ru": "100% волатильных акций ради максимального роста",
+                  "kk": "100% волатильных акций ради максимального роста"
                 },
                 "is_correct": false
               },
@@ -256,7 +455,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Only high-risk crypto assets"
+                  "en": "Only high-risk crypto assets",
+                  "ru": "Только высокорисковые криптоактивы",
+                  "kk": "Только высокорисковые криптоактивы"
                 },
                 "is_correct": false
               },
@@ -264,7 +465,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A portfolio chosen by last year's best-performing asset"
+                  "en": "A portfolio chosen by last year's best-performing asset",
+                  "ru": "Портфель, выбранный по самому успешному активу прошлого года",
+                  "kk": "Портфель, выбранный по самому успешному активу прошлого года"
                 },
                 "is_correct": false
               }
@@ -275,14 +478,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the best reason to include cash in a portfolio?"
+              "en": "What is the best reason to include cash in a portfolio?",
+              "ru": "Какая лучшая причина включать деньги в портфель?",
+              "kk": "Какая лучшая причина включать деньги в портфель?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Liquidity and stability for near-term needs or opportunities"
+                  "en": "Liquidity and stability for near-term needs or opportunities",
+                  "ru": "Ликвидность и стабильность для ближайших потребностей или возможностей",
+                  "kk": "Ликвидность и стабильность для ближайших потребностей или возможностей"
                 },
                 "is_correct": true
               },
@@ -290,7 +497,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Cash always earns the highest long-term return"
+                  "en": "Cash always earns the highest long-term return",
+                  "ru": "Деньги всегда дают самую высокую долгосрочную доходность",
+                  "kk": "Деньги всегда дают самую высокую долгосрочную доходность"
                 },
                 "is_correct": false
               },
@@ -298,7 +507,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Cash removes inflation risk completely"
+                  "en": "Cash removes inflation risk completely",
+                  "ru": "Деньги полностью устраняют инфляционный риск",
+                  "kk": "Деньги полностью устраняют инфляционный риск"
                 },
                 "is_correct": false
               },
@@ -306,7 +517,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Cash guarantees stock-market gains"
+                  "en": "Cash guarantees stock-market gains",
+                  "ru": "Деньги гарантируют рост рынка акций",
+                  "kk": "Деньги гарантируют рост рынка акций"
                 },
                 "is_correct": false
               }
@@ -318,10 +531,14 @@
     {
       "code": "portfolio_diversification",
       "title": {
-        "en": "Diversification in a Portfolio"
+        "en": "Diversification in a Portfolio",
+        "ru": "Диверсификация в портфеле",
+        "kk": "Портфельдегі әртараптандыру"
       },
       "description": {
-        "en": "Diversification spreads exposure across assets whose risks are not identical, reducing dependence on one outcome."
+        "en": "Diversification spreads exposure across assets whose risks are not identical, reducing dependence on one outcome.",
+        "ru": "Диверсификация распределяет экспозицию между активами с неодинаковыми рисками, снижая зависимость от одного исхода.",
+        "kk": "Диверсификация распределяет экспозицию между активами с неодинаковыми рисками, снижая зависимость от одного исхода."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -333,13 +550,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Diversification is not owning many things"
+              "en": "Diversification is not owning many things",
+              "ru": "Диверсификация — это не просто владение множеством вещей",
+              "kk": "Диверсификация — это не просто владение множеством вещей"
             },
             "body": {
-              "en": "A portfolio can contain many assets and still be concentrated if they all depend on the same risk. Diversification means spreading exposure across different drivers of return. The purpose is to avoid one mistake or one environment dominating everything."
+              "en": "A portfolio can contain many assets and still be concentrated if they all depend on the same risk. Diversification means spreading exposure across different drivers of return. The purpose is to avoid one mistake or one environment dominating everything.",
+              "ru": "Портфель может содержать много активов и всё равно быть концентрированным, если все они зависят от одного риска. Диверсификация означает распределение экспозиции между разными источниками доходности. Цель — не дать одной ошибке или одной среде доминировать над всем.",
+              "kk": "Портфель может содержать много активов и всё равно быть концентрированным, если все они зависят от одного риска. Диверсификация означает распределение экспозиции между разными источниками доходности. Цель — не дать одной ошибке или одной среде доминировать над всем."
             },
             "tip": {
-              "en": "Count risks, not just asset names."
+              "en": "Count risks, not just asset names.",
+              "ru": "Считайте риски, а не только названия активов.",
+              "kk": "Считайте риски, а не только названия активов."
             }
           },
           {
@@ -347,10 +570,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Correlation is the hidden link"
+              "en": "Correlation is the hidden link",
+              "ru": "Корреляция — скрытая связь",
+              "kk": "Корреляция — скрытая связь"
             },
             "body": {
-              "en": "Assets that rise and fall together provide less diversification than they appear to. Assets with different drivers can smooth the ride, though they may not protect in every crisis. Diversification reduces specific risks; it does not remove market risk completely."
+              "en": "Assets that rise and fall together provide less diversification than they appear to. Assets with different drivers can smooth the ride, though they may not protect in every crisis. Diversification reduces specific risks; it does not remove market risk completely.",
+              "ru": "Активы, которые растут и падают вместе, дают меньше диверсификации, чем кажется. Активы с разными факторами могут сгладить путь, хотя не защищают в каждом кризисе. Диверсификация снижает специфические риски, но не устраняет рыночный риск полностью.",
+              "kk": "Активы, которые растут и падают вместе, дают меньше диверсификации, чем кажется. Активы с разными факторами могут сгладить путь, хотя не защищают в каждом кризисе. Диверсификация снижает специфические риски, но не устраняет рыночный риск полностью."
             }
           },
           {
@@ -358,13 +585,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Concentration can be intentional or accidental"
+              "en": "Concentration can be intentional or accidental",
+              "ru": "Концентрация может быть намеренной или случайной",
+              "kk": "Концентрация может быть намеренной или случайной"
             },
             "body": {
-              "en": "Some investors choose concentration because they have strong evidence and can tolerate failure. Many others become concentrated accidentally through overlapping funds, employer stock, local real estate, or one sector. Accidental concentration is risk without a clear reason."
+              "en": "Some investors choose concentration because they have strong evidence and can tolerate failure. Many others become concentrated accidentally through overlapping funds, employer stock, local real estate, or one sector. Accidental concentration is risk without a clear reason.",
+              "ru": "Некоторые инвесторы сознательно выбирают концентрацию, потому что имеют сильные аргументы и могут выдержать неудачу. Многие другие концентрируются случайно через пересекающиеся фонды, акции работодателя, местную недвижимость или один сектор. Случайная концентрация — это риск без ясной причины.",
+              "kk": "Некоторые инвесторы сознательно выбирают концентрацию, потому что имеют сильные аргументы и могут выдержать неудачу. Многие другие концентрируются случайно через пересекающиеся фонды, акции работодателя, местную недвижимость или один сектор. Случайная концентрация — это риск без ясной причины."
             },
             "example": {
-              "en": "Owning a Kazakhstan apartment, salary from a local bank, and shares of the same bank can concentrate wealth, income, and housing in one economic environment."
+              "en": "Owning a Kazakhstan apartment, salary from a local bank, and shares of the same bank can concentrate wealth, income, and housing in one economic environment.",
+              "ru": "Квартира в Казахстане, зарплата в местном банке и акции того же банка могут сосредоточить богатство, доход и жильё в одной экономической среде.",
+              "kk": "Квартира в Казахстане, зарплата в местном банке и акции того же банка могут сосредоточить богатство, доход и жильё в одной экономической среде."
             }
           },
           {
@@ -372,7 +605,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Five holdings, one real bet"
+              "en": "Five holdings, one real bet",
+              "ru": "Пять позиций, одна настоящая ставка",
+              "kk": "Пять позиций, одна настоящая ставка"
             },
             "content": {
               "en": {
@@ -421,6 +656,100 @@
                     "text": "The portfolio has many lines, but much of it depends on the same growth and risk-appetite environment."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор считает себя диверсифицированным, потому что владеет пятью инвестициями. Но экспозиции показывают другую картину."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Позиция",
+                        "Метка",
+                        "Доминирующая экспозиция"
+                      ],
+                      [
+                        "Технологический фонд A",
+                        "Глобальный рост",
+                        "Крупные технологические акции"
+                      ],
+                      [
+                        "Технологический фонд B",
+                        "Инновации",
+                        "Крупные технологические акции"
+                      ],
+                      [
+                        "Одна акция",
+                        "Облачная компания",
+                        "Технологический сектор"
+                      ],
+                      [
+                        "Акции работодателя",
+                        "Источник зарплаты",
+                        "Риск дохода в том же секторе"
+                      ],
+                      [
+                        "Криптотокен",
+                        "Цифровой актив",
+                        "Цикл высокого аппетита к риску"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "В портфеле много строк, но большая часть зависит от одной и той же среды роста и аппетита к риску."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор считает себя диверсифицированным, потому что владеет пятью инвестициями. Но экспозиции показывают другую картину."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "KK: Позиция",
+                        "KK: Метка",
+                        "KK: Доминирующая экспозиция"
+                      ],
+                      [
+                        "KK: Технологический фонд A",
+                        "KK: Глобальный рост",
+                        "KK: Крупные технологические акции"
+                      ],
+                      [
+                        "KK: Технологический фонд B",
+                        "KK: Инновации",
+                        "KK: Крупные технологические акции"
+                      ],
+                      [
+                        "KK: Одна акция",
+                        "KK: Облачная компания",
+                        "KK: Технологический сектор"
+                      ],
+                      [
+                        "KK: Акции работодателя",
+                        "KK: Источник зарплаты",
+                        "KK: Риск дохода в том же секторе"
+                      ],
+                      [
+                        "KK: Криптотокен",
+                        "KK: Цифровой актив",
+                        "KK: Цикл высокого аппетита к риску"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "В портфеле много строк, но большая часть зависит от одной и той же среды роста и аппетита к риску."
+                  }
+                ]
               }
             }
           },
@@ -429,10 +758,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Find the diversification issue"
+              "en": "Find the diversification issue",
+              "ru": "Найдите проблему диверсификации",
+              "kk": "Найдите проблему диверсификации"
             },
             "body": {
-              "en": "Classify each situation by the diversification problem it creates."
+              "en": "Classify each situation by the diversification problem it creates.",
+              "ru": "Классифицируйте каждую ситуацию по проблеме диверсификации, которую она создаёт.",
+              "kk": "Классифицируйте каждую ситуацию по проблеме диверсификации, которую она создаёт."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -460,6 +793,56 @@
                     "explanation": "Job income and investments are tied to the same company risk."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите главную проблему диверсификации.",
+                "options": [
+                  "Пересечение",
+                  "Концентрация в одном секторе",
+                  "Концентрация дохода и активов"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инвестор владеет тремя фондами, но у всех одни и те же десять крупнейших технологических позиций.",
+                    "correct_answer": "Пересечение",
+                    "explanation": "Разные названия фондов не гарантируют разную базовую экспозицию."
+                  },
+                  {
+                    "text": "В портфеле 75% энергетических компаний, потому что сектор хорошо показал себя в прошлом году.",
+                    "correct_answer": "Концентрация в одном секторе",
+                    "explanation": "Портфель сильно зависит от условий одной отрасли."
+                  },
+                  {
+                    "text": "Человек работает в банке и держит большую часть накоплений в акциях этого банка.",
+                    "correct_answer": "Концентрация дохода и активов",
+                    "explanation": "Трудовой доход и инвестиции связаны с риском одной компании."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Выберите главную проблему диверсификации.",
+                "options": [
+                  "Қабаттасу",
+                  "Бір секторға шоғырлану",
+                  "Табыс пен активтің шоғырлануы"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инвестор владеет тремя фондами, но у всех одни и те же десять крупнейших технологических позиций.",
+                    "correct_answer": "Қабаттасу",
+                    "explanation": "Разные названия фондов не гарантируют разную базовую экспозицию."
+                  },
+                  {
+                    "text": "В портфеле 75% энергетических компаний, потому что сектор хорошо показал себя в прошлом году.",
+                    "correct_answer": "Бір секторға шоғырлану",
+                    "explanation": "Портфель сильно зависит от условий одной отрасли."
+                  },
+                  {
+                    "text": "Человек работает в банке и держит большую часть накоплений в акциях этого банка.",
+                    "correct_answer": "Табыс пен активтің шоғырлануы",
+                    "explanation": "Трудовой доход и инвестиции связаны с риском одной компании."
+                  }
+                ]
               }
             }
           },
@@ -468,13 +851,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Diversification buys humility"
+              "en": "Diversification buys humility",
+              "ru": "Диверсификация покупает скромность",
+              "kk": "Диверсификация покупает скромность"
             },
             "body": {
-              "en": "Diversification accepts that the future is uncertain and that your best idea can be wrong. It spreads risk across different assets, sectors, regions, and return drivers. A diversified portfolio may not always feel exciting, but it reduces the chance that one bad outcome controls your financial life."
+              "en": "Diversification accepts that the future is uncertain and that your best idea can be wrong. It spreads risk across different assets, sectors, regions, and return drivers. A diversified portfolio may not always feel exciting, but it reduces the chance that one bad outcome controls your financial life.",
+              "ru": "Диверсификация признаёт, что будущее неопределённо и лучшая идея может оказаться ошибочной. Она распределяет риск между разными активами, секторами, регионами и факторами доходности. Диверсифицированный портфель не всегда выглядит захватывающе, но снижает вероятность, что один плохой исход будет управлять всей финансовой жизнью.",
+              "kk": "Диверсификация признаёт, что будущее неопределённо и лучшая идея может оказаться ошибочной. Она распределяет риск между разными активами, секторами, регионами и факторами доходности. Диверсифицированный портфель не всегда выглядит захватывающе, но снижает вероятность, что один плохой исход будет управлять всей финансовой жизнью."
             },
             "tip": {
-              "en": "The goal is not maximum number of holdings; it is fewer single points of failure."
+              "en": "The goal is not maximum number of holdings; it is fewer single points of failure.",
+              "ru": "Цель — не максимальное число позиций, а меньше единых точек отказа.",
+              "kk": "Цель — не максимальное число позиций, а меньше единых точек отказа."
             }
           }
         ]
@@ -483,7 +872,9 @@
         "quiz_id": 2302,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Portfolio Diversification — Check"
+          "en": "Portfolio Diversification — Check",
+          "ru": "Диверсификация портфеля — проверка",
+          "kk": "Портфельді әртараптандыру — тексеру"
         },
         "questions": [
           {
@@ -491,14 +882,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "An investor owns five funds, but all heavily hold the same companies. What is the main problem?"
+              "en": "An investor owns five funds, but all heavily hold the same companies. What is the main problem?",
+              "ru": "Инвестор владеет пятью фондами, но все они сильно держат одни и те же компании. В чём главная проблема?",
+              "kk": "Инвестор владеет пятью фондами, но все они сильно держат одни и те же компании. В чём главная проблема?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The portfolio has product diversity but not true exposure diversity"
+                  "en": "The portfolio has product diversity but not true exposure diversity",
+                  "ru": "В портфеле есть разнообразие продуктов, но нет настоящего разнообразия экспозиций",
+                  "kk": "В портфеле есть разнообразие продуктов, но нет настоящего разнообразия экспозиций"
                 },
                 "is_correct": true
               },
@@ -506,7 +901,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Five funds always guarantee perfect diversification"
+                  "en": "Five funds always guarantee perfect diversification",
+                  "ru": "Пять фондов всегда гарантируют идеальную диверсификацию",
+                  "kk": "Пять фондов всегда гарантируют идеальную диверсификацию"
                 },
                 "is_correct": false
               },
@@ -514,7 +911,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Funds cannot overlap by definition"
+                  "en": "Funds cannot overlap by definition",
+                  "ru": "Фонды по определению не могут пересекаться",
+                  "kk": "Фонды по определению не могут пересекаться"
                 },
                 "is_correct": false
               },
@@ -522,7 +921,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Company exposure does not matter inside funds"
+                  "en": "Company exposure does not matter inside funds",
+                  "ru": "Экспозиция к компаниям внутри фондов не имеет значения",
+                  "kk": "Экспозиция к компаниям внутри фондов не имеет значения"
                 },
                 "is_correct": false
               }
@@ -533,14 +934,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can employer stock be risky for an employee's portfolio?"
+              "en": "Why can employer stock be risky for an employee's portfolio?",
+              "ru": "Почему акции работодателя могут быть рискованны для портфеля работника?",
+              "kk": "Почему акции работодателя могут быть рискованны для портфеля работника?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Job income and investment wealth may depend on the same company"
+                  "en": "Job income and investment wealth may depend on the same company",
+                  "ru": "Трудовой доход и инвестиционное богатство могут зависеть от одной компании",
+                  "kk": "Трудовой доход и инвестиционное богатство могут зависеть от одной компании"
                 },
                 "is_correct": true
               },
@@ -548,7 +953,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Employer stock always pays a guaranteed return"
+                  "en": "Employer stock always pays a guaranteed return",
+                  "ru": "Акции работодателя всегда дают гарантированную доходность",
+                  "kk": "Акции работодателя всегда дают гарантированную доходность"
                 },
                 "is_correct": false
               },
@@ -556,7 +963,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Employees cannot understand their employer"
+                  "en": "Employees cannot understand their employer",
+                  "ru": "Сотрудники не могут понимать своего работодателя",
+                  "kk": "Сотрудники не могут понимать своего работодателя"
                 },
                 "is_correct": false
               },
@@ -564,7 +973,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Salary eliminates stock risk"
+                  "en": "Salary eliminates stock risk",
+                  "ru": "Зарплата устраняет риск акций",
+                  "kk": "Зарплата устраняет риск акций"
                 },
                 "is_correct": false
               }
@@ -575,14 +986,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which portfolio is more diversified in principle?"
+              "en": "Which portfolio is more diversified in principle?",
+              "ru": "Какой портфель в принципе более диверсифицирован?",
+              "kk": "Какой портфель в принципе более диверсифицирован?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "One spread across regions, sectors, and asset types with different risk drivers"
+                  "en": "One spread across regions, sectors, and asset types with different risk drivers",
+                  "ru": "Тот, что распределён по регионам, секторам и типам активов с разными факторами риска",
+                  "kk": "Тот, что распределён по регионам, секторам и типам активов с разными факторами риска"
                 },
                 "is_correct": true
               },
@@ -590,7 +1005,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "One with ten different names all tied to the same industry"
+                  "en": "One with ten different names all tied to the same industry",
+                  "ru": "Тот, где десять разных названий связаны с одной отраслью",
+                  "kk": "Тот, где десять разных названий связаны с одной отраслью"
                 },
                 "is_correct": false
               },
@@ -598,7 +1015,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "One made only of the investor's favorite company"
+                  "en": "One made only of the investor's favorite company",
+                  "ru": "Тот, который состоит только из любимой компании инвестора",
+                  "kk": "Тот, который состоит только из любимой компании инвестора"
                 },
                 "is_correct": false
               },
@@ -606,7 +1025,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "One chosen only from last month's winners"
+                  "en": "One chosen only from last month's winners",
+                  "ru": "Тот, что выбран только из победителей прошлого месяца",
+                  "kk": "Тот, что выбран только из победителей прошлого месяца"
                 },
                 "is_correct": false
               }
@@ -618,10 +1039,14 @@
     {
       "code": "rebalancing",
       "title": {
-        "en": "Rebalancing"
+        "en": "Rebalancing",
+        "ru": "Ребалансировка",
+        "kk": "Қайта теңгерімдеу"
       },
       "description": {
-        "en": "Rebalancing restores a portfolio to its target allocation after market moves change the weights."
+        "en": "Rebalancing restores a portfolio to its target allocation after market moves change the weights.",
+        "ru": "Ребалансировка возвращает портфель к целевому распределению после того, как рыночные движения меняют веса.",
+        "kk": "Ребалансировка возвращает портфель к целевому распределению после того, как рыночные движения меняют веса."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -633,13 +1058,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Portfolios drift"
+              "en": "Portfolios drift",
+              "ru": "Портфели отклоняются",
+              "kk": "Портфели отклоняются"
             },
             "body": {
-              "en": "Even if you choose a careful allocation, market movements will change it. Assets that rise become a larger share; assets that fall become smaller. Rebalancing brings the portfolio back to the intended risk level."
+              "en": "Even if you choose a careful allocation, market movements will change it. Assets that rise become a larger share; assets that fall become smaller. Rebalancing brings the portfolio back to the intended risk level.",
+              "ru": "Даже если вы выбрали продуманное распределение, рынок изменит его. Активы, которые выросли, станут большей долей; упавшие — меньшей. Ребалансировка возвращает портфель к задуманному уровню риска.",
+              "kk": "Даже если вы выбрали продуманное распределение, рынок изменит его. Активы, которые выросли, станут большей долей; упавшие — меньшей. Ребалансировка возвращает портфель к задуманному уровню риска."
             },
             "tip": {
-              "en": "Without rebalancing, yesterday's winners slowly rewrite your risk plan."
+              "en": "Without rebalancing, yesterday's winners slowly rewrite your risk plan.",
+              "ru": "Без ребалансировки вчерашние победители постепенно переписывают ваш план риска.",
+              "kk": "Без ребалансировки вчерашние победители постепенно переписывают ваш план риска."
             }
           },
           {
@@ -647,10 +1078,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Rebalancing is risk control"
+              "en": "Rebalancing is risk control",
+              "ru": "Ребалансировка — это контроль риска",
+              "kk": "Ребалансировка — это контроль риска"
             },
             "body": {
-              "en": "Rebalancing is not mainly about predicting which asset will win next. It is about preventing the portfolio from becoming more aggressive or conservative than intended. The action can feel uncomfortable because it often means trimming what recently worked."
+              "en": "Rebalancing is not mainly about predicting which asset will win next. It is about preventing the portfolio from becoming more aggressive or conservative than intended. The action can feel uncomfortable because it often means trimming what recently worked.",
+              "ru": "Ребалансировка не про предсказание следующего победителя. Она про то, чтобы портфель не стал агрессивнее или консервативнее, чем задумано. Это может быть психологически трудно, потому что часто означает сокращать то, что недавно хорошо работало.",
+              "kk": "Ребалансировка не про предсказание следующего победителя. Она про то, чтобы портфель не стал агрессивнее или консервативнее, чем задумано. Это может быть психологически трудно, потому что часто означает сокращать то, что недавно хорошо работало."
             }
           },
           {
@@ -658,13 +1093,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Rules reduce emotion"
+              "en": "Rules reduce emotion",
+              "ru": "Правила уменьшают эмоции",
+              "kk": "Правила уменьшают эмоции"
             },
             "body": {
-              "en": "Investors can rebalance by calendar, by threshold, or with new contributions. A threshold rule might rebalance when an asset drifts five percentage points from target. The rule matters because emotions are strongest after big moves."
+              "en": "Investors can rebalance by calendar, by threshold, or with new contributions. A threshold rule might rebalance when an asset drifts five percentage points from target. The rule matters because emotions are strongest after big moves.",
+              "ru": "Инвесторы могут ребалансировать по календарю, по порогу отклонения или новыми взносами. Пороговое правило может включаться, когда актив отклоняется от цели на пять процентных пунктов. Правило важно, потому что эмоции сильнее всего после больших движений.",
+              "kk": "Инвесторы могут ребалансировать по календарю, по порогу отклонения или новыми взносами. Пороговое правило может включаться, когда актив отклоняется от цели на пять процентных пунктов. Правило важно, потому что эмоции сильнее всего после больших движений."
             },
             "example": {
-              "en": "If the target is 60% stocks and the portfolio reaches 70%, a rule may move part of the gains into bonds or cash."
+              "en": "If the target is 60% stocks and the portfolio reaches 70%, a rule may move part of the gains into bonds or cash.",
+              "ru": "Если цель — 60% акций, а портфель дошёл до 70%, правило может перевести часть прибыли в облигации или деньги.",
+              "kk": "Если цель — 60% акций, а портфель дошёл до 70%, правило может перевести часть прибыли в облигации или деньги."
             }
           },
           {
@@ -672,7 +1113,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "A drifted portfolio"
+              "en": "A drifted portfolio",
+              "ru": "Портфель с отклонением",
+              "kk": "Портфель с отклонением"
             },
             "content": {
               "en": {
@@ -721,6 +1164,100 @@
                     "text": "Rebalancing turns a risk target into a repeated discipline rather than a one-time decision."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор начинает с ₸5 000 000 при цели 60/30/10. После сильного года акций веса отклоняются."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Актив",
+                        "Целевой вес",
+                        "Текущий вес",
+                        "Направление ребалансировки"
+                      ],
+                      [
+                        "Акции",
+                        "60%",
+                        "72%",
+                        "Сократить или направлять сюда меньше новых денег"
+                      ],
+                      [
+                        "Облигации",
+                        "30%",
+                        "21%",
+                        "Добавить или перенаправить взносы"
+                      ],
+                      [
+                        "Деньги",
+                        "10%",
+                        "7%",
+                        "Восстановить, если цель ликвидности важна"
+                      ],
+                      [
+                        "Риск портфеля",
+                        "Сбалансированная цель",
+                        "Теперь более агрессивный",
+                        "Вернуться к плану"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ребалансировка превращает целевой риск в повторяемую дисциплину, а не в разовое решение."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор начинает с ₸5 000 000 при цели 60/30/10. После сильного года акций веса отклоняются."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "KK: Актив",
+                        "KK: Целевой вес",
+                        "KK: Текущий вес",
+                        "KK: Направление ребалансировки"
+                      ],
+                      [
+                        "Акциялар",
+                        "60%",
+                        "72%",
+                        "KK: Сократить или направлять сюда меньше новых денег"
+                      ],
+                      [
+                        "Облигациялар",
+                        "30%",
+                        "21%",
+                        "KK: Добавить или перенаправить взносы"
+                      ],
+                      [
+                        "Қолма-қол қаражат",
+                        "10%",
+                        "7%",
+                        "KK: Восстановить, если цель ликвидности важна"
+                      ],
+                      [
+                        "KK: Риск портфеля",
+                        "KK: Сбалансированная цель",
+                        "KK: Теперь более агрессивный",
+                        "KK: Вернуться к плану"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ребалансировка превращает целевой риск в повторяемую дисциплину, а не в разовое решение."
+                  }
+                ]
               }
             }
           },
@@ -729,10 +1266,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Rebalance the drift"
+              "en": "Rebalance the drift",
+              "ru": "Ребалансируйте отклонение",
+              "kk": "Ребалансируйте отклонение"
             },
             "body": {
-              "en": "Choose the action that best restores the target allocation."
+              "en": "Choose the action that best restores the target allocation.",
+              "ru": "Выберите действие, которое лучше всего восстанавливает целевое распределение.",
+              "kk": "Выберите действие, которое лучше всего восстанавливает целевое распределение."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -760,6 +1301,56 @@
                     "explanation": "A small difference may not justify trading, especially after costs and taxes."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучшее действие для ребалансировки.",
+                "options": [
+                  "Сократить актив с избыточным весом",
+                  "Добавить в актив с недостаточным весом",
+                  "Действие не нужно"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Цель по акциям — 60%, но сейчас акции — 72%.",
+                    "correct_answer": "Сократить актив с избыточным весом",
+                    "explanation": "Акции стали больше, чем задумано, увеличив риск портфеля."
+                  },
+                  {
+                    "text": "Цель по облигациям — 30%, но сейчас облигации — 21%.",
+                    "correct_answer": "Добавить в актив с недостаточным весом",
+                    "explanation": "Добавление в облигации помогает восстановить задуманный баланс."
+                  },
+                  {
+                    "text": "Цель по деньгам — 10%, а сейчас деньги — 10,5%.",
+                    "correct_answer": "Действие не нужно",
+                    "explanation": "Небольшая разница может не оправдывать сделки, особенно с учётом расходов и налогов."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Выберите лучшее действие для ребалансировки.",
+                "options": [
+                  "Артық салмақты активті қысқарту",
+                  "Салмағы аз активке қосу",
+                  "Әрекет қажет емес"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Цель по акциям — 60%, но сейчас акции — 72%.",
+                    "correct_answer": "Артық салмақты активті қысқарту",
+                    "explanation": "Акции стали больше, чем задумано, увеличив риск портфеля."
+                  },
+                  {
+                    "text": "Цель по облигациям — 30%, но сейчас облигации — 21%.",
+                    "correct_answer": "Салмағы аз активке қосу",
+                    "explanation": "Добавление в облигации помогает восстановить задуманный баланс."
+                  },
+                  {
+                    "text": "Цель по деньгам — 10%, а сейчас деньги — 10,5%.",
+                    "correct_answer": "Әрекет қажет емес",
+                    "explanation": "Небольшая разница может не оправдывать сделки, особенно с учётом расходов и налогов."
+                  }
+                ]
               }
             }
           },
@@ -768,13 +1359,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Rebalancing protects the original decision"
+              "en": "Rebalancing protects the original decision",
+              "ru": "Ребалансировка защищает исходное решение",
+              "kk": "Ребалансировка защищает исходное решение"
             },
             "body": {
-              "en": "Rebalancing keeps the portfolio aligned with the risk level you chose before emotions took over. It can reduce concentration in recent winners and restore neglected assets. A good rebalancing rule is simple enough to follow and flexible enough to avoid unnecessary trading."
+              "en": "Rebalancing keeps the portfolio aligned with the risk level you chose before emotions took over. It can reduce concentration in recent winners and restore neglected assets. A good rebalancing rule is simple enough to follow and flexible enough to avoid unnecessary trading.",
+              "ru": "Ребалансировка удерживает портфель на уровне риска, выбранном до того, как эмоции взяли верх. Она может снизить концентрацию в недавних победителях и восстановить забытые активы. Хорошее правило ребалансировки достаточно простое, чтобы его соблюдать, и достаточно гибкое, чтобы избегать лишних сделок.",
+              "kk": "Ребалансировка удерживает портфель на уровне риска, выбранном до того, как эмоции взяли верх. Она может снизить концентрацию в недавних победителях и восстановить забытые активы. Хорошее правило ребалансировки достаточно простое, чтобы его соблюдать, и достаточно гибкое, чтобы избегать лишних сделок."
             },
             "tip": {
-              "en": "Rebalance to manage risk, not to prove you know what will happen next."
+              "en": "Rebalance to manage risk, not to prove you know what will happen next.",
+              "ru": "Ребалансируйте ради управления риском, а не чтобы доказать, что знаете будущее.",
+              "kk": "Ребалансируйте ради управления риском, а не чтобы доказать, что знаете будущее."
             }
           }
         ]
@@ -783,7 +1380,9 @@
         "quiz_id": 2303,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Rebalancing — Check"
+          "en": "Rebalancing — Check",
+          "ru": "Ребалансировка — проверка",
+          "kk": "Қайта теңгерімдеу — тексеру"
         },
         "questions": [
           {
@@ -791,14 +1390,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A 60% stock target drifts to 78% after a market rally. What is the main reason to rebalance?"
+              "en": "A 60% stock target drifts to 78% after a market rally. What is the main reason to rebalance?",
+              "ru": "Цель по акциям 60% сместилась до 78% после ралли рынка. Какая главная причина ребалансировки?",
+              "kk": "Цель по акциям 60% сместилась до 78% после ралли рынка. Какая главная причина ребалансировки?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The portfolio now carries more equity risk than intended"
+                  "en": "The portfolio now carries more equity risk than intended",
+                  "ru": "Теперь портфель несёт больше риска акций, чем было задумано",
+                  "kk": "Теперь портфель несёт больше риска акций, чем было задумано"
                 },
                 "is_correct": true
               },
@@ -806,7 +1409,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Stocks must fall tomorrow"
+                  "en": "Stocks must fall tomorrow",
+                  "ru": "Акции должны упасть завтра",
+                  "kk": "Акции должны упасть завтра"
                 },
                 "is_correct": false
               },
@@ -814,7 +1419,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Rebalancing guarantees higher returns"
+                  "en": "Rebalancing guarantees higher returns",
+                  "ru": "Ребалансировка гарантирует более высокую доходность",
+                  "kk": "Ребалансировка гарантирует более высокую доходность"
                 },
                 "is_correct": false
               },
@@ -822,7 +1429,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The original target becomes illegal"
+                  "en": "The original target becomes illegal",
+                  "ru": "Исходная цель становится незаконной",
+                  "kk": "Исходная цель становится незаконной"
                 },
                 "is_correct": false
               }
@@ -833,14 +1442,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can rebalancing feel emotionally difficult?"
+              "en": "Why can rebalancing feel emotionally difficult?",
+              "ru": "Почему ребалансировка может быть эмоционально сложной?",
+              "kk": "Почему ребалансировка может быть эмоционально сложной?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It often means trimming recent winners or adding to assets that recently lagged"
+                  "en": "It often means trimming recent winners or adding to assets that recently lagged",
+                  "ru": "Она часто означает сокращение недавних победителей или добавление в активы, которые недавно отставали",
+                  "kk": "Она часто означает сокращение недавних победителей или добавление в активы, которые недавно отставали"
                 },
                 "is_correct": true
               },
@@ -848,7 +1461,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It always requires selling everything"
+                  "en": "It always requires selling everything",
+                  "ru": "Она всегда требует продать всё",
+                  "kk": "Она всегда требует продать всё"
                 },
                 "is_correct": false
               },
@@ -856,7 +1471,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It removes the need for an allocation"
+                  "en": "It removes the need for an allocation",
+                  "ru": "Она устраняет необходимость в распределении",
+                  "kk": "Она устраняет необходимость в распределении"
                 },
                 "is_correct": false
               },
@@ -864,7 +1481,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It is done only after losses are impossible"
+                  "en": "It is done only after losses are impossible",
+                  "ru": "Её делают только после того, как убытки невозможны",
+                  "kk": "Её делают только после того, как убытки невозможны"
                 },
                 "is_correct": false
               }
@@ -875,14 +1494,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which rebalancing method reduces emotional decision-making?"
+              "en": "Which rebalancing method reduces emotional decision-making?",
+              "ru": "Какой метод ребалансировки снижает эмоциональные решения?",
+              "kk": "Какой метод ребалансировки снижает эмоциональные решения?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A pre-set calendar or threshold rule"
+                  "en": "A pre-set calendar or threshold rule",
+                  "ru": "Заранее заданное календарное или пороговое правило",
+                  "kk": "Заранее заданное календарное или пороговое правило"
                 },
                 "is_correct": true
               },
@@ -890,7 +1513,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Changing targets every time news is scary"
+                  "en": "Changing targets every time news is scary",
+                  "ru": "Менять цели каждый раз, когда новости пугают",
+                  "kk": "Менять цели каждый раз, когда новости пугают"
                 },
                 "is_correct": false
               },
@@ -898,7 +1523,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Buying only what went up yesterday"
+                  "en": "Buying only what went up yesterday",
+                  "ru": "Покупать только то, что выросло вчера",
+                  "kk": "Покупать только то, что выросло вчера"
                 },
                 "is_correct": false
               },
@@ -906,7 +1533,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Never checking the portfolio again"
+                  "en": "Never checking the portfolio again",
+                  "ru": "Больше никогда не проверять портфель",
+                  "kk": "Больше никогда не проверять портфель"
                 },
                 "is_correct": false
               }
@@ -918,10 +1547,14 @@
     {
       "code": "lifecycle_investing",
       "title": {
-        "en": "Lifecycle Investing"
+        "en": "Lifecycle Investing",
+        "ru": "Инвестирование по жизненному циклу",
+        "kk": "Өмірлік цикл бойынша инвестициялау"
       },
       "description": {
-        "en": "Lifecycle investing adjusts portfolio risk as goals, age, income stability, and time horizon change."
+        "en": "Lifecycle investing adjusts portfolio risk as goals, age, income stability, and time horizon change.",
+        "ru": "Инвестирование по жизненному циклу меняет риск портфеля по мере изменения целей, возраста, стабильности дохода и горизонта.",
+        "kk": "Инвестирование по жизненному циклу меняет риск портфеля по мере изменения целей, возраста, стабильности дохода и горизонта."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -933,10 +1566,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Risk capacity changes over time"
+              "en": "Risk capacity changes over time",
+              "ru": "Способность брать риск меняется со временем",
+              "kk": "Способность брать риск меняется со временем"
             },
             "body": {
-              "en": "A good portfolio for a 25-year goal may be wrong for money needed in two years. Lifecycle investing adjusts risk as time horizon, income stability, family needs, and withdrawal plans change. The investor changes; the portfolio should notice."
+              "en": "A good portfolio for a 25-year goal may be wrong for money needed in two years. Lifecycle investing adjusts risk as time horizon, income stability, family needs, and withdrawal plans change. The investor changes; the portfolio should notice.",
+              "ru": "Хороший портфель для цели через 25 лет может быть неправильным для денег, нужных через два года. Инвестирование по жизненному циклу меняет риск вместе с горизонтом, стабильностью дохода, семейными потребностями и планами снятия средств. Инвестор меняется — портфель должен это учитывать.",
+              "kk": "Хороший портфель для цели через 25 лет может быть неправильным для денег, нужных через два года. Инвестирование по жизненному циклу меняет риск вместе с горизонтом, стабильностью дохода, семейными потребностями и планами снятия средств. Инвестор меняется — портфель должен это учитывать."
             }
           },
           {
@@ -944,13 +1581,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Human capital is part of the picture"
+              "en": "Human capital is part of the picture",
+              "ru": "Человеческий капитал — часть картины",
+              "kk": "Человеческий капитал — часть картины"
             },
             "body": {
-              "en": "A young worker with stable income may have time to recover from market losses. Someone near retirement or with unstable income has less room for large drawdowns. Risk capacity depends on future earning power, not age alone."
+              "en": "A young worker with stable income may have time to recover from market losses. Someone near retirement or with unstable income has less room for large drawdowns. Risk capacity depends on future earning power, not age alone.",
+              "ru": "Молодой работник со стабильным доходом может иметь время восстановиться после рыночных потерь. У человека близко к пенсии или с нестабильным доходом меньше пространства для крупных просадок. Способность брать риск зависит от будущей силы заработка, а не только от возраста.",
+              "kk": "Молодой работник со стабильным доходом может иметь время восстановиться после рыночных потерь. У человека близко к пенсии или с нестабильным доходом меньше пространства для крупных просадок. Способность брать риск зависит от будущей силы заработка, а не только от возраста."
             },
             "tip": {
-              "en": "Age is a clue, not the full allocation rule."
+              "en": "Age is a clue, not the full allocation rule.",
+              "ru": "Возраст — подсказка, но не полное правило распределения.",
+              "kk": "Возраст — подсказка, но не полное правило распределения."
             }
           },
           {
@@ -958,13 +1601,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Goal timing creates different buckets"
+              "en": "Goal timing creates different buckets",
+              "ru": "Сроки целей создают разные корзины",
+              "kk": "Сроки целей создают разные корзины"
             },
             "body": {
-              "en": "Money needed soon should usually be more stable than money needed decades later. One person can have multiple allocations at once: cash for emergencies, conservative assets for near goals, and growth assets for long goals. The time horizon belongs to the goal, not only the person."
+              "en": "Money needed soon should usually be more stable than money needed decades later. One person can have multiple allocations at once: cash for emergencies, conservative assets for near goals, and growth assets for long goals. The time horizon belongs to the goal, not only the person.",
+              "ru": "Деньги, нужные скоро, обычно должны быть стабильнее денег, которые понадобятся через десятилетия. У одного человека могут быть несколько распределений сразу: деньги на чрезвычайные случаи, консервативные активы для ближайших целей и активы роста для долгих целей. Горизонт относится к цели, а не только к человеку.",
+              "kk": "Деньги, нужные скоро, обычно должны быть стабильнее денег, которые понадобятся через десятилетия. У одного человека могут быть несколько распределений сразу: деньги на чрезвычайные случаи, консервативные активы для ближайших целей и активы роста для долгих целей. Горизонт относится к цели, а не только к человеку."
             },
             "example": {
-              "en": "A 30-year-old may hold stocks for retirement but cash for tuition due next semester."
+              "en": "A 30-year-old may hold stocks for retirement but cash for tuition due next semester.",
+              "ru": "30-летний человек может держать акции для пенсии, но деньги — для оплаты обучения в следующем семестре.",
+              "kk": "30-летний человек может держать акции для пенсии, но деньги — для оплаты обучения в следующем семестре."
             }
           },
           {
@@ -972,7 +1621,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same investor, different goals"
+              "en": "Same investor, different goals",
+              "ru": "Один инвестор — разные цели",
+              "kk": "Один инвестор — разные цели"
             },
             "content": {
               "en": {
@@ -1016,6 +1667,90 @@
                     "text": "Lifecycle investing is really goal-cycle investing: match risk to when the money must work."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У инвестора три цели. Каждой нужен разный уровень риска, потому что сроки разные."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Цель",
+                        "Горизонт",
+                        "Возможная логика распределения"
+                      ],
+                      [
+                        "Резервный фонд",
+                        "В любой момент",
+                        "Деньги или очень стабильные инструменты"
+                      ],
+                      [
+                        "Первоначальный взнос за жильё",
+                        "2 года",
+                        "В основном стабильно, ограниченный рыночный риск"
+                      ],
+                      [
+                        "Пенсия",
+                        "30 лет",
+                        "Возможна более высокая доля активов роста"
+                      ],
+                      [
+                        "Образование ребёнка",
+                        "10 лет",
+                        "Сбалансировано с постепенным снижением риска"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестирование по жизненному циклу на самом деле привязано к циклу целей: подбирайте риск к моменту, когда деньги должны сработать."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У инвестора три цели. Каждой нужен разный уровень риска, потому что сроки разные."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Мақсат",
+                        "Уақыт көкжиегі",
+                        "KK: Возможная логика распределения"
+                      ],
+                      [
+                        "Төтенше қор",
+                        "Кез келген уақытта",
+                        "KK: Деньги или очень стабильные инструменты"
+                      ],
+                      [
+                        "Үйдің бастапқы жарнасы",
+                        "KK: 2 года",
+                        "KK: В основном стабильно, ограниченный рыночный риск"
+                      ],
+                      [
+                        "Зейнетақы",
+                        "KK: 30 лет",
+                        "KK: Возможна более высокая доля активов роста"
+                      ],
+                      [
+                        "Баланың білімі",
+                        "KK: 10 лет",
+                        "KK: Сбалансировано с постепенным снижением риска"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестирование по жизненному циклу на самом деле привязано к циклу целей: подбирайте риск к моменту, когда деньги должны сработать."
+                  }
+                ]
               }
             }
           },
@@ -1024,10 +1759,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Match risk to horizon"
+              "en": "Match risk to horizon",
+              "ru": "Соотнесите риск с горизонтом",
+              "kk": "Соотнесите риск с горизонтом"
             },
             "body": {
-              "en": "Choose the allocation style that best fits each goal."
+              "en": "Choose the allocation style that best fits each goal.",
+              "ru": "Выберите стиль распределения, который лучше всего подходит каждой цели.",
+              "kk": "Выберите стиль распределения, который лучше всего подходит каждой цели."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1055,6 +1794,56 @@
                     "explanation": "Long horizons can allow more exposure to growth assets if the investor can stay invested."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите наиболее подходящую позицию по риску.",
+                "options": [
+                  "Стабильный, похожий на деньги",
+                  "Сбалансированный",
+                  "Ориентация на рост"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Деньги могут понадобиться в следующем месяце на чрезвычайный случай.",
+                    "correct_answer": "Стабильный, похожий на деньги",
+                    "explanation": "Деньгам на экстренные случаи нужны ликвидность и стабильность больше, чем рост."
+                  },
+                  {
+                    "text": "Цель через 8–10 лет, и инвестор может выдерживать умеренные колебания.",
+                    "correct_answer": "Сбалансированный",
+                    "explanation": "Средний горизонт может позволить некоторый рост при контроле волатильности."
+                  },
+                  {
+                    "text": "До пенсии 30 лет, а доход стабилен.",
+                    "correct_answer": "Ориентация на рост",
+                    "explanation": "Длинный горизонт может позволить большую долю активов роста, если инвестор способен оставаться инвестированным."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Выберите наиболее подходящую позицию по риску.",
+                "options": [
+                  "Тұрақты, қолма-қол ақшаға ұқсас",
+                  "Теңгерімді",
+                  "Өсуге бағытталған"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Деньги могут понадобиться в следующем месяце на чрезвычайный случай.",
+                    "correct_answer": "Тұрақты, қолма-қол ақшаға ұқсас",
+                    "explanation": "Деньгам на экстренные случаи нужны ликвидность и стабильность больше, чем рост."
+                  },
+                  {
+                    "text": "Цель через 8–10 лет, и инвестор может выдерживать умеренные колебания.",
+                    "correct_answer": "Теңгерімді",
+                    "explanation": "Средний горизонт может позволить некоторый рост при контроле волатильности."
+                  },
+                  {
+                    "text": "До пенсии 30 лет, а доход стабилен.",
+                    "correct_answer": "Өсуге бағытталған",
+                    "explanation": "Длинный горизонт может позволить большую долю активов роста, если инвестор способен оставаться инвестированным."
+                  }
+                ]
               }
             }
           },
@@ -1063,13 +1852,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Lifecycle means adapting risk deliberately"
+              "en": "Lifecycle means adapting risk deliberately",
+              "ru": "Жизненный цикл означает осознанную адаптацию риска",
+              "kk": "Жизненный цикл означает осознанную адаптацию риска"
             },
             "body": {
-              "en": "Lifecycle investing adjusts portfolios as time horizons shorten and life constraints change. It is not simply becoming conservative every birthday. It is matching each goal to its horizon, flexibility, and consequences of loss."
+              "en": "Lifecycle investing adjusts portfolios as time horizons shorten and life constraints change. It is not simply becoming conservative every birthday. It is matching each goal to its horizon, flexibility, and consequences of loss.",
+              "ru": "Инвестирование по жизненному циклу адаптирует портфель по мере сокращения горизонтов и изменения жизненных ограничений. Это не просто становиться консервативнее с каждым днём рождения. Это сопоставление каждой цели с её горизонтом, гибкостью и последствиями убытка.",
+              "kk": "Инвестирование по жизненному циклу адаптирует портфель по мере сокращения горизонтов и изменения жизненных ограничений. Это не просто становиться консервативнее с каждым днём рождения. Это сопоставление каждой цели с её горизонтом, гибкостью и последствиями убытка."
             },
             "tip": {
-              "en": "The closer the deadline, the less room there is for market recovery."
+              "en": "The closer the deadline, the less room there is for market recovery.",
+              "ru": "Чем ближе срок, тем меньше пространства для восстановления рынка.",
+              "kk": "Чем ближе срок, тем меньше пространства для восстановления рынка."
             }
           }
         ]
@@ -1078,7 +1873,9 @@
         "quiz_id": 2304,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Lifecycle Investing — Check"
+          "en": "Lifecycle Investing — Check",
+          "ru": "Инвестирование по жизненному циклу — проверка",
+          "kk": "Өмірлік цикл бойынша инвестициялау — тексеру"
         },
         "questions": [
           {
@@ -1086,14 +1883,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why might a young person still keep some money in cash?"
+              "en": "Why might a young person still keep some money in cash?",
+              "ru": "Почему молодой человек всё равно может держать часть денег в наличности/денежных средствах?",
+              "kk": "Почему молодой человек всё равно может держать часть денег в наличности/денежных средствах?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Some goals, like emergencies or near expenses, have short horizons regardless of age"
+                  "en": "Some goals, like emergencies or near expenses, have short horizons regardless of age",
+                  "ru": "Некоторые цели, например экстренные случаи или ближайшие расходы, имеют короткий горизонт независимо от возраста",
+                  "kk": "Некоторые цели, например экстренные случаи или ближайшие расходы, имеют короткий горизонт независимо от возраста"
                 },
                 "is_correct": true
               },
@@ -1101,7 +1902,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Young people cannot invest in growth assets"
+                  "en": "Young people cannot invest in growth assets",
+                  "ru": "Молодые люди не могут инвестировать в активы роста",
+                  "kk": "Молодые люди не могут инвестировать в активы роста"
                 },
                 "is_correct": false
               },
@@ -1109,7 +1912,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Cash always has the highest long-term return"
+                  "en": "Cash always has the highest long-term return",
+                  "ru": "Деньги всегда имеют самую высокую долгосрочную доходность",
+                  "kk": "Деньги всегда имеют самую высокую долгосрочную доходность"
                 },
                 "is_correct": false
               },
@@ -1117,7 +1922,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Age alone decides every allocation"
+                  "en": "Age alone decides every allocation",
+                  "ru": "Один только возраст определяет каждое распределение",
+                  "kk": "Один только возраст определяет каждое распределение"
                 },
                 "is_correct": false
               }
@@ -1128,14 +1935,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What does human capital mean in portfolio planning?"
+              "en": "What does human capital mean in portfolio planning?",
+              "ru": "Что означает человеческий капитал в планировании портфеля?",
+              "kk": "Что означает человеческий капитал в планировании портфеля?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Future earning power and income stability that affect risk capacity"
+                  "en": "Future earning power and income stability that affect risk capacity",
+                  "ru": "Будущая способность зарабатывать и стабильность дохода, влияющие на способность брать риск",
+                  "kk": "Будущая способность зарабатывать и стабильность дохода, влияющие на способность брать риск"
                 },
                 "is_correct": true
               },
@@ -1143,7 +1954,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The number of investment apps installed"
+                  "en": "The number of investment apps installed",
+                  "ru": "Количество установленных инвестиционных приложений",
+                  "kk": "Количество установленных инвестиционных приложений"
                 },
                 "is_correct": false
               },
@@ -1151,7 +1964,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The market value of a single stock"
+                  "en": "The market value of a single stock",
+                  "ru": "Рыночная стоимость одной акции",
+                  "kk": "Рыночная стоимость одной акции"
                 },
                 "is_correct": false
               },
@@ -1159,7 +1974,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A guaranteed pension amount for everyone"
+                  "en": "A guaranteed pension amount for everyone",
+                  "ru": "Гарантированная пенсионная сумма для всех",
+                  "kk": "Гарантированная пенсионная сумма для всех"
                 },
                 "is_correct": false
               }
@@ -1170,14 +1987,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "A retiree will withdraw money yearly for living costs. Why might their allocation need more stability?"
+              "en": "A retiree will withdraw money yearly for living costs. Why might their allocation need more stability?",
+              "ru": "Пенсионер будет ежегодно снимать деньги на жизнь. Почему его распределению может понадобиться больше стабильности?",
+              "kk": "Пенсионер будет ежегодно снимать деньги на жизнь. Почему его распределению может понадобиться больше стабильности?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Large losses near withdrawals can force selling at bad prices"
+                  "en": "Large losses near withdrawals can force selling at bad prices",
+                  "ru": "Крупные убытки рядом со снятиями могут заставить продавать по плохим ценам",
+                  "kk": "Крупные убытки рядом со снятиями могут заставить продавать по плохим ценам"
                 },
                 "is_correct": true
               },
@@ -1185,7 +2006,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Retirement eliminates inflation risk"
+                  "en": "Retirement eliminates inflation risk",
+                  "ru": "Пенсия устраняет инфляционный риск",
+                  "kk": "Пенсия устраняет инфляционный риск"
                 },
                 "is_correct": false
               },
@@ -1193,7 +2016,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Stable assets guarantee unlimited returns"
+                  "en": "Stable assets guarantee unlimited returns",
+                  "ru": "Стабильные активы гарантируют неограниченную доходность",
+                  "kk": "Стабильные активы гарантируют неограниченную доходность"
                 },
                 "is_correct": false
               },
@@ -1201,7 +2026,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Withdrawals make asset allocation irrelevant"
+                  "en": "Withdrawals make asset allocation irrelevant",
+                  "ru": "Снятия делают распределение активов неважным",
+                  "kk": "Снятия делают распределение активов неважным"
                 },
                 "is_correct": false
               }
@@ -1213,10 +2040,14 @@
     {
       "code": "portfolio_mistakes",
       "title": {
-        "en": "Portfolio Mistakes"
+        "en": "Portfolio Mistakes",
+        "ru": "Ошибки портфеля",
+        "kk": "Портфель қателері"
       },
       "description": {
-        "en": "Common portfolio mistakes include chasing returns, ignoring costs, overconcentrating, mismatching risk to goals, and changing plans under stress."
+        "en": "Common portfolio mistakes include chasing returns, ignoring costs, overconcentrating, mismatching risk to goals, and changing plans under stress.",
+        "ru": "Типичные ошибки портфеля включают погоню за доходностью, игнорирование расходов, чрезмерную концентрацию, несоответствие риска целям и изменение плана под стрессом.",
+        "kk": "Типичные ошибки портфеля включают погоню за доходностью, игнорирование расходов, чрезмерную концентрацию, несоответствие риска целям и изменение плана под стрессом."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1228,10 +2059,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A portfolio can fail without a bad asset"
+              "en": "A portfolio can fail without a bad asset",
+              "ru": "Портфель может провалиться без плохого актива",
+              "kk": "Портфель может провалиться без плохого актива"
             },
             "body": {
-              "en": "Many portfolio failures do not come from one terrible investment. They come from a weak structure: wrong allocation, overlapping exposures, no rebalancing rule, or risk that does not match the goal. A collection of good assets can still make a bad portfolio."
+              "en": "Many portfolio failures do not come from one terrible investment. They come from a weak structure: wrong allocation, overlapping exposures, no rebalancing rule, or risk that does not match the goal. A collection of good assets can still make a bad portfolio.",
+              "ru": "Многие провалы портфеля возникают не из-за одной ужасной инвестиции. Они идут от слабой структуры: неправильного распределения, пересекающихся экспозиций, отсутствия правила ребалансировки или риска, не соответствующего цели. Набор хороших активов всё равно может стать плохим портфелем.",
+              "kk": "Многие провалы портфеля возникают не из-за одной ужасной инвестиции. Они идут от слабой структуры: неправильного распределения, пересекающихся экспозиций, отсутствия правила ребалансировки или риска, не соответствующего цели. Набор хороших активов всё равно может стать плохим портфелем."
             }
           },
           {
@@ -1239,13 +2074,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Return chasing breaks the plan"
+              "en": "Return chasing breaks the plan",
+              "ru": "Погоня за доходностью ломает план",
+              "kk": "Погоня за доходностью ломает план"
             },
             "body": {
-              "en": "Buying what recently performed best often increases exposure after the easy gains happened. It can also lead to selling lagging assets right before they recover. A portfolio built by recent returns usually lacks a stable reason to hold anything."
+              "en": "Buying what recently performed best often increases exposure after the easy gains happened. It can also lead to selling lagging assets right before they recover. A portfolio built by recent returns usually lacks a stable reason to hold anything.",
+              "ru": "Покупка того, что недавно показало лучший результат, часто увеличивает экспозицию уже после лёгкого роста. Это также может привести к продаже отстающих активов прямо перед восстановлением. Портфель, построенный по недавней доходности, обычно не имеет устойчивой причины держать что-либо.",
+              "kk": "Покупка того, что недавно показало лучший результат, часто увеличивает экспозицию уже после лёгкого роста. Это также может привести к продаже отстающих активов прямо перед восстановлением. Портфель, построенный по недавней доходности, обычно не имеет устойчивой причины держать что-либо."
             },
             "tip": {
-              "en": "If the reason to buy is only “it went up,” the reason to sell may arrive too late."
+              "en": "If the reason to buy is only “it went up,” the reason to sell may arrive too late.",
+              "ru": "Если причина купить только «оно выросло», причина продать может прийти слишком поздно.",
+              "kk": "Если причина купить только «оно выросло», причина продать может прийти слишком поздно."
             }
           },
           {
@@ -1253,10 +2094,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Costs and taxes quietly change outcomes"
+              "en": "Costs and taxes quietly change outcomes",
+              "ru": "Расходы и налоги тихо меняют результат",
+              "kk": "Расходы и налоги тихо меняют результат"
             },
             "body": {
-              "en": "High fees, frequent trading, spreads, and taxes can reduce returns without dramatic headlines. These costs are easy to ignore because they appear small each time. Over years, repeated friction can turn a good strategy into a weak result."
+              "en": "High fees, frequent trading, spreads, and taxes can reduce returns without dramatic headlines. These costs are easy to ignore because they appear small each time. Over years, repeated friction can turn a good strategy into a weak result.",
+              "ru": "Высокие комиссии, частые сделки, спреды и налоги могут снижать доходность без громких заголовков. Эти расходы легко игнорировать, потому что каждый раз они кажутся небольшими. За годы повторяющееся трение может превратить хорошую стратегию в слабый результат.",
+              "kk": "Высокие комиссии, частые сделки, спреды и налоги могут снижать доходность без громких заголовков. Эти расходы легко игнорировать, потому что каждый раз они кажутся небольшими. За годы повторяющееся трение может превратить хорошую стратегию в слабый результат."
             }
           },
           {
@@ -1264,7 +2109,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "A mistake hidden in a normal account"
+              "en": "A mistake hidden in a normal account",
+              "ru": "Ошибка, скрытая в обычном счёте",
+              "kk": "Ошибка, скрытая в обычном счёте"
             },
             "content": {
               "en": {
@@ -1308,6 +2155,90 @@
                     "text": "The account has investments, but not a coherent portfolio policy."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У инвестора ₸4 000 000 в нескольких инвестициях. Счёт выглядит активным, но структура хрупкая."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Выбор",
+                        "Выглядит как",
+                        "Скрытая проблема"
+                      ],
+                      [
+                        "Три фонда роста",
+                        "Диверсификация",
+                        "Пересекающиеся позиции"
+                      ],
+                      [
+                        "Нет денежного резерва",
+                        "Полностью инвестирован",
+                        "Риск вынужденной продажи"
+                      ],
+                      [
+                        "Частые переключения",
+                        "Активное управление",
+                        "Расходы, налоги и ошибки тайминга"
+                      ],
+                      [
+                        "Нет целевых весов",
+                        "Гибкость",
+                        "Нет правила контроля риска"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "На счёте есть инвестиции, но нет целостной политики портфеля."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У инвестора ₸4 000 000 в нескольких инвестициях. Счёт выглядит активным, но структура хрупкая."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Таңдау",
+                        "KK: Выглядит как",
+                        "KK: Скрытая проблема"
+                      ],
+                      [
+                        "KK: Три фонда роста",
+                        "Әртараптандыру",
+                        "KK: Пересекающиеся позиции"
+                      ],
+                      [
+                        "KK: Нет денежного резерва",
+                        "KK: Полностью инвестирован",
+                        "KK: Риск вынужденной продажи"
+                      ],
+                      [
+                        "KK: Частые переключения",
+                        "KK: Активное управление",
+                        "KK: Расходы, налоги и ошибки тайминга"
+                      ],
+                      [
+                        "KK: Нет целевых весов",
+                        "Икемділік",
+                        "KK: Нет правила контроля риска"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "На счёте есть инвестиции, но нет целостной политики портфеля."
+                  }
+                ]
               }
             }
           },
@@ -1316,10 +2247,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Detect the portfolio mistake"
+              "en": "Detect the portfolio mistake",
+              "ru": "Найдите ошибку портфеля",
+              "kk": "Найдите ошибку портфеля"
             },
             "body": {
-              "en": "Each case contains a portfolio construction mistake. Choose the error."
+              "en": "Each case contains a portfolio construction mistake. Choose the error.",
+              "ru": "В каждом случае есть ошибка построения портфеля. Выберите ошибку.",
+              "kk": "В каждом случае есть ошибка построения портфеля. Выберите ошибку."
             },
             "interactiveType": "error_detector",
             "interactiveContent": {
@@ -1358,6 +2293,78 @@
                   }
                 ],
                 "final_explanation": "Portfolio mistakes usually come from missing structure: no target, no role for each asset, no risk match, and no rule for maintenance."
+              },
+              "ru": {
+                "instruction": "Выберите главную ошибку в каждом портфельном решении.",
+                "cases": [
+                  {
+                    "text": "«Этот фонд принёс 35% в прошлом году, поэтому я перевёл в него весь пенсионный счёт».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Погоня за доходностью и риск концентрации",
+                      "c) Диверсификация улучшается, когда всё в одном фонде"
+                    ],
+                    "correct": "b",
+                    "explanation": "Одна только недавняя доходность — не портфельная политика, а перенос всего создаёт концентрацию."
+                  },
+                  {
+                    "text": "«Деньги нужны мне через год, но я вложил их в основном в волатильные акции».",
+                    "options": [
+                      "a) Несоответствие цели и риска",
+                      "b) Ошибки нет",
+                      "c) Коротким горизонтам всегда нужна максимальная волатильность"
+                    ],
+                    "correct": "a",
+                    "explanation": "У коротких сроков мало времени на восстановление после просадок."
+                  },
+                  {
+                    "text": "«У меня восемь фондов, но я никогда не проверяю, держат ли они одни и те же активы».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Пересечение фондов может скрывать концентрацию",
+                      "c) Больше названий фондов всегда устраняет пересечение"
+                    ],
+                    "correct": "b",
+                    "explanation": "Диверсификация зависит от базовой экспозиции, а не от количества продуктов."
+                  }
+                ],
+                "final_explanation": "Ошибки портфеля обычно идут от отсутствия структуры: нет цели, роли каждого актива, соответствия риска и правил обслуживания."
+              },
+              "kk": {
+                "instruction": "Выберите главную ошибку в каждом портфельном решении.",
+                "cases": [
+                  {
+                    "text": "«Этот фонд принёс 35% в прошлом году, поэтому я перевёл в него весь пенсионный счёт».",
+                    "options": [
+                      "KK: a) Ошибки нет",
+                      "KK: b) Погоня за доходностью и риск концентрации",
+                      "KK: c) Диверсификация улучшается, когда всё в одном фонде"
+                    ],
+                    "correct": "b",
+                    "explanation": "Одна только недавняя доходность — не портфельная политика, а перенос всего создаёт концентрацию."
+                  },
+                  {
+                    "text": "«Деньги нужны мне через год, но я вложил их в основном в волатильные акции».",
+                    "options": [
+                      "KK: a) Несоответствие цели и риска",
+                      "KK: b) Ошибки нет",
+                      "KK: c) Коротким горизонтам всегда нужна максимальная волатильность"
+                    ],
+                    "correct": "a",
+                    "explanation": "У коротких сроков мало времени на восстановление после просадок."
+                  },
+                  {
+                    "text": "«У меня восемь фондов, но я никогда не проверяю, держат ли они одни и те же активы».",
+                    "options": [
+                      "KK: a) Ошибки нет",
+                      "KK: b) Пересечение фондов может скрывать концентрацию",
+                      "KK: c) Больше названий фондов всегда устраняет пересечение"
+                    ],
+                    "correct": "b",
+                    "explanation": "Диверсификация зависит от базовой экспозиции, а не от количества продуктов."
+                  }
+                ],
+                "final_explanation": "Ошибки портфеля обычно идут от отсутствия структуры: нет цели, роли каждого актива, соответствия риска и правил обслуживания."
               }
             }
           },
@@ -1366,13 +2373,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Write the portfolio policy before stress"
+              "en": "Write the portfolio policy before stress",
+              "ru": "Запишите политику портфеля до стресса",
+              "kk": "Запишите политику портфеля до стресса"
             },
             "body": {
-              "en": "A strong portfolio has target allocation, diversification logic, rebalancing rules, cost awareness, and goal fit. The policy should be clear before markets become emotional. Without structure, every headline can become a reason to change everything."
+              "en": "A strong portfolio has target allocation, diversification logic, rebalancing rules, cost awareness, and goal fit. The policy should be clear before markets become emotional. Without structure, every headline can become a reason to change everything.",
+              "ru": "У сильного портфеля есть целевое распределение, логика диверсификации, правила ребалансировки, учёт расходов и соответствие целям. Политика должна быть ясной до того, как рынки станут эмоциональными. Без структуры каждый заголовок может стать поводом изменить всё.",
+              "kk": "У сильного портфеля есть целевое распределение, логика диверсификации, правила ребалансировки, учёт расходов и соответствие целям. Политика должна быть ясной до того, как рынки станут эмоциональными. Без структуры каждый заголовок может стать поводом изменить всё."
             },
             "tip": {
-              "en": "A portfolio is not a list of assets; it is a set of roles and rules."
+              "en": "A portfolio is not a list of assets; it is a set of roles and rules.",
+              "ru": "Портфель — это не список активов, а набор ролей и правил.",
+              "kk": "Портфель — это не список активов, а набор ролей и правил."
             }
           }
         ]
@@ -1381,7 +2394,9 @@
         "quiz_id": 2305,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Portfolio Mistakes — Check"
+          "en": "Portfolio Mistakes — Check",
+          "ru": "Ошибки портфеля — проверка",
+          "kk": "Портфель қателері — тексеру"
         },
         "questions": [
           {
@@ -1389,14 +2404,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "What is wrong with building a portfolio only from last year's best-performing assets?"
+              "en": "What is wrong with building a portfolio only from last year's best-performing assets?",
+              "ru": "Что не так с построением портфеля только из лучших активов прошлого года?",
+              "kk": "Что не так с построением портфеля только из лучших активов прошлого года?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It may chase past returns without a stable reason for future risk exposure"
+                  "en": "It may chase past returns without a stable reason for future risk exposure",
+                  "ru": "Это может быть погоней за прошлой доходностью без устойчивой причины для будущей риск-экспозиции",
+                  "kk": "Это может быть погоней за прошлой доходностью без устойчивой причины для будущей риск-экспозиции"
                 },
                 "is_correct": true
               },
@@ -1404,7 +2423,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Past performance always guarantees future returns"
+                  "en": "Past performance always guarantees future returns",
+                  "ru": "Прошлая доходность всегда гарантирует будущую",
+                  "kk": "Прошлая доходность всегда гарантирует будущую"
                 },
                 "is_correct": false
               },
@@ -1412,7 +2433,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It always creates the lowest-risk allocation"
+                  "en": "It always creates the lowest-risk allocation",
+                  "ru": "Это всегда создаёт распределение с самым низким риском",
+                  "kk": "Это всегда создаёт распределение с самым низким риском"
                 },
                 "is_correct": false
               },
@@ -1420,7 +2443,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It removes the need for rebalancing"
+                  "en": "It removes the need for rebalancing",
+                  "ru": "Это устраняет необходимость в ребалансировке",
+                  "kk": "Это устраняет необходимость в ребалансировке"
                 },
                 "is_correct": false
               }
@@ -1431,14 +2456,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why is holding no cash reserve a portfolio risk?"
+              "en": "Why is holding no cash reserve a portfolio risk?",
+              "ru": "Почему отсутствие денежного резерва — риск для портфеля?",
+              "kk": "Почему отсутствие денежного резерва — риск для портфеля?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "An emergency can force selling long-term assets at a bad time"
+                  "en": "An emergency can force selling long-term assets at a bad time",
+                  "ru": "Чрезвычайная ситуация может заставить продать долгосрочные активы в плохой момент",
+                  "kk": "Чрезвычайная ситуация может заставить продать долгосрочные активы в плохой момент"
                 },
                 "is_correct": true
               },
@@ -1446,7 +2475,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Cash always beats stocks over decades"
+                  "en": "Cash always beats stocks over decades",
+                  "ru": "Деньги всегда обгоняют акции на горизонте десятилетий",
+                  "kk": "Деньги всегда обгоняют акции на горизонте десятилетий"
                 },
                 "is_correct": false
               },
@@ -1454,7 +2485,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Cash reserves make diversification impossible"
+                  "en": "Cash reserves make diversification impossible",
+                  "ru": "Денежные резервы делают диверсификацию невозможной",
+                  "kk": "Денежные резервы делают диверсификацию невозможной"
                 },
                 "is_correct": false
               },
@@ -1462,7 +2495,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A portfolio without cash cannot rise"
+                  "en": "A portfolio without cash cannot rise",
+                  "ru": "Портфель без денег не может расти",
+                  "kk": "Портфель без денег не может расти"
                 },
                 "is_correct": false
               }
@@ -1473,14 +2508,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which habit best prevents emotional portfolio changes?"
+              "en": "Which habit best prevents emotional portfolio changes?",
+              "ru": "Какая привычка лучше всего предотвращает эмоциональные изменения портфеля?",
+              "kk": "Какая привычка лучше всего предотвращает эмоциональные изменения портфеля?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Using written target weights and rebalancing rules before stress arrives"
+                  "en": "Using written target weights and rebalancing rules before stress arrives",
+                  "ru": "Использовать записанные целевые веса и правила ребалансировки до наступления стресса",
+                  "kk": "Использовать записанные целевые веса и правила ребалансировки до наступления стресса"
                 },
                 "is_correct": true
               },
@@ -1488,7 +2527,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Changing allocation after every headline"
+                  "en": "Changing allocation after every headline",
+                  "ru": "Менять распределение после каждого заголовка",
+                  "kk": "Менять распределение после каждого заголовка"
                 },
                 "is_correct": false
               },
@@ -1496,7 +2537,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Buying only assets that recently doubled"
+                  "en": "Buying only assets that recently doubled",
+                  "ru": "Покупать только активы, которые недавно удвоились",
+                  "kk": "Покупать только активы, которые недавно удвоились"
                 },
                 "is_correct": false
               },
@@ -1504,7 +2547,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Never defining what each asset is for"
+                  "en": "Never defining what each asset is for",
+                  "ru": "Никогда не определять, зачем нужен каждый актив",
+                  "kk": "Никогда не определять, зачем нужен каждый актив"
                 },
                 "is_correct": false
               }
@@ -1518,7 +2563,9 @@
     "quiz_id": 2399,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Portfolio Construction — Final Check"
+      "en": "Portfolio Construction — Final Check",
+      "ru": "Построение портфеля — финальная проверка",
+      "kk": "Портфель құру — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1526,14 +2573,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "Why is asset allocation usually more important than choosing one exciting fund?"
+          "en": "Why is asset allocation usually more important than choosing one exciting fund?",
+          "ru": "Почему распределение активов обычно важнее выбора одного интересного фонда?",
+          "kk": "Почему распределение активов обычно важнее выбора одного интересного фонда?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Allocation sets the portfolio's overall exposure to growth, stability, and liquidity"
+              "en": "Allocation sets the portfolio's overall exposure to growth, stability, and liquidity",
+              "ru": "Распределение задаёт общую экспозицию портфеля к росту, стабильности и ликвидности",
+              "kk": "Распределение задаёт общую экспозицию портфеля к росту, стабильности и ликвидности"
             },
             "is_correct": true
           },
@@ -1541,7 +2592,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Fund choice never matters at all"
+              "en": "Fund choice never matters at all",
+              "ru": "Выбор фонда вообще никогда не имеет значения",
+              "kk": "Выбор фонда вообще никогда не имеет значения"
             },
             "is_correct": false
           },
@@ -1549,7 +2602,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Allocation guarantees no losses"
+              "en": "Allocation guarantees no losses",
+              "ru": "Распределение гарантирует отсутствие убытков",
+              "kk": "Распределение гарантирует отсутствие убытков"
             },
             "is_correct": false
           },
@@ -1557,7 +2612,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Exciting funds always underperform"
+              "en": "Exciting funds always underperform",
+              "ru": "Интересные фонды всегда отстают",
+              "kk": "Интересные фонды всегда отстают"
             },
             "is_correct": false
           }
@@ -1568,14 +2625,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "An investor owns many funds that all depend on the same sector. What is the issue?"
+          "en": "An investor owns many funds that all depend on the same sector. What is the issue?",
+          "ru": "Инвестор владеет многими фондами, которые все зависят от одного сектора. В чём проблема?",
+          "kk": "Инвестор владеет многими фондами, которые все зависят от одного сектора. В чём проблема?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The portfolio may be concentrated despite having many product names"
+              "en": "The portfolio may be concentrated despite having many product names",
+              "ru": "Портфель может быть концентрированным, несмотря на множество названий продуктов",
+              "kk": "Портфель может быть концентрированным, несмотря на множество названий продуктов"
             },
             "is_correct": true
           },
@@ -1583,7 +2644,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Many fund names guarantee diversification"
+              "en": "Many fund names guarantee diversification",
+              "ru": "Много названий фондов гарантирует диверсификацию",
+              "kk": "Много названий фондов гарантирует диверсификацию"
             },
             "is_correct": false
           },
@@ -1591,7 +2654,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Sector exposure cannot affect risk"
+              "en": "Sector exposure cannot affect risk",
+              "ru": "Секторная экспозиция не может влиять на риск",
+              "kk": "Секторная экспозиция не может влиять на риск"
             },
             "is_correct": false
           },
@@ -1599,7 +2664,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Diversification is only about account size"
+              "en": "Diversification is only about account size",
+              "ru": "Диверсификация касается только размера счёта",
+              "kk": "Диверсификация касается только размера счёта"
             },
             "is_correct": false
           }
@@ -1610,14 +2677,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "What does rebalancing mainly protect?"
+          "en": "What does rebalancing mainly protect?",
+          "ru": "Что в основном защищает ребалансировка?",
+          "kk": "Что в основном защищает ребалансировка?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The intended risk level and target allocation"
+              "en": "The intended risk level and target allocation",
+              "ru": "Задуманный уровень риска и целевое распределение",
+              "kk": "Задуманный уровень риска и целевое распределение"
             },
             "is_correct": true
           },
@@ -1625,7 +2696,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "The ability to predict next month's winner"
+              "en": "The ability to predict next month's winner",
+              "ru": "Способность предсказать победителя следующего месяца",
+              "kk": "Способность предсказать победителя следующего месяца"
             },
             "is_correct": false
           },
@@ -1633,7 +2706,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "A guarantee of higher returns every year"
+              "en": "A guarantee of higher returns every year",
+              "ru": "Гарантию более высокой доходности каждый год",
+              "kk": "Гарантию более высокой доходности каждый год"
             },
             "is_correct": false
           },
@@ -1641,7 +2716,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "The portfolio from all market declines"
+              "en": "The portfolio from all market declines",
+              "ru": "Портфель от всех рыночных падений",
+              "kk": "Портфель от всех рыночных падений"
             },
             "is_correct": false
           }
@@ -1652,14 +2729,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "Why can one investor hold both cash and stocks at the same time?"
+          "en": "Why can one investor hold both cash and stocks at the same time?",
+          "ru": "Почему один инвестор может одновременно держать деньги и акции?",
+          "kk": "Почему один инвестор может одновременно держать деньги и акции?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Different goals can have different time horizons and risk needs"
+              "en": "Different goals can have different time horizons and risk needs",
+              "ru": "У разных целей могут быть разные горизонты и потребности в риске",
+              "kk": "У разных целей могут быть разные горизонты и потребности в риске"
             },
             "is_correct": true
           },
@@ -1667,7 +2748,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Cash and stocks are identical assets"
+              "en": "Cash and stocks are identical assets",
+              "ru": "Деньги и акции — одинаковые активы",
+              "kk": "Деньги и акции — одинаковые активы"
             },
             "is_correct": false
           },
@@ -1675,7 +2758,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Cash guarantees stock growth"
+              "en": "Cash guarantees stock growth",
+              "ru": "Деньги гарантируют рост акций",
+              "kk": "Деньги гарантируют рост акций"
             },
             "is_correct": false
           },
@@ -1683,7 +2768,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Only age determines every holding"
+              "en": "Only age determines every holding",
+              "ru": "Только возраст определяет каждую позицию",
+              "kk": "Только возраст определяет каждую позицию"
             },
             "is_correct": false
           }
@@ -1694,14 +2781,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "Which statement best describes a coherent portfolio?"
+          "en": "Which statement best describes a coherent portfolio?",
+          "ru": "Какое утверждение лучше всего описывает целостный портфель?",
+          "kk": "Какое утверждение лучше всего описывает целостный портфель?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Each asset has a role, target weight, risk purpose, and maintenance rule"
+              "en": "Each asset has a role, target weight, risk purpose, and maintenance rule",
+              "ru": "У каждого актива есть роль, целевой вес, цель по риску и правило обслуживания",
+              "kk": "У каждого актива есть роль, целевой вес, цель по риску и правило обслуживания"
             },
             "is_correct": true
           },
@@ -1709,7 +2800,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "It contains whatever rose most recently"
+              "en": "It contains whatever rose most recently",
+              "ru": "Он содержит то, что выросло недавно",
+              "kk": "Он содержит то, что выросло недавно"
             },
             "is_correct": false
           },
@@ -1717,7 +2810,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "It changes completely after every headline"
+              "en": "It changes completely after every headline",
+              "ru": "Он полностью меняется после каждого заголовка",
+              "kk": "Он полностью меняется после каждого заголовка"
             },
             "is_correct": false
           },
@@ -1725,7 +2820,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "It has many assets but no defined goal"
+              "en": "It has many assets but no defined goal",
+              "ru": "В нём много активов, но нет определённой цели",
+              "kk": "В нём много активов, но нет определённой цели"
             },
             "is_correct": false
           }

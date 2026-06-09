@@ -3,11 +3,16 @@
   "topic": {
     "code": "budgeting_cash_flow",
     "orderIndex": 6,
+    "icon_path": "assets/topics/006.png",
     "title": {
-      "en": "Budgeting & Cash Flow"
+      "en": "Budgeting & Cash Flow",
+      "ru": "Бюджетирование и денежный поток",
+      "kk": "Бюджеттеу және ақша ағыны"
     },
     "description": {
-      "en": "Turning income into a deliberate plan — separating fixed from variable spending, choosing a budgeting system, and resisting lifestyle creep."
+      "en": "Turning income into a deliberate plan — separating fixed from variable spending, choosing a budgeting system, and resisting lifestyle creep.",
+      "ru": "Превращение дохода в осознанный план — разделение постоянных и переменных расходов, выбор системы бюджетирования и защита от инфляции образа жизни.",
+      "kk": "Табысты саналы жоспарға айналдыру — тұрақты және айнымалы шығындарды бөлу, бюджеттеу жүйесін таңдау және өмір салты инфляциясына қарсы тұру."
     },
     "level": "beginner",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "fixed_and_variable_expenses",
       "title": {
-        "en": "Fixed and Variable Expenses"
+        "en": "Fixed and Variable Expenses",
+        "ru": "Постоянные и переменные расходы",
+        "kk": "Тұрақты және айнымалы шығындар"
       },
       "description": {
-        "en": "Fixed expenses repeat and are harder to change quickly; variable expenses move month to month and give more room for adjustment."
+        "en": "Fixed expenses repeat and are harder to change quickly; variable expenses move month to month and give more room for adjustment.",
+        "ru": "Постоянные расходы повторяются, и их сложнее быстро изменить; переменные расходы меняются от месяца к месяцу и дают больше пространства для корректировки.",
+        "kk": "Тұрақты шығындар қайталанып отырады және оларды тез өзгерту қиынырақ; айнымалы шығындар ай сайын өзгеріп, түзетуге көбірек мүмкіндік береді."
       },
       "estimatedMinutes": 5,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Not all spending behaves the same"
+              "en": "Not all spending behaves the same",
+              "ru": "Не все расходы ведут себя одинаково",
+              "kk": "Барлық шығын бірдей өзгермейді"
             },
             "body": {
-              "en": "A budget becomes easier when you know which expenses are fixed and which are variable. Fixed expenses repeat and are harder to change quickly. Variable expenses change more often and usually give the first room for adjustment."
+              "en": "A budget becomes easier when you know which expenses are fixed and which are variable. Fixed expenses repeat and are harder to change quickly. Variable expenses change more often and usually give the first room for adjustment.",
+              "ru": "Бюджет вести легче, когда вы понимаете, какие расходы постоянные, а какие переменные. Постоянные расходы повторяются, и их сложнее быстро изменить. Переменные расходы меняются чаще и обычно дают первое пространство для корректировки.",
+              "kk": "Қай шығын тұрақты, қайсысы айнымалы екенін білсеңіз, бюджет жүргізу жеңілдейді. Тұрақты шығындар қайталанып отырады және оларды тез өзгерту қиынырақ. Айнымалы шығындар жиірек өзгереді және әдетте алдымен соларды түзетуге болады."
             },
             "tip": {
-              "en": "The category matters because it tells you how fast you can change the spending."
+              "en": "The category matters because it tells you how fast you can change the spending.",
+              "ru": "Категория важна, потому что она показывает, как быстро можно изменить расход.",
+              "kk": "Санат маңызды, өйткені ол шығынды қаншалықты тез өзгертуге болатынын көрсетеді."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Fixed expenses create commitments"
+              "en": "Fixed expenses create commitments",
+              "ru": "Постоянные расходы создают обязательства",
+              "kk": "Тұрақты шығындар міндеттеме тудырады"
             },
             "body": {
-              "en": "Rent, loan payments, subscriptions, and insurance premiums can behave like fixed expenses. They often repeat automatically and must be paid before flexible choices. Too many fixed commitments can make a good income feel tight."
+              "en": "Rent, loan payments, subscriptions, and insurance premiums can behave like fixed expenses. They often repeat automatically and must be paid before flexible choices. Too many fixed commitments can make a good income feel tight.",
+              "ru": "Аренда, платежи по кредитам, подписки и страховые взносы могут вести себя как постоянные расходы. Они часто повторяются автоматически и должны быть оплачены до гибких трат. Слишком много постоянных обязательств может сделать даже хороший доход напряжённым.",
+              "kk": "Жалдау ақысы, несие төлемдері, жазылымдар және сақтандыру жарналары тұрақты шығын сияқты жұмыс істеуі мүмкін. Олар көбіне автоматты түрде қайталанады және икемді таңдаулардан бұрын төленуі керек. Тұрақты міндеттемелер тым көп болса, жақсы табыстың өзі тар болып сезіледі."
             },
             "example": {
-              "en": "If ₸250,000 of a ₸400,000 income is fixed before food and transport, the budget has little room to breathe."
+              "en": "If ₸250,000 of a ₸400,000 income is fixed before food and transport, the budget has little room to breathe.",
+              "ru": "Если из дохода ₸400,000 уже ₸250,000 зафиксированы до еды и транспорта, в бюджете остаётся мало свободы.",
+              "kk": "₸400,000 табыстың ₸250,000 бөлігі тамақ пен көлікке дейін-ақ бекітіліп тұрса, бюджетте еркін орын аз қалады."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Variable expenses reveal habits"
+              "en": "Variable expenses reveal habits",
+              "ru": "Переменные расходы показывают привычки",
+              "kk": "Айнымалы шығындар әдеттерді көрсетеді"
             },
             "body": {
-              "en": "Food delivery, taxis, entertainment, gifts, and shopping may change every month. These expenses are not automatically bad, but they need limits. Small variable leaks can become the difference between saving and running out of money."
+              "en": "Food delivery, taxis, entertainment, gifts, and shopping may change every month. These expenses are not automatically bad, but they need limits. Small variable leaks can become the difference between saving and running out of money.",
+              "ru": "Доставка еды, такси, развлечения, подарки и покупки могут меняться каждый месяц. Эти расходы не являются плохими сами по себе, но им нужны лимиты. Небольшие переменные утечки могут стать разницей между накоплением и нехваткой денег.",
+              "kk": "Тамақ жеткізу, такси, ойын-сауық, сыйлықтар және сауда ай сайын өзгеруі мүмкін. Бұл шығындар өздігінен жаман емес, бірақ оларға шектеу керек. Кішігірім айнымалы шығындар ақша жинау мен ақшаның жетпей қалуының айырмасына айналуы мүмкін."
             },
             "tip": {
-              "en": "Variable spending is where awareness often creates quick progress."
+              "en": "Variable spending is where awareness often creates quick progress.",
+              "ru": "Переменные расходы — это место, где осознанность часто быстро даёт результат.",
+              "kk": "Айнымалы шығындарда түсінік пен бақылау көбіне тез нәтиже береді."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "A monthly expense map"
+              "en": "A monthly expense map",
+              "ru": "Карта ежемесячных расходов",
+              "kk": "Ай сайынғы шығын картасы"
             },
             "content": {
               "en": {
@@ -128,6 +157,112 @@
                     "text": "The goal is not to shame spending. The goal is to know which levers can move quickly."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Студент, который работает, зарабатывает ₸320,000 в месяц. Первый шаг — увидеть, какие расходы уже зафиксированы, а какие можно скорректировать."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Расход",
+                        "Сумма в месяц",
+                        "Тип",
+                        "Заметка для планирования"
+                      ],
+                      [
+                        "Аренда",
+                        "₸120,000",
+                        "Постоянный",
+                        "Трудно изменить в этом месяце"
+                      ],
+                      [
+                        "Тариф телефона",
+                        "₸7,000",
+                        "Постоянный",
+                        "Можно пересматривать время от времени"
+                      ],
+                      [
+                        "Продукты",
+                        "₸65,000",
+                        "Переменный",
+                        "Можно установить недельный лимит"
+                      ],
+                      [
+                        "Доставка еды",
+                        "₸45,000",
+                        "Переменный",
+                        "Хорошее место для сокращения утечек"
+                      ],
+                      [
+                        "Транспорт",
+                        "₸28,000",
+                        "Переменный",
+                        "Зависит от привычек и расписания"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Цель не в том, чтобы стыдить за траты. Цель — понять, какие рычаги можно быстро сдвинуть."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Жұмыс істейтін студент айына ₸320,000 табады. Бірінші қадам — қай шығындар бекітілгенін және қайсысын түзетуге болатынын көру."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Шығын",
+                        "Айлық сома",
+                        "Түрі",
+                        "Жоспарлау ескертпесі"
+                      ],
+                      [
+                        "Жалдау ақысы",
+                        "₸120,000",
+                        "Тұрақты",
+                        "Осы айда өзгерту қиын"
+                      ],
+                      [
+                        "Телефон тарифі",
+                        "₸7,000",
+                        "Тұрақты",
+                        "Ара-тұра қайта қарауға болады"
+                      ],
+                      [
+                        "Азық-түлік",
+                        "₸65,000",
+                        "Айнымалы",
+                        "Апталық лимит қоюға болады"
+                      ],
+                      [
+                        "Тамақ жеткізу",
+                        "₸45,000",
+                        "Айнымалы",
+                        "Утечканы азайтуға жақсы орын"
+                      ],
+                      [
+                        "Көлік",
+                        "₸28,000",
+                        "Айнымалы",
+                        "Әдеттер мен кестеге байланысты"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Мақсат — шығын үшін ұялту емес. Мақсат — қай тетіктерді тез өзгертуге болатынын білу."
+                  }
+                ]
               }
             }
           },
@@ -136,10 +271,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Sort the expenses"
+              "en": "Sort the expenses",
+              "ru": "Распределите расходы",
+              "kk": "Шығындарды сұрыптаңыз"
             },
             "body": {
-              "en": "Classify each expense by how it usually behaves in a monthly budget."
+              "en": "Classify each expense by how it usually behaves in a monthly budget.",
+              "ru": "Классифицируйте каждый расход по тому, как он обычно ведёт себя в месячном бюджете.",
+              "kk": "Әр шығынды айлық бюджетте әдетте қалай өзгеретініне қарай жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -192,6 +331,106 @@
                   }
                 ],
                 "explanation": "Fixed expenses repeat and are harder to change quickly. Variable expenses change with behavior and usually offer faster adjustment."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый расход в постоянные или переменные.",
+                "categories": [
+                  {
+                    "id": "fixed",
+                    "label": "Постоянный расход"
+                  },
+                  {
+                    "id": "variable",
+                    "label": "Переменный расход"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "rent",
+                    "text": "Платёж за аренду"
+                  },
+                  {
+                    "id": "subscription",
+                    "text": "Ежемесячная подписка"
+                  },
+                  {
+                    "id": "delivery",
+                    "text": "Доставка еды"
+                  },
+                  {
+                    "id": "shopping",
+                    "text": "Покупка одежды"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "rent",
+                    "categoryId": "fixed"
+                  },
+                  {
+                    "itemId": "subscription",
+                    "categoryId": "fixed"
+                  },
+                  {
+                    "itemId": "delivery",
+                    "categoryId": "variable"
+                  },
+                  {
+                    "itemId": "shopping",
+                    "categoryId": "variable"
+                  }
+                ],
+                "explanation": "Постоянные расходы повторяются, и их сложнее быстро изменить. Переменные расходы меняются вместе с поведением и обычно быстрее поддаются корректировке."
+              },
+              "kk": {
+                "instruction": "Әр шығынды тұрақты немесе айнымалы санатына апарыңыз.",
+                "categories": [
+                  {
+                    "id": "fixed",
+                    "label": "Тұрақты шығын"
+                  },
+                  {
+                    "id": "variable",
+                    "label": "Айнымалы шығын"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "rent",
+                    "text": "Жалдау төлемі"
+                  },
+                  {
+                    "id": "subscription",
+                    "text": "Ай сайынғы жазылым"
+                  },
+                  {
+                    "id": "delivery",
+                    "text": "Тамақ жеткізу"
+                  },
+                  {
+                    "id": "shopping",
+                    "text": "Киім сатып алу"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "rent",
+                    "categoryId": "fixed"
+                  },
+                  {
+                    "itemId": "subscription",
+                    "categoryId": "fixed"
+                  },
+                  {
+                    "itemId": "delivery",
+                    "categoryId": "variable"
+                  },
+                  {
+                    "itemId": "shopping",
+                    "categoryId": "variable"
+                  }
+                ],
+                "explanation": "Тұрақты шығындар қайталанады және оларды тез өзгерту қиынырақ. Айнымалы шығындар мінез-құлықпен бірге өзгереді және әдетте тезірек түзетіледі."
               }
             }
           },
@@ -200,13 +439,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Control starts with behavior type"
+              "en": "Control starts with behavior type",
+              "ru": "Контроль начинается с типа поведения расхода",
+              "kk": "Бақылау шығынның мінез-құлқын түсінуден басталады"
             },
             "body": {
-              "en": "Fixed expenses shape how much freedom your budget has before the month begins. Variable expenses show where habits can change this month. A strong budget watches both: reduce fixed commitments slowly and manage variable spending weekly."
+              "en": "Fixed expenses shape how much freedom your budget has before the month begins. Variable expenses show where habits can change this month. A strong budget watches both: reduce fixed commitments slowly and manage variable spending weekly.",
+              "ru": "Постоянные расходы определяют, сколько свободы есть у бюджета ещё до начала месяца. Переменные расходы показывают, какие привычки можно изменить уже в этом месяце. Сильный бюджет учитывает оба типа: постепенно снижает постоянные обязательства и еженедельно управляет переменными расходами.",
+              "kk": "Тұрақты шығындар ай басталмай тұрып-ақ бюджетте қанша еркіндік барын анықтайды. Айнымалы шығындар осы айда қандай әдеттерді өзгертуге болатынын көрсетеді. Мықты бюджет екеуін де бақылайды: тұрақты міндеттемелерді біртіндеп азайтып, айнымалы шығындарды апта сайын басқарады."
             },
             "tip": {
-              "en": "A low fixed-cost life is easier to adapt when income changes."
+              "en": "A low fixed-cost life is easier to adapt when income changes.",
+              "ru": "Жизнь с низкими постоянными расходами легче адаптировать, когда доход меняется.",
+              "kk": "Тұрақты шығыны аз өмірді табыс өзгергенде бейімдеу оңайырақ."
             }
           }
         ]
@@ -215,7 +460,9 @@
         "quiz_id": 601,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Fixed and Variable Expenses — Check"
+          "en": "Fixed and Variable Expenses — Check",
+          "ru": "Постоянные и переменные расходы — проверка",
+          "kk": "Тұрақты және айнымалы шығындар — тексеру"
         },
         "questions": [
           {
@@ -223,14 +470,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why can high fixed expenses make a budget fragile?"
+              "en": "Why can high fixed expenses make a budget fragile?",
+              "ru": "Почему высокие постоянные расходы могут сделать бюджет уязвимым?",
+              "kk": "Неліктен жоғары тұрақты шығындар бюджетті әлсіз етуі мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They use income before flexible choices and are hard to reduce quickly"
+                  "en": "They use income before flexible choices and are hard to reduce quickly",
+                  "ru": "Они забирают доход до гибких решений, и их трудно быстро сократить",
+                  "kk": "Олар икемді таңдауларға дейін табысты алып қояды және тез азайту қиын"
                 },
                 "is_correct": true
               },
@@ -238,7 +489,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They are always smaller than variable expenses"
+                  "en": "They are always smaller than variable expenses",
+                  "ru": "Они всегда меньше переменных расходов",
+                  "kk": "Олар әрқашан айнымалы шығындардан аз болады"
                 },
                 "is_correct": false
               },
@@ -246,7 +499,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They disappear when income falls"
+                  "en": "They disappear when income falls",
+                  "ru": "Они исчезают, когда доход падает",
+                  "kk": "Табыс азайғанда олар жоғалып кетеді"
                 },
                 "is_correct": false
               },
@@ -254,7 +509,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "They never repeat"
+                  "en": "They never repeat",
+                  "ru": "Они никогда не повторяются",
+                  "kk": "Олар ешқашан қайталанбайды"
                 },
                 "is_correct": false
               }
@@ -265,14 +522,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which expense is usually variable?"
+              "en": "Which expense is usually variable?",
+              "ru": "Какой расход обычно является переменным?",
+              "kk": "Қай шығын әдетте айнымалы болады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Food delivery"
+                  "en": "Food delivery",
+                  "ru": "Доставка еды",
+                  "kk": "Тамақ жеткізу"
                 },
                 "is_correct": true
               },
@@ -280,7 +541,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Rent contract"
+                  "en": "Rent contract",
+                  "ru": "Договор аренды",
+                  "kk": "Жалдау шарты"
                 },
                 "is_correct": false
               },
@@ -288,7 +551,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Fixed loan payment"
+                  "en": "Fixed loan payment",
+                  "ru": "Фиксированный платёж по кредиту",
+                  "kk": "Тұрақты несие төлемі"
                 },
                 "is_correct": false
               },
@@ -296,7 +561,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Monthly insurance premium"
+                  "en": "Monthly insurance premium",
+                  "ru": "Ежемесячный страховой взнос",
+                  "kk": "Ай сайынғы сақтандыру жарнасы"
                 },
                 "is_correct": false
               }
@@ -307,14 +574,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the best first step when cash feels tight this month?"
+              "en": "What is the best first step when cash feels tight this month?",
+              "ru": "Какой лучший первый шаг, если в этом месяце денег не хватает?",
+              "kk": "Осы айда ақша тар болып тұрса, ең дұрыс алғашқы қадам қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Review variable spending because it can often be adjusted fastest"
+                  "en": "Review variable spending because it can often be adjusted fastest",
+                  "ru": "Пересмотреть переменные расходы, потому что их часто можно скорректировать быстрее всего",
+                  "kk": "Айнымалы шығындарды қарау, өйткені оларды көбіне ең тез түзетуге болады"
                 },
                 "is_correct": true
               },
@@ -322,7 +593,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Ignore all spending until next month"
+                  "en": "Ignore all spending until next month",
+                  "ru": "Игнорировать все расходы до следующего месяца",
+                  "kk": "Келесі айға дейін барлық шығынды елемеу"
                 },
                 "is_correct": false
               },
@@ -330,7 +603,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Cancel rent immediately without a housing plan"
+                  "en": "Cancel rent immediately without a housing plan",
+                  "ru": "Сразу отменить аренду без плана по жилью",
+                  "kk": "Тұрғын үй жоспарынсыз жалдауды бірден тоқтату"
                 },
                 "is_correct": false
               },
@@ -338,7 +613,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Assume income is the only problem"
+                  "en": "Assume income is the only problem",
+                  "ru": "Считать, что единственная проблема — доход",
+                  "kk": "Мәселе тек табыста деп ойлау"
                 },
                 "is_correct": false
               }
@@ -350,10 +627,14 @@
     {
       "code": "budgeting_systems",
       "title": {
-        "en": "Budgeting Systems"
+        "en": "Budgeting Systems",
+        "ru": "Системы бюджетирования",
+        "kk": "Бюджеттеу жүйелері"
       },
       "description": {
-        "en": "A budgeting system turns income into a repeatable rule, such as zero-based budgeting, envelope categories, or percentage-based planning."
+        "en": "A budgeting system turns income into a repeatable rule, such as zero-based budgeting, envelope categories, or percentage-based planning.",
+        "ru": "Система бюджетирования превращает доход в повторяемое правило, например бюджет с нулевой базой, категории-конверты или планирование по процентам.",
+        "kk": "Бюджеттеу жүйесі табысты қайталанатын ережеге айналдырады: мысалы, нөлдік бюджеттеу, конверт санаттары немесе пайыздық жоспарлау."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -365,13 +646,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A budget is a system, not a punishment"
+              "en": "A budget is a system, not a punishment",
+              "ru": "Бюджет — это система, а не наказание",
+              "kk": "Бюджет — жаза емес, жүйе"
             },
             "body": {
-              "en": "A budget is a plan for what each tenge should do before it disappears. It is not only for people with low income. A good system reduces surprise and makes spending choices intentional."
+              "en": "A budget is a plan for what each tenge should do before it disappears. It is not only for people with low income. A good system reduces surprise and makes spending choices intentional.",
+              "ru": "Бюджет — это план, что должен сделать каждый тенге до того, как он исчезнет. Он нужен не только людям с низким доходом. Хорошая система уменьшает неожиданности и делает траты осознанными.",
+              "kk": "Бюджет — әр теңге жоғалып кетпей тұрып не істеуі керегін көрсететін жоспар. Ол тек табысы төмен адамдарға ғана керек емес. Жақсы жүйе күтпеген жағдайды азайтып, шығын таңдауларын саналы етеді."
             },
             "tip": {
-              "en": "The best budget is the one you can actually maintain."
+              "en": "The best budget is the one you can actually maintain.",
+              "ru": "Лучший бюджет — тот, который вы действительно можете поддерживать.",
+              "kk": "Ең жақсы бюджет — сіз шынымен тұрақты жүргізе алатын бюджет."
             }
           },
           {
@@ -379,13 +666,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Zero-based budgeting gives every tenge a job"
+              "en": "Zero-based budgeting gives every tenge a job",
+              "ru": "Бюджет с нулевой базой даёт каждому тенге задачу",
+              "kk": "Нөлдік бюджеттеу әр теңгеге міндет береді"
             },
             "body": {
-              "en": "In zero-based budgeting, income minus planned expenses, saving, and debt payments equals zero. Zero does not mean you spend everything. It means every tenge is assigned to a purpose, including saving."
+              "en": "In zero-based budgeting, income minus planned expenses, saving, and debt payments equals zero. Zero does not mean you spend everything. It means every tenge is assigned to a purpose, including saving.",
+              "ru": "В бюджете с нулевой базой доход минус запланированные расходы, сбережения и платежи по долгам равен нулю. Ноль не означает, что вы тратите всё. Это означает, что каждому тенге назначена цель, включая накопления.",
+              "kk": "Нөлдік бюджетте табыстан жоспарланған шығындар, жинақ және қарыз төлемдері шегерілгенде нәтиже нөлге тең болады. Нөл барлық ақшаны жұмсау деген сөз емес. Бұл әр теңгеге, соның ішінде жинаққа да, нақты мақсат берілгенін білдіреді."
             },
             "example": {
-              "en": "If income is ₸300,000, the plan might assign ₸210,000 to expenses, ₸50,000 to savings, and ₸40,000 to debt repayment."
+              "en": "If income is ₸300,000, the plan might assign ₸210,000 to expenses, ₸50,000 to savings, and ₸40,000 to debt repayment.",
+              "ru": "Если доход составляет ₸300,000, план может распределить ₸210,000 на расходы, ₸50,000 на сбережения и ₸40,000 на погашение долга.",
+              "kk": "Табыс ₸300,000 болса, жоспар ₸210,000 шығындарға, ₸50,000 жинаққа және ₸40,000 қарызды өтеуге бөлуі мүмкін."
             }
           },
           {
@@ -393,13 +686,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Simple percentage systems reduce effort"
+              "en": "Simple percentage systems reduce effort",
+              "ru": "Простые процентные системы снижают усилия",
+              "kk": "Қарапайым пайыздық жүйелер күшті азайтады"
             },
             "body": {
-              "en": "A percentage system splits income into broad groups, such as needs, wants, and savings. It is less precise than zero-based budgeting but easier to maintain. It works well when you need structure without tracking every receipt."
+              "en": "A percentage system splits income into broad groups, such as needs, wants, and savings. It is less precise than zero-based budgeting but easier to maintain. It works well when you need structure without tracking every receipt.",
+              "ru": "Процентная система делит доход на крупные группы, например потребности, желания и сбережения. Она менее точна, чем бюджет с нулевой базой, но её легче поддерживать. Она хорошо работает, когда нужна структура без отслеживания каждого чека.",
+              "kk": "Пайыздық жүйе табысты қажеттіліктер, қалаулар және жинақ сияқты ірі топтарға бөледі. Ол нөлдік бюджеттеуден дәлдігі төмендеу, бірақ жүргізуге жеңілірек. Әрбір түбіртекті бақыламай-ақ құрылым керек болғанда жақсы жұмыс істейді."
             },
             "tip": {
-              "en": "More detailed is not always better if it makes you quit."
+              "en": "More detailed is not always better if it makes you quit.",
+              "ru": "Более детально — не всегда лучше, если из-за этого вы бросаете систему.",
+              "kk": "Егер тым егжей-тегжейлілік сізді тоқтатып тастаса, ол әрқашан жақсы емес."
             }
           },
           {
@@ -407,7 +706,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Choosing a system"
+              "en": "Choosing a system",
+              "ru": "Выбор системы",
+              "kk": "Жүйені таңдау"
             },
             "content": {
               "en": {
@@ -451,6 +752,90 @@
                     "text": "A budgeting system should solve the user's real failure point, not just look perfect on paper."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Три человека могут использовать разные системы, потому что их проблемы разные."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ситуация",
+                        "Возможная система",
+                        "Почему подходит"
+                      ],
+                      [
+                        "Деньги исчезают непонятно куда",
+                        "Бюджет с нулевой базой",
+                        "Каждому тенге назначена задача"
+                      ],
+                      [
+                        "Перерасход на еду и покупки",
+                        "Категории-конверты",
+                        "Ограничивает проблемные категории"
+                      ],
+                      [
+                        "Занятому человеку нужны простые правила",
+                        "Процентный бюджет",
+                        "Отслеживает крупные группы"
+                      ],
+                      [
+                        "Нерегулярный доход",
+                        "Бюджет по приоритетам",
+                        "Сначала финансирует самое необходимое"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Система бюджетирования должна решать реальную слабую точку пользователя, а не просто выглядеть идеально на бумаге."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Үш адам әртүрлі жүйе қолдануы мүмкін, өйткені олардың мәселелері әртүрлі."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Жағдай",
+                        "Мүмкін жүйе",
+                        "Неге сәйкес келеді"
+                      ],
+                      [
+                        "Ақша қайда кеткені белгісіз жоғалады",
+                        "Нөлдік бюджет",
+                        "Әр теңгеге міндет берілген"
+                      ],
+                      [
+                        "Тамақ пен саудаға артық жұмсау",
+                        "Конверт санаттары",
+                        "Проблемалы санаттарды шектейді"
+                      ],
+                      [
+                        "Бос емес адамға қарапайым ережелер керек",
+                        "Пайыздық бюджет",
+                        "Ірі топтарды бақылайды"
+                      ],
+                      [
+                        "Тұрақсыз табыс",
+                        "Басымдыққа негізделген бюджет",
+                        "Алдымен негізгі қажеттіліктерді қаржыландырады"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Бюджеттеу жүйесі қағазда ғана мінсіз көрінбей, пайдаланушының нақты әлсіз тұсын шешуі керек."
+                  }
+                ]
               }
             }
           },
@@ -459,10 +844,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Pick the budget system"
+              "en": "Pick the budget system",
+              "ru": "Выберите систему бюджета",
+              "kk": "Бюджет жүйесін таңдаңыз"
             },
             "body": {
-              "en": "Choose which budgeting system best fits each situation."
+              "en": "Choose which budgeting system best fits each situation.",
+              "ru": "Выберите, какая система бюджетирования лучше всего подходит к каждой ситуации.",
+              "kk": "Әр жағдайға ең сәйкес келетін бюджеттеу жүйесін таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -496,6 +885,68 @@
                     "explanation": "Zero-based budgeting assigns all income to expenses, saving, debt, or goals."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите наиболее подходящую систему бюджетирования.",
+                "options": [
+                  "Бюджет с нулевой базой",
+                  "Категории-конверты",
+                  "Процентный бюджет",
+                  "Бюджет по приоритетам"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Доход нерегулярный, и самое необходимое нужно защитить первым.",
+                    "correct_answer": "Бюджет по приоритетам",
+                    "explanation": "При нерегулярном доходе базовые потребности, сбережения и долговые приоритеты должны финансироваться до необязательных расходов."
+                  },
+                  {
+                    "text": "Человек в основном перерасходует на рестораны и доставку.",
+                    "correct_answer": "Категории-конверты",
+                    "explanation": "Лимиты по категориям помогают контролировать конкретные утечки расходов."
+                  },
+                  {
+                    "text": "Человек хочет простое ежемесячное распределение без отслеживания каждой покупки.",
+                    "correct_answer": "Процентный бюджет",
+                    "explanation": "Процентная система даёт общую структуру с меньшими усилиями."
+                  },
+                  {
+                    "text": "Человек хочет назначить каждому тенге задачу до начала месяца.",
+                    "correct_answer": "Бюджет с нулевой базой",
+                    "explanation": "Бюджетирование с нулевой базой распределяет весь доход на расходы, сбережения, долги или цели."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ең қолайлы бюджеттеу жүйесін таңдаңыз.",
+                "options": [
+                  "Нөлдік бюджет",
+                  "Конверт санаттары",
+                  "Пайыздық бюджет",
+                  "Басымдыққа негізделген бюджет"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Табыс тұрақсыз, ал негізгі қажеттіліктер алдымен қорғалуы керек.",
+                    "correct_answer": "Басымдыққа негізделген бюджет",
+                    "explanation": "Тұрақсыз табыста негізгі қажеттіліктер, жинақ және қарыз басымдықтары міндетті емес шығындардан бұрын қаржылануы керек."
+                  },
+                  {
+                    "text": "Адам көбіне мейрамхана мен жеткізуге артық жұмсайды.",
+                    "correct_answer": "Конверт санаттары",
+                    "explanation": "Санат лимиттері нақты шығын утечкаларын бақылауға көмектеседі."
+                  },
+                  {
+                    "text": "Адам әр нәрсені бақыламай, қарапайым айлық бөлуді қалайды.",
+                    "correct_answer": "Пайыздық бюджет",
+                    "explanation": "Пайыздық жүйе аз күшпен жалпы құрылым береді."
+                  },
+                  {
+                    "text": "Адам ай басталмай тұрып әр теңгеге міндет бергісі келеді.",
+                    "correct_answer": "Нөлдік бюджет",
+                    "explanation": "Нөлдік бюджеттеу барлық табысты шығындарға, жинаққа, қарызға немесе мақсаттарға бөледі."
+                  }
+                ]
               }
             }
           },
@@ -504,13 +955,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Fit beats perfection"
+              "en": "Fit beats perfection",
+              "ru": "Подходящая система важнее совершенства",
+              "kk": "Сәйкестік мінсіздіктен маңызды"
             },
             "body": {
-              "en": "Budgeting systems are tools, not personality tests. The right system fits your income pattern, problem categories, and tracking tolerance. A simple system used every month beats a perfect spreadsheet abandoned after two weeks."
+              "en": "Budgeting systems are tools, not personality tests. The right system fits your income pattern, problem categories, and tracking tolerance. A simple system used every month beats a perfect spreadsheet abandoned after two weeks.",
+              "ru": "Системы бюджетирования — это инструменты, а не тесты личности. Правильная система подходит к вашему типу дохода, проблемным категориям и готовности отслеживать расходы. Простая система, которой пользуются каждый месяц, лучше идеальной таблицы, заброшенной через две недели.",
+              "kk": "Бюджеттеу жүйелері — тұлғалық тест емес, құрал. Дұрыс жүйе табыс үлгіңізге, проблемалы санаттарыңызға және бақылауға төзімділігіңізге сай келеді. Ай сайын қолданылатын қарапайым жүйе екі аптадан кейін тасталған мінсіз кестеден жақсы."
             },
             "tip": {
-              "en": "Choose the system that reduces mistakes with the least friction."
+              "en": "Choose the system that reduces mistakes with the least friction.",
+              "ru": "Выбирайте систему, которая снижает ошибки с минимальным сопротивлением.",
+              "kk": "Қателіктерді ең аз кедергімен азайтатын жүйені таңдаңыз."
             }
           }
         ]
@@ -519,7 +976,9 @@
         "quiz_id": 602,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Budgeting Systems — Check"
+          "en": "Budgeting Systems — Check",
+          "ru": "Системы бюджетирования — проверка",
+          "kk": "Бюджеттеу жүйелері — тексеру"
         },
         "questions": [
           {
@@ -527,14 +986,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "In zero-based budgeting, what does “zero” mean?"
+              "en": "In zero-based budgeting, what does “zero” mean?",
+              "ru": "Что означает «ноль» в бюджете с нулевой базой?",
+              "kk": "Нөлдік бюджеттеудегі «нөл» нені білдіреді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Every tenge is assigned to a purpose, including saving or debt repayment"
+                  "en": "Every tenge is assigned to a purpose, including saving or debt repayment",
+                  "ru": "Каждый тенге назначен на цель, включая сбережения или погашение долга",
+                  "kk": "Әр теңгеге мақсат берілген, соның ішінде жинақ немесе қарызды өтеу"
                 },
                 "is_correct": true
               },
@@ -542,7 +1005,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "You must spend all income on shopping"
+                  "en": "You must spend all income on shopping",
+                  "ru": "Нужно потратить весь доход на покупки",
+                  "kk": "Барлық табысты саудаға жұмсау керек"
                 },
                 "is_correct": false
               },
@@ -550,7 +1015,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Your bank balance must become zero"
+                  "en": "Your bank balance must become zero",
+                  "ru": "Баланс на банковском счёте должен стать нулевым",
+                  "kk": "Банк шотындағы қалдық нөл болуы керек"
                 },
                 "is_correct": false
               },
@@ -558,7 +1025,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Savings are not allowed"
+                  "en": "Savings are not allowed",
+                  "ru": "Сбережения запрещены",
+                  "kk": "Жинақ жасауға болмайды"
                 },
                 "is_correct": false
               }
@@ -569,14 +1038,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which system is best for controlling one problem category like food delivery?"
+              "en": "Which system is best for controlling one problem category like food delivery?",
+              "ru": "Какая система лучше всего подходит для контроля одной проблемной категории, например доставки еды?",
+              "kk": "Тамақ жеткізу сияқты бір проблемалы санатты бақылауға қай жүйе ең қолайлы?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Envelope categories"
+                  "en": "Envelope categories",
+                  "ru": "Категории-конверты",
+                  "kk": "Конверт санаттары"
                 },
                 "is_correct": true
               },
@@ -584,7 +1057,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Ignoring categories"
+                  "en": "Ignoring categories",
+                  "ru": "Игнорирование категорий",
+                  "kk": "Санаттарды елемеу"
                 },
                 "is_correct": false
               },
@@ -592,7 +1067,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A system with no limits"
+                  "en": "A system with no limits",
+                  "ru": "Система без лимитов",
+                  "kk": "Шектеуі жоқ жүйе"
                 },
                 "is_correct": false
               },
@@ -600,7 +1077,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Only checking income once a year"
+                  "en": "Only checking income once a year",
+                  "ru": "Проверка дохода только раз в год",
+                  "kk": "Табысты жылына бір рет қана тексеру"
                 },
                 "is_correct": false
               }
@@ -611,14 +1090,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What makes a budgeting system successful?"
+              "en": "What makes a budgeting system successful?",
+              "ru": "Что делает систему бюджетирования успешной?",
+              "kk": "Бюджеттеу жүйесін табысты ететін не?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It is realistic enough to repeat consistently"
+                  "en": "It is realistic enough to repeat consistently",
+                  "ru": "Она достаточно реалистична, чтобы пользоваться ею регулярно",
+                  "kk": "Ол тұрақты қайталауға жеткілікті шынайы"
                 },
                 "is_correct": true
               },
@@ -626,7 +1109,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It is as complicated as possible"
+                  "en": "It is as complicated as possible",
+                  "ru": "Она максимально сложная",
+                  "kk": "Ол мүмкіндігінше күрделі"
                 },
                 "is_correct": false
               },
@@ -634,7 +1119,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It tracks every coin even if the user quits"
+                  "en": "It tracks every coin even if the user quits",
+                  "ru": "Она отслеживает каждую монету, даже если пользователь бросает систему",
+                  "kk": "Пайдаланушы тоқтатып тастаса да, ол әр тиынды бақылайды"
                 },
                 "is_correct": false
               },
@@ -642,7 +1129,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It removes all spending choices forever"
+                  "en": "It removes all spending choices forever",
+                  "ru": "Она навсегда убирает все решения о тратах",
+                  "kk": "Ол барлық шығын таңдауын мәңгі алып тастайды"
                 },
                 "is_correct": false
               }
@@ -654,10 +1143,14 @@
     {
       "code": "spending_analysis",
       "title": {
-        "en": "Spending Analysis"
+        "en": "Spending Analysis",
+        "ru": "Анализ расходов",
+        "kk": "Шығындарды талдау"
       },
       "description": {
-        "en": "Spending analysis finds patterns, leaks, and trade-offs in past behavior so future budgets can be realistic."
+        "en": "Spending analysis finds patterns, leaks, and trade-offs in past behavior so future budgets can be realistic.",
+        "ru": "Анализ расходов находит закономерности, утечки и компромиссы в прошлом поведении, чтобы будущие бюджеты были реалистичными.",
+        "kk": "Шығындарды талдау өткен әрекеттердегі үлгілерді, шығын утечкаларын және таңдаулар арасындағы айырбасты табады, сондықтан болашақ бюджет шынайы болады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -669,13 +1162,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Your past spending is data"
+              "en": "Your past spending is data",
+              "ru": "Ваши прошлые расходы — это данные",
+              "kk": "Өткен шығындарыңыз — дерек"
             },
             "body": {
-              "en": "Spending analysis means looking at what actually happened, not what you planned or hoped. It turns bank history into information about habits. This helps create a budget that fits real behavior."
+              "en": "Spending analysis means looking at what actually happened, not what you planned or hoped. It turns bank history into information about habits. This helps create a budget that fits real behavior.",
+              "ru": "Анализ расходов означает смотреть на то, что действительно произошло, а не на то, что вы планировали или надеялись сделать. Он превращает банковскую историю в информацию о привычках. Это помогает создать бюджет, который соответствует реальному поведению.",
+              "kk": "Шығындарды талдау — жоспарлағаныңызға немесе үміттенгеніңізге емес, нақты болған жағдайға қарау. Ол банк тарихын әдеттер туралы ақпаратқа айналдырады. Бұл нақты мінез-құлыққа сай бюджет жасауға көмектеседі."
             },
             "tip": {
-              "en": "A budget based on memory is usually too optimistic."
+              "en": "A budget based on memory is usually too optimistic.",
+              "ru": "Бюджет, основанный на памяти, обычно слишком оптимистичен.",
+              "kk": "Есте сақтауға сүйенген бюджет әдетте тым оптимистік болады."
             }
           },
           {
@@ -683,13 +1182,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Look for patterns, not guilt"
+              "en": "Look for patterns, not guilt",
+              "ru": "Ищите закономерности, а не вину",
+              "kk": "Кінә емес, үлгілерді іздеңіз"
             },
             "body": {
-              "en": "The goal is not to feel bad about every purchase. The goal is to find repeated patterns: daily snacks, taxis after late mornings, subscriptions, impulse shopping, or weekend spending. Repeated small choices often matter more than one big mistake."
+              "en": "The goal is not to feel bad about every purchase. The goal is to find repeated patterns: daily snacks, taxis after late mornings, subscriptions, impulse shopping, or weekend spending. Repeated small choices often matter more than one big mistake.",
+              "ru": "Цель не в том, чтобы переживать из-за каждой покупки. Цель — найти повторяющиеся закономерности: ежедневные перекусы, такси после позднего подъёма, подписки, импульсивные покупки или расходы по выходным. Повторяющиеся маленькие решения часто важнее одной большой ошибки.",
+              "kk": "Мақсат — әр сатып алудан ұялу емес. Мақсат — қайталанатын үлгілерді табу: күнделікті тіскебасар, кеш тұрғаннан кейінгі такси, жазылымдар, импульсивті сауда немесе демалыс күнгі шығындар. Қайталанатын кішігірім таңдаулар көбіне бір үлкен қателіктен маңыздырақ."
             },
             "example": {
-              "en": "₸3,000 spent five times a week becomes about ₸60,000 per month."
+              "en": "₸3,000 spent five times a week becomes about ₸60,000 per month.",
+              "ru": "₸3,000, потраченные пять раз в неделю, превращаются примерно в ₸60,000 в месяц.",
+              "kk": "Аптасына бес рет жұмсалған ₸3,000 айына шамамен ₸60,000 болады."
             }
           },
           {
@@ -697,13 +1202,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Separate needs, wants, and leaks"
+              "en": "Separate needs, wants, and leaks",
+              "ru": "Разделяйте потребности, желания и утечки",
+              "kk": "Қажеттіліктерді, қалауларды және утечкаларды бөліңіз"
             },
             "body": {
-              "en": "Needs support basic living and obligations. Wants improve life but are optional. Leaks are spending you barely value after it happens. The best cuts often come from leaks, not from removing every want."
+              "en": "Needs support basic living and obligations. Wants improve life but are optional. Leaks are spending you barely value after it happens. The best cuts often come from leaks, not from removing every want.",
+              "ru": "Потребности поддерживают базовую жизнь и обязательства. Желания улучшают жизнь, но не являются обязательными. Утечки — это траты, которые вы почти не цените после того, как они произошли. Лучшие сокращения часто приходят из утечек, а не из удаления всех желаний.",
+              "kk": "Қажеттіліктер негізгі өмірді және міндеттемелерді қамтамасыз етеді. Қалаулар өмірді жақсартады, бірақ міндетті емес. Утечкалар — ақша кеткеннен кейін құндылығы аз болып қалатын шығындар. Ең жақсы қысқартулар көбіне барлық қалауды алып тастаудан емес, утечкаларды азайтудан келеді."
             },
             "tip": {
-              "en": "A good budget protects joy by removing low-value leakage."
+              "en": "A good budget protects joy by removing low-value leakage.",
+              "ru": "Хороший бюджет защищает радость, убирая малополезные утечки.",
+              "kk": "Жақсы бюджет құндылығы төмен утечкаларды алып тастап, қуанышты қорғайды."
             }
           },
           {
@@ -711,7 +1222,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "One month of spending clues"
+              "en": "One month of spending clues",
+              "ru": "Подсказки из расходов за один месяц",
+              "kk": "Бір айлық шығыннан алынған белгілер"
             },
             "content": {
               "en": {
@@ -766,6 +1279,112 @@
                     "text": "Spending analysis works best when it asks which expenses create value and which only happen by default."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Человек просматривает расходы за один месяц и группирует их по закономерностям."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Категория",
+                        "Итого за месяц",
+                        "Найденная закономерность",
+                        "Возможное действие"
+                      ],
+                      [
+                        "Продукты",
+                        "₸70,000",
+                        "Стабильно и необходимо",
+                        "Сохранить запланированный лимит"
+                      ],
+                      [
+                        "Доставка еды",
+                        "₸58,000",
+                        "В основном поздние заказы",
+                        "Заготовка еды или лимит на доставку"
+                      ],
+                      [
+                        "Подписки",
+                        "₸18,000",
+                        "Два неиспользуемых сервиса",
+                        "Отменить неиспользуемые"
+                      ],
+                      [
+                        "Такси",
+                        "₸42,000",
+                        "Часто после позднего подъёма",
+                        "Исправить утренний распорядок"
+                      ],
+                      [
+                        "Развлечения",
+                        "₸35,000",
+                        "Высокая ценность с друзьями",
+                        "Оставить, но планировать"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Анализ расходов лучше всего работает, когда спрашивает, какие расходы создают ценность, а какие происходят просто по инерции."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Адам бір айлық шығынды қарап, үлгілер бойынша топтайды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Санат",
+                        "Айлық жиынтық",
+                        "Табылған үлгі",
+                        "Мүмкін әрекет"
+                      ],
+                      [
+                        "Азық-түлік",
+                        "₸70,000",
+                        "Тұрақты әрі қажет",
+                        "Жоспарланған лимитті сақтау"
+                      ],
+                      [
+                        "Тамақ жеткізу",
+                        "₸58,000",
+                        "Көбіне түнгі тапсырыстар",
+                        "Тамақты алдын ала дайындау немесе жеткізу лимиті"
+                      ],
+                      [
+                        "Жазылымдар",
+                        "₸18,000",
+                        "Қолданылмайтын екі қызмет",
+                        "Қолданылмайтындарын тоқтату"
+                      ],
+                      [
+                        "Такси",
+                        "₸42,000",
+                        "Кеш тұрғаннан кейін жиі",
+                        "Таңғы тәртіпті түзету"
+                      ],
+                      [
+                        "Ойын-сауық",
+                        "₸35,000",
+                        "Достармен жоғары құндылық",
+                        "Қалдыру, бірақ жоспарлау"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Шығындарды талдау қай шығын құндылық жасайтынын, ал қайсысы жай ғана әдет бойынша болатынын сұрағанда жақсы жұмыс істейді."
+                  }
+                ]
               }
             }
           },
@@ -774,10 +1393,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Need, want, or leak?"
+              "en": "Need, want, or leak?",
+              "ru": "Потребность, желание или утечка?",
+              "kk": "Қажеттілік, қалау немесе утечка?"
             },
             "body": {
-              "en": "Classify each expense by how it functions in the budget."
+              "en": "Classify each expense by how it functions in the budget.",
+              "ru": "Классифицируйте каждый расход по его роли в бюджете.",
+              "kk": "Әр шығынды бюджеттегі қызметіне қарай жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -834,6 +1457,114 @@
                   }
                 ],
                 "explanation": "Needs and meaningful wants can stay planned. Leaks are the easiest targets because they provide little value after the money is gone."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый расход в наиболее подходящую категорию.",
+                "categories": [
+                  {
+                    "id": "need",
+                    "label": "Потребность"
+                  },
+                  {
+                    "id": "want",
+                    "label": "Желание"
+                  },
+                  {
+                    "id": "leak",
+                    "label": "Утечка"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "rent",
+                    "text": "Платёж за аренду"
+                  },
+                  {
+                    "id": "friend_dinner",
+                    "text": "Запланированный ужин с друзьями"
+                  },
+                  {
+                    "id": "unused_subscription",
+                    "text": "Неиспользуемая подписка"
+                  },
+                  {
+                    "id": "panic_taxi",
+                    "text": "Такси из-за регулярного позднего подъёма"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "rent",
+                    "categoryId": "need"
+                  },
+                  {
+                    "itemId": "friend_dinner",
+                    "categoryId": "want"
+                  },
+                  {
+                    "itemId": "unused_subscription",
+                    "categoryId": "leak"
+                  },
+                  {
+                    "itemId": "panic_taxi",
+                    "categoryId": "leak"
+                  }
+                ],
+                "explanation": "Потребности и значимые желания можно оставить в плане. Утечки — самые лёгкие цели, потому что после траты они дают мало ценности."
+              },
+              "kk": {
+                "instruction": "Әр шығынды ең сәйкес санатқа апарыңыз.",
+                "categories": [
+                  {
+                    "id": "need",
+                    "label": "Қажеттілік"
+                  },
+                  {
+                    "id": "want",
+                    "label": "Қалау"
+                  },
+                  {
+                    "id": "leak",
+                    "label": "Утечка"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "rent",
+                    "text": "Жалдау төлемі"
+                  },
+                  {
+                    "id": "friend_dinner",
+                    "text": "Достармен жоспарланған кешкі ас"
+                  },
+                  {
+                    "id": "unused_subscription",
+                    "text": "Қолданылмайтын жазылым"
+                  },
+                  {
+                    "id": "panic_taxi",
+                    "text": "Қайта-қайта кеш тұрудан болған такси"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "rent",
+                    "categoryId": "need"
+                  },
+                  {
+                    "itemId": "friend_dinner",
+                    "categoryId": "want"
+                  },
+                  {
+                    "itemId": "unused_subscription",
+                    "categoryId": "leak"
+                  },
+                  {
+                    "itemId": "panic_taxi",
+                    "categoryId": "leak"
+                  }
+                ],
+                "explanation": "Қажеттіліктер мен мағыналы қалаулар жоспарда қала алады. Утечкалар ең оңай нысана, өйткені ақша кеткеннен кейін құндылығы аз болады."
               }
             }
           },
@@ -842,13 +1573,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Use analysis to choose one fix"
+              "en": "Use analysis to choose one fix",
+              "ru": "Используйте анализ, чтобы выбрать одно исправление",
+              "kk": "Талдауды бір түзету таңдауға қолданыңыз"
             },
             "body": {
-              "en": "Spending analysis should end with action, not only labels. Find one or two repeated leaks and design a fix for them. A small repeated improvement can change cash flow more than a dramatic one-week spending ban."
+              "en": "Spending analysis should end with action, not only labels. Find one or two repeated leaks and design a fix for them. A small repeated improvement can change cash flow more than a dramatic one-week spending ban.",
+              "ru": "Анализ расходов должен заканчиваться действием, а не только ярлыками. Найдите одну-две повторяющиеся утечки и придумайте для них исправление. Небольшое повторяющееся улучшение может изменить денежный поток сильнее, чем резкий недельный запрет на траты.",
+              "kk": "Шығындарды талдау тек атаулармен емес, әрекетпен аяқталуы керек. Бір-екі қайталанатын утечканы тауып, оларды түзету жолын жасаңыз. Кішкентай, бірақ қайталанатын жақсарту бір апталық қатал шығын тыйымынан гөрі ақша ағынын көбірек өзгерте алады."
             },
             "tip": {
-              "en": "Track to learn, then change the system."
+              "en": "Track to learn, then change the system.",
+              "ru": "Отслеживайте, чтобы понять, затем меняйте систему.",
+              "kk": "Үйрену үшін бақылаңыз, содан кейін жүйені өзгертіңіз."
             }
           }
         ]
@@ -857,7 +1594,9 @@
         "quiz_id": 603,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Spending Analysis — Check"
+          "en": "Spending Analysis — Check",
+          "ru": "Анализ расходов — проверка",
+          "kk": "Шығындарды талдау — тексеру"
         },
         "questions": [
           {
@@ -865,14 +1604,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why analyze past spending before building a budget?"
+              "en": "Why analyze past spending before building a budget?",
+              "ru": "Зачем анализировать прошлые расходы перед составлением бюджета?",
+              "kk": "Бюджет құрмас бұрын өткен шығындарды не үшін талдау керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It shows real patterns and helps make the next budget realistic"
+                  "en": "It shows real patterns and helps make the next budget realistic",
+                  "ru": "Это показывает реальные закономерности и помогает сделать следующий бюджет реалистичным",
+                  "kk": "Бұл нақты үлгілерді көрсетеді және келесі бюджетті шынайы етуге көмектеседі"
                 },
                 "is_correct": true
               },
@@ -880,7 +1623,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It proves all spending is bad"
+                  "en": "It proves all spending is bad",
+                  "ru": "Это доказывает, что все расходы плохие",
+                  "kk": "Бұл барлық шығын жаман екенін дәлелдейді"
                 },
                 "is_correct": false
               },
@@ -888,7 +1633,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It replaces the need to plan"
+                  "en": "It replaces the need to plan",
+                  "ru": "Это заменяет необходимость планировать",
+                  "kk": "Бұл жоспарлаудың қажеттілігін алмастырады"
                 },
                 "is_correct": false
               },
@@ -896,7 +1643,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It guarantees income will rise"
+                  "en": "It guarantees income will rise",
+                  "ru": "Это гарантирует рост дохода",
+                  "kk": "Бұл табыстың өсетініне кепілдік береді"
                 },
                 "is_correct": false
               }
@@ -907,14 +1656,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which expense is most likely a leak?"
+              "en": "Which expense is most likely a leak?",
+              "ru": "Какой расход с наибольшей вероятностью является утечкой?",
+              "kk": "Қай шығын утечка болуы ықтимал?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "An unused subscription that renews monthly"
+                  "en": "An unused subscription that renews monthly",
+                  "ru": "Неиспользуемая подписка, которая продлевается каждый месяц",
+                  "kk": "Ай сайын жаңаратын, бірақ қолданылмайтын жазылым"
                 },
                 "is_correct": true
               },
@@ -922,7 +1675,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Rent for the place you live"
+                  "en": "Rent for the place you live",
+                  "ru": "Аренда жилья, где вы живёте",
+                  "kk": "Өзіңіз тұратын үйдің жалдау ақысы"
                 },
                 "is_correct": false
               },
@@ -930,7 +1685,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A planned gift you value"
+                  "en": "A planned gift you value",
+                  "ru": "Запланированный подарок, который вы цените",
+                  "kk": "Сіз бағалайтын жоспарланған сыйлық"
                 },
                 "is_correct": false
               },
@@ -938,7 +1695,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Groceries within a realistic limit"
+                  "en": "Groceries within a realistic limit",
+                  "ru": "Продукты в рамках реалистичного лимита",
+                  "kk": "Шынайы лимит ішіндегі азық-түлік"
                 },
                 "is_correct": false
               }
@@ -949,14 +1708,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the best outcome of spending analysis?"
+              "en": "What is the best outcome of spending analysis?",
+              "ru": "Какой лучший результат анализа расходов?",
+              "kk": "Шығындарды талдаудың ең жақсы нәтижесі қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Finding repeated low-value patterns and choosing a system fix"
+                  "en": "Finding repeated low-value patterns and choosing a system fix",
+                  "ru": "Найти повторяющиеся малополезные шаблоны и выбрать системное исправление",
+                  "kk": "Қайталанатын құндылығы төмен үлгілерді тауып, жүйелік түзету таңдау"
                 },
                 "is_correct": true
               },
@@ -964,7 +1727,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Feeling guilty about every purchase"
+                  "en": "Feeling guilty about every purchase",
+                  "ru": "Чувствовать вину за каждую покупку",
+                  "kk": "Әр сатып алу үшін кінә сезіну"
                 },
                 "is_correct": false
               },
@@ -972,7 +1737,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Deleting all wants from life"
+                  "en": "Deleting all wants from life",
+                  "ru": "Удалить из жизни все желания",
+                  "kk": "Өмірден барлық қалауды алып тастау"
                 },
                 "is_correct": false
               },
@@ -980,7 +1747,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Avoiding bank statements"
+                  "en": "Avoiding bank statements",
+                  "ru": "Избегать банковских выписок",
+                  "kk": "Банк көшірмелерінен қашу"
                 },
                 "is_correct": false
               }
@@ -992,10 +1761,14 @@
     {
       "code": "conscious_spending",
       "title": {
-        "en": "Conscious Spending"
+        "en": "Conscious Spending",
+        "ru": "Осознанные траты",
+        "kk": "Саналы шығындар"
       },
       "description": {
-        "en": "Conscious spending means spending freely on what matters after protecting essentials, goals, and future stability."
+        "en": "Conscious spending means spending freely on what matters after protecting essentials, goals, and future stability.",
+        "ru": "Осознанные траты означают свободно тратить на важное после защиты базовых потребностей, целей и будущей стабильности.",
+        "kk": "Саналы шығындар — негізгі қажеттіліктерді, мақсаттарды және болашақ тұрақтылықты қорғағаннан кейін маңызды нәрселерге еркін ақша жұмсау."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -1007,13 +1780,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Spend on purpose"
+              "en": "Spend on purpose",
+              "ru": "Тратьте с намерением",
+              "kk": "Мақсатпен жұмсаңыз"
             },
             "body": {
-              "en": "Conscious spending is not extreme frugality. It means choosing where money creates real value for your life. You protect essentials and goals first, then spend more confidently on what you truly care about."
+              "en": "Conscious spending is not extreme frugality. It means choosing where money creates real value for your life. You protect essentials and goals first, then spend more confidently on what you truly care about.",
+              "ru": "Осознанные траты — это не крайняя экономия. Это выбор, где деньги создают реальную ценность для вашей жизни. Сначала вы защищаете базовые потребности и цели, а затем увереннее тратите на то, что вам действительно важно.",
+              "kk": "Саналы шығындар — шектен тыс үнемдеу емес. Бұл ақшаның өміріңізге нақты құндылық әкелетін жерін таңдау. Алдымен негізгі қажеттіліктер мен мақсаттарды қорғайсыз, содан кейін өзіңізге шынымен маңызды нәрселерге сенімдірек жұмсайсыз."
             },
             "tip": {
-              "en": "A budget should create permission for good spending, not only restrictions."
+              "en": "A budget should create permission for good spending, not only restrictions.",
+              "ru": "Бюджет должен давать разрешение на хорошие траты, а не только ограничения.",
+              "kk": "Бюджет тек шектеу емес, жақсы шығындарға рұқсат беруі керек."
             }
           },
           {
@@ -1021,13 +1800,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Cut low value, not all joy"
+              "en": "Cut low value, not all joy",
+              "ru": "Сокращайте низкую ценность, а не всю радость",
+              "kk": "Барлық қуанышты емес, құндылығы төменді қысқартыңыз"
             },
             "body": {
-              "en": "The goal is to reduce spending that gives little lasting value, not to remove everything enjoyable. A person who loves sports may spend on training and cut random shopping. Another person may keep travel and reduce restaurant delivery."
+              "en": "The goal is to reduce spending that gives little lasting value, not to remove everything enjoyable. A person who loves sports may spend on training and cut random shopping. Another person may keep travel and reduce restaurant delivery.",
+              "ru": "Цель — сократить траты, которые дают мало долгосрочной ценности, а не убрать всё приятное. Человек, любящий спорт, может тратить на тренировки и сократить случайные покупки. Другой человек может оставить путешествия и уменьшить доставку из ресторанов.",
+              "kk": "Мақсат — ұзақ құндылығы аз шығындарды азайту, барлық жағымды нәрсені алып тастау емес. Спортты жақсы көретін адам жаттығуға ақша жұмсап, кездейсоқ сауданы қысқартуы мүмкін. Басқа адам саяхатты сақтап, мейрамхана жеткізуін азайтуы мүмкін."
             },
             "example": {
-              "en": "Cutting ₸30,000 of unused subscriptions can protect ₸30,000 for a hobby you actually enjoy."
+              "en": "Cutting ₸30,000 of unused subscriptions can protect ₸30,000 for a hobby you actually enjoy.",
+              "ru": "Сокращение ₸30,000 неиспользуемых подписок может сохранить ₸30,000 для хобби, которое вам действительно нравится.",
+              "kk": "Қолданылмайтын жазылымдардан ₸30,000 қысқарту сіз шынымен ұнататын хоббиге ₸30,000 сақтап береді."
             }
           },
           {
@@ -1035,13 +1820,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Use values as filters"
+              "en": "Use values as filters",
+              "ru": "Используйте ценности как фильтры",
+              "kk": "Құндылықтарды сүзгі ретінде қолданыңыз"
             },
             "body": {
-              "en": "Values turn budgeting from a list of limits into a list of priorities. Ask which expenses support health, relationships, learning, freedom, or comfort. Spending that supports values can be planned; spending that only fills boredom can be redesigned."
+              "en": "Values turn budgeting from a list of limits into a list of priorities. Ask which expenses support health, relationships, learning, freedom, or comfort. Spending that supports values can be planned; spending that only fills boredom can be redesigned.",
+              "ru": "Ценности превращают бюджет из списка лимитов в список приоритетов. Спросите, какие расходы поддерживают здоровье, отношения, обучение, свободу или комфорт. Траты, поддерживающие ценности, можно планировать; траты, которые только заполняют скуку, можно перестроить.",
+              "kk": "Құндылықтар бюджетті шектеулер тізімінен басымдықтар тізіміне айналдырады. Қай шығын денсаулықты, қарым-қатынасты, оқуды, еркіндікті немесе жайлылықты қолдайтынын сұраңыз. Құндылықтарды қолдайтын шығындарды жоспарлауға болады; тек іш пысуды толтыратын шығындарды қайта құруға болады."
             },
             "tip": {
-              "en": "Conscious spending asks: will I still be glad I spent this next week?"
+              "en": "Conscious spending asks: will I still be glad I spent this next week?",
+              "ru": "Осознанные траты спрашивают: буду ли я рад этой трате через неделю?",
+              "kk": "Саналы шығын сұрайды: келесі аптада осыған жұмсағаныма әлі де қуана аламын ба?"
             }
           },
           {
@@ -1049,7 +1840,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same spending, different value"
+              "en": "Same spending, different value",
+              "ru": "Одинаковая сумма, разная ценность",
+              "kk": "Бірдей шығын, әртүрлі құндылық"
             },
             "content": {
               "en": {
@@ -1093,6 +1886,90 @@
                     "text": "Conscious spending is not about the category name. It is about whether the spending serves a priority."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два человека тратят по ₸40,000 на развлечения. Сумма одинаковая, но ценность разная."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Трата",
+                        "Созданная ценность",
+                        "Решение"
+                      ],
+                      [
+                        "Концерт с близкими друзьями",
+                        "Отношения и воспоминания",
+                        "Планировать и наслаждаться"
+                      ],
+                      [
+                        "Случайные онлайн-покупки от скуки",
+                        "Короткое отвлечение",
+                        "Добавить препятствие или лимит"
+                      ],
+                      [
+                        "Абонемент в зал, используемый каждую неделю",
+                        "Здоровье и режим",
+                        "Оставить, если по бюджету возможно"
+                      ],
+                      [
+                        "Подписка, которую ни разу не открывали",
+                        "Нет реальной ценности",
+                        "Отменить"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Осознанные траты — не про название категории. Важно, служит ли расход приоритету."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі адам ойын-сауыққа ₸40,000-нан жұмсайды. Сома бірдей, бірақ құндылығы әртүрлі."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Шығын",
+                        "Жасалған құндылық",
+                        "Шешім"
+                      ],
+                      [
+                        "Жақын достармен концерт",
+                        "Қарым-қатынас пен естеліктер",
+                        "Жоспарлап, рахаттану"
+                      ],
+                      [
+                        "Іш пысқаннан кездейсоқ онлайн сауда",
+                        "Қысқа алаңдау",
+                        "Кедергі немесе лимит қосу"
+                      ],
+                      [
+                        "Апта сайын қолданылатын спортзал абонементі",
+                        "Денсаулық пен тәртіп",
+                        "Қолжетімді болса, қалдыру"
+                      ],
+                      [
+                        "Ешқашан ашылмаған жазылым",
+                        "Нақты құндылық жоқ",
+                        "Тоқтату"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Саналы шығын санат атауы туралы емес. Маңыздысы — шығын басымдыққа қызмет ете ме."
+                  }
+                ]
               }
             }
           },
@@ -1101,10 +1978,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Keep, cut, or redesign?"
+              "en": "Keep, cut, or redesign?",
+              "ru": "Оставить, сократить или перестроить?",
+              "kk": "Қалдыру, қысқарту немесе қайта құру?"
             },
             "body": {
-              "en": "Choose the conscious spending response that best fits each case."
+              "en": "Choose the conscious spending response that best fits each case.",
+              "ru": "Выберите реакцию осознанных трат, которая лучше всего подходит к каждому случаю.",
+              "kk": "Әр жағдайға ең сәйкес келетін саналы шығын әрекетін таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1132,6 +2013,56 @@
                     "explanation": "A category limit keeps some enjoyment while preventing leakage."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучшее действие.",
+                "options": [
+                  "Оставить и планировать",
+                  "Сократить",
+                  "Перестроить с лимитом"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Хобби стоит ₸25,000 в месяц и сильно поддерживает здоровье и дружбу.",
+                    "correct_answer": "Оставить и планировать",
+                    "explanation": "Ценные траты можно защищать, когда базовые потребности и цели покрыты."
+                  },
+                  {
+                    "text": "Подписка продлевается ежемесячно, но не использовалась три месяца.",
+                    "correct_answer": "Сократить",
+                    "explanation": "Неиспользуемые траты создают мало ценности и являются сильным кандидатом на сокращение."
+                  },
+                  {
+                    "text": "Доставка еды приятна, но ежемесячная сумма постоянно удивляет.",
+                    "correct_answer": "Перестроить с лимитом",
+                    "explanation": "Лимит категории сохраняет часть удовольствия и предотвращает утечки."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ең жақсы әрекетті таңдаңыз.",
+                "options": [
+                  "Қалдыру және жоспарлау",
+                  "Қысқарту",
+                  "Лимитпен қайта құру"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Хобби айына ₸25,000 тұрады және денсаулық пен достықты қатты қолдайды.",
+                    "correct_answer": "Қалдыру және жоспарлау",
+                    "explanation": "Негізгі қажеттіліктер мен мақсаттар жабылғанда, құндылығы жоғары шығындарды қорғауға болады."
+                  },
+                  {
+                    "text": "Жазылым ай сайын жаңарады, бірақ үш ай бойы қолданылмаған.",
+                    "correct_answer": "Қысқарту",
+                    "explanation": "Қолданылмайтын шығын аз құндылық береді және қысқартуға жақсы үміткер."
+                  },
+                  {
+                    "text": "Тамақ жеткізу ұнайды, бірақ айлық жиынтық үнемі таңғалдырады.",
+                    "correct_answer": "Лимитпен қайта құру",
+                    "explanation": "Санат лимиті қуаныштың бір бөлігін сақтап, утечканың алдын алады."
+                  }
+                ]
               }
             }
           },
@@ -1140,13 +2071,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "A budget can protect joy"
+              "en": "A budget can protect joy",
+              "ru": "Бюджет может защищать радость",
+              "kk": "Бюджет қуанышты қорғай алады"
             },
             "body": {
-              "en": "Conscious spending works because it connects money to values. Protect essentials, saving, debt payments, and future goals first. Then spend intentionally on the things that make life better and cut the things that do not."
+              "en": "Conscious spending works because it connects money to values. Protect essentials, saving, debt payments, and future goals first. Then spend intentionally on the things that make life better and cut the things that do not.",
+              "ru": "Осознанные траты работают, потому что связывают деньги с ценностями. Сначала защитите базовые потребности, сбережения, платежи по долгам и будущие цели. Затем осознанно тратьте на то, что улучшает жизнь, и сокращайте то, что не улучшает.",
+              "kk": "Саналы шығындар жұмыс істейді, өйткені ақшаны құндылықтармен байланыстырады. Алдымен негізгі қажеттіліктерді, жинақты, қарыз төлемдерін және болашақ мақсаттарды қорғаңыз. Содан кейін өмірді жақсартатын нәрселерге саналы жұмсап, жақсартпайтындарын қысқартыңыз."
             },
             "tip": {
-              "en": "The point is not to spend less everywhere; it is to spend better."
+              "en": "The point is not to spend less everywhere; it is to spend better.",
+              "ru": "Смысл не в том, чтобы везде тратить меньше; смысл — тратить лучше.",
+              "kk": "Мақсат барлық жерде аз жұмсау емес; мақсат — жақсырақ жұмсау."
             }
           }
         ]
@@ -1155,7 +2092,9 @@
         "quiz_id": 604,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Conscious Spending — Check"
+          "en": "Conscious Spending — Check",
+          "ru": "Осознанные траты — проверка",
+          "kk": "Саналы шығындар — тексеру"
         },
         "questions": [
           {
@@ -1163,14 +2102,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "What is conscious spending?"
+              "en": "What is conscious spending?",
+              "ru": "Что такое осознанные траты?",
+              "kk": "Саналы шығын деген не?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Spending intentionally on what matters after protecting essentials and goals"
+                  "en": "Spending intentionally on what matters after protecting essentials and goals",
+                  "ru": "Осознанно тратить на важное после защиты базовых потребностей и целей",
+                  "kk": "Негізгі қажеттіліктер мен мақсаттарды қорғағаннан кейін маңызды нәрселерге саналы жұмсау"
                 },
                 "is_correct": true
               },
@@ -1178,7 +2121,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Never spending on enjoyment"
+                  "en": "Never spending on enjoyment",
+                  "ru": "Никогда не тратить на удовольствие",
+                  "kk": "Қуанышқа ешқашан ақша жұмсамау"
                 },
                 "is_correct": false
               },
@@ -1186,7 +2131,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Buying anything that feels good immediately"
+                  "en": "Buying anything that feels good immediately",
+                  "ru": "Покупать всё, что сразу кажется приятным",
+                  "kk": "Бірден жақсы сезілетін кез келген нәрсені сатып алу"
                 },
                 "is_correct": false
               },
@@ -1194,7 +2141,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Ignoring future needs"
+                  "en": "Ignoring future needs",
+                  "ru": "Игнорировать будущие потребности",
+                  "kk": "Болашақ қажеттіліктерді елемеу"
                 },
                 "is_correct": false
               }
@@ -1205,14 +2154,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which expense is the best cut candidate?"
+              "en": "Which expense is the best cut candidate?",
+              "ru": "Какой расход лучше всего подходит для сокращения?",
+              "kk": "Қай шығын қысқартуға ең жақсы үміткер?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A monthly service you no longer use"
+                  "en": "A monthly service you no longer use",
+                  "ru": "Ежемесячный сервис, которым вы больше не пользуетесь",
+                  "kk": "Енді қолданбайтын ай сайынғы қызмет"
                 },
                 "is_correct": true
               },
@@ -1220,7 +2173,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "A planned activity that supports health and relationships"
+                  "en": "A planned activity that supports health and relationships",
+                  "ru": "Запланированная активность, поддерживающая здоровье и отношения",
+                  "kk": "Денсаулық пен қарым-қатынасты қолдайтын жоспарланған әрекет"
                 },
                 "is_correct": false
               },
@@ -1228,7 +2183,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Groceries within a reasonable budget"
+                  "en": "Groceries within a reasonable budget",
+                  "ru": "Продукты в рамках разумного бюджета",
+                  "kk": "Ақылға қонымды бюджет ішіндегі азық-түлік"
                 },
                 "is_correct": false
               },
@@ -1236,7 +2193,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Emergency fund transfer"
+                  "en": "Emergency fund transfer",
+                  "ru": "Перевод в резервный фонд",
+                  "kk": "Төтенше қорына аударым"
                 },
                 "is_correct": false
               }
@@ -1247,14 +2206,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why can budgeting increase enjoyment?"
+              "en": "Why can budgeting increase enjoyment?",
+              "ru": "Почему бюджетирование может увеличить удовольствие?",
+              "kk": "Неліктен бюджеттеу қуанышты арттыра алады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It creates permission to spend on chosen priorities without guilt"
+                  "en": "It creates permission to spend on chosen priorities without guilt",
+                  "ru": "Оно даёт разрешение тратить на выбранные приоритеты без чувства вины",
+                  "kk": "Ол таңдалған басымдықтарға кінәсіз ақша жұмсауға рұқсат береді"
                 },
                 "is_correct": true
               },
@@ -1262,7 +2225,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It removes every fun expense"
+                  "en": "It removes every fun expense",
+                  "ru": "Оно убирает все весёлые расходы",
+                  "kk": "Ол барлық көңілді шығындарды алып тастайды"
                 },
                 "is_correct": false
               },
@@ -1270,7 +2235,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It makes wants more important than needs"
+                  "en": "It makes wants more important than needs",
+                  "ru": "Оно делает желания важнее потребностей",
+                  "kk": "Ол қалауларды қажеттіліктерден маңызды етеді"
                 },
                 "is_correct": false
               },
@@ -1278,7 +2245,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It prevents saving"
+                  "en": "It prevents saving",
+                  "ru": "Оно мешает сбережениям",
+                  "kk": "Ол жинақ жасауға кедергі жасайды"
                 },
                 "is_correct": false
               }
@@ -1290,10 +2259,14 @@
     {
       "code": "lifestyle_inflation",
       "title": {
-        "en": "Lifestyle Inflation"
+        "en": "Lifestyle Inflation",
+        "ru": "Инфляция образа жизни",
+        "kk": "Өмір салты инфляциясы"
       },
       "description": {
-        "en": "Lifestyle inflation happens when spending rises with income, preventing raises from becoming savings, freedom, or long-term progress."
+        "en": "Lifestyle inflation happens when spending rises with income, preventing raises from becoming savings, freedom, or long-term progress.",
+        "ru": "Инфляция образа жизни возникает, когда расходы растут вместе с доходом и не дают повышениям превращаться в сбережения, свободу или долгосрочный прогресс.",
+        "kk": "Өмір салты инфляциясы шығын табыспен бірге өскенде пайда болады, сондықтан жалақы өсімі жинаққа, еркіндікке немесе ұзақ мерзімді ілгерілеуге айналмайды."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1305,13 +2278,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Raises can vanish"
+              "en": "Raises can vanish",
+              "ru": "Повышения могут исчезать",
+              "kk": "Жалақы өсімі жоғалып кетуі мүмкін"
             },
             "body": {
-              "en": "Lifestyle inflation happens when higher income automatically becomes higher spending. It feels normal because each upgrade seems affordable. But if every raise becomes a bill, more income does not create more freedom."
+              "en": "Lifestyle inflation happens when higher income automatically becomes higher spending. It feels normal because each upgrade seems affordable. But if every raise becomes a bill, more income does not create more freedom.",
+              "ru": "Инфляция образа жизни происходит, когда более высокий доход автоматически превращается в более высокие расходы. Это кажется нормальным, потому что каждое улучшение выглядит доступным. Но если каждое повышение превращается в счёт, больший доход не создаёт больше свободы.",
+              "kk": "Өмір салты инфляциясы жоғары табыс автоматты түрде жоғары шығынға айналғанда болады. Әр жақсарту қолжетімді болып көрінетіндіктен, бұл қалыпты сезіледі. Бірақ әр жалақы өсімі жаңа төлемге айналса, көбірек табыс көбірек еркіндік бермейді."
             },
             "tip": {
-              "en": "A raise changes wealth only if some of it is kept."
+              "en": "A raise changes wealth only if some of it is kept.",
+              "ru": "Повышение меняет благосостояние только если часть его сохраняется.",
+              "kk": "Жалақы өсімі байлықты оның бір бөлігі сақталғанда ғана өзгертеді."
             }
           },
           {
@@ -1319,13 +2298,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Fixed upgrades are the most dangerous"
+              "en": "Fixed upgrades are the most dangerous",
+              "ru": "Фиксированные улучшения самые опасные",
+              "kk": "Тұрақты жаңартулар ең қауіпті"
             },
             "body": {
-              "en": "Some upgrades are easy to reverse, like one celebration dinner. Others become monthly commitments, like higher rent, car payments, or subscriptions. Fixed upgrades reduce flexibility because they continue even if income falls."
+              "en": "Some upgrades are easy to reverse, like one celebration dinner. Others become monthly commitments, like higher rent, car payments, or subscriptions. Fixed upgrades reduce flexibility because they continue even if income falls.",
+              "ru": "Некоторые улучшения легко отменить, например один праздничный ужин. Другие становятся ежемесячными обязательствами: более высокая аренда, платежи за автомобиль или подписки. Фиксированные улучшения уменьшают гибкость, потому что продолжаются даже при падении дохода.",
+              "kk": "Кейбір жаңартуларды қайтару оңай, мысалы бір мерекелік кешкі ас. Ал басқалары ай сайынғы міндеттемеге айналады: жоғары жалдау ақысы, көлік төлемдері немесе жазылымдар. Тұрақты жаңартулар икемділікті азайтады, өйткені табыс төмендесе де жалғаса береді."
             },
             "example": {
-              "en": "A ₸40,000 monthly subscription bundle turns a raise into ₸480,000 of annual fixed spending."
+              "en": "A ₸40,000 monthly subscription bundle turns a raise into ₸480,000 of annual fixed spending.",
+              "ru": "Пакет подписок на ₸40,000 в месяц превращает повышение в ₸480,000 годовых постоянных расходов.",
+              "kk": "Айына ₸40,000 тұратын жазылымдар жиынтығы жалақы өсімін жылына ₸480,000 тұрақты шығынға айналдырады."
             }
           },
           {
@@ -1333,13 +2318,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Capture the raise first"
+              "en": "Capture the raise first",
+              "ru": "Сначала зафиксируйте часть повышения",
+              "kk": "Алдымен жалақы өсімінің бір бөлігін сақтаңыз"
             },
             "body": {
-              "en": "A simple rule protects income growth: save or invest part of every raise before upgrading lifestyle. This still allows enjoyment, but prevents the full raise from disappearing. The rule works best when automated immediately after income increases."
+              "en": "A simple rule protects income growth: save or invest part of every raise before upgrading lifestyle. This still allows enjoyment, but prevents the full raise from disappearing. The rule works best when automated immediately after income increases.",
+              "ru": "Простое правило защищает рост дохода: откладывайте или инвестируйте часть каждого повышения до улучшения образа жизни. Это всё ещё позволяет радоваться, но не даёт всему повышению исчезнуть. Правило лучше всего работает, если автоматизировать его сразу после роста дохода.",
+              "kk": "Қарапайым ереже табыс өсімін қорғайды: өмір салтын жаңартпас бұрын әр жалақы өсімінің бір бөлігін жинаңыз немесе инвестициялаңыз. Бұл қуанышқа мүмкіндік береді, бірақ өсімнің толық жоғалып кетуіне жол бермейді. Ереже табыс артқаннан кейін бірден автоматтандырылса, ең жақсы жұмыс істейді."
             },
             "tip": {
-              "en": "Split the raise before your habits claim it."
+              "en": "Split the raise before your habits claim it.",
+              "ru": "Разделите повышение до того, как привычки его заберут.",
+              "kk": "Әдеттеріңіз иемденбей тұрып, жалақы өсімін бөліңіз."
             }
           },
           {
@@ -1347,7 +2338,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Two raise outcomes"
+              "en": "Two raise outcomes",
+              "ru": "Два результата повышения",
+              "kk": "Жалақы өсімінің екі нәтижесі"
             },
             "content": {
               "en": {
@@ -1396,6 +2389,100 @@
                     "text": "Lifestyle inflation is controlled when part of the raise is captured before it becomes normal spending."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два работника получают повышение на ₸80,000 в месяц каждый. Их доход растёт одинаково, но будущее меняется по-разному."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Работник",
+                        "Рост расходов на образ жизни",
+                        "Новые сбережения",
+                        "Годовой результат"
+                      ],
+                      [
+                        "A",
+                        "₸80,000",
+                        "₸0",
+                        "Доход кажется выше, благосостояние не изменилось"
+                      ],
+                      [
+                        "B",
+                        "₸40,000",
+                        "₸40,000",
+                        "₸480,000 накоплено за один год"
+                      ],
+                      [
+                        "C",
+                        "₸20,000",
+                        "₸60,000",
+                        "₸720,000 накоплено за один год"
+                      ],
+                      [
+                        "Ключевая идея",
+                        "Часть — на радость",
+                        "Часть — сохранить",
+                        "Повышение создаёт прогресс"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инфляция образа жизни контролируется, когда часть повышения сохраняется до того, как станет обычной тратой."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі қызметкердің әрқайсысы айына ₸80,000 жалақы өсімін алады. Табыстары бірдей өседі, бірақ болашағы әртүрлі өзгереді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қызметкер",
+                        "Өмір салты шығынының өсуі",
+                        "Жаңа жинақ",
+                        "Жылдық нәтиже"
+                      ],
+                      [
+                        "A",
+                        "₸80,000",
+                        "₸0",
+                        "Табыс жоғары сезіледі, байлық өзгермеді"
+                      ],
+                      [
+                        "B",
+                        "₸40,000",
+                        "₸40,000",
+                        "Бір жылда ₸480,000 жиналды"
+                      ],
+                      [
+                        "C",
+                        "₸20,000",
+                        "₸60,000",
+                        "Бір жылда ₸720,000 жиналды"
+                      ],
+                      [
+                        "Негізгі ой",
+                        "Бір бөлігін пайдалану",
+                        "Бір бөлігін сақтау",
+                        "Жалақы өсімі ілгерілеу жасайды"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Жалақы өсімінің бір бөлігі әдеттегі шығынға айналмай тұрып сақталса, өмір салты инфляциясы бақыланады."
+                  }
+                ]
               }
             }
           },
@@ -1404,10 +2491,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Split the raise"
+              "en": "Split the raise",
+              "ru": "Разделите повышение",
+              "kk": "Жалақы өсімін бөліңіз"
             },
             "body": {
-              "en": "Allocate a ₸80,000 monthly raise between lifestyle and savings. The total must equal ₸80,000."
+              "en": "Allocate a ₸80,000 monthly raise between lifestyle and savings. The total must equal ₸80,000.",
+              "ru": "Распределите ежемесячное повышение ₸80,000 между образом жизни и сбережениями. Общая сумма должна равняться ₸80,000.",
+              "kk": "Ай сайынғы ₸80,000 жалақы өсімін өмір салты мен жинақ арасында бөліңіз. Жалпы сома ₸80,000 болуы керек."
             },
             "interactiveType": "input_numbers",
             "interactiveContent": {
@@ -1431,6 +2522,48 @@
                   "savings": "40000"
                 },
                 "explanation": "There is no single correct split, but capturing part of every raise prevents lifestyle inflation from absorbing all income growth."
+              },
+              "ru": {
+                "instruction": "Распределите повышение ₸80,000 между улучшением образа жизни и увеличением сбережений. Общая сумма должна равняться ₸80,000.",
+                "fields": [
+                  {
+                    "id": "lifestyle",
+                    "label": "Улучшение образа жизни"
+                  },
+                  {
+                    "id": "savings",
+                    "label": "Увеличение сбережений или инвестиций"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 80000
+                },
+                "exampleAnswer": {
+                  "lifestyle": "40000",
+                  "savings": "40000"
+                },
+                "explanation": "Единственно правильного распределения нет, но сохранение части каждого повышения не даёт инфляции образа жизни поглотить весь рост дохода."
+              },
+              "kk": {
+                "instruction": "₸80,000 өсімді өмір салтын жақсарту мен жинақты арттыру арасында бөліңіз. Жалпы сома ₸80,000 болуы керек.",
+                "fields": [
+                  {
+                    "id": "lifestyle",
+                    "label": "Өмір салтын жақсарту"
+                  },
+                  {
+                    "id": "savings",
+                    "label": "Жинақты немесе инвестицияны арттыру"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 80000
+                },
+                "exampleAnswer": {
+                  "lifestyle": "40000",
+                  "savings": "40000"
+                },
+                "explanation": "Бір ғана дұрыс бөлу жоқ, бірақ әр өсімнің бір бөлігін сақтау өмір салты инфляциясының бүкіл табыс өсімін жұтып қоюына жол бермейді."
               }
             }
           },
@@ -1439,13 +2572,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Let raises buy freedom too"
+              "en": "Let raises buy freedom too",
+              "ru": "Пусть повышения покупают и свободу тоже",
+              "kk": "Жалақы өсімі еркіндікті де әкелсін"
             },
             "body": {
-              "en": "Lifestyle inflation is not about never improving your life. It is about making sure higher income also improves stability, savings, and choice. Capture part of every raise first, then enjoy the rest intentionally."
+              "en": "Lifestyle inflation is not about never improving your life. It is about making sure higher income also improves stability, savings, and choice. Capture part of every raise first, then enjoy the rest intentionally.",
+              "ru": "Инфляция образа жизни — это не про запрет улучшать жизнь. Это про то, чтобы более высокий доход также улучшал стабильность, сбережения и выбор. Сначала сохраняйте часть каждого повышения, затем осознанно наслаждайтесь остальным.",
+              "kk": "Өмір салты инфляциясы өмірді ешқашан жақсартпау туралы емес. Ол жоғары табыс тұрақтылықты, жинақты және таңдау еркіндігін де жақсартуын қамтамасыз ету туралы. Әр жалақы өсімінің бір бөлігін алдымен сақтап, қалғанын саналы түрде пайдаланыңыз."
             },
             "tip": {
-              "en": "Upgrade life slowly enough that your future also gets richer."
+              "en": "Upgrade life slowly enough that your future also gets richer.",
+              "ru": "Улучшайте жизнь достаточно медленно, чтобы ваше будущее тоже становилось богаче.",
+              "kk": "Өміріңізді болашағыңыз да байи алатындай баяу жақсартыңыз."
             }
           }
         ]
@@ -1454,7 +2593,9 @@
         "quiz_id": 605,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Lifestyle Inflation — Check"
+          "en": "Lifestyle Inflation — Check",
+          "ru": "Инфляция образа жизни — проверка",
+          "kk": "Өмір салты инфляциясы — тексеру"
         },
         "questions": [
           {
@@ -1462,14 +2603,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "What is lifestyle inflation?"
+              "en": "What is lifestyle inflation?",
+              "ru": "Что такое инфляция образа жизни?",
+              "kk": "Өмір салты инфляциясы деген не?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Spending rises automatically as income rises, leaving little extra progress"
+                  "en": "Spending rises automatically as income rises, leaving little extra progress",
+                  "ru": "Расходы автоматически растут вместе с доходом, оставляя мало дополнительного прогресса",
+                  "kk": "Шығын табыспен бірге автоматты түрде өсіп, қосымша ілгерілеуге аз орын қалдырады"
                 },
                 "is_correct": true
               },
@@ -1477,7 +2622,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Prices rise across the whole economy"
+                  "en": "Prices rise across the whole economy",
+                  "ru": "Цены растут во всей экономике",
+                  "kk": "Бағалар бүкіл экономикада өседі"
                 },
                 "is_correct": false
               },
@@ -1485,7 +2632,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Savings grow faster than income"
+                  "en": "Savings grow faster than income",
+                  "ru": "Сбережения растут быстрее дохода",
+                  "kk": "Жинақ табыстан жылдамырақ өседі"
                 },
                 "is_correct": false
               },
@@ -1493,7 +2642,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Budgeting becomes impossible after a raise"
+                  "en": "Budgeting becomes impossible after a raise",
+                  "ru": "После повышения бюджетирование становится невозможным",
+                  "kk": "Жалақы өскеннен кейін бюджеттеу мүмкін болмайды"
                 },
                 "is_correct": false
               }
@@ -1504,14 +2655,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why are fixed lifestyle upgrades risky?"
+              "en": "Why are fixed lifestyle upgrades risky?",
+              "ru": "Почему фиксированные улучшения образа жизни рискованны?",
+              "kk": "Неліктен өмір салтының тұрақты жаңартулары қауіпті?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They create ongoing commitments that continue even if income changes"
+                  "en": "They create ongoing commitments that continue even if income changes",
+                  "ru": "Они создают постоянные обязательства, которые продолжаются даже при изменении дохода",
+                  "kk": "Олар табыс өзгерсе де жалғасатын тұрақты міндеттемелер жасайды"
                 },
                 "is_correct": true
               },
@@ -1519,7 +2674,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They are always free after the first month"
+                  "en": "They are always free after the first month",
+                  "ru": "После первого месяца они всегда бесплатны",
+                  "kk": "Бірінші айдан кейін олар әрқашан тегін болады"
                 },
                 "is_correct": false
               },
@@ -1527,7 +2684,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They increase emergency savings automatically"
+                  "en": "They increase emergency savings automatically",
+                  "ru": "Они автоматически увеличивают резервные сбережения",
+                  "kk": "Олар төтенше жинақты автоматты түрде көбейтеді"
                 },
                 "is_correct": false
               },
@@ -1535,7 +2694,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "They cannot affect cash flow"
+                  "en": "They cannot affect cash flow",
+                  "ru": "Они не могут влиять на денежный поток",
+                  "kk": "Олар ақша ағынына әсер ете алмайды"
                 },
                 "is_correct": false
               }
@@ -1546,14 +2707,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is a good response to a salary raise?"
+              "en": "What is a good response to a salary raise?",
+              "ru": "Как правильно отреагировать на повышение зарплаты?",
+              "kk": "Жалақы өсіміне дұрыс жауап қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Automatically save or invest part of it before increasing lifestyle spending"
+                  "en": "Automatically save or invest part of it before increasing lifestyle spending",
+                  "ru": "Автоматически откладывать или инвестировать часть повышения до увеличения расходов на образ жизни",
+                  "kk": "Өмір салты шығындарын арттырмас бұрын оның бір бөлігін автоматты түрде жинау немесе инвестициялау"
                 },
                 "is_correct": true
               },
@@ -1561,7 +2726,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Spend all of it immediately because it is new money"
+                  "en": "Spend all of it immediately because it is new money",
+                  "ru": "Сразу потратить всё, потому что это новые деньги",
+                  "kk": "Бұл жаңа ақша болғандықтан, бәрін бірден жұмсау"
                 },
                 "is_correct": false
               },
@@ -1569,7 +2736,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Ignore goals because income increased"
+                  "en": "Ignore goals because income increased",
+                  "ru": "Игнорировать цели, потому что доход вырос",
+                  "kk": "Табыс өскендіктен мақсаттарды елемеу"
                 },
                 "is_correct": false
               },
@@ -1577,7 +2746,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Take on new fixed costs without checking the budget"
+                  "en": "Take on new fixed costs without checking the budget",
+                  "ru": "Брать новые постоянные расходы без проверки бюджета",
+                  "kk": "Бюджетті тексермей жаңа тұрақты шығындар алу"
                 },
                 "is_correct": false
               }
@@ -1591,7 +2762,9 @@
     "quiz_id": 699,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Budgeting & Cash Flow — Final Check"
+      "en": "Budgeting & Cash Flow — Final Check",
+      "ru": "Бюджетирование и денежный поток — итоговая проверка",
+      "kk": "Бюджеттеу және ақша ағыны — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1599,14 +2772,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "Why is it useful to separate fixed and variable expenses?"
+          "en": "Why is it useful to separate fixed and variable expenses?",
+          "ru": "Почему полезно разделять постоянные и переменные расходы?",
+          "kk": "Неліктен тұрақты және айнымалы шығындарды бөлу пайдалы?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "They behave differently and can be changed at different speeds"
+              "en": "They behave differently and can be changed at different speeds",
+              "ru": "Они ведут себя по-разному и меняются с разной скоростью",
+              "kk": "Олар әртүрлі өзгереді және әртүрлі жылдамдықпен өзгертіледі"
             },
             "is_correct": true
           },
@@ -1614,7 +2791,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Fixed and variable expenses are always the same"
+              "en": "Fixed and variable expenses are always the same",
+              "ru": "Постоянные и переменные расходы всегда одинаковы",
+              "kk": "Тұрақты және айнымалы шығындар әрқашан бірдей"
             },
             "is_correct": false
           },
@@ -1622,7 +2801,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Variable expenses never matter"
+              "en": "Variable expenses never matter",
+              "ru": "Переменные расходы никогда не важны",
+              "kk": "Айнымалы шығындар ешқашан маңызды емес"
             },
             "is_correct": false
           },
@@ -1630,7 +2811,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Fixed expenses can always be cut instantly"
+              "en": "Fixed expenses can always be cut instantly",
+              "ru": "Постоянные расходы всегда можно сократить мгновенно",
+              "kk": "Тұрақты шығындарды әрқашан бірден қысқартуға болады"
             },
             "is_correct": false
           }
@@ -1641,14 +2824,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "Which budgeting system gives every tenge a job?"
+          "en": "Which budgeting system gives every tenge a job?",
+          "ru": "Какая система бюджетирования даёт каждому тенге задачу?",
+          "kk": "Қай бюджеттеу жүйесі әр теңгеге міндет береді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Zero-based budgeting"
+              "en": "Zero-based budgeting",
+              "ru": "Бюджетирование с нулевой базой",
+              "kk": "Нөлдік бюджеттеу"
             },
             "is_correct": true
           },
@@ -1656,7 +2843,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Ignoring expenses"
+              "en": "Ignoring expenses",
+              "ru": "Игнорирование расходов",
+              "kk": "Шығындарды елемеу"
             },
             "is_correct": false
           },
@@ -1664,7 +2853,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Only checking balances once a year"
+              "en": "Only checking balances once a year",
+              "ru": "Проверка балансов только раз в год",
+              "kk": "Қалдықтарды жылына бір рет қана тексеру"
             },
             "is_correct": false
           },
@@ -1672,7 +2863,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Spending first and saving leftovers"
+              "en": "Spending first and saving leftovers",
+              "ru": "Сначала тратить, а остатки откладывать",
+              "kk": "Алдымен жұмсап, қалғанын жинау"
             },
             "is_correct": false
           }
@@ -1683,14 +2876,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "What is a spending leak?"
+          "en": "What is a spending leak?",
+          "ru": "Что такое утечка расходов?",
+          "kk": "Шығын утечкасы деген не?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Repeated low-value spending that you barely value after it happens"
+              "en": "Repeated low-value spending that you barely value after it happens",
+              "ru": "Повторяющиеся малополезные траты, которые вы почти не цените после совершения",
+              "kk": "Болғаннан кейін құндылығы аз болып қалатын қайталанатын шығындар"
             },
             "is_correct": true
           },
@@ -1698,7 +2895,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "A planned essential bill"
+              "en": "A planned essential bill",
+              "ru": "Запланированный обязательный счёт",
+              "kk": "Жоспарланған негізгі төлем"
             },
             "is_correct": false
           },
@@ -1706,7 +2905,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "A meaningful expense that supports your values"
+              "en": "A meaningful expense that supports your values",
+              "ru": "Значимый расход, поддерживающий ваши ценности",
+              "kk": "Құндылықтарыңызды қолдайтын мағыналы шығын"
             },
             "is_correct": false
           },
@@ -1714,7 +2915,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Money moved into savings"
+              "en": "Money moved into savings",
+              "ru": "Деньги, переведённые в сбережения",
+              "kk": "Жинаққа аударылған ақша"
             },
             "is_correct": false
           }
@@ -1725,14 +2928,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "What does conscious spending encourage?"
+          "en": "What does conscious spending encourage?",
+          "ru": "Что поощряют осознанные траты?",
+          "kk": "Саналы шығындар нені ынталандырады?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Cutting low-value spending while protecting meaningful priorities"
+              "en": "Cutting low-value spending while protecting meaningful priorities",
+              "ru": "Сокращать малополезные траты, защищая значимые приоритеты",
+              "kk": "Мағыналы басымдықтарды қорғап, құндылығы төмен шығындарды қысқарту"
             },
             "is_correct": true
           },
@@ -1740,7 +2947,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Never spending on anything enjoyable"
+              "en": "Never spending on anything enjoyable",
+              "ru": "Никогда не тратить ни на что приятное",
+              "kk": "Жағымды нәрселерге ешқашан ақша жұмсамау"
             },
             "is_correct": false
           },
@@ -1748,7 +2957,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Buying everything that feels good immediately"
+              "en": "Buying everything that feels good immediately",
+              "ru": "Покупать всё, что сразу кажется приятным",
+              "kk": "Бірден жақсы сезілетіннің бәрін сатып алу"
             },
             "is_correct": false
           },
@@ -1756,7 +2967,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Ignoring future goals"
+              "en": "Ignoring future goals",
+              "ru": "Игнорировать будущие цели",
+              "kk": "Болашақ мақсаттарды елемеу"
             },
             "is_correct": false
           }
@@ -1767,14 +2980,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "How can lifestyle inflation be controlled after a raise?"
+          "en": "How can lifestyle inflation be controlled after a raise?",
+          "ru": "Как контролировать инфляцию образа жизни после повышения?",
+          "kk": "Жалақы өскеннен кейін өмір салты инфляциясын қалай бақылауға болады?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Capture part of the raise for saving or investing before spending expands"
+              "en": "Capture part of the raise for saving or investing before spending expands",
+              "ru": "Сохранить часть повышения для сбережений или инвестирования до расширения расходов",
+              "kk": "Шығындар ұлғаймай тұрып, өсімнің бір бөлігін жинаққа немесе инвестицияға бөлу"
             },
             "is_correct": true
           },
@@ -1782,7 +2999,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Turn the whole raise into fixed monthly commitments"
+              "en": "Turn the whole raise into fixed monthly commitments",
+              "ru": "Превратить всё повышение в постоянные ежемесячные обязательства",
+              "kk": "Бүкіл өсімді тұрақты ай сайынғы міндеттемелерге айналдыру"
             },
             "is_correct": false
           },
@@ -1790,7 +3009,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Stop budgeting because income increased"
+              "en": "Stop budgeting because income increased",
+              "ru": "Перестать вести бюджет, потому что доход вырос",
+              "kk": "Табыс өскендіктен бюджеттеуді тоқтату"
             },
             "is_correct": false
           },
@@ -1798,7 +3019,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Assume higher income automatically creates wealth"
+              "en": "Assume higher income automatically creates wealth",
+              "ru": "Считать, что более высокий доход автоматически создаёт богатство",
+              "kk": "Жоғары табыс байлықты автоматты түрде жасайды деп ойлау"
             },
             "is_correct": false
           }

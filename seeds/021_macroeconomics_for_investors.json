@@ -3,11 +3,16 @@
   "topic": {
     "code": "macroeconomics_for_investors",
     "orderIndex": 21,
+    "icon_path": "assets/topics/021.png",
     "title": {
-      "en": "Macroeconomics for Investors"
+      "en": "Macroeconomics for Investors",
+      "ru": "Макроэкономика для инвесторов",
+      "kk": "Инвесторларға арналған макроэкономика"
     },
     "description": {
-      "en": "Reading GDP, inflation, unemployment, and the business cycle so that economic news informs your decisions instead of frightening you."
+      "en": "Reading GDP, inflation, unemployment, and the business cycle so that economic news informs your decisions instead of frightening you.",
+      "ru": "Как читать ВВП, инфляцию, безработицу и деловой цикл так, чтобы экономические новости помогали решениям, а не пугали.",
+      "kk": "ЖІӨ, инфляция, жұмыссыздық және іскерлік циклді экономикалық жаңалықтар шешімге көмектіретіндей, қорқытпайтындай оқу."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "gdp",
       "title": {
-        "en": "GDP"
+        "en": "GDP",
+        "ru": "ВВП",
+        "kk": "ЖІӨ"
       },
       "description": {
-        "en": "GDP measures the value of goods and services produced in an economy, but investors must read growth together with quality, inflation, and expectations."
+        "en": "GDP measures the value of goods and services produced in an economy, but investors must read growth together with quality, inflation, and expectations.",
+        "ru": "ВВП измеряет стоимость товаров и услуг, произведённых в экономике, но инвесторам нужно читать рост вместе с его качеством, инфляцией и ожиданиями.",
+        "kk": "ЖІӨ экономикада өндірілген тауарлар мен қызметтердің құнын өлшейді, бірақ инвесторлар өсімді сапамен, инфляциямен және күтулермен бірге қарауы керек."
       },
       "estimatedMinutes": 6,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "GDP is the economy's output scorecard"
+              "en": "GDP is the economy's output scorecard",
+              "ru": "ВВП — табло выпуска экономики",
+              "kk": "ЖІӨ — экономиканың өндіріс көрсеткіші"
             },
             "body": {
-              "en": "Gross domestic product, or GDP, estimates the value of goods and services produced inside an economy. Investors watch it because company sales, employment, tax revenue, and policy decisions often move with economic output. But GDP is a starting point, not a full investment signal."
+              "en": "Gross domestic product, or GDP, estimates the value of goods and services produced inside an economy. Investors watch it because company sales, employment, tax revenue, and policy decisions often move with economic output. But GDP is a starting point, not a full investment signal.",
+              "ru": "Валовой внутренний продукт, или ВВП, оценивает стоимость товаров и услуг, произведённых внутри экономики. Инвесторы следят за ним, потому что продажи компаний, занятость, налоговые поступления и решения властей часто связаны с экономическим выпуском. Но ВВП — это отправная точка, а не полноценный инвестиционный сигнал.",
+              "kk": "Жалпы ішкі өнім, немесе ЖІӨ, экономика ішінде өндірілген тауарлар мен қызметтердің құнын бағалайды. Инвесторлар оны бақылайды, өйткені компания сатылымы, жұмыспен қамту, салық түсімі және саясат шешімдері жиі экономикалық өндіріспен бірге қозғалады. Бірақ ЖІӨ — толық инвестициялық сигнал емес, бастапқы нүкте."
             },
             "tip": {
-              "en": "GDP tells you about output, not automatically about stock returns."
+              "en": "GDP tells you about output, not automatically about stock returns.",
+              "ru": "ВВП говорит о выпуске, но не автоматически о доходности акций.",
+              "kk": "ЖІӨ өндіріс туралы айтады, бірақ акция кірістілігін автоматты түрде білдірмейді."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Real growth matters more than nominal growth"
+              "en": "Real growth matters more than nominal growth",
+              "ru": "Реальный рост важнее номинального",
+              "kk": "Нақты өсім номиналды өсімнен маңыздырақ"
             },
             "body": {
-              "en": "Nominal GDP can rise because prices rise, output rises, or both. Real GDP adjusts for inflation and better shows whether the economy is producing more. Investors need this distinction because high nominal growth during high inflation can hide weak real progress."
+              "en": "Nominal GDP can rise because prices rise, output rises, or both. Real GDP adjusts for inflation and better shows whether the economy is producing more. Investors need this distinction because high nominal growth during high inflation can hide weak real progress.",
+              "ru": "Номинальный ВВП может расти из-за роста цен, роста выпуска или обоих факторов. Реальный ВВП учитывает инфляцию и лучше показывает, производит ли экономика больше. Инвесторам важно это различать, потому что высокий номинальный рост при высокой инфляции может скрывать слабый реальный прогресс.",
+              "kk": "Номиналды ЖІӨ баға өскендіктен, өндіріс өскендіктен немесе екеуі қатар болғандықтан өсуі мүмкін. Нақты ЖІӨ инфляцияны ескеріп, экономиканың шынымен көбірек өндіріп жатқанын жақсырақ көрсетеді. Бұл айырмашылық инвесторларға маңызды, өйткені жоғары инфляция кезіндегі жоғары номиналды өсім әлсіз нақты ілгерілеуді жасыруы мүмкін."
             },
             "example": {
-              "en": "If nominal GDP rises 12% while prices rise 10%, real output growth is much smaller than the headline number suggests."
+              "en": "If nominal GDP rises 12% while prices rise 10%, real output growth is much smaller than the headline number suggests.",
+              "ru": "Если номинальный ВВП вырос на 12%, а цены — на 10%, реальный рост выпуска намного меньше, чем кажется по заголовку.",
+              "kk": "Егер номиналды ЖІӨ 12% өсіп, бағалар 10% көтерілсе, нақты өндіріс өсімі тақырыптағы саннан әлдеқайда төмен."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Markets react to expectations"
+              "en": "Markets react to expectations",
+              "ru": "Рынки реагируют на ожидания",
+              "kk": "Нарықтар күтулерге жауап береді"
             },
             "body": {
-              "en": "A strong GDP report can disappoint markets if investors expected even stronger growth. A weak report can be welcomed if it reduces fear of overheating or rate hikes. The market reaction depends on what changed relative to expectations."
+              "en": "A strong GDP report can disappoint markets if investors expected even stronger growth. A weak report can be welcomed if it reduces fear of overheating or rate hikes. The market reaction depends on what changed relative to expectations.",
+              "ru": "Сильный отчёт по ВВП может разочаровать рынок, если инвесторы ждали ещё более сильного роста. Слабый отчёт может быть встречен позитивно, если он снижает страх перегрева или повышения ставок. Реакция рынка зависит от того, что изменилось относительно ожиданий.",
+              "kk": "ЖІӨ бойынша күшті есеп инвесторлар одан да жоғары өсімді күткен болса, нарықты разы қылмауы мүмкін. Әлсіз есеп қызып кету немесе мөлшерлеменің өсуі қорқынышын азайтса, оң қабылдануы мүмкін. Нарық реакциясы күтулермен салыстырғанда не өзгергеніне байланысты."
             },
             "tip": {
-              "en": "Ask whether the data changed expectations, not whether the number looks good in isolation."
+              "en": "Ask whether the data changed expectations, not whether the number looks good in isolation.",
+              "ru": "Спрашивайте, изменили ли данные ожидания, а не выглядит ли число хорошим само по себе.",
+              "kk": "Санның жеке өзі жақсы көрінуін емес, дерек күтулерді өзгертті ме — соны сұраңыз."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same GDP number, different interpretation"
+              "en": "Same GDP number, different interpretation",
+              "ru": "Один и тот же ВВП — разная интерпретация",
+              "kk": "Бірдей ЖІӨ саны — әртүрлі түсіндіру"
             },
             "content": {
               "en": {
@@ -117,6 +146,90 @@
                     "text": "GDP is useful when read with expectations, inflation, interest rates, and the sources of growth."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Экономика сообщает о 3% реального роста ВВП. Это одно число может означать разное в зависимости от контекста."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Контекст",
+                        "Интерпретация",
+                        "Вопрос инвестора"
+                      ],
+                      [
+                        "Ожидался рост 1%",
+                        "Позитивный сюрприз",
+                        "Вырастут ли прогнозы прибыли?"
+                      ],
+                      [
+                        "Ожидался рост 5%",
+                        "Разочарование",
+                        "Цены уже были слишком оптимистичными?"
+                      ],
+                      [
+                        "Рост за счёт долгового бума",
+                        "Вопрос качества",
+                        "Устойчив ли этот рост?"
+                      ],
+                      [
+                        "Рост при высокой инфляции",
+                        "Риск политики",
+                        "Вырастут ли ставки?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "ВВП полезен, когда его читают вместе с ожиданиями, инфляцией, процентными ставками и источниками роста."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Экономика нақты ЖІӨ өсімі 3% екенін хабарлайды. Бұл бір сан контекстке қарай әртүрлі мағына беруі мүмкін."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Контекст",
+                        "Түсіндіру",
+                        "Инвестор сұрағы"
+                      ],
+                      [
+                        "1% өсім күтілді",
+                        "Оң тосын нәтиже",
+                        "Пайда болжамдары өсе ме?"
+                      ],
+                      [
+                        "5% өсім күтілді",
+                        "Көңіл қалу",
+                        "Бағалар бұрыннан тым оптимистік болды ма?"
+                      ],
+                      [
+                        "Қарыз бумына сүйенген өсім",
+                        "Сапаға қатысты алаңдау",
+                        "Бұл өсім тұрақты ма?"
+                      ],
+                      [
+                        "Жоғары инфляция кезіндегі өсім",
+                        "Саясатқа қатысты алаңдау",
+                        "Мөлшерлемелер көтеріле ме?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "ЖІӨ күтулермен, инфляциямен, пайыздық мөлшерлемелермен және өсім көздерімен бірге оқылғанда пайдалы."
+                  }
+                ]
               }
             }
           },
@@ -125,10 +238,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Read the GDP signal"
+              "en": "Read the GDP signal",
+              "ru": "Считайте сигнал ВВП",
+              "kk": "ЖІӨ сигналын оқыңыз"
             },
             "body": {
-              "en": "Choose what each GDP situation mainly tells an investor to investigate."
+              "en": "Choose what each GDP situation mainly tells an investor to investigate.",
+              "ru": "Выберите, что каждая ситуация с ВВП в первую очередь подсказывает инвестору проверить.",
+              "kk": "Әр ЖІӨ жағдайы инвесторға ең алдымен нені тексеруді ұсынатынын таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -156,6 +273,56 @@
                     "explanation": "The investor should ask whether the growth source is sustainable."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучшую интерпретацию каждого сценария с ВВП.",
+                "options": [
+                  "Вопрос реального роста",
+                  "Разрыв с ожиданиями",
+                  "Вопрос качества роста"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Номинальный ВВП сильно растёт, но инфляция почти такая же высокая.",
+                    "correct_answer": "Вопрос реального роста",
+                    "explanation": "Инвестору нужно отделить рост цен от реального роста выпуска."
+                  },
+                  {
+                    "text": "ВВП растёт на 2%, но рынок ожидал 4%, и акции падают.",
+                    "correct_answer": "Разрыв с ожиданиями",
+                    "explanation": "Отчёт был положительным по уровню, но слабее того, что уже было заложено в цене."
+                  },
+                  {
+                    "text": "Рост ВВП в основном зависит от краткосрочного кредитного всплеска.",
+                    "correct_answer": "Вопрос качества роста",
+                    "explanation": "Инвестору стоит спросить, устойчив ли источник роста."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр ЖІӨ сценарийінің ең жақсы түсіндірмесін таңдаңыз.",
+                "options": [
+                  "Нақты өсім мәселесі",
+                  "Күту айырмасы",
+                  "Өсім сапасы мәселесі"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Номиналды ЖІӨ қатты өседі, бірақ инфляция да соған жақын жоғары.",
+                    "correct_answer": "Нақты өсім мәселесі",
+                    "explanation": "Инвестор баға өсімін нақты өндіріс өсімінен бөлуі керек."
+                  },
+                  {
+                    "text": "ЖІӨ 2% өседі, бірақ нарық 4% күткен, сондықтан акциялар төмендейді.",
+                    "correct_answer": "Күту айырмасы",
+                    "explanation": "Есеп деңгейі бойынша оң болды, бірақ баға меңзегеннен әлсіз шықты."
+                  },
+                  {
+                    "text": "ЖІӨ өсімі негізінен қысқа мерзімді кредиттік серпінге тәуелді.",
+                    "correct_answer": "Өсім сапасы мәселесі",
+                    "explanation": "Инвестор өсім көзі тұрақты ма деп сұрауы керек."
+                  }
+                ]
               }
             }
           },
@@ -164,13 +331,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "GDP is context, not a command"
+              "en": "GDP is context, not a command",
+              "ru": "ВВП — это контекст, а не команда",
+              "kk": "ЖІӨ — бұйрық емес, контекст"
             },
             "body": {
-              "en": "GDP helps investors understand the economic environment, but it does not directly tell them what to buy. The useful analysis separates nominal from real growth, compares data with expectations, and checks whether growth is sustainable. Good macro reading adds context to valuation and risk."
+              "en": "GDP helps investors understand the economic environment, but it does not directly tell them what to buy. The useful analysis separates nominal from real growth, compares data with expectations, and checks whether growth is sustainable. Good macro reading adds context to valuation and risk.",
+              "ru": "ВВП помогает инвесторам понимать экономическую среду, но не говорит напрямую, что покупать. Полезный анализ отделяет номинальный рост от реального, сравнивает данные с ожиданиями и проверяет устойчивость роста. Хорошее чтение макроэкономики добавляет контекст к оценке и риску.",
+              "kk": "ЖІӨ инвесторларға экономикалық ортаны түсінуге көмектеседі, бірақ нені сатып алу керегін тікелей айтпайды. Пайдалы талдау номиналды және нақты өсімді бөледі, деректерді күтулермен салыстырады және өсімнің тұрақтылығын тексереді. Макроны дұрыс оқу бағалау мен тәуекелге контекст қосады."
             },
             "tip": {
-              "en": "Strong GDP can still be bad for markets if it brings inflation pressure or rate fears."
+              "en": "Strong GDP can still be bad for markets if it brings inflation pressure or rate fears.",
+              "ru": "Сильный ВВП всё равно может быть плохим для рынков, если он приносит инфляционное давление или страх роста ставок.",
+              "kk": "Күшті ЖІӨ инфляциялық қысым немесе мөлшерлеме қорқынышын әкелсе, нарықтар үшін бәрібір жағымсыз болуы мүмкін."
             }
           }
         ]
@@ -179,7 +352,9 @@
         "quiz_id": 2101,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "GDP — Check"
+          "en": "GDP — Check",
+          "ru": "ВВП — проверка",
+          "kk": "ЖІӨ — тексеру"
         },
         "questions": [
           {
@@ -187,14 +362,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "An economy reports 11% nominal GDP growth while inflation is 9%. What should an investor ask first?"
+              "en": "An economy reports 11% nominal GDP growth while inflation is 9%. What should an investor ask first?",
+              "ru": "Экономика сообщает о 11% номинального роста ВВП при инфляции 9%. Что инвестору стоит спросить в первую очередь?",
+              "kk": "Экономика 9% инфляция кезінде номиналды ЖІӨ 11% өскенін хабарлайды. Инвестор алдымен нені сұрауы керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "How much real output actually grew after adjusting for price increases"
+                  "en": "How much real output actually grew after adjusting for price increases",
+                  "ru": "Насколько реально вырос выпуск после учёта роста цен",
+                  "kk": "Баға өсімін ескергеннен кейін нақты өндіріс қанша өсті"
                 },
                 "is_correct": true
               },
@@ -202,7 +381,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Whether nominal growth alone guarantees stock gains"
+                  "en": "Whether nominal growth alone guarantees stock gains",
+                  "ru": "Гарантирует ли один только номинальный рост рост акций",
+                  "kk": "Номиналды өсімнің өзі акция өсіміне кепіл бола ма"
                 },
                 "is_correct": false
               },
@@ -210,7 +391,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Whether inflation should be ignored because GDP rose"
+                  "en": "Whether inflation should be ignored because GDP rose",
+                  "ru": "Нужно ли игнорировать инфляцию, потому что ВВП вырос",
+                  "kk": "ЖІӨ өскені үшін инфляцияны елемеуге бола ма"
                 },
                 "is_correct": false
               },
@@ -218,7 +401,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Whether all companies automatically doubled profits"
+                  "en": "Whether all companies automatically doubled profits",
+                  "ru": "Удвоили ли все компании прибыль автоматически",
+                  "kk": "Барлық компаниялар пайдасын автоматты түрде екі есе арттырды ма"
                 },
                 "is_correct": false
               }
@@ -229,14 +414,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "GDP grows 3%, but markets fall because investors expected 5%. What does this show?"
+              "en": "GDP grows 3%, but markets fall because investors expected 5%. What does this show?",
+              "ru": "ВВП растёт на 3%, но рынки падают, потому что инвесторы ожидали 5%. Что это показывает?",
+              "kk": "ЖІӨ 3% өседі, бірақ инвесторлар 5% күткендіктен нарықтар құлайды. Бұл нені көрсетеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Markets react to data relative to expectations, not only whether the number is positive"
+                  "en": "Markets react to data relative to expectations, not only whether the number is positive",
+                  "ru": "Рынки реагируют на данные относительно ожиданий, а не только на то, положительное ли число",
+                  "kk": "Нарықтар санның оң болуына ғана емес, деректің күтулерге қатысты қандай болғанына жауап береді"
                 },
                 "is_correct": true
               },
@@ -244,7 +433,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "GDP growth never matters"
+                  "en": "GDP growth never matters",
+                  "ru": "Рост ВВП никогда не имеет значения",
+                  "kk": "ЖІӨ өсімі ешқашан маңызды емес"
                 },
                 "is_correct": false
               },
@@ -252,7 +443,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A positive GDP number must always lift stocks"
+                  "en": "A positive GDP number must always lift stocks",
+                  "ru": "Положительное значение ВВП всегда должно поднимать акции",
+                  "kk": "Оң ЖІӨ саны акцияларды әрдайым көтеруі тиіс"
                 },
                 "is_correct": false
               },
@@ -260,7 +453,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Investors cannot compare forecasts with outcomes"
+                  "en": "Investors cannot compare forecasts with outcomes",
+                  "ru": "Инвесторы не могут сравнивать прогнозы с результатами",
+                  "kk": "Инвесторлар болжамдарды нәтижелермен салыстыра алмайды"
                 },
                 "is_correct": false
               }
@@ -271,14 +466,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which use of GDP is most reasonable for an investor?"
+              "en": "Which use of GDP is most reasonable for an investor?",
+              "ru": "Какое использование ВВП наиболее разумно для инвестора?",
+              "kk": "Инвестор үшін ЖІӨ-ні қолданудың қайсысы ең орынды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Using it as context for earnings, policy, and risk rather than as a standalone buy signal"
+                  "en": "Using it as context for earnings, policy, and risk rather than as a standalone buy signal",
+                  "ru": "Использовать его как контекст для прибыли, политики и риска, а не как самостоятельный сигнал к покупке",
+                  "kk": "Оны жеке сатып алу сигналы емес, пайда, саясат және тәуекел үшін контекст ретінде қолдану"
                 },
                 "is_correct": true
               },
@@ -286,7 +485,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Buying every stock whenever GDP is positive"
+                  "en": "Buying every stock whenever GDP is positive",
+                  "ru": "Покупать все акции каждый раз, когда ВВП положительный",
+                  "kk": "ЖІӨ оң болған сайын барлық акцияны сатып алу"
                 },
                 "is_correct": false
               },
@@ -294,7 +495,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Ignoring inflation and expectations completely"
+                  "en": "Ignoring inflation and expectations completely",
+                  "ru": "Полностью игнорировать инфляцию и ожидания",
+                  "kk": "Инфляция мен күтулерді толық елемеу"
                 },
                 "is_correct": false
               },
@@ -302,7 +505,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Treating GDP as the exact return of the stock market"
+                  "en": "Treating GDP as the exact return of the stock market",
+                  "ru": "Считать ВВП точной доходностью фондового рынка",
+                  "kk": "ЖІӨ-ні қор нарығының дәл кірістілігі деп санау"
                 },
                 "is_correct": false
               }
@@ -314,10 +519,14 @@
     {
       "code": "inflation_macro",
       "title": {
-        "en": "Inflation: Macro View"
+        "en": "Inflation: Macro View",
+        "ru": "Инфляция: макро-взгляд",
+        "kk": "Инфляция: макро көзқарас"
       },
       "description": {
-        "en": "Inflation changes purchasing power, interest rates, company margins, and investor required returns."
+        "en": "Inflation changes purchasing power, interest rates, company margins, and investor required returns.",
+        "ru": "Инфляция меняет покупательную способность, процентные ставки, маржу компаний и требуемую инвесторами доходность.",
+        "kk": "Инфляция сатып алу қабілетін, пайыздық мөлшерлемелерді, компания маржасын және инвестор талап ететін кірістілікті өзгертеді."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -329,10 +538,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Inflation changes the measurement stick"
+              "en": "Inflation changes the measurement stick",
+              "ru": "Инфляция меняет мерную линейку",
+              "kk": "Инфляция өлшем таяғын өзгертеді"
             },
             "body": {
-              "en": "Inflation means money buys less over time. For investors, it matters because returns are measured in money, but life is paid for in goods and services. A portfolio can grow in tenge and still lose purchasing power if inflation is higher."
+              "en": "Inflation means money buys less over time. For investors, it matters because returns are measured in money, but life is paid for in goods and services. A portfolio can grow in tenge and still lose purchasing power if inflation is higher.",
+              "ru": "Инфляция означает, что со временем деньги покупают меньше. Для инвесторов это важно, потому что доходность измеряется в деньгах, а жизнь оплачивается товарами и услугами. Портфель может расти в тенге и всё равно терять покупательную способность, если инфляция выше.",
+              "kk": "Инфляция уақыт өте ақша аз сатып алады дегенді білдіреді. Инвесторлар үшін бұл маңызды, өйткені кірістілік ақшада өлшенеді, ал өмір тауарлар мен қызметтер арқылы төленеді. Портфель теңгемен өсуі мүмкін, бірақ инфляция жоғары болса, сатып алу қабілетін жоғалтады."
             }
           },
           {
@@ -340,13 +553,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Real return is what matters"
+              "en": "Real return is what matters",
+              "ru": "Важна реальная доходность",
+              "kk": "Нақты кірістілік маңызды"
             },
             "body": {
-              "en": "Nominal return is the percentage your account shows. Real return subtracts inflation to estimate purchasing-power growth. If an investment earns 10% while prices rise 8%, the real gain is much smaller than the headline return."
+              "en": "Nominal return is the percentage your account shows. Real return subtracts inflation to estimate purchasing-power growth. If an investment earns 10% while prices rise 8%, the real gain is much smaller than the headline return.",
+              "ru": "Номинальная доходность — это процент, который показывает ваш счёт. Реальная доходность вычитает инфляцию, чтобы оценить рост покупательной способности. Если инвестиция приносит 10%, а цены растут на 8%, реальный выигрыш намного меньше заголовочной доходности.",
+              "kk": "Номиналды кірістілік — шотыңыз көрсететін пайыз. Нақты кірістілік сатып алу қабілетінің өсімін бағалау үшін инфляцияны алып тастайды. Егер инвестиция 10% табыс беріп, бағалар 8% өссе, нақты пайда тақырыптағы кірістіліктен әлдеқайда аз."
             },
             "tip": {
-              "en": "Investors spend real returns, not nominal percentages."
+              "en": "Investors spend real returns, not nominal percentages.",
+              "ru": "Инвесторы тратят реальную доходность, а не номинальные проценты.",
+              "kk": "Инвесторлар номиналды пайызды емес, нақты кірістілікті жұмсайды."
             }
           },
           {
@@ -354,13 +573,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Inflation affects companies differently"
+              "en": "Inflation affects companies differently",
+              "ru": "Инфляция влияет на компании по-разному",
+              "kk": "Инфляция компанияларға әртүрлі әсер етеді"
             },
             "body": {
-              "en": "Some companies can raise prices when costs rise; others cannot. Businesses with pricing power may protect margins better. Companies with fixed costs, weak demand, or heavy borrowing can struggle when inflation and rates rise together."
+              "en": "Some companies can raise prices when costs rise; others cannot. Businesses with pricing power may protect margins better. Companies with fixed costs, weak demand, or heavy borrowing can struggle when inflation and rates rise together.",
+              "ru": "Одни компании могут повышать цены при росте затрат, другие — нет. Бизнесы с ценовой силой могут лучше защищать маржу. Компании с фиксированными затратами, слабым спросом или большой долговой нагрузкой могут испытывать трудности, когда инфляция и ставки растут вместе.",
+              "kk": "Кей компаниялар шығын өскенде бағаны көтере алады, басқалары көтере алмайды. Баға белгілеу күші бар бизнес маржаны жақсырақ қорғай алады. Тұрақты шығындары, әлсіз сұранысы немесе көп қарызы бар компаниялар инфляция мен мөлшерлеме бірге өскенде қиналуы мүмкін."
             },
             "example": {
-              "en": "A food producer with strong brands may raise prices faster than a small supplier locked into old contracts."
+              "en": "A food producer with strong brands may raise prices faster than a small supplier locked into old contracts.",
+              "ru": "Производитель продуктов с сильными брендами может повышать цены быстрее, чем небольшой поставщик, связанный старыми контрактами.",
+              "kk": "Күшті брендтері бар азық-түлік өндіруші ескі келісімшарттарға байланған шағын жеткізушіге қарағанда бағаны тезірек көтеруі мүмкін."
             }
           },
           {
@@ -368,7 +593,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Nominal gain, weak real result"
+              "en": "Nominal gain, weak real result",
+              "ru": "Номинальный рост, слабый реальный результат",
+              "kk": "Номиналды өсім, әлсіз нақты нәтиже"
             },
             "content": {
               "en": {
@@ -412,6 +639,90 @@
                     "text": "The account balance rose, but most of the increase only kept up with higher prices."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор начинает с ₸1 000 000 и получает 12% номинальной доходности за год, когда инфляция равна 10%."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Пункт",
+                        "Сумма",
+                        "Смысл"
+                      ],
+                      [
+                        "Начальный портфель",
+                        "₸1 000 000",
+                        "Исходные деньги"
+                      ],
+                      [
+                        "Номинальная доходность",
+                        "+12%",
+                        "Счёт вырастает до ₸1 120 000"
+                      ],
+                      [
+                        "Инфляция",
+                        "10%",
+                        "Цены растут в течение года"
+                      ],
+                      [
+                        "Примерный реальный прирост",
+                        "Около 2%",
+                        "Покупательная способность почти не улучшается"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Баланс счёта вырос, но большая часть роста лишь компенсировала повышение цен."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор ₸1 000 000-нан бастап, инфляция 10% болған жылы 12% номиналды кіріс алады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Тармақ",
+                        "Сома",
+                        "Мағынасы"
+                      ],
+                      [
+                        "Бастапқы портфель",
+                        "₸1 000 000",
+                        "Бастапқы ақша"
+                      ],
+                      [
+                        "Номиналды кірістілік",
+                        "+12%",
+                        "Шот ₸1 120 000-ға өседі"
+                      ],
+                      [
+                        "Инфляция",
+                        "10%",
+                        "Жыл ішінде бағалар өседі"
+                      ],
+                      [
+                        "Шамамен нақты өсім",
+                        "Шамамен 2%",
+                        "Сатып алу қабілеті әрең жақсарады"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Шот балансы өсті, бірақ өсімнің көп бөлігі тек қымбаттаған бағаларды қуып жетті."
+                  }
+                ]
               }
             }
           },
@@ -420,10 +731,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Classify the inflation effect"
+              "en": "Classify the inflation effect",
+              "ru": "Классифицируйте эффект инфляции",
+              "kk": "Инфляция әсерін жіктеңіз"
             },
             "body": {
-              "en": "Sort each inflation effect by whether it mainly affects purchasing power, company margins, or interest rates."
+              "en": "Sort each inflation effect by whether it mainly affects purchasing power, company margins, or interest rates.",
+              "ru": "Распределите каждый эффект инфляции по тому, на что он в основном влияет: покупательную способность, маржу компаний или процентные ставки.",
+              "kk": "Әр инфляция әсерін оның негізінен сатып алу қабілетіне, компания маржасына немесе пайыздық мөлшерлемелерге әсер етуіне қарай бөліңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -480,6 +795,114 @@
                   }
                 ],
                 "explanation": "Inflation affects investors through real wealth, company profits, and policy rates. It is not just a consumer-price headline."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый эффект в правильную категорию.",
+                "categories": [
+                  {
+                    "id": "purchasing_power",
+                    "label": "Покупательная способность"
+                  },
+                  {
+                    "id": "margins",
+                    "label": "Маржа компаний"
+                  },
+                  {
+                    "id": "rates",
+                    "label": "Процентные ставки"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "cash_buys_less",
+                    "text": "На наличные в следующем году можно купить меньше продуктов"
+                  },
+                  {
+                    "id": "costs_rise",
+                    "text": "Затраты на ресурсы растут быстрее продажных цен"
+                  },
+                  {
+                    "id": "central_bank",
+                    "text": "Центральный банк может повысить ставки, чтобы охладить спрос"
+                  },
+                  {
+                    "id": "real_return",
+                    "text": "Доходность 9% выглядит менее впечатляюще при инфляции 8%"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "cash_buys_less",
+                    "categoryId": "purchasing_power"
+                  },
+                  {
+                    "itemId": "costs_rise",
+                    "categoryId": "margins"
+                  },
+                  {
+                    "itemId": "central_bank",
+                    "categoryId": "rates"
+                  },
+                  {
+                    "itemId": "real_return",
+                    "categoryId": "purchasing_power"
+                  }
+                ],
+                "explanation": "Инфляция влияет на инвесторов через реальное богатство, прибыль компаний и ставки политики. Это не просто заголовок о потребительских ценах."
+              },
+              "kk": {
+                "instruction": "Әр әсерді дұрыс санатқа сүйреңіз.",
+                "categories": [
+                  {
+                    "id": "purchasing_power",
+                    "label": "Сатып алу қабілеті"
+                  },
+                  {
+                    "id": "margins",
+                    "label": "Компания маржасы"
+                  },
+                  {
+                    "id": "rates",
+                    "label": "Пайыздық мөлшерлемелер"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "cash_buys_less",
+                    "text": "Келесі жылы қолма-қол ақшаға азық-түлік аз сатып алынады"
+                  },
+                  {
+                    "id": "costs_rise",
+                    "text": "Кіріс шығындары сату бағасынан тез өседі"
+                  },
+                  {
+                    "id": "central_bank",
+                    "text": "Орталық банк сұранысты суыту үшін мөлшерлемені көтеруі мүмкін"
+                  },
+                  {
+                    "id": "real_return",
+                    "text": "Инфляция 8% болса, 9% кірістілік онша әсерлі емес"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "cash_buys_less",
+                    "categoryId": "purchasing_power"
+                  },
+                  {
+                    "itemId": "costs_rise",
+                    "categoryId": "margins"
+                  },
+                  {
+                    "itemId": "central_bank",
+                    "categoryId": "rates"
+                  },
+                  {
+                    "itemId": "real_return",
+                    "categoryId": "purchasing_power"
+                  }
+                ],
+                "explanation": "Инфляция инвесторларға нақты байлық, компания пайдасы және саясат мөлшерлемелері арқылы әсер етеді. Бұл жай ғана тұтыну бағалары туралы тақырып емес."
               }
             }
           },
@@ -488,13 +911,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Inflation connects everything"
+              "en": "Inflation connects everything",
+              "ru": "Инфляция связывает всё",
+              "kk": "Инфляция бәрін байланыстырады"
             },
             "body": {
-              "en": "Inflation affects the value of cash, the meaning of returns, company margins, and interest-rate policy. Investors should look beyond the headline rate and ask who can pass on costs, which assets protect purchasing power, and whether policy may tighten. Real outcomes matter most."
+              "en": "Inflation affects the value of cash, the meaning of returns, company margins, and interest-rate policy. Investors should look beyond the headline rate and ask who can pass on costs, which assets protect purchasing power, and whether policy may tighten. Real outcomes matter most.",
+              "ru": "Инфляция влияет на стоимость наличных, смысл доходности, маржу компаний и политику процентных ставок. Инвесторам стоит смотреть дальше заголовочного уровня и спрашивать, кто может переложить затраты, какие активы защищают покупательную способность и может ли политика ужесточиться. Реальные результаты важнее всего.",
+              "kk": "Инфляция қолма-қол ақшаның құнына, кірістіліктің мағынасына, компания маржасына және пайыздық саясатқа әсер етеді. Инвесторлар тақырыптағы мөлшерден әрі қарап, шығынды кім өткізе алады, қай активтер сатып алу қабілетін қорғайды және саясат қатаюы мүмкін бе деп сұрауы керек. Ең маңыздысы — нақты нәтижелер."
             },
             "tip": {
-              "en": "A good nominal return can still be weak if inflation is high."
+              "en": "A good nominal return can still be weak if inflation is high.",
+              "ru": "Хорошая номинальная доходность всё равно может быть слабой, если инфляция высокая.",
+              "kk": "Инфляция жоғары болса, жақсы номиналды кірістілік те әлсіз болуы мүмкін."
             }
           }
         ]
@@ -503,7 +932,9 @@
         "quiz_id": 2102,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Inflation: Macro View — Check"
+          "en": "Inflation: Macro View — Check",
+          "ru": "Инфляция: макро-взгляд — проверка",
+          "kk": "Инфляция: макро көзқарас — тексеру"
         },
         "questions": [
           {
@@ -511,14 +942,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "An investment earns 9% while inflation is 11%. What happened to purchasing power?"
+              "en": "An investment earns 9% while inflation is 11%. What happened to purchasing power?",
+              "ru": "Инвестиция принесла 9% при инфляции 11%. Что произошло с покупательной способностью?",
+              "kk": "Инвестиция 9% табыс әкелді, ал инфляция 11%. Сатып алу қабілетіне не болды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It likely fell despite the positive nominal return"
+                  "en": "It likely fell despite the positive nominal return",
+                  "ru": "Она, вероятно, снизилась, несмотря на положительную номинальную доходность",
+                  "kk": "Оң номиналды кірістілікке қарамастан, ол ықтимал төмендеді"
                 },
                 "is_correct": true
               },
@@ -526,7 +961,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It rose by exactly 9%"
+                  "en": "It rose by exactly 9%",
+                  "ru": "Она выросла ровно на 9%",
+                  "kk": "Ол дәл 9% өсті"
                 },
                 "is_correct": false
               },
@@ -534,7 +971,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It was unaffected because the account gained money"
+                  "en": "It was unaffected because the account gained money",
+                  "ru": "Она не изменилась, потому что счёт вырос",
+                  "kk": "Шотта ақша көбейгендіктен, ол өзгермеді"
                 },
                 "is_correct": false
               },
@@ -542,7 +981,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It doubled because inflation was high"
+                  "en": "It doubled because inflation was high",
+                  "ru": "Она удвоилась, потому что инфляция была высокой",
+                  "kk": "Инфляция жоғары болғандықтан, ол екі есе өсті"
                 },
                 "is_correct": false
               }
@@ -553,14 +994,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why do investors care whether a company has pricing power during inflation?"
+              "en": "Why do investors care whether a company has pricing power during inflation?",
+              "ru": "Почему инвесторам важно, есть ли у компании ценовая сила во время инфляции?",
+              "kk": "Инфляция кезінде компанияда баға белгілеу күші бар-жоғы инвесторларға неге маңызды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It may help the company protect margins when costs rise"
+                  "en": "It may help the company protect margins when costs rise",
+                  "ru": "Это может помочь компании защитить маржу при росте затрат",
+                  "kk": "Бұл шығындар өскенде компанияға маржаны қорғауға көмектесуі мүмкін"
                 },
                 "is_correct": true
               },
@@ -568,7 +1013,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It guarantees the stock cannot fall"
+                  "en": "It guarantees the stock cannot fall",
+                  "ru": "Это гарантирует, что акция не может упасть",
+                  "kk": "Бұл акция құламайтынына кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -576,7 +1023,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It means the company has no expenses"
+                  "en": "It means the company has no expenses",
+                  "ru": "Это означает, что у компании нет расходов",
+                  "kk": "Бұл компанияда шығын жоқ дегенді білдіреді"
                 },
                 "is_correct": false
               },
@@ -584,7 +1033,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It removes interest-rate risk"
+                  "en": "It removes interest-rate risk",
+                  "ru": "Это устраняет процентный риск",
+                  "kk": "Бұл пайыздық мөлшерлеме тәуекелін жояды"
                 },
                 "is_correct": false
               }
@@ -595,14 +1046,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which statement best connects inflation and interest rates?"
+              "en": "Which statement best connects inflation and interest rates?",
+              "ru": "Какое утверждение лучше всего связывает инфляцию и процентные ставки?",
+              "kk": "Қай тұжырым инфляция мен пайыздық мөлшерлемелерді жақсы байланыстырады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "High inflation can push central banks toward higher rates, affecting loans, bonds, and valuations"
+                  "en": "High inflation can push central banks toward higher rates, affecting loans, bonds, and valuations",
+                  "ru": "Высокая инфляция может подтолкнуть центральные банки к повышению ставок, влияя на кредиты, облигации и оценки активов",
+                  "kk": "Жоғары инфляция орталық банктерді мөлшерлемені көтеруге итермелеп, несиелерге, облигацияларға және бағалауларға әсер етуі мүмкін"
                 },
                 "is_correct": true
               },
@@ -610,7 +1065,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Inflation never affects policy rates"
+                  "en": "Inflation never affects policy rates",
+                  "ru": "Инфляция никогда не влияет на ставки политики",
+                  "kk": "Инфляция саясат мөлшерлемелеріне ешқашан әсер етпейді"
                 },
                 "is_correct": false
               },
@@ -618,7 +1075,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Higher inflation always lowers all interest rates"
+                  "en": "Higher inflation always lowers all interest rates",
+                  "ru": "Более высокая инфляция всегда снижает все процентные ставки",
+                  "kk": "Жоғары инфляция барлық пайыздық мөлшерлемелерді әрдайым төмендетеді"
                 },
                 "is_correct": false
               },
@@ -626,7 +1085,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Rates and inflation are the same number by definition"
+                  "en": "Rates and inflation are the same number by definition",
+                  "ru": "Ставки и инфляция по определению одно и то же число",
+                  "kk": "Мөлшерлемелер мен инфляция анықтама бойынша бір сан"
                 },
                 "is_correct": false
               }
@@ -638,10 +1099,14 @@
     {
       "code": "unemployment",
       "title": {
-        "en": "Unemployment"
+        "en": "Unemployment",
+        "ru": "Безработица",
+        "kk": "Жұмыссыздық"
       },
       "description": {
-        "en": "Unemployment shows labor-market stress, but investors must read it with wages, participation, consumer demand, and policy response."
+        "en": "Unemployment shows labor-market stress, but investors must read it with wages, participation, consumer demand, and policy response.",
+        "ru": "Безработица показывает напряжение на рынке труда, но инвесторам нужно читать её вместе с зарплатами, участием в рабочей силе, потребительским спросом и реакцией политики.",
+        "kk": "Жұмыссыздық еңбек нарығындағы қысымды көрсетеді, бірақ инвесторлар оны жалақымен, еңбек күшіне қатысумен, тұтынушылық сұраныспен және саясат жауабымен бірге оқуы керек."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -653,10 +1118,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Jobs link households and markets"
+              "en": "Jobs link households and markets",
+              "ru": "Рабочие места связывают домохозяйства и рынки",
+              "kk": "Жұмыс орындары үй шаруашылықтары мен нарықтарды байланыстырады"
             },
             "body": {
-              "en": "Unemployment measures people who are looking for work but do not have jobs. It matters to investors because jobs support income, spending, loan repayment, and confidence. But the number needs context before it becomes useful."
+              "en": "Unemployment measures people who are looking for work but do not have jobs. It matters to investors because jobs support income, spending, loan repayment, and confidence. But the number needs context before it becomes useful.",
+              "ru": "Безработица измеряет людей, которые ищут работу, но не имеют её. Для инвесторов это важно, потому что работа поддерживает доходы, расходы, погашение кредитов и уверенность. Но число становится полезным только в контексте.",
+              "kk": "Жұмыссыздық жұмыс іздеп жүрген, бірақ жұмысы жоқ адамдарды өлшейді. Бұл инвесторларға маңызды, өйткені жұмыс табысты, шығынды, несие өтеуді және сенімді қолдайды. Бірақ бұл сан пайдалы болуы үшін контекст қажет."
             }
           },
           {
@@ -664,13 +1133,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Low unemployment can be strong or hot"
+              "en": "Low unemployment can be strong or hot",
+              "ru": "Низкая безработица может быть силой или перегревом",
+              "kk": "Төмен жұмыссыздық күштілік те, қызып кету де болуы мүмкін"
             },
             "body": {
-              "en": "Low unemployment often signals a healthy economy. But if labor is too tight, wages may rise quickly and add inflation pressure. That can lead to higher interest rates, which may hurt valuations even while employment looks strong."
+              "en": "Low unemployment often signals a healthy economy. But if labor is too tight, wages may rise quickly and add inflation pressure. That can lead to higher interest rates, which may hurt valuations even while employment looks strong.",
+              "ru": "Низкая безработица часто сигнализирует о здоровой экономике. Но если рынок труда слишком напряжён, зарплаты могут быстро расти и усиливать инфляционное давление. Это может привести к более высоким ставкам, что способно ударить по оценкам активов, даже если занятость выглядит сильной.",
+              "kk": "Төмен жұмыссыздық жиі сау экономиканы білдіреді. Бірақ еңбек нарығы тым тар болса, жалақы тез өсіп, инфляциялық қысымды күшейтуі мүмкін. Бұл жоғары мөлшерлемелерге әкеліп, жұмыспен қамту күшті көрінсе де, бағалауларға зиян тигізуі мүмкін."
             },
             "tip": {
-              "en": "Good labor news can become rate-risk news if inflation pressure rises."
+              "en": "Good labor news can become rate-risk news if inflation pressure rises.",
+              "ru": "Хорошие новости о занятости могут стать новостями о риске ставок, если растёт инфляционное давление.",
+              "kk": "Инфляциялық қысым өссе, еңбек нарығындағы жақсы жаңалық мөлшерлеме тәуекелі туралы жаңалыққа айналуы мүмкін."
             }
           },
           {
@@ -678,10 +1153,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "High unemployment hits demand"
+              "en": "High unemployment hits demand",
+              "ru": "Высокая безработица бьёт по спросу",
+              "kk": "Жоғары жұмыссыздық сұранысқа соққы береді"
             },
             "body": {
-              "en": "When unemployment rises, households may reduce spending, delay purchases, or struggle with debt. Consumer-facing companies can suffer, while defensive sectors may hold up better. Investors also watch whether policymakers may cut rates or support the economy."
+              "en": "When unemployment rises, households may reduce spending, delay purchases, or struggle with debt. Consumer-facing companies can suffer, while defensive sectors may hold up better. Investors also watch whether policymakers may cut rates or support the economy.",
+              "ru": "Когда безработица растёт, домохозяйства могут сокращать расходы, откладывать покупки или испытывать проблемы с долгами. Компании, ориентированные на потребителя, могут пострадать, тогда как защитные секторы могут держаться лучше. Инвесторы также следят, могут ли власти снизить ставки или поддержать экономику.",
+              "kk": "Жұмыссыздық өскенде үй шаруашылықтары шығынды қысқартып, сатып алуды кейінге қалдырып немесе қарызбен қиналуы мүмкін. Тұтынушыға бағытталған компаниялар зардап шегуі мүмкін, ал қорғаныс секторлары жақсырақ төтеп беруі ықтимал. Инвесторлар саясаткерлер мөлшерлемені төмендете ме немесе экономиканы қолдай ма — соны да бақылайды."
             }
           },
           {
@@ -689,7 +1168,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "One jobs report, two market reactions"
+              "en": "One jobs report, two market reactions",
+              "ru": "Один отчёт о занятости — две реакции рынка",
+              "kk": "Бір еңбек есебі — нарықтың екі реакциясы"
             },
             "content": {
               "en": {
@@ -733,6 +1214,90 @@
                     "text": "The same labor data can be good or bad depending on the macro problem investors are focused on."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Отчёт о занятости показывает снижение безработицы и рост зарплат. Реакция зависит от того, о чём инвесторы беспокоились до отчёта."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Рыночное опасение",
+                        "Интерпретация отчёта о занятости",
+                        "Возможная реакция"
+                      ],
+                      [
+                        "Страх рецессии",
+                        "Более сильная занятость снижает страх",
+                        "Акции могут вырасти"
+                      ],
+                      [
+                        "Страх инфляции",
+                        "Давление зарплат может удерживать инфляцию высокой",
+                        "Облигации и акции могут упасть"
+                      ],
+                      [
+                        "Надежды на снижение ставок",
+                        "Сильная занятость откладывает снижения",
+                        "Активы, чувствительные к ставкам, могут ослабнуть"
+                      ],
+                      [
+                        "Опасение за потребительские расходы",
+                        "Больше дохода поддерживает спрос",
+                        "Прогноз по рознице может улучшиться"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Одни и те же данные по труду могут быть хорошими или плохими в зависимости от макропроблемы, на которой сосредоточены инвесторы."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Еңбек есебі жұмыссыздықтың төмендеп, жалақының өскенін көрсетеді. Реакция инвесторлар есепке дейін неден алаңдағанына байланысты."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Нарық алаңы",
+                        "Еңбек есебін түсіндіру",
+                        "Мүмкін реакция"
+                      ],
+                      [
+                        "Рецессия қорқынышы",
+                        "Күшті жұмыс көрсеткіштері қорқынышты азайтады",
+                        "Акциялар өсуі мүмкін"
+                      ],
+                      [
+                        "Инфляция қорқынышы",
+                        "Жалақы қысымы инфляцияны жоғары ұстап тұруы мүмкін",
+                        "Облигациялар мен акциялар төмендеуі мүмкін"
+                      ],
+                      [
+                        "Мөлшерлемені төмендету үміті",
+                        "Күшті еңбек нарығы төмендетуді кейінге қалдырады",
+                        "Мөлшерлемеге сезімтал активтер әлсіреуі мүмкін"
+                      ],
+                      [
+                        "Тұтыну шығындарына алаңдау",
+                        "Көбірек табыс сұранысты қолдайды",
+                        "Бөлшек сауда болжамы жақсаруы мүмкін"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Бірдей еңбек деректері инвесторлар назар аударған макро мәселеге байланысты жақсы да, жаман да болуы мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -741,10 +1306,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Read the labor signal"
+              "en": "Read the labor signal",
+              "ru": "Считайте сигнал рынка труда",
+              "kk": "Еңбек нарығы сигналын оқыңыз"
             },
             "body": {
-              "en": "Choose what each unemployment scenario mainly suggests."
+              "en": "Choose what each unemployment scenario mainly suggests.",
+              "ru": "Выберите, что в основном означает каждый сценарий безработицы.",
+              "kk": "Әр жұмыссыздық сценарийі негізінен нені білдіретінін таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -772,6 +1341,56 @@
                     "explanation": "Weak labor markets can increase pressure for rate cuts or support measures."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучшую интерпретацию для инвестора.",
+                "options": [
+                  "Слабость спроса",
+                  "Инфляционное давление",
+                  "Возможность поддержки политики"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Безработица быстро растёт, а розничные продажи слабеют.",
+                    "correct_answer": "Слабость спроса",
+                    "explanation": "Потеря рабочих мест может снизить расходы домохозяйств и ударить по потребительским компаниям."
+                  },
+                  {
+                    "text": "Безработица очень низкая, а зарплаты ускоряются быстрее производительности.",
+                    "correct_answer": "Инфляционное давление",
+                    "explanation": "Быстрый рост зарплат может добавить давление затрат, если он не подкреплён производительностью."
+                  },
+                  {
+                    "text": "Безработица растёт во время замедления, и инвесторы ожидают смягчения со стороны центрального банка.",
+                    "correct_answer": "Возможность поддержки политики",
+                    "explanation": "Слабые рынки труда могут усилить давление в пользу снижения ставок или мер поддержки."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Инвестор үшін ең жақсы түсіндірмені таңдаңыз.",
+                "options": [
+                  "Сұраныс әлсіздігі",
+                  "Инфляциялық қысым",
+                  "Саяси қолдау мүмкіндігі"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Жұмыссыздық тез өсіп, бөлшек сауда әлсірейді.",
+                    "correct_answer": "Сұраныс әлсіздігі",
+                    "explanation": "Жұмыс орындарының жоғалуы үй шаруашылықтары шығынын азайтып, тұтынушыға бағытталған бизнеске зиян тигізуі мүмкін."
+                  },
+                  {
+                    "text": "Жұмыссыздық өте төмен, ал жалақы өнімділіктен тезірек өседі.",
+                    "correct_answer": "Инфляциялық қысым",
+                    "explanation": "Жалақының тез өсуі өнімділікпен сәйкес келмесе, шығын қысымын арттыруы мүмкін."
+                  },
+                  {
+                    "text": "Баяулау кезінде жұмыссыздық өседі, ал инвесторлар орталық банктің жұмсартуын күтеді.",
+                    "correct_answer": "Саяси қолдау мүмкіндігі",
+                    "explanation": "Әлсіз еңбек нарығы мөлшерлемені төмендету немесе қолдау шаралары үшін қысымды арттыруы мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -780,13 +1399,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Labor data is a bridge"
+              "en": "Labor data is a bridge",
+              "ru": "Данные о труде — это мост",
+              "kk": "Еңбек деректері — көпір"
             },
             "body": {
-              "en": "Unemployment links households, company revenue, inflation, and policy. A strong labor market can support demand but also create wage pressure. A weak labor market can hurt earnings but increase expectations for policy support. Investors should read jobs data through the current economic problem."
+              "en": "Unemployment links households, company revenue, inflation, and policy. A strong labor market can support demand but also create wage pressure. A weak labor market can hurt earnings but increase expectations for policy support. Investors should read jobs data through the current economic problem.",
+              "ru": "Безработица связывает домохозяйства, выручку компаний, инфляцию и политику. Сильный рынок труда может поддерживать спрос, но также создавать давление зарплат. Слабый рынок труда может вредить прибыли, но повышать ожидания поддержки политики. Инвесторам стоит читать данные о занятости через текущую экономическую проблему.",
+              "kk": "Жұмыссыздық үй шаруашылықтарын, компания кірісін, инфляцияны және саясатты байланыстырады. Күшті еңбек нарығы сұранысты қолдай алады, бірақ жалақы қысымын да тудырады. Әлсіз еңбек нарығы пайдаға зиян келтіріп, саясат қолдауына күтуді арттыруы мүмкін. Инвесторлар жұмыс деректерін қазіргі экономикалық мәселе арқылы оқуы керек."
             },
             "tip": {
-              "en": "The same unemployment number can mean different things in recession fear versus inflation fear."
+              "en": "The same unemployment number can mean different things in recession fear versus inflation fear.",
+              "ru": "Один и тот же уровень безработицы может означать разное при страхе рецессии и при страхе инфляции.",
+              "kk": "Бірдей жұмыссыздық саны рецессия қорқынышы мен инфляция қорқынышы жағдайында әртүрлі мағына беруі мүмкін."
             }
           }
         ]
@@ -795,7 +1420,9 @@
         "quiz_id": 2103,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Unemployment — Check"
+          "en": "Unemployment — Check",
+          "ru": "Безработица — проверка",
+          "kk": "Жұмыссыздық — тексеру"
         },
         "questions": [
           {
@@ -803,14 +1430,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Unemployment is low, wages are rising fast, and inflation is already high. What might investors worry about?"
+              "en": "Unemployment is low, wages are rising fast, and inflation is already high. What might investors worry about?",
+              "ru": "Безработица низкая, зарплаты быстро растут, а инфляция уже высокая. О чём могут беспокоиться инвесторы?",
+              "kk": "Жұмыссыздық төмен, жалақы тез өсуде, ал инфляция қазірдің өзінде жоғары. Инвесторлар неден алаңдауы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Wage pressure could keep inflation high and delay rate cuts"
+                  "en": "Wage pressure could keep inflation high and delay rate cuts",
+                  "ru": "Давление зарплат может удерживать инфляцию высокой и отложить снижение ставок",
+                  "kk": "Жалақы қысымы инфляцияны жоғары ұстап, мөлшерлемені төмендетуді кейінге қалдыруы мүмкін"
                 },
                 "is_correct": true
               },
@@ -818,7 +1449,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Low unemployment always means all assets rise"
+                  "en": "Low unemployment always means all assets rise",
+                  "ru": "Низкая безработица всегда означает рост всех активов",
+                  "kk": "Төмен жұмыссыздық барлық активтер әрдайым өседі дегенді білдіреді"
                 },
                 "is_correct": false
               },
@@ -826,7 +1459,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Wage growth has no connection to company costs"
+                  "en": "Wage growth has no connection to company costs",
+                  "ru": "Рост зарплат никак не связан с затратами компаний",
+                  "kk": "Жалақы өсімі компания шығындарымен байланысты емес"
                 },
                 "is_correct": false
               },
@@ -834,7 +1469,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Inflation must immediately disappear"
+                  "en": "Inflation must immediately disappear",
+                  "ru": "Инфляция должна немедленно исчезнуть",
+                  "kk": "Инфляция бірден жоғалуы керек"
                 },
                 "is_correct": false
               }
@@ -845,14 +1482,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can rising unemployment hurt consumer companies?"
+              "en": "Why can rising unemployment hurt consumer companies?",
+              "ru": "Почему рост безработицы может вредить потребительским компаниям?",
+              "kk": "Неліктен жұмыссыздықтың өсуі тұтынушы компанияларға зиян тигізуі мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Households may reduce spending when income security weakens"
+                  "en": "Households may reduce spending when income security weakens",
+                  "ru": "Домохозяйства могут сократить расходы, когда уверенность в доходах ослабевает",
+                  "kk": "Табыс тұрақтылығына сенім әлсірегенде үй шаруашылықтары шығынды қысқартуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -860,7 +1501,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Unemployment makes consumers buy more expensive goods automatically"
+                  "en": "Unemployment makes consumers buy more expensive goods automatically",
+                  "ru": "Безработица автоматически заставляет потребителей покупать более дорогие товары",
+                  "kk": "Жұмыссыздық тұтынушыларды автоматты түрде қымбатырақ тауар алуға мәжбүрлейді"
                 },
                 "is_correct": false
               },
@@ -868,7 +1511,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Consumer demand never depends on jobs"
+                  "en": "Consumer demand never depends on jobs",
+                  "ru": "Потребительский спрос никогда не зависит от рабочих мест",
+                  "kk": "Тұтынушылық сұраныс ешқашан жұмысқа тәуелді емес"
                 },
                 "is_correct": false
               },
@@ -876,7 +1521,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Companies receive more revenue when customers lose income"
+                  "en": "Companies receive more revenue when customers lose income",
+                  "ru": "Компании получают больше выручки, когда клиенты теряют доход",
+                  "kk": "Клиенттер табысын жоғалтқанда компаниялар көбірек кіріс алады"
                 },
                 "is_correct": false
               }
@@ -887,14 +1534,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the best way to interpret unemployment data for investing?"
+              "en": "What is the best way to interpret unemployment data for investing?",
+              "ru": "Как лучше всего интерпретировать данные о безработице для инвестирования?",
+              "kk": "Инвестиция үшін жұмыссыздық деректерін ең дұрыс қалай түсіндіруге болады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Connect it to wages, demand, inflation, and likely policy response"
+                  "en": "Connect it to wages, demand, inflation, and likely policy response",
+                  "ru": "Связывать её с зарплатами, спросом, инфляцией и вероятной реакцией политики",
+                  "kk": "Оны жалақы, сұраныс, инфляция және ықтимал саясат жауабымен байланыстыру"
                 },
                 "is_correct": true
               },
@@ -902,7 +1553,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Treat the number as a standalone buy or sell command"
+                  "en": "Treat the number as a standalone buy or sell command",
+                  "ru": "Считать число самостоятельной командой покупать или продавать",
+                  "kk": "Санды жеке сатып алу не сату бұйрығы деп санау"
                 },
                 "is_correct": false
               },
@@ -910,7 +1563,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Ignore whether wages are rising"
+                  "en": "Ignore whether wages are rising",
+                  "ru": "Игнорировать, растут ли зарплаты",
+                  "kk": "Жалақы өсіп жатыр ма — елемеу"
                 },
                 "is_correct": false
               },
@@ -918,7 +1573,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Assume high unemployment is always good for stocks"
+                  "en": "Assume high unemployment is always good for stocks",
+                  "ru": "Считать, что высокая безработица всегда хороша для акций",
+                  "kk": "Жоғары жұмыссыздық акциялар үшін әрдайым жақсы деп санау"
                 },
                 "is_correct": false
               }
@@ -930,10 +1587,14 @@
     {
       "code": "business_cycles",
       "title": {
-        "en": "Business Cycles"
+        "en": "Business Cycles",
+        "ru": "Деловые циклы",
+        "kk": "Іскерлік циклдер"
       },
       "description": {
-        "en": "Business cycles describe expansions and slowdowns, helping investors understand earnings, risk appetite, rates, and sector sensitivity."
+        "en": "Business cycles describe expansions and slowdowns, helping investors understand earnings, risk appetite, rates, and sector sensitivity.",
+        "ru": "Деловые циклы описывают расширения и замедления, помогая инвесторам понимать прибыль, аппетит к риску, ставки и чувствительность секторов.",
+        "kk": "Іскерлік циклдер кеңею мен баяулауды сипаттап, инвесторларға пайда, тәуекел тәбеті, мөлшерлемелер және сектор сезімталдығын түсінуге көмектеседі."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -945,10 +1606,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Economies move in cycles"
+              "en": "Economies move in cycles",
+              "ru": "Экономики движутся циклами",
+              "kk": "Экономикалар циклмен қозғалады"
             },
             "body": {
-              "en": "Economic activity does not grow in a straight line. Expansions, slowdowns, recessions, and recoveries affect profits, jobs, interest rates, and investor confidence. Business cycles help investors organize the environment without pretending to forecast perfectly."
+              "en": "Economic activity does not grow in a straight line. Expansions, slowdowns, recessions, and recoveries affect profits, jobs, interest rates, and investor confidence. Business cycles help investors organize the environment without pretending to forecast perfectly.",
+              "ru": "Экономическая активность не растёт по прямой. Расширения, замедления, рецессии и восстановления влияют на прибыль, рабочие места, процентные ставки и уверенность инвесторов. Деловые циклы помогают инвесторам упорядочить среду, не притворяясь, что прогнозы могут быть идеальными.",
+              "kk": "Экономикалық белсенділік түзу сызықпен өспейді. Кеңею, баяулау, рецессия және қалпына келу пайдаға, жұмыс орындарына, пайыздық мөлшерлемелерге және инвестор сеніміне әсер етеді. Іскерлік циклдер инвесторларға ортаны реттеуге көмектеседі, бірақ мінсіз болжағандай көрінбейді."
             }
           },
           {
@@ -956,13 +1621,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Different assets react differently"
+              "en": "Different assets react differently",
+              "ru": "Разные активы реагируют по-разному",
+              "kk": "Әртүрлі активтер әртүрлі жауап береді"
             },
             "body": {
-              "en": "Cyclical companies often do well when growth is strong and demand is rising. Defensive companies may hold up better when households cut optional spending. Bonds can benefit if slowdowns lead to lower rates, but inflation can complicate that pattern."
+              "en": "Cyclical companies often do well when growth is strong and demand is rising. Defensive companies may hold up better when households cut optional spending. Bonds can benefit if slowdowns lead to lower rates, but inflation can complicate that pattern.",
+              "ru": "Циклические компании часто хорошо чувствуют себя при сильном росте и повышающемся спросе. Защитные компании могут держаться лучше, когда домохозяйства сокращают необязательные расходы. Облигации могут выиграть, если замедление ведёт к снижению ставок, но инфляция может усложнить эту схему.",
+              "kk": "Циклдік компаниялар өсім күшті болып, сұраныс артқанда жиі жақсы нәтиже көрсетеді. Үй шаруашылықтары міндетті емес шығындарды қысқартқанда қорғаныс компаниялары жақсырақ төтеп беруі мүмкін. Баяулау мөлшерлеменің төмендеуіне әкелсе, облигациялар ұтуы мүмкін, бірақ инфляция бұл үлгіні қиындатады."
             },
             "tip": {
-              "en": "Cycle awareness is about sensitivity, not guaranteed timing."
+              "en": "Cycle awareness is about sensitivity, not guaranteed timing.",
+              "ru": "Понимание цикла — это про чувствительность, а не гарантированный тайминг.",
+              "kk": "Циклді түсіну — кепілді уақытты табу емес, сезімталдық туралы."
             }
           },
           {
@@ -970,13 +1641,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Markets often move before the data looks clear"
+              "en": "Markets often move before the data looks clear",
+              "ru": "Рынки часто двигаются до того, как данные становятся очевидными",
+              "kk": "Нарықтар деректер айқын көрінбей тұрып жиі қозғалады"
             },
             "body": {
-              "en": "Investors try to price the future, so markets can fall before a recession is official and recover before news feels good. Waiting for perfect confirmation can mean reacting late. The challenge is balancing evidence with humility."
+              "en": "Investors try to price the future, so markets can fall before a recession is official and recover before news feels good. Waiting for perfect confirmation can mean reacting late. The challenge is balancing evidence with humility.",
+              "ru": "Инвесторы пытаются оценивать будущее, поэтому рынки могут падать до официальной рецессии и восстанавливаться до того, как новости станут хорошими. Ожидание идеального подтверждения может означать запоздалую реакцию. Задача — сочетать доказательства со скромностью.",
+              "kk": "Инвесторлар болашақты бағалауға тырысады, сондықтан нарықтар рецессия ресми болмай тұрып құлап, жаңалықтар жақсы сезілмей тұрып қалпына келуі мүмкін. Мінсіз растауды күту кеш реакцияға әкелуі мүмкін. Міндет — дәлел мен кішіпейілдікті тең ұстау."
             },
             "example": {
-              "en": "A stock market can begin recovering while unemployment is still rising if investors believe the worst earnings decline is already priced in."
+              "en": "A stock market can begin recovering while unemployment is still rising if investors believe the worst earnings decline is already priced in.",
+              "ru": "Фондовый рынок может начать восстанавливаться, пока безработица ещё растёт, если инвесторы считают, что худшее падение прибыли уже заложено в цены.",
+              "kk": "Инвесторлар пайданың ең нашар төмендеуі бағаға енгізілді деп сенсе, қор нарығы жұмыссыздық әлі өсіп жатқанда қалпына келе бастауы мүмкін."
             }
           },
           {
@@ -984,7 +1661,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Cycle stages and investor questions"
+              "en": "Cycle stages and investor questions",
+              "ru": "Стадии цикла и вопросы инвестора",
+              "kk": "Цикл кезеңдері және инвестор сұрақтары"
             },
             "content": {
               "en": {
@@ -1028,6 +1707,90 @@
                     "text": "The goal is not to name the stage perfectly. It is to understand which risks deserve more attention."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ярлыки делового цикла несовершенны, но они помогают понять, какие риски наиболее важны."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Стадия",
+                        "Типичные признаки",
+                        "Вопрос инвестора"
+                      ],
+                      [
+                        "Расширение",
+                        "Рост, найм, уверенность",
+                        "Оценки слишком оптимистичны?"
+                      ],
+                      [
+                        "Поздняя стадия цикла",
+                        "Инфляционное или производственное давление",
+                        "Будут ли ставки ужесточаться?"
+                      ],
+                      [
+                        "Замедление",
+                        "Более слабый спрос и прибыль",
+                        "Чьи балансы уязвимы?"
+                      ],
+                      [
+                        "Восстановление",
+                        "Улучшающиеся ожидания",
+                        "Какие активы уже учли восстановление в цене?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Цель — не идеально назвать стадию. Цель — понять, каким рискам нужно уделить больше внимания."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Іскерлік цикл атаулары мінсіз емес, бірақ қай тәуекелдер маңызды екенін түсінуге көмектеседі."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Кезең",
+                        "Әдеттегі белгілер",
+                        "Инвестор сұрағы"
+                      ],
+                      [
+                        "Кеңею",
+                        "Өсім, жұмысқа алу, сенім",
+                        "Бағалаулар тым оптимистік пе?"
+                      ],
+                      [
+                        "Циклдің кеш кезеңі",
+                        "Инфляция немесе қуат қысымы",
+                        "Мөлшерлемелер қатаюы мүмкін бе?"
+                      ],
+                      [
+                        "Баяулау",
+                        "Әлсіз сұраныс пен пайда",
+                        "Қай баланстар әлсіз?"
+                      ],
+                      [
+                        "Қалпына келу",
+                        "Жақсарып жатқан күтулер",
+                        "Қай активтер қалпына келуді бағаға енгізіп қойды?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Мақсат — кезеңді мінсіз атау емес. Мақсат — қай тәуекелдерге көбірек назар керек екенін түсіну."
+                  }
+                ]
               }
             }
           },
@@ -1036,10 +1799,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Match the cycle signal"
+              "en": "Match the cycle signal",
+              "ru": "Сопоставьте сигнал цикла",
+              "kk": "Цикл сигналын сәйкестендіріңіз"
             },
             "body": {
-              "en": "Classify each signal by the business-cycle concern it most suggests."
+              "en": "Classify each signal by the business-cycle concern it most suggests.",
+              "ru": "Классифицируйте каждый сигнал по тому, на какую проблему делового цикла он больше всего указывает.",
+              "kk": "Әр сигналды ол ең көп меңзейтін іскерлік цикл алаңына қарай жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -1100,6 +1867,122 @@
                   }
                 ],
                 "explanation": "Cycle labels are rough maps. They help identify whether growth, inflation, earnings risk, or recovery expectations dominate."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый сигнал к лучшей интерпретации цикла.",
+                "categories": [
+                  {
+                    "id": "expansion",
+                    "label": "Расширение"
+                  },
+                  {
+                    "id": "late_cycle",
+                    "label": "Давление поздней стадии цикла"
+                  },
+                  {
+                    "id": "slowdown",
+                    "label": "Замедление"
+                  },
+                  {
+                    "id": "recovery",
+                    "label": "Восстановление"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "hiring_sales",
+                    "text": "Найм и продажи широкие и сильные"
+                  },
+                  {
+                    "id": "inflation_rates",
+                    "text": "Инфляционное давление растёт, политика ужесточается"
+                  },
+                  {
+                    "id": "earnings_cuts",
+                    "text": "Компании снижают прогнозы прибыли"
+                  },
+                  {
+                    "id": "expectations_improve",
+                    "text": "Опережающие индикаторы улучшаются после слабого периода"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "hiring_sales",
+                    "categoryId": "expansion"
+                  },
+                  {
+                    "itemId": "inflation_rates",
+                    "categoryId": "late_cycle"
+                  },
+                  {
+                    "itemId": "earnings_cuts",
+                    "categoryId": "slowdown"
+                  },
+                  {
+                    "itemId": "expectations_improve",
+                    "categoryId": "recovery"
+                  }
+                ],
+                "explanation": "Ярлыки цикла — это грубые карты. Они помогают определить, что доминирует: рост, инфляция, риск прибыли или ожидания восстановления."
+              },
+              "kk": {
+                "instruction": "Әр сигналды циклдің ең жақсы түсіндірмесіне сүйреңіз.",
+                "categories": [
+                  {
+                    "id": "expansion",
+                    "label": "Кеңею"
+                  },
+                  {
+                    "id": "late_cycle",
+                    "label": "Кеш цикл қысымы"
+                  },
+                  {
+                    "id": "slowdown",
+                    "label": "Баяулау"
+                  },
+                  {
+                    "id": "recovery",
+                    "label": "Қалпына келу"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "hiring_sales",
+                    "text": "Жұмысқа алу мен сатылым кең ауқымды және күшті"
+                  },
+                  {
+                    "id": "inflation_rates",
+                    "text": "Инфляциялық қысым өседі және саясат қатаңдайды"
+                  },
+                  {
+                    "id": "earnings_cuts",
+                    "text": "Компаниялар пайда болжамдарын қысқартады"
+                  },
+                  {
+                    "id": "expectations_improve",
+                    "text": "Әлсіз кезеңнен кейін алдыңғы индикаторлар жақсарады"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "hiring_sales",
+                    "categoryId": "expansion"
+                  },
+                  {
+                    "itemId": "inflation_rates",
+                    "categoryId": "late_cycle"
+                  },
+                  {
+                    "itemId": "earnings_cuts",
+                    "categoryId": "slowdown"
+                  },
+                  {
+                    "itemId": "expectations_improve",
+                    "categoryId": "recovery"
+                  }
+                ],
+                "explanation": "Цикл атаулары — шамамен карта. Олар өсім, инфляция, пайда тәуекелі немесе қалпына келу күтулері басым ба екенін анықтауға көмектеседі."
               }
             }
           },
@@ -1108,13 +1991,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Use cycles as a risk map"
+              "en": "Use cycles as a risk map",
+              "ru": "Используйте циклы как карту рисков",
+              "kk": "Циклдерді тәуекел картасы ретінде қолданыңыз"
             },
             "body": {
-              "en": "Business cycles help investors connect macro data to profits, rates, and risk appetite. They should not be used as precise clocks. A better approach is to ask which assets are sensitive to the current risks and whether your portfolio could survive being early or wrong."
+              "en": "Business cycles help investors connect macro data to profits, rates, and risk appetite. They should not be used as precise clocks. A better approach is to ask which assets are sensitive to the current risks and whether your portfolio could survive being early or wrong.",
+              "ru": "Деловые циклы помогают инвесторам связывать макроданные с прибылью, ставками и аппетитом к риску. Их не стоит использовать как точные часы. Лучший подход — спросить, какие активы чувствительны к текущим рискам и выдержит ли портфель, если вы окажетесь слишком ранними или ошибётесь.",
+              "kk": "Іскерлік циклдер инвесторларға макродеректерді пайдамен, мөлшерлемелермен және тәуекел тәбетімен байланыстыруға көмектеседі. Оларды дәл сағат ретінде қолдануға болмайды. Жақсырақ тәсіл — қай активтер қазіргі тәуекелдерге сезімтал және портфель ерте немесе қате болса да шыдай ала ма деп сұрау."
             },
             "tip": {
-              "en": "Cycle awareness improves preparation; it does not create perfect forecasts."
+              "en": "Cycle awareness improves preparation; it does not create perfect forecasts.",
+              "ru": "Понимание циклов улучшает подготовку, но не создаёт идеальные прогнозы.",
+              "kk": "Циклді түсіну дайындықты жақсартады, бірақ мінсіз болжам жасамайды."
             }
           }
         ]
@@ -1123,7 +2012,9 @@
         "quiz_id": 2104,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Business Cycles — Check"
+          "en": "Business Cycles — Check",
+          "ru": "Деловые циклы — проверка",
+          "kk": "Іскерлік циклдер — тексеру"
         },
         "questions": [
           {
@@ -1131,14 +2022,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why can markets recover before economic news feels good?"
+              "en": "Why can markets recover before economic news feels good?",
+              "ru": "Почему рынки могут восстанавливаться до того, как экономические новости выглядят хорошими?",
+              "kk": "Неліктен нарықтар экономикалық жаңалықтар жақсы көрінбей тұрып қалпына келе алады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Markets price expectations about the future, not only current reported conditions"
+                  "en": "Markets price expectations about the future, not only current reported conditions",
+                  "ru": "Рынки оценивают ожидания будущего, а не только текущие опубликованные условия",
+                  "kk": "Нарықтар тек ағымдағы хабарланған жағдайды емес, болашақ туралы күтулерді бағалайды"
                 },
                 "is_correct": true
               },
@@ -1146,7 +2041,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Markets never care about earnings"
+                  "en": "Markets never care about earnings",
+                  "ru": "Рынкам никогда не важна прибыль",
+                  "kk": "Нарықтарға пайда ешқашан маңызды емес"
                 },
                 "is_correct": false
               },
@@ -1154,7 +2051,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Recoveries are announced before investors react"
+                  "en": "Recoveries are announced before investors react",
+                  "ru": "Восстановления объявляют до реакции инвесторов",
+                  "kk": "Қалпына келулер инвесторлар әрекет етпей тұрып жарияланады"
                 },
                 "is_correct": false
               },
@@ -1162,7 +2061,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Bad news legally requires prices to rise"
+                  "en": "Bad news legally requires prices to rise",
+                  "ru": "Плохие новости по закону требуют роста цен",
+                  "kk": "Жаман жаңалық заң бойынша бағалардың өсуін талап етеді"
                 },
                 "is_correct": false
               }
@@ -1173,14 +2074,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which company is usually more cyclical?"
+              "en": "Which company is usually more cyclical?",
+              "ru": "Какая компания обычно более циклична?",
+              "kk": "Қай компания әдетте көбірек циклдік?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A company selling expensive optional goods that consumers delay in downturns"
+                  "en": "A company selling expensive optional goods that consumers delay in downturns",
+                  "ru": "Компания, продающая дорогие необязательные товары, покупку которых потребители откладывают при спаде",
+                  "kk": "Тұтынушылар құлдырау кезінде кейінге қалдыратын қымбат міндетті емес тауарларды сататын компания"
                 },
                 "is_correct": true
               },
@@ -1188,7 +2093,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "A basic utility with stable regulated demand"
+                  "en": "A basic utility with stable regulated demand",
+                  "ru": "Базовая коммунальная компания со стабильным регулируемым спросом",
+                  "kk": "Тұрақты реттелетін сұранысы бар негізгі коммуналдық компания"
                 },
                 "is_correct": false
               },
@@ -1196,7 +2103,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A company with no relation to consumer income"
+                  "en": "A company with no relation to consumer income",
+                  "ru": "Компания, не связанная с доходами потребителей",
+                  "kk": "Тұтынушы табысына қатысы жоқ компания"
                 },
                 "is_correct": false
               },
@@ -1204,7 +2113,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A business whose sales are fixed by long contracts forever"
+                  "en": "A business whose sales are fixed by long contracts forever",
+                  "ru": "Бизнес, чьи продажи навсегда закреплены долгосрочными контрактами",
+                  "kk": "Сатылымы ұзақ келісімшарттармен мәңгі бекітілген бизнес"
                 },
                 "is_correct": false
               }
@@ -1215,14 +2126,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the best use of business-cycle analysis?"
+              "en": "What is the best use of business-cycle analysis?",
+              "ru": "Как лучше всего использовать анализ делового цикла?",
+              "kk": "Іскерлік цикл талдауын ең жақсы қалай қолдануға болады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Mapping current risks to earnings, rates, and portfolio sensitivity"
+                  "en": "Mapping current risks to earnings, rates, and portfolio sensitivity",
+                  "ru": "Связывать текущие риски с прибылью, ставками и чувствительностью портфеля",
+                  "kk": "Ағымдағы тәуекелдерді пайдамен, мөлшерлемелермен және портфель сезімталдығымен байланыстыру"
                 },
                 "is_correct": true
               },
@@ -1230,7 +2145,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Predicting the exact month every recession begins"
+                  "en": "Predicting the exact month every recession begins",
+                  "ru": "Предсказывать точный месяц начала каждой рецессии",
+                  "kk": "Әр рецессия басталатын нақты айды болжау"
                 },
                 "is_correct": false
               },
@@ -1238,7 +2155,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Buying only when all data is perfect"
+                  "en": "Buying only when all data is perfect",
+                  "ru": "Покупать только тогда, когда все данные идеальны",
+                  "kk": "Барлық дерек мінсіз болғанда ғана сатып алу"
                 },
                 "is_correct": false
               },
@@ -1246,7 +2165,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Ignoring valuations because cycles explain everything"
+                  "en": "Ignoring valuations because cycles explain everything",
+                  "ru": "Игнорировать оценки, потому что циклы объясняют всё",
+                  "kk": "Циклдер бәрін түсіндіреді деп бағалауларды елемеу"
                 },
                 "is_correct": false
               }
@@ -1258,10 +2179,14 @@
     {
       "code": "reading_economic_news",
       "title": {
-        "en": "Reading Economic News Without Panic"
+        "en": "Reading Economic News Without Panic",
+        "ru": "Как читать экономические новости без паники",
+        "kk": "Экономикалық жаңалықтарды дүрлікпей оқу"
       },
       "description": {
-        "en": "Economic headlines are useful only when separated into data, expectations, time horizon, portfolio exposure, and decision relevance."
+        "en": "Economic headlines are useful only when separated into data, expectations, time horizon, portfolio exposure, and decision relevance.",
+        "ru": "Экономические заголовки полезны только тогда, когда их разделяют на данные, ожидания, горизонт, экспозицию портфеля и значимость для решения.",
+        "kk": "Экономикалық тақырыптар дерек, күтулер, уақыт көкжиегі, портфель экспозициясы және шешімге қатыстылыққа бөлінгенде ғана пайдалы."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1273,10 +2198,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Headlines are designed to feel urgent"
+              "en": "Headlines are designed to feel urgent",
+              "ru": "Заголовки сделаны так, чтобы казаться срочными",
+              "kk": "Тақырыптар шұғыл сезілу үшін жасалған"
             },
             "body": {
-              "en": "Economic news often sounds like a command to act immediately. But most headlines are context, not instructions. Investors need a process for deciding whether the news actually changes their plan."
+              "en": "Economic news often sounds like a command to act immediately. But most headlines are context, not instructions. Investors need a process for deciding whether the news actually changes their plan.",
+              "ru": "Экономические новости часто звучат как команда действовать немедленно. Но большинство заголовков — это контекст, а не инструкция. Инвесторам нужен процесс, чтобы решить, действительно ли новость меняет их план.",
+              "kk": "Экономикалық жаңалықтар жиі бірден әрекет ету бұйрығындай естіледі. Бірақ көп тақырып — нұсқау емес, контекст. Инвесторларға жаңалық олардың жоспарын шынымен өзгертетінін шешетін процесс керек."
             }
           },
           {
@@ -1284,13 +2213,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Separate data from interpretation"
+              "en": "Separate data from interpretation",
+              "ru": "Отделяйте данные от интерпретации",
+              "kk": "Деректі түсіндіруден бөліңіз"
             },
             "body": {
-              "en": "A headline may mix a data point, a forecast, and an opinion. The data might be real, while the interpretation may be exaggerated. Good reading asks what happened, what was expected, and what decision it affects."
+              "en": "A headline may mix a data point, a forecast, and an opinion. The data might be real, while the interpretation may be exaggerated. Good reading asks what happened, what was expected, and what decision it affects.",
+              "ru": "Заголовок может смешивать показатель, прогноз и мнение. Данные могут быть реальными, а интерпретация — преувеличенной. Хорошее чтение спрашивает: что произошло, чего ожидали и на какое решение это влияет.",
+              "kk": "Тақырып дерек нүктесін, болжамды және пікірді араластыруы мүмкін. Дерек шынайы болуы мүмкін, ал түсіндіру асыра айтылған болуы ықтимал. Дұрыс оқу: не болды, не күтілді және бұл қай шешімге әсер етеді — деп сұрайды."
             },
             "tip": {
-              "en": "Do not let an emotional headline choose your time horizon."
+              "en": "Do not let an emotional headline choose your time horizon.",
+              "ru": "Не позволяйте эмоциональному заголовку выбирать ваш горизонт.",
+              "kk": "Эмоциялық тақырыпқа уақыт көкжиегіңізді таңдауға жол бермеңіз."
             }
           },
           {
@@ -1298,10 +2233,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Relevance depends on exposure"
+              "en": "Relevance depends on exposure",
+              "ru": "Значимость зависит от экспозиции",
+              "kk": "Маңыздылық экспозицияға байланысты"
             },
             "body": {
-              "en": "Not every macro event matters equally to your portfolio. A rate change may matter more if you own long bonds or have variable-rate debt. A commodity shock may matter more if your income or investments depend on energy, mining, or transport."
+              "en": "Not every macro event matters equally to your portfolio. A rate change may matter more if you own long bonds or have variable-rate debt. A commodity shock may matter more if your income or investments depend on energy, mining, or transport.",
+              "ru": "Не каждое макрособытие одинаково важно для вашего портфеля. Изменение ставок может быть важнее, если у вас есть длинные облигации или долг с плавающей ставкой. Сырьевой шок может быть важнее, если ваш доход или инвестиции зависят от энергетики, добычи или транспорта.",
+              "kk": "Әр макро оқиға портфеліңіз үшін бірдей маңызды емес. Егер сізде ұзақ облигациялар немесе өзгермелі мөлшерлемелі қарыз болса, мөлшерлеме өзгерісі маңыздырақ болуы мүмкін. Егер табысыңыз немесе инвестицияларыңыз энергияға, кен өндіруге немесе көлікке тәуелді болса, тауарлық шок маңыздырақ болуы мүмкін."
             }
           },
           {
@@ -1309,7 +2248,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "A calmer news checklist"
+              "en": "A calmer news checklist",
+              "ru": "Более спокойный чек-лист для новостей",
+              "kk": "Жаңалықтарға арналған сабырлы чек-лист"
             },
             "content": {
               "en": {
@@ -1358,6 +2299,100 @@
                     "text": "The checklist turns macro news from emotional noise into structured context."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Вы читаете: «Инфляция неожиданно выше; рынки боятся новых повышений ставок». Перед действием разберите заголовок на части для решения."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Вопрос",
+                        "Почему это важно",
+                        "Пример ответа"
+                      ],
+                      [
+                        "Какие данные?",
+                        "Отделяет факт от тона",
+                        "Инфляция была на 1% выше прогноза"
+                      ],
+                      [
+                        "Что изменилось относительно ожиданий?",
+                        "Объясняет реакцию рынка",
+                        "Снижение ставок может отложиться"
+                      ],
+                      [
+                        "Какая у меня экспозиция?",
+                        "Связывает новость с портфелем",
+                        "Длинные облигации и акции роста чувствительны"
+                      ],
+                      [
+                        "Какой у меня горизонт?",
+                        "Предотвращает чрезмерную реакцию",
+                        "Цель через 15 лет"
+                      ],
+                      [
+                        "Меняется ли мой план?",
+                        "Превращает новость в решение",
+                        "Возможно, ребалансировать, а не панически продавать"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Чек-лист превращает макроновости из эмоционального шума в структурированный контекст."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Сіз оқисыз: «Инфляция күтпегендей жоғары; нарықтар мөлшерлеменің тағы көтерілуінен қорқады». Әрекет етпей тұрып, тақырыпты шешім бөліктеріне бөліңіз."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Сұрақ",
+                        "Неге маңызды",
+                        "Жауап мысалы"
+                      ],
+                      [
+                        "Дерек қандай?",
+                        "Фактіні тоннан бөледі",
+                        "Инфляция болжамнан 1% жоғары болды"
+                      ],
+                      [
+                        "Күтулермен салыстырғанда не өзгерді?",
+                        "Нарық реакциясын түсіндіреді",
+                        "Мөлшерлемені төмендету кейінге қалуы мүмкін"
+                      ],
+                      [
+                        "Менде қандай экспозиция бар?",
+                        "Жаңалықты портфельмен байланыстырады",
+                        "Ұзақ облигациялар мен өсім акциялары сезімтал"
+                      ],
+                      [
+                        "Менің көкжиегім қандай?",
+                        "Артық реакцияның алдын алады",
+                        "Мақсатқа 15 жыл бар"
+                      ],
+                      [
+                        "Жоспарым өзгере ме?",
+                        "Жаңалықты шешімге айналдырады",
+                        "Мүмкін, дүрлігіп сатпай, ребаланс жасау"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Чек-лист макро жаңалықтарды эмоциялық шудан құрылымды контекстке айналдырады."
+                  }
+                ]
               }
             }
           },
@@ -1366,10 +2401,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "News or decision?"
+              "en": "News or decision?",
+              "ru": "Новость или решение?",
+              "kk": "Жаңалық па, шешім бе?"
             },
             "body": {
-              "en": "Choose the best response to each economic headline situation."
+              "en": "Choose the best response to each economic headline situation.",
+              "ru": "Выберите лучший ответ на каждую ситуацию с экономическим заголовком.",
+              "kk": "Әр экономикалық тақырып жағдайына ең жақсы жауапты таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1397,6 +2436,56 @@
                     "explanation": "Long horizons can make immediate headlines less decision-relevant."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите самый полезный следующий шаг.",
+                "options": [
+                  "Проверить ожидания",
+                  "Проверить экспозицию",
+                  "Проверить временной горизонт"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Рост ВВП положительный, но рынки падают после отчёта.",
+                    "correct_answer": "Проверить ожидания",
+                    "explanation": "Число могло разочаровать относительно прогнозов."
+                  },
+                  {
+                    "text": "Появляется новость о ставках, а у вас есть облигационные фонды с длинной дюрацией.",
+                    "correct_answer": "Проверить экспозицию",
+                    "explanation": "В вашем портфеле есть активы, напрямую чувствительные к изменениям ставок."
+                  },
+                  {
+                    "text": "Появляется пугающий заголовок о рецессии, но ваша инвестиционная цель через 25 лет.",
+                    "correct_answer": "Проверить временной горизонт",
+                    "explanation": "Длинные горизонты могут делать немедленные заголовки менее значимыми для решений."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ең пайдалы келесі қадамды таңдаңыз.",
+                "options": [
+                  "Күтулерді тексеру",
+                  "Экспозицияны тексеру",
+                  "Уақыт көкжиегін тексеру"
+                ],
+                "scenarios": [
+                  {
+                    "text": "ЖІӨ өсімі оң, бірақ есептен кейін нарықтар төмендейді.",
+                    "correct_answer": "Күтулерді тексеру",
+                    "explanation": "Сан болжамдармен салыстырғанда көңіл қалдыруы мүмкін."
+                  },
+                  {
+                    "text": "Пайыздық мөлшерлеме туралы жаңалық шығады, ал сізде ұзақ дюрациялы облигациялық қорлар бар.",
+                    "correct_answer": "Экспозицияны тексеру",
+                    "explanation": "Портфеліңізде мөлшерлеме өзгерістеріне тікелей сезімтал активтер бар."
+                  },
+                  {
+                    "text": "Қорқынышты рецессия тақырыбы шығады, бірақ инвестициялық мақсатыңызға 25 жыл бар.",
+                    "correct_answer": "Уақыт көкжиегін тексеру",
+                    "explanation": "Ұзақ көкжиектер шұғыл тақырыптарды шешім үшін азырақ маңызды етуі мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -1405,13 +2494,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Make news earn its place in your plan"
+              "en": "Make news earn its place in your plan",
+              "ru": "Пусть новости заслужат место в вашем плане",
+              "kk": "Жаңалықтар жоспарыңыздағы орнын дәлелдесін"
             },
             "body": {
-              "en": "Economic news should inform decisions, not trigger reflexes. Read the data, compare it with expectations, connect it to your actual exposure, and check your time horizon. If the news does not change those inputs, it may not deserve action."
+              "en": "Economic news should inform decisions, not trigger reflexes. Read the data, compare it with expectations, connect it to your actual exposure, and check your time horizon. If the news does not change those inputs, it may not deserve action.",
+              "ru": "Экономические новости должны информировать решения, а не запускать рефлексы. Читайте данные, сравнивайте их с ожиданиями, связывайте со своей реальной экспозицией и проверяйте временной горизонт. Если новость не меняет эти вводные, она может не заслуживать действия.",
+              "kk": "Экономикалық жаңалықтар шешімді ақпараттандыруы керек, рефлекс тудырмауы керек. Деректі оқыңыз, күтулермен салыстырыңыз, нақты экспозицияңызбен байланыстырыңыз және уақыт көкжиегін тексеріңіз. Егер жаңалық осы кіріс деректерді өзгертпесе, әрекетке лайық болмауы мүмкін."
             },
             "tip": {
-              "en": "A headline is not a portfolio strategy."
+              "en": "A headline is not a portfolio strategy.",
+              "ru": "Заголовок — не стратегия портфеля.",
+              "kk": "Тақырып — портфель стратегиясы емес."
             }
           }
         ]
@@ -1420,7 +2515,9 @@
         "quiz_id": 2105,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Reading Economic News Without Panic — Check"
+          "en": "Reading Economic News Without Panic — Check",
+          "ru": "Как читать экономические новости без паники — проверка",
+          "kk": "Экономикалық жаңалықтарды дүрлікпей оқу — тексеру"
         },
         "questions": [
           {
@@ -1428,14 +2525,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A headline says “markets panic after inflation report.” What should an investor do before acting?"
+              "en": "A headline says “markets panic after inflation report.” What should an investor do before acting?",
+              "ru": "Заголовок говорит: «рынки паникуют после отчёта об инфляции». Что инвестору стоит сделать перед действием?",
+              "kk": "Тақырыпта «инфляция есебінен кейін нарықтар дүрлікті» делінген. Инвестор әрекет етпей тұрып не істеуі керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Identify the actual data, expectations, portfolio exposure, and time horizon"
+                  "en": "Identify the actual data, expectations, portfolio exposure, and time horizon",
+                  "ru": "Определить реальные данные, ожидания, экспозицию портфеля и временной горизонт",
+                  "kk": "Нақты деректі, күтулерді, портфель экспозициясын және уақыт көкжиегін анықтау"
                 },
                 "is_correct": true
               },
@@ -1443,7 +2544,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Sell everything immediately because the headline says panic"
+                  "en": "Sell everything immediately because the headline says panic",
+                  "ru": "Немедленно продать всё, потому что в заголовке сказано «паника»",
+                  "kk": "Тақырыпта дүрлікпе деп тұрғандықтан бәрін бірден сату"
                 },
                 "is_correct": false
               },
@@ -1451,7 +2554,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Ignore all economic data forever"
+                  "en": "Ignore all economic data forever",
+                  "ru": "Навсегда игнорировать все экономические данные",
+                  "kk": "Барлық экономикалық деректерді мәңгі елемеу"
                 },
                 "is_correct": false
               },
@@ -1459,7 +2564,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Buy only the asset mentioned first in the article"
+                  "en": "Buy only the asset mentioned first in the article",
+                  "ru": "Покупать только актив, упомянутый в статье первым",
+                  "kk": "Мақалада бірінші аталған активті ғана сатып алу"
                 },
                 "is_correct": false
               }
@@ -1470,14 +2577,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why does portfolio exposure matter when reading macro news?"
+              "en": "Why does portfolio exposure matter when reading macro news?",
+              "ru": "Почему экспозиция портфеля важна при чтении макроновостей?",
+              "kk": "Макро жаңалықтарды оқығанда портфель экспозициясы неге маңызды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The same news affects different assets and people differently"
+                  "en": "The same news affects different assets and people differently",
+                  "ru": "Одна и та же новость по-разному влияет на разные активы и людей",
+                  "kk": "Бірдей жаңалық әртүрлі активтер мен адамдарға әртүрлі әсер етеді"
                 },
                 "is_correct": true
               },
@@ -1485,7 +2596,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Every investor owns identical assets"
+                  "en": "Every investor owns identical assets",
+                  "ru": "У каждого инвестора одинаковые активы",
+                  "kk": "Әр инвестор бірдей активтерге ие"
                 },
                 "is_correct": false
               },
@@ -1493,7 +2606,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Exposure is irrelevant if the headline is dramatic"
+                  "en": "Exposure is irrelevant if the headline is dramatic",
+                  "ru": "Экспозиция не важна, если заголовок драматичный",
+                  "kk": "Тақырып драмалық болса, экспозиция маңызды емес"
                 },
                 "is_correct": false
               },
@@ -1501,7 +2616,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Macroeconomic news affects only banks"
+                  "en": "Macroeconomic news affects only banks",
+                  "ru": "Макроэкономические новости влияют только на банки",
+                  "kk": "Макроэкономикалық жаңалықтар тек банктерге әсер етеді"
                 },
                 "is_correct": false
               }
@@ -1512,14 +2629,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which response shows calm economic-news reading?"
+              "en": "Which response shows calm economic-news reading?",
+              "ru": "Какой ответ показывает спокойное чтение экономических новостей?",
+              "kk": "Қай жауап экономикалық жаңалықтарды сабырлы оқуды көрсетеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A rate headline leads the investor to review bond duration and loan exposure, not panic trade"
+                  "en": "A rate headline leads the investor to review bond duration and loan exposure, not panic trade",
+                  "ru": "Заголовок о ставках приводит инвестора к проверке дюрации облигаций и кредитной экспозиции, а не к панической торговле",
+                  "kk": "Мөлшерлеме туралы тақырып инвесторды дүрлігіп саудалауға емес, облигация дюрациясы мен несие экспозициясын тексеруге әкеледі"
                 },
                 "is_correct": true
               },
@@ -1527,7 +2648,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The investor sells long-term investments because one article used the word crisis"
+                  "en": "The investor sells long-term investments because one article used the word crisis",
+                  "ru": "Инвестор продаёт долгосрочные инвестиции, потому что в одной статье было слово «кризис»",
+                  "kk": "Инвестор бір мақалада «дағдарыс» сөзі болғандықтан ұзақ мерзімді инвестицияларды сатады"
                 },
                 "is_correct": false
               },
@@ -1535,7 +2658,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The investor changes goals every time GDP is reported"
+                  "en": "The investor changes goals every time GDP is reported",
+                  "ru": "Инвестор меняет цели каждый раз, когда публикуется ВВП",
+                  "kk": "Инвестор ЖІӨ жарияланған сайын мақсаттарын өзгертеді"
                 },
                 "is_correct": false
               },
@@ -1543,7 +2668,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The investor assumes all forecasts are facts"
+                  "en": "The investor assumes all forecasts are facts",
+                  "ru": "Инвестор считает все прогнозы фактами",
+                  "kk": "Инвестор барлық болжамдарды факт деп санайды"
                 },
                 "is_correct": false
               }
@@ -1557,7 +2684,9 @@
     "quiz_id": 2199,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Macroeconomics for Investors — Final Check"
+      "en": "Macroeconomics for Investors — Final Check",
+      "ru": "Макроэкономика для инвесторов — финальная проверка",
+      "kk": "Инвесторларға арналған макроэкономика — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1565,14 +2694,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "GDP rises strongly in nominal terms, but inflation is also very high. What should an investor check?"
+          "en": "GDP rises strongly in nominal terms, but inflation is also very high. What should an investor check?",
+          "ru": "ВВП сильно растёт в номинальном выражении, но инфляция тоже очень высокая. Что инвестору стоит проверить?",
+          "kk": "ЖІӨ номиналды түрде қатты өседі, бірақ инфляция да өте жоғары. Инвестор нені тексеруі керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Real growth after adjusting for inflation"
+              "en": "Real growth after adjusting for inflation",
+              "ru": "Реальный рост после корректировки на инфляцию",
+              "kk": "Инфляцияны ескергеннен кейінгі нақты өсім"
             },
             "is_correct": true
           },
@@ -1580,7 +2713,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Only the nominal GDP number"
+              "en": "Only the nominal GDP number",
+              "ru": "Только номинальное число ВВП",
+              "kk": "Тек номиналды ЖІӨ саны"
             },
             "is_correct": false
           },
@@ -1588,7 +2723,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Whether all stocks must rise"
+              "en": "Whether all stocks must rise",
+              "ru": "Должны ли все акции расти",
+              "kk": "Барлық акциялар өсуі тиіс пе"
             },
             "is_correct": false
           },
@@ -1596,7 +2733,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Whether inflation has no effect on output data"
+              "en": "Whether inflation has no effect on output data",
+              "ru": "Не влияет ли инфляция на данные выпуска",
+              "kk": "Инфляция өндіріс деректеріне әсер етпей ме"
             },
             "is_correct": false
           }
@@ -1607,14 +2746,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "Why can a positive portfolio return still feel weak in real life?"
+          "en": "Why can a positive portfolio return still feel weak in real life?",
+          "ru": "Почему положительная доходность портфеля всё равно может ощущаться слабой в реальной жизни?",
+          "kk": "Неліктен портфельдің оң кірістілігі нақты өмірде бәрібір әлсіз сезілуі мүмкін?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Inflation may have reduced purchasing-power gains"
+              "en": "Inflation may have reduced purchasing-power gains",
+              "ru": "Инфляция могла сократить прирост покупательной способности",
+              "kk": "Инфляция сатып алу қабілетінің өсімін азайтқан болуы мүмкін"
             },
             "is_correct": true
           },
@@ -1622,7 +2765,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Positive returns are never real"
+              "en": "Positive returns are never real",
+              "ru": "Положительная доходность никогда не бывает реальной",
+              "kk": "Оң кірістілік ешқашан нақты болмайды"
             },
             "is_correct": false
           },
@@ -1630,7 +2775,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Inflation increases every investor's buying power"
+              "en": "Inflation increases every investor's buying power",
+              "ru": "Инфляция увеличивает покупательную способность каждого инвестора",
+              "kk": "Инфляция әр инвестордың сатып алу қабілетін арттырады"
             },
             "is_correct": false
           },
@@ -1638,7 +2785,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Nominal return and real return are always identical"
+              "en": "Nominal return and real return are always identical",
+              "ru": "Номинальная и реальная доходность всегда одинаковы",
+              "kk": "Номиналды кірістілік пен нақты кірістілік әрдайым бірдей"
             },
             "is_correct": false
           }
@@ -1649,14 +2798,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "Low unemployment and fast wage growth appear while inflation is high. What is a possible market concern?"
+          "en": "Low unemployment and fast wage growth appear while inflation is high. What is a possible market concern?",
+          "ru": "Низкая безработица и быстрый рост зарплат появляются при высокой инфляции. Какое возможное опасение рынка?",
+          "kk": "Жоғары инфляция кезінде төмен жұмыссыздық пен жылдам жалақы өсімі байқалады. Нарықтың ықтимал алаңы қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Inflation pressure and tighter policy may continue"
+              "en": "Inflation pressure and tighter policy may continue",
+              "ru": "Инфляционное давление и более жёсткая политика могут продолжиться",
+              "kk": "Инфляциялық қысым мен қатаң саясат жалғасуы мүмкін"
             },
             "is_correct": true
           },
@@ -1664,7 +2817,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Consumer income has no effect on the economy"
+              "en": "Consumer income has no effect on the economy",
+              "ru": "Доходы потребителей не влияют на экономику",
+              "kk": "Тұтынушы табысы экономикаға әсер етпейді"
             },
             "is_correct": false
           },
@@ -1672,7 +2827,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Low unemployment always causes immediate rate cuts"
+              "en": "Low unemployment always causes immediate rate cuts",
+              "ru": "Низкая безработица всегда вызывает немедленное снижение ставок",
+              "kk": "Төмен жұмыссыздық әрдайым мөлшерлеменің дереу төмендеуіне әкеледі"
             },
             "is_correct": false
           },
@@ -1680,7 +2837,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Wage growth cannot affect company margins"
+              "en": "Wage growth cannot affect company margins",
+              "ru": "Рост зарплат не может влиять на маржу компаний",
+              "kk": "Жалақы өсімі компания маржасына әсер ете алмайды"
             },
             "is_correct": false
           }
@@ -1691,14 +2850,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "What is the best role of business-cycle analysis?"
+          "en": "What is the best role of business-cycle analysis?",
+          "ru": "Какова лучшая роль анализа делового цикла?",
+          "kk": "Іскерлік цикл талдауының ең дұрыс рөлі қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Understanding which risks dominate and which assets are sensitive to them"
+              "en": "Understanding which risks dominate and which assets are sensitive to them",
+              "ru": "Понимать, какие риски доминируют и какие активы к ним чувствительны",
+              "kk": "Қай тәуекелдер басым және қай активтер оларға сезімтал екенін түсіну"
             },
             "is_correct": true
           },
@@ -1706,7 +2869,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Predicting exact turning points with certainty"
+              "en": "Predicting exact turning points with certainty",
+              "ru": "С уверенностью предсказывать точные точки разворота",
+              "kk": "Бұрылыс нүктелерін дәл және сенімді болжау"
             },
             "is_correct": false
           },
@@ -1714,7 +2879,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Replacing diversification"
+              "en": "Replacing diversification",
+              "ru": "Заменять диверсификацию",
+              "kk": "Диверсификацияны алмастыру"
             },
             "is_correct": false
           },
@@ -1722,7 +2889,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Ignoring valuation because cycle labels decide everything"
+              "en": "Ignoring valuation because cycle labels decide everything",
+              "ru": "Игнорировать оценку, потому что ярлыки циклов всё решают",
+              "kk": "Цикл атаулары бәрін шешеді деп бағалауды елемеу"
             },
             "is_correct": false
           }
@@ -1733,14 +2902,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "A frightening macro headline appears, but your goals and exposures have not changed. What is the most disciplined response?"
+          "en": "A frightening macro headline appears, but your goals and exposures have not changed. What is the most disciplined response?",
+          "ru": "Появляется пугающий макрозаголовок, но ваши цели и экспозиции не изменились. Какой ответ самый дисциплинированный?",
+          "kk": "Қорқынышты макро тақырып пайда болады, бірақ мақсаттарыңыз бен экспозицияларыңыз өзгермеген. Ең тәртіпті жауап қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Use the headline as context, but avoid action unless it changes the plan's inputs"
+              "en": "Use the headline as context, but avoid action unless it changes the plan's inputs",
+              "ru": "Использовать заголовок как контекст, но не действовать, если он не меняет вводные плана",
+              "kk": "Тақырыпты контекст ретінде қолдану, бірақ ол жоспардың кіріс деректерін өзгертпесе, әрекет етпеу"
             },
             "is_correct": true
           },
@@ -1748,7 +2921,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Trade immediately because headlines are instructions"
+              "en": "Trade immediately because headlines are instructions",
+              "ru": "Немедленно торговать, потому что заголовки — это инструкции",
+              "kk": "Тақырыптар нұсқау болғандықтан дереу сауда жасау"
             },
             "is_correct": false
           },
@@ -1756,7 +2931,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Assume the headline predicts exact future returns"
+              "en": "Assume the headline predicts exact future returns",
+              "ru": "Считать, что заголовок точно предсказывает будущую доходность",
+              "kk": "Тақырып болашақ кірістілікті дәл болжайды деп санау"
             },
             "is_correct": false
           },
@@ -1764,7 +2941,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Forget your time horizon and copy social media reactions"
+              "en": "Forget your time horizon and copy social media reactions",
+              "ru": "Забыть свой горизонт и копировать реакции соцсетей",
+              "kk": "Уақыт көкжиегін ұмытып, әлеуметтік желі реакцияларын көшіру"
             },
             "is_correct": false
           }

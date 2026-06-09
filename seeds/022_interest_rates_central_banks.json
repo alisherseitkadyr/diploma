@@ -3,11 +3,16 @@
   "topic": {
     "code": "interest_rates_central_banks",
     "orderIndex": 22,
+    "icon_path": "assets/topics/004-022.png",
     "title": {
-      "en": "Interest Rates & Central Banks"
+      "en": "Interest Rates & Central Banks",
+      "ru": "Процентные ставки и центральные банки",
+      "kk": "Пайыздық мөлшерлемелер және орталық банктер"
     },
     "description": {
-      "en": "Why central banks set rates, how monetary policy reaches your loans and savings, and the difference between real and nominal returns."
+      "en": "Why central banks set rates, how monetary policy reaches your loans and savings, and the difference between real and nominal returns.",
+      "ru": "Зачем центральные банки устанавливают ставки, как денежно-кредитная политика влияет на ваши кредиты и сбережения, и чем отличаются реальные и номинальные доходности.",
+      "kk": "Орталық банктер неге мөлшерлеме белгілейді, ақша-кредит саясаты сіздің несиелеріңіз бен жинақтарыңызға қалай әсер етеді және нақты мен номиналды кірістіліктің айырмасы қандай."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "why_central_banks_exist",
       "title": {
-        "en": "Why Central Banks Exist"
+        "en": "Why Central Banks Exist",
+        "ru": "Зачем существуют центральные банки",
+        "kk": "Орталық банктер не үшін бар"
       },
       "description": {
-        "en": "Central banks exist to manage money, inflation, financial stability, and trust in the payment system."
+        "en": "Central banks exist to manage money, inflation, financial stability, and trust in the payment system.",
+        "ru": "Центральные банки существуют, чтобы управлять деньгами, инфляцией, финансовой стабильностью и доверием к платёжной системе.",
+        "kk": "Орталық банктер ақша, инфляция, қаржылық тұрақтылық және төлем жүйесіне деген сенімді басқару үшін бар."
       },
       "estimatedMinutes": 6,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Money needs a stabilizer"
+              "en": "Money needs a stabilizer",
+              "ru": "Деньгам нужен стабилизатор",
+              "kk": "Ақшаға тұрақтандырғыш қажет"
             },
             "body": {
-              "en": "A modern economy depends on trust in money, payments, and banks. Central banks exist because private decisions alone can create inflation, panic, credit booms, or liquidity shortages. Their job is to stabilize the monetary system, not to make every asset rise."
+              "en": "A modern economy depends on trust in money, payments, and banks. Central banks exist because private decisions alone can create inflation, panic, credit booms, or liquidity shortages. Their job is to stabilize the monetary system, not to make every asset rise.",
+              "ru": "Современная экономика держится на доверии к деньгам, платежам и банкам. Центральные банки нужны потому, что одни лишь частные решения могут создавать инфляцию, панику, кредитные бумы или дефицит ликвидности. Их задача — стабилизировать денежную систему, а не заставлять каждый актив расти.",
+              "kk": "Қазіргі экономика ақшаға, төлемдерге және банктерге деген сенімге сүйенеді. Орталық банктер жеке шешімдердің өзі инфляция, дүрбелең, кредиттік бум немесе өтімділік тапшылығын тудыруы мүмкін болғандықтан қажет. Олардың міндеті — әр активті өсіру емес, ақша жүйесін тұрақтандыру."
             },
             "tip": {
-              "en": "A central bank is not an investment adviser; it is a monetary-system manager."
+              "en": "A central bank is not an investment adviser; it is a monetary-system manager.",
+              "ru": "Центральный банк — не инвестиционный советник, а управляющий денежной системой.",
+              "kk": "Орталық банк инвестициялық кеңесші емес; ол ақша жүйесінің басқарушысы."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "The main problem is balance"
+              "en": "The main problem is balance",
+              "ru": "Главная проблема — баланс",
+              "kk": "Негізгі мәселе — тепе-теңдік"
             },
             "body": {
-              "en": "If money and credit grow too fast, inflation can rise and purchasing power can fall. If credit becomes too tight, businesses and households may struggle to borrow, spend, and invest. Central banks try to balance price stability with economic functioning."
+              "en": "If money and credit grow too fast, inflation can rise and purchasing power can fall. If credit becomes too tight, businesses and households may struggle to borrow, spend, and invest. Central banks try to balance price stability with economic functioning.",
+              "ru": "Если деньги и кредит растут слишком быстро, инфляция может ускориться, а покупательная способность — снизиться. Если кредит становится слишком жёстким, бизнесу и домохозяйствам сложнее занимать, тратить и инвестировать. Центральные банки стараются сочетать стабильность цен с нормальной работой экономики.",
+              "kk": "Ақша мен кредит тым тез өссе, инфляция көтеріліп, сатып алу қабілеті төмендеуі мүмкін. Кредит тым қатайса, бизнес пен үй шаруашылықтарына қарыз алу, жұмсау және инвестициялау қиындайды. Орталық банктер баға тұрақтылығы мен экономиканың жұмысын тең ұстауға тырысады."
             },
             "example": {
-              "en": "In Kazakhstan, investors often watch decisions and signals from the National Bank of Kazakhstan because they influence tenge rates, inflation expectations, and credit conditions."
+              "en": "In Kazakhstan, investors often watch decisions and signals from the National Bank of Kazakhstan because they influence tenge rates, inflation expectations, and credit conditions.",
+              "ru": "В Казахстане инвесторы часто следят за решениями и сигналами Национального банка Казахстана, потому что они влияют на ставки в тенге, инфляционные ожидания и условия кредитования.",
+              "kk": "Қазақстанда инвесторлар Ұлттық Банктің шешімдері мен сигналдарын жиі бақылайды, өйткені олар теңгедегі мөлшерлемелерге, инфляциялық күтулерге және кредит шарттарына әсер етеді."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Trust is part of the mechanism"
+              "en": "Trust is part of the mechanism",
+              "ru": "Доверие — часть механизма",
+              "kk": "Сенім — механизмнің бір бөлігі"
             },
             "body": {
-              "en": "Central banks influence the economy not only through actions, but through expectations. If households and businesses believe inflation will stay high, they may demand higher wages and raise prices faster. Credible policy can reduce that self-reinforcing cycle."
+              "en": "Central banks influence the economy not only through actions, but through expectations. If households and businesses believe inflation will stay high, they may demand higher wages and raise prices faster. Credible policy can reduce that self-reinforcing cycle.",
+              "ru": "Центральные банки влияют на экономику не только действиями, но и ожиданиями. Если домохозяйства и компании верят, что инфляция останется высокой, они могут требовать более высокие зарплаты и быстрее повышать цены. Доверительная политика может ослабить этот самоподдерживающийся цикл.",
+              "kk": "Орталық банктер экономикаға тек әрекеттері арқылы емес, күтулер арқылы да әсер етеді. Үй шаруашылықтары мен бизнес инфляция жоғары болып қалады деп сенсе, жоғары жалақы талап етіп, бағаларды тезірек көтеруі мүмкін. Сенімді саясат осы өзін-өзі күшейтетін циклді әлсірете алады."
             },
             "tip": {
-              "en": "Expectations can move before official statistics do."
+              "en": "Expectations can move before official statistics do.",
+              "ru": "Ожидания могут измениться раньше официальной статистики.",
+              "kk": "Күтулер ресми статистикадан бұрын өзгеруі мүмкін."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "What a central bank tries to influence"
+              "en": "What a central bank tries to influence",
+              "ru": "На что центральный банк пытается влиять",
+              "kk": "Орталық банк нені ықпал етуге тырысады"
             },
             "content": {
               "en": {
@@ -117,6 +146,90 @@
                     "text": "The exact tool depends on the problem. The purpose is to keep money and credit from becoming destabilizing."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Центральный банк не может напрямую установить каждую цену в экономике. Он действует через финансовые условия и ожидания."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Проблема",
+                        "Забота центрального банка",
+                        "Возможный инструмент или сигнал"
+                      ],
+                      [
+                        "Рост инфляции",
+                        "Деньги теряют покупательную способность",
+                        "Более высокая ключевая ставка или более жёсткие сигналы"
+                      ],
+                      [
+                        "Заморозка кредита",
+                        "Бизнес не может финансировать деятельность",
+                        "Поддержка ликвидности или более мягкая политика"
+                      ],
+                      [
+                        "Давление на валюту",
+                        "Затрагиваются цены импорта и доверие",
+                        "Политика ставок и коммуникация"
+                      ],
+                      [
+                        "Банковская паника",
+                        "Доверие к платёжной системе под угрозой",
+                        "Экстренные инструменты ликвидности"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Конкретный инструмент зависит от проблемы. Цель — не дать деньгам и кредиту стать источником нестабильности."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Орталық банк экономикадағы әр бағаны тікелей белгілей алмайды. Ол қаржылық жағдайлар мен күтулер арқылы жұмыс істейді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Мәселе",
+                        "Орталық банктің алаңдауы",
+                        "Мүмкін құрал немесе сигнал"
+                      ],
+                      [
+                        "Инфляцияның өсуі",
+                        "Ақша сатып алу қабілетін жоғалтады",
+                        "Жоғарырақ саясат мөлшерлемесі немесе қатаңырақ нұсқау"
+                      ],
+                      [
+                        "Кредиттің тоқырауы",
+                        "Бизнес қызметін қаржыландыра алмайды",
+                        "Өтімділік қолдауы немесе жеңілірек саясат"
+                      ],
+                      [
+                        "Валюта қысымы",
+                        "Импорт бағалары мен сенімге әсер етеді",
+                        "Мөлшерлеме саясаты және коммуникация"
+                      ],
+                      [
+                        "Банк дүрбелеңі",
+                        "Төлем жүйесіне сенім тәуекелде",
+                        "Шұғыл өтімділік құралдары"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Нақты құрал мәселе түріне байланысты. Мақсат — ақша мен кредиттің тұрақсыздық көзіне айналуына жол бермеу."
+                  }
+                ]
               }
             }
           },
@@ -125,10 +238,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Match the central bank problem"
+              "en": "Match the central bank problem",
+              "ru": "Сопоставьте проблему центрального банка",
+              "kk": "Орталық банк мәселесін сәйкестендіріңіз"
             },
             "body": {
-              "en": "Classify each situation by the problem a central bank is mainly trying to manage."
+              "en": "Classify each situation by the problem a central bank is mainly trying to manage.",
+              "ru": "Классифицируйте каждую ситуацию по проблеме, которой центральный банк в основном пытается управлять.",
+              "kk": "Әр жағдайды орталық банк негізінен басқаруға тырысатын мәселе бойынша жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -185,6 +302,114 @@
                   }
                 ],
                 "explanation": "Central banks manage more than one variable: actual inflation, credit-system stress, and the expectations that can amplify both."
+              },
+              "ru": {
+                "instruction": "Перетащите каждую ситуацию к подходящей политической задаче.",
+                "categories": [
+                  {
+                    "id": "inflation",
+                    "label": "Контроль инфляции"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Поддержка ликвидности"
+                  },
+                  {
+                    "id": "expectations",
+                    "label": "Управление ожиданиями"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "prices_fast",
+                    "text": "Цены быстро растут, и домохозяйства ждут дальнейшего повышения"
+                  },
+                  {
+                    "id": "banks_short_cash",
+                    "text": "Банки неохотно кредитуют, потому что краткосрочное фондирование под стрессом"
+                  },
+                  {
+                    "id": "policy_speech",
+                    "text": "Центральный банк объясняет, что будет держать политику жёсткой, пока инфляция не замедлится"
+                  },
+                  {
+                    "id": "wage_price",
+                    "text": "Компании повышают цены, потому что ожидают дальнейшего роста затрат"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "prices_fast",
+                    "categoryId": "inflation"
+                  },
+                  {
+                    "itemId": "banks_short_cash",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "policy_speech",
+                    "categoryId": "expectations"
+                  },
+                  {
+                    "itemId": "wage_price",
+                    "categoryId": "expectations"
+                  }
+                ],
+                "explanation": "Центральные банки управляют не одной переменной: фактической инфляцией, стрессом в кредитной системе и ожиданиями, которые могут усилить и то и другое."
+              },
+              "kk": {
+                "instruction": "Әр жағдайды ең сәйкес саясаттық алаңдауға апарыңыз.",
+                "categories": [
+                  {
+                    "id": "inflation",
+                    "label": "Инфляцияны бақылау"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Өтімділік қолдауы"
+                  },
+                  {
+                    "id": "expectations",
+                    "label": "Күтулерді басқару"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "prices_fast",
+                    "text": "Бағалар тез өседі, ал үй шаруашылықтары әрі қарай өсуді күтеді"
+                  },
+                  {
+                    "id": "banks_short_cash",
+                    "text": "Қысқа мерзімді қаржыландыру қысымда болғандықтан, банктер кредит беруге сақ қарайды"
+                  },
+                  {
+                    "id": "policy_speech",
+                    "text": "Орталық банк инфляция баяулағанша саясатты қатаң ұстайтынын түсіндіреді"
+                  },
+                  {
+                    "id": "wage_price",
+                    "text": "Фирмалар шығындар өсе береді деп күткендіктен бағаларды көтереді"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "prices_fast",
+                    "categoryId": "inflation"
+                  },
+                  {
+                    "itemId": "banks_short_cash",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "policy_speech",
+                    "categoryId": "expectations"
+                  },
+                  {
+                    "itemId": "wage_price",
+                    "categoryId": "expectations"
+                  }
+                ],
+                "explanation": "Орталық банктер бір ғана айнымалыны емес, нақты инфляцияны, кредит жүйесіндегі стрессті және екеуін де күшейте алатын күтулерді басқарады."
               }
             }
           },
@@ -193,13 +418,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Central banks manage conditions"
+              "en": "Central banks manage conditions",
+              "ru": "Центральные банки управляют условиями",
+              "kk": "Орталық банктер жағдайларды басқарады"
             },
             "body": {
-              "en": "Central banks exist because money, credit, and expectations can become unstable. They influence interest rates, liquidity, and confidence to protect purchasing power and financial functioning. For investors, central-bank news matters because it changes the environment in which assets are valued."
+              "en": "Central banks exist because money, credit, and expectations can become unstable. They influence interest rates, liquidity, and confidence to protect purchasing power and financial functioning. For investors, central-bank news matters because it changes the environment in which assets are valued.",
+              "ru": "Центральные банки существуют потому, что деньги, кредит и ожидания могут становиться нестабильными. Они влияют на процентные ставки, ликвидность и доверие, чтобы защищать покупательную способность и работу финансовой системы. Для инвесторов новости центрального банка важны, потому что меняют среду, в которой оцениваются активы.",
+              "kk": "Орталық банктер ақша, кредит және күтулер тұрақсыз болуы мүмкін болғандықтан бар. Олар сатып алу қабілетін және қаржы жүйесінің жұмысын қорғау үшін пайыздық мөлшерлемелерге, өтімділікке және сенімге әсер етеді. Инвесторлар үшін орталық банк жаңалықтары маңызды, өйткені олар активтер бағаланатын ортаны өзгертеді."
             },
             "tip": {
-              "en": "Read central-bank actions as changes in financial conditions, not as simple buy or sell signals."
+              "en": "Read central-bank actions as changes in financial conditions, not as simple buy or sell signals.",
+              "ru": "Воспринимайте действия центрального банка как изменения финансовых условий, а не как простые сигналы «купить» или «продать».",
+              "kk": "Орталық банк әрекеттерін қарапайым сатып алу немесе сату сигналы емес, қаржылық жағдайлардың өзгеруі ретінде оқыңыз."
             }
           }
         ]
@@ -208,7 +439,9 @@
         "quiz_id": 2201,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Why Central Banks Exist — Check"
+          "en": "Why Central Banks Exist — Check",
+          "ru": "Зачем существуют центральные банки — проверка",
+          "kk": "Орталық банктер не үшін бар — тексеру"
         },
         "questions": [
           {
@@ -216,14 +449,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Inflation is high and households expect prices to keep rising. Why might a central bank communicate a tighter policy stance?"
+              "en": "Inflation is high and households expect prices to keep rising. Why might a central bank communicate a tighter policy stance?",
+              "ru": "Инфляция высокая, и домохозяйства ожидают дальнейшего роста цен. Зачем центральный банк может говорить о более жёсткой политике?",
+              "kk": "Инфляция жоғары, ал үй шаруашылықтары бағалар әрі қарай өседі деп күтеді. Неліктен орталық банк қатаңырақ саясат ұстанымын хабарлауы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "To influence expectations and reduce the risk of inflation becoming self-reinforcing"
+                  "en": "To influence expectations and reduce the risk of inflation becoming self-reinforcing",
+                  "ru": "Чтобы повлиять на ожидания и снизить риск того, что инфляция станет самоподдерживающейся",
+                  "kk": "Күтулерге әсер ету және инфляцияның өзін-өзі күшейту қаупін азайту үшін"
                 },
                 "is_correct": true
               },
@@ -231,7 +468,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "To guarantee stock prices rise immediately"
+                  "en": "To guarantee stock prices rise immediately",
+                  "ru": "Чтобы гарантировать немедленный рост цен акций",
+                  "kk": "Акция бағаларының бірден өсуіне кепілдік беру үшін"
                 },
                 "is_correct": false
               },
@@ -239,7 +478,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "To set the price of every product directly"
+                  "en": "To set the price of every product directly",
+                  "ru": "Чтобы напрямую установить цену каждого товара",
+                  "kk": "Әр өнімнің бағасын тікелей белгілеу үшін"
                 },
                 "is_correct": false
               },
@@ -247,7 +488,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "To eliminate all borrowing permanently"
+                  "en": "To eliminate all borrowing permanently",
+                  "ru": "Чтобы навсегда устранить все заимствования",
+                  "kk": "Барлық қарыз алуды біржола жою үшін"
                 },
                 "is_correct": false
               }
@@ -258,14 +501,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What is a central bank mainly trying to stabilize?"
+              "en": "What is a central bank mainly trying to stabilize?",
+              "ru": "Что центральный банк в основном пытается стабилизировать?",
+              "kk": "Орталық банк негізінен нені тұрақтандыруға тырысады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The monetary and financial conditions that support price stability and economic functioning"
+                  "en": "The monetary and financial conditions that support price stability and economic functioning",
+                  "ru": "Денежные и финансовые условия, которые поддерживают стабильность цен и работу экономики",
+                  "kk": "Баға тұрақтылығы мен экономиканың жұмысын қолдайтын ақша және қаржылық жағдайлар"
                 },
                 "is_correct": true
               },
@@ -273,7 +520,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Every investor's portfolio return"
+                  "en": "Every investor's portfolio return",
+                  "ru": "Доходность портфеля каждого инвестора",
+                  "kk": "Әр инвестор портфелінің кірістілігі"
                 },
                 "is_correct": false
               },
@@ -281,7 +530,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The profit of one selected company"
+                  "en": "The profit of one selected company",
+                  "ru": "Прибыль одной выбранной компании",
+                  "kk": "Бір таңдалған компанияның пайдасы"
                 },
                 "is_correct": false
               },
@@ -289,7 +540,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The exact price of housing in every district"
+                  "en": "The exact price of housing in every district",
+                  "ru": "Точную цену жилья в каждом районе",
+                  "kk": "Әр аудандағы тұрғын үйдің нақты бағасы"
                 },
                 "is_correct": false
               }
@@ -300,14 +553,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why do investors follow central-bank decisions?"
+              "en": "Why do investors follow central-bank decisions?",
+              "ru": "Почему инвесторы следят за решениями центрального банка?",
+              "kk": "Инвесторлар неге орталық банк шешімдерін бақылайды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They affect rates, credit conditions, inflation expectations, and asset valuations"
+                  "en": "They affect rates, credit conditions, inflation expectations, and asset valuations",
+                  "ru": "Они влияют на ставки, условия кредитования, инфляционные ожидания и оценку активов",
+                  "kk": "Олар мөлшерлемелерге, кредит шарттарына, инфляциялық күтулерге және актив бағалауына әсер етеді"
                 },
                 "is_correct": true
               },
@@ -315,7 +572,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They reveal the guaranteed future return of stocks"
+                  "en": "They reveal the guaranteed future return of stocks",
+                  "ru": "Они раскрывают гарантированную будущую доходность акций",
+                  "kk": "Олар акциялардың кепілдендірілген болашақ кірістілігін көрсетеді"
                 },
                 "is_correct": false
               },
@@ -323,7 +582,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They remove the need to analyze companies"
+                  "en": "They remove the need to analyze companies",
+                  "ru": "Они отменяют необходимость анализировать компании",
+                  "kk": "Олар компанияларды талдау қажеттілігін жояды"
                 },
                 "is_correct": false
               },
@@ -331,7 +592,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "They make all assets risk-free"
+                  "en": "They make all assets risk-free",
+                  "ru": "Они делают все активы безрисковыми",
+                  "kk": "Олар барлық активтерді тәуекелсіз етеді"
                 },
                 "is_correct": false
               }
@@ -343,10 +606,14 @@
     {
       "code": "monetary_policy",
       "title": {
-        "en": "Monetary Policy"
+        "en": "Monetary Policy",
+        "ru": "Денежно-кредитная политика",
+        "kk": "Ақша-кредит саясаты"
       },
       "description": {
-        "en": "Monetary policy uses interest rates, liquidity tools, and communication to influence inflation, borrowing, saving, and demand."
+        "en": "Monetary policy uses interest rates, liquidity tools, and communication to influence inflation, borrowing, saving, and demand.",
+        "ru": "Денежно-кредитная политика использует процентные ставки, инструменты ликвидности и коммуникацию, чтобы влиять на инфляцию, заимствования, сбережения и спрос.",
+        "kk": "Ақша-кредит саясаты инфляцияға, қарыз алуға, жинақтауға және сұранысқа әсер ету үшін пайыздық мөлшерлемелерді, өтімділік құралдарын және коммуникацияны қолданады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -358,10 +625,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Policy changes incentives"
+              "en": "Policy changes incentives",
+              "ru": "Политика меняет стимулы",
+              "kk": "Саясат ынталандыруларды өзгертеді"
             },
             "body": {
-              "en": "Monetary policy is how a central bank influences money and credit conditions. It does not force every person to borrow or save. It changes incentives by making money easier or harder to access and by shaping expectations about future rates."
+              "en": "Monetary policy is how a central bank influences money and credit conditions. It does not force every person to borrow or save. It changes incentives by making money easier or harder to access and by shaping expectations about future rates.",
+              "ru": "Денежно-кредитная политика — это способ, которым центральный банк влияет на условия денег и кредита. Она не заставляет каждого человека занимать или сберегать. Она меняет стимулы, делая доступ к деньгам проще или сложнее и формируя ожидания по будущим ставкам.",
+              "kk": "Ақша-кредит саясаты — орталық банктің ақша мен кредит жағдайларына әсер ету тәсілі. Ол әр адамды қарыз алуға немесе жинақтауға мәжбүрлемейді. Ол ақшаға қолжетімділікті жеңілдету немесе қиындату және болашақ мөлшерлемелер туралы күтулерді қалыптастыру арқылы ынталандыруларды өзгертеді."
             }
           },
           {
@@ -369,13 +640,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Tightening cools demand"
+              "en": "Tightening cools demand",
+              "ru": "Ужесточение охлаждает спрос",
+              "kk": "Қатаңдату сұранысты салқындатады"
             },
             "body": {
-              "en": "When inflation is too high, a central bank may raise rates or signal tighter conditions. Higher rates make loans more expensive and saving more attractive. This can slow spending and investment, reducing pressure on prices over time."
+              "en": "When inflation is too high, a central bank may raise rates or signal tighter conditions. Higher rates make loans more expensive and saving more attractive. This can slow spending and investment, reducing pressure on prices over time.",
+              "ru": "Когда инфляция слишком высокая, центральный банк может повысить ставки или сигнализировать о более жёстких условиях. Более высокие ставки делают кредиты дороже, а сбережения привлекательнее. Это может замедлить расходы и инвестиции, со временем снижая давление на цены.",
+              "kk": "Инфляция тым жоғары болғанда, орталық банк мөлшерлемелерді көтеруі немесе қатаңырақ шарттар туралы белгі беруі мүмкін. Жоғары мөлшерлемелер несиелерді қымбаттатып, жинақтауды тартымдырақ етеді. Бұл шығындар мен инвестицияны баяулатып, уақыт өте бағаларға қысымды азайтады."
             },
             "tip": {
-              "en": "Tight policy works partly by making some spending plans less affordable."
+              "en": "Tight policy works partly by making some spending plans less affordable.",
+              "ru": "Жёсткая политика частично работает за счёт того, что некоторые планы расходов становятся менее доступными.",
+              "kk": "Қатаң саясат кейбір шығын жоспарларын қолжетімсіздеу ету арқылы да жұмыс істейді."
             }
           },
           {
@@ -383,13 +660,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Easing supports activity"
+              "en": "Easing supports activity",
+              "ru": "Смягчение поддерживает активность",
+              "kk": "Жұмсарту белсенділікті қолдайды"
             },
             "body": {
-              "en": "When demand is weak or financial stress is high, a central bank may cut rates or provide liquidity. Lower rates can support borrowing, asset prices, and investment. But easing during high inflation can weaken credibility if it looks too early."
+              "en": "When demand is weak or financial stress is high, a central bank may cut rates or provide liquidity. Lower rates can support borrowing, asset prices, and investment. But easing during high inflation can weaken credibility if it looks too early.",
+              "ru": "Когда спрос слабый или финансовый стресс высокий, центральный банк может снизить ставки или предоставить ликвидность. Более низкие ставки могут поддержать заимствования, цены активов и инвестиции. Но смягчение при высокой инфляции может подорвать доверие, если выглядит преждевременным.",
+              "kk": "Сұраныс әлсіз немесе қаржылық стресс жоғары болса, орталық банк мөлшерлемелерді төмендетуі немесе өтімділік беруі мүмкін. Төмен мөлшерлемелер қарыз алуды, актив бағаларын және инвестицияны қолдай алады. Бірақ жоғары инфляция кезінде ерте көрінетін жұмсарту сенімді әлсіретуі мүмкін."
             },
             "example": {
-              "en": "A rate cut can reduce future loan costs, but if inflation remains high, real borrowing costs and currency pressure may still matter."
+              "en": "A rate cut can reduce future loan costs, but if inflation remains high, real borrowing costs and currency pressure may still matter.",
+              "ru": "Снижение ставки может уменьшить будущие расходы по кредитам, но если инфляция остаётся высокой, реальные расходы по займам и давление на валюту всё равно важны.",
+              "kk": "Мөлшерлемені төмендету болашақ несие шығындарын азайтуы мүмкін, бірақ инфляция жоғары қалса, нақты қарыз алу шығындары мен валюта қысымы бәрібір маңызды болуы мүмкін."
             }
           },
           {
@@ -397,7 +680,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Policy transmission in steps"
+              "en": "Policy transmission in steps",
+              "ru": "Передача политики по шагам",
+              "kk": "Саясаттың берілуі кезең-кезеңімен"
             },
             "content": {
               "en": {
@@ -441,6 +726,90 @@
                     "text": "The chain is not instant or perfect. It works through many decisions made by banks, firms, and households."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Предположим, центральный банк повышает ключевую ставку, потому что инфляция выше цели. Эффект проходит через экономику поэтапно."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Этап",
+                        "Что меняется",
+                        "Значение для инвестора"
+                      ],
+                      [
+                        "Ключевая ставка",
+                        "Ставка центрального банка растёт",
+                        "Ориентир для ставок денежного рынка"
+                      ],
+                      [
+                        "Банковские ставки",
+                        "Кредиты и депозиты переоцениваются",
+                        "Заёмщики и вкладчики реагируют"
+                      ],
+                      [
+                        "Спрос",
+                        "Некоторые расходы и инвестиции замедляются",
+                        "Рост выручки может измениться"
+                      ],
+                      [
+                        "Инфляционные ожидания",
+                        "Будущий рост цен может охладиться",
+                        "Предпосылки оценки меняются"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Эта цепочка не мгновенная и не идеальная. Она работает через множество решений банков, компаний и домохозяйств."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инфляция мақсаттан жоғары болғандықтан орталық банк саясат мөлшерлемесін көтерді делік. Әсер экономика арқылы кезең-кезеңімен өтеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Кезең",
+                        "Не өзгереді",
+                        "Инвестор үшін маңызы"
+                      ],
+                      [
+                        "Саясат мөлшерлемесі",
+                        "Орталық банк мөлшерлемесі өседі",
+                        "Ақша нарығы мөлшерлемелері үшін бағдар"
+                      ],
+                      [
+                        "Банк мөлшерлемелері",
+                        "Несиелер мен депозиттер қайта бағаланады",
+                        "Қарыз алушылар мен жинақтаушылар әрекет етеді"
+                      ],
+                      [
+                        "Сұраныс",
+                        "Кейбір шығындар мен инвестициялар баяулайды",
+                        "Түсім өсімі өзгеруі мүмкін"
+                      ],
+                      [
+                        "Инфляциялық күтулер",
+                        "Болашақ баға өсімі баяулауы мүмкін",
+                        "Бағалау алғышарттары өзгереді"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Бұл тізбек бірден әрі мінсіз емес. Ол банктер, фирмалар және үй шаруашылықтары қабылдайтын көптеген шешімдер арқылы жұмыс істейді."
+                  }
+                ]
               }
             }
           },
@@ -449,10 +818,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Tightening or easing?"
+              "en": "Tightening or easing?",
+              "ru": "Ужесточение или смягчение?",
+              "kk": "Қатаңдату ма, жұмсарту ма?"
             },
             "body": {
-              "en": "Choose which policy direction best matches each situation."
+              "en": "Choose which policy direction best matches each situation.",
+              "ru": "Выберите направление политики, которое лучше всего соответствует каждой ситуации.",
+              "kk": "Әр жағдайға ең сәйкес саясат бағытын таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -480,6 +853,56 @@
                     "explanation": "Markets may question whether the central bank is serious about price stability."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите вероятное направление политики или проблему.",
+                "options": [
+                  "Ужесточение",
+                  "Смягчение",
+                  "Проблема доверия"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инфляция намного выше цели, а рост кредита очень сильный.",
+                    "correct_answer": "Ужесточение",
+                    "explanation": "Более высокие ставки могут охладить заимствования и спрос."
+                  },
+                  {
+                    "text": "Экономика резко замедляется, а инфляционное давление низкое.",
+                    "correct_answer": "Смягчение",
+                    "explanation": "Более низкие ставки или поддержка ликвидности могут помочь восстановлению активности."
+                  },
+                  {
+                    "text": "Центральный банк снижает ставки, пока инфляционные ожидания всё ещё растут.",
+                    "correct_answer": "Проблема доверия",
+                    "explanation": "Рынки могут усомниться, серьёзно ли центральный банк относится к стабильности цен."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ықтимал саясат бағытын немесе алаңдауды таңдаңыз.",
+                "options": [
+                  "Қатаңдату",
+                  "Жұмсарту",
+                  "Сенімге қатысты алаңдау"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инфляция мақсаттан әлдеқайда жоғары, ал кредит өсімі өте күшті.",
+                    "correct_answer": "Қатаңдату",
+                    "explanation": "Жоғары мөлшерлемелер қарыз алу мен сұранысты салқындата алады."
+                  },
+                  {
+                    "text": "Экономика күрт баяулайды, ал инфляциялық қысым төмен.",
+                    "correct_answer": "Жұмсарту",
+                    "explanation": "Төмен мөлшерлемелер немесе өтімділік қолдауы белсенділіктің қалпына келуіне көмектесе алады."
+                  },
+                  {
+                    "text": "Орталық банк инфляциялық күтулер әлі өсіп жатқан кезде мөлшерлемелерді төмендетеді.",
+                    "correct_answer": "Сенімге қатысты алаңдау",
+                    "explanation": "Нарықтар орталық банк баға тұрақтылығына шындап қарай ма деп күмәндануы мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -488,13 +911,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Policy works through trade-offs"
+              "en": "Policy works through trade-offs",
+              "ru": "Политика работает через компромиссы",
+              "kk": "Саясат ымыралар арқылы жұмыс істейді"
             },
             "body": {
-              "en": "Monetary policy changes the cost of money and the expectations around it. Tightening can fight inflation but slow growth; easing can support activity but risk inflation or currency pressure. Investors should ask which trade-off the central bank is prioritizing now."
+              "en": "Monetary policy changes the cost of money and the expectations around it. Tightening can fight inflation but slow growth; easing can support activity but risk inflation or currency pressure. Investors should ask which trade-off the central bank is prioritizing now.",
+              "ru": "Денежно-кредитная политика меняет стоимость денег и ожидания вокруг неё. Ужесточение может бороться с инфляцией, но замедлять рост; смягчение может поддерживать активность, но повышать риск инфляции или давления на валюту. Инвесторам важно понимать, какой компромисс центральный банк ставит в приоритет сейчас.",
+              "kk": "Ақша-кредит саясаты ақшаның құнын және соған қатысты күтулерді өзгертеді. Қатаңдату инфляциямен күресе алады, бірақ өсімді баяулатуы мүмкін; жұмсарту белсенділікті қолдай алады, бірақ инфляция немесе валюта қысымы тәуекелін арттырады. Инвесторлар орталық банк қазір қай ымыраны басым қойып отырғанын сұрауы керек."
             },
             "tip": {
-              "en": "Policy is not good or bad by itself; it is a response to the problem policymakers see."
+              "en": "Policy is not good or bad by itself; it is a response to the problem policymakers see.",
+              "ru": "Политика сама по себе не хорошая и не плохая; это ответ на проблему, которую видят регуляторы.",
+              "kk": "Саясат өздігінен жақсы немесе жаман емес; ол саясат жасаушылар көріп отырған мәселеге жауап."
             }
           }
         ]
@@ -503,7 +932,9 @@
         "quiz_id": 2202,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Monetary Policy — Check"
+          "en": "Monetary Policy — Check",
+          "ru": "Денежно-кредитная политика — проверка",
+          "kk": "Ақша-кредит саясаты — тексеру"
         },
         "questions": [
           {
@@ -511,14 +942,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A central bank raises rates when inflation is high. What is the intended economic channel?"
+              "en": "A central bank raises rates when inflation is high. What is the intended economic channel?",
+              "ru": "Центральный банк повышает ставки при высокой инфляции. Какой экономический канал он хочет задействовать?",
+              "kk": "Инфляция жоғары болғанда орталық банк мөлшерлемелерді көтереді. Көзделген экономикалық арна қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Make borrowing more expensive, cool demand, and reduce inflation pressure over time"
+                  "en": "Make borrowing more expensive, cool demand, and reduce inflation pressure over time",
+                  "ru": "Сделать заимствования дороже, охладить спрос и со временем снизить инфляционное давление",
+                  "kk": "Қарыз алуды қымбаттату, сұранысты салқындату және уақыт өте инфляциялық қысымды азайту"
                 },
                 "is_correct": true
               },
@@ -526,7 +961,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Force every company to raise dividends"
+                  "en": "Force every company to raise dividends",
+                  "ru": "Заставить каждую компанию повысить дивиденды",
+                  "kk": "Әр компанияны дивидендтерді көтеруге мәжбүрлеу"
                 },
                 "is_correct": false
               },
@@ -534,7 +971,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Guarantee immediate economic growth"
+                  "en": "Guarantee immediate economic growth",
+                  "ru": "Гарантировать немедленный экономический рост",
+                  "kk": "Жедел экономикалық өсімге кепілдік беру"
                 },
                 "is_correct": false
               },
@@ -542,7 +981,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Make all prices fall the next day"
+                  "en": "Make all prices fall the next day",
+                  "ru": "Сделать так, чтобы все цены упали на следующий день",
+                  "kk": "Барлық бағаларды келесі күні түсіру"
                 },
                 "is_correct": false
               }
@@ -553,14 +994,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can cutting rates during high inflation damage credibility?"
+              "en": "Why can cutting rates during high inflation damage credibility?",
+              "ru": "Почему снижение ставок при высокой инфляции может повредить доверию?",
+              "kk": "Жоғары инфляция кезінде мөлшерлемені төмендету неге сенімге зиян келтіруі мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It may make people doubt the central bank's commitment to price stability"
+                  "en": "It may make people doubt the central bank's commitment to price stability",
+                  "ru": "Это может заставить людей сомневаться в приверженности центрального банка стабильности цен",
+                  "kk": "Бұл адамдардың орталық банктің баға тұрақтылығына адалдығына күмәндануына себеп болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -568,7 +1013,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Rate cuts always eliminate inflation instantly"
+                  "en": "Rate cuts always eliminate inflation instantly",
+                  "ru": "Снижение ставок всегда мгновенно устраняет инфляцию",
+                  "kk": "Мөлшерлемені төмендету әрқашан инфляцияны бірден жояды"
                 },
                 "is_correct": false
               },
@@ -576,7 +1023,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Credibility has no role in inflation expectations"
+                  "en": "Credibility has no role in inflation expectations",
+                  "ru": "Доверие не играет роли в инфляционных ожиданиях",
+                  "kk": "Сенім инфляциялық күтулерде рөл атқармайды"
                 },
                 "is_correct": false
               },
@@ -584,7 +1033,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A rate cut cannot affect expectations"
+                  "en": "A rate cut cannot affect expectations",
+                  "ru": "Снижение ставки не может повлиять на ожидания",
+                  "kk": "Мөлшерлемені төмендету күтулерге әсер ете алмайды"
                 },
                 "is_correct": false
               }
@@ -595,14 +1046,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which statement best describes monetary policy transmission?"
+              "en": "Which statement best describes monetary policy transmission?",
+              "ru": "Какое утверждение лучше всего описывает передачу денежно-кредитной политики?",
+              "kk": "Қай тұжырым ақша-кредит саясатының берілуін ең жақсы сипаттайды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Policy rates affect bank rates, borrowing, saving, demand, expectations, and asset values through a chain"
+                  "en": "Policy rates affect bank rates, borrowing, saving, demand, expectations, and asset values through a chain",
+                  "ru": "Ключевые ставки через цепочку влияют на банковские ставки, заимствования, сбережения, спрос, ожидания и стоимость активов",
+                  "kk": "Саясат мөлшерлемелері тізбек арқылы банк мөлшерлемелеріне, қарыз алуға, жинақтауға, сұранысқа, күтулерге және актив құнына әсер етеді"
                 },
                 "is_correct": true
               },
@@ -610,7 +1065,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Policy rates affect only central-bank employees"
+                  "en": "Policy rates affect only central-bank employees",
+                  "ru": "Ключевые ставки влияют только на сотрудников центрального банка",
+                  "kk": "Саясат мөлшерлемелері тек орталық банк қызметкерлеріне әсер етеді"
                 },
                 "is_correct": false
               },
@@ -618,7 +1075,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Transmission is always instant and exact"
+                  "en": "Transmission is always instant and exact",
+                  "ru": "Передача всегда мгновенная и точная",
+                  "kk": "Берілу әрқашан бірден және дәл болады"
                 },
                 "is_correct": false
               },
@@ -626,7 +1085,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Monetary policy changes only stock ticker symbols"
+                  "en": "Monetary policy changes only stock ticker symbols",
+                  "ru": "Денежно-кредитная политика меняет только тикеры акций",
+                  "kk": "Ақша-кредит саясаты тек акция тикерлерін өзгертеді"
                 },
                 "is_correct": false
               }
@@ -638,10 +1099,14 @@
     {
       "code": "how_rate_changes_hit_your_life",
       "title": {
-        "en": "How Rate Changes Hit Your Life"
+        "en": "How Rate Changes Hit Your Life",
+        "ru": "Как изменения ставок влияют на вашу жизнь",
+        "kk": "Мөлшерлеме өзгерістері сіздің өміріңізге қалай әсер етеді"
       },
       "description": {
-        "en": "Interest-rate changes affect loan payments, deposit income, bond prices, housing affordability, currency pressure, and job conditions."
+        "en": "Interest-rate changes affect loan payments, deposit income, bond prices, housing affordability, currency pressure, and job conditions.",
+        "ru": "Изменения процентных ставок влияют на платежи по кредитам, доход по депозитам, цены облигаций, доступность жилья, давление на валюту и ситуацию с занятостью.",
+        "kk": "Пайыздық мөлшерлеме өзгерістері несие төлемдеріне, депозит кірісіне, облигация бағаларына, тұрғын үй қолжетімділігіне, валюта қысымына және еңбек нарығына әсер етеді."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -653,13 +1118,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Rates are personal"
+              "en": "Rates are personal",
+              "ru": "Ставки касаются лично вас",
+              "kk": "Мөлшерлемелер жеке өмірге әсер етеді"
             },
             "body": {
-              "en": "Interest-rate news can sound abstract, but it reaches daily life through loans, deposits, housing, jobs, and investments. The same rate increase can help a saver and hurt a borrower. Your exposure determines whether the change is a benefit, a cost, or both."
+              "en": "Interest-rate news can sound abstract, but it reaches daily life through loans, deposits, housing, jobs, and investments. The same rate increase can help a saver and hurt a borrower. Your exposure determines whether the change is a benefit, a cost, or both.",
+              "ru": "Новости о ставках могут звучать абстрактно, но они доходят до повседневной жизни через кредиты, депозиты, жильё, работу и инвестиции. Одно и то же повышение ставки может помочь вкладчику и навредить заёмщику. Ваша подверженность определяет, будет ли изменение выгодой, затратой или и тем и другим.",
+              "kk": "Пайыздық мөлшерлеме туралы жаңалық абстрактілі естілуі мүмкін, бірақ ол күнделікті өмірге несиелер, депозиттер, тұрғын үй, жұмыс және инвестициялар арқылы жетеді. Бір мөлшерлеме өсімі жинақтаушыға көмектесіп, қарыз алушыға зиян келтіруі мүмкін. Өз подвержендігіңіз өзгерістің пайда, шығын немесе екеуі де болатынын анықтайды."
             },
             "tip": {
-              "en": "Rate risk starts with your own balance sheet."
+              "en": "Rate risk starts with your own balance sheet.",
+              "ru": "Риск ставок начинается с вашего собственного баланса.",
+              "kk": "Мөлшерлеме тәуекелі өз балансыңыздан басталады."
             }
           },
           {
@@ -667,13 +1138,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Borrowers and savers feel opposite effects"
+              "en": "Borrowers and savers feel opposite effects",
+              "ru": "Заёмщики и вкладчики ощущают противоположные эффекты",
+              "kk": "Қарыз алушылар мен жинақтаушылар қарама-қарсы әсерді сезінеді"
             },
             "body": {
-              "en": "Higher rates usually make new loans more expensive and variable-rate debt harder to carry. They can also raise deposit or money-market returns. Lower rates usually make borrowing easier but reduce safe income from savings."
+              "en": "Higher rates usually make new loans more expensive and variable-rate debt harder to carry. They can also raise deposit or money-market returns. Lower rates usually make borrowing easier but reduce safe income from savings.",
+              "ru": "Более высокие ставки обычно делают новые кредиты дороже, а долг с плавающей ставкой — тяжелее для обслуживания. Они также могут повысить доходность депозитов или инструментов денежного рынка. Более низкие ставки обычно облегчают заимствования, но снижают безопасный доход от сбережений.",
+              "kk": "Жоғары мөлшерлемелер әдетте жаңа несиелерді қымбаттатып, өзгермелі мөлшерлемелі қарызды көтеруді қиындатады. Олар депозит немесе ақша нарығы кірістерін де арттыра алады. Төмен мөлшерлемелер әдетте қарыз алуды жеңілдетеді, бірақ жинақтан түсетін қауіпсіз кірісті азайтады."
             },
             "example": {
-              "en": "A household with a floating-rate loan may feel stress from higher rates, while another household with cash savings may welcome higher deposit rates."
+              "en": "A household with a floating-rate loan may feel stress from higher rates, while another household with cash savings may welcome higher deposit rates.",
+              "ru": "Домохозяйство с кредитом с плавающей ставкой может испытывать стресс от роста ставок, а другое домохозяйство с денежными сбережениями может радоваться более высоким депозитным ставкам.",
+              "kk": "Өзгермелі мөлшерлемелі несиесі бар үй шаруашылығы жоғары мөлшерлемеден қысым сезінуі мүмкін, ал қолма-қол жинағы бар басқа үй шаруашылығы жоғары депозит мөлшерлемелерін құптай алады."
             }
           },
           {
@@ -681,10 +1158,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Investments reprice too"
+              "en": "Investments reprice too",
+              "ru": "Инвестиции тоже переоцениваются",
+              "kk": "Инвестициялар да қайта бағаланады"
             },
             "body": {
-              "en": "Bond prices often fall when market yields rise, especially for longer fixed-rate bonds. Stock valuations can also fall if investors demand higher returns or expect slower growth. Rate changes affect both cash flow and the discount rate used to value assets."
+              "en": "Bond prices often fall when market yields rise, especially for longer fixed-rate bonds. Stock valuations can also fall if investors demand higher returns or expect slower growth. Rate changes affect both cash flow and the discount rate used to value assets.",
+              "ru": "Цены облигаций часто падают, когда рыночные доходности растут, особенно у более длинных облигаций с фиксированной ставкой. Оценки акций тоже могут снижаться, если инвесторы требуют более высокой доходности или ожидают замедления роста. Изменения ставок влияют и на денежные потоки, и на ставку дисконтирования, используемую для оценки активов.",
+              "kk": "Нарықтық кірістіліктер өскенде облигация бағалары жиі төмендейді, әсіресе ұзақ мерзімді тұрақты мөлшерлемелі облигацияларда. Инвесторлар жоғарырақ кіріс талап етсе немесе баяу өсім күтсе, акция бағалаулары да төмендеуі мүмкін. Мөлшерлеме өзгерістері ақша ағынына да, активтерді бағалауда қолданылатын дисконттау мөлшерлемесіне де әсер етеді."
             }
           },
           {
@@ -692,7 +1173,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "One rate hike, different households"
+              "en": "One rate hike, different households",
+              "ru": "Одно повышение ставки — разные домохозяйства",
+              "kk": "Бір мөлшерлеме өсімі — әртүрлі үй шаруашылықтары"
             },
             "content": {
               "en": {
@@ -736,6 +1219,90 @@
                     "text": "The question is not whether rates rose. The question is where your life and portfolio are sensitive to rates."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ключевая ставка растёт, и банки повышают ставки по кредитам и депозитам. Три домохозяйства по-разному ощущают одно и то же макрособытие."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Домохозяйство",
+                        "Подверженность",
+                        "Вероятный эффект"
+                      ],
+                      [
+                        "A",
+                        "Потребительский кредит с плавающей ставкой",
+                        "Ежемесячные платежи могут вырасти"
+                      ],
+                      [
+                        "B",
+                        "Крупные денежные сбережения",
+                        "Доход по депозитам может улучшиться"
+                      ],
+                      [
+                        "C",
+                        "Фонд долгосрочных облигаций",
+                        "Рыночная стоимость может снизиться при росте доходностей"
+                      ],
+                      [
+                        "D",
+                        "Планирует купить жильё",
+                        "Доступность ипотеки может ухудшиться"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Вопрос не в том, выросли ли ставки. Вопрос в том, где ваша жизнь и портфель чувствительны к ставкам."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Саясат мөлшерлемесі өсіп, банктер несие және депозит мөлшерлемелерін көтереді. Үш үй шаруашылығы бір макрооқиғаны әртүрлі сезінеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Үй шаруашылығы",
+                        "Подвержендік",
+                        "Ықтимал әсер"
+                      ],
+                      [
+                        "A",
+                        "Өзгермелі мөлшерлемелі тұтынушылық несие",
+                        "Ай сайынғы төлемдер өсуі мүмкін"
+                      ],
+                      [
+                        "B",
+                        "Ірі ақшалай жинақтар",
+                        "Депозит кірісі жақсаруы мүмкін"
+                      ],
+                      [
+                        "C",
+                        "Ұзақ мерзімді облигация қоры",
+                        "Кірістілік өскен сайын нарықтық құны төмендеуі мүмкін"
+                      ],
+                      [
+                        "D",
+                        "Үй сатып алуды жоспарлау",
+                        "Ипотека қолжетімділігі нашарлауы мүмкін"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Мәселе мөлшерлемелердің өскенінде емес. Мәселе сіздің өміріңіз бен портфеліңіздің қай жері мөлшерлемеге сезімтал екенінде."
+                  }
+                ]
               }
             }
           },
@@ -744,10 +1311,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Map your rate exposure"
+              "en": "Map your rate exposure",
+              "ru": "Определите свою подверженность ставкам",
+              "kk": "Мөлшерлемеге подвержендігіңізді картаға түсіріңіз"
             },
             "body": {
-              "en": "Classify each item by how a rate increase most directly affects it."
+              "en": "Classify each item by how a rate increase most directly affects it.",
+              "ru": "Классифицируйте каждый пункт по тому, как повышение ставок влияет на него наиболее напрямую.",
+              "kk": "Әр тармақты мөлшерлеме өсімі оған ең тікелей қалай әсер ететіні бойынша жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -804,6 +1375,114 @@
                   }
                 ],
                 "explanation": "Rate changes are not uniformly good or bad. They help or hurt depending on whether you borrow, save, or hold rate-sensitive assets."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый пункт к вероятному прямому эффекту более высоких ставок.",
+                "categories": [
+                  {
+                    "id": "higher_cost",
+                    "label": "Более высокая стоимость заимствований"
+                  },
+                  {
+                    "id": "higher_income",
+                    "label": "Более высокий безопасный доход"
+                  },
+                  {
+                    "id": "price_pressure",
+                    "label": "Давление на цены активов"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "floating_loan",
+                    "text": "Кредит с плавающей ставкой"
+                  },
+                  {
+                    "id": "deposit",
+                    "text": "Банковский депозит, который скоро продлевается"
+                  },
+                  {
+                    "id": "long_bond",
+                    "text": "Фонд долгосрочных облигаций с фиксированной ставкой"
+                  },
+                  {
+                    "id": "new_mortgage",
+                    "text": "Заявка на новую ипотеку"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "floating_loan",
+                    "categoryId": "higher_cost"
+                  },
+                  {
+                    "itemId": "deposit",
+                    "categoryId": "higher_income"
+                  },
+                  {
+                    "itemId": "long_bond",
+                    "categoryId": "price_pressure"
+                  },
+                  {
+                    "itemId": "new_mortgage",
+                    "categoryId": "higher_cost"
+                  }
+                ],
+                "explanation": "Изменения ставок не являются одинаково хорошими или плохими. Они помогают или вредят в зависимости от того, занимаете ли вы, сберегаете или держите чувствительные к ставкам активы."
+              },
+              "kk": {
+                "instruction": "Әр тармақты жоғары мөлшерлемелердің ықтимал тікелей әсеріне апарыңыз.",
+                "categories": [
+                  {
+                    "id": "higher_cost",
+                    "label": "Қарыз алудың жоғары құны"
+                  },
+                  {
+                    "id": "higher_income",
+                    "label": "Жоғарырақ қауіпсіз кіріс"
+                  },
+                  {
+                    "id": "price_pressure",
+                    "label": "Актив бағасына қысым"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "floating_loan",
+                    "text": "Өзгермелі мөлшерлемелі несие"
+                  },
+                  {
+                    "id": "deposit",
+                    "text": "Жақында жаңартылатын банк депозиті"
+                  },
+                  {
+                    "id": "long_bond",
+                    "text": "Ұзақ мерзімді тұрақты мөлшерлемелі облигация қоры"
+                  },
+                  {
+                    "id": "new_mortgage",
+                    "text": "Жаңа ипотекаға өтінім"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "floating_loan",
+                    "categoryId": "higher_cost"
+                  },
+                  {
+                    "itemId": "deposit",
+                    "categoryId": "higher_income"
+                  },
+                  {
+                    "itemId": "long_bond",
+                    "categoryId": "price_pressure"
+                  },
+                  {
+                    "itemId": "new_mortgage",
+                    "categoryId": "higher_cost"
+                  }
+                ],
+                "explanation": "Мөлшерлеме өзгерістері бірдей жақсы немесе жаман емес. Олар қарыз алуыңызға, жинақтауыңызға немесе мөлшерлемеге сезімтал актив ұстауыңызға қарай көмектеседі немесе зиян келтіреді."
               }
             }
           },
@@ -812,13 +1491,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Find your sensitivity"
+              "en": "Find your sensitivity",
+              "ru": "Найдите свою чувствительность",
+              "kk": "Өз сезімталдығыңызды табыңыз"
             },
             "body": {
-              "en": "Interest-rate changes matter because they change the price of time: borrowing now versus saving for later. They affect loans, deposits, bonds, stocks, housing, and sometimes currency pressure. A useful response starts by mapping your own debts, savings, and investment exposures."
+              "en": "Interest-rate changes matter because they change the price of time: borrowing now versus saving for later. They affect loans, deposits, bonds, stocks, housing, and sometimes currency pressure. A useful response starts by mapping your own debts, savings, and investment exposures.",
+              "ru": "Изменения процентных ставок важны, потому что меняют цену времени: занять сейчас или сберечь на будущее. Они влияют на кредиты, депозиты, облигации, акции, жильё, а иногда и на валютное давление. Полезная реакция начинается с карты ваших долгов, сбережений и инвестиционных подверженностей.",
+              "kk": "Пайыздық мөлшерлеме өзгерістері маңызды, өйткені олар уақыттың бағасын өзгертеді: қазір қарыз алу ма, әлде кейінге жинау ма. Олар несиелерге, депозиттерге, облигацияларға, акцияларға, тұрғын үйге және кейде валюта қысымына әсер етеді. Дұрыс әрекет өз қарыздарыңызды, жинақтарыңызды және инвестициялық подвержендіктеріңізді картаға түсіруден басталады."
             },
             "tip": {
-              "en": "The same rate hike can be painful, helpful, or mixed depending on your position."
+              "en": "The same rate hike can be painful, helpful, or mixed depending on your position.",
+              "ru": "Одно и то же повышение ставки может быть болезненным, полезным или смешанным — в зависимости от вашей позиции.",
+              "kk": "Бірдей мөлшерлеме өсімі сіздің позицияңызға қарай ауыр, пайдалы немесе аралас болуы мүмкін."
             }
           }
         ]
@@ -827,7 +1512,9 @@
         "quiz_id": 2203,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "How Rate Changes Hit Your Life — Check"
+          "en": "How Rate Changes Hit Your Life — Check",
+          "ru": "Как изменения ставок влияют на вашу жизнь — проверка",
+          "kk": "Мөлшерлеме өзгерістері өміріңізге қалай әсер етеді — тексеру"
         },
         "questions": [
           {
@@ -835,14 +1522,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Rates rise. Which person is most directly exposed to higher monthly costs?"
+              "en": "Rates rise. Which person is most directly exposed to higher monthly costs?",
+              "ru": "Ставки растут. Кто наиболее напрямую столкнётся с ростом ежемесячных расходов?",
+              "kk": "Мөлшерлемелер өседі. Ай сайынғы шығындардың өсуіне кім ең тікелей ұшырайды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Someone with a variable-rate loan"
+                  "en": "Someone with a variable-rate loan",
+                  "ru": "Человек с кредитом с плавающей ставкой",
+                  "kk": "Өзгермелі мөлшерлемелі несиесі бар адам"
                 },
                 "is_correct": true
               },
@@ -850,7 +1541,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Someone with no debt and a renewing deposit"
+                  "en": "Someone with no debt and a renewing deposit",
+                  "ru": "Человек без долгов и с продлеваемым депозитом",
+                  "kk": "Қарызы жоқ және жаңартылатын депозиті бар адам"
                 },
                 "is_correct": false
               },
@@ -858,7 +1551,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Someone holding only cash under the mattress"
+                  "en": "Someone holding only cash under the mattress",
+                  "ru": "Человек, который держит только наличные «под матрасом»",
+                  "kk": "Тек қолма-қол ақшаны «матрастың астында» ұстайтын адам"
                 },
                 "is_correct": false
               },
@@ -866,7 +1561,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Someone whose rent is fixed for ten years by contract"
+                  "en": "Someone whose rent is fixed for ten years by contract",
+                  "ru": "Человек, у которого аренда зафиксирована договором на десять лет",
+                  "kk": "Жалдау ақысы келісімшартпен он жылға бекітілген адам"
                 },
                 "is_correct": false
               }
@@ -877,14 +1574,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can a long-term fixed-rate bond fund fall when rates rise?"
+              "en": "Why can a long-term fixed-rate bond fund fall when rates rise?",
+              "ru": "Почему фонд долгосрочных облигаций с фиксированной ставкой может упасть при росте ставок?",
+              "kk": "Мөлшерлемелер өскенде ұзақ мерзімді тұрақты мөлшерлемелі облигация қоры неге төмендеуі мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Its older fixed payments become less attractive than new higher-yield bonds"
+                  "en": "Its older fixed payments become less attractive than new higher-yield bonds",
+                  "ru": "Его старые фиксированные выплаты становятся менее привлекательными по сравнению с новыми облигациями с более высокой доходностью",
+                  "kk": "Оның бұрынғы тұрақты төлемдері жаңа жоғары кірісті облигациялармен салыстырғанда тартымсыздау болады"
                 },
                 "is_correct": true
               },
@@ -892,7 +1593,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The fund's bonds stop existing"
+                  "en": "The fund's bonds stop existing",
+                  "ru": "Облигации фонда перестают существовать",
+                  "kk": "Қордың облигациялары өмір сүруін тоқтатады"
                 },
                 "is_correct": false
               },
@@ -900,7 +1603,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Higher rates always increase old bond prices"
+                  "en": "Higher rates always increase old bond prices",
+                  "ru": "Более высокие ставки всегда повышают цены старых облигаций",
+                  "kk": "Жоғары мөлшерлемелер әрқашан ескі облигация бағаларын көтереді"
                 },
                 "is_correct": false
               },
@@ -908,7 +1613,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Bond funds cannot change value"
+                  "en": "Bond funds cannot change value",
+                  "ru": "Фонды облигаций не могут менять стоимость",
+                  "kk": "Облигация қорлары құнын өзгерте алмайды"
                 },
                 "is_correct": false
               }
@@ -919,14 +1626,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the best first step when rate news appears?"
+              "en": "What is the best first step when rate news appears?",
+              "ru": "Какой лучший первый шаг при появлении новостей о ставках?",
+              "kk": "Мөлшерлеме туралы жаңалық шыққанда ең жақсы алғашқы қадам қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Identify your debts, savings, and investments that are sensitive to rate changes"
+                  "en": "Identify your debts, savings, and investments that are sensitive to rate changes",
+                  "ru": "Определить ваши долги, сбережения и инвестиции, чувствительные к изменениям ставок",
+                  "kk": "Мөлшерлеме өзгерістеріне сезімтал қарыздарыңызды, жинақтарыңызды және инвестицияларыңызды анықтау"
                 },
                 "is_correct": true
               },
@@ -934,7 +1645,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Assume the news affects everyone in the same way"
+                  "en": "Assume the news affects everyone in the same way",
+                  "ru": "Предположить, что новости одинаково влияют на всех",
+                  "kk": "Жаңалық бәріне бірдей әсер етеді деп ойлау"
                 },
                 "is_correct": false
               },
@@ -942,7 +1655,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Immediately borrow more without checking affordability"
+                  "en": "Immediately borrow more without checking affordability",
+                  "ru": "Сразу занять больше, не проверяя доступность платежей",
+                  "kk": "Қолжетімділікті тексермей бірден көбірек қарыз алу"
                 },
                 "is_correct": false
               },
@@ -950,7 +1665,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Sell every asset regardless of exposure"
+                  "en": "Sell every asset regardless of exposure",
+                  "ru": "Продать каждый актив независимо от подверженности",
+                  "kk": "Подвержендікке қарамастан әр активті сату"
                 },
                 "is_correct": false
               }
@@ -962,10 +1679,14 @@
     {
       "code": "real_vs_nominal_returns",
       "title": {
-        "en": "Real vs Nominal Returns"
+        "en": "Real vs Nominal Returns",
+        "ru": "Реальная и номинальная доходность",
+        "kk": "Нақты және номиналды кірістілік"
       },
       "description": {
-        "en": "Nominal returns show account growth in money terms; real returns show whether purchasing power actually increased."
+        "en": "Nominal returns show account growth in money terms; real returns show whether purchasing power actually increased.",
+        "ru": "Номинальная доходность показывает рост счёта в денежном выражении; реальная доходность показывает, выросла ли покупательная способность на самом деле.",
+        "kk": "Номиналды кірістілік шоттың ақшалай өсімін көрсетеді; нақты кірістілік сатып алу қабілеті шынымен артқанын көрсетеді."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -977,10 +1698,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "The account number is not the full story"
+              "en": "The account number is not the full story",
+              "ru": "Цифра на счёте — не вся история",
+              "kk": "Шоттағы сан — толық әңгіме емес"
             },
             "body": {
-              "en": "A nominal return tells you how much your money grew in currency terms. A real return tells you how much your purchasing power grew after inflation. Investors need both because life costs goods and services, not percentages on a statement."
+              "en": "A nominal return tells you how much your money grew in currency terms. A real return tells you how much your purchasing power grew after inflation. Investors need both because life costs goods and services, not percentages on a statement.",
+              "ru": "Номинальная доходность показывает, насколько выросли ваши деньги в валютном выражении. Реальная доходность показывает, насколько выросла ваша покупательная способность после инфляции. Инвесторам нужны оба показателя, потому что в жизни оплачиваются товары и услуги, а не проценты в выписке.",
+              "kk": "Номиналды кірістілік ақшаңыздың валюта түрінде қанша өскенін көрсетеді. Нақты кірістілік инфляциядан кейін сатып алу қабілетіңіздің қанша өскенін көрсетеді. Инвесторларға екеуі де керек, өйткені өмірде үзіндідегі пайыздар емес, тауарлар мен қызметтер төленеді."
             }
           },
           {
@@ -988,13 +1713,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Inflation subtracts from return"
+              "en": "Inflation subtracts from return",
+              "ru": "Инфляция вычитается из доходности",
+              "kk": "Инфляция кірістіліктен шегеріледі"
             },
             "body": {
-              "en": "A simple approximation is real return equals nominal return minus inflation. If a deposit pays 14% and inflation is 10%, the real return is about 4%. If inflation is 16%, the same deposit loses purchasing power despite positive interest."
+              "en": "A simple approximation is real return equals nominal return minus inflation. If a deposit pays 14% and inflation is 10%, the real return is about 4%. If inflation is 16%, the same deposit loses purchasing power despite positive interest.",
+              "ru": "Простое приближение: реальная доходность равна номинальной доходности минус инфляция. Если депозит даёт 14%, а инфляция составляет 10%, реальная доходность около 4%. Если инфляция 16%, тот же депозит теряет покупательную способность, несмотря на положительные проценты.",
+              "kk": "Қарапайым жуықтау: нақты кірістілік номиналды кірістілік минус инфляцияға тең. Егер депозит 14% төлеп, инфляция 10% болса, нақты кірістілік шамамен 4%. Егер инфляция 16% болса, сол депозит оң пайызға қарамастан сатып алу қабілетін жоғалтады."
             },
             "tip": {
-              "en": "Positive nominal return can still be negative real return."
+              "en": "Positive nominal return can still be negative real return.",
+              "ru": "Положительная номинальная доходность всё ещё может быть отрицательной реальной доходностью.",
+              "kk": "Оң номиналды кірістілік нақты түрде теріс болуы мүмкін."
             }
           },
           {
@@ -1002,13 +1733,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Real rates shape behavior"
+              "en": "Real rates shape behavior",
+              "ru": "Реальные ставки формируют поведение",
+              "kk": "Нақты мөлшерлемелер мінез-құлықты қалыптастырады"
             },
             "body": {
-              "en": "When real returns on safe savings are positive, saving becomes more rewarding. When real borrowing costs are low or negative, debt can feel easier, but inflation and income risk still matter. Real rates influence saving, borrowing, and asset prices."
+              "en": "When real returns on safe savings are positive, saving becomes more rewarding. When real borrowing costs are low or negative, debt can feel easier, but inflation and income risk still matter. Real rates influence saving, borrowing, and asset prices.",
+              "ru": "Когда реальные доходности по безопасным сбережениям положительные, сберегать становится выгоднее. Когда реальные расходы по займам низкие или отрицательные, долг может казаться легче, но инфляция и риск дохода всё равно важны. Реальные ставки влияют на сбережения, заимствования и цены активов.",
+              "kk": "Қауіпсіз жинақтардың нақты кірістілігі оң болғанда, жинақтау тартымдырақ болады. Нақты қарыз алу шығындары төмен немесе теріс болғанда, қарыз жеңілірек сезілуі мүмкін, бірақ инфляция мен табыс тәуекелі бәрібір маңызды. Нақты мөлшерлемелер жинақтауға, қарыз алуға және актив бағаларына әсер етеді."
             },
             "example": {
-              "en": "A 20% loan rate is very different when inflation is 3% versus when inflation is 18%, but affordability still depends on income cash flow."
+              "en": "A 20% loan rate is very different when inflation is 3% versus when inflation is 18%, but affordability still depends on income cash flow.",
+              "ru": "Ставка по кредиту 20% означает совсем разное при инфляции 3% и при инфляции 18%, но доступность всё равно зависит от денежного потока дохода.",
+              "kk": "20% несие мөлшерлемесі инфляция 3% болғанда және 18% болғанда мүлде бөлек мағына береді, бірақ қолжетімділік бәрібір табыс ақша ағынына байланысты."
             }
           },
           {
@@ -1016,7 +1753,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Three nominal returns, three real outcomes"
+              "en": "Three nominal returns, three real outcomes",
+              "ru": "Три номинальные доходности — три реальные результата",
+              "kk": "Үш номиналды кірістілік — үш нақты нәтиже"
             },
             "content": {
               "en": {
@@ -1065,6 +1804,100 @@
                     "text": "The best headline return is not always the best real result."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Три инвестора видят рост балансов своих счетов. Инфляция определяет, действительно ли улучшилась их покупательная способность."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Номинальная доходность",
+                        "Инфляция",
+                        "Приблизительная реальная доходность",
+                        "Интерпретация"
+                      ],
+                      [
+                        "12%",
+                        "6%",
+                        "6%",
+                        "Покупательная способность растёт"
+                      ],
+                      [
+                        "12%",
+                        "12%",
+                        "0%",
+                        "Покупательная способность примерно не меняется"
+                      ],
+                      [
+                        "12%",
+                        "18%",
+                        "-6%",
+                        "Покупательная способность падает"
+                      ],
+                      [
+                        "8%",
+                        "3%",
+                        "5%",
+                        "Ниже номинально, но лучше реально, чем 12% при инфляции 18%"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Лучшая доходность в заголовке не всегда означает лучший реальный результат."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Үш инвестор да шот балансының өскенін көреді. Олардың сатып алу қабілеті шынымен жақсарғанын инфляция анықтайды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Номиналды кірістілік",
+                        "Инфляция",
+                        "Шамамен нақты кірістілік",
+                        "Түсіндіру"
+                      ],
+                      [
+                        "12%",
+                        "6%",
+                        "6%",
+                        "Сатып алу қабілеті өседі"
+                      ],
+                      [
+                        "12%",
+                        "12%",
+                        "0%",
+                        "Сатып алу қабілеті шамамен өзгермейді"
+                      ],
+                      [
+                        "12%",
+                        "18%",
+                        "-6%",
+                        "Сатып алу қабілеті төмендейді"
+                      ],
+                      [
+                        "8%",
+                        "3%",
+                        "5%",
+                        "Номиналдысы төмен, бірақ 18% инфляция кезіндегі 12%-дан нақтысы жақсы"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ең жақсы көрінетін кірістілік әрқашан ең жақсы нақты нәтиже емес."
+                  }
+                ]
               }
             }
           },
@@ -1073,10 +1906,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Estimate real return"
+              "en": "Estimate real return",
+              "ru": "Оцените реальную доходность",
+              "kk": "Нақты кірістілікті бағалаңыз"
             },
             "body": {
-              "en": "Allocate a 15% nominal return into inflation and real return. The two parts must total 15."
+              "en": "Allocate a 15% nominal return into inflation and real return. The two parts must total 15.",
+              "ru": "Разделите номинальную доходность 15% на инфляцию и реальную доходность. Две части должны в сумме дать 15.",
+              "kk": "15% номиналды кірістілікті инфляция мен нақты кірістілікке бөліңіз. Екі бөлік қосындысы 15 болуы керек."
             },
             "interactiveType": "input_numbers",
             "interactiveContent": {
@@ -1100,6 +1937,48 @@
                   "real_return": "6"
                 },
                 "explanation": "Using the simple approximation, nominal return is roughly inflation plus real return. Here, 15% nominal with 9% inflation leaves about 6% real return."
+              },
+              "ru": {
+                "instruction": "Разделите номинальную доходность 15% на инфляцию и приблизительную реальную доходность. Сумма должна равняться 15.",
+                "fields": [
+                  {
+                    "id": "inflation",
+                    "label": "Инфляция (%)"
+                  },
+                  {
+                    "id": "real_return",
+                    "label": "Приблизительная реальная доходность (%)"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 15
+                },
+                "exampleAnswer": {
+                  "inflation": "9",
+                  "real_return": "6"
+                },
+                "explanation": "В простом приближении номинальная доходность примерно равна инфляции плюс реальная доходность. Здесь 15% номинально при 9% инфляции оставляет около 6% реальной доходности."
+              },
+              "kk": {
+                "instruction": "15% номиналды кірістілікті инфляция мен шамамен нақты кірістілікке бөліңіз. Жалпы қосынды 15 болуы керек.",
+                "fields": [
+                  {
+                    "id": "inflation",
+                    "label": "Инфляция (%)"
+                  },
+                  {
+                    "id": "real_return",
+                    "label": "Шамамен нақты кірістілік (%)"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 15
+                },
+                "exampleAnswer": {
+                  "inflation": "9",
+                  "real_return": "6"
+                },
+                "explanation": "Қарапайым жуықтауда номиналды кірістілік шамамен инфляция плюс нақты кірістілікке тең. Мұнда 15% номиналды кірістілік пен 9% инфляция шамамен 6% нақты кірістілік қалдырады."
               }
             }
           },
@@ -1108,13 +1987,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Measure wealth in purchasing power"
+              "en": "Measure wealth in purchasing power",
+              "ru": "Измеряйте богатство покупательной способностью",
+              "kk": "Байлықты сатып алу қабілетімен өлшеңіз"
             },
             "body": {
-              "en": "Nominal returns are visible, but real returns determine whether wealth actually grows. Inflation can turn an impressive account gain into a weak outcome. When comparing deposits, bonds, stocks, or loans, always ask what remains after inflation."
+              "en": "Nominal returns are visible, but real returns determine whether wealth actually grows. Inflation can turn an impressive account gain into a weak outcome. When comparing deposits, bonds, stocks, or loans, always ask what remains after inflation.",
+              "ru": "Номинальная доходность видна, но именно реальная доходность определяет, растёт ли богатство на самом деле. Инфляция может превратить впечатляющий рост счёта в слабый результат. Сравнивая депозиты, облигации, акции или кредиты, всегда спрашивайте, что остаётся после инфляции.",
+              "kk": "Номиналды кірістілік көрінеді, бірақ байлық шынымен өсетінін нақты кірістілік анықтайды. Инфляция әсерлі шот өсімін әлсіз нәтижеге айналдыруы мүмкін. Депозиттерді, облигацияларды, акцияларды немесе несиелерді салыстырғанда, инфляциядан кейін не қалатынын әрдайым сұраңыз."
             },
             "tip": {
-              "en": "The goal is not more currency units alone; it is more future buying power."
+              "en": "The goal is not more currency units alone; it is more future buying power.",
+              "ru": "Цель — не просто больше денежных единиц, а больше будущей покупательной способности.",
+              "kk": "Мақсат тек көбірек ақша бірлігі емес; ол — болашақ сатып алу қабілетінің көбірек болуы."
             }
           }
         ]
@@ -1123,7 +2008,9 @@
         "quiz_id": 2204,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Real vs Nominal Returns — Check"
+          "en": "Real vs Nominal Returns — Check",
+          "ru": "Реальная и номинальная доходность — проверка",
+          "kk": "Нақты және номиналды кірістілік — тексеру"
         },
         "questions": [
           {
@@ -1131,14 +2018,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A deposit pays 13% while inflation is 15%. What is the approximate real return?"
+              "en": "A deposit pays 13% while inflation is 15%. What is the approximate real return?",
+              "ru": "Депозит даёт 13%, а инфляция составляет 15%. Какова приблизительная реальная доходность?",
+              "kk": "Депозит 13% төлейді, ал инфляция 15%. Шамамен нақты кірістілік қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "About -2%, so purchasing power falls"
+                  "en": "About -2%, so purchasing power falls",
+                  "ru": "Около -2%, значит покупательная способность снижается",
+                  "kk": "Шамамен -2%, сондықтан сатып алу қабілеті төмендейді"
                 },
                 "is_correct": true
               },
@@ -1146,7 +2037,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "About +13%, because inflation does not matter"
+                  "en": "About +13%, because inflation does not matter",
+                  "ru": "Около +13%, потому что инфляция не имеет значения",
+                  "kk": "Шамамен +13%, өйткені инфляция маңызды емес"
                 },
                 "is_correct": false
               },
@@ -1154,7 +2047,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "About +28%, because returns and inflation add"
+                  "en": "About +28%, because returns and inflation add",
+                  "ru": "Около +28%, потому что доходность и инфляция складываются",
+                  "kk": "Шамамен +28%, өйткені кірістілік пен инфляция қосылады"
                 },
                 "is_correct": false
               },
@@ -1162,7 +2057,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Exactly zero in every case"
+                  "en": "Exactly zero in every case",
+                  "ru": "Ровно ноль в любом случае",
+                  "kk": "Әр жағдайда дәл нөл"
                 },
                 "is_correct": false
               }
@@ -1173,14 +2070,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can a lower nominal return sometimes be better?"
+              "en": "Why can a lower nominal return sometimes be better?",
+              "ru": "Почему более низкая номинальная доходность иногда может быть лучше?",
+              "kk": "Неге төменірек номиналды кірістілік кейде жақсырақ болуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "If inflation is much lower, the real return can be higher"
+                  "en": "If inflation is much lower, the real return can be higher",
+                  "ru": "Если инфляция намного ниже, реальная доходность может быть выше",
+                  "kk": "Егер инфляция әлдеқайда төмен болса, нақты кірістілік жоғары болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1188,7 +2089,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Nominal return is never useful"
+                  "en": "Nominal return is never useful",
+                  "ru": "Номинальная доходность никогда не полезна",
+                  "kk": "Номиналды кірістілік ешқашан пайдалы емес"
                 },
                 "is_correct": false
               },
@@ -1196,7 +2099,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Lower nominal returns always mean lower risk and higher profit"
+                  "en": "Lower nominal returns always mean lower risk and higher profit",
+                  "ru": "Более низкая номинальная доходность всегда означает меньший риск и большую прибыль",
+                  "kk": "Төмен номиналды кірістілік әрқашан төмен тәуекел мен жоғары пайданы білдіреді"
                 },
                 "is_correct": false
               },
@@ -1204,7 +2109,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Inflation affects only salaries, not investments"
+                  "en": "Inflation affects only salaries, not investments",
+                  "ru": "Инфляция влияет только на зарплаты, а не на инвестиции",
+                  "kk": "Инфляция тек жалақыға әсер етеді, инвестицияларға емес"
                 },
                 "is_correct": false
               }
@@ -1215,14 +2122,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What should investors ultimately care about?"
+              "en": "What should investors ultimately care about?",
+              "ru": "О чём инвесторам в конечном счёте стоит заботиться?",
+              "kk": "Инвесторлар соңында нені маңызды санауы керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Purchasing-power growth after inflation"
+                  "en": "Purchasing-power growth after inflation",
+                  "ru": "О росте покупательной способности после инфляции",
+                  "kk": "Инфляциядан кейінгі сатып алу қабілетінің өсуі"
                 },
                 "is_correct": true
               },
@@ -1230,7 +2141,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Only the largest percentage printed in an advertisement"
+                  "en": "Only the largest percentage printed in an advertisement",
+                  "ru": "Только о самом большом проценте в рекламе",
+                  "kk": "Жарнамада жазылған ең үлкен пайыз ғана"
                 },
                 "is_correct": false
               },
@@ -1238,7 +2151,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Nominal return without context"
+                  "en": "Nominal return without context",
+                  "ru": "О номинальной доходности без контекста",
+                  "kk": "Контекстсіз номиналды кірістілік"
                 },
                 "is_correct": false
               },
@@ -1246,7 +2161,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Whether the return number is a round figure"
+                  "en": "Whether the return number is a round figure",
+                  "ru": "О том, является ли число доходности круглым",
+                  "kk": "Кірістілік санының дөңгелек болуы"
                 },
                 "is_correct": false
               }
@@ -1260,7 +2177,9 @@
     "quiz_id": 2299,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Interest Rates & Central Banks — Final Check"
+      "en": "Interest Rates & Central Banks — Final Check",
+      "ru": "Процентные ставки и центральные банки — итоговая проверка",
+      "kk": "Пайыздық мөлшерлемелер және орталық банктер — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1268,14 +2187,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "Why do central banks care about inflation expectations?"
+          "en": "Why do central banks care about inflation expectations?",
+          "ru": "Почему центральные банки заботятся об инфляционных ожиданиях?",
+          "kk": "Орталық банктер неге инфляциялық күтулерге мән береді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Expectations can influence wages, prices, and the persistence of inflation"
+              "en": "Expectations can influence wages, prices, and the persistence of inflation",
+              "ru": "Ожидания могут влиять на зарплаты, цены и устойчивость инфляции",
+              "kk": "Күтулер жалақыға, бағаларға және инфляцияның тұрақтылығына әсер ете алады"
             },
             "is_correct": true
           },
@@ -1283,7 +2206,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Expectations are unrelated to behavior"
+              "en": "Expectations are unrelated to behavior",
+              "ru": "Ожидания не связаны с поведением",
+              "kk": "Күтулер мінез-құлықпен байланысты емес"
             },
             "is_correct": false
           },
@@ -1291,7 +2216,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Expectations guarantee stock-market returns"
+              "en": "Expectations guarantee stock-market returns",
+              "ru": "Ожидания гарантируют доходность фондового рынка",
+              "kk": "Күтулер қор нарығы кірістілігіне кепілдік береді"
             },
             "is_correct": false
           },
@@ -1299,7 +2226,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Expectations replace actual inflation data completely"
+              "en": "Expectations replace actual inflation data completely",
+              "ru": "Ожидания полностью заменяют фактические данные по инфляции",
+              "kk": "Күтулер нақты инфляция деректерін толық алмастырады"
             },
             "is_correct": false
           }
@@ -1310,14 +2239,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "A central bank raises rates to fight inflation. What trade-off can result?"
+          "en": "A central bank raises rates to fight inflation. What trade-off can result?",
+          "ru": "Центральный банк повышает ставки для борьбы с инфляцией. Какой компромисс может возникнуть?",
+          "kk": "Орталық банк инфляциямен күресу үшін мөлшерлемелерді көтереді. Қандай ымыра туындауы мүмкін?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Inflation pressure may cool, but borrowing and economic activity can slow"
+              "en": "Inflation pressure may cool, but borrowing and economic activity can slow",
+              "ru": "Инфляционное давление может снизиться, но заимствования и экономическая активность могут замедлиться",
+              "kk": "Инфляциялық қысым салқындауы мүмкін, бірақ қарыз алу мен экономикалық белсенділік баяулауы мүмкін"
             },
             "is_correct": true
           },
@@ -1325,7 +2258,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "All loans become free"
+              "en": "All loans become free",
+              "ru": "Все кредиты становятся бесплатными",
+              "kk": "Барлық несиелер тегін болады"
             },
             "is_correct": false
           },
@@ -1333,7 +2268,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Every asset price must rise immediately"
+              "en": "Every asset price must rise immediately",
+              "ru": "Цена каждого актива должна немедленно вырасти",
+              "kk": "Әр активтің бағасы бірден көтерілуі керек"
             },
             "is_correct": false
           },
@@ -1341,7 +2278,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Saving becomes impossible"
+              "en": "Saving becomes impossible",
+              "ru": "Сбережения становятся невозможными",
+              "kk": "Жинақтау мүмкін болмайды"
             },
             "is_correct": false
           }
@@ -1352,14 +2291,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "Which person may benefit most directly from higher deposit rates?"
+          "en": "Which person may benefit most directly from higher deposit rates?",
+          "ru": "Кто может наиболее напрямую выиграть от более высоких депозитных ставок?",
+          "kk": "Жоғары депозит мөлшерлемелерінен кім ең тікелей пайда көруі мүмкін?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "A saver with cash renewing into higher-rate deposits"
+              "en": "A saver with cash renewing into higher-rate deposits",
+              "ru": "Вкладчик, чьи денежные средства продлеваются в депозиты с более высокой ставкой",
+              "kk": "Ақшасы жоғары мөлшерлемелі депозиттерге жаңартылатын жинақтаушы"
             },
             "is_correct": true
           },
@@ -1367,7 +2310,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "A borrower with a floating-rate loan"
+              "en": "A borrower with a floating-rate loan",
+              "ru": "Заёмщик с кредитом с плавающей ставкой",
+              "kk": "Өзгермелі мөлшерлемелі несиесі бар қарыз алушы"
             },
             "is_correct": false
           },
@@ -1375,7 +2320,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "A buyer needing a new mortgage"
+              "en": "A buyer needing a new mortgage",
+              "ru": "Покупатель, которому нужна новая ипотека",
+              "kk": "Жаңа ипотека қажет сатып алушы"
             },
             "is_correct": false
           },
@@ -1383,7 +2330,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "An owner of a long-term bond fund during a rate jump"
+              "en": "An owner of a long-term bond fund during a rate jump",
+              "ru": "Владелец фонда долгосрочных облигаций во время скачка ставок",
+              "kk": "Мөлшерлеме секірісі кезінде ұзақ мерзімді облигация қорының иесі"
             },
             "is_correct": false
           }
@@ -1394,14 +2343,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "A bond fund falls after market yields rise. What is the likely mechanism?"
+          "en": "A bond fund falls after market yields rise. What is the likely mechanism?",
+          "ru": "Фонд облигаций падает после роста рыночных доходностей. Каков вероятный механизм?",
+          "kk": "Нарықтық кірістіліктер өскеннен кейін облигация қоры төмендейді. Ықтимал механизм қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Older fixed payments became less attractive compared with new higher yields"
+              "en": "Older fixed payments became less attractive compared with new higher yields",
+              "ru": "Старые фиксированные выплаты стали менее привлекательными по сравнению с новыми более высокими доходностями",
+              "kk": "Ескі тұрақты төлемдер жаңа жоғары кірістіліктермен салыстырғанда тартымсыздау болды"
             },
             "is_correct": true
           },
@@ -1409,7 +2362,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "The bond market stopped paying interest forever"
+              "en": "The bond market stopped paying interest forever",
+              "ru": "Рынок облигаций навсегда перестал платить проценты",
+              "kk": "Облигация нарығы пайыз төлеуді мәңгі тоқтатты"
             },
             "is_correct": false
           },
@@ -1417,7 +2372,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Higher yields always increase old bond prices"
+              "en": "Higher yields always increase old bond prices",
+              "ru": "Более высокие доходности всегда повышают цены старых облигаций",
+              "kk": "Жоғары кірістіліктер әрқашан ескі облигация бағаларын көтереді"
             },
             "is_correct": false
           },
@@ -1425,7 +2382,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "The fund became a stock fund automatically"
+              "en": "The fund became a stock fund automatically",
+              "ru": "Фонд автоматически стал фондом акций",
+              "kk": "Қор автоматты түрде акция қорына айналды"
             },
             "is_correct": false
           }
@@ -1436,14 +2395,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "An investment earns 11% while inflation is 14%. What is the best interpretation?"
+          "en": "An investment earns 11% while inflation is 14%. What is the best interpretation?",
+          "ru": "Инвестиция приносит 11%, а инфляция составляет 14%. Какая интерпретация лучшая?",
+          "kk": "Инвестиция 11% табыс береді, ал инфляция 14%. Ең дұрыс түсіндіру қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The nominal return is positive, but real purchasing power likely fell"
+              "en": "The nominal return is positive, but real purchasing power likely fell",
+              "ru": "Номинальная доходность положительная, но реальная покупательная способность, вероятно, снизилась",
+              "kk": "Номиналды кірістілік оң, бірақ нақты сатып алу қабілеті төмендеген болуы мүмкін"
             },
             "is_correct": true
           },
@@ -1451,7 +2414,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "The investor gained 25% real return"
+              "en": "The investor gained 25% real return",
+              "ru": "Инвестор получил 25% реальной доходности",
+              "kk": "Инвестор 25% нақты кірістілік алды"
             },
             "is_correct": false
           },
@@ -1459,7 +2424,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Inflation improves every nominal return"
+              "en": "Inflation improves every nominal return",
+              "ru": "Инфляция улучшает любую номинальную доходность",
+              "kk": "Инфляция әр номиналды кірістілікті жақсартады"
             },
             "is_correct": false
           },
@@ -1467,7 +2434,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "A positive nominal return always beats inflation"
+              "en": "A positive nominal return always beats inflation",
+              "ru": "Положительная номинальная доходность всегда обгоняет инфляцию",
+              "kk": "Оң номиналды кірістілік әрқашан инфляциядан озады"
             },
             "is_correct": false
           }
