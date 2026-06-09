@@ -22,7 +22,13 @@ FROM alpine:3.22
 
 WORKDIR /app
 
+RUN apk add --no-cache curl tar && \
+    curl -sSL https://github.com/golang-migrate/migrate/releases/download/v4.18.3/migrate.linux-amd64.tar.gz \
+    | tar -xz -C /usr/local/bin migrate && \
+    apk del curl tar
+
 COPY --from=build /out/afineback /app/afineback
+COPY migrations/ /app/migrations/
 
 EXPOSE 8081
 
