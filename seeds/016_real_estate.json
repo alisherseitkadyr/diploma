@@ -3,11 +3,16 @@
   "topic": {
     "code": "real_estate",
     "orderIndex": 16,
+    "icon_path": "assets/topics/016.png",
     "title": {
-      "en": "Real Estate"
+      "en": "Real Estate",
+      "ru": "Недвижимость",
+      "kk": "Жылжымайтын мүлік"
     },
     "description": {
-      "en": "Property as an asset — mortgages, the rent-versus-buy decision, REITs, and the carrying costs and risks people routinely overlook."
+      "en": "Property as an asset — mortgages, the rent-versus-buy decision, REITs, and the carrying costs and risks people routinely overlook.",
+      "ru": "Недвижимость как актив — ипотека, выбор между арендой и покупкой, REIT-фонды, а также текущие расходы и риски, которые люди часто упускают.",
+      "kk": "Актив ретіндегі мүлік — ипотека, жалдау мен сатып алу таңдауы, REIT қорлары және адамдар жиі елемейтін ұстау шығындары мен тәуекелдер."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "real_estate_as_an_asset",
       "title": {
-        "en": "Real Estate as an Asset"
+        "en": "Real Estate as an Asset",
+        "ru": "Недвижимость как актив",
+        "kk": "Актив ретіндегі жылжымайтын мүлік"
       },
       "description": {
-        "en": "Property can store value, produce rent, and provide use, but it is illiquid, expensive to hold, and location-specific."
+        "en": "Property can store value, produce rent, and provide use, but it is illiquid, expensive to hold, and location-specific.",
+        "ru": "Недвижимость может сохранять стоимость, приносить аренду и давать пользу от проживания, но она неликвидна, дорога в содержании и сильно зависит от локации.",
+        "kk": "Мүлік құнды сақтай алады, жалдау табысын әкеледі және пайдалануға мүмкіндік береді, бірақ ол өтімділігі төмен, ұстауы қымбат және орналасқан жерге қатты тәуелді."
       },
       "estimatedMinutes": 5,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Property is not just a place"
+              "en": "Property is not just a place",
+              "ru": "Недвижимость — это не просто место",
+              "kk": "Мүлік — жай ғана орын емес"
             },
             "body": {
-              "en": "Real estate can be both something you use and something you own as an asset. A home gives shelter; an investment property may produce rent and price growth. Mixing those roles can make decisions emotional and financially unclear."
+              "en": "Real estate can be both something you use and something you own as an asset. A home gives shelter; an investment property may produce rent and price growth. Mixing those roles can make decisions emotional and financially unclear.",
+              "ru": "Недвижимость может быть и тем, чем вы пользуетесь, и активом, которым вы владеете. Жильё даёт крышу над головой; инвестиционная недвижимость может приносить аренду и рост цены. Если смешивать эти роли, решения становятся эмоциональными и финансово неясными.",
+              "kk": "Жылжымайтын мүлік сіз пайдаланатын нәрсе де, актив ретінде иеленетін нәрсе де болуы мүмкін. Үй баспана береді; инвестициялық мүлік жалдау табысын және бағаның өсуін әкелуі мүмкін. Бұл рөлдерді араластыру шешімді эмоциялық әрі қаржылық тұрғыдан бұлдыр етеді."
             },
             "tip": {
-              "en": "Separate the lifestyle value from the investment value before judging a property."
+              "en": "Separate the lifestyle value from the investment value before judging a property.",
+              "ru": "Перед оценкой объекта отделяйте ценность для образа жизни от инвестиционной ценности.",
+              "kk": "Мүлікті бағаламас бұрын өмір салтына беретін құнын инвестициялық құнынан бөліңіз."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Three sources of value"
+              "en": "Three sources of value",
+              "ru": "Три источника стоимости",
+              "kk": "Құнның үш көзі"
             },
             "body": {
-              "en": "Property value can come from use, rental income, and resale value. A family apartment may be valuable because it reduces housing uncertainty. A rental unit must also be judged by cash flow after costs, not only by expected price growth."
+              "en": "Property value can come from use, rental income, and resale value. A family apartment may be valuable because it reduces housing uncertainty. A rental unit must also be judged by cash flow after costs, not only by expected price growth.",
+              "ru": "Стоимость недвижимости может возникать из пользования, арендного дохода и цены перепродажи. Семейная квартира может быть ценной, потому что снижает жилищную неопределённость. Арендный объект нужно оценивать по денежному потоку после расходов, а не только по ожидаемому росту цены.",
+              "kk": "Мүлік құны пайдаланудан, жалдау табысынан және қайта сату құнынан қалыптасуы мүмкін. Отбасылық пәтер тұрғын үй белгісіздігін азайтқаны үшін құнды болуы мүмкін. Ал жалға берілетін объектіні тек күтілетін баға өсімімен емес, шығындардан кейінгі ақша ағынымен де бағалау керек."
             },
             "example": {
-              "en": "A flat worth ₸35,000,000 that rents for ₸180,000 per month produces gross rent of ₸2,160,000 per year before maintenance, vacancy, tax, and management costs."
+              "en": "A flat worth ₸35,000,000 that rents for ₸180,000 per month produces gross rent of ₸2,160,000 per year before maintenance, vacancy, tax, and management costs.",
+              "ru": "Квартира стоимостью ₸35,000,000, сдаваемая за ₸180,000 в месяц, даёт валовую аренду ₸2,160,000 в год до учёта ремонта, простоя, налогов и расходов на управление.",
+              "kk": "Құны ₸35,000,000 пәтер айына ₸180,000-ға жалға берілсе, жөндеу, бос тұру, салық және басқару шығындарына дейін жылына ₸2,160,000 жалпы жалдау табысын береді."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Real estate is illiquid and local"
+              "en": "Real estate is illiquid and local",
+              "ru": "Недвижимость неликвидна и локальна",
+              "kk": "Жылжымайтын мүлік өтімділігі төмен және жергілікті сипатта"
             },
             "body": {
-              "en": "Unlike a listed stock, property may take months to sell and has high transaction costs. Its value depends heavily on neighborhood, building quality, transport, schools, and local job growth. Two apartments in the same city can behave like different assets."
+              "en": "Unlike a listed stock, property may take months to sell and has high transaction costs. Its value depends heavily on neighborhood, building quality, transport, schools, and local job growth. Two apartments in the same city can behave like different assets.",
+              "ru": "В отличие от биржевой акции, недвижимость может продаваться месяцами и имеет высокие транзакционные расходы. Её стоимость сильно зависит от района, качества здания, транспорта, школ и роста рабочих мест поблизости. Две квартиры в одном городе могут вести себя как разные активы.",
+              "kk": "Биржадағы акциядан айырмашылығы, мүлікті сату айларға созылуы мүмкін және мәміле шығындары жоғары. Оның құны ауданға, ғимарат сапасына, көлікке, мектептерге және жергілікті жұмыс орындарының өсуіне қатты тәуелді. Бір қаладағы екі пәтер әртүрлі актив сияқты әрекет етуі мүмкін."
             },
             "tip": {
-              "en": "Real estate risk is concentrated: one property, one location, one tenant market."
+              "en": "Real estate risk is concentrated: one property, one location, one tenant market.",
+              "ru": "Риск недвижимости сконцентрирован: один объект, одна локация, один рынок арендаторов.",
+              "kk": "Жылжымайтын мүлік тәуекелі шоғырланған: бір объект, бір орын, бір жалға алушылар нарығы."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Price growth is not the whole return"
+              "en": "Price growth is not the whole return",
+              "ru": "Рост цены — это не вся доходность",
+              "kk": "Бағаның өсуі — толық табыс емес"
             },
             "content": {
               "en": {
@@ -122,6 +151,100 @@
                     "text": "The investment is not judged by rent alone. The useful question is net return after realistic costs and risks."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор покупает квартиру за ₸40,000,000 и сдаёт её за ₸220,000 в месяц. На первый взгляд аренда выглядит привлекательно, но расходы меняют картину."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Статья",
+                        "Годовая сумма",
+                        "Эффект"
+                      ],
+                      [
+                        "Валовая аренда",
+                        "₸2,640,000",
+                        "Денежный приток"
+                      ],
+                      [
+                        "Резерв на простой",
+                        "-₸220,000",
+                        "Один месяц без арендатора"
+                      ],
+                      [
+                        "Содержание и ремонт",
+                        "-₸350,000",
+                        "Поддержание актива"
+                      ],
+                      [
+                        "Налоги, страхование, управление",
+                        "-₸250,000",
+                        "Операционные расходы"
+                      ],
+                      [
+                        "Чистая аренда до финансирования",
+                        "₸1,820,000",
+                        "Оценка реального арендного дохода"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестицию оценивают не только по арендной плате. Полезный вопрос — чистая доходность после реалистичных расходов и рисков."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор пәтерді ₸40,000,000-ға сатып алып, айына ₸220,000-ға жалға береді. Сырттай жалдау табысы тартымды көрінеді, бірақ шығындар картинаны өзгертеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Бап",
+                        "Жылдық сома",
+                        "Әсері"
+                      ],
+                      [
+                        "Жалпы жалдау табысы",
+                        "₸2,640,000",
+                        "Кіретін ақша"
+                      ],
+                      [
+                        "Бос тұру резерві",
+                        "-₸220,000",
+                        "Жалға алушысыз бір ай"
+                      ],
+                      [
+                        "Күтіп ұстау және жөндеу",
+                        "-₸350,000",
+                        "Активті күтіп ұстау"
+                      ],
+                      [
+                        "Салық, сақтандыру, басқару",
+                        "-₸250,000",
+                        "Операциялық шығындар"
+                      ],
+                      [
+                        "Қаржыландыруға дейінгі таза жалдау",
+                        "₸1,820,000",
+                        "Нақты жалдау табысының бағасы"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестиция тек жалдау ақысы бойынша бағаланбайды. Пайдалы сұрақ — нақты шығындар мен тәуекелдерден кейінгі таза табыстылық."
+                  }
+                ]
               }
             }
           },
@@ -130,10 +253,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Classify the property factor"
+              "en": "Classify the property factor",
+              "ru": "Классифицируйте фактор недвижимости",
+              "kk": "Мүлік факторын жіктеңіз"
             },
             "body": {
-              "en": "Sort each factor by what it mainly affects: use value, income, or liquidity and risk."
+              "en": "Sort each factor by what it mainly affects: use value, income, or liquidity and risk.",
+              "ru": "Распределите каждый фактор по тому, на что он в основном влияет: ценность пользования, доход или ликвидность и риск.",
+              "kk": "Әр факторды оның негізінен неге әсер ететіні бойынша бөліңіз: пайдалану құны, табыс немесе өтімділік пен тәуекел."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -190,6 +317,114 @@
                   }
                 ],
                 "explanation": "A property can be useful, income-producing, and risky at the same time. Good analysis separates these roles."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый фактор в подходящую категорию.",
+                "categories": [
+                  {
+                    "id": "use_value",
+                    "label": "Ценность пользования"
+                  },
+                  {
+                    "id": "income",
+                    "label": "Арендный доход"
+                  },
+                  {
+                    "id": "risk_liquidity",
+                    "label": "Риск или ликвидность"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "near_school",
+                    "text": "Квартира находится рядом со школой и работой"
+                  },
+                  {
+                    "id": "tenant_demand",
+                    "text": "Многие арендаторы хотят жить в этом районе"
+                  },
+                  {
+                    "id": "hard_to_sell",
+                    "text": "Похожие квартиры часто продаются по шесть месяцев"
+                  },
+                  {
+                    "id": "old_building",
+                    "text": "Здание требует частого ремонта"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "near_school",
+                    "categoryId": "use_value"
+                  },
+                  {
+                    "itemId": "tenant_demand",
+                    "categoryId": "income"
+                  },
+                  {
+                    "itemId": "hard_to_sell",
+                    "categoryId": "risk_liquidity"
+                  },
+                  {
+                    "itemId": "old_building",
+                    "categoryId": "risk_liquidity"
+                  }
+                ],
+                "explanation": "Недвижимость может быть полезной, доходной и рискованной одновременно. Хороший анализ разделяет эти роли."
+              },
+              "kk": {
+                "instruction": "Әр факторды ең сәйкес санатқа сүйреңіз.",
+                "categories": [
+                  {
+                    "id": "use_value",
+                    "label": "Пайдалану құны"
+                  },
+                  {
+                    "id": "income",
+                    "label": "Жалдау табысы"
+                  },
+                  {
+                    "id": "risk_liquidity",
+                    "label": "Тәуекел немесе өтімділік"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "near_school",
+                    "text": "Пәтер мектеп пен жұмысқа жақын"
+                  },
+                  {
+                    "id": "tenant_demand",
+                    "text": "Көп жалға алушылар осы ауданды қалайды"
+                  },
+                  {
+                    "id": "hard_to_sell",
+                    "text": "Ұқсас пәтерлер жиі алты айда сатылады"
+                  },
+                  {
+                    "id": "old_building",
+                    "text": "Ғимарат жиі жөндеуді қажет етеді"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "near_school",
+                    "categoryId": "use_value"
+                  },
+                  {
+                    "itemId": "tenant_demand",
+                    "categoryId": "income"
+                  },
+                  {
+                    "itemId": "hard_to_sell",
+                    "categoryId": "risk_liquidity"
+                  },
+                  {
+                    "itemId": "old_building",
+                    "categoryId": "risk_liquidity"
+                  }
+                ],
+                "explanation": "Мүлік бір уақытта пайдалы, табыс әкелетін және тәуекелді болуы мүмкін. Жақсы талдау осы рөлдерді бөледі."
               }
             }
           },
@@ -198,13 +433,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Analyze the job of the property"
+              "en": "Analyze the job of the property",
+              "ru": "Определите задачу объекта",
+              "kk": "Мүліктің міндетін талдаңыз"
             },
             "body": {
-              "en": "Real estate is an asset with use value, income potential, and resale value. It also has concentration, costs, and slow exit. Before buying, decide whether the property is mainly a home, an income asset, or a speculation on future prices."
+              "en": "Real estate is an asset with use value, income potential, and resale value. It also has concentration, costs, and slow exit. Before buying, decide whether the property is mainly a home, an income asset, or a speculation on future prices.",
+              "ru": "Недвижимость — это актив с ценностью пользования, доходным потенциалом и ценой перепродажи. У неё также есть концентрация, расходы и медленный выход. Перед покупкой решите, что это в первую очередь: дом, доходный актив или ставка на будущий рост цен.",
+              "kk": "Жылжымайтын мүлік — пайдалану құны, табыс әлеуеті және қайта сату құны бар актив. Оның шоғырлануы, шығындары және баяу шығуы да бар. Сатып алмас бұрын бұл мүлік негізінен үй ме, табыс активі ме, әлде болашақ бағаға ставка ма — соны шешіңіз."
             },
             "tip": {
-              "en": "A good home is not automatically a good investment property."
+              "en": "A good home is not automatically a good investment property.",
+              "ru": "Хороший дом не всегда автоматически является хорошей инвестиционной недвижимостью.",
+              "kk": "Жақсы үй автоматты түрде жақсы инвестициялық мүлік емес."
             }
           }
         ]
@@ -213,7 +454,9 @@
         "quiz_id": 1601,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Real Estate as an Asset — Check"
+          "en": "Real Estate as an Asset — Check",
+          "ru": "Недвижимость как актив — проверка",
+          "kk": "Актив ретіндегі жылжымайтын мүлік — тексеру"
         },
         "questions": [
           {
@@ -221,14 +464,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A flat rents for ₸250,000 per month, and the owner says the annual income is simply ₸3,000,000. What is missing from this reasoning?"
+              "en": "A flat rents for ₸250,000 per month, and the owner says the annual income is simply ₸3,000,000. What is missing from this reasoning?",
+              "ru": "Квартира сдаётся за ₸250,000 в месяц, и владелец говорит, что годовой доход просто равен ₸3,000,000. Чего не хватает в этом рассуждении?",
+              "kk": "Пәтер айына ₸250,000-ға жалға беріледі, иесі жылдық табыс жай ғана ₸3,000,000 дейді. Бұл пайымдауда не жетіспейді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Vacancy, repairs, taxes, insurance, and other costs must be deducted to estimate net income"
+                  "en": "Vacancy, repairs, taxes, insurance, and other costs must be deducted to estimate net income",
+                  "ru": "Чтобы оценить чистый доход, нужно вычесть простой, ремонт, налоги, страхование и другие расходы",
+                  "kk": "Таза табысты бағалау үшін бос тұру, жөндеу, салық, сақтандыру және басқа шығындарды шегеру керек"
                 },
                 "is_correct": true
               },
@@ -236,7 +483,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Rent can never be used to value property"
+                  "en": "Rent can never be used to value property",
+                  "ru": "Аренду никогда нельзя использовать для оценки недвижимости",
+                  "kk": "Жалдауды мүлікті бағалау үшін ешқашан қолдануға болмайды"
                 },
                 "is_correct": false
               },
@@ -244,7 +493,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The flat has no value unless it is sold immediately"
+                  "en": "The flat has no value unless it is sold immediately",
+                  "ru": "Квартира не имеет стоимости, если её не продать сразу",
+                  "kk": "Пәтер бірден сатылмаса, құны жоқ"
                 },
                 "is_correct": false
               },
@@ -252,7 +503,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "All rental income is guaranteed by the tenant"
+                  "en": "All rental income is guaranteed by the tenant",
+                  "ru": "Весь арендный доход гарантирован арендатором",
+                  "kk": "Барлық жалдау табысын жалға алушы кепілдейді"
                 },
                 "is_correct": false
               }
@@ -263,14 +516,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can two apartments in the same city have very different investment risk?"
+              "en": "Why can two apartments in the same city have very different investment risk?",
+              "ru": "Почему две квартиры в одном городе могут иметь очень разный инвестиционный риск?",
+              "kk": "Неге бір қаладағы екі пәтердің инвестициялық тәуекелі өте әртүрлі болуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Location, building quality, tenant demand, and liquidity can differ sharply"
+                  "en": "Location, building quality, tenant demand, and liquidity can differ sharply",
+                  "ru": "Локация, качество здания, спрос арендаторов и ликвидность могут сильно отличаться",
+                  "kk": "Орналасу, ғимарат сапасы, жалға алушы сұранысы және өтімділік қатты өзгеше болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -278,7 +535,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "All properties in one city always move identically"
+                  "en": "All properties in one city always move identically",
+                  "ru": "Вся недвижимость в одном городе всегда движется одинаково",
+                  "kk": "Бір қаладағы барлық мүлік әрқашан бірдей қозғалады"
                 },
                 "is_correct": false
               },
@@ -286,7 +545,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Only the number of rooms matters"
+                  "en": "Only the number of rooms matters",
+                  "ru": "Важна только количество комнат",
+                  "kk": "Тек бөлме саны маңызды"
                 },
                 "is_correct": false
               },
@@ -294,7 +555,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Investment risk disappears if the apartment is new"
+                  "en": "Investment risk disappears if the apartment is new",
+                  "ru": "Инвестиционный риск исчезает, если квартира новая",
+                  "kk": "Пәтер жаңа болса, инвестициялық тәуекел жоғалады"
                 },
                 "is_correct": false
               }
@@ -305,14 +568,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which question best separates lifestyle value from investment value?"
+              "en": "Which question best separates lifestyle value from investment value?",
+              "ru": "Какой вопрос лучше всего отделяет жизненную ценность от инвестиционной?",
+              "kk": "Қай сұрақ өмір салты құнын инвестициялық құннан жақсы бөледі?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Would I still buy this property if I judged only net cash flow, resale prospects, and risk?"
+                  "en": "Would I still buy this property if I judged only net cash flow, resale prospects, and risk?",
+                  "ru": "Купил бы я этот объект, если бы оценивал только чистый денежный поток, перспективы перепродажи и риск?",
+                  "kk": "Егер тек таза ақша ағынын, қайта сату мүмкіндігін және тәуекелді бағаласам, бұл мүлікті бәрібір сатып алар ма едім?"
                 },
                 "is_correct": true
               },
@@ -320,7 +587,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Do I personally like the balcony view?"
+                  "en": "Do I personally like the balcony view?",
+                  "ru": "Нравится ли мне лично вид с балкона?",
+                  "kk": "Балконнан көрініс маған жеке ұнай ма?"
                 },
                 "is_correct": false
               },
@@ -328,7 +597,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Is the building popular on social media?"
+                  "en": "Is the building popular on social media?",
+                  "ru": "Популярно ли здание в социальных сетях?",
+                  "kk": "Ғимарат әлеуметтік желіде танымал ма?"
                 },
                 "is_correct": false
               },
@@ -336,7 +607,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Can I imagine living there someday?"
+                  "en": "Can I imagine living there someday?",
+                  "ru": "Могу ли я представить, что когда-нибудь буду там жить?",
+                  "kk": "Бір күні сонда тұратынымды елестете аламын ба?"
                 },
                 "is_correct": false
               }
@@ -348,10 +621,14 @@
     {
       "code": "mortgages",
       "title": {
-        "en": "Mortgages"
+        "en": "Mortgages",
+        "ru": "Ипотека",
+        "kk": "Ипотека"
       },
       "description": {
-        "en": "A mortgage uses borrowed money to buy property, turning housing into a leveraged decision with monthly cash-flow obligations."
+        "en": "A mortgage uses borrowed money to buy property, turning housing into a leveraged decision with monthly cash-flow obligations.",
+        "ru": "Ипотека использует заёмные деньги для покупки недвижимости, превращая жильё в решение с кредитным плечом и ежемесячными обязательствами по денежному потоку.",
+        "kk": "Ипотека мүлік сатып алу үшін қарыз ақшаны қолданады, сондықтан тұрғын үй шешімі левереджді және ай сайынғы ақша ағыны міндеттемесі бар шешімге айналады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -363,13 +640,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A mortgage adds leverage"
+              "en": "A mortgage adds leverage",
+              "ru": "Ипотека добавляет кредитное плечо",
+              "kk": "Ипотека левередж қосады"
             },
             "body": {
-              "en": "A mortgage lets you buy property before saving the full price. That increases access, but it also increases exposure. Small changes in income, rates, or property price can matter more because borrowed money is involved."
+              "en": "A mortgage lets you buy property before saving the full price. That increases access, but it also increases exposure. Small changes in income, rates, or property price can matter more because borrowed money is involved.",
+              "ru": "Ипотека позволяет купить недвижимость до того, как вы накопите полную стоимость. Это расширяет доступ, но также увеличивает риск. Небольшие изменения дохода, ставок или цены недвижимости могут иметь большее значение, потому что используются заёмные деньги.",
+              "kk": "Ипотека толық бағаны жинамай тұрып мүлік сатып алуға мүмкіндік береді. Бұл қолжетімділікті арттырады, бірақ тәуекелді де көбейтеді. Қарыз ақша болғандықтан, табыс, мөлшерлеме немесе мүлік бағасындағы шағын өзгерістер маңыздырақ болады."
             },
             "tip": {
-              "en": "Leverage magnifies both progress and mistakes."
+              "en": "Leverage magnifies both progress and mistakes.",
+              "ru": "Кредитное плечо усиливает и прогресс, и ошибки.",
+              "kk": "Левередж ілгерілеуді де, қателікті де үлкейтеді."
             }
           },
           {
@@ -377,13 +660,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "The payment is not just price divided by months"
+              "en": "The payment is not just price divided by months",
+              "ru": "Платёж — это не просто цена, разделённая на месяцы",
+              "kk": "Төлем — бағаны айларға жай бөлу емес"
             },
             "body": {
-              "en": "Mortgage payments depend on principal, interest rate, term, and repayment structure. A longer term can lower the monthly payment but increase total interest. A lower monthly payment is not always a cheaper loan."
+              "en": "Mortgage payments depend on principal, interest rate, term, and repayment structure. A longer term can lower the monthly payment but increase total interest. A lower monthly payment is not always a cheaper loan.",
+              "ru": "Ипотечные платежи зависят от суммы долга, процентной ставки, срока и структуры погашения. Более длинный срок может снизить ежемесячный платёж, но увеличить общую сумму процентов. Меньший ежемесячный платёж не всегда означает более дешёвый кредит.",
+              "kk": "Ипотекалық төлемдер негізгі қарызға, пайыздық мөлшерлемеге, мерзімге және өтеу құрылымына байланысты. Ұзақ мерзім ай сайынғы төлемді азайтуы мүмкін, бірақ жалпы пайызды көбейтеді. Төмен ай сайынғы төлем әрқашан арзан несие деген сөз емес."
             },
             "example": {
-              "en": "Borrowing ₸25,000,000 for 15 years costs much more in monthly cash flow than a 25-year term, but the 25-year term can create far more total interest."
+              "en": "Borrowing ₸25,000,000 for 15 years costs much more in monthly cash flow than a 25-year term, but the 25-year term can create far more total interest.",
+              "ru": "Кредит ₸25,000,000 на 15 лет требует гораздо большего ежемесячного денежного потока, чем срок на 25 лет, но 25-летний срок может создать намного больше процентов в сумме.",
+              "kk": "₸25,000,000 қарызды 15 жылға алу ай сайынғы ақша ағыны бойынша 25 жылдық мерзімнен қымбатырақ, бірақ 25 жылдық мерзім жалпы пайызды әлдеқайда көбейтуі мүмкін."
             }
           },
           {
@@ -391,13 +680,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Equity grows slowly at first"
+              "en": "Equity grows slowly at first",
+              "ru": "Собственный капитал сначала растёт медленно",
+              "kk": "Меншікті капитал бастапқыда баяу өседі"
             },
             "body": {
-              "en": "Early mortgage payments often contain a large interest portion. Over time, more of each payment goes toward principal. This means owning a home for only a short period may build less equity than expected after fees and interest."
+              "en": "Early mortgage payments often contain a large interest portion. Over time, more of each payment goes toward principal. This means owning a home for only a short period may build less equity than expected after fees and interest.",
+              "ru": "Первые ипотечные платежи часто содержат большую долю процентов. Со временем всё большая часть каждого платежа идёт на основной долг. Поэтому владение жильём короткое время может создать меньше собственного капитала, чем ожидалось, после комиссий и процентов.",
+              "kk": "Ипотеканың алғашқы төлемдерінде пайыз үлесі жиі үлкен болады. Уақыт өте әр төлемнің көбірек бөлігі негізгі қарызға кетеді. Сондықтан үйді қысқа уақыт иелену комиссиялар мен пайыздардан кейін күткеннен аз меншікті капитал құруы мүмкін."
             },
             "tip": {
-              "en": "The first years of a mortgage may feel like ownership, but much of the payment can be financing cost."
+              "en": "The first years of a mortgage may feel like ownership, but much of the payment can be financing cost.",
+              "ru": "Первые годы ипотеки могут ощущаться как владение, но значительная часть платежа может быть стоимостью финансирования.",
+              "kk": "Ипотеканың алғашқы жылдары иелік сияқты сезілуі мүмкін, бірақ төлемнің үлкен бөлігі қаржыландыру құны болуы ықтимал."
             }
           },
           {
@@ -405,7 +700,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Down payment changes the risk"
+              "en": "Down payment changes the risk",
+              "ru": "Первоначальный взнос меняет риск",
+              "kk": "Бастапқы жарна тәуекелді өзгертеді"
             },
             "content": {
               "en": {
@@ -447,6 +744,86 @@
                     "text": "Borrowing more can make purchase possible, but it leaves less protection if income falls or property value drops."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два покупателя приобретают квартиру за ₸40,000,000. Один вносит больший первоначальный взнос, другой берёт больше в долг."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Покупатель",
+                        "Первоначальный взнос",
+                        "Ипотека",
+                        "Основной эффект"
+                      ],
+                      [
+                        "A",
+                        "₸12,000,000",
+                        "₸28,000,000",
+                        "Меньшее ежемесячное обязательство и меньшее плечо"
+                      ],
+                      [
+                        "B",
+                        "₸4,000,000",
+                        "₸36,000,000",
+                        "Большее ежемесячное обязательство и большее плечо"
+                      ],
+                      [
+                        "Если цена падает на 10%",
+                        "Недвижимость теряет ₸4,000,000",
+                        "Убыток сначала ударяет по собственному капиталу владельца"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Более крупный кредит может сделать покупку возможной, но оставляет меньше защиты, если доход упадёт или стоимость недвижимости снизится."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі сатып алушы ₸40,000,000 пәтер сатып алады. Біреуі үлкен бастапқы жарна салады, екіншісі көбірек қарыз алады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Сатып алушы",
+                        "Бастапқы жарна",
+                        "Ипотека",
+                        "Негізгі әсер"
+                      ],
+                      [
+                        "A",
+                        "₸12,000,000",
+                        "₸28,000,000",
+                        "Ай сайынғы міндеттеме және левередж төмен"
+                      ],
+                      [
+                        "B",
+                        "₸4,000,000",
+                        "₸36,000,000",
+                        "Ай сайынғы міндеттеме және левередж жоғары"
+                      ],
+                      [
+                        "Баға 10% түссе",
+                        "Мүлік ₸4,000,000 жоғалтады",
+                        "Шығын алдымен иесінің меншікті капиталына тиеді"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Көбірек қарыз алу сатып алуды мүмкін етуі мүмкін, бірақ табыс төмендесе немесе мүлік құны түссе, қорғаныс аз қалады."
+                  }
+                ]
               }
             }
           },
@@ -455,10 +832,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Test a mortgage payment"
+              "en": "Test a mortgage payment",
+              "ru": "Проверьте ипотечный платёж",
+              "kk": "Ипотекалық төлемді тексеріңіз"
             },
             "body": {
-              "en": "Change the loan amount, rate, and term to see how the monthly payment reacts. Use it to understand sensitivity, not to approve a real loan."
+              "en": "Change the loan amount, rate, and term to see how the monthly payment reacts. Use it to understand sensitivity, not to approve a real loan.",
+              "ru": "Меняйте сумму кредита, ставку и срок, чтобы увидеть, как реагирует ежемесячный платёж. Используйте это для понимания чувствительности, а не для одобрения реального кредита.",
+              "kk": "Ай сайынғы төлем қалай өзгеретінін көру үшін несие сомасын, мөлшерлемені және мерзімді өзгертіңіз. Мұны нақты несиені мақұлдау үшін емес, сезімталдықты түсіну үшін пайдаланыңыз."
             },
             "interactiveType": "simulator",
             "interactiveContent": {
@@ -501,6 +882,86 @@
                     "term_months": 120
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Оцените ежемесячный ипотечный платёж по сумме кредита, годовой ставке и сроку.",
+                "inputs": [
+                  {
+                    "id": "principal",
+                    "label": "Сумма кредита (₸)",
+                    "default": 25000000
+                  },
+                  {
+                    "id": "rate_pct",
+                    "label": "Годовая ставка (%)",
+                    "default": 16
+                  },
+                  {
+                    "id": "term_months",
+                    "label": "Срок (месяцев)",
+                    "default": 240
+                  }
+                ],
+                "presets": [
+                  {
+                    "label": "Кредит на небольшую квартиру",
+                    "principal": 18000000,
+                    "rate_pct": 16,
+                    "term_months": 180
+                  },
+                  {
+                    "label": "Более крупная ипотека",
+                    "principal": 35000000,
+                    "rate_pct": 15,
+                    "term_months": 240
+                  },
+                  {
+                    "label": "Более короткий срок",
+                    "principal": 25000000,
+                    "rate_pct": 16,
+                    "term_months": 120
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Несие сомасы, жылдық мөлшерлеме және мерзім бойынша ай сайынғы ипотекалық төлемді бағалаңыз.",
+                "inputs": [
+                  {
+                    "id": "principal",
+                    "label": "Несие сомасы (₸)",
+                    "default": 25000000
+                  },
+                  {
+                    "id": "rate_pct",
+                    "label": "Жылдық мөлшерлеме (%)",
+                    "default": 16
+                  },
+                  {
+                    "id": "term_months",
+                    "label": "Мерзім (ай)",
+                    "default": 240
+                  }
+                ],
+                "presets": [
+                  {
+                    "label": "Шағын пәтер несиесі",
+                    "principal": 18000000,
+                    "rate_pct": 16,
+                    "term_months": 180
+                  },
+                  {
+                    "label": "Үлкенірек ипотека",
+                    "principal": 35000000,
+                    "rate_pct": 15,
+                    "term_months": 240
+                  },
+                  {
+                    "label": "Қысқарақ мерзім",
+                    "principal": 25000000,
+                    "rate_pct": 16,
+                    "term_months": 120
+                  }
+                ]
               }
             }
           },
@@ -509,13 +970,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "A mortgage is a long cash-flow commitment"
+              "en": "A mortgage is a long cash-flow commitment",
+              "ru": "Ипотека — это долгосрочное обязательство по денежному потоку",
+              "kk": "Ипотека — ұзақ мерзімді ақша ағыны міндеттемесі"
             },
             "body": {
-              "en": "A mortgage is not only a way to buy property; it is a long-term claim on future income. The safer question is not “Can I get approved?” but “Can I keep paying through income shocks, repairs, and rate changes?”"
+              "en": "A mortgage is not only a way to buy property; it is a long-term claim on future income. The safer question is not “Can I get approved?” but “Can I keep paying through income shocks, repairs, and rate changes?”",
+              "ru": "Ипотека — это не только способ купить недвижимость; это долгосрочное требование к будущему доходу. Более безопасный вопрос не “Одобрят ли мне?”, а “Смогу ли я платить при шоках дохода, ремонтах и изменении ставок?”",
+              "kk": "Ипотека — мүлік сатып алудың ғана жолы емес; ол болашақ табысқа ұзақ мерзімді талап. Қауіпсіз сұрақ “Маған мақұлдай ма?” емес, “Табыс шоктары, жөндеу және мөлшерлеме өзгерістері кезінде төлей аламын ба?”"
             },
             "tip": {
-              "en": "Approval is the lender's threshold. Affordability should be your own stricter threshold."
+              "en": "Approval is the lender's threshold. Affordability should be your own stricter threshold.",
+              "ru": "Одобрение — это порог банка. Доступность должна быть вашим собственным, более строгим порогом.",
+              "kk": "Мақұлдау — несие берушінің шегі. Қолжетімділік сіздің өзіңіздің қатаңырақ шегіңіз болуы керек."
             }
           }
         ]
@@ -524,7 +991,9 @@
         "quiz_id": 1602,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Mortgages — Check"
+          "en": "Mortgages — Check",
+          "ru": "Ипотека — проверка",
+          "kk": "Ипотека — тексеру"
         },
         "questions": [
           {
@@ -532,14 +1001,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A buyer chooses a 25-year mortgage because the monthly payment is lower than a 15-year mortgage. What trade-off should they understand?"
+              "en": "A buyer chooses a 25-year mortgage because the monthly payment is lower than a 15-year mortgage. What trade-off should they understand?",
+              "ru": "Покупатель выбирает ипотеку на 25 лет, потому что ежемесячный платёж ниже, чем при ипотеке на 15 лет. Какой компромисс он должен понимать?",
+              "kk": "Сатып алушы ай сайынғы төлем 15 жылдық ипотекадан төмен болғандықтан 25 жылдық ипотеканы таңдайды. Ол қандай ымыраны түсінуі керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The lower monthly payment may come with much higher total interest over time"
+                  "en": "The lower monthly payment may come with much higher total interest over time",
+                  "ru": "Более низкий ежемесячный платёж может означать гораздо большую общую сумму процентов со временем",
+                  "kk": "Төмен ай сайынғы төлем уақыт өте әлдеқайда жоғары жалпы пайызға әкелуі мүмкін"
                 },
                 "is_correct": true
               },
@@ -547,7 +1020,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The longer term always means the property is cheaper"
+                  "en": "The longer term always means the property is cheaper",
+                  "ru": "Более длинный срок всегда означает, что недвижимость дешевле",
+                  "kk": "Ұзақ мерзім әрқашан мүлік арзанырақ дегенді білдіреді"
                 },
                 "is_correct": false
               },
@@ -555,7 +1030,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The principal disappears faster with a longer term"
+                  "en": "The principal disappears faster with a longer term",
+                  "ru": "Основной долг исчезает быстрее при более длинном сроке",
+                  "kk": "Ұзақ мерзімде негізгі қарыз тезірек жоғалады"
                 },
                 "is_correct": false
               },
@@ -563,7 +1040,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Interest is paid only in the final year"
+                  "en": "Interest is paid only in the final year",
+                  "ru": "Проценты платятся только в последний год",
+                  "kk": "Пайыз тек соңғы жылы төленеді"
                 },
                 "is_correct": false
               }
@@ -574,14 +1053,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why does a small down payment increase financial risk?"
+              "en": "Why does a small down payment increase financial risk?",
+              "ru": "Почему маленький первоначальный взнос увеличивает финансовый риск?",
+              "kk": "Неге шағын бастапқы жарна қаржылық тәуекелді арттырады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It increases leverage and leaves less equity cushion if property prices fall"
+                  "en": "It increases leverage and leaves less equity cushion if property prices fall",
+                  "ru": "Он увеличивает плечо и оставляет меньшую подушку собственного капитала, если цены на недвижимость падают",
+                  "kk": "Ол левереджді арттырады және мүлік бағасы түссе, меншікті капитал қорғанысын аз қалдырады"
                 },
                 "is_correct": true
               },
@@ -589,7 +1072,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It guarantees a lower interest rate"
+                  "en": "It guarantees a lower interest rate",
+                  "ru": "Он гарантирует более низкую процентную ставку",
+                  "kk": "Ол төмен пайыздық мөлшерлемені кепілдейді"
                 },
                 "is_correct": false
               },
@@ -597,7 +1082,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It removes the need for income stability"
+                  "en": "It removes the need for income stability",
+                  "ru": "Он устраняет необходимость в стабильном доходе",
+                  "kk": "Ол табыс тұрақтылығы қажеттілігін жояды"
                 },
                 "is_correct": false
               },
@@ -605,7 +1092,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It makes repairs free for the buyer"
+                  "en": "It makes repairs free for the buyer",
+                  "ru": "Он делает ремонт бесплатным для покупателя",
+                  "kk": "Ол жөндеуді сатып алушы үшін тегін етеді"
                 },
                 "is_correct": false
               }
@@ -616,14 +1105,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which mortgage question is most useful before buying?"
+              "en": "Which mortgage question is most useful before buying?",
+              "ru": "Какой ипотечный вопрос наиболее полезен перед покупкой?",
+              "kk": "Сатып алмас бұрын қай ипотекалық сұрақ ең пайдалы?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Could I keep paying after a job loss, repair bill, or rate increase?"
+                  "en": "Could I keep paying after a job loss, repair bill, or rate increase?",
+                  "ru": "Смогу ли я продолжать платить после потери работы, счёта за ремонт или повышения ставки?",
+                  "kk": "Жұмыстан айырылу, жөндеу шоты немесе мөлшерлеме өсуінен кейін төлеуді жалғастыра аламын ба?"
                 },
                 "is_correct": true
               },
@@ -631,7 +1124,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "What is the maximum amount the bank will approve?"
+                  "en": "What is the maximum amount the bank will approve?",
+                  "ru": "Какую максимальную сумму одобрит банк?",
+                  "kk": "Банк мақұлдайтын ең жоғары сома қандай?"
                 },
                 "is_correct": false
               },
@@ -639,7 +1134,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Can I ignore maintenance because the bank financed the property?"
+                  "en": "Can I ignore maintenance because the bank financed the property?",
+                  "ru": "Могу ли я игнорировать обслуживание, потому что банк профинансировал недвижимость?",
+                  "kk": "Банк мүлікті қаржыландырғандықтан, күтім шығындарын елемеуге бола ма?"
                 },
                 "is_correct": false
               },
@@ -647,7 +1144,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Will the property price rise every year?"
+                  "en": "Will the property price rise every year?",
+                  "ru": "Будет ли цена недвижимости расти каждый год?",
+                  "kk": "Мүлік бағасы жыл сайын өсе ме?"
                 },
                 "is_correct": false
               }
@@ -659,10 +1158,14 @@
     {
       "code": "rent_vs_buy",
       "title": {
-        "en": "Rent vs Buy"
+        "en": "Rent vs Buy",
+        "ru": "Аренда или покупка",
+        "kk": "Жалдау немесе сатып алу"
       },
       "description": {
-        "en": "Renting and buying are different packages of flexibility, control, risk, and cash-flow commitment."
+        "en": "Renting and buying are different packages of flexibility, control, risk, and cash-flow commitment.",
+        "ru": "Аренда и покупка — это разные наборы гибкости, контроля, риска и обязательств по денежному потоку.",
+        "kk": "Жалдау мен сатып алу — икемділік, бақылау, тәуекел және ақша ағыны міндеттемелерінің әртүрлі жиынтығы."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -674,13 +1177,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Rent is not wasted by default"
+              "en": "Rent is not wasted by default",
+              "ru": "Аренда не является пустой тратой по умолчанию",
+              "kk": "Жалдау әдепкіде бос шығын емес"
             },
             "body": {
-              "en": "Renting buys housing services and flexibility. Buying buys housing services plus exposure to property ownership. The better choice depends on time horizon, costs, stability, and alternatives for your money."
+              "en": "Renting buys housing services and flexibility. Buying buys housing services plus exposure to property ownership. The better choice depends on time horizon, costs, stability, and alternatives for your money.",
+              "ru": "Аренда покупает жилищную услугу и гибкость. Покупка покупает жилищную услугу плюс участие в рисках владения недвижимостью. Лучший выбор зависит от горизонта, расходов, стабильности и альтернативного использования денег.",
+              "kk": "Жалдау тұрғын үй қызметін және икемділікті сатып алады. Сатып алу тұрғын үй қызметіне қоса мүлік иелігі тәуекеліне қатысуды береді. Жақсы таңдау уақыт горизонтына, шығындарға, тұрақтылыққа және ақшаңыздың балама қолданылуына байланысты."
             },
             "tip": {
-              "en": "Do not compare rent with mortgage payment alone; compare total packages."
+              "en": "Do not compare rent with mortgage payment alone; compare total packages.",
+              "ru": "Не сравнивайте только аренду с ипотечным платежом; сравнивайте полные пакеты.",
+              "kk": "Жалдауды тек ипотекалық төлеммен салыстырмаңыз; толық пакеттерді салыстырыңыз."
             }
           },
           {
@@ -688,10 +1197,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Buying has hidden carrying costs"
+              "en": "Buying has hidden carrying costs",
+              "ru": "У покупки есть скрытые текущие расходы",
+              "kk": "Сатып алудың жасырын ұстау шығындары бар"
             },
             "body": {
-              "en": "Owners pay more than a mortgage. Maintenance, repairs, taxes, insurance, building fees, furnishing, and transaction costs all matter. A home that looks affordable from the monthly payment can be expensive after full carrying costs."
+              "en": "Owners pay more than a mortgage. Maintenance, repairs, taxes, insurance, building fees, furnishing, and transaction costs all matter. A home that looks affordable from the monthly payment can be expensive after full carrying costs.",
+              "ru": "Владельцы платят не только ипотеку. Обслуживание, ремонт, налоги, страхование, платежи за дом, меблировка и транзакционные расходы тоже важны. Жильё, которое кажется доступным по ежемесячному платежу, может быть дорогим после учёта всех текущих расходов.",
+              "kk": "Иелер ипотекадан да көп төлейді. Күтіп ұстау, жөндеу, салық, сақтандыру, үй төлемдері, жиһаздау және мәміле шығындары маңызды. Ай сайынғы төлемі қолжетімді көрінетін үй толық ұстау шығындарынан кейін қымбат болуы мүмкін."
             }
           },
           {
@@ -699,13 +1212,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Time horizon changes the answer"
+              "en": "Time horizon changes the answer",
+              "ru": "Горизонт времени меняет ответ",
+              "kk": "Уақыт горизонты жауапты өзгертеді"
             },
             "body": {
-              "en": "Buying becomes more attractive when you stay long enough to spread transaction costs and benefit from stability. Renting is often stronger when your job, family needs, or city may change soon. Flexibility has economic value."
+              "en": "Buying becomes more attractive when you stay long enough to spread transaction costs and benefit from stability. Renting is often stronger when your job, family needs, or city may change soon. Flexibility has economic value.",
+              "ru": "Покупка становится привлекательнее, когда вы живёте достаточно долго, чтобы распределить транзакционные расходы и получить выгоду от стабильности. Аренда часто сильнее, если работа, семейные потребности или город могут скоро измениться. У гибкости есть экономическая ценность.",
+              "kk": "Мәміле шығындарын жеткілікті жылдарға таратып, тұрақтылықтан пайда көретіндей ұзақ тұрсаңыз, сатып алу тартымдырақ болады. Жұмыс, отбасы қажеттілігі немесе қала жақында өзгеруі мүмкін болса, жалдау жиі тиімдірек. Икемділіктің экономикалық құны бар."
             },
             "example": {
-              "en": "If selling costs and moving costs total ₸2,000,000, staying only one year can make ownership expensive even if the monthly mortgage looks close to rent."
+              "en": "If selling costs and moving costs total ₸2,000,000, staying only one year can make ownership expensive even if the monthly mortgage looks close to rent.",
+              "ru": "Если расходы на продажу и переезд составляют ₸2,000,000, проживание всего один год может сделать владение дорогим, даже если ежемесячная ипотека похожа на аренду.",
+              "kk": "Егер сату және көшу шығындары ₸2,000,000 болса, бір жыл ғана тұру иелікті қымбат етуі мүмкін, тіпті ай сайынғы ипотека жалдауға жақын көрінсе де."
             }
           },
           {
@@ -713,7 +1232,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Monthly payment is only the beginning"
+              "en": "Monthly payment is only the beginning",
+              "ru": "Ежемесячный платёж — только начало",
+              "kk": "Ай сайынғы төлем — тек бастамасы"
             },
             "content": {
               "en": {
@@ -762,6 +1283,100 @@
                     "text": "The decision is about risk, flexibility, ownership exposure, and total cost, not a single monthly number."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Человек сравнивает аренду за ₸250,000 в месяц с покупкой похожей квартиры с ипотечным платежом ₸310,000. Разница — не только ₸60,000."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Статья расходов",
+                        "Аренда",
+                        "Покупка"
+                      ],
+                      [
+                        "Ежемесячный жилищный платёж",
+                        "₸250,000 аренда",
+                        "₸310,000 ипотека"
+                      ],
+                      [
+                        "Обслуживание",
+                        "Обычно ответственность арендодателя",
+                        "Платит владелец"
+                      ],
+                      [
+                        "Транзакционные расходы",
+                        "Низкие",
+                        "Высокие при покупке и продаже"
+                      ],
+                      [
+                        "Гибкость",
+                        "Выше",
+                        "Ниже"
+                      ],
+                      [
+                        "Возможный рост/падение цены",
+                        "Нет прямого участия",
+                        "Владелец несёт риск"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Решение касается риска, гибкости, участия во владении и общей стоимости, а не одного ежемесячного числа."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Адам айына ₸250,000 жалдауды ұқсас пәтерді ₸310,000 ипотекалық төлеммен сатып алумен салыстырады. Айырмашылық тек ₸60,000 емес."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Шығыс бабы",
+                        "Жалдау",
+                        "Сатып алу"
+                      ],
+                      [
+                        "Ай сайынғы тұрғын үй төлемі",
+                        "₸250,000 жалдау",
+                        "₸310,000 ипотека"
+                      ],
+                      [
+                        "Күтіп ұстау",
+                        "Әдетте жалға берушінің жауапкершілігі",
+                        "Иесі төлейді"
+                      ],
+                      [
+                        "Мәміле шығындары",
+                        "Төмен",
+                        "Сатып алу және сату кезінде жоғары"
+                      ],
+                      [
+                        "Икемділік",
+                        "Жоғары",
+                        "Төмен"
+                      ],
+                      [
+                        "Мүмкін баға өсімі/шығыны",
+                        "Тікелей қатысу жоқ",
+                        "Иесі тәуекелге ұшырайды"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Шешім тәуекел, икемділік, иелікке қатысу және жалпы шығын туралы, бір ғана ай сайынғы сан туралы емес."
+                  }
+                ]
               }
             }
           },
@@ -770,10 +1385,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Choose the stronger option"
+              "en": "Choose the stronger option",
+              "ru": "Выберите более сильный вариант",
+              "kk": "Күштірек нұсқаны таңдаңыз"
             },
             "body": {
-              "en": "Decide whether renting or buying better matches each situation."
+              "en": "Decide whether renting or buying better matches each situation.",
+              "ru": "Решите, что лучше подходит к каждой ситуации: аренда или покупка.",
+              "kk": "Әр жағдайға жалдау ма, сатып алу ма жақсы сәйкес келетінін шешіңіз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -800,6 +1419,54 @@
                     "explanation": "Ownership without a buffer can turn normal repairs into financial stress."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите жилищный вариант, который лучше подходит к сценарию.",
+                "options": [
+                  "Аренда сильнее",
+                  "Покупка сильнее"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Человек может переехать в другой город по работе в течение года.",
+                    "correct_answer": "Аренда сильнее",
+                    "explanation": "Гибкость ценна, когда горизонт короткий и неопределённый."
+                  },
+                  {
+                    "text": "У семьи стабильный доход, она планирует остаться на десять лет и сохраняет сильный резерв после первоначального взноса.",
+                    "correct_answer": "Покупка сильнее",
+                    "explanation": "Длинный горизонт и денежная подушка помогают легче переносить расходы владения."
+                  },
+                  {
+                    "text": "Покупатель едва может позволить себе ипотеку, и после неё не останется сбережений на ремонт.",
+                    "correct_answer": "Аренда сильнее",
+                    "explanation": "Владение без подушки может превратить обычный ремонт в финансовый стресс."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Сценарийге жақсырақ сәйкес келетін тұрғын үй таңдауын белгілеңіз.",
+                "options": [
+                  "Жалдау тиімдірек",
+                  "Сатып алу тиімдірек"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Адам жұмыс үшін бір жыл ішінде басқа қалаға көшуі мүмкін.",
+                    "correct_answer": "Жалдау тиімдірек",
+                    "explanation": "Уақыт горизонты қысқа әрі белгісіз болса, икемділік құнды."
+                  },
+                  {
+                    "text": "Отбасының табысы тұрақты, он жыл тұруды жоспарлайды және бастапқы жарнадан кейін мықты төтенше қор қалады.",
+                    "correct_answer": "Сатып алу тиімдірек",
+                    "explanation": "Ұзақ горизонт пен ақша қоры иелік шығындарын көтеруді жеңілдетеді."
+                  },
+                  {
+                    "text": "Сатып алушы ипотеканы әрең көтереді және жөндеуге жинағы қалмайды.",
+                    "correct_answer": "Жалдау тиімдірек",
+                    "explanation": "Қорсыз иелік әдеттегі жөндеуді қаржылық күйзеліске айналдыруы мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -808,13 +1475,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Compare full systems"
+              "en": "Compare full systems",
+              "ru": "Сравнивайте полные системы",
+              "kk": "Толық жүйелерді салыстырыңыз"
             },
             "body": {
-              "en": "Renting trades ownership exposure for flexibility. Buying trades flexibility for control, stability, leverage, and property risk. The right choice is personal, but the analysis should include full costs, time horizon, and what else your down payment could do."
+              "en": "Renting trades ownership exposure for flexibility. Buying trades flexibility for control, stability, leverage, and property risk. The right choice is personal, but the analysis should include full costs, time horizon, and what else your down payment could do.",
+              "ru": "Аренда меняет участие во владении на гибкость. Покупка меняет гибкость на контроль, стабильность, кредитное плечо и риск недвижимости. Правильный выбор индивидуален, но анализ должен включать полные расходы, горизонт времени и альтернативное использование первоначального взноса.",
+              "kk": "Жалдау иелік тәуекелін икемділікке айырбастайды. Сатып алу икемділікті бақылауға, тұрақтылыққа, левереджге және мүлік тәуекеліне айырбастайды. Дұрыс таңдау жеке, бірақ талдау толық шығындарды, уақыт горизонтын және бастапқы жарнаның басқа мүмкіндігін қамтуы керек."
             },
             "tip": {
-              "en": "Rent is not waste; it is the price of housing without ownership risk."
+              "en": "Rent is not waste; it is the price of housing without ownership risk.",
+              "ru": "Аренда — не пустая трата; это цена жилья без риска владения.",
+              "kk": "Жалдау бос шығын емес; ол иелік тәуекелінсіз тұрғын үйдің бағасы."
             }
           }
         ]
@@ -823,7 +1496,9 @@
         "quiz_id": 1603,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Rent vs Buy — Check"
+          "en": "Rent vs Buy — Check",
+          "ru": "Аренда или покупка — проверка",
+          "kk": "Жалдау немесе сатып алу — тексеру"
         },
         "questions": [
           {
@@ -831,14 +1506,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Someone says buying is always better because rent is “throwing money away.” What is the strongest response?"
+              "en": "Someone says buying is always better because rent is “throwing money away.” What is the strongest response?",
+              "ru": "Кто-то говорит, что покупка всегда лучше, потому что аренда — это “деньги на ветер”. Какой самый сильный ответ?",
+              "kk": "Біреу сатып алу әрқашан жақсы, себебі жалдау “ақшаны далаға шашу” дейді. Ең күшті жауап қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Rent pays for housing and flexibility, while buying adds costs, risk, and capital commitment"
+                  "en": "Rent pays for housing and flexibility, while buying adds costs, risk, and capital commitment",
+                  "ru": "Аренда оплачивает жильё и гибкость, а покупка добавляет расходы, риск и привязку капитала",
+                  "kk": "Жалдау тұрғын үй мен икемділікке төлейді, ал сатып алу шығын, тәуекел және капитал міндеттемесін қосады"
                 },
                 "is_correct": true
               },
@@ -846,7 +1525,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Rent is always better than buying in every case"
+                  "en": "Rent is always better than buying in every case",
+                  "ru": "Аренда всегда лучше покупки в любом случае",
+                  "kk": "Жалдау барлық жағдайда сатып алудан жақсы"
                 },
                 "is_correct": false
               },
@@ -854,7 +1535,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Buying has no ongoing costs after the down payment"
+                  "en": "Buying has no ongoing costs after the down payment",
+                  "ru": "После первоначального взноса у покупки нет текущих расходов",
+                  "kk": "Бастапқы жарнадан кейін сатып алудың ағымдағы шығындары жоқ"
                 },
                 "is_correct": false
               },
@@ -862,7 +1545,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Renting gives ownership of part of the building"
+                  "en": "Renting gives ownership of part of the building",
+                  "ru": "Аренда даёт право собственности на часть здания",
+                  "kk": "Жалдау ғимараттың бір бөлігіне меншік береді"
                 },
                 "is_correct": false
               }
@@ -873,14 +1558,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why does a short expected stay often make renting more attractive?"
+              "en": "Why does a short expected stay often make renting more attractive?",
+              "ru": "Почему короткий ожидаемый срок проживания часто делает аренду привлекательнее?",
+              "kk": "Неге күтілетін қысқа тұру мерзімі жалдауды жиі тартымдырақ етеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Buying and selling costs may not be spread over enough years"
+                  "en": "Buying and selling costs may not be spread over enough years",
+                  "ru": "Расходы на покупку и продажу могут не распределиться на достаточное количество лет",
+                  "kk": "Сатып алу және сату шығындары жеткілікті жылдарға таралмауы мүмкін"
                 },
                 "is_correct": true
               },
@@ -888,7 +1577,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Short stays make mortgages interest-free"
+                  "en": "Short stays make mortgages interest-free",
+                  "ru": "Короткое проживание делает ипотеку беспроцентной",
+                  "kk": "Қысқа тұру ипотеканы пайызсыз етеді"
                 },
                 "is_correct": false
               },
@@ -896,7 +1587,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Property prices cannot rise in short periods"
+                  "en": "Property prices cannot rise in short periods",
+                  "ru": "Цены на недвижимость не могут расти за короткие периоды",
+                  "kk": "Мүлік бағасы қысқа мерзімде өсе алмайды"
                 },
                 "is_correct": false
               },
@@ -904,7 +1597,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Renting removes all financial responsibility"
+                  "en": "Renting removes all financial responsibility",
+                  "ru": "Аренда снимает всю финансовую ответственность",
+                  "kk": "Жалдау барлық қаржылық жауапкершілікті алып тастайды"
                 },
                 "is_correct": false
               }
@@ -915,14 +1610,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which comparison is most complete?"
+              "en": "Which comparison is most complete?",
+              "ru": "Какое сравнение наиболее полное?",
+              "kk": "Қай салыстыру ең толық?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Rent plus flexibility versus mortgage, owner costs, transaction costs, risk, and alternative use of down payment"
+                  "en": "Rent plus flexibility versus mortgage, owner costs, transaction costs, risk, and alternative use of down payment",
+                  "ru": "Аренда плюс гибкость против ипотеки, расходов владельца, транзакционных расходов, риска и альтернативного использования первоначального взноса",
+                  "kk": "Жалдау плюс икемділікке қарсы ипотека, иелік шығындары, мәміле шығындары, тәуекел және бастапқы жарнаның балама қолданылуы"
                 },
                 "is_correct": true
               },
@@ -930,7 +1629,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Rent payment versus mortgage payment only"
+                  "en": "Rent payment versus mortgage payment only",
+                  "ru": "Только арендный платёж против ипотечного платежа",
+                  "kk": "Тек жалдау төлемі мен ипотекалық төлем"
                 },
                 "is_correct": false
               },
@@ -938,7 +1639,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Apartment size versus number of bank branches nearby"
+                  "en": "Apartment size versus number of bank branches nearby",
+                  "ru": "Размер квартиры против количества отделений банков рядом",
+                  "kk": "Пәтер көлемі мен жақындағы банк бөлімшелерінің саны"
                 },
                 "is_correct": false
               },
@@ -946,7 +1649,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The buyer's emotions versus the landlord's personality"
+                  "en": "The buyer's emotions versus the landlord's personality",
+                  "ru": "Эмоции покупателя против личности арендодателя",
+                  "kk": "Сатып алушының эмоциясы мен жалға берушінің мінезі"
                 },
                 "is_correct": false
               }
@@ -958,10 +1663,14 @@
     {
       "code": "reits",
       "title": {
-        "en": "REITs"
+        "en": "REITs",
+        "ru": "REIT-фонды",
+        "kk": "REIT қорлары"
       },
       "description": {
-        "en": "REITs let investors access property income through listed securities, with more diversification and liquidity but less control."
+        "en": "REITs let investors access property income through listed securities, with more diversification and liquidity but less control.",
+        "ru": "REIT-фонды дают инвесторам доступ к доходу от недвижимости через биржевые ценные бумаги — с большей диверсификацией и ликвидностью, но меньшим контролем.",
+        "kk": "REIT қорлары инвесторларға биржалық бағалы қағаздар арқылы мүлік табысына қол жеткізуге мүмкіндік береді: диверсификация мен өтімділік көбірек, бірақ бақылау аз."
       },
       "estimatedMinutes": 5,
       "orderIndex": 3,
@@ -973,10 +1682,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Real estate without owning a flat"
+              "en": "Real estate without owning a flat",
+              "ru": "Недвижимость без владения квартирой",
+              "kk": "Пәтерге тікелей иелік етпей жылжымайтын мүлікке қатысу"
             },
             "body": {
-              "en": "A REIT is a company or fund structure that owns income-producing real estate. Investors buy shares or units instead of buying a building directly. This changes the access, diversification, liquidity, and control trade-offs."
+              "en": "A REIT is a company or fund structure that owns income-producing real estate. Investors buy shares or units instead of buying a building directly. This changes the access, diversification, liquidity, and control trade-offs.",
+              "ru": "REIT — это компания или фондовая структура, владеющая доходной недвижимостью. Инвесторы покупают акции или паи вместо прямой покупки здания. Это меняет компромиссы между доступом, диверсификацией, ликвидностью и контролем.",
+              "kk": "REIT — табыс әкелетін жылжымайтын мүлікке иелік ететін компания немесе қор құрылымы. Инвесторлар ғимаратты тікелей сатып алмай, акция немесе пай сатып алады. Бұл қолжетімділік, диверсификация, өтімділік және бақылау арасындағы ымыраны өзгертеді."
             }
           },
           {
@@ -984,13 +1697,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "What REIT investors actually get"
+              "en": "What REIT investors actually get",
+              "ru": "Что на самом деле получают инвесторы REIT",
+              "kk": "REIT инвесторлары нақты не алады"
             },
             "body": {
-              "en": "REIT investors usually receive exposure to rent collected from many properties. The REIT manages buildings, tenants, financing, and distributions. The investor owns a market-traded claim, not a specific apartment or office."
+              "en": "REIT investors usually receive exposure to rent collected from many properties. The REIT manages buildings, tenants, financing, and distributions. The investor owns a market-traded claim, not a specific apartment or office.",
+              "ru": "Инвесторы REIT обычно получают участие в аренде, собранной с многих объектов. REIT управляет зданиями, арендаторами, финансированием и выплатами. Инвестор владеет рыночной ценной бумагой, а не конкретной квартирой или офисом.",
+              "kk": "REIT инвесторлары әдетте көптеген объектілерден жиналатын жалдау табысына қатысады. REIT ғимараттарды, жалға алушыларды, қаржыландыруды және төлемдерді басқарады. Инвестор нақты пәтерге немесе кеңсеге емес, нарықта сатылатын талапқа иелік етеді."
             },
             "tip": {
-              "en": "A REIT is closer to owning a real estate business than owning one room in a building."
+              "en": "A REIT is closer to owning a real estate business than owning one room in a building.",
+              "ru": "REIT ближе к владению бизнесом недвижимости, чем к владению одной комнатой в здании.",
+              "kk": "REIT бір ғимараттағы бөлмеге иелік етуден гөрі жылжымайтын мүлік бизнесіне иелік етуге жақынырақ."
             }
           },
           {
@@ -998,10 +1717,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Liquidity cuts both ways"
+              "en": "Liquidity cuts both ways",
+              "ru": "Ликвидность работает в обе стороны",
+              "kk": "Өтімділіктің екі жағы бар"
             },
             "body": {
-              "en": "REIT shares can often be sold faster than physical property. That liquidity is useful, but it also means the market price can move daily with interest rates, investor mood, and stock-market conditions. Easier exit does not remove volatility."
+              "en": "REIT shares can often be sold faster than physical property. That liquidity is useful, but it also means the market price can move daily with interest rates, investor mood, and stock-market conditions. Easier exit does not remove volatility.",
+              "ru": "Акции REIT часто можно продать быстрее, чем физическую недвижимость. Такая ликвидность полезна, но она также означает, что рыночная цена может ежедневно двигаться из-за ставок, настроений инвесторов и условий фондового рынка. Более лёгкий выход не устраняет волатильность.",
+              "kk": "REIT акцияларын физикалық мүлікке қарағанда жиі тезірек сатуға болады. Бұл өтімділік пайдалы, бірақ нарықтық баға пайыздық мөлшерлемелер, инвестор көңіл-күйі және қор нарығы жағдайлары бойынша күн сайын өзгеруі мүмкін дегенді де білдіреді. Оңай шығу волатильділікті жоймайды."
             }
           },
           {
@@ -1009,7 +1732,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Direct property versus REIT"
+              "en": "Direct property versus REIT",
+              "ru": "Прямая недвижимость против REIT",
+              "kk": "Тікелей мүлік және REIT"
             },
             "content": {
               "en": {
@@ -1058,6 +1783,100 @@
                     "text": "A REIT solves access and diversification, but gives up direct control and adds market-price volatility."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У инвестора есть ₸5,000,000. Этого может быть мало для покупки целой квартиры, но достаточно для покупки биржевого участия в недвижимости через REIT или фонд."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Характеристика",
+                        "Прямая недвижимость",
+                        "REIT"
+                      ],
+                      [
+                        "Минимальный капитал",
+                        "Высокий",
+                        "Ниже"
+                      ],
+                      [
+                        "Диверсификация",
+                        "Обычно один объект",
+                        "Возможны многие объекты"
+                      ],
+                      [
+                        "Контроль",
+                        "Высокий над выбранным объектом",
+                        "Низкий над отдельными активами"
+                      ],
+                      [
+                        "Ликвидность",
+                        "Медленный процесс продажи",
+                        "Часто легче продать"
+                      ],
+                      [
+                        "Движение цены",
+                        "Менее заметно ежедневно",
+                        "Видимая рыночная волатильность"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "REIT решает вопрос доступа и диверсификации, но уступает прямой контроль и добавляет волатильность рыночной цены."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвесторда ₸5,000,000 бар. Бұл толық пәтер сатып алуға аз болуы мүмкін, бірақ REIT немесе қор арқылы биржалық жылжымайтын мүлік қатысуын алуға жеткілікті."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ерекшелік",
+                        "Тікелей мүлік",
+                        "REIT"
+                      ],
+                      [
+                        "Ең төмен капитал",
+                        "Жоғары",
+                        "Төмен"
+                      ],
+                      [
+                        "Диверсификация",
+                        "Әдетте бір объект",
+                        "Көп объект болуы мүмкін"
+                      ],
+                      [
+                        "Бақылау",
+                        "Таңдалған объектіге бақылау жоғары",
+                        "Жеке активтерге бақылау төмен"
+                      ],
+                      [
+                        "Өтімділік",
+                        "Сату процесі баяу",
+                        "Көбіне сату оңайырақ"
+                      ],
+                      [
+                        "Баға қозғалысы",
+                        "Күн сайын азырақ көрінеді",
+                        "Көрінетін нарықтық волатильдік"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "REIT қолжетімділік пен диверсификацияны шешеді, бірақ тікелей бақылаудан айырады және нарықтық баға волатильдігін қосады."
+                  }
+                ]
               }
             }
           },
@@ -1066,10 +1885,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Direct or REIT?"
+              "en": "Direct or REIT?",
+              "ru": "Прямая недвижимость или REIT?",
+              "kk": "Тікелей мүлік пе, REIT пе?"
             },
             "body": {
-              "en": "Match the investor's priority to the more suitable real-estate route."
+              "en": "Match the investor's priority to the more suitable real-estate route.",
+              "ru": "Сопоставьте приоритет инвестора с более подходящим способом инвестирования в недвижимость.",
+              "kk": "Инвестордың басымдығын жылжымайтын мүлікке қатысудың қолайлы жолымен сәйкестендіріңіз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1096,6 +1919,54 @@
                     "explanation": "Direct property has less visible daily pricing and more control, though it still has risk."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите путь, который лучше соответствует каждому приоритету.",
+                "options": [
+                  "Прямая недвижимость",
+                  "REIT"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инвестор хочет выбрать одну квартиру, отремонтировать её и лично управлять арендаторами.",
+                    "correct_answer": "Прямая недвижимость",
+                    "explanation": "Прямое владение даёт больше контроля над конкретным активом."
+                  },
+                  {
+                    "text": "Инвестор хочет доступ к многим объектам с меньшим капиталом и более простой продажей.",
+                    "correct_answer": "REIT",
+                    "explanation": "REIT может дать диверсифицированное участие в недвижимости с большей ликвидностью."
+                  },
+                  {
+                    "text": "Инвестор не переносит ежедневные колебания рыночной цены и хочет контролировать ремонт.",
+                    "correct_answer": "Прямая недвижимость",
+                    "explanation": "Прямая недвижимость имеет менее заметную ежедневную оценку и больше контроля, хотя риск всё равно остаётся."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр басымдыққа жақсырақ сәйкес келетін жолды таңдаңыз.",
+                "options": [
+                  "Тікелей мүлік",
+                  "REIT"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инвестор бір пәтерді таңдап, жөндеп, жалға алушыларды өзі басқарғысы келеді.",
+                    "correct_answer": "Тікелей мүлік",
+                    "explanation": "Тікелей иелік нақты активке көбірек бақылау береді."
+                  },
+                  {
+                    "text": "Инвестор аз капиталмен көп объектіге қатысуды және оңай сатуды қалайды.",
+                    "correct_answer": "REIT",
+                    "explanation": "REIT көбірек өтімділікпен диверсификацияланған мүлік қатысуын бере алады."
+                  },
+                  {
+                    "text": "Инвестор күнделікті нарықтық баға ауытқуларын көтере алмайды және жөндеуді бақылағысы келеді.",
+                    "correct_answer": "Тікелей мүлік",
+                    "explanation": "Тікелей мүлікте күнделікті баға азырақ көрінеді және бақылау көбірек, бірақ тәуекел бәрібір бар."
+                  }
+                ]
               }
             }
           },
@@ -1104,13 +1975,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "REITs change the trade-off"
+              "en": "REITs change the trade-off",
+              "ru": "REIT меняют компромисс",
+              "kk": "REIT ымыраны өзгертеді"
             },
             "body": {
-              "en": "REITs make real estate more accessible and diversified, but they do not make it risk-free. The investor trades direct control for professional management and market liquidity. The right choice depends on whether you value control, diversification, liquidity, or simplicity most."
+              "en": "REITs make real estate more accessible and diversified, but they do not make it risk-free. The investor trades direct control for professional management and market liquidity. The right choice depends on whether you value control, diversification, liquidity, or simplicity most.",
+              "ru": "REIT делают недвижимость более доступной и диверсифицированной, но не делают её безрисковой. Инвестор меняет прямой контроль на профессиональное управление и рыночную ликвидность. Правильный выбор зависит от того, что важнее: контроль, диверсификация, ликвидность или простота.",
+              "kk": "REIT жылжымайтын мүлікті қолжетімді әрі диверсификацияланған етеді, бірақ оны тәуекелсіз етпейді. Инвестор тікелей бақылауды кәсіби басқару мен нарықтық өтімділікке айырбастайды. Дұрыс таңдау сіз үшін бақылау, диверсификация, өтімділік немесе қарапайымдылықтың қайсысы маңызды екеніне байланысты."
             },
             "tip": {
-              "en": "REITs are real estate exposure, not the same experience as owning a property."
+              "en": "REITs are real estate exposure, not the same experience as owning a property.",
+              "ru": "REIT — это участие в недвижимости, но не тот же опыт, что владение объектом.",
+              "kk": "REIT — жылжымайтын мүлікке қатысу, бірақ мүлікке тікелей иелік етумен бірдей тәжірибе емес."
             }
           }
         ]
@@ -1119,7 +1996,9 @@
         "quiz_id": 1604,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "REITs — Check"
+          "en": "REITs — Check",
+          "ru": "REIT-фонды — проверка",
+          "kk": "REIT қорлары — тексеру"
         },
         "questions": [
           {
@@ -1127,14 +2006,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why might a small investor choose a REIT instead of buying an apartment?"
+              "en": "Why might a small investor choose a REIT instead of buying an apartment?",
+              "ru": "Почему небольшой инвестор может выбрать REIT вместо покупки квартиры?",
+              "kk": "Неге шағын инвестор пәтер сатып алудың орнына REIT таңдауы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A REIT can offer real estate exposure with lower capital, diversification, and easier selling"
+                  "en": "A REIT can offer real estate exposure with lower capital, diversification, and easier selling",
+                  "ru": "REIT может дать участие в недвижимости с меньшим капиталом, диверсификацией и более лёгкой продажей",
+                  "kk": "REIT аз капиталмен жылжымайтын мүлікке қатысу, диверсификация және оңай сатуды ұсына алады"
                 },
                 "is_correct": true
               },
@@ -1142,7 +2025,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "A REIT guarantees no price volatility"
+                  "en": "A REIT guarantees no price volatility",
+                  "ru": "REIT гарантирует отсутствие волатильности цены",
+                  "kk": "REIT баға волатильдігі болмайтынына кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -1150,7 +2035,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A REIT gives control over each tenant and repair"
+                  "en": "A REIT gives control over each tenant and repair",
+                  "ru": "REIT даёт контроль над каждым арендатором и ремонтом",
+                  "kk": "REIT әр жалға алушы мен жөндеуді бақылауға мүмкіндік береді"
                 },
                 "is_correct": false
               },
@@ -1158,7 +2045,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A REIT removes all interest-rate risk"
+                  "en": "A REIT removes all interest-rate risk",
+                  "ru": "REIT устраняет весь процентный риск",
+                  "kk": "REIT барлық пайыздық тәуекелді жояды"
                 },
                 "is_correct": false
               }
@@ -1169,14 +2058,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What does a REIT investor usually own?"
+              "en": "What does a REIT investor usually own?",
+              "ru": "Чем обычно владеет инвестор REIT?",
+              "kk": "REIT инвесторы әдетте неге иелік етеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A security linked to a portfolio of real estate assets or a real estate business"
+                  "en": "A security linked to a portfolio of real estate assets or a real estate business",
+                  "ru": "Ценной бумагой, связанной с портфелем недвижимости или бизнесом недвижимости",
+                  "kk": "Жылжымайтын мүлік активтері портфелімен немесе мүлік бизнесімен байланысты бағалы қағазға"
                 },
                 "is_correct": true
               },
@@ -1184,7 +2077,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "A specific room in each building"
+                  "en": "A specific room in each building",
+                  "ru": "Конкретной комнатой в каждом здании",
+                  "kk": "Әр ғимараттағы нақты бір бөлмеге"
                 },
                 "is_correct": false
               },
@@ -1192,7 +2087,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A guaranteed fixed deposit at a bank"
+                  "en": "A guaranteed fixed deposit at a bank",
+                  "ru": "Гарантированным банковским депозитом",
+                  "kk": "Банктегі кепілдендірілген мерзімді депозитке"
                 },
                 "is_correct": false
               },
@@ -1200,7 +2097,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A mortgage with no borrower risk"
+                  "en": "A mortgage with no borrower risk",
+                  "ru": "Ипотекой без риска заёмщика",
+                  "kk": "Қарыз алушы тәуекелі жоқ ипотекаға"
                 },
                 "is_correct": false
               }
@@ -1211,14 +2110,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is a downside of REIT liquidity?"
+              "en": "What is a downside of REIT liquidity?",
+              "ru": "В чём минус ликвидности REIT?",
+              "kk": "REIT өтімділігінің кемшілігі қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The market price can move daily with rates and investor sentiment"
+                  "en": "The market price can move daily with rates and investor sentiment",
+                  "ru": "Рыночная цена может ежедневно меняться из-за ставок и настроений инвесторов",
+                  "kk": "Нарықтық баға мөлшерлемелер мен инвестор көңіл-күйіне қарай күн сайын өзгеруі мүмкін"
                 },
                 "is_correct": true
               },
@@ -1226,7 +2129,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The investor can never sell"
+                  "en": "The investor can never sell",
+                  "ru": "Инвестор никогда не может продать",
+                  "kk": "Инвестор ешқашан сата алмайды"
                 },
                 "is_correct": false
               },
@@ -1234,7 +2139,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Liquidity guarantees stable income"
+                  "en": "Liquidity guarantees stable income",
+                  "ru": "Ликвидность гарантирует стабильный доход",
+                  "kk": "Өтімділік тұрақты табысқа кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -1242,7 +2149,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The investor must repair every property personally"
+                  "en": "The investor must repair every property personally",
+                  "ru": "Инвестор должен лично ремонтировать каждый объект",
+                  "kk": "Инвестор әр объектіні өзі жөндеуі керек"
                 },
                 "is_correct": false
               }
@@ -1254,10 +2163,14 @@
     {
       "code": "costs_and_risks",
       "title": {
-        "en": "Costs and Risks"
+        "en": "Costs and Risks",
+        "ru": "Расходы и риски",
+        "kk": "Шығындар мен тәуекелдер"
       },
       "description": {
-        "en": "Real estate returns can be weakened by maintenance, vacancy, leverage, taxes, concentration, and slow exits."
+        "en": "Real estate returns can be weakened by maintenance, vacancy, leverage, taxes, concentration, and slow exits.",
+        "ru": "Доходность недвижимости могут ослабить обслуживание, простой, кредитное плечо, налоги, концентрация и медленный выход.",
+        "kk": "Жылжымайтын мүлік табыстылығын күтім, бос тұру, левередж, салықтар, шоғырлану және баяу шығу әлсіретуі мүмкін."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1269,10 +2182,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Property risk hides in ordinary costs"
+              "en": "Property risk hides in ordinary costs",
+              "ru": "Риск недвижимости скрывается в обычных расходах",
+              "kk": "Мүлік тәуекелі қарапайым шығындардың ішінде жасырынады"
             },
             "body": {
-              "en": "Real estate often feels safe because it is visible and useful. But visible does not mean simple. Repairs, vacancy, financing, taxes, legal issues, and slow selling can turn a good-looking property into a weak investment."
+              "en": "Real estate often feels safe because it is visible and useful. But visible does not mean simple. Repairs, vacancy, financing, taxes, legal issues, and slow selling can turn a good-looking property into a weak investment.",
+              "ru": "Недвижимость часто кажется безопасной, потому что она видима и полезна. Но видимое не значит простое. Ремонт, простой, финансирование, налоги, юридические вопросы и медленная продажа могут превратить привлекательный объект в слабую инвестицию.",
+              "kk": "Жылжымайтын мүлік көрінетін және пайдалы болғандықтан жиі қауіпсіз сезіледі. Бірақ көрінетін нәрсе қарапайым деген сөз емес. Жөндеу, бос тұру, қаржыландыру, салықтар, құқықтық мәселелер және баяу сату жақсы көрінетін объектіні әлсіз инвестицияға айналдыруы мүмкін."
             }
           },
           {
@@ -1280,13 +2197,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Cash flow can break before price falls"
+              "en": "Cash flow can break before price falls",
+              "ru": "Денежный поток может сломаться раньше, чем упадёт цена",
+              "kk": "Ақша ағыны баға түспей тұрып бұзылуы мүмкін"
             },
             "body": {
-              "en": "An owner can struggle even if the property price has not changed. A vacant month, emergency repair, or higher mortgage payment can create a cash-flow problem. Real estate risk often appears as monthly pressure before it appears as a sale loss."
+              "en": "An owner can struggle even if the property price has not changed. A vacant month, emergency repair, or higher mortgage payment can create a cash-flow problem. Real estate risk often appears as monthly pressure before it appears as a sale loss.",
+              "ru": "Владелец может испытывать трудности, даже если цена недвижимости не изменилась. Месяц простоя, срочный ремонт или более высокий ипотечный платёж могут создать проблему денежного потока. Риск недвижимости часто проявляется как ежемесячное давление раньше, чем как убыток при продаже.",
+              "kk": "Мүлік бағасы өзгермесе де, иесі қиындық көруі мүмкін. Бос ай, шұғыл жөндеу немесе жоғары ипотекалық төлем ақша ағыны мәселесін тудырады. Жылжымайтын мүлік тәуекелі сату шығыны ретінде емес, алдымен ай сайынғы қысым ретінде көрінеді."
             },
             "example": {
-              "en": "A rental that normally brings ₸220,000 can turn negative if one month is vacant and a ₸600,000 heating repair arrives."
+              "en": "A rental that normally brings ₸220,000 can turn negative if one month is vacant and a ₸600,000 heating repair arrives.",
+              "ru": "Арендный объект, который обычно приносит ₸220,000, может уйти в минус, если один месяц простоит и появится ремонт отопления на ₸600,000.",
+              "kk": "Әдетте ₸220,000 әкелетін жалдау бір ай бос тұрса және ₸600,000 жылыту жөндеуі шықса, теріс болуы мүмкін."
             }
           },
           {
@@ -1294,13 +2217,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Concentration and leverage amplify outcomes"
+              "en": "Concentration and leverage amplify outcomes",
+              "ru": "Концентрация и кредитное плечо усиливают результаты",
+              "kk": "Шоғырлану мен левередж нәтижені күшейтеді"
             },
             "body": {
-              "en": "Many owners have most of their wealth in one property and one city. If that property is financed with debt, the owner's equity absorbs losses first. This concentration can be fine when planned, but dangerous when ignored."
+              "en": "Many owners have most of their wealth in one property and one city. If that property is financed with debt, the owner's equity absorbs losses first. This concentration can be fine when planned, but dangerous when ignored.",
+              "ru": "У многих владельцев большая часть богатства сосредоточена в одном объекте и одном городе. Если объект куплен с долгом, собственный капитал владельца первым принимает убытки. Такая концентрация может быть нормальной, если она осознанна, но опасной, если её игнорируют.",
+              "kk": "Көп иелердің байлығының басым бөлігі бір объектіде және бір қалада болады. Егер бұл мүлік қарызбен қаржыланса, шығынды алдымен иесінің меншікті капиталы көтереді. Бұл шоғырлану жоспарланған болса қалыпты, ал еленбесе қауіпті болуы мүмкін."
             },
             "tip": {
-              "en": "Owning one valuable property is not the same as being diversified."
+              "en": "Owning one valuable property is not the same as being diversified.",
+              "ru": "Владение одним дорогим объектом — не то же самое, что диверсификация.",
+              "kk": "Бір қымбат мүлікке иелік ету диверсификацияланған болумен бірдей емес."
             }
           },
           {
@@ -1308,7 +2237,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "The overlooked return drag"
+              "en": "The overlooked return drag",
+              "ru": "Недооценённое снижение доходности",
+              "kk": "Еленбейтін табыстылық тежегіші"
             },
             "content": {
               "en": {
@@ -1357,6 +2288,100 @@
                     "text": "If mortgage interest is added, the cash return may fall further or become negative."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Арендная квартира сначала выглядит прибыльной: ₸240,000 в месяц при стоимости объекта ₸38,000,000. Но годовые расходы снижают доходность."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Статья",
+                        "Годовая сумма",
+                        "Почему это важно"
+                      ],
+                      [
+                        "Валовая аренда",
+                        "₸2,880,000",
+                        "Доход на поверхности"
+                      ],
+                      [
+                        "Простой и задержки платежей",
+                        "-₸240,000",
+                        "Один потерянный месяц"
+                      ],
+                      [
+                        "Ремонт и обслуживание",
+                        "-₸450,000",
+                        "Обычная стоимость владения"
+                      ],
+                      [
+                        "Платежи за дом, налог, страхование",
+                        "-₸300,000",
+                        "Повторяющиеся обязательства"
+                      ],
+                      [
+                        "Чистый доход до ипотеки",
+                        "₸1,890,000",
+                        "Гораздо ниже заявленной аренды"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Если добавить проценты по ипотеке, денежная доходность может снизиться ещё больше или стать отрицательной."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Жалға берілетін пәтер бастапқыда пайдалы көрінеді: ₸38,000,000 мүлікке айына ₸240,000 жалдау. Бірақ жылдық шығындар табыстылықты азайтады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Бап",
+                        "Жылдық сома",
+                        "Неге маңызды"
+                      ],
+                      [
+                        "Жалпы жалдау табысы",
+                        "₸2,880,000",
+                        "Көзге көрінетін табыс"
+                      ],
+                      [
+                        "Бос тұру және кешіктірілген төлемдер",
+                        "-₸240,000",
+                        "Бір ай жоғалды"
+                      ],
+                      [
+                        "Жөндеу және күтіп ұстау",
+                        "-₸450,000",
+                        "Қалыпты иелік шығыны"
+                      ],
+                      [
+                        "Үй төлемдері, салық, сақтандыру",
+                        "-₸300,000",
+                        "Қайталанатын міндеттемелер"
+                      ],
+                      [
+                        "Ипотекаға дейінгі таза табыс",
+                        "₸1,890,000",
+                        "Көзге көрінетін жалдаудан әлдеқайда төмен"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Егер ипотека пайызы қосылса, ақшалай табыс одан әрі төмендеп немесе теріс болуы мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -1365,10 +2390,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Find the hidden risk"
+              "en": "Find the hidden risk",
+              "ru": "Найдите скрытый риск",
+              "kk": "Жасырын тәуекелді табыңыз"
             },
             "body": {
-              "en": "Each property claim ignores a risk. Choose the mistake."
+              "en": "Each property claim ignores a risk. Choose the mistake.",
+              "ru": "Каждое утверждение о недвижимости игнорирует риск. Выберите ошибку.",
+              "kk": "Әр мүлік туралы тұжырым бір тәуекелді елемейді. Қатені таңдаңыз."
             },
             "interactiveType": "error_detector",
             "interactiveContent": {
@@ -1407,6 +2436,78 @@
                   }
                 ],
                 "final_explanation": "Real estate risk is often hidden by gross numbers and physical confidence. Net cash flow, liquidity, leverage, and concentration matter."
+              },
+              "ru": {
+                "instruction": "Выберите главную ошибку в каждом утверждении о недвижимости.",
+                "cases": [
+                  {
+                    "text": "“Квартира сдаётся за ₸240,000 в месяц, значит моя годовая прибыль — ₸2,880,000.”",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Это игнорирует простой, ремонт, налоги и другие расходы",
+                      "c) Аренду можно учитывать только после продажи недвижимости"
+                    ],
+                    "correct": "b",
+                    "explanation": "Валовая аренда — это не прибыль. Чистая доходность требует вычета реалистичных расходов владения."
+                  },
+                  {
+                    "text": "“Недвижимость безопасна, потому что я всегда могу быстро продать её, если понадобятся деньги.”",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Недвижимость может быть неликвидной и продаваться медленно",
+                      "c) Продажа всегда происходит выше запрашиваемой цены"
+                    ],
+                    "correct": "b",
+                    "explanation": "Продажа может занять время, потребовать скидок и включать комиссии."
+                  },
+                  {
+                    "text": "“Я диверсифицирован, потому что в моей квартире три комнаты.”",
+                    "options": [
+                      "a) Один объект всё равно остаётся концентрированным риском",
+                      "b) Ошибки нет",
+                      "c) Количество комнат устраняет риск локации"
+                    ],
+                    "correct": "a",
+                    "explanation": "Диверсификация означает распределение по активам, локациям и рискам, а не по комнатам внутри одного объекта."
+                  }
+                ],
+                "final_explanation": "Риск недвижимости часто скрыт за валовыми числами и уверенностью из-за физического актива. Важны чистый денежный поток, ликвидность, кредитное плечо и концентрация."
+              },
+              "kk": {
+                "instruction": "Әр жылжымайтын мүлік тұжырымындағы негізгі қатені таңдаңыз.",
+                "cases": [
+                  {
+                    "text": "“Пәтер айына ₸240,000-ға жалға беріледі, сондықтан жылдық пайдам ₸2,880,000.”",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Бұл бос тұруды, жөндеуді, салықтарды және басқа шығындарды елемейді",
+                      "c) Жалдауды тек мүлік сатылғаннан кейін ғана есептеуге болады"
+                    ],
+                    "correct": "b",
+                    "explanation": "Жалпы жалдау — пайда емес. Таза табыстылық нақты иелік шығындарын шегеруді қажет етеді."
+                  },
+                  {
+                    "text": "“Мүлік қауіпсіз, өйткені ақша керек болса, оны әрқашан тез сата аламын.”",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Жылжымайтын мүлік өтімділігі төмен және баяу сатылуы мүмкін",
+                      "c) Сату әрқашан сұралған бағадан жоғары болады"
+                    ],
+                    "correct": "b",
+                    "explanation": "Сату уақыт алуы, жеңілдік талап етуі және комиссияларды қамтуы мүмкін."
+                  },
+                  {
+                    "text": "“Пәтерімде үш бөлме болғандықтан, мен диверсификацияланғанмын.”",
+                    "options": [
+                      "a) Бір объект бәрібір шоғырланған тәуекел",
+                      "b) Қате жоқ",
+                      "c) Бөлме саны орналасу тәуекелін жояды"
+                    ],
+                    "correct": "a",
+                    "explanation": "Диверсификация бір объектінің ішіндегі бөлмелер емес, активтер, орындар және тәуекелдер бойынша таралуды білдіреді."
+                  }
+                ],
+                "final_explanation": "Жылжымайтын мүлік тәуекелі жиі жалпы сандар мен физикалық сенімділіктің артында жасырылады. Таза ақша ағыны, өтімділік, левередж және шоғырлану маңызды."
               }
             }
           },
@@ -1415,13 +2516,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Use net, not headline numbers"
+              "en": "Use net, not headline numbers",
+              "ru": "Используйте чистые, а не поверхностные цифры",
+              "kk": "Көзге көрінетін емес, таза сандарды қолданыңыз"
             },
             "body": {
-              "en": "Real estate decisions should be made with net cash flow, stress tests, and exit risk in mind. A property can be useful and still financially fragile. The safest analysis asks what happens when rent pauses, repairs arrive, rates rise, or selling takes longer than planned."
+              "en": "Real estate decisions should be made with net cash flow, stress tests, and exit risk in mind. A property can be useful and still financially fragile. The safest analysis asks what happens when rent pauses, repairs arrive, rates rise, or selling takes longer than planned.",
+              "ru": "Решения по недвижимости нужно принимать с учётом чистого денежного потока, стресс-тестов и риска выхода. Объект может быть полезным и при этом финансово хрупким. Самый безопасный анализ спрашивает, что будет, если аренда остановится, появится ремонт, вырастут ставки или продажа займёт больше времени, чем планировалось.",
+              "kk": "Жылжымайтын мүлік шешімдері таза ақша ағынын, стресс-тесттерді және шығу тәуекелін ескеруі керек. Мүлік пайдалы болып, қаржылық тұрғыдан әлсіз болуы мүмкін. Ең қауіпсіз талдау жалдау тоқтаса, жөндеу шықса, мөлшерлемелер өссе немесе сату жоспардан ұзаққа созылса не болатынын сұрайды."
             },
             "tip": {
-              "en": "A property investment is only as strong as its bad-year cash flow."
+              "en": "A property investment is only as strong as its bad-year cash flow.",
+              "ru": "Инвестиция в недвижимость настолько сильна, насколько силён её денежный поток в плохой год.",
+              "kk": "Мүлік инвестициясының күші оның нашар жылдағы ақша ағынындай ғана."
             }
           }
         ]
@@ -1430,7 +2537,9 @@
         "quiz_id": 1605,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Costs and Risks — Check"
+          "en": "Costs and Risks — Check",
+          "ru": "Расходы и риски — проверка",
+          "kk": "Шығындар мен тәуекелдер — тексеру"
         },
         "questions": [
           {
@@ -1438,14 +2547,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A rental property has strong gross rent but frequent repairs and vacancies. What should the investor focus on?"
+              "en": "A rental property has strong gross rent but frequent repairs and vacancies. What should the investor focus on?",
+              "ru": "У арендной недвижимости высокая валовая аренда, но частые ремонты и простои. На чём должен сосредоточиться инвестор?",
+              "kk": "Жалға берілетін мүліктің жалпы жалдау табысы жоғары, бірақ жөндеу мен бос тұру жиі болады. Инвестор неге назар аударуы керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Net cash flow after realistic costs and vacancy"
+                  "en": "Net cash flow after realistic costs and vacancy",
+                  "ru": "Чистый денежный поток после реалистичных расходов и простоя",
+                  "kk": "Нақты шығындар мен бос тұрудан кейінгі таза ақша ағыны"
                 },
                 "is_correct": true
               },
@@ -1453,7 +2566,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Gross rent only, because costs do not affect returns"
+                  "en": "Gross rent only, because costs do not affect returns",
+                  "ru": "Только валовая аренда, потому что расходы не влияют на доходность",
+                  "kk": "Тек жалпы жалдау, өйткені шығындар табысқа әсер етпейді"
                 },
                 "is_correct": false
               },
@@ -1461,7 +2576,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The property color and floor number only"
+                  "en": "The property color and floor number only",
+                  "ru": "Только цвет недвижимости и номер этажа",
+                  "kk": "Тек мүліктің түсі мен қабат нөмірі"
                 },
                 "is_correct": false
               },
@@ -1469,7 +2586,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Whether rent is paid in round amounts"
+                  "en": "Whether rent is paid in round amounts",
+                  "ru": "Платится ли аренда круглыми суммами",
+                  "kk": "Жалдау дөңгелек сомамен төлене ме"
                 },
                 "is_correct": false
               }
@@ -1480,14 +2599,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can leverage make a property price decline more painful for the owner?"
+              "en": "Why can leverage make a property price decline more painful for the owner?",
+              "ru": "Почему кредитное плечо может сделать падение цены недвижимости болезненнее для владельца?",
+              "kk": "Неге левередж мүлік бағасының төмендеуін иесі үшін ауырлатуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Debt stays fixed while the owner's equity absorbs the decline first"
+                  "en": "Debt stays fixed while the owner's equity absorbs the decline first",
+                  "ru": "Долг остаётся фиксированным, а собственный капитал владельца первым поглощает падение",
+                  "kk": "Қарыз өзгермейді, ал төмендеуді алдымен иесінің меншікті капиталы көтереді"
                 },
                 "is_correct": true
               },
@@ -1495,7 +2618,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Debt disappears when the property price falls"
+                  "en": "Debt disappears when the property price falls",
+                  "ru": "Долг исчезает, когда цена недвижимости падает",
+                  "kk": "Мүлік бағасы түскенде қарыз жоғалады"
                 },
                 "is_correct": false
               },
@@ -1503,7 +2628,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Leverage guarantees higher rent"
+                  "en": "Leverage guarantees higher rent",
+                  "ru": "Кредитное плечо гарантирует более высокую аренду",
+                  "kk": "Левередж жоғары жалдауға кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -1511,7 +2638,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A mortgage prevents all losses"
+                  "en": "A mortgage prevents all losses",
+                  "ru": "Ипотека предотвращает все убытки",
+                  "kk": "Ипотека барлық шығынды болдырмайды"
                 },
                 "is_correct": false
               }
@@ -1522,14 +2651,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which statement best describes real estate liquidity risk?"
+              "en": "Which statement best describes real estate liquidity risk?",
+              "ru": "Какое утверждение лучше всего описывает риск ликвидности недвижимости?",
+              "kk": "Қай тұжырым жылжымайтын мүліктің өтімділік тәуекелін жақсы сипаттайды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The property may take time to sell, and the seller may need to accept a lower price or pay fees"
+                  "en": "The property may take time to sell, and the seller may need to accept a lower price or pay fees",
+                  "ru": "Продажа недвижимости может занять время, а продавцу может понадобиться согласиться на более низкую цену или оплатить комиссии",
+                  "kk": "Мүлікті сату уақыт алуы мүмкін, ал сатушы төмен бағаға келісуі немесе комиссия төлеуі қажет болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1537,7 +2670,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "A property can always be sold instantly at full asking price"
+                  "en": "A property can always be sold instantly at full asking price",
+                  "ru": "Недвижимость всегда можно мгновенно продать по полной запрашиваемой цене",
+                  "kk": "Мүлікті әрқашан толық сұралған бағамен бірден сатуға болады"
                 },
                 "is_correct": false
               },
@@ -1545,7 +2680,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Liquidity risk only applies to stocks"
+                  "en": "Liquidity risk only applies to stocks",
+                  "ru": "Риск ликвидности относится только к акциям",
+                  "kk": "Өтімділік тәуекелі тек акцияларға қатысты"
                 },
                 "is_correct": false
               },
@@ -1553,7 +2690,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Real estate has no transaction costs"
+                  "en": "Real estate has no transaction costs",
+                  "ru": "У недвижимости нет транзакционных расходов",
+                  "kk": "Жылжымайтын мүлікте мәміле шығындары жоқ"
                 },
                 "is_correct": false
               }
@@ -1567,7 +2706,9 @@
     "quiz_id": 1699,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Real Estate — Final Check"
+      "en": "Real Estate — Final Check",
+      "ru": "Недвижимость — итоговая проверка",
+      "kk": "Жылжымайтын мүлік — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1575,14 +2716,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "A rental apartment looks attractive because gross rent is high. What is the most important next step?"
+          "en": "A rental apartment looks attractive because gross rent is high. What is the most important next step?",
+          "ru": "Арендная квартира выглядит привлекательной из-за высокой валовой аренды. Какой следующий шаг самый важный?",
+          "kk": "Жалпы жалдау жоғары болғандықтан жалға берілетін пәтер тартымды көрінеді. Ең маңызды келесі қадам қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Estimate net income after vacancy, maintenance, taxes, fees, and financing costs"
+              "en": "Estimate net income after vacancy, maintenance, taxes, fees, and financing costs",
+              "ru": "Оценить чистый доход после простоя, обслуживания, налогов, комиссий и расходов на финансирование",
+              "kk": "Бос тұру, күтім, салық, комиссия және қаржыландыру шығындарынан кейінгі таза табысты бағалау"
             },
             "is_correct": true
           },
@@ -1590,7 +2735,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Assume gross rent equals profit"
+              "en": "Assume gross rent equals profit",
+              "ru": "Считать, что валовая аренда равна прибыли",
+              "kk": "Жалпы жалдауды пайдаға тең деп санау"
             },
             "is_correct": false
           },
@@ -1598,7 +2745,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Ignore the local tenant market"
+              "en": "Ignore the local tenant market",
+              "ru": "Игнорировать местный рынок арендаторов",
+              "kk": "Жергілікті жалға алушылар нарығын елемеу"
             },
             "is_correct": false
           },
@@ -1606,7 +2755,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Buy only because property is visible and physical"
+              "en": "Buy only because property is visible and physical",
+              "ru": "Покупать только потому, что недвижимость видима и физична",
+              "kk": "Тек мүлік көрінетін және физикалық болғандықтан сатып алу"
             },
             "is_correct": false
           }
@@ -1617,14 +2768,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "A buyer chooses the maximum mortgage the bank approves and has no repair buffer left. What is the main issue?"
+          "en": "A buyer chooses the maximum mortgage the bank approves and has no repair buffer left. What is the main issue?",
+          "ru": "Покупатель выбирает максимальную ипотеку, которую одобряет банк, и у него не остаётся подушки на ремонт. В чём главная проблема?",
+          "kk": "Сатып алушы банк мақұлдаған ең жоғары ипотеканы таңдап, жөндеуге қор қалдырмайды. Негізгі мәселе қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Approval does not prove affordability under income shocks, repairs, or rate changes"
+              "en": "Approval does not prove affordability under income shocks, repairs, or rate changes",
+              "ru": "Одобрение не доказывает доступность при шоках дохода, ремонтах или изменении ставок",
+              "kk": "Мақұлдау табыс шоктары, жөндеу немесе мөлшерлеме өзгерістері кезінде қолжетімділікті дәлелдемейді"
             },
             "is_correct": true
           },
@@ -1632,7 +2787,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "The bank will automatically pay future repairs"
+              "en": "The bank will automatically pay future repairs",
+              "ru": "Банк автоматически оплатит будущий ремонт",
+              "kk": "Банк болашақ жөндеуді автоматты түрде төлейді"
             },
             "is_correct": false
           },
@@ -1640,7 +2797,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "A mortgage removes ownership risk"
+              "en": "A mortgage removes ownership risk",
+              "ru": "Ипотека устраняет риск владения",
+              "kk": "Ипотека иелік тәуекелін жояды"
             },
             "is_correct": false
           },
@@ -1648,7 +2807,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "A larger loan always lowers total interest"
+              "en": "A larger loan always lowers total interest",
+              "ru": "Более крупный кредит всегда снижает общую сумму процентов",
+              "kk": "Үлкен несие әрқашан жалпы пайызды төмендетеді"
             },
             "is_correct": false
           }
@@ -1659,14 +2820,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "When is renting more likely to be financially reasonable?"
+          "en": "When is renting more likely to be financially reasonable?",
+          "ru": "Когда аренда с большей вероятностью финансово разумна?",
+          "kk": "Қай кезде жалдау қаржылық тұрғыдан орындырақ болуы мүмкін?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "When the person may move soon and values flexibility more than ownership exposure"
+              "en": "When the person may move soon and values flexibility more than ownership exposure",
+              "ru": "Когда человек может скоро переехать и ценит гибкость больше, чем участие во владении",
+              "kk": "Адам жақында көшуі мүмкін және иелікке қатысудан гөрі икемділікті жоғары бағаласа"
             },
             "is_correct": true
           },
@@ -1674,7 +2839,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "When the person believes rent is always wasted"
+              "en": "When the person believes rent is always wasted",
+              "ru": "Когда человек считает, что аренда всегда пустая трата",
+              "kk": "Адам жалдау әрқашан бос шығын деп сенсе"
             },
             "is_correct": false
           },
@@ -1682,7 +2849,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "When buying has no transaction costs"
+              "en": "When buying has no transaction costs",
+              "ru": "Когда у покупки нет транзакционных расходов",
+              "kk": "Сатып алуда мәміле шығындары болмаса"
             },
             "is_correct": false
           },
@@ -1690,7 +2859,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "When maintenance costs are ignored"
+              "en": "When maintenance costs are ignored",
+              "ru": "Когда расходы на обслуживание игнорируются",
+              "kk": "Күтіп ұстау шығындары еленбесе"
             },
             "is_correct": false
           }
@@ -1701,14 +2872,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "What trade-off does a REIT usually offer compared with direct property ownership?"
+          "en": "What trade-off does a REIT usually offer compared with direct property ownership?",
+          "ru": "Какой компромисс обычно даёт REIT по сравнению с прямым владением недвижимостью?",
+          "kk": "REIT тікелей мүлік иелігімен салыстырғанда әдетте қандай ымыра ұсынады?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "More accessible and diversified exposure, but less direct control and visible market volatility"
+              "en": "More accessible and diversified exposure, but less direct control and visible market volatility",
+              "ru": "Более доступное и диверсифицированное участие, но меньше прямого контроля и видимая рыночная волатильность",
+              "kk": "Қолжетімді әрі диверсификацияланған қатысу көбірек, бірақ тікелей бақылау аз және нарықтық волатильдік көрінеді"
             },
             "is_correct": true
           },
@@ -1716,7 +2891,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Full control over each apartment and no price movement"
+              "en": "Full control over each apartment and no price movement",
+              "ru": "Полный контроль над каждой квартирой и отсутствие движения цены",
+              "kk": "Әр пәтерге толық бақылау және баға қозғалысы жоқ"
             },
             "is_correct": false
           },
@@ -1724,7 +2901,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Guaranteed rent with no tenant risk"
+              "en": "Guaranteed rent with no tenant risk",
+              "ru": "Гарантированная аренда без риска арендатора",
+              "kk": "Жалға алушы тәуекелінсіз кепілдендірілген жалдау"
             },
             "is_correct": false
           },
@@ -1732,7 +2911,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Ownership of one specific room in every building"
+              "en": "Ownership of one specific room in every building",
+              "ru": "Право собственности на одну конкретную комнату в каждом здании",
+              "kk": "Әр ғимараттағы бір нақты бөлмеге меншік"
             },
             "is_correct": false
           }
@@ -1743,14 +2924,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "Why is one mortgaged apartment not automatically a diversified investment?"
+          "en": "Why is one mortgaged apartment not automatically a diversified investment?",
+          "ru": "Почему одна ипотечная квартира не является автоматически диверсифицированной инвестицией?",
+          "kk": "Неге бір ипотекалық пәтер автоматты түрде диверсификацияланған инвестиция емес?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "It concentrates wealth in one property, location, financing structure, and tenant market"
+              "en": "It concentrates wealth in one property, location, financing structure, and tenant market",
+              "ru": "Она концентрирует капитал в одном объекте, локации, структуре финансирования и рынке арендаторов",
+              "kk": "Ол байлықты бір объектіге, орынға, қаржыландыру құрылымына және жалға алушылар нарығына шоғырландырады"
             },
             "is_correct": true
           },
@@ -1758,7 +2943,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Diversification depends only on apartment size"
+              "en": "Diversification depends only on apartment size",
+              "ru": "Диверсификация зависит только от размера квартиры",
+              "kk": "Диверсификация тек пәтер көлеміне байланысты"
             },
             "is_correct": false
           },
@@ -1766,7 +2953,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Mortgage debt eliminates concentration risk"
+              "en": "Mortgage debt eliminates concentration risk",
+              "ru": "Ипотечный долг устраняет риск концентрации",
+              "kk": "Ипотекалық қарыз шоғырлану тәуекелін жояды"
             },
             "is_correct": false
           },
@@ -1774,7 +2963,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "A property becomes diversified after one year"
+              "en": "A property becomes diversified after one year",
+              "ru": "Недвижимость становится диверсифицированной через один год",
+              "kk": "Мүлік бір жылдан кейін диверсификацияланған болады"
             },
             "is_correct": false
           }

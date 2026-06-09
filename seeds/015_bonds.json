@@ -3,11 +3,16 @@
   "topic": {
     "code": "bonds",
     "orderIndex": 15,
+    "icon_path": "assets/topics/001-015.png",
     "title": {
-      "en": "Bonds"
+      "en": "Bonds",
+      "ru": "Облигации",
+      "kk": "Облигациялар"
     },
     "description": {
-      "en": "Lending instead of owning — how yield, coupon, credit risk, and interest-rate risk together determine what a bond is worth."
+      "en": "Lending instead of owning — how yield, coupon, credit risk, and interest-rate risk together determine what a bond is worth.",
+      "ru": "Кредитование вместо владения — как доходность, купон, кредитный риск и процентный риск вместе определяют стоимость облигации.",
+      "kk": "Иеленудің орнына қарыз беру — кірістілік, купон, кредиттік тәуекел және пайыздық мөлшерлеме тәуекелі облигация құнын қалай бірге анықтайды."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "lending_versus_ownership",
       "title": {
-        "en": "Lending versus Ownership"
+        "en": "Lending versus Ownership",
+        "ru": "Кредитование и владение",
+        "kk": "Қарыз беру және иелік ету"
       },
       "description": {
-        "en": "A bond is a loan to an issuer, while a stock is ownership in a business; the rights and risks are different."
+        "en": "A bond is a loan to an issuer, while a stock is ownership in a business; the rights and risks are different.",
+        "ru": "Облигация — это заем эмитенту, а акция — доля владения в бизнесе; права и риски у них разные.",
+        "kk": "Облигация — эмитентке берілген қарыз, ал акция — бизнестегі меншік үлесі; құқықтары мен тәуекелдері әртүрлі."
       },
       "estimatedMinutes": 5,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A bond is lending"
+              "en": "A bond is lending",
+              "ru": "Облигация — это кредитование",
+              "kk": "Облигация — қарыз беру"
             },
             "body": {
-              "en": "When you buy a bond, you are usually lending money to a government or company. In return, the issuer promises interest payments and repayment of principal. You are not buying ownership; you are becoming a creditor."
+              "en": "When you buy a bond, you are usually lending money to a government or company. In return, the issuer promises interest payments and repayment of principal. You are not buying ownership; you are becoming a creditor.",
+              "ru": "Когда вы покупаете облигацию, вы обычно одалживаете деньги государству или компании. Взамен эмитент обещает платить проценты и вернуть основную сумму долга. Вы не покупаете долю владения; вы становитесь кредитором.",
+              "kk": "Облигация сатып алғанда, сіз әдетте мемлекетке немесе компанияға ақша қарызға бересіз. Оның орнына эмитент пайыз төлеп, негізгі қарызды қайтаруға уәде береді. Сіз меншік үлесін алмайсыз; сіз кредитор боласыз."
             },
             "tip": {
-              "en": "Stocks ask “How much can the business grow?” Bonds ask “Will the borrower pay as promised?”"
+              "en": "Stocks ask “How much can the business grow?” Bonds ask “Will the borrower pay as promised?”",
+              "ru": "Акции отвечают на вопрос: «Насколько может вырасти бизнес?» Облигации — на вопрос: «Заплатит ли заемщик, как обещал?»",
+              "kk": "Акциялар: «Бизнес қаншалықты өсе алады?» деп сұрайды. Облигациялар: «Қарыз алушы уәде еткендей төлей ме?» деп сұрайды."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "The contract matters"
+              "en": "The contract matters",
+              "ru": "Условия договора имеют значение",
+              "kk": "Шарт талаптары маңызды"
             },
             "body": {
-              "en": "A bond has terms: face value, coupon rate, maturity date, and issuer. These define what the borrower promises. The value of the bond depends on how attractive and reliable those promises look now."
+              "en": "A bond has terms: face value, coupon rate, maturity date, and issuer. These define what the borrower promises. The value of the bond depends on how attractive and reliable those promises look now.",
+              "ru": "У облигации есть условия: номинальная стоимость, купонная ставка, дата погашения и эмитент. Они определяют, что обещает заемщик. Стоимость облигации зависит от того, насколько привлекательными и надежными эти обещания выглядят сейчас.",
+              "kk": "Облигацияның шарттары бар: номинал, купон мөлшерлемесі, өтеу күні және эмитент. Бұлар қарыз алушының не уәде ететінін анықтайды. Облигацияның құны осы уәделердің қазір қаншалықты тартымды әрі сенімді көрінетініне байланысты."
             },
             "example": {
-              "en": "A ₸1,000,000 bond with a 10% coupon promises ₸100,000 per year until maturity, plus the principal back at the end."
+              "en": "A ₸1,000,000 bond with a 10% coupon promises ₸100,000 per year until maturity, plus the principal back at the end.",
+              "ru": "Облигация номиналом ₸1,000,000 с купоном 10% обещает ₸100,000 в год до погашения, а в конце — возврат основной суммы.",
+              "kk": "Номиналы ₸1,000,000, купоны 10% облигация өтеу мерзіміне дейін жылына ₸100,000 төлеуді және соңында негізгі соманы қайтаруды уәде етеді."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Different upside, different downside"
+              "en": "Different upside, different downside",
+              "ru": "Разный потенциал роста, разные риски снижения",
+              "kk": "Өсу мүмкіндігі де, төмендеу тәуекелі де әртүрлі"
             },
             "body": {
-              "en": "A shareholder can benefit greatly if a company grows, but also bears ownership risk. A bondholder's upside is usually capped at promised payments. The trade-off is priority: creditors normally stand ahead of shareholders if the issuer fails."
+              "en": "A shareholder can benefit greatly if a company grows, but also bears ownership risk. A bondholder's upside is usually capped at promised payments. The trade-off is priority: creditors normally stand ahead of shareholders if the issuer fails.",
+              "ru": "Акционер может сильно выиграть, если компания растет, но несет риск владения. Потенциал дохода держателя облигации обычно ограничен обещанными выплатами. Компромисс — приоритет: кредиторы обычно стоят выше акционеров, если эмитент терпит неудачу.",
+              "kk": "Компания өссе, акционер көп пайда көруі мүмкін, бірақ меншік тәуекелін де көтереді. Облигация ұстаушысының табыс мүмкіндігі әдетте уәде етілген төлемдермен шектеледі. Айырбас — басымдық: эмитент сәтсіздікке ұшыраса, кредиторлар әдетте акционерлерден бұрын тұрады."
             },
             "tip": {
-              "en": "Lower upside does not mean no risk; it means a different type of risk."
+              "en": "Lower upside does not mean no risk; it means a different type of risk.",
+              "ru": "Меньший потенциал роста не означает отсутствие риска; это означает другой тип риска.",
+              "kk": "Төмен өсу мүмкіндігі тәуекел жоқ деген сөз емес; бұл тәуекелдің басқа түрі деген сөз."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same company, two claims"
+              "en": "Same company, two claims",
+              "ru": "Одна компания, два разных требования",
+              "kk": "Бір компания, екі түрлі талап"
             },
             "content": {
               "en": {
@@ -122,6 +151,100 @@
                     "text": "The same company can be a reasonable bond investment and a risky stock investment, or the reverse, depending on price and risk."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Представьте, что компания привлекает деньги двумя способами: продает акции и выпускает облигации. Оба инвестора финансируют один и тот же бизнес, но их требования различаются."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Характеристика",
+                        "Держатель облигации",
+                        "Акционер"
+                      ],
+                      [
+                        "Роль",
+                        "Кредитор",
+                        "Владелец"
+                      ],
+                      [
+                        "Основной доход",
+                        "Проценты и возврат основной суммы",
+                        "Рост цены и дивиденды"
+                      ],
+                      [
+                        "Потенциал роста",
+                        "В основном ограничен договором",
+                        "Может быть высоким, если бизнес растет"
+                      ],
+                      [
+                        "Если бизнес испытывает трудности",
+                        "Риск выплат растет",
+                        "Стоимость может резко упасть"
+                      ],
+                      [
+                        "Приоритет при банкротстве",
+                        "Обычно перед акционерами",
+                        "Обычно последними"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Одна и та же компания может быть разумной инвестицией в облигации и рискованной инвестицией в акции — или наоборот, в зависимости от цены и риска."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания ақшаны екі жолмен тартты деп елестетіңіз: акция сатады және облигация шығарады. Екі инвестор да бір бизнесті қаржыландырады, бірақ олардың талаптары бірдей емес."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ерекшелік",
+                        "Облигация ұстаушы",
+                        "Акционер"
+                      ],
+                      [
+                        "Рөл",
+                        "Қарыз беруші",
+                        "Иесі"
+                      ],
+                      [
+                        "Негізгі табыс",
+                        "Пайыз және негізгі соманы қайтару",
+                        "Баға өсімі және дивидендтер"
+                      ],
+                      [
+                        "Өсу мүмкіндігі",
+                        "Көбіне шартпен шектеледі",
+                        "Бизнес өссе, әлеуеті жоғары болуы мүмкін"
+                      ],
+                      [
+                        "Егер бизнес қиындық көрсе",
+                        "Төлем тәуекелі өседі",
+                        "Құны күрт төмендеуі мүмкін"
+                      ],
+                      [
+                        "Сәтсіздік кезіндегі басымдық",
+                        "Әдетте акционерлерден бұрын",
+                        "Әдетте соңғы"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Бір компания облигация ретінде орынды инвестиция, ал акция ретінде тәуекелді болуы мүмкін — немесе керісінше; бәрі баға мен тәуекелге байланысты."
+                  }
+                ]
               }
             }
           },
@@ -130,10 +253,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Sort the claim"
+              "en": "Sort the claim",
+              "ru": "Отсортируйте тип требования",
+              "kk": "Талап түрін сұрыптаңыз"
             },
             "body": {
-              "en": "Classify each statement as describing bonds, stocks, or both. The goal is to separate lending logic from ownership logic."
+              "en": "Classify each statement as describing bonds, stocks, or both. The goal is to separate lending logic from ownership logic.",
+              "ru": "Классифицируйте каждое утверждение: оно описывает облигации, акции или оба инструмента. Цель — отделить логику кредитования от логики владения.",
+              "kk": "Әр мәлімдемені облигация, акция немесе екеуіне де қатысты деп жіктеңіз. Мақсат — қарыз беру логикасын иелік ету логикасынан бөлу."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -190,6 +317,114 @@
                   }
                 ],
                 "explanation": "Bonds and stocks can both lose value, but they give investors different claims: lending promises versus ownership participation."
+              },
+              "ru": {
+                "instruction": "Перетащите каждое утверждение в наиболее подходящую категорию.",
+                "categories": [
+                  {
+                    "id": "bond",
+                    "label": "Облигация"
+                  },
+                  {
+                    "id": "stock",
+                    "label": "Акция"
+                  },
+                  {
+                    "id": "both",
+                    "label": "Оба"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "promised_interest",
+                    "text": "Эмитент обещает регулярные процентные выплаты"
+                  },
+                  {
+                    "id": "ownership_claim",
+                    "text": "Инвестор владеет долей бизнеса"
+                  },
+                  {
+                    "id": "issuer_risk",
+                    "text": "Инвестор может потерять деньги, если бизнес ослабеет"
+                  },
+                  {
+                    "id": "maturity_date",
+                    "text": "В договоре есть дата, когда должна быть возвращена основная сумма"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "promised_interest",
+                    "categoryId": "bond"
+                  },
+                  {
+                    "itemId": "ownership_claim",
+                    "categoryId": "stock"
+                  },
+                  {
+                    "itemId": "issuer_risk",
+                    "categoryId": "both"
+                  },
+                  {
+                    "itemId": "maturity_date",
+                    "categoryId": "bond"
+                  }
+                ],
+                "explanation": "И облигации, и акции могут терять стоимость, но они дают инвесторам разные права: обещания по займу против участия во владении."
+              },
+              "kk": {
+                "instruction": "Әр мәлімдемені ең сәйкес санатқа апарыңыз.",
+                "categories": [
+                  {
+                    "id": "bond",
+                    "label": "Облигация"
+                  },
+                  {
+                    "id": "stock",
+                    "label": "Акция"
+                  },
+                  {
+                    "id": "both",
+                    "label": "Екеуі де"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "promised_interest",
+                    "text": "Эмитент жоспарлы пайыздық төлемдерді уәде етеді"
+                  },
+                  {
+                    "id": "ownership_claim",
+                    "text": "Инвестор бизнестің бір бөлігін иеленеді"
+                  },
+                  {
+                    "id": "issuer_risk",
+                    "text": "Бизнес әлсіресе, инвестор ақша жоғалтуы мүмкін"
+                  },
+                  {
+                    "id": "maturity_date",
+                    "text": "Шартта негізгі қарыз қайтарылатын күн бар"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "promised_interest",
+                    "categoryId": "bond"
+                  },
+                  {
+                    "itemId": "ownership_claim",
+                    "categoryId": "stock"
+                  },
+                  {
+                    "itemId": "issuer_risk",
+                    "categoryId": "both"
+                  },
+                  {
+                    "itemId": "maturity_date",
+                    "categoryId": "bond"
+                  }
+                ],
+                "explanation": "Облигациялар да, акциялар да құнын жоғалтуы мүмкін, бірақ инвесторға әртүрлі талап береді: қарыз бойынша уәде және меншікке қатысу."
               }
             }
           },
@@ -198,13 +433,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Bonds start with repayment"
+              "en": "Bonds start with repayment",
+              "ru": "Облигации начинаются с вопроса возврата",
+              "kk": "Облигацияның өзегі — қайтару"
             },
             "body": {
-              "en": "A bond is best understood as a loan contract. The investor cares about promised cash flows, repayment, and the issuer's ability to keep the promise. That makes bond analysis less about unlimited growth and more about reliability, price, and risk."
+              "en": "A bond is best understood as a loan contract. The investor cares about promised cash flows, repayment, and the issuer's ability to keep the promise. That makes bond analysis less about unlimited growth and more about reliability, price, and risk.",
+              "ru": "Облигацию лучше всего понимать как договор займа. Инвестора интересуют обещанные денежные потоки, возврат долга и способность эмитента выполнить обещание. Поэтому анализ облигаций меньше связан с неограниченным ростом и больше — с надежностью, ценой и риском.",
+              "kk": "Облигацияны қарыз шарты ретінде түсінген дұрыс. Инвесторға уәде етілген ақша ағындары, қайтару және эмитенттің уәдесін орындау қабілеті маңызды. Сондықтан облигация талдауы шексіз өсімнен гөрі сенімділік, баға және тәуекел туралы."
             },
             "tip": {
-              "en": "Before buying a bond, identify the borrower, the promise, and what could stop repayment."
+              "en": "Before buying a bond, identify the borrower, the promise, and what could stop repayment.",
+              "ru": "Перед покупкой облигации определите заемщика, обещание и то, что может помешать возврату денег.",
+              "kk": "Облигация сатып алмас бұрын, қарыз алушыны, уәдені және қайтаруға не кедергі болуы мүмкін екенін анықтаңыз."
             }
           }
         ]
@@ -213,7 +454,9 @@
         "quiz_id": 1501,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Lending versus Ownership — Check"
+          "en": "Lending versus Ownership — Check",
+          "ru": "Кредитование и владение — проверка",
+          "kk": "Қарыз беру және иелік ету — тексеру"
         },
         "questions": [
           {
@@ -221,14 +464,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A company grows rapidly after you buy its bond. What is the most realistic expectation?"
+              "en": "A company grows rapidly after you buy its bond. What is the most realistic expectation?",
+              "ru": "Компания быстро растет после того, как вы купили ее облигацию. Какое ожидание наиболее реалистично?",
+              "kk": "Сіз оның облигациясын сатып алғаннан кейін компания тез өседі. Ең шынайы күту қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "You usually receive the promised bond payments, but do not automatically share all growth like an owner"
+                  "en": "You usually receive the promised bond payments, but do not automatically share all growth like an owner",
+                  "ru": "Обычно вы получаете обещанные выплаты по облигации, но не участвуете автоматически во всем росте, как владелец",
+                  "kk": "Сіз әдетте уәде етілген облигация төлемдерін аласыз, бірақ иесі сияқты барлық өсімге автоматты түрде қатыспайсыз"
                 },
                 "is_correct": true
               },
@@ -236,7 +483,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Your bond return becomes unlimited like a stock"
+                  "en": "Your bond return becomes unlimited like a stock",
+                  "ru": "Доходность вашей облигации становится неограниченной, как у акции",
+                  "kk": "Облигация табысы акция сияқты шексіз болады"
                 },
                 "is_correct": false
               },
@@ -244,7 +493,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "You become a shareholder because the business improved"
+                  "en": "You become a shareholder because the business improved",
+                  "ru": "Вы становитесь акционером, потому что бизнес улучшился",
+                  "kk": "Бизнес жақсарғандықтан сіз акционер боласыз"
                 },
                 "is_correct": false
               },
@@ -252,7 +503,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The company must double your coupon rate"
+                  "en": "The company must double your coupon rate",
+                  "ru": "Компания должна удвоить вашу купонную ставку",
+                  "kk": "Компания купон мөлшерлемеңізді екі есе арттыруы керек"
                 },
                 "is_correct": false
               }
@@ -263,14 +516,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why might a bondholder focus more on downside protection than huge upside?"
+              "en": "Why might a bondholder focus more on downside protection than huge upside?",
+              "ru": "Почему держатель облигации может больше думать о защите от потерь, чем об огромном росте?",
+              "kk": "Неліктен облигация ұстаушысы үлкен өсімнен гөрі төмендеу тәуекелінен қорғануға көбірек мән беруі мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The bondholder's main claim is scheduled payment and principal repayment"
+                  "en": "The bondholder's main claim is scheduled payment and principal repayment",
+                  "ru": "Главное требование держателя облигации — регулярные выплаты и возврат основной суммы",
+                  "kk": "Облигация ұстаушысының негізгі талабы — жоспарлы төлем және негізгі соманы қайтару"
                 },
                 "is_correct": true
               },
@@ -278,7 +535,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Bondholders legally own all future profits"
+                  "en": "Bondholders legally own all future profits",
+                  "ru": "Держатели облигаций юридически владеют всей будущей прибылью",
+                  "kk": "Облигация ұстаушылары барлық болашақ пайданы заңды түрде иеленеді"
                 },
                 "is_correct": false
               },
@@ -286,7 +545,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Bonds have no risk if bought at issue"
+                  "en": "Bonds have no risk if bought at issue",
+                  "ru": "Облигации не имеют риска, если куплены при выпуске",
+                  "kk": "Шығарылым кезінде сатып алынса, облигацияларда тәуекел жоқ"
                 },
                 "is_correct": false
               },
@@ -294,7 +555,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Bond prices cannot change after purchase"
+                  "en": "Bond prices cannot change after purchase",
+                  "ru": "Цены облигаций не могут меняться после покупки",
+                  "kk": "Сатып алғаннан кейін облигация бағасы өзгермейді"
                 },
                 "is_correct": false
               }
@@ -305,14 +568,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "A firm has both shareholders and bondholders. If the firm fails, why are bondholders usually treated differently?"
+              "en": "A firm has both shareholders and bondholders. If the firm fails, why are bondholders usually treated differently?",
+              "ru": "У фирмы есть и акционеры, и держатели облигаций. Если фирма терпит крах, почему держателей облигаций обычно рассматривают иначе?",
+              "kk": "Фирмада акционерлер де, облигация ұстаушылар да бар. Фирма сәтсіздікке ұшыраса, неге облигация ұстаушыларға әдетте басқаша қарайды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They are creditors with contractual claims, often ahead of owners"
+                  "en": "They are creditors with contractual claims, often ahead of owners",
+                  "ru": "Они кредиторы с договорными требованиями, часто выше владельцев в очередности",
+                  "kk": "Олар шарттық талаптары бар кредиторлар, көбіне иелерден бұрын тұрады"
                 },
                 "is_correct": true
               },
@@ -320,7 +587,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They are always guaranteed by the stock exchange"
+                  "en": "They are always guaranteed by the stock exchange",
+                  "ru": "Их всегда гарантирует фондовая биржа",
+                  "kk": "Оларға қор биржасы әрқашан кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -328,7 +597,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They automatically become government lenders"
+                  "en": "They automatically become government lenders",
+                  "ru": "Они автоматически становятся кредиторами государства",
+                  "kk": "Олар автоматты түрде мемлекет кредиторына айналады"
                 },
                 "is_correct": false
               },
@@ -336,7 +607,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "They receive all profits before taxes every year"
+                  "en": "They receive all profits before taxes every year",
+                  "ru": "Они получают всю прибыль до налогов каждый год",
+                  "kk": "Олар жыл сайын салыққа дейінгі барлық пайданы алады"
                 },
                 "is_correct": false
               }
@@ -348,10 +621,14 @@
     {
       "code": "yield_and_coupon",
       "title": {
-        "en": "Yield and Coupon"
+        "en": "Yield and Coupon",
+        "ru": "Доходность и купон",
+        "kk": "Кірістілік және купон"
       },
       "description": {
-        "en": "Coupon is the promised payment rate, while yield is the return implied by the bond's current price and cash flows."
+        "en": "Coupon is the promised payment rate, while yield is the return implied by the bond's current price and cash flows.",
+        "ru": "Купон — это обещанная ставка выплат, а доходность — доход, который следует из текущей цены облигации и ее денежных потоков.",
+        "kk": "Купон — уәде етілген төлем мөлшерлемесі, ал кірістілік — облигацияның қазіргі бағасы мен ақша ағындары білдіретін табыс."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -363,10 +640,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Coupon is not the whole return"
+              "en": "Coupon is not the whole return",
+              "ru": "Купон — это не вся доходность",
+              "kk": "Купон — толық табыс емес"
             },
             "body": {
-              "en": "A bond's coupon tells you the scheduled interest payment. Yield tells you what return the current price implies if payments happen as expected. The two are equal only in special cases."
+              "en": "A bond's coupon tells you the scheduled interest payment. Yield tells you what return the current price implies if payments happen as expected. The two are equal only in special cases.",
+              "ru": "Купон облигации показывает регулярную процентную выплату. Доходность показывает, какую доходность подразумевает текущая цена, если выплаты будут сделаны как ожидалось. Эти два показателя равны только в особых случаях.",
+              "kk": "Облигация купоны жоспарлы пайыздық төлемді көрсетеді. Кірістілік төлемдер күткендей орындалса, қазіргі баға қандай табыс білдіретінін көрсетеді. Екеуі тек ерекше жағдайларда ғана тең."
             }
           },
           {
@@ -374,13 +655,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Coupon is based on face value"
+              "en": "Coupon is based on face value",
+              "ru": "Купон рассчитывается от номинала",
+              "kk": "Купон номиналға негізделеді"
             },
             "body": {
-              "en": "The coupon rate is applied to the bond's face value, not always to the price you pay. A ₸1,000,000 bond with an 8% coupon pays ₸80,000 per year. That payment does not change just because the market price changes."
+              "en": "The coupon rate is applied to the bond's face value, not always to the price you pay. A ₸1,000,000 bond with an 8% coupon pays ₸80,000 per year. That payment does not change just because the market price changes.",
+              "ru": "Купонная ставка применяется к номинальной стоимости облигации, а не всегда к цене, которую вы платите. Облигация номиналом ₸1,000,000 с купоном 8% платит ₸80,000 в год. Эта выплата не меняется только потому, что изменилась рыночная цена.",
+              "kk": "Купон мөлшерлемесі сіз төлеген бағаға емес, облигацияның номиналына қолданылады. Номиналы ₸1,000,000, купоны 8% облигация жылына ₸80,000 төлейді. Нарықтық баға өзгерді деп бұл төлем өзгермейді."
             },
             "tip": {
-              "en": "Coupon answers “How much cash is promised?”"
+              "en": "Coupon answers “How much cash is promised?”",
+              "ru": "Купон отвечает на вопрос: «Сколько денег обещано?»",
+              "kk": "Купон «Қанша ақша уәде етілген?» деген сұраққа жауап береді"
             }
           },
           {
@@ -388,13 +675,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Yield moves with price"
+              "en": "Yield moves with price",
+              "ru": "Доходность движется вместе с ценой",
+              "kk": "Кірістілік бағамен бірге өзгереді"
             },
             "body": {
-              "en": "If you buy a bond below face value, the same coupon becomes more attractive and you may also gain when principal is repaid. If you buy above face value, the coupon may look high but part of your price can be lost at maturity. Yield connects all cash flows to the price paid."
+              "en": "If you buy a bond below face value, the same coupon becomes more attractive and you may also gain when principal is repaid. If you buy above face value, the coupon may look high but part of your price can be lost at maturity. Yield connects all cash flows to the price paid.",
+              "ru": "Если вы покупаете облигацию ниже номинала, тот же купон становится привлекательнее, и вы можете дополнительно выиграть при возврате номинала. Если вы покупаете выше номинала, купон может выглядеть высоким, но часть цены может быть потеряна при погашении. Доходность связывает все денежные потоки с уплаченной ценой.",
+              "kk": "Егер облигацияны номиналдан төмен сатып алсаңыз, сол купон тартымдырақ болады және негізгі сома номиналмен қайтарылғанда қосымша ұтыс алуыңыз мүмкін. Номиналдан жоғары сатып алсаңыз, купон жоғары көрінуі мүмкін, бірақ өтеу кезінде төлеген бағаның бір бөлігі жоғалуы мүмкін. Кірістілік барлық ақша ағындарын төленген бағамен байланыстырады."
             },
             "tip": {
-              "en": "Yield answers “What return does this price imply?”"
+              "en": "Yield answers “What return does this price imply?”",
+              "ru": "Доходность отвечает на вопрос: «Какую доходность подразумевает эта цена?»",
+              "kk": "Кірістілік «Бұл баға қандай табысты білдіреді?» деген сұраққа жауап береді"
             }
           },
           {
@@ -402,7 +695,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same coupon, different yield logic"
+              "en": "Same coupon, different yield logic",
+              "ru": "Один купон, разная логика доходности",
+              "kk": "Бір купон, әртүрлі кірістілік логикасы"
             },
             "content": {
               "en": {
@@ -445,6 +740,88 @@
                     "text": "The promised coupon is the same. The investor's return changes because the price paid changes."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Три инвестора покупают одну и ту же облигацию номиналом ₸1,000,000 с купоном 8%. Каждый получает ₸80,000 в год, но платит разную цену."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Цена покупки",
+                        "Годовой купон",
+                        "Погашение при сроке",
+                        "Логика доходности"
+                      ],
+                      [
+                        "₸1,000,000",
+                        "₸80,000",
+                        "₸1,000,000",
+                        "Купон и цена совпадают по логике"
+                      ],
+                      [
+                        "₸900,000",
+                        "₸80,000",
+                        "₸1,000,000",
+                        "Более высокая доходность: купон плюс прирост цены"
+                      ],
+                      [
+                        "₸1,100,000",
+                        "₸80,000",
+                        "₸1,000,000",
+                        "Более низкая доходность: купон частично компенсируется потерей цены"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Обещанный купон одинаковый. Доход инвестора меняется, потому что меняется уплаченная цена."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Үш инвестор номиналы ₸1,000,000, купоны 8% бір облигацияны сатып алады. Әрқайсысы жылына ₸80,000 алады, бірақ әртүрлі баға төлейді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Сатып алу бағасы",
+                        "Жылдық купон",
+                        "Өтеу кезіндегі қайтарым",
+                        "Кірістілік логикасы"
+                      ],
+                      [
+                        "₸1,000,000",
+                        "₸80,000",
+                        "₸1,000,000",
+                        "Купон мен баға үйлеседі"
+                      ],
+                      [
+                        "₸900,000",
+                        "₸80,000",
+                        "₸1,000,000",
+                        "Жоғары табыс: купон плюс баға ұтысы"
+                      ],
+                      [
+                        "₸1,100,000",
+                        "₸80,000",
+                        "₸1,000,000",
+                        "Төмен табыс: купон баға жоғалтуымен ішінара өтеледі"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Уәде етілген купон бірдей. Инвестордың табысы төленген баға өзгергендіктен өзгереді."
+                  }
+                ]
               }
             }
           },
@@ -453,10 +830,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Coupon or yield?"
+              "en": "Coupon or yield?",
+              "ru": "Купон или доходность?",
+              "kk": "Купон ба, кірістілік пе?"
             },
             "body": {
-              "en": "Choose whether each statement is about the coupon payment, the yield, or the price effect behind yield."
+              "en": "Choose whether each statement is about the coupon payment, the yield, or the price effect behind yield.",
+              "ru": "Выберите, относится ли каждое утверждение к купонной выплате, доходности или ценовому эффекту за доходностью.",
+              "kk": "Әр мәлімдеме купондық төлем, кірістілік немесе кірістілік артындағы баға әсері туралы екенін таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -484,6 +865,56 @@
                     "explanation": "Yield combines coupon, price, repayment, and time."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите понятие, которое лучше всего соответствует каждому утверждению.",
+                "options": [
+                  "Купон",
+                  "Доходность",
+                  "Ценовой эффект"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Облигация номиналом ₸1,000,000 с купоном 9% платит ₸90,000 в год.",
+                    "correct_answer": "Купон",
+                    "explanation": "Утверждение рассчитывает регулярную денежную выплату от номинала."
+                  },
+                  {
+                    "text": "Облигация, купленная ниже номинала, может принести доход выше купонной ставки, если будет погашена по номиналу.",
+                    "correct_answer": "Ценовой эффект",
+                    "explanation": "Инвестор может выиграть от разницы между ценой покупки и суммой погашения."
+                  },
+                  {
+                    "text": "Инвестор сравнивает две облигации по доходности, которую подразумевают сегодняшняя рыночная цена и все будущие выплаты.",
+                    "correct_answer": "Доходность",
+                    "explanation": "Доходность объединяет купон, цену, погашение и время."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр мәлімдемеге ең сәйкес ұғымды таңдаңыз.",
+                "options": [
+                  "Купон",
+                  "Кірістілік",
+                  "Баға әсері"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Номиналы ₸1,000,000 және купоны 9% облигация жылына ₸90,000 төлейді.",
+                    "correct_answer": "Купон",
+                    "explanation": "Бұл мәлімдеме номиналдан есептелетін жоспарлы ақшалай төлемді көрсетеді."
+                  },
+                  {
+                    "text": "Номиналдан төмен сатып алынған облигация номиналмен өтелсе, купон мөлшерлемесінен жоғары табыс бере алады.",
+                    "correct_answer": "Баға әсері",
+                    "explanation": "Инвестор сатып алу бағасы мен өтеу құны арасындағы айырмадан пайда көруі мүмкін."
+                  },
+                  {
+                    "text": "Инвестор екі облигацияны бүгінгі нарықтық баға мен барлық болашақ төлемдер білдіретін табыс арқылы салыстырады.",
+                    "correct_answer": "Кірістілік",
+                    "explanation": "Кірістілік купонды, бағаны, өтеуді және уақытты біріктіреді."
+                  }
+                ]
               }
             }
           },
@@ -492,13 +923,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Read both numbers"
+              "en": "Read both numbers",
+              "ru": "Смотрите на оба показателя",
+              "kk": "Екі көрсеткішті де оқыңыз"
             },
             "body": {
-              "en": "Coupon tells you the promised cash payment; yield tells you the return implied by today's price. A high coupon is not automatically a high return if the bond is expensive. A low coupon can still have an attractive yield if the price is low enough."
+              "en": "Coupon tells you the promised cash payment; yield tells you the return implied by today's price. A high coupon is not automatically a high return if the bond is expensive. A low coupon can still have an attractive yield if the price is low enough.",
+              "ru": "Купон показывает обещанную денежную выплату; доходность показывает доход, подразумеваемый сегодняшней ценой. Высокий купон не означает автоматически высокую доходность, если облигация дорогая. Низкий купон все равно может давать привлекательную доходность, если цена достаточно низкая.",
+              "kk": "Купон уәде етілген ақшалай төлемді көрсетеді; кірістілік бүгінгі баға білдіретін табысты көрсетеді. Облигация қымбат болса, жоғары купон автоматты түрде жоғары кірістілік емес. Баға жеткілікті төмен болса, төмен купон да тартымды кірістілік бере алады."
             },
             "tip": {
-              "en": "For decisions, yield is usually more useful than coupon alone."
+              "en": "For decisions, yield is usually more useful than coupon alone.",
+              "ru": "Для принятия решений доходность обычно полезнее, чем один только купон.",
+              "kk": "Шешім қабылдағанда кірістілік көбіне купонның өзінен пайдалырақ."
             }
           }
         ]
@@ -507,7 +944,9 @@
         "quiz_id": 1502,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Yield and Coupon — Check"
+          "en": "Yield and Coupon — Check",
+          "ru": "Доходность и купон — проверка",
+          "kk": "Кірістілік және купон — тексеру"
         },
         "questions": [
           {
@@ -515,14 +954,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A ₸1,000,000 face-value bond has a 10% coupon but trades for ₸1,150,000. What should you understand?"
+              "en": "A ₸1,000,000 face-value bond has a 10% coupon but trades for ₸1,150,000. What should you understand?",
+              "ru": "Облигация номиналом ₸1,000,000 имеет купон 10%, но торгуется за ₸1,150,000. Что нужно понимать?",
+              "kk": "Номиналы ₸1,000,000 облигацияның купоны 10%, бірақ ол ₸1,150,000 бағамен саудаланады. Нені түсіну керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The coupon is ₸100,000 per year, but the yield may be below 10% because the purchase price is high"
+                  "en": "The coupon is ₸100,000 per year, but the yield may be below 10% because the purchase price is high",
+                  "ru": "Купон составляет ₸100,000 в год, но доходность может быть ниже 10%, потому что цена покупки высокая",
+                  "kk": "Купон жылына ₸100,000, бірақ сатып алу бағасы жоғары болғандықтан кірістілік 10%-дан төмен болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -530,7 +973,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The investor will receive ₸115,000 per year because price changed"
+                  "en": "The investor will receive ₸115,000 per year because price changed",
+                  "ru": "Инвестор будет получать ₸115,000 в год, потому что цена изменилась",
+                  "kk": "Баға өзгергендіктен инвестор жылына ₸115,000 алады"
                 },
                 "is_correct": false
               },
@@ -538,7 +983,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The bond cannot trade above face value"
+                  "en": "The bond cannot trade above face value",
+                  "ru": "Облигация не может торговаться выше номинала",
+                  "kk": "Облигация номиналдан жоғары саудалана алмайды"
                 },
                 "is_correct": false
               },
@@ -546,7 +993,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The yield must equal the coupon in every case"
+                  "en": "The yield must equal the coupon in every case",
+                  "ru": "Доходность всегда должна равняться купону",
+                  "kk": "Кірістілік әрқашан купонға тең болуы керек"
                 },
                 "is_correct": false
               }
@@ -557,14 +1006,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can a bond bought below face value have a yield higher than its coupon rate?"
+              "en": "Why can a bond bought below face value have a yield higher than its coupon rate?",
+              "ru": "Почему облигация, купленная ниже номинала, может иметь доходность выше купонной ставки?",
+              "kk": "Номиналдан төмен сатып алынған облигацияның кірістілігі неге купон мөлшерлемесінен жоғары болуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The investor receives coupon payments and may gain when principal is repaid at face value"
+                  "en": "The investor receives coupon payments and may gain when principal is repaid at face value",
+                  "ru": "Инвестор получает купонные выплаты и может выиграть, когда основная сумма возвращается по номиналу",
+                  "kk": "Инвестор купондық төлемдер алады және негізгі сома номиналмен қайтарылғанда ұтыс алуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -572,7 +1025,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The issuer must increase the coupon after the sale"
+                  "en": "The issuer must increase the coupon after the sale",
+                  "ru": "Эмитент должен увеличить купон после продажи",
+                  "kk": "Эмитент сатудан кейін купонды арттыруы керек"
                 },
                 "is_correct": false
               },
@@ -580,7 +1035,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The broker pays extra interest on discounted bonds"
+                  "en": "The broker pays extra interest on discounted bonds",
+                  "ru": "Брокер платит дополнительные проценты по дисконтным облигациям",
+                  "kk": "Брокер дисконтталған облигациялар бойынша қосымша пайыз төлейді"
                 },
                 "is_correct": false
               },
@@ -588,7 +1045,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A lower price removes all credit risk"
+                  "en": "A lower price removes all credit risk",
+                  "ru": "Более низкая цена устраняет весь кредитный риск",
+                  "kk": "Төмен баға барлық кредиттік тәуекелді жояды"
                 },
                 "is_correct": false
               }
@@ -599,14 +1058,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which number best helps compare two bonds with different coupons and market prices?"
+              "en": "Which number best helps compare two bonds with different coupons and market prices?",
+              "ru": "Какой показатель лучше всего помогает сравнить две облигации с разными купонами и рыночными ценами?",
+              "kk": "Әртүрлі купондары және нарықтық бағалары бар екі облигацияны салыстыруға қай көрсеткіш жақсы көмектеседі?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Yield, because it connects price with expected cash flows"
+                  "en": "Yield, because it connects price with expected cash flows",
+                  "ru": "Доходность, потому что она связывает цену с ожидаемыми денежными потоками",
+                  "kk": "Кірістілік, өйткені ол бағаны күтілетін ақша ағындарымен байланыстырады"
                 },
                 "is_correct": true
               },
@@ -614,7 +1077,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Coupon only, because price is irrelevant"
+                  "en": "Coupon only, because price is irrelevant",
+                  "ru": "Только купон, потому что цена не имеет значения",
+                  "kk": "Тек купон, өйткені баға маңызды емес"
                 },
                 "is_correct": false
               },
@@ -622,7 +1087,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Face value only, because all bonds repay the same amount"
+                  "en": "Face value only, because all bonds repay the same amount",
+                  "ru": "Только номинал, потому что все облигации возвращают одну и ту же сумму",
+                  "kk": "Тек номинал, өйткені барлық облигациялар бірдей соманы қайтарады"
                 },
                 "is_correct": false
               },
@@ -630,7 +1097,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The number of pages in the bond prospectus"
+                  "en": "The number of pages in the bond prospectus",
+                  "ru": "Количество страниц в проспекте облигации",
+                  "kk": "Облигация проспектісіндегі бет саны"
                 },
                 "is_correct": false
               }
@@ -642,10 +1111,14 @@
     {
       "code": "credit_risk",
       "title": {
-        "en": "Credit Risk"
+        "en": "Credit Risk",
+        "ru": "Кредитный риск",
+        "kk": "Кредиттік тәуекел"
       },
       "description": {
-        "en": "Credit risk is the chance that the issuer cannot pay interest or principal as promised."
+        "en": "Credit risk is the chance that the issuer cannot pay interest or principal as promised.",
+        "ru": "Кредитный риск — это вероятность того, что эмитент не сможет выплатить проценты или основную сумму, как обещал.",
+        "kk": "Кредиттік тәуекел — эмитенттің пайызды немесе негізгі соманы уәде еткендей төлей алмау ықтималдығы."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -657,10 +1130,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "The promise may fail"
+              "en": "The promise may fail",
+              "ru": "Обещание может не выполниться",
+              "kk": "Уәде орындалмауы мүмкін"
             },
             "body": {
-              "en": "A bond is built on a promise, but promises are only as strong as the issuer's ability to pay. Credit risk is the risk that interest or principal is delayed, reduced, or not paid. Higher promised yield often compensates for this possibility."
+              "en": "A bond is built on a promise, but promises are only as strong as the issuer's ability to pay. Credit risk is the risk that interest or principal is delayed, reduced, or not paid. Higher promised yield often compensates for this possibility.",
+              "ru": "Облигация строится на обещании, но обещание настолько надежно, насколько эмитент способен платить. Кредитный риск — это риск того, что проценты или основная сумма будут задержаны, уменьшены или не выплачены. Более высокая обещанная доходность часто компенсирует такую возможность.",
+              "kk": "Облигация уәдеге негізделеді, бірақ уәде эмитенттің төлеу қабілетіндей ғана мықты. Кредиттік тәуекел — пайыздың немесе негізгі соманың кешіктірілуі, азайтылуы немесе төленбеуі. Жоғары уәде етілген кірістілік осы мүмкіндікті жиі өтейді."
             }
           },
           {
@@ -668,13 +1145,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Why weak issuers pay more"
+              "en": "Why weak issuers pay more",
+              "ru": "Почему слабые эмитенты платят больше",
+              "kk": "Неліктен әлсіз эмитенттер көбірек төлейді"
             },
             "body": {
-              "en": "A borrower with unstable cash flow must offer a higher yield to attract lenders. The higher yield is not a gift; it is compensation for taking more risk. If the issuer's condition worsens, the bond price can fall before any missed payment occurs."
+              "en": "A borrower with unstable cash flow must offer a higher yield to attract lenders. The higher yield is not a gift; it is compensation for taking more risk. If the issuer's condition worsens, the bond price can fall before any missed payment occurs.",
+              "ru": "Заемщик с нестабильным денежным потоком должен предложить более высокую доходность, чтобы привлечь кредиторов. Более высокая доходность — не подарок, а компенсация за больший риск. Если состояние эмитента ухудшается, цена облигации может упасть еще до пропуска платежа.",
+              "kk": "Ақша ағыны тұрақсыз қарыз алушы қарыз берушілерді тарту үшін жоғары кірістілік ұсынуы керек. Жоғары кірістілік — сыйлық емес, көбірек тәуекел алғаны үшін өтемақы. Эмитенттің жағдайы нашарласа, облигация бағасы төлем өткізіп алудан бұрын-ақ түсуі мүмкін."
             },
             "tip": {
-              "en": "Extra yield is payment for extra uncertainty."
+              "en": "Extra yield is payment for extra uncertainty.",
+              "ru": "Дополнительная доходность — это плата за дополнительную неопределенность.",
+              "kk": "Қосымша кірістілік — қосымша белгісіздік үшін төлем."
             }
           },
           {
@@ -682,10 +1165,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Default is not the only loss"
+              "en": "Default is not the only loss",
+              "ru": "Дефолт — не единственный источник потерь",
+              "kk": "Дефолт жалғыз шығын емес"
             },
             "body": {
-              "en": "Investors can lose money even without formal default. If the market believes default risk has increased, buyers demand a higher yield, which pushes the existing bond's price down. Credit risk is priced continuously."
+              "en": "Investors can lose money even without formal default. If the market believes default risk has increased, buyers demand a higher yield, which pushes the existing bond's price down. Credit risk is priced continuously.",
+              "ru": "Инвесторы могут терять деньги даже без формального дефолта. Если рынок считает, что риск дефолта вырос, покупатели требуют более высокую доходность, и это снижает цену существующей облигации. Кредитный риск оценивается постоянно.",
+              "kk": "Ресми дефолт болмаса да, инвесторлар ақша жоғалтуы мүмкін. Егер нарық дефолт тәуекелі өсті деп санаса, сатып алушылар жоғары кірістілік талап етеді, бұл бар облигация бағасын төмендетеді. Кредиттік тәуекел үздіксіз бағаланады."
             }
           },
           {
@@ -693,7 +1180,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Two issuers, two yields"
+              "en": "Two issuers, two yields",
+              "ru": "Два эмитента, две доходности",
+              "kk": "Екі эмитент, екі кірістілік"
             },
             "content": {
               "en": {
@@ -736,6 +1225,88 @@
                     "text": "The highest yield may be the most dangerous. The return is attractive only if the issuer actually pays."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Две пятилетние облигации имеют номинал ₸1,000,000. Один эмитент финансово стабилен; у другого падает выручка и высокий долг."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Эмитент",
+                        "Предлагаемая доходность",
+                        "Почему инвесторы ее требуют",
+                        "Главная проблема"
+                      ],
+                      [
+                        "Стабильный эмитент, связанный с государством",
+                        "8%",
+                        "Выплата выглядит надежнее",
+                        "Инфляция и изменения ставок"
+                      ],
+                      [
+                        "Компания с высоким долгом",
+                        "16%",
+                        "Выплата менее надежна",
+                        "Пропуск процентов или реструктуризация"
+                      ],
+                      [
+                        "Эмитент в тяжелом положении",
+                        "28%",
+                        "Рынок ожидает серьезных проблем",
+                        "Дефолт или крупный убыток"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Самая высокая доходность может быть самой опасной. Доходность привлекательна только если эмитент действительно платит."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі бес жылдық облигацияның номиналы ₸1,000,000. Бір эмитент қаржылық тұрғыдан тұрақты; екіншісінің кірісі төмендеп, қарызы көп."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Эмитент",
+                        "Ұсынылған кірістілік",
+                        "Неліктен инвесторлар оны талап етеді",
+                        "Негізгі алаңдаушылық"
+                      ],
+                      [
+                        "Мемлекетпен байланысты тұрақты эмитент",
+                        "8%",
+                        "Төлем сенімдірек көрінеді",
+                        "Инфляция және мөлшерлеме өзгерістері"
+                      ],
+                      [
+                        "Қарызы көп компания",
+                        "16%",
+                        "Төлем сенімділігі төмен",
+                        "Пайызды өткізіп алу немесе қайта құрылымдау"
+                      ],
+                      [
+                        "Өте қиын жағдайдағы эмитент",
+                        "28%",
+                        "Нарық елеулі қиындық күтеді",
+                        "Дефолт немесе үлкен шығын"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ең жоғары кірістілік ең қауіпті болуы мүмкін. Табыс тек эмитент шынымен төлесе ғана тартымды."
+                  }
+                ]
               }
             }
           },
@@ -744,10 +1315,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Read the credit signal"
+              "en": "Read the credit signal",
+              "ru": "Читайте кредитный сигнал",
+              "kk": "Кредиттік сигналды оқыңыз"
             },
             "body": {
-              "en": "Identify the main credit-risk signal in each situation."
+              "en": "Identify the main credit-risk signal in each situation.",
+              "ru": "Определите главный сигнал кредитного риска в каждой ситуации.",
+              "kk": "Әр жағдайдағы негізгі кредиттік тәуекел сигналын анықтаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -775,6 +1350,56 @@
                     "explanation": "The higher yield compensates investors for accepting weaker repayment quality."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите самую сильную интерпретацию кредитного риска.",
+                "options": [
+                  "Более низкий кредитный риск",
+                  "Более высокий кредитный риск",
+                  "Компенсация доходностью"
+                ],
+                "scenarios": [
+                  {
+                    "text": "У компании стабильный денежный поток и низкий долг по сравнению с прибылью.",
+                    "correct_answer": "Более низкий кредитный риск",
+                    "explanation": "Стабильная генерация денег и управляемый долг поддерживают способность платить."
+                  },
+                  {
+                    "text": "Доходность облигации резко растет после того, как эмитент сообщил о сильном падении выручки.",
+                    "correct_answer": "Более высокий кредитный риск",
+                    "explanation": "Инвесторы теперь могут сомневаться в способности эмитента платить."
+                  },
+                  {
+                    "text": "Слабый эмитент предлагает намного более высокую доходность, чем сильный эмитент с тем же сроком.",
+                    "correct_answer": "Компенсация доходностью",
+                    "explanation": "Более высокая доходность компенсирует инвесторам принятие более слабого качества погашения."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Кредиттік тәуекелдің ең күшті түсіндірмесін таңдаңыз.",
+                "options": [
+                  "Төмен кредиттік тәуекел",
+                  "Жоғары кредиттік тәуекел",
+                  "Кірістілік өтемақысы"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Компанияның ақша ағыны тұрақты және табысымен салыстырғанда қарызы төмен.",
+                    "correct_answer": "Төмен кредиттік тәуекел",
+                    "explanation": "Тұрақты ақша ағыны және басқарылатын қарыз төлем қабілетін қолдайды."
+                  },
+                  {
+                    "text": "Эмитент кірістің күрт төмендегенін хабарлағаннан кейін облигация кірістілігі секіреді.",
+                    "correct_answer": "Жоғары кредиттік тәуекел",
+                    "explanation": "Инвесторлар енді эмитенттің төлеу қабілетіне күмәндануы мүмкін."
+                  },
+                  {
+                    "text": "Әлсіз эмитент сол мерзімі бар күшті эмитентке қарағанда әлдеқайда жоғары кірістілік ұсынады.",
+                    "correct_answer": "Кірістілік өтемақысы",
+                    "explanation": "Жоғары кірістілік инвесторларға әлсіздеу өтеу сапасын қабылдағаны үшін өтемақы береді."
+                  }
+                ]
               }
             }
           },
@@ -783,13 +1408,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Ask who pays you back"
+              "en": "Ask who pays you back",
+              "ru": "Спросите, кто вернет вам деньги",
+              "kk": "Ақшаны кім қайтаратынын сұраңыз"
             },
             "body": {
-              "en": "Credit risk turns bond investing into borrower analysis. The promised cash flow is only valuable if the issuer can deliver it. Before chasing a high yield, ask why the yield is high and what would happen if the issuer's cash flow weakens."
+              "en": "Credit risk turns bond investing into borrower analysis. The promised cash flow is only valuable if the issuer can deliver it. Before chasing a high yield, ask why the yield is high and what would happen if the issuer's cash flow weakens.",
+              "ru": "Кредитный риск превращает инвестирование в облигации в анализ заемщика. Обещанный денежный поток ценен только если эмитент может его обеспечить. Прежде чем гнаться за высокой доходностью, спросите, почему она высокая и что произойдет, если денежный поток эмитента ослабнет.",
+              "kk": "Кредиттік тәуекел облигацияға инвестициялауды қарыз алушыны талдауға айналдырады. Уәде етілген ақша ағыны эмитент оны орындай алса ғана құнды. Жоғары кірістілікке ұмтылмас бұрын, оның неге жоғары екенін және эмитенттің ақша ағыны әлсіресе не болатынын сұраңыз."
             },
             "tip": {
-              "en": "A bond yield is attractive only after adjusting for the chance of not receiving it."
+              "en": "A bond yield is attractive only after adjusting for the chance of not receiving it.",
+              "ru": "Доходность облигации привлекательна только с учетом вероятности ее не получить.",
+              "kk": "Облигация кірістілігі оны алмау ықтималдығын ескергеннен кейін ғана тартымды."
             }
           }
         ]
@@ -798,7 +1429,9 @@
         "quiz_id": 1503,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Credit Risk — Check"
+          "en": "Credit Risk — Check",
+          "ru": "Кредитный риск — проверка",
+          "kk": "Кредиттік тәуекел — тексеру"
         },
         "questions": [
           {
@@ -806,14 +1439,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A corporate bond yields 22% while similar government bonds yield 9%. What is the most careful interpretation?"
+              "en": "A corporate bond yields 22% while similar government bonds yield 9%. What is the most careful interpretation?",
+              "ru": "Корпоративная облигация дает 22% доходности, а похожие государственные облигации — 9%. Какое толкование самое осторожное?",
+              "kk": "Корпоративтік облигация 22% кірістілік береді, ал ұқсас мемлекеттік облигациялар 9% береді. Ең сақ түсіндірме қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The market may be demanding compensation for much higher credit risk"
+                  "en": "The market may be demanding compensation for much higher credit risk",
+                  "ru": "Рынок может требовать компенсацию за намного более высокий кредитный риск",
+                  "kk": "Нарық әлдеқайда жоғары кредиттік тәуекел үшін өтемақы талап етіп жатқан болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -821,7 +1458,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The corporate bond is automatically better because the yield is higher"
+                  "en": "The corporate bond is automatically better because the yield is higher",
+                  "ru": "Корпоративная облигация автоматически лучше, потому что доходность выше",
+                  "kk": "Кірістілік жоғары болғандықтан корпоративтік облигация автоматты түрде жақсы"
                 },
                 "is_correct": false
               },
@@ -829,7 +1468,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The corporate bond cannot default if it pays a coupon"
+                  "en": "The corporate bond cannot default if it pays a coupon",
+                  "ru": "Корпоративная облигация не может объявить дефолт, если платит купон",
+                  "kk": "Купон төлесе, корпоративтік облигация дефолтқа ұшырай алмайды"
                 },
                 "is_correct": false
               },
@@ -837,7 +1478,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Government bonds and corporate bonds always have equal risk"
+                  "en": "Government bonds and corporate bonds always have equal risk",
+                  "ru": "Государственные и корпоративные облигации всегда имеют одинаковый риск",
+                  "kk": "Мемлекеттік және корпоративтік облигациялардың тәуекелі әрқашан бірдей"
                 },
                 "is_correct": false
               }
@@ -848,14 +1491,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "An issuer has not missed any payments, but its bond price falls after its debt rises sharply. Why?"
+              "en": "An issuer has not missed any payments, but its bond price falls after its debt rises sharply. Why?",
+              "ru": "Эмитент не пропустил ни одного платежа, но цена его облигации падает после резкого роста долга. Почему?",
+              "kk": "Эмитент бірде-бір төлемді өткізіп алған жоқ, бірақ қарызы күрт өскеннен кейін облигация бағасы түсті. Неге?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Investors may price in a higher probability of future payment problems"
+                  "en": "Investors may price in a higher probability of future payment problems",
+                  "ru": "Инвесторы могут закладывать более высокую вероятность будущих проблем с выплатами",
+                  "kk": "Инвесторлар болашақ төлем мәселелерінің жоғары ықтималдығын бағаға енгізуі мүмкін"
                 },
                 "is_correct": true
               },
@@ -863,7 +1510,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Bond prices can only fall after default"
+                  "en": "Bond prices can only fall after default",
+                  "ru": "Цены облигаций могут падать только после дефолта",
+                  "kk": "Облигация бағасы тек дефолттан кейін ғана түсе алады"
                 },
                 "is_correct": false
               },
@@ -871,7 +1520,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Debt increases always make bonds safer"
+                  "en": "Debt increases always make bonds safer",
+                  "ru": "Рост долга всегда делает облигации безопаснее",
+                  "kk": "Қарыздың өсуі облигацияларды әрқашан қауіпсіз етеді"
                 },
                 "is_correct": false
               },
@@ -879,7 +1530,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Coupons are canceled whenever debt rises"
+                  "en": "Coupons are canceled whenever debt rises",
+                  "ru": "Купоны отменяются всякий раз, когда долг растет",
+                  "kk": "Қарыз өскен сайын купондар тоқтатылады"
                 },
                 "is_correct": false
               }
@@ -890,14 +1543,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which question best targets credit risk?"
+              "en": "Which question best targets credit risk?",
+              "ru": "Какой вопрос лучше всего проверяет кредитный риск?",
+              "kk": "Қай сұрақ кредиттік тәуекелді ең жақсы тексереді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Can this issuer generate enough cash to pay interest and principal on time?"
+                  "en": "Can this issuer generate enough cash to pay interest and principal on time?",
+                  "ru": "Может ли этот эмитент генерировать достаточно денег, чтобы вовремя платить проценты и основную сумму?",
+                  "kk": "Бұл эмитент пайыз бен негізгі соманы уақытында төлеуге жеткілікті ақша жасай ала ма?"
                 },
                 "is_correct": true
               },
@@ -905,7 +1562,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Did the bond price rise yesterday?"
+                  "en": "Did the bond price rise yesterday?",
+                  "ru": "Выросла ли цена облигации вчера?",
+                  "kk": "Кеше облигация бағасы өсті ме?"
                 },
                 "is_correct": false
               },
@@ -913,7 +1572,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Is the coupon number easy to remember?"
+                  "en": "Is the coupon number easy to remember?",
+                  "ru": "Легко ли запомнить размер купона?",
+                  "kk": "Купон санын есте сақтау оңай ма?"
                 },
                 "is_correct": false
               },
@@ -921,7 +1582,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Does the bond have a short name?"
+                  "en": "Does the bond have a short name?",
+                  "ru": "У облигации короткое название?",
+                  "kk": "Облигацияның атауы қысқа ма?"
                 },
                 "is_correct": false
               }
@@ -933,10 +1596,14 @@
     {
       "code": "interest_rate_risk",
       "title": {
-        "en": "Interest-rate Risk"
+        "en": "Interest-rate Risk",
+        "ru": "Процентный риск",
+        "kk": "Пайыздық мөлшерлеме тәуекелі"
       },
       "description": {
-        "en": "Bond prices move when market interest rates change, especially for longer-term fixed-rate bonds."
+        "en": "Bond prices move when market interest rates change, especially for longer-term fixed-rate bonds.",
+        "ru": "Цены облигаций меняются, когда меняются рыночные процентные ставки, особенно у долгосрочных облигаций с фиксированной ставкой.",
+        "kk": "Нарықтық пайыздық мөлшерлемелер өзгергенде облигация бағалары өзгереді, әсіресе ұзақ мерзімді фиксирленген ставкалы облигациялар үшін."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -948,10 +1615,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Rates compete with old bonds"
+              "en": "Rates compete with old bonds",
+              "ru": "Ставки конкурируют со старыми облигациями",
+              "kk": "Мөлшерлемелер ескі облигациялармен бәсекелеседі"
             },
             "body": {
-              "en": "A fixed-rate bond promises payments set in the past. When market rates change, those old payments become more or less attractive. That is why bond prices move even when the issuer is still healthy."
+              "en": "A fixed-rate bond promises payments set in the past. When market rates change, those old payments become more or less attractive. That is why bond prices move even when the issuer is still healthy.",
+              "ru": "Облигация с фиксированной ставкой обещает выплаты, установленные в прошлом. Когда рыночные ставки меняются, эти старые выплаты становятся более или менее привлекательными. Поэтому цены облигаций двигаются даже тогда, когда эмитент остается здоровым.",
+              "kk": "Фиксирленген ставкалы облигация өткенде белгіленген төлемдерді уәде етеді. Нарықтық мөлшерлемелер өзгергенде, бұл ескі төлемдер тартымдырақ немесе тартымсыздау болады. Сондықтан эмитент әлі де сенімді болса да, облигация бағалары қозғалады."
             }
           },
           {
@@ -959,13 +1630,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Rates up, old prices down"
+              "en": "Rates up, old prices down",
+              "ru": "Ставки вверх — старые цены вниз",
+              "kk": "Мөлшерлеме өссе, ескі бағалар төмендейді"
             },
             "body": {
-              "en": "If new bonds offer higher yields, older bonds with lower coupons must fall in price to compete. If new yields fall, older higher-coupon bonds become more valuable. Bond prices and market yields usually move in opposite directions."
+              "en": "If new bonds offer higher yields, older bonds with lower coupons must fall in price to compete. If new yields fall, older higher-coupon bonds become more valuable. Bond prices and market yields usually move in opposite directions.",
+              "ru": "Если новые облигации предлагают более высокую доходность, старые облигации с низкими купонами должны упасть в цене, чтобы конкурировать. Если новые доходности падают, старые облигации с более высоким купоном становятся ценнее. Цены облигаций и рыночные доходности обычно движутся в противоположных направлениях.",
+              "kk": "Жаңа облигациялар жоғары кірістілік ұсынса, төмен купоны бар ескі облигациялар бәсекелесу үшін бағасын төмендетуі керек. Жаңа кірістіліктер төмендесе, жоғары купоны бар ескі облигациялар құндырақ болады. Облигация бағалары мен нарықтық кірістіліктер әдетте қарама-қарсы бағытта қозғалады."
             },
             "tip": {
-              "en": "For existing fixed-rate bonds: rates up usually means price down."
+              "en": "For existing fixed-rate bonds: rates up usually means price down.",
+              "ru": "Для существующих облигаций с фиксированной ставкой: рост ставок обычно означает падение цены.",
+              "kk": "Бар фиксирленген ставкалы облигациялар үшін: мөлшерлеме өссе, баға әдетте төмендейді."
             }
           },
           {
@@ -973,10 +1650,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Time magnifies rate risk"
+              "en": "Time magnifies rate risk",
+              "ru": "Время усиливает процентный риск",
+              "kk": "Уақыт мөлшерлеме тәуекелін күшейтеді"
             },
             "body": {
-              "en": "Longer-term bonds are usually more sensitive to rate changes because their fixed payments stretch further into the future. A short bond returns principal sooner, letting the investor reinvest at new rates. Time makes old promises more exposed to new conditions."
+              "en": "Longer-term bonds are usually more sensitive to rate changes because their fixed payments stretch further into the future. A short bond returns principal sooner, letting the investor reinvest at new rates. Time makes old promises more exposed to new conditions.",
+              "ru": "Долгосрочные облигации обычно более чувствительны к изменениям ставок, потому что их фиксированные выплаты растянуты дальше в будущее. Краткосрочная облигация быстрее возвращает основную сумму, позволяя инвестору реинвестировать по новым ставкам. Время делает старые обещания более уязвимыми к новым условиям.",
+              "kk": "Ұзақ мерзімді облигациялар мөлшерлеме өзгерістеріне әдетте сезімтал, өйткені олардың тұрақты төлемдері болашаққа ұзақ созылады. Қысқа облигация негізгі соманы тезірек қайтарады, инвесторға жаңа мөлшерлемелермен қайта инвестициялауға мүмкіндік береді. Уақыт ескі уәделерді жаңа жағдайларға көбірек тәуелді етеді."
             }
           },
           {
@@ -984,7 +1665,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Why the old bond must discount"
+              "en": "Why the old bond must discount",
+              "ru": "Почему старая облигация должна торговаться с дисконтом",
+              "kk": "Неге ескі облигация дисконтпен сатылуы керек"
             },
             "content": {
               "en": {
@@ -1027,6 +1710,88 @@
                     "text": "The issuer did not necessarily become riskier. The price adjusted because the market opportunity changed."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У вас есть пятилетняя облигация с выплатой 8%. Новые похожие облигации теперь дают 12%. Покупатель не заплатит полную цену за вашу облигацию с более низкой доходностью."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Облигация",
+                        "Купон / доходность",
+                        "Взгляд покупателя",
+                        "Давление на цену"
+                      ],
+                      [
+                        "Старая облигация",
+                        "Купон 8%",
+                        "Платит меньше, чем новые альтернативы",
+                        "Цена падает"
+                      ],
+                      [
+                        "Новая облигация",
+                        "Доходность 12%",
+                        "Более привлекательна по номиналу",
+                        "Задает новый ориентир"
+                      ],
+                      [
+                        "Старая облигация после падения цены",
+                        "Купон 8%, но более низкая цена",
+                        "Доходность становится ближе к рыночной",
+                        "Снова конкурентоспособна"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Эмитент не обязательно стал рискованнее. Цена скорректировалась, потому что изменилась рыночная возможность."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Сізде 8% төлейтін бес жылдық облигация бар. Жаңа ұқсас облигациялар қазір 12% кірістілік береді. Сатып алушы сіздің төмен кірісті облигацияңызға толық баға төлемейді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Облигация",
+                        "Купон / кірістілік",
+                        "Сатып алушы көзқарасы",
+                        "Бағаға қысым"
+                      ],
+                      [
+                        "Ескі облигация",
+                        "8% купон",
+                        "Жаңа баламалардан аз төлейді",
+                        "Баға төмендейді"
+                      ],
+                      [
+                        "Жаңа облигация",
+                        "12% кірістілік",
+                        "Номинал бойынша тартымдырақ",
+                        "Жаңа бағдар қояды"
+                      ],
+                      [
+                        "Баға түскеннен кейінгі ескі облигация",
+                        "8% купон, бірақ төмен баға",
+                        "Кірістілік нарыққа жақындайды",
+                        "Қайтадан бәсекеге қабілетті"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Эмитент міндетті түрде тәуекелдірек болған жоқ. Баға нарықтық мүмкіндік өзгергендіктен түзетілді."
+                  }
+                ]
               }
             }
           },
@@ -1035,10 +1800,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Predict the price pressure"
+              "en": "Predict the price pressure",
+              "ru": "Предскажите давление на цену",
+              "kk": "Баға қысымын болжаңыз"
             },
             "body": {
-              "en": "Choose what usually happens to an existing fixed-rate bond in each rate scenario."
+              "en": "Choose what usually happens to an existing fixed-rate bond in each rate scenario.",
+              "ru": "Выберите, что обычно происходит с существующей облигацией с фиксированной ставкой в каждом сценарии ставок.",
+              "kk": "Әр мөлшерлеме сценарийінде бар фиксирленген ставкалы облигациямен әдетте не болатынын таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1066,6 +1835,56 @@
                     "explanation": "Shorter time to repayment usually reduces sensitivity to rate changes."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите вероятное давление на цену.",
+                "options": [
+                  "Давление на цену вверх",
+                  "Давление на цену вниз",
+                  "Менее чувствительна"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Рыночные доходности выросли с 9% до 13% после того, как вы купили облигацию с фиксированной ставкой.",
+                    "correct_answer": "Давление на цену вниз",
+                    "explanation": "Новые облигации привлекательнее, поэтому цена старой облигации должна снизиться."
+                  },
+                  {
+                    "text": "Рыночные доходности падают, а ваша старая облигация имеет более высокий купон, чем новые облигации.",
+                    "correct_answer": "Давление на цену вверх",
+                    "explanation": "Денежные потоки старой облигации теперь более привлекательны."
+                  },
+                  {
+                    "text": "Облигация погашается через три месяца, а не через десять лет.",
+                    "correct_answer": "Менее чувствительна",
+                    "explanation": "Более короткое время до погашения обычно снижает чувствительность к изменениям ставок."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ықтимал баға қысымын таңдаңыз.",
+                "options": [
+                  "Бағаға жоғары қысым",
+                  "Бағаға төмен қысым",
+                  "Сезімталдығы төмен"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Сіз фиксирленген ставкалы облигацияны сатып алғаннан кейін нарықтық кірістілік 9%-дан 13%-ға өсті.",
+                    "correct_answer": "Бағаға төмен қысым",
+                    "explanation": "Жаңа облигациялар тартымдырақ, сондықтан ескі облигация бағасы төмендеуі керек."
+                  },
+                  {
+                    "text": "Нарықтық кірістіліктер төмендейді, ал сіздің ескі облигацияңыздың купоны жаңа облигациялардан жоғары.",
+                    "correct_answer": "Бағаға жоғары қысым",
+                    "explanation": "Ескі облигацияның ақша ағындары енді тартымдырақ."
+                  },
+                  {
+                    "text": "Облигация он жылдан емес, үш айдан кейін өтеледі.",
+                    "correct_answer": "Сезімталдығы төмен",
+                    "explanation": "Өтеуге дейінгі қысқа уақыт мөлшерлеме өзгерістеріне сезімталдықты әдетте төмендетеді."
+                  }
+                ]
               }
             }
           },
@@ -1074,13 +1893,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Healthy issuers can still fall"
+              "en": "Healthy issuers can still fall",
+              "ru": "Надежные эмитенты тоже могут падать в цене",
+              "kk": "Сенімді эмитенттердің де бағасы түсуі мүмкін"
             },
             "body": {
-              "en": "Interest-rate risk is separate from credit risk. A bond can lose market value because rates changed, even if the issuer remains reliable. The longer the fixed cash flows last, the more the price usually reacts to changing yields."
+              "en": "Interest-rate risk is separate from credit risk. A bond can lose market value because rates changed, even if the issuer remains reliable. The longer the fixed cash flows last, the more the price usually reacts to changing yields.",
+              "ru": "Процентный риск отличается от кредитного риска. Облигация может потерять рыночную стоимость из-за изменения ставок, даже если эмитент остается надежным. Чем дольше длятся фиксированные денежные потоки, тем сильнее цена обычно реагирует на изменение доходностей.",
+              "kk": "Пайыздық мөлшерлеме тәуекелі кредиттік тәуекелден бөлек. Эмитент сенімді болып қалса да, мөлшерлемелер өзгергендіктен облигация нарықтық құнын жоғалтуы мүмкін. Тұрақты ақша ағындары неғұрлым ұзақ болса, баға өзгерген кірістіліктерге соғұрлым көбірек жауап береді."
             },
             "tip": {
-              "en": "Do not confuse a rate-driven price fall with proof of default risk."
+              "en": "Do not confuse a rate-driven price fall with proof of default risk.",
+              "ru": "Не путайте падение цены из-за ставок с доказательством риска дефолта.",
+              "kk": "Мөлшерлемеден болған баға түсуін дефолт тәуекелінің дәлелімен шатастырмаңыз."
             }
           }
         ]
@@ -1089,7 +1914,9 @@
         "quiz_id": 1504,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Interest-rate Risk — Check"
+          "en": "Interest-rate Risk — Check",
+          "ru": "Процентный риск — проверка",
+          "kk": "Пайыздық мөлшерлеме тәуекелі — тексеру"
         },
         "questions": [
           {
@@ -1097,14 +1924,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "You bought a fixed-rate bond yielding 8%. New similar bonds now yield 12%. What is likely to happen to your bond's market price?"
+              "en": "You bought a fixed-rate bond yielding 8%. New similar bonds now yield 12%. What is likely to happen to your bond's market price?",
+              "ru": "Вы купили облигацию с фиксированной ставкой и доходностью 8%. Новые похожие облигации теперь дают 12%. Что, вероятно, произойдет с рыночной ценой вашей облигации?",
+              "kk": "Сіз 8% кірістілік беретін фиксирленген ставкалы облигация сатып алдыңыз. Жаңа ұқсас облигациялар қазір 12% береді. Сіздің облигацияңыздың нарықтық бағасына не болуы ықтимал?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It will likely fall so its return becomes more competitive with new bonds"
+                  "en": "It will likely fall so its return becomes more competitive with new bonds",
+                  "ru": "Она, вероятно, упадет, чтобы ее доходность стала более конкурентной с новыми облигациями",
+                  "kk": "Оның бағасы, кірістілігі жаңа облигациялармен бәсекелес болуы үшін, төмендеуі ықтимал"
                 },
                 "is_correct": true
               },
@@ -1112,7 +1943,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It will rise because higher market rates help all existing bonds"
+                  "en": "It will rise because higher market rates help all existing bonds",
+                  "ru": "Она вырастет, потому что более высокие рыночные ставки помогают всем существующим облигациям",
+                  "kk": "Ол өседі, өйткені жоғары нарықтық мөлшерлемелер барлық бар облигацияларға көмектеседі"
                 },
                 "is_correct": false
               },
@@ -1120,7 +1953,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It must stay at face value until maturity"
+                  "en": "It must stay at face value until maturity",
+                  "ru": "Она должна оставаться по номиналу до погашения",
+                  "kk": "Ол өтеуге дейін номиналда қалуы керек"
                 },
                 "is_correct": false
               },
@@ -1128,7 +1963,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Its coupon automatically increases to 12%"
+                  "en": "Its coupon automatically increases to 12%",
+                  "ru": "Ее купон автоматически увеличится до 12%",
+                  "kk": "Оның купоны автоматты түрде 12%-ға өседі"
                 },
                 "is_correct": false
               }
@@ -1139,14 +1976,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why is a 15-year fixed-rate bond usually more sensitive to interest-rate changes than a 6-month bond?"
+              "en": "Why is a 15-year fixed-rate bond usually more sensitive to interest-rate changes than a 6-month bond?",
+              "ru": "Почему 15-летняя облигация с фиксированной ставкой обычно более чувствительна к изменениям ставок, чем 6-месячная?",
+              "kk": "Неге 15 жылдық фиксирленген ставкалы облигация 6 айлық облигацияға қарағанда пайыздық мөлшерлеме өзгерістеріне сезімталырақ?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Its fixed payments are locked in for much longer"
+                  "en": "Its fixed payments are locked in for much longer",
+                  "ru": "Ее фиксированные выплаты закреплены на гораздо более долгий срок",
+                  "kk": "Оның тұрақты төлемдері әлдеқайда ұзақ мерзімге бекітілген"
                 },
                 "is_correct": true
               },
@@ -1154,7 +1995,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Long bonds have no coupons"
+                  "en": "Long bonds have no coupons",
+                  "ru": "Долгосрочные облигации не имеют купонов",
+                  "kk": "Ұзақ облигацияларда купон болмайды"
                 },
                 "is_correct": false
               },
@@ -1162,7 +2005,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Short bonds always default first"
+                  "en": "Short bonds always default first",
+                  "ru": "Краткосрочные облигации всегда дефолтят первыми",
+                  "kk": "Қысқа облигациялар әрқашан бірінші дефолтқа ұшырайды"
                 },
                 "is_correct": false
               },
@@ -1170,7 +2015,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Maturity length has no relation to price sensitivity"
+                  "en": "Maturity length has no relation to price sensitivity",
+                  "ru": "Срок до погашения не связан с чувствительностью цены",
+                  "kk": "Өтеу мерзімі баға сезімталдығына қатысы жоқ"
                 },
                 "is_correct": false
               }
@@ -1181,14 +2028,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "A reliable government bond falls in price after rates rise. What is the best explanation?"
+              "en": "A reliable government bond falls in price after rates rise. What is the best explanation?",
+              "ru": "Надежная государственная облигация падает в цене после роста ставок. Какое объяснение лучшее?",
+              "kk": "Мөлшерлемелер өскеннен кейін сенімді мемлекеттік облигация бағасы түсті. Ең жақсы түсіндірме қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The price may be adjusting to higher market yields, not necessarily default fear"
+                  "en": "The price may be adjusting to higher market yields, not necessarily default fear",
+                  "ru": "Цена может корректироваться к более высоким рыночным доходностям, а не обязательно к страху дефолта",
+                  "kk": "Баға жоғары нарықтық кірістіліктерге бейімделіп жатқан болуы мүмкін, міндетті түрде дефолт қорқынышы емес"
                 },
                 "is_correct": true
               },
@@ -1196,7 +2047,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The government has definitely defaulted"
+                  "en": "The government has definitely defaulted",
+                  "ru": "Государство точно объявило дефолт",
+                  "kk": "Мемлекет міндетті түрде дефолт жариялады"
                 },
                 "is_correct": false
               },
@@ -1204,7 +2057,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Reliable bonds cannot change price"
+                  "en": "Reliable bonds cannot change price",
+                  "ru": "Надежные облигации не могут менять цену",
+                  "kk": "Сенімді облигациялар бағасын өзгерте алмайды"
                 },
                 "is_correct": false
               },
@@ -1212,7 +2067,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The coupon payment has disappeared"
+                  "en": "The coupon payment has disappeared",
+                  "ru": "Купонная выплата исчезла",
+                  "kk": "Купондық төлем жоғалды"
                 },
                 "is_correct": false
               }
@@ -1224,10 +2081,14 @@
     {
       "code": "bond_types",
       "title": {
-        "en": "Bond Types"
+        "en": "Bond Types",
+        "ru": "Типы облигаций",
+        "kk": "Облигация түрлері"
       },
       "description": {
-        "en": "Government, corporate, inflation-linked, floating-rate, and short-term bonds solve different investor problems."
+        "en": "Government, corporate, inflation-linked, floating-rate, and short-term bonds solve different investor problems.",
+        "ru": "Государственные, корпоративные, индексируемые на инфляцию, плавающие и краткосрочные облигации решают разные задачи инвестора.",
+        "kk": "Мемлекеттік, корпоративтік, инфляцияға байланыстырылған, плавающий мөлшерлемелі және қысқа мерзімді облигациялар инвестордың әртүрлі мәселелерін шешеді."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1239,10 +2100,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Not all bonds solve the same problem"
+              "en": "Not all bonds solve the same problem",
+              "ru": "Не все облигации решают одну и ту же задачу",
+              "kk": "Барлық облигациялар бірдей мәселені шешпейді"
             },
             "body": {
-              "en": "People often say “bonds” as if they are one product. In reality, bond types differ by issuer, maturity, coupon structure, currency, and inflation protection. The right type depends on which risk you are trying to manage."
+              "en": "People often say “bonds” as if they are one product. In reality, bond types differ by issuer, maturity, coupon structure, currency, and inflation protection. The right type depends on which risk you are trying to manage.",
+              "ru": "Люди часто говорят «облигации», будто это один продукт. На самом деле типы облигаций различаются по эмитенту, сроку, структуре купона, валюте и защите от инфляции. Правильный тип зависит от того, каким риском вы хотите управлять.",
+              "kk": "Адамдар «облигациялар» деп бір ғана өнім сияқты айтады. Шын мәнінде облигация түрлері эмитенті, мерзімі, купон құрылымы, валютасы және инфляциядан қорғанысы бойынша ерекшеленеді. Дұрыс түрі сіз басқарғыңыз келетін тәуекелге байланысты."
             }
           },
           {
@@ -1250,13 +2115,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Issuer defines repayment risk"
+              "en": "Issuer defines repayment risk",
+              "ru": "Эмитент определяет риск погашения",
+              "kk": "Эмитент өтеу тәуекелін анықтайды"
             },
             "body": {
-              "en": "Government bonds usually depend on the state's ability and willingness to pay. Corporate bonds depend on a company's cash flow and balance sheet. A higher corporate yield may reflect extra credit risk, not simply a better deal."
+              "en": "Government bonds usually depend on the state's ability and willingness to pay. Corporate bonds depend on a company's cash flow and balance sheet. A higher corporate yield may reflect extra credit risk, not simply a better deal.",
+              "ru": "Государственные облигации обычно зависят от способности и готовности государства платить. Корпоративные облигации зависят от денежного потока и баланса компании. Более высокая корпоративная доходность может отражать дополнительный кредитный риск, а не просто лучшую сделку.",
+              "kk": "Мемлекеттік облигациялар әдетте мемлекеттің төлеу қабілеті мен ниетіне байланысты. Корпоративтік облигациялар компанияның ақша ағыны мен балансына байланысты. Жоғары корпоративтік кірістілік жай ғана жақсы мәміле емес, қосымша кредиттік тәуекелді көрсетуі мүмкін."
             },
             "tip": {
-              "en": "The first bond type question is: who is the borrower?"
+              "en": "The first bond type question is: who is the borrower?",
+              "ru": "Первый вопрос о типе облигации: кто заемщик?",
+              "kk": "Облигация түрі туралы алғашқы сұрақ: қарыз алушы кім?"
             }
           },
           {
@@ -1264,10 +2135,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Structure defines rate and inflation exposure"
+              "en": "Structure defines rate and inflation exposure",
+              "ru": "Структура определяет чувствительность к ставкам и инфляции",
+              "kk": "Құрылым мөлшерлеме мен инфляция әсерін анықтайды"
             },
             "body": {
-              "en": "Fixed-rate bonds give predictable coupons but can lose price when rates rise. Floating-rate bonds adjust with rates, reducing some rate risk. Inflation-linked bonds try to protect purchasing power, but their prices can still move."
+              "en": "Fixed-rate bonds give predictable coupons but can lose price when rates rise. Floating-rate bonds adjust with rates, reducing some rate risk. Inflation-linked bonds try to protect purchasing power, but their prices can still move.",
+              "ru": "Облигации с фиксированной ставкой дают предсказуемые купоны, но могут терять в цене при росте ставок. Облигации с плавающей ставкой подстраиваются под ставки, снижая часть процентного риска. Облигации с защитой от инфляции пытаются защитить покупательную способность, но их цены все равно могут меняться.",
+              "kk": "Фиксирленген ставкалы облигациялар болжамды купондар береді, бірақ мөлшерлемелер өскенде бағасын жоғалтуы мүмкін. Плавающий мөлшерлемелі облигациялар мөлшерлемелермен бірге реттеліп, кейбір мөлшерлеме тәуекелін азайтады. Инфляцияға байланыстырылған облигациялар сатып алу қабілетін қорғауға тырысады, бірақ олардың бағасы да өзгеруі мүмкін."
             }
           },
           {
@@ -1275,7 +2150,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Match the bond to the job"
+              "en": "Match the bond to the job",
+              "ru": "Подберите облигацию под задачу",
+              "kk": "Облигацияны міндетке сәйкестендіріңіз"
             },
             "content": {
               "en": {
@@ -1324,6 +2201,100 @@
                     "text": "Choosing a bond starts with the job: safety, income, inflation protection, rate flexibility, or timing."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У инвестора есть ₸2,000,000, и часть он хочет держать в облигациях. Разные варианты облигаций решают разные задачи."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Потребность инвестора",
+                        "Возможный тип облигации",
+                        "Главный компромисс"
+                      ],
+                      [
+                        "Более низкий риск дефолта",
+                        "Государственная облигация",
+                        "Может давать более низкую доходность"
+                      ],
+                      [
+                        "Более высокий доход",
+                        "Корпоративная облигация",
+                        "Больше кредитного риска"
+                      ],
+                      [
+                        "Меньшая чувствительность к росту ставок",
+                        "Краткосрочная облигация или облигация с плавающей ставкой",
+                        "Может давать более низкую долгосрочную доходность"
+                      ],
+                      [
+                        "Защита от инфляции",
+                        "Облигация с привязкой к инфляции",
+                        "Может вести себя иначе, чем фиксированные облигации"
+                      ],
+                      [
+                        "Известная дата получения денег",
+                        "Облигация с погашением около даты цели",
+                        "Меньше гибкости при ранней продаже"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Выбор облигации начинается с задачи: безопасность, доход, защита от инфляции, гибкость по ставкам или срок."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвесторда ₸2,000,000 бар және оның бір бөлігін облигацияда ұстағысы келеді. Әртүрлі облигация таңдаулары әртүрлі мәселелерді шешеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Инвестор қажеттілігі",
+                        "Мүмкін облигация түрі",
+                        "Негізгі айырбас"
+                      ],
+                      [
+                        "Төмен дефолт тәуекелі",
+                        "Мемлекеттік облигация",
+                        "Төменірек кірістілік ұсынуы мүмкін"
+                      ],
+                      [
+                        "Жоғары табыс",
+                        "Корпоративтік облигация",
+                        "Көбірек кредиттік тәуекел"
+                      ],
+                      [
+                        "Мөлшерлеме өсуіне сезімталдығы төмен",
+                        "Қысқа мерзімді немесе плавающий мөлшерлемелі облигация",
+                        "Төменірек ұзақ мерзімді кірістілік ұсынуы мүмкін"
+                      ],
+                      [
+                        "Инфляциядан қорғаныс",
+                        "Инфляцияға байланыстырылған облигация",
+                        "Фиксирленген облигациялардан басқаша әрекет етуі мүмкін"
+                      ],
+                      [
+                        "Белгілі ақша күні",
+                        "Мақсат күніне жақын өтелетін облигация",
+                        "Ерте сатылса, икемділігі төмен"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Облигация таңдауы міндеттен басталады: қауіпсіздік, табыс, инфляциядан қорғаныс, мөлшерлеме икемділігі немесе уақыт."
+                  }
+                ]
               }
             }
           },
@@ -1332,10 +2303,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Choose the bond type"
+              "en": "Choose the bond type",
+              "ru": "Выберите тип облигации",
+              "kk": "Облигация түрін таңдаңыз"
             },
             "body": {
-              "en": "Pick the bond type that best matches each investor's main problem."
+              "en": "Pick the bond type that best matches each investor's main problem.",
+              "ru": "Выберите тип облигации, который лучше всего соответствует главной задаче каждого инвестора.",
+              "kk": "Әр инвестордың негізгі мәселесіне ең сәйкес облигация түрін таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1369,6 +2344,68 @@
                     "explanation": "Inflation-linked structures are designed to address inflation risk."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите наиболее подходящий тип облигации для указанной потребности.",
+                "options": [
+                  "Государственная облигация",
+                  "Корпоративная облигация",
+                  "Краткосрочная облигация или облигация с плавающей ставкой",
+                  "Облигация с привязкой к инфляции"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инвестор хочет более низкий риск дефолта и согласен на более низкую доходность.",
+                    "correct_answer": "Государственная облигация",
+                    "explanation": "Государственные облигации часто ориентированы на надежность погашения, а не на максимальный доход."
+                  },
+                  {
+                    "text": "Инвестор принимает дополнительный риск эмитента ради более высокого дохода.",
+                    "correct_answer": "Корпоративная облигация",
+                    "explanation": "Корпоративные облигации могут предлагать более высокую доходность как компенсацию за кредитный риск."
+                  },
+                  {
+                    "text": "Инвестор беспокоится, что рыночные ставки скоро могут вырасти.",
+                    "correct_answer": "Краткосрочная облигация или облигация с плавающей ставкой",
+                    "explanation": "Более короткий срок или плавающие купоны могут снизить воздействие роста ставок."
+                  },
+                  {
+                    "text": "Инвестор хочет, чтобы выплаты по облигации были более напрямую связаны с покупательной способностью.",
+                    "correct_answer": "Облигация с привязкой к инфляции",
+                    "explanation": "Структуры с привязкой к инфляции созданы для управления инфляционным риском."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Көрсетілген қажеттілікке ең қолайлы облигация түрін таңдаңыз.",
+                "options": [
+                  "Мемлекеттік облигация",
+                  "Корпоративтік облигация",
+                  "Қысқа мерзімді немесе плавающий мөлшерлемелі облигация",
+                  "Инфляцияға байланыстырылған облигация"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инвестор төмен дефолт тәуекелін қалайды және төмен кірістілікке келіседі.",
+                    "correct_answer": "Мемлекеттік облигация",
+                    "explanation": "Мемлекеттік облигациялар көбіне ең жоғары табысқа емес, өтеудің сенімділігіне бағытталады."
+                  },
+                  {
+                    "text": "Инвестор жоғары табыс іздеп, эмитенттің қосымша тәуекелін қабылдайды.",
+                    "correct_answer": "Корпоративтік облигация",
+                    "explanation": "Корпоративтік облигациялар кредиттік тәуекел үшін өтемақы ретінде жоғары кірістілік ұсынуы мүмкін."
+                  },
+                  {
+                    "text": "Инвестор нарықтық мөлшерлемелер жақында өсуі мүмкін деп алаңдайды.",
+                    "correct_answer": "Қысқа мерзімді немесе плавающий мөлшерлемелі облигация",
+                    "explanation": "Қысқа мерзім немесе плавающий купондар мөлшерлеме өсуіне әсерді азайта алады."
+                  },
+                  {
+                    "text": "Инвестор облигация төлемдерінің сатып алу қабілетіне тікелейірек байланысқанын қалайды.",
+                    "correct_answer": "Инфляцияға байланыстырылған облигация",
+                    "explanation": "Инфляцияға байланыстырылған құрылымдар инфляция тәуекелін шешуге арналған."
+                  }
+                ]
               }
             }
           },
@@ -1377,13 +2414,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Type follows purpose"
+              "en": "Type follows purpose",
+              "ru": "Тип следует за целью",
+              "kk": "Түрі мақсатқа бағынады"
             },
             "body": {
-              "en": "Bond types are tools for different risks. Government versus corporate changes credit exposure; short versus long changes rate sensitivity; fixed, floating, and inflation-linked structures change how cash flows respond to the economy. Choose the type by naming the risk you want to manage."
+              "en": "Bond types are tools for different risks. Government versus corporate changes credit exposure; short versus long changes rate sensitivity; fixed, floating, and inflation-linked structures change how cash flows respond to the economy. Choose the type by naming the risk you want to manage.",
+              "ru": "Типы облигаций — инструменты для разных рисков. Государственная или корпоративная облигация меняет кредитную экспозицию; короткая или длинная — чувствительность к ставкам; фиксированная, плавающая и привязанная к инфляции структура меняет реакцию денежных потоков на экономику. Выбирайте тип, называя риск, которым хотите управлять.",
+              "kk": "Облигация түрлері әртүрлі тәуекелдерге арналған құралдар. Мемлекеттік пен корпоративтік кредиттік әсерді өзгертеді; қысқа мен ұзақ мерзім мөлшерлеме сезімталдығын өзгертеді; фиксирленген, плавающий және инфляцияға байланыстырылған құрылымдар ақша ағындарының экономикаға қалай жауап беретінін өзгертеді. Түрді басқарғыңыз келетін тәуекелді атап таңдаңыз."
             },
             "tip": {
-              "en": "Do not buy a bond category because it sounds safe; match it to the specific job."
+              "en": "Do not buy a bond category because it sounds safe; match it to the specific job.",
+              "ru": "Не покупайте категорию облигаций только потому, что она звучит безопасно; подбирайте ее под конкретную задачу.",
+              "kk": "Облигация санатын қауіпсіз естіледі деп сатып алмаңыз; оны нақты міндетке сәйкестендіріңіз."
             }
           }
         ]
@@ -1392,7 +2435,9 @@
         "quiz_id": 1505,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Bond Types — Check"
+          "en": "Bond Types — Check",
+          "ru": "Типы облигаций — проверка",
+          "kk": "Облигация түрлері — тексеру"
         },
         "questions": [
           {
@@ -1400,14 +2445,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "An investor wants the lowest reasonable default risk and accepts a lower yield. Which bond type is the most natural starting point?"
+              "en": "An investor wants the lowest reasonable default risk and accepts a lower yield. Which bond type is the most natural starting point?",
+              "ru": "Инвестор хочет минимальный разумный риск дефолта и согласен на более низкую доходность. Какой тип облигаций — самый естественный старт?",
+              "kk": "Инвестор ең төмен ақылға қонымды дефолт тәуекелін қалайды және төмен кірістілікке келіседі. Қай облигация түрі ең табиғи бастама?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Government bonds from a reliable issuer"
+                  "en": "Government bonds from a reliable issuer",
+                  "ru": "Государственные облигации надежного эмитента",
+                  "kk": "Сенімді эмитенттің мемлекеттік облигациялары"
                 },
                 "is_correct": true
               },
@@ -1415,7 +2464,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The highest-yield distressed corporate bond"
+                  "en": "The highest-yield distressed corporate bond",
+                  "ru": "Проблемная корпоративная облигация с самой высокой доходностью",
+                  "kk": "Ең жоғары кірістілігі бар проблемалы корпоративтік облигация"
                 },
                 "is_correct": false
               },
@@ -1423,7 +2474,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A long bond from a company with falling revenue"
+                  "en": "A long bond from a company with falling revenue",
+                  "ru": "Долгосрочная облигация компании с падающей выручкой",
+                  "kk": "Кірісі төмендеп жатқан компанияның ұзақ мерзімді облигациясы"
                 },
                 "is_correct": false
               },
@@ -1431,7 +2484,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Any bond with the largest coupon number"
+                  "en": "Any bond with the largest coupon number",
+                  "ru": "Любая облигация с самым большим купоном",
+                  "kk": "Купоны ең үлкен кез келген облигация"
                 },
                 "is_correct": false
               }
@@ -1442,14 +2497,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why might an investor choose a floating-rate bond when rates may rise?"
+              "en": "Why might an investor choose a floating-rate bond when rates may rise?",
+              "ru": "Почему инвестор может выбрать облигацию с плавающей ставкой, когда ставки могут вырасти?",
+              "kk": "Мөлшерлемелер өсуі мүмкін кезде инвестор неге плавающий мөлшерлемелі облигацияны таңдауы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Its payments can adjust with rates, reducing some fixed-rate price pressure"
+                  "en": "Its payments can adjust with rates, reducing some fixed-rate price pressure",
+                  "ru": "Ее выплаты могут подстраиваться под ставки, снижая часть ценового давления фиксированных ставок",
+                  "kk": "Оның төлемдері мөлшерлемелермен бірге реттеліп, фиксирленген ставкалы баға қысымының бір бөлігін азайта алады"
                 },
                 "is_correct": true
               },
@@ -1457,7 +2516,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It guarantees no credit risk"
+                  "en": "It guarantees no credit risk",
+                  "ru": "Она гарантирует отсутствие кредитного риска",
+                  "kk": "Ол кредиттік тәуекелдің жоқтығына кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -1465,7 +2526,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It always pays more than every corporate bond"
+                  "en": "It always pays more than every corporate bond",
+                  "ru": "Она всегда платит больше, чем любая корпоративная облигация",
+                  "kk": "Ол әрбір корпоративтік облигациядан әрқашан көбірек төлейді"
                 },
                 "is_correct": false
               },
@@ -1473,7 +2536,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It cannot fall in price under any condition"
+                  "en": "It cannot fall in price under any condition",
+                  "ru": "Она не может упасть в цене ни при каких условиях",
+                  "kk": "Ол ешбір жағдайда бағада түсе алмайды"
                 },
                 "is_correct": false
               }
@@ -1484,14 +2549,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "A person needs money for a planned expense in one year. Which bond feature matters most?"
+              "en": "A person needs money for a planned expense in one year. Which bond feature matters most?",
+              "ru": "Человеку нужны деньги на запланированный расход через год. Какая характеристика облигации важнее всего?",
+              "kk": "Адамға бір жылдан кейін жоспарланған шығынға ақша керек. Қай облигация ерекшелігі ең маңызды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A maturity or low-risk structure that matches the timing of the goal"
+                  "en": "A maturity or low-risk structure that matches the timing of the goal",
+                  "ru": "Срок погашения или низкорисковая структура, совпадающая со сроком цели",
+                  "kk": "Мақсат мерзіміне сәйкес келетін өтеу мерзімі немесе төмен тәуекелді құрылым"
                 },
                 "is_correct": true
               },
@@ -1499,7 +2568,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The longest possible maturity for maximum rate sensitivity"
+                  "en": "The longest possible maturity for maximum rate sensitivity",
+                  "ru": "Максимально длинный срок для максимальной чувствительности к ставкам",
+                  "kk": "Мөлшерлеме сезімталдығын барынша арттыру үшін ең ұзақ мерзім"
                 },
                 "is_correct": false
               },
@@ -1507,7 +2578,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The highest coupon regardless of issuer quality"
+                  "en": "The highest coupon regardless of issuer quality",
+                  "ru": "Самый высокий купон независимо от качества эмитента",
+                  "kk": "Эмитент сапасына қарамай ең жоғары купон"
                 },
                 "is_correct": false
               },
@@ -1515,7 +2588,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A bond type chosen only because friends bought it"
+                  "en": "A bond type chosen only because friends bought it",
+                  "ru": "Тип облигации, выбранный только потому, что его купили друзья",
+                  "kk": "Достар сатып алғаны үшін ғана таңдалған облигация түрі"
                 },
                 "is_correct": false
               }
@@ -1529,7 +2604,9 @@
     "quiz_id": 1599,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Bonds — Final Check"
+      "en": "Bonds — Final Check",
+      "ru": "Облигации — итоговая проверка",
+      "kk": "Облигациялар — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1537,14 +2614,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "A friend says bonds are the same as stocks because both can be bought through a broker. What is the key correction?"
+          "en": "A friend says bonds are the same as stocks because both can be bought through a broker. What is the key correction?",
+          "ru": "Друг говорит, что облигации — то же самое, что акции, потому что и то и другое можно купить через брокера. В чем главное исправление?",
+          "kk": "Досыңыз облигациялар мен акциялар бірдей дейді, өйткені екеуін де брокер арқылы сатып алуға болады. Негізгі түзету қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "A bond is usually a lending claim, while a stock is an ownership claim"
+              "en": "A bond is usually a lending claim, while a stock is an ownership claim",
+              "ru": "Облигация обычно является долговым требованием, а акция — требованием владения",
+              "kk": "Облигация әдетте қарыз беру талабы, ал акция — меншік талабы"
             },
             "is_correct": true
           },
@@ -1552,7 +2633,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Bonds and stocks always pay identical returns"
+              "en": "Bonds and stocks always pay identical returns",
+              "ru": "Облигации и акции всегда дают одинаковую доходность",
+              "kk": "Облигациялар мен акциялар әрқашан бірдей табыс төлейді"
             },
             "is_correct": false
           },
@@ -1560,7 +2643,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Stocks have maturity dates and bonds never do"
+              "en": "Stocks have maturity dates and bonds never do",
+              "ru": "У акций есть даты погашения, а у облигаций — никогда",
+              "kk": "Акциялардың өтеу мерзімі бар, ал облигацияларда ешқашан болмайды"
             },
             "is_correct": false
           },
@@ -1568,7 +2653,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Bonds give unlimited ownership upside"
+              "en": "Bonds give unlimited ownership upside",
+              "ru": "Облигации дают неограниченный потенциал владения",
+              "kk": "Облигациялар шексіз иелік өсімін береді"
             },
             "is_correct": false
           }
@@ -1579,14 +2666,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "A ₸1,000,000 face-value bond with a 9% coupon trades for ₸900,000. Why can yield be above 9%?"
+          "en": "A ₸1,000,000 face-value bond with a 9% coupon trades for ₸900,000. Why can yield be above 9%?",
+          "ru": "Облигация номиналом ₸1,000,000 с купоном 9% торгуется за ₸900,000. Почему доходность может быть выше 9%?",
+          "kk": "Номиналы ₸1,000,000, купоны 9% облигация ₸900,000 бағамен саудаланады. Неге кірістілік 9%-дан жоғары болуы мүмкін?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The investor receives the coupon and may gain if principal is repaid at face value"
+              "en": "The investor receives the coupon and may gain if principal is repaid at face value",
+              "ru": "Инвестор получает купон и может выиграть, если основная сумма будет погашена по номиналу",
+              "kk": "Инвестор купон алады және негізгі сома номиналмен өтелсе, ұтыс алуы мүмкін"
             },
             "is_correct": true
           },
@@ -1594,7 +2685,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "The coupon automatically rises because the price is lower"
+              "en": "The coupon automatically rises because the price is lower",
+              "ru": "Купон автоматически растет, потому что цена ниже",
+              "kk": "Баға төмен болғандықтан купон автоматты түрде өседі"
             },
             "is_correct": false
           },
@@ -1602,7 +2695,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "The issuer must pay interest on the market price only"
+              "en": "The issuer must pay interest on the market price only",
+              "ru": "Эмитент должен платить проценты только на рыночную цену",
+              "kk": "Эмитент тек нарықтық бағаға пайыз төлеуі керек"
             },
             "is_correct": false
           },
@@ -1610,7 +2705,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Buying below face value removes all risk"
+              "en": "Buying below face value removes all risk",
+              "ru": "Покупка ниже номинала устраняет весь риск",
+              "kk": "Номиналдан төмен сатып алу барлық тәуекелді жояды"
             },
             "is_correct": false
           }
@@ -1621,14 +2718,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "A bond offers 24% yield while similar safer issuers offer 10%. What should you investigate first?"
+          "en": "A bond offers 24% yield while similar safer issuers offer 10%. What should you investigate first?",
+          "ru": "Облигация предлагает доходность 24%, тогда как похожие более надежные эмитенты предлагают 10%. Что нужно проверить в первую очередь?",
+          "kk": "Облигация 24% кірістілік ұсынады, ал ұқсас қауіпсізірек эмитенттер 10% ұсынады. Алдымен нені тексеру керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Whether the higher yield reflects serious credit risk"
+              "en": "Whether the higher yield reflects serious credit risk",
+              "ru": "Отражает ли более высокая доходность серьезный кредитный риск",
+              "kk": "Жоғары кірістілік елеулі кредиттік тәуекелді көрсете ме"
             },
             "is_correct": true
           },
@@ -1636,7 +2737,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Whether the bond name is easy to remember"
+              "en": "Whether the bond name is easy to remember",
+              "ru": "Легко ли запомнить название облигации",
+              "kk": "Облигация атауын есте сақтау оңай ма"
             },
             "is_correct": false
           },
@@ -1644,7 +2747,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Whether all high-yield bonds are risk-free bargains"
+              "en": "Whether all high-yield bonds are risk-free bargains",
+              "ru": "Являются ли все высокодоходные облигации безрисковыми выгодными покупками",
+              "kk": "Барлық жоғары кірісті облигациялар тәуекелсіз тиімді мәміле ме"
             },
             "is_correct": false
           },
@@ -1652,7 +2757,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Whether the coupon is paid in round numbers"
+              "en": "Whether the coupon is paid in round numbers",
+              "ru": "Выплачивается ли купон круглыми числами",
+              "kk": "Купон дөңгелек сандармен төлене ме"
             },
             "is_correct": false
           }
@@ -1663,14 +2770,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "Market rates rise after you buy a long-term fixed-rate bond. What is the usual pressure on its market price?"
+          "en": "Market rates rise after you buy a long-term fixed-rate bond. What is the usual pressure on its market price?",
+          "ru": "Рыночные ставки растут после покупки долгосрочной облигации с фиксированной ставкой. Какое обычное давление на ее рыночную цену?",
+          "kk": "Сіз ұзақ мерзімді фиксирленген ставкалы облигация сатып алғаннан кейін нарықтық мөлшерлемелер өседі. Оның нарықтық бағасына әдеттегі қысым қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Downward pressure, because new bonds offer more attractive yields"
+              "en": "Downward pressure, because new bonds offer more attractive yields",
+              "ru": "Давление вниз, потому что новые облигации предлагают более привлекательные доходности",
+              "kk": "Төмен қысым, өйткені жаңа облигациялар тартымдырақ кірістілік ұсынады"
             },
             "is_correct": true
           },
@@ -1678,7 +2789,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Upward pressure, because all rates are higher"
+              "en": "Upward pressure, because all rates are higher",
+              "ru": "Давление вверх, потому что все ставки выше",
+              "kk": "Жоғары қысым, өйткені барлық мөлшерлемелер жоғары"
             },
             "is_correct": false
           },
@@ -1686,7 +2799,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "No pressure, because bond prices never move"
+              "en": "No pressure, because bond prices never move",
+              "ru": "Никакого давления, потому что цены облигаций никогда не меняются",
+              "kk": "Қысым жоқ, өйткені облигация бағалары ешқашан қозғалмайды"
             },
             "is_correct": false
           },
@@ -1694,7 +2809,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Automatic conversion into a floating-rate bond"
+              "en": "Automatic conversion into a floating-rate bond",
+              "ru": "Автоматическое превращение в облигацию с плавающей ставкой",
+              "kk": "Плавающий мөлшерлемелі облигацияға автоматты ауысу"
             },
             "is_correct": false
           }
@@ -1705,14 +2822,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "Which bond choice best matches someone worried about rising rates over the next year?"
+          "en": "Which bond choice best matches someone worried about rising rates over the next year?",
+          "ru": "Какой выбор облигации лучше всего подходит человеку, который беспокоится о росте ставок в следующем году?",
+          "kk": "Келесі жылы мөлшерлемелердің өсуіне алаңдайтын адамға қай облигация таңдауы ең сәйкес?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "A short-term or floating-rate bond"
+              "en": "A short-term or floating-rate bond",
+              "ru": "Краткосрочная облигация или облигация с плавающей ставкой",
+              "kk": "Қысқа мерзімді немесе плавающий мөлшерлемелі облигация"
             },
             "is_correct": true
           },
@@ -1720,7 +2841,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "The longest fixed-rate bond available"
+              "en": "The longest fixed-rate bond available",
+              "ru": "Самая длинная доступная облигация с фиксированной ставкой",
+              "kk": "Қолжетімді ең ұзақ фиксирленген ставкалы облигация"
             },
             "is_correct": false
           },
@@ -1728,7 +2851,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Only the bond with the highest coupon"
+              "en": "Only the bond with the highest coupon",
+              "ru": "Только облигация с самым высоким купоном",
+              "kk": "Тек ең жоғары купоны бар облигация"
             },
             "is_correct": false
           },
@@ -1736,7 +2861,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "A corporate bond chosen without checking issuer risk"
+              "en": "A corporate bond chosen without checking issuer risk",
+              "ru": "Корпоративная облигация, выбранная без проверки риска эмитента",
+              "kk": "Эмитент тәуекелін тексермей таңдалған корпоративтік облигация"
             },
             "is_correct": false
           }

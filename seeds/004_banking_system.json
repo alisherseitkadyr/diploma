@@ -1,1432 +1,2574 @@
 {
-"section": "banking_payments",
+  "section": "banking_payments",
   "topic": {
     "code": "banking_system",
     "orderIndex": 4,
+    "icon_path": "assets/topics/004-022.png",
     "title": {
       "en": "Banking System",
       "ru": "Банковская система",
+      "kk": "Банк жүйесі",
       "kz": "Банк жүйесі"
     },
     "description": {
       "en": "An overview of how banks function and their role in the economy.",
       "ru": "Обзор того, как работают банки и их роль в экономике.",
+      "kk": "Банктердің қалай жұмыс істейтінін және олардың экономикадағы рөлін қысқаша шолу.",
       "kz": "Банктердің қалай жұмыс істеуі және олардың экономикадағы рөлі туралы шолу."
     },
     "level": "beginner",
     "prerequisite_id": null
   },
   "subtopics": [
-    
-{"code": "why_banks_exist",
-"title": {
-"en": "Why Banks Exist"
-},
-"description": {
-"en": "Banks connect people who have money today with people who need money today, making the economy more productive."
-},
-"estimatedMinutes": 5,
-"orderIndex": 0,
-"quizId": 401,
-"lesson": {
-"steps": [
-{
-"id": "1",
-"order": 1,
-"stepType": "introduction",
-"title": {
-"en": "The problem banks solve"
-},
-"body": {
-"en": "Imagine thousands of people saving money and thousands of others needing loans. Without a system connecting them, most savings would sit idle while useful projects went unfunded. Banks exist to bridge that gap."
-},
-"tip": {
-"en": "A bank's core job is moving money from where it is unused to where it can be used productively."
-}
-},
-{
-"id": "2",
-"order": 2,
-"stepType": "explanation",
-"title": {
-"en": "Turning savings into loans"
-},
-"body": {
-"en": "Many depositors place money into accounts for safety and convenience. Banks combine these deposits and lend part of the pool to households and businesses that need financing."
-},
-"example": {
-"en": "One person's 500,000 ₸ deposit may help fund part of a business loan worth millions of tenge."
-}
-},
-{
-"id": "3",
-"order": 3,
-"stepType": "explanation",
-"title": {
-"en": "Why people use banks"
-},
-"body": {
-"en": "Banks do more than hold cash. They provide payment systems, transfers, cards, savings accounts, loans, and secure record-keeping. These services make modern economic activity possible."
-},
-"tip": {
-"en": "Most people interact with banks daily even when they never visit a branch."
-}
-},
-{
-"id": "4",
-"order": 4,
-"stepType": "example",
-"title": {
-"en": "How money flows through a bank"
-},
-"content": {
-"en": {
-"blocks": [
-{
-"type": "paragraph",
-"text": "A simplified example shows how banks connect savers and borrowers."
-},
-{
-"type": "table",
-"rows": [
-["Participant","Action","Amount"],
-["Aigerim","Deposits savings","1,000,000 ₸"],
-["Bank","Keeps reserves and manages risk","Part of deposit"],
-["Small business","Receives loan","800,000 ₸"],
-["Business","Buys equipment and grows","Uses loan"]
-]
-},
-{
-"type": "paragraph",
-"text": "The saver keeps access to banking services while the borrower gains capital to invest."
-}
-]
-}
-}
-},
-{
-"id": "5",
-"order": 5,
-"stepType": "interactive",
-"title": {
-"en": "Identify the bank's role"
-},
-"body": {
-"en": "Classify each situation according to whether it mainly involves storing money or providing financing."
-},
-"interactiveType": "drag_drop",
-"interactiveContent": {
-"en": {
-"instruction": "Sort each item into the category that best describes the bank's primary role.",
-"categories": [
-{
-"id": "storage",
-"label": "Store and move money"
-},
-{
-"id": "financing",
-"label": "Provide financing"
-}
-],
-"items": [
-{
-"id": "salary"
-,
-"text": "Receiving salary into an account"
-},
-{
-"id": "transfer",
-"text": "Sending money to a friend"
-},
-{
-"id": "mortgage",
-"text": "Issuing a home loan"
-},
-{
-"id": "businessloan",
-"text": "Funding business expansion"
-}
-],
-"answers": [
-{
-"itemId": "salary",
-"categoryId": "storage"
-},
-{
-"itemId": "transfer",
-"categoryId": "storage"
-},
-{
-"itemId": "mortgage",
-"categoryId": "financing"
-},
-{
-"itemId": "businessloan",
-"categoryId": "financing"
-}
-],
-"explanation": "Banks perform both functions. They help people safely store and move money, while also directing savings toward borrowers who need capital."
-}
-}
-},
-{
-"id": "6",
-"order": 6,
-"stepType": "conclusion",
-"title": {
-"en": "Banks are financial intermediaries"
-},
-"body": {
-"en": "Banks sit between savers and borrowers. By pooling deposits, managing payments, and extending loans, they make money more useful across the economy."
-},
-"tip": {
-"en": "When evaluating a bank later, remember that every product ultimately supports either storing money, moving money, or lending money."
-}
-}
-]
-},
-"quiz": {
-"quiz_id": 401,
-"quiz_type": "subtopic_quiz",
-"title": {
-"en": "Why Banks Exist — Check"
-},
-"questions": [
-{
-"id": 1,
-"question_type": "single_choice",
-"order_index": 0,
-"question_text": {
-"en": "A city has many households saving money but very few ways for businesses to borrow. What problem are banks primarily solving?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "Connecting idle savings with people and businesses that need financing"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Creating wealth without risk"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "Guaranteeing that all businesses succeed"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Eliminating the need for savings"
-},
-"is_correct": false
-}
-]
-},
-{
-"id": 2,
-"question_type": "single_choice",
-"order_index": 1,
-"question_text": {
-"en": "Suppose everyone kept cash at home instead of using banks. Which banking function would become much harder?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "Matching large numbers of savers with borrowers"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Printing physical banknotes"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "Setting government tax rates"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Producing consumer goods"
-},
-"is_correct": false
-}
-]
-},
-{
-"id": 3,
-"question_type": "single_choice",
-"order_index": 2,
-"question_text": {
-"en": "A bank customer receives salary payments, pays bills, and later takes a car loan. What does this illustrate?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "Banks combine payment services and financing services"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Banks only exist to issue loans"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "Banks mainly store physical cash in vaults"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Banks are unnecessary for everyday payments"
-},
-"is_correct": false
-}
-]
-}
-]
-}
-},
-{
-"code": "types_of_accounts",
-"title": {
-"en": "Types of Accounts"
-},
-"description": {
-"en": "Different bank accounts exist for different jobs. Choosing the wrong account can cost money or reduce flexibility."
-},
-"estimatedMinutes": 5,
-"orderIndex": 1,
-"quizId": 402,
-"lesson": {
-"steps": [
-{
-"id": "1",
-"order": 1,
-"stepType": "introduction",
-"title": {
-"en": "One account cannot do everything"
-},
-"body": {
-"en": "People often think a bank account is just a place to keep money. In reality, different accounts are designed for different goals: spending, saving, earning interest, or managing a business."
-},
-"tip": {
-"en": "Choosing an account is really choosing which financial job you need it to perform."
-}
-},
-{
-"id": "2",
-"order": 2,
-"stepType": "explanation",
-"title": {
-"en": "Current accounts for daily life"
-},
-"body": {
-"en": "A current account (sometimes called a checking account) is built for frequent transactions. Salaries arrive here, bills are paid from here, and cards are usually linked to it."
-},
-"example": {
-"en": "A person earning 450,000 ₸ monthly may receive income into a current account and use it for everyday spending."
-}
-},
-{
-"id": "3",
-"order": 3,
-"stepType": "explanation",
-"title": {
-"en": "Savings and term deposits"
-},
-"body": {
-"en": "Savings accounts and term deposits focus on preserving money and earning interest. They usually offer better returns than transaction accounts, but may limit access or withdrawals."
-},
-"tip": {
-"en": "Money needed tomorrow belongs in a transaction account; money not needed soon may belong in savings."
-}
-},
-{
-"id": "4",
-"order": 4,
-"stepType": "example",
-"title": {
-"en": "Matching accounts to goals"
-},
-"content": {
-"en": {
-"blocks": [
-{
-"type": "paragraph",
-"text": "Different goals require different account types."
-},
-{
-"type": "table",
-"rows": [
-["Goal","Account Type","Why"],
-["Receive salary","Current account","Easy transactions"],
-["Emergency fund","Savings account","Accessible and earns interest"],
-["Money for 2 years","Term deposit","Higher interest potential"],
-["Business operations","Business account","Separate personal and business finances"]
-]
-},
-{
-"type": "paragraph",
-"text": "The best account depends on how and when the money will be used."
-}
-]
-}
-}
-},
-{
-"id": "5",
-"order": 5,
-"stepType": "interactive",
-"title": {
-"en": "Choose the appropriate account"
-},
-"body": {
-"en": "Decide which account type best fits each situation."
-},
-"interactiveType": "scenario_selector",
-"interactiveContent": {
-"en": {
-"instruction": "Select the most suitable account category for each scenario.",
-"options": [
-"Current account",
-"Savings or deposit account"
-],
-"scenarios": [
-{
-"text": "You need money available for daily purchases, transfers, and monthly bills.",
-"correct_answer": "Current account",
-"explanation": "Frequent transactions require easy access and payment functionality."
-},
-{
-"text": "You are building an emergency fund that may not be touched for many months.",
-"correct_answer": "Savings or deposit account",
-"explanation": "The goal is preservation and interest, not daily spending."
-},
-{
-"text": "Your employer sends your salary every month and you use a debit card regularly.",
-"correct_answer": "Current account",
-"explanation": "This is the classic purpose of a transaction account."
-}
-]
-}
-}
-},
-{
-"id": "6",
-"order": 6,
-"stepType": "conclusion",
-"title": {
-"en": "Accounts are tools, not products"
-},
-"body": {
-"en": "Each account type solves a different problem. Instead of asking which account is best, ask what job the money needs to do and choose the account that fits that job."
-},
-"tip": {
-"en": "Many people benefit from using more than one account: one for spending and one for savings."
-}
-}
-]
-},
-"quiz": {
-"quiz_id": 402,
-"quiz_type": "subtopic_quiz",
-"title": {
-"en": "Types of Accounts — Check"
-},
-"questions": [
-{
-"id": 1,
-"question_type": "single_choice",
-"order_index": 0,
-"question_text": {
-"en": "Aigerim plans to use money for rent, groceries, and transfers throughout the month. Which account is most appropriate?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "Current account"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Long-term deposit account"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "Investment fund"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Insurance policy"
-},
-"is_correct": false
-}
-]
-},
-{
-"id": 2,
-"question_type": "single_choice",
-"order_index": 1,
-"question_text": {
-"en": "A family has 1,200,000 ₸ reserved for emergencies and expects to leave it untouched for a long period. What is the strongest reason to place it in a savings account rather than a transaction account?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "It may earn interest while remaining relatively accessible"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "It guarantees higher investment returns than stocks"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "It removes all risk from inflation"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "It prevents withdrawals under any circumstances"
-},
-"is_correct": false
-}
-]
-},
-{
-"id": 3,
-"question_type": "single_choice",
-"order_index": 2,
-"question_text": {
-"en": "A person keeps all money in a term deposit but frequently needs cash for daily expenses. What is the main problem?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "The account's purpose does not match the money's intended use"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Term deposits cannot hold money safely"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "Banks prohibit spending deposited money"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Interest is never paid on deposits"
-},
-"is_correct": false
-}
-]
-}
-]
-}
-},
-{
-"code": "how_banks_make_money",
-"title": {
-"en": "How Banks Make Money (and How They Charge You)"
-},
-"description": {
-"en": "Banks earn profit by charging for services and using deposits to generate interest income through lending."
-},
-"estimatedMinutes": 6,
-"orderIndex": 2,
-"quizId": 403,
-"lesson": {
-"steps": [
-{
-"id": "1",
-"order": 1,
-"stepType": "introduction",
-"title": {
-"en": "Banks are businesses, not utilities"
-},
-"body": {
-"en": "Banks feel like infrastructure, but they are profit-driven companies. They earn money by charging fees and by earning interest on loans funded by your deposits."
-},
-"tip": {
-"en": "If a service is free in banking, you are usually paying in another indirect way."
-}
-},
-{
-"id": "2",
-"order": 2,
-"stepType": "explanation",
-"title": {
-"en": "Interest spread: the core profit engine"
-},
-"body": {
-"en": "Banks pay depositors a low interest rate and charge borrowers a higher rate. The difference between these two is called the interest spread, and it is a major source of profit."
-},
-"example": {
-"en": "A bank pays 5% annual interest on deposits but lends money at 18%. The 13% difference helps cover costs and generate profit."
-}
-},
-{
-"id": "3",
-"order": 3,
-"stepType": "explanation",
-"title": {
-"en": "Fees: the visible revenue stream"
-},
-"body": {
-"en": "Banks also charge direct fees for services such as account maintenance, card issuance, transfers, ATM withdrawals, and foreign currency operations."
-},
-"tip": {
-"en": "Small recurring fees matter more than they seem because they accumulate over years."
-}
-},
-{
-"id": "4",
-"order": 4,
-"stepType": "example",
-"title": {
-"en": "Where your money goes in practice"
-},
-"content": {
-"en": {
-"blocks": [
-{
-"type": "paragraph",
-"text": "A single bank account can generate income for the bank in multiple ways."
-},
-{
-"type": "table",
-"rows": [
-["Activity","Bank earns from","Example cost"],
-["Holding deposit","Interest spread","Loan-funded profit margin"],
-["Card usage","Merchant fees","1–3% per transaction"],
-["Transfers","Service fees","Fixed ₸ per transfer"],
-["Foreign currency","Exchange margin","Hidden spread in FX rate"]
-]
-},
-{
-"type": "paragraph",
-"text": "Even if you do not see fees directly, the system still generates revenue from your activity."
-}
-]
-}
-}
-},
-{
-"id": "5",
-"order": 5,
-"stepType": "interactive",
-"title": {
-"en": "Identify the bank’s revenue source"
-},
-"body": {
-"en": "Match each situation to how the bank is earning money."
-},
-"interactiveType": "scenario_selector",
-"interactiveContent": {
-"en": {
-"instruction": "Choose whether the bank earns mainly from interest spread or fees.",
-"options": [
-"Interest spread",
-"Fees"
-],
-"scenarios": [
-{
-"text": "A customer takes a car loan at 16% annual interest.",
-"correct_answer": "Interest spread",
-"explanation": "The bank earns profit from lending money at a higher rate than it pays on deposits."
-},
-{
-"text": "A bank charges 300 ₸ per international transfer.",
-"correct_answer": "Fees",
-"explanation": "This is a direct service charge unrelated to lending."
-},
-{
-"text": "A credit card transaction generates a small percentage paid by the merchant.",
-"correct_answer": "Fees",
-"explanation": "Merchant transaction fees are part of banking fee income."
-}
-]
-}
-}
-},
-{
-"id": "6",
-"order": 6,
-"stepType": "conclusion",
-"title": {
-"en": "Bank profit comes from information and access"
-},
-"body": {
-"en": "Banks profit because they control access to capital and manage risk better than individuals can alone. Their income comes mainly from lending spreads and service fees."
-},
-"tip": {
-"en": "Understanding bank revenue helps you notice where hidden costs appear in everyday banking."
-}
-}
-]
-},
-"quiz": {
-"quiz_id": 403,
-"quiz_type": "subtopic_quiz",
-"title": {
-"en": "How Banks Make Money — Check"
-},
-"questions": [
-{
-"id": 1,
-"question_type": "single_choice",
-"order_index": 0,
-"question_text": {
-"en": "A bank pays 4% interest on deposits and charges 15% on loans. What is the main source of profit here?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "The interest rate difference between loans and deposits"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Printing new money"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "Government subsidies only"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Charging taxes on income"
-},
-"is_correct": false
-}
-]
-},
-{
-"id": 2,
-"question_type": "single_choice",
-"order_index": 1,
-"question_text": {
-"en": "Which of the following is an example of a bank fee rather than interest income?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "Monthly account maintenance charge"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Interest earned on a mortgage loan"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "Interest paid on savings accounts"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Government bond yield"
-},
-"is_correct": false
-}
-]
-},
-{
-"id": 3,
-"question_type": "single_choice",
-"order_index": 2,
-"question_text": {
-"en": "Why can small banking fees still matter a lot over time?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "They accumulate repeatedly over many transactions and years"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "They are always refunded automatically"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "They only apply to large corporations"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "They are unrelated to bank profit"
-},
-"is_correct": false
-}
-]
-}
-]
-}
-},
-{
-"code": "deposit_insurance",
-"title": {
-"en": "Deposit Insurance (KDIF in Kazakhstan)"
-},
-"description": {
-"en": "How deposit insurance protects your money in case a bank fails, and what limits and conditions actually apply."
-},
-"estimatedMinutes": 6,
-"orderIndex": 3,
-"quizId": 404,
-"lesson": {
-"steps": [
-{
-"id": "1",
-"order": 1,
-"stepType": "introduction",
-"title": {
-"en": "What happens if a bank collapses?"
-},
-"body": {
-"en": "Banks are generally stable, but they can fail. Deposit insurance exists to prevent people from losing their savings if a bank becomes insolvent."
-},
-"tip": {
-"en": "The goal is not to make banks risk-free, but to protect ordinary depositors from losing everything."
-}
-},
-{
-"id": "2",
-"order": 2,
-"stepType": "explanation",
-"title": {
-"en": "How deposit insurance works"
-},
-"body": {
-"en": "In Kazakhstan, deposit insurance is provided by the Kazakhstan Deposit Insurance Fund (KDIF). It guarantees repayment of eligible deposits up to a legal limit if a licensed bank fails."
-},
-"example": {
-"en": "If a bank fails and you had 3,000,000 ₸ in insured deposits within the limit, you receive compensation from the fund, not the bank."
-}
-},
-{
-"id": "3",
-"order": 3,
-"stepType": "explanation",
-"title": {
-"en": "What is covered and what is not"
-},
-"body": {
-"en": "Typically, standard deposits in local currency and foreign currency accounts are covered up to a maximum limit per depositor per bank. Investment products are usually not covered."
-},
-"tip": {
-"en": "Protection applies per bank, not per account type — multiple accounts in one bank are aggregated."
-}
-},
-{
-"id": "4",
-"order": 4,
-"stepType": "example",
-"title": {
-"en": "Understanding coverage limits"
-},
-"content": {
-"en": {
-"blocks": [
-{
-"type": "paragraph",
-"text": "Deposit insurance has a cap, which means not all money may be protected if balances are very large."
-},
-{
-"type": "table",
-"rows": [
-["Scenario","Deposit","Covered?","Outcome"],
-["Single bank account","2,000,000 ₸","Yes","Fully protected"],
-["Multiple accounts same bank","5,000,000 ₸ total","Partially","Covered up to limit only"],
-["Different banks","3,000,000 ₸ each","Yes","Each bank insured separately"]
-]
-},
-{
-"type": "paragraph",
-"text": "Risk is not about losing everything instantly — it is about exceeding coverage limits or holding uninsured products."
-}
-]
-}
-}
-},
-{
-"id": "5",
-"order": 5,
-"stepType": "interactive",
-"title": {
-"en": "Check what is protected"
-},
-"body": {
-"en": "Identify whether the money is covered by deposit insurance in typical cases."
-},
-"interactiveType": "scenario_selector",
-"interactiveContent": {
-"en": {
-"instruction": "Select whether the funds are likely insured under KDIF rules.",
-"options": [
-"Covered",
-"Not covered"
-],
-"scenarios": [
-{
-"text": "A fixed-term deposit in a licensed Kazakhstani bank within insurance limits.",
-"correct_answer": "Covered",
-"explanation": "Standard deposits in insured banks are protected up to the legal cap."
-},
-{
-"text": "Investment in a foreign stock ETF through a broker.",
-"correct_answer": "Not covered",
-"explanation": "Investment products are not deposit accounts and are not insured."
-},
-{
-"text": "Savings held in a current account at a licensed bank.",
-"correct_answer": "Covered",
-"explanation": "Transaction accounts are also included in deposit insurance coverage."
-}
-]
-}
-}
-},
-{
-"id": "6",
-"order": 6,
-"stepType": "conclusion",
-"title": {
-"en": "Insurance reduces bank risk for individuals"
-},
-"body": {
-"en": "Deposit insurance ensures that most ordinary savers are protected even if a bank fails, up to a defined limit. It does not eliminate risk completely, but it makes the system stable and predictable."
-},
-"tip": {
-"en": "A good habit is knowing your insurance limit so you never accidentally exceed it in one bank."
-}
-}
-]
-},
-"quiz": {
-"quiz_id": 404,
-"quiz_type": "subtopic_quiz",
-"title": {
-"en": "Deposit Insurance — Check"
-},
-"questions": [
-{
-"id": 1,
-"question_type": "single_choice",
-"order_index": 0,
-"question_text": {
-"en": "What is the main purpose of deposit insurance?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "To protect depositors if a bank becomes insolvent"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "To increase bank profits"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "To eliminate all financial risk in the economy"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "To replace the banking system entirely"
-},
-"is_correct": false
-}
-]
-},
-{
-"id": 2,
-"question_type": "single_choice",
-"order_index": 1,
-"question_text": {
-"en": "A person holds deposits across multiple accounts in the same bank exceeding the insurance limit. What happens?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "Only the insured amount is protected, the rest is at risk"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Each account is fully insured separately with no limit"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "The government guarantees unlimited compensation"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Banks automatically double the coverage"
-},
-"is_correct": false
-}
-]
-},
-{
-"id": 3,
-"question_type": "single_choice",
-"order_index": 2,
-"question_text": {
-"en": "Which of the following is typically NOT covered by deposit insurance?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "Bank savings account deposit"
-},
-"is_correct": false
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Fixed-term deposit in a licensed bank"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "ETF investment through a broker"
-},
-"is_correct": true
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Current account balance"
-},
-"is_correct": false
-}
-]
-}
-]
-}
-},
-{
-"code": "how_to_choose_a_bank",
-"title": {
-"en": "How to Choose a Bank"
-},
-"description": {
-"en": "A practical framework for choosing a bank based on costs, reliability, and usability instead of marketing."
-},
-"estimatedMinutes": 6,
-"orderIndex": 4,
-"quizId": 405,
-"lesson": {
-"steps": [
-{
-"id": "1",
-"order": 1,
-"stepType": "introduction",
-"title": {
-"en": "Most people choose banks incorrectly"
-},
-"body": {
-"en": "People often choose banks based on brand familiarity or bonuses. In reality, the right bank is the one that minimizes your costs and friction for how you actually use money."
-},
-"tip": {
-"en": "A bank is a long-term service relationship, not a one-time choice."
-}
-},
-{
-"id": "2",
-"order": 2,
-"stepType": "explanation",
-"title": {
-"en": "Cost structure matters more than perks"
-},
-"body": {
-"en": "Banks differ in fees for transfers, cards, withdrawals, and currency exchange. Small differences in fees can compound into large losses over years of usage."
-},
-"example": {
-"en": "A 200 ₸ monthly maintenance fee equals 2,400 ₸ per year, which becomes 24,000 ₸ over 10 years without any added value."
-}
-},
-{
-"id": "3",
-"order": 3,
-"stepType": "explanation",
-"title": {
-"en": "Reliability and access matter"
-},
-"body": {
-"en": "A good bank is stable, regulated, and has strong digital access. In Kazakhstan, users also care about app quality, instant payments, and ATM network coverage."
-},
-"tip": {
-"en": "A cheap bank that is hard to use is more expensive in lost time and friction."
-}
-},
-{
-"id": "4",
-"order": 4,
-"stepType": "example",
-"title": {
-"en": "Comparing two banks in practice"
-},
-"content": {
-"en": {
-"blocks": [
-{
-"type": "paragraph",
-"text": "Two banks can look similar but differ significantly in total cost of use."
-},
-{
-"type": "table",
-"rows": [
-["Feature","Bank A","Bank B"],
-["Monthly fee","0 ₸","200 ₸"],
-["Transfer fee","Free","100 ₸ per transfer"],
-["FX margin","Low","High"],
-["App usability","Strong","Average"]
-]
-},
-{
-"type": "paragraph",
-"text": "Over time, Bank A is cheaper and more convenient even if both look similar on the surface."
-}
-]
-}
-}
-},
-{
-"id": "5",
-"order": 5,
-"stepType": "interactive",
-"title": {
-"en": "Choose the better bank setup"
-},
-"body": {
-"en": "Select which bank is more rational based on real usage patterns."
-},
-"interactiveType": "scenario_selector",
-"interactiveContent": {
-"en": {
-"instruction": "Pick the better option for each situation.",
-"options": [
-"Bank A",
-"Bank B"
-],
-"scenarios": [
-{
-"text": "You make frequent transfers and want to minimize ongoing fees.",
-"correct_answer": "Bank A",
-"explanation": "Bank A has lower or zero transfer fees, reducing long-term cost."
-},
-{
-"text": "You rarely use transfers but care about lowest upfront monthly cost.",
-"correct_answer": "Bank A",
-"explanation": "Even in low usage, Bank A avoids recurring fees."
-},
-{
-"text": "You value a smooth mobile app experience for daily banking.",
-"correct_answer": "Bank A",
-"explanation": "Better usability reduces friction and hidden time costs."
-}
-]
-}
-}
-},
-{
-"id": "6",
-"order": 6,
-"stepType": "conclusion",
-"title": {
-"en": "Choose based on usage, not marketing"
-},
-"body": {
-"en": "The best bank is the one aligned with your actual financial behavior. Evaluate fees, usability, and reliability together rather than focusing on promotions or brand popularity."
-},
-"tip": {
-"en": "Re-evaluate your bank when your financial habits change."
-}
-}
-]
-},
-"quiz": {
-"quiz_id": 405,
-"quiz_type": "subtopic_quiz",
-"title": {
-"en": "How to Choose a Bank — Check"
-},
-"questions": [
-{
-"id": 1,
-"question_type": "single_choice",
-"order_index": 0,
-"question_text": {
-"en": "What is the most important factor when choosing a bank?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "How well it matches your actual usage and costs"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Which bank has the most advertisements"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "Which bank offers the largest sign-up bonus"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Which bank is the oldest in the country"
-},
-"is_correct": false
-}
-]
-},
-{
-"id": 2,
-"question_type": "single_choice",
-"order_index": 1,
-"question_text": {
-"en": "A bank charges small monthly fees and high transfer fees. Why can this become expensive over time?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "Because repeated small costs accumulate across many transactions"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "Because banks refund all fees annually"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "Because fees only apply once per lifetime"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "Because transfer fees are always fixed by government law"
-},
-"is_correct": false
-}
-]
-},
-{
-"id": 3,
-"question_type": "single_choice",
-"order_index": 2,
-"question_text": {
-"en": "Why is bank usability (like mobile app quality) financially important?"
-},
-"answers": [
-{
-"id": 1,
-"order_index": 0,
-"answer_text": {
-"en": "It reduces friction and prevents costly mistakes or delays"
-},
-"is_correct": true
-},
-{
-"id": 2,
-"order_index": 1,
-"answer_text": {
-"en": "It increases interest rates automatically"
-},
-"is_correct": false
-},
-{
-"id": 3,
-"order_index": 2,
-"answer_text": {
-"en": "It replaces the need for money management"
-},
-"is_correct": false
-},
-{
-"id": 4,
-"order_index": 3,
-"answer_text": {
-"en": "It guarantees zero fees"
-},
-"is_correct": false
-}
-]
-}
-]
-}
-}
+    {
+      "code": "why_banks_exist",
+      "title": {
+        "en": "Why Banks Exist",
+        "ru": "Зачем существуют банки",
+        "kk": "Банктер не үшін қажет"
+      },
+      "description": {
+        "en": "Banks connect people who have money today with people who need money today, making the economy more productive.",
+        "ru": "Банки связывают людей, у которых сегодня есть деньги, с теми, кому деньги нужны сегодня, делая экономику продуктивнее.",
+        "kk": "Банктер бүгін ақшасы бар адамдарды бүгін ақшаға мұқтаж адамдармен байланыстырып, экономиканы өнімдірек етеді."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 0,
+      "quizId": 401,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "The problem banks solve",
+              "ru": "Проблема, которую решают банки",
+              "kk": "Банктер шешетін мәселе"
+            },
+            "body": {
+              "en": "Imagine thousands of people saving money and thousands of others needing loans. Without a system connecting them, most savings would sit idle while useful projects went unfunded. Banks exist to bridge that gap.",
+              "ru": "Представьте тысячи людей, которые откладывают деньги, и тысячи других, которым нужны кредиты. Без системы, которая их связывает, большая часть сбережений лежала бы без дела, а полезные проекты оставались бы без финансирования. Банки существуют, чтобы закрывать этот разрыв.",
+              "kk": "Ақша жинап жүрген мыңдаған адамды және несиеге мұқтаж мыңдаған адамды елестетіңіз. Оларды байланыстыратын жүйе болмаса, көп жинақ бос жатар еді, ал пайдалы жобалар қаржыланбай қалар еді. Банктер осы аралықты жабу үшін қажет."
+            },
+            "tip": {
+              "en": "A bank's core job is moving money from where it is unused to where it can be used productively.",
+              "ru": "Главная задача банка — перемещать деньги оттуда, где они не используются, туда, где они могут работать продуктивно.",
+              "kk": "Банктің негізгі жұмысы — пайдаланылмай тұрған ақшаны өнімді қолданылатын жерге бағыттау."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Turning savings into loans",
+              "ru": "Превращение сбережений в кредиты",
+              "kk": "Жинақты несиеге айналдыру"
+            },
+            "body": {
+              "en": "Many depositors place money into accounts for safety and convenience. Banks combine these deposits and lend part of the pool to households and businesses that need financing.",
+              "ru": "Многие вкладчики размещают деньги на счетах ради безопасности и удобства. Банки объединяют эти депозиты и выдают часть общей суммы домохозяйствам и бизнесу, которым нужно финансирование.",
+              "kk": "Көп салымшы ақшасын қауіпсіздік пен ыңғайлылық үшін шоттарға салады. Банктер осы депозиттерді біріктіріп, қордың бір бөлігін қаржыландыруға мұқтаж үй шаруашылықтары мен бизнеске несие ретінде береді."
+            },
+            "example": {
+              "en": "One person's 500,000 ₸ deposit may help fund part of a business loan worth millions of tenge.",
+              "ru": "Депозит одного человека на 500,000 ₸ может помочь профинансировать часть бизнес-кредита на миллионы тенге.",
+              "kk": "Бір адамның 500,000 ₸ депозиті миллиондаған теңгелік бизнес несиенің бір бөлігін қаржыландыруға көмектесуі мүмкін."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Why people use banks",
+              "ru": "Почему люди пользуются банками",
+              "kk": "Неліктен адамдар банктерді пайдаланады"
+            },
+            "body": {
+              "en": "Banks do more than hold cash. They provide payment systems, transfers, cards, savings accounts, loans, and secure record-keeping. These services make modern economic activity possible.",
+              "ru": "Банки не просто хранят наличные. Они предоставляют платёжные системы, переводы, карты, сберегательные счета, кредиты и безопасный учёт операций. Эти услуги делают современную экономическую деятельность возможной.",
+              "kk": "Банктер қолма-қол ақшаны сақтаумен ғана шектелмейді. Олар төлем жүйелерін, аударымдарды, карталарды, жинақ шоттарын, несиелерді және қауіпсіз есеп жүргізуді ұсынады. Бұл қызметтер заманауи экономикалық белсенділікті мүмкін етеді."
+            },
+            "tip": {
+              "en": "Most people interact with banks daily even when they never visit a branch.",
+              "ru": "Большинство людей взаимодействует с банками ежедневно, даже если никогда не заходит в отделение.",
+              "kk": "Көп адам бөлімшеге бармаса да, банктермен күн сайын әрекеттеседі."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "How money flows through a bank",
+              "ru": "Как деньги проходят через банк",
+              "kk": "Ақша банктен қалай өтеді"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A simplified example shows how banks connect savers and borrowers."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Participant",
+                        "Action",
+                        "Amount"
+                      ],
+                      [
+                        "Aigerim",
+                        "Deposits savings",
+                        "1,000,000 ₸"
+                      ],
+                      [
+                        "Bank",
+                        "Keeps reserves and manages risk",
+                        "Part of deposit"
+                      ],
+                      [
+                        "Small business",
+                        "Receives loan",
+                        "800,000 ₸"
+                      ],
+                      [
+                        "Business",
+                        "Buys equipment and grows",
+                        "Uses loan"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The saver keeps access to banking services while the borrower gains capital to invest."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Упрощённый пример показывает, как банки связывают вкладчиков и заёмщиков."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Участник",
+                        "Действие",
+                        "Сумма"
+                      ],
+                      [
+                        "Айгерим",
+                        "Размещает сбережения",
+                        "1,000,000 ₸"
+                      ],
+                      [
+                        "Банк",
+                        "Держит резервы и управляет риском",
+                        "Часть депозита"
+                      ],
+                      [
+                        "Малый бизнес",
+                        "Получает кредит",
+                        "800,000 ₸"
+                      ],
+                      [
+                        "Бизнес",
+                        "Покупает оборудование и растёт",
+                        "Использует кредит"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Вкладчик сохраняет доступ к банковским услугам, а заёмщик получает капитал для инвестиций."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Қарапайым мысал банктердің жинақтаушылар мен қарыз алушыларды қалай байланыстыратынын көрсетеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қатысушы",
+                        "Әрекет",
+                        "Сома"
+                      ],
+                      [
+                        "Айгерім",
+                        "Жинағын салады",
+                        "1,000,000 ₸"
+                      ],
+                      [
+                        "Банк",
+                        "Резерв ұстап, тәуекелді басқарады",
+                        "Депозиттің бір бөлігі"
+                      ],
+                      [
+                        "Шағын бизнес",
+                        "Несие алады",
+                        "800,000 ₸"
+                      ],
+                      [
+                        "Бизнес",
+                        "Жабдық сатып алып, өседі",
+                        "Несиені пайдаланады"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Жинақтаушы банктік қызметтерге қол жеткізуді сақтайды, ал қарыз алушы инвестициялауға капитал алады."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Identify the bank's role",
+              "ru": "Определите роль банка",
+              "kk": "Банктің рөлін анықтаңыз"
+            },
+            "body": {
+              "en": "Classify each situation according to whether it mainly involves storing money or providing financing.",
+              "ru": "Классифицируйте каждую ситуацию по тому, относится ли она главным образом к хранению денег или предоставлению финансирования.",
+              "kk": "Әр жағдайды оның негізінен ақша сақтау ма, әлде қаржыландыру беру ме екенін анықтап жіктеңіз."
+            },
+            "interactiveType": "drag_drop",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Sort each item into the category that best describes the bank's primary role.",
+                "categories": [
+                  {
+                    "id": "storage",
+                    "label": "Store and move money"
+                  },
+                  {
+                    "id": "financing",
+                    "label": "Provide financing"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "salary",
+                    "text": "Receiving salary into an account"
+                  },
+                  {
+                    "id": "transfer",
+                    "text": "Sending money to a friend"
+                  },
+                  {
+                    "id": "mortgage",
+                    "text": "Issuing a home loan"
+                  },
+                  {
+                    "id": "businessloan",
+                    "text": "Funding business expansion"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "salary",
+                    "categoryId": "storage"
+                  },
+                  {
+                    "itemId": "transfer",
+                    "categoryId": "storage"
+                  },
+                  {
+                    "itemId": "mortgage",
+                    "categoryId": "financing"
+                  },
+                  {
+                    "itemId": "businessloan",
+                    "categoryId": "financing"
+                  }
+                ],
+                "explanation": "Banks perform both functions. They help people safely store and move money, while also directing savings toward borrowers who need capital."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый пункт в категорию, которая лучше всего описывает основную роль банка.",
+                "categories": [
+                  {
+                    "id": "storage",
+                    "label": "Хранить и переводить деньги"
+                  },
+                  {
+                    "id": "financing",
+                    "label": "Предоставлять финансирование"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "salary",
+                    "text": "Получение зарплаты на счёт"
+                  },
+                  {
+                    "id": "transfer",
+                    "text": "Перевод денег другу"
+                  },
+                  {
+                    "id": "mortgage",
+                    "text": "Выдача ипотечного кредита"
+                  },
+                  {
+                    "id": "businessloan",
+                    "text": "Финансирование расширения бизнеса"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "salary",
+                    "categoryId": "storage"
+                  },
+                  {
+                    "itemId": "transfer",
+                    "categoryId": "storage"
+                  },
+                  {
+                    "itemId": "mortgage",
+                    "categoryId": "financing"
+                  },
+                  {
+                    "itemId": "businessloan",
+                    "categoryId": "financing"
+                  }
+                ],
+                "explanation": "Банки выполняют обе функции. Они помогают людям безопасно хранить и переводить деньги, а также направляют сбережения заёмщикам, которым нужен капитал."
+              },
+              "kk": {
+                "instruction": "Әр тармақты банктің негізгі рөлін ең жақсы сипаттайтын санатқа апарыңыз.",
+                "categories": [
+                  {
+                    "id": "storage",
+                    "label": "Ақшаны сақтау және аудару"
+                  },
+                  {
+                    "id": "financing",
+                    "label": "Қаржыландыру беру"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "salary",
+                    "text": "Жалақыны шотқа алу"
+                  },
+                  {
+                    "id": "transfer",
+                    "text": "Досқа ақша аудару"
+                  },
+                  {
+                    "id": "mortgage",
+                    "text": "Үйге несие беру"
+                  },
+                  {
+                    "id": "businessloan",
+                    "text": "Бизнесті кеңейтуді қаржыландыру"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "salary",
+                    "categoryId": "storage"
+                  },
+                  {
+                    "itemId": "transfer",
+                    "categoryId": "storage"
+                  },
+                  {
+                    "itemId": "mortgage",
+                    "categoryId": "financing"
+                  },
+                  {
+                    "itemId": "businessloan",
+                    "categoryId": "financing"
+                  }
+                ],
+                "explanation": "Банктер екі қызметті де атқарады. Олар адамдарға ақшаны қауіпсіз сақтап, аударуға көмектеседі және жинақтарды капиталға мұқтаж қарыз алушыларға бағыттайды."
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Banks are financial intermediaries",
+              "ru": "Банки — финансовые посредники",
+              "kk": "Банктер — қаржылық делдалдар"
+            },
+            "body": {
+              "en": "Banks sit between savers and borrowers. By pooling deposits, managing payments, and extending loans, they make money more useful across the economy.",
+              "ru": "Банки находятся между вкладчиками и заёмщиками. Объединяя депозиты, управляя платежами и выдавая кредиты, они делают деньги полезнее для всей экономики.",
+              "kk": "Банктер жинақтаушылар мен қарыз алушылардың арасында тұрады. Депозиттерді біріктіріп, төлемдерді басқарып және несие бере отырып, олар ақшаны бүкіл экономикада пайдалырақ етеді."
+            },
+            "tip": {
+              "en": "When evaluating a bank later, remember that every product ultimately supports either storing money, moving money, or lending money.",
+              "ru": "Позже, оценивая банк, помните: любой продукт в итоге поддерживает либо хранение денег, либо их перевод, либо кредитование.",
+              "kk": "Кейін банкті бағалағанда, әр өнім ақырында ақшаны сақтауға, аударуға немесе несие беруге қызмет ететінін есте сақтаңыз."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 401,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Why Banks Exist — Check",
+          "ru": "Зачем существуют банки — проверка",
+          "kk": "Банктер не үшін қажет — тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A city has many households saving money but very few ways for businesses to borrow. What problem are banks primarily solving?",
+              "ru": "В городе много домохозяйств, которые копят деньги, но бизнесу почти негде брать кредиты. Какую проблему прежде всего решают банки?",
+              "kk": "Қалада ақша жинайтын үй шаруашылықтары көп, бірақ бизнеске қарыз алудың жолдары аз. Банктер негізінен қандай мәселені шешеді?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Connecting idle savings with people and businesses that need financing",
+                  "ru": "Связывают неиспользуемые сбережения с людьми и бизнесом, которым нужно финансирование",
+                  "kk": "Бос жатқан жинақтарды қаржыландыруға мұқтаж адамдар мен бизнеспен байланыстырады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Creating wealth without risk",
+                  "ru": "Создают богатство без риска",
+                  "kk": "Тәуекелсіз байлық жасайды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Guaranteeing that all businesses succeed",
+                  "ru": "Гарантируют успех всех бизнесов",
+                  "kk": "Барлық бизнестің табысқа жетуіне кепілдік береді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Eliminating the need for savings",
+                  "ru": "Устраняют необходимость в сбережениях",
+                  "kk": "Жинақтың қажеттілігін жояды"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Suppose everyone kept cash at home instead of using banks. Which banking function would become much harder?",
+              "ru": "Представьте, что все хранят наличные дома вместо использования банков. Какая банковская функция стала бы намного сложнее?",
+              "kk": "Барлығы банктерді пайдаланбай, қолма-қол ақшаны үйде сақтаса, банктің қай қызметі әлдеқайда қиындайды?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Matching large numbers of savers with borrowers",
+                  "ru": "Связывать большое число вкладчиков с заёмщиками",
+                  "kk": "Көптеген жинақтаушыларды қарыз алушылармен байланыстыру"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Printing physical banknotes",
+                  "ru": "Печатать бумажные банкноты",
+                  "kk": "Қағаз банкноттарды басып шығару"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Setting government tax rates",
+                  "ru": "Устанавливать государственные налоговые ставки",
+                  "kk": "Мемлекеттік салық мөлшерлемелерін белгілеу"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Producing consumer goods",
+                  "ru": "Производить потребительские товары",
+                  "kk": "Тұтыну тауарларын өндіру"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "A bank customer receives salary payments, pays bills, and later takes a car loan. What does this illustrate?",
+              "ru": "Клиент банка получает зарплату, оплачивает счета, а позже берёт автокредит. Что это показывает?",
+              "kk": "Банк клиенті жалақы алады, шоттарын төлейді, кейін автонесие алады. Бұл нені көрсетеді?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Banks combine payment services and financing services",
+                  "ru": "Банки объединяют платёжные услуги и услуги финансирования",
+                  "kk": "Банктер төлем қызметтері мен қаржыландыру қызметтерін біріктіреді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Banks only exist to issue loans",
+                  "ru": "Банки существуют только для выдачи кредитов",
+                  "kk": "Банктер тек несие беру үшін ғана бар"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Banks mainly store physical cash in vaults",
+                  "ru": "Банки в основном хранят наличные в хранилищах",
+                  "kk": "Банктер негізінен қолма-қол ақшаны қоймада сақтайды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Banks are unnecessary for everyday payments",
+                  "ru": "Банки не нужны для повседневных платежей",
+                  "kk": "Күнделікті төлемдер үшін банктер қажет емес"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "types_of_accounts",
+      "title": {
+        "en": "Types of Accounts",
+        "ru": "Типы счетов",
+        "kk": "Шот түрлері"
+      },
+      "description": {
+        "en": "Different bank accounts exist for different jobs. Choosing the wrong account can cost money or reduce flexibility.",
+        "ru": "Разные банковские счета нужны для разных задач. Неправильный выбор счёта может стоить денег или снизить гибкость.",
+        "kk": "Әртүрлі банк шоттары әртүрлі міндетке арналған. Қате шот таңдау ақша жоғалтуға немесе икемділікті азайтуға әкелуі мүмкін."
+      },
+      "estimatedMinutes": 5,
+      "orderIndex": 1,
+      "quizId": 402,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "One account cannot do everything",
+              "ru": "Один счёт не может делать всё",
+              "kk": "Бір шот бәрін атқара алмайды"
+            },
+            "body": {
+              "en": "People often think a bank account is just a place to keep money. In reality, different accounts are designed for different goals: spending, saving, earning interest, or managing a business.",
+              "ru": "Люди часто думают, что банковский счёт — это просто место для хранения денег. На самом деле разные счета созданы для разных целей: трат, накоплений, получения процентов или управления бизнесом.",
+              "kk": "Адамдар банк шотын көбіне ақшаны сақтайтын орын деп ойлайды. Шын мәнінде, әртүрлі шоттар әр мақсатқа арналған: жұмсау, жинау, пайыз табу немесе бизнесті басқару."
+            },
+            "tip": {
+              "en": "Choosing an account is really choosing which financial job you need it to perform.",
+              "ru": "Выбор счёта — это выбор финансовой задачи, которую он должен выполнять.",
+              "kk": "Шот таңдау — оның қандай қаржылық міндет атқаратынын таңдау."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Current accounts for daily life",
+              "ru": "Текущие счета для повседневной жизни",
+              "kk": "Күнделікті өмірге арналған ағымдағы шоттар"
+            },
+            "body": {
+              "en": "A current account (sometimes called a checking account) is built for frequent transactions. Salaries arrive here, bills are paid from here, and cards are usually linked to it.",
+              "ru": "Текущий счёт создан для частых операций. На него поступает зарплата, с него оплачиваются счета, и к нему обычно привязаны карты.",
+              "kk": "Ағымдағы шот жиі операцияларға арналған. Жалақы осы шотқа түседі, төлемдер осыдан жасалады және карталар көбіне осы шотқа байланысады."
+            },
+            "example": {
+              "en": "A person earning 450,000 ₸ monthly may receive income into a current account and use it for everyday spending.",
+              "ru": "Человек с доходом 450,000 ₸ в месяц может получать деньги на текущий счёт и использовать его для повседневных расходов.",
+              "kk": "Айына 450,000 ₸ табатын адам табысын ағымдағы шотқа алып, оны күнделікті шығындарға пайдалана алады."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Savings and term deposits",
+              "ru": "Сберегательные счета и срочные депозиты",
+              "kk": "Жинақ шоттары және мерзімді депозиттер"
+            },
+            "body": {
+              "en": "Savings accounts and term deposits focus on preserving money and earning interest. They usually offer better returns than transaction accounts, but may limit access or withdrawals.",
+              "ru": "Сберегательные счета и срочные депозиты помогают сохранить деньги и заработать проценты. Обычно они дают более высокую доходность, чем транзакционные счета, но могут ограничивать доступ или снятие.",
+              "kk": "Жинақ шоттары мен мерзімді депозиттер ақшаны сақтауға және пайыз табуға бағытталған. Әдетте олар операциялық шоттарға қарағанда жоғары табыс береді, бірақ қолжетімділік немесе шешіп алу шектелуі мүмкін."
+            },
+            "tip": {
+              "en": "Money needed tomorrow belongs in a transaction account; money not needed soon may belong in savings.",
+              "ru": "Деньги, нужные завтра, должны быть на транзакционном счёте; деньги, которые скоро не понадобятся, могут быть в сбережениях.",
+              "kk": "Ертең керек болатын ақша транзакциялық шотта болуы тиіс; жақында қажет емес ақша жинақта болуы мүмкін."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Matching accounts to goals",
+              "ru": "Соответствие счетов целям",
+              "kk": "Шоттарды мақсаттарға сәйкестендіру"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Different goals require different account types."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Goal",
+                        "Account Type",
+                        "Why"
+                      ],
+                      [
+                        "Receive salary",
+                        "Current account",
+                        "Easy transactions"
+                      ],
+                      [
+                        "Emergency fund",
+                        "Savings account",
+                        "Accessible and earns interest"
+                      ],
+                      [
+                        "Money for 2 years",
+                        "Term deposit",
+                        "Higher interest potential"
+                      ],
+                      [
+                        "Business operations",
+                        "Business account",
+                        "Separate personal and business finances"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The best account depends on how and when the money will be used."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Разные цели требуют разных типов счетов."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Цель",
+                        "Тип счёта",
+                        "Почему"
+                      ],
+                      [
+                        "Получать зарплату",
+                        "Текущий счёт",
+                        "Удобные операции"
+                      ],
+                      [
+                        "Резервный фонд",
+                        "Сберегательный счёт",
+                        "Доступен и приносит проценты"
+                      ],
+                      [
+                        "Деньги на 2 года",
+                        "Срочный депозит",
+                        "Потенциал более высокого процента"
+                      ],
+                      [
+                        "Бизнес-операции",
+                        "Бизнес-счёт",
+                        "Разделяет личные и бизнес-финансы"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Лучший счёт зависит от того, как и когда будут использоваться деньги."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Әртүрлі мақсаттарға әртүрлі шот түрлері қажет."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Мақсат",
+                        "Шот түрі",
+                        "Неге"
+                      ],
+                      [
+                        "Жалақы алу",
+                        "Ағымдағы шот",
+                        "Оңай операциялар"
+                      ],
+                      [
+                        "Төтенше қор",
+                        "Жинақ шоты",
+                        "Қолжетімді және пайыз әкеледі"
+                      ],
+                      [
+                        "2 жылға арналған ақша",
+                        "Мерзімді депозит",
+                        "Жоғары пайыз алу мүмкіндігі"
+                      ],
+                      [
+                        "Бизнес операциялары",
+                        "Бизнес шоты",
+                        "Жеке және бизнес қаржысын бөледі"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ең қолайлы шот ақшаның қалай және қашан қолданылатынына байланысты."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Choose the appropriate account",
+              "ru": "Выберите подходящий счёт",
+              "kk": "Дұрыс шотты таңдаңыз"
+            },
+            "body": {
+              "en": "Decide which account type best fits each situation.",
+              "ru": "Определите, какой тип счёта лучше подходит каждой ситуации.",
+              "kk": "Әр жағдайға қай шот түрі ең жақсы сәйкес келетінін анықтаңыз."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select the most suitable account category for each scenario.",
+                "options": [
+                  "Current account",
+                  "Savings or deposit account"
+                ],
+                "scenarios": [
+                  {
+                    "text": "You need money available for daily purchases, transfers, and monthly bills.",
+                    "correct_answer": "Current account",
+                    "explanation": "Frequent transactions require easy access and payment functionality."
+                  },
+                  {
+                    "text": "You are building an emergency fund that may not be touched for many months.",
+                    "correct_answer": "Savings or deposit account",
+                    "explanation": "The goal is preservation and interest, not daily spending."
+                  },
+                  {
+                    "text": "Your employer sends your salary every month and you use a debit card regularly.",
+                    "correct_answer": "Current account",
+                    "explanation": "This is the classic purpose of a transaction account."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Выберите наиболее подходящую категорию счёта для каждого сценария.",
+                "options": [
+                  "Текущий счёт",
+                  "Сберегательный или депозитный счёт"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Вам нужны деньги для ежедневных покупок, переводов и ежемесячных счетов.",
+                    "correct_answer": "Текущий счёт",
+                    "explanation": "Частые операции требуют лёгкого доступа и платёжных функций."
+                  },
+                  {
+                    "text": "Вы формируете резервный фонд, который может не понадобиться много месяцев.",
+                    "correct_answer": "Сберегательный или депозитный счёт",
+                    "explanation": "Цель — сохранение и проценты, а не ежедневные траты."
+                  },
+                  {
+                    "text": "Работодатель ежемесячно перечисляет вам зарплату, и вы регулярно пользуетесь дебетовой картой.",
+                    "correct_answer": "Текущий счёт",
+                    "explanation": "Это классическое назначение транзакционного счёта."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр сценарий үшін ең қолайлы шот санатын таңдаңыз.",
+                "options": [
+                  "Ағымдағы шот",
+                  "Жинақ немесе депозиттік шот"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Сізге күнделікті сатып алулар, аударымдар және ай сайынғы төлемдер үшін қолжетімді ақша керек.",
+                    "correct_answer": "Ағымдағы шот",
+                    "explanation": "Жиі операциялар оңай қолжетімділік пен төлем функцияларын қажет етеді."
+                  },
+                  {
+                    "text": "Сіз бірнеше ай бойы тимеуі мүмкін төтенше қор жинап жатырсыз.",
+                    "correct_answer": "Жинақ немесе депозиттік шот",
+                    "explanation": "Мақсат — күнделікті жұмсау емес, сақтау және пайыз алу."
+                  },
+                  {
+                    "text": "Жұмыс беруші ай сайын жалақы аударады, ал сіз дебеттік картаны тұрақты қолданасыз.",
+                    "correct_answer": "Ағымдағы шот",
+                    "explanation": "Бұл транзакциялық шоттың классикалық мақсаты."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Accounts are tools, not products",
+              "ru": "Счета — это инструменты, а не просто продукты",
+              "kk": "Шоттар — өнім емес, құрал"
+            },
+            "body": {
+              "en": "Each account type solves a different problem. Instead of asking which account is best, ask what job the money needs to do and choose the account that fits that job.",
+              "ru": "Каждый тип счёта решает свою задачу. Вместо вопроса «какой счёт лучший» спросите, какую работу должны выполнять деньги, и выберите счёт под эту работу.",
+              "kk": "Әр шот түрі әртүрлі мәселені шешеді. «Қай шот ең жақсы?» деудің орнына, ақша қандай міндет атқаруы керек екенін сұрап, сол міндетке сай шот таңдаңыз."
+            },
+            "tip": {
+              "en": "Many people benefit from using more than one account: one for spending and one for savings.",
+              "ru": "Многим полезно иметь больше одного счёта: один для трат и один для сбережений.",
+              "kk": "Көп адамға бірнеше шот ұстау пайдалы: бірі шығындарға, бірі жинаққа."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 402,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Types of Accounts — Check",
+          "ru": "Типы счетов — проверка",
+          "kk": "Шот түрлері — тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "Aigerim plans to use money for rent, groceries, and transfers throughout the month. Which account is most appropriate?",
+              "ru": "Айгерим планирует использовать деньги на аренду, продукты и переводы в течение месяца. Какой счёт наиболее подходит?",
+              "kk": "Айгерім ай бойы ақшаны жалға, азық-түлікке және аударымдарға пайдалануды жоспарлайды. Қай шот ең қолайлы?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Current account",
+                  "ru": "Текущий счёт",
+                  "kk": "Ағымдағы шот"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Long-term deposit account",
+                  "ru": "Долгосрочный депозитный счёт",
+                  "kk": "Ұзақ мерзімді депозиттік шот"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Investment fund",
+                  "ru": "Инвестиционный фонд",
+                  "kk": "Инвестициялық қор"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Insurance policy",
+                  "ru": "Страховой полис",
+                  "kk": "Сақтандыру полисі"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A family has 1,200,000 ₸ reserved for emergencies and expects to leave it untouched for a long period. What is the strongest reason to place it in a savings account rather than a transaction account?",
+              "ru": "У семьи есть 1,200,000 ₸ на чрезвычайные ситуации, и они ожидают не трогать эти деньги долгое время. Какой главный аргумент за сберегательный счёт вместо транзакционного?",
+              "kk": "Отбасында төтенше жағдайларға арналған 1,200,000 ₸ бар және олар бұл ақшаны ұзақ уақыт қозғамайды деп күтеді. Оны транзакциялық шоттан гөрі жинақ шотына салудың ең мықты себебі қандай?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It may earn interest while remaining relatively accessible",
+                  "ru": "Он может приносить проценты и оставаться относительно доступным",
+                  "kk": "Ол пайыз әкеліп, салыстырмалы түрде қолжетімді болып қалады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It guarantees higher investment returns than stocks",
+                  "ru": "Он гарантирует более высокую доходность, чем акции",
+                  "kk": "Ол акцияларға қарағанда жоғары инвестициялық табысқа кепілдік береді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It removes all risk from inflation",
+                  "ru": "Он полностью устраняет риск инфляции",
+                  "kk": "Ол инфляция тәуекелін толық жояды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It prevents withdrawals under any circumstances",
+                  "ru": "Он запрещает снятие при любых обстоятельствах",
+                  "kk": "Ол кез келген жағдайда шешіп алуға жол бермейді"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "A person keeps all money in a term deposit but frequently needs cash for daily expenses. What is the main problem?",
+              "ru": "Человек держит все деньги на срочном депозите, но часто нуждается в наличных на ежедневные расходы. В чём главная проблема?",
+              "kk": "Адам барлық ақшасын мерзімді депозитте ұстайды, бірақ күнделікті шығындарға жиі ақша қажет етеді. Негізгі мәселе қандай?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The account's purpose does not match the money's intended use",
+                  "ru": "Назначение счёта не соответствует тому, как должны использоваться деньги",
+                  "kk": "Шоттың мақсаты ақшаның жоспарланған қолданылуына сәйкес келмейді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Term deposits cannot hold money safely",
+                  "ru": "Срочные депозиты не могут безопасно хранить деньги",
+                  "kk": "Мерзімді депозиттер ақшаны қауіпсіз сақтай алмайды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Banks prohibit spending deposited money",
+                  "ru": "Банки запрещают тратить размещённые деньги",
+                  "kk": "Банктер депозиттегі ақшаны жұмсауға тыйым салады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Interest is never paid on deposits",
+                  "ru": "По депозитам никогда не выплачиваются проценты",
+                  "kk": "Депозиттерге ешқашан пайыз төленбейді"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "how_banks_make_money",
+      "title": {
+        "en": "How Banks Make Money (and How They Charge You)",
+        "ru": "Как банки зарабатывают деньги и за что берут плату",
+        "kk": "Банктер қалай ақша табады және сізден не үшін ақы алады"
+      },
+      "description": {
+        "en": "Banks earn profit by charging for services and using deposits to generate interest income through lending.",
+        "ru": "Банки получают прибыль, взимая плату за услуги и используя депозиты для получения процентного дохода через кредитование.",
+        "kk": "Банктер қызметтер үшін ақы алып және депозиттерді несие беру арқылы пайыздық табыс табуға пайдаланып пайда көреді."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 2,
+      "quizId": 403,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Banks are businesses, not utilities",
+              "ru": "Банки — это бизнес, а не коммунальная служба",
+              "kk": "Банктер — коммуналдық қызмет емес, бизнес"
+            },
+            "body": {
+              "en": "Banks feel like infrastructure, but they are profit-driven companies. They earn money by charging fees and by earning interest on loans funded by your deposits.",
+              "ru": "Банки ощущаются как инфраструктура, но это компании, ориентированные на прибыль. Они зарабатывают на комиссиях и процентах по кредитам, которые финансируются вашими депозитами.",
+              "kk": "Банктер инфрақұрылым сияқты көрінгенімен, олар пайдаға бағытталған компаниялар. Олар комиссиялардан және сіздің депозиттеріңізбен қаржыландырылған несиелердің пайызынан табыс табады."
+            },
+            "tip": {
+              "en": "If a service is free in banking, you are usually paying in another indirect way.",
+              "ru": "Если банковская услуга бесплатна, обычно вы платите за неё другим косвенным способом.",
+              "kk": "Егер банк қызметі тегін болса, әдетте сіз оны басқа жанама жолмен төлейсіз."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Interest spread: the core profit engine",
+              "ru": "Процентный спред: главный двигатель прибыли",
+              "kk": "Пайыздық спред: пайданың негізгі қозғалтқышы"
+            },
+            "body": {
+              "en": "Banks pay depositors a low interest rate and charge borrowers a higher rate. The difference between these two is called the interest spread, and it is a major source of profit.",
+              "ru": "Банки платят вкладчикам низкую процентную ставку, а заёмщикам начисляют более высокую. Разница между ними называется процентным спредом и является важным источником прибыли.",
+              "kk": "Банктер салымшыларға төмен пайыз төлеп, қарыз алушылардан жоғары пайыз алады. Екеуінің айырмасы пайыздық спред деп аталады және ол пайданың маңызды көзі."
+            },
+            "example": {
+              "en": "A bank pays 5% annual interest on deposits but lends money at 18%. The 13% difference helps cover costs and generate profit.",
+              "ru": "Банк платит 5% годовых по депозитам, но выдаёт кредиты под 18%. Разница в 13% помогает покрывать расходы и получать прибыль.",
+              "kk": "Банк депозиттерге жылына 5% төлейді, бірақ ақшаны 18%-бен несиеге береді. 13% айырма шығындарды жабуға және пайда табуға көмектеседі."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Fees: the visible revenue stream",
+              "ru": "Комиссии: видимый поток дохода",
+              "kk": "Комиссиялар: көрінетін табыс ағыны"
+            },
+            "body": {
+              "en": "Banks also charge direct fees for services such as account maintenance, card issuance, transfers, ATM withdrawals, and foreign currency operations.",
+              "ru": "Банки также взимают прямые комиссии за обслуживание счёта, выпуск карт, переводы, снятие в банкомате и операции с иностранной валютой.",
+              "kk": "Банктер шотқа қызмет көрсету, карта шығару, аударымдар, банкоматтан ақша шешу және шетел валютасымен операциялар үшін тікелей комиссия алады."
+            },
+            "tip": {
+              "en": "Small recurring fees matter more than they seem because they accumulate over years.",
+              "ru": "Небольшие регулярные комиссии важнее, чем кажется, потому что они накапливаются годами.",
+              "kk": "Шағын тұрақты комиссиялар көрінгеннен маңыздырақ, өйткені олар жылдар бойы жиналады."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Where your money goes in practice",
+              "ru": "Куда уходят ваши деньги на практике",
+              "kk": "Іс жүзінде ақшаңыз қайда кетеді"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A single bank account can generate income for the bank in multiple ways."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Activity",
+                        "Bank earns from",
+                        "Example cost"
+                      ],
+                      [
+                        "Holding deposit",
+                        "Interest spread",
+                        "Loan-funded profit margin"
+                      ],
+                      [
+                        "Card usage",
+                        "Merchant fees",
+                        "1–3% per transaction"
+                      ],
+                      [
+                        "Transfers",
+                        "Service fees",
+                        "Fixed ₸ per transfer"
+                      ],
+                      [
+                        "Foreign currency",
+                        "Exchange margin",
+                        "Hidden spread in FX rate"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Even if you do not see fees directly, the system still generates revenue from your activity."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Один банковский счёт может приносить банку доход несколькими способами."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Активность",
+                        "Банк зарабатывает на",
+                        "Пример стоимости"
+                      ],
+                      [
+                        "Хранение депозита",
+                        "Процентный спред",
+                        "Маржа прибыли от кредитования"
+                      ],
+                      [
+                        "Использование карты",
+                        "Комиссии с продавцов",
+                        "1–3% за транзакцию"
+                      ],
+                      [
+                        "Переводы",
+                        "Сервисные комиссии",
+                        "Фиксированная сумма ₸ за перевод"
+                      ],
+                      [
+                        "Иностранная валюта",
+                        "Обменная маржа",
+                        "Скрытый спред в валютном курсе"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Даже если вы не видите комиссии напрямую, система всё равно получает доход от вашей активности."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Бір банк шоты банкке бірнеше жолмен табыс әкелуі мүмкін."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Әрекет",
+                        "Банк неден табыс табады",
+                        "Шығын мысалы"
+                      ],
+                      [
+                        "Депозит ұстау",
+                        "Пайыздық спред",
+                        "Несие арқылы пайда маржасы"
+                      ],
+                      [
+                        "Картаны пайдалану",
+                        "Саудагер комиссиялары",
+                        "Әр транзакциядан 1–3%"
+                      ],
+                      [
+                        "Аударымдар",
+                        "Қызмет комиссиялары",
+                        "Әр аударым үшін белгіленген ₸"
+                      ],
+                      [
+                        "Шетел валютасы",
+                        "Айырбастау маржасы",
+                        "Валюта бағамындағы жасырын спред"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Комиссияны тікелей көрмесеңіз де, жүйе сіздің әрекетіңізден табыс алады."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Identify the bank’s revenue source",
+              "ru": "Определите источник дохода банка",
+              "kk": "Банктің табыс көзін анықтаңыз"
+            },
+            "body": {
+              "en": "Match each situation to how the bank is earning money.",
+              "ru": "Сопоставьте каждую ситуацию с тем, как банк зарабатывает деньги.",
+              "kk": "Әр жағдайды банктің қалай ақша табатынымен сәйкестендіріңіз."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Choose whether the bank earns mainly from interest spread or fees.",
+                "options": [
+                  "Interest spread",
+                  "Fees"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A customer takes a car loan at 16% annual interest.",
+                    "correct_answer": "Interest spread",
+                    "explanation": "The bank earns profit from lending money at a higher rate than it pays on deposits."
+                  },
+                  {
+                    "text": "A bank charges 300 ₸ per international transfer.",
+                    "correct_answer": "Fees",
+                    "explanation": "This is a direct service charge unrelated to lending."
+                  },
+                  {
+                    "text": "A credit card transaction generates a small percentage paid by the merchant.",
+                    "correct_answer": "Fees",
+                    "explanation": "Merchant transaction fees are part of banking fee income."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Выберите, зарабатывает ли банк в основном на процентном спреде или комиссиях.",
+                "options": [
+                  "Процентный спред",
+                  "Комиссии"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Клиент берёт автокредит под 16% годовых.",
+                    "correct_answer": "Процентный спред",
+                    "explanation": "Банк получает прибыль, выдавая кредиты под более высокую ставку, чем платит по депозитам."
+                  },
+                  {
+                    "text": "Банк взимает 300 ₸ за международный перевод.",
+                    "correct_answer": "Комиссии",
+                    "explanation": "Это прямая плата за услугу, не связанная с кредитованием."
+                  },
+                  {
+                    "text": "Операция по кредитной карте приносит небольшой процент, который платит продавец.",
+                    "correct_answer": "Комиссии",
+                    "explanation": "Комиссии с торговых операций — часть комиссионного дохода банка."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Банк негізінен пайыздық спредтен бе, әлде комиссиялардан ба табыс табатынын таңдаңыз.",
+                "options": [
+                  "Пайыздық спред",
+                  "Комиссиялар"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Клиент жылдық 16%-бен автонесие алады.",
+                    "correct_answer": "Пайыздық спред",
+                    "explanation": "Банк депозиттерге төлейтін мөлшерлемеден жоғары мөлшерлемемен несие беріп пайда табады."
+                  },
+                  {
+                    "text": "Банк халықаралық аударым үшін 300 ₸ алады.",
+                    "correct_answer": "Комиссиялар",
+                    "explanation": "Бұл несиеге қатысы жоқ тікелей қызмет ақысы."
+                  },
+                  {
+                    "text": "Кредит картасымен жасалған транзакция сатушы төлейтін шағын пайыз әкеледі.",
+                    "correct_answer": "Комиссиялар",
+                    "explanation": "Сауда транзакцияларының комиссиялары банк комиссиялық табысының бөлігі."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Bank profit comes from information and access",
+              "ru": "Прибыль банка основана на информации и доступе",
+              "kk": "Банк пайдасы ақпарат пен қолжетімділікке негізделеді"
+            },
+            "body": {
+              "en": "Banks profit because they control access to capital and manage risk better than individuals can alone. Their income comes mainly from lending spreads and service fees.",
+              "ru": "Банки получают прибыль, потому что контролируют доступ к капиталу и управляют риском лучше, чем отдельные люди поодиночке. Их доход в основном идёт от кредитных спредов и сервисных комиссий.",
+              "kk": "Банктер пайда табады, өйткені олар капиталға қолжетімділікті бақылайды және тәуекелді жеке адамдарға қарағанда жақсырақ басқарады. Олардың табысы негізінен несие спредтері мен қызмет комиссияларынан келеді."
+            },
+            "tip": {
+              "en": "Understanding bank revenue helps you notice where hidden costs appear in everyday banking.",
+              "ru": "Понимание доходов банка помогает замечать скрытые расходы в повседневном банковском обслуживании.",
+              "kk": "Банк табысын түсіну күнделікті банкингте жасырын шығындардың қайда пайда болатынын байқауға көмектеседі."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 403,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "How Banks Make Money — Check",
+          "ru": "Как банки зарабатывают деньги — проверка",
+          "kk": "Банктер қалай ақша табады — тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "A bank pays 4% interest on deposits and charges 15% on loans. What is the main source of profit here?",
+              "ru": "Банк платит 4% по депозитам и берёт 15% по кредитам. Какой здесь главный источник прибыли?",
+              "kk": "Банк депозиттерге 4% төлеп, несиелерден 15% алады. Мұндағы негізгі пайда көзі қандай?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The interest rate difference between loans and deposits",
+                  "ru": "Разница процентных ставок между кредитами и депозитами",
+                  "kk": "Несиелер мен депозиттер арасындағы пайыздық мөлшерлеме айырмасы"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Printing new money",
+                  "ru": "Печать новых денег",
+                  "kk": "Жаңа ақша басып шығару"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Government subsidies only",
+                  "ru": "Только государственные субсидии",
+                  "kk": "Тек мемлекеттік субсидиялар"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Charging taxes on income",
+                  "ru": "Взимание налогов с дохода",
+                  "kk": "Табыстан салық алу"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "Which of the following is an example of a bank fee rather than interest income?",
+              "ru": "Что из перечисленного является примером банковской комиссии, а не процентного дохода?",
+              "kk": "Төмендегілердің қайсысы пайыздық табыс емес, банк комиссиясының мысалы?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Monthly account maintenance charge",
+                  "ru": "Ежемесячная плата за обслуживание счёта",
+                  "kk": "Шотқа ай сайынғы қызмет көрсету ақысы"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Interest earned on a mortgage loan",
+                  "ru": "Проценты, заработанные по ипотечному кредиту",
+                  "kk": "Ипотекалық несиеден алынған пайыз"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Interest paid on savings accounts",
+                  "ru": "Проценты, выплаченные по сберегательным счетам",
+                  "kk": "Жинақ шоттарына төленетін пайыз"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Government bond yield",
+                  "ru": "Доходность государственных облигаций",
+                  "kk": "Мемлекеттік облигация кірістілігі"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why can small banking fees still matter a lot over time?",
+              "ru": "Почему небольшие банковские комиссии со временем могут иметь большое значение?",
+              "kk": "Неліктен шағын банк комиссиялары уақыт өте маңызды болуы мүмкін?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They accumulate repeatedly over many transactions and years",
+                  "ru": "Они многократно накапливаются через множество операций и лет",
+                  "kk": "Олар көптеген операциялар мен жылдар бойы қайта-қайта жиналады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They are always refunded automatically",
+                  "ru": "Они всегда автоматически возвращаются",
+                  "kk": "Олар әрқашан автоматты түрде қайтарылады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They only apply to large corporations",
+                  "ru": "Они применяются только к крупным корпорациям",
+                  "kk": "Олар тек ірі корпорацияларға қолданылады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They are unrelated to bank profit",
+                  "ru": "Они не связаны с прибылью банка",
+                  "kk": "Олардың банк пайдасына қатысы жоқ"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "deposit_insurance",
+      "title": {
+        "en": "Deposit Insurance (KDIF in Kazakhstan)",
+        "ru": "Страхование депозитов (КФГД в Казахстане)",
+        "kk": "Депозиттерді сақтандыру (Қазақстандағы ҚДКҚ)"
+      },
+      "description": {
+        "en": "How deposit insurance protects your money in case a bank fails, and what limits and conditions actually apply.",
+        "ru": "Как страхование депозитов защищает ваши деньги при банкротстве банка и какие лимиты и условия действительно действуют.",
+        "kk": "Банк істен шыққан жағдайда депозиттерді сақтандыру ақшаңызды қалай қорғайды және қандай лимиттер мен шарттар қолданылады."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 3,
+      "quizId": 404,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "What happens if a bank collapses?",
+              "ru": "Что происходит, если банк обанкротится?",
+              "kk": "Банк құласа не болады?"
+            },
+            "body": {
+              "en": "Banks are generally stable, but they can fail. Deposit insurance exists to prevent people from losing their savings if a bank becomes insolvent.",
+              "ru": "Банки обычно стабильны, но они могут обанкротиться. Страхование депозитов существует, чтобы люди не потеряли сбережения, если банк станет неплатёжеспособным.",
+              "kk": "Банктер әдетте тұрақты, бірақ олар істен шығуы мүмкін. Депозиттерді сақтандыру банк төлем қабілетінен айырылса, адамдардың жинағын жоғалтпау үшін қажет."
+            },
+            "tip": {
+              "en": "The goal is not to make banks risk-free, but to protect ordinary depositors from losing everything.",
+              "ru": "Цель не в том, чтобы сделать банки полностью безрисковыми, а в том, чтобы защитить обычных вкладчиков от полной потери денег.",
+              "kk": "Мақсат — банктерді тәуекелсіз ету емес, қарапайым салымшыларды бәрін жоғалтудан қорғау."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "How deposit insurance works",
+              "ru": "Как работает страхование депозитов",
+              "kk": "Депозиттерді сақтандыру қалай жұмыс істейді"
+            },
+            "body": {
+              "en": "In Kazakhstan, deposit insurance is provided by the Kazakhstan Deposit Insurance Fund (KDIF). It guarantees repayment of eligible deposits up to a legal limit if a licensed bank fails.",
+              "ru": "В Казахстане страхование депозитов обеспечивает Казахстанский фонд гарантирования депозитов (КФГД). Он гарантирует возврат подходящих депозитов в пределах установленного законом лимита, если лицензированный банк обанкротится.",
+              "kk": "Қазақстанда депозиттерді сақтандыруды Қазақстанның депозиттерге кепілдік беру қоры (ҚДКҚ) қамтамасыз етеді. Лицензияланған банк істен шықса, ол талапқа сай депозиттерді заңды лимитке дейін өтеуге кепілдік береді."
+            },
+            "example": {
+              "en": "If a bank fails and you had 3,000,000 ₸ in insured deposits within the limit, you receive compensation from the fund, not the bank.",
+              "ru": "Если банк обанкротится, а у вас было 3,000,000 ₸ в застрахованных депозитах в пределах лимита, компенсацию вы получите от фонда, а не от банка.",
+              "kk": "Егер банк істен шығып, сізде лимит шегінде сақтандырылған 3,000,000 ₸ депозит болса, өтемақыны банктен емес, қордан аласыз."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "What is covered and what is not",
+              "ru": "Что покрывается и что не покрывается",
+              "kk": "Не қамтылады және не қамтылмайды"
+            },
+            "body": {
+              "en": "Typically, standard deposits in local currency and foreign currency accounts are covered up to a maximum limit per depositor per bank. Investment products are usually not covered.",
+              "ru": "Обычно стандартные депозиты в местной валюте и счета в иностранной валюте покрываются до максимального лимита на одного вкладчика в одном банке. Инвестиционные продукты обычно не покрываются.",
+              "kk": "Әдетте ұлттық валютадағы стандартты депозиттер мен шетел валютасындағы шоттар бір салымшыға бір банк бойынша максималды лимитке дейін қамтылады. Инвестициялық өнімдер әдетте қамтылмайды."
+            },
+            "tip": {
+              "en": "Protection applies per bank, not per account type — multiple accounts in one bank are aggregated.",
+              "ru": "Защита действует по банку, а не по типу счёта — несколько счетов в одном банке суммируются.",
+              "kk": "Қорғау шот түріне емес, банкке қарай қолданылады — бір банктегі бірнеше шот біріктіріледі."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Understanding coverage limits",
+              "ru": "Понимание лимитов покрытия",
+              "kk": "Қамту лимиттерін түсіну"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Deposit insurance has a cap, which means not all money may be protected if balances are very large."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Scenario",
+                        "Deposit",
+                        "Covered?",
+                        "Outcome"
+                      ],
+                      [
+                        "Single bank account",
+                        "2,000,000 ₸",
+                        "Yes",
+                        "Fully protected"
+                      ],
+                      [
+                        "Multiple accounts same bank",
+                        "5,000,000 ₸ total",
+                        "Partially",
+                        "Covered up to limit only"
+                      ],
+                      [
+                        "Different banks",
+                        "3,000,000 ₸ each",
+                        "Yes",
+                        "Each bank insured separately"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Risk is not about losing everything instantly — it is about exceeding coverage limits or holding uninsured products."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У страхования депозитов есть лимит, поэтому при очень больших остатках не все деньги могут быть защищены."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Сценарий",
+                        "Депозит",
+                        "Покрывается?",
+                        "Результат"
+                      ],
+                      [
+                        "Один банковский счёт",
+                        "2,000,000 ₸",
+                        "Да",
+                        "Полностью защищено"
+                      ],
+                      [
+                        "Несколько счетов в одном банке",
+                        "5,000,000 ₸ total",
+                        "Частично",
+                        "Покрывается только в пределах лимита"
+                      ],
+                      [
+                        "Разные банки",
+                        "3,000,000 ₸ each",
+                        "Да",
+                        "Каждый банк страхуется отдельно"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Риск не в том, что вы мгновенно потеряете всё, а в превышении лимитов покрытия или хранении незастрахованных продуктов."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Депозиттерді сақтандыруда шек бар, сондықтан қалдық өте үлкен болса, барлық ақша қорғалмауы мүмкін."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Сценарий",
+                        "Депозит",
+                        "Қамтыла ма?",
+                        "Нәтиже"
+                      ],
+                      [
+                        "Бір банк шоты",
+                        "2,000,000 ₸",
+                        "Иә",
+                        "Толық қорғалған"
+                      ],
+                      [
+                        "Бір банктегі бірнеше шот",
+                        "5,000,000 ₸ total",
+                        "Ішінара",
+                        "Тек лимитке дейін қамтылады"
+                      ],
+                      [
+                        "Әртүрлі банктер",
+                        "3,000,000 ₸ each",
+                        "Иә",
+                        "Әр банк бөлек сақтандырылады"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Тәуекел бәрін бірден жоғалтуда емес — қамту лимитінен асып кетуде немесе сақтандырылмаған өнімдерді ұстауда."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Check what is protected",
+              "ru": "Проверьте, что защищено",
+              "kk": "Ненің қорғалғанын тексеріңіз"
+            },
+            "body": {
+              "en": "Identify whether the money is covered by deposit insurance in typical cases.",
+              "ru": "Определите, покрываются ли деньги страхованием депозитов в типичных случаях.",
+              "kk": "Әдеттегі жағдайларда ақшаның депозиттерді сақтандырумен қамтылатынын анықтаңыз."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Select whether the funds are likely insured under KDIF rules.",
+                "options": [
+                  "Covered",
+                  "Not covered"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A fixed-term deposit in a licensed Kazakhstani bank within insurance limits.",
+                    "correct_answer": "Covered",
+                    "explanation": "Standard deposits in insured banks are protected up to the legal cap."
+                  },
+                  {
+                    "text": "Investment in a foreign stock ETF through a broker.",
+                    "correct_answer": "Not covered",
+                    "explanation": "Investment products are not deposit accounts and are not insured."
+                  },
+                  {
+                    "text": "Savings held in a current account at a licensed bank.",
+                    "correct_answer": "Covered",
+                    "explanation": "Transaction accounts are also included in deposit insurance coverage."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Выберите, вероятно ли средства застрахованы по правилам КФГД.",
+                "options": [
+                  "Покрывается",
+                  "Не покрывается"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Срочный депозит в лицензированном казахстанском банке в пределах страхового лимита.",
+                    "correct_answer": "Покрывается",
+                    "explanation": "Стандартные депозиты в застрахованных банках защищены до законного лимита."
+                  },
+                  {
+                    "text": "Инвестиция в иностранный фондовый ETF через брокера.",
+                    "correct_answer": "Не покрывается",
+                    "explanation": "Инвестиционные продукты не являются депозитными счетами и не страхуются."
+                  },
+                  {
+                    "text": "Сбережения на текущем счёте в лицензированном банке.",
+                    "correct_answer": "Покрывается",
+                    "explanation": "Транзакционные счета также включены в покрытие страхования депозитов."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "ҚДКҚ ережелері бойынша қаражаттың сақтандырылуы ықтимал екенін таңдаңыз.",
+                "options": [
+                  "Қамтылады",
+                  "Қамтылмайды"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Сақтандыру лимиті шегіндегі лицензияланған қазақстандық банктегі мерзімді депозит.",
+                    "correct_answer": "Қамтылады",
+                    "explanation": "Сақтандырылған банктердегі стандартты депозиттер заңды шекке дейін қорғалған."
+                  },
+                  {
+                    "text": "Брокер арқылы шетелдік акция ETF-іне инвестиция.",
+                    "correct_answer": "Қамтылмайды",
+                    "explanation": "Инвестициялық өнімдер депозиттік шот емес және сақтандырылмайды."
+                  },
+                  {
+                    "text": "Лицензияланған банктегі ағымдағы шотта сақталған жинақ.",
+                    "correct_answer": "Қамтылады",
+                    "explanation": "Транзакциялық шоттар да депозиттерді сақтандыру қамтуына кіреді."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Insurance reduces bank risk for individuals",
+              "ru": "Страхование снижает банковский риск для людей",
+              "kk": "Сақтандыру жеке адамдар үшін банк тәуекелін азайтады"
+            },
+            "body": {
+              "en": "Deposit insurance ensures that most ordinary savers are protected even if a bank fails, up to a defined limit. It does not eliminate risk completely, but it makes the system stable and predictable.",
+              "ru": "Страхование депозитов защищает большинство обычных вкладчиков даже при банкротстве банка — в пределах установленного лимита. Оно не устраняет риск полностью, но делает систему стабильнее и предсказуемее.",
+              "kk": "Депозиттерді сақтандыру банк істен шықса да, қарапайым салымшылардың көбін белгіленген лимитке дейін қорғайды. Ол тәуекелді толық жоймайды, бірақ жүйені тұрақты әрі болжамды етеді."
+            },
+            "tip": {
+              "en": "A good habit is knowing your insurance limit so you never accidentally exceed it in one bank.",
+              "ru": "Хорошая привычка — знать свой страховой лимит, чтобы случайно не превысить его в одном банке.",
+              "kk": "Жақсы әдет — бір банкте оны кездейсоқ асырып алмау үшін сақтандыру лимитін білу."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 404,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "Deposit Insurance — Check",
+          "ru": "Страхование депозитов — проверка",
+          "kk": "Депозиттерді сақтандыру — тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "What is the main purpose of deposit insurance?",
+              "ru": "Какова главная цель страхования депозитов?",
+              "kk": "Депозиттерді сақтандырудың негізгі мақсаты қандай?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "To protect depositors if a bank becomes insolvent",
+                  "ru": "Защитить вкладчиков, если банк станет неплатёжеспособным",
+                  "kk": "Банк төлем қабілетінен айырылса, салымшыларды қорғау"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "To increase bank profits",
+                  "ru": "Увеличить прибыль банков",
+                  "kk": "Банктердің пайдасын арттыру"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "To eliminate all financial risk in the economy",
+                  "ru": "Устранить все финансовые риски в экономике",
+                  "kk": "Экономикадағы барлық қаржылық тәуекелді жою"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "To replace the banking system entirely",
+                  "ru": "Полностью заменить банковскую систему",
+                  "kk": "Банк жүйесін толық ауыстыру"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A person holds deposits across multiple accounts in the same bank exceeding the insurance limit. What happens?",
+              "ru": "Человек держит депозиты на нескольких счетах в одном банке сверх страхового лимита. Что происходит?",
+              "kk": "Адам бір банктегі бірнеше шотта сақтандыру лимитінен асатын депозит ұстайды. Не болады?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Only the insured amount is protected, the rest is at risk",
+                  "ru": "Защищена только застрахованная сумма, остальная часть под риском",
+                  "kk": "Тек сақтандырылған сома қорғалады, қалған бөлігі тәуекелде"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Each account is fully insured separately with no limit",
+                  "ru": "Каждый счёт полностью страхуется отдельно без лимита",
+                  "kk": "Әр шот лимитсіз бөлек толық сақтандырылады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The government guarantees unlimited compensation",
+                  "ru": "Государство гарантирует неограниченную компенсацию",
+                  "kk": "Мемлекет шексіз өтемақыға кепілдік береді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Banks automatically double the coverage",
+                  "ru": "Банки автоматически удваивают покрытие",
+                  "kk": "Банктер қамтуды автоматты түрде екі еселейді"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Which of the following is typically NOT covered by deposit insurance?",
+              "ru": "Что из перечисленного обычно НЕ покрывается страхованием депозитов?",
+              "kk": "Төмендегілердің қайсысы әдетте депозиттерді сақтандырумен ҚАМТЫЛМАЙДЫ?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Bank savings account deposit",
+                  "ru": "Депозит на банковском сберегательном счёте",
+                  "kk": "Банктік жинақ шотындағы депозит"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Fixed-term deposit in a licensed bank",
+                  "ru": "Срочный депозит в лицензированном банке",
+                  "kk": "Лицензияланған банктегі мерзімді депозит"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "ETF investment through a broker",
+                  "ru": "Инвестиция в ETF через брокера",
+                  "kk": "Брокер арқылы ETF инвестициясы"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Current account balance",
+                  "ru": "Остаток на текущем счёте",
+                  "kk": "Ағымдағы шот қалдығы"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "code": "how_to_choose_a_bank",
+      "title": {
+        "en": "How to Choose a Bank",
+        "ru": "Как выбрать банк",
+        "kk": "Банкті қалай таңдау керек"
+      },
+      "description": {
+        "en": "A practical framework for choosing a bank based on costs, reliability, and usability instead of marketing.",
+        "ru": "Практическая схема выбора банка на основе расходов, надёжности и удобства, а не маркетинга.",
+        "kk": "Маркетингке емес, шығынға, сенімділікке және қолдану ыңғайына сүйеніп банк таңдауға арналған практикалық тәсіл."
+      },
+      "estimatedMinutes": 6,
+      "orderIndex": 4,
+      "quizId": 405,
+      "lesson": {
+        "steps": [
+          {
+            "id": "1",
+            "order": 1,
+            "stepType": "introduction",
+            "title": {
+              "en": "Most people choose banks incorrectly",
+              "ru": "Большинство людей выбирают банки неправильно",
+              "kk": "Көп адам банкті қате таңдайды"
+            },
+            "body": {
+              "en": "People often choose banks based on brand familiarity or bonuses. In reality, the right bank is the one that minimizes your costs and friction for how you actually use money.",
+              "ru": "Люди часто выбирают банки по узнаваемости бренда или бонусам. На самом деле правильный банк — тот, который снижает ваши расходы и неудобства именно при вашем способе использования денег.",
+              "kk": "Адамдар банктерді көбіне брендтің таныстығына немесе бонустарға қарап таңдайды. Шын мәнінде, дұрыс банк — сіздің ақшаны нақты пайдалану тәсіліңіздегі шығын мен кедергіні азайтатын банк."
+            },
+            "tip": {
+              "en": "A bank is a long-term service relationship, not a one-time choice.",
+              "ru": "Банк — это долгосрочные сервисные отношения, а не разовый выбор.",
+              "kk": "Банк — бір реттік таңдау емес, ұзақ мерзімді қызметтік қатынас."
+            }
+          },
+          {
+            "id": "2",
+            "order": 2,
+            "stepType": "explanation",
+            "title": {
+              "en": "Cost structure matters more than perks",
+              "ru": "Структура расходов важнее бонусов",
+              "kk": "Шығын құрылымы бонустардан маңызды"
+            },
+            "body": {
+              "en": "Banks differ in fees for transfers, cards, withdrawals, and currency exchange. Small differences in fees can compound into large losses over years of usage.",
+              "ru": "Банки различаются комиссиями за переводы, карты, снятие денег и обмен валюты. Небольшие различия в комиссиях за годы использования могут превратиться в крупные потери.",
+              "kk": "Банктер аударым, карта, ақша шешу және валюта айырбастау комиссияларымен ерекшеленеді. Комиссиядағы шағын айырмалар жылдар бойы үлкен шығынға айналуы мүмкін."
+            },
+            "example": {
+              "en": "A 200 ₸ monthly maintenance fee equals 2,400 ₸ per year, which becomes 24,000 ₸ over 10 years without any added value.",
+              "ru": "Ежемесячная плата 200 ₸ равна 2,400 ₸ в год, а за 10 лет превращается в 24,000 ₸ без какой-либо дополнительной ценности.",
+              "kk": "Ай сайынғы 200 ₸ қызмет ақысы жылына 2,400 ₸, ал 10 жылда еш қосымша құндылықсыз 24,000 ₸ болады."
+            }
+          },
+          {
+            "id": "3",
+            "order": 3,
+            "stepType": "explanation",
+            "title": {
+              "en": "Reliability and access matter",
+              "ru": "Надёжность и доступ важны",
+              "kk": "Сенімділік пен қолжетімділік маңызды"
+            },
+            "body": {
+              "en": "A good bank is stable, regulated, and has strong digital access. In Kazakhstan, users also care about app quality, instant payments, and ATM network coverage.",
+              "ru": "Хороший банк стабилен, регулируется и имеет сильный цифровой доступ. В Казахстане пользователям также важны качество приложения, мгновенные платежи и покрытие сети банкоматов.",
+              "kk": "Жақсы банк тұрақты, реттелетін және мықты цифрлық қолжетімділігі бар банк. Қазақстанда қолданушылар үшін қосымша сапасы, жедел төлемдер және банкомат желісінің қамтуы да маңызды."
+            },
+            "tip": {
+              "en": "A cheap bank that is hard to use is more expensive in lost time and friction.",
+              "ru": "Дешёвый, но неудобный банк обходится дороже из-за потерянного времени и трения.",
+              "kk": "Қолдануға қиын арзан банк жоғалған уақыт пен кедергілер арқылы қымбатқа түседі."
+            }
+          },
+          {
+            "id": "4",
+            "order": 4,
+            "stepType": "example",
+            "title": {
+              "en": "Comparing two banks in practice",
+              "ru": "Два банка на практике: сравнение",
+              "kk": "Екі банкті іс жүзінде салыстыру"
+            },
+            "content": {
+              "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Two banks can look similar but differ significantly in total cost of use."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Feature",
+                        "Bank A",
+                        "Bank B"
+                      ],
+                      [
+                        "Monthly fee",
+                        "0 ₸",
+                        "200 ₸"
+                      ],
+                      [
+                        "Transfer fee",
+                        "Free",
+                        "100 ₸ per transfer"
+                      ],
+                      [
+                        "FX margin",
+                        "Low",
+                        "High"
+                      ],
+                      [
+                        "App usability",
+                        "Strong",
+                        "Average"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Over time, Bank A is cheaper and more convenient even if both look similar on the surface."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два банка могут выглядеть похожими, но сильно отличаться по общей стоимости использования."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Характеристика",
+                        "Банк A",
+                        "Банк B"
+                      ],
+                      [
+                        "Ежемесячная плата",
+                        "0 ₸",
+                        "200 ₸"
+                      ],
+                      [
+                        "Комиссия за перевод",
+                        "Бесплатно",
+                        "100 ₸ per transfer"
+                      ],
+                      [
+                        "Валютная маржа",
+                        "Низкая",
+                        "Высокая"
+                      ],
+                      [
+                        "Удобство приложения",
+                        "Сильное",
+                        "Среднее"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Со временем Банк A оказывается дешевле и удобнее, даже если внешне оба банка похожи."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі банк ұқсас көрінуі мүмкін, бірақ пайдаланудың жалпы құны бойынша айтарлықтай ерекшеленуі мүмкін."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Сипаттама",
+                        "A банкі",
+                        "B банкі"
+                      ],
+                      [
+                        "Ай сайынғы төлем",
+                        "0 ₸",
+                        "200 ₸"
+                      ],
+                      [
+                        "Аударым комиссиясы",
+                        "Тегін",
+                        "100 ₸ per transfer"
+                      ],
+                      [
+                        "Валюта маржасы",
+                        "Төмен",
+                        "Жоғары"
+                      ],
+                      [
+                        "Қосымшаның ыңғайлылығы",
+                        "Жақсы",
+                        "Орташа"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Уақыт өте A банкі арзанырақ әрі ыңғайлырақ болады, тіпті екеуі сырттай ұқсас көрінсе де."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "5",
+            "order": 5,
+            "stepType": "interactive",
+            "title": {
+              "en": "Choose the better bank setup",
+              "ru": "Выберите более удачный вариант банка",
+              "kk": "Жақсырақ банк нұсқасын таңдаңыз"
+            },
+            "body": {
+              "en": "Select which bank is more rational based on real usage patterns.",
+              "ru": "Выберите, какой банк рациональнее с учётом реальных привычек использования.",
+              "kk": "Нақты пайдалану әдеттеріне сүйеніп, қай банк ұтымдырақ екенін таңдаңыз."
+            },
+            "interactiveType": "scenario_selector",
+            "interactiveContent": {
+              "en": {
+                "instruction": "Pick the better option for each situation.",
+                "options": [
+                  "Bank A",
+                  "Bank B"
+                ],
+                "scenarios": [
+                  {
+                    "text": "You make frequent transfers and want to minimize ongoing fees.",
+                    "correct_answer": "Bank A",
+                    "explanation": "Bank A has lower or zero transfer fees, reducing long-term cost."
+                  },
+                  {
+                    "text": "You rarely use transfers but care about lowest upfront monthly cost.",
+                    "correct_answer": "Bank A",
+                    "explanation": "Even in low usage, Bank A avoids recurring fees."
+                  },
+                  {
+                    "text": "You value a smooth mobile app experience for daily banking.",
+                    "correct_answer": "Bank A",
+                    "explanation": "Better usability reduces friction and hidden time costs."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Выберите лучший вариант для каждой ситуации.",
+                "options": [
+                  "Банк A",
+                  "Банк B"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Вы часто делаете переводы и хотите минимизировать постоянные комиссии.",
+                    "correct_answer": "Банк A",
+                    "explanation": "У Банка A комиссии за переводы ниже или отсутствуют, что снижает долгосрочную стоимость."
+                  },
+                  {
+                    "text": "Вы редко пользуетесь переводами, но хотите минимальную ежемесячную стоимость.",
+                    "correct_answer": "Банк A",
+                    "explanation": "Даже при редком использовании Банк A позволяет избежать регулярных комиссий."
+                  },
+                  {
+                    "text": "Вам важно удобное мобильное приложение для ежедневного банкинга.",
+                    "correct_answer": "Банк A",
+                    "explanation": "Лучшее удобство снижает трение и скрытые затраты времени."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр жағдай үшін жақсырақ нұсқаны таңдаңыз.",
+                "options": [
+                  "A банкі",
+                  "B банкі"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Сіз жиі аударым жасайсыз және тұрақты комиссияларды азайтқыңыз келеді.",
+                    "correct_answer": "A банкі",
+                    "explanation": "A банкінде аударым комиссиялары төмен немесе жоқ, бұл ұзақ мерзімді шығынды азайтады."
+                  },
+                  {
+                    "text": "Сіз аударымдарды сирек қолданасыз, бірақ ең төмен ай сайынғы шығынды қалайсыз.",
+                    "correct_answer": "A банкі",
+                    "explanation": "Сирек қолданғанның өзінде A банкі тұрақты комиссиялардан сақтайды."
+                  },
+                  {
+                    "text": "Сізге күнделікті банкинг үшін ыңғайлы мобильді қосымша маңызды.",
+                    "correct_answer": "A банкі",
+                    "explanation": "Жақсырақ ыңғайлылық кедергілер мен жасырын уақыт шығындарын азайтады."
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "6",
+            "order": 6,
+            "stepType": "conclusion",
+            "title": {
+              "en": "Choose based on usage, not marketing",
+              "ru": "Выбирайте по использованию, а не по маркетингу",
+              "kk": "Маркетингке емес, қолдануға қарап таңдаңыз"
+            },
+            "body": {
+              "en": "The best bank is the one aligned with your actual financial behavior. Evaluate fees, usability, and reliability together rather than focusing on promotions or brand popularity.",
+              "ru": "Лучший банк — тот, который соответствует вашему реальному финансовому поведению. Оценивайте комиссии, удобство и надёжность вместе, а не только акции или популярность бренда.",
+              "kk": "Ең жақсы банк — нақты қаржылық мінез-құлқыңызға сәйкес келетін банк. Акциялар мен бренд танымалдығына ғана емес, комиссияны, ыңғайлылықты және сенімділікті бірге бағалаңыз."
+            },
+            "tip": {
+              "en": "Re-evaluate your bank when your financial habits change.",
+              "ru": "Пересматривайте выбор банка, когда меняются ваши финансовые привычки.",
+              "kk": "Қаржылық әдеттеріңіз өзгергенде банкті қайта бағалаңыз."
+            }
+          }
+        ]
+      },
+      "quiz": {
+        "quiz_id": 405,
+        "quiz_type": "subtopic_quiz",
+        "title": {
+          "en": "How to Choose a Bank — Check",
+          "ru": "Как выбрать банк — проверка",
+          "kk": "Банкті қалай таңдау керек — тексеру"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "question_type": "single_choice",
+            "order_index": 0,
+            "question_text": {
+              "en": "What is the most important factor when choosing a bank?",
+              "ru": "Какой фактор самый важный при выборе банка?",
+              "kk": "Банк таңдағанда ең маңызды фактор қандай?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "How well it matches your actual usage and costs",
+                  "ru": "Насколько хорошо он соответствует вашему реальному использованию и расходам",
+                  "kk": "Ол нақты пайдалану тәсіліңіз бен шығындарыңызға қаншалықты сәйкес келеді"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Which bank has the most advertisements",
+                  "ru": "У какого банка больше всего рекламы",
+                  "kk": "Қай банктің жарнамасы көп"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Which bank offers the largest sign-up bonus",
+                  "ru": "Какой банк предлагает самый большой бонус за регистрацию",
+                  "kk": "Қай банк ең үлкен тіркелу бонусын ұсынады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Which bank is the oldest in the country",
+                  "ru": "Какой банк старейший в стране",
+                  "kk": "Қай банк елдегі ең ескі банк"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "question_type": "single_choice",
+            "order_index": 1,
+            "question_text": {
+              "en": "A bank charges small monthly fees and high transfer fees. Why can this become expensive over time?",
+              "ru": "Банк берёт небольшие ежемесячные комиссии и высокие комиссии за переводы. Почему со временем это может стать дорого?",
+              "kk": "Банк шағын ай сайынғы комиссиялар және жоғары аударым комиссияларын алады. Неліктен бұл уақыт өте қымбатқа түсуі мүмкін?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Because repeated small costs accumulate across many transactions",
+                  "ru": "Потому что повторяющиеся небольшие расходы накапливаются через множество операций",
+                  "kk": "Өйткені қайталанатын шағын шығындар көптеген операциялар арқылы жиналады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Because banks refund all fees annually",
+                  "ru": "Потому что банки ежегодно возвращают все комиссии",
+                  "kk": "Өйткені банктер жыл сайын барлық комиссияны қайтарады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Because fees only apply once per lifetime",
+                  "ru": "Потому что комиссии применяются только один раз в жизни",
+                  "kk": "Өйткені комиссиялар өмірде бір-ақ рет қолданылады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Because transfer fees are always fixed by government law",
+                  "ru": "Потому что комиссии за переводы всегда установлены государственным законом",
+                  "kk": "Өйткені аударым комиссиялары әрқашан мемлекеттік заңмен бекітіледі"
+                },
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "question_type": "single_choice",
+            "order_index": 2,
+            "question_text": {
+              "en": "Why is bank usability (like mobile app quality) financially important?",
+              "ru": "Почему удобство банка, например качество мобильного приложения, финансово важно?",
+              "kk": "Неліктен банкті қолдану ыңғайлылығы, мысалы мобильді қосымша сапасы, қаржылық тұрғыдан маңызды?"
+            },
+            "answers": [
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It reduces friction and prevents costly mistakes or delays",
+                  "ru": "Оно снижает трение и предотвращает дорогие ошибки или задержки",
+                  "kk": "Ол кедергіні азайтып, қымбат қателер мен кідірістердің алдын алады"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It increases interest rates automatically",
+                  "ru": "Оно автоматически повышает процентные ставки",
+                  "kk": "Ол пайыздық мөлшерлемелерді автоматты түрде арттырады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It replaces the need for money management",
+                  "ru": "Оно заменяет необходимость управлять деньгами",
+                  "kk": "Ол ақшаны басқару қажеттілігін алмастырады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It guarantees zero fees",
+                  "ru": "Оно гарантирует нулевые комиссии",
+                  "kk": "Ол нөлдік комиссияларға кепілдік береді"
+                },
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    }
   ]
 }

@@ -1,13 +1,18 @@
 {
   "section": "insurance_protection",
-    "topic": {
-      "code": "fraud_scams_safety",
-      "orderIndex": 10,
+  "topic": {
+    "code": "fraud_scams_safety",
+    "orderIndex": 10,
+    "icon_path": "assets/topics/010.png",
     "title": {
-      "en": "Fraud, Scams & Financial Safety"
+      "en": "Fraud, Scams & Financial Safety",
+      "ru": "Мошенничество, аферы и финансовая безопасность",
+      "kk": "Алаяқтық, қаржылық қулықтар және қаржылық қауіпсіздік"
     },
     "description": {
-      "en": "How financial fraud and investment and crypto scams operate, and a practical playbook to recognize and avoid them."
+      "en": "How financial fraud and investment and crypto scams operate, and a practical playbook to recognize and avoid them.",
+      "ru": "Как работают финансовое мошенничество, инвестиционные и криптоаферы, и практический алгоритм, который помогает распознавать и избегать их.",
+      "kk": "Қаржылық алаяқтық, инвестициялық және криптоалаяқтық қалай жұмыс істейді және оларды тануға әрі олардан сақтануға арналған практикалық нұсқаулық."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "financial_fraud_basics",
       "title": {
-        "en": "Financial Fraud Basics"
+        "en": "Financial Fraud Basics",
+        "ru": "Основы финансового мошенничества",
+        "kk": "Қаржылық алаяқтық негіздері"
       },
       "description": {
-        "en": "How fraud works, why identity theft is valuable, and how pressure turns normal people into easy targets."
+        "en": "How fraud works, why identity theft is valuable, and how pressure turns normal people into easy targets.",
+        "ru": "Как работает мошенничество, почему кража личности ценна и как давление превращает обычных людей в лёгкие цели.",
+        "kk": "Алаяқтық қалай жұмыс істейді, жеке деректерді ұрлау неге құнды және қысым қарапайым адамдарды қалай оңай нысанаға айналдырады."
       },
       "estimatedMinutes": 5,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Fraud is not just theft"
+              "en": "Fraud is not just theft",
+              "ru": "Мошенничество — это не просто кража",
+              "kk": "Алаяқтық жай ғана ұрлық емес"
             },
             "body": {
-              "en": "Financial fraud usually starts before money moves. The scammer first tries to control information, emotion, or identity. Once they control one of those, the transfer looks voluntary from the outside."
+              "en": "Financial fraud usually starts before money moves. The scammer first tries to control information, emotion, or identity. Once they control one of those, the transfer looks voluntary from the outside.",
+              "ru": "Финансовое мошенничество обычно начинается ещё до перевода денег. Сначала мошенник пытается контролировать информацию, эмоции или личность. Когда он получает контроль хотя бы над одним из этого, перевод со стороны выглядит добровольным.",
+              "kk": "Қаржылық алаяқтық әдетте ақша қозғалғанға дейін басталады. Алаяқ алдымен ақпаратты, эмоцияны немесе жеке тұлғаны бақылауға тырысады. Соның бірін бақылауға алғаннан кейін, ақша аудару сырттай ерікті болып көрінеді."
             },
             "tip": {
-              "en": "The first defense is slowing down the decision, not guessing whether the person sounds trustworthy."
+              "en": "The first defense is slowing down the decision, not guessing whether the person sounds trustworthy.",
+              "ru": "Первая защита — замедлить решение, а не гадать, звучит ли человек убедительно.",
+              "kk": "Алғашқы қорғаныс — адамның сенімді естілетінін болжау емес, шешім қабылдауды баяулату."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "The fraud triangle"
+              "en": "The fraud triangle",
+              "ru": "Треугольник мошенничества",
+              "kk": "Алаяқтық үшбұрышы"
             },
             "body": {
-              "en": "Most scams combine three forces: a believable story, urgency, and a payment path that is hard to reverse. Remove one part and the scam becomes weaker. That is why fraud often feels like an emergency."
+              "en": "Most scams combine three forces: a believable story, urgency, and a payment path that is hard to reverse. Remove one part and the scam becomes weaker. That is why fraud often feels like an emergency.",
+              "ru": "Большинство афер объединяют три элемента: правдоподобную историю, срочность и способ оплаты, который трудно отменить. Уберите один элемент — и схема станет слабее. Поэтому мошенничество часто ощущается как экстренная ситуация.",
+              "kk": "Көптеген алаяқтық схемалар үш күшті біріктіреді: сенімді оқиға, асығыстық және қайтару қиын төлем жолы. Бір бөлігін алып тастасаңыз, алаяқтық әлсірейді. Сондықтан алаяқтық жиі төтенше жағдай сияқты сезіледі."
             },
             "example": {
-              "en": "A message saying your account will be blocked in 10 minutes creates urgency. A link to a fake bank page creates the payment or login path."
+              "en": "A message saying your account will be blocked in 10 minutes creates urgency. A link to a fake bank page creates the payment or login path.",
+              "ru": "Сообщение о том, что аккаунт заблокируют через 10 минут, создаёт срочность. Ссылка на поддельную страницу банка создаёт путь для платежа или входа.",
+              "kk": "Аккаунтыңыз 10 минуттан кейін бұғатталады деген хабар асығыстық тудырады. Жалған банк парағына сілтеме төлем немесе кіру жолын жасайды."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Why identity is money"
+              "en": "Why identity is money",
+              "ru": "Почему личность — это деньги",
+              "kk": "Неліктен жеке деректер ақшаға тең"
             },
             "body": {
-              "en": "Your name, phone number, card data, SMS code, and account login are not just personal details. Together, they can let someone borrow, transfer, reset passwords, or impersonate you. Fraud often targets access, not cash directly."
+              "en": "Your name, phone number, card data, SMS code, and account login are not just personal details. Together, they can let someone borrow, transfer, reset passwords, or impersonate you. Fraud often targets access, not cash directly.",
+              "ru": "Ваше имя, номер телефона, данные карты, SMS-код и логин от аккаунта — это не просто личные сведения. Вместе они могут позволить кому-то взять кредит, сделать перевод, сбросить пароли или выдать себя за вас. Мошенники часто охотятся не за наличными напрямую, а за доступом.",
+              "kk": "Атыңыз, телефон нөміріңіз, карта деректері, SMS-код және аккаунт логині жай ғана жеке мәлімет емес. Бірге олар біреуге қарыз алуға, ақша аударуға, құпиясөзді қалпына келтіруге немесе сіздің атыңыздан әрекет етуге мүмкіндік береді. Алаяқтар көбіне ақшаны емес, қолжетімділікті нысанаға алады."
             },
             "tip": {
-              "en": "Treat verification codes like keys. A real support worker does not need you to read them aloud."
+              "en": "Treat verification codes like keys. A real support worker does not need you to read them aloud.",
+              "ru": "Относитесь к кодам подтверждения как к ключам. Настоящему сотруднику поддержки не нужно, чтобы вы диктовали их вслух.",
+              "kk": "Растау кодтарын кілт сияқты қабылдаңыз. Шынайы қолдау қызметкеріне оларды дауыстап айтуыңыз қажет емес."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "One message, several risks"
+              "en": "One message, several risks",
+              "ru": "Одно сообщение — несколько рисков",
+              "kk": "Бір хабарлама — бірнеше қауіп"
             },
             "content": {
               "en": {
@@ -112,6 +141,80 @@
                     "text": "The correct response is not to argue with the message. It is to leave the link and contact the bank through the app or official number."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Студент получает сообщение: «Ваша банковская карта заблокирована. Подтвердите личность сейчас, иначе потеряете доступ». Ссылка открывает страницу, где просят данные карты и SMS-код."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Сигнал",
+                        "Что он пытается контролировать",
+                        "Почему это важно"
+                      ],
+                      [
+                        "Предупреждение о блокировке карты",
+                        "Срочность",
+                        "Снижает внимательность"
+                      ],
+                      [
+                        "Страница, похожая на банковскую",
+                        "Доверие",
+                        "Делает фальшивый запрос похожим на официальный"
+                      ],
+                      [
+                        "Запрос SMS-кода",
+                        "Доступ",
+                        "Может подтвердить перевод или сбросить вход"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Правильная реакция — не спорить с сообщением. Нужно выйти из ссылки и связаться с банком через приложение или официальный номер."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Студентке хабарлама келеді: «Банк картаңыз бұғатталды. Қазір жеке басыңызды растаңыз, әйтпесе қолжетімділіктен айырыласыз». Сілтеме карта деректері мен SMS-код сұрайтын бетті ашады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Белгі",
+                        "Нені бақылауға тырысады",
+                        "Неге маңызды"
+                      ],
+                      [
+                        "Картаның бұғатталғаны туралы ескерту",
+                        "Асығыстық",
+                        "Мұқият ойлануды азайтады"
+                      ],
+                      [
+                        "Банкке ұқсайтын бет",
+                        "Сенім",
+                        "Жалған сұрауды ресми сияқты көрсетеді"
+                      ],
+                      [
+                        "SMS-код сұрауы",
+                        "Қолжетімділік",
+                        "Аударымды мақұлдауы немесе кіруді қалпына келтіруі мүмкін"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Дұрыс әрекет — хабарламамен дауласу емес. Сілтемеден шығып, банкпен қосымша немесе ресми нөмір арқылы байланысу."
+                  }
+                ]
               }
             }
           },
@@ -120,10 +223,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Spot the fraud signal"
+              "en": "Spot the fraud signal",
+              "ru": "Найдите сигнал мошенничества",
+              "kk": "Алаяқтық белгісін табыңыз"
             },
             "body": {
-              "en": "Read each case and label the main warning sign. The goal is to identify the mechanism, not memorize scam formats."
+              "en": "Read each case and label the main warning sign. The goal is to identify the mechanism, not memorize scam formats.",
+              "ru": "Прочитайте каждый случай и отметьте главный предупреждающий сигнал. Цель — распознать механизм, а не заучить форматы афер.",
+              "kk": "Әр жағдайды оқып, негізгі ескерту белгісін белгілеңіз. Мақсат — алаяқтық форматтарын жаттау емес, механизмді тану."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -151,6 +258,56 @@
                     "explanation": "Leaving the protected platform removes dispute tools and makes reversal harder."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите самый сильный предупреждающий сигнал в каждом сценарии.",
+                "options": [
+                  "Давление срочностью",
+                  "Запрос секретного доступа",
+                  "Непроверенный путь оплаты"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Звонящий говорит, что ваш счёт сегодня заморозят, если вы немедленно не начнёте действовать.",
+                    "correct_answer": "Давление срочностью",
+                    "explanation": "Звонок может быть фальшивым, но ключевой механизм — давление временем, которое мешает проверке."
+                  },
+                  {
+                    "text": "Сотрудник поддержки просит продиктовать шестизначный SMS-код, который вы только что получили.",
+                    "correct_answer": "Запрос секретного доступа",
+                    "explanation": "Коды могут подтверждать вход, сброс пароля или платёж. Ими нельзя делиться."
+                  },
+                  {
+                    "text": "Продавец просит выйти из приложения маркетплейса и оплатить по отдельной ссылке.",
+                    "correct_answer": "Непроверенный путь оплаты",
+                    "explanation": "Выход с защищённой платформы лишает вас инструментов спора и усложняет возврат."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр сценарийдегі ең күшті ескерту белгісін таңдаңыз.",
+                "options": [
+                  "Асықтыру қысымы",
+                  "Құпия қолжетімділікті сұрау",
+                  "Тексерілмеген төлем жолы"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Қоңырау шалушы дереу әрекет етпесеңіз, шотыңыз бүгін бұғатталатынын айтады.",
+                    "correct_answer": "Асықтыру қысымы",
+                    "explanation": "Қоңырау жалған болуы мүмкін, бірақ негізгі механизм — тексеруге мүмкіндік бермейтін уақыт қысымы."
+                  },
+                  {
+                    "text": "Қолдау қызметкері жаңа ғана келген алты таңбалы SMS-кодты айтып беруіңізді сұрайды.",
+                    "correct_answer": "Құпия қолжетімділікті сұрау",
+                    "explanation": "Кодтар кіруді, құпиясөзді қалпына келтіруді немесе төлемді мақұлдай алады. Оларды бөлісуге болмайды."
+                  },
+                  {
+                    "text": "Сатушы маркетплейс қосымшасынан шығып, бөлек сілтеме арқылы төлеуді сұрайды.",
+                    "correct_answer": "Тексерілмеген төлем жолы",
+                    "explanation": "Қорғалған платформадан шығу дауды шешу құралдарын алып тастайды және қайтаруды қиындатады."
+                  }
+                ]
               }
             }
           },
@@ -159,13 +316,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Fraud is a process"
+              "en": "Fraud is a process",
+              "ru": "Мошенничество — это процесс",
+              "kk": "Алаяқтық — процесс"
             },
             "body": {
-              "en": "Fraud works by moving you from uncertainty to action before you verify. The safer habit is to separate message, identity, and payment path. If any one is unverified, pause before money or access moves."
+              "en": "Fraud works by moving you from uncertainty to action before you verify. The safer habit is to separate message, identity, and payment path. If any one is unverified, pause before money or access moves.",
+              "ru": "Мошенничество работает так: вас переводят от неопределённости к действию до того, как вы проверите информацию. Более безопасная привычка — разделять сообщение, личность отправителя и путь оплаты. Если хотя бы один элемент не проверен, остановитесь до передачи денег или доступа.",
+              "kk": "Алаяқтық сіз тексермей тұрып, белгісіздіктен әрекетке итермелеу арқылы жұмыс істейді. Қауіпсіз әдет — хабарламаны, адамның кім екенін және төлем жолын бөлек тексеру. Біреуі де тексерілмесе, ақша немесе қолжетімділік бермес бұрын тоқтаңыз."
             },
             "tip": {
-              "en": "A real emergency can survive a verification call. A scam often cannot."
+              "en": "A real emergency can survive a verification call. A scam often cannot.",
+              "ru": "Настоящая экстренная ситуация выдержит проверочный звонок. Мошенническая схема часто — нет.",
+              "kk": "Шынайы төтенше жағдай тексеру қоңырауына шыдайды. Алаяқтық көбіне шыдамайды."
             }
           }
         ]
@@ -174,7 +337,9 @@
         "quiz_id": 1001,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Financial Fraud Basics — Check"
+          "en": "Financial Fraud Basics — Check",
+          "ru": "Основы финансового мошенничества — проверка",
+          "kk": "Қаржылық алаяқтық негіздері — тексеру"
         },
         "questions": [
           {
@@ -182,14 +347,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A caller knows your full name, bank name, and last four card digits, then asks for an SMS code to “cancel a suspicious transfer.” What is the best interpretation?"
+              "en": "A caller knows your full name, bank name, and last four card digits, then asks for an SMS code to “cancel a suspicious transfer.” What is the best interpretation?",
+              "ru": "Звонящий знает ваше полное имя, название банка и последние четыре цифры карты, а затем просит SMS-код, чтобы «отменить подозрительный перевод». Как это лучше всего понимать?",
+              "kk": "Қоңырау шалушы толық атыңызды, банк атауын және картаның соңғы төрт санын біледі, содан кейін «күдікті аударымды тоқтату» үшін SMS-код сұрайды. Мұны қалай дұрыс түсіндіруге болады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They may still be a scammer because partial personal data does not prove authority"
+                  "en": "They may still be a scammer because partial personal data does not prove authority",
+                  "ru": "Это всё ещё может быть мошенник, потому что частичные личные данные не доказывают полномочия",
+                  "kk": "Бұл бәрібір алаяқ болуы мүмкін, өйткені жеке деректердің бір бөлігі өкілеттікті дәлелдемейді"
                 },
                 "is_correct": true
               },
@@ -197,7 +366,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They are safe because they already know account details"
+                  "en": "They are safe because they already know account details",
+                  "ru": "Им можно доверять, потому что они уже знают данные счёта",
+                  "kk": "Олар қауіпсіз, өйткені шот деректерін біледі"
                 },
                 "is_correct": false
               },
@@ -205,7 +376,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The SMS code is harmless if the transfer is being canceled"
+                  "en": "The SMS code is harmless if the transfer is being canceled",
+                  "ru": "SMS-код безвреден, если перевод отменяется",
+                  "kk": "Егер аударым тоқтатылып жатса, SMS-код зиянсыз"
                 },
                 "is_correct": false
               },
@@ -213,7 +386,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It is safe if the caller sounds professional"
+                  "en": "It is safe if the caller sounds professional",
+                  "ru": "Это безопасно, если звонящий звучит профессионально",
+                  "kk": "Қоңырау шалушы кәсіби сөйлесе, бұл қауіпсіз"
                 },
                 "is_correct": false
               }
@@ -224,14 +399,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "A payment link arrives after a buyer says the marketplace app is “too slow.” What is the main risk?"
+              "en": "A payment link arrives after a buyer says the marketplace app is “too slow.” What is the main risk?",
+              "ru": "Покупатель говорит, что приложение маркетплейса «слишком медленное», и присылает ссылку для оплаты. В чём главный риск?",
+              "kk": "Сатып алушы маркетплейс қосымшасы «тым баяу» деп, төлем сілтемесін жібереді. Негізгі қауіп қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The payment path may bypass platform protections and be harder to reverse"
+                  "en": "The payment path may bypass platform protections and be harder to reverse",
+                  "ru": "Путь оплаты может обходить защиту платформы, и такой платёж будет труднее отменить",
+                  "kk": "Төлем жолы платформа қорғанысын айналып өтіп, оны қайтару қиынырақ болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -239,7 +418,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The buyer is definitely trying to negotiate a lower price"
+                  "en": "The buyer is definitely trying to negotiate a lower price",
+                  "ru": "Покупатель точно пытается сторговаться",
+                  "kk": "Сатып алушы міндетті түрде бағаны түсіруге тырысып жатыр"
                 },
                 "is_correct": false
               },
@@ -247,7 +428,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The card fee will always be higher outside the app"
+                  "en": "The card fee will always be higher outside the app",
+                  "ru": "Комиссия по карте вне приложения всегда будет выше",
+                  "kk": "Қолданбадан тыс карта комиссиясы әрқашан жоғары болады"
                 },
                 "is_correct": false
               },
@@ -255,7 +438,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The product will automatically become uninsured"
+                  "en": "The product will automatically become uninsured",
+                  "ru": "Товар автоматически станет незастрахованным",
+                  "kk": "Тауар автоматты түрде сақтандырылмаған болады"
                 },
                 "is_correct": false
               }
@@ -266,14 +451,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which response best breaks the scam process when you receive a bank-warning message with a link?"
+              "en": "Which response best breaks the scam process when you receive a bank-warning message with a link?",
+              "ru": "Какая реакция лучше всего прерывает мошеннический процесс, если вы получили банковское предупреждение со ссылкой?",
+              "kk": "Сілтемесі бар банк ескертуін алған кезде алаяқтық процесін ең жақсы тоқтататын әрекет қайсы?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Close the message and check through the official app or phone number"
+                  "en": "Close the message and check through the official app or phone number",
+                  "ru": "Закрыть сообщение и проверить через официальное приложение или номер телефона",
+                  "kk": "Хабарламаны жауып, ресми қосымша немесе телефон нөмірі арқылы тексеру"
                 },
                 "is_correct": true
               },
@@ -281,7 +470,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Open the link but avoid entering your card number"
+                  "en": "Open the link but avoid entering your card number",
+                  "ru": "Открыть ссылку, но не вводить номер карты",
+                  "kk": "Сілтемені ашу, бірақ карта нөмірін енгізбеу"
                 },
                 "is_correct": false
               },
@@ -289,7 +480,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Reply to ask whether the message is real"
+                  "en": "Reply to ask whether the message is real",
+                  "ru": "Ответить и спросить, настоящее ли сообщение",
+                  "kk": "Хабарламаның шынайы екенін сұрап жауап беру"
                 },
                 "is_correct": false
               },
@@ -297,7 +490,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Forward the message to a friend and follow their advice"
+                  "en": "Forward the message to a friend and follow their advice",
+                  "ru": "Переслать сообщение другу и следовать его совету",
+                  "kk": "Хабарламаны досыңызға жіберіп, оның кеңесіне сүйену"
                 },
                 "is_correct": false
               }
@@ -309,10 +504,14 @@
     {
       "code": "investment_scams",
       "title": {
-        "en": "Investment Scams"
+        "en": "Investment Scams",
+        "ru": "Инвестиционные мошенничества",
+        "kk": "Инвестициялық алаяқтықтар"
       },
       "description": {
-        "en": "How fake opportunities use return promises, social proof, and withdrawal tricks to make losses look like investments."
+        "en": "How fake opportunities use return promises, social proof, and withdrawal tricks to make losses look like investments.",
+        "ru": "Как фальшивые возможности используют обещания доходности, социальное доказательство и трюки с выводом денег, чтобы потери выглядели как инвестиции.",
+        "kk": "Жалған мүмкіндіктер табыс уәделерін, әлеуметтік дәлелді және ақша шығару айлаларын пайдаланып, шығындарды инвестиция сияқты қалай көрсетеді."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -324,10 +523,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A scam copies the shape of investing"
+              "en": "A scam copies the shape of investing",
+              "ru": "Афера копирует форму инвестирования",
+              "kk": "Алаяқтық инвестицияның сыртқы түрін көшіреді"
             },
             "body": {
-              "en": "Investment scams use real investment words: portfolio, signals, arbitrage, dividends, guaranteed income. The language feels financial, but the economics do not work. The key test is whether the promised return makes sense for the risk."
+              "en": "Investment scams use real investment words: portfolio, signals, arbitrage, dividends, guaranteed income. The language feels financial, but the economics do not work. The key test is whether the promised return makes sense for the risk.",
+              "ru": "Инвестиционные аферы используют настоящие инвестиционные слова: портфель, сигналы, арбитраж, дивиденды, гарантированный доход. Язык звучит финансово, но экономика не сходится. Главная проверка — соответствует ли обещанная доходность риску.",
+              "kk": "Инвестициялық алаяқтықтар нақты инвестициялық сөздерді қолданады: портфель, сигналдар, арбитраж, дивидендтер, кепілдендірілген табыс. Тілі қаржылық сияқты, бірақ экономикасы жұмыс істемейді. Негізгі тексеріс — уәде етілген табыс тәуекелге сай ма."
             }
           },
           {
@@ -335,13 +538,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "The impossible promise"
+              "en": "The impossible promise",
+              "ru": "Невозможное обещание",
+              "kk": "Мүмкін емес уәде"
             },
             "body": {
-              "en": "High return with low risk is rare. A promise of 5% per month sounds small, but it compounds to almost 80% per year before fees. If such a return were safe and repeatable, large investors would compete it away."
+              "en": "High return with low risk is rare. A promise of 5% per month sounds small, but it compounds to almost 80% per year before fees. If such a return were safe and repeatable, large investors would compete it away.",
+              "ru": "Высокая доходность при низком риске встречается редко. Обещание 5% в месяц звучит скромно, но с капитализацией это почти 80% в год до комиссий. Если бы такая доходность была безопасной и повторяемой, крупные инвесторы быстро бы её забрали.",
+              "kk": "Төмен тәуекелмен жоғары табыс сирек кездеседі. Айына 5% уәде аз сияқты естіледі, бірақ күрделі пайызбен бұл комиссияларға дейін жылына шамамен 80% болады. Егер мұндай табыс қауіпсіз әрі тұрақты болса, ірі инвесторлар оны тез-ақ пайдаланып қояр еді."
             },
             "example": {
-              "en": "₸500,000 growing at 5% monthly becomes about ₸898,000 after one year. That is not a normal safe-income product."
+              "en": "₸500,000 growing at 5% monthly becomes about ₸898,000 after one year. That is not a normal safe-income product.",
+              "ru": "₸500,000 при росте на 5% в месяц через год превращаются примерно в ₸898,000. Это не обычный продукт с безопасным доходом.",
+              "kk": "Айына 5% өсетін ₸500,000 бір жылдан кейін шамамен ₸898,000 болады. Бұл қалыпты қауіпсіз табыс өнімі емес."
             }
           },
           {
@@ -349,13 +558,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Why early withdrawals may work"
+              "en": "Why early withdrawals may work",
+              "ru": "Почему ранний вывод средств может работать",
+              "kk": "Неліктен алғашқы ақша шығару жұмыс істеуі мүмкін"
             },
             "body": {
-              "en": "Some scams allow small early withdrawals to build trust. That does not prove profit exists. It may only prove new deposits are available to pay old users."
+              "en": "Some scams allow small early withdrawals to build trust. That does not prove profit exists. It may only prove new deposits are available to pay old users.",
+              "ru": "Некоторые схемы позволяют выводить небольшие суммы в начале, чтобы вызвать доверие. Это не доказывает наличие прибыли. Это может лишь означать, что есть новые взносы, из которых платят старым участникам.",
+              "kk": "Кейбір алаяқтықтар сенім қалыптастыру үшін басында аз соманы шығаруға мүмкіндік береді. Бұл пайда бар екенін дәлелдемейді. Бұл тек ескі қолданушыларға төлеу үшін жаңа салымдар бар екенін көрсетуі мүмкін."
             },
             "tip": {
-              "en": "A withdrawal test reduces one risk, but it does not prove the business model is real."
+              "en": "A withdrawal test reduces one risk, but it does not prove the business model is real.",
+              "ru": "Пробный вывод снижает один риск, но не доказывает, что бизнес-модель реальна.",
+              "kk": "Сынақ ретінде ақша шығару бір тәуекелді азайтады, бірақ бизнес-модельдің шынайы екенін дәлелдемейді."
             }
           },
           {
@@ -363,7 +578,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "A guaranteed plan that does not add up"
+              "en": "A guaranteed plan that does not add up",
+              "ru": "Гарантированный план, который не сходится",
+              "kk": "Есебі келіспейтін кепілдендірілген жоспар"
             },
             "content": {
               "en": {
@@ -402,6 +619,80 @@
                     "text": "The problem is not one suspicious detail. It is the combination: high return, no risk, and incentives to bring in more depositors."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Платформа обещает 4% в месяц, отсутствие убытков и бонус за приглашение друзей. Вы думаете вложить ₸1,000,000."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Заявление",
+                        "Что это подразумевает",
+                        "Какой вопрос задать"
+                      ],
+                      [
+                        "4% в месяц",
+                        "Около 60% в год с капитализацией",
+                        "Какой риск создаёт такую доходность?"
+                      ],
+                      [
+                        "Без убытков",
+                        "Риск скрыт или отрицается",
+                        "Кто покрывает убытки?"
+                      ],
+                      [
+                        "Реферальный бонус",
+                        "Рост может зависеть от новых вкладов",
+                        "Доход идёт от инвестирования или от привлечения людей?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Проблема не в одной подозрительной детали. Проблема в сочетании: высокая доходность, отсутствие риска и стимулы приводить новых вкладчиков."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Платформа айына 4%, шығын болмайтынын және достарды шақырсаңыз бонус беретінін уәде етеді. Сіз ₸1,000,000 салуды ойлайсыз."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Мәлімдеме",
+                        "Бұл нені білдіреді",
+                        "Қандай сұрақ қою керек"
+                      ],
+                      [
+                        "Айына 4%",
+                        "Күрделі пайызбен жылына шамамен 60%",
+                        "Бұл табысты қандай тәуекел тудырады?"
+                      ],
+                      [
+                        "Шығын жоқ",
+                        "Тәуекел жасырылған немесе жоққа шығарылған",
+                        "Шығынды кім көтереді?"
+                      ],
+                      [
+                        "Рефералдық бонус",
+                        "Өсу жаңа салымдарға тәуелді болуы мүмкін",
+                        "Табыс инвестициядан ба, әлде адамдар тартудан ба?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Мәселе бір күмәнді детальда емес. Мәселе үйлесімде: жоғары табыс, тәуекел жоқ және жаңа салымшыларды әкелуге ынталандыру."
+                  }
+                ]
               }
             }
           },
@@ -410,10 +701,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Find the broken logic"
+              "en": "Find the broken logic",
+              "ru": "Найдите ошибочную логику",
+              "kk": "Қате логиканы табыңыз"
             },
             "body": {
-              "en": "Each case contains a claim. Choose the mistake that makes the investment reasoning unsafe."
+              "en": "Each case contains a claim. Choose the mistake that makes the investment reasoning unsafe.",
+              "ru": "В каждом случае есть утверждение. Выберите ошибку, из-за которой инвестиционная логика становится небезопасной.",
+              "kk": "Әр жағдайда бір мәлімдеме бар. Инвестициялық ойлауды қауіпсіз емес ететін қатені таңдаңыз."
             },
             "interactiveType": "error_detector",
             "interactiveContent": {
@@ -452,6 +747,78 @@
                   }
                 ],
                 "final_explanation": "Investment scams usually fail the same test: they cannot explain a realistic source of return, a real risk bearer, and a sustainable business model."
+              },
+              "ru": {
+                "instruction": "Выберите главную ошибку в каждом инвестиционном утверждении.",
+                "cases": [
+                  {
+                    "text": "«Платформа платит 6% в месяц и говорит, что капитал полностью защищён, потому что сделки совершает ИИ».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Доходность считается безопасной без объяснения, кто несёт риск",
+                      "c) ИИ всегда означает более низкие комиссии"
+                    ],
+                    "correct": "b",
+                    "explanation": "Технологии не устраняют рыночный риск. Защищённая доходность требует убедительного источника защиты."
+                  },
+                  {
+                    "text": "«Мой друг вывел ₸50,000, значит платформа точно легальная».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Один вывод средств доказывает долгосрочную платёжеспособность",
+                      "c) Небольшой вывод средств не доказывает, что источник прибыли реален"
+                    ],
+                    "correct": "c",
+                    "explanation": "Ранние выводы могут финансироваться за счёт новых вкладов или маркетингового бюджета."
+                  },
+                  {
+                    "text": "«Проект доплачивает за приглашение людей, но всё равно это в основном инвестиция».",
+                    "options": [
+                      "a) Реферальные награды могут показывать зависимость от новых поступлений",
+                      "b) Реферальные награды всегда делают инвестицию безопаснее",
+                      "c) Ошибки нет"
+                    ],
+                    "correct": "a",
+                    "explanation": "Если выплаты зависят от привлечения людей, экономика может рухнуть, когда приток новых денег замедлится."
+                  }
+                ],
+                "final_explanation": "Инвестиционные аферы обычно проваливают один и тот же тест: они не могут объяснить реалистичный источник доходности, реального носителя риска и устойчивую бизнес-модель."
+              },
+              "kk": {
+                "instruction": "Әр инвестициялық мәлімдемедегі негізгі қатені таңдаңыз.",
+                "cases": [
+                  {
+                    "text": "«Платформа айына 6% төлейді және мәмілелерді ЖИ жасайтындықтан капитал толық қорғалған дейді».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Тәуекелді кім көтеретіні түсіндірілмей, табыс қауіпсіз деп қабылданған",
+                      "c) ЖИ әрқашан төмен комиссияны білдіреді"
+                    ],
+                    "correct": "b",
+                    "explanation": "Технология нарықтық тәуекелді жоймайды. Қорғалған табыс үшін сенімді қорғаныс көзі қажет."
+                  },
+                  {
+                    "text": "«Досым ₸50,000 шығарды, демек платформа заңды болуы керек».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Бір рет ақша шығару ұзақ мерзімді төлем қабілетін дәлелдейді",
+                      "c) Аз соманы шығару пайда көзінің шынайы екенін дәлелдемейді"
+                    ],
+                    "correct": "c",
+                    "explanation": "Алғашқы төлемдер жаңа салымдар немесе маркетинг бюджеті есебінен қаржылануы мүмкін."
+                  },
+                  {
+                    "text": "«Жоба адамдарды шақырсам қосымша төлейді, бірақ бұл бәрібір негізінен инвестиция».",
+                    "options": [
+                      "a) Рефералдық сыйақылар жаңа ақша ағындарына тәуелділікті көрсетуі мүмкін",
+                      "b) Рефералдық сыйақылар инвестицияны әрқашан қауіпсіз етеді",
+                      "c) Қате жоқ"
+                    ],
+                    "correct": "a",
+                    "explanation": "Егер төлемдер адамдарды тартуға тәуелді болса, жаңа ақша ағыны баяулағанда экономикасы құлауы мүмкін."
+                  }
+                ],
+                "final_explanation": "Инвестициялық алаяқтықтар әдетте бір сынақтан өте алмайды: олар табыстың шынайы көзін, тәуекелді нақты кім көтеретінін және тұрақты бизнес-модельді түсіндіре алмайды."
               }
             }
           },
@@ -460,13 +827,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Return must come from somewhere"
+              "en": "Return must come from somewhere",
+              "ru": "Доходность должна откуда-то появляться",
+              "kk": "Табыс бір жерден келуі керек"
             },
             "body": {
-              "en": "A real investment return comes from a business, loan interest, rent, price change, or risk premium. A scam often replaces that explanation with confidence, secrecy, or social proof. Before investing, ask what economic engine pays you."
+              "en": "A real investment return comes from a business, loan interest, rent, price change, or risk premium. A scam often replaces that explanation with confidence, secrecy, or social proof. Before investing, ask what economic engine pays you.",
+              "ru": "Реальная инвестиционная доходность появляется из бизнеса, процентов по займам, аренды, изменения цены или премии за риск. Мошенническая схема часто заменяет это объяснение уверенностью, секретностью или социальным доказательством. Перед вложением спросите, какой экономический механизм вам платит.",
+              "kk": "Нақты инвестициялық табыс бизнестен, қарыз пайызынан, жалдау ақысынан, баға өзгерісінен немесе тәуекел сыйақысынан келеді. Алаяқтық схема бұл түсіндірмені сенімділікпен, құпиялылықпен немесе әлеуметтік дәлелмен алмастырады. Инвестиция жасамас бұрын сізге қандай экономикалық механизм төлейтінін сұраңыз."
             },
             "tip": {
-              "en": "If the return is clear but the risk is vague, the risk is probably being hidden."
+              "en": "If the return is clear but the risk is vague, the risk is probably being hidden.",
+              "ru": "Если доходность понятна, а риск туманен, риск, скорее всего, скрывают.",
+              "kk": "Табыс түсінікті, ал тәуекел бұлыңғыр болса, тәуекел жасырылып жатқан болуы мүмкін."
             }
           }
         ]
@@ -475,7 +848,9 @@
         "quiz_id": 1002,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Investment Scams — Check"
+          "en": "Investment Scams — Check",
+          "ru": "Инвестиционные мошенничества — проверка",
+          "kk": "Инвестициялық алаяқтықтар — тексеру"
         },
         "questions": [
           {
@@ -483,14 +858,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A platform offers 3% weekly returns and says losses are impossible because it uses “private trading signals.” What is the strongest concern?"
+              "en": "A platform offers 3% weekly returns and says losses are impossible because it uses “private trading signals.” What is the strongest concern?",
+              "ru": "Платформа предлагает 3% доходности в неделю и говорит, что убытки невозможны, потому что использует «частные торговые сигналы». Что вызывает наибольшее беспокойство?",
+              "kk": "Платформа аптасына 3% табыс ұсынады және «жеке сауда сигналдарын» қолданатындықтан шығын мүмкін емес дейді. Ең үлкен алаңдаушылық неде?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The promised return is very high while the risk explanation is missing"
+                  "en": "The promised return is very high while the risk explanation is missing",
+                  "ru": "Обещанная доходность очень высокая, а объяснение риска отсутствует",
+                  "kk": "Уәде етілген табыс өте жоғары, ал тәуекел түсіндірілмеген"
                 },
                 "is_correct": true
               },
@@ -498,7 +877,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Weekly returns are illegal in every situation"
+                  "en": "Weekly returns are illegal in every situation",
+                  "ru": "Еженедельная доходность незаконна в любой ситуации",
+                  "kk": "Апталық табыс кез келген жағдайда заңсыз"
                 },
                 "is_correct": false
               },
@@ -506,7 +887,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Private signals always produce lower returns than public signals"
+                  "en": "Private signals always produce lower returns than public signals",
+                  "ru": "Частные сигналы всегда дают более низкую доходность, чем публичные",
+                  "kk": "Жеке сигналдар әрқашан ашық сигналдарға қарағанда төмен табыс береді"
                 },
                 "is_correct": false
               },
@@ -514,7 +897,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The platform should offer returns daily instead"
+                  "en": "The platform should offer returns daily instead",
+                  "ru": "Платформа должна предлагать доходность ежедневно",
+                  "kk": "Платформа табысты күн сайын ұсынуы керек"
                 },
                 "is_correct": false
               }
@@ -525,14 +910,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Someone says a project is safe because many people in a Telegram group posted screenshots of profits. What should you think?"
+              "en": "Someone says a project is safe because many people in a Telegram group posted screenshots of profits. What should you think?",
+              "ru": "Кто-то говорит, что проект безопасен, потому что многие люди в Telegram-группе выложили скриншоты прибыли. Что стоит подумать?",
+              "kk": "Біреу жобаны қауіпсіз дейді, себебі Telegram тобында көп адам пайда скриншоттарын жариялаған. Не ойлау керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Social proof can be manufactured and does not prove the business model"
+                  "en": "Social proof can be manufactured and does not prove the business model",
+                  "ru": "Социальное доказательство можно подделать, и оно не доказывает бизнес-модель",
+                  "kk": "Әлеуметтік дәлел қолдан жасалуы мүмкін және бизнес-модельді дәлелдемейді"
                 },
                 "is_correct": true
               },
@@ -540,7 +929,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "A large group automatically makes the investment diversified"
+                  "en": "A large group automatically makes the investment diversified",
+                  "ru": "Большая группа автоматически делает инвестицию диверсифицированной",
+                  "kk": "Үлкен топ инвестицияны автоматты түрде әртараптандырады"
                 },
                 "is_correct": false
               },
@@ -548,7 +939,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Screenshots are stronger evidence than audited statements"
+                  "en": "Screenshots are stronger evidence than audited statements",
+                  "ru": "Скриншоты — более сильное доказательство, чем аудированная отчётность",
+                  "kk": "Скриншоттар аудиттелген есептіліктен күшті дәлел"
                 },
                 "is_correct": false
               },
@@ -556,7 +949,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Profit screenshots prove the regulator approved the project"
+                  "en": "Profit screenshots prove the regulator approved the project",
+                  "ru": "Скриншоты прибыли доказывают, что регулятор одобрил проект",
+                  "kk": "Пайда скриншоттары реттеушінің жобаны мақұлдағанын дәлелдейді"
                 },
                 "is_correct": false
               }
@@ -567,14 +962,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which question best tests whether an investment opportunity is economically real?"
+              "en": "Which question best tests whether an investment opportunity is economically real?",
+              "ru": "Какой вопрос лучше всего проверяет, является ли инвестиционная возможность экономически реальной?",
+              "kk": "Инвестициялық мүмкіндіктің экономикалық тұрғыдан шынайы екенін қай сұрақ ең жақсы тексереді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "What activity generates the return, and who loses money if it goes wrong?"
+                  "en": "What activity generates the return, and who loses money if it goes wrong?",
+                  "ru": "Какая деятельность создаёт доходность, и кто теряет деньги, если всё пойдёт не так?",
+                  "kk": "Қандай қызмет табыс әкеледі және бәрі дұрыс болмаса, кім ақша жоғалтады?"
                 },
                 "is_correct": true
               },
@@ -582,7 +981,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "How attractive is the website design?"
+                  "en": "How attractive is the website design?",
+                  "ru": "Насколько привлекателен дизайн сайта?",
+                  "kk": "Сайт дизайны қаншалықты тартымды?"
                 },
                 "is_correct": false
               },
@@ -590,7 +991,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "How quickly can I invite friends?"
+                  "en": "How quickly can I invite friends?",
+                  "ru": "Как быстро я могу пригласить друзей?",
+                  "kk": "Достарымды қаншалықты тез шақыра аламын?"
                 },
                 "is_correct": false
               },
@@ -598,7 +1001,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Does the platform use modern financial vocabulary?"
+                  "en": "Does the platform use modern financial vocabulary?",
+                  "ru": "Использует ли платформа современную финансовую лексику?",
+                  "kk": "Платформа заманауи қаржылық сөздерді қолдана ма?"
                 },
                 "is_correct": false
               }
@@ -610,10 +1015,14 @@
     {
       "code": "crypto_scams",
       "title": {
-        "en": "Crypto Scams"
+        "en": "Crypto Scams",
+        "ru": "Криптомошенничество",
+        "kk": "Криптоалаяқтық"
       },
       "description": {
-        "en": "How crypto scams exploit custody, irreversible transfers, fake tokens, and confusion between technology and trust."
+        "en": "How crypto scams exploit custody, irreversible transfers, fake tokens, and confusion between technology and trust.",
+        "ru": "Как криптоаферы используют хранение активов, необратимые переводы, фальшивые токены и путаницу между технологией и доверием.",
+        "kk": "Криптоалаяқтық активтерді сақтау, қайтарылмайтын аударымдар, жалған токендер және технология мен сенім арасындағы шатасуды қалай пайдаланады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -625,10 +1034,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Crypto changes the fraud surface"
+              "en": "Crypto changes the fraud surface",
+              "ru": "Крипто меняет поверхность мошенничества",
+              "kk": "Крипто алаяқтықтың нысандарын өзгертеді"
             },
             "body": {
-              "en": "Crypto does not make fraud new, but it changes what scammers target. Transfers can be hard to reverse, wallets depend on secret keys, and fake tokens can look technical enough to confuse beginners. The core question is still trust and control."
+              "en": "Crypto does not make fraud new, but it changes what scammers target. Transfers can be hard to reverse, wallets depend on secret keys, and fake tokens can look technical enough to confuse beginners. The core question is still trust and control.",
+              "ru": "Крипто не создаёт мошенничество заново, но меняет то, на что охотятся мошенники. Переводы трудно отменить, кошельки зависят от секретных ключей, а фальшивые токены могут выглядеть достаточно технически, чтобы запутать новичков. Главный вопрос всё тот же: доверие и контроль.",
+              "kk": "Крипто алаяқтықты жаңадан жасамайды, бірақ алаяқтардың нені нысанаға алатынын өзгертеді. Аударымдарды қайтару қиын, әмияндар құпия кілттерге тәуелді, ал жалған токендер жаңадан бастаушыларды шатастыратындай техникалық көрінуі мүмкін. Негізгі сұрақ бәрібір сенім мен бақылау."
             }
           },
           {
@@ -636,13 +1049,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Custody is the center"
+              "en": "Custody is the center",
+              "ru": "Хранение — в центре",
+              "kk": "Сақтау — басты мәселе"
             },
             "body": {
-              "en": "In crypto, whoever controls the private key or exchange account controls the asset. A scammer does not need to break a blockchain if they can make you approve a transfer, reveal a seed phrase, or connect a wallet to a malicious site."
+              "en": "In crypto, whoever controls the private key or exchange account controls the asset. A scammer does not need to break a blockchain if they can make you approve a transfer, reveal a seed phrase, or connect a wallet to a malicious site.",
+              "ru": "В крипто тот, кто контролирует приватный ключ или биржевой аккаунт, контролирует актив. Мошеннику не нужно взламывать блокчейн, если он может заставить вас подтвердить перевод, раскрыть seed-фразу или подключить кошелёк к вредоносному сайту.",
+              "kk": "Криптода жеке кілтті немесе биржа аккаунтын бақылайтын адам активті бақылайды. Егер алаяқ сізді аударымды мақұлдатса, seed-фразаны аштырса немесе әмиянды зиянды сайтқа қостырса, оған блокчейнді бұзудың қажеті жоқ."
             },
             "tip": {
-              "en": "A seed phrase is not a password reset tool. It is control of the wallet."
+              "en": "A seed phrase is not a password reset tool. It is control of the wallet.",
+              "ru": "Seed-фраза — это не инструмент сброса пароля. Это контроль над кошельком.",
+              "kk": "Seed-фраза құпиясөзді қалпына келтіру құралы емес. Ол әмиянды бақылау құралы."
             }
           },
           {
@@ -650,10 +1069,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Irreversibility raises the cost of mistakes"
+              "en": "Irreversibility raises the cost of mistakes",
+              "ru": "Необратимость повышает цену ошибок",
+              "kk": "Қайтарылмау қателіктің құнын арттырады"
             },
             "body": {
-              "en": "Many crypto transfers are final once confirmed. That makes verification more important before sending. A small address error, fake support chat, or wrong network can turn a normal mistake into a permanent loss."
+              "en": "Many crypto transfers are final once confirmed. That makes verification more important before sending. A small address error, fake support chat, or wrong network can turn a normal mistake into a permanent loss.",
+              "ru": "Многие криптопереводы становятся окончательными после подтверждения. Поэтому проверка перед отправкой особенно важна. Маленькая ошибка в адресе, фальшивый чат поддержки или неправильная сеть могут превратить обычную ошибку в постоянную потерю.",
+              "kk": "Көптеген криптоаударымдар расталғаннан кейін түпкілікті болады. Сондықтан жібермес бұрын тексеру маңыздырақ. Мекенжайдағы кішкентай қате, жалған қолдау чаты немесе қате желі қарапайым қатені тұрақты шығынға айналдыруы мүмкін."
             }
           },
           {
@@ -661,7 +1084,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same asset, different risks"
+              "en": "Same asset, different risks",
+              "ru": "Один и тот же актив — разные риски",
+              "kk": "Бір актив — әртүрлі тәуекел"
             },
             "content": {
               "en": {
@@ -700,6 +1125,80 @@
                     "text": "Crypto safety is not only about price volatility. It is also about who can move the asset."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два человека держат в крипто эквивалент ₸400,000 каждый. Рыночный риск похож, но риск хранения у них разный."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ситуация",
+                        "Главная точка контроля",
+                        "Главный риск"
+                      ],
+                      [
+                        "Биржевой аккаунт со слабым паролем",
+                        "Логин и доступ к SMS/почте",
+                        "Захват аккаунта"
+                      ],
+                      [
+                        "Кошелёк с самостоятельным хранением",
+                        "Seed-фраза и подтверждения транзакций",
+                        "Потеря или вредоносное подтверждение"
+                      ],
+                      [
+                        "Неизвестная высокодоходная криптоплатформа",
+                        "Оператор платформы",
+                        "Заморозка вывода или exit scam"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Безопасность в крипто — это не только волатильность цены. Это ещё и вопрос того, кто может переместить актив."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі адам криптода әрқайсысы ₸400,000 баламасын ұстайды. Нарықтық тәуекелі ұқсас, бірақ сақтау тәуекелі әртүрлі."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Жағдай",
+                        "Негізгі бақылау нүктесі",
+                        "Негізгі тәуекел"
+                      ],
+                      [
+                        "Әлсіз құпиясөзі бар биржа аккаунты",
+                        "Логин және SMS/электрондық поштаға қолжетімділік",
+                        "Аккаунтты басып алу"
+                      ],
+                      [
+                        "Өзіндік сақтау әмияны",
+                        "Seed-фраза және транзакцияларды мақұлдау",
+                        "Жоғалту немесе зиянды мақұлдау"
+                      ],
+                      [
+                        "Белгісіз жоғары табысты криптоплатформа",
+                        "Платформа операторы",
+                        "Ақша шығаруды бұғаттау немесе exit scam"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Крипто қауіпсіздігі тек баға құбылмалылығы туралы емес. Бұл активті кім жылжыта алатыны туралы да."
+                  }
+                ]
               }
             }
           },
@@ -708,10 +1207,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Classify the crypto risk"
+              "en": "Classify the crypto risk",
+              "ru": "Классифицируйте крипториск",
+              "kk": "Крипто тәуекелді жіктеңіз"
             },
             "body": {
-              "en": "Sort each situation by the risk it mainly creates. Some cases are about custody, others about fake returns or fake assets."
+              "en": "Sort each situation by the risk it mainly creates. Some cases are about custody, others about fake returns or fake assets.",
+              "ru": "Отсортируйте каждую ситуацию по риску, который она в основном создаёт. Некоторые случаи связаны с хранением, другие — с фальшивой доходностью или фальшивыми активами.",
+              "kk": "Әр жағдайды негізінен тудыратын тәуекелі бойынша сұрыптаңыз. Кейбірі сақтауға, басқалары жалған табысқа немесе жалған активтерге қатысты."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -768,6 +1271,114 @@
                   }
                 ],
                 "explanation": "Crypto scams often attack control first. Fake returns and fake assets matter too, but losing custody can move the asset immediately."
+              },
+              "ru": {
+                "instruction": "Перетащите каждую криптоситуацию в наиболее подходящую категорию риска.",
+                "categories": [
+                  {
+                    "id": "custody",
+                    "label": "Риск хранения"
+                  },
+                  {
+                    "id": "fake_return",
+                    "label": "Фальшивая доходность"
+                  },
+                  {
+                    "id": "fake_asset",
+                    "label": "Фальшивый актив"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "seed_phrase",
+                    "text": "Чат поддержки просит вашу seed-фразу"
+                  },
+                  {
+                    "id": "daily_profit",
+                    "text": "Сайт обещает 2% прибыли в день без риска"
+                  },
+                  {
+                    "id": "copy_token",
+                    "text": "Токен использует известный логотип, но неизвестный адрес контракта"
+                  },
+                  {
+                    "id": "wallet_approval",
+                    "text": "Сайт просит разрешить неограниченное списание из вашего кошелька"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "seed_phrase",
+                    "categoryId": "custody"
+                  },
+                  {
+                    "itemId": "daily_profit",
+                    "categoryId": "fake_return"
+                  },
+                  {
+                    "itemId": "copy_token",
+                    "categoryId": "fake_asset"
+                  },
+                  {
+                    "itemId": "wallet_approval",
+                    "categoryId": "custody"
+                  }
+                ],
+                "explanation": "Криптоаферы часто сначала атакуют контроль. Фальшивая доходность и фальшивые активы тоже важны, но потеря контроля над хранением может сразу переместить актив."
+              },
+              "kk": {
+                "instruction": "Әр крипто жағдайды ең сәйкес тәуекел санатына апарыңыз.",
+                "categories": [
+                  {
+                    "id": "custody",
+                    "label": "Сақтау тәуекелі"
+                  },
+                  {
+                    "id": "fake_return",
+                    "label": "Жалған табыс"
+                  },
+                  {
+                    "id": "fake_asset",
+                    "label": "Жалған актив"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "seed_phrase",
+                    "text": "Қолдау чаты seed-фразаңызды сұрайды"
+                  },
+                  {
+                    "id": "daily_profit",
+                    "text": "Сайт тәуекелсіз күніне 2% пайда уәде етеді"
+                  },
+                  {
+                    "id": "copy_token",
+                    "text": "Токен танымал логотипті қолданады, бірақ келісімшарт мекенжайы белгісіз"
+                  },
+                  {
+                    "id": "wallet_approval",
+                    "text": "Сайт әмияныңыздан шексіз жұмсауға рұқсат беруді сұрайды"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "seed_phrase",
+                    "categoryId": "custody"
+                  },
+                  {
+                    "itemId": "daily_profit",
+                    "categoryId": "fake_return"
+                  },
+                  {
+                    "itemId": "copy_token",
+                    "categoryId": "fake_asset"
+                  },
+                  {
+                    "itemId": "wallet_approval",
+                    "categoryId": "custody"
+                  }
+                ],
+                "explanation": "Криптоалаяқтықтар көбіне алдымен бақылауға шабуыл жасайды. Жалған табыс пен жалған активтер де маңызды, бірақ сақтау бақылауын жоғалту активті бірден жылжытуы мүмкін."
               }
             }
           },
@@ -776,13 +1387,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Technology is not trust"
+              "en": "Technology is not trust",
+              "ru": "Технология — это не доверие",
+              "kk": "Технология сенім емес"
             },
             "body": {
-              "en": "A blockchain can verify transactions, but it does not verify every project, token, exchange, or person contacting you. In crypto, safety depends on custody, verification, and understanding what can be reversed. Do not confuse technical language with reliability."
+              "en": "A blockchain can verify transactions, but it does not verify every project, token, exchange, or person contacting you. In crypto, safety depends on custody, verification, and understanding what can be reversed. Do not confuse technical language with reliability.",
+              "ru": "Блокчейн может проверять транзакции, но он не проверяет каждый проект, токен, биржу или человека, который с вами связывается. В крипто безопасность зависит от хранения, проверки и понимания того, что можно отменить. Не путайте технический язык с надёжностью.",
+              "kk": "Блокчейн транзакцияларды тексере алады, бірақ әр жобаны, токенді, биржаны немесе сізге хабарласқан адамды тексермейді. Криптода қауіпсіздік сақтау, тексеру және нені қайтаруға болатынын түсінуге байланысты. Техникалық тілді сенімділікпен шатастырмаңыз."
             },
             "tip": {
-              "en": "Before sending crypto, verify asset, address, network, and reason separately."
+              "en": "Before sending crypto, verify asset, address, network, and reason separately.",
+              "ru": "Перед отправкой крипто отдельно проверьте актив, адрес, сеть и причину.",
+              "kk": "Крипто жібермес бұрын активті, мекенжайды, желіні және себепті бөлек тексеріңіз."
             }
           }
         ]
@@ -791,7 +1408,9 @@
         "quiz_id": 1003,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Crypto Scams — Check"
+          "en": "Crypto Scams — Check",
+          "ru": "Криптомошенничество — проверка",
+          "kk": "Криптоалаяқтық — тексеру"
         },
         "questions": [
           {
@@ -799,14 +1418,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A stranger in a support chat asks for your seed phrase to “sync your wallet.” What is the correct reasoning?"
+              "en": "A stranger in a support chat asks for your seed phrase to “sync your wallet.” What is the correct reasoning?",
+              "ru": "Незнакомец в чате поддержки просит вашу seed-фразу, чтобы «синхронизировать кошелёк». Какое рассуждение правильное?",
+              "kk": "Қолдау чатындағы бейтаныс адам «әмиянды синхрондау» үшін seed-фразаңызды сұрайды. Дұрыс пайым қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The seed phrase gives control of the wallet and should not be shared"
+                  "en": "The seed phrase gives control of the wallet and should not be shared",
+                  "ru": "Seed-фраза даёт контроль над кошельком, и ею нельзя делиться",
+                  "kk": "Seed-фраза әмиянды бақылауға мүмкіндік береді, сондықтан оны бөлісуге болмайды"
                 },
                 "is_correct": true
               },
@@ -814,7 +1437,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It is safe if the chat appears after clicking a help button"
+                  "en": "It is safe if the chat appears after clicking a help button",
+                  "ru": "Это безопасно, если чат появился после нажатия кнопки помощи",
+                  "kk": "Көмек батырмасын басқаннан кейін чат шықса, бұл қауіпсіз"
                 },
                 "is_correct": false
               },
@@ -822,7 +1447,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It is safe if you change your password afterward"
+                  "en": "It is safe if you change your password afterward",
+                  "ru": "Это безопасно, если потом сменить пароль",
+                  "kk": "Кейін құпиясөзді өзгертсеңіз, бұл қауіпсіз"
                 },
                 "is_correct": false
               },
@@ -830,7 +1457,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The seed phrase only shows balances, not spending power"
+                  "en": "The seed phrase only shows balances, not spending power",
+                  "ru": "Seed-фраза только показывает балансы, но не даёт право тратить",
+                  "kk": "Seed-фраза тек балансты көрсетеді, жұмсау құқығын бермейді"
                 },
                 "is_correct": false
               }
@@ -841,14 +1470,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "You are about to buy a token that has the same name and logo as a popular project but a different contract address. What is the main risk?"
+              "en": "You are about to buy a token that has the same name and logo as a popular project but a different contract address. What is the main risk?",
+              "ru": "Вы собираетесь купить токен с таким же названием и логотипом, как у популярного проекта, но с другим адресом контракта. В чём главный риск?",
+              "kk": "Сіз танымал жобамен бірдей атауы мен логотипі бар, бірақ келісімшарт мекенжайы басқа токен сатып алғалы отырсыз. Негізгі қауіп қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It may be a fake asset designed to look familiar"
+                  "en": "It may be a fake asset designed to look familiar",
+                  "ru": "Это может быть фальшивый актив, специально похожий на знакомый",
+                  "kk": "Бұл таныс болып көріну үшін жасалған жалған актив болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -856,7 +1489,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It must be cheaper because it is early"
+                  "en": "It must be cheaper because it is early",
+                  "ru": "Он точно дешевле, потому что ещё ранняя стадия",
+                  "kk": "Ол ерте кезеңде болғандықтан міндетті түрде арзанырақ"
                 },
                 "is_correct": false
               },
@@ -864,7 +1499,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It is automatically safer because fewer people know it"
+                  "en": "It is automatically safer because fewer people know it",
+                  "ru": "Он автоматически безопаснее, потому что о нём знает меньше людей",
+                  "kk": "Оны аз адам білетіндіктен, ол автоматты түрде қауіпсіз"
                 },
                 "is_correct": false
               },
@@ -872,7 +1509,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The logo proves it belongs to the original team"
+                  "en": "The logo proves it belongs to the original team",
+                  "ru": "Логотип доказывает, что токен принадлежит оригинальной команде",
+                  "kk": "Логотип токеннің бастапқы командаға тиесілі екенін дәлелдейді"
                 },
                 "is_correct": false
               }
@@ -883,14 +1522,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why can a small test transfer be useful before sending a larger crypto amount?"
+              "en": "Why can a small test transfer be useful before sending a larger crypto amount?",
+              "ru": "Почему небольшой тестовый перевод может быть полезен перед отправкой крупной суммы в крипто?",
+              "kk": "Криптода үлкен соманы жібермес бұрын шағын сынақ аударымы неге пайдалы болуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It can reduce address and network mistake risk before the full amount moves"
+                  "en": "It can reduce address and network mistake risk before the full amount moves",
+                  "ru": "Он может снизить риск ошибки в адресе или сети до отправки всей суммы",
+                  "kk": "Ол толық сома жіберілмес бұрын мекенжай немесе желі қатесі тәуекелін азайта алады"
                 },
                 "is_correct": true
               },
@@ -898,7 +1541,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It guarantees the recipient is honest"
+                  "en": "It guarantees the recipient is honest",
+                  "ru": "Он гарантирует честность получателя",
+                  "kk": "Ол алушының адал екенін кепілдейді"
                 },
                 "is_correct": false
               },
@@ -906,7 +1551,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It reverses the large transfer if anything goes wrong"
+                  "en": "It reverses the large transfer if anything goes wrong",
+                  "ru": "Он отменяет крупный перевод, если что-то пойдёт не так",
+                  "kk": "Бірдеңе дұрыс болмаса, ол үлкен аударымды қайтарады"
                 },
                 "is_correct": false
               },
@@ -914,7 +1561,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It proves the asset price will not fall"
+                  "en": "It proves the asset price will not fall",
+                  "ru": "Он доказывает, что цена актива не упадёт",
+                  "kk": "Ол актив бағасының түспейтінін дәлелдейді"
                 },
                 "is_correct": false
               }
@@ -926,10 +1575,14 @@
     {
       "code": "protection_playbook",
       "title": {
-        "en": "How to Protect Yourself: Practical Playbook"
+        "en": "How to Protect Yourself: Practical Playbook",
+        "ru": "Как защитить себя: практический алгоритм",
+        "kk": "Өзіңізді қалай қорғау керек: практикалық нұсқаулық"
       },
       "description": {
-        "en": "A repeatable decision system for verifying messages, securing accounts, limiting losses, and reacting quickly after a mistake."
+        "en": "A repeatable decision system for verifying messages, securing accounts, limiting losses, and reacting quickly after a mistake.",
+        "ru": "Повторяемая система решений для проверки сообщений, защиты аккаунтов, ограничения потерь и быстрой реакции после ошибки.",
+        "kk": "Хабарламаларды тексеру, аккаунттарды қорғау, шығындарды шектеу және қателіктен кейін тез әрекет етуге арналған қайталанатын шешім жүйесі."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -941,10 +1594,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Safety is a system, not a mood"
+              "en": "Safety is a system, not a mood",
+              "ru": "Безопасность — это система, а не настроение",
+              "kk": "Қауіпсіздік — көңіл күй емес, жүйе"
             },
             "body": {
-              "en": "You cannot rely on feeling careful every time. Scammers choose moments when you are busy, worried, or excited. A protection playbook gives you rules to follow before emotion takes over."
+              "en": "You cannot rely on feeling careful every time. Scammers choose moments when you are busy, worried, or excited. A protection playbook gives you rules to follow before emotion takes over.",
+              "ru": "Нельзя каждый раз полагаться на ощущение осторожности. Мошенники выбирают моменты, когда вы заняты, тревожитесь или вдохновлены. Алгоритм защиты даёт правила, которым можно следовать до того, как эмоции возьмут верх.",
+              "kk": "Әр жолы сақ болып тұрған сезімге сенуге болмайды. Алаяқтар сіз бос емес, уайымдап тұрған немесе қатты қуанып тұрған сәттерді таңдайды. Қорғаныс нұсқаулығы эмоция басым болмай тұрып ұстанатын ережелер береді."
             }
           },
           {
@@ -952,13 +1609,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Verify through a separate channel"
+              "en": "Verify through a separate channel",
+              "ru": "Проверяйте через отдельный канал",
+              "kk": "Бөлек арна арқылы тексеріңіз"
             },
             "body": {
-              "en": "Do not verify a message using the contact details inside that same message. Use the bank app, official website, card back number, or known contact. Separate-channel verification breaks the scammer's control of the conversation."
+              "en": "Do not verify a message using the contact details inside that same message. Use the bank app, official website, card back number, or known contact. Separate-channel verification breaks the scammer's control of the conversation.",
+              "ru": "Не проверяйте сообщение по контактам, указанным в этом же сообщении. Используйте приложение банка, официальный сайт, номер на обратной стороне карты или известный контакт. Проверка через отдельный канал разрушает контроль мошенника над разговором.",
+              "kk": "Хабарламаны сол хабарламаның ішіндегі байланыс деректері арқылы тексермеңіз. Банк қосымшасын, ресми сайтты, картаның артындағы нөмірді немесе белгілі контактіні пайдаланыңыз. Бөлек арна арқылы тексеру алаяқтың әңгімеге бақылауын бұзады."
             },
             "tip": {
-              "en": "Never let the suspicious message choose the verification route."
+              "en": "Never let the suspicious message choose the verification route.",
+              "ru": "Никогда не позволяйте подозрительному сообщению выбирать путь проверки.",
+              "kk": "Күдікті хабарламаға тексеру жолын таңдауға ешқашан мүмкіндік бермеңіз."
             }
           },
           {
@@ -966,13 +1629,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Limit what one mistake can cost"
+              "en": "Limit what one mistake can cost",
+              "ru": "Ограничьте цену одной ошибки",
+              "kk": "Бір қатенің құнын шектеңіз"
             },
             "body": {
-              "en": "Good security assumes mistakes happen. Separate cards, payment limits, strong passwords, two-factor authentication, and alerts reduce damage. The goal is not perfect behavior; it is smaller losses when behavior is imperfect."
+              "en": "Good security assumes mistakes happen. Separate cards, payment limits, strong passwords, two-factor authentication, and alerts reduce damage. The goal is not perfect behavior; it is smaller losses when behavior is imperfect.",
+              "ru": "Хорошая безопасность исходит из того, что ошибки случаются. Отдельные карты, лимиты платежей, надёжные пароли, двухфакторная аутентификация и уведомления уменьшают ущерб. Цель — не идеальное поведение, а меньшие потери, когда поведение неидеально.",
+              "kk": "Жақсы қауіпсіздік қателіктер болатынын ескереді. Бөлек карталар, төлем лимиттері, күшті құпиясөздер, екі факторлы аутентификация және ескертулер зиянды азайтады. Мақсат — мінсіз мінез-құлық емес, мінез-құлық мінсіз болмаған кезде шығынды азайту."
             },
             "example": {
-              "en": "Keeping only ₸30,000 on a daily spending card limits exposure better than keeping a full salary balance there."
+              "en": "Keeping only ₸30,000 on a daily spending card limits exposure better than keeping a full salary balance there.",
+              "ru": "Держать только ₸30,000 на карте для ежедневных расходов безопаснее, чем держать на ней всю зарплату.",
+              "kk": "Күнделікті шығын картасында тек ₸30,000 ұстау, онда толық жалақыны ұстағаннан гөрі тәуекелді жақсы шектейді."
             }
           },
           {
@@ -980,7 +1649,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "A simple response sequence"
+              "en": "A simple response sequence",
+              "ru": "Простая последовательность действий",
+              "kk": "Қарапайым әрекет реті"
             },
             "content": {
               "en": {
@@ -1024,6 +1695,90 @@
                     "text": "After a mistake, the right question is not “How could I fall for this?” It is “What access did I expose, and how do I close it?”"
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Вы нажали на подозрительную ссылку для оплаты доставки и ввели данные карты. Паника тратит время; важна последовательность."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Действие",
+                        "Почему это делается сначала",
+                        "Пример"
+                      ],
+                      [
+                        "Заморозить или заблокировать карту",
+                        "Останавливает новые списания",
+                        "Сразу используйте приложение банка"
+                      ],
+                      [
+                        "Позвонить в банк официально",
+                        "Создаёт запись о мошенничестве",
+                        "Используйте номер в приложении"
+                      ],
+                      [
+                        "Сменить связанные пароли",
+                        "Защищает связанные доступы",
+                        "Почта и аккаунты маркетплейсов"
+                      ],
+                      [
+                        "Отслеживать транзакции",
+                        "Помогает найти отложенные списания",
+                        "Проверяйте уведомления несколько дней"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "После ошибки правильный вопрос не «Как я мог на это попасться?», а «Какой доступ я раскрыл и как его закрыть?»"
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Сіз жеткізу төлеміне арналған күдікті сілтемені басып, карта деректерін енгіздіңіз. Дүрбелең уақытты жоғалтады; әрекет реті маңызды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Әрекет",
+                        "Неге бұл ерте жасалады",
+                        "Мысал"
+                      ],
+                      [
+                        "Картаны тоқтату немесе бұғаттау",
+                        "Жаңа төлемдерді тоқтатады",
+                        "Банк қосымшасын дереу пайдаланыңыз"
+                      ],
+                      [
+                        "Банкке ресми түрде қоңырау шалу",
+                        "Алаяқтық туралы жазба жасайды",
+                        "Қосымшадағы нөмірді пайдаланыңыз"
+                      ],
+                      [
+                        "Байланысты құпиясөздерді өзгерту",
+                        "Байланысты қолжетімділікті қорғайды",
+                        "Электрондық пошта және маркетплейс аккаунттары"
+                      ],
+                      [
+                        "Транзакцияларды бақылау",
+                        "Кешіктірілген төлемдерді табады",
+                        "Бірнеше күн ескертулерді тексеріңіз"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Қателіктен кейін дұрыс сұрақ «Мен бұған қалай сеніп қалдым?» емес, «Қандай қолжетімділікті ашып қойдым және оны қалай жабамын?»"
+                  }
+                ]
               }
             }
           },
@@ -1032,10 +1787,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Choose the safer response"
+              "en": "Choose the safer response",
+              "ru": "Выберите более безопасную реакцию",
+              "kk": "Қауіпсіздеу әрекетті таңдаңыз"
             },
             "body": {
-              "en": "Pick the action that best protects access, money, or evidence in each situation."
+              "en": "Pick the action that best protects access, money, or evidence in each situation.",
+              "ru": "Выберите действие, которое лучше всего защищает доступ, деньги или доказательства в каждой ситуации.",
+              "kk": "Әр жағдайда қолжетімділікті, ақшаны немесе дәлелді ең жақсы қорғайтын әрекетті таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1063,6 +1822,56 @@
                     "explanation": "Freeze the card, contact the bank through official channels, and monitor transactions."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите самый безопасный следующий шаг.",
+                "options": [
+                  "Проверить отдельно",
+                  "Ограничить риск",
+                  "Среагировать и локализовать"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Сообщение от банка говорит нажать на ссылку, чтобы предотвратить закрытие счёта.",
+                    "correct_answer": "Проверить отдельно",
+                    "explanation": "Используйте официальное приложение или известный номер вместо ссылки в сообщении."
+                  },
+                  {
+                    "text": "Вы держите всю месячную зарплату на той же карте, которой пользуетесь для онлайн-покупок.",
+                    "correct_answer": "Ограничить риск",
+                    "explanation": "Разделите деньги или снизьте лимиты карты, чтобы одна скомпрометированная карта не могла забрать всё."
+                  },
+                  {
+                    "text": "Пять минут назад вы ввели данные карты на подозрительном сайте.",
+                    "correct_answer": "Среагировать и локализовать",
+                    "explanation": "Заморозьте карту, свяжитесь с банком через официальные каналы и отслеживайте транзакции."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ең қауіпсіз келесі қадамды таңдаңыз.",
+                "options": [
+                  "Бөлек тексеру",
+                  "Тәуекелді шектеу",
+                  "Әрекет етіп, шектеу"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Банк хабарламасы шот жабылмауы үшін сілтемені басуды айтады.",
+                    "correct_answer": "Бөлек тексеру",
+                    "explanation": "Хабарламадағы сілтеменің орнына ресми қосымшаны немесе белгілі нөмірді пайдаланыңыз."
+                  },
+                  {
+                    "text": "Сіз бүкіл айлық жалақыңызды онлайн сатып алуға қолданатын картада ұстайсыз.",
+                    "correct_answer": "Тәуекелді шектеу",
+                    "explanation": "Ақшаны бөліңіз немесе карта лимитін төмендетіңіз, сонда бір бұзылған карта бәрін алып кете алмайды."
+                  },
+                  {
+                    "text": "Бес минут бұрын күдікті сайтқа карта деректерін енгіздіңіз.",
+                    "correct_answer": "Әрекет етіп, шектеу",
+                    "explanation": "Картаны тоқтатыңыз, банкпен ресми арналар арқылы байланысыңыз және транзакцияларды бақылаңыз."
+                  }
+                ]
               }
             }
           },
@@ -1071,13 +1880,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "The playbook in one line"
+              "en": "The playbook in one line",
+              "ru": "Алгоритм в одной строке",
+              "kk": "Нұсқаулық бір сөйлеммен"
             },
             "body": {
-              "en": "Pause before action, verify through a separate channel, limit how much one mistake can cost, and react quickly if access is exposed. This system works across bank fraud, investment scams, and crypto scams because all of them need either trust, access, or irreversible payment."
+              "en": "Pause before action, verify through a separate channel, limit how much one mistake can cost, and react quickly if access is exposed. This system works across bank fraud, investment scams, and crypto scams because all of them need either trust, access, or irreversible payment.",
+              "ru": "Остановитесь перед действием, проверяйте через отдельный канал, ограничивайте цену одной ошибки и быстро реагируйте, если доступ раскрыт. Эта система работает против банковского мошенничества, инвестиционных афер и криптоафёр, потому что всем им нужны доверие, доступ или необратимый платёж.",
+              "kk": "Әрекет етпес бұрын тоқтаңыз, бөлек арна арқылы тексеріңіз, бір қатенің құнын шектеңіз және қолжетімділік ашылса тез әрекет етіңіз. Бұл жүйе банк алаяқтығына, инвестициялық және криптоалаяқтықтарға қарсы жұмыс істейді, өйткені олардың бәріне сенім, қолжетімділік немесе қайтарылмайтын төлем керек."
             },
             "tip": {
-              "en": "Good protection is boring on purpose: fewer urgent decisions, fewer single points of failure."
+              "en": "Good protection is boring on purpose: fewer urgent decisions, fewer single points of failure.",
+              "ru": "Хорошая защита намеренно скучна: меньше срочных решений, меньше единичных точек отказа.",
+              "kk": "Жақсы қорғаныс әдейі қызықсыз: шұғыл шешімдер аз, бір ғана әлсіз нүктелер аз."
             }
           }
         ]
@@ -1086,7 +1901,9 @@
         "quiz_id": 1004,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "How to Protect Yourself — Check"
+          "en": "How to Protect Yourself — Check",
+          "ru": "Как защитить себя — проверка",
+          "kk": "Өзіңізді қалай қорғау керек — тексеру"
         },
         "questions": [
           {
@@ -1094,14 +1911,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A message claims to be from your bank and includes a phone number to call urgently. What is the safest next step?"
+              "en": "A message claims to be from your bank and includes a phone number to call urgently. What is the safest next step?",
+              "ru": "Сообщение якобы от вашего банка содержит номер телефона, на который нужно срочно позвонить. Какой следующий шаг самый безопасный?",
+              "kk": "Банктен келгендей көрінетін хабарламада шұғыл қоңырау шалатын телефон нөмірі бар. Ең қауіпсіз келесі қадам қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Ignore that number and contact the bank through the official app or known number"
+                  "en": "Ignore that number and contact the bank through the official app or known number",
+                  "ru": "Проигнорировать этот номер и связаться с банком через официальное приложение или известный номер",
+                  "kk": "Ол нөмірді елемей, банкпен ресми қосымша немесе белгілі нөмір арқылы байланысу"
                 },
                 "is_correct": true
               },
@@ -1109,7 +1930,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Call the number because phone calls are safer than links"
+                  "en": "Call the number because phone calls are safer than links",
+                  "ru": "Позвонить по номеру, потому что звонки безопаснее ссылок",
+                  "kk": "Нөмірге қоңырау шалу, өйткені телефон қоңыраулары сілтемелерден қауіпсіз"
                 },
                 "is_correct": false
               },
@@ -1117,7 +1940,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Reply asking the sender to prove they work for the bank"
+                  "en": "Reply asking the sender to prove they work for the bank",
+                  "ru": "Ответить и попросить отправителя доказать, что он работает в банке",
+                  "kk": "Жіберушіден банкте жұмыс істейтінін дәлелдеуді сұрап жауап беру"
                 },
                 "is_correct": false
               },
@@ -1125,7 +1950,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Send only your card number but not the SMS code"
+                  "en": "Send only your card number but not the SMS code",
+                  "ru": "Отправить только номер карты, но не SMS-код",
+                  "kk": "Тек карта нөмірін жіберу, бірақ SMS-кодты жібермеу"
                 },
                 "is_correct": false
               }
@@ -1136,14 +1963,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which setup best limits the damage from one compromised card?"
+              "en": "Which setup best limits the damage from one compromised card?",
+              "ru": "Какая настройка лучше всего ограничивает ущерб от одной скомпрометированной карты?",
+              "kk": "Бір бұзылған картадан болатын зиянды қай тәсіл ең жақсы шектейді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Use a separate card with a low balance or spending limit for online purchases"
+                  "en": "Use a separate card with a low balance or spending limit for online purchases",
+                  "ru": "Использовать отдельную карту с небольшим балансом или лимитом расходов для онлайн-покупок",
+                  "kk": "Онлайн сатып алулар үшін балансы төмен немесе шығын лимиті бар бөлек картаны пайдалану"
                 },
                 "is_correct": true
               },
@@ -1151,7 +1982,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Keep all money on one card so it is easier to monitor"
+                  "en": "Keep all money on one card so it is easier to monitor",
+                  "ru": "Держать все деньги на одной карте, чтобы было легче следить",
+                  "kk": "Бақылау оңай болуы үшін барлық ақшаны бір картада ұстау"
                 },
                 "is_correct": false
               },
@@ -1159,7 +1992,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Use the same password everywhere to avoid forgetting it"
+                  "en": "Use the same password everywhere to avoid forgetting it",
+                  "ru": "Использовать один и тот же пароль везде, чтобы его не забыть",
+                  "kk": "Ұмытпау үшін барлық жерде бірдей құпиясөз қолдану"
                 },
                 "is_correct": false
               },
@@ -1167,7 +2002,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Disable transaction alerts to avoid panic"
+                  "en": "Disable transaction alerts to avoid panic",
+                  "ru": "Отключить уведомления о транзакциях, чтобы не паниковать",
+                  "kk": "Дүрбелең болмас үшін транзакция ескертулерін өшіру"
                 },
                 "is_correct": false
               }
@@ -1178,14 +2015,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "You entered your login and password on a fake page. What should come first?"
+              "en": "You entered your login and password on a fake page. What should come first?",
+              "ru": "Вы ввели логин и пароль на фальшивой странице. Что нужно сделать первым?",
+              "kk": "Сіз жалған бетке логин мен құпиясөзді енгіздіңіз. Алдымен не істеу керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Change the password from the official site and secure related accounts"
+                  "en": "Change the password from the official site and secure related accounts",
+                  "ru": "Сменить пароль на официальном сайте и защитить связанные аккаунты",
+                  "kk": "Ресми сайттан құпиясөзді өзгертіп, байланысты аккаунттарды қорғау"
                 },
                 "is_correct": true
               },
@@ -1193,7 +2034,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Wait to see whether anything happens"
+                  "en": "Wait to see whether anything happens",
+                  "ru": "Подождать и посмотреть, произойдёт ли что-нибудь",
+                  "kk": "Бірдеңе бола ма деп күту"
                 },
                 "is_correct": false
               },
@@ -1201,7 +2044,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Warn friends before securing your own access"
+                  "en": "Warn friends before securing your own access",
+                  "ru": "Предупредить друзей до защиты собственного доступа",
+                  "kk": "Өз қолжетімділігіңізді қорғамай тұрып достарды ескерту"
                 },
                 "is_correct": false
               },
@@ -1209,7 +2054,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Delete the browser history so the page disappears"
+                  "en": "Delete the browser history so the page disappears",
+                  "ru": "Удалить историю браузера, чтобы страница исчезла",
+                  "kk": "Бет жоғалуы үшін браузер тарихын өшіру"
                 },
                 "is_correct": false
               }
@@ -1223,7 +2070,9 @@
     "quiz_id": 1099,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Fraud, Scams & Financial Safety — Final Check"
+      "en": "Fraud, Scams & Financial Safety — Final Check",
+      "ru": "Мошенничество, аферы и финансовая безопасность — итоговая проверка",
+      "kk": "Алаяқтық, қаржылық қулықтар және қаржылық қауіпсіздік — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1231,14 +2080,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "A caller creates urgency, knows some personal details, and asks for an SMS code. Which model best explains the danger?"
+          "en": "A caller creates urgency, knows some personal details, and asks for an SMS code. Which model best explains the danger?",
+          "ru": "Звонящий создаёт срочность, знает некоторые личные данные и просит SMS-код. Какая модель лучше всего объясняет опасность?",
+          "kk": "Қоңырау шалушы асықтырады, кейбір жеке деректерді біледі және SMS-код сұрайды. Қауіпті қай модель ең жақсы түсіндіреді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "They are combining trust signals with access control to make you authorize the fraud"
+              "en": "They are combining trust signals with access control to make you authorize the fraud",
+              "ru": "Они объединяют сигналы доверия с контролем доступа, чтобы заставить вас подтвердить мошенничество",
+              "kk": "Олар сенім белгілерін қолжетімділікті бақылаумен біріктіріп, сізді алаяқтықты мақұлдатуға итермелейді"
             },
             "is_correct": true
           },
@@ -1246,7 +2099,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "They are safe because real scammers never know personal details"
+              "en": "They are safe because real scammers never know personal details",
+              "ru": "Они безопасны, потому что настоящие мошенники никогда не знают личных данных",
+              "kk": "Олар қауіпсіз, өйткені нағыз алаяқтар ешқашан жеке деректерді білмейді"
             },
             "is_correct": false
           },
@@ -1254,7 +2109,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "The only risk is that the call wastes time"
+              "en": "The only risk is that the call wastes time",
+              "ru": "Единственный риск — звонок отнимет время",
+              "kk": "Жалғыз қауіп — қоңырау уақыт алады"
             },
             "is_correct": false
           },
@@ -1262,7 +2119,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "The danger disappears if the caller says the transfer is being canceled"
+              "en": "The danger disappears if the caller says the transfer is being canceled",
+              "ru": "Опасность исчезает, если звонящий говорит, что перевод отменяется",
+              "kk": "Қоңырау шалушы аударым тоқтатылып жатыр десе, қауіп жоғалады"
             },
             "is_correct": false
           }
@@ -1273,14 +2132,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "An investment platform promises 5% per month and says the strategy has no downside because it is “AI-managed.” What should you focus on first?"
+          "en": "An investment platform promises 5% per month and says the strategy has no downside because it is “AI-managed.” What should you focus on first?",
+          "ru": "Инвестиционная платформа обещает 5% в месяц и говорит, что у стратегии нет минусов, потому что она «управляется ИИ». На чём нужно сосредоточиться в первую очередь?",
+          "kk": "Инвестициялық платформа айына 5% уәде етеді және стратегияның кемшілігі жоқ дейді, өйткені ол «ЖИ арқылы басқарылады». Алдымен неге назар аудару керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Whether the return source and risk bearer are realistically explained"
+              "en": "Whether the return source and risk bearer are realistically explained",
+              "ru": "Реалистично ли объяснены источник доходности и тот, кто несёт риск",
+              "kk": "Табыс көзі мен тәуекелді көтеретін тарап шынайы түсіндірілген бе"
             },
             "is_correct": true
           },
@@ -1288,7 +2151,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Whether the app interface looks modern"
+              "en": "Whether the app interface looks modern",
+              "ru": "Выглядит ли интерфейс приложения современно",
+              "kk": "Қолданба интерфейсі заманауи көріне ме"
             },
             "is_correct": false
           },
@@ -1296,7 +2161,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Whether you can invite friends for a bonus"
+              "en": "Whether you can invite friends for a bonus",
+              "ru": "Можно ли пригласить друзей за бонус",
+              "kk": "Бонус үшін достарды шақыруға бола ма"
             },
             "is_correct": false
           },
@@ -1304,7 +2171,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Whether the platform uses finance vocabulary correctly"
+              "en": "Whether the platform uses finance vocabulary correctly",
+              "ru": "Правильно ли платформа использует финансовую лексику",
+              "kk": "Платформа қаржылық сөздерді дұрыс қолдана ма"
             },
             "is_correct": false
           }
@@ -1315,14 +2184,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "A crypto site asks you to connect your wallet and approve unlimited spending to receive a reward. What is the main concern?"
+          "en": "A crypto site asks you to connect your wallet and approve unlimited spending to receive a reward. What is the main concern?",
+          "ru": "Криптосайт просит подключить кошелёк и одобрить неограниченные списания, чтобы получить награду. В чём главное беспокойство?",
+          "kk": "Крипто сайт сыйақы алу үшін әмияныңызды қосуды және шексіз жұмсауды мақұлдауды сұрайды. Негізгі алаңдаушылық неде?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The approval may give the site control to move assets from the wallet"
+              "en": "The approval may give the site control to move assets from the wallet",
+              "ru": "Разрешение может дать сайту контроль для перемещения активов из кошелька",
+              "kk": "Мақұлдау сайтқа әмияннан активтерді жылжыту бақылауын беруі мүмкін"
             },
             "is_correct": true
           },
@@ -1330,7 +2203,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Rewards are always taxed immediately"
+              "en": "Rewards are always taxed immediately",
+              "ru": "Награды всегда сразу облагаются налогом",
+              "kk": "Сыйақылар әрқашан бірден салық салынады"
             },
             "is_correct": false
           },
@@ -1338,7 +2213,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Wallet connection can only display balances"
+              "en": "Wallet connection can only display balances",
+              "ru": "Подключение кошелька может только показывать балансы",
+              "kk": "Әмиянды қосу тек балансты көрсете алады"
             },
             "is_correct": false
           },
@@ -1346,7 +2223,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Unlimited approval is safer because it avoids repeated confirmations"
+              "en": "Unlimited approval is safer because it avoids repeated confirmations",
+              "ru": "Неограниченное разрешение безопаснее, потому что убирает повторные подтверждения",
+              "kk": "Шексіз мақұлдау қауіпсіздеу, өйткені қайталанатын растауларды болдырмайды"
             },
             "is_correct": false
           }
@@ -1357,14 +2236,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "Which habit is the strongest general defense across bank fraud, fake investments, and crypto scams?"
+          "en": "Which habit is the strongest general defense across bank fraud, fake investments, and crypto scams?",
+          "ru": "Какая привычка является самой сильной общей защитой от банковского мошенничества, фальшивых инвестиций и криптоафёр?",
+          "kk": "Банк алаяқтығы, жалған инвестициялар және криптоалаяқтықтарға қарсы ең күшті жалпы қорғаныс әдеті қайсы?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Pause and verify through a separate trusted channel before moving money or access"
+              "en": "Pause and verify through a separate trusted channel before moving money or access",
+              "ru": "Остановиться и проверить через отдельный надёжный канал до передачи денег или доступа",
+              "kk": "Ақша немесе қолжетімділік бермес бұрын тоқтап, бөлек сенімді арна арқылы тексеру"
             },
             "is_correct": true
           },
@@ -1372,7 +2255,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Trust offers that come from friends because they have already checked them"
+              "en": "Trust offers that come from friends because they have already checked them",
+              "ru": "Доверять предложениям от друзей, потому что они уже всё проверили",
+              "kk": "Достардан келген ұсыныстарға сену, өйткені олар бәрін тексеріп қойған"
             },
             "is_correct": false
           },
@@ -1380,7 +2265,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Act quickly when the message mentions account closure"
+              "en": "Act quickly when the message mentions account closure",
+              "ru": "Действовать быстро, когда в сообщении говорится о закрытии аккаунта",
+              "kk": "Хабарламада аккаунт жабылатыны айтылса, тез әрекет ету"
             },
             "is_correct": false
           },
@@ -1388,7 +2275,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Use the same payment method everywhere for convenience"
+              "en": "Use the same payment method everywhere for convenience",
+              "ru": "Использовать один и тот же способ оплаты везде для удобства",
+              "kk": "Ыңғайлылық үшін барлық жерде бір төлем әдісін қолдану"
             },
             "is_correct": false
           }
@@ -1399,14 +2288,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "You clicked a suspicious payment link and entered card details. What is the best immediate sequence?"
+          "en": "You clicked a suspicious payment link and entered card details. What is the best immediate sequence?",
+          "ru": "Вы нажали на подозрительную ссылку оплаты и ввели данные карты. Какая немедленная последовательность действий лучшая?",
+          "kk": "Сіз күдікті төлем сілтемесін басып, карта деректерін енгіздіңіз. Ең дұрыс жедел әрекет реті қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Freeze the card, contact the bank officially, change related passwords, and monitor transactions"
+              "en": "Freeze the card, contact the bank officially, change related passwords, and monitor transactions",
+              "ru": "Заморозить карту, официально связаться с банком, сменить связанные пароли и отслеживать транзакции",
+              "kk": "Картаны тоқтату, банкпен ресми байланысу, байланысты құпиясөздерді өзгерту және транзакцияларды бақылау"
             },
             "is_correct": true
           },
@@ -1414,7 +2307,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Wait for a charge before doing anything"
+              "en": "Wait for a charge before doing anything",
+              "ru": "Подождать списания, прежде чем что-либо делать",
+              "kk": "Бірдеңе жасамас бұрын төлемнің пайда болуын күту"
             },
             "is_correct": false
           },
@@ -1422,7 +2317,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Ask the suspicious website to delete your information"
+              "en": "Ask the suspicious website to delete your information",
+              "ru": "Попросить подозрительный сайт удалить вашу информацию",
+              "kk": "Күдікті сайттан ақпаратыңызды жоюды сұрау"
             },
             "is_correct": false
           },
@@ -1430,7 +2327,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Only change your marketplace password and keep the card active"
+              "en": "Only change your marketplace password and keep the card active",
+              "ru": "Только сменить пароль от маркетплейса и оставить карту активной",
+              "kk": "Тек маркетплейс құпиясөзін өзгертіп, картаны белсенді қалдыру"
             },
             "is_correct": false
           }

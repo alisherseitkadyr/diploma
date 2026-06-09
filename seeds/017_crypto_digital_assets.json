@@ -3,11 +3,16 @@
   "topic": {
     "code": "crypto_digital_assets",
     "orderIndex": 17,
+    "icon_path": "assets/topics/017.png",
     "title": {
-      "en": "Crypto & Digital Assets (Lite)"
+      "en": "Crypto & Digital Assets (Lite)",
+      "ru": "Криптовалюты и цифровые активы (лайт)",
+      "kk": "Криптовалюталар және цифрлық активтер (жеңіл)"
     },
     "description": {
-      "en": "What a blockchain really is, how the major crypto assets differ, the custody question, and the risks specific to this asset class."
+      "en": "What a blockchain really is, how the major crypto assets differ, the custody question, and the risks specific to this asset class.",
+      "ru": "Что такое блокчейн на самом деле, чем отличаются основные криптоактивы, как устроено хранение и какие риски характерны именно для этого класса активов.",
+      "kk": "Блокчейннің шын мәнінде не екенін, негізгі криптоактивтердің қалай ерекшеленетінін, сақтау мәселесін және осы актив класына тән тәуекелдерді түсіндіреді."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "blockchain_basics",
       "title": {
-        "en": "Blockchain Basics"
+        "en": "Blockchain Basics",
+        "ru": "Основы блокчейна",
+        "kk": "Блокчейн негіздері"
       },
       "description": {
-        "en": "A blockchain is a shared record of transactions maintained by a network, not a magic guarantee that every project is valuable."
+        "en": "A blockchain is a shared record of transactions maintained by a network, not a magic guarantee that every project is valuable.",
+        "ru": "Блокчейн — это общий реестр транзакций, который поддерживается сетью, а не магическая гарантия ценности каждого проекта.",
+        "kk": "Блокчейн — желі жүргізетін ортақ транзакциялар жазбасы; ол әр жобаның құнды екеніне сиқырлы кепілдік бермейді."
       },
       "estimatedMinutes": 5,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A blockchain is a shared ledger"
+              "en": "A blockchain is a shared ledger",
+              "ru": "Блокчейн — это общий реестр",
+              "kk": "Блокчейн — ортақ реестр"
             },
             "body": {
-              "en": "A blockchain is a database shared across many computers. It records transactions in blocks that are linked together. The key idea is not “digital money” alone, but a record that can be updated without one central bookkeeper."
+              "en": "A blockchain is a database shared across many computers. It records transactions in blocks that are linked together. The key idea is not “digital money” alone, but a record that can be updated without one central bookkeeper.",
+              "ru": "Блокчейн — это база данных, распределённая между многими компьютерами. Она записывает транзакции в блоки, связанные друг с другом. Главная идея не только в «цифровых деньгах», а в реестре, который можно обновлять без одного центрального хранителя записей.",
+              "kk": "Блокчейн — көптеген компьютерлер арасында бөлінген дерекқор. Ол транзакцияларды бір-бірімен байланысқан блоктарға жазады. Негізгі идея тек «цифрлық ақшада» емес, бір орталық есепші болмай-ақ жаңартылатын жазбада."
             },
             "tip": {
-              "en": "Blockchain explains how records are kept; it does not prove that an asset is a good investment."
+              "en": "Blockchain explains how records are kept; it does not prove that an asset is a good investment.",
+              "ru": "Блокчейн объясняет, как ведутся записи; он не доказывает, что актив является хорошей инвестицией.",
+              "kk": "Блокчейн жазбалардың қалай жүргізілетінін түсіндіреді; ол активтің жақсы инвестиция екенін дәлелдемейді."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Why blocks are linked"
+              "en": "Why blocks are linked",
+              "ru": "Почему блоки связаны",
+              "kk": "Неліктен блоктар байланысады"
             },
             "body": {
-              "en": "Each block contains recent transactions and a reference to the previous block. Changing an old record would require changing later records too, which becomes difficult when many independent participants verify the chain. This creates tamper resistance, not perfect safety."
+              "en": "Each block contains recent transactions and a reference to the previous block. Changing an old record would require changing later records too, which becomes difficult when many independent participants verify the chain. This creates tamper resistance, not perfect safety.",
+              "ru": "Каждый блок содержит недавние транзакции и ссылку на предыдущий блок. Чтобы изменить старую запись, пришлось бы изменить и последующие записи, а это становится сложно, когда цепочку проверяют многие независимые участники. Это создаёт устойчивость к подделке, но не идеальную безопасность.",
+              "kk": "Әр блокта соңғы транзакциялар және алдыңғы блокқа сілтеме болады. Ескі жазбаны өзгерту кейінгі жазбаларды да өзгертуді талап етеді, ал тізбекті көп тәуелсіз қатысушы тексерсе, бұл қиынға соғады. Бұл бұрмалауға төзімділік береді, бірақ мінсіз қауіпсіздік емес."
             },
             "example": {
-              "en": "If a wallet sends 0.05 BTC, the network records that transaction in a block. Later blocks build on top of that record, making reversal increasingly difficult."
+              "en": "If a wallet sends 0.05 BTC, the network records that transaction in a block. Later blocks build on top of that record, making reversal increasingly difficult.",
+              "ru": "Если кошелёк отправляет 0,05 BTC, сеть записывает эту транзакцию в блок. Следующие блоки строятся поверх этой записи, из-за чего отменить её становится всё труднее.",
+              "kk": "Егер әмиян 0,05 BTC жіберсе, желі бұл транзакцияны блокқа жазады. Кейінгі блоктар осы жазбаның үстіне құрылады, сондықтан оны кері қайтару барған сайын қиындайды."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Consensus replaces the central updater"
+              "en": "Consensus replaces the central updater",
+              "ru": "Консенсус заменяет центрального обновляющего",
+              "kk": "Консенсус орталық жаңартушыны алмастырады"
             },
             "body": {
-              "en": "A blockchain needs rules for deciding which transactions are valid and which block is added next. These rules are called consensus. Different blockchains use different consensus designs, so security, speed, cost, and decentralization can vary a lot."
+              "en": "A blockchain needs rules for deciding which transactions are valid and which block is added next. These rules are called consensus. Different blockchains use different consensus designs, so security, speed, cost, and decentralization can vary a lot.",
+              "ru": "Блокчейну нужны правила, которые определяют, какие транзакции действительны и какой блок добавляется следующим. Эти правила называются консенсусом. Разные блокчейны используют разные модели консенсуса, поэтому безопасность, скорость, стоимость и децентрализация могут сильно отличаться.",
+              "kk": "Блокчейнге қай транзакция жарамды екенін және келесі блоктың қайсысы қосылатынын анықтайтын ережелер керек. Бұл ережелер консенсус деп аталады. Әртүрлі блокчейндер әртүрлі консенсус үлгілерін қолданады, сондықтан қауіпсіздік, жылдамдық, құн және децентрализация қатты өзгеше болуы мүмкін."
             },
             "tip": {
-              "en": "Do not treat all blockchains as equal just because they share the same word."
+              "en": "Do not treat all blockchains as equal just because they share the same word.",
+              "ru": "Не считай все блокчейны одинаковыми только потому, что они называются одним словом.",
+              "kk": "Барлығы бір сөзбен аталғаны үшін барлық блокчейндерді бірдей деп қарастырма."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "What the ledger can and cannot prove"
+              "en": "What the ledger can and cannot prove",
+              "ru": "Что реестр может и не может доказать",
+              "kk": "Реестр нені дәлелдей алады және нені дәлелдей алмайды"
             },
             "content": {
               "en": {
@@ -117,6 +146,90 @@
                     "text": "The technology can verify records, but humans still must judge value, risk, and trust."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Запись в блокчейне может показать, что транзакция произошла, но не может автоматически объяснить, была ли она разумной, законной или справедливой."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Вопрос",
+                        "Блокчейн может помочь ответить?",
+                        "Почему"
+                      ],
+                      [
+                        "Отправлял ли этот адрес токены?",
+                        "Да",
+                        "Транзакция может быть видна в сети"
+                      ],
+                      [
+                        "Обманули ли отправителя?",
+                        "Нет",
+                        "Реестр фиксирует действие, а не намерение"
+                      ],
+                      [
+                        "Имеет ли этот токен ценность?",
+                        "Нет",
+                        "Ценность зависит от спроса, полезности, риска и доверия"
+                      ],
+                      [
+                        "Можно ли легко отменить перевод?",
+                        "Обычно нет",
+                        "Окончательность зависит от сети"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Технология может проверять записи, но оценивать ценность, риск и доверие всё равно должны люди."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Блокчейн жазбасы транзакция болғанын көрсете алады, бірақ оның ақылды, заңды немесе әділ болғанын автоматты түрде түсіндіре алмайды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Сұрақ",
+                        "Блокчейн жауап беруге көмектесе ала ма?",
+                        "Неге"
+                      ],
+                      [
+                        "Бұл мекенжай токен жіберді ме?",
+                        "Иә",
+                        "Транзакция желіде көрінуі мүмкін"
+                      ],
+                      [
+                        "Жіберушіні алдады ма?",
+                        "Жоқ",
+                        "Реестр әрекетті жазады, ниетті емес"
+                      ],
+                      [
+                        "Бұл токен құнды ма?",
+                        "Жоқ",
+                        "Құн сұранысқа, пайдалылыққа, тәуекелге және сенімге байланысты"
+                      ],
+                      [
+                        "Аударымды оңай кері қайтаруға бола ма?",
+                        "Әдетте жоқ",
+                        "Түпкіліктілік желіге байланысты"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Технология жазбаларды тексере алады, бірақ құнды, тәуекелді және сенімді адамдар бағалауы керек."
+                  }
+                ]
               }
             }
           },
@@ -125,10 +238,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "What does blockchain prove?"
+              "en": "What does blockchain prove?",
+              "ru": "Что доказывает блокчейн?",
+              "kk": "Блокчейн нені дәлелдейді?"
             },
             "body": {
-              "en": "Decide whether each statement is a ledger fact, an investment judgment, or a user-risk issue."
+              "en": "Decide whether each statement is a ledger fact, an investment judgment, or a user-risk issue.",
+              "ru": "Определи, является ли каждое утверждение фактом реестра, инвестиционной оценкой или пользовательским риском.",
+              "kk": "Әр тұжырымның реестр фактісі, инвестициялық бағалау немесе пайдаланушы тәуекелі екенін анықта."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -185,6 +302,114 @@
                   }
                 ],
                 "explanation": "A blockchain can verify some records, but it does not automatically verify value, honesty, or user decisions."
+              },
+              "ru": {
+                "instruction": "Перетащи каждое утверждение в наиболее подходящую категорию.",
+                "categories": [
+                  {
+                    "id": "ledger_fact",
+                    "label": "Факт реестра"
+                  },
+                  {
+                    "id": "investment_judgment",
+                    "label": "Инвестиционная оценка"
+                  },
+                  {
+                    "id": "user_risk",
+                    "label": "Пользовательский риск"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "transaction_seen",
+                    "text": "Транзакция с одного адреса на другой записана"
+                  },
+                  {
+                    "id": "token_future",
+                    "text": "Токен станет дороже в следующем году"
+                  },
+                  {
+                    "id": "wrong_address",
+                    "text": "Пользователь отправляет средства на неверный адрес"
+                  },
+                  {
+                    "id": "block_added",
+                    "text": "После проверки сетью был добавлен новый блок"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "transaction_seen",
+                    "categoryId": "ledger_fact"
+                  },
+                  {
+                    "itemId": "token_future",
+                    "categoryId": "investment_judgment"
+                  },
+                  {
+                    "itemId": "wrong_address",
+                    "categoryId": "user_risk"
+                  },
+                  {
+                    "itemId": "block_added",
+                    "categoryId": "ledger_fact"
+                  }
+                ],
+                "explanation": "Блокчейн может проверять некоторые записи, но он не проверяет автоматически ценность, честность или решения пользователя."
+              },
+              "kk": {
+                "instruction": "Әр тұжырымды ең сәйкес санатқа сүйреп апар.",
+                "categories": [
+                  {
+                    "id": "ledger_fact",
+                    "label": "Реестр фактісі"
+                  },
+                  {
+                    "id": "investment_judgment",
+                    "label": "Инвестициялық бағалау"
+                  },
+                  {
+                    "id": "user_risk",
+                    "label": "Пайдаланушы тәуекелі"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "transaction_seen",
+                    "text": "Бір мекенжайдан екіншісіне транзакция жазылған"
+                  },
+                  {
+                    "id": "token_future",
+                    "text": "Токен келесі жылы қымбаттайды"
+                  },
+                  {
+                    "id": "wrong_address",
+                    "text": "Пайдаланушы қаражатты қате мекенжайға жібереді"
+                  },
+                  {
+                    "id": "block_added",
+                    "text": "Желі тексергеннен кейін жаңа блок қосылды"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "transaction_seen",
+                    "categoryId": "ledger_fact"
+                  },
+                  {
+                    "itemId": "token_future",
+                    "categoryId": "investment_judgment"
+                  },
+                  {
+                    "itemId": "wrong_address",
+                    "categoryId": "user_risk"
+                  },
+                  {
+                    "itemId": "block_added",
+                    "categoryId": "ledger_fact"
+                  }
+                ],
+                "explanation": "Блокчейн кейбір жазбаларды тексере алады, бірақ құнды, адалдықты немесе пайдаланушы шешімдерін автоматты түрде тексермейді."
               }
             }
           },
@@ -193,13 +418,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Separate record quality from asset quality"
+              "en": "Separate record quality from asset quality",
+              "ru": "Отделяй качество записи от качества актива",
+              "kk": "Жазба сапасын актив сапасынан бөлек қарастыр"
             },
             "body": {
-              "en": "Blockchain is a way to maintain a shared transaction history. It can reduce reliance on a central recordkeeper, but it does not remove market risk, scams, custody mistakes, or weak projects. Good crypto thinking separates the ledger mechanism from the investment claim."
+              "en": "Blockchain is a way to maintain a shared transaction history. It can reduce reliance on a central recordkeeper, but it does not remove market risk, scams, custody mistakes, or weak projects. Good crypto thinking separates the ledger mechanism from the investment claim.",
+              "ru": "Блокчейн — это способ вести общую историю транзакций. Он может снизить зависимость от центрального хранителя записей, но не убирает рыночный риск, мошенничество, ошибки хранения или слабые проекты. Грамотное мышление о крипто отделяет механизм реестра от инвестиционного обещания.",
+              "kk": "Блокчейн — ортақ транзакциялар тарихын жүргізу тәсілі. Ол орталық жазба жүргізушіге тәуелділікті азайта алады, бірақ нарық тәуекелін, алаяқтықты, сақтау қателерін немесе әлсіз жобаларды жоймайды. Дұрыс крипто ойлау реестр механизмін инвестициялық уәдеден бөледі."
             },
             "tip": {
-              "en": "A verified transaction can still be a bad transaction."
+              "en": "A verified transaction can still be a bad transaction.",
+              "ru": "Проверенная транзакция всё равно может быть плохой транзакцией.",
+              "kk": "Тексерілген транзакция бәрібір жаман транзакция болуы мүмкін."
             }
           }
         ]
@@ -208,7 +439,9 @@
         "quiz_id": 1701,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Blockchain Basics — Check"
+          "en": "Blockchain Basics — Check",
+          "ru": "Основы блокчейна — проверка",
+          "kk": "Блокчейн негіздері — тексеру"
         },
         "questions": [
           {
@@ -216,14 +449,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A token promoter says the project is safe because “all transactions are on-chain.” What is the best response?"
+              "en": "A token promoter says the project is safe because “all transactions are on-chain.” What is the best response?",
+              "ru": "Промоутер токена говорит, что проект безопасен, потому что «все транзакции в блокчейне». Какой лучший ответ?",
+              "kk": "Токен промоутері жоба қауіпсіз дейді, себебі «барлық транзакциялар блокчейнде». Ең дұрыс жауап қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "On-chain records can show transactions, but they do not prove the token is valuable or safe"
+                  "en": "On-chain records can show transactions, but they do not prove the token is valuable or safe",
+                  "ru": "Записи в блокчейне могут показывать транзакции, но не доказывают, что токен ценен или безопасен",
+                  "kk": "Блокчейндегі жазбалар транзакцияларды көрсете алады, бірақ токеннің құнды немесе қауіпсіз екенін дәлелдемейді"
                 },
                 "is_correct": true
               },
@@ -231,7 +468,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "On-chain records guarantee the price will rise"
+                  "en": "On-chain records guarantee the price will rise",
+                  "ru": "Записи в блокчейне гарантируют рост цены",
+                  "kk": "Блокчейндегі жазбалар бағаның өсетініне кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -239,7 +478,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A blockchain cannot record transactions at all"
+                  "en": "A blockchain cannot record transactions at all",
+                  "ru": "Блокчейн вообще не может записывать транзакции",
+                  "kk": "Блокчейн транзакцияларды мүлде жаза алмайды"
                 },
                 "is_correct": false
               },
@@ -247,7 +488,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Visible transactions mean the promoter cannot mislead buyers"
+                  "en": "Visible transactions mean the promoter cannot mislead buyers",
+                  "ru": "Видимые транзакции означают, что промоутер не может вводить покупателей в заблуждение",
+                  "kk": "Көрінетін транзакциялар промоутер сатып алушыларды адастыра алмайды дегенді білдіреді"
                 },
                 "is_correct": false
               }
@@ -258,14 +501,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why is changing an old blockchain record usually difficult?"
+              "en": "Why is changing an old blockchain record usually difficult?",
+              "ru": "Почему обычно трудно изменить старую запись в блокчейне?",
+              "kk": "Ескі блокчейн жазбасын өзгерту әдетте неге қиын?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Later blocks build on it and the network follows rules for validating the shared history"
+                  "en": "Later blocks build on it and the network follows rules for validating the shared history",
+                  "ru": "Поздние блоки строятся поверх неё, а сеть следует правилам проверки общей истории",
+                  "kk": "Кейінгі блоктар оның үстіне құрылады, ал желі ортақ тарихты тексеру ережелерін ұстанады"
                 },
                 "is_correct": true
               },
@@ -273,7 +520,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Every blockchain record is stored only on one laptop"
+                  "en": "Every blockchain record is stored only on one laptop",
+                  "ru": "Каждая запись блокчейна хранится только на одном ноутбуке",
+                  "kk": "Әр блокчейн жазбасы тек бір ноутбукте сақталады"
                 },
                 "is_correct": false
               },
@@ -281,7 +530,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Transactions are hidden from all users"
+                  "en": "Transactions are hidden from all users",
+                  "ru": "Транзакции скрыты от всех пользователей",
+                  "kk": "Транзакциялар барлық пайдаланушылардан жасырылған"
                 },
                 "is_correct": false
               },
@@ -289,7 +540,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Old records automatically delete themselves"
+                  "en": "Old records automatically delete themselves",
+                  "ru": "Старые записи автоматически удаляются",
+                  "kk": "Ескі жазбалар өздігінен жойылады"
                 },
                 "is_correct": false
               }
@@ -300,14 +553,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which question is blockchain technology best suited to answer?"
+              "en": "Which question is blockchain technology best suited to answer?",
+              "ru": "На какой вопрос технология блокчейна лучше всего подходит для ответа?",
+              "kk": "Блокчейн технологиясы қай сұраққа жауап беруге ең қолайлы?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Was this transaction recorded on this network?"
+                  "en": "Was this transaction recorded on this network?",
+                  "ru": "Была ли эта транзакция записана в этой сети?",
+                  "kk": "Бұл транзакция осы желіде жазылды ма?"
                 },
                 "is_correct": true
               },
@@ -315,7 +572,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Will this token outperform stocks?"
+                  "en": "Will this token outperform stocks?",
+                  "ru": "Обгонит ли этот токен акции по доходности?",
+                  "kk": "Бұл токен акциялардан жоғары нәтиже бере ме?"
                 },
                 "is_correct": false
               },
@@ -323,7 +582,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Was every buyer making a wise decision?"
+                  "en": "Was every buyer making a wise decision?",
+                  "ru": "Каждый ли покупатель принял разумное решение?",
+                  "kk": "Әр сатып алушы дұрыс шешім қабылдады ма?"
                 },
                 "is_correct": false
               },
@@ -331,7 +592,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Is the project team honest?"
+                  "en": "Is the project team honest?",
+                  "ru": "Честна ли команда проекта?",
+                  "kk": "Жоба командасы адал ма?"
                 },
                 "is_correct": false
               }
@@ -343,10 +606,14 @@
     {
       "code": "bitcoin_ethereum_stablecoins",
       "title": {
-        "en": "Bitcoin, Ethereum & Stablecoins"
+        "en": "Bitcoin, Ethereum & Stablecoins",
+        "ru": "Bitcoin, Ethereum и стейблкоины",
+        "kk": "Bitcoin, Ethereum және стейблкоиндер"
       },
       "description": {
-        "en": "Bitcoin, Ethereum, and stablecoins are digital assets with different purposes, risks, and reasons for demand."
+        "en": "Bitcoin, Ethereum, and stablecoins are digital assets with different purposes, risks, and reasons for demand.",
+        "ru": "Bitcoin, Ethereum и стейблкоины — это цифровые активы с разными целями, рисками и причинами спроса.",
+        "kk": "Bitcoin, Ethereum және стейблкоиндер — мақсаттары, тәуекелдері және сұраныс себептері әртүрлі цифрлық активтер."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -358,10 +625,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Crypto assets are not one thing"
+              "en": "Crypto assets are not one thing",
+              "ru": "Криптоактивы — это не одно и то же",
+              "kk": "Криптоактивтер бір ғана нәрсе емес"
             },
             "body": {
-              "en": "Bitcoin, Ethereum, and stablecoins are often grouped together as crypto, but they try to solve different problems. Treating them as identical leads to weak reasoning. The useful question is what role the asset is supposed to play."
+              "en": "Bitcoin, Ethereum, and stablecoins are often grouped together as crypto, but they try to solve different problems. Treating them as identical leads to weak reasoning. The useful question is what role the asset is supposed to play.",
+              "ru": "Bitcoin, Ethereum и стейблкоины часто объединяют словом «крипто», но они пытаются решать разные задачи. Если считать их одинаковыми, выводы будут слабыми. Полезный вопрос — какую роль должен играть этот актив.",
+              "kk": "Bitcoin, Ethereum және стейблкоиндер жиі «крипто» деп бірге аталады, бірақ олар әртүрлі мәселелерді шешуге тырысады. Оларды бірдей деп қарау әлсіз қорытындыға әкеледі. Пайдалы сұрақ — актив қандай рөл атқаруы керек."
             }
           },
           {
@@ -369,13 +640,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Bitcoin is mainly a scarce digital asset"
+              "en": "Bitcoin is mainly a scarce digital asset",
+              "ru": "Bitcoin — в основном дефицитный цифровой актив",
+              "kk": "Bitcoin негізінен тапшы цифрлық актив"
             },
             "body": {
-              "en": "Bitcoin is often valued for scarcity, independence from a single issuer, and its long network history. It does not produce cash flow like a bond or rental property. Its price depends heavily on demand, belief, liquidity, and risk appetite."
+              "en": "Bitcoin is often valued for scarcity, independence from a single issuer, and its long network history. It does not produce cash flow like a bond or rental property. Its price depends heavily on demand, belief, liquidity, and risk appetite.",
+              "ru": "Bitcoin часто ценят за дефицитность, независимость от одного эмитента и долгую историю сети. Он не создаёт денежный поток, как облигация или арендная недвижимость. Его цена сильно зависит от спроса, веры, ликвидности и склонности инвесторов к риску.",
+              "kk": "Bitcoin көбіне тапшылығы, бір эмитенттен тәуелсіздігі және желінің ұзақ тарихы үшін бағаланады. Ол облигация немесе жалға берілетін жылжымайтын мүлік сияқты ақша ағынын тудырмайды. Оның бағасы сұранысқа, сенімге, өтімділікке және тәуекелге тәбетке қатты байланысты."
             },
             "tip": {
-              "en": "Scarcity can support value, but scarcity alone does not guarantee return."
+              "en": "Scarcity can support value, but scarcity alone does not guarantee return.",
+              "ru": "Дефицитность может поддерживать ценность, но сама по себе не гарантирует доходность.",
+              "kk": "Тапшылық құнды қолдай алады, бірақ тек тапшылық табысқа кепілдік бермейді."
             }
           },
           {
@@ -383,10 +660,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Ethereum and stablecoins have different anchors"
+              "en": "Ethereum and stablecoins have different anchors",
+              "ru": "У Ethereum и стейблкоинов разные опоры",
+              "kk": "Ethereum мен стейблкоиндердің тіректері әртүрлі"
             },
             "body": {
-              "en": "Ethereum is a platform for applications and smart contracts, so demand can relate to network use and ecosystem activity. Stablecoins aim to track another asset, often the U.S. dollar, but their risk depends on reserves, issuer trust, and redemption rules. A stable price target is not the same as zero risk."
+              "en": "Ethereum is a platform for applications and smart contracts, so demand can relate to network use and ecosystem activity. Stablecoins aim to track another asset, often the U.S. dollar, but their risk depends on reserves, issuer trust, and redemption rules. A stable price target is not the same as zero risk.",
+              "ru": "Ethereum — это платформа для приложений и смарт-контрактов, поэтому спрос может быть связан с использованием сети и активностью экосистемы. Стейблкоины стремятся отслеживать другой актив, часто доллар США, но их риск зависит от резервов, доверия к эмитенту и правил погашения. Цель стабильной цены не означает нулевой риск.",
+              "kk": "Ethereum — қосымшалар мен смарт-келісімшарттарға арналған платформа, сондықтан сұраныс желіні пайдалану мен экожүйе белсенділігіне байланысты болуы мүмкін. Стейблкоиндер басқа активті, көбіне АҚШ долларын, қадағалауға тырысады, бірақ олардың тәуекелі резервтерге, эмитентке сенімге және өтеу ережелеріне байланысты. Тұрақты баға мақсаты нөлдік тәуекел деген сөз емес."
             }
           },
           {
@@ -394,7 +675,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same label, different risk engine"
+              "en": "Same label, different risk engine",
+              "ru": "Один ярлык, разные источники риска",
+              "kk": "Бір атау, әртүрлі тәуекел көзі"
             },
             "content": {
               "en": {
@@ -433,6 +716,80 @@
                     "text": "The same portfolio value can face price risk, technology risk, platform risk, and issuer risk at once."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор вкладывает ₸300,000 в три цифровых актива. Слово «крипто» скрывает очень разные источники риска."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Тип актива",
+                        "Главная идея",
+                        "Что может пойти не так"
+                      ],
+                      [
+                        "Bitcoin",
+                        "Дефицитный цифровой актив",
+                        "Спрос падает, волатильность растёт, регулирование меняется"
+                      ],
+                      [
+                        "Ethereum",
+                        "Программируемый сетевой актив",
+                        "Конкуренция сетей, технический риск, изменения комиссий и использования"
+                      ],
+                      [
+                        "Стейблкоин",
+                        "Отслеживает базовый актив",
+                        "Проблемы эмитента, резервов, погашения или регулирования"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Одна и та же стоимость портфеля может одновременно сталкиваться с ценовым, технологическим, платформенным и эмитентским риском."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор үш цифрлық активке ₸300,000 салады. «Крипто» сөзі өте әртүрлі тәуекел көздерін жасырады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Актив түрі",
+                        "Негізгі идея",
+                        "Не дұрыс болмай қалуы мүмкін"
+                      ],
+                      [
+                        "Bitcoin",
+                        "Тапшы цифрлық актив",
+                        "Сұраныс төмендейді, құбылмалылық өседі, реттеу өзгереді"
+                      ],
+                      [
+                        "Ethereum",
+                        "Бағдарламаланатын желілік актив",
+                        "Желілік бәсеке, техникалық тәуекел, комиссия мен пайдалану өзгерістері"
+                      ],
+                      [
+                        "Стейблкоин",
+                        "Базалық активті қадағалайды",
+                        "Эмитент, резерв, өтеу немесе реттеу мәселелері"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Бір портфель құны бір уақытта баға, технология, платформа және эмитент тәуекелдеріне ұшырауы мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -441,10 +798,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Match the asset to the role"
+              "en": "Match the asset to the role",
+              "ru": "Сопоставь актив с ролью",
+              "kk": "Активті рөлімен сәйкестендір"
             },
             "body": {
-              "en": "Choose the asset type that best matches each description. The goal is to reason from purpose, not popularity."
+              "en": "Choose the asset type that best matches each description. The goal is to reason from purpose, not popularity.",
+              "ru": "Выбери тип актива, который лучше всего соответствует каждому описанию. Цель — рассуждать от назначения, а не от популярности.",
+              "kk": "Әр сипаттамаға ең сәйкес актив түрін таңда. Мақсат — танымалдықтан емес, мақсаттан ойлау."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -472,6 +833,56 @@
                     "explanation": "Stablecoins target price stability, but depend on reserve and issuer quality."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выбери тип актива, который лучше всего соответствует сценарию.",
+                "options": [
+                  "Bitcoin",
+                  "Ethereum",
+                  "Стейблкоин"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Актив в основном рассматривается как дефицитные цифровые деньги без эмитента, обещающего денежные потоки.",
+                    "correct_answer": "Bitcoin",
+                    "explanation": "Инвестиционная идея Bitcoin часто связана с дефицитностью, доверием к сети и спросом."
+                  },
+                  {
+                    "text": "Актив используется для оплаты комиссий и взаимодействия с децентрализованными приложениями в программируемой сети.",
+                    "correct_answer": "Ethereum",
+                    "explanation": "Роль Ethereum связана с активностью сети и использованием смарт-контрактов."
+                  },
+                  {
+                    "text": "Актив пытается удерживать цену близко к одному доллару США через резервы и погашение эмитентом.",
+                    "correct_answer": "Стейблкоин",
+                    "explanation": "Стейблкоины стремятся к стабильности цены, но зависят от качества резервов и эмитента."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Сценарийге ең сәйкес актив түрін таңда.",
+                "options": [
+                  "Bitcoin",
+                  "Ethereum",
+                  "Стейблкоин"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Актив көбіне ақша ағындарын уәде ететін эмитенті жоқ тапшы цифрлық ақша ретінде талқыланады.",
+                    "correct_answer": "Bitcoin",
+                    "explanation": "Bitcoin инвестициялық идеясы көбіне тапшылыққа, желіге сенімге және сұранысқа байланысты."
+                  },
+                  {
+                    "text": "Актив бағдарламаланатын желіде комиссия төлеу және орталықсыздандырылған қосымшалармен әрекеттесу үшін қолданылады.",
+                    "correct_answer": "Ethereum",
+                    "explanation": "Ethereum рөлі желі белсенділігімен және смарт-келісімшарттарды пайдаланумен байланысты."
+                  },
+                  {
+                    "text": "Актив резервтер және эмитенттің өтеуі арқылы бағасын бір АҚШ долларына жақын ұстауға тырысады.",
+                    "correct_answer": "Стейблкоин",
+                    "explanation": "Стейблкоиндер баға тұрақтылығын мақсат етеді, бірақ резерв пен эмитент сапасына тәуелді."
+                  }
+                ]
               }
             }
           },
@@ -480,13 +891,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Purpose defines the risk"
+              "en": "Purpose defines the risk",
+              "ru": "Назначение определяет риск",
+              "kk": "Мақсат тәуекелді анықтайды"
             },
             "body": {
-              "en": "Bitcoin, Ethereum, and stablecoins should be analyzed by their role. Bitcoin is mostly a scarce digital asset, Ethereum is a programmable network asset, and stablecoins are claims designed to track another asset. Different purpose means different risk."
+              "en": "Bitcoin, Ethereum, and stablecoins should be analyzed by their role. Bitcoin is mostly a scarce digital asset, Ethereum is a programmable network asset, and stablecoins are claims designed to track another asset. Different purpose means different risk.",
+              "ru": "Bitcoin, Ethereum и стейблкоины нужно анализировать по их роли. Bitcoin — в основном дефицитный цифровой актив, Ethereum — программируемый сетевой актив, а стейблкоины — требования, созданные для отслеживания другого актива. Разное назначение означает разный риск.",
+              "kk": "Bitcoin, Ethereum және стейблкоиндерді олардың рөлі бойынша талдау керек. Bitcoin көбіне тапшы цифрлық актив, Ethereum — бағдарламаланатын желілік актив, ал стейблкоиндер басқа активті қадағалауға арналған талаптар. Әртүрлі мақсат — әртүрлі тәуекел."
             },
             "tip": {
-              "en": "Do not ask “Is crypto good?” Ask “Which asset, what role, and what risk?”"
+              "en": "Do not ask “Is crypto good?” Ask “Which asset, what role, and what risk?”",
+              "ru": "Не спрашивай: «Крипто — это хорошо?» Спрашивай: «Какой актив, какая роль и какой риск?»",
+              "kk": "«Крипто жақсы ма?» деп сұрама. «Қай актив, қандай рөл, қандай тәуекел?» деп сұра."
             }
           }
         ]
@@ -495,7 +912,9 @@
         "quiz_id": 1702,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Bitcoin, Ethereum & Stablecoins — Check"
+          "en": "Bitcoin, Ethereum & Stablecoins — Check",
+          "ru": "Bitcoin, Ethereum и стейблкоины — проверка",
+          "kk": "Bitcoin, Ethereum және стейблкоиндер — тексеру"
         },
         "questions": [
           {
@@ -503,14 +922,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A friend says a stablecoin is risk-free because its price is supposed to stay near one dollar. What is the best correction?"
+              "en": "A friend says a stablecoin is risk-free because its price is supposed to stay near one dollar. What is the best correction?",
+              "ru": "Друг говорит, что стейблкоин безрисковый, потому что его цена должна держаться около одного доллара. Какое лучшее уточнение?",
+              "kk": "Досың стейблкоин тәуекелсіз дейді, себебі бағасы бір долларға жақын болуы керек. Ең дұрыс түзету қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The price target reduces volatility aim, but issuer, reserve, redemption, and regulatory risks can remain"
+                  "en": "The price target reduces volatility aim, but issuer, reserve, redemption, and regulatory risks can remain",
+                  "ru": "Целевая цена снижает цель по волатильности, но риски эмитента, резервов, погашения и регулирования могут сохраняться",
+                  "kk": "Баға мақсаты құбылмалылықты азайтуды көздейді, бірақ эмитент, резерв, өтеу және реттеу тәуекелдері қала береді"
                 },
                 "is_correct": true
               },
@@ -518,7 +941,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Stablecoins must always rise faster than inflation"
+                  "en": "Stablecoins must always rise faster than inflation",
+                  "ru": "Стейблкоины всегда должны расти быстрее инфляции",
+                  "kk": "Стейблкоиндер әрқашан инфляциядан жылдам өсуі керек"
                 },
                 "is_correct": false
               },
@@ -526,7 +951,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Stablecoins are identical to government-insured bank deposits everywhere"
+                  "en": "Stablecoins are identical to government-insured bank deposits everywhere",
+                  "ru": "Стейблкоины везде идентичны банковским депозитам, застрахованным государством",
+                  "kk": "Стейблкоиндер барлық жерде мемлекет сақтандырған банк депозиттерімен бірдей"
                 },
                 "is_correct": false
               },
@@ -534,7 +961,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A stable price target means there is no counterparty risk"
+                  "en": "A stable price target means there is no counterparty risk",
+                  "ru": "Цель стабильной цены означает отсутствие риска контрагента",
+                  "kk": "Тұрақты баға мақсаты контрагент тәуекелі жоқ дегенді білдіреді"
                 },
                 "is_correct": false
               }
@@ -545,14 +974,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why is Bitcoin not valued the same way as a rental apartment or bond?"
+              "en": "Why is Bitcoin not valued the same way as a rental apartment or bond?",
+              "ru": "Почему Bitcoin не оценивается так же, как арендная квартира или облигация?",
+              "kk": "Неліктен Bitcoin жалға берілетін пәтер немесе облигация сияқты бағаланбайды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It does not promise rent, interest, or cash flow; demand and scarcity play a larger role"
+                  "en": "It does not promise rent, interest, or cash flow; demand and scarcity play a larger role",
+                  "ru": "Он не обещает аренду, проценты или денежный поток; спрос и дефицитность играют большую роль",
+                  "kk": "Ол жалдау ақысы, пайыз немесе ақша ағынын уәде етпейді; сұраныс пен тапшылық үлкен рөл атқарады"
                 },
                 "is_correct": true
               },
@@ -560,7 +993,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It legally guarantees monthly income"
+                  "en": "It legally guarantees monthly income",
+                  "ru": "Он юридически гарантирует ежемесячный доход",
+                  "kk": "Ол ай сайынғы табысқа заңды кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -568,7 +1003,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It has tenants and maintenance costs"
+                  "en": "It has tenants and maintenance costs",
+                  "ru": "У него есть арендаторы и расходы на обслуживание",
+                  "kk": "Оның жалға алушылары және қызмет көрсету шығындары бар"
                 },
                 "is_correct": false
               },
@@ -576,7 +1013,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It must be valued only by dividend yield"
+                  "en": "It must be valued only by dividend yield",
+                  "ru": "Его нужно оценивать только по дивидендной доходности",
+                  "kk": "Оны тек дивидендтік кірістілікпен бағалау керек"
                 },
                 "is_correct": false
               }
@@ -587,14 +1026,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What makes Ethereum's risk different from Bitcoin's in this simplified view?"
+              "en": "What makes Ethereum's risk different from Bitcoin's in this simplified view?",
+              "ru": "Что делает риск Ethereum отличным от риска Bitcoin в этом упрощённом подходе?",
+              "kk": "Осы жеңілдетілген көзқараста Ethereum тәуекелі Bitcoin тәуекелінен несімен ерекшеленеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Ethereum's value can be linked to programmable network use, applications, and competition"
+                  "en": "Ethereum's value can be linked to programmable network use, applications, and competition",
+                  "ru": "Ценность Ethereum может быть связана с использованием программируемой сети, приложениями и конкуренцией",
+                  "kk": "Ethereum құны бағдарламаланатын желіні пайдалану, қосымшалар және бәсекемен байланысты болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -602,7 +1045,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Ethereum is a stablecoin with guaranteed reserves"
+                  "en": "Ethereum is a stablecoin with guaranteed reserves",
+                  "ru": "Ethereum — это стейблкоин с гарантированными резервами",
+                  "kk": "Ethereum — кепілдендірілген резервтері бар стейблкоин"
                 },
                 "is_correct": false
               },
@@ -610,7 +1055,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Ethereum has no technical or market risk"
+                  "en": "Ethereum has no technical or market risk",
+                  "ru": "У Ethereum нет технического или рыночного риска",
+                  "kk": "Ethereum-да техникалық немесе нарықтық тәуекел жоқ"
                 },
                 "is_correct": false
               },
@@ -618,7 +1065,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Bitcoin and Ethereum must always move for the same reason"
+                  "en": "Bitcoin and Ethereum must always move for the same reason",
+                  "ru": "Bitcoin и Ethereum всегда должны двигаться по одной и той же причине",
+                  "kk": "Bitcoin мен Ethereum әрқашан бір себеппен қозғалуы керек"
                 },
                 "is_correct": false
               }
@@ -630,10 +1079,14 @@
     {
       "code": "custody_wallets_vs_exchanges",
       "title": {
-        "en": "Custody: Wallets vs Exchanges"
+        "en": "Custody: Wallets vs Exchanges",
+        "ru": "Хранение: кошельки против бирж",
+        "kk": "Сақтау: әмияндар мен биржалар"
       },
       "description": {
-        "en": "Crypto ownership depends on control of keys or accounts; wallets and exchanges shift convenience, responsibility, and failure points."
+        "en": "Crypto ownership depends on control of keys or accounts; wallets and exchanges shift convenience, responsibility, and failure points.",
+        "ru": "Владение крипто зависит от контроля ключей или аккаунтов; кошельки и биржи по-разному распределяют удобство, ответственность и точки отказа.",
+        "kk": "Криптоға иелік ету кілттерді немесе аккаунттарды бақылауға байланысты; әмияндар мен биржалар ыңғайлылықты, жауапкершілікті және істен шығу нүктелерін өзгеше бөледі."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -645,13 +1098,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Custody is control"
+              "en": "Custody is control",
+              "ru": "Хранение — это контроль",
+              "kk": "Сақтау — бақылау"
             },
             "body": {
-              "en": "In crypto, custody means who can move the asset. If assets sit on an exchange, account security and the exchange's solvency matter. If assets sit in a self-custody wallet, private keys and seed phrases become the main responsibility."
+              "en": "In crypto, custody means who can move the asset. If assets sit on an exchange, account security and the exchange's solvency matter. If assets sit in a self-custody wallet, private keys and seed phrases become the main responsibility.",
+              "ru": "В крипто хранение означает, кто может перемещать актив. Если активы лежат на бирже, важны безопасность аккаунта и платёжеспособность биржи. Если активы находятся в кошельке самостоятельного хранения, главной ответственностью становятся приватные ключи и seed-фразы.",
+              "kk": "Криптода сақтау активті кім қозғалта алатынын білдіреді. Активтер биржада тұрса, аккаунт қауіпсіздігі мен биржаның төлем қабілеті маңызды. Активтер өзіндік сақтаудағы әмиянда тұрса, жеке кілттер мен seed-фразалар басты жауапкершілікке айналады."
             },
             "tip": {
-              "en": "The custody question is: who can authorize movement?"
+              "en": "The custody question is: who can authorize movement?",
+              "ru": "Главный вопрос хранения: кто может разрешить перемещение?",
+              "kk": "Сақтау сұрағы: қозғалысқа кім рұқсат бере алады?"
             }
           },
           {
@@ -659,10 +1118,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Exchanges trade convenience for counterparty risk"
+              "en": "Exchanges trade convenience for counterparty risk",
+              "ru": "Биржи меняют удобство на риск контрагента",
+              "kk": "Биржалар ыңғайлылықты контрагент тәуекеліне айырбастайды"
             },
             "body": {
-              "en": "An exchange can make buying, selling, and password recovery easier. But the user depends on the exchange to safeguard assets and honor withdrawals. If the account is hacked or the exchange fails, control can disappear quickly."
+              "en": "An exchange can make buying, selling, and password recovery easier. But the user depends on the exchange to safeguard assets and honor withdrawals. If the account is hacked or the exchange fails, control can disappear quickly.",
+              "ru": "Биржа может упростить покупку, продажу и восстановление пароля. Но пользователь зависит от биржи: она должна хранить активы и выполнять вывод средств. Если аккаунт взломают или биржа обанкротится, контроль может быстро исчезнуть.",
+              "kk": "Биржа сатып алуды, сатуды және парольді қалпына келтіруді жеңілдете алады. Бірақ пайдаланушы активтерді қорғау және қаражатты шығаруды орындау бойынша биржаға тәуелді. Аккаунт бұзылса немесе биржа сәтсіздікке ұшыраса, бақылау тез жоғалуы мүмкін."
             }
           },
           {
@@ -670,13 +1133,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Self-custody trades counterparty risk for user risk"
+              "en": "Self-custody trades counterparty risk for user risk",
+              "ru": "Самостоятельное хранение меняет риск контрагента на пользовательский риск",
+              "kk": "Өзіндік сақтау контрагент тәуекелін пайдаланушы тәуекеліне айырбастайды"
             },
             "body": {
-              "en": "A self-custody wallet gives the user direct control, but mistakes become harder to fix. Losing a seed phrase, signing a malicious approval, or sending to the wrong network can cause permanent loss. More control means more operational responsibility."
+              "en": "A self-custody wallet gives the user direct control, but mistakes become harder to fix. Losing a seed phrase, signing a malicious approval, or sending to the wrong network can cause permanent loss. More control means more operational responsibility.",
+              "ru": "Кошелёк самостоятельного хранения даёт пользователю прямой контроль, но ошибки становится труднее исправить. Потеря seed-фразы, подписание вредоносного разрешения или отправка в неверную сеть могут привести к безвозвратной потере. Больше контроля означает больше операционной ответственности.",
+              "kk": "Өзіндік сақтау әмияны пайдаланушыға тікелей бақылау береді, бірақ қателерді түзету қиындайды. Seed-фразаны жоғалту, зиянды рұқсатқа қол қою немесе қате желіге жіберу тұрақты жоғалтуға әкелуі мүмкін. Көбірек бақылау — көбірек операциялық жауапкершілік."
             },
             "tip": {
-              "en": "A seed phrase is not a hint. It is the master key."
+              "en": "A seed phrase is not a hint. It is the master key.",
+              "ru": "Seed-фраза — это не подсказка. Это главный ключ.",
+              "kk": "Seed-фраза — ишара емес. Ол басты кілт."
             }
           },
           {
@@ -684,7 +1153,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Two custody models, different failure points"
+              "en": "Two custody models, different failure points",
+              "ru": "Две модели хранения, разные точки отказа",
+              "kk": "Екі сақтау моделі, әртүрлі істен шығу нүктелері"
             },
             "content": {
               "en": {
@@ -723,6 +1194,80 @@
                     "text": "Custody does not remove market volatility. It decides which operational risks sit between the user and the asset."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два пользователя держат цифровые активы на ₸800,000 каждый. Их рыночный риск может быть похожим, но риск хранения отличается."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Схема",
+                        "Кто контролирует перемещение?",
+                        "Главная точка отказа"
+                      ],
+                      [
+                        "Аккаунт на бирже",
+                        "Система биржи плюс логин пользователя",
+                        "Захват аккаунта, заморозка выводов, сбой или крах биржи"
+                      ],
+                      [
+                        "Кошелёк самостоятельного хранения",
+                        "Тот, кто контролирует seed-фразу и разрешения",
+                        "Потеря seed-фразы, вредоносное подписание, неверный адрес"
+                      ],
+                      [
+                        "Аппаратный кошелёк",
+                        "Пользователь контролирует ключи офлайн",
+                        "Потеря резервной копии, ошибки подтверждения, неправильное использование устройства"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Хранение не убирает рыночную волатильность. Оно определяет, какие операционные риски стоят между пользователем и активом."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі пайдаланушының әрқайсысында ₸800,000 көлемінде цифрлық актив бар. Нарықтық тәуекелі ұқсас болуы мүмкін, бірақ сақтау тәуекелі әртүрлі."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Схема",
+                        "Қозғалысты кім бақылайды?",
+                        "Негізгі істен шығу нүктесі"
+                      ],
+                      [
+                        "Биржа аккаунты",
+                        "Биржа жүйесі және пайдаланушы логині",
+                        "Аккаунтты басып алу, қаражат шығаруды тоқтату, биржаның істен шығуы"
+                      ],
+                      [
+                        "Өзіндік сақтау әмияны",
+                        "Seed-фраза мен рұқсаттарды бақылайтын адам",
+                        "Seed-фразаны жоғалту, зиянды қол қою, қате мекенжай"
+                      ],
+                      [
+                        "Аппараттық әмиян",
+                        "Пайдаланушы кілттерді офлайн бақылайды",
+                        "Сақтық көшірмені жоғалту, рұқсат қатесі, құрылғыны қате пайдалану"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Сақтау нарық құбылмалылығын жоймайды. Ол пайдаланушы мен актив арасында қандай операциялық тәуекелдер тұрғанын анықтайды."
+                  }
+                ]
               }
             }
           },
@@ -731,10 +1276,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Classify the custody risk"
+              "en": "Classify the custody risk",
+              "ru": "Классифицируй риск хранения",
+              "kk": "Сақтау тәуекелін жікте"
             },
             "body": {
-              "en": "Sort each situation by the custody model or risk it mainly represents."
+              "en": "Sort each situation by the custody model or risk it mainly represents.",
+              "ru": "Распредели каждую ситуацию по модели хранения или риску, который она в основном отражает.",
+              "kk": "Әр жағдайды ол негізінен көрсететін сақтау моделі немесе тәуекел бойынша сұрыпта."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -791,6 +1340,114 @@
                   }
                 ],
                 "explanation": "Exchange custody depends on institutions and account security. Self-custody depends on key protection and careful transaction approval."
+              },
+              "ru": {
+                "instruction": "Перетащи каждую ситуацию в наиболее подходящую категорию.",
+                "categories": [
+                  {
+                    "id": "exchange_risk",
+                    "label": "Риск биржи"
+                  },
+                  {
+                    "id": "self_custody_risk",
+                    "label": "Риск самостоятельного хранения"
+                  },
+                  {
+                    "id": "security_habit",
+                    "label": "Привычка безопасности"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "withdrawals_frozen",
+                    "text": "Платформа приостанавливает вывод средств"
+                  },
+                  {
+                    "id": "lost_seed",
+                    "text": "Пользователь теряет единственную резервную копию seed-фразы"
+                  },
+                  {
+                    "id": "two_factor",
+                    "text": "Пользователь включает двухфакторную аутентификацию через приложение"
+                  },
+                  {
+                    "id": "fake_approval",
+                    "text": "Кошелёк подписывает неограниченное разрешение на списание на фейковом сайте"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "withdrawals_frozen",
+                    "categoryId": "exchange_risk"
+                  },
+                  {
+                    "itemId": "lost_seed",
+                    "categoryId": "self_custody_risk"
+                  },
+                  {
+                    "itemId": "two_factor",
+                    "categoryId": "security_habit"
+                  },
+                  {
+                    "itemId": "fake_approval",
+                    "categoryId": "self_custody_risk"
+                  }
+                ],
+                "explanation": "Биржевое хранение зависит от институтов и безопасности аккаунта. Самостоятельное хранение зависит от защиты ключей и внимательного подтверждения транзакций."
+              },
+              "kk": {
+                "instruction": "Әр жағдайды ең сәйкес санатқа сүйреп апар.",
+                "categories": [
+                  {
+                    "id": "exchange_risk",
+                    "label": "Биржа тәуекелі"
+                  },
+                  {
+                    "id": "self_custody_risk",
+                    "label": "Өзіндік сақтау тәуекелі"
+                  },
+                  {
+                    "id": "security_habit",
+                    "label": "Қауіпсіздік дағдысы"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "withdrawals_frozen",
+                    "text": "Платформа қаражат шығаруды тоқтатады"
+                  },
+                  {
+                    "id": "lost_seed",
+                    "text": "Пайдаланушы seed-фразаның жалғыз сақтық көшірмесін жоғалтады"
+                  },
+                  {
+                    "id": "two_factor",
+                    "text": "Пайдаланушы қолданба арқылы екі факторлы аутентификацияны қосады"
+                  },
+                  {
+                    "id": "fake_approval",
+                    "text": "Әмиян жалған сайтта шексіз жұмсауға рұқсатқа қол қояды"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "withdrawals_frozen",
+                    "categoryId": "exchange_risk"
+                  },
+                  {
+                    "itemId": "lost_seed",
+                    "categoryId": "self_custody_risk"
+                  },
+                  {
+                    "itemId": "two_factor",
+                    "categoryId": "security_habit"
+                  },
+                  {
+                    "itemId": "fake_approval",
+                    "categoryId": "self_custody_risk"
+                  }
+                ],
+                "explanation": "Биржалық сақтау институттарға және аккаунт қауіпсіздігіне тәуелді. Өзіндік сақтау кілттерді қорғауға және транзакцияларды мұқият растауға тәуелді."
               }
             }
           },
@@ -799,13 +1456,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Choose responsibility deliberately"
+              "en": "Choose responsibility deliberately",
+              "ru": "Выбирай ответственность осознанно",
+              "kk": "Жауапкершілікті саналы таңда"
             },
             "body": {
-              "en": "There is no custody choice with zero risk. Exchanges can be convenient but add platform dependence. Self-custody reduces some counterparty risk but makes the user responsible for keys, backups, and approvals. The right setup matches knowledge, amount, and risk tolerance."
+              "en": "There is no custody choice with zero risk. Exchanges can be convenient but add platform dependence. Self-custody reduces some counterparty risk but makes the user responsible for keys, backups, and approvals. The right setup matches knowledge, amount, and risk tolerance.",
+              "ru": "Не существует варианта хранения с нулевым риском. Биржи могут быть удобными, но добавляют зависимость от платформы. Самостоятельное хранение снижает часть риска контрагента, но делает пользователя ответственным за ключи, резервные копии и подтверждения. Правильная схема соответствует знаниям, сумме и терпимости к риску.",
+              "kk": "Нөлдік тәуекелі бар сақтау таңдауы жоқ. Биржалар ыңғайлы болуы мүмкін, бірақ платформаға тәуелділік қосады. Өзіндік сақтау кейбір контрагент тәуекелін азайтады, бірақ пайдаланушыны кілттер, сақтық көшірмелер және рұқсаттар үшін жауапты етеді. Дұрыс схема білімге, сомаға және тәуекелге төзімділікке сай келеді."
             },
             "tip": {
-              "en": "For custody, convenience and control usually move in opposite directions."
+              "en": "For custody, convenience and control usually move in opposite directions.",
+              "ru": "В хранении удобство и контроль обычно движутся в противоположных направлениях.",
+              "kk": "Сақтауда ыңғайлылық пен бақылау әдетте қарама-қарсы бағытта қозғалады."
             }
           }
         ]
@@ -814,7 +1477,9 @@
         "quiz_id": 1703,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Custody: Wallets vs Exchanges — Check"
+          "en": "Custody: Wallets vs Exchanges — Check",
+          "ru": "Хранение: кошельки против бирж — проверка",
+          "kk": "Сақтау: әмияндар мен биржалар — тексеру"
         },
         "questions": [
           {
@@ -822,14 +1487,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A user keeps all crypto on an exchange because password recovery feels safer. What risk remains?"
+              "en": "A user keeps all crypto on an exchange because password recovery feels safer. What risk remains?",
+              "ru": "Пользователь хранит всю крипто на бирже, потому что восстановление пароля кажется безопаснее. Какой риск остаётся?",
+              "kk": "Пайдаланушы барлық криптоны биржада ұстайды, себебі парольді қалпына келтіру қауіпсіздеу көрінеді. Қандай тәуекел қалады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The user depends on the exchange's security, solvency, and withdrawal access"
+                  "en": "The user depends on the exchange's security, solvency, and withdrawal access",
+                  "ru": "Пользователь зависит от безопасности биржи, её платёжеспособности и доступа к выводу средств",
+                  "kk": "Пайдаланушы биржаның қауіпсіздігіне, төлем қабілетіне және қаражат шығару қолжетімділігіне тәуелді"
                 },
                 "is_correct": true
               },
@@ -837,7 +1506,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The assets become immune to market price changes"
+                  "en": "The assets become immune to market price changes",
+                  "ru": "Активы становятся невосприимчивыми к изменениям рыночной цены",
+                  "kk": "Активтер нарық бағасының өзгерістеріне әсер етпейтін болады"
                 },
                 "is_correct": false
               },
@@ -845,7 +1516,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The exchange legally guarantees profit"
+                  "en": "The exchange legally guarantees profit",
+                  "ru": "Биржа юридически гарантирует прибыль",
+                  "kk": "Биржа пайданы заңды түрде кепілдейді"
                 },
                 "is_correct": false
               },
@@ -853,7 +1526,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The user's account cannot be hacked"
+                  "en": "The user's account cannot be hacked",
+                  "ru": "Аккаунт пользователя невозможно взломать",
+                  "kk": "Пайдаланушы аккаунтын бұзу мүмкін емес"
                 },
                 "is_correct": false
               }
@@ -864,14 +1539,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What is the main responsibility in self-custody?"
+              "en": "What is the main responsibility in self-custody?",
+              "ru": "Какая главная ответственность при самостоятельном хранении?",
+              "kk": "Өзіндік сақтаудағы негізгі жауапкершілік қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Protecting the seed phrase, verifying transactions, and avoiding malicious approvals"
+                  "en": "Protecting the seed phrase, verifying transactions, and avoiding malicious approvals",
+                  "ru": "Защищать seed-фразу, проверять транзакции и избегать вредоносных разрешений",
+                  "kk": "Seed-фразаны қорғау, транзакцияларды тексеру және зиянды рұқсаттардан аулақ болу"
                 },
                 "is_correct": true
               },
@@ -879,7 +1558,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Waiting for the exchange to reset every mistaken transfer"
+                  "en": "Waiting for the exchange to reset every mistaken transfer",
+                  "ru": "Ждать, что биржа отменит каждый ошибочный перевод",
+                  "kk": "Биржа әр қате аударымды қайтарады деп күту"
                 },
                 "is_correct": false
               },
@@ -887,7 +1568,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Choosing a high dividend rate"
+                  "en": "Choosing a high dividend rate",
+                  "ru": "Выбирать высокий дивидендный процент",
+                  "kk": "Жоғары дивиденд мөлшерлемесін таңдау"
                 },
                 "is_correct": false
               },
@@ -895,7 +1578,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Ignoring backups because the blockchain stores passwords"
+                  "en": "Ignoring backups because the blockchain stores passwords",
+                  "ru": "Игнорировать резервные копии, потому что блокчейн хранит пароли",
+                  "kk": "Блокчейн парольдерді сақтайды деп, сақтық көшірмелерді елемеу"
                 },
                 "is_correct": false
               }
@@ -906,14 +1591,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why is sharing a seed phrase more dangerous than sharing a normal username?"
+              "en": "Why is sharing a seed phrase more dangerous than sharing a normal username?",
+              "ru": "Почему делиться seed-фразой опаснее, чем обычным именем пользователя?",
+              "kk": "Неліктен seed-фразамен бөлісу кәдімгі пайдаланушы атын беруден қауіптірек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The seed phrase can give control over the wallet's assets"
+                  "en": "The seed phrase can give control over the wallet's assets",
+                  "ru": "Seed-фраза может дать контроль над активами кошелька",
+                  "kk": "Seed-фраза әмиян активтерін бақылауға мүмкіндік беруі мүмкін"
                 },
                 "is_correct": true
               },
@@ -921,7 +1610,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "A seed phrase only changes the wallet's display language"
+                  "en": "A seed phrase only changes the wallet's display language",
+                  "ru": "Seed-фраза только меняет язык интерфейса кошелька",
+                  "kk": "Seed-фраза тек әмиянның көрсету тілін өзгертеді"
                 },
                 "is_correct": false
               },
@@ -929,7 +1620,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A username can move assets by itself"
+                  "en": "A username can move assets by itself",
+                  "ru": "Имя пользователя само по себе может перемещать активы",
+                  "kk": "Пайдаланушы аты өздігінен активтерді қозғалта алады"
                 },
                 "is_correct": false
               },
@@ -937,7 +1630,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Seed phrases are public identifiers like email addresses"
+                  "en": "Seed phrases are public identifiers like email addresses",
+                  "ru": "Seed-фразы — публичные идентификаторы, как email-адреса",
+                  "kk": "Seed-фразалар email мекенжайлары сияқты ашық идентификаторлар"
                 },
                 "is_correct": false
               }
@@ -949,10 +1644,14 @@
     {
       "code": "crypto_major_risks",
       "title": {
-        "en": "Major Risks"
+        "en": "Major Risks",
+        "ru": "Основные риски",
+        "kk": "Негізгі тәуекелдер"
       },
       "description": {
-        "en": "Crypto risk includes volatility, liquidity, regulation, scams, technical failures, custody mistakes, and concentration."
+        "en": "Crypto risk includes volatility, liquidity, regulation, scams, technical failures, custody mistakes, and concentration.",
+        "ru": "Крипториск включает волатильность, ликвидность, регулирование, мошенничество, технические сбои, ошибки хранения и концентрацию.",
+        "kk": "Крипто тәуекелі құбылмалылықты, өтімділікті, реттеуді, алаяқтықты, техникалық сәтсіздіктерді, сақтау қателерін және концентрацияны қамтиды."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -964,10 +1663,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Crypto risk is layered"
+              "en": "Crypto risk is layered",
+              "ru": "Крипториск многослоен",
+              "kk": "Крипто тәуекелі қабат-қабат"
             },
             "body": {
-              "en": "Crypto risk is not only that the price can fall. A user can be right about long-term adoption and still lose money through leverage, scams, exchange failure, wrong transfers, or buying an illiquid token. The asset class combines market risk with operational risk."
+              "en": "Crypto risk is not only that the price can fall. A user can be right about long-term adoption and still lose money through leverage, scams, exchange failure, wrong transfers, or buying an illiquid token. The asset class combines market risk with operational risk.",
+              "ru": "Крипториск — это не только падение цены. Пользователь может быть прав насчёт долгосрочного распространения технологии и всё равно потерять деньги из-за плеча, мошенничества, сбоя биржи, неверных переводов или покупки неликвидного токена. Этот класс активов сочетает рыночный риск с операционным.",
+              "kk": "Крипто тәуекелі тек бағаның түсуі емес. Пайдаланушы ұзақ мерзімді қабылдану туралы дұрыс ойлауы мүмкін, бірақ қарыз иығы, алаяқтық, биржа сәтсіздігі, қате аударымдар немесе өтімсіз токен сатып алу арқылы ақша жоғалтуы мүмкін. Бұл актив класы нарықтық тәуекелді операциялық тәуекелмен біріктіреді."
             }
           },
           {
@@ -975,13 +1678,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Volatility changes decision quality"
+              "en": "Volatility changes decision quality",
+              "ru": "Волатильность меняет качество решений",
+              "kk": "Құбылмалылық шешім сапасын өзгертеді"
             },
             "body": {
-              "en": "A large price swing can force emotional selling, liquidation, or overconfidence. If an asset can fall 50% before any long-term thesis plays out, position size matters. The question is not only “Can it rise?” but “Can I survive the path?”"
+              "en": "A large price swing can force emotional selling, liquidation, or overconfidence. If an asset can fall 50% before any long-term thesis plays out, position size matters. The question is not only “Can it rise?” but “Can I survive the path?”",
+              "ru": "Большое движение цены может вынудить к эмоциональной продаже, ликвидации или чрезмерной уверенности. Если актив может упасть на 50% до того, как долгосрочная идея проявится, размер позиции имеет значение. Вопрос не только «Может ли он вырасти?», но и «Смогу ли я пережить этот путь?»",
+              "kk": "Бағаның үлкен ауытқуы эмоциялық сатуға, ликвидацияға немесе шамадан тыс сенімге итермелеуі мүмкін. Егер актив ұзақ мерзімді идея іске аспай тұрып 50% түсе алса, позиция мөлшері маңызды. Сұрақ тек «Өсе ала ма?» емес, «Осы жолдан аман өте аламын ба?»"
             },
             "example": {
-              "en": "A ₸600,000 position falling 50% becomes ₸300,000. To return to ₸600,000, it then needs a 100% gain."
+              "en": "A ₸600,000 position falling 50% becomes ₸300,000. To return to ₸600,000, it then needs a 100% gain.",
+              "ru": "Позиция в ₸600,000 после падения на 50% становится ₸300,000. Чтобы вернуться к ₸600,000, после этого нужен рост на 100%.",
+              "kk": "₸600,000 позиция 50% түссе, ₸300,000 болады. ₸600,000-ға қайту үшін кейін 100% өсім керек."
             }
           },
           {
@@ -989,13 +1698,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Small tokens add liquidity and project risk"
+              "en": "Small tokens add liquidity and project risk",
+              "ru": "Малые токены добавляют риск ликвидности и проекта",
+              "kk": "Ұсақ токендер өтімділік және жоба тәуекелін қосады"
             },
             "body": {
-              "en": "Large assets can still be risky, but smaller tokens often add weaker liquidity, unclear teams, fragile demand, and easier manipulation. A listed price is not the same as an exit at that price. If few buyers exist, selling can move the market against you."
+              "en": "Large assets can still be risky, but smaller tokens often add weaker liquidity, unclear teams, fragile demand, and easier manipulation. A listed price is not the same as an exit at that price. If few buyers exist, selling can move the market against you.",
+              "ru": "Крупные активы тоже могут быть рискованными, но малые токены часто добавляют слабую ликвидность, неясные команды, хрупкий спрос и более лёгкую манипуляцию. Указанная цена не означает возможность выйти по этой цене. Если покупателей мало, продажа может сдвинуть рынок против тебя.",
+              "kk": "Ірі активтер де тәуекелді болуы мүмкін, бірақ ұсақ токендер көбіне әлсіз өтімділік, түсініксіз команда, әлсіз сұраныс және оңай манипуляция тәуекелін қосады. Көрсетілген баға сол бағамен шығуға кепіл емес. Сатып алушы аз болса, сату нарықты саған қарсы қозғалтуы мүмкін."
             },
             "tip": {
-              "en": "Liquidity means the ability to exit near a fair price when you need to, not just seeing a price on a screen."
+              "en": "Liquidity means the ability to exit near a fair price when you need to, not just seeing a price on a screen.",
+              "ru": "Ликвидность — это способность выйти около справедливой цены, когда нужно, а не просто видеть цену на экране.",
+              "kk": "Өтімділік — қажет кезде әділ бағаға жақын шығу мүмкіндігі, экранда бағаны көру ғана емес."
             }
           },
           {
@@ -1003,7 +1718,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "One portfolio, many risk layers"
+              "en": "One portfolio, many risk layers",
+              "ru": "Один портфель, много слоёв риска",
+              "kk": "Бір портфель, көп тәуекел қабаты"
             },
             "content": {
               "en": {
@@ -1052,6 +1769,100 @@
                     "text": "Diversifying across tokens does not solve custody risk if everything depends on one platform."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор вкладывает ₸1,000,000 в крипто. Риск зависит не только от общей суммы, но и от того, как она распределена и где хранится."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Позиция",
+                        "Сумма",
+                        "Главный риск"
+                      ],
+                      [
+                        "Bitcoin",
+                        "₸400,000",
+                        "Риск волатильности и спроса"
+                      ],
+                      [
+                        "Ethereum",
+                        "₸250,000",
+                        "Риск сети, конкуренции и волатильности"
+                      ],
+                      [
+                        "Малый токен",
+                        "₸250,000",
+                        "Риск ликвидности, проекта и манипуляций"
+                      ],
+                      [
+                        "Стейблкоин",
+                        "₸100,000",
+                        "Риск эмитента и резервов"
+                      ],
+                      [
+                        "Всё хранится на одной бирже",
+                        "₸1,000,000",
+                        "Риск платформы и аккаунта"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Диверсификация по токенам не решает риск хранения, если всё зависит от одной платформы."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор криптоға ₸1,000,000 салады. Тәуекел тек жалпы сомаға емес, оның қалай бөлінгеніне және қайда сақталғанына да байланысты."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Позиция",
+                        "Сома",
+                        "Негізгі тәуекел"
+                      ],
+                      [
+                        "Bitcoin",
+                        "₸400,000",
+                        "Құбылмалылық және сұраныс тәуекелі"
+                      ],
+                      [
+                        "Ethereum",
+                        "₸250,000",
+                        "Желі, бәсеке және құбылмалылық тәуекелі"
+                      ],
+                      [
+                        "Ұсақ токен",
+                        "₸250,000",
+                        "Өтімділік, жоба және манипуляция тәуекелі"
+                      ],
+                      [
+                        "Стейблкоин",
+                        "₸100,000",
+                        "Эмитент және резерв тәуекелі"
+                      ],
+                      [
+                        "Барлығы бір биржада сақталған",
+                        "₸1,000,000",
+                        "Платформа және аккаунт тәуекелі"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Егер бәрі бір платформаға тәуелді болса, токендер бойынша диверсификация сақтау тәуекелін шешпейді."
+                  }
+                ]
               }
             }
           },
@@ -1060,10 +1871,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Find the main crypto risk"
+              "en": "Find the main crypto risk",
+              "ru": "Найди главный крипториск",
+              "kk": "Негізгі крипто тәуекелін тап"
             },
             "body": {
-              "en": "Each case hides a different risk. Choose the main one."
+              "en": "Each case hides a different risk. Choose the main one.",
+              "ru": "В каждом случае скрыт разный риск. Выбери главный.",
+              "kk": "Әр жағдай әртүрлі тәуекелді жасырады. Негізгісін таңда."
             },
             "interactiveType": "error_detector",
             "interactiveContent": {
@@ -1102,6 +1917,78 @@
                   }
                 ],
                 "final_explanation": "Crypto risk should be mapped in layers: market, liquidity, project, regulatory, scam, custody, and behavior risk."
+              },
+              "ru": {
+                "instruction": "Выбери главную ошибку или риск в каждом утверждении о крипто.",
+                "cases": [
+                  {
+                    "text": "«Этот малый токен указан по ₸50, значит я могу в любой момент продать все свои монеты по этой цене».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Игнорируется ликвидность и глубина рынка",
+                      "c) Цены токенов никогда не меняются"
+                    ],
+                    "correct": "b",
+                    "explanation": "Отображаемая цена не гарантирует крупный выход без движения цены."
+                  },
+                  {
+                    "text": "«Я использую плечо 5x, потому что Bitcoin обычно восстанавливается после падений».",
+                    "options": [
+                      "a) Плечо может привести к ликвидации до восстановления",
+                      "b) Ошибки нет",
+                      "c) Плечо убирает волатильность"
+                    ],
+                    "correct": "a",
+                    "explanation": "Путь имеет значение. Временное падение всё равно может обнулить позицию с плечом."
+                  },
+                  {
+                    "text": "«Я купил четыре разных токена на одной бирже, значит риск хранения диверсифицирован».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Хранение всех активов на одной платформе оставляет платформенный риск концентрированным",
+                      "c) Четыре токена устраняют весь рыночный риск"
+                    ],
+                    "correct": "b",
+                    "explanation": "Диверсификация по токенам не диверсифицирует точку отказа хранения."
+                  }
+                ],
+                "final_explanation": "Крипториск нужно раскладывать по слоям: рыночный риск, ликвидность, проектный риск, регулирование, мошенничество, хранение и поведенческий риск."
+              },
+              "kk": {
+                "instruction": "Әр крипто тұжырымындағы негізгі қате немесе тәуекелді таңда.",
+                "cases": [
+                  {
+                    "text": "«Бұл ұсақ токен ₸50 деп көрсетілген, сондықтан барлық монетамды кез келген уақытта сол бағамен сата аламын».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Өтімділік пен нарық тереңдігі ескерілмеген",
+                      "c) Токен бағалары ешқашан өзгермейді"
+                    ],
+                    "correct": "b",
+                    "explanation": "Көрсетілген баға бағаны қозғалтпай үлкен көлемде шығуға кепілдік бермейді."
+                  },
+                  {
+                    "text": "«Мен 5x қарыз иығын қолданамын, себебі Bitcoin әдетте құлағаннан кейін қалпына келеді».",
+                    "options": [
+                      "a) Қарыз иығы қалпына келуден бұрын ликвидацияға мәжбүрлеуі мүмкін",
+                      "b) Қате жоқ",
+                      "c) Қарыз иығы құбылмалылықты жояды"
+                    ],
+                    "correct": "a",
+                    "explanation": "Баға жолы маңызды. Уақытша түсу де қарыз иығы бар позицияны жойып жіберуі мүмкін."
+                  },
+                  {
+                    "text": "«Мен бір биржада төрт түрлі токен сатып алдым, сондықтан сақтау тәуекелі диверсификацияланған».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Барлық активті бір платформада сақтау платформа тәуекелін шоғырландырады",
+                      "c) Төрт токен барлық нарықтық тәуекелді жояды"
+                    ],
+                    "correct": "b",
+                    "explanation": "Токен диверсификациясы сақтау нүктесіндегі істен шығу тәуекелін диверсификацияламайды."
+                  }
+                ],
+                "final_explanation": "Крипто тәуекелін қабаттармен картаға түсіру керек: нарық, өтімділік, жоба, реттеу, алаяқтық, сақтау және мінез-құлық тәуекелі."
               }
             }
           },
@@ -1110,13 +1997,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Size positions for survival"
+              "en": "Size positions for survival",
+              "ru": "Подбирай размер позиции так, чтобы выжить",
+              "kk": "Позиция мөлшерін аман қалуға сай таңда"
             },
             "body": {
-              "en": "Crypto can offer exposure to new digital networks, but the risk stack is unusually wide. Good decisions limit position size, avoid leverage, verify custody, and treat small tokens with extra caution. The goal is not to predict every outcome; it is to avoid one mistake ending the whole plan."
+              "en": "Crypto can offer exposure to new digital networks, but the risk stack is unusually wide. Good decisions limit position size, avoid leverage, verify custody, and treat small tokens with extra caution. The goal is not to predict every outcome; it is to avoid one mistake ending the whole plan.",
+              "ru": "Крипто может дать доступ к новым цифровым сетям, но набор рисков необычно широк. Хорошие решения ограничивают размер позиции, избегают плеча, проверяют хранение и относятся к малым токенам с особой осторожностью. Цель не в том, чтобы предсказать каждый исход, а в том, чтобы одна ошибка не разрушила весь план.",
+              "kk": "Крипто жаңа цифрлық желілерге қатысу мүмкіндігін бере алады, бірақ тәуекелдер жиынтығы өте кең. Дұрыс шешімдер позиция мөлшерін шектейді, қарыз иығынан аулақ болады, сақтауды тексереді және ұсақ токендерге ерекше сақтықпен қарайды. Мақсат әр нәтижені болжау емес; бір қателіктің бүкіл жоспарды бұзуына жол бермеу."
             },
             "tip": {
-              "en": "In crypto, risk control matters before return chasing."
+              "en": "In crypto, risk control matters before return chasing.",
+              "ru": "В крипто контроль риска важнее погони за доходностью.",
+              "kk": "Криптода табыс қуалаудан бұрын тәуекелді бақылау маңызды."
             }
           }
         ]
@@ -1125,7 +2018,9 @@
         "quiz_id": 1704,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Major Risks — Check"
+          "en": "Major Risks — Check",
+          "ru": "Основные риски — проверка",
+          "kk": "Негізгі тәуекелдер — тексеру"
         },
         "questions": [
           {
@@ -1133,14 +2028,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "An asset falls 50% from ₸600,000 to ₸300,000. What gain is needed to get back to ₸600,000?"
+              "en": "An asset falls 50% from ₸600,000 to ₸300,000. What gain is needed to get back to ₸600,000?",
+              "ru": "Актив падает на 50% с ₸600,000 до ₸300,000. Какой рост нужен, чтобы вернуться к ₸600,000?",
+              "kk": "Актив ₸600,000-нан ₸300,000-ға 50% түседі. ₸600,000-ға қайту үшін қандай өсім керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "100%"
+                  "en": "100%",
+                  "ru": "100%",
+                  "kk": "100%"
                 },
                 "is_correct": true
               },
@@ -1148,7 +2047,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "50%"
+                  "en": "50%",
+                  "ru": "50%",
+                  "kk": "50%"
                 },
                 "is_correct": false
               },
@@ -1156,7 +2057,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "25%"
+                  "en": "25%",
+                  "ru": "25%",
+                  "kk": "25%"
                 },
                 "is_correct": false
               },
@@ -1164,7 +2067,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "10%"
+                  "en": "10%",
+                  "ru": "10%",
+                  "kk": "10%"
                 },
                 "is_correct": false
               }
@@ -1175,14 +2080,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can a small token be harder to exit than a major asset?"
+              "en": "Why can a small token be harder to exit than a major asset?",
+              "ru": "Почему из малого токена может быть труднее выйти, чем из крупного актива?",
+              "kk": "Неліктен ұсақ токеннен шығу ірі активтен шығуға қарағанда қиынырақ болуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "There may be fewer buyers and lower market depth, so selling can push the price down"
+                  "en": "There may be fewer buyers and lower market depth, so selling can push the price down",
+                  "ru": "Покупателей может быть меньше, а глубина рынка ниже, поэтому продажа может продавить цену вниз",
+                  "kk": "Сатып алушылар аз және нарық тереңдігі төмен болуы мүмкін, сондықтан сату бағаны төмен түсіруі мүмкін"
                 },
                 "is_correct": true
               },
@@ -1190,7 +2099,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Small tokens are always backed by bank deposits"
+                  "en": "Small tokens are always backed by bank deposits",
+                  "ru": "Малые токены всегда обеспечены банковскими депозитами",
+                  "kk": "Ұсақ токендер әрқашан банк депозиттерімен қамтамасыз етіледі"
                 },
                 "is_correct": false
               },
@@ -1198,7 +2109,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A displayed price guarantees unlimited liquidity"
+                  "en": "A displayed price guarantees unlimited liquidity",
+                  "ru": "Отображаемая цена гарантирует неограниченную ликвидность",
+                  "kk": "Көрсетілген баға шексіз өтімділікке кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -1206,7 +2119,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Small tokens legally cannot fall"
+                  "en": "Small tokens legally cannot fall",
+                  "ru": "Малые токены юридически не могут падать",
+                  "kk": "Ұсақ токендер заң бойынша түсе алмайды"
                 },
                 "is_correct": false
               }
@@ -1217,14 +2132,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which setup best reduces a single point of failure?"
+              "en": "Which setup best reduces a single point of failure?",
+              "ru": "Какая схема лучше всего снижает риск единой точки отказа?",
+              "kk": "Қай схема бір ғана істен шығу нүктесін ең жақсы азайтады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Avoiding excessive concentration in one token, one platform, or one risky custody method"
+                  "en": "Avoiding excessive concentration in one token, one platform, or one risky custody method",
+                  "ru": "Избегать чрезмерной концентрации в одном токене, одной платформе или одном рискованном способе хранения",
+                  "kk": "Бір токенге, бір платформаға немесе бір тәуекелді сақтау әдісіне шамадан тыс шоғырланудан аулақ болу"
                 },
                 "is_correct": true
               },
@@ -1232,7 +2151,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Using high leverage to recover faster"
+                  "en": "Using high leverage to recover faster",
+                  "ru": "Использовать большое плечо, чтобы быстрее восстановиться",
+                  "kk": "Тезірек қалпына келу үшін жоғары қарыз иығын пайдалану"
                 },
                 "is_correct": false
               },
@@ -1240,7 +2161,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Holding every asset on the same exchange account"
+                  "en": "Holding every asset on the same exchange account",
+                  "ru": "Хранить все активы на одном биржевом аккаунте",
+                  "kk": "Барлық активті бір биржа аккаунтында сақтау"
                 },
                 "is_correct": false
               },
@@ -1248,7 +2171,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Buying only tokens promoted by influencers"
+                  "en": "Buying only tokens promoted by influencers",
+                  "ru": "Покупать только токены, которые рекламируют инфлюенсеры",
+                  "kk": "Тек инфлюенсерлер жарнамалаған токендерді сатып алу"
                 },
                 "is_correct": false
               }
@@ -1262,7 +2187,9 @@
     "quiz_id": 1799,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Crypto & Digital Assets — Final Check"
+      "en": "Crypto & Digital Assets — Final Check",
+      "ru": "Криптовалюты и цифровые активы — итоговая проверка",
+      "kk": "Криптовалюталар және цифрлық активтер — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1270,14 +2197,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "A blockchain record proves a transfer happened. What does it not automatically prove?"
+          "en": "A blockchain record proves a transfer happened. What does it not automatically prove?",
+          "ru": "Запись в блокчейне доказывает, что перевод произошёл. Чего она не доказывает автоматически?",
+          "kk": "Блокчейн жазбасы аударым болғанын дәлелдейді. Ол нені автоматты түрде дәлелдемейді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "That the asset is valuable, the project is honest, or the transfer was a good decision"
+              "en": "That the asset is valuable, the project is honest, or the transfer was a good decision",
+              "ru": "Что актив ценен, проект честен или перевод был хорошим решением",
+              "kk": "Актив құнды екенін, жоба адал екенін немесе аударым жақсы шешім болғанын"
             },
             "is_correct": true
           },
@@ -1285,7 +2216,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "That a transaction exists on the ledger"
+              "en": "That a transaction exists on the ledger",
+              "ru": "Что транзакция существует в реестре",
+              "kk": "Транзакция реестрде бар екенін"
             },
             "is_correct": false
           },
@@ -1293,7 +2226,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "That an address sent assets"
+              "en": "That an address sent assets",
+              "ru": "Что адрес отправил активы",
+              "kk": "Мекенжай актив жібергенін"
             },
             "is_correct": false
           },
@@ -1301,7 +2236,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "That the network recorded data"
+              "en": "That the network recorded data",
+              "ru": "Что сеть записала данные",
+              "kk": "Желі деректерді жазғанын"
             },
             "is_correct": false
           }
@@ -1312,14 +2249,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "Why should Bitcoin, Ethereum, and stablecoins be analyzed separately?"
+          "en": "Why should Bitcoin, Ethereum, and stablecoins be analyzed separately?",
+          "ru": "Почему Bitcoin, Ethereum и стейблкоины нужно анализировать отдельно?",
+          "kk": "Неліктен Bitcoin, Ethereum және стейблкоиндерді бөлек талдау керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "They have different purposes, value drivers, and risk sources"
+              "en": "They have different purposes, value drivers, and risk sources",
+              "ru": "У них разные цели, факторы ценности и источники риска",
+              "kk": "Олардың мақсаттары, құн факторлары және тәуекел көздері әртүрлі"
             },
             "is_correct": true
           },
@@ -1327,7 +2268,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "They are legally identical in every way"
+              "en": "They are legally identical in every way",
+              "ru": "Они юридически одинаковы во всех отношениях",
+              "kk": "Олар заң бойынша барлық жағынан бірдей"
             },
             "is_correct": false
           },
@@ -1335,7 +2278,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "They always move for the same reason"
+              "en": "They always move for the same reason",
+              "ru": "Они всегда движутся по одной и той же причине",
+              "kk": "Олар әрқашан бір себеппен қозғалады"
             },
             "is_correct": false
           },
@@ -1343,7 +2288,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "They all guarantee stable purchasing power"
+              "en": "They all guarantee stable purchasing power",
+              "ru": "Все они гарантируют стабильную покупательную способность",
+              "kk": "Олардың бәрі тұрақты сатып алу қабілетіне кепілдік береді"
             },
             "is_correct": false
           }
@@ -1354,14 +2301,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "What is the main trade-off between exchange custody and self-custody?"
+          "en": "What is the main trade-off between exchange custody and self-custody?",
+          "ru": "Какой главный компромисс между хранением на бирже и самостоятельным хранением?",
+          "kk": "Биржалық сақтау мен өзіндік сақтау арасындағы негізгі айырбас қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Exchange custody offers convenience with platform dependence; self-custody offers control with user responsibility"
+              "en": "Exchange custody offers convenience with platform dependence; self-custody offers control with user responsibility",
+              "ru": "Биржевое хранение даёт удобство с зависимостью от платформы; самостоятельное хранение даёт контроль с ответственностью пользователя",
+              "kk": "Биржалық сақтау платформаға тәуелді ыңғайлылық береді; өзіндік сақтау пайдаланушы жауапкершілігімен бақылау береді"
             },
             "is_correct": true
           },
@@ -1369,7 +2320,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Exchange custody removes all risk; self-custody removes all volatility"
+              "en": "Exchange custody removes all risk; self-custody removes all volatility",
+              "ru": "Биржевое хранение убирает весь риск; самостоятельное хранение убирает всю волатильность",
+              "kk": "Биржалық сақтау барлық тәуекелді жояды; өзіндік сақтау барлық құбылмалылықты жояды"
             },
             "is_correct": false
           },
@@ -1377,7 +2330,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Both are identical because custody never matters"
+              "en": "Both are identical because custody never matters",
+              "ru": "Они одинаковы, потому что хранение не имеет значения",
+              "kk": "Екеуі бірдей, өйткені сақтау ешқашан маңызды емес"
             },
             "is_correct": false
           },
@@ -1385,7 +2340,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Self-custody means someone else holds the seed phrase for you"
+              "en": "Self-custody means someone else holds the seed phrase for you",
+              "ru": "Самостоятельное хранение означает, что кто-то другой держит seed-фразу за тебя",
+              "kk": "Өзіндік сақтау seed-фразаны сен үшін басқа біреу ұстайды дегенді білдіреді"
             },
             "is_correct": false
           }
@@ -1396,14 +2353,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "An investor owns several tokens but stores all of them on one exchange. What risk remains concentrated?"
+          "en": "An investor owns several tokens but stores all of them on one exchange. What risk remains concentrated?",
+          "ru": "Инвестор владеет несколькими токенами, но хранит их все на одной бирже. Какой риск остаётся сконцентрированным?",
+          "kk": "Инвестор бірнеше токенге ие, бірақ бәрін бір биржада сақтайды. Қандай тәуекел шоғырланған күйде қалады?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Platform and account custody risk"
+              "en": "Platform and account custody risk",
+              "ru": "Риск хранения на платформе и в аккаунте",
+              "kk": "Платформа және аккаунт сақтау тәуекелі"
             },
             "is_correct": true
           },
@@ -1411,7 +2372,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "The number of token names"
+              "en": "The number of token names",
+              "ru": "Количество названий токенов",
+              "kk": "Токен атауларының саны"
             },
             "is_correct": false
           },
@@ -1419,7 +2382,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "The ability of tokens to have different prices"
+              "en": "The ability of tokens to have different prices",
+              "ru": "Способность токенов иметь разные цены",
+              "kk": "Токендердің әртүрлі бағасы болу қабілеті"
             },
             "is_correct": false
           },
@@ -1427,7 +2392,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "The existence of blockchain records"
+              "en": "The existence of blockchain records",
+              "ru": "Наличие записей в блокчейне",
+              "kk": "Блокчейн жазбаларының болуы"
             },
             "is_correct": false
           }
@@ -1438,14 +2405,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "Why is leverage especially dangerous in volatile crypto assets?"
+          "en": "Why is leverage especially dangerous in volatile crypto assets?",
+          "ru": "Почему плечо особенно опасно в волатильных криптоактивах?",
+          "kk": "Неліктен құбылмалы криптоактивтерде қарыз иығы әсіресе қауіпті?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "A temporary price move can force liquidation before any long-term recovery occurs"
+              "en": "A temporary price move can force liquidation before any long-term recovery occurs",
+              "ru": "Временное движение цены может вызвать ликвидацию до любого долгосрочного восстановления",
+              "kk": "Уақытша баға қозғалысы ұзақ мерзімді қалпына келуден бұрын ликвидацияға мәжбүрлеуі мүмкін"
             },
             "is_correct": true
           },
@@ -1453,7 +2424,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Leverage prevents prices from falling"
+              "en": "Leverage prevents prices from falling",
+              "ru": "Плечо не даёт ценам падать",
+              "kk": "Қарыз иығы бағалардың түсуіне жол бермейді"
             },
             "is_correct": false
           },
@@ -1461,7 +2434,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Leverage turns every token into a stablecoin"
+              "en": "Leverage turns every token into a stablecoin",
+              "ru": "Плечо превращает каждый токен в стейблкоин",
+              "kk": "Қарыз иығы әр токенді стейблкоинге айналдырады"
             },
             "is_correct": false
           },
@@ -1469,7 +2444,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Leverage removes the need for custody security"
+              "en": "Leverage removes the need for custody security",
+              "ru": "Плечо убирает необходимость безопасного хранения",
+              "kk": "Қарыз иығы сақтау қауіпсіздігін қажетсіз етеді"
             },
             "is_correct": false
           }

@@ -3,16 +3,33 @@
   "topic": {
     "code": "insurance_fundamentals",
     "orderIndex": 9,
-    "title": {"en": "Insurance Fundamentals"},
-    "description": {"en": "Why pooling risk beats facing it alone, how premiums and deductibles trade off, and how to choose a policy and file a claim."},
+    "icon_path": "assets/topics/009.png",
+    "title": {
+      "en": "Insurance Fundamentals",
+      "ru": "Основы страхования",
+      "kk": "Сақтандыру негіздері"
+    },
+    "description": {
+      "en": "Why pooling risk beats facing it alone, how premiums and deductibles trade off, and how to choose a policy and file a claim.",
+      "ru": "Почему объединение рисков лучше, чем справляться с ними в одиночку; как связаны страховые взносы и франшиза; как выбрать полис и подать заявление на выплату.",
+      "kk": "Тәуекелді бірігіп көтеру неге жалғыз қарсы тұрудан тиімді; сақтандыру жарнасы мен франшиза қалай теңгеріледі; полисті қалай таңдап, сақтандыру талабын қалай беру керек."
+    },
     "level": "intermediate",
     "prerequisite_id": null
   },
   "subtopics": [
     {
       "code": "risk_pooling",
-      "title": {"en": "Risk Pooling"},
-      "description": {"en": "Insurance works because many people share rare but expensive losses."},
+      "title": {
+        "en": "Risk Pooling",
+        "ru": "Объединение рисков",
+        "kk": "Тәуекелдерді біріктіру"
+      },
+      "description": {
+        "en": "Insurance works because many people share rare but expensive losses.",
+        "ru": "Страхование работает потому, что многие люди разделяют редкие, но дорогие убытки.",
+        "kk": "Сақтандыру көп адамның сирек, бірақ қымбат шығындарды бірге көтеруі арқылы жұмыс істейді."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 0,
       "quizId": 901,
@@ -22,37 +39,193 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "The problem insurance solves"},
-            "body": {"en": "Some losses are too large to handle alone but too uncertain to predict exactly. Insurance turns one person's unpredictable disaster into a shared cost across many people."},
-            "tip": {"en": "Insurance is not buying certainty. It is buying protection against losses your own savings cannot safely absorb."}
+            "title": {
+              "en": "The problem insurance solves",
+              "ru": "Какую проблему решает страхование",
+              "kk": "Сақтандыру шешетін мәселе"
+            },
+            "body": {
+              "en": "Some losses are too large to handle alone but too uncertain to predict exactly. Insurance turns one person's unpredictable disaster into a shared cost across many people.",
+              "ru": "Некоторые убытки слишком велики, чтобы справляться с ними одному, и слишком неопределённы, чтобы точно предсказать их заранее. Страхование превращает непредсказуемую беду одного человека в общий расход для многих людей.",
+              "kk": "Кейбір шығындарды жалғыз көтеру тым ауыр, әрі оларды нақты болжау қиын. Сақтандыру бір адамның күтпеген апатын көп адамға бөлінетін ортақ шығынға айналдырады."
+            },
+            "tip": {
+              "en": "Insurance is not buying certainty. It is buying protection against losses your own savings cannot safely absorb.",
+              "ru": "Страхование — это не покупка уверенности. Это защита от убытков, которые ваши собственные сбережения безопасно покрыть не смогут.",
+              "kk": "Сақтандыру — толық сенімділік сатып алу емес. Бұл өз жинағыңыз қауіпсіз жаба алмайтын шығындардан қорғану."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Why pooling works"},
-            "body": {"en": "A single person cannot know whether they will face a major medical bill this year. But across thousands of people, insurers can estimate how many claims will occur and charge everyone a smaller premium."},
-            "example": {"en": "If 1 out of 100 people is expected to face a ₸2,000,000 loss, the average expected loss is ₸20,000 per person before administrative costs and profit."}
+            "title": {
+              "en": "Why pooling works",
+              "ru": "Почему объединение работает",
+              "kk": "Неліктен біріктіру жұмыс істейді"
+            },
+            "body": {
+              "en": "A single person cannot know whether they will face a major medical bill this year. But across thousands of people, insurers can estimate how many claims will occur and charge everyone a smaller premium.",
+              "ru": "Один человек не может знать, столкнётся ли он в этом году с крупным медицинским счётом. Но на уровне тысяч людей страховщики могут оценить, сколько страховых случаев произойдёт, и взять с каждого меньший взнос.",
+              "kk": "Бір адам биыл үлкен медициналық шығынға тап болатынын білмейді. Бірақ мыңдаған адам бойынша сақтандырушылар қанша талап болатынын шамалап, әр адамнан шағын жарна ала алады."
+            },
+            "example": {
+              "en": "If 1 out of 100 people is expected to face a ₸2,000,000 loss, the average expected loss is ₸20,000 per person before administrative costs and profit.",
+              "ru": "Если ожидается, что 1 человек из 100 понесёт убыток ₸2,000,000, то средний ожидаемый убыток составляет ₸20,000 на человека до административных расходов и прибыли.",
+              "kk": "Егер 100 адамның 1-і ₸2,000,000 шығынға ұшырайды деп күтілсе, әкімшілік шығындар мен пайдаға дейінгі орташа күтілетін шығын әр адамға ₸20,000 болады."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Insurance is not a refund machine"},
-            "body": {"en": "Many people pay premiums and never claim. That does not mean they wasted money. The value is the transfer of a large risk from your balance sheet to the insurance pool."},
-            "tip": {"en": "A good year with no claim is a good outcome, not proof that the policy was useless."}
+            "title": {
+              "en": "Insurance is not a refund machine",
+              "ru": "Страхование — не механизм возврата денег",
+              "kk": "Сақтандыру ақшаны қайтару құралы емес"
+            },
+            "body": {
+              "en": "Many people pay premiums and never claim. That does not mean they wasted money. The value is the transfer of a large risk from your balance sheet to the insurance pool.",
+              "ru": "Многие люди платят взносы и никогда не обращаются за выплатой. Это не значит, что деньги потрачены зря. Ценность в том, что крупный риск переносится с вашего личного бюджета в страховой пул.",
+              "kk": "Көп адам жарна төлеп, ешқашан талап бермейді. Бұл ақша босқа кетті деген сөз емес. Құндылығы — үлкен тәуекелді жеке қаржыңыздан сақтандыру пулына көшіруде."
+            },
+            "tip": {
+              "en": "A good year with no claim is a good outcome, not proof that the policy was useless.",
+              "ru": "Год без страхового случая — хороший результат, а не доказательство бесполезности полиса.",
+              "kk": "Талапсыз өткен жыл — жақсы нәтиже, полис қажетсіз болды деген дәлел емес."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "One rare loss, many contributors"},
+            "title": {
+              "en": "One rare loss, many contributors",
+              "ru": "Один редкий убыток, много участников",
+              "kk": "Бір сирек шығын, көп қатысушы"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Suppose 1,000 drivers share the risk of serious car damage. The loss is rare for each driver but predictable for the group."},
-                  {"type": "table", "rows": [["Item", "Amount"], ["Drivers in the pool", "1,000"], ["Expected serious claims", "20"], ["Average claim", "₸1,500,000"], ["Expected total claims", "₸30,000,000"], ["Claim cost per driver", "₸30,000"]]},
-                  {"type": "paragraph", "text": "The premium must also cover administration, reserves, and profit, so the final price will be higher than the pure expected claim cost."}
+                  {
+                    "type": "paragraph",
+                    "text": "Suppose 1,000 drivers share the risk of serious car damage. The loss is rare for each driver but predictable for the group."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Item",
+                        "Amount"
+                      ],
+                      [
+                        "Drivers in the pool",
+                        "1,000"
+                      ],
+                      [
+                        "Expected serious claims",
+                        "20"
+                      ],
+                      [
+                        "Average claim",
+                        "₸1,500,000"
+                      ],
+                      [
+                        "Expected total claims",
+                        "₸30,000,000"
+                      ],
+                      [
+                        "Claim cost per driver",
+                        "₸30,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The premium must also cover administration, reserves, and profit, so the final price will be higher than the pure expected claim cost."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Представим, что 1,000 водителей разделяют риск серьёзного повреждения автомобиля. Для каждого водителя такой убыток редок, но для группы он предсказуем."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Показатель",
+                        "Сумма"
+                      ],
+                      [
+                        "Водителей в пуле",
+                        "1,000"
+                      ],
+                      [
+                        "Ожидаемые серьёзные страховые случаи",
+                        "20"
+                      ],
+                      [
+                        "Средняя выплата",
+                        "₸1,500,000"
+                      ],
+                      [
+                        "Ожидаемая сумма выплат",
+                        "₸30,000,000"
+                      ],
+                      [
+                        "Стоимость выплат на одного водителя",
+                        "₸30,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Страховой взнос также должен покрывать администрирование, резервы и прибыль, поэтому итоговая цена будет выше чистой ожидаемой стоимости выплат."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "1,000 жүргізуші көліктің қатты зақымдану тәуекелін бірге көтереді делік. Әр жүргізуші үшін бұл сирек, ал топ үшін болжамды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Көрсеткіш",
+                        "Сома"
+                      ],
+                      [
+                        "Пулдағы жүргізушілер",
+                        "1,000"
+                      ],
+                      [
+                        "Күтілетін ірі талаптар",
+                        "20"
+                      ],
+                      [
+                        "Орташа талап сомасы",
+                        "₸1,500,000"
+                      ],
+                      [
+                        "Күтілетін жалпы талаптар",
+                        "₸30,000,000"
+                      ],
+                      [
+                        "Бір жүргізушіге шаққандағы талап құны",
+                        "₸30,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Сақтандыру жарнасы әкімшілік шығындарды, резервтерді және пайданы да жабуы керек, сондықтан соңғы баға таза күтілетін талап құнынан жоғары болады."
+                  }
                 ]
               }
             }
@@ -61,29 +234,167 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Pool or self-fund?"},
-            "body": {"en": "Classify each risk by whether it is better pooled through insurance or usually handled from savings."},
+            "title": {
+              "en": "Pool or self-fund?",
+              "ru": "Страховать или покрывать самому?",
+              "kk": "Пулмен жабу ма, әлде өз жинағымен бе?"
+            },
+            "body": {
+              "en": "Classify each risk by whether it is better pooled through insurance or usually handled from savings.",
+              "ru": "Определите для каждого риска, лучше ли покрывать его через страхование или обычно из сбережений.",
+              "kk": "Әр тәуекелді сақтандыру арқылы біріктірген дұрыс па, әлде әдетте жинақтан төлеген дұрыс па — соны анықтаңыз."
+            },
             "interactiveType": "drag_drop",
             "interactiveContent": {
               "en": {
                 "instruction": "Sort each situation into the better financial tool.",
                 "categories": [
-                  {"id": "pool", "label": "Pool with insurance"},
-                  {"id": "self", "label": "Self-fund with savings"}
+                  {
+                    "id": "pool",
+                    "label": "Pool with insurance"
+                  },
+                  {
+                    "id": "self",
+                    "label": "Self-fund with savings"
+                  }
                 ],
                 "items": [
-                  {"id": "surgery", "text": "Unexpected surgery costing several million tenge"},
-                  {"id": "phone_case", "text": "Replacing a cracked phone case"},
-                  {"id": "liability", "text": "Causing major damage to another person's car"},
-                  {"id": "small_repair", "text": "Paying ₸12,000 for a minor home repair"}
+                  {
+                    "id": "surgery",
+                    "text": "Unexpected surgery costing several million tenge"
+                  },
+                  {
+                    "id": "phone_case",
+                    "text": "Replacing a cracked phone case"
+                  },
+                  {
+                    "id": "liability",
+                    "text": "Causing major damage to another person's car"
+                  },
+                  {
+                    "id": "small_repair",
+                    "text": "Paying ₸12,000 for a minor home repair"
+                  }
                 ],
                 "answers": [
-                  {"itemId": "surgery", "categoryId": "pool"},
-                  {"itemId": "phone_case", "categoryId": "self"},
-                  {"itemId": "liability", "categoryId": "pool"},
-                  {"itemId": "small_repair", "categoryId": "self"}
+                  {
+                    "itemId": "surgery",
+                    "categoryId": "pool"
+                  },
+                  {
+                    "itemId": "phone_case",
+                    "categoryId": "self"
+                  },
+                  {
+                    "itemId": "liability",
+                    "categoryId": "pool"
+                  },
+                  {
+                    "itemId": "small_repair",
+                    "categoryId": "self"
+                  }
                 ],
                 "explanation": "Insurance is strongest for low-frequency, high-severity losses. Savings are better for small predictable costs because insurance would add fees on top of the cost."
+              },
+              "ru": {
+                "instruction": "Распределите каждую ситуацию по более подходящему финансовому инструменту.",
+                "categories": [
+                  {
+                    "id": "pool",
+                    "label": "Покрыть через страхование"
+                  },
+                  {
+                    "id": "self",
+                    "label": "Покрыть из сбережений"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "surgery",
+                    "text": "Неожиданная операция стоимостью несколько миллионов тенге"
+                  },
+                  {
+                    "id": "phone_case",
+                    "text": "Замена треснувшего чехла телефона"
+                  },
+                  {
+                    "id": "liability",
+                    "text": "Причинение серьёзного ущерба чужому автомобилю"
+                  },
+                  {
+                    "id": "small_repair",
+                    "text": "Оплата ₸12,000 за мелкий домашний ремонт"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "surgery",
+                    "categoryId": "pool"
+                  },
+                  {
+                    "itemId": "phone_case",
+                    "categoryId": "self"
+                  },
+                  {
+                    "itemId": "liability",
+                    "categoryId": "pool"
+                  },
+                  {
+                    "itemId": "small_repair",
+                    "categoryId": "self"
+                  }
+                ],
+                "explanation": "Страхование лучше всего подходит для редких, но тяжёлых убытков. Сбережения лучше подходят для небольших предсказуемых расходов, потому что страхование добавило бы комиссии сверх самой стоимости."
+              },
+              "kk": {
+                "instruction": "Әр жағдайды тиімдірек қаржылық құралға бөліңіз.",
+                "categories": [
+                  {
+                    "id": "pool",
+                    "label": "Сақтандырумен жабу"
+                  },
+                  {
+                    "id": "self",
+                    "label": "Жинақпен жабу"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "surgery",
+                    "text": "Бірнеше миллион теңге тұратын күтпеген операция"
+                  },
+                  {
+                    "id": "phone_case",
+                    "text": "Жарылған телефон қаптамасын ауыстыру"
+                  },
+                  {
+                    "id": "liability",
+                    "text": "Басқа адамның көлігіне үлкен зиян келтіру"
+                  },
+                  {
+                    "id": "small_repair",
+                    "text": "Үйдегі ұсақ жөндеуге ₸12,000 төлеу"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "surgery",
+                    "categoryId": "pool"
+                  },
+                  {
+                    "itemId": "phone_case",
+                    "categoryId": "self"
+                  },
+                  {
+                    "itemId": "liability",
+                    "categoryId": "pool"
+                  },
+                  {
+                    "itemId": "small_repair",
+                    "categoryId": "self"
+                  }
+                ],
+                "explanation": "Сақтандыру сирек болатын, бірақ салдары ауыр шығындар үшін ең тиімді. Ал шағын әрі болжамды шығындарды жинақпен жабу дұрыс, өйткені сақтандыру олардың үстіне қосымша шығын қосады."
               }
             }
           },
@@ -91,39 +402,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "The mental model"},
-            "body": {"en": "Insurance pools rare, large risks so no single household carries the full shock alone. The premium is the price of moving that risk away from your personal finances. Next, deductibles and premiums show how much risk you keep versus transfer."},
-            "tip": {"en": "Ask first: is this loss too large for my own savings to absorb?"}
+            "title": {
+              "en": "The mental model",
+              "ru": "Ментальная модель",
+              "kk": "Ойлау моделі"
+            },
+            "body": {
+              "en": "Insurance pools rare, large risks so no single household carries the full shock alone. The premium is the price of moving that risk away from your personal finances. Next, deductibles and premiums show how much risk you keep versus transfer.",
+              "ru": "Страхование объединяет редкие крупные риски, чтобы ни одна семья не несла весь удар в одиночку. Взнос — это цена переноса риска из личных финансов. Далее франшизы и взносы покажут, какую часть риска вы оставляете себе, а какую передаёте.",
+              "kk": "Сақтандыру сирек әрі ірі тәуекелдерді біріктіреді, сондықтан бір отбасы барлық соққыны жалғыз көтермейді. Жарна — тәуекелді жеке қаржыңыздан сыртқа көшіру бағасы. Келесіде франшиза мен жарна тәуекелдің қаншасын өзіңізде қалдырып, қаншасын беретінін көрсетеді."
+            },
+            "tip": {
+              "en": "Ask first: is this loss too large for my own savings to absorb?",
+              "ru": "Сначала спросите: слишком ли велик этот убыток, чтобы мои сбережения могли его покрыть?",
+              "kk": "Алдымен сұраңыз: бұл шығынды менің жинағым көтере ала ма, әлде тым үлкен бе?"
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 901,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Risk Pooling — Check"},
+        "title": {
+          "en": "Risk Pooling — Check",
+          "ru": "Объединение рисков — проверка",
+          "kk": "Тәуекелдерді біріктіру — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "A student pays for health insurance for two years and never uses it. What is the best interpretation?"},
+            "question_text": {
+              "en": "A student pays for health insurance for two years and never uses it. What is the best interpretation?",
+              "ru": "Студент два года платит за медицинскую страховку и ни разу ею не пользуется. Как это лучше понимать?",
+              "kk": "Студент екі жыл медициналық сақтандыру төлеп, оны бірде-бір рет қолданбады. Мұны қалай дұрыс түсіндіруге болады?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "They paid to transfer a large uncertain risk, even though the bad event did not happen"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "They should always avoid insurance if they do not claim often"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "The insurer must return the premiums because no claim occurred"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Insurance only has value after a claim is paid"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "They paid to transfer a large uncertain risk, even though the bad event did not happen",
+                  "ru": "Он платил за передачу крупного неопределённого риска, даже если плохое событие не произошло",
+                  "kk": "Ол жаман оқиға болмаса да, үлкен белгісіз тәуекелді басқаға беру үшін төледі"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They should always avoid insurance if they do not claim often",
+                  "ru": "Если страховых случаев мало, страхования всегда нужно избегать",
+                  "kk": "Талап жиі болмаса, сақтандырудан әрқашан бас тарту керек"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The insurer must return the premiums because no claim occurred",
+                  "ru": "Страховщик обязан вернуть взносы, потому что страхового случая не было",
+                  "kk": "Талап болмағандықтан сақтандырушы жарналарды қайтаруы керек"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Insurance only has value after a claim is paid",
+                  "ru": "Страхование имеет ценность только после выплаты",
+                  "kk": "Сақтандырудың құны тек төлем жасалғаннан кейін ғана бар"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Which risk is usually the strongest candidate for insurance?"},
+            "question_text": {
+              "en": "Which risk is usually the strongest candidate for insurance?",
+              "ru": "Какой риск обычно лучше всего подходит для страхования?",
+              "kk": "Қай тәуекел әдетте сақтандыруға ең лайық?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "A rare event that could create a loss far beyond your emergency fund"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "A small expense that happens every month"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "A purchase you simply regret after making it"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "A cost you can easily delay until next payday"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A rare event that could create a loss far beyond your emergency fund",
+                  "ru": "Редкое событие, которое может привести к убытку намного больше вашего резервного фонда",
+                  "kk": "Төтенше қорыңыздан әлдеқайда үлкен шығын тудыруы мүмкін сирек оқиға"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "A small expense that happens every month",
+                  "ru": "Небольшой расход, который возникает каждый месяц",
+                  "kk": "Ай сайын болатын шағын шығын"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "A purchase you simply regret after making it",
+                  "ru": "Покупка, о которой вы просто пожалели после оплаты",
+                  "kk": "Сатып алғаннан кейін жай ғана өкінген зат"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A cost you can easily delay until next payday",
+                  "ru": "Расход, который можно легко отложить до следующей зарплаты",
+                  "kk": "Келесі жалақыға дейін оңай кейінге қалдыруға болатын шығын"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -131,8 +538,16 @@
     },
     {
       "code": "deductibles_and_premiums",
-      "title": {"en": "Deductibles and Premiums"},
-      "description": {"en": "The deductible is risk you keep; the premium is what you pay to transfer the rest."},
+      "title": {
+        "en": "Deductibles and Premiums",
+        "ru": "Франшизы и страховые взносы",
+        "kk": "Франшиза және сақтандыру жарналары"
+      },
+      "description": {
+        "en": "The deductible is risk you keep; the premium is what you pay to transfer the rest.",
+        "ru": "Франшиза — это риск, который вы оставляете себе; взнос — то, что вы платите за передачу остального риска.",
+        "kk": "Франшиза — өзіңізде қалатын тәуекел; жарна — қалған тәуекелді беру үшін төлейтін ақша."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 1,
       "quizId": 902,
@@ -142,37 +557,175 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "The price of protection"},
-            "body": {"en": "Insurance is not only a yes-or-no decision. You also choose how much risk to keep yourself. Deductibles and premiums are the main trade-off."},
-            "tip": {"en": "Lower monthly cost often means you are accepting more cost when something goes wrong."}
+            "title": {
+              "en": "The price of protection",
+              "ru": "Цена защиты",
+              "kk": "Қорғаныстың бағасы"
+            },
+            "body": {
+              "en": "Insurance is not only a yes-or-no decision. You also choose how much risk to keep yourself. Deductibles and premiums are the main trade-off.",
+              "ru": "Страхование — это не только выбор «да» или «нет». Вы также выбираете, какую часть риска оставить себе. Франшиза и взнос — главный компромисс.",
+              "kk": "Сақтандыру тек «иә» немесе «жоқ» шешімі емес. Сіз тәуекелдің қаншасын өзіңізде қалдыруды да таңдайсыз. Франшиза мен жарна — негізгі теңгерім."
+            },
+            "tip": {
+              "en": "Lower monthly cost often means you are accepting more cost when something goes wrong.",
+              "ru": "Более низкий ежемесячный платёж часто означает, что при проблеме вы берёте на себя больше расходов.",
+              "kk": "Ай сайынғы төмен төлем көбіне бірдеңе болған кезде көбірек шығынды өзіңіз көтеретініңізді білдіреді."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "What a deductible means"},
-            "body": {"en": "A deductible is the amount you pay before the insurer pays. If a repair costs ₸300,000 and your deductible is ₸80,000, you cover the first ₸80,000 and insurance handles the rest under the policy rules."},
-            "example": {"en": "A deductible is not an extra fee for every month. It is the first slice of a claim that stays with you."}
+            "title": {
+              "en": "What a deductible means",
+              "ru": "Что означает франшиза",
+              "kk": "Франшиза нені білдіреді"
+            },
+            "body": {
+              "en": "A deductible is the amount you pay before the insurer pays. If a repair costs ₸300,000 and your deductible is ₸80,000, you cover the first ₸80,000 and insurance handles the rest under the policy rules.",
+              "ru": "Франшиза — это сумма, которую вы платите до того, как платит страховщик. Если ремонт стоит ₸300,000, а франшиза ₸80,000, вы оплачиваете первые ₸80,000, а остальное покрывается страховкой по правилам полиса.",
+              "kk": "Франшиза — сақтандырушы төлем жасамай тұрып сіз төлейтін сома. Егер жөндеу ₸300,000 тұрса, ал франшизаңыз ₸80,000 болса, алғашқы ₸80,000-ды сіз төлейсіз, қалғанын полис ережелері бойынша сақтандыру жабады."
+            },
+            "example": {
+              "en": "A deductible is not an extra fee for every month. It is the first slice of a claim that stays with you.",
+              "ru": "Франшиза — это не дополнительная ежемесячная плата. Это первая часть убытка, которая остаётся на вас.",
+              "kk": "Франшиза — ай сайынғы қосымша төлем емес. Бұл талаптың сізде қалатын алғашқы бөлігі."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Why premiums move opposite"},
-            "body": {"en": "A lower deductible makes the insurer responsible earlier, so the premium is usually higher. A higher deductible leaves more small losses with you, so the premium can be lower."},
-            "tip": {"en": "The cheapest premium is not always the cheapest policy after a claim."}
+            "title": {
+              "en": "Why premiums move opposite",
+              "ru": "Почему взносы движутся в обратную сторону",
+              "kk": "Неліктен жарналар кері бағытта өзгереді"
+            },
+            "body": {
+              "en": "A lower deductible makes the insurer responsible earlier, so the premium is usually higher. A higher deductible leaves more small losses with you, so the premium can be lower.",
+              "ru": "Низкая франшиза раньше включает ответственность страховщика, поэтому взнос обычно выше. Высокая франшиза оставляет больше мелких убытков на вас, поэтому взнос может быть ниже.",
+              "kk": "Төмен франшиза сақтандырушыны ертерек жауапты етеді, сондықтан жарна әдетте жоғары. Жоғары франшиза ұсақ шығындардың көбін сізге қалдырады, сондықтан жарна төмен болуы мүмкін."
+            },
+            "tip": {
+              "en": "The cheapest premium is not always the cheapest policy after a claim.",
+              "ru": "Самый дешёвый взнос не всегда означает самый дешёвый полис после страхового случая.",
+              "kk": "Ең арзан жарна талап болғаннан кейін ең арзан полис дегенді білдірмейді."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Choosing between two policies"},
+            "title": {
+              "en": "Choosing between two policies",
+              "ru": "Выбор между двумя полисами",
+              "kk": "Екі полистің бірін таңдау"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Two car insurance offers cover the same major risks. The difference is how much risk you keep."},
-                  {"type": "table", "rows": [["Policy", "Annual premium", "Deductible", "Your cost if ₸500,000 claim happens"], ["Low deductible", "₸180,000", "₸50,000", "₸230,000 total this year"], ["High deductible", "₸120,000", "₸150,000", "₸270,000 total this year"]]},
-                  {"type": "paragraph", "text": "Without a claim, the high-deductible policy saves ₸60,000. With this claim, it costs ₸40,000 more overall."}
+                  {
+                    "type": "paragraph",
+                    "text": "Two car insurance offers cover the same major risks. The difference is how much risk you keep."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Policy",
+                        "Annual premium",
+                        "Deductible",
+                        "Your cost if ₸500,000 claim happens"
+                      ],
+                      [
+                        "Low deductible",
+                        "₸180,000",
+                        "₸50,000",
+                        "₸230,000 total this year"
+                      ],
+                      [
+                        "High deductible",
+                        "₸120,000",
+                        "₸150,000",
+                        "₸270,000 total this year"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Without a claim, the high-deductible policy saves ₸60,000. With this claim, it costs ₸40,000 more overall."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два предложения автострахования покрывают одни и те же основные риски. Разница в том, сколько риска вы оставляете себе."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Полис",
+                        "Годовой взнос",
+                        "Франшиза",
+                        "Ваши расходы при страховом случае на ₸500,000"
+                      ],
+                      [
+                        "Низкая франшиза",
+                        "₸180,000",
+                        "₸50,000",
+                        "₸230,000 всего за этот год"
+                      ],
+                      [
+                        "Высокая франшиза",
+                        "₸120,000",
+                        "₸150,000",
+                        "₸270,000 всего за этот год"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Без страхового случая полис с высокой франшизой экономит ₸60,000. При таком страховом случае он обходится на ₸40,000 дороже в целом."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі автосақтандыру ұсынысы бірдей негізгі тәуекелдерді жабады. Айырмасы — тәуекелдің қаншасын өзіңізде қалдыратыныңызда."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Полис",
+                        "Жылдық жарна",
+                        "Франшиза",
+                        "₸500,000 талап болса, сіздің шығыныңыз"
+                      ],
+                      [
+                        "Төмен франшиза",
+                        "₸180,000",
+                        "₸50,000",
+                        "Осы жылы жалпы ₸230,000"
+                      ],
+                      [
+                        "Жоғары франшиза",
+                        "₸120,000",
+                        "₸150,000",
+                        "Осы жылы жалпы ₸270,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Талап болмаса, жоғары франшизалы полис ₸60,000 үнемдейді. Ал мұндай талап болса, жалпы ₸40,000 қымбатқа түседі."
+                  }
                 ]
               }
             }
@@ -181,17 +734,95 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Find the hidden trade-off"},
-            "body": {"en": "Each case sounds attractive at first. Spot what financial trade-off is being ignored."},
+            "title": {
+              "en": "Find the hidden trade-off",
+              "ru": "Найдите скрытый компромисс",
+              "kk": "Жасырын теңгерімді табыңыз"
+            },
+            "body": {
+              "en": "Each case sounds attractive at first. Spot what financial trade-off is being ignored.",
+              "ru": "Каждый случай сначала звучит привлекательно. Найдите, какой финансовый компромисс игнорируется.",
+              "kk": "Әр жағдай алғашында тартымды көрінеді. Қандай қаржылық теңгерім ескерілмегенін табыңыз."
+            },
             "interactiveType": "error_detector",
             "interactiveContent": {
               "en": {
                 "instruction": "Choose the main mistake in each insurance decision.",
                 "cases": [
-                  {"text": "Aigerim picks the policy with the lowest premium, but the deductible is larger than her emergency fund.", "options": ["a) No error", "b) She ignored claim-time affordability", "c) She paid too much for low risk"], "correct": "b", "explanation": "A deductible must be payable during stress. A cheap premium can become expensive if the deductible is unrealistic."},
-                  {"text": "Dias chooses a higher deductible because he has a solid emergency fund and wants lower annual premiums.", "options": ["a) No error", "b) He must always choose the lowest deductible", "c) He is avoiding all insurance"], "correct": "a", "explanation": "Keeping more small risk can be rational when the household can absorb it and the premium savings are meaningful."}
+                  {
+                    "text": "Aigerim picks the policy with the lowest premium, but the deductible is larger than her emergency fund.",
+                    "options": [
+                      "a) No error",
+                      "b) She ignored claim-time affordability",
+                      "c) She paid too much for low risk"
+                    ],
+                    "correct": "b",
+                    "explanation": "A deductible must be payable during stress. A cheap premium can become expensive if the deductible is unrealistic."
+                  },
+                  {
+                    "text": "Dias chooses a higher deductible because he has a solid emergency fund and wants lower annual premiums.",
+                    "options": [
+                      "a) No error",
+                      "b) He must always choose the lowest deductible",
+                      "c) He is avoiding all insurance"
+                    ],
+                    "correct": "a",
+                    "explanation": "Keeping more small risk can be rational when the household can absorb it and the premium savings are meaningful."
+                  }
                 ],
                 "final_explanation": "Deductibles and premiums are one decision: how much risk stays with you and how much moves to the insurer."
+              },
+              "ru": {
+                "instruction": "Выберите главную ошибку в каждом страховом решении.",
+                "cases": [
+                  {
+                    "text": "Айгерим выбирает полис с самым низким взносом, но франшиза больше её резервного фонда.",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Она не учла доступность расходов при страховом случае",
+                      "c) Она переплатила за низкий риск"
+                    ],
+                    "correct": "b",
+                    "explanation": "Франшизу нужно быть способным оплатить в стрессовой ситуации. Дешёвый взнос может стать дорогим, если франшиза нереалистична."
+                  },
+                  {
+                    "text": "Диас выбирает более высокую франшизу, потому что у него хороший резервный фонд и он хочет снизить годовые взносы.",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Он всегда должен выбирать самую низкую франшизу",
+                      "c) Он избегает любого страхования"
+                    ],
+                    "correct": "a",
+                    "explanation": "Оставлять больше мелкого риска на себе может быть разумно, если семья способна его покрыть, а экономия на взносах существенна."
+                  }
+                ],
+                "final_explanation": "Франшиза и взнос — это одно решение: сколько риска остаётся у вас и сколько переходит страховщику."
+              },
+              "kk": {
+                "instruction": "Әр сақтандыру шешіміндегі негізгі қатені таңдаңыз.",
+                "cases": [
+                  {
+                    "text": "Айгерім ең төмен жарналы полисті таңдайды, бірақ франшиза оның төтенше қорынан үлкен.",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Ол талап кезіндегі төлем қабілетін ескермеді",
+                      "c) Ол төмен тәуекел үшін тым көп төледі"
+                    ],
+                    "correct": "b",
+                    "explanation": "Франшизаны күйзеліс кезінде төлей алу керек. Егер франшиза шынайы болмаса, арзан жарна қымбатқа айналуы мүмкін."
+                  },
+                  {
+                    "text": "Диас жоғары франшизаны таңдайды, өйткені оның мықты төтенше қоры бар және жылдық жарнаны азайтқысы келеді.",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Ол әрқашан ең төмен франшизаны таңдауы керек",
+                      "c) Ол барлық сақтандырудан қашып жүр"
+                    ],
+                    "correct": "a",
+                    "explanation": "Үй шаруашылығы оны көтере алса және жарна үнемі маңызды болса, ұсақ тәуекелдің көбін өзінде қалдыру орынды болуы мүмкін."
+                  }
+                ],
+                "final_explanation": "Франшиза мен жарна — бір шешім: тәуекелдің қаншасы сізде қалады, қаншасы сақтандырушыға өтеді."
               }
             }
           },
@@ -199,39 +830,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Keep the trade-off visible"},
-            "body": {"en": "A premium is the regular price of coverage; a deductible is the amount of loss you keep. Good policy choice balances monthly affordability with claim-time affordability. Next, health insurance shows why this trade-off matters when costs are hard to predict."},
-            "tip": {"en": "Before choosing a deductible, ask: could I pay this next week without borrowing?"}
+            "title": {
+              "en": "Keep the trade-off visible",
+              "ru": "Держите компромисс на виду",
+              "kk": "Теңгерімді анық көріңіз"
+            },
+            "body": {
+              "en": "A premium is the regular price of coverage; a deductible is the amount of loss you keep. Good policy choice balances monthly affordability with claim-time affordability. Next, health insurance shows why this trade-off matters when costs are hard to predict.",
+              "ru": "Взнос — регулярная цена покрытия; франшиза — часть убытка, которую вы оставляете себе. Хороший выбор полиса балансирует ежемесячную доступность и доступность расходов при страховом случае. Далее медицинское страхование покажет, почему этот компромисс важен, когда расходы сложно предсказать.",
+              "kk": "Жарна — қамтудың тұрақты бағасы; франшиза — өзіңізде қалатын шығын бөлігі. Жақсы полис ай сайынғы қолжетімділік пен талап кезіндегі төлем қабілетін теңгереді. Келесі медициналық сақтандыру шығындарды болжау қиын болғанда бұл теңгерім неге маңызды екенін көрсетеді."
+            },
+            "tip": {
+              "en": "Before choosing a deductible, ask: could I pay this next week without borrowing?",
+              "ru": "Перед выбором франшизы спросите: смогу ли я оплатить её на следующей неделе без займа?",
+              "kk": "Франшизаны таңдамас бұрын сұраңыз: оны келесі аптада қарызсыз төлей аламын ба?"
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 902,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Deductibles and Premiums — Check"},
+        "title": {
+          "en": "Deductibles and Premiums — Check",
+          "ru": "Франшизы и взносы — проверка",
+          "kk": "Франшиза және жарналар — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "Two policies cover the same risks. Policy A costs ₸20,000 more per year but has a deductible ₸100,000 lower. What decides which is better?"},
+            "question_text": {
+              "en": "Two policies cover the same risks. Policy A costs ₸20,000 more per year but has a deductible ₸100,000 lower. What decides which is better?",
+              "ru": "Два полиса покрывают одни и те же риски. Полис A стоит на ₸20,000 в год дороже, но франшиза ниже на ₸100,000. Что определяет, какой вариант лучше?",
+              "kk": "Екі полис бірдей тәуекелдерді жабады. A полисі жылына ₸20,000 қымбат, бірақ франшизасы ₸100,000 төмен. Қайсысы жақсы екенін не анықтайды?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Whether the lower deductible is worth the extra premium given claim likelihood and your savings"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Policy A is always better because lower deductibles are always superior"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Policy B is always better because premiums are the only real cost"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "The decision does not depend on household cash reserves"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Whether the lower deductible is worth the extra premium given claim likelihood and your savings",
+                  "ru": "Стоит ли более низкая франшиза дополнительного взноса с учётом вероятности страхового случая и ваших сбережений",
+                  "kk": "Талап ықтималдығы мен жинағыңызды ескергенде төмен франшиза қосымша жарнаға тұра ма"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Policy A is always better because lower deductibles are always superior",
+                  "ru": "Полис A всегда лучше, потому что низкая франшиза всегда лучше",
+                  "kk": "A полисі әрқашан жақсы, өйткені төмен франшиза әрқашан артық"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Policy B is always better because premiums are the only real cost",
+                  "ru": "Полис B всегда лучше, потому что взносы — единственная реальная стоимость",
+                  "kk": "B полисі әрқашан жақсы, өйткені жарна ғана нақты шығын"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The decision does not depend on household cash reserves",
+                  "ru": "Решение не зависит от денежных резервов семьи",
+                  "kk": "Шешім үй шаруашылығының ақша резервіне байланысты емес"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "A high deductible is most dangerous when:"},
+            "question_text": {
+              "en": "A high deductible is most dangerous when:",
+              "ru": "Высокая франшиза наиболее опасна, когда:",
+              "kk": "Жоғары франшиза ең қауіпті болатын жағдай:"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "The household cannot pay it without borrowing during a claim"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "The premium is lower than another offer"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "The policy covers rare large losses"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "The person understands what the deductible means"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The household cannot pay it without borrowing during a claim",
+                  "ru": "Семья не может оплатить её без займа при страховом случае",
+                  "kk": "Үй шаруашылығы талап кезінде оны қарызсыз төлей алмайды"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The premium is lower than another offer",
+                  "ru": "Взнос ниже, чем у другого предложения",
+                  "kk": "Жарна басқа ұсыныстан төмен"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "The policy covers rare large losses",
+                  "ru": "Полис покрывает редкие крупные убытки",
+                  "kk": "Полис сирек ірі шығындарды жабады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The person understands what the deductible means",
+                  "ru": "Человек понимает, что означает франшиза",
+                  "kk": "Адам франшизаның мағынасын түсінеді"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -239,8 +966,16 @@
     },
     {
       "code": "health_insurance",
-      "title": {"en": "Health Insurance"},
-      "description": {"en": "Health insurance protects against unpredictable medical costs and depends heavily on coverage rules."},
+      "title": {
+        "en": "Health Insurance",
+        "ru": "Медицинское страхование",
+        "kk": "Медициналық сақтандыру"
+      },
+      "description": {
+        "en": "Health insurance protects against unpredictable medical costs and depends heavily on coverage rules.",
+        "ru": "Медицинское страхование защищает от непредсказуемых медицинских расходов и сильно зависит от правил покрытия.",
+        "kk": "Медициналық сақтандыру күтпеген медициналық шығындардан қорғайды және қамту ережелеріне қатты тәуелді."
+      },
       "estimatedMinutes": 6,
       "orderIndex": 2,
       "quizId": 903,
@@ -250,37 +985,211 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "Why health costs are different"},
-            "body": {"en": "Health expenses can be urgent, emotionally stressful, and impossible to forecast. A household may handle routine medicine, but surgery or long treatment can overwhelm savings quickly."},
-            "tip": {"en": "Health insurance is mainly about protecting access to care when timing and cost are not under your control."}
+            "title": {
+              "en": "Why health costs are different",
+              "ru": "Почему медицинские расходы отличаются",
+              "kk": "Медициналық шығындар неге ерекше"
+            },
+            "body": {
+              "en": "Health expenses can be urgent, emotionally stressful, and impossible to forecast. A household may handle routine medicine, but surgery or long treatment can overwhelm savings quickly.",
+              "ru": "Медицинские расходы могут быть срочными, эмоционально тяжёлыми и непредсказуемыми. Семья может справиться с обычными лекарствами, но операция или длительное лечение быстро исчерпают сбережения.",
+              "kk": "Медициналық шығындар шұғыл, эмоциялық тұрғыдан ауыр және болжауға қиын болуы мүмкін. Отбасы күнделікті дәріні көтеруі мүмкін, бірақ операция немесе ұзақ ем жинақты тез тауысады."
+            },
+            "tip": {
+              "en": "Health insurance is mainly about protecting access to care when timing and cost are not under your control.",
+              "ru": "Медицинское страхование прежде всего защищает доступ к лечению, когда сроки и стоимость не зависят от вас.",
+              "kk": "Медициналық сақтандырудың басты мәні — уақыт пен құн сіздің бақылауыңызда болмаған кезде емге қолжетімділікті қорғау."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Coverage is not the same as payment"},
-            "body": {"en": "A health policy defines which services are covered, where care can be received, what documents are needed, and what exclusions apply. The most important question is not only price, but what happens when you actually need treatment."},
-            "example": {"en": "A cheaper plan may exclude dental care, private clinics, or planned treatment. A more expensive plan may be valuable if those services matter to your situation."}
+            "title": {
+              "en": "Coverage is not the same as payment",
+              "ru": "Покрытие — не то же самое, что оплата",
+              "kk": "Қамту төлеммен бірдей емес"
+            },
+            "body": {
+              "en": "A health policy defines which services are covered, where care can be received, what documents are needed, and what exclusions apply. The most important question is not only price, but what happens when you actually need treatment.",
+              "ru": "Медицинский полис определяет, какие услуги покрываются, где можно получить помощь, какие документы нужны и какие исключения действуют. Самый важный вопрос — не только цена, а что произойдёт, когда лечение действительно понадобится.",
+              "kk": "Медициналық полис қандай қызметтер жабылатынын, көмекті қай жерде алуға болатынын, қандай құжаттар керегін және қандай ерекшеліктер барын анықтайды. Ең маңызды сұрақ тек баға емес, нақты ем қажет болғанда не болатыны."
+            },
+            "example": {
+              "en": "A cheaper plan may exclude dental care, private clinics, or planned treatment. A more expensive plan may be valuable if those services matter to your situation.",
+              "ru": "Более дешёвый план может исключать стоматологию, частные клиники или плановое лечение. Более дорогой план может быть ценным, если эти услуги важны для вашей ситуации.",
+              "kk": "Арзанырақ жоспар стоматологияны, жеке клиникаларды немесе жоспарлы емді қоспауы мүмкін. Егер бұл қызметтер сізге маңызды болса, қымбатырақ жоспар құнды болуы мүмкін."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Public and voluntary layers"},
-            "body": {"en": "In Kazakhstan, compulsory social health insurance and public healthcare create a base layer of access. Voluntary health insurance can add private clinic access, broader service lists, or faster appointments depending on the contract."},
-            "tip": {"en": "Do not compare health plans by premium alone. Compare access, exclusions, limits, and claim process."}
+            "title": {
+              "en": "Public and voluntary layers",
+              "ru": "Государственный и добровольный уровни",
+              "kk": "Мемлекеттік және ерікті деңгейлер"
+            },
+            "body": {
+              "en": "In Kazakhstan, compulsory social health insurance and public healthcare create a base layer of access. Voluntary health insurance can add private clinic access, broader service lists, or faster appointments depending on the contract.",
+              "ru": "В Казахстане обязательное социальное медицинское страхование и государственная медицина создают базовый уровень доступа. Добровольное медицинское страхование может добавить доступ к частным клиникам, более широкий список услуг или более быстрые записи — в зависимости от договора.",
+              "kk": "Қазақстанда міндетті әлеуметтік медициналық сақтандыру мен мемлекеттік денсаулық сақтау базалық қолжетімділік береді. Ерікті медициналық сақтандыру келісімшартқа қарай жеке клиникаларға қолжетімділік, кеңірек қызмет тізімі немесе тезірек қабылдауды қоса алады."
+            },
+            "tip": {
+              "en": "Do not compare health plans by premium alone. Compare access, exclusions, limits, and claim process.",
+              "ru": "Не сравнивайте медицинские планы только по взносу. Сравнивайте доступ, исключения, лимиты и процесс обращения.",
+              "kk": "Медициналық жоспарларды тек жарна бойынша салыстырмаңыз. Қолжетімділікті, ерекшеліктерді, лимиттерді және талап беру процесін салыстырыңыз."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Two plans, different access"},
+            "title": {
+              "en": "Two plans, different access",
+              "ru": "Два плана, разный доступ",
+              "kk": "Екі жоспар, әртүрлі қолжетімділік"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "A family compares two voluntary health plans. Both look similar until they check service limits and provider access."},
-                  {"type": "table", "rows": [["Feature", "Basic plan", "Broader plan"], ["Annual premium", "₸120,000", "₸210,000"], ["Private clinic network", "Limited", "Wider"], ["Diagnostics limit", "₸150,000", "₸400,000"], ["Dental coverage", "Excluded", "Limited coverage"], ["Best fit", "Low expected use", "Frequent care or family needs"]]},
-                  {"type": "paragraph", "text": "The broader plan is not automatically better. It is better only if the added access and limits are likely to matter."}
+                  {
+                    "type": "paragraph",
+                    "text": "A family compares two voluntary health plans. Both look similar until they check service limits and provider access."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Feature",
+                        "Basic plan",
+                        "Broader plan"
+                      ],
+                      [
+                        "Annual premium",
+                        "₸120,000",
+                        "₸210,000"
+                      ],
+                      [
+                        "Private clinic network",
+                        "Limited",
+                        "Wider"
+                      ],
+                      [
+                        "Diagnostics limit",
+                        "₸150,000",
+                        "₸400,000"
+                      ],
+                      [
+                        "Dental coverage",
+                        "Excluded",
+                        "Limited coverage"
+                      ],
+                      [
+                        "Best fit",
+                        "Low expected use",
+                        "Frequent care or family needs"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The broader plan is not automatically better. It is better only if the added access and limits are likely to matter."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Семья сравнивает два добровольных медицинских плана. Оба выглядят похожими, пока они не проверяют лимиты услуг и доступ к поставщикам."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Характеристика",
+                        "Базовый план",
+                        "Расширенный план"
+                      ],
+                      [
+                        "Годовой взнос",
+                        "₸120,000",
+                        "₸210,000"
+                      ],
+                      [
+                        "Сеть частных клиник",
+                        "Ограниченная",
+                        "Более широкая"
+                      ],
+                      [
+                        "Лимит на диагностику",
+                        "₸150,000",
+                        "₸400,000"
+                      ],
+                      [
+                        "Стоматологическое покрытие",
+                        "Исключено",
+                        "Ограниченное покрытие"
+                      ],
+                      [
+                        "Лучше подходит",
+                        "Низкое ожидаемое использование",
+                        "Частое обращение или семейные нужды"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Расширенный план не автоматически лучше. Он лучше только если дополнительный доступ и лимиты действительно могут быть важны."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Отбасы екі ерікті медициналық жоспарды салыстырады. Қызмет лимиттері мен провайдерге қолжетімділікті тексергенге дейін екеуі ұқсас көрінеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ерекшелік",
+                        "Базалық жоспар",
+                        "Кеңейтілген жоспар"
+                      ],
+                      [
+                        "Жылдық жарна",
+                        "₸120,000",
+                        "₸210,000"
+                      ],
+                      [
+                        "Жеке клиникалар желісі",
+                        "Шектеулі",
+                        "Кеңірек"
+                      ],
+                      [
+                        "Диагностика лимиті",
+                        "₸150,000",
+                        "₸400,000"
+                      ],
+                      [
+                        "Стоматологиялық қамту",
+                        "Қамтылмайды",
+                        "Шектеулі қамту"
+                      ],
+                      [
+                        "Ең қолайлы",
+                        "Күтілетін пайдалану төмен",
+                        "Жиі ем алу немесе отбасы қажеттілігі"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Кеңейтілген жоспар автоматты түрде жақсы емес. Қосымша қолжетімділік пен лимиттер маңызды болуы мүмкін болса ғана ол жақсырақ."
+                  }
                 ]
               }
             }
@@ -289,17 +1198,88 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Choose the stronger health plan"},
-            "body": {"en": "Pick the plan that better fits the situation, not the one that simply sounds safer."},
+            "title": {
+              "en": "Choose the stronger health plan",
+              "ru": "Выберите более сильный медицинский план",
+              "kk": "Күштірек медициналық жоспарды таңдаңыз"
+            },
+            "body": {
+              "en": "Pick the plan that better fits the situation, not the one that simply sounds safer.",
+              "ru": "Выберите план, который лучше подходит ситуации, а не тот, который просто звучит безопаснее.",
+              "kk": "Жай ғана қауіпсіз естілетінін емес, жағдайға жақсырақ келетін жоспарды таңдаңыз."
+            },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
               "en": {
                 "instruction": "For each person, choose the better approach.",
-                "options": ["Basic coverage is enough", "Broader voluntary coverage may be justified"],
+                "options": [
+                  "Basic coverage is enough",
+                  "Broader voluntary coverage may be justified"
+                ],
                 "scenarios": [
-                  {"text": "A healthy 23-year-old has no dependents, uses clinics rarely, and has a strong emergency fund.", "correct_answer": "Basic coverage is enough", "explanation": "A broader plan may be unnecessary if expected use is low and the person can handle routine costs."},
-                  {"text": "A parent has two children, uses private clinics often, and wants predictable access to diagnostics.", "correct_answer": "Broader voluntary coverage may be justified", "explanation": "Frequent use and dependents make access, limits, and provider network more valuable."},
-                  {"text": "A freelancer has irregular income and cannot easily absorb a sudden expensive treatment bill.", "correct_answer": "Broader voluntary coverage may be justified", "explanation": "Income instability increases the value of predictable medical access and reduced shock risk."}
+                  {
+                    "text": "A healthy 23-year-old has no dependents, uses clinics rarely, and has a strong emergency fund.",
+                    "correct_answer": "Basic coverage is enough",
+                    "explanation": "A broader plan may be unnecessary if expected use is low and the person can handle routine costs."
+                  },
+                  {
+                    "text": "A parent has two children, uses private clinics often, and wants predictable access to diagnostics.",
+                    "correct_answer": "Broader voluntary coverage may be justified",
+                    "explanation": "Frequent use and dependents make access, limits, and provider network more valuable."
+                  },
+                  {
+                    "text": "A freelancer has irregular income and cannot easily absorb a sudden expensive treatment bill.",
+                    "correct_answer": "Broader voluntary coverage may be justified",
+                    "explanation": "Income instability increases the value of predictable medical access and reduced shock risk."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Для каждого человека выберите более подходящий подход.",
+                "options": [
+                  "Базового покрытия достаточно",
+                  "Расширенное добровольное покрытие может быть оправдано"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Здоровому 23-летнему человеку никто не находится на иждивении, он редко ходит в клиники и имеет сильный резервный фонд.",
+                    "correct_answer": "Базового покрытия достаточно",
+                    "explanation": "Расширенный план может быть не нужен, если ожидаемое использование низкое, а человек способен покрывать обычные расходы."
+                  },
+                  {
+                    "text": "У родителя двое детей, он часто пользуется частными клиниками и хочет предсказуемый доступ к диагностике.",
+                    "correct_answer": "Расширенное добровольное покрытие может быть оправдано",
+                    "explanation": "Частое использование и иждивенцы делают доступ, лимиты и сеть поставщиков более ценными."
+                  },
+                  {
+                    "text": "У фрилансера нерегулярный доход, и он не может легко покрыть внезапный дорогой счёт за лечение.",
+                    "correct_answer": "Расширенное добровольное покрытие может быть оправдано",
+                    "explanation": "Нестабильность дохода повышает ценность предсказуемого доступа к медицине и снижения риска шока."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр адам үшін тиімдірек тәсілді таңдаңыз.",
+                "options": [
+                  "Базалық қамту жеткілікті",
+                  "Кеңейтілген ерікті қамту орынды болуы мүмкін"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Дені сау 23 жастағы адамның асырауында ешкім жоқ, клиникаларға сирек барады және мықты төтенше қоры бар.",
+                    "correct_answer": "Базалық қамту жеткілікті",
+                    "explanation": "Егер күтілетін пайдалану төмен болса және адам күнделікті шығындарды көтере алса, кеңейтілген жоспар қажет болмауы мүмкін."
+                  },
+                  {
+                    "text": "Ата-ананың екі баласы бар, жеке клиникаларға жиі барады және диагностикаға болжамды қолжетімділік қалайды.",
+                    "correct_answer": "Кеңейтілген ерікті қамту орынды болуы мүмкін",
+                    "explanation": "Жиі пайдалану және асырауындағы адамдар қолжетімділікті, лимиттерді және провайдер желісін құндырақ етеді."
+                  },
+                  {
+                    "text": "Фрилансердің табысы тұрақсыз және ол күтпеген қымбат ем шотын оңай жаба алмайды.",
+                    "correct_answer": "Кеңейтілген ерікті қамту орынды болуы мүмкін",
+                    "explanation": "Табыстың тұрақсыздығы медициналық қолжетімділіктің болжамдылығын және соққы тәуекелін азайтудың құнын арттырады."
+                  }
                 ]
               }
             }
@@ -308,51 +1288,187 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Read the rules before the crisis"},
-            "body": {"en": "Health insurance protects against medical uncertainty, but only within its coverage rules. The real product is access: which care, which providers, which limits, and which exclusions. Next, life insurance shifts the focus from your own care to people who depend on your income."},
-            "tip": {"en": "The worst time to learn exclusions is after treatment has started."}
+            "title": {
+              "en": "Read the rules before the crisis",
+              "ru": "Изучите правила до кризиса",
+              "kk": "Дағдарысқа дейін ережелерді оқыңыз"
+            },
+            "body": {
+              "en": "Health insurance protects against medical uncertainty, but only within its coverage rules. The real product is access: which care, which providers, which limits, and which exclusions. Next, life insurance shifts the focus from your own care to people who depend on your income.",
+              "ru": "Медицинское страхование защищает от медицинской неопределённости, но только в рамках правил покрытия. Настоящий продукт — это доступ: какая помощь, какие поставщики, какие лимиты и какие исключения. Далее страхование жизни переносит фокус с вашей помощи на людей, зависящих от вашего дохода.",
+              "kk": "Медициналық сақтандыру медициналық белгісіздіктен қорғайды, бірақ тек қамту ережелері аясында. Нақты өнім — қолжетімділік: қандай ем, қандай провайдерлер, қандай лимиттер және қандай ерекшеліктер. Келесіде өмірді сақтандыру назарды өз күтіміңізден табысыңызға тәуелді адамдарға аударады."
+            },
+            "tip": {
+              "en": "The worst time to learn exclusions is after treatment has started.",
+              "ru": "Худшее время узнавать об исключениях — после начала лечения.",
+              "kk": "Ерекшеліктерді білудің ең нашар уақыты — ем басталғаннан кейін."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 903,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Health Insurance — Check"},
+        "title": {
+          "en": "Health Insurance — Check",
+          "ru": "Медицинское страхование — проверка",
+          "kk": "Медициналық сақтандыру — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "A plan has a low premium but excludes the private clinic network a family normally uses. What is the main risk?"},
+            "question_text": {
+              "en": "A plan has a low premium but excludes the private clinic network a family normally uses. What is the main risk?",
+              "ru": "У плана низкий взнос, но он исключает сеть частных клиник, которой семья обычно пользуется. Какой главный риск?",
+              "kk": "Жоспардың жарнасы төмен, бірақ отбасы әдетте қолданатын жеке клиникалар желісін қамтымайды. Негізгі тәуекел қандай?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "The plan may be cheap but fail to provide useful access when the family needs care"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "The low premium proves the insurer is more efficient"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Provider networks do not matter if a policy exists"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "The family should ignore exclusions until a claim happens"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The plan may be cheap but fail to provide useful access when the family needs care",
+                  "ru": "План может быть дешёвым, но не дать полезного доступа, когда семье понадобится помощь",
+                  "kk": "Жоспар арзан болуы мүмкін, бірақ отбасыға көмек қажет кезде пайдалы қолжетімділік бермеуі мүмкін"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "The low premium proves the insurer is more efficient",
+                  "ru": "Низкий взнос доказывает, что страховщик эффективнее",
+                  "kk": "Төмен жарна сақтандырушының тиімдірек екенін дәлелдейді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Provider networks do not matter if a policy exists",
+                  "ru": "Сети поставщиков не важны, если полис существует",
+                  "kk": "Полис бар болса, провайдер желілері маңызды емес"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "The family should ignore exclusions until a claim happens",
+                  "ru": "Семья должна игнорировать исключения до страхового случая",
+                  "kk": "Отбасы талап болғанға дейін ерекшеліктерді елемеуі керек"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Why are health insurance documents especially important to read?"},
+            "question_text": {
+              "en": "Why are health insurance documents especially important to read?",
+              "ru": "Почему документы медицинского страхования особенно важно читать?",
+              "kk": "Неліктен медициналық сақтандыру құжаттарын оқу ерекше маңызды?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Because coverage depends on service lists, limits, exclusions, and claim procedures"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Because every health plan covers the same services"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Because a higher premium always removes all limits"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Because claims are paid automatically without documentation"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Because coverage depends on service lists, limits, exclusions, and claim procedures",
+                  "ru": "Потому что покрытие зависит от списков услуг, лимитов, исключений и процедур обращения",
+                  "kk": "Өйткені қамту қызмет тізімдеріне, лимиттерге, ерекшеліктерге және талап рәсімдеріне байланысты"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Because every health plan covers the same services",
+                  "ru": "Потому что каждый медицинский план покрывает одни и те же услуги",
+                  "kk": "Өйткені әр медициналық жоспар бірдей қызметтерді жабады"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Because a higher premium always removes all limits",
+                  "ru": "Потому что более высокий взнос всегда убирает все лимиты",
+                  "kk": "Өйткені жоғары жарна барлық лимиттерді әрқашан алып тастайды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Because claims are paid automatically without documentation",
+                  "ru": "Потому что выплаты производятся автоматически без документов",
+                  "kk": "Өйткені талаптар құжатсыз автоматты түрде төленеді"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 3,
             "question_type": "single_choice",
             "order_index": 2,
-            "question_text": {"en": "A voluntary plan costs more but gives faster specialist appointments and higher diagnostic limits. Who benefits most?"},
+            "question_text": {
+              "en": "A voluntary plan costs more but gives faster specialist appointments and higher diagnostic limits. Who benefits most?",
+              "ru": "Добровольный план стоит дороже, но даёт более быстрые записи к специалистам и более высокие лимиты диагностики. Кому он полезнее всего?",
+              "kk": "Ерікті жоспар қымбатырақ, бірақ мамандарға тезірек жазылу және жоғары диагностика лимиттерін береді. Кім көбірек пайда көреді?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Someone who is likely to use those services and values predictable access"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Anyone, regardless of health needs or budget"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Only someone who never visits clinics"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Only someone choosing insurance as an investment return"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Someone who is likely to use those services and values predictable access",
+                  "ru": "Тот, кто вероятно будет пользоваться этими услугами и ценит предсказуемый доступ",
+                  "kk": "Бұл қызметтерді пайдалануы ықтимал және болжамды қолжетімділікті бағалайтын адам"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Anyone, regardless of health needs or budget",
+                  "ru": "Любой человек, независимо от медицинских нужд или бюджета",
+                  "kk": "Денсаулық қажеттілігіне немесе бюджетіне қарамастан кез келген адам"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Only someone who never visits clinics",
+                  "ru": "Только тот, кто никогда не посещает клиники",
+                  "kk": "Тек клиникаларға ешқашан бармайтын адам"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Only someone choosing insurance as an investment return",
+                  "ru": "Только тот, кто выбирает страхование как инвестиционную доходность",
+                  "kk": "Тек сақтандыруды инвестициялық табыс ретінде таңдаған адам"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -360,8 +1476,16 @@
     },
     {
       "code": "life_insurance",
-      "title": {"en": "Life Insurance"},
-      "description": {"en": "Life insurance protects dependents from the financial loss caused by a person's death."},
+      "title": {
+        "en": "Life Insurance",
+        "ru": "Страхование жизни",
+        "kk": "Өмірді сақтандыру"
+      },
+      "description": {
+        "en": "Life insurance protects dependents from the financial loss caused by a person's death.",
+        "ru": "Страхование жизни защищает иждивенцев от финансовых потерь, вызванных смертью человека.",
+        "kk": "Өмірді сақтандыру адамның қайтыс болуынан туындайтын қаржылық шығыннан асырауындағы адамдарды қорғайды."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 3,
       "quizId": 904,
@@ -371,37 +1495,193 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "Insurance for people who rely on you"},
-            "body": {"en": "Life insurance is not mainly about the person who dies. It is about the people whose rent, food, loan payments, or education depended on that person's income."},
-            "tip": {"en": "No dependents usually means less need for life insurance."}
+            "title": {
+              "en": "Insurance for people who rely on you",
+              "ru": "Страхование для людей, которые зависят от вас",
+              "kk": "Сізге тәуелді адамдарға арналған сақтандыру"
+            },
+            "body": {
+              "en": "Life insurance is not mainly about the person who dies. It is about the people whose rent, food, loan payments, or education depended on that person's income.",
+              "ru": "Страхование жизни в первую очередь не о человеке, который умирает. Оно о людях, чья аренда, еда, платежи по кредитам или образование зависели от дохода этого человека.",
+              "kk": "Өмірді сақтандыру негізінен қайтыс болған адам туралы емес. Ол сол адамның табысына жалдау ақысы, тамақ, несие төлемдері немесе оқу шығындары тәуелді болған адамдар туралы."
+            },
+            "tip": {
+              "en": "No dependents usually means less need for life insurance.",
+              "ru": "Если иждивенцев нет, обычно потребность в страховании жизни ниже.",
+              "kk": "Асырауындағы адам болмаса, өмірді сақтандыру қажеттілігі әдетте төмен."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "The income replacement idea"},
-            "body": {"en": "The core question is: what financial gap appears if this income disappears? A policy should be sized around debts, living costs, dependents, and years of support needed."},
-            "example": {"en": "If a parent contributes ₸450,000 per month and the family would need five years to adjust, the income gap alone is ₸27,000,000 before debts or education costs."}
+            "title": {
+              "en": "The income replacement idea",
+              "ru": "Идея замещения дохода",
+              "kk": "Табысты алмастыру идеясы"
+            },
+            "body": {
+              "en": "The core question is: what financial gap appears if this income disappears? A policy should be sized around debts, living costs, dependents, and years of support needed.",
+              "ru": "Главный вопрос: какой финансовый разрыв возникнет, если этот доход исчезнет? Размер полиса должен учитывать долги, расходы на жизнь, иждивенцев и нужные годы поддержки.",
+              "kk": "Негізгі сұрақ: бұл табыс жоғалса, қандай қаржылық алшақтық пайда болады? Полис мөлшері қарыздарға, өмір сүру шығындарына, асырауындағы адамдарға және қажет қолдау жылдарына қарай есептелуі керек."
+            },
+            "example": {
+              "en": "If a parent contributes ₸450,000 per month and the family would need five years to adjust, the income gap alone is ₸27,000,000 before debts or education costs.",
+              "ru": "Если родитель приносит ₸450,000 в месяц, а семье нужно пять лет на адаптацию, только разрыв дохода составит ₸27,000,000 до учёта долгов или расходов на образование.",
+              "kk": "Егер ата-ана айына ₸450,000 қосса және отбасыға бейімделуге бес жыл керек болса, қарыздар мен оқу шығындарын есептемегенде табыс алшақтығы ₸27,000,000 болады."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Term versus permanent logic"},
-            "body": {"en": "Term life insurance covers a defined period, such as the years children are dependent or a mortgage remains. Permanent products can include savings or investment features, but they are more complex and should not be bought without understanding costs."},
-            "tip": {"en": "Match the policy to the actual dependency period, not to a vague fear."}
+            "title": {
+              "en": "Term versus permanent logic",
+              "ru": "Логика срочного и постоянного страхования",
+              "kk": "Мерзімді және тұрақты сақтандыру логикасы"
+            },
+            "body": {
+              "en": "Term life insurance covers a defined period, such as the years children are dependent or a mortgage remains. Permanent products can include savings or investment features, but they are more complex and should not be bought without understanding costs.",
+              "ru": "Срочное страхование жизни покрывает определённый период, например годы, пока дети зависят от дохода или пока остаётся ипотека. Постоянные продукты могут включать сберегательные или инвестиционные элементы, но они сложнее, и их не стоит покупать без понимания расходов.",
+              "kk": "Мерзімді өмір сақтандыруы белгілі бір кезеңді қамтиды, мысалы балалар тәуелді жылдар немесе ипотека қалған уақыт. Тұрақты өнімдер жинақ немесе инвестиция элементтерін қамтуы мүмкін, бірақ олар күрделірек және шығындарын түсінбей сатып алмау керек."
+            },
+            "tip": {
+              "en": "Match the policy to the actual dependency period, not to a vague fear.",
+              "ru": "Подбирайте полис под реальный период зависимости, а не под смутный страх.",
+              "kk": "Полисті бұлыңғыр қорқынышқа емес, нақты тәуелділік кезеңіне сәйкестендіріңіз."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Estimating a coverage need"},
+            "title": {
+              "en": "Estimating a coverage need",
+              "ru": "Оценка нужного покрытия",
+              "kk": "Қажет қамтуды бағалау"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "A household depends on one main earner. The goal is to estimate the financial hole, not to choose a random large number."},
-                  {"type": "table", "rows": [["Need", "Amount"], ["Five years of support", "₸27,000,000"], ["Remaining consumer debt", "₸2,000,000"], ["Education support", "₸5,000,000"], ["Existing savings", "-₸4,000,000"], ["Estimated coverage gap", "₸30,000,000"]]},
-                  {"type": "paragraph", "text": "This is not a universal formula. It shows the logic: cover the gap that dependents cannot absorb alone."}
+                  {
+                    "type": "paragraph",
+                    "text": "A household depends on one main earner. The goal is to estimate the financial hole, not to choose a random large number."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Need",
+                        "Amount"
+                      ],
+                      [
+                        "Five years of support",
+                        "₸27,000,000"
+                      ],
+                      [
+                        "Remaining consumer debt",
+                        "₸2,000,000"
+                      ],
+                      [
+                        "Education support",
+                        "₸5,000,000"
+                      ],
+                      [
+                        "Existing savings",
+                        "-₸4,000,000"
+                      ],
+                      [
+                        "Estimated coverage gap",
+                        "₸30,000,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "This is not a universal formula. It shows the logic: cover the gap that dependents cannot absorb alone."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Семья зависит от одного основного кормильца. Цель — оценить финансовую дыру, а не выбрать случайно большую сумму."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Потребность",
+                        "Сумма"
+                      ],
+                      [
+                        "Пять лет поддержки",
+                        "₸27,000,000"
+                      ],
+                      [
+                        "Оставшийся потребительский долг",
+                        "₸2,000,000"
+                      ],
+                      [
+                        "Поддержка образования",
+                        "₸5,000,000"
+                      ],
+                      [
+                        "Имеющиеся сбережения",
+                        "-₸4,000,000"
+                      ],
+                      [
+                        "Оценочный разрыв покрытия",
+                        "₸30,000,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Это не универсальная формула. Она показывает логику: покрыть разрыв, который иждивенцы не смогут выдержать сами."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Отбасы бір негізгі табыс табушыға тәуелді. Мақсат — кездейсоқ үлкен сан таңда емес, қаржылық бос орынды бағалау."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қажеттілік",
+                        "Сома"
+                      ],
+                      [
+                        "Бес жылдық қолдау",
+                        "₸27,000,000"
+                      ],
+                      [
+                        "Қалған тұтынушылық қарыз",
+                        "₸2,000,000"
+                      ],
+                      [
+                        "Оқу қолдауы",
+                        "₸5,000,000"
+                      ],
+                      [
+                        "Бар жинақ",
+                        "-₸4,000,000"
+                      ],
+                      [
+                        "Болжамды қамту алшақтығы",
+                        "₸30,000,000"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Бұл әмбебап формула емес. Ол логиканы көрсетеді: асырауындағы адамдар өздері көтере алмайтын алшақтықты жабу."
+                  }
                 ]
               }
             }
@@ -410,17 +1690,88 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Who needs life insurance most?"},
-            "body": {"en": "Label each case by whether life insurance is likely a priority."},
+            "title": {
+              "en": "Who needs life insurance most?",
+              "ru": "Кому страхование жизни нужнее всего?",
+              "kk": "Өмірді сақтандыру кімге ең қажет?"
+            },
+            "body": {
+              "en": "Label each case by whether life insurance is likely a priority.",
+              "ru": "Отметьте каждый случай: вероятно ли страхование жизни является приоритетом.",
+              "kk": "Әр жағдайды белгілеңіз: өмірді сақтандыру басымдық болуы мүмкін бе."
+            },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
               "en": {
                 "instruction": "Choose the more reasonable conclusion for each person.",
-                "options": ["High priority", "Lower priority"],
+                "options": [
+                  "High priority",
+                  "Lower priority"
+                ],
                 "scenarios": [
-                  {"text": "A parent has two young children and a spouse who would struggle to cover rent without their salary.", "correct_answer": "High priority", "explanation": "Dependents and income reliance create a clear financial gap."},
-                  {"text": "A single person has no dependents, no shared debts, and enough savings to cover final expenses.", "correct_answer": "Lower priority", "explanation": "There may be no major person left financially exposed."},
-                  {"text": "A borrower has a co-signed loan that would fall entirely on a family member if they died.", "correct_answer": "High priority", "explanation": "The co-signer is financially exposed, so coverage may protect them."}
+                  {
+                    "text": "A parent has two young children and a spouse who would struggle to cover rent without their salary.",
+                    "correct_answer": "High priority",
+                    "explanation": "Dependents and income reliance create a clear financial gap."
+                  },
+                  {
+                    "text": "A single person has no dependents, no shared debts, and enough savings to cover final expenses.",
+                    "correct_answer": "Lower priority",
+                    "explanation": "There may be no major person left financially exposed."
+                  },
+                  {
+                    "text": "A borrower has a co-signed loan that would fall entirely on a family member if they died.",
+                    "correct_answer": "High priority",
+                    "explanation": "The co-signer is financially exposed, so coverage may protect them."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Выберите более разумный вывод для каждого человека.",
+                "options": [
+                  "Высокий приоритет",
+                  "Низкий приоритет"
+                ],
+                "scenarios": [
+                  {
+                    "text": "У родителя двое маленьких детей и супруг/супруга, которому было бы трудно оплачивать аренду без его зарплаты.",
+                    "correct_answer": "Высокий приоритет",
+                    "explanation": "Иждивенцы и зависимость от дохода создают явный финансовый разрыв."
+                  },
+                  {
+                    "text": "У одинокого человека нет иждивенцев, общих долгов, и достаточно сбережений для покрытия финальных расходов.",
+                    "correct_answer": "Низкий приоритет",
+                    "explanation": "Возможно, не остаётся человека, который был бы серьёзно финансово уязвим."
+                  },
+                  {
+                    "text": "У заёмщика есть кредит с созаёмщиком/поручителем, который полностью лег бы на члена семьи в случае смерти заёмщика.",
+                    "correct_answer": "Высокий приоритет",
+                    "explanation": "Созаёмщик/поручитель финансово уязвим, поэтому покрытие может его защитить."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр адам үшін неғұрлым орынды қорытындыны таңдаңыз.",
+                "options": [
+                  "Жоғары басымдық",
+                  "Төмен басымдық"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Ата-ананың екі кішкентай баласы және оның жалақысыз жалдау ақысын жабуға қиналатын жұбайы бар.",
+                    "correct_answer": "Жоғары басымдық",
+                    "explanation": "Асырауындағы адамдар және табысқа тәуелділік нақты қаржылық алшақтық тудырады."
+                  },
+                  {
+                    "text": "Жалғыз адамның асырауында ешкім жоқ, ортақ қарыздары жоқ және соңғы шығындарды жабуға жеткілікті жинағы бар.",
+                    "correct_answer": "Төмен басымдық",
+                    "explanation": "Қаржылық тұрғыдан айтарлықтай осал болып қалатын адам болмауы мүмкін."
+                  },
+                  {
+                    "text": "Қарыз алушының бірге қол қойылған несиесі бар, ол қайтыс болса, қарыз толықтай отбасы мүшесіне түседі.",
+                    "correct_answer": "Жоғары басымдық",
+                    "explanation": "Бірге қол қойған адам қаржылық тәуекелде, сондықтан қамту оны қорғай алады."
+                  }
                 ]
               }
             }
@@ -429,39 +1780,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Protect the dependency gap"},
-            "body": {"en": "Life insurance is a tool for replacing financial support that others depend on. The right amount depends on the gap left behind, not on a generic multiple or a salesperson's suggestion. Next, property and liability insurance covers damage to things and harm caused to others."},
-            "tip": {"en": "The question is not 'How much can I buy?' but 'Who would be financially hurt, and by how much?'"}
+            "title": {
+              "en": "Protect the dependency gap",
+              "ru": "Защитите разрыв зависимости",
+              "kk": "Тәуелділік алшақтығын қорғаңыз"
+            },
+            "body": {
+              "en": "Life insurance is a tool for replacing financial support that others depend on. The right amount depends on the gap left behind, not on a generic multiple or a salesperson's suggestion. Next, property and liability insurance covers damage to things and harm caused to others.",
+              "ru": "Страхование жизни — инструмент замещения финансовой поддержки, от которой зависят другие. Правильная сумма зависит от оставленного разрыва, а не от универсального множителя или совета продавца. Далее страхование имущества и ответственности покрывает ущерб вещам и вред, причинённый другим.",
+              "kk": "Өмірді сақтандыру — басқалар тәуелді қаржылық қолдауды алмастыру құралы. Дұрыс сома жалпы коэффициентке немесе сатушы кеңесіне емес, қалатын алшақтыққа байланысты. Келесіде мүлік және жауапкершілік сақтандыруы заттарға келген зиянды және басқаларға келтірілген залалды қамтиды."
+            },
+            "tip": {
+              "en": "The question is not 'How much can I buy?' but 'Who would be financially hurt, and by how much?'",
+              "ru": "Вопрос не в том: «Сколько я могу купить?», а в том: «Кто пострадает финансово и на какую сумму?»",
+              "kk": "Сұрақ «Қанша сатып ала аламын?» емес, «Кім қаржылық зардап шегеді және қаншаға?»"
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 904,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Life Insurance — Check"},
+        "title": {
+          "en": "Life Insurance — Check",
+          "ru": "Страхование жизни — проверка",
+          "kk": "Өмірді сақтандыру — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "A 28-year-old has no dependents, no shared debt, and a strong emergency fund. What does the life insurance model suggest?"},
+            "question_text": {
+              "en": "A 28-year-old has no dependents, no shared debt, and a strong emergency fund. What does the life insurance model suggest?",
+              "ru": "У 28-летнего человека нет иждивенцев, общих долгов и есть сильный резервный фонд. Что предполагает модель страхования жизни?",
+              "kk": "28 жастағы адамның асырауында ешкім жоқ, ортақ қарызы жоқ және мықты төтенше қоры бар. Өмірді сақтандыру моделі не ұсынады?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Life insurance may be a lower priority because there is little dependency gap"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "They must buy the largest policy available"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "They need life insurance because every adult has equal need"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "They should replace health insurance with life insurance"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Life insurance may be a lower priority because there is little dependency gap",
+                  "ru": "Страхование жизни может быть менее приоритетным, потому что разрыв зависимости небольшой",
+                  "kk": "Тәуелділік алшақтығы аз болғандықтан, өмірді сақтандыру төменірек басымдық болуы мүмкін"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "They must buy the largest policy available",
+                  "ru": "Он обязан купить самый большой доступный полис",
+                  "kk": "Ол қолжетімді ең үлкен полисті сатып алуы керек"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They need life insurance because every adult has equal need",
+                  "ru": "Ему нужно страхование жизни, потому что у всех взрослых одинаковая потребность",
+                  "kk": "Оған өмірді сақтандыру керек, өйткені барлық ересектердің қажеттілігі бірдей"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "They should replace health insurance with life insurance",
+                  "ru": "Ему следует заменить медицинское страхование страхованием жизни",
+                  "kk": "Ол медициналық сақтандыруды өмірді сақтандырумен ауыстыруы керек"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "A parent earns ₸600,000 per month and supports two children. What is the most useful first step in sizing coverage?"},
+            "question_text": {
+              "en": "A parent earns ₸600,000 per month and supports two children. What is the most useful first step in sizing coverage?",
+              "ru": "Родитель зарабатывает ₸600,000 в месяц и содержит двух детей. Какой самый полезный первый шаг при расчёте покрытия?",
+              "kk": "Ата-ана айына ₸600,000 табады және екі баланы асырайды. Қамту мөлшерін есептеудегі ең пайдалы алғашқы қадам қандай?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Estimate the income, debt, and education gap the family would face"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Pick the policy with the highest premium"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Buy coverage equal to one month of income"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Ignore existing savings when calculating the need"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Estimate the income, debt, and education gap the family would face",
+                  "ru": "Оценить разрыв по доходу, долгам и образованию, с которым столкнётся семья",
+                  "kk": "Отбасы тап болатын табыс, қарыз және оқу алшақтығын бағалау"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Pick the policy with the highest premium",
+                  "ru": "Выбрать полис с самым высоким взносом",
+                  "kk": "Ең жоғары жарналы полисті таңдау"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Buy coverage equal to one month of income",
+                  "ru": "Купить покрытие, равное одному месяцу дохода",
+                  "kk": "Бір айлық табысқа тең қамту сатып алу"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Ignore existing savings when calculating the need",
+                  "ru": "Игнорировать имеющиеся сбережения при расчёте потребности",
+                  "kk": "Қажеттілікті есептегенде бар жинақты елемеу"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -469,8 +1916,16 @@
     },
     {
       "code": "property_and_liability_insurance",
-      "title": {"en": "Property and Liability Insurance"},
-      "description": {"en": "Property coverage protects your assets; liability coverage protects you from claims by others."},
+      "title": {
+        "en": "Property and Liability Insurance",
+        "ru": "Страхование имущества и ответственности",
+        "kk": "Мүлік және жауапкершілік сақтандыруы"
+      },
+      "description": {
+        "en": "Property coverage protects your assets; liability coverage protects you from claims by others.",
+        "ru": "Имущественное покрытие защищает ваши активы; покрытие ответственности защищает вас от требований других людей.",
+        "kk": "Мүліктік қамту активтеріңізді қорғайды; жауапкершілік қамтуы басқа адамдардың талаптарынан қорғайды."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 4,
       "quizId": 905,
@@ -480,37 +1935,181 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "Two different problems"},
-            "body": {"en": "Property insurance and liability insurance sound similar, but they protect against different financial shocks. One protects what you own; the other protects you when someone else claims you caused harm."},
-            "tip": {"en": "Damage to your asset and damage you cause to others are not the same risk."}
+            "title": {
+              "en": "Two different problems",
+              "ru": "Две разные проблемы",
+              "kk": "Екі түрлі мәселе"
+            },
+            "body": {
+              "en": "Property insurance and liability insurance sound similar, but they protect against different financial shocks. One protects what you own; the other protects you when someone else claims you caused harm.",
+              "ru": "Страхование имущества и страхование ответственности звучат похоже, но защищают от разных финансовых шоков. Одно защищает то, чем вы владеете; другое защищает вас, когда кто-то утверждает, что вы причинили вред.",
+              "kk": "Мүлік сақтандыруы мен жауапкершілік сақтандыруы ұқсас естіледі, бірақ әртүрлі қаржылық соққылардан қорғайды. Бірі сіздің иелігіңізді қорғайды; екіншісі біреу сіз зиян келтірдіңіз деп талап қойған кезде қорғайды."
+            },
+            "tip": {
+              "en": "Damage to your asset and damage you cause to others are not the same risk.",
+              "ru": "Ущерб вашему активу и ущерб, который вы причиняете другим, — это не один и тот же риск.",
+              "kk": "Өз активіңізге келген зиян мен басқаларға келтірген зиян бір тәуекел емес."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Property coverage"},
-            "body": {"en": "Property coverage applies to assets such as a car, apartment, or household items. The policy defines covered events, limits, deductibles, and how the insurer values the damaged property."},
-            "example": {"en": "A car policy may cover theft and collision but exclude damage caused while using the car for unauthorized commercial work."}
+            "title": {
+              "en": "Property coverage",
+              "ru": "Имущественное покрытие",
+              "kk": "Мүліктік қамту"
+            },
+            "body": {
+              "en": "Property coverage applies to assets such as a car, apartment, or household items. The policy defines covered events, limits, deductibles, and how the insurer values the damaged property.",
+              "ru": "Имущественное покрытие относится к активам: автомобилю, квартире или домашним вещам. Полис определяет покрываемые события, лимиты, франшизы и то, как страховщик оценивает повреждённое имущество.",
+              "kk": "Мүліктік қамту көлік, пәтер немесе үй заттары сияқты активтерге қолданылады. Полис жабылатын оқиғаларды, лимиттерді, франшизаларды және сақтандырушы зақымдалған мүлікті қалай бағалайтынын анықтайды."
+            },
+            "example": {
+              "en": "A car policy may cover theft and collision but exclude damage caused while using the car for unauthorized commercial work.",
+              "ru": "Автополис может покрывать угон и ДТП, но исключать ущерб, возникший при использовании автомобиля для неразрешённой коммерческой деятельности.",
+              "kk": "Автополис ұрлық пен соқтығысуды жабуы мүмкін, бірақ көлікті рұқсат етілмеген коммерциялық жұмысқа пайдаланғандағы зиянды қоспауы мүмкін."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Liability coverage"},
-            "body": {"en": "Liability coverage matters when your actions create costs for someone else. Because claims can include repairs, medical bills, legal costs, and lost income, liability losses can be much larger than the value of your own damaged item."},
-            "tip": {"en": "Liability is about financial responsibility to others, not about replacing your own belongings."}
+            "title": {
+              "en": "Liability coverage",
+              "ru": "Покрытие ответственности",
+              "kk": "Жауапкершілік қамтуы"
+            },
+            "body": {
+              "en": "Liability coverage matters when your actions create costs for someone else. Because claims can include repairs, medical bills, legal costs, and lost income, liability losses can be much larger than the value of your own damaged item.",
+              "ru": "Покрытие ответственности важно, когда ваши действия создают расходы для другого человека. Поскольку требования могут включать ремонт, медицинские счета, юридические расходы и потерянный доход, убытки по ответственности могут быть намного больше стоимости вашего собственного повреждённого имущества.",
+              "kk": "Жауапкершілік қамтуы сіздің әрекеттеріңіз басқа адамға шығын тудырғанда маңызды. Талаптарға жөндеу, медициналық шоттар, заңгерлік шығындар және жоғалған табыс кіруі мүмкін, сондықтан жауапкершілік шығындары өзіңіздің зақымдалған затыңыздың құнынан әлдеқайда үлкен болуы мүмкін."
+            },
+            "tip": {
+              "en": "Liability is about financial responsibility to others, not about replacing your own belongings.",
+              "ru": "Ответственность — это финансовая обязанность перед другими, а не замена ваших собственных вещей.",
+              "kk": "Жауапкершілік — өз заттарыңызды ауыстыру емес, басқалар алдындағы қаржылық жауапкершілік."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Same accident, two coverages"},
+            "title": {
+              "en": "Same accident, two coverages",
+              "ru": "Одна авария, два вида покрытия",
+              "kk": "Бір апат, екі қамту"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "A driver causes an accident. Their own car is damaged, and the other driver's car is damaged too."},
-                  {"type": "table", "rows": [["Loss", "Coverage type", "Why it matters"], ["Your car repair: ₸700,000", "Property", "It restores your own asset"], ["Other car repair: ₸1,200,000", "Liability", "You are responsible for another person's loss"], ["Legal dispute costs", "Liability", "Claims can include more than repairs"]]},
-                  {"type": "paragraph", "text": "A policy can be strong in one area and weak in another, so the coverage sections must be read separately."}
+                  {
+                    "type": "paragraph",
+                    "text": "A driver causes an accident. Their own car is damaged, and the other driver's car is damaged too."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Loss",
+                        "Coverage type",
+                        "Why it matters"
+                      ],
+                      [
+                        "Your car repair: ₸700,000",
+                        "Property",
+                        "It restores your own asset"
+                      ],
+                      [
+                        "Other car repair: ₸1,200,000",
+                        "Liability",
+                        "You are responsible for another person's loss"
+                      ],
+                      [
+                        "Legal dispute costs",
+                        "Liability",
+                        "Claims can include more than repairs"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "A policy can be strong in one area and weak in another, so the coverage sections must be read separately."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Водитель становится причиной аварии. Его собственный автомобиль повреждён, и автомобиль другого водителя тоже повреждён."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Убыток",
+                        "Тип покрытия",
+                        "Почему это важно"
+                      ],
+                      [
+                        "Ремонт вашего автомобиля: ₸700,000",
+                        "Имущество",
+                        "Это восстанавливает ваш собственный актив"
+                      ],
+                      [
+                        "Ремонт другого автомобиля: ₸1,200,000",
+                        "Ответственность",
+                        "Вы отвечаете за убыток другого человека"
+                      ],
+                      [
+                        "Расходы на юридический спор",
+                        "Ответственность",
+                        "Требования могут включать не только ремонт"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Полис может быть сильным в одной части и слабым в другой, поэтому разделы покрытия нужно читать отдельно."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Жүргізуші апатқа себеп болады. Оның өз көлігі де, басқа жүргізушінің көлігі де зақымдалады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Шығын",
+                        "Қамту түрі",
+                        "Неліктен маңызды"
+                      ],
+                      [
+                        "Сіздің көлігіңізді жөндеу: ₸700,000",
+                        "Мүлік",
+                        "Бұл өз активіңізді қалпына келтіреді"
+                      ],
+                      [
+                        "Басқа көлікті жөндеу: ₸1,200,000",
+                        "Жауапкершілік",
+                        "Сіз басқа адамның шығыны үшін жауаптысыз"
+                      ],
+                      [
+                        "Құқықтық дау шығындары",
+                        "Жауапкершілік",
+                        "Талаптар жөндеуден де көп нәрсені қамтуы мүмкін"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Полис бір салада күшті, басқа салада әлсіз болуы мүмкін, сондықтан қамту бөлімдерін бөлек оқу керек."
+                  }
                 ]
               }
             }
@@ -519,29 +2118,167 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Property or liability?"},
-            "body": {"en": "Sort each case by the main type of coverage involved."},
+            "title": {
+              "en": "Property or liability?",
+              "ru": "Имущество или ответственность?",
+              "kk": "Мүлік пе, жауапкершілік пе?"
+            },
+            "body": {
+              "en": "Sort each case by the main type of coverage involved.",
+              "ru": "Распределите каждый случай по основному типу покрытия.",
+              "kk": "Әр жағдайды қатысатын негізгі қамту түрі бойынша бөліңіз."
+            },
             "interactiveType": "drag_drop",
             "interactiveContent": {
               "en": {
                 "instruction": "Place each situation under property coverage or liability coverage.",
                 "categories": [
-                  {"id": "property", "label": "Property"},
-                  {"id": "liability", "label": "Liability"}
+                  {
+                    "id": "property",
+                    "label": "Property"
+                  },
+                  {
+                    "id": "liability",
+                    "label": "Liability"
+                  }
                 ],
                 "items": [
-                  {"id": "stolen_laptop", "text": "Your insured laptop is stolen from your apartment"},
-                  {"id": "neighbor_leak", "text": "A water leak from your apartment damages a neighbor's ceiling"},
-                  {"id": "own_car", "text": "Your car is damaged in a covered collision"},
-                  {"id": "injury_claim", "text": "A visitor claims your negligence caused an injury"}
+                  {
+                    "id": "stolen_laptop",
+                    "text": "Your insured laptop is stolen from your apartment"
+                  },
+                  {
+                    "id": "neighbor_leak",
+                    "text": "A water leak from your apartment damages a neighbor's ceiling"
+                  },
+                  {
+                    "id": "own_car",
+                    "text": "Your car is damaged in a covered collision"
+                  },
+                  {
+                    "id": "injury_claim",
+                    "text": "A visitor claims your negligence caused an injury"
+                  }
                 ],
                 "answers": [
-                  {"itemId": "stolen_laptop", "categoryId": "property"},
-                  {"itemId": "neighbor_leak", "categoryId": "liability"},
-                  {"itemId": "own_car", "categoryId": "property"},
-                  {"itemId": "injury_claim", "categoryId": "liability"}
+                  {
+                    "itemId": "stolen_laptop",
+                    "categoryId": "property"
+                  },
+                  {
+                    "itemId": "neighbor_leak",
+                    "categoryId": "liability"
+                  },
+                  {
+                    "itemId": "own_car",
+                    "categoryId": "property"
+                  },
+                  {
+                    "itemId": "injury_claim",
+                    "categoryId": "liability"
+                  }
                 ],
                 "explanation": "Property coverage is about your assets. Liability coverage is about claims from other people because of harm or damage you may be responsible for."
+              },
+              "ru": {
+                "instruction": "Поместите каждую ситуацию в имущественное покрытие или покрытие ответственности.",
+                "categories": [
+                  {
+                    "id": "property",
+                    "label": "Имущество"
+                  },
+                  {
+                    "id": "liability",
+                    "label": "Ответственность"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "stolen_laptop",
+                    "text": "Ваш застрахованный ноутбук украли из квартиры"
+                  },
+                  {
+                    "id": "neighbor_leak",
+                    "text": "Протечка из вашей квартиры повредила потолок соседа"
+                  },
+                  {
+                    "id": "own_car",
+                    "text": "Ваш автомобиль повреждён в покрываемом ДТП"
+                  },
+                  {
+                    "id": "injury_claim",
+                    "text": "Посетитель заявляет, что ваша небрежность привела к травме"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "stolen_laptop",
+                    "categoryId": "property"
+                  },
+                  {
+                    "itemId": "neighbor_leak",
+                    "categoryId": "liability"
+                  },
+                  {
+                    "itemId": "own_car",
+                    "categoryId": "property"
+                  },
+                  {
+                    "itemId": "injury_claim",
+                    "categoryId": "liability"
+                  }
+                ],
+                "explanation": "Имущественное покрытие касается ваших активов. Покрытие ответственности касается требований других людей из-за вреда или ущерба, за который вы можете отвечать."
+              },
+              "kk": {
+                "instruction": "Әр жағдайды мүліктік қамтуға немесе жауапкершілік қамтуына орналастырыңыз.",
+                "categories": [
+                  {
+                    "id": "property",
+                    "label": "Мүлік"
+                  },
+                  {
+                    "id": "liability",
+                    "label": "Жауапкершілік"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "stolen_laptop",
+                    "text": "Сақтандырылған ноутбугыңыз пәтеріңізден ұрланды"
+                  },
+                  {
+                    "id": "neighbor_leak",
+                    "text": "Сіздің пәтеріңізден аққан су көршінің төбесін зақымдады"
+                  },
+                  {
+                    "id": "own_car",
+                    "text": "Сіздің көлігіңіз қамтылатын соқтығыста зақымдалды"
+                  },
+                  {
+                    "id": "injury_claim",
+                    "text": "Келуші сіздің немқұрайлылығыңыз жарақатқа себеп болды деп талап қояды"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "stolen_laptop",
+                    "categoryId": "property"
+                  },
+                  {
+                    "itemId": "neighbor_leak",
+                    "categoryId": "liability"
+                  },
+                  {
+                    "itemId": "own_car",
+                    "categoryId": "property"
+                  },
+                  {
+                    "itemId": "injury_claim",
+                    "categoryId": "liability"
+                  }
+                ],
+                "explanation": "Мүліктік қамту сіздің активтеріңізге қатысты. Жауапкершілік қамтуы сіз жауапты болуыңыз мүмкін зиян немесе залал үшін басқа адамдардың талаптарына қатысты."
               }
             }
           },
@@ -549,51 +2286,187 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Separate the risks"},
-            "body": {"en": "Property insurance protects your balance sheet from damage to owned assets. Liability insurance protects it from claims by others, which can be unpredictable and large. Next, choosing a policy and filing a claim turns these concepts into practical steps."},
-            "tip": {"en": "When reading a policy, ask: what is protected, against which events, up to what limit, and with what exclusions?"}
+            "title": {
+              "en": "Separate the risks",
+              "ru": "Разделяйте риски",
+              "kk": "Тәуекелдерді бөліңіз"
+            },
+            "body": {
+              "en": "Property insurance protects your balance sheet from damage to owned assets. Liability insurance protects it from claims by others, which can be unpredictable and large. Next, choosing a policy and filing a claim turns these concepts into practical steps.",
+              "ru": "Страхование имущества защищает ваш баланс от ущерба вашим активам. Страхование ответственности защищает его от требований других людей, которые могут быть непредсказуемыми и крупными. Далее выбор полиса и подача заявления превратят эти понятия в практические шаги.",
+              "kk": "Мүлік сақтандыруы балансыңызды өз активтеріңізге келген зияннан қорғайды. Жауапкершілік сақтандыруы оны басқа адамдардың ірі әрі күтпеген талаптарынан қорғайды. Келесіде полис таңдау және талап беру бұл ұғымдарды практикалық қадамдарға айналдырады."
+            },
+            "tip": {
+              "en": "When reading a policy, ask: what is protected, against which events, up to what limit, and with what exclusions?",
+              "ru": "Читая полис, спрашивайте: что защищено, от каких событий, до какого лимита и с какими исключениями?",
+              "kk": "Полисті оқығанда сұраңыз: не қорғалған, қандай оқиғалардан, қандай лимитке дейін және қандай ерекшеліктермен?"
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 905,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Property and Liability Insurance — Check"},
+        "title": {
+          "en": "Property and Liability Insurance — Check",
+          "ru": "Страхование имущества и ответственности — проверка",
+          "kk": "Мүлік және жауапкершілік сақтандыруы — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "Your washing machine leaks and damages the apartment below. Which coverage concept is most relevant?"},
+            "question_text": {
+              "en": "Your washing machine leaks and damages the apartment below. Which coverage concept is most relevant?",
+              "ru": "Ваша стиральная машина протекает и повреждает квартиру ниже. Какое понятие покрытия наиболее актуально?",
+              "kk": "Кір жуғыш машинаңыздан су ағып, төмендегі пәтерге зиян келтіреді. Қай қамту ұғымы ең өзекті?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Liability, because another person may claim compensation from you"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Property only, because water was involved"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Life insurance, because the event happened at home"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "No insurance can ever apply to accidental damage"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Liability, because another person may claim compensation from you",
+                  "ru": "Ответственность, потому что другой человек может потребовать от вас компенсацию",
+                  "kk": "Жауапкершілік, өйткені басқа адам сізден өтемақы талап етуі мүмкін"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Property only, because water was involved",
+                  "ru": "Только имущество, потому что речь о воде",
+                  "kk": "Тек мүлік, өйткені су қатысты"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Life insurance, because the event happened at home",
+                  "ru": "Страхование жизни, потому что событие произошло дома",
+                  "kk": "Өмірді сақтандыру, өйткені оқиға үйде болды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "No insurance can ever apply to accidental damage",
+                  "ru": "Никакое страхование никогда не применяется к случайному ущербу",
+                  "kk": "Кездейсоқ зиянға ешқандай сақтандыру қолданылмайды"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Why can liability limits matter even more than the value of your own property?"},
+            "question_text": {
+              "en": "Why can liability limits matter even more than the value of your own property?",
+              "ru": "Почему лимиты ответственности могут быть даже важнее стоимости вашего собственного имущества?",
+              "kk": "Неліктен жауапкершілік лимиттері өз мүлкіңіздің құнынан да маңызды болуы мүмкін?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Because claims from others can include repair, medical, legal, and income-related costs"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Because liability always pays for your own damaged items"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Because property values never change"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Because deductibles do not exist for liability claims"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Because claims from others can include repair, medical, legal, and income-related costs",
+                  "ru": "Потому что требования других людей могут включать ремонт, медицинские, юридические расходы и потери дохода",
+                  "kk": "Өйткені басқа адамдардың талаптарына жөндеу, медициналық, заңгерлік және табысқа байланысты шығындар кіруі мүмкін"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Because liability always pays for your own damaged items",
+                  "ru": "Потому что ответственность всегда оплачивает ваши собственные повреждённые вещи",
+                  "kk": "Өйткені жауапкершілік әрқашан өзіңіздің зақымдалған заттарыңызды төлейді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Because property values never change",
+                  "ru": "Потому что стоимость имущества никогда не меняется",
+                  "kk": "Өйткені мүлік құны ешқашан өзгермейді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Because deductibles do not exist for liability claims",
+                  "ru": "Потому что франшизы не существуют для требований по ответственности",
+                  "kk": "Өйткені жауапкершілік талаптарында франшиза болмайды"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 3,
             "question_type": "single_choice",
             "order_index": 2,
-            "question_text": {"en": "A policy covers your car against theft but has very low third-party liability limits. What is the weakness?"},
+            "question_text": {
+              "en": "A policy covers your car against theft but has very low third-party liability limits. What is the weakness?",
+              "ru": "Полис покрывает ваш автомобиль от угона, но имеет очень низкие лимиты ответственности перед третьими лицами. В чём слабость?",
+              "kk": "Полис көлігіңізді ұрлықтан жабады, бірақ үшінші тұлғалар алдындағы жауапкершілік лимиттері өте төмен. Әлсіз тұсы қандай?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "It may protect your asset but leave you exposed to large claims from others"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "It is automatically complete because theft is covered"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "It only works if no accident ever happens"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "It should be judged only by the monthly premium"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It may protect your asset but leave you exposed to large claims from others",
+                  "ru": "Он может защитить ваш актив, но оставить вас уязвимым перед крупными требованиями других людей",
+                  "kk": "Ол активіңізді қорғауы мүмкін, бірақ басқа адамдардың ірі талаптарына ашық қалдыруы мүмкін"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It is automatically complete because theft is covered",
+                  "ru": "Он автоматически полный, потому что угон покрыт",
+                  "kk": "Ұрлық қамтылғандықтан, ол автоматты түрде толық"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It only works if no accident ever happens",
+                  "ru": "Он работает только если авария никогда не произойдёт",
+                  "kk": "Ол тек апат ешқашан болмаса ғана жұмыс істейді"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It should be judged only by the monthly premium",
+                  "ru": "Его нужно оценивать только по ежемесячному взносу",
+                  "kk": "Оны тек ай сайынғы жарна бойынша бағалау керек"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -601,8 +2474,16 @@
     },
     {
       "code": "picking_a_policy_and_claims",
-      "title": {"en": "How to Pick a Policy and File a Claim"},
-      "description": {"en": "Good insurance decisions come from comparing coverage rules before buying and documenting losses after an event."},
+      "title": {
+        "en": "How to Pick a Policy and File a Claim",
+        "ru": "Как выбрать полис и подать заявление на выплату",
+        "kk": "Полисті қалай таңдап, талапты қалай беру керек"
+      },
+      "description": {
+        "en": "Good insurance decisions come from comparing coverage rules before buying and documenting losses after an event.",
+        "ru": "Хорошие страховые решения появляются, когда правила покрытия сравнивают до покупки, а убытки документируют после события.",
+        "kk": "Жақсы сақтандыру шешімдері сатып алмас бұрын қамту ережелерін салыстырудан және оқиғадан кейін шығындарды құжаттаудан туындайды."
+      },
       "estimatedMinutes": 6,
       "orderIndex": 5,
       "quizId": 906,
@@ -612,37 +2493,211 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "The policy matters before the event"},
-            "body": {"en": "Most insurance disappointment comes from discovering limits and exclusions after a loss. A policy should be evaluated before buying as a set of rules for future claims."},
-            "tip": {"en": "You are buying a claim process, not just a promise in an advertisement."}
+            "title": {
+              "en": "The policy matters before the event",
+              "ru": "Полис важен до события",
+              "kk": "Полис оқиғаға дейін маңызды"
+            },
+            "body": {
+              "en": "Most insurance disappointment comes from discovering limits and exclusions after a loss. A policy should be evaluated before buying as a set of rules for future claims.",
+              "ru": "Большинство разочарований в страховании возникает, когда лимиты и исключения обнаруживаются после убытка. Полис нужно оценивать до покупки как набор правил для будущих обращений.",
+              "kk": "Сақтандырудағы көңіл қалудың көбі лимиттер мен ерекшеліктерді шығыннан кейін білуден болады. Полисті сатып алмас бұрын болашақ талаптар ережелерінің жиынтығы ретінде бағалау керек."
+            },
+            "tip": {
+              "en": "You are buying a claim process, not just a promise in an advertisement.",
+              "ru": "Вы покупаете процесс урегулирования, а не просто обещание из рекламы.",
+              "kk": "Сіз жарнамадағы уәдені ғана емес, талап қарау процесін сатып алып жатырсыз."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Compare coverage, not slogans"},
-            "body": {"en": "Start with the risks you need covered, then compare limits, deductibles, exclusions, waiting periods, provider networks, and claim documents. A cheap policy that excludes the main risk is not cheap."},
-            "example": {"en": "For travel insurance, emergency medical limit, evacuation coverage, exclusions for sports, and document deadlines may matter more than a ₸5,000 price difference."}
+            "title": {
+              "en": "Compare coverage, not slogans",
+              "ru": "Сравнивайте покрытие, а не лозунги",
+              "kk": "Ұрандарды емес, қамтуды салыстырыңыз"
+            },
+            "body": {
+              "en": "Start with the risks you need covered, then compare limits, deductibles, exclusions, waiting periods, provider networks, and claim documents. A cheap policy that excludes the main risk is not cheap.",
+              "ru": "Начните с рисков, которые нужно покрыть, затем сравните лимиты, франшизы, исключения, периоды ожидания, сети поставщиков и документы для заявления. Дешёвый полис, исключающий главный риск, не является дешёвым.",
+              "kk": "Алдымен жабылуы керек тәуекелдерден бастаңыз, содан кейін лимиттерді, франшизаларды, ерекшеліктерді, күту мерзімдерін, провайдер желілерін және талап құжаттарын салыстырыңыз. Негізгі тәуекелді қоспайтын арзан полис арзан емес."
+            },
+            "example": {
+              "en": "For travel insurance, emergency medical limit, evacuation coverage, exclusions for sports, and document deadlines may matter more than a ₸5,000 price difference.",
+              "ru": "Для туристической страховки лимит экстренной медицинской помощи, покрытие эвакуации, исключения по спорту и сроки подачи документов могут быть важнее разницы в цене ₸5,000.",
+              "kk": "Саяхат сақтандыруында шұғыл медициналық лимит, эвакуация қамтуы, спортқа қатысты ерекшеліктер және құжат мерзімдері ₸5,000 баға айырмасынан маңызды болуы мүмкін."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Claims need evidence"},
-            "body": {"en": "After a loss, the insurer needs proof that the event happened, the loss amount is real, and the policy covers it. Photos, receipts, police reports, medical documents, and timely notification can decide whether a claim is smooth or delayed."},
-            "tip": {"en": "The claim file should tell a clear story: what happened, when, what was damaged, and what it costs."}
+            "title": {
+              "en": "Claims need evidence",
+              "ru": "Заявления требуют доказательств",
+              "kk": "Талаптарға дәлел керек"
+            },
+            "body": {
+              "en": "After a loss, the insurer needs proof that the event happened, the loss amount is real, and the policy covers it. Photos, receipts, police reports, medical documents, and timely notification can decide whether a claim is smooth or delayed.",
+              "ru": "После убытка страховщику нужны доказательства, что событие произошло, сумма убытка реальна и полис это покрывает. Фото, чеки, полицейские отчёты, медицинские документы и своевременное уведомление могут определить, будет ли заявление гладким или задержится.",
+              "kk": "Шығыннан кейін сақтандырушыға оқиға болғанын, шығын сомасы нақты екенін және полис оны жабатынын дәлелдеу керек. Фото, түбіртектер, полиция есептері, медициналық құжаттар және уақытылы хабарлау талаптың тез не кеш қаралуын анықтауы мүмкін."
+            },
+            "tip": {
+              "en": "The claim file should tell a clear story: what happened, when, what was damaged, and what it costs.",
+              "ru": "Пакет заявления должен ясно рассказывать историю: что произошло, когда, что повреждено и сколько это стоит.",
+              "kk": "Талап файлы нақты оқиғаны көрсетуі керек: не болды, қашан болды, не зақымдалды және қанша тұрады."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "A simple claim timeline"},
+            "title": {
+              "en": "A simple claim timeline",
+              "ru": "Простая последовательность действий по заявлению",
+              "kk": "Талап берудің қарапайым реті"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "After a covered apartment leak, the policyholder acts quickly instead of waiting until repairs are finished."},
-                  {"type": "table", "rows": [["Step", "Action", "Why it matters"], ["1", "Prevent further damage safely", "Policies may require loss reduction"], ["2", "Take photos and videos", "Shows condition before repairs"], ["3", "Notify insurer", "Meets reporting deadline"], ["4", "Collect repair estimate and receipts", "Supports claim amount"], ["5", "Follow insurer instructions", "Avoids avoidable rejection or delay"]]},
-                  {"type": "paragraph", "text": "The goal is not to argue emotionally. It is to connect evidence to the policy terms."}
+                  {
+                    "type": "paragraph",
+                    "text": "After a covered apartment leak, the policyholder acts quickly instead of waiting until repairs are finished."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Step",
+                        "Action",
+                        "Why it matters"
+                      ],
+                      [
+                        "1",
+                        "Prevent further damage safely",
+                        "Policies may require loss reduction"
+                      ],
+                      [
+                        "2",
+                        "Take photos and videos",
+                        "Shows condition before repairs"
+                      ],
+                      [
+                        "3",
+                        "Notify insurer",
+                        "Meets reporting deadline"
+                      ],
+                      [
+                        "4",
+                        "Collect repair estimate and receipts",
+                        "Supports claim amount"
+                      ],
+                      [
+                        "5",
+                        "Follow insurer instructions",
+                        "Avoids avoidable rejection or delay"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The goal is not to argue emotionally. It is to connect evidence to the policy terms."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "После покрываемой протечки в квартире держатель полиса действует быстро, а не ждёт окончания ремонта."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Шаг",
+                        "Действие",
+                        "Почему это важно"
+                      ],
+                      [
+                        "1",
+                        "Безопасно предотвратить дальнейший ущерб",
+                        "Полисы могут требовать уменьшения убытка"
+                      ],
+                      [
+                        "2",
+                        "Сделать фото и видео",
+                        "Показывает состояние до ремонта"
+                      ],
+                      [
+                        "3",
+                        "Уведомить страховщика",
+                        "Соблюдает срок уведомления"
+                      ],
+                      [
+                        "4",
+                        "Собрать смету ремонта и чеки",
+                        "Подтверждает сумму требования"
+                      ],
+                      [
+                        "5",
+                        "Следовать инструкциям страховщика",
+                        "Помогает избежать ненужного отказа или задержки"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Цель — не спорить эмоционально, а связать доказательства с условиями полиса."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Қамтылатын пәтер су ағуынан кейін полис иесі жөндеу біткенін күтпей, тез әрекет етеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қадам",
+                        "Әрекет",
+                        "Неліктен маңызды"
+                      ],
+                      [
+                        "1",
+                        "Қосымша зиянды қауіпсіз тоқтату",
+                        "Полистер шығынды азайтуды талап етуі мүмкін"
+                      ],
+                      [
+                        "2",
+                        "Фото және видео түсіру",
+                        "Жөндеуге дейінгі жағдайды көрсетеді"
+                      ],
+                      [
+                        "3",
+                        "Сақтандырушыға хабарлау",
+                        "Хабарлау мерзімін сақтайды"
+                      ],
+                      [
+                        "4",
+                        "Жөндеу сметасы мен түбіртектерді жинау",
+                        "Талап сомасын дәлелдейді"
+                      ],
+                      [
+                        "5",
+                        "Сақтандырушы нұсқауларын орындау",
+                        "Болдырмауға болатын бас тарту немесе кідірістен сақтайды"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Мақсат — эмоциямен дауласу емес, дәлелдерді полис шарттарымен байланыстыру."
+                  }
                 ]
               }
             }
@@ -651,18 +2706,125 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Policy selection mistakes"},
-            "body": {"en": "Spot the mistake that could create a bad insurance outcome."},
+            "title": {
+              "en": "Policy selection mistakes",
+              "ru": "Ошибки выбора полиса",
+              "kk": "Полис таңдаудағы қателер"
+            },
+            "body": {
+              "en": "Spot the mistake that could create a bad insurance outcome.",
+              "ru": "Найдите ошибку, которая может привести к плохому страхованию.",
+              "kk": "Нашар сақтандыру нәтижесіне әкелуі мүмкін қатені табыңыз."
+            },
             "interactiveType": "error_detector",
             "interactiveContent": {
               "en": {
                 "instruction": "Choose the main mistake in each case.",
                 "cases": [
-                  {"text": "Miras buys the cheapest travel policy without checking whether skiing is excluded, then plans a ski trip.", "options": ["a) No error", "b) He ignored an exclusion connected to his actual risk", "c) He bought insurance too early"], "correct": "b", "explanation": "The relevant risk must be covered. A low price does not help if the main activity is excluded."},
-                  {"text": "Dana photographs the damaged item, keeps receipts, reports the incident the same day, and follows the insurer's document list.", "options": ["a) No error", "b) She should repair everything first and report later", "c) She should avoid giving evidence"], "correct": "a", "explanation": "Timely evidence and documentation improve the chance of a smooth claim."},
-                  {"text": "A family compares two home policies only by monthly premium and ignores coverage limits for water damage.", "options": ["a) No error", "b) They ignored a loss limit that may matter more than price", "c) They should never compare policies"], "correct": "b", "explanation": "Coverage limits determine the maximum useful protection after a loss."}
+                  {
+                    "text": "Miras buys the cheapest travel policy without checking whether skiing is excluded, then plans a ski trip.",
+                    "options": [
+                      "a) No error",
+                      "b) He ignored an exclusion connected to his actual risk",
+                      "c) He bought insurance too early"
+                    ],
+                    "correct": "b",
+                    "explanation": "The relevant risk must be covered. A low price does not help if the main activity is excluded."
+                  },
+                  {
+                    "text": "Dana photographs the damaged item, keeps receipts, reports the incident the same day, and follows the insurer's document list.",
+                    "options": [
+                      "a) No error",
+                      "b) She should repair everything first and report later",
+                      "c) She should avoid giving evidence"
+                    ],
+                    "correct": "a",
+                    "explanation": "Timely evidence and documentation improve the chance of a smooth claim."
+                  },
+                  {
+                    "text": "A family compares two home policies only by monthly premium and ignores coverage limits for water damage.",
+                    "options": [
+                      "a) No error",
+                      "b) They ignored a loss limit that may matter more than price",
+                      "c) They should never compare policies"
+                    ],
+                    "correct": "b",
+                    "explanation": "Coverage limits determine the maximum useful protection after a loss."
+                  }
                 ],
                 "final_explanation": "Good insurance buying starts with the real risk. Good claiming turns the event into documented evidence that fits the policy rules."
+              },
+              "ru": {
+                "instruction": "Выберите главную ошибку в каждом случае.",
+                "cases": [
+                  {
+                    "text": "Мирас покупает самый дешёвый туристический полис, не проверив, исключены ли лыжи, а затем планирует лыжную поездку.",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Он проигнорировал исключение, связанное с его реальным риском",
+                      "c) Он купил страховку слишком рано"
+                    ],
+                    "correct": "b",
+                    "explanation": "Нужный риск должен быть покрыт. Низкая цена не помогает, если основная активность исключена."
+                  },
+                  {
+                    "text": "Дана фотографирует повреждённую вещь, сохраняет чеки, сообщает о происшествии в тот же день и следует списку документов страховщика.",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Ей нужно сначала всё отремонтировать, а потом сообщить",
+                      "c) Ей нужно избегать предоставления доказательств"
+                    ],
+                    "correct": "a",
+                    "explanation": "Своевременные доказательства и документы повышают шанс на гладкое рассмотрение заявления."
+                  },
+                  {
+                    "text": "Семья сравнивает два полиса для дома только по ежемесячному взносу и игнорирует лимиты покрытия ущерба от воды.",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Они проигнорировали лимит убытка, который может быть важнее цены",
+                      "c) Им никогда не следует сравнивать полисы"
+                    ],
+                    "correct": "b",
+                    "explanation": "Лимиты покрытия определяют максимальную полезную защиту после убытка."
+                  }
+                ],
+                "final_explanation": "Хорошая покупка страховки начинается с реального риска. Хорошее заявление превращает событие в документированные доказательства, соответствующие правилам полиса."
+              },
+              "kk": {
+                "instruction": "Әр жағдайдағы негізгі қатені таңдаңыз.",
+                "cases": [
+                  {
+                    "text": "Мирас шаңғы спорты қамтылмайтынын тексермей, ең арзан саяхат полисін сатып алады, содан кейін шаңғы сапарын жоспарлайды.",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Ол нақты тәуекеліне қатысты ерекшелікті елемеді",
+                      "c) Ол сақтандыруды тым ерте сатып алды"
+                    ],
+                    "correct": "b",
+                    "explanation": "Қатысты тәуекел қамтылуы керек. Негізгі әрекет қамтылмаса, төмен баға көмектеспейді."
+                  },
+                  {
+                    "text": "Дана зақымдалған затты суретке түсіреді, түбіртектерді сақтайды, оқиғаны сол күні хабарлайды және сақтандырушының құжат тізімін орындайды.",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Ол алдымен бәрін жөндеп, кейін хабарлауы керек",
+                      "c) Ол дәлел беруден қашуы керек"
+                    ],
+                    "correct": "a",
+                    "explanation": "Уақытылы дәлелдер мен құжаттар талаптың оңай қаралу мүмкіндігін арттырады."
+                  },
+                  {
+                    "text": "Отбасы екі үй полисін тек ай сайынғы жарна бойынша салыстырып, су зияны бойынша қамту лимиттерін елемейді.",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Олар бағадан маңызды болуы мүмкін шығын лимитін елемеді",
+                      "c) Олар полистерді ешқашан салыстырмауы керек"
+                    ],
+                    "correct": "b",
+                    "explanation": "Қамту лимиттері шығыннан кейінгі ең жоғары пайдалы қорғанысты анықтайды."
+                  }
+                ],
+                "final_explanation": "Жақсы сақтандыру сатып алу нақты тәуекелден басталады. Жақсы талап оқиғаны полис ережелеріне сай құжатталған дәлелге айналдырады."
               }
             }
           },
@@ -670,51 +2832,187 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Insurance is a contract plus a process"},
-            "body": {"en": "Picking a policy means matching coverage rules to the risks that could seriously damage your finances. Filing a claim means documenting the event clearly and on time. Together, the topic is about transferring large risks intelligently, not simply buying the cheapest promise."},
-            "tip": {"en": "Before paying, read exclusions. After a loss, document first and notify quickly."}
+            "title": {
+              "en": "Insurance is a contract plus a process",
+              "ru": "Страхование — это договор плюс процесс",
+              "kk": "Сақтандыру — келісімшарт және процесс"
+            },
+            "body": {
+              "en": "Picking a policy means matching coverage rules to the risks that could seriously damage your finances. Filing a claim means documenting the event clearly and on time. Together, the topic is about transferring large risks intelligently, not simply buying the cheapest promise.",
+              "ru": "Выбрать полис — значит сопоставить правила покрытия с рисками, которые могут серьёзно повредить вашим финансам. Подать заявление — значит ясно и вовремя задокументировать событие. В целом тема о разумной передаче крупных рисков, а не просто о покупке самого дешёвого обещания.",
+              "kk": "Полис таңдау — қаржыңызға қатты зиян келтіруі мүмкін тәуекелдерге қамту ережелерін сәйкестендіру. Талап беру — оқиғаны анық және уақытында құжаттау. Бұл тақырып ірі тәуекелдерді ақылмен беру туралы, ең арзан уәдені сатып алу ғана емес."
+            },
+            "tip": {
+              "en": "Before paying, read exclusions. After a loss, document first and notify quickly.",
+              "ru": "Перед оплатой прочитайте исключения. После убытка сначала документируйте и быстро уведомляйте.",
+              "kk": "Төлем жасамас бұрын ерекшеліктерді оқыңыз. Шығыннан кейін алдымен құжаттап, тез хабарлаңыз."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 906,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "How to Pick a Policy and File a Claim — Check"},
+        "title": {
+          "en": "How to Pick a Policy and File a Claim — Check",
+          "ru": "Как выбрать полис и подать заявление — проверка",
+          "kk": "Полис таңдау және талап беру — тексеру"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "Two travel policies cost ₸18,000 and ₸25,000. The cheaper one excludes hiking above a certain altitude, and the trip includes mountain hiking. What is the better reasoning?"},
+            "question_text": {
+              "en": "Two travel policies cost ₸18,000 and ₸25,000. The cheaper one excludes hiking above a certain altitude, and the trip includes mountain hiking. What is the better reasoning?",
+              "ru": "Два туристических полиса стоят ₸18,000 и ₸25,000. Более дешёвый исключает походы выше определённой высоты, а поездка включает горный трекинг. Какое рассуждение лучше?",
+              "kk": "Екі саяхат полисі ₸18,000 және ₸25,000 тұрады. Арзаны белгілі бір биіктіктен жоғары жорықты қоспайды, ал сапарда таулы жорық бар. Қай пайым дұрыс?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Check whether the actual trip risk is covered; the cheaper policy may fail at the exact moment needed"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Choose the cheaper policy because all travel policies are equivalent"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Choose the more expensive policy only because price means quality"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Ignore exclusions because claims are decided only by customer loyalty"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Check whether the actual trip risk is covered; the cheaper policy may fail at the exact moment needed",
+                  "ru": "Проверить, покрыт ли реальный риск поездки; более дешёвый полис может не сработать именно тогда, когда нужен",
+                  "kk": "Сапардағы нақты тәуекел қамтылғанын тексеру; арзан полис дәл қажет сәтте жарамсыз болуы мүмкін"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Choose the cheaper policy because all travel policies are equivalent",
+                  "ru": "Выбрать более дешёвый полис, потому что все туристические полисы одинаковы",
+                  "kk": "Барлық саяхат полистері бірдей болғандықтан арзанырақ полисті таңдау"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Choose the more expensive policy only because price means quality",
+                  "ru": "Выбрать более дорогой полис только потому, что цена означает качество",
+                  "kk": "Баға сапаны білдіреді деп қымбатырақ полисті ғана таңдау"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Ignore exclusions because claims are decided only by customer loyalty",
+                  "ru": "Игнорировать исключения, потому что выплаты зависят только от лояльности клиента",
+                  "kk": "Талаптар тек клиент адалдығымен шешіледі деп ерекшеліктерді елемеу"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "After a covered loss, which action most strengthens a claim?"},
+            "question_text": {
+              "en": "After a covered loss, which action most strengthens a claim?",
+              "ru": "После покрываемого убытка какое действие сильнее всего укрепляет заявление?",
+              "kk": "Қамтылатын шығыннан кейін қай әрекет талапты ең көп күшейтеді?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Document the event, keep receipts, notify the insurer, and follow the required process"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Wait several months to see whether the damage becomes worse"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Repair everything immediately without photos or receipts"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Describe the event vaguely so the insurer can decide the story"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Document the event, keep receipts, notify the insurer, and follow the required process",
+                  "ru": "Задокументировать событие, сохранить чеки, уведомить страховщика и следовать требуемому процессу",
+                  "kk": "Оқиғаны құжаттау, түбіртектерді сақтау, сақтандырушыға хабарлау және талап етілетін процесті орындау"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Wait several months to see whether the damage becomes worse",
+                  "ru": "Подождать несколько месяцев, чтобы увидеть, станет ли ущерб хуже",
+                  "kk": "Зиян ұлғая ма деп бірнеше ай күту"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Repair everything immediately without photos or receipts",
+                  "ru": "Сразу всё отремонтировать без фото и чеков",
+                  "kk": "Фото немесе түбіртексіз бәрін дереу жөндеу"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Describe the event vaguely so the insurer can decide the story",
+                  "ru": "Описать событие расплывчато, чтобы страховщик сам решил историю",
+                  "kk": "Сақтандырушы оқиғаны өзі анықтасын деп оны бұлыңғыр сипаттау"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 3,
             "question_type": "single_choice",
             "order_index": 2,
-            "question_text": {"en": "A policy has a low premium, high deductible, narrow exclusions, and low claim limits. Which statement is most accurate?"},
+            "question_text": {
+              "en": "A policy has a low premium, high deductible, narrow exclusions, and low claim limits. Which statement is most accurate?",
+              "ru": "У полиса низкий взнос, высокая франшиза, узкие исключения и низкие лимиты выплат. Какое утверждение наиболее точное?",
+              "kk": "Полистің жарнасы төмен, франшизасы жоғары, ерекшеліктері тар және талап лимиттері төмен. Қай тұжырым ең дәл?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "The premium alone is not enough; claim-time cost and limits may make protection weak"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "It is automatically best because the premium is low"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Deductibles and limits matter only after the policy expires"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Exclusions are marketing text, not part of the contract"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "The premium alone is not enough; claim-time cost and limits may make protection weak",
+                  "ru": "Одного взноса недостаточно; расходы при страховом случае и лимиты могут сделать защиту слабой",
+                  "kk": "Жарна ғана жеткіліксіз; талап кезіндегі шығын мен лимиттер қорғанысты әлсіз етуі мүмкін"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It is automatically best because the premium is low",
+                  "ru": "Он автоматически лучший, потому что взнос низкий",
+                  "kk": "Жарна төмен болғандықтан, ол автоматты түрде ең жақсы"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Deductibles and limits matter only after the policy expires",
+                  "ru": "Франшизы и лимиты важны только после истечения полиса",
+                  "kk": "Франшиза мен лимиттер тек полис мерзімі біткеннен кейін маңызды"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Exclusions are marketing text, not part of the contract",
+                  "ru": "Исключения — это маркетинговый текст, а не часть договора",
+                  "kk": "Ерекшеліктер келісімшарт бөлігі емес, маркетинг мәтіні"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -724,66 +3022,270 @@
   "finalQuiz": {
     "quiz_id": 999,
     "quiz_type": "final_quiz",
-    "title": {"en": "Insurance Fundamentals — Final Check"},
+    "title": {
+      "en": "Insurance Fundamentals — Final Check",
+      "ru": "Основы страхования — итоговая проверка",
+      "kk": "Сақтандыру негіздері — қорытынды тексеру"
+    },
     "questions": [
       {
         "id": 1,
         "question_type": "single_choice",
         "order_index": 0,
-        "question_text": {"en": "A household can easily pay ₸30,000 repairs but would need to borrow for a ₸2,500,000 medical bill. What does the insurance model suggest?"},
+        "question_text": {
+          "en": "A household can easily pay ₸30,000 repairs but would need to borrow for a ₸2,500,000 medical bill. What does the insurance model suggest?",
+          "ru": "Семья легко может оплатить ремонт на ₸30,000, но для медицинского счёта на ₸2,500,000 ей пришлось бы занимать. Что предлагает страховая модель?",
+          "kk": "Отбасы ₸30,000 жөндеуді оңай төлей алады, бірақ ₸2,500,000 медициналық шот үшін қарыз алуға мәжбүр болады. Сақтандыру моделі не ұсынады?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Self-fund small predictable costs and insure large shocks that could break the budget"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "Insure every small cost because any expense is dangerous"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "Avoid insurance because most people do not claim every year"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "Choose policies only by the lowest monthly premium"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Self-fund small predictable costs and insure large shocks that could break the budget",
+              "ru": "Покрывать небольшие предсказуемые расходы самостоятельно и страховать крупные шоки, которые могут сломать бюджет",
+              "kk": "Шағын болжамды шығындарды өзіңіз жабу және бюджетті бұзуы мүмкін ірі соққыларды сақтандыру"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Insure every small cost because any expense is dangerous",
+              "ru": "Страховать каждый мелкий расход, потому что любой расход опасен",
+              "kk": "Кез келген шығын қауіпті болғандықтан әр ұсақ шығынды сақтандыру"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Avoid insurance because most people do not claim every year",
+              "ru": "Избегать страхования, потому что большинство людей не обращается за выплатой каждый год",
+              "kk": "Көп адам жыл сайын талап бермегендіктен сақтандырудан қашу"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Choose policies only by the lowest monthly premium",
+              "ru": "Выбирать полисы только по самому низкому ежемесячному взносу",
+              "kk": "Полистерді тек ең төмен ай сайынғы жарна бойынша таңдау"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 2,
         "question_type": "single_choice",
         "order_index": 1,
-        "question_text": {"en": "A cheaper car policy saves ₸70,000 per year but raises the deductible by ₸250,000. What is the key question?"},
+        "question_text": {
+          "en": "A cheaper car policy saves ₸70,000 per year but raises the deductible by ₸250,000. What is the key question?",
+          "ru": "Более дешёвый автополис экономит ₸70,000 в год, но повышает франшизу на ₸250,000. Какой ключевой вопрос?",
+          "kk": "Арзанырақ автополис жылына ₸70,000 үнемдейді, бірақ франшизаны ₸250,000-ға көтереді. Негізгі сұрақ қандай?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Can the driver afford the higher deductible during a claim, and is the premium saving worth the retained risk?"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "Is the premium lower, because that is the only cost that matters?"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "Does the deductible make all claims impossible?"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "Can the driver cancel insurance after the accident happens?"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Can the driver afford the higher deductible during a claim, and is the premium saving worth the retained risk?",
+              "ru": "Сможет ли водитель оплатить более высокую франшизу при страховом случае, и стоит ли экономия на взносе оставленного риска?",
+              "kk": "Жүргізуші талап кезінде жоғары франшизаны төлей ала ма және жарна үнемі өзінде қалған тәуекелге тұра ма?"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Is the premium lower, because that is the only cost that matters?",
+              "ru": "Ниже ли взнос, потому что это единственная важная стоимость?",
+              "kk": "Жарна төмен бе, өйткені маңызды жалғыз шығын сол ма?"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Does the deductible make all claims impossible?",
+              "ru": "Делает ли франшиза все обращения невозможными?",
+              "kk": "Франшиза барлық талаптарды мүмкін емес ете ме?"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Can the driver cancel insurance after the accident happens?",
+              "ru": "Может ли водитель отменить страховку после аварии?",
+              "kk": "Жүргізуші апаттан кейін сақтандыруды тоқтата ала ма?"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 3,
         "question_type": "single_choice",
         "order_index": 2,
-        "question_text": {"en": "A voluntary health plan is expensive but includes the clinic network and diagnostics a family uses often. What is the best way to evaluate it?"},
+        "question_text": {
+          "en": "A voluntary health plan is expensive but includes the clinic network and diagnostics a family uses often. What is the best way to evaluate it?",
+          "ru": "Добровольный медицинский план дорогой, но включает сеть клиник и диагностику, которыми семья часто пользуется. Как лучше его оценить?",
+          "kk": "Ерікті медициналық жоспар қымбат, бірақ отбасы жиі қолданатын клиника желісі мен диагностиканы қамтиды. Оны қалай бағалаған дұрыс?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Compare the added access, limits, and likely use against the higher premium"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "Reject it automatically because the premium is higher"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "Buy it automatically because more expensive plans always cover everything"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "Ignore provider networks because any clinic will be reimbursed"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Compare the added access, limits, and likely use against the higher premium",
+              "ru": "Сравнить дополнительный доступ, лимиты и вероятное использование с более высоким взносом",
+              "kk": "Қосымша қолжетімділікті, лимиттерді және ықтимал пайдалануды жоғары жарнамен салыстыру"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Reject it automatically because the premium is higher",
+              "ru": "Автоматически отказаться, потому что взнос выше",
+              "kk": "Жарна жоғары болғандықтан автоматты түрде бас тарту"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Buy it automatically because more expensive plans always cover everything",
+              "ru": "Автоматически купить, потому что более дорогие планы всегда покрывают всё",
+              "kk": "Қымбат жоспарлар әрқашан бәрін жабады деп автоматты түрде сатып алу"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Ignore provider networks because any clinic will be reimbursed",
+              "ru": "Игнорировать сети поставщиков, потому что любая клиника будет возмещена",
+              "kk": "Кез келген клиника өтеледі деп провайдер желілерін елемеу"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 4,
         "question_type": "single_choice",
         "order_index": 3,
-        "question_text": {"en": "A main earner supports a spouse and child, has a mortgage, and has modest savings. Why might life insurance be important?"},
+        "question_text": {
+          "en": "A main earner supports a spouse and child, has a mortgage, and has modest savings. Why might life insurance be important?",
+          "ru": "Основной кормилец содержит супруга и ребёнка, имеет ипотеку и скромные сбережения. Почему страхование жизни может быть важным?",
+          "kk": "Негізгі табыс табушы жұбайы мен баласын асырайды, ипотекасы бар және жинағы аз. Неліктен өмірді сақтандыру маңызды болуы мүмкін?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "It can cover the dependency gap left by lost income, debt obligations, and future family needs"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "It is mainly useful because the earner will personally receive the payout"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "It removes the need for health and property insurance"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "It should always equal exactly one year of salary"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It can cover the dependency gap left by lost income, debt obligations, and future family needs",
+              "ru": "Оно может покрыть разрыв зависимости, оставленный потерей дохода, долговыми обязательствами и будущими потребностями семьи",
+              "kk": "Ол жоғалған табыс, қарыз міндеттемелері және отбасының болашақ қажеттіліктері қалдыратын тәуелділік алшақтығын жаба алады"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It is mainly useful because the earner will personally receive the payout",
+              "ru": "Оно полезно главным образом потому, что кормилец лично получит выплату",
+              "kk": "Ол негізінен табыс табушы төлемді өзі алатындықтан пайдалы"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It removes the need for health and property insurance",
+              "ru": "Оно устраняет необходимость в медицинском и имущественном страховании",
+              "kk": "Ол медициналық және мүлік сақтандыруының қажеттілігін жояды"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It should always equal exactly one year of salary",
+              "ru": "Оно всегда должно точно равняться одному году зарплаты",
+              "kk": "Ол әрқашан дәл бір жылдық жалақыға тең болуы керек"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 5,
         "question_type": "single_choice",
         "order_index": 4,
-        "question_text": {"en": "A homeowner compares two policies. One has stronger water-damage limits and clear claim documents; the other is cheaper but vague about exclusions. What is the stronger reasoning?"},
+        "question_text": {
+          "en": "A homeowner compares two policies. One has stronger water-damage limits and clear claim documents; the other is cheaper but vague about exclusions. What is the stronger reasoning?",
+          "ru": "Владелец жилья сравнивает два полиса. У одного сильнее лимиты по ущербу от воды и понятные документы для заявления; другой дешевле, но расплывчат в исключениях. Какое рассуждение сильнее?",
+          "kk": "Үй иесі екі полисті салыстырады. Біріншісінде су зияны бойынша лимиттер жоғары және талап құжаттары анық; екіншісі арзанырақ, бірақ ерекшеліктері бұлыңғыр. Қай пайым мықтырақ?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Coverage rules, limits, exclusions, and claim process may matter more than a lower premium"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "Choose the vague policy because unclear exclusions give more flexibility"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "Ignore claim documents until after a loss occurs"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "Property insurance and liability insurance are always the same product"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Coverage rules, limits, exclusions, and claim process may matter more than a lower premium",
+              "ru": "Правила покрытия, лимиты, исключения и процесс заявления могут быть важнее низкого взноса",
+              "kk": "Қамту ережелері, лимиттер, ерекшеліктер және талап процесі төмен жарнадан маңызды болуы мүмкін"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Choose the vague policy because unclear exclusions give more flexibility",
+              "ru": "Выбрать расплывчатый полис, потому что неясные исключения дают больше гибкости",
+              "kk": "Ерекшеліктердің анық болмауы көбірек икемділік береді деп бұлыңғыр полисті таңдау"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Ignore claim documents until after a loss occurs",
+              "ru": "Игнорировать документы для заявления до наступления убытка",
+              "kk": "Шығын болғанға дейін талап құжаттарын елемеу"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Property insurance and liability insurance are always the same product",
+              "ru": "Страхование имущества и страхование ответственности всегда являются одним продуктом",
+              "kk": "Мүлік сақтандыруы мен жауапкершілік сақтандыруы әрқашан бір өнім"
+            },
+            "is_correct": false
+          }
         ]
       }
     ]

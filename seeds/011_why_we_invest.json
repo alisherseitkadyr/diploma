@@ -3,16 +3,33 @@
   "topic": {
     "code": "why_we_invest",
     "orderIndex": 11,
-    "title": {"en": "Why We Invest"},
-    "description": {"en": "Why investing exists at all — beating inflation, the power of compounding, and the discipline of investing steadily over a long horizon."},
+    "icon_path": "assets/topics/011.png",
+    "title": {
+      "en": "Why We Invest",
+      "ru": "Зачем мы инвестируем",
+      "kk": "Неге инвестиция жасаймыз"
+    },
+    "description": {
+      "en": "Why investing exists at all — beating inflation, the power of compounding, and the discipline of investing steadily over a long horizon.",
+      "ru": "Зачем вообще нужны инвестиции — как обгонять инфляцию, использовать силу сложного процента и дисциплинированно инвестировать на длинном горизонте.",
+      "kk": "Инвестиция не үшін қажет: инфляциядан озу, күрделі өсімнің күшін пайдалану және ұзақ мерзімде тұрақты инвестиция жасау тәртібі."
+    },
     "level": "intermediate",
     "prerequisite_id": null
   },
   "subtopics": [
     {
       "code": "inflation_vs_savings",
-      "title": {"en": "Inflation vs Savings"},
-      "description": {"en": "A savings account feels safe, but if its rate trails inflation, your money quietly shrinks in real terms every year."},
+      "title": {
+        "en": "Inflation vs Savings",
+        "ru": "Инфляция против сбережений",
+        "kk": "Инфляция және жинақ"
+      },
+      "description": {
+        "en": "A savings account feels safe, but if its rate trails inflation, your money quietly shrinks in real terms every year.",
+        "ru": "Сберегательный счёт кажется безопасным, но если его ставка ниже инфляции, деньги каждый год незаметно уменьшаются в реальном выражении.",
+        "kk": "Жинақ шоты қауіпсіз көрінеді, бірақ оның мөлшерлемесі инфляциядан төмен болса, ақшаңыз жыл сайын нақты мәнде баяу азаяды."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 0,
       "quizId": 1101,
@@ -22,42 +39,193 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "The safe account that isn't"},
-            "body": {"en": "Putting money in a savings account feels responsible. But safety is measured in numbers on a screen, not in what those numbers can buy. When prices rise faster than your interest, the account shrinks in real terms even as the balance grows."},
-            "tip": {"en": "The question isn't 'Is my balance growing?' It's 'Is my balance growing faster than prices?'"}
+            "title": {
+              "en": "The safe account that isn't",
+              "ru": "Безопасный счёт, который не так уж безопасен",
+              "kk": "Қауіпсіз сияқты, бірақ толық қауіпсіз емес шот"
+            },
+            "body": {
+              "en": "Putting money in a savings account feels responsible. But safety is measured in numbers on a screen, not in what those numbers can buy. When prices rise faster than your interest, the account shrinks in real terms even as the balance grows.",
+              "ru": "Держать деньги на сберегательном счёте кажется разумным. Но безопасность измеряется не цифрами на экране, а тем, что эти цифры могут купить. Когда цены растут быстрее, чем начисляются проценты, счёт уменьшается в реальном выражении, даже если баланс растёт.",
+              "kk": "Ақшаны жинақ шотында ұстау жауапты шешім сияқты. Бірақ қауіпсіздік экрандағы санмен емес, сол санның не сатып ала алатынымен өлшенеді. Бағалар пайыздан жылдам өссе, баланс көбейгенімен, шот нақты мәнде азаяды."
+            },
+            "tip": {
+              "en": "The question isn't 'Is my balance growing?' It's 'Is my balance growing faster than prices?'",
+              "ru": "Вопрос не в том, растёт ли баланс. Вопрос в том, растёт ли он быстрее цен.",
+              "kk": "The question isn't 'Is my balance growing?' It's 'Is my balance growing faster than prices?'"
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Purchasing power: what money actually buys"},
-            "body": {"en": "Inflation is the rate at which the general price level rises. If inflation is 9% and your savings account pays 7%, your real return is roughly −2%. You end the year with more tenge but less purchasing power — you can buy less than you could 12 months ago."},
-            "example": {"en": "500,000 ₸ at 7% becomes 535,000 ₸ after one year. But if prices rose 9%, the same basket of goods now costs 545,000 ₸. Your real loss: ~10,000 ₸."}
+            "title": {
+              "en": "Purchasing power: what money actually buys",
+              "ru": "Покупательная способность: что деньги реально могут купить",
+              "kk": "Сатып алу қабілеті: ақша шын мәнінде не сатып алады"
+            },
+            "body": {
+              "en": "Inflation is the rate at which the general price level rises. If inflation is 9% and your savings account pays 7%, your real return is roughly −2%. You end the year with more tenge but less purchasing power — you can buy less than you could 12 months ago.",
+              "ru": "Инфляция — это темп роста общего уровня цен. Если инфляция составляет 9%, а сберегательный счёт даёт 7%, ваша реальная доходность примерно равна −2%. В конце года у вас больше тенге, но меньше покупательная способность — вы можете купить меньше, чем 12 месяцев назад.",
+              "kk": "Инфляция — жалпы баға деңгейінің өсу қарқыны. Егер инфляция 9%, ал жинақ шоты 7% төлесе, нақты табыстылық шамамен −2% болады. Жыл соңында теңге көбірек, бірақ сатып алу қабілеті төмен болады — 12 ай бұрынғыдан аз сатып аласыз."
+            },
+            "example": {
+              "en": "500,000 ₸ at 7% becomes 535,000 ₸ after one year. But if prices rose 9%, the same basket of goods now costs 545,000 ₸. Your real loss: ~10,000 ₸.",
+              "ru": "500 000 ₸ под 7% через год превращаются в 535 000 ₸. Но если цены выросли на 9%, та же корзина товаров теперь стоит 545 000 ₸. Реальная потеря: около 10 000 ₸.",
+              "kk": "500 000 ₸ 7% мөлшерлемемен бір жылдан кейін 535 000 ₸ болады. Бірақ бағалар 9% өссе, сол тауар себеті енді 545 000 ₸ тұрады. Нақты жоғалту: шамамен 10 000 ₸."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Why this compounds over time"},
-            "body": {"en": "A 2% annual real loss sounds small. Over 10 years it cuts purchasing power by about 18%. The effect is invisible year to year but unmistakable over a decade. This is not a crisis — it is a slow, quiet drain that only investing can offset."},
-            "tip": {"en": "Inflation is not the enemy of saving. It is the cost of not investing."}
+            "title": {
+              "en": "Why this compounds over time",
+              "ru": "Почему со временем эффект накапливается",
+              "kk": "Неге бұл уақыт өте жиналады"
+            },
+            "body": {
+              "en": "A 2% annual real loss sounds small. Over 10 years it cuts purchasing power by about 18%. The effect is invisible year to year but unmistakable over a decade. This is not a crisis — it is a slow, quiet drain that only investing can offset.",
+              "ru": "Реальная потеря 2% в год звучит небольшой. Но за 10 лет она снижает покупательную способность примерно на 18%. Из года в год эффект почти незаметен, но за десятилетие он очевиден. Это не кризис, а медленная тихая утечка, которую могут компенсировать только инвестиции.",
+              "kk": "Жылына 2% нақты шығын аз сияқты. Бірақ 10 жылда ол сатып алу қабілетін шамамен 18% азайтады. Жыл сайын байқалмауы мүмкін, бірақ он жылда әсері анық көрінеді. Бұл дағдарыс емес — инвестиция ғана өтей алатын баяу, үнсіз азаю."
+            },
+            "tip": {
+              "en": "Inflation is not the enemy of saving. It is the cost of not investing.",
+              "ru": "Инфляция не враг сбережений. Это цена отказа от инвестирования.",
+              "kk": "Инфляция жинақтың жауы емес. Ол инвестиция жасамаудың құны."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Three fates of 1,000,000 ₸ over 10 years"},
+            "title": {
+              "en": "Three fates of 1,000,000 ₸ over 10 years",
+              "ru": "Три судьбы 1 000 000 ₸ за 10 лет",
+              "kk": "Three fates of 1,000,000 ₸ over 10 years"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Assume inflation averages 8% per year. Here is what happens to 1,000,000 ₸ depending on where it sits."},
-                  {"type": "table", "rows": [
-                    ["Scenario", "Annual rate", "Nominal value", "Real value (today's ₸)"],
-                    ["Under the mattress", "0%", "1,000,000 ₸", "~463,000 ₸"],
-                    ["Savings account", "7%", "~1,967,000 ₸", "~910,000 ₸"],
-                    ["Invested (avg 12%)", "12%", "~3,106,000 ₸", "~1,438,000 ₸"]
-                  ]},
-                  {"type": "paragraph", "text": "Only investing at a rate above inflation results in genuine growth of purchasing power."}
+                  {
+                    "type": "paragraph",
+                    "text": "Assume inflation averages 8% per year. Here is what happens to 1,000,000 ₸ depending on where it sits."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Scenario",
+                        "Annual rate",
+                        "Nominal value",
+                        "Real value (today's ₸)"
+                      ],
+                      [
+                        "Under the mattress",
+                        "0%",
+                        "1,000,000 ₸",
+                        "~463,000 ₸"
+                      ],
+                      [
+                        "Savings account",
+                        "7%",
+                        "~1,967,000 ₸",
+                        "~910,000 ₸"
+                      ],
+                      [
+                        "Invested (avg 12%)",
+                        "12%",
+                        "~3,106,000 ₸",
+                        "~1,438,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Only investing at a rate above inflation results in genuine growth of purchasing power."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Предположим, инфляция в среднем составляет 8% в год. Вот что происходит с 1 000 000 ₸ в зависимости от того, где лежат деньги."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Сценарий",
+                        "Годовая ставка",
+                        "Номинальная стоимость",
+                        "Реальная стоимость (в сегодняшних ₸)"
+                      ],
+                      [
+                        "Под матрасом",
+                        "0%",
+                        "1,000,000 ₸",
+                        "~463,000 ₸"
+                      ],
+                      [
+                        "Сберегательный счёт",
+                        "7%",
+                        "~1,967,000 ₸",
+                        "~910,000 ₸"
+                      ],
+                      [
+                        "Инвестировано (ср. 12%)",
+                        "12%",
+                        "~3,106,000 ₸",
+                        "~1,438,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Только инвестиции с доходностью выше инфляции дают настоящий рост покупательной способности."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Assume inflation averages 8% per year. Here is what happens to 1,000,000 ₸ depending on where it sits."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Сценарий",
+                        "Жылдық мөлшерлеме",
+                        "Номиналды құн",
+                        "Нақты құн (бүгінгі ₸)"
+                      ],
+                      [
+                        "Матрастың астында",
+                        "0%",
+                        "1,000,000 ₸",
+                        "~463,000 ₸"
+                      ],
+                      [
+                        "Жинақ шоты",
+                        "7%",
+                        "~1,967,000 ₸",
+                        "~910,000 ₸"
+                      ],
+                      [
+                        "Инвестицияланған (орташа 12%)",
+                        "12%",
+                        "~3,106,000 ₸",
+                        "~1,438,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Only investing at a rate above inflation results in genuine growth of purchasing power."
+                  }
                 ]
               }
             }
@@ -66,12 +234,20 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Which scenario beats inflation?"},
+            "title": {
+              "en": "Which scenario beats inflation?",
+              "ru": "Какой сценарий обгоняет инфляцию?",
+              "kk": "Which scenario beats inflation?"
+            },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
               "en": {
                 "instruction": "Inflation is 9% this year. For each situation, decide whether the person's real purchasing power increased, stayed flat, or decreased.",
-                "options": ["Real gain", "Roughly flat", "Real loss"],
+                "options": [
+                  "Real gain",
+                  "Roughly flat",
+                  "Real loss"
+                ],
                 "scenarios": [
                   {
                     "text": "Asel earned 11% on her bond fund while inflation was 9%.",
@@ -89,6 +265,56 @@
                     "explanation": "When nominal return equals inflation, real return is approximately zero. Purchasing power held steady."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Инфляция в этом году — 9%. Для каждой ситуации определите, выросла ли реальная покупательная способность человека, осталась примерно прежней или снизилась.",
+                "options": [
+                  "Реальный прирост",
+                  "Примерно без изменений",
+                  "Реальная потеря"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Асель заработала 11% на облигационном фонде при инфляции 9%.",
+                    "correct_answer": "Реальный прирост",
+                    "explanation": "11% номинальной доходности минус 9% инфляции = примерно +2% реальной доходности. Её покупательная способность выросла."
+                  },
+                  {
+                    "text": "Даулет держал 800 000 ₸ на текущем счёте с доходностью 0% в течение года.",
+                    "correct_answer": "Реальная потеря",
+                    "explanation": "0% номинально минус 9% инфляции = −9% реально. Теперь Даулет может купить на эти деньги примерно на 9% меньше."
+                  },
+                  {
+                    "text": "Сберегательный счёт Миры дал ровно 9% — столько же, сколько инфляция.",
+                    "correct_answer": "Примерно без изменений",
+                    "explanation": "Когда номинальная доходность равна инфляции, реальная доходность примерно равна нулю. Покупательная способность сохранилась."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Inflation is 9% this year. For each situation, decide whether the person's real purchasing power increased, stayed flat, or decreased.",
+                "options": [
+                  "Нақты өсім",
+                  "Шамамен өзгеріссіз",
+                  "Нақты шығын"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Asel earned 11% on her bond fund while inflation was 9%.",
+                    "correct_answer": "Нақты өсім",
+                    "explanation": "11% nominal minus 9% inflation = roughly +2% real return. Her purchasing power grew."
+                  },
+                  {
+                    "text": "Daulet kept 800,000 ₸ in a current account paying 0% for the year.",
+                    "correct_answer": "Нақты шығын",
+                    "explanation": "0% nominal minus 9% inflation = −9% real. Daulet can buy about 9% less with that money now."
+                  },
+                  {
+                    "text": "Mira's savings account paid exactly 9% — matching inflation.",
+                    "correct_answer": "Шамамен өзгеріссіз",
+                    "explanation": "When nominal return equals inflation, real return is approximately zero. Purchasing power held steady."
+                  }
+                ]
               }
             }
           },
@@ -96,39 +322,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Investing is not optional — it is the baseline"},
-            "body": {"en": "Saving preserves the number; investing preserves the value. In an economy with persistent inflation, not investing is itself a financial decision — one with a predictable, negative real outcome. The next question is how returns actually compound over time."},
-            "tip": {"en": "Target a real return: nominal return minus expected inflation. That is your actual progress."}
+            "title": {
+              "en": "Investing is not optional — it is the baseline",
+              "ru": "Инвестирование — не опция, а базовый уровень",
+              "kk": "Investing is not optional — it is the baseline"
+            },
+            "body": {
+              "en": "Saving preserves the number; investing preserves the value. In an economy with persistent inflation, not investing is itself a financial decision — one with a predictable, negative real outcome. The next question is how returns actually compound over time.",
+              "ru": "Сбережения сохраняют число; инвестиции сохраняют ценность. В экономике с устойчивой инфляцией отказ от инвестирования сам по себе является финансовым решением — с предсказуемым отрицательным реальным результатом. Следующий вопрос — как доходность накапливается со временем.",
+              "kk": "Saving preserves the number; investing preserves the value. In an economy with persistent inflation, not investing is itself a financial decision — one with a predictable, negative real outcome. The next question is how returns actually compound over time."
+            },
+            "tip": {
+              "en": "Target a real return: nominal return minus expected inflation. That is your actual progress.",
+              "ru": "Ориентируйтесь на реальную доходность: номинальная доходность минус ожидаемая инфляция. Это и есть ваш настоящий прогресс.",
+              "kk": "Target a real return: nominal return minus expected inflation. That is your actual progress."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1101,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Inflation vs Savings — Check"},
+        "title": {
+          "en": "Inflation vs Savings — Check",
+          "ru": "Инфляция против сбережений — проверка",
+          "kk": "Inflation vs Savings — Check"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "A savings account yields 8%. Inflation this year is 10%. Which statement best describes what happened to the account holder's wealth?"},
+            "question_text": {
+              "en": "A savings account yields 8%. Inflation this year is 10%. Which statement best describes what happened to the account holder's wealth?",
+              "ru": "Сберегательный счёт приносит 8%. Инфляция в этом году — 10%. Какое утверждение лучше всего описывает, что произошло с богатством владельца счёта?",
+              "kk": "A savings account yields 8%. Inflation this year is 10%. Which statement best describes what happened to the account holder's wealth?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Their purchasing power fell by roughly 2%, even though the nominal balance grew"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Their wealth grew by 8% because the account balance increased"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "They broke even because interest partially offset inflation"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Their purchasing power is unchanged; inflation only affects prices, not savings"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Their purchasing power fell by roughly 2%, even though the nominal balance grew",
+                  "ru": "Их покупательная способность снизилась примерно на 2%, хотя номинальный баланс вырос",
+                  "kk": "Their purchasing power fell by roughly 2%, even though the nominal balance grew"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Their wealth grew by 8% because the account balance increased",
+                  "ru": "Их богатство выросло на 8%, потому что баланс счёта увеличился",
+                  "kk": "Their wealth grew by 8% because the account balance increased"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They broke even because interest partially offset inflation",
+                  "ru": "Они вышли в ноль, потому что проценты частично компенсировали инфляцию",
+                  "kk": "They broke even because interest partially offset inflation"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Their purchasing power is unchanged; inflation only affects prices, not savings",
+                  "ru": "Их покупательная способность не изменилась; инфляция влияет только на цены, а не на сбережения",
+                  "kk": "Their purchasing power is unchanged; inflation only affects prices, not savings"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Over 15 years, a person keeps all savings in cash. Inflation averaged 7% annually. Roughly what fraction of their original purchasing power remains?"},
+            "question_text": {
+              "en": "Over 15 years, a person keeps all savings in cash. Inflation averaged 7% annually. Roughly what fraction of their original purchasing power remains?",
+              "ru": "Человек 15 лет держит все сбережения наличными. Инфляция в среднем составляла 7% в год. Какая примерно доля первоначальной покупательной способности сохранится?",
+              "kk": "Over 15 years, a person keeps all savings in cash. Inflation averaged 7% annually. Roughly what fraction of their original purchasing power remains?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "About 36% — less than half"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "About 70% — a modest decline"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "100% — cash does not lose value if you don't spend it"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "About 85% — inflation has a small effect over 15 years"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "About 36% — less than half",
+                  "ru": "Около 36% — меньше половины",
+                  "kk": "About 36% — less than half"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "About 70% — a modest decline",
+                  "ru": "Около 70% — умеренное снижение",
+                  "kk": "About 70% — a modest decline"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "100% — cash does not lose value if you don't spend it",
+                  "ru": "100% — наличные не теряют ценность, если их не тратить",
+                  "kk": "100% — cash does not lose value if you don't spend it"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "About 85% — inflation has a small effect over 15 years",
+                  "ru": "Около 85% — инфляция за 15 лет влияет слабо",
+                  "kk": "About 85% — inflation has a small effect over 15 years"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -136,8 +458,16 @@
     },
     {
       "code": "compounding",
-      "title": {"en": "Compounding"},
-      "description": {"en": "Returns that generate their own returns. The earlier you start, the less capital you need to reach the same result."},
+      "title": {
+        "en": "Compounding",
+        "ru": "Сложный процент",
+        "kk": "Күрделі өсім"
+      },
+      "description": {
+        "en": "Returns that generate their own returns. The earlier you start, the less capital you need to reach the same result.",
+        "ru": "Доходность, которая создаёт новую доходность. Чем раньше вы начинаете, тем меньше капитала нужно для того же результата.",
+        "kk": "Returns that generate their own returns. The earlier you start, the less capital you need to reach the same result."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 1,
       "quizId": 1102,
@@ -147,41 +477,175 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "Interest on interest"},
-            "body": {"en": "Simple interest pays you a fixed amount on your original principal each year. Compounding does something more powerful: each year's gains are added to the base, so the next year's gains are calculated on a larger number. You earn returns on your returns."},
-            "tip": {"en": "Compounding is not a feature of a product. It is a mathematical property of reinvested returns."}
+            "title": {
+              "en": "Interest on interest",
+              "ru": "Проценты на проценты",
+              "kk": "Interest on interest"
+            },
+            "body": {
+              "en": "Simple interest pays you a fixed amount on your original principal each year. Compounding does something more powerful: each year's gains are added to the base, so the next year's gains are calculated on a larger number. You earn returns on your returns.",
+              "ru": "Простые проценты каждый год платят фиксированную сумму на первоначальный капитал. Сложный процент делает больше: прибыль каждого года добавляется к базе, поэтому прибыль следующего года считается уже от большей суммы. Вы получаете доход на уже полученный доход.",
+              "kk": "Simple interest pays you a fixed amount on your original principal each year. Compounding does something more powerful: each year's gains are added to the base, so the next year's gains are calculated on a larger number. You earn returns on your returns."
+            },
+            "tip": {
+              "en": "Compounding is not a feature of a product. It is a mathematical property of reinvested returns.",
+              "ru": "Сложный процент — не характеристика продукта. Это математическое свойство реинвестированной доходности.",
+              "kk": "Compounding is not a feature of a product. It is a mathematical property of reinvested returns."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Why time dominates amount"},
-            "body": {"en": "In the early years, compounding adds modest sums. But the base keeps growing, so each year's increment is larger than the last. After enough time, the returns on past returns dwarf the original contribution. This makes starting early more powerful than starting big."},
-            "example": {"en": "Investing 100,000 ₸ at 10% for 30 years gives ~1,745,000 ₸. Waiting 10 years and investing the same 100,000 ₸ for only 20 years gives ~673,000 ₸ — less than 40% as much, despite investing the same sum."}
+            "title": {
+              "en": "Why time dominates amount",
+              "ru": "Почему время важнее суммы",
+              "kk": "Why time dominates amount"
+            },
+            "body": {
+              "en": "In the early years, compounding adds modest sums. But the base keeps growing, so each year's increment is larger than the last. After enough time, the returns on past returns dwarf the original contribution. This makes starting early more powerful than starting big.",
+              "ru": "В первые годы сложный процент добавляет небольшие суммы. Но база постоянно растёт, поэтому прирост каждого следующего года больше предыдущего. Через достаточно долгое время доходы на прошлые доходы становятся больше первоначального взноса. Поэтому начать рано важнее, чем начать с большой суммы.",
+              "kk": "In the early years, compounding adds modest sums. But the base keeps growing, so each year's increment is larger than the last. After enough time, the returns on past returns dwarf the original contribution. This makes starting early more powerful than starting big."
+            },
+            "example": {
+              "en": "Investing 100,000 ₸ at 10% for 30 years gives ~1,745,000 ₸. Waiting 10 years and investing the same 100,000 ₸ for only 20 years gives ~673,000 ₸ — less than 40% as much, despite investing the same sum.",
+              "ru": "Инвестиция 100 000 ₸ под 10% на 30 лет даёт около 1 745 000 ₸. Если подождать 10 лет и вложить те же 100 000 ₸ только на 20 лет, получится около 673 000 ₸ — меньше 40% от первого результата, хотя сумма вложения та же.",
+              "kk": "Investing 100,000 ₸ at 10% for 30 years gives ~1,745,000 ₸. Waiting 10 years and investing the same 100,000 ₸ for only 20 years gives ~673,000 ₸ — less than 40% as much, despite investing the same sum."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Frequency: how often compounding happens"},
-            "body": {"en": "Compounding can happen annually, monthly, or daily. More frequent compounding produces slightly more growth because reinvestment happens sooner. For most long-term investors, annual vs monthly compounding makes a small but real difference over decades."},
-            "tip": {"en": "For long horizons, frequency matters less than rate and time. Focus on those two first."}
+            "title": {
+              "en": "Frequency: how often compounding happens",
+              "ru": "Частота: как часто происходит начисление",
+              "kk": "Frequency: how often compounding happens"
+            },
+            "body": {
+              "en": "Compounding can happen annually, monthly, or daily. More frequent compounding produces slightly more growth because reinvestment happens sooner. For most long-term investors, annual vs monthly compounding makes a small but real difference over decades.",
+              "ru": "Начисление может происходить ежегодно, ежемесячно или ежедневно. Более частое начисление даёт немного больший рост, потому что реинвестирование происходит раньше. Для большинства долгосрочных инвесторов разница между ежегодным и ежемесячным начислением невелика, но за десятилетия она становится реальной.",
+              "kk": "Compounding can happen annually, monthly, or daily. More frequent compounding produces slightly more growth because reinvestment happens sooner. For most long-term investors, annual vs monthly compounding makes a small but real difference over decades."
+            },
+            "tip": {
+              "en": "For long horizons, frequency matters less than rate and time. Focus on those two first.",
+              "ru": "На длинном горизонте частота менее важна, чем ставка и время. Сначала сосредоточьтесь на них.",
+              "kk": "For long horizons, frequency matters less than rate and time. Focus on those two first."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Early starter vs late starter"},
+            "title": {
+              "en": "Early starter vs late starter",
+              "ru": "Ранний старт против позднего старта",
+              "kk": "Early starter vs late starter"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Both invest 50,000 ₸/year at 10% annual return. One starts at 25, the other at 35. Both stop at 65."},
-                  {"type": "table", "rows": [
-                    ["Investor", "Years invested", "Total contributed", "Final portfolio"],
-                    ["Starts at 25", "40 years", "2,000,000 ₸", "~22,100,000 ₸"],
-                    ["Starts at 35", "30 years", "1,500,000 ₸", "~8,225,000 ₸"]
-                  ]},
-                  {"type": "paragraph", "text": "The early starter contributed only 500,000 ₸ more but ends up with nearly 3× as much. The extra 10 years of compounding did more work than the extra capital."}
+                  {
+                    "type": "paragraph",
+                    "text": "Both invest 50,000 ₸/year at 10% annual return. One starts at 25, the other at 35. Both stop at 65."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Investor",
+                        "Years invested",
+                        "Total contributed",
+                        "Final portfolio"
+                      ],
+                      [
+                        "Starts at 25",
+                        "40 years",
+                        "2,000,000 ₸",
+                        "~22,100,000 ₸"
+                      ],
+                      [
+                        "Starts at 35",
+                        "30 years",
+                        "1,500,000 ₸",
+                        "~8,225,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The early starter contributed only 500,000 ₸ more but ends up with nearly 3× as much. The extra 10 years of compounding did more work than the extra capital."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Оба инвестируют по 50 000 ₸ в год под 10% годовых. Один начинает в 25 лет, другой — в 35. Оба останавливаются в 65."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Инвестор",
+                        "Лет инвестирования",
+                        "Всего внесено",
+                        "Итоговый портфель"
+                      ],
+                      [
+                        "Начинает в 25",
+                        "40 лет",
+                        "2,000,000 ₸",
+                        "~22,100,000 ₸"
+                      ],
+                      [
+                        "Начинает в 35",
+                        "30 лет",
+                        "1,500,000 ₸",
+                        "~8,225,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ранний инвестор внёс всего на 500 000 ₸ больше, но в итоге получил почти в 3 раза больше. Дополнительные 10 лет сложного процента сделали больше, чем дополнительный капитал."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Both invest 50,000 ₸/year at 10% annual return. One starts at 25, the other at 35. Both stop at 65."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Investor",
+                        "Years invested",
+                        "Total contributed",
+                        "Final portfolio"
+                      ],
+                      [
+                        "Starts at 25",
+                        "40 years",
+                        "2,000,000 ₸",
+                        "~22,100,000 ₸"
+                      ],
+                      [
+                        "Starts at 35",
+                        "30 years",
+                        "1,500,000 ₸",
+                        "~8,225,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The early starter contributed only 500,000 ₸ more but ends up with nearly 3× as much. The extra 10 years of compounding did more work than the extra capital."
+                  }
                 ]
               }
             }
@@ -190,30 +654,208 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Sort these into what compounding needs"},
+            "title": {
+              "en": "Sort these into what compounding needs",
+              "ru": "Разберите, что нужно сложному проценту",
+              "kk": "Sort these into what compounding needs"
+            },
             "interactiveType": "drag_drop",
             "interactiveContent": {
               "en": {
                 "instruction": "Drag each factor into the correct category: things that accelerate compounding vs things that slow or break it.",
                 "categories": [
-                  {"id": "accelerates", "label": "Accelerates compounding"},
-                  {"id": "slows", "label": "Slows or breaks compounding"}
+                  {
+                    "id": "accelerates",
+                    "label": "Accelerates compounding"
+                  },
+                  {
+                    "id": "slows",
+                    "label": "Slows or breaks compounding"
+                  }
                 ],
                 "items": [
-                  {"id": "reinvest", "text": "Reinvesting all returns"},
-                  {"id": "withdraw", "text": "Withdrawing gains each year"},
-                  {"id": "longer", "text": "Longer time horizon"},
-                  {"id": "fees", "text": "High annual fees (2%+)"},
-                  {"id": "higher_rate", "text": "Higher average return rate"},
-                  {"id": "interrupt", "text": "Stopping contributions for 5 years"}
+                  {
+                    "id": "reinvest",
+                    "text": "Reinvesting all returns"
+                  },
+                  {
+                    "id": "withdraw",
+                    "text": "Withdrawing gains each year"
+                  },
+                  {
+                    "id": "longer",
+                    "text": "Longer time horizon"
+                  },
+                  {
+                    "id": "fees",
+                    "text": "High annual fees (2%+)"
+                  },
+                  {
+                    "id": "higher_rate",
+                    "text": "Higher average return rate"
+                  },
+                  {
+                    "id": "interrupt",
+                    "text": "Stopping contributions for 5 years"
+                  }
                 ],
                 "answers": [
-                  {"itemId": "reinvest", "categoryId": "accelerates"},
-                  {"itemId": "withdraw", "categoryId": "slows"},
-                  {"itemId": "longer", "categoryId": "accelerates"},
-                  {"itemId": "fees", "categoryId": "slows"},
-                  {"itemId": "higher_rate", "categoryId": "accelerates"},
-                  {"itemId": "interrupt", "categoryId": "slows"}
+                  {
+                    "itemId": "reinvest",
+                    "categoryId": "accelerates"
+                  },
+                  {
+                    "itemId": "withdraw",
+                    "categoryId": "slows"
+                  },
+                  {
+                    "itemId": "longer",
+                    "categoryId": "accelerates"
+                  },
+                  {
+                    "itemId": "fees",
+                    "categoryId": "slows"
+                  },
+                  {
+                    "itemId": "higher_rate",
+                    "categoryId": "accelerates"
+                  },
+                  {
+                    "itemId": "interrupt",
+                    "categoryId": "slows"
+                  }
+                ],
+                "explanation": "Compounding requires three things to work fully: reinvested returns, time, and a decent rate. Fees and withdrawals eat into the base, reducing what the next cycle compounds on."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый фактор в правильную категорию: что ускоряет сложный процент, а что замедляет или ломает его.",
+                "categories": [
+                  {
+                    "id": "accelerates",
+                    "label": "Ускоряет сложный процент"
+                  },
+                  {
+                    "id": "slows",
+                    "label": "Замедляет или ломает сложный процент"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "reinvest",
+                    "text": "Реинвестирование всей доходности"
+                  },
+                  {
+                    "id": "withdraw",
+                    "text": "Ежегодное снятие прибыли"
+                  },
+                  {
+                    "id": "longer",
+                    "text": "Более длинный горизонт"
+                  },
+                  {
+                    "id": "fees",
+                    "text": "Высокие годовые комиссии (2%+)"
+                  },
+                  {
+                    "id": "higher_rate",
+                    "text": "Более высокая средняя доходность"
+                  },
+                  {
+                    "id": "interrupt",
+                    "text": "Остановка взносов на 5 лет"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "reinvest",
+                    "categoryId": "accelerates"
+                  },
+                  {
+                    "itemId": "withdraw",
+                    "categoryId": "slows"
+                  },
+                  {
+                    "itemId": "longer",
+                    "categoryId": "accelerates"
+                  },
+                  {
+                    "itemId": "fees",
+                    "categoryId": "slows"
+                  },
+                  {
+                    "itemId": "higher_rate",
+                    "categoryId": "accelerates"
+                  },
+                  {
+                    "itemId": "interrupt",
+                    "categoryId": "slows"
+                  }
+                ],
+                "explanation": "Чтобы сложный процент работал в полную силу, нужны три вещи: реинвестированная доходность, время и достойная ставка. Комиссии и снятия уменьшают базу, на которую начисляется следующий цикл."
+              },
+              "kk": {
+                "instruction": "Drag each factor into the correct category: things that accelerate compounding vs things that slow or break it.",
+                "categories": [
+                  {
+                    "id": "accelerates",
+                    "label": "Accelerates compounding"
+                  },
+                  {
+                    "id": "slows",
+                    "label": "Slows or breaks compounding"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "reinvest",
+                    "text": "Reinvesting all returns"
+                  },
+                  {
+                    "id": "withdraw",
+                    "text": "Withdrawing gains each year"
+                  },
+                  {
+                    "id": "longer",
+                    "text": "Longer time horizon"
+                  },
+                  {
+                    "id": "fees",
+                    "text": "High annual fees (2%+)"
+                  },
+                  {
+                    "id": "higher_rate",
+                    "text": "Higher average return rate"
+                  },
+                  {
+                    "id": "interrupt",
+                    "text": "Stopping contributions for 5 years"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "reinvest",
+                    "categoryId": "accelerates"
+                  },
+                  {
+                    "itemId": "withdraw",
+                    "categoryId": "slows"
+                  },
+                  {
+                    "itemId": "longer",
+                    "categoryId": "accelerates"
+                  },
+                  {
+                    "itemId": "fees",
+                    "categoryId": "slows"
+                  },
+                  {
+                    "itemId": "higher_rate",
+                    "categoryId": "accelerates"
+                  },
+                  {
+                    "itemId": "interrupt",
+                    "categoryId": "slows"
+                  }
                 ],
                 "explanation": "Compounding requires three things to work fully: reinvested returns, time, and a decent rate. Fees and withdrawals eat into the base, reducing what the next cycle compounds on."
               }
@@ -223,39 +865,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "The main lesson: time is the input you can't buy back"},
-            "body": {"en": "Compounding makes starting early worth more than starting rich. Every year of delay costs you the returns on all future returns that year would have generated. The Rule of 72 is the shortcut for estimating exactly how powerful this is for any given rate."},
-            "tip": {"en": "The best investment decision you can make today is not which asset to buy — it is not waiting to start."}
+            "title": {
+              "en": "The main lesson: time is the input you can't buy back",
+              "ru": "Главный урок: время — ресурс, который нельзя вернуть",
+              "kk": "The main lesson: time is the input you can't buy back"
+            },
+            "body": {
+              "en": "Compounding makes starting early worth more than starting rich. Every year of delay costs you the returns on all future returns that year would have generated. The Rule of 72 is the shortcut for estimating exactly how powerful this is for any given rate.",
+              "ru": "Сложный процент делает ранний старт ценнее, чем большой стартовый капитал. Каждый год задержки стоит доходов на все будущие доходы, которые этот год мог бы создать. Правило 72 — быстрый способ оценить силу этого эффекта при любой ставке.",
+              "kk": "Compounding makes starting early worth more than starting rich. Every year of delay costs you the returns on all future returns that year would have generated. The Rule of 72 is the shortcut for estimating exactly how powerful this is for any given rate."
+            },
+            "tip": {
+              "en": "The best investment decision you can make today is not which asset to buy — it is not waiting to start.",
+              "ru": "Лучшее инвестиционное решение сегодня — не выбрать идеальный актив, а не откладывать старт.",
+              "kk": "The best investment decision you can make today is not which asset to buy — it is not waiting to start."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1102,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Compounding — Check"},
+        "title": {
+          "en": "Compounding — Check",
+          "ru": "Сложный процент — проверка",
+          "kk": "Compounding — Check"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "Investor A puts in 200,000 ₸ at age 20 and never adds more. Investor B puts in 200,000 ₸ at age 40. Both earn 10%/year until age 60. Who ends up with more, and why?"},
+            "question_text": {
+              "en": "Investor A puts in 200,000 ₸ at age 20 and never adds more. Investor B puts in 200,000 ₸ at age 40. Both earn 10%/year until age 60. Who ends up with more, and why?",
+              "ru": "Инвестор A вкладывает 200 000 ₸ в 20 лет и больше ничего не добавляет. Инвестор B вкладывает 200 000 ₸ в 40 лет. Оба получают 10% в год до 60 лет. У кого будет больше и почему?",
+              "kk": "Investor A puts in 200,000 ₸ at age 20 and never adds more. Investor B puts in 200,000 ₸ at age 40. Both earn 10%/year until age 60. Who ends up with more, and why?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "A, because 40 years of compounding produces far more than 20 years on the same principal"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "B, because markets are more mature and predictable now"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "They end up equal since both invested the same amount"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "A, but only marginally — the difference in time is small relative to the amount"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "A, because 40 years of compounding produces far more than 20 years on the same principal",
+                  "ru": "У A, потому что 40 лет сложного процента дают гораздо больше, чем 20 лет на той же сумме",
+                  "kk": "A, because 40 years of compounding produces far more than 20 years on the same principal"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "B, because markets are more mature and predictable now",
+                  "ru": "У B, потому что рынки сейчас более зрелые и предсказуемые",
+                  "kk": "B, because markets are more mature and predictable now"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "They end up equal since both invested the same amount",
+                  "ru": "Они получат одинаково, потому что вложили одинаковую сумму",
+                  "kk": "They end up equal since both invested the same amount"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "A, but only marginally — the difference in time is small relative to the amount",
+                  "ru": "У A, но ненамного — разница во времени мала по сравнению с суммой",
+                  "kk": "A, but only marginally — the difference in time is small relative to the amount"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "An investor earns 10% annually but withdraws all returns each year instead of reinvesting. What does she lose compared to compounding?"},
+            "question_text": {
+              "en": "An investor earns 10% annually but withdraws all returns each year instead of reinvesting. What does she lose compared to compounding?",
+              "ru": "Инвестор получает 10% годовых, но каждый год снимает всю прибыль вместо реинвестирования. Что она теряет по сравнению со сложным процентом?",
+              "kk": "An investor earns 10% annually but withdraws all returns each year instead of reinvesting. What does she lose compared to compounding?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Returns on her returns — the base never grows beyond the original principal"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Nothing — 10% per year is the same whether compounded or not"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Only the tax benefit of compounding"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Half her total return over the period"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Returns on her returns — the base never grows beyond the original principal",
+                  "ru": "Доход на доход — база никогда не растёт выше первоначальной суммы",
+                  "kk": "Returns on her returns — the base never grows beyond the original principal"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Nothing — 10% per year is the same whether compounded or not",
+                  "ru": "Ничего — 10% в год одинаковы со сложным процентом и без него",
+                  "kk": "Nothing — 10% per year is the same whether compounded or not"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Only the tax benefit of compounding",
+                  "ru": "Только налоговую выгоду сложного процента",
+                  "kk": "Only the tax benefit of compounding"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Half her total return over the period",
+                  "ru": "Половину всей доходности за период",
+                  "kk": "Half her total return over the period"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -263,8 +1001,16 @@
     },
     {
       "code": "rule_of_72",
-      "title": {"en": "Rule of 72"},
-      "description": {"en": "Divide 72 by any annual rate to estimate how long it takes to double. A fast mental model that works for growth and for debt."},
+      "title": {
+        "en": "Rule of 72",
+        "ru": "Правило 72",
+        "kk": "72 ережесі"
+      },
+      "description": {
+        "en": "Divide 72 by any annual rate to estimate how long it takes to double. A fast mental model that works for growth and for debt.",
+        "ru": "Разделите 72 на годовую ставку, чтобы оценить, сколько времени нужно для удвоения. Быстрая мысленная модель, которая работает и для роста, и для долга.",
+        "kk": "Divide 72 by any annual rate to estimate how long it takes to double. A fast mental model that works for growth and for debt."
+      },
       "estimatedMinutes": 4,
       "orderIndex": 2,
       "quizId": 1103,
@@ -274,45 +1020,226 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "How long to double your money?"},
-            "body": {"en": "Compound growth makes precise projections complex. But one shortcut gives you an instant answer for any rate: divide 72 by the annual rate, and you get the approximate number of years to double. No calculator needed."},
-            "tip": {"en": "72 ÷ rate = doubling time. This is accurate within 1–2 years for rates between 2% and 20%."}
+            "title": {
+              "en": "How long to double your money?",
+              "ru": "Сколько времени нужно, чтобы удвоить деньги?",
+              "kk": "How long to double your money?"
+            },
+            "body": {
+              "en": "Compound growth makes precise projections complex. But one shortcut gives you an instant answer for any rate: divide 72 by the annual rate, and you get the approximate number of years to double. No calculator needed.",
+              "ru": "Сложный рост делает точные прогнозы сложными. Но один приём даёт быстрый ответ для любой ставки: разделите 72 на годовую ставку — и получите примерное число лет до удвоения. Калькулятор не нужен.",
+              "kk": "Compound growth makes precise projections complex. But one shortcut gives you an instant answer for any rate: divide 72 by the annual rate, and you get the approximate number of years to double. No calculator needed."
+            },
+            "tip": {
+              "en": "72 ÷ rate = doubling time. This is accurate within 1–2 years for rates between 2% and 20%.",
+              "ru": "72 ÷ ставка = время удвоения. Для ставок от 2% до 20% точность обычно в пределах 1–2 лет.",
+              "kk": "72 ÷ rate = doubling time. This is accurate within 1–2 years for rates between 2% and 20%."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "How the rule works"},
-            "body": {"en": "The rule comes from the math of logarithms applied to compound growth. The exact formula is ln(2) / ln(1 + r) ≈ 0.693 / r. Since 72 is close to 69.3 and divides cleanly by many common rates (2, 3, 4, 6, 8, 9, 12), it became the standard shortcut."},
-            "example": {"en": "At 9%: 72 ÷ 9 = 8 years to double. At 12%: 72 ÷ 12 = 6 years. At 6%: 72 ÷ 6 = 12 years. The exact answers are 8.0, 6.1, and 11.9 — the rule is very close."}
+            "title": {
+              "en": "How the rule works",
+              "ru": "Как работает правило",
+              "kk": "How the rule works"
+            },
+            "body": {
+              "en": "The rule comes from the math of logarithms applied to compound growth. The exact formula is ln(2) / ln(1 + r) ≈ 0.693 / r. Since 72 is close to 69.3 and divides cleanly by many common rates (2, 3, 4, 6, 8, 9, 12), it became the standard shortcut.",
+              "ru": "Правило связано с математикой логарифмов в сложном росте. Точная формула: ln(2) / ln(1 + r) ≈ 0,693 / r. Число 72 близко к 69,3 и удобно делится на многие распространённые ставки (2, 3, 4, 6, 8, 9, 12), поэтому стало стандартным сокращением.",
+              "kk": "The rule comes from the math of logarithms applied to compound growth. The exact formula is ln(2) / ln(1 + r) ≈ 0.693 / r. Since 72 is close to 69.3 and divides cleanly by many common rates (2, 3, 4, 6, 8, 9, 12), it became the standard shortcut."
+            },
+            "example": {
+              "en": "At 9%: 72 ÷ 9 = 8 years to double. At 12%: 72 ÷ 12 = 6 years. At 6%: 72 ÷ 6 = 12 years. The exact answers are 8.0, 6.1, and 11.9 — the rule is very close.",
+              "ru": "При 9%: 72 ÷ 9 = 8 лет до удвоения. При 12%: 72 ÷ 12 = 6 лет. При 6%: 72 ÷ 6 = 12 лет. Точные ответы — 8,0; 6,1; 11,9 — правило очень близко.",
+              "kk": "At 9%: 72 ÷ 9 = 8 years to double. At 12%: 72 ÷ 12 = 6 years. At 6%: 72 ÷ 6 = 12 years. The exact answers are 8.0, 6.1, and 11.9 — the rule is very close."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "The rule works for debt and inflation too"},
-            "body": {"en": "The same logic applies in reverse. If a microloan charges 36% annual interest (common in KZ), your debt doubles in 72 ÷ 36 = 2 years if unpaid. If inflation runs at 8%, prices double in 9 years. The rule quantifies how quickly both sides of the balance sheet move."},
-            "tip": {"en": "Use the rule offensively (how fast does my investment grow?) and defensively (how fast does my debt or inflation destroy value?)."}
+            "title": {
+              "en": "The rule works for debt and inflation too",
+              "ru": "Правило работает и для долга, и для инфляции",
+              "kk": "The rule works for debt and inflation too"
+            },
+            "body": {
+              "en": "The same logic applies in reverse. If a microloan charges 36% annual interest (common in KZ), your debt doubles in 72 ÷ 36 = 2 years if unpaid. If inflation runs at 8%, prices double in 9 years. The rule quantifies how quickly both sides of the balance sheet move.",
+              "ru": "Та же логика работает и в обратную сторону. Если микрокредит берёт 36% годовых (часто встречается в РК), неоплаченный долг удвоится за 72 ÷ 36 = 2 года. Если инфляция 8%, цены удвоятся за 9 лет. Правило показывает, как быстро движутся обе стороны личного баланса.",
+              "kk": "The same logic applies in reverse. If a microloan charges 36% annual interest (common in KZ), your debt doubles in 72 ÷ 36 = 2 years if unpaid. If inflation runs at 8%, prices double in 9 years. The rule quantifies how quickly both sides of the balance sheet move."
+            },
+            "tip": {
+              "en": "Use the rule offensively (how fast does my investment grow?) and defensively (how fast does my debt or inflation destroy value?).",
+              "ru": "Используйте правило и наступательно (как быстро растёт инвестиция?), и защитно (как быстро долг или инфляция уничтожают ценность?).",
+              "kk": "Use the rule offensively (how fast does my investment grow?) and defensively (how fast does my debt or inflation destroy value?)."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "Rate vs doubling time: the full picture"},
+            "title": {
+              "en": "Rate vs doubling time: the full picture",
+              "ru": "Ставка и время удвоения: полная картина",
+              "kk": "Rate vs doubling time: the full picture"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Starting with 1,000,000 ₸, here is how long it takes to reach 2,000,000 ₸ at different rates, using Rule of 72 estimates."},
-                  {"type": "table", "rows": [
-                    ["Annual rate", "Doubling time (Rule of 72)", "Actual doubling time"],
-                    ["4%", "18 years", "17.7 years"],
-                    ["6%", "12 years", "11.9 years"],
-                    ["9%", "8 years", "8.0 years"],
-                    ["12%", "6 years", "6.1 years"],
-                    ["18%", "4 years", "4.2 years"],
-                    ["36% (debt)", "2 years", "2.3 years"]
-                  ]},
-                  {"type": "paragraph", "text": "Notice: doubling time does not shrink linearly with rate. Going from 6% to 12% (double the rate) cuts the doubling time in half — from 12 to 6 years. This is the power of rate differences in compounding."}
+                  {
+                    "type": "paragraph",
+                    "text": "Starting with 1,000,000 ₸, here is how long it takes to reach 2,000,000 ₸ at different rates, using Rule of 72 estimates."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Annual rate",
+                        "Doubling time (Rule of 72)",
+                        "Actual doubling time"
+                      ],
+                      [
+                        "4%",
+                        "18 years",
+                        "17.7 years"
+                      ],
+                      [
+                        "6%",
+                        "12 years",
+                        "11.9 years"
+                      ],
+                      [
+                        "9%",
+                        "8 years",
+                        "8.0 years"
+                      ],
+                      [
+                        "12%",
+                        "6 years",
+                        "6.1 years"
+                      ],
+                      [
+                        "18%",
+                        "4 years",
+                        "4.2 years"
+                      ],
+                      [
+                        "36% (debt)",
+                        "2 years",
+                        "2.3 years"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Notice: doubling time does not shrink linearly with rate. Going from 6% to 12% (double the rate) cuts the doubling time in half — from 12 to 6 years. This is the power of rate differences in compounding."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Если начать с 1 000 000 ₸, вот сколько времени нужно, чтобы достичь 2 000 000 ₸ при разных ставках по оценке Правила 72."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Годовая ставка",
+                        "Время удвоения (Правило 72)",
+                        "Фактическое время удвоения"
+                      ],
+                      [
+                        "4%",
+                        "18 years",
+                        "17.7 years"
+                      ],
+                      [
+                        "6%",
+                        "12 years",
+                        "11.9 years"
+                      ],
+                      [
+                        "9%",
+                        "8 years",
+                        "8.0 years"
+                      ],
+                      [
+                        "12%",
+                        "6 years",
+                        "6.1 years"
+                      ],
+                      [
+                        "18%",
+                        "4 years",
+                        "4.2 years"
+                      ],
+                      [
+                        "36% (долг)",
+                        "2 years",
+                        "2.3 years"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Обратите внимание: время удвоения не уменьшается линейно со ставкой. Переход с 6% на 12% (удвоение ставки) сокращает время удвоения вдвое — с 12 до 6 лет. В этом сила различий в ставках при сложном проценте."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Starting with 1,000,000 ₸, here is how long it takes to reach 2,000,000 ₸ at different rates, using Rule of 72 estimates."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Жылдық мөлшерлеме",
+                        "Doubling time (Rule of 72)",
+                        "Actual doubling time"
+                      ],
+                      [
+                        "4%",
+                        "18 years",
+                        "17.7 years"
+                      ],
+                      [
+                        "6%",
+                        "12 years",
+                        "11.9 years"
+                      ],
+                      [
+                        "9%",
+                        "8 years",
+                        "8.0 years"
+                      ],
+                      [
+                        "12%",
+                        "6 years",
+                        "6.1 years"
+                      ],
+                      [
+                        "18%",
+                        "4 years",
+                        "4.2 years"
+                      ],
+                      [
+                        "36% (debt)",
+                        "2 years",
+                        "2.3 years"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Notice: doubling time does not shrink linearly with rate. Going from 6% to 12% (double the rate) cuts the doubling time in half — from 12 to 6 years. This is the power of rate differences in compounding."
+                  }
                 ]
               }
             }
@@ -321,7 +1248,11 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Spot the error in these estimates"},
+            "title": {
+              "en": "Spot the error in these estimates",
+              "ru": "Найдите ошибку в этих оценках",
+              "kk": "Spot the error in these estimates"
+            },
             "interactiveType": "error_detector",
             "interactiveContent": {
               "en": {
@@ -329,19 +1260,94 @@
                 "cases": [
                   {
                     "text": "\"At 8% annual return, my 500,000 ₸ will double to 1,000,000 ₸ in about 9 years.\"",
-                    "options": ["a) No error — this is correct", "b) Error — the doubling time is wrong"],
+                    "options": [
+                      "a) No error — this is correct",
+                      "b) Error — the doubling time is wrong"
+                    ],
                     "correct": "a",
                     "explanation": "72 ÷ 8 = 9. Correct. At 8%, money doubles in approximately 9 years."
                   },
                   {
                     "text": "\"A loan at 24% annual interest will double the debt in about 6 years if nothing is repaid.\"",
-                    "options": ["a) No error — this is correct", "b) Error — the doubling time is wrong"],
+                    "options": [
+                      "a) No error — this is correct",
+                      "b) Error — the doubling time is wrong"
+                    ],
                     "correct": "b",
                     "explanation": "72 ÷ 24 = 3 years, not 6. At 24%, debt doubles in 3 years — twice as fast as stated."
                   },
                   {
                     "text": "\"Inflation at 6% means prices will roughly double in 12 years.\"",
-                    "options": ["a) No error — this is correct", "b) Error — the doubling time is wrong"],
+                    "options": [
+                      "a) No error — this is correct",
+                      "b) Error — the doubling time is wrong"
+                    ],
+                    "correct": "a",
+                    "explanation": "72 ÷ 6 = 12. Correct. At 6% inflation, the price level doubles in approximately 12 years."
+                  }
+                ],
+                "final_explanation": "The Rule of 72 is symmetrical: it applies equally to investment growth, debt growth, and inflation. A common mistake is misremembering the formula as '72 × rate' instead of '72 ÷ rate'."
+              },
+              "ru": {
+                "instruction": "Каждое утверждение применяет Правило 72. Найдите то, где есть ошибка.",
+                "cases": [
+                  {
+                    "text": "«При доходности 8% в год мои 500 000 ₸ удвоятся до 1 000 000 ₸ примерно за 9 лет».",
+                    "options": [
+                      "a) No error — this is correct",
+                      "b) Error — the doubling time is wrong"
+                    ],
+                    "correct": "a",
+                    "explanation": "72 ÷ 8 = 9. Correct. At 8%, money doubles in approximately 9 years."
+                  },
+                  {
+                    "text": "\"A loan at 24% annual interest will double the debt in about 6 years if nothing is repaid.\"",
+                    "options": [
+                      "a) No error — this is correct",
+                      "b) Error — the doubling time is wrong"
+                    ],
+                    "correct": "b",
+                    "explanation": "72 ÷ 24 = 3 years, not 6. At 24%, debt doubles in 3 years — twice as fast as stated."
+                  },
+                  {
+                    "text": "\"Inflation at 6% means prices will roughly double in 12 years.\"",
+                    "options": [
+                      "a) No error — this is correct",
+                      "b) Error — the doubling time is wrong"
+                    ],
+                    "correct": "a",
+                    "explanation": "72 ÷ 6 = 12. Correct. At 6% inflation, the price level doubles in approximately 12 years."
+                  }
+                ],
+                "final_explanation": "The Rule of 72 is symmetrical: it applies equally to investment growth, debt growth, and inflation. A common mistake is misremembering the formula as '72 × rate' instead of '72 ÷ rate'."
+              },
+              "kk": {
+                "instruction": "Each statement applies the Rule of 72. Find the one that contains a mistake.",
+                "cases": [
+                  {
+                    "text": "\"At 8% annual return, my 500,000 ₸ will double to 1,000,000 ₸ in about 9 years.\"",
+                    "options": [
+                      "a) No error — this is correct",
+                      "b) Error — the doubling time is wrong"
+                    ],
+                    "correct": "a",
+                    "explanation": "72 ÷ 8 = 9. Correct. At 8%, money doubles in approximately 9 years."
+                  },
+                  {
+                    "text": "\"A loan at 24% annual interest will double the debt in about 6 years if nothing is repaid.\"",
+                    "options": [
+                      "a) No error — this is correct",
+                      "b) Error — the doubling time is wrong"
+                    ],
+                    "correct": "b",
+                    "explanation": "72 ÷ 24 = 3 years, not 6. At 24%, debt doubles in 3 years — twice as fast as stated."
+                  },
+                  {
+                    "text": "\"Inflation at 6% means prices will roughly double in 12 years.\"",
+                    "options": [
+                      "a) No error — this is correct",
+                      "b) Error — the doubling time is wrong"
+                    ],
                     "correct": "a",
                     "explanation": "72 ÷ 6 = 12. Correct. At 6% inflation, the price level doubles in approximately 12 years."
                   }
@@ -354,51 +1360,187 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "A rate is not just a percentage — it is a timeline"},
-            "body": {"en": "The Rule of 72 converts an abstract rate into a concrete doubling period. This reframes financial decisions: a 12% investment isn't just '4% more than 9%' — it doubles in 6 years vs 8 years. That mental model connects naturally to investment horizon, which determines how many doublings you can realistically achieve."},
-            "tip": {"en": "Before evaluating any investment or debt, run the Rule of 72 in your head first. It immediately shows you what the rate actually means."}
+            "title": {
+              "en": "A rate is not just a percentage — it is a timeline",
+              "ru": "A rate is not just a percentage — it is a timeline",
+              "kk": "A rate is not just a percentage — it is a timeline"
+            },
+            "body": {
+              "en": "The Rule of 72 converts an abstract rate into a concrete doubling period. This reframes financial decisions: a 12% investment isn't just '4% more than 9%' — it doubles in 6 years vs 8 years. That mental model connects naturally to investment horizon, which determines how many doublings you can realistically achieve.",
+              "ru": "The Rule of 72 converts an abstract rate into a concrete doubling period. This reframes financial decisions: a 12% investment isn't just '4% more than 9%' — it doubles in 6 years vs 8 years. That mental model connects naturally to investment horizon, which determines how many doublings you can realistically achieve.",
+              "kk": "The Rule of 72 converts an abstract rate into a concrete doubling period. This reframes financial decisions: a 12% investment isn't just '4% more than 9%' — it doubles in 6 years vs 8 years. That mental model connects naturally to investment horizon, which determines how many doublings you can realistically achieve."
+            },
+            "tip": {
+              "en": "Before evaluating any investment or debt, run the Rule of 72 in your head first. It immediately shows you what the rate actually means.",
+              "ru": "Before evaluating any investment or debt, run the Rule of 72 in your head first. It immediately shows you what the rate actually means.",
+              "kk": "Before evaluating any investment or debt, run the Rule of 72 in your head first. It immediately shows you what the rate actually means."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1103,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Rule of 72 — Check"},
+        "title": {
+          "en": "Rule of 72 — Check",
+          "ru": "Rule of 72 — Check",
+          "kk": "Rule of 72 — Check"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "A person has a 500,000 ₸ debt at 18% annual interest and makes no payments. Roughly how long before the debt reaches 2,000,000 ₸?"},
+            "question_text": {
+              "en": "A person has a 500,000 ₸ debt at 18% annual interest and makes no payments. Roughly how long before the debt reaches 2,000,000 ₸?",
+              "ru": "A person has a 500,000 ₸ debt at 18% annual interest and makes no payments. Roughly how long before the debt reaches 2,000,000 ₸?",
+              "kk": "A person has a 500,000 ₸ debt at 18% annual interest and makes no payments. Roughly how long before the debt reaches 2,000,000 ₸?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "About 8 years — two doublings at 4 years each"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "About 18 years — one year per percentage point"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "About 4 years — one doubling is enough to reach 2,000,000 ₸"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "About 12 years — the rule gives 72 ÷ 18 = 12"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "About 8 years — two doublings at 4 years each",
+                  "ru": "About 8 years — two doublings at 4 years each",
+                  "kk": "About 8 years — two doublings at 4 years each"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "About 18 years — one year per percentage point",
+                  "ru": "About 18 years — one year per percentage point",
+                  "kk": "About 18 years — one year per percentage point"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "About 4 years — one doubling is enough to reach 2,000,000 ₸",
+                  "ru": "About 4 years — one doubling is enough to reach 2,000,000 ₸",
+                  "kk": "About 4 years — one doubling is enough to reach 2,000,000 ₸"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "About 12 years — the rule gives 72 ÷ 18 = 12",
+                  "ru": "About 12 years — the rule gives 72 ÷ 18 = 12",
+                  "kk": "About 12 years — the rule gives 72 ÷ 18 = 12"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Two investments: Fund A returns 6%/year, Fund B returns 9%/year. How much sooner does Fund B double your money?"},
+            "question_text": {
+              "en": "Two investments: Fund A returns 6%/year, Fund B returns 9%/year. How much sooner does Fund B double your money?",
+              "ru": "Two investments: Fund A returns 6%/year, Fund B returns 9%/year. How much sooner does Fund B double your money?",
+              "kk": "Two investments: Fund A returns 6%/year, Fund B returns 9%/year. How much sooner does Fund B double your money?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "4 years sooner — Fund A takes 12 years, Fund B takes 8 years"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "3 years sooner — the 3% difference equals 3 fewer years"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "1.5× sooner — 9% is 1.5× higher than 6%"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "6 years sooner — Fund B doubles in 6 years, Fund A in 12"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "4 years sooner — Fund A takes 12 years, Fund B takes 8 years",
+                  "ru": "4 years sooner — Fund A takes 12 years, Fund B takes 8 years",
+                  "kk": "4 years sooner — Fund A takes 12 years, Fund B takes 8 years"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "3 years sooner — the 3% difference equals 3 fewer years",
+                  "ru": "3 years sooner — the 3% difference equals 3 fewer years",
+                  "kk": "3 years sooner — the 3% difference equals 3 fewer years"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "1.5× sooner — 9% is 1.5× higher than 6%",
+                  "ru": "1.5× sooner — 9% is 1.5× higher than 6%",
+                  "kk": "1.5× sooner — 9% is 1.5× higher than 6%"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "6 years sooner — Fund B doubles in 6 years, Fund A in 12",
+                  "ru": "6 years sooner — Fund B doubles in 6 years, Fund A in 12",
+                  "kk": "6 years sooner — Fund B doubles in 6 years, Fund A in 12"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 3,
             "question_type": "single_choice",
             "order_index": 2,
-            "question_text": {"en": "Inflation averages 9% for 16 years. What happens to the purchasing power of 1,000,000 ₸ kept as cash?"},
+            "question_text": {
+              "en": "Inflation averages 9% for 16 years. What happens to the purchasing power of 1,000,000 ₸ kept as cash?",
+              "ru": "Inflation averages 9% for 16 years. What happens to the purchasing power of 1,000,000 ₸ kept as cash?",
+              "kk": "Inflation averages 9% for 16 years. What happens to the purchasing power of 1,000,000 ₸ kept as cash?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "It falls to roughly 250,000 ₸ in today's terms — approximately two halvings"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "It falls to roughly 550,000 ₸ — about a 45% loss"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "It stays at 1,000,000 ₸ — cash doesn't lose nominal value"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "It falls to roughly 750,000 ₸ — 9% loss per year times 16 is about 25%"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "It falls to roughly 250,000 ₸ in today's terms — approximately two halvings",
+                  "ru": "It falls to roughly 250,000 ₸ in today's terms — approximately two halvings",
+                  "kk": "It falls to roughly 250,000 ₸ in today's terms — approximately two halvings"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "It falls to roughly 550,000 ₸ — about a 45% loss",
+                  "ru": "It falls to roughly 550,000 ₸ — about a 45% loss",
+                  "kk": "It falls to roughly 550,000 ₸ — about a 45% loss"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "It stays at 1,000,000 ₸ — cash doesn't lose nominal value",
+                  "ru": "It stays at 1,000,000 ₸ — cash doesn't lose nominal value",
+                  "kk": "It stays at 1,000,000 ₸ — cash doesn't lose nominal value"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "It falls to roughly 750,000 ₸ — 9% loss per year times 16 is about 25%",
+                  "ru": "It falls to roughly 750,000 ₸ — 9% loss per year times 16 is about 25%",
+                  "kk": "It falls to roughly 750,000 ₸ — 9% loss per year times 16 is about 25%"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -406,8 +1548,16 @@
     },
     {
       "code": "investment_horizon",
-      "title": {"en": "Investment Horizon"},
-      "description": {"en": "How long you plan to stay invested shapes which assets make sense — longer horizons absorb volatility and let compounding do its work."},
+      "title": {
+        "en": "Investment Horizon",
+        "ru": "Investment Horizon",
+        "kk": "Инвестиция көкжиегі"
+      },
+      "description": {
+        "en": "How long you plan to stay invested shapes which assets make sense — longer horizons absorb volatility and let compounding do its work.",
+        "ru": "How long you plan to stay invested shapes which assets make sense — longer horizons absorb volatility and let compounding do its work.",
+        "kk": "How long you plan to stay invested shapes which assets make sense — longer horizons absorb volatility and let compounding do its work."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 3,
       "quizId": 1104,
@@ -417,41 +1567,175 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "Time changes what risk means"},
-            "body": {"en": "A volatile asset is only risky if you might need to sell it during a downturn. For money you won't touch for 20 years, short-term price swings are noise. For money you need in 6 months, they are a real threat. Your investment horizon is not a preference — it is a constraint that determines which assets are appropriate."},
-            "tip": {"en": "Ask: 'When will I actually need this money?' That answer defines your horizon."}
+            "title": {
+              "en": "Time changes what risk means",
+              "ru": "Time changes what risk means",
+              "kk": "Time changes what risk means"
+            },
+            "body": {
+              "en": "A volatile asset is only risky if you might need to sell it during a downturn. For money you won't touch for 20 years, short-term price swings are noise. For money you need in 6 months, they are a real threat. Your investment horizon is not a preference — it is a constraint that determines which assets are appropriate.",
+              "ru": "A volatile asset is only risky if you might need to sell it during a downturn. For money you won't touch for 20 years, short-term price swings are noise. For money you need in 6 months, they are a real threat. Your investment horizon is not a preference — it is a constraint that determines which assets are appropriate.",
+              "kk": "A volatile asset is only risky if you might need to sell it during a downturn. For money you won't touch for 20 years, short-term price swings are noise. For money you need in 6 months, they are a real threat. Your investment horizon is not a preference — it is a constraint that determines which assets are appropriate."
+            },
+            "tip": {
+              "en": "Ask: 'When will I actually need this money?' That answer defines your horizon.",
+              "ru": "Ask: 'When will I actually need this money?' That answer defines your horizon.",
+              "kk": "Ask: 'When will I actually need this money?' That answer defines your horizon."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "Short, medium, and long horizons"},
-            "body": {"en": "Short horizon (under 3 years): capital preservation is the goal — cash, deposits, short bonds. Medium (3–10 years): balance growth and stability. Long (10+ years): focus on growth; short-term volatility is acceptable because time smooths it out. Mixing assets from different horizon buckets creates mismatch risk."},
-            "example": {"en": "Emergency fund (6-month horizon) → savings account. Wedding fund in 2 years → deposits or short bonds. Retirement in 25 years → equity-heavy portfolio. Each sits in the right bucket."}
+            "title": {
+              "en": "Short, medium, and long horizons",
+              "ru": "Short, medium, and long horizons",
+              "kk": "Short, medium, and long horizons"
+            },
+            "body": {
+              "en": "Short horizon (under 3 years): capital preservation is the goal — cash, deposits, short bonds. Medium (3–10 years): balance growth and stability. Long (10+ years): focus on growth; short-term volatility is acceptable because time smooths it out. Mixing assets from different horizon buckets creates mismatch risk.",
+              "ru": "Short horizon (under 3 years): capital preservation is the goal — cash, deposits, short bonds. Medium (3–10 years): balance growth and stability. Long (10+ years): focus on growth; short-term volatility is acceptable because time smooths it out. Mixing assets from different horizon buckets creates mismatch risk.",
+              "kk": "Short horizon (under 3 years): capital preservation is the goal — cash, deposits, short bonds. Medium (3–10 years): balance growth and stability. Long (10+ years): focus on growth; short-term volatility is acceptable because time smooths it out. Mixing assets from different horizon buckets creates mismatch risk."
+            },
+            "example": {
+              "en": "Emergency fund (6-month horizon) → savings account. Wedding fund in 2 years → deposits or short bonds. Retirement in 25 years → equity-heavy portfolio. Each sits in the right bucket.",
+              "ru": "Emergency fund (6-month horizon) → savings account. Wedding fund in 2 years → deposits or short bonds. Retirement in 25 years → equity-heavy portfolio. Each sits in the right bucket.",
+              "kk": "Emergency fund (6-month horizon) → savings account. Wedding fund in 2 years → deposits or short bonds. Retirement in 25 years → equity-heavy portfolio. Each sits in the right bucket."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "Sequence risk: why timing of returns matters"},
-            "body": {"en": "If markets crash just as you begin withdrawing (e.g. at retirement), you are forced to sell more units to raise the same cash — permanently depleting the base. This is sequence-of-returns risk. A long accumulation horizon is not affected by it; a short horizon near withdrawal is very exposed."},
-            "tip": {"en": "As your horizon shortens, shift gradually toward stable assets — not because returns no longer matter, but because recovery time disappears."}
+            "title": {
+              "en": "Sequence risk: why timing of returns matters",
+              "ru": "Sequence risk: why timing of returns matters",
+              "kk": "Sequence risk: why timing of returns matters"
+            },
+            "body": {
+              "en": "If markets crash just as you begin withdrawing (e.g. at retirement), you are forced to sell more units to raise the same cash — permanently depleting the base. This is sequence-of-returns risk. A long accumulation horizon is not affected by it; a short horizon near withdrawal is very exposed.",
+              "ru": "If markets crash just as you begin withdrawing (e.g. at retirement), you are forced to sell more units to raise the same cash — permanently depleting the base. This is sequence-of-returns risk. A long accumulation horizon is not affected by it; a short horizon near withdrawal is very exposed.",
+              "kk": "If markets crash just as you begin withdrawing (e.g. at retirement), you are forced to sell more units to raise the same cash — permanently depleting the base. This is sequence-of-returns risk. A long accumulation horizon is not affected by it; a short horizon near withdrawal is very exposed."
+            },
+            "tip": {
+              "en": "As your horizon shortens, shift gradually toward stable assets — not because returns no longer matter, but because recovery time disappears.",
+              "ru": "As your horizon shortens, shift gradually toward stable assets — not because returns no longer matter, but because recovery time disappears.",
+              "kk": "As your horizon shortens, shift gradually toward stable assets — not because returns no longer matter, but because recovery time disappears."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "The same asset, two horizons, two outcomes"},
+            "title": {
+              "en": "The same asset, two horizons, two outcomes",
+              "ru": "The same asset, two horizons, two outcomes",
+              "kk": "The same asset, two horizons, two outcomes"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Imagine an equity fund that drops 40% in year 1 and recovers 70% in year 2. Two investors hold it."},
-                  {"type": "table", "rows": [
-                    ["Investor", "Horizon", "Action in year 1", "Result"],
-                    ["Aibek", "20 years", "Holds through the drop", "Recovers fully + long-term gains"],
-                    ["Zarina", "1 year", "Must sell for down payment", "Locks in 40% loss permanently"]
-                  ]},
-                  {"type": "paragraph", "text": "Same asset, same 40% drop — completely different outcomes. The fund did not fail Zarina; her horizon did. The asset was wrong for her timeline from the start."}
+                  {
+                    "type": "paragraph",
+                    "text": "Imagine an equity fund that drops 40% in year 1 and recovers 70% in year 2. Two investors hold it."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Investor",
+                        "Horizon",
+                        "Action in year 1",
+                        "Result"
+                      ],
+                      [
+                        "Aibek",
+                        "20 years",
+                        "Holds through the drop",
+                        "Recovers fully + long-term gains"
+                      ],
+                      [
+                        "Zarina",
+                        "1 year",
+                        "Must sell for down payment",
+                        "Locks in 40% loss permanently"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Same asset, same 40% drop — completely different outcomes. The fund did not fail Zarina; her horizon did. The asset was wrong for her timeline from the start."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Imagine an equity fund that drops 40% in year 1 and recovers 70% in year 2. Two investors hold it."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Инвестор",
+                        "Horizon",
+                        "Action in year 1",
+                        "Result"
+                      ],
+                      [
+                        "Aibek",
+                        "20 years",
+                        "Holds through the drop",
+                        "Recovers fully + long-term gains"
+                      ],
+                      [
+                        "Zarina",
+                        "1 year",
+                        "Must sell for down payment",
+                        "Locks in 40% loss permanently"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Same asset, same 40% drop — completely different outcomes. The fund did not fail Zarina; her horizon did. The asset was wrong for her timeline from the start."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Imagine an equity fund that drops 40% in year 1 and recovers 70% in year 2. Two investors hold it."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Investor",
+                        "Horizon",
+                        "Action in year 1",
+                        "Result"
+                      ],
+                      [
+                        "Aibek",
+                        "20 years",
+                        "Holds through the drop",
+                        "Recovers fully + long-term gains"
+                      ],
+                      [
+                        "Zarina",
+                        "1 year",
+                        "Must sell for down payment",
+                        "Locks in 40% loss permanently"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Same asset, same 40% drop — completely different outcomes. The fund did not fail Zarina; her horizon did. The asset was wrong for her timeline from the start."
+                  }
                 ]
               }
             }
@@ -460,31 +1744,220 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Match each goal to the right asset type"},
+            "title": {
+              "en": "Match each goal to the right asset type",
+              "ru": "Match each goal to the right asset type",
+              "kk": "Match each goal to the right asset type"
+            },
             "interactiveType": "drag_drop",
             "interactiveContent": {
               "en": {
                 "instruction": "Drag each financial goal into the correct time horizon bucket. Each bucket determines which asset types are appropriate.",
                 "categories": [
-                  {"id": "short", "label": "Short (0–3 years)"},
-                  {"id": "medium", "label": "Medium (3–10 years)"},
-                  {"id": "long", "label": "Long (10+ years)"}
+                  {
+                    "id": "short",
+                    "label": "Short (0–3 years)"
+                  },
+                  {
+                    "id": "medium",
+                    "label": "Medium (3–10 years)"
+                  },
+                  {
+                    "id": "long",
+                    "label": "Long (10+ years)"
+                  }
                 ],
                 "items": [
-                  {"id": "emergency", "text": "Emergency fund buffer"},
-                  {"id": "retirement", "text": "Retirement in 25 years"},
-                  {"id": "car", "text": "Car purchase in 2 years"},
-                  {"id": "college", "text": "Child's university in 12 years"},
-                  {"id": "vacation", "text": "Vacation next summer"},
-                  {"id": "wealth", "text": "Long-term wealth building"}
+                  {
+                    "id": "emergency",
+                    "text": "Emergency fund buffer"
+                  },
+                  {
+                    "id": "retirement",
+                    "text": "Retirement in 25 years"
+                  },
+                  {
+                    "id": "car",
+                    "text": "Car purchase in 2 years"
+                  },
+                  {
+                    "id": "college",
+                    "text": "Child's university in 12 years"
+                  },
+                  {
+                    "id": "vacation",
+                    "text": "Vacation next summer"
+                  },
+                  {
+                    "id": "wealth",
+                    "text": "Long-term wealth building"
+                  }
                 ],
                 "answers": [
-                  {"itemId": "emergency", "categoryId": "short"},
-                  {"itemId": "retirement", "categoryId": "long"},
-                  {"itemId": "car", "categoryId": "short"},
-                  {"itemId": "college", "categoryId": "long"},
-                  {"itemId": "vacation", "categoryId": "short"},
-                  {"itemId": "wealth", "categoryId": "long"}
+                  {
+                    "itemId": "emergency",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "retirement",
+                    "categoryId": "long"
+                  },
+                  {
+                    "itemId": "car",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "college",
+                    "categoryId": "long"
+                  },
+                  {
+                    "itemId": "vacation",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "wealth",
+                    "categoryId": "long"
+                  }
+                ],
+                "explanation": "Short-horizon money belongs in stable, liquid assets. Putting a 1-year goal in equities means you may be forced to sell at a loss. Long-horizon goals can absorb volatility and benefit from higher-return assets."
+              },
+              "ru": {
+                "instruction": "Drag each financial goal into the correct time horizon bucket. Each bucket determines which asset types are appropriate.",
+                "categories": [
+                  {
+                    "id": "short",
+                    "label": "Short (0–3 years)"
+                  },
+                  {
+                    "id": "medium",
+                    "label": "Medium (3–10 years)"
+                  },
+                  {
+                    "id": "long",
+                    "label": "Long (10+ years)"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "emergency",
+                    "text": "Emergency fund buffer"
+                  },
+                  {
+                    "id": "retirement",
+                    "text": "Retirement in 25 years"
+                  },
+                  {
+                    "id": "car",
+                    "text": "Car purchase in 2 years"
+                  },
+                  {
+                    "id": "college",
+                    "text": "Child's university in 12 years"
+                  },
+                  {
+                    "id": "vacation",
+                    "text": "Vacation next summer"
+                  },
+                  {
+                    "id": "wealth",
+                    "text": "Long-term wealth building"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "emergency",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "retirement",
+                    "categoryId": "long"
+                  },
+                  {
+                    "itemId": "car",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "college",
+                    "categoryId": "long"
+                  },
+                  {
+                    "itemId": "vacation",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "wealth",
+                    "categoryId": "long"
+                  }
+                ],
+                "explanation": "Short-horizon money belongs in stable, liquid assets. Putting a 1-year goal in equities means you may be forced to sell at a loss. Long-horizon goals can absorb volatility and benefit from higher-return assets."
+              },
+              "kk": {
+                "instruction": "Drag each financial goal into the correct time horizon bucket. Each bucket determines which asset types are appropriate.",
+                "categories": [
+                  {
+                    "id": "short",
+                    "label": "Short (0–3 years)"
+                  },
+                  {
+                    "id": "medium",
+                    "label": "Medium (3–10 years)"
+                  },
+                  {
+                    "id": "long",
+                    "label": "Long (10+ years)"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "emergency",
+                    "text": "Emergency fund buffer"
+                  },
+                  {
+                    "id": "retirement",
+                    "text": "Retirement in 25 years"
+                  },
+                  {
+                    "id": "car",
+                    "text": "Car purchase in 2 years"
+                  },
+                  {
+                    "id": "college",
+                    "text": "Child's university in 12 years"
+                  },
+                  {
+                    "id": "vacation",
+                    "text": "Vacation next summer"
+                  },
+                  {
+                    "id": "wealth",
+                    "text": "Long-term wealth building"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "emergency",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "retirement",
+                    "categoryId": "long"
+                  },
+                  {
+                    "itemId": "car",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "college",
+                    "categoryId": "long"
+                  },
+                  {
+                    "itemId": "vacation",
+                    "categoryId": "short"
+                  },
+                  {
+                    "itemId": "wealth",
+                    "categoryId": "long"
+                  }
                 ],
                 "explanation": "Short-horizon money belongs in stable, liquid assets. Putting a 1-year goal in equities means you may be forced to sell at a loss. Long-horizon goals can absorb volatility and benefit from higher-return assets."
               }
@@ -494,39 +1967,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "Horizon first, then asset selection"},
-            "body": {"en": "Before choosing an asset, know when you'll need the money. Horizon determines acceptable volatility, recovery runway, and the compounding window available to you. An investor who gets this right avoids the most common portfolio mistake: holding assets that are structurally wrong for their timeline. Dollar-cost averaging is the discipline that turns a long horizon into consistent action."},
-            "tip": {"en": "Write down the date you need each pool of money. That single act clarifies more investment decisions than any market analysis."}
+            "title": {
+              "en": "Horizon first, then asset selection",
+              "ru": "Horizon first, then asset selection",
+              "kk": "Horizon first, then asset selection"
+            },
+            "body": {
+              "en": "Before choosing an asset, know when you'll need the money. Horizon determines acceptable volatility, recovery runway, and the compounding window available to you. An investor who gets this right avoids the most common portfolio mistake: holding assets that are structurally wrong for their timeline. Dollar-cost averaging is the discipline that turns a long horizon into consistent action.",
+              "ru": "Before choosing an asset, know when you'll need the money. Horizon determines acceptable volatility, recovery runway, and the compounding window available to you. An investor who gets this right avoids the most common portfolio mistake: holding assets that are structurally wrong for their timeline. Dollar-cost averaging is the discipline that turns a long horizon into consistent action.",
+              "kk": "Before choosing an asset, know when you'll need the money. Horizon determines acceptable volatility, recovery runway, and the compounding window available to you. An investor who gets this right avoids the most common portfolio mistake: holding assets that are structurally wrong for their timeline. Dollar-cost averaging is the discipline that turns a long horizon into consistent action."
+            },
+            "tip": {
+              "en": "Write down the date you need each pool of money. That single act clarifies more investment decisions than any market analysis.",
+              "ru": "Write down the date you need each pool of money. That single act clarifies more investment decisions than any market analysis.",
+              "kk": "Write down the date you need each pool of money. That single act clarifies more investment decisions than any market analysis."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1104,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Investment Horizon — Check"},
+        "title": {
+          "en": "Investment Horizon — Check",
+          "ru": "Investment Horizon — Check",
+          "kk": "Investment Horizon — Check"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "Nurgul has 3,000,000 ₸ saved for a home purchase she plans in 18 months. She invests it in an equity fund to maximize growth. What is the core risk she is taking?"},
+            "question_text": {
+              "en": "Nurgul has 3,000,000 ₸ saved for a home purchase she plans in 18 months. She invests it in an equity fund to maximize growth. What is the core risk she is taking?",
+              "ru": "Nurgul has 3,000,000 ₸ saved for a home purchase she plans in 18 months. She invests it in an equity fund to maximize growth. What is the core risk she is taking?",
+              "kk": "Nurgul has 3,000,000 ₸ saved for a home purchase she plans in 18 months. She invests it in an equity fund to maximize growth. What is the core risk she is taking?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "She may be forced to sell at a loss if markets fall before her purchase date"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Equity funds have high fees that will reduce her returns"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "She will owe capital gains tax on any growth"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Equity funds are not available to retail investors in Kazakhstan"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "She may be forced to sell at a loss if markets fall before her purchase date",
+                  "ru": "She may be forced to sell at a loss if markets fall before her purchase date",
+                  "kk": "She may be forced to sell at a loss if markets fall before her purchase date"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Equity funds have high fees that will reduce her returns",
+                  "ru": "Equity funds have high fees that will reduce her returns",
+                  "kk": "Equity funds have high fees that will reduce her returns"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "She will owe capital gains tax on any growth",
+                  "ru": "She will owe capital gains tax on any growth",
+                  "kk": "She will owe capital gains tax on any growth"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Equity funds are not available to retail investors in Kazakhstan",
+                  "ru": "Equity funds are not available to retail investors in Kazakhstan",
+                  "kk": "Equity funds are not available to retail investors in Kazakhstan"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Why does a long investment horizon reduce the effective risk of holding volatile assets?"},
+            "question_text": {
+              "en": "Why does a long investment horizon reduce the effective risk of holding volatile assets?",
+              "ru": "Why does a long investment horizon reduce the effective risk of holding volatile assets?",
+              "kk": "Why does a long investment horizon reduce the effective risk of holding volatile assets?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Time allows recovery from downturns before the investor needs to withdraw"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Volatile assets become stable over time as companies mature"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Long-horizon investors are exempt from market losses by regulation"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Diversification automatically increases over time"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Time allows recovery from downturns before the investor needs to withdraw",
+                  "ru": "Time allows recovery from downturns before the investor needs to withdraw",
+                  "kk": "Time allows recovery from downturns before the investor needs to withdraw"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Volatile assets become stable over time as companies mature",
+                  "ru": "Volatile assets become stable over time as companies mature",
+                  "kk": "Volatile assets become stable over time as companies mature"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Long-horizon investors are exempt from market losses by regulation",
+                  "ru": "Long-horizon investors are exempt from market losses by regulation",
+                  "kk": "Long-horizon investors are exempt from market losses by regulation"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Diversification automatically increases over time",
+                  "ru": "Diversification automatically increases over time",
+                  "kk": "Diversification automatically increases over time"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -534,8 +2103,16 @@
     },
     {
       "code": "dollar_cost_averaging",
-      "title": {"en": "Dollar-Cost Averaging"},
-      "description": {"en": "Invest a fixed amount on a regular schedule. You buy more when prices are low, fewer when high — automatically lowering your average cost over time."},
+      "title": {
+        "en": "Dollar-Cost Averaging",
+        "ru": "Dollar-Cost Averaging",
+        "kk": "Орташа құнмен тұрақты инвестициялау"
+      },
+      "description": {
+        "en": "Invest a fixed amount on a regular schedule. You buy more when prices are low, fewer when high — automatically lowering your average cost over time.",
+        "ru": "Invest a fixed amount on a regular schedule. You buy more when prices are low, fewer when high — automatically lowering your average cost over time.",
+        "kk": "Invest a fixed amount on a regular schedule. You buy more when prices are low, fewer when high — automatically lowering your average cost over time."
+      },
       "estimatedMinutes": 5,
       "orderIndex": 4,
       "quizId": 1105,
@@ -545,45 +2122,247 @@
             "id": "1",
             "order": 1,
             "stepType": "introduction",
-            "title": {"en": "The market-timing problem"},
-            "body": {"en": "Investing a large sum all at once feels risky — what if you buy right before a crash? Waiting for the 'right moment' means most investors sit in cash too long and miss gains. Dollar-cost averaging (DCA) sidesteps this by removing the timing decision entirely: invest a fixed amount on a fixed schedule, regardless of price."},
-            "tip": {"en": "DCA is not about finding the best price. It is about removing the worst decision: waiting indefinitely."}
+            "title": {
+              "en": "The market-timing problem",
+              "ru": "The market-timing problem",
+              "kk": "The market-timing problem"
+            },
+            "body": {
+              "en": "Investing a large sum all at once feels risky — what if you buy right before a crash? Waiting for the 'right moment' means most investors sit in cash too long and miss gains. Dollar-cost averaging (DCA) sidesteps this by removing the timing decision entirely: invest a fixed amount on a fixed schedule, regardless of price.",
+              "ru": "Investing a large sum all at once feels risky — what if you buy right before a crash? Waiting for the 'right moment' means most investors sit in cash too long and miss gains. Dollar-cost averaging (DCA) sidesteps this by removing the timing decision entirely: invest a fixed amount on a fixed schedule, regardless of price.",
+              "kk": "Investing a large sum all at once feels risky — what if you buy right before a crash? Waiting for the 'right moment' means most investors sit in cash too long and miss gains. Dollar-cost averaging (DCA) sidesteps this by removing the timing decision entirely: invest a fixed amount on a fixed schedule, regardless of price."
+            },
+            "tip": {
+              "en": "DCA is not about finding the best price. It is about removing the worst decision: waiting indefinitely.",
+              "ru": "DCA is not about finding the best price. It is about removing the worst decision: waiting indefinitely.",
+              "kk": "DCA is not about finding the best price. It is about removing the worst decision: waiting indefinitely."
+            }
           },
           {
             "id": "2",
             "order": 2,
             "stepType": "explanation",
-            "title": {"en": "How DCA lowers your average cost"},
-            "body": {"en": "When you invest a fixed amount, a lower price buys more units; a higher price buys fewer. This asymmetry works in your favour over time: you accumulate more units during dips than during peaks. Your average cost per unit ends up lower than the average price over the same period."},
-            "example": {"en": "Invest 50,000 ₸/month for 3 months. Prices: 1,000 ₸, 500 ₸, 2,000 ₸. Units bought: 50, 100, 25 = 175 units for 150,000 ₸. Average cost: 857 ₸. Average price: 1,167 ₸. DCA paid 27% less per unit."}
+            "title": {
+              "en": "How DCA lowers your average cost",
+              "ru": "How DCA lowers your average cost",
+              "kk": "How DCA lowers your average cost"
+            },
+            "body": {
+              "en": "When you invest a fixed amount, a lower price buys more units; a higher price buys fewer. This asymmetry works in your favour over time: you accumulate more units during dips than during peaks. Your average cost per unit ends up lower than the average price over the same period.",
+              "ru": "When you invest a fixed amount, a lower price buys more units; a higher price buys fewer. This asymmetry works in your favour over time: you accumulate more units during dips than during peaks. Your average cost per unit ends up lower than the average price over the same period.",
+              "kk": "When you invest a fixed amount, a lower price buys more units; a higher price buys fewer. This asymmetry works in your favour over time: you accumulate more units during dips than during peaks. Your average cost per unit ends up lower than the average price over the same period."
+            },
+            "example": {
+              "en": "Invest 50,000 ₸/month for 3 months. Prices: 1,000 ₸, 500 ₸, 2,000 ₸. Units bought: 50, 100, 25 = 175 units for 150,000 ₸. Average cost: 857 ₸. Average price: 1,167 ₸. DCA paid 27% less per unit.",
+              "ru": "Invest 50,000 ₸/month for 3 months. Prices: 1,000 ₸, 500 ₸, 2,000 ₸. Units bought: 50, 100, 25 = 175 units for 150,000 ₸. Average cost: 857 ₸. Average price: 1,167 ₸. DCA paid 27% less per unit.",
+              "kk": "Invest 50,000 ₸/month for 3 months. Prices: 1,000 ₸, 500 ₸, 2,000 ₸. Units bought: 50, 100, 25 = 175 units for 150,000 ₸. Average cost: 857 ₸. Average price: 1,167 ₸. DCA paid 27% less per unit."
+            }
           },
           {
             "id": "3",
             "order": 3,
             "stepType": "explanation",
-            "title": {"en": "DCA vs lump sum: when each wins"},
-            "body": {"en": "Research consistently shows that lump-sum investing beats DCA about two-thirds of the time in rising markets — because money invested earlier compounds longer. DCA wins when markets fall or are highly volatile after the investment date. For most individuals, DCA's main value is behavioural: it makes starting easy and keeps you investing through downturns."},
-            "tip": {"en": "If you have a lump sum and a long horizon, investing it all at once is usually optimal mathematically. But DCA beats not investing at all — always."}
+            "title": {
+              "en": "DCA vs lump sum: when each wins",
+              "ru": "DCA vs lump sum: when each wins",
+              "kk": "DCA vs lump sum: when each wins"
+            },
+            "body": {
+              "en": "Research consistently shows that lump-sum investing beats DCA about two-thirds of the time in rising markets — because money invested earlier compounds longer. DCA wins when markets fall or are highly volatile after the investment date. For most individuals, DCA's main value is behavioural: it makes starting easy and keeps you investing through downturns.",
+              "ru": "Research consistently shows that lump-sum investing beats DCA about two-thirds of the time in rising markets — because money invested earlier compounds longer. DCA wins when markets fall or are highly volatile after the investment date. For most individuals, DCA's main value is behavioural: it makes starting easy and keeps you investing through downturns.",
+              "kk": "Research consistently shows that lump-sum investing beats DCA about two-thirds of the time in rising markets — because money invested earlier compounds longer. DCA wins when markets fall or are highly volatile after the investment date. For most individuals, DCA's main value is behavioural: it makes starting easy and keeps you investing through downturns."
+            },
+            "tip": {
+              "en": "If you have a lump sum and a long horizon, investing it all at once is usually optimal mathematically. But DCA beats not investing at all — always.",
+              "ru": "If you have a lump sum and a long horizon, investing it all at once is usually optimal mathematically. But DCA beats not investing at all — always.",
+              "kk": "If you have a lump sum and a long horizon, investing it all at once is usually optimal mathematically. But DCA beats not investing at all — always."
+            }
           },
           {
             "id": "4",
             "order": 4,
             "stepType": "example",
-            "title": {"en": "DCA through a volatile year"},
+            "title": {
+              "en": "DCA through a volatile year",
+              "ru": "DCA through a volatile year",
+              "kk": "DCA through a volatile year"
+            },
             "content": {
               "en": {
                 "blocks": [
-                  {"type": "paragraph", "text": "Azat invests 30,000 ₸ every month for 6 months. Fund price fluctuates:"},
-                  {"type": "table", "rows": [
-                    ["Month", "Price per unit", "Units bought", "Cumulative units"],
-                    ["Jan", "1,500 ₸", "20.0", "20.0"],
-                    ["Feb", "1,200 ₸", "25.0", "45.0"],
-                    ["Mar", "900 ₸", "33.3", "78.3"],
-                    ["Apr", "1,100 ₸", "27.3", "105.6"],
-                    ["May", "1,400 ₸", "21.4", "127.0"],
-                    ["Jun", "1,600 ₸", "18.8", "145.8"]
-                  ]},
-                  {"type": "paragraph", "text": "Total invested: 180,000 ₸. Average cost per unit: 180,000 ÷ 145.8 = 1,235 ₸. Average price over 6 months: (1,500+1,200+900+1,100+1,400+1,600) ÷ 6 = 1,283 ₸. DCA cost was 4% lower than simply averaging the prices — because more units were purchased during the low months."}
+                  {
+                    "type": "paragraph",
+                    "text": "Azat invests 30,000 ₸ every month for 6 months. Fund price fluctuates:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Month",
+                        "Price per unit",
+                        "Units bought",
+                        "Cumulative units"
+                      ],
+                      [
+                        "Jan",
+                        "1,500 ₸",
+                        "20.0",
+                        "20.0"
+                      ],
+                      [
+                        "Feb",
+                        "1,200 ₸",
+                        "25.0",
+                        "45.0"
+                      ],
+                      [
+                        "Mar",
+                        "900 ₸",
+                        "33.3",
+                        "78.3"
+                      ],
+                      [
+                        "Apr",
+                        "1,100 ₸",
+                        "27.3",
+                        "105.6"
+                      ],
+                      [
+                        "May",
+                        "1,400 ₸",
+                        "21.4",
+                        "127.0"
+                      ],
+                      [
+                        "Jun",
+                        "1,600 ₸",
+                        "18.8",
+                        "145.8"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Total invested: 180,000 ₸. Average cost per unit: 180,000 ÷ 145.8 = 1,235 ₸. Average price over 6 months: (1,500+1,200+900+1,100+1,400+1,600) ÷ 6 = 1,283 ₸. DCA cost was 4% lower than simply averaging the prices — because more units were purchased during the low months."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Azat invests 30,000 ₸ every month for 6 months. Fund price fluctuates:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Month",
+                        "Price per unit",
+                        "Units bought",
+                        "Cumulative units"
+                      ],
+                      [
+                        "Jan",
+                        "1,500 ₸",
+                        "20.0",
+                        "20.0"
+                      ],
+                      [
+                        "Feb",
+                        "1,200 ₸",
+                        "25.0",
+                        "45.0"
+                      ],
+                      [
+                        "Mar",
+                        "900 ₸",
+                        "33.3",
+                        "78.3"
+                      ],
+                      [
+                        "Apr",
+                        "1,100 ₸",
+                        "27.3",
+                        "105.6"
+                      ],
+                      [
+                        "May",
+                        "1,400 ₸",
+                        "21.4",
+                        "127.0"
+                      ],
+                      [
+                        "Jun",
+                        "1,600 ₸",
+                        "18.8",
+                        "145.8"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Total invested: 180,000 ₸. Average cost per unit: 180,000 ÷ 145.8 = 1,235 ₸. Average price over 6 months: (1,500+1,200+900+1,100+1,400+1,600) ÷ 6 = 1,283 ₸. DCA cost was 4% lower than simply averaging the prices — because more units were purchased during the low months."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Azat invests 30,000 ₸ every month for 6 months. Fund price fluctuates:"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Month",
+                        "Price per unit",
+                        "Units bought",
+                        "Cumulative units"
+                      ],
+                      [
+                        "Jan",
+                        "1,500 ₸",
+                        "20.0",
+                        "20.0"
+                      ],
+                      [
+                        "Feb",
+                        "1,200 ₸",
+                        "25.0",
+                        "45.0"
+                      ],
+                      [
+                        "Mar",
+                        "900 ₸",
+                        "33.3",
+                        "78.3"
+                      ],
+                      [
+                        "Apr",
+                        "1,100 ₸",
+                        "27.3",
+                        "105.6"
+                      ],
+                      [
+                        "May",
+                        "1,400 ₸",
+                        "21.4",
+                        "127.0"
+                      ],
+                      [
+                        "Jun",
+                        "1,600 ₸",
+                        "18.8",
+                        "145.8"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Total invested: 180,000 ₸. Average cost per unit: 180,000 ÷ 145.8 = 1,235 ₸. Average price over 6 months: (1,500+1,200+900+1,100+1,400+1,600) ÷ 6 = 1,283 ₸. DCA cost was 4% lower than simply averaging the prices — because more units were purchased during the low months."
+                  }
                 ]
               }
             }
@@ -592,12 +2371,67 @@
             "id": "5",
             "order": 5,
             "stepType": "interactive",
-            "title": {"en": "Is this good or bad DCA practice?"},
+            "title": {
+              "en": "Is this good or bad DCA practice?",
+              "ru": "Is this good or bad DCA practice?",
+              "kk": "Is this good or bad DCA practice?"
+            },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
               "en": {
                 "instruction": "Evaluate each investor's approach. Does it follow good DCA practice or undermine it?",
-                "options": ["Good DCA practice", "Undermines DCA"],
+                "options": [
+                  "Good DCA practice",
+                  "Undermines DCA"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Bekzat sets up an automatic transfer of 25,000 ₸ into an index fund on the 1st of every month and never changes it.",
+                    "correct_answer": "Good DCA practice",
+                    "explanation": "Automation removes emotion. Fixed amount, fixed schedule, consistent execution — this is textbook DCA."
+                  },
+                  {
+                    "text": "Sholpan invests her 25,000 ₸ only in months when the market went up the previous month, skipping months after drops.",
+                    "correct_answer": "Undermines DCA",
+                    "explanation": "Skipping purchases after drops eliminates the key benefit of DCA — buying more units when prices are low. She buys only at higher prices."
+                  },
+                  {
+                    "text": "Timur doubles his monthly contribution to 50,000 ₸ during a 30% market drawdown because he sees it as a discount.",
+                    "correct_answer": "Good DCA practice",
+                    "explanation": "Increasing contributions during drawdowns is consistent with DCA logic — lower prices mean more units per tenge. It enhances, not undermines, the strategy."
+                  }
+                ]
+              },
+              "ru": {
+                "instruction": "Evaluate each investor's approach. Does it follow good DCA practice or undermine it?",
+                "options": [
+                  "Good DCA practice",
+                  "Undermines DCA"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Bekzat sets up an automatic transfer of 25,000 ₸ into an index fund on the 1st of every month and never changes it.",
+                    "correct_answer": "Good DCA practice",
+                    "explanation": "Automation removes emotion. Fixed amount, fixed schedule, consistent execution — this is textbook DCA."
+                  },
+                  {
+                    "text": "Sholpan invests her 25,000 ₸ only in months when the market went up the previous month, skipping months after drops.",
+                    "correct_answer": "Undermines DCA",
+                    "explanation": "Skipping purchases after drops eliminates the key benefit of DCA — buying more units when prices are low. She buys only at higher prices."
+                  },
+                  {
+                    "text": "Timur doubles his monthly contribution to 50,000 ₸ during a 30% market drawdown because he sees it as a discount.",
+                    "correct_answer": "Good DCA practice",
+                    "explanation": "Increasing contributions during drawdowns is consistent with DCA logic — lower prices mean more units per tenge. It enhances, not undermines, the strategy."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Evaluate each investor's approach. Does it follow good DCA practice or undermine it?",
+                "options": [
+                  "Good DCA practice",
+                  "Undermines DCA"
+                ],
                 "scenarios": [
                   {
                     "text": "Bekzat sets up an automatic transfer of 25,000 ₸ into an index fund on the 1st of every month and never changes it.",
@@ -622,39 +2456,135 @@
             "id": "6",
             "order": 6,
             "stepType": "conclusion",
-            "title": {"en": "The system that makes long horizons actionable"},
-            "body": {"en": "Dollar-cost averaging is where the concepts from this topic converge: it forces regular investment (beating inflation), reinvests over time (enabling compounding), and works regardless of short-term prices (matching your horizon). The discipline is not the strategy — it is the delivery mechanism that makes every other principle work in practice."},
-            "tip": {"en": "Automate your DCA. A decision made once and never revisited beats a monthly decision made 12 times a year with emotion."}
+            "title": {
+              "en": "The system that makes long horizons actionable",
+              "ru": "The system that makes long horizons actionable",
+              "kk": "The system that makes long horizons actionable"
+            },
+            "body": {
+              "en": "Dollar-cost averaging is where the concepts from this topic converge: it forces regular investment (beating inflation), reinvests over time (enabling compounding), and works regardless of short-term prices (matching your horizon). The discipline is not the strategy — it is the delivery mechanism that makes every other principle work in practice.",
+              "ru": "Dollar-cost averaging is where the concepts from this topic converge: it forces regular investment (beating inflation), reinvests over time (enabling compounding), and works regardless of short-term prices (matching your horizon). The discipline is not the strategy — it is the delivery mechanism that makes every other principle work in practice.",
+              "kk": "Dollar-cost averaging is where the concepts from this topic converge: it forces regular investment (beating inflation), reinvests over time (enabling compounding), and works regardless of short-term prices (matching your horizon). The discipline is not the strategy — it is the delivery mechanism that makes every other principle work in practice."
+            },
+            "tip": {
+              "en": "Automate your DCA. A decision made once and never revisited beats a monthly decision made 12 times a year with emotion.",
+              "ru": "Automate your DCA. A decision made once and never revisited beats a monthly decision made 12 times a year with emotion.",
+              "kk": "Automate your DCA. A decision made once and never revisited beats a monthly decision made 12 times a year with emotion."
+            }
           }
         ]
       },
       "quiz": {
         "quiz_id": 1105,
         "quiz_type": "subtopic_quiz",
-        "title": {"en": "Dollar-Cost Averaging — Check"},
+        "title": {
+          "en": "Dollar-Cost Averaging — Check",
+          "ru": "Dollar-Cost Averaging — Check",
+          "kk": "Dollar-Cost Averaging — Check"
+        },
         "questions": [
           {
             "id": 1,
             "question_type": "single_choice",
             "order_index": 0,
-            "question_text": {"en": "Why does investing a fixed tenge amount regularly result in a lower average cost per unit than the average price over the same period?"},
+            "question_text": {
+              "en": "Why does investing a fixed tenge amount regularly result in a lower average cost per unit than the average price over the same period?",
+              "ru": "Why does investing a fixed tenge amount regularly result in a lower average cost per unit than the average price over the same period?",
+              "kk": "Why does investing a fixed tenge amount regularly result in a lower average cost per unit than the average price over the same period?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Because fixed amounts buy more units at low prices and fewer at high prices, weighting the average toward cheaper purchases"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "Because regular investing unlocks discounted prices from brokers"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "Because DCA filters out the highest-price months automatically"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "Because cost averaging is only calculated on months where prices fell"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Because fixed amounts buy more units at low prices and fewer at high prices, weighting the average toward cheaper purchases",
+                  "ru": "Because fixed amounts buy more units at low prices and fewer at high prices, weighting the average toward cheaper purchases",
+                  "kk": "Because fixed amounts buy more units at low prices and fewer at high prices, weighting the average toward cheaper purchases"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "Because regular investing unlocks discounted prices from brokers",
+                  "ru": "Because regular investing unlocks discounted prices from brokers",
+                  "kk": "Because regular investing unlocks discounted prices from brokers"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "Because DCA filters out the highest-price months automatically",
+                  "ru": "Because DCA filters out the highest-price months automatically",
+                  "kk": "Because DCA filters out the highest-price months automatically"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "Because cost averaging is only calculated on months where prices fell",
+                  "ru": "Because cost averaging is only calculated on months where prices fell",
+                  "kk": "Because cost averaging is only calculated on months where prices fell"
+                },
+                "is_correct": false
+              }
             ]
           },
           {
             "id": 2,
             "question_type": "single_choice",
             "order_index": 1,
-            "question_text": {"en": "Research shows lump-sum investing outperforms DCA about two-thirds of the time. What is the main reason to choose DCA anyway?"},
+            "question_text": {
+              "en": "Research shows lump-sum investing outperforms DCA about two-thirds of the time. What is the main reason to choose DCA anyway?",
+              "ru": "Research shows lump-sum investing outperforms DCA about two-thirds of the time. What is the main reason to choose DCA anyway?",
+              "kk": "Research shows lump-sum investing outperforms DCA about two-thirds of the time. What is the main reason to choose DCA anyway?"
+            },
             "answers": [
-              {"id": 1, "order_index": 0, "answer_text": {"en": "Most people don't have a lump sum — DCA matches how income arrives and removes the paralysis of timing"}, "is_correct": true},
-              {"id": 2, "order_index": 1, "answer_text": {"en": "DCA is better because it reduces total fees paid"}, "is_correct": false},
-              {"id": 3, "order_index": 2, "answer_text": {"en": "DCA always wins in volatile markets, and all markets are volatile"}, "is_correct": false},
-              {"id": 4, "order_index": 3, "answer_text": {"en": "DCA guarantees a positive return over any 12-month period"}, "is_correct": false}
+              {
+                "id": 1,
+                "order_index": 0,
+                "answer_text": {
+                  "en": "Most people don't have a lump sum — DCA matches how income arrives and removes the paralysis of timing",
+                  "ru": "Most people don't have a lump sum — DCA matches how income arrives and removes the paralysis of timing",
+                  "kk": "Most people don't have a lump sum — DCA matches how income arrives and removes the paralysis of timing"
+                },
+                "is_correct": true
+              },
+              {
+                "id": 2,
+                "order_index": 1,
+                "answer_text": {
+                  "en": "DCA is better because it reduces total fees paid",
+                  "ru": "DCA is better because it reduces total fees paid",
+                  "kk": "DCA is better because it reduces total fees paid"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 3,
+                "order_index": 2,
+                "answer_text": {
+                  "en": "DCA always wins in volatile markets, and all markets are volatile",
+                  "ru": "DCA always wins in volatile markets, and all markets are volatile",
+                  "kk": "DCA always wins in volatile markets, and all markets are volatile"
+                },
+                "is_correct": false
+              },
+              {
+                "id": 4,
+                "order_index": 3,
+                "answer_text": {
+                  "en": "DCA guarantees a positive return over any 12-month period",
+                  "ru": "DCA guarantees a positive return over any 12-month period",
+                  "kk": "DCA guarantees a positive return over any 12-month period"
+                },
+                "is_correct": false
+              }
             ]
           }
         ]
@@ -664,66 +2594,270 @@
   "finalQuiz": {
     "quiz_id": 1199,
     "quiz_type": "final_quiz",
-    "title": {"en": "Why We Invest — Final Check"},
+    "title": {
+      "en": "Why We Invest — Final Check",
+      "ru": "Why We Invest — Final Check",
+      "kk": "Неге инвестиция жасаймыз — қорытынды тексеру"
+    },
     "questions": [
       {
         "id": 1,
         "question_type": "single_choice",
         "order_index": 0,
-        "question_text": {"en": "A bank deposit yields 8% and inflation is 9.5%. After 5 years, what has happened to the real value of the money in that account?"},
+        "question_text": {
+          "en": "A bank deposit yields 8% and inflation is 9.5%. After 5 years, what has happened to the real value of the money in that account?",
+          "ru": "A bank deposit yields 8% and inflation is 9.5%. After 5 years, what has happened to the real value of the money in that account?",
+          "kk": "A bank deposit yields 8% and inflation is 9.5%. After 5 years, what has happened to the real value of the money in that account?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "It has fallen — the nominal balance grew but purchasing power declined by roughly 7% total"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "It has grown — 8% annual return always increases real wealth"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "It is unchanged — deposits are inflation-protected by law in Kazakhstan"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "It has fallen by exactly 1.5% per year, totalling 7.5% nominal loss"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "It has fallen — the nominal balance grew but purchasing power declined by roughly 7% total",
+              "ru": "It has fallen — the nominal balance grew but purchasing power declined by roughly 7% total",
+              "kk": "It has fallen — the nominal balance grew but purchasing power declined by roughly 7% total"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "It has grown — 8% annual return always increases real wealth",
+              "ru": "It has grown — 8% annual return always increases real wealth",
+              "kk": "It has grown — 8% annual return always increases real wealth"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "It is unchanged — deposits are inflation-protected by law in Kazakhstan",
+              "ru": "It is unchanged — deposits are inflation-protected by law in Kazakhstan",
+              "kk": "It is unchanged — deposits are inflation-protected by law in Kazakhstan"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "It has fallen by exactly 1.5% per year, totalling 7.5% nominal loss",
+              "ru": "It has fallen by exactly 1.5% per year, totalling 7.5% nominal loss",
+              "kk": "It has fallen by exactly 1.5% per year, totalling 7.5% nominal loss"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 2,
         "question_type": "single_choice",
         "order_index": 1,
-        "question_text": {"en": "Investor A starts with 300,000 ₸ at age 22. Investor B starts with 900,000 ₸ at age 38. Both earn 10%/year and retire at 62. Who has more, and what explains the difference?"},
+        "question_text": {
+          "en": "Investor A starts with 300,000 ₸ at age 22. Investor B starts with 900,000 ₸ at age 38. Both earn 10%/year and retire at 62. Who has more, and what explains the difference?",
+          "ru": "Investor A starts with 300,000 ₸ at age 22. Investor B starts with 900,000 ₸ at age 38. Both earn 10%/year and retire at 62. Who has more, and what explains the difference?",
+          "kk": "Investor A starts with 300,000 ₸ at age 22. Investor B starts with 900,000 ₸ at age 38. Both earn 10%/year and retire at 62. Who has more, and what explains the difference?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "A has more — 40 years of compounding on a smaller base outpaces 24 years on a larger one"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "B has more — tripling the starting amount always outweighs the time advantage"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "They end up roughly equal because B's larger principal compensates exactly for A's longer horizon"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "A has more only if markets deliver above-average returns during his early years"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "A has more — 40 years of compounding on a smaller base outpaces 24 years on a larger one",
+              "ru": "A has more — 40 years of compounding on a smaller base outpaces 24 years on a larger one",
+              "kk": "A has more — 40 years of compounding on a smaller base outpaces 24 years on a larger one"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "B has more — tripling the starting amount always outweighs the time advantage",
+              "ru": "B has more — tripling the starting amount always outweighs the time advantage",
+              "kk": "B has more — tripling the starting amount always outweighs the time advantage"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "They end up roughly equal because B's larger principal compensates exactly for A's longer horizon",
+              "ru": "They end up roughly equal because B's larger principal compensates exactly for A's longer horizon",
+              "kk": "They end up roughly equal because B's larger principal compensates exactly for A's longer horizon"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "A has more only if markets deliver above-average returns during his early years",
+              "ru": "A has more only if markets deliver above-average returns during his early years",
+              "kk": "A has more only if markets deliver above-average returns during his early years"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 3,
         "question_type": "single_choice",
         "order_index": 2,
-        "question_text": {"en": "A microloan in Kazakhstan charges 48% annual interest. Using the Rule of 72, how long before an unpaid 200,000 ₸ debt reaches 800,000 ₸?"},
+        "question_text": {
+          "en": "A microloan in Kazakhstan charges 48% annual interest. Using the Rule of 72, how long before an unpaid 200,000 ₸ debt reaches 800,000 ₸?",
+          "ru": "A microloan in Kazakhstan charges 48% annual interest. Using the Rule of 72, how long before an unpaid 200,000 ₸ debt reaches 800,000 ₸?",
+          "kk": "A microloan in Kazakhstan charges 48% annual interest. Using the Rule of 72, how long before an unpaid 200,000 ₸ debt reaches 800,000 ₸?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "About 3 years — debt doubles in 1.5 years at 48%, so two doublings take 3 years"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "About 6 years — 72 ÷ 48 = 1.5, and reaching 4× takes 4 doublings"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "About 8 years — 48% annual interest is high but debt growth is linear"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "About 12 years — the rule applies to investments, not debt"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "About 3 years — debt doubles in 1.5 years at 48%, so two doublings take 3 years",
+              "ru": "About 3 years — debt doubles in 1.5 years at 48%, so two doublings take 3 years",
+              "kk": "About 3 years — debt doubles in 1.5 years at 48%, so two doublings take 3 years"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "About 6 years — 72 ÷ 48 = 1.5, and reaching 4× takes 4 doublings",
+              "ru": "About 6 years — 72 ÷ 48 = 1.5, and reaching 4× takes 4 doublings",
+              "kk": "About 6 years — 72 ÷ 48 = 1.5, and reaching 4× takes 4 doublings"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "About 8 years — 48% annual interest is high but debt growth is linear",
+              "ru": "About 8 years — 48% annual interest is high but debt growth is linear",
+              "kk": "About 8 years — 48% annual interest is high but debt growth is linear"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "About 12 years — the rule applies to investments, not debt",
+              "ru": "About 12 years — the rule applies to investments, not debt",
+              "kk": "About 12 years — the rule applies to investments, not debt"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 4,
         "question_type": "single_choice",
         "order_index": 3,
-        "question_text": {"en": "Madina needs her savings in 14 months for a flat deposit. She invests them in equities for the potential upside. Markets rise 20% then crash 35% in month 13. What went wrong?"},
+        "question_text": {
+          "en": "Madina needs her savings in 14 months for a flat deposit. She invests them in equities for the potential upside. Markets rise 20% then crash 35% in month 13. What went wrong?",
+          "ru": "Madina needs her savings in 14 months for a flat deposit. She invests them in equities for the potential upside. Markets rise 20% then crash 35% in month 13. What went wrong?",
+          "kk": "Madina needs her savings in 14 months for a flat deposit. She invests them in equities for the potential upside. Markets rise 20% then crash 35% in month 13. What went wrong?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Her horizon was too short for equities — she had no recovery time and was forced to lock in a loss"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "She chose the wrong equity fund — a better fund would not have fallen 35%"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "She should have diversified across more equities to avoid the crash"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "Nothing went wrong — a 14-month horizon qualifies as medium-term investment"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Her horizon was too short for equities — she had no recovery time and was forced to lock in a loss",
+              "ru": "Her horizon was too short for equities — she had no recovery time and was forced to lock in a loss",
+              "kk": "Her horizon was too short for equities — she had no recovery time and was forced to lock in a loss"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "She chose the wrong equity fund — a better fund would not have fallen 35%",
+              "ru": "She chose the wrong equity fund — a better fund would not have fallen 35%",
+              "kk": "She chose the wrong equity fund — a better fund would not have fallen 35%"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "She should have diversified across more equities to avoid the crash",
+              "ru": "She should have diversified across more equities to avoid the crash",
+              "kk": "She should have diversified across more equities to avoid the crash"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "Nothing went wrong — a 14-month horizon qualifies as medium-term investment",
+              "ru": "Nothing went wrong — a 14-month horizon qualifies as medium-term investment",
+              "kk": "Nothing went wrong — a 14-month horizon qualifies as medium-term investment"
+            },
+            "is_correct": false
+          }
         ]
       },
       {
         "id": 5,
         "question_type": "single_choice",
         "order_index": 4,
-        "question_text": {"en": "Daniyar invests 40,000 ₸/month into an index fund. In March the fund drops 25%. His friend tells him to pause contributions and wait for recovery. What is the flaw in this advice?"},
+        "question_text": {
+          "en": "Daniyar invests 40,000 ₸/month into an index fund. In March the fund drops 25%. His friend tells him to pause contributions and wait for recovery. What is the flaw in this advice?",
+          "ru": "Daniyar invests 40,000 ₸/month into an index fund. In March the fund drops 25%. His friend tells him to pause contributions and wait for recovery. What is the flaw in this advice?",
+          "kk": "Daniyar invests 40,000 ₸/month into an index fund. In March the fund drops 25%. His friend tells him to pause contributions and wait for recovery. What is the flaw in this advice?"
+        },
         "answers": [
-          {"id": 1, "order_index": 0, "answer_text": {"en": "Pausing eliminates the DCA benefit — March's low price would buy more units, reducing his average cost"}, "is_correct": true},
-          {"id": 2, "order_index": 1, "answer_text": {"en": "Pausing is always correct — never invest during a downturn"}, "is_correct": false},
-          {"id": 3, "order_index": 2, "answer_text": {"en": "Pausing makes no difference — DCA works the same whether you skip months or not"}, "is_correct": false},
-          {"id": 4, "order_index": 3, "answer_text": {"en": "The flaw is that Daniyar should switch to a lump-sum approach instead"}, "is_correct": false}
+          {
+            "id": 1,
+            "order_index": 0,
+            "answer_text": {
+              "en": "Pausing eliminates the DCA benefit — March's low price would buy more units, reducing his average cost",
+              "ru": "Pausing eliminates the DCA benefit — March's low price would buy more units, reducing his average cost",
+              "kk": "Pausing eliminates the DCA benefit — March's low price would buy more units, reducing his average cost"
+            },
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "order_index": 1,
+            "answer_text": {
+              "en": "Pausing is always correct — never invest during a downturn",
+              "ru": "Pausing is always correct — never invest during a downturn",
+              "kk": "Pausing is always correct — never invest during a downturn"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 3,
+            "order_index": 2,
+            "answer_text": {
+              "en": "Pausing makes no difference — DCA works the same whether you skip months or not",
+              "ru": "Pausing makes no difference — DCA works the same whether you skip months or not",
+              "kk": "Pausing makes no difference — DCA works the same whether you skip months or not"
+            },
+            "is_correct": false
+          },
+          {
+            "id": 4,
+            "order_index": 3,
+            "answer_text": {
+              "en": "The flaw is that Daniyar should switch to a lump-sum approach instead",
+              "ru": "The flaw is that Daniyar should switch to a lump-sum approach instead",
+              "kk": "The flaw is that Daniyar should switch to a lump-sum approach instead"
+            },
+            "is_correct": false
+          }
         ]
       }
     ]

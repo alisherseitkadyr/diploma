@@ -3,11 +3,16 @@
   "topic": {
     "code": "career_income_growth",
     "orderIndex": 26,
+    "icon_path": "assets/topics/026.png",
     "title": {
-      "en": "Career & Income Growth"
+      "en": "Career & Income Growth",
+      "ru": "Карьера и рост дохода",
+      "kk": "Мансап және табысты өсіру"
     },
     "description": {
-      "en": "Growing the income side of the equation — career capital, salary negotiation, choosing among raises and side income, and money rules for the self-employed."
+      "en": "Growing the income side of the equation — career capital, salary negotiation, choosing among raises and side income, and money rules for the self-employed.",
+      "ru": "Рост доходной части уравнения: карьерный капитал, переговоры о зарплате, выбор между повышением, подработкой и сменой работы, а также денежные правила для самозанятых.",
+      "kk": "Табыстың өсу жағын дамыту: мансаптық капитал, жалақыны келісу, жалақы өсімі мен қосымша табыс арасындағы таңдау және өзін-өзі жұмыспен қамтығандарға арналған ақша ережелері."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "career_capital",
       "title": {
-        "en": "Career Capital"
+        "en": "Career Capital",
+        "ru": "Карьерный капитал",
+        "kk": "Мансаптық капитал"
       },
       "description": {
-        "en": "Career capital is the set of skills, reputation, relationships, and proof that increases your future earning power."
+        "en": "Career capital is the set of skills, reputation, relationships, and proof that increases your future earning power.",
+        "ru": "Карьерный капитал — это набор навыков, репутации, связей и доказательств результата, который повышает вашу будущую способность зарабатывать.",
+        "kk": "Мансаптық капитал — болашақ табыс табу қабілетіңізді арттыратын дағдылар, бедел, байланыстар және дәлелдер жиынтығы."
       },
       "estimatedMinutes": 6,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Income growth starts before the raise"
+              "en": "Income growth starts before the raise",
+              "ru": "Рост дохода начинается до повышения",
+              "kk": "Табыстың өсуі жалақы көтерілгенге дейін басталады"
             },
             "body": {
-              "en": "Your income is not determined only by effort this month. It is shaped by the value you can prove, the problems you can solve, and how replaceable your work is. Career capital is the asset that makes future income easier to grow."
+              "en": "Your income is not determined only by effort this month. It is shaped by the value you can prove, the problems you can solve, and how replaceable your work is. Career capital is the asset that makes future income easier to grow.",
+              "ru": "Ваш доход определяется не только усилиями в этом месяце. На него влияют ценность, которую вы можете доказать, проблемы, которые вы умеете решать, и то, насколько легко заменить вашу работу. Карьерный капитал — это актив, который облегчает рост будущего дохода.",
+              "kk": "Сіздің табысыңыз тек осы айдағы күш-жігермен анықталмайды. Ол дәлелдей алатын құндылығыңызға, шеше алатын мәселелеріңізге және жұмысыңызды қаншалықты оңай алмастыруға болатынына байланысты. Мансаптық капитал болашақ табысты өсіруді жеңілдететін актив."
             },
             "tip": {
-              "en": "Career capital is an investment in future earning power."
+              "en": "Career capital is an investment in future earning power.",
+              "ru": "Карьерный капитал — это инвестиция в будущую способность зарабатывать.",
+              "kk": "Мансаптық капитал — болашақ табыс табу қабілетіне салынған инвестиция."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Skills become capital when they are useful"
+              "en": "Skills become capital when they are useful",
+              "ru": "Навыки становятся капиталом, когда они полезны",
+              "kk": "Дағдылар пайдалы болғанда капиталға айналады"
             },
             "body": {
-              "en": "A skill raises income when it solves problems that employers or clients are willing to pay for. Technical ability, communication, project ownership, and domain knowledge can all become career capital. The value comes from usefulness, not from certificates alone."
+              "en": "A skill raises income when it solves problems that employers or clients are willing to pay for. Technical ability, communication, project ownership, and domain knowledge can all become career capital. The value comes from usefulness, not from certificates alone.",
+              "ru": "Навык повышает доход, когда он решает проблемы, за которые работодатели или клиенты готовы платить. Технические умения, коммуникация, ответственность за проекты и знание отрасли могут стать карьерным капиталом. Ценность создаётся полезностью, а не одними сертификатами.",
+              "kk": "Дағды жұмыс берушілер немесе клиенттер ақы төлеуге дайын мәселелерді шешкенде табысты арттырады. Техникалық қабілет, коммуникация, жобаны иелену және сала білімі мансаптық капиталға айнала алады. Құндылық тек сертификаттан емес, пайдалы болудан туады."
             },
             "example": {
-              "en": "Learning data analysis is more valuable when you use it to reduce reporting time, find revenue leaks, or improve decisions."
+              "en": "Learning data analysis is more valuable when you use it to reduce reporting time, find revenue leaks, or improve decisions.",
+              "ru": "Изучение анализа данных ценнее, когда вы используете его, чтобы сократить время отчётности, найти утечки выручки или улучшить решения.",
+              "kk": "Деректерді талдауды үйрену оны есеп беру уақытын қысқартуға, табыс жоғалуын табуға немесе шешімдерді жақсартуға қолданғанда құндырақ болады."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Proof compounds with reputation"
+              "en": "Proof compounds with reputation",
+              "ru": "Доказательства усиливаются репутацией",
+              "kk": "Дәлел беделмен бірге күшейеді"
             },
             "body": {
-              "en": "People pay more when they trust that you can deliver. Projects, measurable results, references, and visible ownership turn ability into evidence. Over time, reputation reduces the need to prove yourself from zero each time."
+              "en": "People pay more when they trust that you can deliver. Projects, measurable results, references, and visible ownership turn ability into evidence. Over time, reputation reduces the need to prove yourself from zero each time.",
+              "ru": "Люди платят больше, когда доверяют, что вы доведёте дело до результата. Проекты, измеримые результаты, рекомендации и видимая ответственность превращают способности в доказательства. Со временем репутация снижает необходимость каждый раз доказывать себя с нуля.",
+              "kk": "Адамдар сіз нәтижені жеткізе алатыныңызға сенсе, көбірек төлейді. Жобалар, өлшенетін нәтижелер, ұсынымдар және көрінетін жауапкершілік қабілетті дәлелге айналдырады. Уақыт өте бедел әр жолы бәрін нөлден дәлелдеудің қажеттілігін азайтады."
             },
             "tip": {
-              "en": "A skill without proof is potential; proof turns it into market value."
+              "en": "A skill without proof is potential; proof turns it into market value.",
+              "ru": "Навык без доказательств — это потенциал; доказательства превращают его в рыночную ценность.",
+              "kk": "Дәлелсіз дағды — әлеует; дәлел оны нарықтық құндылыққа айналдырады."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Three income-building moves"
+              "en": "Three income-building moves",
+              "ru": "Три действия для роста дохода",
+              "kk": "Табысты өсіруге арналған үш әрекет"
             },
             "content": {
               "en": {
@@ -117,6 +146,90 @@
                     "text": "The strongest moves create both skill and evidence that someone can verify."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Специалист зарабатывает ₸350 000 в месяц и хочет увеличить доход в течение следующего года. Разные действия создают разные виды карьерного капитала."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Действие",
+                        "Какой карьерный капитал создаётся",
+                        "Логика роста дохода"
+                      ],
+                      [
+                        "Автоматизировать еженедельные отчёты",
+                        "Доказательство умения решать проблемы",
+                        "Экономит время руководителя и показывает ответственность"
+                      ],
+                      [
+                        "Освоить коммуникацию с клиентами",
+                        "Доверие и заметность",
+                        "Можно брать задачи более высокой ценности"
+                      ],
+                      [
+                        "Документировать результаты проектов",
+                        "Доказательство",
+                        "Поддерживает историю для повышения или смены работы"
+                      ],
+                      [
+                        "Создать портфолио",
+                        "Внешнее доказательство",
+                        "Упрощает получение фриланс-заказов или предложений о работе"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Самые сильные действия создают и навык, и доказательства, которые кто-то может проверить."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Маман айына ₸350 000 табады және келесі жылы табысын өсіргісі келеді. Әртүрлі әрекеттер мансаптық капиталдың әр түрін қалыптастырады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Әрекет",
+                        "Қалыптасатын мансаптық капитал",
+                        "Табыс логикасы"
+                      ],
+                      [
+                        "Апталық есептерді автоматтандыру",
+                        "Мәселені шешу дәлелі",
+                        "Басшының уақытын үнемдеп, жауапкершілікті көрсетеді"
+                      ],
+                      [
+                        "Клиентпен қарым-қатынасты үйрену",
+                        "Сенім және көріну",
+                        "Құндылығы жоғары жұмысты атқара алады"
+                      ],
+                      [
+                        "Жоба нәтижелерін құжаттау",
+                        "Дәлел",
+                        "Қызмет көтерілуі немесе жұмыс ауыстыру туралы дәлелді күшейтеді"
+                      ],
+                      [
+                        "Портфолио жасау",
+                        "Сыртқы дәлел",
+                        "Фриланс немесе жаңа жұмыс ұсыныстарын алуды жеңілдетеді"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ең мықты әрекеттер дағдыны да, басқа адам тексере алатын дәлелді де қалыптастырады."
+                  }
+                ]
               }
             }
           },
@@ -125,10 +238,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Sort the career capital"
+              "en": "Sort the career capital",
+              "ru": "Разберите карьерный капитал",
+              "kk": "Мансаптық капиталды сұрыптаңыз"
             },
             "body": {
-              "en": "Classify each action by what type of career capital it mainly builds."
+              "en": "Classify each action by what type of career capital it mainly builds.",
+              "ru": "Отнесите каждое действие к типу карьерного капитала, который оно в основном создаёт.",
+              "kk": "Әр әрекетті ол негізінен қалыптастыратын мансаптық капитал түріне қарай жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -189,6 +306,122 @@
                   }
                 ],
                 "explanation": "Career capital grows fastest when skill, proof, reputation, and network support each other."
+              },
+              "ru": {
+                "instruction": "Перетащите каждое действие в подходящую категорию.",
+                "categories": [
+                  {
+                    "id": "skill",
+                    "label": "Навык"
+                  },
+                  {
+                    "id": "proof",
+                    "label": "Доказательство"
+                  },
+                  {
+                    "id": "reputation",
+                    "label": "Репутация"
+                  },
+                  {
+                    "id": "network",
+                    "label": "Сеть контактов"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "course_project",
+                    "text": "Изучение инструмента через выполнение реального проекта"
+                  },
+                  {
+                    "id": "metric_result",
+                    "text": "Показать, что ваша работа сократила время обработки на 30%"
+                  },
+                  {
+                    "id": "reliable_delivery",
+                    "text": "Постоянно сдавать работу раньше дедлайнов"
+                  },
+                  {
+                    "id": "mentor_contact",
+                    "text": "Строить отношения с людьми в целевой сфере"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "course_project",
+                    "categoryId": "skill"
+                  },
+                  {
+                    "itemId": "metric_result",
+                    "categoryId": "proof"
+                  },
+                  {
+                    "itemId": "reliable_delivery",
+                    "categoryId": "reputation"
+                  },
+                  {
+                    "itemId": "mentor_contact",
+                    "categoryId": "network"
+                  }
+                ],
+                "explanation": "Карьерный капитал быстрее всего растёт, когда навык, доказательства, репутация и сеть контактов поддерживают друг друга."
+              },
+              "kk": {
+                "instruction": "Әр әрекетті ең сәйкес санатқа апарыңыз.",
+                "categories": [
+                  {
+                    "id": "skill",
+                    "label": "Дағды"
+                  },
+                  {
+                    "id": "proof",
+                    "label": "Дәлел"
+                  },
+                  {
+                    "id": "reputation",
+                    "label": "Бедел"
+                  },
+                  {
+                    "id": "network",
+                    "label": "Байланыстар желісі"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "course_project",
+                    "text": "Нақты жобаны орындау арқылы құралды үйрену"
+                  },
+                  {
+                    "id": "metric_result",
+                    "text": "Жұмысыңыз өңдеу уақытын 30%-ға қысқартқанын көрсету"
+                  },
+                  {
+                    "id": "reliable_delivery",
+                    "text": "Жұмысты үнемі мерзімінен бұрын тапсыру"
+                  },
+                  {
+                    "id": "mentor_contact",
+                    "text": "Мақсатты саладағы адамдармен байланыс құру"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "course_project",
+                    "categoryId": "skill"
+                  },
+                  {
+                    "itemId": "metric_result",
+                    "categoryId": "proof"
+                  },
+                  {
+                    "itemId": "reliable_delivery",
+                    "categoryId": "reputation"
+                  },
+                  {
+                    "itemId": "mentor_contact",
+                    "categoryId": "network"
+                  }
+                ],
+                "explanation": "Дағды, дәлел, бедел және байланыстар бір-бірін қолдағанда мансаптық капитал ең тез өседі."
               }
             }
           },
@@ -197,13 +430,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Build the asset behind the income"
+              "en": "Build the asset behind the income",
+              "ru": "Создавайте актив, стоящий за доходом",
+              "kk": "Табыстың артындағы активті құрыңыз"
             },
             "body": {
-              "en": "Income growth is easier when you build career capital deliberately. Learn useful skills, turn them into measurable results, and make the results visible. The goal is not to look busy; it is to become clearly more valuable in the labor market."
+              "en": "Income growth is easier when you build career capital deliberately. Learn useful skills, turn them into measurable results, and make the results visible. The goal is not to look busy; it is to become clearly more valuable in the labor market.",
+              "ru": "Рост дохода проще, когда вы осознанно строите карьерный капитал. Осваивайте полезные навыки, превращайте их в измеримые результаты и делайте эти результаты заметными. Цель не в том, чтобы выглядеть занятым, а в том, чтобы стать очевидно более ценным на рынке труда.",
+              "kk": "Мансаптық капиталды саналы түрде құрғанда табысты өсіру жеңілірек. Пайдалы дағдыларды үйреніп, оларды өлшенетін нәтижелерге айналдырыңыз және нәтижелерді көрінетін етіңіз. Мақсат — бос емес болып көріну емес, еңбек нарығында анық құндырақ болу."
             },
             "tip": {
-              "en": "Your career capital is the asset your salary is priced from."
+              "en": "Your career capital is the asset your salary is priced from.",
+              "ru": "Ваш карьерный капитал — это актив, от которого оценивается ваша зарплата.",
+              "kk": "Мансаптық капиталыңыз — жалақыңыз бағаланатын актив."
             }
           }
         ]
@@ -212,7 +451,9 @@
         "quiz_id": 2601,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Career Capital — Check"
+          "en": "Career Capital — Check",
+          "ru": "Карьерный капитал — проверка",
+          "kk": "Мансаптық капитал — тексеру"
         },
         "questions": [
           {
@@ -220,14 +461,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A person completes many online courses but cannot show any work results. What is missing?"
+              "en": "A person completes many online courses but cannot show any work results. What is missing?",
+              "ru": "Человек проходит много онлайн-курсов, но не может показать результаты работы. Чего не хватает?",
+              "kk": "Адам көптеген онлайн курстарды аяқтайды, бірақ жұмыс нәтижелерін көрсете алмайды. Не жетіспейді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Proof that the skills create value in real situations"
+                  "en": "Proof that the skills create value in real situations",
+                  "ru": "Доказательств, что навыки создают ценность в реальных ситуациях",
+                  "kk": "Дағдылардың нақты жағдайда құндылық жасайтынын дәлелдеу"
                 },
                 "is_correct": true
               },
@@ -235,7 +480,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "More certificates with longer titles"
+                  "en": "More certificates with longer titles",
+                  "ru": "Больше сертификатов с длинными названиями",
+                  "kk": "Ұзақ атауы бар көбірек сертификат"
                 },
                 "is_correct": false
               },
@@ -243,7 +490,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A lower salary expectation"
+                  "en": "A lower salary expectation",
+                  "ru": "Более низкое ожидание зарплаты",
+                  "kk": "Төменірек жалақы күту"
                 },
                 "is_correct": false
               },
@@ -251,7 +500,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Less practice and more passive study"
+                  "en": "Less practice and more passive study",
+                  "ru": "Меньше практики и больше пассивного обучения",
+                  "kk": "Аз тәжірибе және көбірек пассивті оқу"
                 },
                 "is_correct": false
               }
@@ -262,14 +513,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which action most directly turns skill into career capital?"
+              "en": "Which action most directly turns skill into career capital?",
+              "ru": "Какое действие напрямую превращает навык в карьерный капитал?",
+              "kk": "Қай әрекет дағдыны тікелей мансаптық капиталға айналдырады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Using the skill to solve a measurable workplace problem and documenting the result"
+                  "en": "Using the skill to solve a measurable workplace problem and documenting the result",
+                  "ru": "Использовать навык для решения измеримой рабочей проблемы и зафиксировать результат",
+                  "kk": "Дағдыны жұмыс орнындағы өлшенетін мәселені шешуге қолданып, нәтижені құжаттау"
                 },
                 "is_correct": true
               },
@@ -277,7 +532,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Reading about the skill but never applying it"
+                  "en": "Reading about the skill but never applying it",
+                  "ru": "Читать о навыке, но никогда его не применять",
+                  "kk": "Дағды туралы оқып, оны ешқашан қолданбау"
                 },
                 "is_correct": false
               },
@@ -285,7 +542,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Waiting for a manager to guess your abilities"
+                  "en": "Waiting for a manager to guess your abilities",
+                  "ru": "Ждать, пока руководитель сам догадается о ваших способностях",
+                  "kk": "Басшының қабілеттеріңізді өзі байқап қалар деп күту"
                 },
                 "is_correct": false
               },
@@ -293,7 +552,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Changing job titles without changing responsibilities"
+                  "en": "Changing job titles without changing responsibilities",
+                  "ru": "Менять названия должностей без изменения обязанностей",
+                  "kk": "Міндеттер өзгермесе де, қызмет атауын өзгерту"
                 },
                 "is_correct": false
               }
@@ -304,14 +565,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why does reputation affect income growth?"
+              "en": "Why does reputation affect income growth?",
+              "ru": "Почему репутация влияет на рост дохода?",
+              "kk": "Неліктен бедел табыс өсіміне әсер етеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It lowers perceived risk for employers or clients who consider paying you more"
+                  "en": "It lowers perceived risk for employers or clients who consider paying you more",
+                  "ru": "Она снижает воспринимаемый риск для работодателей или клиентов, которые думают платить вам больше",
+                  "kk": "Ол сізге көбірек төлеуді қарастыратын жұмыс берушілер немесе клиенттер үшін қабылданатын тәуекелді азайтады"
                 },
                 "is_correct": true
               },
@@ -319,7 +584,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It replaces the need to deliver results"
+                  "en": "It replaces the need to deliver results",
+                  "ru": "Она заменяет необходимость приносить результаты",
+                  "kk": "Ол нәтиже жеткізу қажеттілігін алмастырады"
                 },
                 "is_correct": false
               },
@@ -327,7 +594,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It guarantees every negotiation will succeed"
+                  "en": "It guarantees every negotiation will succeed",
+                  "ru": "Она гарантирует успех любых переговоров",
+                  "kk": "Ол әр келіссөздің сәтті болуына кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -335,7 +604,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It matters only for famous people"
+                  "en": "It matters only for famous people",
+                  "ru": "Она важна только для известных людей",
+                  "kk": "Ол тек танымал адамдарға ғана маңызды"
                 },
                 "is_correct": false
               }
@@ -347,10 +618,14 @@
     {
       "code": "negotiating_your_salary",
       "title": {
-        "en": "Negotiating Your Salary"
+        "en": "Negotiating Your Salary",
+        "ru": "Переговоры о зарплате",
+        "kk": "Жалақыны келісу"
       },
       "description": {
-        "en": "Salary negotiation is a structured conversation about market value, evidence, alternatives, and total compensation."
+        "en": "Salary negotiation is a structured conversation about market value, evidence, alternatives, and total compensation.",
+        "ru": "Переговоры о зарплате — это структурированный разговор о рыночной ценности, доказательствах, альтернативах и полной компенсации.",
+        "kk": "Жалақыны келісу — нарықтық құндылық, дәлелдер, баламалар және жалпы өтемақы туралы құрылымды әңгіме."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -362,13 +637,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Negotiation is not begging"
+              "en": "Negotiation is not begging",
+              "ru": "Переговоры — это не просьба из жалости",
+              "kk": "Келіссөз — жалыну емес"
             },
             "body": {
-              "en": "Salary negotiation is not asking for kindness. It is presenting a case for the value of your work compared with the market and the role. The stronger your evidence and alternatives, the calmer the conversation becomes."
+              "en": "Salary negotiation is not asking for kindness. It is presenting a case for the value of your work compared with the market and the role. The stronger your evidence and alternatives, the calmer the conversation becomes.",
+              "ru": "Переговоры о зарплате — это не просьба о доброте. Это аргументированное представление ценности вашей работы по сравнению с рынком и ролью. Чем сильнее доказательства и альтернативы, тем спокойнее разговор.",
+              "kk": "Жалақыны келісу — мейірім сұрау емес. Бұл жұмысыңыздың құнын нарықпен және рөлмен салыстырып дәлелдеу. Дәлелдер мен баламалар күшті болған сайын, әңгіме сабырлырақ өтеді."
             },
             "tip": {
-              "en": "Negotiation is easier when it is based on value, not emotion."
+              "en": "Negotiation is easier when it is based on value, not emotion.",
+              "ru": "Переговоры проще, когда они основаны на ценности, а не на эмоциях.",
+              "kk": "Келіссөз эмоцияға емес, құндылыққа негізделсе жеңілірек болады."
             }
           },
           {
@@ -376,13 +657,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Prepare the evidence"
+              "en": "Prepare the evidence",
+              "ru": "Подготовьте доказательства",
+              "kk": "Дәлелдерді дайындаңыз"
             },
             "body": {
-              "en": "Good negotiation starts before the meeting. You need market salary ranges, measurable results, expanded responsibilities, and examples of value created. A vague statement like “I work hard” is weaker than “I reduced support tickets by 25%.”"
+              "en": "Good negotiation starts before the meeting. You need market salary ranges, measurable results, expanded responsibilities, and examples of value created. A vague statement like “I work hard” is weaker than “I reduced support tickets by 25%.”",
+              "ru": "Хорошие переговоры начинаются до встречи. Нужны рыночные диапазоны зарплат, измеримые результаты, расширенные обязанности и примеры созданной ценности. Размытая фраза вроде «я много работаю» слабее, чем «я сократил число обращений в поддержку на 25%».",
+              "kk": "Жақсы келіссөз кездесуден бұрын басталады. Нарықтық жалақы диапазондары, өлшенетін нәтижелер, кеңейген міндеттер және жасалған құндылық мысалдары керек. «Мен көп жұмыс істеймін» деген бұлыңғыр сөз «қолдау өтініштерін 25%-ға қысқарттым» дегеннен әлсіз."
             },
             "example": {
-              "en": "A ₸450,000 target is easier to defend if similar roles pay ₸420,000–₸500,000 and your recent project saved ₸2 million annually."
+              "en": "A ₸450,000 target is easier to defend if similar roles pay ₸420,000–₸500,000 and your recent project saved ₸2 million annually.",
+              "ru": "Цель в ₸450 000 легче защищать, если похожие роли оплачиваются на уровне ₸420 000–₸500 000, а ваш недавний проект сэкономил ₸2 млн в год.",
+              "kk": "Ұқсас рөлдер ₸420 000–₸500 000 төлесе және соңғы жобаңыз жылына ₸2 млн үнемдесе, ₸450 000 мақсатын қорғау жеңілірек."
             }
           },
           {
@@ -390,13 +677,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Total compensation matters"
+              "en": "Total compensation matters",
+              "ru": "Важна полная компенсация",
+              "kk": "Жалпы өтемақы маңызды"
             },
             "body": {
-              "en": "Salary is important, but total compensation includes bonuses, benefits, paid leave, training, remote work, pension contributions, and growth path. A slightly lower salary can be better if it offers faster skill growth or better benefits. Compare the full package, not only the monthly number."
+              "en": "Salary is important, but total compensation includes bonuses, benefits, paid leave, training, remote work, pension contributions, and growth path. A slightly lower salary can be better if it offers faster skill growth or better benefits. Compare the full package, not only the monthly number.",
+              "ru": "Зарплата важна, но полная компенсация включает бонусы, льготы, оплачиваемый отпуск, обучение, удалённую работу, пенсионные взносы и траекторию роста. Немного более низкая зарплата может быть лучше, если даёт более быстрый рост навыков или лучшие льготы. Сравнивайте весь пакет, а не только месячную сумму.",
+              "kk": "Жалақы маңызды, бірақ жалпы өтемақыға бонустар, жеңілдіктер, ақылы демалыс, оқу, қашықтан жұмыс, зейнетақы жарналары және өсу жолы кіреді. Дағдылар тезірек өссе немесе жеңілдіктер жақсы болса, сәл төмен жалақы жақсырақ болуы мүмкін. Тек айлық санды емес, толық пакетті салыстырыңыз."
             },
             "tip": {
-              "en": "Negotiate the package, not only the base salary."
+              "en": "Negotiate the package, not only the base salary.",
+              "ru": "Обсуждайте весь пакет, а не только базовую зарплату.",
+              "kk": "Тек негізгі жалақыны емес, толық пакетті келісіңіз."
             }
           },
           {
@@ -404,7 +697,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "A stronger negotiation case"
+              "en": "A stronger negotiation case",
+              "ru": "Более сильный аргумент для переговоров",
+              "kk": "Келіссөзге мықтырақ дәлел"
             },
             "content": {
               "en": {
@@ -448,6 +743,90 @@
                     "text": "The strong version makes it easier for a manager to justify the raise internally."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Продуктовый аналитик зарабатывает ₸400 000 и хочет ₸480 000. Аргумент сильнее, когда он построен на доказательствах и рыночном контексте."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Доказательство",
+                        "Слабая версия",
+                        "Сильная версия"
+                      ],
+                      [
+                        "Рыночный диапазон",
+                        "Люди зарабатывают больше",
+                        "Сопоставимые роли оплачиваются на уровне ₸450 000–₸520 000"
+                      ],
+                      [
+                        "Результативность",
+                        "Я много работал",
+                        "Дашборд сократил время отчётности на 12 часов в неделю"
+                      ],
+                      [
+                        "Объём роли",
+                        "Я выполняю много задач",
+                        "Теперь я отвечаю за отчётность трёх команд"
+                      ],
+                      [
+                        "Запрос",
+                        "Дайте мне больше",
+                        "Я хотел бы скорректировать базовую оплату до ₸480 000 с учётом объёма роли и рынка"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Сильная версия помогает руководителю обосновать повышение внутри компании."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Өнім аналитигі ₸400 000 табады және ₸480 000 қалайды. Дәлел нарықтық контекст пен нақты нәтижелерге сүйенсе күштірек болады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Дәлел",
+                        "Әлсіз нұсқа",
+                        "Күшті нұсқа"
+                      ],
+                      [
+                        "Нарықтық диапазон",
+                        "Адамдар көбірек табады",
+                        "Ұқсас рөлдер ₸450 000–₸520 000 төлейді"
+                      ],
+                      [
+                        "Нәтижелілік",
+                        "Мен көп жұмыс істедім",
+                        "Дашборд есеп беру уақытын аптасына 12 сағатқа қысқартты"
+                      ],
+                      [
+                        "Рөл ауқымы",
+                        "Мен көп тапсырма орындаймын",
+                        "Қазір үш команданың есеп беруіне жауаптымын"
+                      ],
+                      [
+                        "Сұрау",
+                        "Маған көбірек беріңіз",
+                        "Рөл ауқымы мен нарыққа сүйене отырып, негізгі жалақыны ₸480 000-ға дейін түзеткім келеді"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Күшті нұсқа басшыға жалақы өсімін компания ішінде негіздеуді жеңілдетеді."
+                  }
+                ]
               }
             }
           },
@@ -456,10 +835,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Build the negotiation case"
+              "en": "Build the negotiation case",
+              "ru": "Соберите аргументы для переговоров",
+              "kk": "Келіссөз дәлелін құрыңыз"
             },
             "body": {
-              "en": "Classify each preparation item by the part of a salary negotiation it strengthens."
+              "en": "Classify each preparation item by the part of a salary negotiation it strengthens.",
+              "ru": "Отнесите каждый элемент подготовки к части переговоров о зарплате, которую он усиливает.",
+              "kk": "Әр дайындық элементін жалақы келіссөзінің қай бөлігін күшейтетініне қарай жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -520,6 +903,122 @@
                   }
                 ],
                 "explanation": "A strong negotiation connects market value, proven results, role scope, and the full compensation package."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый элемент к опоре переговоров, которую он поддерживает.",
+                "categories": [
+                  {
+                    "id": "market",
+                    "label": "Рыночные доказательства"
+                  },
+                  {
+                    "id": "performance",
+                    "label": "Доказательства результатов"
+                  },
+                  {
+                    "id": "scope",
+                    "label": "Объём роли"
+                  },
+                  {
+                    "id": "package",
+                    "label": "Полный пакет"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "salary_range",
+                    "text": "Сопоставимые зарплаты для похожих ролей"
+                  },
+                  {
+                    "id": "saved_time",
+                    "text": "Проект сэкономил команде 10 часов в неделю"
+                  },
+                  {
+                    "id": "new_tasks",
+                    "text": "Теперь вы управляете работой, за которую раньше отвечал старший коллега"
+                  },
+                  {
+                    "id": "training_budget",
+                    "text": "Работодатель предлагает оплачиваемую сертификацию и гибкий график"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "salary_range",
+                    "categoryId": "market"
+                  },
+                  {
+                    "itemId": "saved_time",
+                    "categoryId": "performance"
+                  },
+                  {
+                    "itemId": "new_tasks",
+                    "categoryId": "scope"
+                  },
+                  {
+                    "itemId": "training_budget",
+                    "categoryId": "package"
+                  }
+                ],
+                "explanation": "Сильные переговоры связывают рыночную ценность, доказанные результаты, объём роли и полный компенсационный пакет."
+              },
+              "kk": {
+                "instruction": "Әр элементті ол қолдайтын келіссөз тірегіне апарыңыз.",
+                "categories": [
+                  {
+                    "id": "market",
+                    "label": "Нарықтық дәлел"
+                  },
+                  {
+                    "id": "performance",
+                    "label": "Нәтиже дәлелі"
+                  },
+                  {
+                    "id": "scope",
+                    "label": "Рөл ауқымы"
+                  },
+                  {
+                    "id": "package",
+                    "label": "Толық пакет"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "salary_range",
+                    "text": "Ұқсас рөлдердегі салыстырмалы жалақылар"
+                  },
+                  {
+                    "id": "saved_time",
+                    "text": "Жоба командаға аптасына 10 сағат үнемдеді"
+                  },
+                  {
+                    "id": "new_tasks",
+                    "text": "Қазір бұрын аға әріптес жауап берген жұмысты басқарасыз"
+                  },
+                  {
+                    "id": "training_budget",
+                    "text": "Жұмыс беруші ақылы сертификаттау мен икемді кесте ұсынады"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "salary_range",
+                    "categoryId": "market"
+                  },
+                  {
+                    "itemId": "saved_time",
+                    "categoryId": "performance"
+                  },
+                  {
+                    "itemId": "new_tasks",
+                    "categoryId": "scope"
+                  },
+                  {
+                    "itemId": "training_budget",
+                    "categoryId": "package"
+                  }
+                ],
+                "explanation": "Күшті келіссөз нарықтық құндылықты, дәлелденген нәтижелерді, рөл ауқымын және толық өтемақы пакетін байланыстырады."
               }
             }
           },
@@ -528,13 +1027,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Ask with structure"
+              "en": "Ask with structure",
+              "ru": "Просите структурно",
+              "kk": "Құрылыммен сұраңыз"
             },
             "body": {
-              "en": "Salary negotiation improves when you prepare evidence, know the market, and understand your alternatives. The goal is to make your value easy to see and easy to approve. If the answer is no, ask what measurable path would justify a future adjustment."
+              "en": "Salary negotiation improves when you prepare evidence, know the market, and understand your alternatives. The goal is to make your value easy to see and easy to approve. If the answer is no, ask what measurable path would justify a future adjustment.",
+              "ru": "Переговоры о зарплате становятся лучше, когда вы готовите доказательства, знаете рынок и понимаете свои альтернативы. Цель — сделать вашу ценность понятной и легко одобряемой. Если ответ «нет», спросите, какой измеримый путь может обосновать будущую корректировку.",
+              "kk": "Дәлел дайындап, нарықты біліп және баламаларыңызды түсінгенде жалақы келіссөзі жақсарады. Мақсат — құндылығыңызды анық көрсету және мақұлдауды жеңілдету. Жауап «жоқ» болса, болашақ түзетуге қандай өлшенетін жол негіз болатынын сұраңыз."
             },
             "tip": {
-              "en": "A useful no becomes a roadmap when it includes clear conditions for yes later."
+              "en": "A useful no becomes a roadmap when it includes clear conditions for yes later.",
+              "ru": "Полезное «нет» становится дорожной картой, если в нём есть ясные условия для будущего «да».",
+              "kk": "Пайдалы «жоқ» кейінгі «иә» үшін нақты шарттары болса, жол картасына айналады."
             }
           }
         ]
@@ -543,7 +1048,9 @@
         "quiz_id": 2602,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Negotiating Your Salary — Check"
+          "en": "Negotiating Your Salary — Check",
+          "ru": "Переговоры о зарплате — проверка",
+          "kk": "Жалақыны келісу — тексеру"
         },
         "questions": [
           {
@@ -551,14 +1058,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Which raise request is strongest?"
+              "en": "Which raise request is strongest?",
+              "ru": "Какой запрос на повышение самый сильный?",
+              "kk": "Қай жалақы көтеру сұрауы ең күшті?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Comparable roles pay ₸450,000–₸520,000, and my expanded role delivered measurable results, so I am requesting ₸480,000"
+                  "en": "Comparable roles pay ₸450,000–₸520,000, and my expanded role delivered measurable results, so I am requesting ₸480,000",
+                  "ru": "Сопоставимые роли оплачиваются на уровне ₸450 000–₸520 000, а моя расширенная роль дала измеримые результаты, поэтому я прошу ₸480 000",
+                  "kk": "Ұқсас рөлдер ₸450 000–₸520 000 төлейді, ал кеңейген рөлім өлшенетін нәтиже берді, сондықтан ₸480 000 сұраймын"
                 },
                 "is_correct": true
               },
@@ -566,7 +1077,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "I want more because life is expensive"
+                  "en": "I want more because life is expensive",
+                  "ru": "Я хочу больше, потому что жизнь дорогая",
+                  "kk": "Өмір қымбат болғандықтан көбірек қалаймын"
                 },
                 "is_correct": false
               },
@@ -574,7 +1087,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "My friend earns more, so I should too"
+                  "en": "My friend earns more, so I should too",
+                  "ru": "Мой друг зарабатывает больше, значит и я должен",
+                  "kk": "Досым көбірек табады, сондықтан мен де солай табуым керек"
                 },
                 "is_correct": false
               },
@@ -582,7 +1097,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "I worked here for a while, so any number is fine"
+                  "en": "I worked here for a while, so any number is fine",
+                  "ru": "Я давно здесь работаю, поэтому любая сумма подойдёт",
+                  "kk": "Мен мұнда біраз уақыт жұмыс істедім, сондықтан кез келген сан жарайды"
                 },
                 "is_correct": false
               }
@@ -593,14 +1110,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why compare total compensation instead of salary alone?"
+              "en": "Why compare total compensation instead of salary alone?",
+              "ru": "Почему нужно сравнивать полную компенсацию, а не только зарплату?",
+              "kk": "Неліктен тек жалақыны емес, жалпы өтемақыны салыстыру керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Benefits, bonuses, flexibility, training, and growth path can change the real value of a job"
+                  "en": "Benefits, bonuses, flexibility, training, and growth path can change the real value of a job",
+                  "ru": "Льготы, бонусы, гибкость, обучение и путь роста могут изменить реальную ценность работы",
+                  "kk": "Жеңілдіктер, бонустар, икемділік, оқу және өсу жолы жұмыстың нақты құнын өзгерте алады"
                 },
                 "is_correct": true
               },
@@ -608,7 +1129,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Base salary never matters"
+                  "en": "Base salary never matters",
+                  "ru": "Базовая зарплата никогда не важна",
+                  "kk": "Негізгі жалақы ешқашан маңызды емес"
                 },
                 "is_correct": false
               },
@@ -616,7 +1139,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Benefits are always more valuable than money"
+                  "en": "Benefits are always more valuable than money",
+                  "ru": "Льготы всегда ценнее денег",
+                  "kk": "Жеңілдіктер әрқашан ақшадан құндырақ"
                 },
                 "is_correct": false
               },
@@ -624,7 +1149,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Total compensation removes the need to negotiate"
+                  "en": "Total compensation removes the need to negotiate",
+                  "ru": "Полная компенсация устраняет необходимость переговоров",
+                  "kk": "Жалпы өтемақы келіссөз қажеттілігін жояды"
                 },
                 "is_correct": false
               }
@@ -635,14 +1162,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "A manager says a raise is not possible now. What is the most useful next question?"
+              "en": "A manager says a raise is not possible now. What is the most useful next question?",
+              "ru": "Руководитель говорит, что повышение сейчас невозможно. Какой следующий вопрос самый полезный?",
+              "kk": "Басшы қазір жалақы көтеру мүмкін емес дейді. Ең пайдалы келесі сұрақ қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "What measurable results or responsibilities would make the raise possible in the next review?"
+                  "en": "What measurable results or responsibilities would make the raise possible in the next review?",
+                  "ru": "Какие измеримые результаты или обязанности сделают повышение возможным на следующем пересмотре?",
+                  "kk": "Келесі қарауда жалақы өсімін мүмкін ететін қандай өлшенетін нәтижелер немесе міндеттер бар?"
                 },
                 "is_correct": true
               },
@@ -650,7 +1181,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Can we ignore the budget completely?"
+                  "en": "Can we ignore the budget completely?",
+                  "ru": "Можем полностью игнорировать бюджет?",
+                  "kk": "Бюджетті толық елемей қоя аламыз ба?"
                 },
                 "is_correct": false
               },
@@ -658,7 +1191,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Should I stop working carefully?"
+                  "en": "Should I stop working carefully?",
+                  "ru": "Мне перестать работать внимательно?",
+                  "kk": "Мен мұқият жұмыс істеуді тоқтатуым керек пе?"
                 },
                 "is_correct": false
               },
@@ -666,7 +1201,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Can I get a raise without changing value or scope?"
+                  "en": "Can I get a raise without changing value or scope?",
+                  "ru": "Могу ли я получить повышение без изменения ценности или объёма роли?",
+                  "kk": "Құндылық немесе рөл ауқымы өзгермей-ақ жалақы көтере аламын ба?"
                 },
                 "is_correct": false
               }
@@ -678,10 +1215,14 @@
     {
       "code": "side_income_vs_promotion_vs_job_change",
       "title": {
-        "en": "Side Income vs Promotion vs Job Change"
+        "en": "Side Income vs Promotion vs Job Change",
+        "ru": "Подработка, повышение или смена работы",
+        "kk": "Қосымша табыс, қызмет көтерілуі немесе жұмыс ауыстыру"
       },
       "description": {
-        "en": "Income growth choices have different risk, time, learning, and upside trade-offs."
+        "en": "Income growth choices have different risk, time, learning, and upside trade-offs.",
+        "ru": "Варианты роста дохода имеют разные компромиссы по риску, времени, обучению и потенциалу.",
+        "kk": "Табысты өсіру таңдаулары тәуекел, уақыт, үйрену және әлеует бойынша әртүрлі айырбасқа ие."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -693,10 +1234,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "More income has different paths"
+              "en": "More income has different paths",
+              "ru": "У роста дохода есть разные пути",
+              "kk": "Көбірек табыстың әртүрлі жолдары бар"
             },
             "body": {
-              "en": "A raise, promotion, job change, and side income can all increase money coming in. But they do not create the same risk or the same future options. The best path depends on time, energy, skills, stability, and upside."
+              "en": "A raise, promotion, job change, and side income can all increase money coming in. But they do not create the same risk or the same future options. The best path depends on time, energy, skills, stability, and upside.",
+              "ru": "Повышение зарплаты, продвижение, смена работы и подработка могут увеличить приток денег. Но они создают разный риск и разные будущие возможности. Лучший путь зависит от времени, энергии, навыков, стабильности и потенциала.",
+              "kk": "Жалақы өсімі, қызмет көтерілуі, жұмыс ауыстыру және қосымша табыс ақша ағынын арттыра алады. Бірақ олардың тәуекелі мен болашақ мүмкіндіктері бірдей емес. Ең жақсы жол уақытқа, энергияға, дағдыларға, тұрақтылыққа және әлеуетке байланысты."
             }
           },
           {
@@ -704,13 +1249,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Promotion deepens one path"
+              "en": "Promotion deepens one path",
+              "ru": "Повышение углубляет один путь",
+              "kk": "Қызмет көтерілуі бір жолды тереңдетеді"
             },
             "body": {
-              "en": "A promotion often increases pay by expanding responsibility inside the same organization. It can build leadership proof and stability, but may depend on company budgets and internal politics. The upside can be limited if the company has slow pay bands."
+              "en": "A promotion often increases pay by expanding responsibility inside the same organization. It can build leadership proof and stability, but may depend on company budgets and internal politics. The upside can be limited if the company has slow pay bands.",
+              "ru": "Повышение часто увеличивает оплату за счёт расширения ответственности в той же организации. Оно может дать доказательства лидерства и стабильность, но зависит от бюджета компании и внутренней политики. Потенциал может быть ограничен, если в компании медленные зарплатные грейды.",
+              "kk": "Қызмет көтерілуі көбіне сол ұйым ішінде жауапкершілікті кеңейту арқылы жалақыны арттырады. Ол көшбасшылық дәлелін және тұрақтылықты қалыптастырады, бірақ компания бюджеті мен ішкі саясатқа тәуелді болуы мүмкін. Компанияда жалақы диапазондары баяу өссе, әлеует шектеулі болады."
             },
             "tip": {
-              "en": "Promotion is strongest when it adds marketable responsibility, not only a new title."
+              "en": "Promotion is strongest when it adds marketable responsibility, not only a new title.",
+              "ru": "Повышение сильнее всего, когда добавляет рыночную ответственность, а не только новый титул.",
+              "kk": "Қызмет көтерілуі тек жаңа атау емес, нарықта бағаланатын жауапкершілік қосқанда ең күшті."
             }
           },
           {
@@ -718,13 +1269,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Job change and side income change the risk mix"
+              "en": "Job change and side income change the risk mix",
+              "ru": "Смена работы и подработка меняют набор рисков",
+              "kk": "Жұмыс ауыстыру мен қосымша табыс тәуекел қоспасын өзгертеді"
             },
             "body": {
-              "en": "A job change can reset pay faster by testing your value in the market, but it adds transition risk. Side income can diversify income and build business skills, but it consumes time and may be unstable. More income is useful only if it does not destroy health, learning, or main-job performance."
+              "en": "A job change can reset pay faster by testing your value in the market, but it adds transition risk. Side income can diversify income and build business skills, but it consumes time and may be unstable. More income is useful only if it does not destroy health, learning, or main-job performance.",
+              "ru": "Смена работы может быстрее поднять оплату, проверив вашу ценность на рынке, но добавляет риск перехода. Подработка может диверсифицировать доход и развить бизнес-навыки, но требует времени и может быть нестабильной. Больше дохода полезно только если это не разрушает здоровье, обучение или эффективность на основной работе.",
+              "kk": "Жұмыс ауыстыру нарықтағы құныңызды тексеріп, жалақыны тезірек қайта бағалай алады, бірақ ауысу тәуекелін қосады. Қосымша табыс табысты әртараптандырып, бизнес дағдыларды дамытады, бірақ уақыт алады және тұрақсыз болуы мүмкін. Көбірек табыс денсаулыққа, үйренуге немесе негізгі жұмыстағы нәтижеге зиян келтірмесе ғана пайдалы."
             },
             "example": {
-              "en": "A ₸120,000 monthly side project sounds good, but if it reduces sleep and blocks a promotion worth ₸200,000 monthly, the trade-off may be poor."
+              "en": "A ₸120,000 monthly side project sounds good, but if it reduces sleep and blocks a promotion worth ₸200,000 monthly, the trade-off may be poor.",
+              "ru": "Подработка на ₸120 000 в месяц звучит хорошо, но если она ухудшает сон и мешает повышению на ₸200 000 в месяц, компромисс может быть плохим.",
+              "kk": "Айына ₸120 000 әкелетін қосымша жоба жақсы естіледі, бірақ ол ұйқыны азайтып, айына ₸200 000 тұратын қызмет көтерілуіне кедергі болса, айырбас нашар болуы мүмкін."
             }
           },
           {
@@ -732,7 +1289,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Choosing the income path"
+              "en": "Choosing the income path",
+              "ru": "Выбор пути роста дохода",
+              "kk": "Табыс жолын таңдау"
             },
             "content": {
               "en": {
@@ -776,6 +1335,90 @@
                     "text": "The best choice is not the one with the largest headline amount; it is the one with the best risk-adjusted path for your situation."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Специалист зарабатывает ₸500 000 в месяц и хочет увеличить доход. Три пути создают разные компромиссы."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Путь",
+                        "Потенциальная выгода",
+                        "Главная цена или риск"
+                      ],
+                      [
+                        "Повышение",
+                        "Более высокая зарплата и более сильная внутренняя роль",
+                        "Может занять время и зависеть от структуры компании"
+                      ],
+                      [
+                        "Смена работы",
+                        "Более быстрый переход к рыночной оплате",
+                        "Риск перехода и неопределённость"
+                      ],
+                      [
+                        "Подработка",
+                        "Дополнительный доход и возможная независимость",
+                        "Давление на время, нерегулярный денежный поток, налоги и администрирование"
+                      ],
+                      [
+                        "Сначала прокачка навыков",
+                        "Улучшает все пути",
+                        "Рост дохода откладывается"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Лучший выбор — не тот, где самая большая сумма на бумаге, а тот, где лучший путь с учётом риска именно для вашей ситуации."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Маман айына ₸500 000 табады және табысын арттырғысы келеді. Үш жол әртүрлі айырбас тудырады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Жол",
+                        "Ықтимал пайда",
+                        "Негізгі шығын немесе тәуекел"
+                      ],
+                      [
+                        "Қызмет көтерілуі",
+                        "Жоғары жалақы және ұйым ішіндегі мықтырақ рөл",
+                        "Уақыт алуы және компания құрылымына тәуелді болуы мүмкін"
+                      ],
+                      [
+                        "Жұмыс ауыстыру",
+                        "Нарықтық деңгейге тезірек қайта бағалану",
+                        "Ауысу тәуекелі және белгісіздік"
+                      ],
+                      [
+                        "Қосымша табыс",
+                        "Қосымша табыс және ықтимал тәуелсіздік",
+                        "Уақыт қысымы, тұрақсыз ақша ағыны, салық және әкімшілік жұмыс"
+                      ],
+                      [
+                        "Алдымен дағдыны дамыту",
+                        "Барлық жолды жақсартады",
+                        "Табыс өсімі кейінге қалады"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ең жақсы таңдау ең үлкен көрінетін сома емес, сіздің жағдайыңыз үшін тәуекел ескерілген ең жақсы жол."
+                  }
+                ]
               }
             }
           },
@@ -784,10 +1427,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Pick the income path"
+              "en": "Pick the income path",
+              "ru": "Выберите путь дохода",
+              "kk": "Табыс жолын таңдаңыз"
             },
             "body": {
-              "en": "Choose which income-growth path best matches each situation."
+              "en": "Choose which income-growth path best matches each situation.",
+              "ru": "Выберите, какой путь роста дохода лучше подходит к каждой ситуации.",
+              "kk": "Әр жағдайға ең сәйкес табыс өсіру жолын таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -821,6 +1468,68 @@
                     "explanation": "Building career capital may improve every later path."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите наиболее подходящий путь.",
+                "options": [
+                  "Повышение",
+                  "Смена работы",
+                  "Подработка",
+                  "Сначала прокачка навыков"
+                ],
+                "scenarios": [
+                  {
+                    "text": "В вашей компании открыта старшая роль, и вы уже выполняете большую часть обязанностей.",
+                    "correct_answer": "Повышение",
+                    "explanation": "Ценность и объём роли уже есть внутри компании, поэтому аргумент для повышения может быть эффективным."
+                  },
+                  {
+                    "text": "Ваша оплата намного ниже рынка, а компания заморозила повышения на год.",
+                    "correct_answer": "Смена работы",
+                    "explanation": "Внешний рынок может быстрее пересмотреть оплату, чем ожидание внутри компании."
+                  },
+                  {
+                    "text": "У вас стабильная работа и небольшой сервис по выходным, который может расти без вреда основной работе.",
+                    "correct_answer": "Подработка",
+                    "explanation": "Подработка может добавить диверсификацию, если контролировать затраты времени и энергии."
+                  },
+                  {
+                    "text": "Вы хотите более высокий доход, но вам не хватает ключевых навыков для целевых ролей.",
+                    "correct_answer": "Сначала прокачка навыков",
+                    "explanation": "Создание карьерного капитала может улучшить любой следующий путь."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ең қолайлы жолды таңдаңыз.",
+                "options": [
+                  "Қызмет көтерілуі",
+                  "Жұмыс ауыстыру",
+                  "Қосымша табыс",
+                  "Алдымен дағдыны дамыту"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Компанияңызда senior рөл ашық, ал сіз оның міндеттерінің көбін орындап жүрсіз.",
+                    "correct_answer": "Қызмет көтерілуі",
+                    "explanation": "Құндылық пен рөл ауқымы компания ішінде бар, сондықтан қызмет көтерілуін дәлелдеу тиімді болуы мүмкін."
+                  },
+                  {
+                    "text": "Сіздің жалақыңыз нарықтан әлдеқайда төмен, ал компания бір жылға өсімдерді тоқтатты.",
+                    "correct_answer": "Жұмыс ауыстыру",
+                    "explanation": "Сыртқы нарық іште күтуден гөрі жалақыны тезірек қайта бағалауы мүмкін."
+                  },
+                  {
+                    "text": "Сізде тұрақты жұмыс және негізгі жұмысыңызға зиян келтірмей өсетін шағын демалыс күнгі қызмет бар.",
+                    "correct_answer": "Қосымша табыс",
+                    "explanation": "Уақыт пен энергия шығындары бақыланса, қосымша табыс әртараптандыру қоса алады."
+                  },
+                  {
+                    "text": "Сіз жоғары табыс қалайсыз, бірақ мақсатты рөлдерге қажет негізгі дағдылар жетіспейді.",
+                    "correct_answer": "Алдымен дағдыны дамыту",
+                    "explanation": "Мансаптық капитал құру кейінгі барлық жолды жақсарта алады."
+                  }
+                ]
               }
             }
           },
@@ -829,13 +1538,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Choose the path, not only the money"
+              "en": "Choose the path, not only the money",
+              "ru": "Выбирайте путь, а не только деньги",
+              "kk": "Тек ақшаны емес, жолды таңдаңыз"
             },
             "body": {
-              "en": "Income growth is a portfolio of choices. Promotion, job change, and side income each trade off stability, upside, time, and learning. A strong decision compares net income, risk, future options, and the energy cost of earning that money."
+              "en": "Income growth is a portfolio of choices. Promotion, job change, and side income each trade off stability, upside, time, and learning. A strong decision compares net income, risk, future options, and the energy cost of earning that money.",
+              "ru": "Рост дохода — это портфель выборов. Повышение, смена работы и подработка по-разному обменивают стабильность, потенциал, время и обучение. Сильное решение сравнивает чистый доход, риск, будущие возможности и энергетическую цену заработка.",
+              "kk": "Табыстың өсуі — таңдаулар портфелі. Қызмет көтерілуі, жұмыс ауыстыру және қосымша табыс тұрақтылықты, әлеуетті, уақытты және үйренуді әртүрлі айырбастайды. Мықты шешім таза табысты, тәуекелді, болашақ мүмкіндіктерді және сол ақшаны табудың энергия құнын салыстырады."
             },
             "tip": {
-              "en": "The best income path grows money without damaging the asset that earns it: you."
+              "en": "The best income path grows money without damaging the asset that earns it: you.",
+              "ru": "Лучший путь дохода увеличивает деньги, не повреждая актив, который их зарабатывает: вас.",
+              "kk": "Ең жақсы табыс жолы ақшаны оны табатын активке — өзіңізге — зиян келтірмей өсіреді."
             }
           }
         ]
@@ -844,7 +1559,9 @@
         "quiz_id": 2603,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Side Income vs Promotion vs Job Change — Check"
+          "en": "Side Income vs Promotion vs Job Change — Check",
+          "ru": "Подработка, повышение или смена работы — проверка",
+          "kk": "Қосымша табыс, қызмет көтерілуі немесе жұмыс ауыстыру — тексеру"
         },
         "questions": [
           {
@@ -852,14 +1569,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A person is underpaid relative to market, but their company has frozen raises. Which path may reset income fastest?"
+              "en": "A person is underpaid relative to market, but their company has frozen raises. Which path may reset income fastest?",
+              "ru": "Человеку платят ниже рынка, но компания заморозила повышения. Какой путь может быстрее пересмотреть доход?",
+              "kk": "Адамға нарықтан төмен төлейді, бірақ компания өсімдерді тоқтатты. Қай жол табысты ең тез қайта бағалай алады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Testing the external market through a job change"
+                  "en": "Testing the external market through a job change",
+                  "ru": "Проверка внешнего рынка через смену работы",
+                  "kk": "Жұмыс ауыстыру арқылы сыртқы нарықты тексеру"
                 },
                 "is_correct": true
               },
@@ -867,7 +1588,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Waiting silently for the freeze to end"
+                  "en": "Waiting silently for the freeze to end",
+                  "ru": "Молча ждать окончания заморозки",
+                  "kk": "Тоқтатудың аяқталуын үнсіз күту"
                 },
                 "is_correct": false
               },
@@ -875,7 +1598,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Taking unpaid extra work with no discussion"
+                  "en": "Taking unpaid extra work with no discussion",
+                  "ru": "Брать неоплачиваемую дополнительную работу без обсуждения",
+                  "kk": "Талқылаусыз ақысыз қосымша жұмыс алу"
                 },
                 "is_correct": false
               },
@@ -883,7 +1608,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Ignoring market data"
+                  "en": "Ignoring market data",
+                  "ru": "Игнорировать рыночные данные",
+                  "kk": "Нарық деректерін елемеу"
                 },
                 "is_correct": false
               }
@@ -894,14 +1621,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "When can side income be a poor choice even if it brings money?"
+              "en": "When can side income be a poor choice even if it brings money?",
+              "ru": "Когда подработка может быть плохим выбором, даже если приносит деньги?",
+              "kk": "Қосымша табыс ақша әкелсе де, қашан нашар таңдау болуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "When it harms health, main-job performance, or higher-value career growth"
+                  "en": "When it harms health, main-job performance, or higher-value career growth",
+                  "ru": "Когда она вредит здоровью, эффективности на основной работе или более ценному карьерному росту",
+                  "kk": "Ол денсаулыққа, негізгі жұмыстағы нәтижеге немесе жоғары құнды мансаптық өсуге зиян келтірсе"
                 },
                 "is_correct": true
               },
@@ -909,7 +1640,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "When it is planned carefully"
+                  "en": "When it is planned carefully",
+                  "ru": "Когда она тщательно спланирована",
+                  "kk": "Ол мұқият жоспарланса"
                 },
                 "is_correct": false
               },
@@ -917,7 +1650,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "When it uses skills the person already has"
+                  "en": "When it uses skills the person already has",
+                  "ru": "Когда она использует уже имеющиеся навыки",
+                  "kk": "Ол адамда бар дағдыларды қолданса"
                 },
                 "is_correct": false
               },
@@ -925,7 +1660,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "When it is small but sustainable"
+                  "en": "When it is small but sustainable",
+                  "ru": "Когда она небольшая, но устойчиво работает",
+                  "kk": "Ол шағын, бірақ тұрақты болса"
                 },
                 "is_correct": false
               }
@@ -936,14 +1673,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What makes a promotion especially valuable for long-term income?"
+              "en": "What makes a promotion especially valuable for long-term income?",
+              "ru": "Что делает повышение особенно ценным для долгосрочного дохода?",
+              "kk": "Қызмет көтерілуі ұзақ мерзімді табыс үшін нені ерекше құнды етеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It adds responsibility and proof that are valuable both inside and outside the company"
+                  "en": "It adds responsibility and proof that are valuable both inside and outside the company",
+                  "ru": "Оно добавляет ответственность и доказательства, ценные и внутри, и вне компании",
+                  "kk": "Ол компания ішінде де, сыртында да құнды жауапкершілік пен дәлел қосады"
                 },
                 "is_correct": true
               },
@@ -951,7 +1692,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It changes the title but not the work or skills"
+                  "en": "It changes the title but not the work or skills",
+                  "ru": "Оно меняет название должности, но не работу и навыки",
+                  "kk": "Ол атауды өзгертеді, бірақ жұмыс пен дағдыларды өзгертпейді"
                 },
                 "is_correct": false
               },
@@ -959,7 +1702,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It removes all future negotiation needs"
+                  "en": "It removes all future negotiation needs",
+                  "ru": "Оно устраняет необходимость любых будущих переговоров",
+                  "kk": "Ол болашақ келіссөздердің бәрін қажетсіз етеді"
                 },
                 "is_correct": false
               },
@@ -967,7 +1712,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It guarantees side income without effort"
+                  "en": "It guarantees side income without effort",
+                  "ru": "Оно гарантирует подработку без усилий",
+                  "kk": "Ол күш-жігерсіз қосымша табысқа кепілдік береді"
                 },
                 "is_correct": false
               }
@@ -979,10 +1726,14 @@
     {
       "code": "freelancer_self_employed_money",
       "title": {
-        "en": "Money Rules for Freelancers & Self-Employed"
+        "en": "Money Rules for Freelancers & Self-Employed",
+        "ru": "Денежные правила для фрилансеров и самозанятых",
+        "kk": "Фрилансерлер мен өзін-өзі жұмыспен қамтығандарға арналған ақша ережелері"
       },
       "description": {
-        "en": "Self-employed income needs stronger cash buffers, tax planning, pricing discipline, and separation between business and personal money."
+        "en": "Self-employed income needs stronger cash buffers, tax planning, pricing discipline, and separation between business and personal money.",
+        "ru": "Доход самозанятых требует более сильных денежных буферов, налогового планирования, дисциплины в ценообразовании и разделения бизнес-денег и личных денег.",
+        "kk": "Өзін-өзі жұмыспен қамтыған табысқа күшті ақша буферлері, салық жоспарлауы, баға қою тәртібі және бизнес пен жеке ақшаны бөлу қажет."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -994,13 +1745,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Self-employed income is lumpy"
+              "en": "Self-employed income is lumpy",
+              "ru": "Доход самозанятых неровный",
+              "kk": "Өзін-өзі жұмыспен қамтыған табыс біркелкі емес"
             },
             "body": {
-              "en": "Freelancers and self-employed people often earn unevenly: one month is strong, the next is quiet. This makes budgeting harder than with a fixed salary. The solution is not only earning more, but building systems for irregular cash flow."
+              "en": "Freelancers and self-employed people often earn unevenly: one month is strong, the next is quiet. This makes budgeting harder than with a fixed salary. The solution is not only earning more, but building systems for irregular cash flow.",
+              "ru": "Фрилансеры и самозанятые часто зарабатывают неровно: один месяц сильный, следующий тихий. Это делает бюджетирование сложнее, чем при фиксированной зарплате. Решение не только в том, чтобы зарабатывать больше, но и в создании систем для нерегулярного денежного потока.",
+              "kk": "Фрилансерлер мен өзін-өзі жұмыспен қамтығандар көбіне біркелкі таппайды: бір ай күшті, келесі ай тыныш. Бұл тұрақты жалақыға қарағанда бюджеттеуді қиындатады. Шешім тек көбірек табуда емес, тұрақсыз ақша ағынына арналған жүйе құруда."
             },
             "tip": {
-              "en": "A good freelance month is not the same as safe monthly income."
+              "en": "A good freelance month is not the same as safe monthly income.",
+              "ru": "Хороший месяц на фрилансе — не то же самое, что безопасный ежемесячный доход.",
+              "kk": "Фриланстағы жақсы ай қауіпсіз айлық табыспен бірдей емес."
             }
           },
           {
@@ -1008,13 +1765,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Separate business and personal money"
+              "en": "Separate business and personal money",
+              "ru": "Разделяйте бизнес-деньги и личные деньги",
+              "kk": "Бизнес пен жеке ақшаны бөліңіз"
             },
             "body": {
-              "en": "Business revenue is not personal income. From each payment, money may need to go to taxes, tools, marketing, unpaid time, insurance, pension, and a buffer. Paying yourself a steady amount helps prevent overspending after high-revenue months."
+              "en": "Business revenue is not personal income. From each payment, money may need to go to taxes, tools, marketing, unpaid time, insurance, pension, and a buffer. Paying yourself a steady amount helps prevent overspending after high-revenue months.",
+              "ru": "Выручка бизнеса — это не личный доход. Из каждого платежа деньги могут понадобиться на налоги, инструменты, маркетинг, неоплаченное время, страхование, пенсию и буфер. Стабильная выплата себе помогает не перерасходовать после месяцев с высокой выручкой.",
+              "kk": "Бизнес кірісі жеке табыс емес. Әр төлемнен салыққа, құралдарға, маркетингке, ақы төленбейтін уақытқа, сақтандыруға, зейнетақыға және буферге ақша бөлу қажет болуы мүмкін. Өзіңізге тұрақты сома төлеу табысы жоғары айлардан кейін артық жұмсаудан қорғайды."
             },
             "example": {
-              "en": "A ₸700,000 client payment may become ₸350,000 personal pay after setting aside tax, software, equipment, savings, and future slow months."
+              "en": "A ₸700,000 client payment may become ₸350,000 personal pay after setting aside tax, software, equipment, savings, and future slow months.",
+              "ru": "Клиентский платёж ₸700 000 может превратиться в ₸350 000 личной выплаты после резервов на налоги, ПО, оборудование, сбережения и будущие тихие месяцы.",
+              "kk": "₸700 000 клиент төлемі салық, бағдарламалар, жабдық, жинақ және болашақ баяу айларға ақша бөлгеннен кейін ₸350 000 жеке төлемге айналуы мүмкін."
             }
           },
           {
@@ -1022,13 +1785,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Pricing must include unpaid work"
+              "en": "Pricing must include unpaid work",
+              "ru": "Цена должна учитывать неоплачиваемую работу",
+              "kk": "Баға ақы төленбейтін жұмысты қамтуы керек"
             },
             "body": {
-              "en": "An hourly rate must cover more than the hour spent delivering work. It must also cover client search, admin, revisions, taxes, equipment, learning, and days without paid projects. A freelancer who prices only visible work often underpays themselves."
+              "en": "An hourly rate must cover more than the hour spent delivering work. It must also cover client search, admin, revisions, taxes, equipment, learning, and days without paid projects. A freelancer who prices only visible work often underpays themselves.",
+              "ru": "Почасовая ставка должна покрывать не только час выполнения работы. Она также должна покрывать поиск клиентов, администрирование, правки, налоги, оборудование, обучение и дни без оплачиваемых проектов. Фрилансер, который оценивает только видимую работу, часто недоплачивает самому себе.",
+              "kk": "Сағаттық мөлшерлеме тек жұмысты орындауға кеткен сағатты ғана емес, клиент іздеуді, әкімшілік жұмысты, түзетулерді, салықтарды, жабдықты, оқуды және ақылы жобасыз күндерді де жабуы керек. Тек көрінетін жұмысты бағалайтын фрилансер өзіне жиі аз төлейді."
             },
             "tip": {
-              "en": "Freelance price should cover the business, not just the task."
+              "en": "Freelance price should cover the business, not just the task.",
+              "ru": "Фриланс-цена должна покрывать бизнес, а не только задачу.",
+              "kk": "Фриланс бағасы тек тапсырманы емес, бизнестің өзін жабуы керек."
             }
           },
           {
@@ -1036,7 +1805,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Turning revenue into pay"
+              "en": "Turning revenue into pay",
+              "ru": "Превращение выручки в оплату себе",
+              "kk": "Кірісті жеке төлемге айналдыру"
             },
             "content": {
               "en": {
@@ -1085,6 +1856,100 @@
                     "text": "The allocation turns unpredictable revenue into a more stable financial system."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Самозанятый дизайнер получает ₸900 000 в этом месяце. Вместо того чтобы считать всё это доступным доходом, он сначала распределяет деньги."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Назначение",
+                        "Сумма",
+                        "Причина"
+                      ],
+                      [
+                        "Налоги и обязательные взносы",
+                        "₸180 000",
+                        "Предотвращает будущий налоговый шок"
+                      ],
+                      [
+                        "Бизнес-инструменты и маркетинг",
+                        "₸90 000",
+                        "Поддерживает работу бизнеса"
+                      ],
+                      [
+                        "Буфер на тихие месяцы",
+                        "₸180 000",
+                        "Сглаживает нерегулярный доход"
+                      ],
+                      [
+                        "Личная зарплата",
+                        "₸400 000",
+                        "Стабильные расходы семьи"
+                      ],
+                      [
+                        "Фонд обучения и оборудования",
+                        "₸50 000",
+                        "Поддерживает карьерный капитал"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Такое распределение превращает непредсказуемую выручку в более стабильную финансовую систему."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Өзін-өзі жұмыспен қамтыған дизайнер осы айда ₸900 000 алады. Оны түгел жұмсалатын табыс деп санамай, алдымен бөледі."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Пайдалану",
+                        "Сома",
+                        "Себеп"
+                      ],
+                      [
+                        "Салық және міндетті жарналар",
+                        "₸180 000",
+                        "Болашақ салық соққысын болдырмайды"
+                      ],
+                      [
+                        "Бизнес құралдары және маркетинг",
+                        "₸90 000",
+                        "Бизнестің жұмысын сақтайды"
+                      ],
+                      [
+                        "Баяу айларға буфер",
+                        "₸180 000",
+                        "Тұрақсыз табысты тегістейді"
+                      ],
+                      [
+                        "Жеке жалақы",
+                        "₸400 000",
+                        "Үй шаруашылығының тұрақты шығындары"
+                      ],
+                      [
+                        "Оқу/жабдық қоры",
+                        "₸50 000",
+                        "Мансаптық капиталды қолдайды"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Мұндай бөлу болжап болмайтын кірісті тұрақтырақ қаржы жүйесіне айналдырады."
+                  }
+                ]
               }
             }
           },
@@ -1093,10 +1958,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Allocate freelance revenue"
+              "en": "Allocate freelance revenue",
+              "ru": "Распределите фриланс-выручку",
+              "kk": "Фриланс кірісін бөліңіз"
             },
             "body": {
-              "en": "Split ₸900,000 of freelance revenue across business needs. The total must equal ₸900,000."
+              "en": "Split ₸900,000 of freelance revenue across business needs. The total must equal ₸900,000.",
+              "ru": "Разделите ₸900 000 фриланс-выручки между бизнес-потребностями. Общая сумма должна быть ₸900 000.",
+              "kk": "₸900 000 фриланс кірісін бизнес қажеттіліктеріне бөліңіз. Жалпы сома ₸900 000 болуы керек."
             },
             "interactiveType": "input_numbers",
             "interactiveContent": {
@@ -1130,6 +1999,68 @@
                   "personal_pay": "400000"
                 },
                 "explanation": "Irregular revenue becomes safer when tax, business costs, and slow-month reserves are separated before personal spending."
+              },
+              "ru": {
+                "instruction": "Распределите ₸900 000 по всем категориям. Общая сумма должна быть ₸900 000.",
+                "fields": [
+                  {
+                    "id": "taxes",
+                    "label": "Налоги и обязательные взносы"
+                  },
+                  {
+                    "id": "business_costs",
+                    "label": "Бизнес-расходы"
+                  },
+                  {
+                    "id": "buffer",
+                    "label": "Буфер на тихие месяцы"
+                  },
+                  {
+                    "id": "personal_pay",
+                    "label": "Личная выплата"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 900000
+                },
+                "exampleAnswer": {
+                  "taxes": "180000",
+                  "business_costs": "120000",
+                  "buffer": "200000",
+                  "personal_pay": "400000"
+                },
+                "explanation": "Нерегулярная выручка становится безопаснее, когда налоги, бизнес-расходы и резервы на тихие месяцы отделены до личных трат."
+              },
+              "kk": {
+                "instruction": "₸900 000 сомасын барлық санаттарға бөліңіз. Жалпы сома ₸900 000 болуы керек.",
+                "fields": [
+                  {
+                    "id": "taxes",
+                    "label": "Салықтар және міндетті жарналар"
+                  },
+                  {
+                    "id": "business_costs",
+                    "label": "Бизнес шығындары"
+                  },
+                  {
+                    "id": "buffer",
+                    "label": "Баяу айларға буфер"
+                  },
+                  {
+                    "id": "personal_pay",
+                    "label": "Жеке төлем"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 900000
+                },
+                "exampleAnswer": {
+                  "taxes": "180000",
+                  "business_costs": "120000",
+                  "buffer": "200000",
+                  "personal_pay": "400000"
+                },
+                "explanation": "Жеке шығынға дейін салық, бизнес шығындары және баяу ай резервтері бөлінсе, тұрақсыз кіріс қауіпсізірек болады."
               }
             }
           },
@@ -1138,13 +2069,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Build a business cash-flow system"
+              "en": "Build a business cash-flow system",
+              "ru": "Создайте систему денежного потока бизнеса",
+              "kk": "Бизнес ақша ағыны жүйесін құрыңыз"
             },
             "body": {
-              "en": "Self-employment needs stronger money rules because income is less predictable and many benefits are not automatic. Separate accounts, tax reserves, buffers, and realistic pricing make the work sustainable. The goal is to turn irregular revenue into stable decisions."
+              "en": "Self-employment needs stronger money rules because income is less predictable and many benefits are not automatic. Separate accounts, tax reserves, buffers, and realistic pricing make the work sustainable. The goal is to turn irregular revenue into stable decisions.",
+              "ru": "Самозанятость требует более сильных денежных правил, потому что доход менее предсказуем, а многие льготы не автоматические. Раздельные счета, налоговые резервы, буферы и реалистичное ценообразование делают работу устойчивой. Цель — превратить нерегулярную выручку в стабильные решения.",
+              "kk": "Өзін-өзі жұмыспен қамтуға қатаңырақ ақша ережелері қажет, өйткені табыс аз болжанады және көптеген жеңілдіктер автоматты емес. Бөлек шоттар, салық резервтері, буферлер және шынайы баға қою жұмысты тұрақты етеді. Мақсат — тұрақсыз кірісті тұрақты шешімдерге айналдыру."
             },
             "tip": {
-              "en": "Self-employed income is safer when you pay yourself from the business, not directly from each client payment."
+              "en": "Self-employed income is safer when you pay yourself from the business, not directly from each client payment.",
+              "ru": "Доход самозанятого безопаснее, когда вы платите себе из бизнеса, а не напрямую из каждого клиентского платежа.",
+              "kk": "Өзін-өзі жұмыспен қамтыған табыс клиенттің әр төлемінен тікелей емес, бизнестен өзіңізге төлегенде қауіпсізірек болады."
             }
           }
         ]
@@ -1153,7 +2090,9 @@
         "quiz_id": 2604,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Freelancer & Self-Employed Money — Check"
+          "en": "Freelancer & Self-Employed Money — Check",
+          "ru": "Деньги фрилансеров и самозанятых — проверка",
+          "kk": "Фрилансер және өзін-өзі жұмыспен қамтыған ақша — тексеру"
         },
         "questions": [
           {
@@ -1161,14 +2100,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A freelancer receives ₸800,000 and spends it all as personal income. What is the main risk?"
+              "en": "A freelancer receives ₸800,000 and spends it all as personal income. What is the main risk?",
+              "ru": "Фрилансер получает ₸800 000 и тратит всё как личный доход. Какой главный риск?",
+              "kk": "Фрилансер ₸800 000 алып, бәрін жеке табыс ретінде жұмсайды. Негізгі тәуекел қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They may have nothing left for taxes, business costs, slow months, and required contributions"
+                  "en": "They may have nothing left for taxes, business costs, slow months, and required contributions",
+                  "ru": "У него может ничего не остаться на налоги, бизнес-расходы, тихие месяцы и обязательные взносы",
+                  "kk": "Салықтарға, бизнес шығындарына, баяу айларға және міндетті жарналарға ештеңе қалмауы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1176,7 +2119,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Freelance revenue is always tax-free"
+                  "en": "Freelance revenue is always tax-free",
+                  "ru": "Фриланс-выручка всегда не облагается налогом",
+                  "kk": "Фриланс кірісі әрқашан салықсыз"
                 },
                 "is_correct": false
               },
@@ -1184,7 +2129,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Business costs do not exist for freelancers"
+                  "en": "Business costs do not exist for freelancers",
+                  "ru": "У фрилансеров не бывает бизнес-расходов",
+                  "kk": "Фрилансерлерде бизнес шығындары болмайды"
                 },
                 "is_correct": false
               },
@@ -1192,7 +2139,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Client payments are the same as net salary"
+                  "en": "Client payments are the same as net salary",
+                  "ru": "Клиентские платежи равны чистой зарплате",
+                  "kk": "Клиент төлемдері таза жалақымен бірдей"
                 },
                 "is_correct": false
               }
@@ -1203,14 +2152,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why should freelance pricing include unpaid work?"
+              "en": "Why should freelance pricing include unpaid work?",
+              "ru": "Почему фриланс-цена должна учитывать неоплачиваемую работу?",
+              "kk": "Неліктен фриланс бағасы ақы төленбейтін жұмысты қамтуы керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Client search, admin, revisions, tools, and downtime are real business costs"
+                  "en": "Client search, admin, revisions, tools, and downtime are real business costs",
+                  "ru": "Поиск клиентов, администрирование, правки, инструменты и простой — реальные бизнес-расходы",
+                  "kk": "Клиент іздеу, әкімшілік жұмыс, түзетулер, құралдар және бос уақыт — нақты бизнес шығындары"
                 },
                 "is_correct": true
               },
@@ -1218,7 +2171,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Only visible delivery time matters"
+                  "en": "Only visible delivery time matters",
+                  "ru": "Важна только видимая работа по выполнению заказа",
+                  "kk": "Тек көрінетін орындау уақыты маңызды"
                 },
                 "is_correct": false
               },
@@ -1226,7 +2181,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Freelancers never need marketing or equipment"
+                  "en": "Freelancers never need marketing or equipment",
+                  "ru": "Фрилансерам никогда не нужны маркетинг или оборудование",
+                  "kk": "Фрилансерлерге ешқашан маркетинг немесе жабдық қажет емес"
                 },
                 "is_correct": false
               },
@@ -1234,7 +2191,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Unpaid work is paid by the client automatically"
+                  "en": "Unpaid work is paid by the client automatically",
+                  "ru": "Неоплачиваемая работа автоматически оплачивается клиентом",
+                  "kk": "Ақы төленбейтін жұмыс клиент тарапынан автоматты төленеді"
                 },
                 "is_correct": false
               }
@@ -1245,14 +2204,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which system best fits irregular self-employed income?"
+              "en": "Which system best fits irregular self-employed income?",
+              "ru": "Какая система лучше всего подходит для нерегулярного дохода самозанятого?",
+              "kk": "Өзін-өзі жұмыспен қамтыған тұрақсыз табысқа қай жүйе ең жақсы сәйкес келеді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Separate business money, reserve tax, build a slow-month buffer, and pay yourself steadily"
+                  "en": "Separate business money, reserve tax, build a slow-month buffer, and pay yourself steadily",
+                  "ru": "Разделять бизнес-деньги, резервировать налоги, создавать буфер на тихие месяцы и платить себе стабильно",
+                  "kk": "Бизнес ақшаны бөлу, салық резервтеу, баяу айларға буфер құру және өзіңізге тұрақты төлеу"
                 },
                 "is_correct": true
               },
@@ -1260,7 +2223,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Spend each payment immediately because another client may appear"
+                  "en": "Spend each payment immediately because another client may appear",
+                  "ru": "Сразу тратить каждый платёж, потому что может появиться другой клиент",
+                  "kk": "Әр төлемді бірден жұмсау, өйткені тағы клиент пайда болуы мүмкін"
                 },
                 "is_correct": false
               },
@@ -1268,7 +2233,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Mix all business and personal spending in one account"
+                  "en": "Mix all business and personal spending in one account",
+                  "ru": "Смешивать все бизнес- и личные расходы на одном счёте",
+                  "kk": "Барлық бизнес және жеке шығындарды бір шотта араластыру"
                 },
                 "is_correct": false
               },
@@ -1276,7 +2243,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Ignore required contributions until the end of the year"
+                  "en": "Ignore required contributions until the end of the year",
+                  "ru": "Игнорировать обязательные взносы до конца года",
+                  "kk": "Міндетті жарналарды жыл соңына дейін елемеу"
                 },
                 "is_correct": false
               }
@@ -1288,10 +2257,14 @@
     {
       "code": "lifestyle_inflation_and_ratchet",
       "title": {
-        "en": "Lifestyle Inflation & the Savings Ratchet"
+        "en": "Lifestyle Inflation & the Savings Ratchet",
+        "ru": "Инфляция образа жизни и «трещотка» сбережений",
+        "kk": "Өмір салты инфляциясы және жинақ «сатылы ережесі»"
       },
       "description": {
-        "en": "Income growth improves wealth only when some of each raise is captured before lifestyle spending expands."
+        "en": "Income growth improves wealth only when some of each raise is captured before lifestyle spending expands.",
+        "ru": "Рост дохода улучшает богатство только если часть каждого повышения сохраняется до расширения расходов на образ жизни.",
+        "kk": "Табыс өсімі әр өсімнің бір бөлігі өмір салты шығындары кеңеймей тұрып сақталғанда ғана байлықты арттырады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1303,13 +2276,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Raises can disappear quietly"
+              "en": "Raises can disappear quietly",
+              "ru": "Повышения могут тихо исчезать",
+              "kk": "Жалақы өсімдері байқалмай жоғалуы мүмкін"
             },
             "body": {
-              "en": "Lifestyle inflation happens when spending rises automatically with income. It feels natural because each upgrade seems affordable. But if every raise becomes a new expense, higher income does not create more freedom."
+              "en": "Lifestyle inflation happens when spending rises automatically with income. It feels natural because each upgrade seems affordable. But if every raise becomes a new expense, higher income does not create more freedom.",
+              "ru": "Инфляция образа жизни возникает, когда расходы автоматически растут вместе с доходом. Это кажется естественным, потому что каждое улучшение выглядит доступным. Но если каждое повышение превращается в новый расход, более высокий доход не создаёт больше свободы.",
+              "kk": "Өмір салты инфляциясы шығындар табыспен бірге автоматты өскенде пайда болады. Әр жақсарту қолжетімді көрінетіндіктен, бұл табиғи сезіледі. Бірақ әр өсім жаңа шығынға айналса, жоғары табыс көбірек еркіндік бермейді."
             },
             "tip": {
-              "en": "More income only builds wealth if some of it is captured."
+              "en": "More income only builds wealth if some of it is captured.",
+              "ru": "Более высокий доход создаёт богатство только если часть его сохраняется.",
+              "kk": "Көбірек табыс оның бір бөлігі ұсталып қалғанда ғана байлық құрады."
             }
           },
           {
@@ -1317,13 +2296,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "The savings ratchet captures raises"
+              "en": "The savings ratchet captures raises",
+              "ru": "«Трещотка» сбережений удерживает повышения",
+              "kk": "Жинақ «сатылы ережесі» өсімдерді ұстап қалады"
             },
             "body": {
-              "en": "A savings ratchet is a rule: when income rises, savings rises first. You can still improve your lifestyle, but only after part of the raise goes to future goals. This turns income growth into automatic progress instead of automatic spending."
+              "en": "A savings ratchet is a rule: when income rises, savings rises first. You can still improve your lifestyle, but only after part of the raise goes to future goals. This turns income growth into automatic progress instead of automatic spending.",
+              "ru": "«Трещотка» сбережений — это правило: когда доход растёт, сначала растут сбережения. Вы всё ещё можете улучшать образ жизни, но только после того, как часть повышения уйдёт на будущие цели. Это превращает рост дохода в автоматический прогресс, а не в автоматические траты.",
+              "kk": "Жинақтың «сатылы ережесі» — табыс өскенде алдымен жинақ өседі деген қағида. Өмір салтын жақсарта аласыз, бірақ өсімнің бір бөлігі болашақ мақсаттарға кеткеннен кейін ғана. Бұл табыс өсімін автоматты шығынға емес, автоматты ілгерілеуге айналдырады."
             },
             "example": {
-              "en": "If monthly income rises by ₸100,000, a 50% ratchet saves ₸50,000 and leaves ₸50,000 for lifestyle upgrades."
+              "en": "If monthly income rises by ₸100,000, a 50% ratchet saves ₸50,000 and leaves ₸50,000 for lifestyle upgrades.",
+              "ru": "Если месячный доход вырос на ₸100 000, правило 50% откладывает ₸50 000 и оставляет ₸50 000 на улучшение образа жизни.",
+              "kk": "Айлық табыс ₸100 000-ға өссе, 50% ереже ₸50 000 жинайды және ₸50 000 өмір салтын жақсартуға қалдырады."
             }
           },
           {
@@ -1331,13 +2316,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Fixed costs are the danger zone"
+              "en": "Fixed costs are the danger zone",
+              "ru": "Постоянные расходы — зона опасности",
+              "kk": "Тұрақты шығындар — қауіпті аймақ"
             },
             "body": {
-              "en": "Lifestyle inflation is most dangerous when it becomes fixed: bigger rent, car payments, subscriptions, and debt. Fixed costs reduce flexibility because they remain even if income falls. The safest upgrades are reversible or paid from surplus after savings."
+              "en": "Lifestyle inflation is most dangerous when it becomes fixed: bigger rent, car payments, subscriptions, and debt. Fixed costs reduce flexibility because they remain even if income falls. The safest upgrades are reversible or paid from surplus after savings.",
+              "ru": "Инфляция образа жизни опаснее всего, когда становится фиксированной: более высокая аренда, автоплатежи, подписки и долги. Постоянные расходы уменьшают гибкость, потому что остаются даже при падении дохода. Самые безопасные улучшения — обратимые или оплаченные из излишка после сбережений.",
+              "kk": "Өмір салты инфляциясы тұрақты шығынға айналғанда ең қауіпті: үлкен жалдау ақысы, автотөлемдер, жазылымдар және қарыз. Тұрақты шығындар табыс азайса да қалатындықтан икемділікті төмендетеді. Ең қауіпсіз жақсартулар — қайтарылатын немесе жинақтан кейінгі артық ақшадан төленетіндері."
             },
             "tip": {
-              "en": "A raise used for fixed commitments can reduce freedom instead of increasing it."
+              "en": "A raise used for fixed commitments can reduce freedom instead of increasing it.",
+              "ru": "Повышение, потраченное на фиксированные обязательства, может уменьшить свободу вместо её увеличения.",
+              "kk": "Тұрақты міндеттемелерге жұмсалған өсім еркіндікті арттырудың орнына азайтуы мүмкін."
             }
           },
           {
@@ -1345,7 +2336,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Two people get the same raise"
+              "en": "Two people get the same raise",
+              "ru": "Два человека получают одинаковое повышение",
+              "kk": "Екі адам бірдей өсім алады"
             },
             "content": {
               "en": {
@@ -1388,6 +2381,88 @@
                     "text": "The raise is the same. The rule for capturing it creates the difference."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два работника получают повышение на ₸120 000 в месяц. Их путь к богатству зависит от того, что происходит до того, как расходы подстроятся."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Работник",
+                        "Новые расходы",
+                        "Новые сбережения",
+                        "Результат"
+                      ],
+                      [
+                        "A",
+                        "₸120 000",
+                        "₸0",
+                        "Образ жизни растёт, свобода не меняется"
+                      ],
+                      [
+                        "B",
+                        "₸60 000",
+                        "₸60 000",
+                        "Образ жизни улучшается, цели ускоряются"
+                      ],
+                      [
+                        "B через 12 месяцев",
+                        "₸720 000 потрачено",
+                        "₸720 000 сохранено",
+                        "Повышение создаёт и комфорт, и прогресс"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Повышение одинаковое. Разницу создаёт правило его распределения."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі жұмысшы айына ₸120 000 өсім алады. Олардың байлық жолы шығындар бейімделмей тұрып не болатынына байланысты өзгереді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Жұмысшы",
+                        "Жаңа шығын",
+                        "Жаңа жинақ",
+                        "Нәтиже"
+                      ],
+                      [
+                        "A",
+                        "₸120 000",
+                        "₸0",
+                        "Өмір салты өседі, еркіндік өзгермейді"
+                      ],
+                      [
+                        "B",
+                        "₸60 000",
+                        "₸60 000",
+                        "Өмір салты жақсарып, мақсаттар жылдамдайды"
+                      ],
+                      [
+                        "B 12 айдан кейін",
+                        "₸720 000 жұмсалды",
+                        "₸720 000 жиналды",
+                        "Өсім жайлылық та, ілгерілеу де береді"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Өсім бірдей. Айырмашылықты оны ұстау ережесі жасайды."
+                  }
+                ]
               }
             }
           },
@@ -1396,10 +2471,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Apply the savings ratchet"
+              "en": "Apply the savings ratchet",
+              "ru": "Примените «трещотку» сбережений",
+              "kk": "Жинақ «сатылы ережесін» қолданыңыз"
             },
             "body": {
-              "en": "Split a ₸120,000 raise between lifestyle and savings. The total must equal ₸120,000."
+              "en": "Split a ₸120,000 raise between lifestyle and savings. The total must equal ₸120,000.",
+              "ru": "Разделите повышение ₸120 000 между образом жизни и сбережениями. Общая сумма должна быть ₸120 000.",
+              "kk": "₸120 000 өсімді өмір салты мен жинақ арасында бөліңіз. Жалпы сома ₸120 000 болуы керек."
             },
             "interactiveType": "input_numbers",
             "interactiveContent": {
@@ -1423,6 +2502,48 @@
                   "savings": "60000"
                 },
                 "explanation": "The exact split can vary, but the ratchet principle is that savings rises before the whole raise becomes spending."
+              },
+              "ru": {
+                "instruction": "Распределите повышение ₸120 000 между улучшением образа жизни и увеличением сбережений. Общая сумма должна быть ₸120 000.",
+                "fields": [
+                  {
+                    "id": "lifestyle",
+                    "label": "Улучшение образа жизни"
+                  },
+                  {
+                    "id": "savings",
+                    "label": "Увеличенные сбережения или инвестиции"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 120000
+                },
+                "exampleAnswer": {
+                  "lifestyle": "60000",
+                  "savings": "60000"
+                },
+                "explanation": "Точное разделение может быть разным, но принцип «трещотки» в том, что сбережения растут до того, как всё повышение превращается в расходы."
+              },
+              "kk": {
+                "instruction": "₸120 000 өсімді өмір салтын жақсарту мен жинақты арттыру арасында бөліңіз. Жалпы сома ₸120 000 болуы керек.",
+                "fields": [
+                  {
+                    "id": "lifestyle",
+                    "label": "Өмір салтын жақсарту"
+                  },
+                  {
+                    "id": "savings",
+                    "label": "Арттырылған жинақ немесе инвестиция"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 120000
+                },
+                "exampleAnswer": {
+                  "lifestyle": "60000",
+                  "savings": "60000"
+                },
+                "explanation": "Нақты бөлу әртүрлі болуы мүмкін, бірақ «сатылы ереже» қағидасы — өсімнің бәрі шығынға айналмай тұрып жинақ өседі."
               }
             }
           },
@@ -1431,13 +2552,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Let income growth create freedom"
+              "en": "Let income growth create freedom",
+              "ru": "Пусть рост дохода создаёт свободу",
+              "kk": "Табыс өсімі еркіндік жасасын"
             },
             "body": {
-              "en": "Lifestyle inflation is not about never enjoying money. It is about preventing every raise from becoming permanent spending. A savings ratchet lets your lifestyle improve while your financial resilience improves too."
+              "en": "Lifestyle inflation is not about never enjoying money. It is about preventing every raise from becoming permanent spending. A savings ratchet lets your lifestyle improve while your financial resilience improves too.",
+              "ru": "Инфляция образа жизни — не про запрет радоваться деньгам. Она про то, чтобы каждое повышение не превращалось в постоянные расходы. «Трещотка» сбережений позволяет улучшать образ жизни и одновременно повышать финансовую устойчивость.",
+              "kk": "Өмір салты инфляциясы ақшадан ешқашан ләззат алмау туралы емес. Ол әр өсімнің тұрақты шығынға айналмауын көздейді. Жинақ «сатылы ережесі» өмір салтын жақсартумен қатар қаржылық төзімділікті де арттыруға мүмкіндік береді."
             },
             "tip": {
-              "en": "Upgrade life slowly enough that your future self also gets a raise."
+              "en": "Upgrade life slowly enough that your future self also gets a raise.",
+              "ru": "Улучшайте жизнь достаточно медленно, чтобы ваше будущее «я» тоже получило повышение.",
+              "kk": "Өмірді болашақ өзіңіз де өсім алатындай баяу жақсартыңыз."
             }
           }
         ]
@@ -1446,7 +2573,9 @@
         "quiz_id": 2605,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Lifestyle Inflation & Savings Ratchet — Check"
+          "en": "Lifestyle Inflation & Savings Ratchet — Check",
+          "ru": "Инфляция образа жизни и «трещотка» сбережений — проверка",
+          "kk": "Өмір салты инфляциясы және жинақ «сатылы ережесі» — тексеру"
         },
         "questions": [
           {
@@ -1454,14 +2583,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A person gets a raise and immediately commits all of it to higher rent and subscriptions. What is the risk?"
+              "en": "A person gets a raise and immediately commits all of it to higher rent and subscriptions. What is the risk?",
+              "ru": "Человек получает повышение и сразу направляет всё на более высокую аренду и подписки. В чём риск?",
+              "kk": "Адам жалақы өсімін алып, оны бірден жоғары жалдау ақысы мен жазылымдарға міндеттейді. Тәуекел қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Their fixed costs rise, but savings and flexibility may not improve"
+                  "en": "Their fixed costs rise, but savings and flexibility may not improve",
+                  "ru": "Постоянные расходы растут, но сбережения и гибкость могут не улучшиться",
+                  "kk": "Тұрақты шығындар өседі, бірақ жинақ пен икемділік жақсармауы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1469,7 +2602,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Higher income always guarantees wealth"
+                  "en": "Higher income always guarantees wealth",
+                  "ru": "Более высокий доход всегда гарантирует богатство",
+                  "kk": "Жоғары табыс әрқашан байлыққа кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -1477,7 +2612,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Subscriptions cannot affect cash flow"
+                  "en": "Subscriptions cannot affect cash flow",
+                  "ru": "Подписки не могут влиять на денежный поток",
+                  "kk": "Жазылымдар ақша ағынына әсер етпейді"
                 },
                 "is_correct": false
               },
@@ -1485,7 +2622,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Fixed costs disappear if income falls"
+                  "en": "Fixed costs disappear if income falls",
+                  "ru": "Постоянные расходы исчезают, если доход падает",
+                  "kk": "Табыс төмендесе, тұрақты шығындар жоғалады"
                 },
                 "is_correct": false
               }
@@ -1496,14 +2635,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What is the purpose of a savings ratchet?"
+              "en": "What is the purpose of a savings ratchet?",
+              "ru": "Какова цель «трещотки» сбережений?",
+              "kk": "Жинақ «сатылы ережесінің» мақсаты қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "To increase saving automatically when income rises before lifestyle absorbs the full raise"
+                  "en": "To increase saving automatically when income rises before lifestyle absorbs the full raise",
+                  "ru": "Автоматически увеличивать сбережения при росте дохода до того, как образ жизни поглотит всё повышение",
+                  "kk": "Өмір салты толық өсімді сіңірмей тұрып, табыс өскенде жинақты автоматты арттыру"
                 },
                 "is_correct": true
               },
@@ -1511,7 +2654,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "To prevent any lifestyle improvement forever"
+                  "en": "To prevent any lifestyle improvement forever",
+                  "ru": "Навсегда запретить любое улучшение образа жизни",
+                  "kk": "Өмір салтын кез келген жақсартуды мәңгі тоқтату"
                 },
                 "is_correct": false
               },
@@ -1519,7 +2664,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "To spend raises faster"
+                  "en": "To spend raises faster",
+                  "ru": "Тратить повышения быстрее",
+                  "kk": "Өсімдерді тезірек жұмсау"
                 },
                 "is_correct": false
               },
@@ -1527,7 +2674,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "To replace budgeting completely"
+                  "en": "To replace budgeting completely",
+                  "ru": "Полностью заменить бюджетирование",
+                  "kk": "Бюджеттеуді толық алмастыру"
                 },
                 "is_correct": false
               }
@@ -1538,14 +2687,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why are reversible upgrades safer than fixed commitments?"
+              "en": "Why are reversible upgrades safer than fixed commitments?",
+              "ru": "Почему обратимые улучшения безопаснее фиксированных обязательств?",
+              "kk": "Неліктен қайтарылатын жақсартулар тұрақты міндеттемелерден қауіпсізірек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They can be reduced more easily if income falls or goals change"
+                  "en": "They can be reduced more easily if income falls or goals change",
+                  "ru": "Их легче сократить, если доход упадёт или цели изменятся",
+                  "kk": "Табыс азайса немесе мақсаттар өзгерсе, оларды оңайырақ қысқартуға болады"
                 },
                 "is_correct": true
               },
@@ -1553,7 +2706,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They always earn investment returns"
+                  "en": "They always earn investment returns",
+                  "ru": "Они всегда приносят инвестиционную доходность",
+                  "kk": "Олар әрқашан инвестициялық кіріс әкеледі"
                 },
                 "is_correct": false
               },
@@ -1561,7 +2716,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They never cost money"
+                  "en": "They never cost money",
+                  "ru": "Они никогда не стоят денег",
+                  "kk": "Олардың ешқашан құны болмайды"
                 },
                 "is_correct": false
               },
@@ -1569,7 +2726,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "They eliminate inflation"
+                  "en": "They eliminate inflation",
+                  "ru": "Они устраняют инфляцию",
+                  "kk": "Олар инфляцияны жояды"
                 },
                 "is_correct": false
               }
@@ -1583,7 +2742,9 @@
     "quiz_id": 2699,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Career & Income Growth — Final Check"
+      "en": "Career & Income Growth — Final Check",
+      "ru": "Карьера и рост дохода — итоговая проверка",
+      "kk": "Мансап және табысты өсіру — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1591,14 +2752,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "Why is career capital more useful than simply working more hours?"
+          "en": "Why is career capital more useful than simply working more hours?",
+          "ru": "Почему карьерный капитал полезнее, чем просто работать больше часов?",
+          "kk": "Неліктен мансаптық капитал жай ғана көбірек сағат жұмыс істеуден пайдалырақ?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "It increases the value and proof of what you can offer, which can raise future earning power"
+              "en": "It increases the value and proof of what you can offer, which can raise future earning power",
+              "ru": "Он повышает ценность и доказательность того, что вы можете предложить, что может увеличить будущую способность зарабатывать",
+              "kk": "Ол ұсына алатын нәрсеңіздің құндылығы мен дәлелін арттырады, бұл болашақ табыс табу қабілетін өсіреді"
             },
             "is_correct": true
           },
@@ -1606,7 +2771,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "It guarantees income without skills"
+              "en": "It guarantees income without skills",
+              "ru": "Он гарантирует доход без навыков",
+              "kk": "Ол дағдысыз табысқа кепілдік береді"
             },
             "is_correct": false
           },
@@ -1614,7 +2781,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "It replaces the need to deliver results"
+              "en": "It replaces the need to deliver results",
+              "ru": "Она заменяет необходимость приносить результаты",
+              "kk": "Ол нәтиже жеткізу қажеттілігін алмастырады"
             },
             "is_correct": false
           },
@@ -1622,7 +2791,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "It matters only after retirement"
+              "en": "It matters only after retirement",
+              "ru": "Он важен только после выхода на пенсию",
+              "kk": "Ол тек зейнетке шыққаннан кейін маңызды"
             },
             "is_correct": false
           }
@@ -1633,14 +2804,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "What makes a salary negotiation stronger?"
+          "en": "What makes a salary negotiation stronger?",
+          "ru": "Что делает переговоры о зарплате сильнее?",
+          "kk": "Жалақы келіссөзін не күшейтеді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Market data, measurable results, expanded scope, and a clear compensation request"
+              "en": "Market data, measurable results, expanded scope, and a clear compensation request",
+              "ru": "Рыночные данные, измеримые результаты, расширенный объём роли и ясный запрос по компенсации",
+              "kk": "Нарық деректері, өлшенетін нәтижелер, кеңейген рөл ауқымы және нақты өтемақы сұрауы"
             },
             "is_correct": true
           },
@@ -1648,7 +2823,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Only saying that life is expensive"
+              "en": "Only saying that life is expensive",
+              "ru": "Только говорить, что жизнь дорогая",
+              "kk": "Тек өмір қымбат деп айту"
             },
             "is_correct": false
           },
@@ -1656,7 +2833,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Avoiding all numbers"
+              "en": "Avoiding all numbers",
+              "ru": "Избегать любых цифр",
+              "kk": "Барлық сандардан қашу"
             },
             "is_correct": false
           },
@@ -1664,7 +2843,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Assuming the employer knows your value automatically"
+              "en": "Assuming the employer knows your value automatically",
+              "ru": "Предполагать, что работодатель автоматически знает вашу ценность",
+              "kk": "Жұмыс беруші құныңызды автоматты біледі деп ойлау"
             },
             "is_correct": false
           }
@@ -1675,14 +2856,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "A side project pays money but harms sleep and main-job performance. What should be considered?"
+          "en": "A side project pays money but harms sleep and main-job performance. What should be considered?",
+          "ru": "Подработка приносит деньги, но вредит сну и эффективности на основной работе. Что нужно учитывать?",
+          "kk": "Қосымша жоба ақша әкеледі, бірақ ұйқы мен негізгі жұмыстағы нәтижеге зиян келтіреді. Нені ескеру керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The opportunity cost: it may reduce higher-value career growth or stability"
+              "en": "The opportunity cost: it may reduce higher-value career growth or stability",
+              "ru": "Альтернативную стоимость: это может снизить более ценный карьерный рост или стабильность",
+              "kk": "Балама құнды: ол жоғары құнды мансаптық өсімді немесе тұрақтылықты азайтуы мүмкін"
             },
             "is_correct": true
           },
@@ -1690,7 +2875,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Only the extra cash received"
+              "en": "Only the extra cash received",
+              "ru": "Только полученные дополнительные деньги",
+              "kk": "Тек алынған қосымша ақша"
             },
             "is_correct": false
           },
@@ -1698,7 +2885,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Whether it sounds impressive online"
+              "en": "Whether it sounds impressive online",
+              "ru": "Насколько это впечатляюще звучит в интернете",
+              "kk": "Оның онлайн әсерлі естілуі"
             },
             "is_correct": false
           },
@@ -1706,7 +2895,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Ignoring health because income increased"
+              "en": "Ignoring health because income increased",
+              "ru": "Игнорировать здоровье, потому что доход вырос",
+              "kk": "Табыс өскені үшін денсаулықты елемеу"
             },
             "is_correct": false
           }
@@ -1717,14 +2908,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "Why should self-employed people separate business revenue from personal income?"
+          "en": "Why should self-employed people separate business revenue from personal income?",
+          "ru": "Почему самозанятым нужно отделять бизнес-выручку от личного дохода?",
+          "kk": "Неліктен өзін-өзі жұмыспен қамтығандар бизнес кірісін жеке табыстан бөлуі керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Revenue must cover taxes, business costs, buffers, and unpaid time before personal pay"
+              "en": "Revenue must cover taxes, business costs, buffers, and unpaid time before personal pay",
+              "ru": "Выручка должна покрыть налоги, бизнес-расходы, буферы и неоплаченное время до личной выплаты",
+              "kk": "Кіріс жеке төлемге дейін салықтарды, бизнес шығындарын, буферлерді және ақы төленбейтін уақытты жабуы керек"
             },
             "is_correct": true
           },
@@ -1732,7 +2927,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "All client payments are pure personal salary"
+              "en": "All client payments are pure personal salary",
+              "ru": "Все клиентские платежи — чистая личная зарплата",
+              "kk": "Барлық клиент төлемдері таза жеке жалақы"
             },
             "is_correct": false
           },
@@ -1740,7 +2937,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Business expenses never happen"
+              "en": "Business expenses never happen",
+              "ru": "Бизнес-расходов никогда не бывает",
+              "kk": "Бизнес шығындары ешқашан болмайды"
             },
             "is_correct": false
           },
@@ -1748,7 +2947,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Separate accounts reduce income automatically"
+              "en": "Separate accounts reduce income automatically",
+              "ru": "Раздельные счета автоматически уменьшают доход",
+              "kk": "Бөлек шоттар табысты автоматты азайтады"
             },
             "is_correct": false
           }
@@ -1759,14 +2960,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "What does a savings ratchet do after a raise?"
+          "en": "What does a savings ratchet do after a raise?",
+          "ru": "Что делает «трещотка» сбережений после повышения?",
+          "kk": "Жалақы өскеннен кейін жинақ «сатылы ережесі» не істейді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "It captures part of the raise for savings or investing before spending expands fully"
+              "en": "It captures part of the raise for savings or investing before spending expands fully",
+              "ru": "Она удерживает часть повышения для сбережений или инвестиций до того, как расходы полностью расширятся",
+              "kk": "Ол шығындар толық кеңеймей тұрып өсімнің бір бөлігін жинаққа немесе инвестицияға ұстап қалады"
             },
             "is_correct": true
           },
@@ -1774,7 +2979,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "It forces all raises to be spent immediately"
+              "en": "It forces all raises to be spent immediately",
+              "ru": "Она заставляет тратить все повышения немедленно",
+              "kk": "Ол барлық өсімдерді бірден жұмсауға мәжбүрлейді"
             },
             "is_correct": false
           },
@@ -1782,7 +2989,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "It makes lifestyle upgrades illegal"
+              "en": "It makes lifestyle upgrades illegal",
+              "ru": "Она делает улучшения образа жизни незаконными",
+              "kk": "Ол өмір салтын жақсартуды заңсыз етеді"
             },
             "is_correct": false
           },
@@ -1790,7 +2999,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "It removes the need for income growth"
+              "en": "It removes the need for income growth",
+              "ru": "Она устраняет необходимость роста дохода",
+              "kk": "Ол табыс өсіру қажеттілігін жояды"
             },
             "is_correct": false
           }

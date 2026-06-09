@@ -3,11 +3,16 @@
   "topic": {
     "code": "etfs_mutual_funds",
     "orderIndex": 18,
+    "icon_path": "assets/topics/018.png",
     "title": {
-      "en": "ETFs & Mutual Funds"
+      "en": "ETFs & Mutual Funds",
+      "ru": "ETF и взаимные фонды",
+      "kk": "ETF және өзара қорлар"
     },
     "description": {
-      "en": "How funds pool many investors' money, why low-cost passive index investing usually beats active management, and how to evaluate a fund."
+      "en": "How funds pool many investors' money, why low-cost passive index investing usually beats active management, and how to evaluate a fund.",
+      "ru": "Как фонды объединяют деньги многих инвесторов, почему недорогое пассивное индексное инвестирование обычно обгоняет активное управление, и как оценивать фонд.",
+      "kk": "Қорлар көптеген инвестордың ақшасын қалай біріктіреді, неге төмен шығынды пассивті индекстік инвестициялау көбіне белсенді басқарудан озады және қорды қалай бағалау керек."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "fund_structure",
       "title": {
-        "en": "Fund Structure"
+        "en": "Fund Structure",
+        "ru": "Структура фонда",
+        "kk": "Қор құрылымы"
       },
       "description": {
-        "en": "Funds pool investor money to buy a portfolio of assets, giving access and diversification through one vehicle."
+        "en": "Funds pool investor money to buy a portfolio of assets, giving access and diversification through one vehicle.",
+        "ru": "Фонды объединяют деньги инвесторов, чтобы купить портфель активов, давая доступ и диверсификацию через один инструмент.",
+        "kk": "Қорлар активтер портфелін сатып алу үшін инвесторлардың ақшасын біріктіреді, бір құрал арқылы қолжетімділік пен әртараптандыру береді."
       },
       "estimatedMinutes": 5,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A fund is a container"
+              "en": "A fund is a container",
+              "ru": "Фонд — это контейнер",
+              "kk": "Қор — контейнер"
             },
             "body": {
-              "en": "An ETF or mutual fund is not a single investment idea by itself. It is a container that holds many assets such as stocks, bonds, or cash. The fund's value depends on what sits inside the container and how it is managed."
+              "en": "An ETF or mutual fund is not a single investment idea by itself. It is a container that holds many assets such as stocks, bonds, or cash. The fund's value depends on what sits inside the container and how it is managed.",
+              "ru": "ETF или взаимный фонд сам по себе не является одной инвестиционной идеей. Это контейнер, в котором находятся разные активы: акции, облигации или деньги. Стоимость фонда зависит от того, что внутри контейнера и как этим управляют.",
+              "kk": "ETF немесе өзара қор өз алдына бір ғана инвестициялық идея емес. Бұл ішінде акциялар, облигациялар немесе қолма-қол ақша сияқты активтер болатын контейнер. Қордың құны оның ішінде не бар екеніне және қалай басқарылатынына байланысты."
             },
             "tip": {
-              "en": "Never judge a fund by its name alone; look through to the holdings."
+              "en": "Never judge a fund by its name alone; look through to the holdings.",
+              "ru": "Никогда не оценивай фонд только по названию; смотри на его активы внутри.",
+              "kk": "Қорды тек атауына қарап бағалама; оның ішіндегі активтеріне қара."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Pooling changes access"
+              "en": "Pooling changes access",
+              "ru": "Объединение денег меняет доступ",
+              "kk": "Ақшаны біріктіру қолжетімділікті өзгертеді"
             },
             "body": {
-              "en": "A fund combines money from many investors and uses it to buy a portfolio. This lets one person access hundreds or thousands of securities with a smaller amount of capital. The investor owns units or shares of the fund, not each asset directly."
+              "en": "A fund combines money from many investors and uses it to buy a portfolio. This lets one person access hundreds or thousands of securities with a smaller amount of capital. The investor owns units or shares of the fund, not each asset directly.",
+              "ru": "Фонд объединяет деньги многих инвесторов и покупает на них портфель. Благодаря этому один человек с меньшим капиталом получает доступ к сотням или тысячам ценных бумаг. Инвестор владеет паями или акциями фонда, а не каждым активом напрямую.",
+              "kk": "Қор көптеген инвестордың ақшасын біріктіріп, оған портфель сатып алады. Осылайша бір адам аз капиталмен жүздеген немесе мыңдаған бағалы қағаздарға қол жеткізе алады. Инвестор әр активке тікелей емес, қордың пайына немесе акциясына ие болады."
             },
             "example": {
-              "en": "With ₸100,000, buying 500 individual stocks is unrealistic. Buying one broad fund can provide exposure to many companies at once."
+              "en": "With ₸100,000, buying 500 individual stocks is unrealistic. Buying one broad fund can provide exposure to many companies at once.",
+              "ru": "С ₸100 000 купить 500 отдельных акций нереалистично. Покупка одного широкого фонда может дать доступ сразу ко многим компаниям.",
+              "kk": "₸100 000-ға 500 жеке акция сатып алу шынайы емес. Бір кең қорды сатып алу бірден көптеген компанияларға экспозиция береді."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "ETF and mutual fund mechanics differ"
+              "en": "ETF and mutual fund mechanics differ",
+              "ru": "Механика ETF и взаимных фондов отличается",
+              "kk": "ETF пен өзара қорлардың механикасы әртүрлі"
             },
             "body": {
-              "en": "ETFs usually trade on an exchange during the market day, like stocks. Mutual funds are usually bought or sold at a daily value after the market closes. This affects trading flexibility, but the deeper question is still what the fund owns and costs."
+              "en": "ETFs usually trade on an exchange during the market day, like stocks. Mutual funds are usually bought or sold at a daily value after the market closes. This affects trading flexibility, but the deeper question is still what the fund owns and costs.",
+              "ru": "ETF обычно торгуются на бирже в течение торгового дня, как акции. Взаимные фонды обычно покупаются или продаются по дневной стоимости после закрытия рынка. Это влияет на гибкость торговли, но главный вопрос всё равно в том, чем фонд владеет и сколько он стоит.",
+              "kk": "ETF әдетте акциялар сияқты нарық күні ішінде биржада саудаланады. Өзара қорлар көбіне нарық жабылғаннан кейін күндік құн бойынша сатып алынады немесе сатылады. Бұл сауда икемділігіне әсер етеді, бірақ негізгі сұрақ бәрібір қордың нені ұстайтыны және құны қанша екені."
             },
             "tip": {
-              "en": "Trading format matters less than holdings, cost, and strategy for long-term investors."
+              "en": "Trading format matters less than holdings, cost, and strategy for long-term investors.",
+              "ru": "Для долгосрочных инвесторов формат торговли менее важен, чем активы, стоимость и стратегия.",
+              "kk": "Ұзақ мерзімді инвестор үшін сауда форматы активтерден, шығыннан және стратегиядан маңызды емес."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "One fund, many underlying assets"
+              "en": "One fund, many underlying assets",
+              "ru": "Один фонд, много базовых активов",
+              "kk": "Бір қор, көп базалық актив"
             },
             "content": {
               "en": {
@@ -117,6 +146,90 @@
                     "text": "The fund simplifies access, but the real investment is still the basket of assets inside."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор покупает глобальный ETF акций на ₸200 000. В счёте это выглядит как одна строка, но экономическая экспозиция распределена между многими компаниями."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Уровень",
+                        "Что видит инвестор",
+                        "Что это означает"
+                      ],
+                      [
+                        "Строка в счёте",
+                        "Глобальный ETF акций",
+                        "Одна торгуемая акция фонда"
+                      ],
+                      [
+                        "Портфель фонда",
+                        "1 500+ акций",
+                        "Диверсифицированная экспозиция на компании"
+                      ],
+                      [
+                        "Право инвестора",
+                        "Паи фонда",
+                        "Доля в чистых активах фонда"
+                      ],
+                      [
+                        "Главный фактор",
+                        "Стоимость базовых акций",
+                        "Цена фонда следует за портфелем"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Фонд упрощает доступ, но реальная инвестиция — это всё равно корзина активов внутри."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор ₸200 000-ға жаһандық акция ETF-ін сатып алады. Шотта бұл бір жол болып көрінеді, бірақ экономикалық экспозиция көптеген компанияларға таралған."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қабат",
+                        "Инвестор не көреді",
+                        "Бұл нені білдіреді"
+                      ],
+                      [
+                        "Шоттағы жол",
+                        "Жаһандық акция ETF-і",
+                        "Саудаланатын бір қор акциясы"
+                      ],
+                      [
+                        "Қор портфелі",
+                        "1 500+ акция",
+                        "Компанияларға әртараптандырылған экспозиция"
+                      ],
+                      [
+                        "Инвестор талабы",
+                        "Қор пайлары",
+                        "Қордың таза активтеріндегі үлес"
+                      ],
+                      [
+                        "Негізгі фактор",
+                        "Базалық акциялардың құны",
+                        "Қор бағасы портфельге ілеседі"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Қор қолжетімділікті жеңілдетеді, бірақ нақты инвестиция бәрібір ішіндегі активтер себеті."
+                  }
+                ]
               }
             }
           },
@@ -125,10 +238,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Look through the fund"
+              "en": "Look through the fund",
+              "ru": "Смотри сквозь фонд",
+              "kk": "Қордың ішіне қара"
             },
             "body": {
-              "en": "Classify each statement by whether it describes the fund wrapper, the underlying holdings, or investor access."
+              "en": "Classify each statement by whether it describes the fund wrapper, the underlying holdings, or investor access.",
+              "ru": "Классифицируй каждое утверждение: оно описывает оболочку фонда, базовые активы или доступ инвестора.",
+              "kk": "Әр тұжырымды жікте: ол қор қабығын, базалық активтерді немесе инвестордың қолжетімділігін сипаттай ма."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -185,6 +302,114 @@
                   }
                 ],
                 "explanation": "A fund has a wrapper, a portfolio inside it, and an access benefit for investors. Good analysis separates all three."
+              },
+              "ru": {
+                "instruction": "Перетащи каждое утверждение в наиболее подходящую категорию.",
+                "categories": [
+                  {
+                    "id": "wrapper",
+                    "label": "Оболочка фонда"
+                  },
+                  {
+                    "id": "holdings",
+                    "label": "Базовые активы"
+                  },
+                  {
+                    "id": "access",
+                    "label": "Доступ инвестора"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "etf_trades",
+                    "text": "ETF торгуется на бирже в течение дня"
+                  },
+                  {
+                    "id": "basket",
+                    "text": "Фонд владеет сотнями акций или облигаций"
+                  },
+                  {
+                    "id": "small_amount",
+                    "text": "Небольшой инвестор может получить широкую экспозицию одной покупкой"
+                  },
+                  {
+                    "id": "fund_units",
+                    "text": "Инвестор владеет паями или акциями фонда"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "etf_trades",
+                    "categoryId": "wrapper"
+                  },
+                  {
+                    "itemId": "basket",
+                    "categoryId": "holdings"
+                  },
+                  {
+                    "itemId": "small_amount",
+                    "categoryId": "access"
+                  },
+                  {
+                    "itemId": "fund_units",
+                    "categoryId": "wrapper"
+                  }
+                ],
+                "explanation": "У фонда есть оболочка, портфель внутри и преимущество доступа для инвесторов. Хороший анализ разделяет все три элемента."
+              },
+              "kk": {
+                "instruction": "Әр тұжырымды ең сәйкес санатқа апар.",
+                "categories": [
+                  {
+                    "id": "wrapper",
+                    "label": "Қор қабығы"
+                  },
+                  {
+                    "id": "holdings",
+                    "label": "Базалық активтер"
+                  },
+                  {
+                    "id": "access",
+                    "label": "Инвестор қолжетімділігі"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "etf_trades",
+                    "text": "ETF күн ішінде биржада саудаланады"
+                  },
+                  {
+                    "id": "basket",
+                    "text": "Қор жүздеген акцияға немесе облигацияға ие"
+                  },
+                  {
+                    "id": "small_amount",
+                    "text": "Шағын инвестор бір сатып алумен кең экспозиция ала алады"
+                  },
+                  {
+                    "id": "fund_units",
+                    "text": "Инвестор қордың пайларына немесе акцияларына ие"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "etf_trades",
+                    "categoryId": "wrapper"
+                  },
+                  {
+                    "itemId": "basket",
+                    "categoryId": "holdings"
+                  },
+                  {
+                    "itemId": "small_amount",
+                    "categoryId": "access"
+                  },
+                  {
+                    "itemId": "fund_units",
+                    "categoryId": "wrapper"
+                  }
+                ],
+                "explanation": "Қордың қабығы, ішіндегі портфелі және инвесторға қолжетімділік артықшылығы бар. Жақсы талдау осы үшеуін бөлек қарайды."
               }
             }
           },
@@ -193,13 +418,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "The container is not the strategy"
+              "en": "The container is not the strategy",
+              "ru": "Контейнер — не стратегия",
+              "kk": "Контейнер стратегия емес"
             },
             "body": {
-              "en": "ETFs and mutual funds are ways to hold portfolios, not automatic guarantees of quality. A fund can be broad or narrow, cheap or expensive, simple or risky. Start by identifying the holdings, the strategy, the cost, and how the fund is traded."
+              "en": "ETFs and mutual funds are ways to hold portfolios, not automatic guarantees of quality. A fund can be broad or narrow, cheap or expensive, simple or risky. Start by identifying the holdings, the strategy, the cost, and how the fund is traded.",
+              "ru": "ETF и взаимные фонды — это способы держать портфели, а не автоматическая гарантия качества. Фонд может быть широким или узким, дешёвым или дорогим, простым или рискованным. Начинай с активов, стратегии, стоимости и способа торговли фондом.",
+              "kk": "ETF пен өзара қорлар — портфель ұстау тәсілдері, сапаның автоматты кепілі емес. Қор кең не тар, арзан не қымбат, қарапайым не тәуекелі жоғары болуы мүмкін. Алдымен активтерін, стратегиясын, шығынын және қалай саудаланатынын анықта."
             },
             "tip": {
-              "en": "Ask what the fund owns before asking whether it is an ETF or mutual fund."
+              "en": "Ask what the fund owns before asking whether it is an ETF or mutual fund.",
+              "ru": "Сначала спроси, чем фонд владеет, а уже потом — ETF это или взаимный фонд.",
+              "kk": "Алдымен қор нені ұстайтынын сұра, содан кейін ғана оның ETF пе әлде өзара қор ма екенін қара."
             }
           }
         ]
@@ -208,7 +439,9 @@
         "quiz_id": 1801,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Fund Structure — Check"
+          "en": "Fund Structure — Check",
+          "ru": "Структура фонда — проверка",
+          "kk": "Қор құрылымы — тексеру"
         },
         "questions": [
           {
@@ -216,14 +449,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A friend says they bought “an ETF,” so their investment must be diversified. What is the best response?"
+              "en": "A friend says they bought “an ETF,” so their investment must be diversified. What is the best response?",
+              "ru": "Друг говорит, что купил «ETF», значит его инвестиция обязательно диверсифицирована. Какой ответ лучший?",
+              "kk": "Досың «ETF сатып алдым, демек инвестициям міндетті түрде әртараптандырылған» дейді. Ең жақсы жауап қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "An ETF is a wrapper; diversification depends on what the ETF holds"
+                  "en": "An ETF is a wrapper; diversification depends on what the ETF holds",
+                  "ru": "ETF — это оболочка; диверсификация зависит от того, что ETF держит внутри",
+                  "kk": "ETF — қабық; әртараптандыру ETF ішінде не ұстайтынына байланысты"
                 },
                 "is_correct": true
               },
@@ -231,7 +468,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Every ETF must hold thousands of stocks"
+                  "en": "Every ETF must hold thousands of stocks",
+                  "ru": "Каждый ETF обязан держать тысячи акций",
+                  "kk": "Әр ETF міндетті түрде мыңдаған акция ұстауы керек"
                 },
                 "is_correct": false
               },
@@ -239,7 +478,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "ETFs cannot lose money because they are funds"
+                  "en": "ETFs cannot lose money because they are funds",
+                  "ru": "ETF не могут терять деньги, потому что это фонды",
+                  "kk": "ETF қор болғандықтан ақша жоғалтпайды"
                 },
                 "is_correct": false
               },
@@ -247,7 +488,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The exchange guarantees diversification"
+                  "en": "The exchange guarantees diversification",
+                  "ru": "Биржа гарантирует диверсификацию",
+                  "kk": "Биржа әртараптандыруға кепілдік береді"
                 },
                 "is_correct": false
               }
@@ -258,14 +501,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can a fund help a small investor access broad markets?"
+              "en": "Why can a fund help a small investor access broad markets?",
+              "ru": "Почему фонд помогает небольшому инвестору получить доступ к широким рынкам?",
+              "kk": "Неге қор шағын инвесторға кең нарықтарға қол жеткізуге көмектеседі?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It pools money and lets the investor buy units linked to a larger portfolio"
+                  "en": "It pools money and lets the investor buy units linked to a larger portfolio",
+                  "ru": "Он объединяет деньги и позволяет инвестору покупать паи, связанные с более крупным портфелем",
+                  "kk": "Ол ақшаны біріктіріп, инвесторға үлкен портфельге байланысты пайларды сатып алуға мүмкіндік береді"
                 },
                 "is_correct": true
               },
@@ -273,7 +520,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It gives direct ownership of every company certificate"
+                  "en": "It gives direct ownership of every company certificate",
+                  "ru": "Он даёт прямое владение сертификатом каждой компании",
+                  "kk": "Ол әр компания сертификатына тікелей иелік береді"
                 },
                 "is_correct": false
               },
@@ -281,7 +530,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It removes all market risk by being pooled"
+                  "en": "It removes all market risk by being pooled",
+                  "ru": "Объединение полностью убирает рыночный риск",
+                  "kk": "Біріктіру барлық нарық тәуекелін жояды"
                 },
                 "is_correct": false
               },
@@ -289,7 +540,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It pays the same return regardless of holdings"
+                  "en": "It pays the same return regardless of holdings",
+                  "ru": "Он платит одинаковую доходность независимо от активов",
+                  "kk": "Ол активтерге қарамастан бірдей табыс төлейді"
                 },
                 "is_correct": false
               }
@@ -300,14 +553,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which question best looks through the fund structure?"
+              "en": "Which question best looks through the fund structure?",
+              "ru": "Какой вопрос лучше всего помогает посмотреть сквозь структуру фонда?",
+              "kk": "Қор құрылымының ішіне қарауға қай сұрақ жақсы көмектеседі?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "What assets does the fund actually own, and in what weights?"
+                  "en": "What assets does the fund actually own, and in what weights?",
+                  "ru": "Какими активами фонд фактически владеет и в каких долях?",
+                  "kk": "Қор нақты қандай активтерге ие және қандай салмақпен?"
                 },
                 "is_correct": true
               },
@@ -315,7 +572,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Is the fund name short?"
+                  "en": "Is the fund name short?",
+                  "ru": "Название фонда короткое?",
+                  "kk": "Қор атауы қысқа ма?"
                 },
                 "is_correct": false
               },
@@ -323,7 +582,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Does the app display the fund in a bright color?"
+                  "en": "Does the app display the fund in a bright color?",
+                  "ru": "Приложение показывает фонд ярким цветом?",
+                  "kk": "Қосымша қорды ашық түспен көрсете ме?"
                 },
                 "is_correct": false
               },
@@ -331,7 +592,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Did the fund price move today?"
+                  "en": "Did the fund price move today?",
+                  "ru": "Цена фонда сегодня изменилась?",
+                  "kk": "Қор бағасы бүгін өзгерді ме?"
                 },
                 "is_correct": false
               }
@@ -343,10 +606,14 @@
     {
       "code": "active_vs_passive",
       "title": {
-        "en": "Active vs Passive"
+        "en": "Active vs Passive",
+        "ru": "Активное и пассивное",
+        "kk": "Белсенді және пассивті"
       },
       "description": {
-        "en": "Active funds try to beat a benchmark; passive funds try to track one, usually with lower cost and less manager judgment."
+        "en": "Active funds try to beat a benchmark; passive funds try to track one, usually with lower cost and less manager judgment.",
+        "ru": "Активные фонды пытаются обогнать бенчмарк; пассивные стараются его отслеживать, обычно с меньшими расходами и меньшей зависимостью от решений управляющего.",
+        "kk": "Белсенді қорлар бенчмарктан озуға тырысады; пассивті қорлар оны қадағалауға ұмтылады, әдетте шығыны төмен әрі менеджер шешіміне тәуелділігі аз."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -358,10 +625,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Two different promises"
+              "en": "Two different promises",
+              "ru": "Два разных обещания",
+              "kk": "Екі түрлі уәде"
             },
             "body": {
-              "en": "An active fund usually promises judgment: the manager chooses securities to beat a benchmark. A passive fund usually promises discipline: it tracks a benchmark as closely as possible. The question is not which sounds smarter, but which promise is more realistic after costs."
+              "en": "An active fund usually promises judgment: the manager chooses securities to beat a benchmark. A passive fund usually promises discipline: it tracks a benchmark as closely as possible. The question is not which sounds smarter, but which promise is more realistic after costs.",
+              "ru": "Активный фонд обычно обещает экспертный выбор: управляющий выбирает бумаги, чтобы обогнать бенчмарк. Пассивный фонд обычно обещает дисциплину: он максимально точно следует за бенчмарком. Вопрос не в том, что звучит умнее, а в том, какое обещание реалистичнее после расходов.",
+              "kk": "Белсенді қор әдетте сараптамалық таңдауды уәде етеді: менеджер бенчмарктан озу үшін қағаздарды таңдайды. Пассивті қор әдетте тәртіпті уәде етеді: ол бенчмаркке барынша жақын жүреді. Сұрақ қайсысы ақылдырақ естіледі де емес, шығыннан кейін қай уәде шынайырақ екенінде."
             }
           },
           {
@@ -369,13 +640,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Active management must overcome costs"
+              "en": "Active management must overcome costs",
+              "ru": "Активное управление должно преодолеть расходы",
+              "kk": "Белсенді басқару шығындарды жеңуі керек"
             },
             "body": {
-              "en": "An active manager can be right, but the fund must outperform enough to cover higher fees, trading costs, and mistakes. Before fees, investors as a group own the market. After fees, higher-cost groups face a harder starting point."
+              "en": "An active manager can be right, but the fund must outperform enough to cover higher fees, trading costs, and mistakes. Before fees, investors as a group own the market. After fees, higher-cost groups face a harder starting point.",
+              "ru": "Активный управляющий может быть прав, но фонд должен обгонять рынок достаточно сильно, чтобы покрыть более высокие комиссии, торговые расходы и ошибки. До комиссий инвесторы как группа владеют рынком. После комиссий у более дорогих групп стартовая позиция хуже.",
+              "kk": "Белсенді менеджер дұрыс болуы мүмкін, бірақ қор жоғары комиссияларды, сауда шығындарын және қателерді жабатындай озып шығуы керек. Комиссияға дейін инвесторлар топ ретінде нарыққа ие. Комиссиядан кейін шығыны жоғары топтардың бастапқы жағдайы қиынырақ."
             },
             "tip": {
-              "en": "Skill must be large enough, persistent enough, and available cheaply enough to matter."
+              "en": "Skill must be large enough, persistent enough, and available cheaply enough to matter.",
+              "ru": "Навык должен быть достаточно сильным, устойчивым и доступным по разумной цене, чтобы иметь значение.",
+              "kk": "Дағды маңызды болуы үшін жеткілікті күшті, тұрақты және арзан қолжетімді болуы керек."
             }
           },
           {
@@ -383,13 +660,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Passive does not mean risk-free"
+              "en": "Passive does not mean risk-free",
+              "ru": "Пассивное не значит безрисковое",
+              "kk": "Пассивті деген тәуекелсіз емес"
             },
             "body": {
-              "en": "A passive fund follows an index, so it accepts the market's winners and losers rather than trying to avoid them. It can fall sharply when the index falls. Passive investing reduces manager-selection risk, not market risk."
+              "en": "A passive fund follows an index, so it accepts the market's winners and losers rather than trying to avoid them. It can fall sharply when the index falls. Passive investing reduces manager-selection risk, not market risk.",
+              "ru": "Пассивный фонд следует за индексом, поэтому принимает как победителей, так и проигравших рынка, а не пытается их избегать. Он может резко падать, когда падает индекс. Пассивное инвестирование снижает риск выбора управляющего, но не рыночный риск.",
+              "kk": "Пассивті қор индекске ілеседі, сондықтан нарықтың жеңімпаздарын да, жеңілгендерін де қабылдайды, олардан қашуға тырыспайды. Индекс құласа, ол да қатты түсуі мүмкін. Пассивті инвестициялау менеджер таңдау тәуекелін азайтады, бірақ нарық тәуекелін емес."
             },
             "example": {
-              "en": "A passive global stock fund can still decline 25% in a bad market because it owns the market instead of avoiding it."
+              "en": "A passive global stock fund can still decline 25% in a bad market because it owns the market instead of avoiding it.",
+              "ru": "Пассивный глобальный фонд акций всё равно может упасть на 25% в плохом рынке, потому что он владеет рынком, а не избегает его.",
+              "kk": "Пассивті жаһандық акция қоры нашар нарықта 25% төмендеуі мүмкін, өйткені ол нарықты ұстайды, одан қашпайды."
             }
           },
           {
@@ -397,7 +680,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "The cost hurdle"
+              "en": "The cost hurdle",
+              "ru": "Барьер расходов",
+              "kk": "Шығын кедергісі"
             },
             "content": {
               "en": {
@@ -440,6 +725,88 @@
                     "text": "Even when the active manager does slightly better before fees, the investor can still receive less after fees."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два фонда инвестируют в один и тот же рынок. Активный фонд пытается обогнать индекс, но берёт больше комиссии."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Фонд",
+                        "Валовая доходность до комиссий",
+                        "Годовая комиссия",
+                        "Чистая доходность для инвестора"
+                      ],
+                      [
+                        "Пассивный индексный фонд",
+                        "10.0%",
+                        "0.2%",
+                        "9.8%"
+                      ],
+                      [
+                        "Активный фонд",
+                        "10.6%",
+                        "1.5%",
+                        "9.1%"
+                      ],
+                      [
+                        "Активному фонду нужно",
+                        "Выше 11,7%",
+                        "1.5%",
+                        "Выше 10,2% чистыми"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Даже если активный управляющий немного лучше до комиссий, инвестор всё равно может получить меньше после комиссий."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі қор бір нарыққа инвестициялайды. Белсенді қор индекстен озуға тырысады, бірақ комиссиясы жоғары."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қор",
+                        "Комиссияға дейінгі жалпы табыс",
+                        "Жылдық комиссия",
+                        "Инвесторға таза табыс"
+                      ],
+                      [
+                        "Пассивті индекстік қор",
+                        "10.0%",
+                        "0.2%",
+                        "9.8%"
+                      ],
+                      [
+                        "Белсенді қор",
+                        "10.6%",
+                        "1.5%",
+                        "9.1%"
+                      ],
+                      [
+                        "Белсенді қорға керек",
+                        "11,7%-дан жоғары",
+                        "1.5%",
+                        "таза 10,2%-дан жоғары"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Белсенді менеджер комиссияға дейін сәл жақсы нәтиже көрсетсе де, инвестор комиссиядан кейін аз алуы мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -448,10 +815,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Identify the strategy"
+              "en": "Identify the strategy",
+              "ru": "Определи стратегию",
+              "kk": "Стратегияны анықта"
             },
             "body": {
-              "en": "Label each fund description as active, passive, or a misconception."
+              "en": "Label each fund description as active, passive, or a misconception.",
+              "ru": "Отметь каждое описание фонда как активное, пассивное или заблуждение.",
+              "kk": "Әр қор сипаттамасын белсенді, пассивті немесе қате түсінік деп белгіле."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -479,6 +850,56 @@
                     "explanation": "Passive funds can fall when their underlying market falls."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выбери лучший ярлык для каждого описания фонда.",
+                "options": [
+                  "Активный",
+                  "Пассивный",
+                  "Заблуждение"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Управляющий выбирает акции, которые, по его мнению, обгонят бенчмарк.",
+                    "correct_answer": "Активный",
+                    "explanation": "Фонд полагается на решения управляющего, чтобы обогнать ориентир."
+                  },
+                  {
+                    "text": "Фонд стремится держать бумаги индекса и повторять его результат до небольших расходов.",
+                    "correct_answer": "Пассивный",
+                    "explanation": "Цель — отслеживание, а не выбор бумаг."
+                  },
+                  {
+                    "text": "Пассивный фонд не может потерять деньги, потому что им никто активно не торгует.",
+                    "correct_answer": "Заблуждение",
+                    "explanation": "Пассивные фонды могут падать, когда падает их базовый рынок."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр қор сипаттамасына ең сәйкес белгіні таңда.",
+                "options": [
+                  "Белсенді",
+                  "Пассивті",
+                  "Қате түсінік"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Менеджер бенчмарктан озады деп санайтын акцияларды таңдайды.",
+                    "correct_answer": "Белсенді",
+                    "explanation": "Қор бағдардан озу үшін менеджер шешіміне сүйенеді."
+                  },
+                  {
+                    "text": "Қор индекстегі қағаздарды ұстап, аз шығынға дейін оның нәтижесін қайталауға тырысады.",
+                    "correct_answer": "Пассивті",
+                    "explanation": "Мақсат — қадағалау, қағаз таңдау емес."
+                  },
+                  {
+                    "text": "Пассивті қор ақша жоғалтпайды, өйткені оны ешкім белсенді саудаламайды.",
+                    "correct_answer": "Қате түсінік",
+                    "explanation": "Пассивті қорлар базалық нарығы құлағанда төмендеуі мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -487,13 +908,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Judge the promise after costs"
+              "en": "Judge the promise after costs",
+              "ru": "Оценивай обещание после расходов",
+              "kk": "Уәдені шығыннан кейін бағала"
             },
             "body": {
-              "en": "Active funds ask you to believe manager skill will overcome costs and competition. Passive funds ask you to accept market returns with low implementation cost. Neither is magic; the better choice depends on fees, benchmark, evidence, and your need for simplicity."
+              "en": "Active funds ask you to believe manager skill will overcome costs and competition. Passive funds ask you to accept market returns with low implementation cost. Neither is magic; the better choice depends on fees, benchmark, evidence, and your need for simplicity.",
+              "ru": "Активные фонды предлагают поверить, что навык управляющего перекроет расходы и конкуренцию. Пассивные фонды предлагают принять рыночную доходность с низкой стоимостью реализации. Ни один вариант не магия; лучший выбор зависит от комиссий, бенчмарка, доказательств и твоей потребности в простоте.",
+              "kk": "Белсенді қорлар менеджер шеберлігі шығын мен бәсекені жеңеді деп сенуді сұрайды. Пассивті қорлар нарықтық табысты төмен іске асыру шығынымен қабылдауды ұсынады. Екеуі де сиқыр емес; жақсы таңдау комиссияға, бенчмаркке, дәлелге және қарапайымдық қажеттілігіне байланысты."
             },
             "tip": {
-              "en": "A fund should be judged by net results, not by how intelligent its strategy sounds."
+              "en": "A fund should be judged by net results, not by how intelligent its strategy sounds.",
+              "ru": "Фонд нужно оценивать по чистому результату, а не по тому, насколько умно звучит стратегия.",
+              "kk": "Қорды стратегия қаншалықты ақылды естілетініне емес, таза нәтижесіне қарап бағалау керек."
             }
           }
         ]
@@ -502,7 +929,9 @@
         "quiz_id": 1802,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Active vs Passive — Check"
+          "en": "Active vs Passive — Check",
+          "ru": "Активное и пассивное — проверка",
+          "kk": "Белсенді және пассивті — тексеру"
         },
         "questions": [
           {
@@ -510,14 +939,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "An active fund beats its index by 0.8% before fees but charges 1.4% more than a passive alternative. What should you focus on?"
+              "en": "An active fund beats its index by 0.8% before fees but charges 1.4% more than a passive alternative. What should you focus on?",
+              "ru": "Активный фонд обгоняет индекс на 0,8% до комиссий, но берёт на 1,4% больше, чем пассивная альтернатива. На чём нужно сфокусироваться?",
+              "kk": "Белсенді қор комиссияға дейін индекстен 0,8% озады, бірақ пассивті баламаға қарағанда 1,4% көп алады. Неге назар аудару керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The active advantage may disappear after costs, leaving lower net return"
+                  "en": "The active advantage may disappear after costs, leaving lower net return",
+                  "ru": "Активное преимущество может исчезнуть после расходов, оставив более низкую чистую доходность",
+                  "kk": "Шығыннан кейін белсенді артықшылық жоғалып, таза табыс төмен болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -525,7 +958,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Before-fee return is the only number that matters"
+                  "en": "Before-fee return is the only number that matters",
+                  "ru": "Доходность до комиссий — единственное важное число",
+                  "kk": "Комиссияға дейінгі табыс қана маңызды"
                 },
                 "is_correct": false
               },
@@ -533,7 +968,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Higher fees automatically prove higher skill"
+                  "en": "Higher fees automatically prove higher skill",
+                  "ru": "Более высокие комиссии автоматически доказывают более высокий навык",
+                  "kk": "Жоғары комиссия автоматты түрде жоғары шеберлікті дәлелдейді"
                 },
                 "is_correct": false
               },
@@ -541,7 +978,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Passive funds have no costs at all"
+                  "en": "Passive funds have no costs at all",
+                  "ru": "У пассивных фондов вообще нет расходов",
+                  "kk": "Пассивті қорларда мүлде шығын жоқ"
                 },
                 "is_correct": false
               }
@@ -552,14 +991,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What risk does passive investing mainly reduce?"
+              "en": "What risk does passive investing mainly reduce?",
+              "ru": "Какой риск пассивное инвестирование в основном снижает?",
+              "kk": "Пассивті инвестициялау негізінен қандай тәуекелді азайтады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The risk of choosing an underperforming manager or strategy"
+                  "en": "The risk of choosing an underperforming manager or strategy",
+                  "ru": "Риск выбрать слабого управляющего или стратегию",
+                  "kk": "Нәтижесі төмен менеджерді немесе стратегияны таңдау тәуекелі"
                 },
                 "is_correct": true
               },
@@ -567,7 +1010,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The risk that the market itself falls"
+                  "en": "The risk that the market itself falls",
+                  "ru": "Риск падения самого рынка",
+                  "kk": "Нарықтың өзі төмендеу тәуекелі"
                 },
                 "is_correct": false
               },
@@ -575,7 +1020,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The risk that all assets have volatility"
+                  "en": "The risk that all assets have volatility",
+                  "ru": "Риск того, что все активы волатильны",
+                  "kk": "Барлық активтерде құбылмалылық болу тәуекелі"
                 },
                 "is_correct": false
               },
@@ -583,7 +1030,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The risk of needing a long time horizon"
+                  "en": "The risk of needing a long time horizon",
+                  "ru": "Риск необходимости долгого горизонта",
+                  "kk": "Ұзақ көкжиек қажет болу тәуекелі"
                 },
                 "is_correct": false
               }
@@ -594,14 +1043,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which statement best describes active investing?"
+              "en": "Which statement best describes active investing?",
+              "ru": "Какое утверждение лучше всего описывает активное инвестирование?",
+              "kk": "Қай тұжырым белсенді инвестициялауды жақсы сипаттайды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It tries to beat a benchmark through selection, timing, or weighting decisions"
+                  "en": "It tries to beat a benchmark through selection, timing, or weighting decisions",
+                  "ru": "Оно пытается обогнать бенчмарк через выбор, тайминг или решения по весам",
+                  "kk": "Ол таңдау, уақыттау немесе салмақ беру шешімдері арқылы бенчмарктан озуға тырысады"
                 },
                 "is_correct": true
               },
@@ -609,7 +1062,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It guarantees higher return than passive investing"
+                  "en": "It guarantees higher return than passive investing",
+                  "ru": "Оно гарантирует более высокую доходность, чем пассивное инвестирование",
+                  "kk": "Ол пассивті инвестициялаудан жоғары табысқа кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -617,7 +1072,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It always costs less than index tracking"
+                  "en": "It always costs less than index tracking",
+                  "ru": "Оно всегда дешевле отслеживания индекса",
+                  "kk": "Ол индексті қадағалаудан әрдайым арзан"
                 },
                 "is_correct": false
               },
@@ -625,7 +1082,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It removes the need to compare with a benchmark"
+                  "en": "It removes the need to compare with a benchmark",
+                  "ru": "Оно убирает необходимость сравнивать с бенчмарком",
+                  "kk": "Ол бенчмаркпен салыстыру қажеттілігін жояды"
                 },
                 "is_correct": false
               }
@@ -637,10 +1096,14 @@
     {
       "code": "index_investing",
       "title": {
-        "en": "Index Investing"
+        "en": "Index Investing",
+        "ru": "Индексное инвестирование",
+        "kk": "Индекстік инвестициялау"
       },
       "description": {
-        "en": "Index investing uses rules-based market exposure to capture broad returns without needing to pick winners."
+        "en": "Index investing uses rules-based market exposure to capture broad returns without needing to pick winners.",
+        "ru": "Индексное инвестирование использует рыночную экспозицию по правилам, чтобы получать широкую доходность без необходимости выбирать победителей.",
+        "kk": "Индекстік инвестициялау жеңімпаздарды таңдауды қажет етпей, кең табысты алу үшін ережеге негізделген нарық экспозициясын қолданады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -652,10 +1115,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Indexing changes the question"
+              "en": "Indexing changes the question",
+              "ru": "Индексирование меняет вопрос",
+              "kk": "Индекстеу сұрақты өзгертеді"
             },
             "body": {
-              "en": "Index investing does not ask which single company will win. It asks which market exposure you want to own. The investor accepts broad participation instead of trying to identify the few best securities in advance."
+              "en": "Index investing does not ask which single company will win. It asks which market exposure you want to own. The investor accepts broad participation instead of trying to identify the few best securities in advance.",
+              "ru": "Индексное инвестирование не спрашивает, какая отдельная компания победит. Оно спрашивает, какой рыночной экспозицией ты хочешь владеть. Инвестор принимает широкое участие вместо попытки заранее найти несколько лучших бумаг.",
+              "kk": "Индекстік инвестициялау қай жеке компания жеңеді деп сұрамайды. Ол қандай нарық экспозициясына ие болғың келеді деп сұрайды. Инвестор алдын ала ең үздік бірнеше қағазды табуға тырыспай, кең қатысуды қабылдайды."
             }
           },
           {
@@ -663,13 +1130,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Rules create discipline"
+              "en": "Rules create discipline",
+              "ru": "Правила создают дисциплину",
+              "kk": "Ережелер тәртіп қалыптастырады"
             },
             "body": {
-              "en": "An index follows rules about which securities are included and how they are weighted. A fund that tracks the index follows those rules rather than reacting to headlines. This can reduce emotional decisions and unnecessary trading."
+              "en": "An index follows rules about which securities are included and how they are weighted. A fund that tracks the index follows those rules rather than reacting to headlines. This can reduce emotional decisions and unnecessary trading.",
+              "ru": "Индекс следует правилам: какие бумаги включены и с какими весами. Фонд, отслеживающий индекс, следует этим правилам, а не реагирует на заголовки. Это может снизить эмоциональные решения и лишнюю торговлю.",
+              "kk": "Индекс қандай қағаздар кіретіні және қалай салмақталатыны туралы ережелерге сүйенеді. Индексті қадағалайтын қор жаңалықтарға емес, осы ережелерге ілеседі. Бұл эмоциялық шешімдер мен артық сауданы азайтуы мүмкін."
             },
             "tip": {
-              "en": "The index rulebook is the strategy."
+              "en": "The index rulebook is the strategy.",
+              "ru": "Правила индекса — это стратегия.",
+              "kk": "Индекс ережелері — стратегия."
             }
           },
           {
@@ -677,10 +1150,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Broad exposure captures winners automatically"
+              "en": "Broad exposure captures winners automatically",
+              "ru": "Широкая экспозиция автоматически захватывает победителей",
+              "kk": "Кең экспозиция жеңімпаздарды автоматты түрде қамтиды"
             },
             "body": {
-              "en": "In many markets, a small number of strong performers can drive a large share of long-term returns. A broad index fund owns future winners before they are obvious. The trade-off is that it also owns weak companies until the index rules remove or reduce them."
+              "en": "In many markets, a small number of strong performers can drive a large share of long-term returns. A broad index fund owns future winners before they are obvious. The trade-off is that it also owns weak companies until the index rules remove or reduce them.",
+              "ru": "На многих рынках небольшое число сильных компаний может дать большую часть долгосрочной доходности. Широкий индексный фонд владеет будущими победителями ещё до того, как они очевидны. Компромисс в том, что он также держит слабые компании, пока правила индекса их не уберут или не уменьшат.",
+              "kk": "Көп нарықта аз ғана мықты компаниялар ұзақ мерзімді табыстың үлкен бөлігін әкелуі мүмкін. Кең индекстік қор болашақ жеңімпаздарды олар айқын болмай тұрып ұстайды. Компромисс — индекс ережелері алып тастағанша немесе азайтқанша ол әлсіз компанияларды да ұстайды."
             }
           },
           {
@@ -688,7 +1165,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Why missing winners hurts"
+              "en": "Why missing winners hurts",
+              "ru": "Почему пропуск победителей больно бьёт",
+              "kk": "Жеңімпаздарды жіберіп алу неге ауыр"
             },
             "content": {
               "en": {
@@ -727,6 +1206,80 @@
                     "text": "Indexing accepts average ownership of the market to avoid the hard problem of identifying winners early."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Представь простой рынок из пяти акций. Одна компания становится очень успешной, две показывают нормальный результат, а две падают."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Выбор",
+                        "Чем владеет инвестор",
+                        "Логика результата"
+                      ],
+                      [
+                        "Широкий индекс",
+                        "Все пять акций",
+                        "Захватывает крупного победителя и проигравших"
+                      ],
+                      [
+                        "Вручную выбрал три",
+                        "Пропускает крупного победителя",
+                        "Может сильно отстать, даже избежав части проигравших"
+                      ],
+                      [
+                        "Концентрированная ставка",
+                        "Одна выбранная акция",
+                        "Может сильно выиграть или сильно проиграть"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Индексирование принимает среднее владение рынком, чтобы избежать сложной задачи раннего выявления победителей."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Бес акциядан тұратын қарапайым нарықты елестет. Бір компания өте табысты болады, екеуі жақсы нәтиже көрсетеді, ал екеуі құлайды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Таңдау",
+                        "Инвестор нені ұстайды",
+                        "Нәтиже логикасы"
+                      ],
+                      [
+                        "Кең индекс",
+                        "Бес акцияның бәрі",
+                        "Үлкен жеңімпазды да, жеңілгендерді де қамтиды"
+                      ],
+                      [
+                        "Үшеуін қолмен таңдады",
+                        "Үлкен жеңімпазды жіберіп алады",
+                        "Кейбір жеңілгендерден қашса да, қатты артта қалуы мүмкін"
+                      ],
+                      [
+                        "Шоғырланған болжам",
+                        "Бір таңдалған акция",
+                        "Үлкен ұтуы немесе қатты ұтылуы мүмкін"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Индекстеу жеңімпаздарды ерте анықтаудың қиын мәселесінен қашу үшін нарыққа орташа иелік етуді қабылдайды."
+                  }
+                ]
               }
             }
           },
@@ -735,10 +1288,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Choose the index logic"
+              "en": "Choose the index logic",
+              "ru": "Выбери логику индекса",
+              "kk": "Индекс логикасын таңда"
             },
             "body": {
-              "en": "Match each statement to the index-investing idea it represents."
+              "en": "Match each statement to the index-investing idea it represents.",
+              "ru": "Сопоставь каждое утверждение с идеей индексного инвестирования, которую оно отражает.",
+              "kk": "Әр тұжырымды ол білдіретін индекстік инвестициялау идеясымен сәйкестендір."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -795,6 +1352,114 @@
                   }
                 ],
                 "explanation": "Index investing is disciplined market exposure. It avoids stock-picking, but it still owns the market's risks."
+              },
+              "ru": {
+                "instruction": "Перетащи каждое утверждение к наиболее подходящей концепции.",
+                "categories": [
+                  {
+                    "id": "rules",
+                    "label": "Стратегия на основе правил"
+                  },
+                  {
+                    "id": "broad_exposure",
+                    "label": "Широкая экспозиция"
+                  },
+                  {
+                    "id": "tradeoff",
+                    "label": "Компромисс"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "criteria",
+                    "text": "Фонд включает компании по критериям индекса"
+                  },
+                  {
+                    "id": "many_stocks",
+                    "text": "Инвестор владеет многими бумагами вместо одной ставки"
+                  },
+                  {
+                    "id": "owns_losers",
+                    "text": "Фонд также держит слабые компании внутри индекса"
+                  },
+                  {
+                    "id": "less_headline",
+                    "text": "Стратегия не меняется из-за каждой новости"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "criteria",
+                    "categoryId": "rules"
+                  },
+                  {
+                    "itemId": "many_stocks",
+                    "categoryId": "broad_exposure"
+                  },
+                  {
+                    "itemId": "owns_losers",
+                    "categoryId": "tradeoff"
+                  },
+                  {
+                    "itemId": "less_headline",
+                    "categoryId": "rules"
+                  }
+                ],
+                "explanation": "Индексное инвестирование — это дисциплинированная рыночная экспозиция. Оно избегает выбора отдельных акций, но всё равно несёт рыночные риски."
+              },
+              "kk": {
+                "instruction": "Әр тұжырымды ең сәйкес ұғымға апар.",
+                "categories": [
+                  {
+                    "id": "rules",
+                    "label": "Ережеге негізделген стратегия"
+                  },
+                  {
+                    "id": "broad_exposure",
+                    "label": "Кең экспозиция"
+                  },
+                  {
+                    "id": "tradeoff",
+                    "label": "Компромисс"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "criteria",
+                    "text": "Қор компанияларды индекс критерийлері бойынша қосады"
+                  },
+                  {
+                    "id": "many_stocks",
+                    "text": "Инвестор бір болжамның орнына көптеген қағазға ие"
+                  },
+                  {
+                    "id": "owns_losers",
+                    "text": "Қор индекс ішіндегі әлсіз компанияларды да ұстайды"
+                  },
+                  {
+                    "id": "less_headline",
+                    "text": "Стратегия әр жаңалыққа бола өзгермейді"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "criteria",
+                    "categoryId": "rules"
+                  },
+                  {
+                    "itemId": "many_stocks",
+                    "categoryId": "broad_exposure"
+                  },
+                  {
+                    "itemId": "owns_losers",
+                    "categoryId": "tradeoff"
+                  },
+                  {
+                    "itemId": "less_headline",
+                    "categoryId": "rules"
+                  }
+                ],
+                "explanation": "Индекстік инвестициялау — тәртіпті нарық экспозициясы. Ол жеке акция таңдаудан қашады, бірақ нарық тәуекелдерін бәрібір ұстайды."
               }
             }
           },
@@ -803,13 +1468,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Indexing is humble by design"
+              "en": "Indexing is humble by design",
+              "ru": "Индексирование изначально скромно",
+              "kk": "Индекстеу табиғатынан қарапайым"
             },
             "body": {
-              "en": "Index investing works from a humble assumption: consistently picking winners is hard. Instead of trying to outsmart the market, the investor chooses broad exposure, low cost, and patience. The main decision becomes which index matches the goal."
+              "en": "Index investing works from a humble assumption: consistently picking winners is hard. Instead of trying to outsmart the market, the investor chooses broad exposure, low cost, and patience. The main decision becomes which index matches the goal.",
+              "ru": "Индексное инвестирование исходит из скромного предположения: стабильно выбирать победителей трудно. Вместо попытки перехитрить рынок инвестор выбирает широкую экспозицию, низкие расходы и терпение. Главным решением становится выбор индекса, подходящего цели.",
+              "kk": "Индекстік инвестициялау қарапайым болжамнан шығады: жеңімпаздарды тұрақты таңдау қиын. Нарықты алдауға тырысудың орнына инвестор кең экспозицияны, төмен шығынды және сабырды таңдайды. Негізгі шешім — мақсатқа сай индексті таңдау."
             },
             "tip": {
-              "en": "Indexing is not doing nothing; it is choosing a rule and sticking to it."
+              "en": "Indexing is not doing nothing; it is choosing a rule and sticking to it.",
+              "ru": "Индексирование — это не бездействие; это выбор правила и следование ему.",
+              "kk": "Индекстеу ештеңе істемеу емес; бұл ережені таңдап, соған берік болу."
             }
           }
         ]
@@ -818,7 +1489,9 @@
         "quiz_id": 1803,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Index Investing — Check"
+          "en": "Index Investing — Check",
+          "ru": "Индексное инвестирование — проверка",
+          "kk": "Индекстік инвестициялау — тексеру"
         },
         "questions": [
           {
@@ -826,14 +1499,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why can a broad index fund benefit from future winning companies even before investors know which they are?"
+              "en": "Why can a broad index fund benefit from future winning companies even before investors know which they are?",
+              "ru": "Почему широкий индексный фонд может выигрывать от будущих компаний-победителей ещё до того, как инвесторы узнают, кто это?",
+              "kk": "Неге кең индекстік қор инвесторлар олардың кім екенін білмей тұрып-ақ болашақ жеңімпаз компаниялардан пайда көре алады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It already owns many companies, including potential future winners"
+                  "en": "It already owns many companies, including potential future winners",
+                  "ru": "Он уже владеет многими компаниями, включая потенциальных будущих победителей",
+                  "kk": "Ол әлеуетті болашақ жеңімпаздарды қоса алғанда, көптеген компанияға ие"
                 },
                 "is_correct": true
               },
@@ -841,7 +1518,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It predicts every winner in advance"
+                  "en": "It predicts every winner in advance",
+                  "ru": "Он заранее предсказывает каждого победителя",
+                  "kk": "Ол әр жеңімпазды алдын ала болжайды"
                 },
                 "is_correct": false
               },
@@ -849,7 +1528,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It excludes all companies that might fall"
+                  "en": "It excludes all companies that might fall",
+                  "ru": "Он исключает все компании, которые могут упасть",
+                  "kk": "Ол құлауы мүмкін барлық компанияларды алып тастайды"
                 },
                 "is_correct": false
               },
@@ -857,7 +1538,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It guarantees every company inside will succeed"
+                  "en": "It guarantees every company inside will succeed",
+                  "ru": "Он гарантирует успех каждой компании внутри",
+                  "kk": "Ол ішіндегі әр компания табысты болады деп кепілдік береді"
                 },
                 "is_correct": false
               }
@@ -868,14 +1551,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What is the main trade-off of broad index investing?"
+              "en": "What is the main trade-off of broad index investing?",
+              "ru": "Какой главный компромисс широкого индексного инвестирования?",
+              "kk": "Кең индекстік инвестициялаудың негізгі компромисі қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "You capture broad market exposure but also hold weak companies in the index"
+                  "en": "You capture broad market exposure but also hold weak companies in the index",
+                  "ru": "Ты получаешь широкую рыночную экспозицию, но также держишь слабые компании индекса",
+                  "kk": "Сен кең нарық экспозициясын аласың, бірақ индекстегі әлсіз компанияларды да ұстайсың"
                 },
                 "is_correct": true
               },
@@ -883,7 +1570,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "You receive guaranteed positive returns every year"
+                  "en": "You receive guaranteed positive returns every year",
+                  "ru": "Ты получаешь гарантированную положительную доходность каждый год",
+                  "kk": "Сен жыл сайын кепілді оң табыс аласың"
                 },
                 "is_correct": false
               },
@@ -891,7 +1580,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "You avoid all market volatility"
+                  "en": "You avoid all market volatility",
+                  "ru": "Ты избегаешь всей рыночной волатильности",
+                  "kk": "Сен барлық нарық құбылмалылығынан қашасың"
                 },
                 "is_correct": false
               },
@@ -899,7 +1590,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "You never need to choose an asset allocation"
+                  "en": "You never need to choose an asset allocation",
+                  "ru": "Тебе никогда не нужно выбирать распределение активов",
+                  "kk": "Саған активтерді бөлу ешқашан қажет емес"
                 },
                 "is_correct": false
               }
@@ -910,14 +1603,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which question is most important when choosing an index fund?"
+              "en": "Which question is most important when choosing an index fund?",
+              "ru": "Какой вопрос самый важный при выборе индексного фонда?",
+              "kk": "Индекстік қор таңдағанда ең маңызды сұрақ қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Which index does it track, and does that exposure match my goal?"
+                  "en": "Which index does it track, and does that exposure match my goal?",
+                  "ru": "Какой индекс он отслеживает, и соответствует ли эта экспозиция моей цели?",
+                  "kk": "Ол қай индексті қадағалайды және бұл экспозиция менің мақсатыма сай ма?"
                 },
                 "is_correct": true
               },
@@ -925,7 +1622,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Does the fund name sound advanced?"
+                  "en": "Does the fund name sound advanced?",
+                  "ru": "Название фонда звучит продвинуто?",
+                  "kk": "Қор атауы озық естіле ме?"
                 },
                 "is_correct": false
               },
@@ -933,7 +1632,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Was the fund's return positive yesterday?"
+                  "en": "Was the fund's return positive yesterday?",
+                  "ru": "Доходность фонда вчера была положительной?",
+                  "kk": "Қордың кеше табысы оң болды ма?"
                 },
                 "is_correct": false
               },
@@ -941,7 +1642,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Does the fund own exactly one company?"
+                  "en": "Does the fund own exactly one company?",
+                  "ru": "Фонд владеет ровно одной компанией?",
+                  "kk": "Қор дәл бір компанияға ие ме?"
                 },
                 "is_correct": false
               }
@@ -953,10 +1656,14 @@
     {
       "code": "fund_evaluation",
       "title": {
-        "en": "Fund Evaluation"
+        "en": "Fund Evaluation",
+        "ru": "Оценка фонда",
+        "kk": "Қорды бағалау"
       },
       "description": {
-        "en": "A fund should be judged by exposure, cost, tracking quality, risk, liquidity, and fit with the investor's goal."
+        "en": "A fund should be judged by exposure, cost, tracking quality, risk, liquidity, and fit with the investor's goal.",
+        "ru": "Фонд нужно оценивать по экспозиции, стоимости, качеству отслеживания, риску, ликвидности и соответствию цели инвестора.",
+        "kk": "Қорды экспозиция, шығын, қадағалау сапасы, тәуекел, өтімділік және инвестор мақсатына сәйкестік бойынша бағалау керек."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -968,10 +1675,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Evaluation starts with fit"
+              "en": "Evaluation starts with fit",
+              "ru": "Оценка начинается с соответствия",
+              "kk": "Бағалау сәйкестіктен басталады"
             },
             "body": {
-              "en": "A fund can be good and still wrong for you. Evaluation begins with the job: growth, income, stability, inflation protection, or diversification. Only after the job is clear do cost, risk, and performance become meaningful."
+              "en": "A fund can be good and still wrong for you. Evaluation begins with the job: growth, income, stability, inflation protection, or diversification. Only after the job is clear do cost, risk, and performance become meaningful.",
+              "ru": "Фонд может быть хорошим, но неподходящим именно тебе. Оценка начинается с задачи: рост, доход, стабильность, защита от инфляции или диверсификация. Только когда задача ясна, расходы, риск и результат становятся осмысленными.",
+              "kk": "Қор жақсы болуы мүмкін, бірақ саған сәйкес келмеуі мүмкін. Бағалау міндеттен басталады: өсу, табыс, тұрақтылық, инфляциядан қорғаныс немесе әртараптандыру. Міндет анық болғанда ғана шығын, тәуекел және нәтиже мағыналы болады."
             }
           },
           {
@@ -979,13 +1690,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Exposure is the first filter"
+              "en": "Exposure is the first filter",
+              "ru": "Экспозиция — первый фильтр",
+              "kk": "Экспозиция — бірінші сүзгі"
             },
             "body": {
-              "en": "Exposure means what the fund actually owns and how concentrated it is. A fund labeled “technology” is very different from a global total-market fund. Before comparing returns, confirm that the fund gives the market exposure you intended."
+              "en": "Exposure means what the fund actually owns and how concentrated it is. A fund labeled “technology” is very different from a global total-market fund. Before comparing returns, confirm that the fund gives the market exposure you intended.",
+              "ru": "Экспозиция означает, чем фонд реально владеет и насколько он концентрирован. Фонд с ярлыком «технологии» сильно отличается от глобального фонда всего рынка. Перед сравнением доходности убедись, что фонд даёт нужную тебе рыночную экспозицию.",
+              "kk": "Экспозиция қор нақты нені ұстайтынын және қаншалықты шоғырланғанын білдіреді. «Технология» деп белгіленген қор жаһандық толық нарық қорынан қатты өзгеше. Табысты салыстырмас бұрын қор сен қалаған нарық экспозициясын беретінін тексер."
             },
             "tip": {
-              "en": "Wrong exposure at a low fee is still wrong exposure."
+              "en": "Wrong exposure at a low fee is still wrong exposure.",
+              "ru": "Неправильная экспозиция с низкой комиссией всё равно остаётся неправильной экспозицией.",
+              "kk": "Төмен комиссиядағы қате экспозиция бәрібір қате экспозиция."
             }
           },
           {
@@ -993,10 +1710,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Costs and tracking matter"
+              "en": "Costs and tracking matter",
+              "ru": "Расходы и отслеживание важны",
+              "kk": "Шығындар мен қадағалау маңызды"
             },
             "body": {
-              "en": "The expense ratio reduces investor return every year. For index funds, tracking difference shows how closely the fund follows its benchmark after costs and implementation. A cheap fund that tracks poorly may not deliver the exposure you expected."
+              "en": "The expense ratio reduces investor return every year. For index funds, tracking difference shows how closely the fund follows its benchmark after costs and implementation. A cheap fund that tracks poorly may not deliver the exposure you expected.",
+              "ru": "Коэффициент расходов каждый год снижает доходность инвестора. Для индексных фондов tracking difference показывает, насколько точно фонд следует за бенчмарком после расходов и реализации. Дешёвый фонд с плохим отслеживанием может не дать ожидаемую экспозицию.",
+              "kk": "Шығын коэффициенті жыл сайын инвестор табысын азайтады. Индекстік қорларда tracking difference қордың шығындар мен іске асырудан кейін бенчмаркке қаншалықты жақын жүргенін көрсетеді. Арзан, бірақ нашар қадағалайтын қор күткен экспозицияны бермеуі мүмкін."
             }
           },
           {
@@ -1004,7 +1725,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Three funds with different jobs"
+              "en": "Three funds with different jobs",
+              "ru": "Разные задачи у трёх фондов",
+              "kk": "Үш қордың әртүрлі міндеті"
             },
             "content": {
               "en": {
@@ -1053,6 +1776,100 @@
                     "text": "The best fund is not simply the one with the highest recent return. It is the one that fits the intended exposure at a reasonable cost."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор хочет долгосрочную глобальную экспозицию на акции. Три фонда сначала выглядят похожими, но детали важны."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Фонд",
+                        "Экспозиция",
+                        "Комиссия",
+                        "Главная проблема"
+                      ],
+                      [
+                        "A",
+                        "Акции развитых мировых рынков",
+                        "0.20%",
+                        "Может упустить развивающиеся рынки"
+                      ],
+                      [
+                        "B",
+                        "Один технологический сектор",
+                        "0.45%",
+                        "Слишком концентрирован для широкой экспозиции"
+                      ],
+                      [
+                        "C",
+                        "Глобальные акции плюс развивающиеся рынки",
+                        "0.25%",
+                        "Ближе подходит, если цель — глобальное покрытие"
+                      ],
+                      [
+                        "D",
+                        "Глобальные акции",
+                        "1.80%",
+                        "Высокая комиссия сильно тянет доходность вниз"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Лучший фонд — не просто тот, у которого самая высокая недавняя доходность. Это фонд, который подходит нужной экспозиции по разумной цене."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор ұзақ мерзімді жаһандық акция экспозициясын қалайды. Үш қор бастапқыда ұқсас көрінеді, бірақ бөлшектер маңызды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қор",
+                        "Экспозиция",
+                        "Комиссия",
+                        "Негізгі мәселе"
+                      ],
+                      [
+                        "A",
+                        "Дамыған жаһандық нарық акциялары",
+                        "0.20%",
+                        "Дамушы нарықтарды қамтымауы мүмкін"
+                      ],
+                      [
+                        "B",
+                        "Бір технология секторы",
+                        "0.45%",
+                        "Кең экспозиция үшін тым шоғырланған"
+                      ],
+                      [
+                        "C",
+                        "Жаһандық акциялар және дамушы нарықтар",
+                        "0.25%",
+                        "Мақсат жаһандық қамту болса, көбірек сәйкес келеді"
+                      ],
+                      [
+                        "D",
+                        "Жаһандық акциялар",
+                        "1.80%",
+                        "Жоғары комиссия табысты қатты төмендетеді"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ең жақсы қор — соңғы табысы ең жоғары болғаны ғана емес. Ол мақсатты экспозицияға ақылға қонымды шығынмен сәйкес келетін қор."
+                  }
+                ]
               }
             }
           },
@@ -1061,10 +1878,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Evaluate the fund signal"
+              "en": "Evaluate the fund signal",
+              "ru": "Оцени сигнал фонда",
+              "kk": "Қор сигналын бағала"
             },
             "body": {
-              "en": "Classify each evaluation point as exposure, cost, tracking, or liquidity."
+              "en": "Classify each evaluation point as exposure, cost, tracking, or liquidity.",
+              "ru": "Классифицируй каждый пункт оценки как экспозицию, стоимость, отслеживание или ликвидность.",
+              "kk": "Әр бағалау тармағын экспозиция, шығын, қадағалау немесе өтімділік деп жікте."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -1125,6 +1946,122 @@
                   }
                 ],
                 "explanation": "Fund evaluation works best as a checklist: exposure first, then cost, tracking, liquidity, and fit."
+              },
+              "ru": {
+                "instruction": "Перетащи каждую деталь фонда в категорию, которую она в основном помогает оценить.",
+                "categories": [
+                  {
+                    "id": "exposure",
+                    "label": "Экспозиция"
+                  },
+                  {
+                    "id": "cost",
+                    "label": "Стоимость"
+                  },
+                  {
+                    "id": "tracking",
+                    "label": "Отслеживание"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Ликвидность"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "holdings",
+                    "text": "Крупнейшие активы и веса секторов"
+                  },
+                  {
+                    "id": "expense_ratio",
+                    "text": "Годовой коэффициент расходов"
+                  },
+                  {
+                    "id": "tracking_diff",
+                    "text": "Разница с доходностью бенчмарка"
+                  },
+                  {
+                    "id": "bid_ask",
+                    "text": "Спред bid-ask и объём торгов"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "holdings",
+                    "categoryId": "exposure"
+                  },
+                  {
+                    "itemId": "expense_ratio",
+                    "categoryId": "cost"
+                  },
+                  {
+                    "itemId": "tracking_diff",
+                    "categoryId": "tracking"
+                  },
+                  {
+                    "itemId": "bid_ask",
+                    "categoryId": "liquidity"
+                  }
+                ],
+                "explanation": "Оценка фонда лучше всего работает как чек-лист: сначала экспозиция, затем стоимость, отслеживание, ликвидность и соответствие."
+              },
+              "kk": {
+                "instruction": "Қордың әр бөлшегін ол негізінен бағалауға көмектесетін санатқа апар.",
+                "categories": [
+                  {
+                    "id": "exposure",
+                    "label": "Экспозиция"
+                  },
+                  {
+                    "id": "cost",
+                    "label": "Шығын"
+                  },
+                  {
+                    "id": "tracking",
+                    "label": "Қадағалау"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Өтімділік"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "holdings",
+                    "text": "Негізгі активтер және сектор салмақтары"
+                  },
+                  {
+                    "id": "expense_ratio",
+                    "text": "Жылдық шығын коэффициенті"
+                  },
+                  {
+                    "id": "tracking_diff",
+                    "text": "Бенчмарк табысынан айырмашылық"
+                  },
+                  {
+                    "id": "bid_ask",
+                    "text": "Bid-ask спреді және сауда көлемі"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "holdings",
+                    "categoryId": "exposure"
+                  },
+                  {
+                    "itemId": "expense_ratio",
+                    "categoryId": "cost"
+                  },
+                  {
+                    "itemId": "tracking_diff",
+                    "categoryId": "tracking"
+                  },
+                  {
+                    "itemId": "bid_ask",
+                    "categoryId": "liquidity"
+                  }
+                ],
+                "explanation": "Қорды бағалау чек-лист сияқты жақсы жұмыс істейді: алдымен экспозиция, кейін шығын, қадағалау, өтімділік және сәйкестік."
               }
             }
           },
@@ -1133,13 +2070,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Do not chase the scoreboard"
+              "en": "Do not chase the scoreboard",
+              "ru": "Не гонись за табло результатов",
+              "kk": "Нәтиже тақтасын қума"
             },
             "body": {
-              "en": "Recent performance is easy to see, but it is a weak starting point. A good evaluation asks what the fund owns, how much it costs, how well it does its job, and whether that job belongs in your plan. Fit beats excitement."
+              "en": "Recent performance is easy to see, but it is a weak starting point. A good evaluation asks what the fund owns, how much it costs, how well it does its job, and whether that job belongs in your plan. Fit beats excitement.",
+              "ru": "Недавний результат легко увидеть, но это слабая отправная точка. Хорошая оценка спрашивает, чем фонд владеет, сколько стоит, насколько хорошо выполняет свою задачу и есть ли эта задача в твоём плане. Соответствие важнее ажиотажа.",
+              "kk": "Соңғы нәтиже оңай көрінеді, бірақ ол әлсіз бастапқы нүкте. Жақсы бағалау қор нені ұстайды, қанша тұрады, өз міндетін қаншалықты жақсы атқарады және бұл міндет жоспарыңа кіре ме деп сұрайды. Сәйкестік қызығудан маңызды."
             },
             "tip": {
-              "en": "A fund is not “best” in general; it is suitable or unsuitable for a specific purpose."
+              "en": "A fund is not “best” in general; it is suitable or unsuitable for a specific purpose.",
+              "ru": "Фонд не бывает «лучшим» вообще; он подходит или не подходит для конкретной цели.",
+              "kk": "Қор жалпы «ең жақсы» болмайды; ол нақты мақсатқа сәйкес немесе сәйкес емес болады."
             }
           }
         ]
@@ -1148,7 +2091,9 @@
         "quiz_id": 1804,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Fund Evaluation — Check"
+          "en": "Fund Evaluation — Check",
+          "ru": "Оценка фонда — проверка",
+          "kk": "Қорды бағалау — тексеру"
         },
         "questions": [
           {
@@ -1156,14 +2101,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "An investor wants broad global stock exposure but chooses a fund because it had the best one-year return. The fund owns only one sector. What is the main problem?"
+              "en": "An investor wants broad global stock exposure but chooses a fund because it had the best one-year return. The fund owns only one sector. What is the main problem?",
+              "ru": "Инвестор хочет широкую глобальную экспозицию на акции, но выбирает фонд из-за лучшей годовой доходности. Фонд владеет только одним сектором. В чём главная проблема?",
+              "kk": "Инвестор кең жаһандық акция экспозициясын қалайды, бірақ бір жылдық табысы ең жақсы болғандықтан қор таңдайды. Қор тек бір секторға ие. Негізгі мәселе неде?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The exposure does not match the investor's goal, even if recent return was high"
+                  "en": "The exposure does not match the investor's goal, even if recent return was high",
+                  "ru": "Экспозиция не соответствует цели инвестора, даже если недавняя доходность была высокой",
+                  "kk": "Экспозиция инвестор мақсатына сәйкес емес, тіпті соңғы табыс жоғары болса да"
                 },
                 "is_correct": true
               },
@@ -1171,7 +2120,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "One-year return always predicts the next year"
+                  "en": "One-year return always predicts the next year",
+                  "ru": "Годовая доходность всегда предсказывает следующий год",
+                  "kk": "Бір жылдық табыс келесі жылды әрқашан болжайды"
                 },
                 "is_correct": false
               },
@@ -1179,7 +2130,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Sector funds are always safer than global funds"
+                  "en": "Sector funds are always safer than global funds",
+                  "ru": "Секторные фонды всегда безопаснее глобальных",
+                  "kk": "Секторлық қорлар әрқашан жаһандық қорлардан қауіпсіз"
                 },
                 "is_correct": false
               },
@@ -1187,7 +2140,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Exposure does not matter if the app shows profit"
+                  "en": "Exposure does not matter if the app shows profit",
+                  "ru": "Если приложение показывает прибыль, экспозиция не важна",
+                  "kk": "Қосымша пайда көрсетсе, экспозиция маңызды емес"
                 },
                 "is_correct": false
               }
@@ -1198,14 +2153,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why does the expense ratio matter for long-term fund investors?"
+              "en": "Why does the expense ratio matter for long-term fund investors?",
+              "ru": "Почему коэффициент расходов важен для долгосрочных инвесторов фонда?",
+              "kk": "Неге шығын коэффициенті ұзақ мерзімді қор инвесторлары үшін маңызды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It reduces investor return every year and compounds as a drag over time"
+                  "en": "It reduces investor return every year and compounds as a drag over time",
+                  "ru": "Он каждый год снижает доходность инвестора и со временем накапливается как тормоз",
+                  "kk": "Ол жыл сайын инвестор табысын азайтады және уақыт өте тежегіш ретінде күрделене береді"
                 },
                 "is_correct": true
               },
@@ -1213,7 +2172,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It is paid only if the fund loses money"
+                  "en": "It is paid only if the fund loses money",
+                  "ru": "Он платится только если фонд теряет деньги",
+                  "kk": "Ол тек қор ақша жоғалтқанда төленеді"
                 },
                 "is_correct": false
               },
@@ -1221,7 +2182,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It increases the fund's benchmark return"
+                  "en": "It increases the fund's benchmark return",
+                  "ru": "Он повышает доходность бенчмарка фонда",
+                  "kk": "Ол қор бенчмаркының табысын арттырады"
                 },
                 "is_correct": false
               },
@@ -1229,7 +2192,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It is refunded automatically at retirement"
+                  "en": "It is refunded automatically at retirement",
+                  "ru": "Он автоматически возвращается при выходе на пенсию",
+                  "kk": "Ол зейнетке шыққанда автоматты түрде қайтарылады"
                 },
                 "is_correct": false
               }
@@ -1240,14 +2205,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "For an index fund, what does tracking difference help evaluate?"
+              "en": "For an index fund, what does tracking difference help evaluate?",
+              "ru": "Для индексного фонда что помогает оценить tracking difference?",
+              "kk": "Индекстік қор үшін tracking difference нені бағалауға көмектеседі?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "How closely the fund delivered the benchmark return after costs and implementation"
+                  "en": "How closely the fund delivered the benchmark return after costs and implementation",
+                  "ru": "Насколько близко фонд дал доходность бенчмарка после расходов и реализации",
+                  "kk": "Қор шығындар мен іске асырудан кейін бенчмарк табысын қаншалықты жақын жеткізгенін"
                 },
                 "is_correct": true
               },
@@ -1255,7 +2224,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Whether the fund manager can predict recessions"
+                  "en": "Whether the fund manager can predict recessions",
+                  "ru": "Может ли управляющий фондом предсказывать рецессии",
+                  "kk": "Қор менеджері рецессияларды болжай ала ма"
                 },
                 "is_correct": false
               },
@@ -1263,7 +2234,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Whether every holding paid a dividend"
+                  "en": "Whether every holding paid a dividend",
+                  "ru": "Заплатила ли каждая позиция дивиденды",
+                  "kk": "Әр актив дивиденд төледі ме"
                 },
                 "is_correct": false
               },
@@ -1271,7 +2244,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Whether the fund name is accurate in every language"
+                  "en": "Whether the fund name is accurate in every language",
+                  "ru": "Точно ли название фонда на каждом языке",
+                  "kk": "Қор атауы әр тілде дәл ме"
                 },
                 "is_correct": false
               }
@@ -1283,10 +2258,14 @@
     {
       "code": "fund_common_mistakes",
       "title": {
-        "en": "Common Mistakes"
+        "en": "Common Mistakes",
+        "ru": "Частые ошибки",
+        "kk": "Жиі қателер"
       },
       "description": {
-        "en": "Fund investors often chase recent winners, ignore fees, overlap holdings, misunderstand risk, and buy funds that do not match their goals."
+        "en": "Fund investors often chase recent winners, ignore fees, overlap holdings, misunderstand risk, and buy funds that do not match their goals.",
+        "ru": "Инвесторы фондов часто гонятся за недавними победителями, игнорируют комиссии, получают пересечение активов, неверно понимают риск и покупают фонды, не подходящие их целям.",
+        "kk": "Қор инвесторлары жиі соңғы жеңімпаздарды қуады, комиссияларды елемейді, активтері қабаттасады, тәуекелді қате түсінеді және мақсаттарына сәйкес келмейтін қорларды сатып алады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1298,10 +2277,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Funds can make mistakes feel diversified"
+              "en": "Funds can make mistakes feel diversified",
+              "ru": "Фонды могут создавать ощущение диверсификации ошибок",
+              "kk": "Қорлар қателерді әртараптандырылғандай сездіруі мүмкін"
             },
             "body": {
-              "en": "A fund can look safer than a single stock, but poor fund choices still create risk. Investors can overpay, chase performance, duplicate exposure, or buy a narrow fund thinking it is broad. The wrapper can hide the mistake."
+              "en": "A fund can look safer than a single stock, but poor fund choices still create risk. Investors can overpay, chase performance, duplicate exposure, or buy a narrow fund thinking it is broad. The wrapper can hide the mistake.",
+              "ru": "Фонд может выглядеть безопаснее одной акции, но плохой выбор фондов всё равно создаёт риск. Инвесторы могут переплатить, гнаться за результатом, дублировать экспозицию или купить узкий фонд, думая, что он широкий. Оболочка может скрывать ошибку.",
+              "kk": "Қор бір акциядан қауіпсіз көрінуі мүмкін, бірақ нашар қор таңдауы бәрібір тәуекел тудырады. Инвесторлар артық төлеп, нәтижені қуып, экспозицияны қайталап немесе тар қорды кең деп ойлап сатып алуы мүмкін. Қабық қатені жасыруы мүмкін."
             }
           },
           {
@@ -1309,13 +2292,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Performance chasing buys yesterday"
+              "en": "Performance chasing buys yesterday",
+              "ru": "Доходность в погоне покупает вчерашний день",
+              "kk": "Нәтижені қуу кеше болғанды сатып алады"
             },
             "body": {
-              "en": "A fund with excellent recent returns may have benefited from a temporary trend. Buying only after strong performance can mean paying after the easy gains already happened. The better question is whether the strategy still fits your future need."
+              "en": "A fund with excellent recent returns may have benefited from a temporary trend. Buying only after strong performance can mean paying after the easy gains already happened. The better question is whether the strategy still fits your future need.",
+              "ru": "Фонд с отличной недавней доходностью мог выиграть от временного тренда. Покупка только после сильного результата может означать оплату после того, как лёгкая прибыль уже случилась. Лучший вопрос — подходит ли стратегия твоей будущей потребности.",
+              "kk": "Соңғы табысы керемет қор уақытша трендтен пайда көрген болуы мүмкін. Күшті нәтижеден кейін ғана сатып алу жеңіл табыс өтіп кеткен соң төлеуді білдіруі мүмкін. Жақсы сұрақ — стратегия болашақ қажеттілігіңе әлі сәйкес келе ме."
             },
             "tip": {
-              "en": "Past return is evidence to examine, not a command to buy."
+              "en": "Past return is evidence to examine, not a command to buy.",
+              "ru": "Прошлая доходность — это факт для изучения, а не команда покупать.",
+              "kk": "Өткен табыс — зерттейтін дәлел, сатып алу бұйрығы емес."
             }
           },
           {
@@ -1323,10 +2312,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Overlap is hidden concentration"
+              "en": "Overlap is hidden concentration",
+              "ru": "Пересечение — скрытая концентрация",
+              "kk": "Қабаттасу — жасырын шоғырлану"
             },
             "body": {
-              "en": "Owning several funds does not guarantee diversification if they hold the same companies or sectors. Three funds can all be dominated by the same large technology stocks. The account may look diversified by product count but concentrated by exposure."
+              "en": "Owning several funds does not guarantee diversification if they hold the same companies or sectors. Three funds can all be dominated by the same large technology stocks. The account may look diversified by product count but concentrated by exposure.",
+              "ru": "Владение несколькими фондами не гарантирует диверсификацию, если они держат одни и те же компании или сектора. В трёх фондах могут доминировать одни и те же крупные технологические акции. Счёт может выглядеть диверсифицированным по числу продуктов, но быть концентрированным по экспозиции.",
+              "kk": "Бірнеше қор ұстау, егер олар бірдей компаниялар немесе секторларды ұстаса, әртараптандыруға кепілдік бермейді. Үш қордың бәрінде бірдей ірі технология акциялары басым болуы мүмкін. Шот өнім саны бойынша әртараптандырылған көрінгенімен, экспозиция бойынша шоғырланған болуы мүмкін."
             }
           },
           {
@@ -1334,7 +2327,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Three funds, one exposure"
+              "en": "Three funds, one exposure",
+              "ru": "Три фонда, одна экспозиция",
+              "kk": "Үш қор, бір экспозиция"
             },
             "content": {
               "en": {
@@ -1378,6 +2373,90 @@
                     "text": "Diversification depends on underlying holdings, not the number of fund names in the account."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор покупает три фонда, чтобы диверсифицировать ₸600 000. Названия разные, но активы пересекаются."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Фонд",
+                        "Метка",
+                        "Скрытая проблема"
+                      ],
+                      [
+                        "Фонд A",
+                        "Глобальный рост",
+                        "Большой вес технологий"
+                      ],
+                      [
+                        "Фонд B",
+                        "Лидеры инноваций",
+                        "Большой вес технологий"
+                      ],
+                      [
+                        "Фонд C",
+                        "Рынок США",
+                        "Большой вес технологий"
+                      ],
+                      [
+                        "Итог портфеля",
+                        "Три продукта",
+                        "Одна доминирующая экспозиция"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Диверсификация зависит от базовых активов, а не от количества названий фондов в счёте."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор ₸600 000-ды әртараптандыру үшін үш қор сатып алады. Атаулары әртүрлі, бірақ активтері қабаттасады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қор",
+                        "Белгі",
+                        "Жасырын мәселе"
+                      ],
+                      [
+                        "Қор A",
+                        "Жаһандық өсу",
+                        "Технологиялардың үлкен салмағы"
+                      ],
+                      [
+                        "Қор B",
+                        "Инновация көшбасшылары",
+                        "Технологиялардың үлкен салмағы"
+                      ],
+                      [
+                        "Қор C",
+                        "АҚШ нарығы",
+                        "Технологиялардың үлкен салмағы"
+                      ],
+                      [
+                        "Портфель нәтижесі",
+                        "Үш өнім",
+                        "Бір басым экспозиция"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Әртараптандыру шоттағы қор атауларының санына емес, базалық активтерге байланысты."
+                  }
+                ]
               }
             }
           },
@@ -1386,10 +2465,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Find the fund mistake"
+              "en": "Find the fund mistake",
+              "ru": "Найди ошибку в фонде",
+              "kk": "Қор қатесін тап"
             },
             "body": {
-              "en": "Each case shows a common fund-investing mistake. Choose the error."
+              "en": "Each case shows a common fund-investing mistake. Choose the error.",
+              "ru": "Каждый кейс показывает частую ошибку инвестирования в фонды. Выбери ошибку.",
+              "kk": "Әр жағдай қор инвестициясындағы жиі қатені көрсетеді. Қатені таңда."
             },
             "interactiveType": "error_detector",
             "interactiveContent": {
@@ -1428,6 +2511,78 @@
                   }
                 ],
                 "final_explanation": "The common fund mistakes share one pattern: judging the surface label instead of exposure, cost, time horizon, and purpose."
+              },
+              "ru": {
+                "instruction": "Выбери главную ошибку в каждом решении по фонду.",
+                "cases": [
+                  {
+                    "text": "«Этот фонд дал 40% в прошлом году, значит это самый безопасный выбор для моих резервных денег».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Недавняя высокая доходность не означает низкий риск или пригодность для резерва",
+                      "c) Резервные деньги всегда должны гнаться за высоким ростом"
+                    ],
+                    "correct": "b",
+                    "explanation": "Резервным деньгам нужны стабильность и доступ, а не недавняя высокая доходность."
+                  },
+                  {
+                    "text": "«Я купил пять фондов, значит точно диверсифицирован».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Количество фондов не доказывает разную базовую экспозицию",
+                      "c) Большее число фондов всегда сводит весь риск к нулю"
+                    ],
+                    "correct": "b",
+                    "explanation": "Фонды могут пересекаться по активам, секторам или регионам."
+                  },
+                  {
+                    "text": "«Годовая комиссия 2% маленькая, поэтому за десятилетия она не важна».",
+                    "options": [
+                      "a) Расходы накапливаются как долгосрочный тормоз",
+                      "b) Ошибки нет",
+                      "c) Комиссии применяются только в убыточные годы"
+                    ],
+                    "correct": "a",
+                    "explanation": "Повторяющаяся комиссия год за годом уменьшает сумму, которая остаётся для сложного роста."
+                  }
+                ],
+                "final_explanation": "У частых ошибок с фондами один общий шаблон: оценивать поверхностный ярлык вместо экспозиции, стоимости, горизонта и цели."
+              },
+              "kk": {
+                "instruction": "Әр қор шешіміндегі негізгі қатені таңда.",
+                "cases": [
+                  {
+                    "text": "«Бұл қор өткен жылы 40% әкелді, демек ол менің төтенше жағдай ақшам үшін ең қауіпсіз таңдау».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Соңғы жоғары табыс төмен тәуекелді немесе төтенше ақшаға жарамдылықты білдірмейді",
+                      "c) Төтенше ақша әрқашан жоғары өсімді қууы керек"
+                    ],
+                    "correct": "b",
+                    "explanation": "Төтенше ақшаға соңғы жоғары табыс емес, тұрақтылық пен қолжетімділік керек."
+                  },
+                  {
+                    "text": "«Мен бес қор сатып алдым, демек міндетті түрде әртараптандырылдым».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Қор саны әртүрлі базалық экспозицияны дәлелдемейді",
+                      "c) Қор көп болса, барлық тәуекел әрқашан нөлге түседі"
+                    ],
+                    "correct": "b",
+                    "explanation": "Қорлар активтер, секторлар немесе өңірлер бойынша қабаттасуы мүмкін."
+                  },
+                  {
+                    "text": "«Жылдық 2% комиссия аз, сондықтан ондаған жылда маңызды емес».",
+                    "options": [
+                      "a) Шығындар ұзақ мерзімді тежегіш ретінде күрделенеді",
+                      "b) Қате жоқ",
+                      "c) Комиссия тек шығынды жылдарға қолданылады"
+                    ],
+                    "correct": "a",
+                    "explanation": "Қайталанатын комиссия жыл сайын күрделі өсуге қалатын соманы азайтады."
+                  }
+                ],
+                "final_explanation": "Қорлардағы жиі қателердің ортақ үлгісі бар: экспозиция, шығын, уақыт көкжиегі және мақсаттың орнына сыртқы атауды бағалау."
               }
             }
           },
@@ -1436,13 +2591,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Use funds deliberately"
+              "en": "Use funds deliberately",
+              "ru": "Используй фонды осознанно",
+              "kk": "Қорларды саналы пайдалан"
             },
             "body": {
-              "en": "Funds are powerful because they simplify access and diversification, but simplicity can make hidden errors easier. Avoid chasing recent winners, ignoring fees, duplicating exposure, and using risky funds for short-term needs. The fund should serve the plan, not replace the plan."
+              "en": "Funds are powerful because they simplify access and diversification, but simplicity can make hidden errors easier. Avoid chasing recent winners, ignoring fees, duplicating exposure, and using risky funds for short-term needs. The fund should serve the plan, not replace the plan.",
+              "ru": "Фонды сильны тем, что упрощают доступ и диверсификацию, но простота может облегчать скрытые ошибки. Избегай погони за недавними победителями, игнорирования комиссий, дублирования экспозиции и использования рискованных фондов для краткосрочных нужд. Фонд должен служить плану, а не заменять его.",
+              "kk": "Қорлар қолжетімділік пен әртараптандыруды жеңілдететіндіктен қуатты, бірақ қарапайымдық жасырын қателерді жеңілдетуі мүмкін. Соңғы жеңімпаздарды қуудан, комиссияларды елемеуден, экспозицияны қайталаудан және қысқа мерзімді қажеттілікке тәуекелі жоғары қорларды қолданудан сақтан. Қор жоспарға қызмет етуі керек, оны алмастырмауы керек."
             },
             "tip": {
-              "en": "More fund names do not automatically mean more diversification."
+              "en": "More fund names do not automatically mean more diversification.",
+              "ru": "Больше названий фондов не означает автоматически больше диверсификации.",
+              "kk": "Қор атауларының көп болуы автоматты түрде көбірек әртараптандыруды білдірмейді."
             }
           }
         ]
@@ -1451,7 +2612,9 @@
         "quiz_id": 1805,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Common Fund Mistakes — Check"
+          "en": "Common Fund Mistakes — Check",
+          "ru": "Частые ошибки с фондами — проверка",
+          "kk": "Қорлардағы жиі қателер — тексеру"
         },
         "questions": [
           {
@@ -1459,14 +2622,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "An investor buys the top-performing fund of last year without checking what it owns. What is the main risk?"
+              "en": "An investor buys the top-performing fund of last year without checking what it owns. What is the main risk?",
+              "ru": "Инвестор покупает лучший фонд прошлого года, не проверив, чем он владеет. Какой главный риск?",
+              "kk": "Инвестор өткен жылдың ең жақсы қорын оның нені ұстайтынын тексермей сатып алады. Негізгі тәуекел қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They may be chasing a past trend that no longer fits their goal or risk tolerance"
+                  "en": "They may be chasing a past trend that no longer fits their goal or risk tolerance",
+                  "ru": "Он может гнаться за прошлым трендом, который уже не подходит его цели или терпимости к риску",
+                  "kk": "Ол мақсатына немесе тәуекел төзімділігіне енді сәйкес келмейтін өткен трендті қууы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1474,7 +2641,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Top-performing funds are always illegal"
+                  "en": "Top-performing funds are always illegal",
+                  "ru": "Лучшие по доходности фонды всегда незаконны",
+                  "kk": "Ең жоғары нәтиже көрсеткен қорлар әрқашан заңсыз"
                 },
                 "is_correct": false
               },
@@ -1482,7 +2651,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Funds with high returns never hold real assets"
+                  "en": "Funds with high returns never hold real assets",
+                  "ru": "Фонды с высокой доходностью никогда не держат реальные активы",
+                  "kk": "Жоғары табысты қорлар ешқашан нақты активтер ұстамайды"
                 },
                 "is_correct": false
               },
@@ -1490,7 +2661,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Checking holdings is unnecessary if returns were high"
+                  "en": "Checking holdings is unnecessary if returns were high",
+                  "ru": "Если доходность была высокой, проверять активы не нужно",
+                  "kk": "Табыс жоғары болса, активтерді тексерудің қажеті жоқ"
                 },
                 "is_correct": false
               }
@@ -1501,14 +2674,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can owning many funds still leave an investor concentrated?"
+              "en": "Why can owning many funds still leave an investor concentrated?",
+              "ru": "Почему владение многими фондами всё равно может оставить инвестора концентрированным?",
+              "kk": "Неге көптеген қор ұстау инвесторды бәрібір шоғырланған күйде қалдыруы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The funds may hold similar companies, sectors, regions, or factors"
+                  "en": "The funds may hold similar companies, sectors, regions, or factors",
+                  "ru": "Фонды могут держать похожие компании, сектора, регионы или факторы",
+                  "kk": "Қорлар ұқсас компанияларды, секторларды, өңірлерді немесе факторларды ұстауы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1516,7 +2693,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "More than one fund always cancels all risk"
+                  "en": "More than one fund always cancels all risk",
+                  "ru": "Больше одного фонда всегда отменяет весь риск",
+                  "kk": "Бірден көп қор барлық тәуекелді әрқашан жояды"
                 },
                 "is_correct": false
               },
@@ -1524,7 +2703,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Different fund names guarantee different holdings"
+                  "en": "Different fund names guarantee different holdings",
+                  "ru": "Разные названия фондов гарантируют разные активы",
+                  "kk": "Қор атаулары әртүрлі болса, активтері де әртүрлі болатынына кепілдік"
                 },
                 "is_correct": false
               },
@@ -1532,7 +2713,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Concentration only applies to single stocks"
+                  "en": "Concentration only applies to single stocks",
+                  "ru": "Концентрация относится только к отдельным акциям",
+                  "kk": "Шоғырлану тек жеке акцияларға қатысты"
                 },
                 "is_correct": false
               }
@@ -1543,14 +2726,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which use of a fund is most likely mismatched?"
+              "en": "Which use of a fund is most likely mismatched?",
+              "ru": "Какое использование фонда, скорее всего, не соответствует цели?",
+              "kk": "Қорды қолданудың қай түрі мақсатқа ең ықтимал сәйкес емес?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Using a volatile equity fund for money needed next month"
+                  "en": "Using a volatile equity fund for money needed next month",
+                  "ru": "Использовать волатильный фонд акций для денег, нужных в следующем месяце",
+                  "kk": "Келесі айда қажет ақшаға құбылмалы акция қорын қолдану"
                 },
                 "is_correct": true
               },
@@ -1558,7 +2745,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Using a broad low-cost equity fund for a long-term goal"
+                  "en": "Using a broad low-cost equity fund for a long-term goal",
+                  "ru": "Использовать широкий недорогой фонд акций для долгосрочной цели",
+                  "kk": "Ұзақ мерзімді мақсат үшін кең төмен шығынды акция қорын қолдану"
                 },
                 "is_correct": false
               },
@@ -1566,7 +2755,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Checking a fund's holdings before buying"
+                  "en": "Checking a fund's holdings before buying",
+                  "ru": "Проверять активы фонда перед покупкой",
+                  "kk": "Сатып алмас бұрын қор активтерін тексеру"
                 },
                 "is_correct": false
               },
@@ -1574,7 +2765,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Comparing fees between similar funds"
+                  "en": "Comparing fees between similar funds",
+                  "ru": "Сравнивать комиссии похожих фондов",
+                  "kk": "Ұқсас қорлардың комиссияларын салыстыру"
                 },
                 "is_correct": false
               }
@@ -1588,7 +2781,9 @@
     "quiz_id": 1899,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "ETFs & Mutual Funds — Final Check"
+      "en": "ETFs & Mutual Funds — Final Check",
+      "ru": "ETF и взаимные фонды — итоговая проверка",
+      "kk": "ETF және өзара қорлар — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1596,14 +2791,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "A person says an ETF is automatically diversified. What should you check first?"
+          "en": "A person says an ETF is automatically diversified. What should you check first?",
+          "ru": "Человек говорит, что ETF автоматически диверсифицирован. Что нужно проверить сначала?",
+          "kk": "Адам ETF автоматты түрде әртараптандырылған дейді. Алдымен нені тексеру керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The underlying holdings and weights inside the ETF"
+              "en": "The underlying holdings and weights inside the ETF",
+              "ru": "Базовые активы и их веса внутри ETF",
+              "kk": "ETF ішіндегі базалық активтер мен олардың салмақтары"
             },
             "is_correct": true
           },
@@ -1611,7 +2810,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Whether the ticker has three letters"
+              "en": "Whether the ticker has three letters",
+              "ru": "Состоит ли тикер из трёх букв",
+              "kk": "Тикер үш әріптен тұра ма"
             },
             "is_correct": false
           },
@@ -1619,7 +2820,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Whether it trades during the day"
+              "en": "Whether it trades during the day",
+              "ru": "Торгуется ли он в течение дня",
+              "kk": "Ол күн ішінде саудалана ма"
             },
             "is_correct": false
           },
@@ -1627,7 +2830,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Whether the app lists it under popular funds"
+              "en": "Whether the app lists it under popular funds",
+              "ru": "Показывает ли приложение его среди популярных фондов",
+              "kk": "Қосымша оны танымал қорлар арасында көрсете ме"
             },
             "is_correct": false
           }
@@ -1638,14 +2843,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "An active fund has higher gross return than its benchmark but lower net return after fees. What does this show?"
+          "en": "An active fund has higher gross return than its benchmark but lower net return after fees. What does this show?",
+          "ru": "У активного фонда валовая доходность выше бенчмарка, но чистая доходность после комиссий ниже. Что это показывает?",
+          "kk": "Белсенді қордың жалпы табысы бенчмарктан жоғары, бірақ комиссиядан кейінгі таза табысы төмен. Бұл нені көрсетеді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Costs can overcome manager skill from the investor's perspective"
+              "en": "Costs can overcome manager skill from the investor's perspective",
+              "ru": "С точки зрения инвестора расходы могут перекрыть навык управляющего",
+              "kk": "Инвестор тұрғысынан шығындар менеджер шеберлігін басып кетуі мүмкін"
             },
             "is_correct": true
           },
@@ -1653,7 +2862,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Gross return is always irrelevant"
+              "en": "Gross return is always irrelevant",
+              "ru": "Валовая доходность всегда не важна",
+              "kk": "Жалпы табыс әрқашан маңызды емес"
             },
             "is_correct": false
           },
@@ -1661,7 +2872,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Passive funds have no market risk"
+              "en": "Passive funds have no market risk",
+              "ru": "У пассивных фондов нет рыночного риска",
+              "kk": "Пассивті қорларда нарық тәуекелі жоқ"
             },
             "is_correct": false
           },
@@ -1669,7 +2882,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Active funds cannot ever outperform before fees"
+              "en": "Active funds cannot ever outperform before fees",
+              "ru": "Активные фонды никогда не могут обгонять до комиссий",
+              "kk": "Белсенді қорлар комиссияға дейін ешқашан оза алмайды"
             },
             "is_correct": false
           }
@@ -1680,14 +2895,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "Why does broad index investing reduce the need to identify future winners?"
+          "en": "Why does broad index investing reduce the need to identify future winners?",
+          "ru": "Почему широкое индексное инвестирование снижает необходимость находить будущих победителей?",
+          "kk": "Неге кең индекстік инвестициялау болашақ жеңімпаздарды анықтау қажеттілігін азайтады?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The investor already owns broad exposure that can include winners before they are obvious"
+              "en": "The investor already owns broad exposure that can include winners before they are obvious",
+              "ru": "Инвестор уже владеет широкой экспозицией, которая может включать победителей до того, как они очевидны",
+              "kk": "Инвестор жеңімпаздар айқын болмай тұрып оларды қамтуы мүмкін кең экспозицияға ие"
             },
             "is_correct": true
           },
@@ -1695,7 +2914,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "The index guarantees every company will succeed"
+              "en": "The index guarantees every company will succeed",
+              "ru": "Индекс гарантирует успех каждой компании",
+              "kk": "Индекс әр компания табысты болады деп кепілдік береді"
             },
             "is_correct": false
           },
@@ -1703,7 +2924,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "The index avoids all weak companies from the start"
+              "en": "The index avoids all weak companies from the start",
+              "ru": "Индекс с самого начала избегает всех слабых компаний",
+              "kk": "Индекс басынан бастап барлық әлсіз компаниялардан қашады"
             },
             "is_correct": false
           },
@@ -1711,7 +2934,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "The fund manager secretly predicts every winner"
+              "en": "The fund manager secretly predicts every winner",
+              "ru": "Управляющий фондом тайно предсказывает каждого победителя",
+              "kk": "Қор менеджері әр жеңімпазды жасырын болжайды"
             },
             "is_correct": false
           }
@@ -1722,14 +2947,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "Which fund evaluation order is most sensible?"
+          "en": "Which fund evaluation order is most sensible?",
+          "ru": "Какой порядок оценки фонда самый разумный?",
+          "kk": "Қорды бағалаудың қай реті ең қисынды?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Goal and exposure first, then cost, tracking, liquidity, and risk"
+              "en": "Goal and exposure first, then cost, tracking, liquidity, and risk",
+              "ru": "Сначала цель и экспозиция, затем стоимость, отслеживание, ликвидность и риск",
+              "kk": "Алдымен мақсат пен экспозиция, кейін шығын, қадағалау, өтімділік және тәуекел"
             },
             "is_correct": true
           },
@@ -1737,7 +2966,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Recent return first, then ignore the rest"
+              "en": "Recent return first, then ignore the rest",
+              "ru": "Сначала недавняя доходность, затем игнорировать остальное",
+              "kk": "Алдымен соңғы табыс, кейін қалғанын елемеу"
             },
             "is_correct": false
           },
@@ -1745,7 +2976,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Fund name first, then app popularity"
+              "en": "Fund name first, then app popularity",
+              "ru": "Сначала название фонда, затем популярность в приложении",
+              "kk": "Алдымен қор атауы, кейін қосымшадағы танымалдық"
             },
             "is_correct": false
           },
@@ -1753,7 +2986,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Lowest share price first, then logo design"
+              "en": "Lowest share price first, then logo design",
+              "ru": "Сначала самая низкая цена акции, затем дизайн логотипа",
+              "kk": "Алдымен ең төмен акция бағасы, кейін логотип дизайны"
             },
             "is_correct": false
           }
@@ -1764,14 +2999,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "An investor owns five funds, but all are heavily exposed to the same large technology companies. What is the issue?"
+          "en": "An investor owns five funds, but all are heavily exposed to the same large technology companies. What is the issue?",
+          "ru": "Инвестор владеет пятью фондами, но все они сильно завязаны на одни и те же крупные технологические компании. В чём проблема?",
+          "kk": "Инвестор бес қор ұстайды, бірақ бәрі бірдей ірі технология компанияларына қатты тәуелді. Мәселе неде?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Product count is high, but underlying exposure is still concentrated"
+              "en": "Product count is high, but underlying exposure is still concentrated",
+              "ru": "Количество продуктов большое, но базовая экспозиция всё ещё концентрирована",
+              "kk": "Өнім саны көп, бірақ базалық экспозиция әлі де шоғырланған"
             },
             "is_correct": true
           },
@@ -1779,7 +3018,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Five funds always create perfect diversification"
+              "en": "Five funds always create perfect diversification",
+              "ru": "Пять фондов всегда создают идеальную диверсификацию",
+              "kk": "Бес қор әрқашан мінсіз әртараптандыру жасайды"
             },
             "is_correct": false
           },
@@ -1787,7 +3028,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Technology exposure cannot affect fund risk"
+              "en": "Technology exposure cannot affect fund risk",
+              "ru": "Экспозиция на технологии не может влиять на риск фонда",
+              "kk": "Технология экспозициясы қор тәуекеліне әсер етпейді"
             },
             "is_correct": false
           },
@@ -1795,7 +3038,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "The account is diversified because each fund has a different name"
+              "en": "The account is diversified because each fund has a different name",
+              "ru": "Счёт диверсифицирован, потому что у каждого фонда разное название",
+              "kk": "Әр қордың атауы әртүрлі болғандықтан шот әртараптандырылған"
             },
             "is_correct": false
           }

@@ -2,6 +2,7 @@
   "topic": {
     "code": "financial_decisions",
     "orderIndex": 1,
+    "icon_path": "assets/topics/001-015.png",
     "title": {
       "en": "Financial Decisions & Trade-offs",
       "ru": "Финансовые решения и компромиссы",

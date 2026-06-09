@@ -1,12 +1,18 @@
-{ "section": "budgeting_saving_debt",
+{
+  "section": "budgeting_saving_debt",
   "topic": {
     "code": "saving_emergency_planning",
     "orderIndex": 7,
+    "icon_path": "assets/topics/007.png",
     "title": {
-      "en": "Saving & Emergency Planning"
+      "en": "Saving & Emergency Planning",
+      "ru": "Сбережения и планирование на случай чрезвычайных ситуаций",
+      "kk": "Жинақ және төтенше жағдайға жоспарлау"
     },
     "description": {
-      "en": "Why a cash buffer matters more than returns, how large it should be, and where to keep money you cannot afford to lose."
+      "en": "Why a cash buffer matters more than returns, how large it should be, and where to keep money you cannot afford to lose.",
+      "ru": "Почему денежный резерв важнее доходности, каким он должен быть и где хранить деньги, потерю которых вы не можете себе позволить.",
+      "kk": "Ақша қоры неге табыстылықтан маңызды, оның көлемі қандай болуы керек және жоғалтуға болмайтын ақшаны қайда сақтау керек."
     },
     "level": "beginner",
     "prerequisite_id": null
@@ -15,10 +21,14 @@
     {
       "code": "why_emergency_funds_exist",
       "title": {
-        "en": "Why Emergency Funds Exist"
+        "en": "Why Emergency Funds Exist",
+        "ru": "Зачем нужен резервный фонд",
+        "kk": "Төтенше қор не үшін қажет"
       },
       "description": {
-        "en": "An emergency fund is self-provided insurance. Its job is not return but availability, breaking the chain from a shock to expensive debt."
+        "en": "An emergency fund is self-provided insurance. Its job is not return but availability, breaking the chain from a shock to expensive debt.",
+        "ru": "Резервный фонд — это самостоятельная страховка. Его задача не доходность, а доступность: он разрывает цепочку от внезапного удара к дорогому долгу.",
+        "kk": "Төтенше қор — адамның өзіне жасаған сақтандыруы. Оның міндеті табыс әкелу емес, қолжетімді болу: күтпеген соққыны қымбат қарызға айналдырмайды."
       },
       "estimatedMinutes": 5,
       "orderIndex": 0,
@@ -30,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "The shock that breaks a plan"
+              "en": "The shock that breaks a plan",
+              "ru": "Удар, который ломает план",
+              "kk": "Жоспарды бұзатын күтпеген соққы"
             },
             "body": {
-              "en": "Your car needs a 250,000 ₸ repair this week. With a buffer, it is an annoying expense. Without one, it becomes a microloan at a brutal rate that follows you for months. The fund decides which story you live."
+              "en": "Your car needs a 250,000 ₸ repair this week. With a buffer, it is an annoying expense. Without one, it becomes a microloan at a brutal rate that follows you for months. The fund decides which story you live.",
+              "ru": "На этой неделе машине нужен ремонт на 250 000 ₸. С резервом это неприятный расход. Без резерва это превращается в микрокредит с жесткой ставкой, который будет тянуться за вами месяцами. Именно фонд определяет, какой сценарий вы проживете.",
+              "kk": "Осы аптада көлігіңізге 250 000 ₸ жөндеу қажет. Қор болса, бұл жай ғана жағымсыз шығын. Қор болмаса, ол бірнеше ай бойы ауыртпалық болатын жоғары мөлшерлемелі микрокредитке айналады. Қай оқиға болатынын осы қор шешеді."
             },
             "tip": {
-              "en": "An emergency fund is insurance you keep for yourself."
+              "en": "An emergency fund is insurance you keep for yourself.",
+              "ru": "Резервный фонд — это страховка, которую вы держите для себя.",
+              "kk": "Төтенше қор — өзіңіз үшін ұстайтын сақтандыру."
             }
           },
           {
@@ -44,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "What it actually protects against"
+              "en": "What it actually protects against",
+              "ru": "От чего он на самом деле защищает",
+              "kk": "Ол нақты неден қорғайды"
             },
             "body": {
-              "en": "Two kinds of shock hit everyone eventually: income shocks like losing a job, and expense shocks like a medical bill or repair. The fund sits between life's randomness and your long-term plan, absorbing the hit so the plan survives."
+              "en": "Two kinds of shock hit everyone eventually: income shocks like losing a job, and expense shocks like a medical bill or repair. The fund sits between life's randomness and your long-term plan, absorbing the hit so the plan survives.",
+              "ru": "Рано или поздно каждый сталкивается с двумя типами ударов: падением дохода, например потерей работы, и внезапными расходами, например медицинским счетом или ремонтом. Фонд стоит между жизненной непредсказуемостью и вашим долгосрочным планом, принимая удар на себя, чтобы план выжил.",
+              "kk": "Ерте ме, кеш пе, әр адам екі түрлі соққыға тап болады: жұмыстан айырылу сияқты табыс соққысы және емдеу ақысы не жөндеу сияқты шығын соққысы. Қор өмірдің белгісіздігі мен ұзақ мерзімді жоспарыңыздың арасында тұрып, соққыны өзіне алады."
             },
             "example": {
-              "en": "Lose your income for two months: a buffer pays the rent while you search, instead of forcing a panic decision."
+              "en": "Lose your income for two months: a buffer pays the rent while you search, instead of forcing a panic decision.",
+              "ru": "Вы потеряли доход на два месяца: резерв оплачивает аренду, пока вы ищете работу, вместо того чтобы заставлять вас принимать панические решения.",
+              "kk": "Екі айға табыстан айырылдыңыз: қор жұмыс іздеген кезде пәтерақыны жабады және асығыс, үрейлі шешім қабылдауға мәжбүрлемейді."
             }
           },
           {
@@ -58,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "It is a shock absorber, not an investment"
+              "en": "It is a shock absorber, not an investment",
+              "ru": "Это амортизатор, а не инвестиция",
+              "kk": "Бұл инвестиция емес, соққыны жұмсартқыш"
             },
             "body": {
-              "en": "Judge an emergency fund by what it prevents, not what it earns. Holding safe, low-yield cash is the price of never being forced to borrow at high rates or sell investments at the worst possible moment."
+              "en": "Judge an emergency fund by what it prevents, not what it earns. Holding safe, low-yield cash is the price of never being forced to borrow at high rates or sell investments at the worst possible moment.",
+              "ru": "Оценивайте резервный фонд по тому, что он предотвращает, а не по тому, сколько он зарабатывает. Хранение безопасных, низкодоходных денег — это цена за то, чтобы не брать дорогие займы и не продавать инвестиции в самый неудачный момент.",
+              "kk": "Төтенше қорды қанша табыс әкелетінімен емес, қандай қиындықтың алдын алатынымен бағалаңыз. Қауіпсіз, төмен табысты қолма-қол ақшаны ұстау — жоғары пайызбен қарыз алмау және инвестицияны ең қолайсыз сәтте сатпау үшін төленетін баға."
             },
             "tip": {
-              "en": "The return on an emergency fund is the disaster it quietly avoids."
+              "en": "The return on an emergency fund is the disaster it quietly avoids.",
+              "ru": "Доходность резервного фонда — это бедствие, которого он тихо помогает избежать.",
+              "kk": "Төтенше қордың табысы — оның үнсіз алдын алатын апаты."
             }
           },
           {
@@ -72,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same shock, two endings"
+              "en": "Same shock, two endings",
+              "ru": "Один и тот же удар, два исхода",
+              "kk": "Бір соққы, екі нәтиже"
             },
             "content": {
               "en": {
@@ -116,6 +146,90 @@
                     "text": "The expense is identical. The buffer changes a one-week setback into a one-year problem, or avoids it entirely."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Возникает экстренная ситуация на 250 000 ₸. Сравните, как она проходит с фондом и без него."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "С фондом",
+                        "Без фонда"
+                      ],
+                      [
+                        "Как вы платите",
+                        "Снимаете 250 000 ₸ наличными",
+                        "Микрокредит под высокий процент"
+                      ],
+                      [
+                        "Дополнительная стоимость",
+                        "0 ₸",
+                        "Проценты накапливаются месяцами"
+                      ],
+                      [
+                        "Стресс",
+                        "Плохая неделя",
+                        "Долговая спираль"
+                      ],
+                      [
+                        "Долгосрочный план",
+                        "Не затронут",
+                        "Сбит с пути"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Расход один и тот же. Резерв либо превращает недельную неприятность в годовую проблему, либо полностью помогает этого избежать."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "250 000 ₸ қажет ететін төтенше жағдай туды. Оны қор бар кезде және қор жоқ кезде қалай қарсы алатыныңызды салыстырыңыз."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Қормен",
+                        "Қорсыз"
+                      ],
+                      [
+                        "Қалай төлейсіз",
+                        "250 000 ₸ қолма-қол аласыз",
+                        "Жоғары пайызды микрокредит"
+                      ],
+                      [
+                        "Қосымша шығын",
+                        "0 ₸",
+                        "Пайыздар айлар бойы жиналады"
+                      ],
+                      [
+                        "Стресс",
+                        "Жайсыз бір апта",
+                        "Қарыз шырмауы"
+                      ],
+                      [
+                        "Ұзақ мерзімді жоспар",
+                        "Өзгеріссіз қалады",
+                        "Бұзылады"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Шығын бірдей. Қор бір апталық қиындықтың бір жылдық мәселеге айналуын тоқтатады немесе одан толық сақтайды."
+                  }
+                ]
               }
             }
           },
@@ -124,10 +238,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Is it really an emergency?"
+              "en": "Is it really an emergency?",
+              "ru": "Это действительно чрезвычайная ситуация?",
+              "kk": "Бұл шынымен төтенше жағдай ма?"
             },
             "body": {
-              "en": "An emergency fund is for true surprises. Decide what counts."
+              "en": "An emergency fund is for true surprises. Decide what counts.",
+              "ru": "Резервный фонд нужен для настоящих неожиданностей. Решите, что к ним относится.",
+              "kk": "Төтенше қор шынайы күтпеген жағдайларға арналған. Ненің соған жататынын анықтаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -159,6 +277,64 @@
                     "explanation": "Fully predictable. A known yearly cost should be saved for in advance, not drawn from the emergency fund."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Отметьте каждую ситуацию как «Чрезвычайная ситуация» или «Не чрезвычайная ситуация».",
+                "options": [
+                  "Чрезвычайная ситуация",
+                  "Не чрезвычайная ситуация"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Вы потеряли работу, и вам нужно платить аренду, пока вы ищете новую.",
+                    "correct_answer": "Чрезвычайная ситуация",
+                    "explanation": "Неожиданно, срочно и необходимо. Именно для такого удара по доходу и нужен фонд."
+                  },
+                  {
+                    "text": "Телефон, который вы давно хотели, появился с заманчивой скидкой.",
+                    "correct_answer": "Не чрезвычайная ситуация",
+                    "explanation": "Это желание, а не неожиданность. Если потратить фонд на это, на настоящий удар ничего не останется."
+                  },
+                  {
+                    "text": "Срочное стоматологическое лечение, которого вы не ожидали.",
+                    "correct_answer": "Чрезвычайная ситуация",
+                    "explanation": "Непредвиденно и необходимо — классический случай для использования резерва."
+                  },
+                  {
+                    "text": "Ежегодный счет за автостраховку, который приходит в один и тот же месяц каждый год.",
+                    "correct_answer": "Не чрезвычайная ситуация",
+                    "explanation": "Полностью предсказуемо. Известный годовой расход нужно копить заранее, а не брать из резервного фонда."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әр жағдайды «Төтенше жағдай» немесе «Төтенше жағдай емес» деп белгілеңіз.",
+                "options": [
+                  "Төтенше жағдай",
+                  "Төтенше жағдай емес"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Жұмыстан айырылдыңыз және жаңа жұмыс іздегенше пәтерақыны жабуыңыз керек.",
+                    "correct_answer": "Төтенше жағдай",
+                    "explanation": "Күтпеген, шұғыл және қажет. Қор дәл осындай табыс соққысы үшін керек."
+                  },
+                  {
+                    "text": "Көптен қалаған телефоныңыз тартымды жеңілдікке шықты.",
+                    "correct_answer": "Төтенше жағдай емес",
+                    "explanation": "Бұл қажеттілік емес, қалау. Қорды бұған жұмсасаңыз, нақты соққыға ештеңе қалмайды."
+                  },
+                  {
+                    "text": "Күтпеген шұғыл стоматологиялық ем.",
+                    "correct_answer": "Төтенше жағдай",
+                    "explanation": "Күтпеген әрі қажет — қорды қолданудың нақты мысалы."
+                  },
+                  {
+                    "text": "Жыл сайын бір айда келетін автосақтандыру төлемі.",
+                    "correct_answer": "Төтенше жағдай емес",
+                    "explanation": "Толық болжамды. Белгілі жылдық шығынға алдын ала жинау керек, оны төтенше қордан алмау қажет."
+                  }
+                ]
               }
             }
           },
@@ -167,13 +343,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "The buffer buys you options"
+              "en": "The buffer buys you options",
+              "ru": "Резерв покупает вам выбор",
+              "kk": "Қор сізге таңдау береді"
             },
             "body": {
-              "en": "An emergency fund's value is in the bad outcomes it prevents: expensive debt, forced asset sales, and panic decisions. Keep it accessible and leave it alone until a real shock comes. The obvious next question is how large it should be."
+              "en": "An emergency fund's value is in the bad outcomes it prevents: expensive debt, forced asset sales, and panic decisions. Keep it accessible and leave it alone until a real shock comes. The obvious next question is how large it should be.",
+              "ru": "Ценность резервного фонда — в плохих исходах, которых он помогает избежать: дорогой долг, вынужденная продажа активов и панические решения. Держите его доступным и не трогайте до настоящего удара. Следующий очевидный вопрос — каким он должен быть по размеру.",
+              "kk": "Төтенше қордың құндылығы — алдын алатын жаман салдарларда: қымбат қарыз, активтерді мәжбүрлі сату және үрейлі шешімдер. Оны қолжетімді ұстаңыз және нақты соққы келгенше тимеңіз. Келесі сұрақ — оның көлемі қандай болуы керек."
             },
             "tip": {
-              "en": "If touching it would not prevent a real crisis, it is not an emergency."
+              "en": "If touching it would not prevent a real crisis, it is not an emergency.",
+              "ru": "Если использование фонда не предотвращает реальный кризис, это не чрезвычайная ситуация.",
+              "kk": "Қорды пайдалану нақты дағдарыстың алдын алмаса, бұл төтенше жағдай емес."
             }
           }
         ]
@@ -182,7 +364,9 @@
         "quiz_id": 701,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Why Emergency Funds Exist — Check"
+          "en": "Why Emergency Funds Exist — Check",
+          "ru": "Зачем нужен резервный фонд — проверка",
+          "kk": "Төтенше қор не үшін қажет — тексеру"
         },
         "questions": [
           {
@@ -190,14 +374,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Someone says keeping cash in a low-yield account is foolish because investments earn far more. What does this argument miss about an emergency fund?"
+              "en": "Someone says keeping cash in a low-yield account is foolish because investments earn far more. What does this argument miss about an emergency fund?",
+              "ru": "Кто-то говорит, что держать деньги на низкодоходном счете глупо, потому что инвестиции приносят намного больше. Что этот аргумент упускает в отношении резервного фонда?",
+              "kk": "Біреу ақшаны төмен табысты шотта ұстау ақымақтық дейді, себебі инвестициялар көбірек табыс әкеледі. Бұл пікір төтенше қор туралы нені ескермейді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Its job is availability, not return; it prevents high-interest debt and forced asset sales during a shock"
+                  "en": "Its job is availability, not return; it prevents high-interest debt and forced asset sales during a shock",
+                  "ru": "Его задача — доступность, а не доходность; он предотвращает дорогой долг и вынужденную продажу активов во время удара",
+                  "kk": "Оның міндеті — табыс емес, қолжетімділік; ол соққы кезінде жоғары пайызды қарыз бен активтерді мәжбүрлі сатудың алдын алады"
                 },
                 "is_correct": true
               },
@@ -205,7 +393,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Nothing; emergency funds should be invested for maximum growth"
+                  "en": "Nothing; emergency funds should be invested for maximum growth",
+                  "ru": "Ничего; резервные фонды нужно инвестировать для максимального роста",
+                  "kk": "Ештеңені; төтенше қорды барынша өсу үшін инвестициялау керек"
                 },
                 "is_correct": false
               },
@@ -213,7 +403,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Low-yield accounts are actually the highest-returning option available"
+                  "en": "Low-yield accounts are actually the highest-returning option available",
+                  "ru": "Низкодоходные счета на самом деле являются самым доходным вариантом",
+                  "kk": "Төмен табысты шоттар шын мәнінде ең табысты нұсқа"
                 },
                 "is_correct": false
               },
@@ -221,7 +413,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Cash always outperforms investments over the long run"
+                  "en": "Cash always outperforms investments over the long run",
+                  "ru": "Наличные всегда обгоняют инвестиции в долгосрочной перспективе",
+                  "kk": "Қолма-қол ақша ұзақ мерзімде әрқашан инвестициядан озады"
                 },
                 "is_correct": false
               }
@@ -232,14 +426,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Two people face the same 200,000 ₸ surprise repair. One pays from a buffer; the other takes a high-interest loan. A year later, why is the borrower worse off by more than 200,000 ₸?"
+              "en": "Two people face the same 200,000 ₸ surprise repair. One pays from a buffer; the other takes a high-interest loan. A year later, why is the borrower worse off by more than 200,000 ₸?",
+              "ru": "Два человека сталкиваются с одним и тем же неожиданным ремонтом на 200 000 ₸. Один платит из резерва, другой берет дорогой заем. Почему через год заемщик оказывается в худшем положении больше чем на 200 000 ₸?",
+              "kk": "Екі адам бірдей 200 000 ₸ күтпеген жөндеуге тап болды. Бірі қордан төледі, екіншісі жоғары пайызды қарыз алды. Бір жылдан кейін қарыз алушы неге 200 000 ₸-ден де көп ұтылды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The interest kept accumulating, so the same shock cost far more once debt was involved"
+                  "en": "The interest kept accumulating, so the same shock cost far more once debt was involved",
+                  "ru": "Проценты продолжали накапливаться, поэтому тот же удар стал намного дороже, когда появился долг",
+                  "kk": "Пайыздар жинала берді, сондықтан қарыз қосылғанда сол бір соққы әлдеқайда қымбатқа түсті"
                 },
                 "is_correct": true
               },
@@ -247,7 +445,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The repair price rose for the borrower specifically"
+                  "en": "The repair price rose for the borrower specifically",
+                  "ru": "Цена ремонта выросла именно для заемщика",
+                  "kk": "Жөндеу бағасы нақты сол қарыз алушы үшін өсті"
                 },
                 "is_correct": false
               },
@@ -255,7 +455,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Buffers earn enough interest to make the saver richer overall"
+                  "en": "Buffers earn enough interest to make the saver richer overall",
+                  "ru": "Резервы зарабатывают достаточно процентов, чтобы сделать владельца богаче",
+                  "kk": "Қорлар жеткілікті пайыз әкеліп, жинақтаушыны жалпы байытады"
                 },
                 "is_correct": false
               },
@@ -263,7 +465,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "There is no difference once the repair is paid"
+                  "en": "There is no difference once the repair is paid",
+                  "ru": "После оплаты ремонта разницы нет",
+                  "kk": "Жөндеу төленгеннен кейін айырмашылық жоқ"
                 },
                 "is_correct": false
               }
@@ -275,10 +479,14 @@
     {
       "code": "how_much_is_enough",
       "title": {
-        "en": "How Much Is Enough"
+        "en": "How Much Is Enough",
+        "ru": "Какого размера достаточно",
+        "kk": "Қанша жеткілікті"
       },
       "description": {
-        "en": "Size the fund from essential monthly expenses, not income, times a runway that scales with how risky your income is."
+        "en": "Size the fund from essential monthly expenses, not income, times a runway that scales with how risky your income is.",
+        "ru": "Рассчитывайте размер фонда от обязательных ежемесячных расходов, а не от дохода, умножая их на запас месяцев, который зависит от риска вашего дохода.",
+        "kk": "Қор көлемін табысқа емес, міндетті айлық шығындарға сүйеніп есептеңіз: оны табысыңыздың тәуекеліне сай ай санына көбейтіңіз."
       },
       "estimatedMinutes": 5,
       "orderIndex": 1,
@@ -290,13 +498,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "The wrong number to anchor on"
+              "en": "The wrong number to anchor on",
+              "ru": "Неверная точка отсчета",
+              "kk": "Қате тірек сан"
             },
             "body": {
-              "en": "Asked how big an emergency fund should be, most people reach for a share of their income. That is the wrong anchor. What matters is how long you could keep the lights on if income stopped, which depends on costs, not earnings."
+              "en": "Asked how big an emergency fund should be, most people reach for a share of their income. That is the wrong anchor. What matters is how long you could keep the lights on if income stopped, which depends on costs, not earnings.",
+              "ru": "Когда спрашивают, каким должен быть резервный фонд, большинство думает о доле дохода. Это неверная опора. Важно то, как долго вы сможете покрывать базовую жизнь, если доход остановится, а это зависит от расходов, а не от заработка.",
+              "kk": "Төтенше қор қанша болуы керек деп сұрағанда, көп адам табыстың бір үлесін ойлайды. Бұл қате тірек. Маңыздысы — табыс тоқтаса, негізгі өмірді қанша уақыт ұстай алатыныңыз; ол табысқа емес, шығынға байланысты."
             },
             "tip": {
-              "en": "Size the fund to your survival costs, not your salary."
+              "en": "Size the fund to your survival costs, not your salary.",
+              "ru": "Рассчитывайте фонд по расходам на выживание, а не по зарплате.",
+              "kk": "Қорды жалақыға емес, өмір сүруге қажет шығындарға қарай есептеңіз."
             }
           },
           {
@@ -304,13 +518,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Base it on essential spending"
+              "en": "Base it on essential spending",
+              "ru": "Опирайтесь на обязательные расходы",
+              "kk": "Міндетті шығындарға негіздеңіз"
             },
             "body": {
-              "en": "Use your essential monthly expenses, the fixed floor from budgeting: rent, food, transport, utilities, minimum debt payments. In a real crisis you cut the wants, so the buffer only needs to cover the necessities, not your full lifestyle."
+              "en": "Use your essential monthly expenses, the fixed floor from budgeting: rent, food, transport, utilities, minimum debt payments. In a real crisis you cut the wants, so the buffer only needs to cover the necessities, not your full lifestyle.",
+              "ru": "Используйте обязательные ежемесячные расходы — базовый уровень бюджета: аренда, еда, транспорт, коммунальные услуги, минимальные платежи по долгам. В реальном кризисе желания сокращаются, поэтому резерв должен покрывать необходимые расходы, а не весь образ жизни.",
+              "kk": "Міндетті айлық шығындарды қолданыңыз: пәтерақы, тамақ, көлік, коммуналдық төлемдер, қарыздың ең төменгі төлемдері. Нақты дағдарыста қалаулар қысқарады, сондықтан қор толық өмір салтын емес, қажеттіліктерді жабуы керек."
             },
             "example": {
-              "en": "If you spend 320,000 ₸ a month but essentials are 200,000 ₸, the fund is built around the 200,000 ₸."
+              "en": "If you spend 320,000 ₸ a month but essentials are 200,000 ₸, the fund is built around the 200,000 ₸.",
+              "ru": "Если вы тратите 320 000 ₸ в месяц, но обязательные расходы составляют 200 000 ₸, фонд строится вокруг 200 000 ₸.",
+              "kk": "Айына 320 000 ₸ жұмсасаңыз, бірақ міндетті шығындар 200 000 ₸ болса, қор 200 000 ₸ негізінде құрылады."
             }
           },
           {
@@ -318,13 +538,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "The multiplier is about risk"
+              "en": "The multiplier is about risk",
+              "ru": "Множитель зависит от риска",
+              "kk": "Көбейткіш тәуекелге байланысты"
             },
             "body": {
-              "en": "Three to six months of essentials is the common range. Lean toward more months if your income is volatile, you are the only earner, or your job is hard to replace. Lean toward fewer if your income is very stable and a second earner backs you up."
+              "en": "Three to six months of essentials is the common range. Lean toward more months if your income is volatile, you are the only earner, or your job is hard to replace. Lean toward fewer if your income is very stable and a second earner backs you up.",
+              "ru": "Обычно ориентир — от трех до шести месяцев обязательных расходов. Склоняйтесь к большему числу месяцев, если доход нестабилен, вы единственный кормилец или работу трудно заменить. К меньшему — если доход очень стабильный и есть второй зарабатывающий человек.",
+              "kk": "Әдетте бағдар — міндетті шығындардың үш айдан алты айға дейінгі көлемі. Табысыңыз құбылмалы болса, жалғыз табыс табушы болсаңыз немесе жұмысты ауыстыру қиын болса, ай санын көбейтіңіз. Табысыңыз өте тұрақты және екінші табыс табушы бар болса, аздау ай жеткілікті болуы мүмкін."
             },
             "tip": {
-              "en": "More income uncertainty means more months of runway."
+              "en": "More income uncertainty means more months of runway.",
+              "ru": "Чем больше неопределенность дохода, тем больше месяцев запаса нужно.",
+              "kk": "Табыс белгісіздігі көп болса, қор да көбірек айға жетуі керек."
             }
           },
           {
@@ -332,7 +558,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Turning a floor into a target"
+              "en": "Turning a floor into a target",
+              "ru": "Как превратить базовый уровень в цель",
+              "kk": "Базалық деңгейді мақсатқа айналдыру"
             },
             "content": {
               "en": {
@@ -376,6 +604,90 @@
                     "text": "Same essentials, different targets. The number is personal because the risk is personal."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "При обязательных ежемесячных расходах 200 000 ₸ цель зависит от нужного запаса месяцев."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ситуация",
+                        "Месяцы",
+                        "Целевой фонд"
+                      ],
+                      [
+                        "Стабильная зарплата, два зарабатывающих человека",
+                        "3",
+                        "600,000 ₸"
+                      ],
+                      [
+                        "Обычный наемный сотрудник",
+                        "4",
+                        "800,000 ₸"
+                      ],
+                      [
+                        "Единственный зарабатывающий",
+                        "6",
+                        "1,200,000 ₸"
+                      ],
+                      [
+                        "Фрилансер, переменный доход",
+                        "6+",
+                        "1 200 000 ₸ или больше"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Одинаковые обязательные расходы, разные цели. Число индивидуально, потому что риск индивидуален."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Міндетті айлық шығындар 200 000 ₸ болса, мақсат қажетті айлық қор мерзіміне байланысты."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Жағдай",
+                        "Айлар",
+                        "Мақсатты қор"
+                      ],
+                      [
+                        "Тұрақты жалақы, екі табыс табушы",
+                        "3",
+                        "600,000 ₸"
+                      ],
+                      [
+                        "Әдеттегі жалақылы қызметкер",
+                        "4",
+                        "800,000 ₸"
+                      ],
+                      [
+                        "Жалғыз табыс табушы",
+                        "6",
+                        "1,200,000 ₸"
+                      ],
+                      [
+                        "Фрилансер, құбылмалы табыс",
+                        "6+",
+                        "1 200 000 ₸ немесе одан көп"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Міндетті шығындар бірдей, мақсаттар әртүрлі. Сан жеке, себебі тәуекел де жеке."
+                  }
+                ]
               }
             }
           },
@@ -384,10 +696,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Who needs a bigger buffer?"
+              "en": "Who needs a bigger buffer?",
+              "ru": "Кому нужен больший резерв?",
+              "kk": "Кімге үлкенірек қор керек?"
             },
             "body": {
-              "en": "Sort each person by how much runway their situation calls for."
+              "en": "Sort each person by how much runway their situation calls for.",
+              "ru": "Распределите людей по тому, какой запас месяцев требуется их ситуации.",
+              "kk": "Әр адамды жағдайына қажет қор мерзімі бойынша бөліңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -448,6 +764,122 @@
                   }
                 ],
                 "explanation": "The buffer grows with income risk. Stable, replaceable, dual-income situations need less runway; volatile, single-income, or hard-to-replace situations need more, because a gap could last longer."
+              },
+              "ru": {
+                "instruction": "Перетащите каждого человека в категорию запаса, подходящую его ситуации.",
+                "categories": [
+                  {
+                    "id": "smaller",
+                    "label": "Меньший резерв — около 3 месяцев"
+                  },
+                  {
+                    "id": "larger",
+                    "label": "Больший резерв — 6+ месяцев"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "dual",
+                    "text": "Стабильная государственная зарплата, партнер тоже зарабатывает"
+                  },
+                  {
+                    "id": "freelance",
+                    "text": "Фрилансер с доходом, который меняется от месяца к месяцу"
+                  },
+                  {
+                    "id": "sole",
+                    "text": "Единственный кормилец, содержащий двух детей"
+                  },
+                  {
+                    "id": "tenured",
+                    "text": "Надежная долгосрочная работа, которую легко заменить при потере"
+                  },
+                  {
+                    "id": "niche",
+                    "text": "Узкоспециализированная роль, на которую замену ищут месяцами"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "dual",
+                    "categoryId": "smaller"
+                  },
+                  {
+                    "itemId": "freelance",
+                    "categoryId": "larger"
+                  },
+                  {
+                    "itemId": "sole",
+                    "categoryId": "larger"
+                  },
+                  {
+                    "itemId": "tenured",
+                    "categoryId": "smaller"
+                  },
+                  {
+                    "itemId": "niche",
+                    "categoryId": "larger"
+                  }
+                ],
+                "explanation": "Резерв растет вместе с риском дохода. Стабильным, легко заменяемым и двухдоходным ситуациям нужно меньше запаса; нестабильным, с одним доходом или трудной заменой — больше, потому что пауза может длиться дольше."
+              },
+              "kk": {
+                "instruction": "Әр адамды жағдайы ұсынатын қор мерзімі санатына апарыңыз.",
+                "categories": [
+                  {
+                    "id": "smaller",
+                    "label": "Кіші қор — шамамен 3 ай"
+                  },
+                  {
+                    "id": "larger",
+                    "label": "Үлкен қор — 6+ ай"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "dual",
+                    "text": "Тұрақты мемлекеттік жалақы, серіктесі де табыс табады"
+                  },
+                  {
+                    "id": "freelance",
+                    "text": "Ай сайын табысы құбылып тұратын фрилансер"
+                  },
+                  {
+                    "id": "sole",
+                    "text": "Екі баланы асырап отырған жалғыз табыс табушы"
+                  },
+                  {
+                    "id": "tenured",
+                    "text": "Тұрақты ұзақ мерзімді жұмыс, жоғалса ауыстыру оңай"
+                  },
+                  {
+                    "id": "niche",
+                    "text": "Орнына адам табуға айлар кететін жоғары маманданған рөл"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "dual",
+                    "categoryId": "smaller"
+                  },
+                  {
+                    "itemId": "freelance",
+                    "categoryId": "larger"
+                  },
+                  {
+                    "itemId": "sole",
+                    "categoryId": "larger"
+                  },
+                  {
+                    "itemId": "tenured",
+                    "categoryId": "smaller"
+                  },
+                  {
+                    "itemId": "niche",
+                    "categoryId": "larger"
+                  }
+                ],
+                "explanation": "Қор табыс тәуекелімен бірге өседі. Тұрақты, оңай ауыстырылатын және екі табысты жағдайларға аз мерзім жеткілікті; құбылмалы, бір табысты немесе ауыстыру қиын жағдайларға көбірек керек, себебі үзіліс ұзаққа созылуы мүмкін."
               }
             }
           },
@@ -456,13 +888,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "A personal, not universal, number"
+              "en": "A personal, not universal, number",
+              "ru": "Личное, а не универсальное число",
+              "kk": "Жалпы емес, жеке сан"
             },
             "body": {
-              "en": "Your target is essential monthly expenses times a runway matched to your income risk. Build it gradually; even one month of cushion changes how a shock feels. Once you know the size, the next decision is where to keep it."
+              "en": "Your target is essential monthly expenses times a runway matched to your income risk. Build it gradually; even one month of cushion changes how a shock feels. Once you know the size, the next decision is where to keep it.",
+              "ru": "Ваша цель — обязательные ежемесячные расходы, умноженные на запас месяцев, соответствующий риску дохода. Создавайте его постепенно: даже один месяц подушки меняет ощущение от удара. Когда размер понятен, следующий выбор — где хранить деньги.",
+              "kk": "Сіздің мақсатыңыз — міндетті айлық шығындарды табыс тәуекеліне сай ай санына көбейту. Оны біртіндеп жинаңыз: тіпті бір айлық қордың өзі соққыны жеңілдетеді. Көлем белгілі болған соң, келесі шешім — оны қайда сақтау."
             },
             "tip": {
-              "en": "Start with one month of essentials, then build toward your full target."
+              "en": "Start with one month of essentials, then build toward your full target.",
+              "ru": "Начните с одного месяца обязательных расходов, затем двигайтесь к полной цели.",
+              "kk": "Бір айлық міндетті шығыннан бастаңыз, кейін толық мақсатқа жетіңіз."
             }
           }
         ]
@@ -471,7 +909,9 @@
         "quiz_id": 702,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "How Much Is Enough — Check"
+          "en": "How Much Is Enough — Check",
+          "ru": "Какого размера достаточно — проверка",
+          "kk": "Қанша жеткілікті — тексеру"
         },
         "questions": [
           {
@@ -479,14 +919,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Two people both spend 300,000 ₸ a month, but one has 120,000 ₸ of wants in there. Whose emergency target is correctly smaller, and why?"
+              "en": "Two people both spend 300,000 ₸ a month, but one has 120,000 ₸ of wants in there. Whose emergency target is correctly smaller, and why?",
+              "ru": "Два человека тратят по 300 000 ₸ в месяц, но у одного внутри этой суммы 120 000 ₸ — это желания. У кого целевой резерв справедливо меньше и почему?",
+              "kk": "Екі адам айына 300 000 ₸ жұмсайды, бірақ біреуінде оның 120 000 ₸ бөлігі қалаулар. Кімнің төтенше қоры дұрыс түрде аз болуы мүмкін және неге?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The one with more wants, because the fund is sized to essentials, which they can cut in a crisis"
+                  "en": "The one with more wants, because the fund is sized to essentials, which they can cut in a crisis",
+                  "ru": "У того, у кого больше желаний, потому что фонд рассчитывается по обязательным расходам, а желания в кризис можно сократить",
+                  "kk": "Қалаулары көбірек адамда, өйткені қор міндетті шығындарға есептеледі, ал қалауларды дағдарыста қысқартуға болады"
                 },
                 "is_correct": true
               },
@@ -494,7 +938,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Neither; identical total spending means identical targets"
+                  "en": "Neither; identical total spending means identical targets",
+                  "ru": "Ни у кого; одинаковые общие расходы означают одинаковые цели",
+                  "kk": "Ешкімде; жалпы шығын бірдей болса, мақсат та бірдей"
                 },
                 "is_correct": false
               },
@@ -502,7 +948,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The one with more wants needs a larger fund to keep buying them"
+                  "en": "The one with more wants needs a larger fund to keep buying them",
+                  "ru": "Тому, у кого больше желаний, нужен больший фонд, чтобы продолжать их покупать",
+                  "kk": "Қалаулары көп адамға оларды сатып ала беру үшін үлкенірек қор керек"
                 },
                 "is_correct": false
               },
@@ -510,7 +958,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Targets depend only on income, so both are the same"
+                  "en": "Targets depend only on income, so both are the same",
+                  "ru": "Цели зависят только от дохода, поэтому у обоих одинаковые",
+                  "kk": "Мақсат тек табысқа байланысты, сондықтан екеуінде бірдей"
                 },
                 "is_correct": false
               }
@@ -521,14 +971,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "A salaried worker with a stable job and a freelancer have the same essential expenses. Why should the freelancer hold more months of buffer?"
+              "en": "A salaried worker with a stable job and a freelancer have the same essential expenses. Why should the freelancer hold more months of buffer?",
+              "ru": "У сотрудника со стабильной зарплатой и фрилансера одинаковые обязательные расходы. Почему фрилансеру стоит держать больше месяцев резерва?",
+              "kk": "Тұрақты жұмысы бар жалақылы қызметкер мен фрилансердің міндетті шығындары бірдей. Неге фрилансер көбірек айлық қор ұстауы керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Their income is less predictable, so a gap could last longer and needs more runway"
+                  "en": "Their income is less predictable, so a gap could last longer and needs more runway",
+                  "ru": "Его доход менее предсказуем, поэтому разрыв может длиться дольше и требует большего запаса",
+                  "kk": "Оның табысы аз болжамды, сондықтан үзіліс ұзаққа созылып, көбірек қор мерзімін қажет етуі мүмкін"
                 },
                 "is_correct": true
               },
@@ -536,7 +990,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Freelancers legally must hold larger emergency funds"
+                  "en": "Freelancers legally must hold larger emergency funds",
+                  "ru": "Фрилансеры по закону обязаны держать больший резервный фонд",
+                  "kk": "Фрилансерлер заң бойынша үлкенірек төтенше қор ұстауға міндетті"
                 },
                 "is_correct": false
               },
@@ -544,7 +1000,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Freelancers always have higher essential expenses"
+                  "en": "Freelancers always have higher essential expenses",
+                  "ru": "У фрилансеров всегда выше обязательные расходы",
+                  "kk": "Фрилансерлердің міндетті шығындары әрқашан жоғары"
                 },
                 "is_correct": false
               },
@@ -552,7 +1010,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Stable workers never face emergencies"
+                  "en": "Stable workers never face emergencies",
+                  "ru": "Стабильные работники никогда не сталкиваются с чрезвычайными ситуациями",
+                  "kk": "Тұрақты қызметкерлер ешқашан төтенше жағдайға тап болмайды"
                 },
                 "is_correct": false
               }
@@ -564,10 +1024,14 @@
     {
       "code": "savings_vehicles",
       "title": {
-        "en": "Savings Vehicles"
+        "en": "Savings Vehicles",
+        "ru": "Инструменты для сбережений",
+        "kk": "Жинақ құралдары"
       },
       "description": {
-        "en": "Match the account to the job. Emergency money needs liquidity and safety; you cannot maximise access, return, and safety at once."
+        "en": "Match the account to the job. Emergency money needs liquidity and safety; you cannot maximise access, return, and safety at once.",
+        "ru": "Подбирайте счет под задачу. Экстренным деньгам нужны ликвидность и безопасность; нельзя одновременно максимизировать доступ, доходность и безопасность.",
+        "kk": "Шотты ақша мақсатына сай таңдаңыз. Төтенше ақшаға өтімділік пен қауіпсіздік керек; қолжетімділік, табыс және қауіпсіздікті бірдей барынша арттыру мүмкін емес."
       },
       "estimatedMinutes": 5,
       "orderIndex": 2,
@@ -579,13 +1043,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "The right home for each tenge"
+              "en": "The right home for each tenge",
+              "ru": "Правильное место для каждого тенге",
+              "kk": "Әр теңгеге дұрыс орын"
             },
             "body": {
-              "en": "Money has jobs, and the account should match the job. Emergency money's job is to be there instantly and intact. Choosing where it sits is not about chasing the highest rate; it is about fitness for purpose."
+              "en": "Money has jobs, and the account should match the job. Emergency money's job is to be there instantly and intact. Choosing where it sits is not about chasing the highest rate; it is about fitness for purpose.",
+              "ru": "У денег есть задачи, и счет должен соответствовать задаче. Задача экстренных денег — быть доступными сразу и в полной сумме. Выбор места хранения — не погоня за самой высокой ставкой, а соответствие назначению.",
+              "kk": "Ақшаның өз міндеті бар, ал шот сол міндетке сай болуы керек. Төтенше ақшаның міндеті — бірден қолжетімді және толық күйде болу. Оны қайда ұстау ең жоғары пайызды қуу емес, мақсатқа сәйкестік."
             },
             "tip": {
-              "en": "Ask what this money must do before asking what it could earn."
+              "en": "Ask what this money must do before asking what it could earn.",
+              "ru": "Сначала спросите, что эти деньги должны делать, и только потом — сколько они могут заработать.",
+              "kk": "Алдымен бұл ақша не істеуі керек деп сұраңыз, содан кейін ғана қанша табыс әкелуі мүмкін екенін ойлаңыз."
             }
           },
           {
@@ -593,13 +1063,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Access, safety, return: pick two"
+              "en": "Access, safety, return: pick two",
+              "ru": "Доступ, безопасность, доходность: выберите два",
+              "kk": "Қолжетімділік, қауіпсіздік, табыс: екеуін таңдаңыз"
             },
             "body": {
-              "en": "Every place to hold money trades off three things: liquidity (how fast you can reach it), safety (whether the amount holds steady), and return (yield). No single option maxes all three at once, so you choose which matter most for this money."
+              "en": "Every place to hold money trades off three things: liquidity (how fast you can reach it), safety (whether the amount holds steady), and return (yield). No single option maxes all three at once, so you choose which matter most for this money.",
+              "ru": "Любое место хранения денег балансирует три вещи: ликвидность — как быстро вы можете получить деньги, безопасность — сохраняется ли сумма, и доходность. Ни один вариант не максимизирует все три одновременно, поэтому вы выбираете, что важнее именно для этих денег.",
+              "kk": "Ақшаны сақтайтын кез келген орын үш нәрсенің арасында таңдау жасатады: өтімділік — қаншалықты тез ала аласыз, қауіпсіздік — сома тұрақты қала ма, және табыстылық. Бір нұсқа үшеуін бірдей максимум ете алмайды, сондықтан осы ақша үшін ең маңыздысын таңдайсыз."
             },
             "example": {
-              "en": "A locked deposit raises return by sacrificing access; an investment raises return by sacrificing safety."
+              "en": "A locked deposit raises return by sacrificing access; an investment raises return by sacrificing safety.",
+              "ru": "Закрытый депозит повышает доходность за счет доступа; инвестиция повышает доходность за счет безопасности.",
+              "kk": "Бұғатталған депозит қолжетімділікті құрбан етіп, табысты арттырады; инвестиция қауіпсіздікті құрбан етіп, табысты арттырады."
             }
           },
           {
@@ -607,13 +1083,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "For emergencies, access and safety win"
+              "en": "For emergencies, access and safety win",
+              "ru": "Для чрезвычайных ситуаций побеждают доступ и безопасность",
+              "kk": "Төтенше жағдайлар үшін қолжетімділік пен қауіпсіздік маңызды"
             },
             "body": {
-              "en": "An emergency fund must be reachable within a day and worth exactly what you put in. A term deposit earns more but penalises early withdrawal, the wrong tool here. Investments can be down exactly when the shock hits, which defeats the purpose."
+              "en": "An emergency fund must be reachable within a day and worth exactly what you put in. A term deposit earns more but penalises early withdrawal, the wrong tool here. Investments can be down exactly when the shock hits, which defeats the purpose.",
+              "ru": "Резервный фонд должен быть доступен в течение дня и стоить ровно столько, сколько вы туда положили. Срочный депозит приносит больше, но штрафует за досрочное снятие — здесь это не тот инструмент. Инвестиции могут просесть именно в момент удара, что ломает сам смысл фонда.",
+              "kk": "Төтенше қор бір күн ішінде қолжетімді болып, салған сомаңызға тең болуы керек. Мерзімді депозит көбірек табыс әкеледі, бірақ ерте алуға айыппұл салады — бұл жерде ол дұрыс құрал емес. Инвестициялар дәл соққы кезінде төмендеуі мүмкін, бұл қордың мақсатын бұзады."
             },
             "tip": {
-              "en": "A small fence between you and the fund, like a separate account, beats locking it away."
+              "en": "A small fence between you and the fund, like a separate account, beats locking it away.",
+              "ru": "Небольшой барьер между вами и фондом, например отдельный счет, лучше, чем запирать деньги.",
+              "kk": "Сіз бен қор арасындағы шағын тосқауыл, мысалы бөлек шот, ақшаны бұғаттағаннан жақсы."
             }
           },
           {
@@ -621,7 +1103,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Comparing the options"
+              "en": "Comparing the options",
+              "ru": "Сравнение вариантов",
+              "kk": "Нұсқаларды салыстыру"
             },
             "content": {
               "en": {
@@ -675,6 +1159,110 @@
                     "text": "A separate, easy-access savings account usually wins: reachable, stable, and slightly out of sight."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Где могут лежать экстренные деньги и как каждый вариант выглядит по трем свойствам?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Вариант",
+                        "Доступ",
+                        "Безопасность",
+                        "Доходность",
+                        "Подходит для резерва"
+                      ],
+                      [
+                        "Текущий счет",
+                        "Мгновенный",
+                        "Высокая",
+                        "~0%",
+                        "Слишком легко потратить"
+                      ],
+                      [
+                        "Сберегательный счет / счет до востребования",
+                        "1 day",
+                        "Высокая",
+                        "Низкая",
+                        "Хорошо подходит"
+                      ],
+                      [
+                        "Срочный депозит",
+                        "Заблокирован, штраф",
+                        "Высокая",
+                        "Выше",
+                        "Не подходит: нет доступа"
+                      ],
+                      [
+                        "Акции",
+                        "Дни",
+                        "Нестабильна",
+                        "Выше в долгосрочной перспективе",
+                        "Не подходит: может просесть"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Обычно выигрывает отдельный сберегательный счет с легким доступом: доступный, стабильный и немного вне поля зрения."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Төтенше ақша қайда тұра алады және әр нұсқа үш қасиет бойынша қалай бағаланады?"
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Нұсқа",
+                        "Қолжетімділік",
+                        "Қауіпсіздік",
+                        "Табыс",
+                        "Төтенше қорға сай ма"
+                      ],
+                      [
+                        "Ағымдағы шот",
+                        "Бірден",
+                        "Жоғары",
+                        "~0%",
+                        "Жұмсап жіберуге тым ыңғайлы"
+                      ],
+                      [
+                        "Жинақ шоты / талап етілгенде берілетін шот",
+                        "1 day",
+                        "Жоғары",
+                        "Төмен",
+                        "Жақсы сәйкес келеді"
+                      ],
+                      [
+                        "Мерзімді депозит",
+                        "Бұғатталған, айыппұл бар",
+                        "Жоғары",
+                        "Жоғарырақ",
+                        "Дұрыс емес: қолжетімсіз"
+                      ],
+                      [
+                        "Акциялар",
+                        "Күндер",
+                        "Құбылмалы",
+                        "Ұзақ мерзімде жоғарырақ",
+                        "Дұрыс емес: төмендеп кетуі мүмкін"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Әдетте бөлек әрі оңай қолжетімді жинақ шоты ең жақсы: қолжетімді, тұрақты және күнделікті көзден сәл тыс."
+                  }
+                ]
               }
             }
           },
@@ -683,10 +1271,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Where should the buffer live?"
+              "en": "Where should the buffer live?",
+              "ru": "Где должен храниться резерв?",
+              "kk": "Қор қайда сақталуы керек?"
             },
             "body": {
-              "en": "You have a 900,000 ₸ emergency fund. Pick the best home for it."
+              "en": "You have a 900,000 ₸ emergency fund. Pick the best home for it.",
+              "ru": "У вас есть резервный фонд 900 000 ₸. Выберите лучшее место для него.",
+              "kk": "Сізде 900 000 ₸ төтенше қор бар. Оған ең жақсы орынды таңдаңыз."
             },
             "interactiveType": "portfolio_choice",
             "interactiveContent": {
@@ -719,6 +1311,66 @@
                   }
                 ],
                 "correct": "Easy-access savings account"
+              },
+              "ru": {
+                "instruction": "Выберите лучшее место для хранения резервного фонда.",
+                "options": [
+                  {
+                    "name": "Инвестиционный счет с акциями",
+                    "data": [
+                      "Более высокая ожидаемая долгосрочная доходность",
+                      "Стоимость может упасть во время кризиса",
+                      "Продажа в убыток, когда деньги нужны"
+                    ]
+                  },
+                  {
+                    "name": "Сберегательный счет с легким доступом",
+                    "data": [
+                      "Доступен в течение дня",
+                      "Сумма остается стабильной",
+                      "Немного отделен от ежедневных расходов"
+                    ]
+                  },
+                  {
+                    "name": "Годовой срочный депозит с блокировкой",
+                    "data": [
+                      "Лучшая процентная ставка",
+                      "Штраф за досрочное снятие",
+                      "Нельзя получить деньги, когда случается удар"
+                    ]
+                  }
+                ],
+                "correct": "Сберегательный счет с легким доступом"
+              },
+              "kk": {
+                "instruction": "Төтенше қорды сақтауға ең жақсы орынды таңдаңыз.",
+                "options": [
+                  {
+                    "name": "Акцияларға инвестициялық шот",
+                    "data": [
+                      "Ұзақ мерзімде күтілетін табыс жоғарырақ",
+                      "Дағдарыста құны төмендеуі мүмкін",
+                      "Қажет кезде шығынмен сату"
+                    ]
+                  },
+                  {
+                    "name": "Оңай қолжетімді жинақ шоты",
+                    "data": [
+                      "Бір күн ішінде қолжетімді",
+                      "Сома тұрақты қалады",
+                      "Күнделікті шығындардан сәл бөлек"
+                    ]
+                  },
+                  {
+                    "name": "Бір жылға бұғатталған мерзімді депозит",
+                    "data": [
+                      "Ең жақсы пайыздық мөлшерлеме",
+                      "Ерте шешіп алуға айыппұл",
+                      "Соққы болғанда ақшаға жете алмайсыз"
+                    ]
+                  }
+                ],
+                "correct": "Оңай қолжетімді жинақ шоты"
               }
             }
           },
@@ -727,13 +1379,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Purpose first, yield second"
+              "en": "Purpose first, yield second",
+              "ru": "Сначала цель, потом доходность",
+              "kk": "Алдымен мақсат, кейін табыс"
             },
             "body": {
-              "en": "Match each pot of money to its job. For an emergency fund, prioritise liquidity and safety and accept a modest return. Money you will need on a known future date can sit somewhere less liquid, which leads to sinking funds next."
+              "en": "Match each pot of money to its job. For an emergency fund, prioritise liquidity and safety and accept a modest return. Money you will need on a known future date can sit somewhere less liquid, which leads to sinking funds next.",
+              "ru": "Соотносите каждую сумму денег с ее задачей. Для резервного фонда ставьте ликвидность и безопасность выше доходности и принимайте умеренный доход. Деньги, которые понадобятся в известную будущую дату, могут лежать менее ликвидно — это подводит нас к фондам будущих расходов.",
+              "kk": "Әр ақша қоржынын оның міндетіне сай орналастырыңыз. Төтенше қор үшін өтімділік пен қауіпсіздікті бірінші орынға қойып, қарапайым табысқа келісіңіз. Белгілі болашақ күні керек болатын ақша өтімділігі төмендеу жерде тұра алады — келесі тақырып осы жинақ қорлары туралы."
             },
             "tip": {
-              "en": "The best emergency account is boring, accessible, and safe."
+              "en": "The best emergency account is boring, accessible, and safe.",
+              "ru": "Лучший счет для резерва — скучный, доступный и безопасный.",
+              "kk": "Төтенше қор үшін ең жақсы шот — қызықсыз, қолжетімді және қауіпсіз."
             }
           }
         ]
@@ -742,7 +1400,9 @@
         "quiz_id": 703,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Savings Vehicles — Check"
+          "en": "Savings Vehicles — Check",
+          "ru": "Инструменты для сбережений — проверка",
+          "kk": "Жинақ құралдары — тексеру"
         },
         "questions": [
           {
@@ -750,14 +1410,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A friend moves their entire emergency fund into stocks to earn more. Six months later the market drops and they lose their job the same week. Why was the choice risky?"
+              "en": "A friend moves their entire emergency fund into stocks to earn more. Six months later the market drops and they lose their job the same week. Why was the choice risky?",
+              "ru": "Друг переводит весь резервный фонд в акции, чтобы заработать больше. Через шесть месяцев рынок падает, и на той же неделе он теряет работу. Почему это было рискованно?",
+              "kk": "Досыңыз көбірек табыс табу үшін бүкіл төтенше қорын акцияларға ауыстырды. Алты айдан кейін нарық құлап, сол аптада ол жұмысынан айырылды. Неге бұл тәуекелді таңдау болды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Investments can be down exactly when a shock hits, forcing a sale at a loss right when the cash is needed"
+                  "en": "Investments can be down exactly when a shock hits, forcing a sale at a loss right when the cash is needed",
+                  "ru": "Инвестиции могут просесть именно во время удара, вынуждая продавать в убыток ровно тогда, когда нужны деньги",
+                  "kk": "Инвестициялар дәл соққы кезінде төмендеп, ақша қажет болған сәтте шығынмен сатуға мәжбүрлеуі мүмкін"
                 },
                 "is_correct": true
               },
@@ -765,7 +1429,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Stocks cannot be sold for cash at all"
+                  "en": "Stocks cannot be sold for cash at all",
+                  "ru": "Акции вообще нельзя продать за деньги",
+                  "kk": "Акцияларды мүлде ақшаға сатуға болмайды"
                 },
                 "is_correct": false
               },
@@ -773,7 +1439,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Emergency funds are legally barred from earning any return"
+                  "en": "Emergency funds are legally barred from earning any return",
+                  "ru": "Резервным фондам законом запрещено приносить доход",
+                  "kk": "Төтенше қорларға заң бойынша табыс әкелуге тыйым салынған"
                 },
                 "is_correct": false
               },
@@ -781,7 +1449,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The friend should have used a locked term deposit instead, which has the same access"
+                  "en": "The friend should have used a locked term deposit instead, which has the same access",
+                  "ru": "Другу нужно было использовать заблокированный срочный депозит, у которого такой же доступ",
+                  "kk": "Досыңыз дәл сондай қолжетімділігі бар бұғатталған мерзімді депозитті қолдануы керек еді"
                 },
                 "is_correct": false
               }
@@ -792,14 +1462,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "A one-year term deposit pays a higher rate than an easy-access savings account. Why is it still a poor home for emergency money?"
+              "en": "A one-year term deposit pays a higher rate than an easy-access savings account. Why is it still a poor home for emergency money?",
+              "ru": "Годовой срочный депозит платит более высокую ставку, чем сберегательный счет с легким доступом. Почему он все равно плохо подходит для экстренных денег?",
+              "kk": "Бір жылдық мерзімді депозит оңай қолжетімді жинақ шотынан жоғары мөлшерлеме төлейді. Неге ол бәрібір төтенше ақшаға нашар орын?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Reaching it early triggers a penalty, so the money is not truly available when a shock occurs"
+                  "en": "Reaching it early triggers a penalty, so the money is not truly available when a shock occurs",
+                  "ru": "Досрочный доступ вызывает штраф, поэтому деньги не являются по-настоящему доступными, когда случается удар",
+                  "kk": "Ерте алу айыппұлға әкеледі, сондықтан соққы болғанда ақша шын мәнінде қолжетімді емес"
                 },
                 "is_correct": true
               },
@@ -807,7 +1481,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Term deposits are not safe and can lose value"
+                  "en": "Term deposits are not safe and can lose value",
+                  "ru": "Срочные депозиты небезопасны и могут терять стоимость",
+                  "kk": "Мерзімді депозиттер қауіпсіз емес және құнын жоғалтуы мүмкін"
                 },
                 "is_correct": false
               },
@@ -815,7 +1491,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Higher interest always means higher risk of total loss"
+                  "en": "Higher interest always means higher risk of total loss",
+                  "ru": "Более высокий процент всегда означает больший риск полной потери",
+                  "kk": "Жоғары пайыз әрқашан толық жоғалту тәуекелі жоғары дегенді білдіреді"
                 },
                 "is_correct": false
               },
@@ -823,7 +1501,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Banks never allow term deposits to be withdrawn early under any terms"
+                  "en": "Banks never allow term deposits to be withdrawn early under any terms",
+                  "ru": "Банки никогда не позволяют снимать срочные депозиты досрочно ни при каких условиях",
+                  "kk": "Банктер мерзімді депозиттерді ешқандай жағдайда ерте шешуге рұқсат бермейді"
                 },
                 "is_correct": false
               }
@@ -835,10 +1515,14 @@
     {
       "code": "sinking_funds",
       "title": {
-        "en": "Sinking Funds"
+        "en": "Sinking Funds",
+        "ru": "Фонды будущих расходов",
+        "kk": "Болашақ шығындар қорлары"
       },
       "description": {
-        "en": "Save a little each month for a known future cost, so it never becomes an emergency and never raids your real buffer."
+        "en": "Save a little each month for a known future cost, so it never becomes an emergency and never raids your real buffer.",
+        "ru": "Откладывайте понемногу каждый месяц на известный будущий расход, чтобы он не стал чрезвычайной ситуацией и не забирал деньги из настоящего резерва.",
+        "kk": "Белгілі болашақ шығынға ай сайын аздап жинаңыз, сонда ол төтенше жағдайға айналмайды және нақты қорыңызды қозғамайды."
       },
       "estimatedMinutes": 5,
       "orderIndex": 3,
@@ -850,13 +1534,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "The surprise that was not a surprise"
+              "en": "The surprise that was not a surprise",
+              "ru": "Сюрприз, который не был сюрпризом",
+              "kk": "Күтпеген емес «күтпеген» жағдай"
             },
             "body": {
-              "en": "Your annual insurance bill of 120,000 ₸ lands and wrecks the month. But you knew it was coming. A sinking fund turns that yearly shock into a small, painless monthly habit you barely notice."
+              "en": "Your annual insurance bill of 120,000 ₸ lands and wrecks the month. But you knew it was coming. A sinking fund turns that yearly shock into a small, painless monthly habit you barely notice.",
+              "ru": "Приходит ежегодный страховой счет на 120 000 ₸ и ломает весь месяц. Но вы знали, что он придет. Фонд будущих расходов превращает этот годовой удар в маленькую, почти незаметную ежемесячную привычку.",
+              "kk": "Жыл сайынғы 120 000 ₸ сақтандыру төлемі келіп, айды бұзады. Бірақ сіз оның келетінін білдіңіз. Болашақ шығындар қоры бұл жылдық соққыны ай сайынғы шағын, ауыртпайтын әдетке айналдырады."
             },
             "tip": {
-              "en": "A cost you can see coming should never arrive as an emergency."
+              "en": "A cost you can see coming should never arrive as an emergency.",
+              "ru": "Расход, который можно предвидеть, не должен приходить как чрезвычайная ситуация.",
+              "kk": "Алдын ала көрінетін шығын төтенше жағдай болып келмеуі керек."
             }
           },
           {
@@ -864,13 +1554,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Smooth the lumps"
+              "en": "Smooth the lumps",
+              "ru": "Сгладьте крупные платежи",
+              "kk": "Ірі төлемдерді тегістеңіз"
             },
             "body": {
-              "en": "Take a known future cost, divide it by the months until it is due, and set that amount aside each month. Lumpy, irregular bills become a steady line in your budget. Each predictable cost can have its own small fund."
+              "en": "Take a known future cost, divide it by the months until it is due, and set that amount aside each month. Lumpy, irregular bills become a steady line in your budget. Each predictable cost can have its own small fund.",
+              "ru": "Возьмите известный будущий расход, разделите его на количество месяцев до срока оплаты и откладывайте эту сумму каждый месяц. Нерегулярные крупные счета превращаются в стабильную строку бюджета. У каждого предсказуемого расхода может быть свой небольшой фонд.",
+              "kk": "Белгілі болашақ шығынды алыңыз, төлем мерзіміне дейінгі айларға бөліңіз және сол соманы ай сайын бөліп қойыңыз. Ірі, сирек төлемдер бюджеттегі тұрақты жолға айналады. Әр болжамды шығынның өз шағын қоры болуы мүмкін."
             },
             "example": {
-              "en": "A 120,000 ₸ yearly bill is 10,000 ₸ a month. When it arrives, the money is already waiting."
+              "en": "A 120,000 ₸ yearly bill is 10,000 ₸ a month. When it arrives, the money is already waiting.",
+              "ru": "Годовой счет 120 000 ₸ — это 10 000 ₸ в месяц. Когда он приходит, деньги уже ждут.",
+              "kk": "Жылдық 120 000 ₸ төлем — айына 10 000 ₸. Ол келгенде, ақша дайын тұрады."
             }
           },
           {
@@ -878,13 +1574,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "They protect the emergency fund"
+              "en": "They protect the emergency fund",
+              "ru": "Они защищают резервный фонд",
+              "kk": "Олар төтенше қорды қорғайды"
             },
             "body": {
-              "en": "The emergency fund is for genuine surprises. If you keep dipping into it for predictable costs, it is never full when a real shock comes. Sinking funds keep those expected costs off the emergency fund entirely."
+              "en": "The emergency fund is for genuine surprises. If you keep dipping into it for predictable costs, it is never full when a real shock comes. Sinking funds keep those expected costs off the emergency fund entirely.",
+              "ru": "Резервный фонд нужен для настоящих неожиданностей. Если постоянно брать из него на предсказуемые расходы, он никогда не будет полным, когда придет настоящий удар. Фонды будущих расходов полностью убирают ожидаемые расходы с резервного фонда.",
+              "kk": "Төтенше қор шынайы күтпеген жағдайларға арналған. Егер одан болжамды шығындарға ала берсеңіз, нақты соққы келгенде ол ешқашан толық болмайды. Болашақ шығындар қорлары күтілетін шығындарды төтенше қордан толық бөледі."
             },
             "tip": {
-              "en": "Separate the predictable from the unpredictable, and fund each on purpose."
+              "en": "Separate the predictable from the unpredictable, and fund each on purpose.",
+              "ru": "Отделяйте предсказуемое от непредсказуемого и финансируйте каждое осознанно.",
+              "kk": "Болжамдыны болжамсыздан бөліп, әрқайсысын мақсатпен қаржыландырыңыз."
             }
           },
           {
@@ -892,7 +1594,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Known costs, monthly amounts"
+              "en": "Known costs, monthly amounts",
+              "ru": "Известные расходы, ежемесячные суммы",
+              "kk": "Белгілі шығындар, айлық сомалар"
             },
             "content": {
               "en": {
@@ -935,6 +1639,88 @@
                     "text": "Together that is 30,000 ₸ a month so that three predictable bills never feel like a crisis."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Перечислите крупные годовые расходы, затем превратите каждый в ежемесячное отложение."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Будущий расход",
+                        "Когда",
+                        "Итого",
+                        "Откладывать ежемесячно"
+                      ],
+                      [
+                        "Автостраховка",
+                        "Ежегодно",
+                        "120,000 ₸",
+                        "10,000 ₸"
+                      ],
+                      [
+                        "Новые шины",
+                        "Через 6 месяцев",
+                        "90,000 ₸",
+                        "15,000 ₸"
+                      ],
+                      [
+                        "Праздничные подарки",
+                        "Через 12 месяцев",
+                        "60,000 ₸",
+                        "5,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Вместе это 30 000 ₸ в месяц, чтобы три предсказуемых счета никогда не ощущались как кризис."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ірі жылдық шығындарды тізіп, әрқайсысын ай сайынғы жинақ сомасына айналдырыңыз."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Болашақ шығын",
+                        "Қашан",
+                        "Барлығы",
+                        "Ай сайын бөлу"
+                      ],
+                      [
+                        "Автосақтандыру",
+                        "Жыл сайын",
+                        "120,000 ₸",
+                        "10,000 ₸"
+                      ],
+                      [
+                        "Жаңа шиналар",
+                        "6 айдан кейін",
+                        "90,000 ₸",
+                        "15,000 ₸"
+                      ],
+                      [
+                        "Мерекелік сыйлықтар",
+                        "12 айдан кейін",
+                        "60,000 ₸",
+                        "5,000 ₸"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Барлығы айына 30 000 ₸, сонда үш болжамды төлем ешқашан дағдарыс болып сезілмейді."
+                  }
+                ]
               }
             }
           },
@@ -943,10 +1729,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Find the misfiled emergency"
+              "en": "Find the misfiled emergency",
+              "ru": "Найдите расход, ошибочно записанный как чрезвычайный",
+              "kk": "Қате төтенше жағдай деп белгіленген шығынды табыңыз"
             },
             "body": {
-              "en": "One of these was treated as an emergency but should have been a sinking fund. Spot it."
+              "en": "One of these was treated as an emergency but should have been a sinking fund. Spot it.",
+              "ru": "Один из этих расходов посчитали чрезвычайным, хотя для него нужен был фонд будущих расходов. Найдите его.",
+              "kk": "Осының бірі төтенше жағдай деп қаралған, бірақ оған болашақ шығындар қоры керек еді. Оны табыңыз."
             },
             "interactiveType": "error_detector",
             "interactiveContent": {
@@ -966,6 +1756,40 @@
                   }
                 ],
                 "final_explanation": "If you can see a cost coming, save for it in advance. Reserve the emergency fund for the things you truly cannot predict."
+              },
+              "ru": {
+                "instruction": "Выберите расход, который ошибочно посчитали чрезвычайным.",
+                "cases": [
+                  {
+                    "text": "Какой из этих расходов был предсказуемым и должен был покрываться фондом будущих расходов?",
+                    "options": [
+                      "a) Неожиданный визит в больницу после аварии",
+                      "b) Внезапная потеря работы",
+                      "c) Ежегодный счет за автостраховку, который приходит каждую весну",
+                      "d) Лопнувшая труба, затопившая кухню"
+                    ],
+                    "correct": "c",
+                    "explanation": "Страховой счет приходит по одному и тому же графику каждый год, поэтому он полностью предсказуем и относится к фонду будущих расходов. Остальные три — настоящие неожиданности, для которых и нужен резервный фонд."
+                  }
+                ],
+                "final_explanation": "Если расход можно предвидеть, копите на него заранее. Резервный фонд оставьте для того, что действительно нельзя предсказать."
+              },
+              "kk": {
+                "instruction": "Қате түрде төтенше жағдай деп қаралған шығынды таңдаңыз.",
+                "cases": [
+                  {
+                    "text": "Осының қайсысы болжамды шығын болып, болашақ шығындар қорымен жабылуы керек еді?",
+                    "options": [
+                      "a) Жазатайым оқиғадан кейінгі күтпеген ауруханаға бару",
+                      "b) Кенеттен жұмыстан айырылу",
+                      "c) Әр көктемде келетін жылдық автосақтандыру төлемі",
+                      "d) Асүйді су басқан жарылған құбыр"
+                    ],
+                    "correct": "c",
+                    "explanation": "Сақтандыру төлемі жыл сайын бір кестемен келеді, сондықтан ол толық болжамды және болашақ шығындар қорына жатады. Қалған үшеуі — төтенше қор қажет болатын шынайы күтпеген жағдайлар."
+                  }
+                ],
+                "final_explanation": "Шығынды алдын ала көрсеңіз, оған алдын ала жинаңыз. Төтенше қорды шынымен болжауға болмайтын жағдайларға қалдырыңыз."
               }
             }
           },
@@ -974,13 +1798,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Plan the predictable"
+              "en": "Plan the predictable",
+              "ru": "Планируйте предсказуемое",
+              "kk": "Болжамдыны жоспарлаңыз"
             },
             "body": {
-              "en": "Sinking funds smooth known lumpy costs into small monthly amounts and shield the emergency fund from predictable drains. Between buffers and sinking funds you now hold several pots of cash; the last topic asks how much idle cash is wise."
+              "en": "Sinking funds smooth known lumpy costs into small monthly amounts and shield the emergency fund from predictable drains. Between buffers and sinking funds you now hold several pots of cash; the last topic asks how much idle cash is wise.",
+              "ru": "Фонды будущих расходов превращают известные крупные платежи в небольшие ежемесячные суммы и защищают резервный фонд от предсказуемых утечек. Между резервами и фондами будущих расходов у вас теперь несколько денежных корзин; последняя тема спрашивает, сколько свободных денег держать разумно.",
+              "kk": "Болашақ шығындар қорлары белгілі ірі шығындарды шағын айлық сомаларға тегістейді және төтенше қорды болжамды тартулардан қорғайды. Резервтер мен болашақ шығындар қорлары арқылы сізде бірнеше ақша қоржыны бар; соңғы тақырып бос ақшаны қанша ұстау дұрыс екенін сұрайды."
             },
             "tip": {
-              "en": "One sinking fund per recurring lumpy bill keeps each one off your emergency money."
+              "en": "One sinking fund per recurring lumpy bill keeps each one off your emergency money.",
+              "ru": "Один фонд будущих расходов на каждый повторяющийся крупный счет удерживает его подальше от резервных денег.",
+              "kk": "Әр қайталанатын ірі төлемге бір болашақ шығындар қоры оны төтенше ақшадан бөлек ұстайды."
             }
           }
         ]
@@ -989,7 +1819,9 @@
         "quiz_id": 704,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Sinking Funds — Check"
+          "en": "Sinking Funds — Check",
+          "ru": "Фонды будущих расходов — проверка",
+          "kk": "Болашақ шығындар қорлары — тексеру"
         },
         "questions": [
           {
@@ -997,14 +1829,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Someone repeatedly drains their emergency fund for yearly costs like insurance and gifts, then has nothing left when their car breaks down. What is the underlying mistake?"
+              "en": "Someone repeatedly drains their emergency fund for yearly costs like insurance and gifts, then has nothing left when their car breaks down. What is the underlying mistake?",
+              "ru": "Кто-то постоянно опустошает резервный фонд на годовые расходы вроде страховки и подарков, а потом ничего не остается, когда ломается машина. В чем основная ошибка?",
+              "kk": "Біреу сақтандыру мен сыйлықтар сияқты жылдық шығындарға төтенше қорын қайта-қайта жұмсап, көлігі бұзылғанда ештеңесіз қалады. Негізгі қателік неде?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They used the emergency fund for predictable costs that should have had their own sinking funds"
+                  "en": "They used the emergency fund for predictable costs that should have had their own sinking funds",
+                  "ru": "Они использовали резервный фонд для предсказуемых расходов, у которых должны были быть свои фонды будущих расходов",
+                  "kk": "Олар төтенше қорды өз болашақ шығындар қоры болуы керек болжамды шығындарға қолданды"
                 },
                 "is_correct": true
               },
@@ -1012,7 +1848,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Their emergency fund was simply too small from the start"
+                  "en": "Their emergency fund was simply too small from the start",
+                  "ru": "Их резервный фонд просто был слишком маленьким с самого начала",
+                  "kk": "Олардың төтенше қоры бастапқыдан тым кішкентай болды"
                 },
                 "is_correct": false
               },
@@ -1020,7 +1858,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Sinking funds and emergency funds are the same thing"
+                  "en": "Sinking funds and emergency funds are the same thing",
+                  "ru": "Фонды будущих расходов и резервные фонды — одно и то же",
+                  "kk": "Болашақ шығындар қорлары мен төтенше қорлар бір нәрсе"
                 },
                 "is_correct": false
               },
@@ -1028,7 +1868,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Predictable costs should also be paid with high-interest debt"
+                  "en": "Predictable costs should also be paid with high-interest debt",
+                  "ru": "Предсказуемые расходы тоже нужно оплачивать дорогим долгом",
+                  "kk": "Болжамды шығындарды да жоғары пайызды қарызбен төлеу керек"
                 },
                 "is_correct": false
               }
@@ -1039,14 +1881,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "A 96,000 ₸ expense is due in 8 months. How does a sinking fund handle it, and what is the monthly amount?"
+              "en": "A 96,000 ₸ expense is due in 8 months. How does a sinking fund handle it, and what is the monthly amount?",
+              "ru": "Расход 96 000 ₸ нужно оплатить через 8 месяцев. Как фонд будущих расходов справится с ним и какая будет ежемесячная сумма?",
+              "kk": "96 000 ₸ шығын 8 айдан кейін төленуі керек. Болашақ шығындар қоры оны қалай жабады және айлық сома қанша?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Set aside 12,000 ₸ a month, so the full amount is ready by the due date"
+                  "en": "Set aside 12,000 ₸ a month, so the full amount is ready by the due date",
+                  "ru": "Откладывать 12 000 ₸ в месяц, чтобы к сроку была готова вся сумма",
+                  "kk": "Айына 12 000 ₸ бөліп қою, сонда мерзімге толық сома дайын болады"
                 },
                 "is_correct": true
               },
@@ -1054,7 +1900,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Pay it all from the emergency fund when it arrives"
+                  "en": "Pay it all from the emergency fund when it arrives",
+                  "ru": "Оплатить все из резервного фонда, когда счет придет",
+                  "kk": "Келген кезде бәрін төтенше қордан төлеу"
                 },
                 "is_correct": false
               },
@@ -1062,7 +1910,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Set aside 96,000 ₸ now and stop saving for anything else"
+                  "en": "Set aside 96,000 ₸ now and stop saving for anything else",
+                  "ru": "Отложить 96 000 ₸ сейчас и перестать копить на все остальное",
+                  "kk": "Қазір 96 000 ₸ бөліп қойып, басқа нәрсеге жинауды тоқтату"
                 },
                 "is_correct": false
               },
@@ -1070,7 +1920,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Borrow the amount and repay it over the following 8 months"
+                  "en": "Borrow the amount and repay it over the following 8 months",
+                  "ru": "Занять сумму и погашать ее следующие 8 месяцев",
+                  "kk": "Соманы қарызға алып, келесі 8 айда қайтару"
                 },
                 "is_correct": false
               }
@@ -1082,10 +1934,14 @@
     {
       "code": "cash_reserves",
       "title": {
-        "en": "Cash Reserves"
+        "en": "Cash Reserves",
+        "ru": "Денежные резервы",
+        "kk": "Ақша резервтері"
       },
       "description": {
-        "en": "Holding cash buys safety and optionality but bleeds to inflation. The skill is enough to be ready, not so much it quietly shrinks."
+        "en": "Holding cash buys safety and optionality but bleeds to inflation. The skill is enough to be ready, not so much it quietly shrinks.",
+        "ru": "Хранение денег дает безопасность и выбор, но теряет ценность из-за инфляции. Навык в том, чтобы держать достаточно для готовности, но не настолько много, чтобы деньги тихо уменьшались.",
+        "kk": "Қолма-қол ақша ұстау қауіпсіздік пен таңдау береді, бірақ инфляциядан құн жоғалтады. Дағды — дайын болуға жеткілікті ұстау, бірақ үнсіз құнсызданатындай тым көп ұстамау."
       },
       "estimatedMinutes": 5,
       "orderIndex": 4,
@@ -1097,13 +1953,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "The cost of feeling safe"
+              "en": "The cost of feeling safe",
+              "ru": "Цена ощущения безопасности",
+              "kk": "Қауіпсіз сезінудің құны"
             },
             "body": {
-              "en": "Cash feels like the safest place for money, and in the short term it is. But idle cash is quietly shrinking against inflation every year. So the real question is how much idle cash is actually wise to hold."
+              "en": "Cash feels like the safest place for money, and in the short term it is. But idle cash is quietly shrinking against inflation every year. So the real question is how much idle cash is actually wise to hold.",
+              "ru": "Деньги на счете кажутся самым безопасным местом для средств, и в краткосрочной перспективе это так. Но простаивающие деньги каждый год тихо уменьшаются из-за инфляции. Поэтому настоящий вопрос — сколько свободных денег разумно держать.",
+              "kk": "Ақша ең қауіпсіз орын сияқты көрінеді, қысқа мерзімде солай да. Бірақ бос ақша жыл сайын инфляцияға байланысты үнсіз құнсызданады. Сондықтан нақты сұрақ — бос ақшаны қанша ұстау ақылға қонымды."
             },
             "tip": {
-              "en": "Cash is safe in value terms and unsafe in purchasing-power terms."
+              "en": "Cash is safe in value terms and unsafe in purchasing-power terms.",
+              "ru": "Деньги безопасны по номиналу, но небезопасны по покупательной способности.",
+              "kk": "Ақша номинал тұрғысынан қауіпсіз, бірақ сатып алу қабілеті тұрғысынан қауіпсіз емес."
             }
           },
           {
@@ -1111,13 +1973,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Cash is not free to hold"
+              "en": "Cash is not free to hold",
+              "ru": "Держать деньги не бесплатно",
+              "kk": "Ақшаны ұстау тегін емес"
             },
             "body": {
-              "en": "Holding cash carries two quiet costs. Inflation erodes what each tenge can buy, and the money misses the return it could earn invested. Together these are the price of keeping money on the sidelines."
+              "en": "Holding cash carries two quiet costs. Inflation erodes what each tenge can buy, and the money misses the return it could earn invested. Together these are the price of keeping money on the sidelines.",
+              "ru": "Хранение денег несет две тихие стоимости. Инфляция уменьшает то, что может купить каждый тенге, а деньги упускают доход, который могли бы принести в инвестициях. Вместе это цена за то, что деньги стоят в стороне.",
+              "kk": "Ақшаны ұстаудың екі үнсіз құны бар. Инфляция әр теңгенің сатып алу қабілетін азайтады, ал ақша инвестицияда табуы мүмкін табыстан қалады. Екеуі бірге ақшаны шетте ұстаудың бағасы."
             },
             "example": {
-              "en": "At roughly 10% inflation, 1,000,000 ₸ left idle for a year buys about 100,000 ₸ less by year-end."
+              "en": "At roughly 10% inflation, 1,000,000 ₸ left idle for a year buys about 100,000 ₸ less by year-end.",
+              "ru": "При инфляции около 10% 1 000 000 ₸, лежащие без дела год, к концу года покупают примерно на 100 000 ₸ меньше.",
+              "kk": "Шамамен 10% инфляция кезінде бір жыл бос жатқан 1 000 000 ₸ жыл соңына қарай шамамен 100 000 ₸-ге аз сатып ала алады."
             }
           },
           {
@@ -1125,13 +1993,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "But cash buys options"
+              "en": "But cash buys options",
+              "ru": "Но деньги дают варианты",
+              "kk": "Бірақ ақша мүмкіндік береді"
             },
             "body": {
-              "en": "The same idle cash also buys real value: you avoid forced borrowing or selling, and you can act fast on an opportunity. The right reserve balances that peace and readiness against the drag. Cash beyond your buffer and sinking-fund needs usually belongs invested."
+              "en": "The same idle cash also buys real value: you avoid forced borrowing or selling, and you can act fast on an opportunity. The right reserve balances that peace and readiness against the drag. Cash beyond your buffer and sinking-fund needs usually belongs invested.",
+              "ru": "Те же свободные деньги дают реальную ценность: вы избегаете вынужденных займов или продаж и можете быстро воспользоваться возможностью. Правильный резерв балансирует спокойствие и готовность с инфляционным грузом. Деньги сверх подушки и фондов будущих расходов обычно стоит инвестировать.",
+              "kk": "Сол бос ақша нақты құндылық та береді: мәжбүрлі қарыздан немесе сатудан қашасыз және мүмкіндікті тез пайдалана аласыз. Дұрыс резерв тыныштық пен дайындықты құнсыздану ауыртпалығымен теңестіреді. Қор мен болашақ шығындар қажеттілігінен артық ақша әдетте инвестициялануы керек."
             },
             "tip": {
-              "en": "Hold enough cash to be safe and ready, then put the rest to work."
+              "en": "Hold enough cash to be safe and ready, then put the rest to work.",
+              "ru": "Держите достаточно денег для безопасности и готовности, а остальное заставьте работать.",
+              "kk": "Қауіпсіз әрі дайын болуға жеткілікті ақша ұстаңыз, қалғанын жұмыс істетіңіз."
             }
           },
           {
@@ -1139,7 +2013,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "The price of too much cash"
+              "en": "The price of too much cash",
+              "ru": "Цена слишком большого запаса денег",
+              "kk": "Тым көп ақшаның бағасы"
             },
             "content": {
               "en": {
@@ -1183,6 +2059,90 @@
                     "text": "Some cash is wise insurance; too much is a slow, certain loss to inflation."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У двух людей есть по 1 500 000 ₸ сверх ежемесячных нужд. Сравните хранение всей суммы наличными в течение года со сбалансированным подходом при инфляции около 10%."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Все в деньгах",
+                        "Резерв плюс инвестиции"
+                      ],
+                      [
+                        "Оставлено доступным",
+                        "1,500,000 ₸",
+                        "500,000 ₸"
+                      ],
+                      [
+                        "Пущено в работу",
+                        "0 ₸",
+                        "1,000,000 ₸"
+                      ],
+                      [
+                        "Инфляционное давление",
+                        "~150 000 ₸ потеряно",
+                        "Только на денежную часть"
+                      ],
+                      [
+                        "Компромисс",
+                        "Максимальная безопасность, реальное уменьшение",
+                        "Достаточно безопасно, деньги работают"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Часть денег — разумная страховка; слишком много денег — медленная и почти гарантированная потеря из-за инфляции."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі адамның айлық қажеттіліктерінен бөлек 1 500 000 ₸ бар. Инфляция шамамен 10% болғанда, бәрін бір жыл ақша күйінде ұстауды теңгерімді тәсілмен салыстырыңыз."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "",
+                        "Барлығы ақшада",
+                        "Қор және инвестиция"
+                      ],
+                      [
+                        "Қолжетімді қалдырылған",
+                        "1,500,000 ₸",
+                        "500,000 ₸"
+                      ],
+                      [
+                        "Жұмысқа салынған",
+                        "0 ₸",
+                        "1,000,000 ₸"
+                      ],
+                      [
+                        "Инфляциялық ауыртпалық",
+                        "~150 000 ₸ жоғалды",
+                        "Тек ақша бөлігінде"
+                      ],
+                      [
+                        "Таңдау құны",
+                        "Ең жоғары қауіпсіздік, нақты құнсыздану",
+                        "Жеткілікті қауіпсіз, ақша жұмыс істейді"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ақшаның бір бөлігі — ақылды сақтандыру; тым көп ақша — инфляциядан болатын баяу әрі дерлік анық жоғалту."
+                  }
+                ]
               }
             }
           },
@@ -1191,10 +2151,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Wise reserve or lazy cash?"
+              "en": "Wise reserve or lazy cash?",
+              "ru": "Разумный резерв или ленивые деньги?",
+              "kk": "Ақылды резерв пе, әлде бос жатқан ақша ма?"
             },
             "body": {
-              "en": "Decide whether each pile of cash is doing a job or just sitting idle."
+              "en": "Decide whether each pile of cash is doing a job or just sitting idle.",
+              "ru": "Решите, выполняет ли каждая сумма задачу или просто лежит без дела.",
+              "kk": "Әр ақша бөлігі жұмыс істеп тұр ма, әлде жай бос жатыр ма — шешіңіз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1226,6 +2190,64 @@
                     "explanation": "Comfort is not a financial job. Long-idle cash beyond your buffer steadily bleeds to inflation."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Отметьте каждое как «Разумный резерв» или «Ленивые деньги».",
+                "options": [
+                  "Разумный резерв",
+                  "Ленивые деньги"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Четыре месяца обязательных расходов на сберегательном счете с легким доступом.",
+                    "correct_answer": "Разумный резерв",
+                    "explanation": "Это резервная подушка выполняет свою задачу: доступна, безопасна и соответствует потребности."
+                  },
+                  {
+                    "text": "Три года совокупного дохода лежат на текущем счете и ничего не зарабатывают.",
+                    "correct_answer": "Ленивые деньги",
+                    "explanation": "Эта большая сумма намного превышает разумный резерв и каждый год теряет покупательную способность из-за инфляции, не добавляя реальной безопасности."
+                  },
+                  {
+                    "text": "Деньги, отложенные на депозит за квартиру, который нужно оплатить через пять месяцев.",
+                    "correct_answer": "Разумный резерв",
+                    "explanation": "Ближайшая известная цель должна оставаться безопасной и доступной, поэтому деньги здесь — правильный инструмент."
+                  },
+                  {
+                    "text": "Крупный остаток годами лежит без дела, потому что инвестировать некомфортно.",
+                    "correct_answer": "Ленивые деньги",
+                    "explanation": "Комфорт — это не финансовая задача. Деньги сверх резерва, которые долго лежат без дела, стабильно теряют ценность из-за инфляции."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Әрқайсысын «Ақылды резерв» немесе «Бос жатқан ақша» деп белгілеңіз.",
+                "options": [
+                  "Ақылды резерв",
+                  "Бос жатқан ақша"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Оңай қолжетімді жинақ шотындағы төрт айлық міндетті шығын.",
+                    "correct_answer": "Ақылды резерв",
+                    "explanation": "Бұл төтенше қор өз жұмысын атқарып тұр: қолжетімді, қауіпсіз және қажетті көлемде."
+                  },
+                  {
+                    "text": "Үш жылдық жалпы табыс ағымдағы шотта жатып, ештеңе таппайды.",
+                    "correct_answer": "Бос жатқан ақша",
+                    "explanation": "Бұл үлкен сома кез келген ақылға қонымды қордан әлдеқайда көп және жыл сайын инфляциядан сатып алу қабілетін жоғалтады, қосымша қауіпсіздік бермейді."
+                  },
+                  {
+                    "text": "Бес айдан кейін төленетін пәтер депозитіне бөлінген ақша.",
+                    "correct_answer": "Ақылды резерв",
+                    "explanation": "Жақын мерзімді белгілі мақсат қауіпсіз әрі қолжетімді болуы керек, сондықтан ақша бұл жерде дұрыс құрал."
+                  },
+                  {
+                    "text": "Инвестициялау ыңғайсыз сезілгендіктен, үлкен сома жылдар бойы бос жатыр.",
+                    "correct_answer": "Бос жатқан ақша",
+                    "explanation": "Жайлы сезіну — қаржылық міндет емес. Қордан артық ұзақ бос жатқан ақша инфляциядан тұрақты түрде құн жоғалтады."
+                  }
+                ]
               }
             }
           },
@@ -1234,13 +2256,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Balance safety against drag"
+              "en": "Balance safety against drag",
+              "ru": "Балансируйте безопасность и потери",
+              "kk": "Қауіпсіздік пен ауыртпалықты теңестіріңіз"
             },
             "body": {
-              "en": "Cash reserves are a deliberate balance: enough to stay safe and ready, not so much that inflation quietly drains it. Cover your emergency fund and near-term goals in cash, and let the surplus work elsewhere. Next we cross to the other side of money: debt and credit."
+              "en": "Cash reserves are a deliberate balance: enough to stay safe and ready, not so much that inflation quietly drains it. Cover your emergency fund and near-term goals in cash, and let the surplus work elsewhere. Next we cross to the other side of money: debt and credit.",
+              "ru": "Денежные резервы — это осознанный баланс: достаточно, чтобы быть в безопасности и готовности, но не настолько много, чтобы инфляция тихо их съедала. Покройте резервный фонд и ближайшие цели деньгами, а излишек пусть работает в другом месте. Дальше мы переходим к другой стороне денег: долгам и кредиту.",
+              "kk": "Ақша резервтері — саналы теңгерім: қауіпсіз әрі дайын болуға жеткілікті, бірақ инфляция үнсіз жеп қоятындай көп емес. Төтенше қор мен жақын мақсаттарды ақшамен жабыңыз, ал артық бөлігін басқа жерде жұмыс істетіңіз. Келесіде ақшаның екінші жағына өтеміз: қарыз және кредит."
             },
             "tip": {
-              "en": "Idle cash beyond your buffer is a decision, not a default; make it on purpose."
+              "en": "Idle cash beyond your buffer is a decision, not a default; make it on purpose.",
+              "ru": "Деньги сверх резерва, лежащие без дела, — это решение, а не настройка по умолчанию; принимайте его осознанно.",
+              "kk": "Қордан артық бос жатқан ақша — әдепкі жағдай емес, шешім; оны саналы түрде қабылдаңыз."
             }
           }
         ]
@@ -1249,7 +2277,9 @@
         "quiz_id": 705,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Cash Reserves — Check"
+          "en": "Cash Reserves — Check",
+          "ru": "Денежные резервы — проверка",
+          "kk": "Ақша резервтері — тексеру"
         },
         "questions": [
           {
@@ -1257,14 +2287,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A relative keeps several years of income in a current account because cash feels safest. Why is this not as safe as it seems?"
+              "en": "A relative keeps several years of income in a current account because cash feels safest. Why is this not as safe as it seems?",
+              "ru": "Родственник держит несколько лет дохода на текущем счете, потому что деньги кажутся самым безопасным вариантом. Почему это не так безопасно, как кажется?",
+              "kk": "Туысыңыз бірнеше жылдық табысын ағымдағы шотта ұстайды, себебі ақша ең қауіпсіз сияқты. Неге бұл көрінгендей қауіпсіз емес?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Inflation steadily erodes the purchasing power of idle cash, so it loses real value each year"
+                  "en": "Inflation steadily erodes the purchasing power of idle cash, so it loses real value each year",
+                  "ru": "Инфляция стабильно размывает покупательную способность простаивающих денег, поэтому каждый год они теряют реальную стоимость",
+                  "kk": "Инфляция бос жатқан ақшаның сатып алу қабілетін тұрақты азайтады, сондықтан ол жыл сайын нақты құн жоғалтады"
                 },
                 "is_correct": true
               },
@@ -1272,7 +2306,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Cash in a bank can be seized at any time without reason"
+                  "en": "Cash in a bank can be seized at any time without reason",
+                  "ru": "Деньги в банке могут забрать в любой момент без причины",
+                  "kk": "Банктегі ақшаны кез келген уақытта себепсіз алып қоюы мүмкін"
                 },
                 "is_correct": false
               },
@@ -1280,7 +2316,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Current accounts pay the highest interest available, which is risky"
+                  "en": "Current accounts pay the highest interest available, which is risky",
+                  "ru": "Текущие счета платят самый высокий доступный процент, и это рискованно",
+                  "kk": "Ағымдағы шоттар ең жоғары пайыз төлейді, бұл тәуекелді"
                 },
                 "is_correct": false
               },
@@ -1288,7 +2326,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Holding cash is illegal beyond a certain amount"
+                  "en": "Holding cash is illegal beyond a certain amount",
+                  "ru": "Держать деньги сверх определенной суммы незаконно",
+                  "kk": "Белгілі бір сомадан артық ақша ұстау заңсыз"
                 },
                 "is_correct": false
               }
@@ -1299,14 +2339,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Beyond an emergency fund and money for near-term goals, what is usually the wiser place for a large extra cash pile, and why?"
+              "en": "Beyond an emergency fund and money for near-term goals, what is usually the wiser place for a large extra cash pile, and why?",
+              "ru": "Помимо резервного фонда и денег на ближайшие цели, где обычно разумнее держать крупную лишнюю сумму и почему?",
+              "kk": "Төтенше қор мен жақын мақсаттарға арналған ақшадан бөлек, үлкен артық соманы әдетте қайда ұстаған дұрыс және неге?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Invested, because surplus cash held idle for years loses value to inflation without adding safety"
+                  "en": "Invested, because surplus cash held idle for years loses value to inflation without adding safety",
+                  "ru": "Инвестировать, потому что лишние деньги, годами лежащие без дела, теряют ценность из-за инфляции и не добавляют безопасности",
+                  "kk": "Инвестициялау, себебі жылдар бойы бос жатқан артық ақша инфляциядан құн жоғалтады және қауіпсіздік қоспайды"
                 },
                 "is_correct": true
               },
@@ -1314,7 +2358,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Kept as cash forever, since cash never carries any cost"
+                  "en": "Kept as cash forever, since cash never carries any cost",
+                  "ru": "Всегда держать деньгами, потому что хранение денег не имеет стоимости",
+                  "kk": "Мәңгі ақша күйінде ұстау, себебі ақшаны ұстаудың ешқандай құны жоқ"
                 },
                 "is_correct": false
               },
@@ -1322,7 +2368,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Spent quickly before inflation reaches it"
+                  "en": "Spent quickly before inflation reaches it",
+                  "ru": "Быстро потратить, пока инфляция не добралась",
+                  "kk": "Инфляция жеткенше тез жұмсау"
                 },
                 "is_correct": false
               },
@@ -1330,7 +2378,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Moved into the emergency fund, no matter how large that becomes"
+                  "en": "Moved into the emergency fund, no matter how large that becomes",
+                  "ru": "Перевести в резервный фонд, каким бы большим он ни стал",
+                  "kk": "Қанша үлкен болса да, төтенше қорға аудару"
                 },
                 "is_correct": false
               }
@@ -1344,7 +2394,9 @@
     "quiz_id": 799,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Saving & Emergency Planning — Final Check"
+      "en": "Saving & Emergency Planning — Final Check",
+      "ru": "Сбережения и планирование на случай чрезвычайных ситуаций — итоговая проверка",
+      "kk": "Жинақ және төтенше жағдайға жоспарлау — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1352,14 +2404,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "A person with no buffer faces a 300,000 ₸ repair and takes a high-interest loan. What core function of an emergency fund did its absence expose?"
+          "en": "A person with no buffer faces a 300,000 ₸ repair and takes a high-interest loan. What core function of an emergency fund did its absence expose?",
+          "ru": "Человек без резерва сталкивается с ремонтом на 300 000 ₸ и берет дорогой заем. Какую ключевую функцию резервного фонда показало его отсутствие?",
+          "kk": "Қоры жоқ адам 300 000 ₸ жөндеуге тап болып, жоғары пайызды қарыз алады. Төтенше қордың жоқтығы оның қандай негізгі қызметін көрсетті?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "It breaks the chain from a shock to expensive debt by keeping cash available"
+              "en": "It breaks the chain from a shock to expensive debt by keeping cash available",
+              "ru": "Он разрывает цепочку от удара к дорогому долгу, держа деньги доступными",
+              "kk": "Ол ақшаны қолжетімді ұстап, соққыны қымбат қарызға айналдыратын тізбекті үзеді"
             },
             "is_correct": true
           },
@@ -1367,7 +2423,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "It earns the highest possible return on idle money"
+              "en": "It earns the highest possible return on idle money",
+              "ru": "Он приносит максимально возможную доходность на свободные деньги",
+              "kk": "Ол бос ақшаға ең жоғары мүмкін табыс әкеледі"
             },
             "is_correct": false
           },
@@ -1375,7 +2433,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "It guarantees repairs will never be needed"
+              "en": "It guarantees repairs will never be needed",
+              "ru": "Он гарантирует, что ремонт никогда не понадобится",
+              "kk": "Ол жөндеу ешқашан қажет болмайтынына кепілдік береді"
             },
             "is_correct": false
           },
@@ -1383,7 +2443,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "It replaces the need for any insurance"
+              "en": "It replaces the need for any insurance",
+              "ru": "Он заменяет необходимость любой страховки",
+              "kk": "Ол кез келген сақтандыру қажеттілігін алмастырады"
             },
             "is_correct": false
           }
@@ -1394,14 +2456,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "Two people have identical essential expenses. The freelancer targets six months of buffer while the tenured salaried worker targets three. Why is this reasonable?"
+          "en": "Two people have identical essential expenses. The freelancer targets six months of buffer while the tenured salaried worker targets three. Why is this reasonable?",
+          "ru": "У двух людей одинаковые обязательные расходы. Фрилансер целится в шесть месяцев резерва, а штатный сотрудник с долгосрочной работой — в три. Почему это разумно?",
+          "kk": "Екі адамның міндетті шығындары бірдей. Фрилансер алты айлық қорды, ал тұрақты жалақылы қызметкер үш айлық қорды мақсат етеді. Неге бұл орынды?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "The buffer scales with income risk, and the freelancer's income is far less predictable"
+              "en": "The buffer scales with income risk, and the freelancer's income is far less predictable",
+              "ru": "Размер резерва зависит от риска дохода, а доход фрилансера намного менее предсказуем",
+              "kk": "Қор көлемі табыс тәуекеліне байланысты, ал фрилансердің табысы әлдеқайда аз болжамды"
             },
             "is_correct": true
           },
@@ -1409,7 +2475,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Freelancers always spend more than salaried workers"
+              "en": "Freelancers always spend more than salaried workers",
+              "ru": "Фрилансеры всегда тратят больше, чем наемные сотрудники",
+              "kk": "Фрилансерлер жалақылы қызметкерлерден әрқашан көп жұмсайды"
             },
             "is_correct": false
           },
@@ -1417,7 +2485,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Six months is a legal minimum for everyone"
+              "en": "Six months is a legal minimum for everyone",
+              "ru": "Шесть месяцев — законный минимум для всех",
+              "kk": "Алты ай — бәріне заңды минимум"
             },
             "is_correct": false
           },
@@ -1425,7 +2495,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Salaried workers never lose their jobs"
+              "en": "Salaried workers never lose their jobs",
+              "ru": "Наемные сотрудники никогда не теряют работу",
+              "kk": "Жалақылы қызметкерлер ешқашан жұмысынан айырылмайды"
             },
             "is_correct": false
           }
@@ -1436,14 +2508,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "You hold an emergency fund. Which home keeps it fit for its purpose, and why?"
+          "en": "You hold an emergency fund. Which home keeps it fit for its purpose, and why?",
+          "ru": "У вас есть резервный фонд. Какое место хранения сохраняет его пригодным для цели и почему?",
+          "kk": "Сізде төтенше қор бар. Қай сақтау орны оны мақсатына сай сақтайды және неге?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "An easy-access savings account, because it is reachable within a day and stays stable in value"
+              "en": "An easy-access savings account, because it is reachable within a day and stays stable in value",
+              "ru": "Сберегательный счет с легким доступом, потому что деньги доступны в течение дня и сохраняют стабильную стоимость",
+              "kk": "Оңай қолжетімді жинақ шоты, себебі оған бір күн ішінде жетуге болады және құны тұрақты қалады"
             },
             "is_correct": true
           },
@@ -1451,7 +2527,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "A stock portfolio, because higher long-term returns matter most"
+              "en": "A stock portfolio, because higher long-term returns matter most",
+              "ru": "Портфель акций, потому что долгосрочная доходность важнее всего",
+              "kk": "Акциялар портфелі, себебі ұзақ мерзімді табыс ең маңызды"
             },
             "is_correct": false
           },
@@ -1459,7 +2537,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "A one-year locked deposit, because the rate is highest"
+              "en": "A one-year locked deposit, because the rate is highest",
+              "ru": "Годовой депозит с блокировкой, потому что ставка самая высокая",
+              "kk": "Бір жылдық бұғатталған депозит, себебі мөлшерлеме ең жоғары"
             },
             "is_correct": false
           },
@@ -1467,7 +2547,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Cash hidden at home, because banks are unsafe"
+              "en": "Cash hidden at home, because banks are unsafe",
+              "ru": "Наличные, спрятанные дома, потому что банки небезопасны",
+              "kk": "Үйде жасырылған қолма-қол ақша, себебі банктер қауіпсіз емес"
             },
             "is_correct": false
           }
@@ -1478,14 +2560,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "A friend keeps raiding their emergency fund for yearly insurance and holiday gifts, then has nothing for a real shock. What should they set up instead?"
+          "en": "A friend keeps raiding their emergency fund for yearly insurance and holiday gifts, then has nothing for a real shock. What should they set up instead?",
+          "ru": "Друг постоянно берет деньги из резервного фонда на годовую страховку и праздничные подарки, а потом у него ничего нет на настоящий удар. Что ему нужно создать вместо этого?",
+          "kk": "Досыңыз жылдық сақтандыру мен мерекелік сыйлықтарға төтенше қордан үнемі ақша алып, нақты соққыға ештеңесіз қалады. Оның орнына не құруы керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Sinking funds that save monthly for those predictable costs, keeping them off the emergency fund"
+              "en": "Sinking funds that save monthly for those predictable costs, keeping them off the emergency fund",
+              "ru": "Фонды будущих расходов, которые ежемесячно копят на эти предсказуемые расходы и не трогают резервный фонд",
+              "kk": "Сол болжамды шығындарға ай сайын жинайтын және оларды төтенше қордан бөлетін болашақ шығындар қорлары"
             },
             "is_correct": true
           },
@@ -1493,7 +2579,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "A larger emergency fund they can raid more often"
+              "en": "A larger emergency fund they can raid more often",
+              "ru": "Более крупный резервный фонд, из которого можно брать чаще",
+              "kk": "Жиірек жұмсауға болатын үлкенірек төтенше қор"
             },
             "is_correct": false
           },
@@ -1501,7 +2589,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "A credit line to cover all predictable bills"
+              "en": "A credit line to cover all predictable bills",
+              "ru": "Кредитная линия для покрытия всех предсказуемых счетов",
+              "kk": "Барлық болжамды төлемдерді жабуға арналған кредит желісі"
             },
             "is_correct": false
           },
@@ -1509,7 +2599,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Nothing; mixing the two pots is fine"
+              "en": "Nothing; mixing the two pots is fine",
+              "ru": "Ничего; смешивать две корзины нормально",
+              "kk": "Ештеңе; екі қоржынды араластыру дұрыс"
             },
             "is_correct": false
           }
@@ -1520,14 +2612,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "Someone holds three years of income in a current account because it feels safe. Inflation runs near 10%. What is the most accurate critique?"
+          "en": "Someone holds three years of income in a current account because it feels safe. Inflation runs near 10%. What is the most accurate critique?",
+          "ru": "Кто-то держит три года дохода на текущем счете, потому что так безопаснее. Инфляция около 10%. Какая критика самая точная?",
+          "kk": "Біреу үш жылдық табысын ағымдағы шотта ұстайды, себебі солай қауіпсіз сезіледі. Инфляция шамамен 10%. Ең дәл сын қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Far beyond a sensible buffer, the idle cash loses real value to inflation each year without adding safety"
+              "en": "Far beyond a sensible buffer, the idle cash loses real value to inflation each year without adding safety",
+              "ru": "Далеко сверх разумного резерва простаивающие деньги ежегодно теряют реальную стоимость из-за инфляции, не добавляя безопасности",
+              "kk": "Ақылға қонымды қордан әлдеқайда артық бос ақша жыл сайын инфляциядан нақты құн жоғалтады және қауіпсіздік қоспайды"
             },
             "is_correct": true
           },
@@ -1535,7 +2631,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Holding cash carries no cost, so the choice is perfect"
+              "en": "Holding cash carries no cost, so the choice is perfect",
+              "ru": "Хранение денег не имеет стоимости, поэтому выбор идеален",
+              "kk": "Ақшаны ұстаудың құны жоқ, сондықтан таңдау мінсіз"
             },
             "is_correct": false
           },
@@ -1543,7 +2641,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "They should hold even more cash to be safer"
+              "en": "They should hold even more cash to be safer",
+              "ru": "Им нужно держать еще больше денег, чтобы быть безопаснее",
+              "kk": "Қауіпсіз болу үшін олар одан да көп ақша ұстауы керек"
             },
             "is_correct": false
           },
@@ -1551,7 +2651,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Current accounts are the highest-returning investment available"
+              "en": "Current accounts are the highest-returning investment available",
+              "ru": "Текущие счета — самая доходная доступная инвестиция",
+              "kk": "Ағымдағы шоттар — қолжетімді ең табысты инвестиция"
             },
             "is_correct": false
           }

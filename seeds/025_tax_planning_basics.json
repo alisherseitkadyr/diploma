@@ -3,11 +3,16 @@
   "topic": {
     "code": "tax_planning_basics",
     "orderIndex": 25,
+    "icon_path": "assets/topics/025.png",
     "title": {
-      "en": "Tax Planning Basics"
+      "en": "Tax Planning Basics",
+      "ru": "Основы налогового планирования",
+      "kk": "Салықтық жоспарлау негіздері"
     },
     "description": {
-      "en": "How taxes shape real returns, what is taxed and when, and Kazakhstan's main personal taxes plus efficient account placement."
+      "en": "How taxes shape real returns, what is taxed and when, and Kazakhstan's main personal taxes plus efficient account placement.",
+      "ru": "Как налоги влияют на реальную доходность, что и когда облагается налогом, основные личные налоги Казахстана и эффективное размещение активов по счетам.",
+      "kk": "Салықтар нақты табысқа қалай әсер етеді, не және қашан салық салынады, Қазақстандағы негізгі жеке салықтар және активтерді шоттар бойынша тиімді орналастыру."
     },
     "level": "advanced",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "tax_fundamentals",
       "title": {
-        "en": "Tax Fundamentals"
+        "en": "Tax Fundamentals",
+        "ru": "Основы налогов",
+        "kk": "Салық негіздері"
       },
       "description": {
-        "en": "Taxes reduce spendable income and investment returns, so planning starts by knowing what is taxed, when, and who withholds it."
+        "en": "Taxes reduce spendable income and investment returns, so planning starts by knowing what is taxed, when, and who withholds it.",
+        "ru": "Налоги уменьшают доступный к тратам доход и инвестиционную доходность, поэтому планирование начинается с понимания, что облагается налогом, когда и кто удерживает налог.",
+        "kk": "Салықтар жұмсауға болатын табысты және инвестициялық кірісті азайтады, сондықтан жоспарлау неден салық алынатынын, қашан және кім ұстайтынын білуден басталады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Taxes are part of the real return"
+              "en": "Taxes are part of the real return",
+              "ru": "Налоги — часть реальной доходности",
+              "kk": "Салықтар нақты табыстың бір бөлігі"
             },
             "body": {
-              "en": "A return is only useful after the costs that reduce it. Taxes can affect salary, interest, dividends, capital gains, business income, and withdrawals. Tax planning means arranging legal choices so that more of the return stays spendable."
+              "en": "A return is only useful after the costs that reduce it. Taxes can affect salary, interest, dividends, capital gains, business income, and withdrawals. Tax planning means arranging legal choices so that more of the return stays spendable.",
+              "ru": "Доходность полезна только после учета расходов, которые ее уменьшают. Налоги могут влиять на зарплату, проценты, дивиденды, прирост капитала, доход бизнеса и вывод средств. Налоговое планирование означает законную организацию решений так, чтобы большая часть дохода оставалась доступной к использованию.",
+              "kk": "Кіріс оны азайтатын шығындардан кейін ғана мәнді. Салықтар жалақыға, пайызға, дивидендтерге, капитал өсіміне, бизнес табысына және қаражат алуға әсер етуі мүмкін. Салықтық жоспарлау — табыстың көбірек бөлігі жұмсауға қалуы үшін заңды таңдауларды дұрыс ұйымдастыру."
             },
             "tip": {
-              "en": "Tax planning is legal organization, not hiding income."
+              "en": "Tax planning is legal organization, not hiding income.",
+              "ru": "Налоговое планирование — это законная организация, а не сокрытие дохода.",
+              "kk": "Салықтық жоспарлау — заңды ұйымдастыру, табысты жасыру емес."
             }
           },
           {
@@ -45,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Taxable event and tax base"
+              "en": "Taxable event and tax base",
+              "ru": "Налогооблагаемое событие и налоговая база",
+              "kk": "Салық салынатын оқиға және салық базасы"
             },
             "body": {
-              "en": "A taxable event is the moment that may create tax, such as receiving salary, earning interest, selling an asset, or taking business income. The tax base is the amount the tax applies to. Knowing both helps you understand why timing matters."
+              "en": "A taxable event is the moment that may create tax, such as receiving salary, earning interest, selling an asset, or taking business income. The tax base is the amount the tax applies to. Knowing both helps you understand why timing matters.",
+              "ru": "Налогооблагаемое событие — это момент, который может создать налог: получение зарплаты, начисление процентов, продажа актива или получение дохода от бизнеса. Налоговая база — сумма, к которой применяется налог. Понимание обоих понятий помогает увидеть, почему важны сроки.",
+              "kk": "Салық салынатын оқиға — салық туындауы мүмкін сәт: жалақы алу, пайыз табу, актив сату немесе бизнес табысын алу. Салық базасы — салық қолданылатын сома. Екеуін білу уақыттың неге маңызды екенін түсіндіреді."
             },
             "example": {
-              "en": "Selling an investment for a profit may create a taxable event, while simply watching its market price rise may not create tax yet."
+              "en": "Selling an investment for a profit may create a taxable event, while simply watching its market price rise may not create tax yet.",
+              "ru": "Продажа инвестиции с прибылью может создать налогооблагаемое событие, а простой рост ее рыночной цены без продажи может еще не создавать налог.",
+              "kk": "Инвестицияны пайдамен сату салық салынатын оқиға болуы мүмкін, ал оның нарықтық бағасының өсуін жай бақылау әзірге салық тудырмауы мүмкін."
             }
           },
           {
@@ -59,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Kazakhstan has several personal layers"
+              "en": "Kazakhstan has several personal layers",
+              "ru": "В Казахстане есть несколько личных налоговых слоев",
+              "kk": "Қазақстанда жеке қаржыға қатысты бірнеше қабат бар"
             },
             "body": {
-              "en": "In Kazakhstan, personal finance often involves individual income tax, mandatory pension contributions, and social health insurance contributions. The exact treatment depends on income type, employment status, account type, and current rules. The key habit is to separate gross income from net spendable income."
+              "en": "In Kazakhstan, personal finance often involves individual income tax, mandatory pension contributions, and social health insurance contributions. The exact treatment depends on income type, employment status, account type, and current rules. The key habit is to separate gross income from net spendable income.",
+              "ru": "В Казахстане личные финансы часто включают индивидуальный подоходный налог, обязательные пенсионные взносы и взносы на социальное медицинское страхование. Точный порядок зависит от типа дохода, статуса занятости, типа счета и действующих правил. Главная привычка — отделять валовой доход от чистого дохода, доступного к расходам.",
+              "kk": "Қазақстанда жеке қаржы көбіне жеке табыс салығын, міндетті зейнетақы жарналарын және әлеуметтік медициналық сақтандыру жарналарын қамтиды. Нақты тәртіп табыс түріне, жұмыспен қамтылу мәртебесіне, шот түріне және қолданыстағы ережелерге байланысты. Негізгі дағды — жалпы табысты жұмсауға болатын таза табыстан бөлу."
             },
             "tip": {
-              "en": "For local rules, check official sources or a qualified tax professional before acting."
+              "en": "For local rules, check official sources or a qualified tax professional before acting.",
+              "ru": "Перед действиями по местным правилам проверяйте официальные источники или консультируйтесь с квалифицированным налоговым специалистом.",
+              "kk": "Жергілікті ережелер бойынша әрекет етпес бұрын ресми дереккөздерді тексеріңіз немесе білікті салық маманымен кеңесіңіз."
             }
           },
           {
@@ -73,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Gross income is not spendable income"
+              "en": "Gross income is not spendable income",
+              "ru": "Валовой доход — не то же самое, что доход для расходов",
+              "kk": "Жалпы табыс жұмсалатын табыс емес"
             },
             "content": {
               "en": {
@@ -122,6 +151,100 @@
                     "text": "Tax planning starts by budgeting from net income, not from the headline gross salary."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Работник видит предложение зарплаты ₸500,000 в месяц. Это не то же самое, что ежемесячный доход для расходов, потому что могут применяться удержания и взносы."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Слой",
+                        "На что влияет",
+                        "Вопрос для планирования"
+                      ],
+                      [
+                        "Валовая зарплата",
+                        "Исходный трудовой доход",
+                        "Каков полный компенсационный пакет?"
+                      ],
+                      [
+                        "Индивидуальный подоходный налог",
+                        "Налогооблагаемый доход",
+                        "Какая сумма остается после налога?"
+                      ],
+                      [
+                        "Обязательный пенсионный взнос",
+                        "Пополнение пенсионного счета",
+                        "Как это создает будущий доход?"
+                      ],
+                      [
+                        "Взнос на социальное медицинское страхование",
+                        "Взнос в систему здравоохранения",
+                        "Что удерживается и почему?"
+                      ],
+                      [
+                        "Чистый доход",
+                        "Ежемесячный денежный поток для расходов",
+                        "Сработает ли бюджет после удержаний?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Налоговое планирование начинается с бюджета на основе чистого дохода, а не объявленной валовой зарплаты."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Қызметкер айына ₸500,000 жалақы ұсынысын көреді. Бұл ай сайын жұмсауға болатын табыспен бірдей емес, себебі ұсталымдар мен жарналар болуы мүмкін."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қабат",
+                        "Неге әсер етеді",
+                        "Жоспарлау сұрағы"
+                      ],
+                      [
+                        "Жалпы жалақы",
+                        "Бастапқы еңбек табысы",
+                        "Толық өтемақы пакеті қандай?"
+                      ],
+                      [
+                        "Жеке табыс салығы",
+                        "Салық салынатын табыс",
+                        "Салықтан кейін қанша сома қалады?"
+                      ],
+                      [
+                        "Міндетті зейнетақы жарнасы",
+                        "Зейнетақы шотын қаржыландыру",
+                        "Бұл болашақ табысты қалай қалыптастырады?"
+                      ],
+                      [
+                        "Әлеуметтік медициналық сақтандыру жарнасы",
+                        "Денсаулық сақтау жүйесіне жарна",
+                        "Не ұсталады және не үшін?"
+                      ],
+                      [
+                        "Таза табыс",
+                        "Ай сайын жұмсауға болатын ақша ағыны",
+                        "Ұсталымдардан кейін бюджет жұмыс істей ме?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Салықтық жоспарлау жарияланған жалпы жалақыдан емес, таза табысқа негізделген бюджеттен басталады."
+                  }
+                ]
               }
             }
           },
@@ -130,10 +253,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Identify the tax concept"
+              "en": "Identify the tax concept",
+              "ru": "Определите налоговое понятие",
+              "kk": "Салық ұғымын анықтаңыз"
             },
             "body": {
-              "en": "Classify each item by whether it is a taxable event, tax base, withholding layer, or planning action."
+              "en": "Classify each item by whether it is a taxable event, tax base, withholding layer, or planning action.",
+              "ru": "Классифицируйте каждый пункт: налогооблагаемое событие, налоговая база, слой удержаний или действие по планированию.",
+              "kk": "Әр тармақты салық салынатын оқиға, салық базасы, ұсталым қабаты немесе жоспарлау әрекеті ретінде жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -194,6 +321,122 @@
                   }
                 ],
                 "explanation": "Tax planning becomes clearer when you separate the trigger, the amount being taxed, the deductions, and the planning decision."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый пункт к подходящему понятию налогового планирования.",
+                "categories": [
+                  {
+                    "id": "taxable_event",
+                    "label": "Налогооблагаемое событие"
+                  },
+                  {
+                    "id": "tax_base",
+                    "label": "Налоговая база"
+                  },
+                  {
+                    "id": "withholding",
+                    "label": "Удержание или взнос"
+                  },
+                  {
+                    "id": "planning",
+                    "label": "Действие по планированию"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "asset_sale",
+                    "text": "Продажа инвестиции с прибылью"
+                  },
+                  {
+                    "id": "profit_amount",
+                    "text": "Сумма прибыли, к которой может применяться налог"
+                  },
+                  {
+                    "id": "pension_contribution",
+                    "text": "Обязательный пенсионный взнос, удержанный из дохода"
+                  },
+                  {
+                    "id": "net_budget",
+                    "text": "Составление бюджета на основе чистого дохода"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "asset_sale",
+                    "categoryId": "taxable_event"
+                  },
+                  {
+                    "itemId": "profit_amount",
+                    "categoryId": "tax_base"
+                  },
+                  {
+                    "itemId": "pension_contribution",
+                    "categoryId": "withholding"
+                  },
+                  {
+                    "itemId": "net_budget",
+                    "categoryId": "planning"
+                  }
+                ],
+                "explanation": "Налоговое планирование становится понятнее, когда вы разделяете триггер, облагаемую сумму, удержания и решение по планированию."
+              },
+              "kk": {
+                "instruction": "Әр тармақты ең сәйкес салықтық жоспарлау ұғымына апарыңыз.",
+                "categories": [
+                  {
+                    "id": "taxable_event",
+                    "label": "Салық салынатын оқиға"
+                  },
+                  {
+                    "id": "tax_base",
+                    "label": "Салық базасы"
+                  },
+                  {
+                    "id": "withholding",
+                    "label": "Ұсталым немесе жарна"
+                  },
+                  {
+                    "id": "planning",
+                    "label": "Жоспарлау әрекеті"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "asset_sale",
+                    "text": "Инвестицияны пайдамен сату"
+                  },
+                  {
+                    "id": "profit_amount",
+                    "text": "Салық қолданылуы мүмкін пайда сомасы"
+                  },
+                  {
+                    "id": "pension_contribution",
+                    "text": "Табыстан ұсталған міндетті зейнетақы жарнасы"
+                  },
+                  {
+                    "id": "net_budget",
+                    "text": "Таза табыс негізінде бюджет құру"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "asset_sale",
+                    "categoryId": "taxable_event"
+                  },
+                  {
+                    "itemId": "profit_amount",
+                    "categoryId": "tax_base"
+                  },
+                  {
+                    "itemId": "pension_contribution",
+                    "categoryId": "withholding"
+                  },
+                  {
+                    "itemId": "net_budget",
+                    "categoryId": "planning"
+                  }
+                ],
+                "explanation": "Салықтық жоспарлау триггерді, салық салынатын соманы, ұсталымдарды және жоспарлау шешімін бөлек қарағанда түсініктірек болады."
               }
             }
           },
@@ -202,13 +445,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Think after tax"
+              "en": "Think after tax",
+              "ru": "Думайте после налогов",
+              "kk": "Салықтан кейін ойлаңыз"
             },
             "body": {
-              "en": "Taxes are not a side detail; they shape spendable income and real investment results. Start with the taxable event, the tax base, the timing, and whether tax is withheld automatically. Good planning makes cash flow more realistic and investment comparisons more honest."
+              "en": "Taxes are not a side detail; they shape spendable income and real investment results. Start with the taxable event, the tax base, the timing, and whether tax is withheld automatically. Good planning makes cash flow more realistic and investment comparisons more honest.",
+              "ru": "Налоги — не второстепенная деталь; они формируют доход для расходов и реальные инвестиционные результаты. Начинайте с налогооблагаемого события, налоговой базы, сроков и того, удерживается ли налог автоматически. Хорошее планирование делает денежный поток реалистичнее, а сравнение инвестиций честнее.",
+              "kk": "Салықтар қосымша ұсақ нәрсе емес; олар жұмсалатын табыс пен нақты инвестициялық нәтижелерді қалыптастырады. Салық салынатын оқиғадан, салық базасынан, уақыттан және салық автоматты түрде ұстала ма дегеннен бастаңыз. Жақсы жоспарлау ақша ағынын шынайырақ, инвестицияларды салыстыруды әділірек етеді."
             },
             "tip": {
-              "en": "The number that matters is what remains after taxes, contributions, fees, and inflation."
+              "en": "The number that matters is what remains after taxes, contributions, fees, and inflation.",
+              "ru": "Важна сумма, которая остается после налогов, взносов, комиссий и инфляции.",
+              "kk": "Маңызды сан — салықтардан, жарналардан, комиссиялардан және инфляциядан кейін қалатыны."
             }
           }
         ]
@@ -217,7 +466,9 @@
         "quiz_id": 2501,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Tax Fundamentals — Check"
+          "en": "Tax Fundamentals — Check",
+          "ru": "Основы налогов — проверка",
+          "kk": "Салық негіздері — тексеру"
         },
         "questions": [
           {
@@ -225,14 +476,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A person budgets from gross salary and ignores deductions. What is the likely problem?"
+              "en": "A person budgets from gross salary and ignores deductions. What is the likely problem?",
+              "ru": "Человек строит бюджет от валовой зарплаты и игнорирует удержания. В чем вероятная проблема?",
+              "kk": "Адам бюджетті жалпы жалақыдан құрып, ұсталымдарды елемейді. Ықтимал мәселе қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Their spending plan may overestimate the cash they can actually use"
+                  "en": "Their spending plan may overestimate the cash they can actually use",
+                  "ru": "План расходов может завышать сумму денег, которую реально можно использовать",
+                  "kk": "Олардың шығыс жоспары нақты қолдана алатын ақшаны артық бағалауы мүмкін"
                 },
                 "is_correct": true
               },
@@ -240,7 +495,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Gross salary and net income are always identical"
+                  "en": "Gross salary and net income are always identical",
+                  "ru": "Валовая зарплата и чистый доход всегда одинаковы",
+                  "kk": "Жалпы жалақы мен таза табыс әрқашан бірдей"
                 },
                 "is_correct": false
               },
@@ -248,7 +505,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Deductions increase spendable income immediately"
+                  "en": "Deductions increase spendable income immediately",
+                  "ru": "Удержания сразу увеличивают доход для расходов",
+                  "kk": "Ұсталымдар жұмсалатын табысты бірден көбейтеді"
                 },
                 "is_correct": false
               },
@@ -256,7 +515,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Budgeting works better when taxes are ignored"
+                  "en": "Budgeting works better when taxes are ignored",
+                  "ru": "Бюджет лучше работает, если игнорировать налоги",
+                  "kk": "Салықтарды елемесе, бюджет жақсырақ жұмыс істейді"
                 },
                 "is_correct": false
               }
@@ -267,14 +528,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which situation is most likely a taxable event?"
+              "en": "Which situation is most likely a taxable event?",
+              "ru": "Какая ситуация, скорее всего, является налогооблагаемым событием?",
+              "kk": "Қай жағдай салық салынатын оқиға болуы ықтимал?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Selling an investment at a profit"
+                  "en": "Selling an investment at a profit",
+                  "ru": "Продажа инвестиции с прибылью",
+                  "kk": "Инвестицияны пайдамен сату"
                 },
                 "is_correct": true
               },
@@ -282,7 +547,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Watching an asset price rise without selling"
+                  "en": "Watching an asset price rise without selling",
+                  "ru": "Наблюдение за ростом цены актива без продажи",
+                  "kk": "Актив бағасының сатусыз өсуін бақылау"
                 },
                 "is_correct": false
               },
@@ -290,7 +557,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Writing down an investment idea"
+                  "en": "Writing down an investment idea",
+                  "ru": "Запись инвестиционной идеи",
+                  "kk": "Инвестициялық идеяны жазып қою"
                 },
                 "is_correct": false
               },
@@ -298,7 +567,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Comparing two bank apps"
+                  "en": "Comparing two bank apps",
+                  "ru": "Сравнение двух банковских приложений",
+                  "kk": "Екі банк қосымшасын салыстыру"
                 },
                 "is_correct": false
               }
@@ -309,14 +580,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the safest way to treat Kazakhstan-specific tax rules in planning?"
+              "en": "What is the safest way to treat Kazakhstan-specific tax rules in planning?",
+              "ru": "Как безопаснее всего учитывать налоговые правила Казахстана в планировании?",
+              "kk": "Жоспарлауда Қазақстанға тән салық ережелерін ең қауіпсіз қалай қарастыру керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Use the current official rules or qualified advice because treatment depends on income type and status"
+                  "en": "Use the current official rules or qualified advice because treatment depends on income type and status",
+                  "ru": "Использовать действующие официальные правила или квалифицированную консультацию, потому что порядок зависит от типа дохода и статуса",
+                  "kk": "Қолданыстағы ресми ережелерді немесе білікті кеңесті пайдалану, себебі тәртіп табыс түрі мен мәртебеге байланысты"
                 },
                 "is_correct": true
               },
@@ -324,7 +599,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Assume all income is taxed the same way forever"
+                  "en": "Assume all income is taxed the same way forever",
+                  "ru": "Считать, что весь доход всегда облагается одинаково",
+                  "kk": "Барлық табыс әрқашан бірдей салық салынады деп санау"
                 },
                 "is_correct": false
               },
@@ -332,7 +609,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Ignore pension and health insurance contributions"
+                  "en": "Ignore pension and health insurance contributions",
+                  "ru": "Игнорировать пенсионные взносы и взносы медстрахования",
+                  "kk": "Зейнетақы және медициналық сақтандыру жарналарын елемеу"
                 },
                 "is_correct": false
               },
@@ -340,7 +619,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Use social media comments as final tax guidance"
+                  "en": "Use social media comments as final tax guidance",
+                  "ru": "Использовать комментарии в соцсетях как окончательное налоговое руководство",
+                  "kk": "Әлеуметтік желі пікірлерін соңғы салық нұсқаулығы ретінде қолдану"
                 },
                 "is_correct": false
               }
@@ -352,10 +633,14 @@
     {
       "code": "capital_gains",
       "title": {
-        "en": "Capital Gains"
+        "en": "Capital Gains",
+        "ru": "Прирост капитала",
+        "kk": "Капитал өсімі"
       },
       "description": {
-        "en": "Capital gains are profits from selling assets, and tax often depends on whether the gain is realized, where the asset is held, and current rules."
+        "en": "Capital gains are profits from selling assets, and tax often depends on whether the gain is realized, where the asset is held, and current rules.",
+        "ru": "Прирост капитала — это прибыль от продажи активов, а налог часто зависит от того, реализована ли прибыль, где хранится актив и какие правила действуют.",
+        "kk": "Капитал өсімі — активтерді сатудан түскен пайда, ал салық көбіне пайда жүзеге асты ма, актив қайда ұсталады және қандай ережелер бар соған байланысты."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -367,13 +652,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A gain is not always taxed immediately"
+              "en": "A gain is not always taxed immediately",
+              "ru": "Прибыль не всегда облагается налогом сразу",
+              "kk": "Пайда әрдайым бірден салық салынбайды"
             },
             "body": {
-              "en": "A capital gain is the profit from selling an asset for more than its cost. Many tax systems focus on realized gains, meaning the asset was actually sold. This makes timing important for investors."
+              "en": "A capital gain is the profit from selling an asset for more than its cost. Many tax systems focus on realized gains, meaning the asset was actually sold. This makes timing important for investors.",
+              "ru": "Прирост капитала — это прибыль от продажи актива дороже его стоимости приобретения. Многие налоговые системы ориентируются на реализованную прибыль, то есть актив действительно был продан. Поэтому сроки важны для инвесторов.",
+              "kk": "Капитал өсімі — активті оның құнынан қымбатырақ сатудан түскен пайда. Көптеген салық жүйелері жүзеге асқан пайдаға, яғни актив нақты сатылған жағдайға көңіл бөледі. Сондықтан уақыт инвесторлар үшін маңызды."
             },
             "tip": {
-              "en": "Unrealized gain is a paper increase; realized gain is usually where tax questions begin."
+              "en": "Unrealized gain is a paper increase; realized gain is usually where tax questions begin.",
+              "ru": "Нереализованная прибыль — это рост «на бумаге»; реализованная прибыль обычно становится началом налоговых вопросов.",
+              "kk": "Жүзеге аспаған пайда — қағаз жүзіндегі өсім; жүзеге асқан пайда әдетте салық сұрақтарының басталатын жері."
             }
           },
           {
@@ -381,13 +672,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Cost basis matters"
+              "en": "Cost basis matters",
+              "ru": "Важна база стоимости",
+              "kk": "Құн базасы маңызды"
             },
             "body": {
-              "en": "Cost basis is the amount used to measure gain or loss. It usually starts with what you paid, but fees, currency conversion, or local rules may affect calculation. If your records are weak, you may not know the true gain."
+              "en": "Cost basis is the amount used to measure gain or loss. It usually starts with what you paid, but fees, currency conversion, or local rules may affect calculation. If your records are weak, you may not know the true gain.",
+              "ru": "База стоимости — сумма, от которой измеряется прибыль или убыток. Обычно она начинается с уплаченной цены, но комиссии, конвертация валюты или местные правила могут повлиять на расчет. Если записи плохие, вы можете не знать реальную прибыль.",
+              "kk": "Құн базасы — пайда немесе шығынды өлшеуге қолданылатын сома. Әдетте ол төлеген бағадан басталады, бірақ комиссиялар, валюта айырбастау немесе жергілікті ережелер есепке әсер етуі мүмкін. Жазбалар әлсіз болса, нақты пайданы білмеуіңіз мүмкін."
             },
             "example": {
-              "en": "Buying shares for ₸900,000 and selling them for ₸1,200,000 creates a ₸300,000 gain before considering fees and tax rules."
+              "en": "Buying shares for ₸900,000 and selling them for ₸1,200,000 creates a ₸300,000 gain before considering fees and tax rules.",
+              "ru": "Покупка акций за ₸900,000 и продажа за ₸1,200,000 создает прибыль ₸300,000 до учета комиссий и налоговых правил.",
+              "kk": "Акцияларды ₸900,000-ға сатып алып, ₸1,200,000-ға сату комиссиялар мен салық ережелеріне дейін ₸300,000 пайда береді."
             }
           },
           {
@@ -395,13 +692,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Losses can matter too"
+              "en": "Losses can matter too",
+              "ru": "Убытки тоже могут иметь значение",
+              "kk": "Шығындар да маңызды болуы мүмкін"
             },
             "body": {
-              "en": "A capital loss occurs when you sell below your cost basis. Some tax systems allow losses to offset gains, but rules vary. Even when a loss has tax value, selling should still fit the investment plan rather than being done only for tax reasons."
+              "en": "A capital loss occurs when you sell below your cost basis. Some tax systems allow losses to offset gains, but rules vary. Even when a loss has tax value, selling should still fit the investment plan rather than being done only for tax reasons.",
+              "ru": "Капитальный убыток возникает, когда вы продаете ниже базы стоимости. Некоторые налоговые системы позволяют убытками компенсировать прибыль, но правила различаются. Даже если убыток имеет налоговую ценность, продажа должна соответствовать инвестиционному плану, а не делаться только ради налогов.",
+              "kk": "Капитал шығыны активті құн базасынан төмен сатқанда пайда болады. Кейбір салық жүйелері шығындарды пайдамен өтеуге мүмкіндік береді, бірақ ережелер әртүрлі. Шығынның салықтық мәні болса да, сату тек салық үшін емес, инвестициялық жоспарға сай болуы керек."
             },
             "tip": {
-              "en": "Tax benefit cannot turn a bad investment process into a good one."
+              "en": "Tax benefit cannot turn a bad investment process into a good one.",
+              "ru": "Налоговая выгода не превращает плохой инвестиционный процесс в хороший.",
+              "kk": "Салықтық пайда нашар инвестициялық процесті жақсыға айналдырмайды."
             }
           },
           {
@@ -409,7 +712,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Realized versus unrealized"
+              "en": "Realized versus unrealized",
+              "ru": "Реализованная и нереализованная прибыль",
+              "kk": "Жүзеге асқан және жүзеге аспаған"
             },
             "content": {
               "en": {
@@ -458,6 +763,100 @@
                     "text": "The investment result and the tax result are connected, but the taxable moment often depends on action."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор покупает фонд за ₸1,000,000. Позже рыночная стоимость меняется. Налоговые вопросы зависят от того, продает ли инвестор."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ситуация",
+                        "Рыночная стоимость",
+                        "Действие",
+                        "Идея налогового планирования"
+                      ],
+                      [
+                        "Цена растет",
+                        "₸1,300,000",
+                        "Нет продажи",
+                        "Прибыль нереализована"
+                      ],
+                      [
+                        "Цена растет, и инвестор продает",
+                        "₸1,300,000",
+                        "Продажа",
+                        "Прибыль может быть реализована"
+                      ],
+                      [
+                        "Цена падает, и инвестор продает",
+                        "₸800,000",
+                        "Продажа",
+                        "Убыток может быть реализован"
+                      ],
+                      [
+                        "Цена падает, но инвестор держит",
+                        "₸800,000",
+                        "Нет продажи",
+                        "Убыток нереализован"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестиционный результат и налоговый результат связаны, но налогооблагаемый момент часто зависит от действия."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор қорды ₸1,000,000-ға сатып алады. Кейін нарықтық құны өзгереді. Салық сұрақтары инвестор сата ма, соған байланысты."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Жағдай",
+                        "Нарықтық құн",
+                        "Әрекет",
+                        "Салықтық жоспарлау идеясы"
+                      ],
+                      [
+                        "Баға өседі",
+                        "₸1,300,000",
+                        "Сату жоқ",
+                        "Пайда жүзеге аспаған"
+                      ],
+                      [
+                        "Баға өсіп, инвестор сатады",
+                        "₸1,300,000",
+                        "Сату",
+                        "Пайда жүзеге асуы мүмкін"
+                      ],
+                      [
+                        "Баға төмендеп, инвестор сатады",
+                        "₸800,000",
+                        "Сату",
+                        "Шығын жүзеге асуы мүмкін"
+                      ],
+                      [
+                        "Баға төмендейді, бірақ инвестор ұстайды",
+                        "₸800,000",
+                        "Сату жоқ",
+                        "Шығын жүзеге аспаған"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестициялық нәтиже мен салықтық нәтиже байланысты, бірақ салық салынатын сәт көбіне әрекетке тәуелді."
+                  }
+                ]
               }
             }
           },
@@ -466,10 +865,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Realized or unrealized?"
+              "en": "Realized or unrealized?",
+              "ru": "Реализовано или нереализовано?",
+              "kk": "Жүзеге асқан ба, жоқ па?"
             },
             "body": {
-              "en": "Choose whether each case is an unrealized gain, realized gain, realized loss, or no capital-gain issue yet."
+              "en": "Choose whether each case is an unrealized gain, realized gain, realized loss, or no capital-gain issue yet.",
+              "ru": "Выберите, является ли каждый случай нереализованной прибылью, реализованной прибылью, реализованным убытком или пока не создает вопроса прироста капитала.",
+              "kk": "Әр жағдайды жүзеге аспаған пайда, жүзеге асқан пайда, жүзеге асқан шығын немесе әзірге капитал өсімі мәселесі жоқ деп таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -498,6 +901,58 @@
                     "explanation": "The sale below cost realizes a loss."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучшую классификацию.",
+                "options": [
+                  "Нереализованная прибыль",
+                  "Реализованная прибыль",
+                  "Реализованный убыток",
+                  "Пока нет вопроса прироста капитала"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Вы купили ETF за ₸500,000. Сейчас он стоит ₸650,000, но вы все еще держите его.",
+                    "correct_answer": "Нереализованная прибыль",
+                    "explanation": "Прибыль существует на бумаге, но продажи не было."
+                  },
+                  {
+                    "text": "Вы купили акции за ₸700,000 и продали их за ₸900,000.",
+                    "correct_answer": "Реализованная прибыль",
+                    "explanation": "Продажа превращает рост цены в реализованную прибыль."
+                  },
+                  {
+                    "text": "Вы купили фонд за ₸800,000 и продали его за ₸620,000.",
+                    "correct_answer": "Реализованный убыток",
+                    "explanation": "Продажа ниже стоимости реализует убыток."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ең жақсы жіктеуді таңдаңыз.",
+                "options": [
+                  "Жүзеге аспаған пайда",
+                  "Жүзеге асқан пайда",
+                  "Жүзеге асқан шығын",
+                  "Әзірге капитал өсімі мәселесі жоқ"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Сіз ETF-ті ₸500,000-ға сатып алдыңыз. Қазір ол ₸650,000 тұрады, бірақ сіз оны әлі ұстап отырсыз.",
+                    "correct_answer": "Жүзеге аспаған пайда",
+                    "explanation": "Пайда қағаз жүзінде бар, бірақ сату болған жоқ."
+                  },
+                  {
+                    "text": "Сіз акцияларды ₸700,000-ға сатып алып, ₸900,000-ға саттыңыз.",
+                    "correct_answer": "Жүзеге асқан пайда",
+                    "explanation": "Сату баға өсімін жүзеге асқан пайдаға айналдырады."
+                  },
+                  {
+                    "text": "Сіз қорды ₸800,000-ға сатып алып, ₸620,000-ға саттыңыз.",
+                    "correct_answer": "Жүзеге асқан шығын",
+                    "explanation": "Құннан төмен сату шығынды жүзеге асырады."
+                  }
+                ]
               }
             }
           },
@@ -506,13 +961,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Track basis and timing"
+              "en": "Track basis and timing",
+              "ru": "Отслеживайте базу и сроки",
+              "kk": "База мен уақытты қадағалаңыз"
             },
             "body": {
-              "en": "Capital-gains planning depends on cost basis, sale price, fees, account type, holding period, and local rules. Good records make tax calculation and decision-making easier. The key habit is to know what gain is only on paper and what gain has been realized."
+              "en": "Capital-gains planning depends on cost basis, sale price, fees, account type, holding period, and local rules. Good records make tax calculation and decision-making easier. The key habit is to know what gain is only on paper and what gain has been realized.",
+              "ru": "Планирование прироста капитала зависит от базы стоимости, цены продажи, комиссий, типа счета, периода владения и местных правил. Хорошие записи облегчают расчет налогов и принятие решений. Главная привычка — понимать, какая прибыль только на бумаге, а какая уже реализована.",
+              "kk": "Капитал өсімін жоспарлау құн базасына, сату бағасына, комиссияларға, шот түріне, ұстау мерзіміне және жергілікті ережелерге байланысты. Жақсы жазбалар салық есептеу мен шешім қабылдауды жеңілдетеді. Негізгі дағды — қай пайда тек қағаз жүзінде, қайсысы жүзеге асқанын білу."
             },
             "tip": {
-              "en": "Keep purchase records before you need them."
+              "en": "Keep purchase records before you need them.",
+              "ru": "Храните записи о покупках до того, как они понадобятся.",
+              "kk": "Сатып алу жазбаларын қажет болмай тұрып сақтаңыз."
             }
           }
         ]
@@ -521,7 +982,9 @@
         "quiz_id": 2502,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Capital Gains — Check"
+          "en": "Capital Gains — Check",
+          "ru": "Прирост капитала — проверка",
+          "kk": "Капитал өсімі — тексеру"
         },
         "questions": [
           {
@@ -529,14 +992,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "You bought an asset for ₸1,000,000 and sold it for ₸1,350,000. What is the simple capital gain before fees and special rules?"
+              "en": "You bought an asset for ₸1,000,000 and sold it for ₸1,350,000. What is the simple capital gain before fees and special rules?",
+              "ru": "Вы купили актив за ₸1,000,000 и продали за ₸1,350,000. Каков простой прирост капитала до комиссий и специальных правил?",
+              "kk": "Сіз активті ₸1,000,000-ға сатып алып, ₸1,350,000-ға саттыңыз. Комиссиялар мен арнайы ережелерге дейінгі қарапайым капитал өсімі қанша?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "₸350,000"
+                  "en": "₸350,000",
+                  "ru": "₸350,000",
+                  "kk": "₸350,000"
                 },
                 "is_correct": true
               },
@@ -544,7 +1011,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "₸1,350,000"
+                  "en": "₸1,350,000",
+                  "ru": "₸1,350,000",
+                  "kk": "₸1,350,000"
                 },
                 "is_correct": false
               },
@@ -552,7 +1021,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "₸1,000,000"
+                  "en": "₸1,000,000",
+                  "ru": "₸1,000,000",
+                  "kk": "₸1,000,000"
                 },
                 "is_correct": false
               },
@@ -560,7 +1031,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "₸2,350,000"
+                  "en": "₸2,350,000",
+                  "ru": "₸2,350,000",
+                  "kk": "₸2,350,000"
                 },
                 "is_correct": false
               }
@@ -571,14 +1044,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why is cost basis important?"
+              "en": "Why is cost basis important?",
+              "ru": "Почему важна база стоимости?",
+              "kk": "Неліктен құн базасы маңызды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It helps calculate the gain or loss when the asset is sold"
+                  "en": "It helps calculate the gain or loss when the asset is sold",
+                  "ru": "Она помогает рассчитать прибыль или убыток при продаже актива",
+                  "kk": "Ол актив сатылғанда пайда немесе шығынды есептеуге көмектеседі"
                 },
                 "is_correct": true
               },
@@ -586,7 +1063,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It guarantees the asset will rise"
+                  "en": "It guarantees the asset will rise",
+                  "ru": "Она гарантирует рост актива",
+                  "kk": "Ол активтің өсетініне кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -594,7 +1073,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It replaces the need for sale records"
+                  "en": "It replaces the need for sale records",
+                  "ru": "Она заменяет необходимость записей о продаже",
+                  "kk": "Ол сату жазбаларының қажеттілігін алмастырады"
                 },
                 "is_correct": false
               },
@@ -602,7 +1083,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It is always the same as current market value"
+                  "en": "It is always the same as current market value",
+                  "ru": "Она всегда равна текущей рыночной стоимости",
+                  "kk": "Ол әрқашан ағымдағы нарықтық құнға тең"
                 },
                 "is_correct": false
               }
@@ -613,14 +1096,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the difference between realized and unrealized gain?"
+              "en": "What is the difference between realized and unrealized gain?",
+              "ru": "В чем разница между реализованной и нереализованной прибылью?",
+              "kk": "Жүзеге асқан және жүзеге аспаған пайданың айырмасы қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Realized gain usually comes from selling; unrealized gain is a paper increase while holding"
+                  "en": "Realized gain usually comes from selling; unrealized gain is a paper increase while holding",
+                  "ru": "Реализованная прибыль обычно возникает при продаже; нереализованная прибыль — это рост на бумаге во время владения",
+                  "kk": "Жүзеге асқан пайда әдетте сатудан болады; жүзеге аспаған пайда — ұстап отырғанда қағаз жүзіндегі өсім"
                 },
                 "is_correct": true
               },
@@ -628,7 +1115,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Unrealized gain is always tax-free forever"
+                  "en": "Unrealized gain is always tax-free forever",
+                  "ru": "Нереализованная прибыль всегда навсегда освобождена от налога",
+                  "kk": "Жүзеге аспаған пайда әрқашан мәңгі салықсыз"
                 },
                 "is_correct": false
               },
@@ -636,7 +1125,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Realized gain exists only before purchase"
+                  "en": "Realized gain exists only before purchase",
+                  "ru": "Реализованная прибыль существует только до покупки",
+                  "kk": "Жүзеге асқан пайда тек сатып алуға дейін болады"
                 },
                 "is_correct": false
               },
@@ -644,7 +1135,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "There is no difference for planning"
+                  "en": "There is no difference for planning",
+                  "ru": "Для планирования разницы нет",
+                  "kk": "Жоспарлау үшін айырмашылық жоқ"
                 },
                 "is_correct": false
               }
@@ -656,10 +1149,14 @@
     {
       "code": "tax_efficiency",
       "title": {
-        "en": "Tax Efficiency"
+        "en": "Tax Efficiency",
+        "ru": "Налоговая эффективность",
+        "kk": "Салықтық тиімділік"
       },
       "description": {
-        "en": "Tax efficiency means improving after-tax results by controlling timing, turnover, income type, and legal account choices."
+        "en": "Tax efficiency means improving after-tax results by controlling timing, turnover, income type, and legal account choices.",
+        "ru": "Налоговая эффективность означает улучшение результатов после налогов через контроль сроков, оборота, типа дохода и законного выбора счетов.",
+        "kk": "Салықтық тиімділік — уақытты, айналымды, табыс түрін және заңды шот таңдауды бақылау арқылы салықтан кейінгі нәтижені жақсарту."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -671,13 +1168,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "After-tax return is the real target"
+              "en": "After-tax return is the real target",
+              "ru": "Доходность после налогов — реальная цель",
+              "kk": "Салықтан кейінгі табыс — нақты мақсат"
             },
             "body": {
-              "en": "Tax efficiency is about keeping more of what an investment earns after legal taxes are paid. It does not mean choosing investments only for tax reasons. It means comparing choices by after-tax, after-fee, after-inflation results."
+              "en": "Tax efficiency is about keeping more of what an investment earns after legal taxes are paid. It does not mean choosing investments only for tax reasons. It means comparing choices by after-tax, after-fee, after-inflation results.",
+              "ru": "Налоговая эффективность — это сохранение большей части того, что приносит инвестиция после уплаты законных налогов. Это не означает выбирать инвестиции только ради налогов. Это означает сравнивать варианты по результату после налогов, комиссий и инфляции.",
+              "kk": "Салықтық тиімділік — заңды салықтар төленгеннен кейін инвестиция табысының көбірек бөлігін сақтау. Бұл инвестицияны тек салық үшін таңдау деген емес. Бұл таңдауларды салықтан, комиссиядан және инфляциядан кейінгі нәтиже бойынша салыстыру."
             },
             "tip": {
-              "en": "A lower pre-tax return can be better if the after-tax result is higher."
+              "en": "A lower pre-tax return can be better if the after-tax result is higher.",
+              "ru": "Более низкая доходность до налогов может быть лучше, если результат после налогов выше.",
+              "kk": "Салыққа дейінгі төменірек табыс салықтан кейінгі нәтиже жоғары болса, жақсырақ болуы мүмкін."
             }
           },
           {
@@ -685,13 +1188,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Turnover can create tax drag"
+              "en": "Turnover can create tax drag",
+              "ru": "Оборот может создавать налоговую нагрузку",
+              "kk": "Айналым салықтық тежеу тудыруы мүмкін"
             },
             "body": {
-              "en": "Frequent buying and selling can realize gains more often. If those gains are taxable, the investor may lose compounding power to repeated tax payments. Lower-turnover strategies can be more tax efficient when they also fit the investment plan."
+              "en": "Frequent buying and selling can realize gains more often. If those gains are taxable, the investor may lose compounding power to repeated tax payments. Lower-turnover strategies can be more tax efficient when they also fit the investment plan.",
+              "ru": "Частые покупки и продажи могут чаще реализовывать прибыль. Если эта прибыль облагается налогом, инвестор может терять силу сложного роста из-за повторных налоговых платежей. Стратегии с низким оборотом могут быть налогово эффективнее, если они также подходят инвестиционному плану.",
+              "kk": "Жиі сатып алу және сату пайданы жиі жүзеге асыруы мүмкін. Егер бұл пайдаға салық салынса, инвестор қайталанатын салық төлемдері салдарынан күрделі өсім күшін жоғалтуы мүмкін. Айналымы төмен стратегиялар инвестициялық жоспарға сай келсе, салықтық тиімдірек болуы мүмкін."
             },
             "example": {
-              "en": "A fund that trades heavily may distribute or realize more taxable gains than a broad index fund that changes holdings slowly."
+              "en": "A fund that trades heavily may distribute or realize more taxable gains than a broad index fund that changes holdings slowly.",
+              "ru": "Фонд с активной торговлей может распределять или реализовывать больше налогооблагаемой прибыли, чем широкий индексный фонд, который медленно меняет состав.",
+              "kk": "Көп сауда жасайтын қор құрамын баяу өзгертетін кең индекс қорына қарағанда көбірек салық салынатын пайданы бөлуі немесе жүзеге асыруы мүмкін."
             }
           },
           {
@@ -699,13 +1208,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Income type matters"
+              "en": "Income type matters",
+              "ru": "Тип дохода имеет значение",
+              "kk": "Табыс түрі маңызды"
             },
             "body": {
-              "en": "Interest, dividends, business income, and capital gains may be treated differently depending on jurisdiction and account type. The same pre-tax return can lead to different after-tax outcomes. Tax efficiency begins with knowing which type of income an asset produces."
+              "en": "Interest, dividends, business income, and capital gains may be treated differently depending on jurisdiction and account type. The same pre-tax return can lead to different after-tax outcomes. Tax efficiency begins with knowing which type of income an asset produces.",
+              "ru": "Проценты, дивиденды, доход бизнеса и прирост капитала могут обрабатываться по-разному в зависимости от юрисдикции и типа счета. Одинаковая доходность до налогов может дать разные результаты после налогов. Налоговая эффективность начинается с понимания, какой тип дохода создает актив.",
+              "kk": "Пайыздар, дивидендтер, бизнес табысы және капитал өсімі юрисдикция мен шот түріне қарай әртүрлі қарастырылуы мүмкін. Бірдей салыққа дейінгі табыс салықтан кейін әртүрлі нәтиже беруі мүмкін. Салықтық тиімділік актив қандай табыс түрін өндіретінін білуден басталады."
             },
             "tip": {
-              "en": "Do not compare returns without asking what kind of income created them."
+              "en": "Do not compare returns without asking what kind of income created them.",
+              "ru": "Не сравнивайте доходность, не спросив, какой тип дохода ее создал.",
+              "kk": "Оны қандай табыс түрі жасағанын сұрамай, табыстылықты салыстырмаңыз."
             }
           },
           {
@@ -713,7 +1228,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same pre-tax return, different after-tax result"
+              "en": "Same pre-tax return, different after-tax result",
+              "ru": "Одинаковая доходность до налогов, разный результат после налогов",
+              "kk": "Салыққа дейінгі табыс бірдей, салықтан кейінгі нәтиже әртүрлі"
             },
             "content": {
               "en": {
@@ -762,6 +1279,100 @@
                     "text": "Tax efficiency is not one trick. It is the combined effect of income type, timing, turnover, and account rules."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Две инвестиции приносят по 10% до налогов. Их результаты после налогов могут различаться, если отличаются тип дохода и сроки."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Инвестиция",
+                        "Доходность до налогов",
+                        "Налоговая схема",
+                        "Planning issue"
+                      ],
+                      [
+                        "Стратегия с высоким оборотом",
+                        "10%",
+                        "Прибыль часто реализуется",
+                        "Сложный рост может ежегодно сталкиваться с налоговым торможением"
+                      ],
+                      [
+                        "Стратегия с низким оборотом",
+                        "10%",
+                        "Прибыль в основном откладывается",
+                        "Больше денег может расти сложным процентом до налога"
+                      ],
+                      [
+                        "Актив с процентным доходом",
+                        "10%",
+                        "Доход может облагаться по мере получения",
+                        "Важным может быть правильное размещение"
+                      ],
+                      [
+                        "Налогово-льготный счет",
+                        "10%",
+                        "Налоговый режим зависит от правил",
+                        "Выбор счета может улучшить результат"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Налоговая эффективность — не один прием. Это совместный эффект типа дохода, сроков, оборота и правил счета."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі инвестиция салыққа дейін 10% табыс әкеледі. Табыс түрі мен уақыты әртүрлі болса, салықтан кейінгі нәтижелері де әртүрлі болуы мүмкін."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Инвестиция",
+                        "Салыққа дейінгі табыс",
+                        "Салықтық үлгі",
+                        "Planning issue"
+                      ],
+                      [
+                        "Айналымы жоғары стратегия",
+                        "10%",
+                        "Пайда жиі жүзеге асады",
+                        "Күрделі өсім жыл сайын салықтық тежеуге тап болуы мүмкін"
+                      ],
+                      [
+                        "Айналымы төмен стратегия",
+                        "10%",
+                        "Пайда көбіне кейінге қалдырылады",
+                        "Салыққа дейін көбірек ақша күрделі өсім бере алады"
+                      ],
+                      [
+                        "Пайыз төлейтін актив",
+                        "10%",
+                        "Табыс алынған кезде салық салынуы мүмкін",
+                        "Дұрыс орналастыру маңызды болуы мүмкін"
+                      ],
+                      [
+                        "Салықтық жеңілдігі бар шот",
+                        "10%",
+                        "Салықтық тәртіп ережелерге байланысты",
+                        "Шот таңдау нәтижені жақсарта алады"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Салықтық тиімділік бір ғана әдіс емес. Бұл табыс түрі, уақыт, айналым және шот ережелерінің біріккен әсері."
+                  }
+                ]
               }
             }
           },
@@ -770,10 +1381,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Find the tax-efficiency lever"
+              "en": "Find the tax-efficiency lever",
+              "ru": "Найдите рычаг налоговой эффективности",
+              "kk": "Салықтық тиімділік тетігін табыңыз"
             },
             "body": {
-              "en": "Choose the main tax-efficiency lever in each situation."
+              "en": "Choose the main tax-efficiency lever in each situation.",
+              "ru": "Выберите главный рычаг налоговой эффективности в каждой ситуации.",
+              "kk": "Әр жағдайда негізгі салықтық тиімділік тетігін таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -801,6 +1416,56 @@
                     "explanation": "Where an asset is held can change after-tax results."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите рычаг, который лучше всего улучшает планирование после налогов.",
+                "options": [
+                  "Снизить оборот",
+                  "Понимание типа дохода",
+                  "Выбор счета"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инвестор снова и снова продает прибыльные активы после небольших движений цены и каждый год платит налог на прибыль.",
+                    "correct_answer": "Снизить оборот",
+                    "explanation": "Сокращение ненужной реализованной прибыли может уменьшить налоговое торможение."
+                  },
+                  {
+                    "text": "У двух инвестиций одинаковая доходность до налогов, но одна регулярно платит проценты, а другая в основном растет в цене.",
+                    "correct_answer": "Понимание типа дохода",
+                    "explanation": "Разные типы дохода могут создавать разные сроки или режимы налогообложения."
+                  },
+                  {
+                    "text": "Актив с высоким налогооблагаемым доходом может лучше подходить для налогово-льготного счета, если правила позволяют.",
+                    "correct_answer": "Выбор счета",
+                    "explanation": "Место хранения актива может изменить результат после налогов."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Салықтан кейінгі жоспарлауды ең жақсы жақсартатын тетікті таңдаңыз.",
+                "options": [
+                  "Айналымды азайту",
+                  "Табыс түрін түсіну",
+                  "Шот таңдау"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инвестор шағын баға қозғалыстарынан кейін ұтқан активтерді қайта-қайта сатып, жыл сайын пайдаға салық төлейді.",
+                    "correct_answer": "Айналымды азайту",
+                    "explanation": "Қажетсіз жүзеге асқан пайданы азайту салықтық тежеуді төмендетуі мүмкін."
+                  },
+                  {
+                    "text": "Екі инвестицияның салыққа дейінгі табысы бірдей, бірақ бірі тұрақты пайыз төлейді, ал екіншісі негізінен бағамен өседі.",
+                    "correct_answer": "Табыс түрін түсіну",
+                    "explanation": "Әртүрлі табыс түрлері салықтың уақыты мен тәртібін әртүрлі етуі мүмкін."
+                  },
+                  {
+                    "text": "Ережелер рұқсат етсе, көп салық салынатын табыс әкелетін актив салықтық жеңілдігі бар шотқа жақсырақ сай келуі мүмкін.",
+                    "correct_answer": "Шот таңдау",
+                    "explanation": "Актив қайда ұсталғаны салықтан кейінгі нәтижені өзгерте алады."
+                  }
+                ]
               }
             }
           },
@@ -809,13 +1474,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Optimize legally and practically"
+              "en": "Optimize legally and practically",
+              "ru": "Оптимизируйте законно и практично",
+              "kk": "Заңды және практикалық оңтайландырыңыз"
             },
             "body": {
-              "en": "Tax efficiency improves real outcomes by reducing unnecessary tax drag. The main tools are timing, turnover control, income-type awareness, and suitable accounts. The best strategy still has to fit the portfolio, risk tolerance, and local rules."
+              "en": "Tax efficiency improves real outcomes by reducing unnecessary tax drag. The main tools are timing, turnover control, income-type awareness, and suitable accounts. The best strategy still has to fit the portfolio, risk tolerance, and local rules.",
+              "ru": "Налоговая эффективность улучшает реальные результаты, уменьшая ненужную налоговую нагрузку. Основные инструменты — сроки, контроль оборота, понимание типа дохода и подходящие счета. Лучшая стратегия все равно должна соответствовать портфелю, терпимости к риску и местным правилам.",
+              "kk": "Салықтық тиімділік қажетсіз салықтық тежеуді азайтып, нақты нәтижелерді жақсартады. Негізгі құралдар — уақыт, айналымды бақылау, табыс түрін түсіну және қолайлы шоттар. Ең жақсы стратегия бәрібір портфельге, тәуекелге төзімділікке және жергілікті ережелерге сай болуы керек."
             },
             "tip": {
-              "en": "Never let a tax saving become the only reason for a poor investment."
+              "en": "Never let a tax saving become the only reason for a poor investment.",
+              "ru": "Никогда не позволяйте налоговой экономии стать единственной причиной плохой инвестиции.",
+              "kk": "Салық үнемдеу нашар инвестицияның жалғыз себебіне айналмасын."
             }
           }
         ]
@@ -824,7 +1495,9 @@
         "quiz_id": 2503,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Tax Efficiency — Check"
+          "en": "Tax Efficiency — Check",
+          "ru": "Налоговая эффективность — проверка",
+          "kk": "Салықтық тиімділік — тексеру"
         },
         "questions": [
           {
@@ -832,14 +1505,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why can frequent trading reduce long-term after-tax results?"
+              "en": "Why can frequent trading reduce long-term after-tax results?",
+              "ru": "Почему частая торговля может снизить долгосрочный результат после налогов?",
+              "kk": "Неліктен жиі сауда жасау ұзақ мерзімді салықтан кейінгі нәтижені төмендетуі мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It can realize taxable gains often, reducing money left to compound"
+                  "en": "It can realize taxable gains often, reducing money left to compound",
+                  "ru": "Она может часто реализовывать налогооблагаемую прибыль, уменьшая сумму, остающуюся для сложного роста",
+                  "kk": "Ол салық салынатын пайданы жиі жүзеге асырып, күрделі өсімге қалатын ақшаны азайтады"
                 },
                 "is_correct": true
               },
@@ -847,7 +1524,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Trading frequently guarantees higher return"
+                  "en": "Trading frequently guarantees higher return",
+                  "ru": "Частая торговля гарантирует более высокую доходность",
+                  "kk": "Жиі сауда жасау жоғары табысқа кепілдік береді"
                 },
                 "is_correct": false
               },
@@ -855,7 +1534,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Taxes only apply to investors who never trade"
+                  "en": "Taxes only apply to investors who never trade",
+                  "ru": "Налоги применяются только к инвесторам, которые никогда не торгуют",
+                  "kk": "Салықтар тек ешқашан сауда жасамайтын инвесторларға қолданылады"
                 },
                 "is_correct": false
               },
@@ -863,7 +1544,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Turnover has no relation to taxable events"
+                  "en": "Turnover has no relation to taxable events",
+                  "ru": "Оборот не связан с налогооблагаемыми событиями",
+                  "kk": "Айналымның салық салынатын оқиғаларға қатысы жоқ"
                 },
                 "is_correct": false
               }
@@ -874,14 +1557,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which comparison is most tax-aware?"
+              "en": "Which comparison is most tax-aware?",
+              "ru": "Какое сравнение наиболее учитывает налоги?",
+              "kk": "Қай салыстыру салықты ең жақсы ескереді?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Comparing investments by after-tax, after-fee, after-inflation result"
+                  "en": "Comparing investments by after-tax, after-fee, after-inflation result",
+                  "ru": "Сравнение инвестиций по результату после налогов, комиссий и инфляции",
+                  "kk": "Инвестицияларды салықтан, комиссиядан және инфляциядан кейінгі нәтиже бойынша салыстыру"
                 },
                 "is_correct": true
               },
@@ -889,7 +1576,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Choosing only the highest pre-tax headline return"
+                  "en": "Choosing only the highest pre-tax headline return",
+                  "ru": "Выбор только самой высокой заявленной доходности до налогов",
+                  "kk": "Тек ең жоғары салыққа дейінгі жарияланған табысты таңдау"
                 },
                 "is_correct": false
               },
@@ -897,7 +1586,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Ignoring income type"
+                  "en": "Ignoring income type",
+                  "ru": "Игнорирование типа дохода",
+                  "kk": "Табыс түрін елемеу"
                 },
                 "is_correct": false
               },
@@ -905,7 +1596,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Assuming all accounts have identical rules"
+                  "en": "Assuming all accounts have identical rules",
+                  "ru": "Предположение, что у всех счетов одинаковые правила",
+                  "kk": "Барлық шоттардың ережелері бірдей деп санау"
                 },
                 "is_correct": false
               }
@@ -916,14 +1609,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why does income type matter?"
+              "en": "Why does income type matter?",
+              "ru": "Почему тип дохода важен?",
+              "kk": "Неліктен табыс түрі маңызды?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Interest, dividends, business income, and gains may be taxed or timed differently"
+                  "en": "Interest, dividends, business income, and gains may be taxed or timed differently",
+                  "ru": "Проценты, дивиденды, доход бизнеса и прибыль могут облагаться или учитываться по срокам по-разному",
+                  "kk": "Пайыздар, дивидендтер, бизнес табысы және пайда әртүрлі салық салынуы немесе әртүрлі уақытта есептелуі мүмкін"
                 },
                 "is_correct": true
               },
@@ -931,7 +1628,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "All income types are always identical"
+                  "en": "All income types are always identical",
+                  "ru": "Все типы дохода всегда одинаковы",
+                  "kk": "Барлық табыс түрлері әрқашан бірдей"
                 },
                 "is_correct": false
               },
@@ -939,7 +1638,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Income type affects only the asset name"
+                  "en": "Income type affects only the asset name",
+                  "ru": "Тип дохода влияет только на название актива",
+                  "kk": "Табыс түрі тек актив атауына әсер етеді"
                 },
                 "is_correct": false
               },
@@ -947,7 +1648,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Income type guarantees no tax"
+                  "en": "Income type guarantees no tax",
+                  "ru": "Тип дохода гарантирует отсутствие налога",
+                  "kk": "Табыс түрі салық жоқ екеніне кепілдік береді"
                 },
                 "is_correct": false
               }
@@ -959,10 +1662,14 @@
     {
       "code": "account_placement",
       "title": {
-        "en": "Account Placement"
+        "en": "Account Placement",
+        "ru": "Размещение по счетам",
+        "kk": "Шоттар бойынша орналастыру"
       },
       "description": {
-        "en": "Account placement means deciding which assets belong in taxable, tax-deferred, or tax-free accounts to improve after-tax results."
+        "en": "Account placement means deciding which assets belong in taxable, tax-deferred, or tax-free accounts to improve after-tax results.",
+        "ru": "Размещение по счетам означает решение, какие активы держать на налогооблагаемых, отложенно-налоговых или безналоговых счетах для улучшения результата после налогов.",
+        "kk": "Шоттар бойынша орналастыру — салықтан кейінгі нәтижені жақсарту үшін қандай активтерді салық салынатын, салық кейінге қалдырылатын немесе салықсыз шоттарда ұстауды шешу."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -974,13 +1681,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Where you hold an asset matters"
+              "en": "Where you hold an asset matters",
+              "ru": "Где вы держите актив — важно",
+              "kk": "Активті қайда ұстайтыныңыз маңызды"
             },
             "body": {
-              "en": "Account placement is the decision about which asset goes in which account type. Two investors can own the same assets but get different after-tax results because they place them differently. The goal is to match asset tax behavior with account tax treatment."
+              "en": "Account placement is the decision about which asset goes in which account type. Two investors can own the same assets but get different after-tax results because they place them differently. The goal is to match asset tax behavior with account tax treatment.",
+              "ru": "Размещение по счетам — это решение, какой актив помещается в какой тип счета. Два инвестора могут владеть одинаковыми активами, но получить разные результаты после налогов из-за разного размещения. Цель — сопоставить налоговое поведение актива с налоговым режимом счета.",
+              "kk": "Шоттар бойынша орналастыру — қай актив қай шот түрінде болатынын шешу. Екі инвестор бірдей активтерге ие болуы мүмкін, бірақ орналастыруы әртүрлі болғандықтан салықтан кейінгі нәтижелері өзгеше болады. Мақсат — активтің салықтық мінезін шоттың салықтық режимімен сәйкестендіру."
             },
             "tip": {
-              "en": "Asset allocation decides what you own; account placement decides where you hold it."
+              "en": "Asset allocation decides what you own; account placement decides where you hold it.",
+              "ru": "Распределение активов решает, чем вы владеете; размещение по счетам — где вы это держите.",
+              "kk": "Активтерді бөлу неге ие екеніңізді шешеді; шот бойынша орналастыру оны қайда ұстайтыныңызды шешеді."
             }
           },
           {
@@ -988,10 +1701,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Taxable accounts value flexibility"
+              "en": "Taxable accounts value flexibility",
+              "ru": "Налогооблагаемые счета ценят гибкость",
+              "kk": "Салық салынатын шоттарда икемділік маңызды"
             },
             "body": {
-              "en": "A taxable account may offer easier access and fewer withdrawal restrictions, but taxes can apply as income or gains occur. Assets that naturally create less annual taxable income may be easier to hold there. Still, rules and personal needs matter."
+              "en": "A taxable account may offer easier access and fewer withdrawal restrictions, but taxes can apply as income or gains occur. Assets that naturally create less annual taxable income may be easier to hold there. Still, rules and personal needs matter.",
+              "ru": "Налогооблагаемый счет может давать более легкий доступ и меньше ограничений на вывод, но налоги могут возникать по мере получения дохода или прибыли. Активы, которые естественно создают меньше ежегодного налогооблагаемого дохода, может быть проще держать там. Но правила и личные потребности важны.",
+              "kk": "Салық салынатын шот қолжетімділікті жеңілдетіп, ақша алуға шектеуді азайтуы мүмкін, бірақ табыс немесе пайда пайда болған сайын салық салынуы мүмкін. Жыл сайын аз салық салынатын табыс әкелетін активтерді онда ұстау жеңілірек болуы мүмкін. Дегенмен ережелер мен жеке қажеттіліктер маңызды."
             }
           },
           {
@@ -999,13 +1716,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Tax-advantaged accounts protect certain assets better"
+              "en": "Tax-advantaged accounts protect certain assets better",
+              "ru": "Налогово-льготные счета лучше защищают некоторые активы",
+              "kk": "Салықтық жеңілдігі бар шоттар кейбір активтерді жақсырақ қорғайды"
             },
             "body": {
-              "en": "Accounts with tax deferral or tax-free treatment can be valuable for assets that produce frequent taxable income or high expected growth. The best placement depends on contribution limits, access rules, time horizon, and future tax rates."
+              "en": "Accounts with tax deferral or tax-free treatment can be valuable for assets that produce frequent taxable income or high expected growth. The best placement depends on contribution limits, access rules, time horizon, and future tax rates.",
+              "ru": "Счета с отсрочкой налога или безналоговым режимом могут быть ценны для активов, которые создают частый налогооблагаемый доход или имеют высокий ожидаемый рост. Лучшее размещение зависит от лимитов взносов, правил доступа, горизонта и будущих налоговых ставок.",
+              "kk": "Салықты кейінге қалдыруы немесе салықсыз режимі бар шоттар жиі салық салынатын табыс әкелетін немесе жоғары өсуі күтілетін активтер үшін құнды болуы мүмкін. Ең жақсы орналастыру жарна лимиттеріне, қолжетімділік ережелеріне, уақыт көкжиегіне және болашақ салық мөлшерлемелеріне байланысты."
             },
             "example": {
-              "en": "An income-producing bond fund may be less tax-efficient in a taxable account than in a suitable tax-advantaged account, if local rules allow that structure."
+              "en": "An income-producing bond fund may be less tax-efficient in a taxable account than in a suitable tax-advantaged account, if local rules allow that structure.",
+              "ru": "Доходный облигационный фонд может быть менее налогово эффективным на налогооблагаемом счете, чем на подходящем налогово-льготном счете, если местные правила позволяют такую структуру.",
+              "kk": "Табыс әкелетін облигациялық қор, жергілікті ережелер рұқсат етсе, салық салынатын шотта қолайлы салықтық жеңілдігі бар шотқа қарағанда салықтық тиімділігі төмен болуы мүмкін."
             }
           },
           {
@@ -1013,7 +1736,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Asset location logic"
+              "en": "Asset location logic",
+              "ru": "Логика размещения активов",
+              "kk": "Активтерді орналастыру логикасы"
             },
             "content": {
               "en": {
@@ -1057,6 +1782,90 @@
                     "text": "Good placement balances tax efficiency with access, risk, and the actual purpose of the money."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "У инвестора есть три типа счетов и три типа активов. Размещение не автоматическое, но логику можно организовать."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Поведение актива",
+                        "Возможная проблема",
+                        "Вопрос размещения"
+                      ],
+                      [
+                        "Частый процентный доход",
+                        "Налог может возникать регулярно",
+                        "Может ли налогово-льготный счет снизить нагрузку?"
+                      ],
+                      [
+                        "Широкий фонд акций с низким оборотом",
+                        "Прибыль может в основном откладываться",
+                        "Может ли налогооблагаемый счет быть приемлемым?"
+                      ],
+                      [
+                        "Актив с высоким ожидаемым ростом",
+                        "Возможна крупная будущая прибыль",
+                        "Будет ли ценен безналоговый режим?"
+                      ],
+                      [
+                        "Резервные деньги на экстренный случай",
+                        "Нужен доступ",
+                        "Должны ли деньги оставаться гибкими, а не заблокированными?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Хорошее размещение балансирует налоговую эффективность с доступом, риском и реальной целью денег."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвесторда үш шот түрі және үш актив түрі бар. Орналастыру автоматты емес, бірақ логиканы ұйымдастыруға болады."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Актив мінез-құлқы",
+                        "Мүмкін мәселе",
+                        "Орналастыру сұрағы"
+                      ],
+                      [
+                        "Жиі пайыздық табыс",
+                        "Салық тұрақты туындауы мүмкін",
+                        "Салықтық жеңілдігі бар шот тежеуді азайта ала ма?"
+                      ],
+                      [
+                        "Айналымы төмен кең акциялар қоры",
+                        "Пайда көбіне кейінге қалдырылуы мүмкін",
+                        "Салық салынатын шот қолайлы бола ала ма?"
+                      ],
+                      [
+                        "Өсуі жоғары күтілетін актив",
+                        "Үлкен болашақ пайда мүмкін",
+                        "Салықсыз режим құнды бола ма?"
+                      ],
+                      [
+                        "Төтенше жағдайға арналған ақша",
+                        "Қолжетімділік керек",
+                        "Ақша бұғатталмай, икемді қалуы керек пе?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Жақсы орналастыру салықтық тиімділікті қолжетімділікпен, тәуекелмен және ақшаның нақты мақсатымен теңестіреді."
+                  }
+                ]
               }
             }
           },
@@ -1065,10 +1874,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Choose the account logic"
+              "en": "Choose the account logic",
+              "ru": "Выберите логику счета",
+              "kk": "Шот логикасын таңдаңыз"
             },
             "body": {
-              "en": "Select the account-placement idea that best fits each situation."
+              "en": "Select the account-placement idea that best fits each situation.",
+              "ru": "Выберите идею размещения по счетам, которая лучше всего подходит каждой ситуации.",
+              "kk": "Әр жағдайға ең сәйкес шот бойынша орналастыру идеясын таңдаңыз."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1096,6 +1909,56 @@
                     "explanation": "Tax-free or tax-advantaged treatment may be especially valuable for large future gains."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучший принцип размещения.",
+                "options": [
+                  "Сохранить гибкость",
+                  "Защитить частый доход",
+                  "Защитить высокий рост"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Экстренные деньги могут понадобиться в течение нескольких дней.",
+                    "correct_answer": "Сохранить гибкость",
+                    "explanation": "Для экстренного резерва доступ важнее максимальной налоговой оптимизации."
+                  },
+                  {
+                    "text": "Актив платит регулярные налогооблагаемые проценты и предназначен для долгосрочного владения.",
+                    "correct_answer": "Защитить частый доход",
+                    "explanation": "Подходящий налогово-льготный счет может уменьшить повторяющуюся налоговую нагрузку, если правила позволяют."
+                  },
+                  {
+                    "text": "Инвестиция имеет высокий ожидаемый долгосрочный рост и может оставаться вложенной десятилетиями.",
+                    "correct_answer": "Защитить высокий рост",
+                    "explanation": "Безналоговый или льготный налоговый режим может быть особенно ценен для крупной будущей прибыли."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Ең жақсы орналастыру қағидасын таңдаңыз.",
+                "options": [
+                  "Икемді сақтау",
+                  "Жиі табысты қорғау",
+                  "Жоғары өсімді қорғау"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Төтенше ақша бірнеше күн ішінде қажет болуы мүмкін.",
+                    "correct_answer": "Икемді сақтау",
+                    "explanation": "Төтенше ақша үшін қолжетімділік ең жоғары салықтық оңтайландырудан маңыздырақ."
+                  },
+                  {
+                    "text": "Актив тұрақты салық салынатын пайыз төлейді және ұзақ мерзімді ұстауға арналған.",
+                    "correct_answer": "Жиі табысты қорғау",
+                    "explanation": "Ережелер рұқсат етсе, қолайлы салықтық жеңілдігі бар шот қайталанатын салықтық тежеуді азайтуы мүмкін."
+                  },
+                  {
+                    "text": "Инвестицияның ұзақ мерзімді өсуі жоғары күтіледі және ондаған жыл бойы салынған күйде қала алады.",
+                    "correct_answer": "Жоғары өсімді қорғау",
+                    "explanation": "Салықсыз немесе салықтық жеңілдігі бар режим үлкен болашақ пайда үшін ерекше құнды болуы мүмкін."
+                  }
+                ]
               }
             }
           },
@@ -1104,13 +1967,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Placement follows purpose"
+              "en": "Placement follows purpose",
+              "ru": "Размещение следует цели",
+              "kk": "Орналастыру мақсатқа бағынады"
             },
             "body": {
-              "en": "Account placement can improve after-tax outcomes, but it should not override access needs or risk control. Match assets to accounts based on income type, growth potential, time horizon, and rules. The best placement is useful only if the overall portfolio still fits your goals."
+              "en": "Account placement can improve after-tax outcomes, but it should not override access needs or risk control. Match assets to accounts based on income type, growth potential, time horizon, and rules. The best placement is useful only if the overall portfolio still fits your goals.",
+              "ru": "Размещение по счетам может улучшить результаты после налогов, но не должно перекрывать потребность в доступе или контроль риска. Сопоставляйте активы со счетами по типу дохода, потенциалу роста, горизонту и правилам. Лучшее размещение полезно только если общий портфель все еще соответствует вашим целям.",
+              "kk": "Шоттар бойынша орналастыру салықтан кейінгі нәтижені жақсарта алады, бірақ қолжетімділік қажеттілігін немесе тәуекел бақылауын басып кетпеуі керек. Активтерді шоттармен табыс түрі, өсу әлеуеті, уақыт көкжиегі және ережелер бойынша сәйкестендіріңіз. Ең жақсы орналастыру жалпы портфель мақсаттарыңызға сай болса ғана пайдалы."
             },
             "tip": {
-              "en": "Do not lock short-term money away just to chase tax efficiency."
+              "en": "Do not lock short-term money away just to chase tax efficiency.",
+              "ru": "Не блокируйте краткосрочные деньги только ради налоговой эффективности.",
+              "kk": "Қысқа мерзімді ақшаны тек салықтық тиімділік үшін бұғаттамаңыз."
             }
           }
         ]
@@ -1119,7 +1988,9 @@
         "quiz_id": 2504,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Account Placement — Check"
+          "en": "Account Placement — Check",
+          "ru": "Размещение по счетам — проверка",
+          "kk": "Шоттар бойынша орналастыру — тексеру"
         },
         "questions": [
           {
@@ -1127,14 +1998,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "What is the difference between asset allocation and account placement?"
+              "en": "What is the difference between asset allocation and account placement?",
+              "ru": "В чем разница между распределением активов и размещением по счетам?",
+              "kk": "Активтерді бөлу мен шоттар бойынша орналастырудың айырмасы қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Allocation decides what you own; placement decides where you hold it"
+                  "en": "Allocation decides what you own; placement decides where you hold it",
+                  "ru": "Распределение решает, чем вы владеете; размещение решает, где вы это держите",
+                  "kk": "Бөлу неге ие екеніңізді шешеді; орналастыру оны қайда ұстайтыныңызды шешеді"
                 },
                 "is_correct": true
               },
@@ -1142,7 +2017,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They are exactly the same thing"
+                  "en": "They are exactly the same thing",
+                  "ru": "Это абсолютно одно и то же",
+                  "kk": "Олар дәл бір нәрсе"
                 },
                 "is_correct": false
               },
@@ -1150,7 +2027,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Placement ignores tax treatment"
+                  "en": "Placement ignores tax treatment",
+                  "ru": "Размещение игнорирует налоговый режим",
+                  "kk": "Орналастыру салықтық режимді елемейді"
                 },
                 "is_correct": false
               },
@@ -1158,7 +2037,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Allocation applies only to bank deposits"
+                  "en": "Allocation applies only to bank deposits",
+                  "ru": "Распределение относится только к банковским депозитам",
+                  "kk": "Бөлу тек банк депозиттеріне қатысты"
                 },
                 "is_correct": false
               }
@@ -1169,14 +2050,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why might a frequent interest-paying asset fit better in a tax-advantaged account?"
+              "en": "Why might a frequent interest-paying asset fit better in a tax-advantaged account?",
+              "ru": "Почему актив с частыми процентными выплатами может лучше подходить для налогово-льготного счета?",
+              "kk": "Неліктен жиі пайыз төлейтін актив салықтық жеңілдігі бар шотқа жақсырақ сай болуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Regular taxable income can create repeated tax drag if held in a taxable account"
+                  "en": "Regular taxable income can create repeated tax drag if held in a taxable account",
+                  "ru": "Регулярный налогооблагаемый доход может создавать повторяющуюся налоговую нагрузку на налогооблагаемом счете",
+                  "kk": "Салық салынатын шотта тұрақты салық салынатын табыс қайталанатын салықтық тежеу тудыруы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1184,7 +2069,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Interest-paying assets always lose money"
+                  "en": "Interest-paying assets always lose money",
+                  "ru": "Активы с процентным доходом всегда теряют деньги",
+                  "kk": "Пайыз төлейтін активтер әрқашан ақша жоғалтады"
                 },
                 "is_correct": false
               },
@@ -1192,7 +2079,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Tax-advantaged accounts remove all investment risk"
+                  "en": "Tax-advantaged accounts remove all investment risk",
+                  "ru": "Налогово-льготные счета устраняют весь инвестиционный риск",
+                  "kk": "Салықтық жеңілдігі бар шоттар барлық инвестициялық тәуекелді жояды"
                 },
                 "is_correct": false
               },
@@ -1200,7 +2089,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Interest income never has tax consequences"
+                  "en": "Interest income never has tax consequences",
+                  "ru": "Процентный доход никогда не имеет налоговых последствий",
+                  "kk": "Пайыздық табыстың ешқашан салықтық салдары болмайды"
                 },
                 "is_correct": false
               }
@@ -1211,14 +2102,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why should emergency cash usually prioritize flexibility?"
+              "en": "Why should emergency cash usually prioritize flexibility?",
+              "ru": "Почему экстренный резерв обычно должен ставить гибкость на первое место?",
+              "kk": "Неліктен төтенше ақша әдетте икемділікті бірінші қоюы керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It may be needed quickly, so access can matter more than tax optimization"
+                  "en": "It may be needed quickly, so access can matter more than tax optimization",
+                  "ru": "Он может понадобиться быстро, поэтому доступ может быть важнее налоговой оптимизации",
+                  "kk": "Ол тез қажет болуы мүмкін, сондықтан қолжетімділік салықтық оңтайландырудан маңыздырақ болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -1226,7 +2121,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Emergency cash should always be locked for decades"
+                  "en": "Emergency cash should always be locked for decades",
+                  "ru": "Экстренный резерв всегда должен быть заблокирован на десятилетия",
+                  "kk": "Төтенше ақша әрқашан ондаған жылға бұғатталуы керек"
                 },
                 "is_correct": false
               },
@@ -1234,7 +2131,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Flexibility means ignoring risk"
+                  "en": "Flexibility means ignoring risk",
+                  "ru": "Гибкость означает игнорирование риска",
+                  "kk": "Икемділік тәуекелді елемеу дегенді білдіреді"
                 },
                 "is_correct": false
               },
@@ -1242,7 +2141,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Emergency money has no purpose"
+                  "en": "Emergency money has no purpose",
+                  "ru": "У экстренных денег нет цели",
+                  "kk": "Төтенше ақшаның мақсаты жоқ"
                 },
                 "is_correct": false
               }
@@ -1254,10 +2155,14 @@
     {
       "code": "tax_common_mistakes",
       "title": {
-        "en": "Common Tax Mistakes"
+        "en": "Common Tax Mistakes",
+        "ru": "Распространенные налоговые ошибки",
+        "kk": "Жиі кездесетін салық қателері"
       },
       "description": {
-        "en": "Common mistakes include ignoring taxes, letting taxes dominate every decision, poor records, missed deadlines, and confusing tax avoidance with evasion."
+        "en": "Common mistakes include ignoring taxes, letting taxes dominate every decision, poor records, missed deadlines, and confusing tax avoidance with evasion.",
+        "ru": "Распространенные ошибки включают игнорирование налогов, превращение налогов в главный фактор каждого решения, плохие записи, пропущенные сроки и смешение налоговой оптимизации с уклонением.",
+        "kk": "Жиі қателерге салықтарды елемеу, салықтарды әр шешімнің басты факторына айналдыру, нашар жазбалар, өткізіп алған мерзімдер және салықтық жоспарлауды жалтарумен шатастыру жатады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1269,13 +2174,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Taxes create two opposite mistakes"
+              "en": "Taxes create two opposite mistakes",
+              "ru": "Налоги создают две противоположные ошибки",
+              "kk": "Салықтар екі қарама-қарсы қате тудырады"
             },
             "body": {
-              "en": "Some people ignore taxes until a bill appears. Others let tax fear control every investment choice. Good planning avoids both extremes: taxes matter, but they are one part of a full financial decision."
+              "en": "Some people ignore taxes until a bill appears. Others let tax fear control every investment choice. Good planning avoids both extremes: taxes matter, but they are one part of a full financial decision.",
+              "ru": "Одни люди игнорируют налоги, пока не появится счет. Другие позволяют страху налогов управлять каждым инвестиционным выбором. Хорошее планирование избегает обеих крайностей: налоги важны, но это лишь часть полного финансового решения.",
+              "kk": "Кейбір адамдар шот келгенше салықтарды елемейді. Басқалары салық қорқынышына әр инвестициялық таңдауды басқаруға мүмкіндік береді. Жақсы жоспарлау екі шектен де аулақ болады: салықтар маңызды, бірақ толық қаржылық шешімнің бір бөлігі ғана."
             },
             "tip": {
-              "en": "Do not ignore taxes, but do not let taxes become the whole strategy."
+              "en": "Do not ignore taxes, but do not let taxes become the whole strategy.",
+              "ru": "Не игнорируйте налоги, но и не позволяйте налогам стать всей стратегией.",
+              "kk": "Салықтарды елемеңіз, бірақ оларды бүкіл стратегияға айналдырмаңыз."
             }
           },
           {
@@ -1283,10 +2194,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Poor records create expensive confusion"
+              "en": "Poor records create expensive confusion",
+              "ru": "Плохие записи создают дорогую путаницу",
+              "kk": "Нашар жазбалар қымбат түсініксіздік тудырады"
             },
             "body": {
-              "en": "Without records of purchase price, sale price, fees, dates, and account statements, tax reporting becomes harder. Missing records can lead to mistakes, overpaying, underreporting, or stress near deadlines. Recordkeeping is a financial habit, not an accounting hobby."
+              "en": "Without records of purchase price, sale price, fees, dates, and account statements, tax reporting becomes harder. Missing records can lead to mistakes, overpaying, underreporting, or stress near deadlines. Recordkeeping is a financial habit, not an accounting hobby.",
+              "ru": "Без записей о цене покупки, цене продажи, комиссиях, датах и выписках по счету налоговая отчетность становится сложнее. Отсутствие записей может привести к ошибкам, переплате, недоотчетности или стрессу перед сроками. Ведение записей — финансовая привычка, а не бухгалтерское хобби.",
+              "kk": "Сатып алу бағасы, сату бағасы, комиссиялар, күндер және шот үзінділері туралы жазбалар болмаса, салық есептілігі қиындайды. Жазбалардың жоқтығы қателерге, артық төлеуге, толық есеп бермеуге немесе мерзім жақындағанда күйзеліске әкелуі мүмкін. Жазба жүргізу — бухгалтерлік хобби емес, қаржылық дағды."
             }
           },
           {
@@ -1294,13 +2209,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Legal planning is not evasion"
+              "en": "Legal planning is not evasion",
+              "ru": "Законное планирование — не уклонение",
+              "kk": "Заңды жоспарлау — жалтару емес"
             },
             "body": {
-              "en": "Tax planning uses legal rules such as account choice, timing, documentation, and allowed deductions. Tax evasion hides income, falsifies records, or breaks rules. The difference matters because illegal shortcuts can create penalties and legal problems."
+              "en": "Tax planning uses legal rules such as account choice, timing, documentation, and allowed deductions. Tax evasion hides income, falsifies records, or breaks rules. The difference matters because illegal shortcuts can create penalties and legal problems.",
+              "ru": "Налоговое планирование использует законные правила: выбор счета, сроки, документацию и разрешенные вычеты. Уклонение от налогов скрывает доход, фальсифицирует записи или нарушает правила. Разница важна, потому что незаконные обходные пути могут привести к штрафам и юридическим проблемам.",
+              "kk": "Салықтық жоспарлау шот таңдау, уақыт, құжаттама және рұқсат етілген шегерімдер сияқты заңды ережелерді қолданады. Салықтан жалтару табысты жасырады, жазбаларды бұрмалайды немесе ережелерді бұзады. Айырмашылық маңызды, себебі заңсыз қысқа жолдар айыппұлдар мен құқықтық мәселелерге әкелуі мүмкін."
             },
             "example": {
-              "en": "Using a permitted account type is planning. Hiding investment income from reporting is evasion."
+              "en": "Using a permitted account type is planning. Hiding investment income from reporting is evasion.",
+              "ru": "Использование разрешенного типа счета — это планирование. Сокрытие инвестиционного дохода от отчетности — уклонение.",
+              "kk": "Рұқсат етілген шот түрін қолдану — жоспарлау. Инвестициялық табысты есептіліктен жасыру — жалтару."
             }
           },
           {
@@ -1308,7 +2229,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "The avoidable mistake chain"
+              "en": "The avoidable mistake chain",
+              "ru": "Цепочка предотвратимых ошибок",
+              "kk": "Алдын алуға болатын қателер тізбегі"
             },
             "content": {
               "en": {
@@ -1352,6 +2275,90 @@
                     "text": "Most tax mistakes are easier to prevent than to fix."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор активно торгует в течение года, но не скачивает выписки и не отслеживает базу стоимости."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ошибка",
+                        "Немедленный эффект",
+                        "Поздняя проблема"
+                      ],
+                      [
+                        "Нет записей о покупках",
+                        "Расчет прибыли неясен",
+                        "Возможна неправильная налоговая отчетность"
+                      ],
+                      [
+                        "Нет записей о продажах",
+                        "Реализованные события забыты",
+                        "Пропущено требование отчетности"
+                      ],
+                      [
+                        "Нет календаря сроков",
+                        "Подача задержана",
+                        "Могут возникнуть штрафы или стресс"
+                      ],
+                      [
+                        "Решения только ради налогов",
+                        "Плохие инвестиции удерживаются слишком долго",
+                        "Налоговая экономия скрывает плохой риск"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Большинство налоговых ошибок легче предотвратить, чем исправить."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор жыл бойы белсенді сауда жасайды, бірақ үзінділерді жүктемейді және құн базасын қадағаламайды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Қате",
+                        "Жедел әсер",
+                        "Кейінгі мәселе"
+                      ],
+                      [
+                        "Сатып алу жазбалары жоқ",
+                        "Пайданы есептеу түсініксіз",
+                        "Қате салық есептілігі болуы мүмкін"
+                      ],
+                      [
+                        "Сату жазбалары жоқ",
+                        "Жүзеге асқан оқиғалар ұмытылған",
+                        "Есеп беру талабы өткізіліп кеткен"
+                      ],
+                      [
+                        "Мерзімдер күнтізбесі жоқ",
+                        "Тапсыру кешікті",
+                        "Айыппұлдар немесе күйзеліс болуы мүмкін"
+                      ],
+                      [
+                        "Тек салыққа негізделген шешімдер",
+                        "Нашар инвестициялар тым ұзақ ұсталады",
+                        "Салық үнемі нашар тәуекелді жасырады"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Салық қателерінің көбін түзеткеннен гөрі алдын алу оңай."
+                  }
+                ]
               }
             }
           },
@@ -1360,10 +2367,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Detect the tax mistake"
+              "en": "Detect the tax mistake",
+              "ru": "Найдите налоговую ошибку",
+              "kk": "Салық қатесін анықтаңыз"
             },
             "body": {
-              "en": "Each case contains a common tax-planning mistake. Choose the error."
+              "en": "Each case contains a common tax-planning mistake. Choose the error.",
+              "ru": "Каждый случай содержит распространенную ошибку налогового планирования. Выберите ошибку.",
+              "kk": "Әр жағдай жиі кездесетін салықтық жоспарлау қатесін қамтиды. Қатені таңдаңыз."
             },
             "interactiveType": "error_detector",
             "interactiveContent": {
@@ -1402,6 +2413,78 @@
                   }
                 ],
                 "final_explanation": "Common tax mistakes usually come from missing records, wrong timing, ignoring rules, or letting tax logic replace financial logic."
+              },
+              "ru": {
+                "instruction": "Выберите главную ошибку в каждом утверждении о налоговом планировании.",
+                "cases": [
+                  {
+                    "text": "«Я продал несколько инвестиций, но записи мне не нужны, потому что приложение показывает текущий баланс».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Текущий баланс не заменяет записи о покупке, продаже и комиссиях",
+                      "c) Записи важны только для зарплаты наличными"
+                    ],
+                    "correct": "b",
+                    "explanation": "Налоговой отчетности часто нужна история операций, а не только текущая стоимость счета."
+                  },
+                  {
+                    "text": "«Мне нужно держать плохую инвестицию вечно только потому, что продажа может создать налог».",
+                    "options": [
+                      "a) Налоговый хвост виляет инвестиционной собакой",
+                      "b) Ошибки нет",
+                      "c) Налоги — единственный важный фактор"
+                    ],
+                    "correct": "a",
+                    "explanation": "Налоговый эффект важен, но плохая инвестиция может оставаться плохой, даже если продажа имеет налоговые последствия."
+                  },
+                  {
+                    "text": "«Законное налоговое планирование и сокрытие дохода — одно и то же».",
+                    "options": [
+                      "a) Ошибки нет",
+                      "b) Законное планирование следует правилам; сокрытие дохода — уклонение",
+                      "c) Налоговые правила никогда не различают поведение"
+                    ],
+                    "correct": "b",
+                    "explanation": "Планирование использует закон; уклонение его нарушает."
+                  }
+                ],
+                "final_explanation": "Распространенные налоговые ошибки обычно возникают из-за отсутствия записей, неверных сроков, игнорирования правил или замены финансовой логики налоговой."
+              },
+              "kk": {
+                "instruction": "Әр салықтық жоспарлау мәлімдемесіндегі негізгі қатені таңдаңыз.",
+                "cases": [
+                  {
+                    "text": "«Мен бірнеше инвестицияны саттым, бірақ жазбалар қажет емес, себебі қосымша ағымдағы балансымды көрсетеді».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Ағымдағы баланс сатып алу, сату және комиссия жазбаларын алмастырмайды",
+                      "c) Жазбалар тек қолма-қол жалақы үшін маңызды"
+                    ],
+                    "correct": "b",
+                    "explanation": "Салық есептілігіне көбіне ағымдағы шот құны ғана емес, операциялар тарихы қажет."
+                  },
+                  {
+                    "text": "«Сату салық тудыруы мүмкін болғандықтан ғана нашар инвестицияны мәңгі ұстауым керек».",
+                    "options": [
+                      "a) Салық құйрығы инвестициялық итті бұлғап тұр",
+                      "b) Қате жоқ",
+                      "c) Салықтар ғана маңызды фактор"
+                    ],
+                    "correct": "a",
+                    "explanation": "Салық әсері маңызды, бірақ сатудың салықтық салдары болса да, нашар инвестиция нашар болып қала алады."
+                  },
+                  {
+                    "text": "«Заңды салықтық жоспарлау мен табысты жасыру — бір нәрсе».",
+                    "options": [
+                      "a) Қате жоқ",
+                      "b) Заңды жоспарлау ережелерге сай; табысты жасыру — жалтару",
+                      "c) Салық ережелері мінез-құлықты ешқашан ажыратпайды"
+                    ],
+                    "correct": "b",
+                    "explanation": "Жоспарлау заңды қолданады; жалтару оны бұзады."
+                  }
+                ],
+                "final_explanation": "Жиі салық қателері әдетте жазбалардың жоқтығынан, дұрыс емес уақыттан, ережелерді елемеуден немесе қаржылық логиканы салық логикасымен алмастырудан туындайды."
               }
             }
           },
@@ -1410,13 +2493,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Build a tax hygiene system"
+              "en": "Build a tax hygiene system",
+              "ru": "Создайте систему налоговой гигиены",
+              "kk": "Салықтық гигиена жүйесін құрыңыз"
             },
             "body": {
-              "en": "Tax planning becomes easier with clean records, deadline reminders, and decisions based on after-tax outcomes. The goal is not to fear taxes or game the system. The goal is to follow the law, avoid surprises, and make better financial choices."
+              "en": "Tax planning becomes easier with clean records, deadline reminders, and decisions based on after-tax outcomes. The goal is not to fear taxes or game the system. The goal is to follow the law, avoid surprises, and make better financial choices.",
+              "ru": "Налоговое планирование становится проще с чистыми записями, напоминаниями о сроках и решениями на основе результатов после налогов. Цель — не бояться налогов и не обыгрывать систему. Цель — соблюдать закон, избегать сюрпризов и принимать лучшие финансовые решения.",
+              "kk": "Салықтық жоспарлау таза жазбалармен, мерзім еске салғыштарымен және салықтан кейінгі нәтижеге негізделген шешімдермен жеңілдейді. Мақсат — салықтан қорқу немесе жүйені айналып өту емес. Мақсат — заңды сақтау, тосын жағдайлардан аулақ болу және жақсы қаржылық шешімдер қабылдау."
             },
             "tip": {
-              "en": "Good tax hygiene is boring until it saves you from a painful mistake."
+              "en": "Good tax hygiene is boring until it saves you from a painful mistake.",
+              "ru": "Хорошая налоговая гигиена скучна, пока не спасет от болезненной ошибки.",
+              "kk": "Жақсы салықтық гигиена ауыр қатеден сақтағанға дейін қызықсыз көрінеді."
             }
           }
         ]
@@ -1425,7 +2514,9 @@
         "quiz_id": 2505,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Common Tax Mistakes — Check"
+          "en": "Common Tax Mistakes — Check",
+          "ru": "Распространенные налоговые ошибки — проверка",
+          "kk": "Жиі салық қателері — тексеру"
         },
         "questions": [
           {
@@ -1433,14 +2524,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why is poor recordkeeping a tax risk?"
+              "en": "Why is poor recordkeeping a tax risk?",
+              "ru": "Почему плохое ведение записей — налоговый риск?",
+              "kk": "Неліктен нашар жазба жүргізу салықтық тәуекел?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It can make gains, losses, fees, and taxable events hard to calculate correctly"
+                  "en": "It can make gains, losses, fees, and taxable events hard to calculate correctly",
+                  "ru": "Из-за него прибыль, убытки, комиссии и налогооблагаемые события трудно правильно рассчитать",
+                  "kk": "Ол пайдаларды, шығындарды, комиссияларды және салық салынатын оқиғаларды дұрыс есептеуді қиындатады"
                 },
                 "is_correct": true
               },
@@ -1448,7 +2543,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Records are never needed for investing"
+                  "en": "Records are never needed for investing",
+                  "ru": "Записи никогда не нужны для инвестирования",
+                  "kk": "Инвестиция үшін жазбалар ешқашан қажет емес"
                 },
                 "is_correct": false
               },
@@ -1456,7 +2553,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Current portfolio value contains every tax detail automatically"
+                  "en": "Current portfolio value contains every tax detail automatically",
+                  "ru": "Текущая стоимость портфеля автоматически содержит все налоговые детали",
+                  "kk": "Портфельдің ағымдағы құны барлық салықтық мәліметті автоматты түрде қамтиды"
                 },
                 "is_correct": false
               },
@@ -1464,7 +2563,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Poor records always reduce tax legally"
+                  "en": "Poor records always reduce tax legally",
+                  "ru": "Плохие записи всегда законно уменьшают налог",
+                  "kk": "Нашар жазбалар әрқашан заңды түрде салықты азайтады"
                 },
                 "is_correct": false
               }
@@ -1475,14 +2576,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What is wrong with keeping a bad investment only to avoid tax from selling?"
+              "en": "What is wrong with keeping a bad investment only to avoid tax from selling?",
+              "ru": "Что не так с удержанием плохой инвестиции только ради избежания налога при продаже?",
+              "kk": "Сатудан болатын салықтан қашу үшін ғана нашар инвестицияны ұстаудың несі дұрыс емес?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Tax impact matters, but it should not dominate the investment decision alone"
+                  "en": "Tax impact matters, but it should not dominate the investment decision alone",
+                  "ru": "Налоговый эффект важен, но он не должен единолично доминировать в инвестиционном решении",
+                  "kk": "Салық әсері маңызды, бірақ инвестициялық шешімді жалғыз өзі басқармауы керек"
                 },
                 "is_correct": true
               },
@@ -1490,7 +2595,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Taxes should always be ignored"
+                  "en": "Taxes should always be ignored",
+                  "ru": "Налоги всегда нужно игнорировать",
+                  "kk": "Салықтарды әрқашан елемеу керек"
                 },
                 "is_correct": false
               },
@@ -1498,7 +2605,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Selling is always tax-free"
+                  "en": "Selling is always tax-free",
+                  "ru": "Продажа всегда не облагается налогом",
+                  "kk": "Сату әрқашан салықсыз"
                 },
                 "is_correct": false
               },
@@ -1506,7 +2615,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Bad investments become good if held long enough"
+                  "en": "Bad investments become good if held long enough",
+                  "ru": "Плохие инвестиции становятся хорошими, если держать их достаточно долго",
+                  "kk": "Нашар инвестициялар жеткілікті ұзақ ұстаса жақсыға айналады"
                 },
                 "is_correct": false
               }
@@ -1517,14 +2628,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which behavior is legal tax planning rather than evasion?"
+              "en": "Which behavior is legal tax planning rather than evasion?",
+              "ru": "Какое поведение является законным налоговым планированием, а не уклонением?",
+              "kk": "Қай әрекет жалтару емес, заңды салықтық жоспарлау болып табылады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Using allowed account types and keeping proper records"
+                  "en": "Using allowed account types and keeping proper records",
+                  "ru": "Использование разрешенных типов счетов и ведение правильных записей",
+                  "kk": "Рұқсат етілген шот түрлерін қолдану және дұрыс жазбалар жүргізу"
                 },
                 "is_correct": true
               },
@@ -1532,7 +2647,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Hiding income from reporting"
+                  "en": "Hiding income from reporting",
+                  "ru": "Сокрытие дохода от отчетности",
+                  "kk": "Табысты есептіліктен жасыру"
                 },
                 "is_correct": false
               },
@@ -1540,7 +2657,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Inventing fake expenses"
+                  "en": "Inventing fake expenses",
+                  "ru": "Придумывание фиктивных расходов",
+                  "kk": "Жалған шығындар ойлап табу"
                 },
                 "is_correct": false
               },
@@ -1548,7 +2667,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Deleting transaction history"
+                  "en": "Deleting transaction history",
+                  "ru": "Удаление истории операций",
+                  "kk": "Операциялар тарихын өшіру"
                 },
                 "is_correct": false
               }
@@ -1562,7 +2683,9 @@
     "quiz_id": 2599,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Tax Planning Basics — Final Check"
+      "en": "Tax Planning Basics — Final Check",
+      "ru": "Основы налогового планирования — итоговая проверка",
+      "kk": "Салықтық жоспарлау негіздері — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1570,14 +2693,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "Why should a salary budget start from net income rather than gross income?"
+          "en": "Why should a salary budget start from net income rather than gross income?",
+          "ru": "Почему бюджет зарплаты должен начинаться с чистого дохода, а не с валового?",
+          "kk": "Неліктен жалақы бюджеті жалпы табыстан емес, таза табыстан басталуы керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Taxes, pension contributions, health insurance contributions, and other deductions can reduce spendable cash"
+              "en": "Taxes, pension contributions, health insurance contributions, and other deductions can reduce spendable cash",
+              "ru": "Налоги, пенсионные взносы, взносы медстрахования и другие удержания могут уменьшать доступные к расходам деньги",
+              "kk": "Салықтар, зейнетақы жарналары, медициналық сақтандыру жарналары және басқа ұсталымдар жұмсауға болатын ақшаны азайтады"
             },
             "is_correct": true
           },
@@ -1585,7 +2712,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Gross income is never paid by employers"
+              "en": "Gross income is never paid by employers",
+              "ru": "Работодатели никогда не платят валовой доход",
+              "kk": "Жұмыс берушілер жалпы табысты ешқашан төлемейді"
             },
             "is_correct": false
           },
@@ -1593,7 +2722,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Net income is always higher than gross income"
+              "en": "Net income is always higher than gross income",
+              "ru": "Чистый доход всегда выше валового",
+              "kk": "Таза табыс әрқашан жалпы табыстан жоғары"
             },
             "is_correct": false
           },
@@ -1601,7 +2732,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Deductions matter only for investors, not workers"
+              "en": "Deductions matter only for investors, not workers",
+              "ru": "Удержания важны только для инвесторов, а не работников",
+              "kk": "Ұсталымдар тек инвесторларға маңызды, қызметкерлерге емес"
             },
             "is_correct": false
           }
@@ -1612,14 +2745,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "An investor's ETF rises from ₸1,000,000 to ₸1,250,000, but they do not sell. What is the best description?"
+          "en": "An investor's ETF rises from ₸1,000,000 to ₸1,250,000, but they do not sell. What is the best description?",
+          "ru": "ETF инвестора вырос с ₸1,000,000 до ₸1,250,000, но он не продает. Какое описание лучше?",
+          "kk": "Инвестордың ETF-і ₸1,000,000-нан ₸1,250,000-ға өсті, бірақ ол сатпайды. Ең жақсы сипаттама қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "An unrealized gain that may become relevant if sold"
+              "en": "An unrealized gain that may become relevant if sold",
+              "ru": "Нереализованная прибыль, которая может стать актуальной при продаже",
+              "kk": "Сатылса маңызды болуы мүмкін жүзеге аспаған пайда"
             },
             "is_correct": true
           },
@@ -1627,7 +2764,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "A realized gain from a sale"
+              "en": "A realized gain from a sale",
+              "ru": "Реализованная прибыль от продажи",
+              "kk": "Сатудан жүзеге асқан пайда"
             },
             "is_correct": false
           },
@@ -1635,7 +2774,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "A guaranteed tax refund"
+              "en": "A guaranteed tax refund",
+              "ru": "Гарантированный налоговый возврат",
+              "kk": "Кепілдендірілген салық қайтарымы"
             },
             "is_correct": false
           },
@@ -1643,7 +2784,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "No investment change at all"
+              "en": "No investment change at all",
+              "ru": "Вообще нет инвестиционного изменения",
+              "kk": "Инвестициялық өзгеріс мүлде жоқ"
             },
             "is_correct": false
           }
@@ -1654,14 +2797,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "Which habit most improves tax efficiency without changing the whole portfolio?"
+          "en": "Which habit most improves tax efficiency without changing the whole portfolio?",
+          "ru": "Какая привычка больше всего улучшает налоговую эффективность без изменения всего портфеля?",
+          "kk": "Бүкіл портфельді өзгертпей, салықтық тиімділікті ең көп жақсартатын дағды қайсы?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Avoiding unnecessary turnover and comparing after-tax outcomes"
+              "en": "Avoiding unnecessary turnover and comparing after-tax outcomes",
+              "ru": "Избегание ненужного оборота и сравнение результатов после налогов",
+              "kk": "Қажетсіз айналымнан аулақ болу және салықтан кейінгі нәтижелерді салыстыру"
             },
             "is_correct": true
           },
@@ -1669,7 +2816,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Trading more often because activity always lowers tax"
+              "en": "Trading more often because activity always lowers tax",
+              "ru": "Торговать чаще, потому что активность всегда снижает налог",
+              "kk": "Белсенділік әрқашан салықты азайтады деп жиі сауда жасау"
             },
             "is_correct": false
           },
@@ -1677,7 +2826,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Ignoring income type"
+              "en": "Ignoring income type",
+              "ru": "Игнорирование типа дохода",
+              "kk": "Табыс түрін елемеу"
             },
             "is_correct": false
           },
@@ -1685,7 +2836,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Choosing investments only by pre-tax return"
+              "en": "Choosing investments only by pre-tax return",
+              "ru": "Выбор инвестиций только по доходности до налогов",
+              "kk": "Инвестицияларды тек салыққа дейінгі табыс бойынша таңдау"
             },
             "is_correct": false
           }
@@ -1696,14 +2849,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "What is account placement?"
+          "en": "What is account placement?",
+          "ru": "Что такое размещение по счетам?",
+          "kk": "Шоттар бойынша орналастыру деген не?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Choosing which account type should hold each asset to improve fit and after-tax results"
+              "en": "Choosing which account type should hold each asset to improve fit and after-tax results",
+              "ru": "Выбор типа счета для каждого актива, чтобы улучшить соответствие и результат после налогов",
+              "kk": "Әр активті қай шот түрінде ұстауды таңдау, сәйкестікті және салықтан кейінгі нәтижені жақсарту үшін"
             },
             "is_correct": true
           },
@@ -1711,7 +2868,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Deciding what color the app account screen uses"
+              "en": "Deciding what color the app account screen uses",
+              "ru": "Решение, какой цвет использует экран счета в приложении",
+              "kk": "Қосымшадағы шот экранының түсін таңдау"
             },
             "is_correct": false
           },
@@ -1719,7 +2878,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Replacing asset allocation completely"
+              "en": "Replacing asset allocation completely",
+              "ru": "Полная замена распределения активов",
+              "kk": "Активтерді бөлуді толық алмастыру"
             },
             "is_correct": false
           },
@@ -1727,7 +2888,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Holding every asset in the same account regardless of rules"
+              "en": "Holding every asset in the same account regardless of rules",
+              "ru": "Держать каждый актив на одном и том же счете независимо от правил",
+              "kk": "Ережелерге қарамастан әр активті бір шотта ұстау"
             },
             "is_correct": false
           }
@@ -1738,14 +2901,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "Which statement best describes good tax planning?"
+          "en": "Which statement best describes good tax planning?",
+          "ru": "Какое утверждение лучше всего описывает хорошее налоговое планирование?",
+          "kk": "Қай мәлімдеме жақсы салықтық жоспарлауды ең жақсы сипаттайды?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "It legally organizes timing, accounts, records, and decisions to improve after-tax outcomes"
+              "en": "It legally organizes timing, accounts, records, and decisions to improve after-tax outcomes",
+              "ru": "Оно законно организует сроки, счета, записи и решения, чтобы улучшить результаты после налогов",
+              "kk": "Ол салықтан кейінгі нәтижені жақсарту үшін уақытты, шоттарды, жазбаларды және шешімдерді заңды түрде ұйымдастырады"
             },
             "is_correct": true
           },
@@ -1753,7 +2920,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "It hides income so no one can see it"
+              "en": "It hides income so no one can see it",
+              "ru": "Оно скрывает доход, чтобы никто его не видел",
+              "kk": "Ол табысты ешкім көрмейтіндей жасырады"
             },
             "is_correct": false
           },
@@ -1761,7 +2930,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "It ignores taxes until a deadline arrives"
+              "en": "It ignores taxes until a deadline arrives",
+              "ru": "Оно игнорирует налоги до наступления срока",
+              "kk": "Ол мерзім келгенше салықтарды елемейді"
             },
             "is_correct": false
           },
@@ -1769,7 +2940,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "It makes taxes the only factor in every decision"
+              "en": "It makes taxes the only factor in every decision",
+              "ru": "Оно делает налоги единственным фактором каждого решения",
+              "kk": "Ол салықтарды әр шешімдегі жалғыз фактор етеді"
             },
             "is_correct": false
           }

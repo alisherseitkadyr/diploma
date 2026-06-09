@@ -2,6 +2,7 @@
   "topic": {
     "code": "personal_finance_foundations",
     "orderIndex": 2,
+    "icon_path": "assets/topics/002.png",
     "title": {
       "en": "Personal Finance Foundations",
       "ru": "Основы личных финансов",

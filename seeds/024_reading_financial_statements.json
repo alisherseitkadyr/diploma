@@ -1,14 +1,18 @@
 {
   "section": "building_wealth",
-
   "topic": {
     "orderIndex": 24,
+    "icon_path": "assets/topics/024.png",
     "code": "reading_financial_statements",
     "title": {
-      "en": "Reading Financial Statements (Lite)"
+      "en": "Reading Financial Statements (Lite)",
+      "ru": "Чтение финансовой отчётности (лайт)",
+      "kk": "Қаржылық есептілікті оқу (жеңіл)"
     },
     "description": {
-      "en": "Reading the three core statements and a handful of ratios well enough to judge a company's financial health for yourself."
+      "en": "Reading the three core statements and a handful of ratios well enough to judge a company's financial health for yourself.",
+      "ru": "Научиться читать три основные формы отчётности и несколько ключевых коэффициентов достаточно хорошо, чтобы самостоятельно оценивать финансовое здоровье компании.",
+      "kk": "Компанияның қаржылық жағдайын өзіңіз бағалай алу үшін үш негізгі есепті және бірнеше маңызды коэффициентті жеткілікті деңгейде оқу."
     },
     "level": "advanced",
     "prerequisite_id": null
@@ -17,10 +21,14 @@
     {
       "code": "income_statement",
       "title": {
-        "en": "Income Statement"
+        "en": "Income Statement",
+        "ru": "Отчёт о прибылях и убытках",
+        "kk": "Пайда мен шығын туралы есеп"
       },
       "description": {
-        "en": "The income statement shows revenue, costs, profit, and margins over a period, but profit quality matters as much as the headline number."
+        "en": "The income statement shows revenue, costs, profit, and margins over a period, but profit quality matters as much as the headline number.",
+        "ru": "Отчёт о прибылях и убытках показывает выручку, затраты, прибыль и маржу за период, но качество прибыли важно не меньше итоговой цифры.",
+        "kk": "Пайда мен шығын туралы есеп белгілі бір кезеңдегі түсімді, шығындарды, пайданы және маржаны көрсетеді, бірақ пайданың сапасы негізгі сан сияқты маңызды."
       },
       "estimatedMinutes": 6,
       "orderIndex": 0,
@@ -32,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Profit is a story over time"
+              "en": "Profit is a story over time",
+              "ru": "Прибыль — это история за период",
+              "kk": "Пайда — уақыт ішіндегі оқиға"
             },
             "body": {
-              "en": "An income statement shows how much a company earned and spent during a period. It starts with revenue and works down to profit. Investors use it to understand whether the business model turns sales into earnings."
+              "en": "An income statement shows how much a company earned and spent during a period. It starts with revenue and works down to profit. Investors use it to understand whether the business model turns sales into earnings.",
+              "ru": "Отчёт о прибылях и убытках показывает, сколько компания заработала и потратила за период. Он начинается с выручки и постепенно доходит до прибыли. Инвесторы используют его, чтобы понять, превращает ли бизнес-модель продажи в заработок.",
+              "kk": "Пайда мен шығын туралы есеп компанияның кезең ішінде қанша тапқанын және жұмсағанын көрсетеді. Ол түсімнен басталып, пайдаға дейін келеді. Инвесторлар оны бизнес-модель сатылымды табысқа айналдыра ма, соны түсіну үшін қолданады."
             },
             "tip": {
-              "en": "A profitable company is not only one with high sales; it keeps enough after costs."
+              "en": "A profitable company is not only one with high sales; it keeps enough after costs.",
+              "ru": "Прибыльная компания — это не просто компания с высокими продажами; у неё достаточно остаётся после затрат.",
+              "kk": "Пайдалы компания — тек сатылымы жоғары компания емес; шығындардан кейін жеткілікті қаражат қалдыратын компания."
             }
           },
           {
@@ -46,13 +60,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Revenue is not profit"
+              "en": "Revenue is not profit",
+              "ru": "Выручка — это не прибыль",
+              "kk": "Түсім — пайда емес"
             },
             "body": {
-              "en": "Revenue is the money a company earns from selling goods or services. Costs must be subtracted before owners see profit. A company can grow revenue quickly and still lose money if costs grow faster."
+              "en": "Revenue is the money a company earns from selling goods or services. Costs must be subtracted before owners see profit. A company can grow revenue quickly and still lose money if costs grow faster.",
+              "ru": "Выручка — это деньги, которые компания получает от продажи товаров или услуг. Чтобы увидеть прибыль владельцев, нужно вычесть затраты. Компания может быстро наращивать выручку и всё равно терять деньги, если затраты растут быстрее.",
+              "kk": "Түсім — компанияның тауар немесе қызмет сатудан алатын ақшасы. Иелерге тиетін пайданы көру үшін шығындарды алып тастау керек. Егер шығындар тезірек өссе, компания түсімді жылдам арттырса да ақша жоғалтуы мүмкін."
             },
             "example": {
-              "en": "If revenue rises from ₸10 billion to ₸14 billion but costs rise from ₸9 billion to ₸15 billion, growth did not create profit."
+              "en": "If revenue rises from ₸10 billion to ₸14 billion but costs rise from ₸9 billion to ₸15 billion, growth did not create profit.",
+              "ru": "Если выручка выросла с ₸10 млрд до ₸14 млрд, а затраты — с ₸9 млрд до ₸15 млрд, рост не создал прибыль.",
+              "kk": "Егер түсім ₸10 млрд-тан ₸14 млрд-қа өсіп, ал шығындар ₸9 млрд-тан ₸15 млрд-қа өссе, өсім пайда әкелмеді."
             }
           },
           {
@@ -60,13 +80,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Margins show efficiency"
+              "en": "Margins show efficiency",
+              "ru": "Маржа показывает эффективность",
+              "kk": "Маржа тиімділікті көрсетеді"
             },
             "body": {
-              "en": "A margin compares profit to revenue. Gross margin shows what remains after direct costs; operating margin shows what remains after running the business. Margins help compare companies of different sizes."
+              "en": "A margin compares profit to revenue. Gross margin shows what remains after direct costs; operating margin shows what remains after running the business. Margins help compare companies of different sizes.",
+              "ru": "Маржа сравнивает прибыль с выручкой. Валовая маржа показывает, что остаётся после прямых затрат; операционная маржа — что остаётся после расходов на ведение бизнеса. Маржа помогает сравнивать компании разного размера.",
+              "kk": "Маржа пайданы түсіммен салыстырады. Жалпы маржа тікелей шығындардан кейін не қалатынын, ал операциялық маржа бизнесті жүргізу шығындарынан кейін не қалатынын көрсетеді. Маржа әртүрлі көлемдегі компанияларды салыстыруға көмектеседі."
             },
             "tip": {
-              "en": "Margins answer: how much of each tenge of sales survives each cost layer?"
+              "en": "Margins answer: how much of each tenge of sales survives each cost layer?",
+              "ru": "Маржа отвечает на вопрос: сколько из каждого тенге продаж остаётся после каждого слоя затрат?",
+              "kk": "Маржа мына сұраққа жауап береді: сатылымның әр теңгесінен шығындардың әр қабатынан кейін қанша қалады?"
             }
           },
           {
@@ -74,7 +100,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "From sales to profit"
+              "en": "From sales to profit",
+              "ru": "От продаж к прибыли",
+              "kk": "Сатылымнан пайдаға дейін"
             },
             "content": {
               "en": {
@@ -128,6 +156,110 @@
                     "text": "The investor should ask whether profit comes from normal operations or from one-time effects."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания показывает упрощённый годовой отчёт о прибылях и убытках. Каждая строка убирает отдельный слой затрат."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Статья",
+                        "Сумма",
+                        "Значение"
+                      ],
+                      [
+                        "Выручка",
+                        "₸20 billion",
+                        "Продажи за год"
+                      ],
+                      [
+                        "Себестоимость проданных товаров",
+                        "-₸12 billion",
+                        "Прямые затраты на продукты или услуги"
+                      ],
+                      [
+                        "Валовая прибыль",
+                        "₸8 billion",
+                        "Деньги, оставшиеся после прямых затрат"
+                      ],
+                      [
+                        "Операционные расходы",
+                        "-₸5 billion",
+                        "Персонал, аренда, маркетинг, администрация"
+                      ],
+                      [
+                        "Операционная прибыль",
+                        "₸3 billion",
+                        "Прибыль от основной деятельности"
+                      ],
+                      [
+                        "Чистая прибыль",
+                        "₸2.2 billion",
+                        "Прибыль после процентов, налогов и прочих статей"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестору стоит спросить, прибыль получена от обычной деятельности или от разовых эффектов."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания жеңілдетілген жылдық пайда мен шығын есебін көрсетеді. Әр жол шығындардың басқа қабатын алып тастайды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Бап",
+                        "Сома",
+                        "Мағынасы"
+                      ],
+                      [
+                        "Түсім",
+                        "₸20 billion",
+                        "Жыл ішіндегі сатылым"
+                      ],
+                      [
+                        "Сатылған тауарлардың өзіндік құны",
+                        "-₸12 billion",
+                        "Өнімдер немесе қызметтердің тікелей құны"
+                      ],
+                      [
+                        "Жалпы пайда",
+                        "₸8 billion",
+                        "Тікелей шығындардан кейін қалған ақша"
+                      ],
+                      [
+                        "Операциялық шығындар",
+                        "-₸5 billion",
+                        "Қызметкерлер, жалдау ақысы, маркетинг, әкімшілік"
+                      ],
+                      [
+                        "Операциялық пайда",
+                        "₸3 billion",
+                        "Негізгі қызметтен түскен пайда"
+                      ],
+                      [
+                        "Таза пайда",
+                        "₸2.2 billion",
+                        "Пайыздар, салықтар және басқа баптардан кейінгі пайда"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор пайда қалыпты қызметтен келді ме, әлде бір реттік әсерлерден бе, соны сұрауы керек."
+                  }
+                ]
               }
             }
           },
@@ -136,10 +268,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Classify the income item"
+              "en": "Classify the income item",
+              "ru": "Классифицируйте статью отчёта о прибылях",
+              "kk": "Кіріс есебіндегі бапты жіктеңіз"
             },
             "body": {
-              "en": "Sort each item by the part of the income statement it belongs to."
+              "en": "Sort each item by the part of the income statement it belongs to.",
+              "ru": "Распределите каждую статью по части отчёта о прибылях и убытках, к которой она относится.",
+              "kk": "Әр бапты пайда мен шығын есебіндегі тиісті бөлігіне бөліңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -200,6 +336,122 @@
                   }
                 ],
                 "explanation": "The income statement shows how revenue becomes profit after different cost layers."
+              },
+              "ru": {
+                "instruction": "Перетащите каждую статью в правильную категорию отчёта о прибылях и убытках.",
+                "categories": [
+                  {
+                    "id": "revenue",
+                    "label": "Выручка"
+                  },
+                  {
+                    "id": "direct_cost",
+                    "label": "Прямые затраты"
+                  },
+                  {
+                    "id": "operating_expense",
+                    "label": "Операционный расход"
+                  },
+                  {
+                    "id": "profit",
+                    "label": "Показатель прибыли"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "sales",
+                    "text": "Продажи клиентам"
+                  },
+                  {
+                    "id": "materials",
+                    "text": "Материалы для производства продукции"
+                  },
+                  {
+                    "id": "marketing",
+                    "text": "Маркетинг и зарплаты офисных сотрудников"
+                  },
+                  {
+                    "id": "operating_profit",
+                    "text": "Операционная прибыль"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "sales",
+                    "categoryId": "revenue"
+                  },
+                  {
+                    "itemId": "materials",
+                    "categoryId": "direct_cost"
+                  },
+                  {
+                    "itemId": "marketing",
+                    "categoryId": "operating_expense"
+                  },
+                  {
+                    "itemId": "operating_profit",
+                    "categoryId": "profit"
+                  }
+                ],
+                "explanation": "Отчёт о прибылях и убытках показывает, как выручка превращается в прибыль после разных слоёв затрат."
+              },
+              "kk": {
+                "instruction": "Әр бапты пайда мен шығын есебінің дұрыс санатына апарыңыз.",
+                "categories": [
+                  {
+                    "id": "revenue",
+                    "label": "Түсім"
+                  },
+                  {
+                    "id": "direct_cost",
+                    "label": "Тікелей шығын"
+                  },
+                  {
+                    "id": "operating_expense",
+                    "label": "Операциялық шығын"
+                  },
+                  {
+                    "id": "profit",
+                    "label": "Пайда көрсеткіші"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "sales",
+                    "text": "Клиенттерге сатылым"
+                  },
+                  {
+                    "id": "materials",
+                    "text": "Өнім өндіруге қолданылған материалдар"
+                  },
+                  {
+                    "id": "marketing",
+                    "text": "Маркетинг және кеңсе қызметкерлерінің жалақысы"
+                  },
+                  {
+                    "id": "operating_profit",
+                    "text": "Операциялық пайда"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "sales",
+                    "categoryId": "revenue"
+                  },
+                  {
+                    "itemId": "materials",
+                    "categoryId": "direct_cost"
+                  },
+                  {
+                    "itemId": "marketing",
+                    "categoryId": "operating_expense"
+                  },
+                  {
+                    "itemId": "operating_profit",
+                    "categoryId": "profit"
+                  }
+                ],
+                "explanation": "Пайда мен шығын есебі әртүрлі шығын қабаттарынан кейін түсімнің пайдаға қалай айналатынын көрсетеді."
               }
             }
           },
@@ -208,13 +460,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Read profit quality"
+              "en": "Read profit quality",
+              "ru": "Читайте качество прибыли",
+              "kk": "Пайданың сапасын оқыңыз"
             },
             "body": {
-              "en": "The income statement helps you judge growth, margins, and operating discipline. Strong revenue is useful only if the company can convert it into durable profit. Look for trends, cost control, and whether profits come from the core business."
+              "en": "The income statement helps you judge growth, margins, and operating discipline. Strong revenue is useful only if the company can convert it into durable profit. Look for trends, cost control, and whether profits come from the core business.",
+              "ru": "Отчёт о прибылях и убытках помогает оценить рост, маржу и операционную дисциплину. Сильная выручка полезна только тогда, когда компания может превращать её в устойчивую прибыль. Ищите тренды, контроль затрат и то, приходит ли прибыль из основного бизнеса.",
+              "kk": "Пайда мен шығын есебі өсімді, маржаны және операциялық тәртіпті бағалауға көмектеседі. Жоғары түсім компания оны тұрақты пайдаға айналдыра алғанда ғана пайдалы. Трендтерді, шығын бақылауын және пайданың негізгі бизнестен келетінін қараңыз."
             },
             "tip": {
-              "en": "One good profit year matters less than a business model that can repeat it."
+              "en": "One good profit year matters less than a business model that can repeat it.",
+              "ru": "Один хороший прибыльный год менее важен, чем бизнес-модель, способная повторять результат.",
+              "kk": "Бір жақсы пайда жылы оны қайталай алатын бизнес-модельден маңызды емес."
             }
           }
         ]
@@ -223,7 +481,9 @@
         "quiz_id": 2401,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Income Statement — Check"
+          "en": "Income Statement — Check",
+          "ru": "Отчёт о прибылях и убытках — проверка",
+          "kk": "Пайда мен шығын есебі — тексеру"
         },
         "questions": [
           {
@@ -231,14 +491,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A company doubles revenue but its net loss grows. What is the best interpretation?"
+              "en": "A company doubles revenue but its net loss grows. What is the best interpretation?",
+              "ru": "Компания удвоила выручку, но её чистый убыток вырос. Какое лучшее объяснение?",
+              "kk": "Компания түсімді екі есе өсірді, бірақ таза шығыны артты. Ең дұрыс түсіндіру қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Sales growth is not enough if costs grow faster than revenue"
+                  "en": "Sales growth is not enough if costs grow faster than revenue",
+                  "ru": "Рост продаж недостаточен, если затраты растут быстрее выручки",
+                  "kk": "Егер шығындар түсімнен тез өссе, сатылым өсімі жеткіліксіз"
                 },
                 "is_correct": true
               },
@@ -246,7 +510,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Revenue and profit are the same thing"
+                  "en": "Revenue and profit are the same thing",
+                  "ru": "Выручка и прибыль — одно и то же",
+                  "kk": "Түсім мен пайда бір нәрсе"
                 },
                 "is_correct": false
               },
@@ -254,7 +520,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A larger loss proves the company has no customers"
+                  "en": "A larger loss proves the company has no customers",
+                  "ru": "Больший убыток доказывает, что у компании нет клиентов",
+                  "kk": "Үлкен шығын компанияда клиент жоқ екенін дәлелдейді"
                 },
                 "is_correct": false
               },
@@ -262,7 +530,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Costs do not matter when revenue grows"
+                  "en": "Costs do not matter when revenue grows",
+                  "ru": "Затраты не важны, когда выручка растёт",
+                  "kk": "Түсім өссе, шығындар маңызды емес"
                 },
                 "is_correct": false
               }
@@ -273,14 +543,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why are margins useful when comparing two companies of different size?"
+              "en": "Why are margins useful when comparing two companies of different size?",
+              "ru": "Почему маржа полезна при сравнении двух компаний разного размера?",
+              "kk": "Әртүрлі көлемдегі екі компанияны салыстырғанда маржа неге пайдалы?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They show how much profit is generated from each unit of revenue"
+                  "en": "They show how much profit is generated from each unit of revenue",
+                  "ru": "Они показывают, сколько прибыли создаётся из каждой единицы выручки",
+                  "kk": "Олар түсімнің әр бірлігінен қанша пайда жасалатынын көрсетеді"
                 },
                 "is_correct": true
               },
@@ -288,7 +562,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They ignore costs completely"
+                  "en": "They ignore costs completely",
+                  "ru": "Они полностью игнорируют затраты",
+                  "kk": "Олар шығындарды толық елемейді"
                 },
                 "is_correct": false
               },
@@ -296,7 +572,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They guarantee future stock returns"
+                  "en": "They guarantee future stock returns",
+                  "ru": "Они гарантируют будущую доходность акций",
+                  "kk": "Олар акциялардың болашақ кірісін кепілдейді"
                 },
                 "is_correct": false
               },
@@ -304,7 +582,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "They are the same as cash in the bank"
+                  "en": "They are the same as cash in the bank",
+                  "ru": "Они то же самое, что деньги в банке",
+                  "kk": "Олар банктегі қолма-қол ақша сияқты"
                 },
                 "is_correct": false
               }
@@ -315,14 +595,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which profit measure focuses most on the core business before interest and tax effects?"
+              "en": "Which profit measure focuses most on the core business before interest and tax effects?",
+              "ru": "Какой показатель прибыли больше всего фокусируется на основном бизнесе до влияния процентов и налогов?",
+              "kk": "Қай пайда көрсеткіші пайыздар мен салық әсеріне дейінгі негізгі бизнеске көбірек назар аударады?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Operating profit"
+                  "en": "Operating profit",
+                  "ru": "Операционная прибыль",
+                  "kk": "Операциялық пайда"
                 },
                 "is_correct": true
               },
@@ -330,7 +614,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Revenue"
+                  "en": "Revenue",
+                  "ru": "Выручка",
+                  "kk": "Түсім"
                 },
                 "is_correct": false
               },
@@ -338,7 +624,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Total assets"
+                  "en": "Total assets",
+                  "ru": "Всего активов",
+                  "kk": "Жалпы активтер"
                 },
                 "is_correct": false
               },
@@ -346,7 +634,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Cash balance"
+                  "en": "Cash balance",
+                  "ru": "Остаток денежных средств",
+                  "kk": "Ақша қалдығы"
                 },
                 "is_correct": false
               }
@@ -358,10 +648,14 @@
     {
       "code": "balance_sheet",
       "title": {
-        "en": "Balance Sheet"
+        "en": "Balance Sheet",
+        "ru": "Баланс",
+        "kk": "Баланс"
       },
       "description": {
-        "en": "The balance sheet shows what a company owns, owes, and what remains for shareholders at a point in time."
+        "en": "The balance sheet shows what a company owns, owes, and what remains for shareholders at a point in time.",
+        "ru": "Баланс показывает, чем компания владеет, что должна и что остаётся акционерам на конкретную дату.",
+        "kk": "Баланс компанияның белгілі бір күнде нені иеленетінін, қандай міндеттемелері барын және акционерлерге не қалатынын көрсетеді."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -373,13 +667,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A snapshot of financial position"
+              "en": "A snapshot of financial position",
+              "ru": "Снимок финансового положения",
+              "kk": "Қаржылық жағдайдың суреті"
             },
             "body": {
-              "en": "A balance sheet shows what a company owns and owes at one date. Assets are resources, liabilities are obligations, and equity is what remains for owners. It helps investors judge financial strength, not just recent profit."
+              "en": "A balance sheet shows what a company owns and owes at one date. Assets are resources, liabilities are obligations, and equity is what remains for owners. It helps investors judge financial strength, not just recent profit.",
+              "ru": "Баланс показывает, чем компания владеет и что должна на определённую дату. Активы — это ресурсы, обязательства — долги, а капитал — то, что остаётся владельцам. Он помогает инвесторам оценивать финансовую устойчивость, а не только недавнюю прибыль.",
+              "kk": "Баланс компанияның белгілі бір күнде нені иеленетінін және не қарыз екенін көрсетеді. Активтер — ресурстар, міндеттемелер — қарыздар, ал капитал — иелерге қалатын бөлік. Ол инвесторларға тек соңғы пайданы емес, қаржылық беріктікті бағалауға көмектеседі."
             },
             "tip": {
-              "en": "Income statements show performance over time; balance sheets show position at a point in time."
+              "en": "Income statements show performance over time; balance sheets show position at a point in time.",
+              "ru": "Отчёты о прибылях показывают результаты за период; балансы показывают положение на конкретный момент.",
+              "kk": "Пайда есептері кезең ішіндегі нәтижені көрсетеді; баланс белгілі бір сәттегі жағдайды көрсетеді."
             }
           },
           {
@@ -387,13 +687,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "The equation must balance"
+              "en": "The equation must balance",
+              "ru": "Уравнение должно сходиться",
+              "kk": "Теңдеу теңесуі керек"
             },
             "body": {
-              "en": "The basic equation is assets equal liabilities plus equity. If a company buys an asset with borrowed money, assets and liabilities both rise. Equity is not automatically cash; it is the residual claim after obligations."
+              "en": "The basic equation is assets equal liabilities plus equity. If a company buys an asset with borrowed money, assets and liabilities both rise. Equity is not automatically cash; it is the residual claim after obligations.",
+              "ru": "Базовое уравнение: активы равны обязательствам плюс капитал. Если компания покупает актив на заёмные деньги, растут и активы, и обязательства. Капитал — это не автоматически наличные; это остаточное право после обязательств.",
+              "kk": "Негізгі теңдеу: активтер міндеттемелер мен капиталдың қосындысына тең. Егер компания активті қарыз ақшаға сатып алса, активтер де, міндеттемелер де өседі. Капитал автоматты түрде ақша емес; ол міндеттемелерден кейінгі қалдық құқық."
             },
             "example": {
-              "en": "If a company has ₸50 billion in assets and ₸30 billion in liabilities, equity is ₸20 billion."
+              "en": "If a company has ₸50 billion in assets and ₸30 billion in liabilities, equity is ₸20 billion.",
+              "ru": "Если у компании ₸50 млрд активов и ₸30 млрд обязательств, капитал равен ₸20 млрд.",
+              "kk": "Егер компанияда ₸50 млрд актив және ₸30 млрд міндеттеме болса, капитал ₸20 млрд болады."
             }
           },
           {
@@ -401,13 +707,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Liquidity and leverage matter"
+              "en": "Liquidity and leverage matter",
+              "ru": "Ликвидность и долговая нагрузка важны",
+              "kk": "Өтімділік пен қарыз жүктемесі маңызды"
             },
             "body": {
-              "en": "Liquidity asks whether the company has enough cash or near-cash assets to meet short-term obligations. Leverage asks how much of the business is financed with debt. A profitable company can still face danger if it cannot pay bills when due."
+              "en": "Liquidity asks whether the company has enough cash or near-cash assets to meet short-term obligations. Leverage asks how much of the business is financed with debt. A profitable company can still face danger if it cannot pay bills when due.",
+              "ru": "Ликвидность отвечает на вопрос, достаточно ли у компании денег или близких к деньгам активов для краткосрочных обязательств. Долговая нагрузка показывает, какая часть бизнеса финансируется долгом. Даже прибыльная компания может оказаться в опасности, если не способна вовремя платить по счетам.",
+              "kk": "Өтімділік компанияда қысқа мерзімді міндеттемелерді өтеуге жеткілікті ақша немесе ақшаға жақын актив бар ма деген сұраққа жауап береді. Қарыз жүктемесі бизнестің қанша бөлігі қарызбен қаржыланатынын көрсетеді. Пайдалы компания да төлем мерзімінде шоттарын төлей алмаса, қауіпке тап болуы мүмкін."
             },
             "tip": {
-              "en": "Solvency is about survival; profitability is about earning power."
+              "en": "Solvency is about survival; profitability is about earning power.",
+              "ru": "Платёжеспособность — о выживании; прибыльность — о способности зарабатывать.",
+              "kk": "Төлем қабілеттілігі — өміршеңдік туралы; табыстылық — ақша табу қабілеті туралы."
             }
           },
           {
@@ -415,7 +727,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Reading the financial position"
+              "en": "Reading the financial position",
+              "ru": "Чтение финансового положения",
+              "kk": "Қаржылық жағдайды оқу"
             },
             "content": {
               "en": {
@@ -474,6 +788,120 @@
                     "text": "The investor should ask whether the company has enough liquidity and whether debt is reasonable for its earnings stability."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания показывает упрощённый баланс на конец года."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Статья",
+                        "Сумма",
+                        "Интерпретация"
+                      ],
+                      [
+                        "Денежные средства",
+                        "₸4 billion",
+                        "Мгновенная ликвидность"
+                      ],
+                      [
+                        "Запасы и дебиторская задолженность",
+                        "₸10 billion",
+                        "Рабочие активы, которые должны превратиться в деньги"
+                      ],
+                      [
+                        "Недвижимость и оборудование",
+                        "₸26 billion",
+                        "Долгосрочные операционные активы"
+                      ],
+                      [
+                        "Всего активов",
+                        "₸40 billion",
+                        "Контролируемые ресурсы"
+                      ],
+                      [
+                        "Краткосрочные обязательства",
+                        "₸8 billion",
+                        "Обязательства к скорой оплате"
+                      ],
+                      [
+                        "Долгосрочный долг",
+                        "₸17 billion",
+                        "Финансовые обязательства"
+                      ],
+                      [
+                        "Капитал",
+                        "₸15 billion",
+                        "Остаточное право владельцев"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестору стоит спросить, достаточно ли у компании ликвидности и разумен ли долг с учётом стабильности её прибыли."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания жыл соңындағы жеңілдетілген балансты көрсетеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Бап",
+                        "Сома",
+                        "Түсіндіру"
+                      ],
+                      [
+                        "Ақша",
+                        "₸4 billion",
+                        "Жедел өтімділік"
+                      ],
+                      [
+                        "Қорлар және дебиторлық берешек",
+                        "₸10 billion",
+                        "Ақшаға айналуы тиіс айналым активтері"
+                      ],
+                      [
+                        "Жылжымайтын мүлік және жабдық",
+                        "₸26 billion",
+                        "Ұзақ мерзімді операциялық активтер"
+                      ],
+                      [
+                        "Жалпы активтер",
+                        "₸40 billion",
+                        "Бақылаудағы ресурстар"
+                      ],
+                      [
+                        "Қысқа мерзімді міндеттемелер",
+                        "₸8 billion",
+                        "Жақында төленуі тиіс міндеттемелер"
+                      ],
+                      [
+                        "Ұзақ мерзімді қарыз",
+                        "₸17 billion",
+                        "Қаржыландыру міндеттемелері"
+                      ],
+                      [
+                        "Капитал",
+                        "₸15 billion",
+                        "Иелердің қалдық құқығы"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Инвестор компанияда өтімділік жеткілікті ме және табысының тұрақтылығын ескергенде қарызы орынды ма деп сұрауы керек."
+                  }
+                ]
               }
             }
           },
@@ -482,10 +910,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Assets or liabilities?"
+              "en": "Assets or liabilities?",
+              "ru": "Активы или обязательства?",
+              "kk": "Активтер ме, міндеттемелер ме?"
             },
             "body": {
-              "en": "Classify balance-sheet items by whether they are resources, obligations, or residual owner claim."
+              "en": "Classify balance-sheet items by whether they are resources, obligations, or residual owner claim.",
+              "ru": "Классифицируйте статьи баланса как ресурсы, обязательства или остаточное право владельцев.",
+              "kk": "Баланс баптарын ресурс, міндеттеме немесе иелердің қалдық құқығы ретінде жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -542,6 +974,114 @@
                   }
                 ],
                 "explanation": "Assets are resources, liabilities are obligations, and equity is the residual claim after liabilities."
+              },
+              "ru": {
+                "instruction": "Перетащите каждую статью в правильную категорию баланса.",
+                "categories": [
+                  {
+                    "id": "asset",
+                    "label": "Актив"
+                  },
+                  {
+                    "id": "liability",
+                    "label": "Обязательство"
+                  },
+                  {
+                    "id": "equity",
+                    "label": "Капитал"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "cash",
+                    "text": "Деньги на банковских счетах"
+                  },
+                  {
+                    "id": "loan",
+                    "text": "Банковский кредит к оплате"
+                  },
+                  {
+                    "id": "inventory",
+                    "text": "Запасы для продажи"
+                  },
+                  {
+                    "id": "retained",
+                    "text": "Нераспределённая прибыль"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "cash",
+                    "categoryId": "asset"
+                  },
+                  {
+                    "itemId": "loan",
+                    "categoryId": "liability"
+                  },
+                  {
+                    "itemId": "inventory",
+                    "categoryId": "asset"
+                  },
+                  {
+                    "itemId": "retained",
+                    "categoryId": "equity"
+                  }
+                ],
+                "explanation": "Активы — это ресурсы, обязательства — долги, а капитал — остаточное право после обязательств."
+              },
+              "kk": {
+                "instruction": "Әр бапты баланстың дұрыс санатына апарыңыз.",
+                "categories": [
+                  {
+                    "id": "asset",
+                    "label": "Актив"
+                  },
+                  {
+                    "id": "liability",
+                    "label": "Міндеттеме"
+                  },
+                  {
+                    "id": "equity",
+                    "label": "Капитал"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "cash",
+                    "text": "Банк шоттарындағы ақша"
+                  },
+                  {
+                    "id": "loan",
+                    "text": "Төленуі тиіс банк несиесі"
+                  },
+                  {
+                    "id": "inventory",
+                    "text": "Сатуға арналған қорлар"
+                  },
+                  {
+                    "id": "retained",
+                    "text": "Бөлінбеген пайда"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "cash",
+                    "categoryId": "asset"
+                  },
+                  {
+                    "itemId": "loan",
+                    "categoryId": "liability"
+                  },
+                  {
+                    "itemId": "inventory",
+                    "categoryId": "asset"
+                  },
+                  {
+                    "itemId": "retained",
+                    "categoryId": "equity"
+                  }
+                ],
+                "explanation": "Активтер — ресурстар, міндеттемелер — қарыздар, ал капитал — міндеттемелерден кейінгі қалдық құқық."
               }
             }
           },
@@ -550,13 +1090,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Strength is more than profit"
+              "en": "Strength is more than profit",
+              "ru": "Устойчивость — это больше, чем прибыль",
+              "kk": "Беріктік пайдадан да кең ұғым"
             },
             "body": {
-              "en": "The balance sheet shows whether a company has the resources and financing structure to survive stress. Investors should check liquidity, debt, asset quality, and equity cushion. A strong income statement is weaker if the balance sheet is fragile."
+              "en": "The balance sheet shows whether a company has the resources and financing structure to survive stress. Investors should check liquidity, debt, asset quality, and equity cushion. A strong income statement is weaker if the balance sheet is fragile.",
+              "ru": "Баланс показывает, есть ли у компании ресурсы и структура финансирования, чтобы пережить стресс. Инвесторам стоит проверять ликвидность, долг, качество активов и запас капитала. Сильный отчёт о прибылях выглядит слабее, если баланс хрупкий.",
+              "kk": "Баланс компанияда күйзелістен өтуге жеткілікті ресурстар мен қаржыландыру құрылымы бар-жоғын көрсетеді. Инвесторлар өтімділікті, қарызды, актив сапасын және капитал қорын тексеруі керек. Егер баланс әлсіз болса, күшті пайда есебі де әлсірейді."
             },
             "tip": {
-              "en": "A company can be profitable and still financially stretched."
+              "en": "A company can be profitable and still financially stretched.",
+              "ru": "Компания может быть прибыльной и всё же финансово напряжённой.",
+              "kk": "Компания пайдалы болып, сонымен қатар қаржылық тұрғыдан қысылған болуы мүмкін."
             }
           }
         ]
@@ -565,7 +1111,9 @@
         "quiz_id": 2402,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Balance Sheet — Check"
+          "en": "Balance Sheet — Check",
+          "ru": "Баланс — проверка",
+          "kk": "Баланс — тексеру"
         },
         "questions": [
           {
@@ -573,14 +1121,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A company has ₸80 billion in assets and ₸55 billion in liabilities. What is equity?"
+              "en": "A company has ₸80 billion in assets and ₸55 billion in liabilities. What is equity?",
+              "ru": "У компании ₸80 млрд активов и ₸55 млрд обязательств. Чему равен капитал?",
+              "kk": "Компанияда ₸80 млрд актив және ₸55 млрд міндеттеме бар. Капитал қанша?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "₸25 billion"
+                  "en": "₸25 billion",
+                  "ru": "₸25 billion",
+                  "kk": "₸25 billion"
                 },
                 "is_correct": true
               },
@@ -588,7 +1140,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "₸135 billion"
+                  "en": "₸135 billion",
+                  "ru": "₸135 billion",
+                  "kk": "₸135 billion"
                 },
                 "is_correct": false
               },
@@ -596,7 +1150,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "₸55 billion"
+                  "en": "₸55 billion",
+                  "ru": "₸55 billion",
+                  "kk": "₸55 billion"
                 },
                 "is_correct": false
               },
@@ -604,7 +1160,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "₸80 billion"
+                  "en": "₸80 billion",
+                  "ru": "₸80 billion",
+                  "kk": "₸80 billion"
                 },
                 "is_correct": false
               }
@@ -615,14 +1173,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can high short-term liabilities be dangerous?"
+              "en": "Why can high short-term liabilities be dangerous?",
+              "ru": "Почему большие краткосрочные обязательства могут быть опасны?",
+              "kk": "Неліктен жоғары қысқа мерзімді міндеттемелер қауіпті болуы мүмкін?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The company may need cash soon even if long-term prospects look good"
+                  "en": "The company may need cash soon even if long-term prospects look good",
+                  "ru": "Компании могут скоро понадобиться деньги, даже если долгосрочные перспективы выглядят хорошими",
+                  "kk": "Ұзақ мерзімді перспективалар жақсы көрінсе де, компанияға жақын арада ақша қажет болуы мүмкін"
                 },
                 "is_correct": true
               },
@@ -630,7 +1192,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Short-term liabilities are always free money"
+                  "en": "Short-term liabilities are always free money",
+                  "ru": "Краткосрочные обязательства — это всегда бесплатные деньги",
+                  "kk": "Қысқа мерзімді міндеттемелер әрқашан тегін ақша"
                 },
                 "is_correct": false
               },
@@ -638,7 +1202,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They increase equity automatically"
+                  "en": "They increase equity automatically",
+                  "ru": "Они автоматически увеличивают капитал",
+                  "kk": "Олар капиталды автоматты түрде арттырады"
                 },
                 "is_correct": false
               },
@@ -646,7 +1212,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "They prove revenue is growing"
+                  "en": "They prove revenue is growing",
+                  "ru": "Они доказывают, что выручка растёт",
+                  "kk": "Олар түсім өсіп жатқанын дәлелдейді"
                 },
                 "is_correct": false
               }
@@ -657,14 +1225,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which question is most balance-sheet focused?"
+              "en": "Which question is most balance-sheet focused?",
+              "ru": "Какой вопрос больше всего относится к балансу?",
+              "kk": "Қай сұрақ балансқа көбірек қатысты?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Can the company meet obligations and manage debt if conditions worsen?"
+                  "en": "Can the company meet obligations and manage debt if conditions worsen?",
+                  "ru": "Сможет ли компания выполнять обязательства и управлять долгом, если условия ухудшатся?",
+                  "kk": "Жағдай нашарласа, компания міндеттемелерін орындап, қарызын басқара ала ма?"
                 },
                 "is_correct": true
               },
@@ -672,7 +1244,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Did revenue grow this quarter?"
+                  "en": "Did revenue grow this quarter?",
+                  "ru": "Выросла ли выручка в этом квартале?",
+                  "kk": "Осы тоқсанда түсім өсті ме?"
                 },
                 "is_correct": false
               },
@@ -680,7 +1254,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Was the brand advertisement successful?"
+                  "en": "Was the brand advertisement successful?",
+                  "ru": "Была ли реклама бренда успешной?",
+                  "kk": "Бренд жарнамасы сәтті болды ма?"
                 },
                 "is_correct": false
               },
@@ -688,7 +1264,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "How many products did customers review?"
+                  "en": "How many products did customers review?",
+                  "ru": "Сколько продуктов оценили клиенты?",
+                  "kk": "Клиенттер қанша өнімге пікір қалдырды?"
                 },
                 "is_correct": false
               }
@@ -700,10 +1278,14 @@
     {
       "code": "cash_flow_statement",
       "title": {
-        "en": "Cash Flow Statement"
+        "en": "Cash Flow Statement",
+        "ru": "Отчёт о движении денежных средств",
+        "kk": "Ақша ағындары туралы есеп"
       },
       "description": {
-        "en": "The cash flow statement explains how cash actually moved through operations, investment, and financing."
+        "en": "The cash flow statement explains how cash actually moved through operations, investment, and financing.",
+        "ru": "Отчёт о движении денежных средств объясняет, как деньги реально проходили через операционную, инвестиционную и финансовую деятельность.",
+        "kk": "Ақша ағындары туралы есеп ақшаның операциялық, инвестициялық және қаржыландыру қызметі арқылы нақты қалай қозғалғанын түсіндіреді."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -715,13 +1297,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Profit is not the same as cash"
+              "en": "Profit is not the same as cash",
+              "ru": "Прибыль — это не то же самое, что деньги",
+              "kk": "Пайда ақшаға тең емес"
             },
             "body": {
-              "en": "A company can report profit while cash is leaving the business. The cash flow statement shows where cash came from and where it went. Investors use it to test whether accounting profit is supported by actual cash generation."
+              "en": "A company can report profit while cash is leaving the business. The cash flow statement shows where cash came from and where it went. Investors use it to test whether accounting profit is supported by actual cash generation.",
+              "ru": "Компания может показывать прибыль, хотя деньги уходят из бизнеса. Отчёт о движении денежных средств показывает, откуда пришли деньги и куда они ушли. Инвесторы используют его, чтобы проверить, подтверждается ли бухгалтерская прибыль реальным денежным потоком.",
+              "kk": "Компания пайда көрсетіп, бірақ ақша бизнестен кетіп жатуы мүмкін. Ақша ағындары туралы есеп ақшаның қайдан келгенін және қайда кеткенін көрсетеді. Инвесторлар оны бухгалтерлік пайда нақты ақша генерациясымен растала ма, соны тексеру үшін қолданады."
             },
             "tip": {
-              "en": "Cash flow answers: did money actually move into the company?"
+              "en": "Cash flow answers: did money actually move into the company?",
+              "ru": "Денежный поток отвечает: деньги действительно поступили в компанию?",
+              "kk": "Ақша ағыны жауап береді: ақша компанияға шынымен кірді ме?"
             }
           },
           {
@@ -729,10 +1317,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Three cash-flow sections"
+              "en": "Three cash-flow sections",
+              "ru": "Три раздела денежных потоков",
+              "kk": "Ақша ағындарының үш бөлімі"
             },
             "body": {
-              "en": "Operating cash flow comes from the core business. Investing cash flow shows spending on assets or proceeds from selling assets. Financing cash flow shows money raised from or returned to lenders and owners."
+              "en": "Operating cash flow comes from the core business. Investing cash flow shows spending on assets or proceeds from selling assets. Financing cash flow shows money raised from or returned to lenders and owners.",
+              "ru": "Операционный денежный поток идёт из основного бизнеса. Инвестиционный поток показывает расходы на активы или поступления от их продажи. Финансовый поток показывает деньги, привлечённые от кредиторов и владельцев или возвращённые им.",
+              "kk": "Операциялық ақша ағыны негізгі бизнестен келеді. Инвестициялық ақша ағыны активтерге жұмсалған шығынды немесе актив сатудан түскен қаражатты көрсетеді. Қаржылық ақша ағыны кредиторлар мен иелерден тартылған немесе оларға қайтарылған ақшаны көрсетеді."
             }
           },
           {
@@ -740,13 +1332,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Free cash flow shows flexibility"
+              "en": "Free cash flow shows flexibility",
+              "ru": "Свободный денежный поток показывает гибкость",
+              "kk": "Еркін ақша ағыны икемділікті көрсетеді"
             },
             "body": {
-              "en": "Free cash flow is often operating cash flow minus capital spending. It suggests how much cash remains after maintaining or growing the asset base. Positive free cash flow can fund debt repayment, dividends, buybacks, or reinvestment."
+              "en": "Free cash flow is often operating cash flow minus capital spending. It suggests how much cash remains after maintaining or growing the asset base. Positive free cash flow can fund debt repayment, dividends, buybacks, or reinvestment.",
+              "ru": "Свободный денежный поток часто равен операционному потоку минус капитальные расходы. Он показывает, сколько денег остаётся после поддержания или расширения базы активов. Положительный свободный поток может финансировать погашение долга, дивиденды, обратный выкуп или реинвестирование.",
+              "kk": "Еркін ақша ағыны көбіне операциялық ақша ағынынан капиталдық шығындарды алып тастағанға тең. Ол актив базасын қолдау немесе өсіруден кейін қанша ақша қалатынын көрсетеді. Оң еркін ақша ағыны қарыз өтеуге, дивидендке, акцияларды кері сатып алуға немесе қайта инвестициялауға жұмсалуы мүмкін."
             },
             "example": {
-              "en": "If operating cash flow is ₸9 billion and capital spending is ₸4 billion, free cash flow is about ₸5 billion."
+              "en": "If operating cash flow is ₸9 billion and capital spending is ₸4 billion, free cash flow is about ₸5 billion.",
+              "ru": "Если операционный денежный поток ₸9 млрд, а капитальные расходы ₸4 млрд, свободный денежный поток около ₸5 млрд.",
+              "kk": "Егер операциялық ақша ағыны ₸9 млрд, ал капиталдық шығын ₸4 млрд болса, еркін ақша ағыны шамамен ₸5 млрд."
             }
           },
           {
@@ -754,7 +1352,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "A profitable company with weak cash"
+              "en": "A profitable company with weak cash",
+              "ru": "Прибыльная компания со слабым денежным потоком",
+              "kk": "Ақша ағыны әлсіз пайдалы компания"
             },
             "content": {
               "en": {
@@ -798,6 +1398,90 @@
                     "text": "The company may be investing for growth, but investors should ask whether future cash generation will justify the spending."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания сообщает о ₸3 млрд чистой прибыли, но отчёт о движении денежных средств говорит более осторожную историю."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Строка денежного потока",
+                        "Сумма",
+                        "Интерпретация"
+                      ],
+                      [
+                        "Операционный денежный поток",
+                        "₸1 billion",
+                        "Основной бизнес создал меньше денег, чем прибыли"
+                      ],
+                      [
+                        "Капитальные расходы",
+                        "-₸4 billion",
+                        "Крупные инвестиции в активы"
+                      ],
+                      [
+                        "Свободный денежный поток",
+                        "-₸3 billion",
+                        "Деньги после инвестиций ушли в минус"
+                      ],
+                      [
+                        "Привлечён новый долг",
+                        "₸3.5 billion",
+                        "Финансирование закрыло денежный разрыв"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Компания может инвестировать ради роста, но инвесторам стоит спросить, оправдает ли будущий денежный поток эти расходы."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компания ₸3 млрд таза пайда көрсетеді, бірақ ақша ағындары туралы есебі сақтықты қажет ететін жағдайды көрсетеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Ақша ағыны жолы",
+                        "Сома",
+                        "Түсіндіру"
+                      ],
+                      [
+                        "Операциялық ақша ағыны",
+                        "₸1 billion",
+                        "Негізгі бизнес пайдадан аз ақша жасады"
+                      ],
+                      [
+                        "Капиталдық шығындар",
+                        "-₸4 billion",
+                        "Активтерге ірі инвестиция"
+                      ],
+                      [
+                        "Еркін ақша ағыны",
+                        "-₸3 billion",
+                        "Инвестициядан кейін қалған ақша теріс"
+                      ],
+                      [
+                        "Жаңа қарыз тартылды",
+                        "₸3.5 billion",
+                        "Қаржыландыру ақша тапшылығын жапты"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Компания өсім үшін инвестициялауы мүмкін, бірақ инвесторлар болашақ ақша генерациясы бұл шығындарды ақтай ма деп сұрауы керек."
+                  }
+                ]
               }
             }
           },
@@ -806,10 +1490,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Classify the cash flow"
+              "en": "Classify the cash flow",
+              "ru": "Классифицируйте денежный поток",
+              "kk": "Ақша ағынын жіктеңіз"
             },
             "body": {
-              "en": "Sort each cash movement into operating, investing, or financing cash flow."
+              "en": "Sort each cash movement into operating, investing, or financing cash flow.",
+              "ru": "Распределите каждое движение денег в операционный, инвестиционный или финансовый поток.",
+              "kk": "Әр ақша қозғалысын операциялық, инвестициялық немесе қаржылық ақша ағынына бөліңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -866,6 +1554,114 @@
                   }
                 ],
                 "explanation": "Operating cash comes from the business, investing cash changes asset capacity, and financing cash changes funding from owners or lenders."
+              },
+              "ru": {
+                "instruction": "Перетащите каждое движение денег в правильный раздел денежного потока.",
+                "categories": [
+                  {
+                    "id": "operating",
+                    "label": "Операционный"
+                  },
+                  {
+                    "id": "investing",
+                    "label": "Инвестиционный"
+                  },
+                  {
+                    "id": "financing",
+                    "label": "Финансовый"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "customer_cash",
+                    "text": "Деньги, полученные от клиентов"
+                  },
+                  {
+                    "id": "equipment",
+                    "text": "Деньги, уплаченные за покупку оборудования"
+                  },
+                  {
+                    "id": "new_debt",
+                    "text": "Деньги, полученные от выпуска долга"
+                  },
+                  {
+                    "id": "dividend",
+                    "text": "Деньги, выплаченные как дивиденды"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "customer_cash",
+                    "categoryId": "operating"
+                  },
+                  {
+                    "itemId": "equipment",
+                    "categoryId": "investing"
+                  },
+                  {
+                    "itemId": "new_debt",
+                    "categoryId": "financing"
+                  },
+                  {
+                    "itemId": "dividend",
+                    "categoryId": "financing"
+                  }
+                ],
+                "explanation": "Операционные деньги приходят из бизнеса, инвестиционные меняют мощность активов, а финансовые меняют финансирование от владельцев или кредиторов."
+              },
+              "kk": {
+                "instruction": "Әр ақша қозғалысын ақша ағынының дұрыс бөліміне апарыңыз.",
+                "categories": [
+                  {
+                    "id": "operating",
+                    "label": "Операциялық"
+                  },
+                  {
+                    "id": "investing",
+                    "label": "Инвестициялық"
+                  },
+                  {
+                    "id": "financing",
+                    "label": "Қаржылық"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "customer_cash",
+                    "text": "Клиенттерден алынған ақша"
+                  },
+                  {
+                    "id": "equipment",
+                    "text": "Жабдық сатып алуға төленген ақша"
+                  },
+                  {
+                    "id": "new_debt",
+                    "text": "Қарыз шығарудан алынған ақша"
+                  },
+                  {
+                    "id": "dividend",
+                    "text": "Дивиденд ретінде төленген ақша"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "customer_cash",
+                    "categoryId": "operating"
+                  },
+                  {
+                    "itemId": "equipment",
+                    "categoryId": "investing"
+                  },
+                  {
+                    "itemId": "new_debt",
+                    "categoryId": "financing"
+                  },
+                  {
+                    "itemId": "dividend",
+                    "categoryId": "financing"
+                  }
+                ],
+                "explanation": "Операциялық ақша бизнестен келеді, инвестициялық ақша актив қуатын өзгертеді, ал қаржылық ақша иелер мен кредиторлардан қаржыландыруды өзгертеді."
               }
             }
           },
@@ -874,13 +1670,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Cash tests the story"
+              "en": "Cash tests the story",
+              "ru": "Деньги проверяют историю",
+              "kk": "Ақша оқиғаны тексереді"
             },
             "body": {
-              "en": "The cash flow statement tests whether earnings are turning into usable money. Strong companies usually need healthy operating cash flow over time. Negative free cash flow is not always bad, but it needs a clear reason and a path to future cash generation."
+              "en": "The cash flow statement tests whether earnings are turning into usable money. Strong companies usually need healthy operating cash flow over time. Negative free cash flow is not always bad, but it needs a clear reason and a path to future cash generation.",
+              "ru": "Отчёт о движении денежных средств проверяет, превращается ли прибыль в пригодные деньги. Сильным компаниям обычно нужен здоровый операционный денежный поток со временем. Отрицательный свободный поток не всегда плох, но для него нужна ясная причина и путь к будущей генерации денег.",
+              "kk": "Ақша ағындары туралы есеп табыстың қолдануға болатын ақшаға айналып жатқанын тексереді. Күшті компанияларға уақыт өте келе сау операциялық ақша ағыны қажет. Теріс еркін ақша ағыны әрқашан жаман емес, бірақ оған нақты себеп және болашақ ақша генерациясына жол керек."
             },
             "tip": {
-              "en": "Profit can be promised by accounting; bills are paid with cash."
+              "en": "Profit can be promised by accounting; bills are paid with cash.",
+              "ru": "Прибыль может быть обещана бухгалтерией; счета оплачиваются деньгами.",
+              "kk": "Пайданы бухгалтерия көрсете алады; шоттар ақшамен төленеді."
             }
           }
         ]
@@ -889,7 +1691,9 @@
         "quiz_id": 2403,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Cash Flow Statement — Check"
+          "en": "Cash Flow Statement — Check",
+          "ru": "Отчёт о движении денежных средств — проверка",
+          "kk": "Ақша ағындары туралы есеп — тексеру"
         },
         "questions": [
           {
@@ -897,14 +1701,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A company reports profit but operating cash flow is negative for several years. What should an investor ask?"
+              "en": "A company reports profit but operating cash flow is negative for several years. What should an investor ask?",
+              "ru": "Компания показывает прибыль, но операционный денежный поток несколько лет отрицательный. Что должен спросить инвестор?",
+              "kk": "Компания пайда көрсетеді, бірақ бірнеше жыл бойы операциялық ақша ағыны теріс. Инвестор не сұрауы керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Why accounting profit is not converting into cash from the core business"
+                  "en": "Why accounting profit is not converting into cash from the core business",
+                  "ru": "Почему бухгалтерская прибыль не превращается в деньги из основного бизнеса",
+                  "kk": "Неге бухгалтерлік пайда негізгі бизнестен ақшаға айналмай жатыр"
                 },
                 "is_correct": true
               },
@@ -912,7 +1720,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Whether cash flow is irrelevant if profit exists"
+                  "en": "Whether cash flow is irrelevant if profit exists",
+                  "ru": "Денежный поток неважен, если есть прибыль",
+                  "kk": "Пайда болса, ақша ағыны маңызды емес пе"
                 },
                 "is_correct": false
               },
@@ -920,7 +1730,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Whether negative cash flow guarantees success"
+                  "en": "Whether negative cash flow guarantees success",
+                  "ru": "Гарантирует ли отрицательный денежный поток успех",
+                  "kk": "Теріс ақша ағыны табысты кепілдей ме"
                 },
                 "is_correct": false
               },
@@ -928,7 +1740,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Whether the balance sheet should be ignored"
+                  "en": "Whether the balance sheet should be ignored",
+                  "ru": "Нужно ли игнорировать баланс",
+                  "kk": "Балансты елемеу керек пе"
                 },
                 "is_correct": false
               }
@@ -939,14 +1753,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which cash flow is most directly connected to the core business?"
+              "en": "Which cash flow is most directly connected to the core business?",
+              "ru": "Какой денежный поток наиболее напрямую связан с основным бизнесом?",
+              "kk": "Қай ақша ағыны негізгі бизнеспен ең тікелей байланысты?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Operating cash flow"
+                  "en": "Operating cash flow",
+                  "ru": "Операционный денежный поток",
+                  "kk": "Операциялық ақша ағыны"
                 },
                 "is_correct": true
               },
@@ -954,7 +1772,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Financing cash flow from issuing debt"
+                  "en": "Financing cash flow from issuing debt",
+                  "ru": "Финансовый денежный поток от выпуска долга",
+                  "kk": "Қарыз шығарудан болған қаржылық ақша ағыны"
                 },
                 "is_correct": false
               },
@@ -962,7 +1782,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Investing cash flow from buying equipment"
+                  "en": "Investing cash flow from buying equipment",
+                  "ru": "Инвестиционный денежный поток от покупки оборудования",
+                  "kk": "Жабдық сатып алудан болған инвестициялық ақша ағыны"
                 },
                 "is_correct": false
               },
@@ -970,7 +1792,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Cash paid to shareholders as dividends"
+                  "en": "Cash paid to shareholders as dividends",
+                  "ru": "Деньги, выплаченные акционерам как дивиденды",
+                  "kk": "Акционерлерге дивиденд ретінде төленген ақша"
                 },
                 "is_correct": false
               }
@@ -981,14 +1805,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "If operating cash flow is ₸12 billion and capital spending is ₸5 billion, what is approximate free cash flow?"
+              "en": "If operating cash flow is ₸12 billion and capital spending is ₸5 billion, what is approximate free cash flow?",
+              "ru": "Если операционный денежный поток ₸12 млрд, а капитальные расходы ₸5 млрд, какой примерный свободный денежный поток?",
+              "kk": "Егер операциялық ақша ағыны ₸12 млрд, ал капиталдық шығындар ₸5 млрд болса, шамамен еркін ақша ағыны қанша?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "₸7 billion"
+                  "en": "₸7 billion",
+                  "ru": "₸7 billion",
+                  "kk": "₸7 billion"
                 },
                 "is_correct": true
               },
@@ -996,7 +1824,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "₸17 billion"
+                  "en": "₸17 billion",
+                  "ru": "₸17 billion",
+                  "kk": "₸17 billion"
                 },
                 "is_correct": false
               },
@@ -1004,7 +1834,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "₸5 billion"
+                  "en": "₸5 billion",
+                  "ru": "₸5 billion",
+                  "kk": "₸5 billion"
                 },
                 "is_correct": false
               },
@@ -1012,7 +1844,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "-₸12 billion"
+                  "en": "-₸12 billion",
+                  "ru": "-₸12 billion",
+                  "kk": "-₸12 billion"
                 },
                 "is_correct": false
               }
@@ -1024,10 +1858,14 @@
     {
       "code": "core_ratios",
       "title": {
-        "en": "Core Ratios"
+        "en": "Core Ratios",
+        "ru": "Ключевые коэффициенты",
+        "kk": "Негізгі коэффициенттер"
       },
       "description": {
-        "en": "Core ratios turn financial statements into comparable signals about profitability, leverage, liquidity, valuation, and efficiency."
+        "en": "Core ratios turn financial statements into comparable signals about profitability, leverage, liquidity, valuation, and efficiency.",
+        "ru": "Ключевые коэффициенты превращают финансовую отчётность в сопоставимые сигналы о прибыльности, долговой нагрузке, ликвидности, оценке и эффективности.",
+        "kk": "Негізгі коэффициенттер қаржылық есептілікті табыстылық, қарыз жүктемесі, өтімділік, бағалау және тиімділік туралы салыстырмалы сигналдарға айналдырады."
       },
       "estimatedMinutes": 6,
       "orderIndex": 3,
@@ -1039,13 +1877,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Ratios compress questions"
+              "en": "Ratios compress questions",
+              "ru": "Коэффициенты сжимают вопросы",
+              "kk": "Коэффициенттер сұрақтарды ықшамдайды"
             },
             "body": {
-              "en": "Financial ratios turn statement numbers into comparisons. They help investors ask sharper questions about profitability, debt, liquidity, valuation, and efficiency. A ratio is useful only when you know what problem it is trying to reveal."
+              "en": "Financial ratios turn statement numbers into comparisons. They help investors ask sharper questions about profitability, debt, liquidity, valuation, and efficiency. A ratio is useful only when you know what problem it is trying to reveal.",
+              "ru": "Финансовые коэффициенты превращают числа отчётности в сравнения. Они помогают инвесторам задавать более точные вопросы о прибыльности, долге, ликвидности, оценке и эффективности. Коэффициент полезен только тогда, когда понятно, какую проблему он должен выявить.",
+              "kk": "Қаржылық коэффициенттер есептегі сандарды салыстыруға айналдырады. Олар инвесторларға табыстылық, қарыз, өтімділік, бағалау және тиімділік туралы нақтырақ сұрақ қоюға көмектеседі. Коэффициент қандай мәселені ашуға арналғанын білсеңіз ғана пайдалы."
             },
             "tip": {
-              "en": "Ratios are tools for questions, not automatic buy or sell signals."
+              "en": "Ratios are tools for questions, not automatic buy or sell signals.",
+              "ru": "Коэффициенты — это инструменты для вопросов, а не автоматические сигналы купить или продать.",
+              "kk": "Коэффициенттер — сұрақ қою құралы, автоматты сатып алу немесе сату сигналы емес."
             }
           },
           {
@@ -1053,13 +1897,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Profitability and efficiency"
+              "en": "Profitability and efficiency",
+              "ru": "Прибыльность и эффективность",
+              "kk": "Табыстылық және тиімділік"
             },
             "body": {
-              "en": "Margins show how much profit survives from revenue. Return on equity shows how much profit is generated relative to shareholder equity. These ratios help judge whether the business turns resources into profits efficiently."
+              "en": "Margins show how much profit survives from revenue. Return on equity shows how much profit is generated relative to shareholder equity. These ratios help judge whether the business turns resources into profits efficiently.",
+              "ru": "Маржа показывает, сколько прибыли остаётся от выручки. Рентабельность капитала показывает, сколько прибыли создаётся относительно капитала акционеров. Эти коэффициенты помогают оценить, эффективно ли бизнес превращает ресурсы в прибыль.",
+              "kk": "Маржа түсімнен қанша пайда қалатынын көрсетеді. Капитал рентабельділігі акционерлік капиталға қатысты қанша пайда жасалатынын көрсетеді. Бұл коэффициенттер бизнес ресурстарды пайдаға қаншалықты тиімді айналдыратынын бағалауға көмектеседі."
             },
             "example": {
-              "en": "A company with ₸2 billion net profit and ₸20 billion equity has return on equity of about 10%."
+              "en": "A company with ₸2 billion net profit and ₸20 billion equity has return on equity of about 10%.",
+              "ru": "У компании с ₸2 млрд чистой прибыли и ₸20 млрд капитала рентабельность капитала около 10%.",
+              "kk": "₸2 млрд таза пайдасы және ₸20 млрд капиталы бар компанияның капитал рентабельділігі шамамен 10%."
             }
           },
           {
@@ -1067,13 +1917,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Debt and valuation ratios"
+              "en": "Debt and valuation ratios",
+              "ru": "Коэффициенты долга и оценки",
+              "kk": "Қарыз және бағалау коэффициенттері"
             },
             "body": {
-              "en": "Debt-to-equity shows how much leverage supports the business. The P/E ratio compares market price to earnings. A high P/E may reflect growth expectations, while high debt may reflect risk, but neither number is meaningful without industry and company context."
+              "en": "Debt-to-equity shows how much leverage supports the business. The P/E ratio compares market price to earnings. A high P/E may reflect growth expectations, while high debt may reflect risk, but neither number is meaningful without industry and company context.",
+              "ru": "Debt-to-equity показывает, какая долговая нагрузка поддерживает бизнес. P/E сравнивает рыночную цену с прибылью. Высокий P/E может отражать ожидания роста, а высокий долг — риск, но ни одно число не имеет смысла без отраслевого и корпоративного контекста.",
+              "kk": "Debt-to-equity бизнес қаншалықты қарыз жүктемесіне сүйенетінін көрсетеді. P/E нарықтық бағаны пайдамен салыстырады. Жоғары P/E өсім күтулерін, ал жоғары қарыз тәуекелді көрсетуі мүмкін, бірақ сала және компания контекстінсіз ешбір сан толық мағыналы емес."
             },
             "tip": {
-              "en": "A ratio becomes useful when compared with history, peers, and business quality."
+              "en": "A ratio becomes useful when compared with history, peers, and business quality.",
+              "ru": "Коэффициент становится полезным при сравнении с историей, аналогами и качеством бизнеса.",
+              "kk": "Коэффициент тарихпен, ұқсас компаниялармен және бизнес сапасымен салыстырылғанда пайдалы болады."
             }
           },
           {
@@ -1081,7 +1937,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "A small ratio dashboard"
+              "en": "A small ratio dashboard",
+              "ru": "Небольшая панель коэффициентов",
+              "kk": "Коэффициенттердің шағын панелі"
             },
             "content": {
               "en": {
@@ -1130,6 +1988,100 @@
                     "text": "No single ratio decides the investment. The pattern tells you what to investigate next."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Упрощённая панель компании показывает, почему коэффициенты нужно читать вместе."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Коэффициент",
+                        "Значение",
+                        "Какой вопрос вызывает"
+                      ],
+                      [
+                        "Операционная маржа",
+                        "18%",
+                        "Прибылен ли основной бизнес?"
+                      ],
+                      [
+                        "Рентабельность капитала",
+                        "14%",
+                        "Создаёт ли капитал хорошую прибыль?"
+                      ],
+                      [
+                        "Долг к капиталу",
+                        "1.8x",
+                        "Добавляет ли долговая нагрузка риск?"
+                      ],
+                      [
+                        "Коэффициент текущей ликвидности",
+                        "1.1x",
+                        "Напряжена ли краткосрочная ликвидность?"
+                      ],
+                      [
+                        "Коэффициент P/E",
+                        "28x",
+                        "Закладывают ли инвесторы высокий рост в цену?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Ни один коэффициент сам по себе не решает вопрос инвестиции. Общая картина подсказывает, что изучать дальше."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Компанияның жеңілдетілген панелі коэффициенттерді бірге оқу неге маңызды екенін көрсетеді."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Коэффициент",
+                        "Мәні",
+                        "Қандай сұрақ тудырады"
+                      ],
+                      [
+                        "Операциялық маржа",
+                        "18%",
+                        "Негізгі бизнес пайдалы ма?"
+                      ],
+                      [
+                        "Капитал рентабельділігі",
+                        "14%",
+                        "Капитал жақсы табыс әкеле ме?"
+                      ],
+                      [
+                        "Қарыздың капиталға қатынасы",
+                        "1.8x",
+                        "Қарыз жүктемесі тәуекел қосып тұр ма?"
+                      ],
+                      [
+                        "Ағымдағы өтімділік коэффициенті",
+                        "1.1x",
+                        "Қысқа мерзімді өтімділік тар ма?"
+                      ],
+                      [
+                        "P/E коэффициенті",
+                        "28x",
+                        "Инвесторлар бағаға жоғары өсімді енгізіп отыр ма?"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Бірде-бір коэффициент инвестицияны жалғыз өзі шешпейді. Үлгі келесі нені зерттеу керек екенін көрсетеді."
+                  }
+                ]
               }
             }
           },
@@ -1138,10 +2090,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Match ratio to question"
+              "en": "Match ratio to question",
+              "ru": "Сопоставьте коэффициент с вопросом",
+              "kk": "Коэффициентті сұрақпен сәйкестендіріңіз"
             },
             "body": {
-              "en": "Choose which ratio best helps answer each investor question."
+              "en": "Choose which ratio best helps answer each investor question.",
+              "ru": "Выберите, какой коэффициент лучше всего помогает ответить на каждый вопрос инвестора.",
+              "kk": "Әр инвестор сұрағына қай коэффициент жақсы жауап беруге көмектесетінін таңдаңыз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -1202,6 +2158,122 @@
                   }
                 ],
                 "explanation": "Ratios are organized by the question they answer: profit quality, debt risk, short-term safety, or price paid for earnings."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый коэффициент к вопросу, на который он лучше всего отвечает.",
+                "categories": [
+                  {
+                    "id": "profitability",
+                    "label": "Прибыльность"
+                  },
+                  {
+                    "id": "leverage",
+                    "label": "Долговая нагрузка"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Ликвидность"
+                  },
+                  {
+                    "id": "valuation",
+                    "label": "Оценка"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "margin",
+                    "text": "Операционная маржа"
+                  },
+                  {
+                    "id": "debt_equity",
+                    "text": "Долг к капиталу"
+                  },
+                  {
+                    "id": "current_ratio",
+                    "text": "Коэффициент текущей ликвидности"
+                  },
+                  {
+                    "id": "pe",
+                    "text": "Коэффициент P/E"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "margin",
+                    "categoryId": "profitability"
+                  },
+                  {
+                    "itemId": "debt_equity",
+                    "categoryId": "leverage"
+                  },
+                  {
+                    "itemId": "current_ratio",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "pe",
+                    "categoryId": "valuation"
+                  }
+                ],
+                "explanation": "Коэффициенты организованы по вопросам, на которые отвечают: качество прибыли, долговой риск, краткосрочная устойчивость или цена, уплаченная за прибыль."
+              },
+              "kk": {
+                "instruction": "Әр коэффициентті ең жақсы жауап беретін сұраққа апарыңыз.",
+                "categories": [
+                  {
+                    "id": "profitability",
+                    "label": "Табыстылық"
+                  },
+                  {
+                    "id": "leverage",
+                    "label": "Қарыз жүктемесі"
+                  },
+                  {
+                    "id": "liquidity",
+                    "label": "Өтімділік"
+                  },
+                  {
+                    "id": "valuation",
+                    "label": "Бағалау"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "margin",
+                    "text": "Операциялық маржа"
+                  },
+                  {
+                    "id": "debt_equity",
+                    "text": "Қарыздың капиталға қатынасы"
+                  },
+                  {
+                    "id": "current_ratio",
+                    "text": "Ағымдағы өтімділік коэффициенті"
+                  },
+                  {
+                    "id": "pe",
+                    "text": "P/E коэффициенті"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "margin",
+                    "categoryId": "profitability"
+                  },
+                  {
+                    "itemId": "debt_equity",
+                    "categoryId": "leverage"
+                  },
+                  {
+                    "itemId": "current_ratio",
+                    "categoryId": "liquidity"
+                  },
+                  {
+                    "itemId": "pe",
+                    "categoryId": "valuation"
+                  }
+                ],
+                "explanation": "Коэффициенттер жауап беретін сұрақтары бойынша ұйымдастырылады: пайда сапасы, қарыз тәуекелі, қысқа мерзімді қауіпсіздік немесе пайда үшін төленген баға."
               }
             }
           },
@@ -1210,13 +2282,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Use ratios as a conversation with the business"
+              "en": "Use ratios as a conversation with the business",
+              "ru": "Используйте коэффициенты как разговор с бизнесом",
+              "kk": "Коэффициенттерді бизнес туралы диалог ретінде қолданыңыз"
             },
             "body": {
-              "en": "Core ratios help you read financial statements faster, but they do not replace judgment. Compare ratios with peers, history, and the business model. A good ratio points to a question; a full investment view needs the answer."
+              "en": "Core ratios help you read financial statements faster, but they do not replace judgment. Compare ratios with peers, history, and the business model. A good ratio points to a question; a full investment view needs the answer.",
+              "ru": "Ключевые коэффициенты помогают быстрее читать финансовую отчётность, но не заменяют суждение. Сравнивайте коэффициенты с аналогами, историей и бизнес-моделью. Хороший коэффициент указывает на вопрос; полноценный инвестиционный взгляд требует ответа.",
+              "kk": "Негізгі коэффициенттер қаржылық есептілікті тезірек оқуға көмектеседі, бірақ пайымдауды алмастырмайды. Коэффициенттерді ұқсастармен, тарихпен және бизнес-модельмен салыстырыңыз. Жақсы коэффициент сұраққа нұсқайды; толық инвестициялық көзқарас жауапты қажет етеді."
             },
             "tip": {
-              "en": "The dangerous ratio is the one used without context."
+              "en": "The dangerous ratio is the one used without context.",
+              "ru": "Опасный коэффициент — тот, который используют без контекста.",
+              "kk": "Қауіпті коэффициент — контекстсіз қолданылған коэффициент."
             }
           }
         ]
@@ -1225,7 +2303,9 @@
         "quiz_id": 2404,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Core Ratios — Check"
+          "en": "Core Ratios — Check",
+          "ru": "Ключевые коэффициенты — проверка",
+          "kk": "Негізгі коэффициенттер — тексеру"
         },
         "questions": [
           {
@@ -1233,14 +2313,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A company has a high P/E ratio. What is the most careful interpretation?"
+              "en": "A company has a high P/E ratio. What is the most careful interpretation?",
+              "ru": "У компании высокий коэффициент P/E. Какая самая осторожная интерпретация?",
+              "kk": "Компанияның P/E коэффициенті жоғары. Ең сақ түсіндіру қандай?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Investors may be pricing in high growth, but the valuation needs context"
+                  "en": "Investors may be pricing in high growth, but the valuation needs context",
+                  "ru": "Инвесторы могут закладывать высокий рост, но оценке нужен контекст",
+                  "kk": "Инвесторлар жоғары өсімді бағаға енгізіп отырған болуы мүмкін, бірақ бағалауға контекст керек"
                 },
                 "is_correct": true
               },
@@ -1248,7 +2332,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The stock is automatically a bargain"
+                  "en": "The stock is automatically a bargain",
+                  "ru": "Акция автоматически является выгодной покупкой",
+                  "kk": "Акция автоматты түрде арзан мүмкіндік"
                 },
                 "is_correct": false
               },
@@ -1256,7 +2342,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The company has no earnings"
+                  "en": "The company has no earnings",
+                  "ru": "У компании нет прибыли",
+                  "kk": "Компанияда пайда жоқ"
                 },
                 "is_correct": false
               },
@@ -1264,7 +2352,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Debt risk has disappeared"
+                  "en": "Debt risk has disappeared",
+                  "ru": "Долговой риск исчез",
+                  "kk": "Қарыз тәуекелі жоғалды"
                 },
                 "is_correct": false
               }
@@ -1275,14 +2365,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Which ratio best helps evaluate short-term liquidity?"
+              "en": "Which ratio best helps evaluate short-term liquidity?",
+              "ru": "Какой коэффициент лучше всего помогает оценить краткосрочную ликвидность?",
+              "kk": "Қысқа мерзімді өтімділікті бағалауға қай коэффициент жақсы көмектеседі?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Current ratio"
+                  "en": "Current ratio",
+                  "ru": "Коэффициент текущей ликвидности",
+                  "kk": "Ағымдағы өтімділік коэффициенті"
                 },
                 "is_correct": true
               },
@@ -1290,7 +2384,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "P/E ratio"
+                  "en": "P/E ratio",
+                  "ru": "Коэффициент P/E",
+                  "kk": "P/E коэффициенті"
                 },
                 "is_correct": false
               },
@@ -1298,7 +2394,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Dividend yield"
+                  "en": "Dividend yield",
+                  "ru": "Дивидендная доходность",
+                  "kk": "Дивидендтік кірістілік"
                 },
                 "is_correct": false
               },
@@ -1306,7 +2404,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Gross margin"
+                  "en": "Gross margin",
+                  "ru": "Валовая маржа",
+                  "kk": "Жалпы маржа"
                 },
                 "is_correct": false
               }
@@ -1317,14 +2417,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why should ratios be compared with peers and history?"
+              "en": "Why should ratios be compared with peers and history?",
+              "ru": "Почему коэффициенты нужно сравнивать с аналогами и историей?",
+              "kk": "Неге коэффициенттерді ұқсастармен және тарихпен салыстыру керек?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A ratio's meaning depends on industry, business model, and trend"
+                  "en": "A ratio's meaning depends on industry, business model, and trend",
+                  "ru": "Значение коэффициента зависит от отрасли, бизнес-модели и тренда",
+                  "kk": "Коэффициенттің мағынасы салаға, бизнес-модельге және трендке байланысты"
                 },
                 "is_correct": true
               },
@@ -1332,7 +2436,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Ratios are useless if compared"
+                  "en": "Ratios are useless if compared",
+                  "ru": "Коэффициенты бесполезны, если их сравнивать",
+                  "kk": "Коэффициенттер салыстырылса, пайдасыз"
                 },
                 "is_correct": false
               },
@@ -1340,7 +2446,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Every industry has identical normal ratios"
+                  "en": "Every industry has identical normal ratios",
+                  "ru": "Во всех отраслях одинаковые нормальные коэффициенты",
+                  "kk": "Әр салада қалыпты коэффициенттер бірдей"
                 },
                 "is_correct": false
               },
@@ -1348,7 +2456,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "One ratio always gives the final answer"
+                  "en": "One ratio always gives the final answer",
+                  "ru": "Один коэффициент всегда даёт окончательный ответ",
+                  "kk": "Бір коэффициент әрқашан соңғы жауап береді"
                 },
                 "is_correct": false
               }
@@ -1362,7 +2472,9 @@
     "quiz_id": 2499,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Reading Financial Statements — Final Check"
+      "en": "Reading Financial Statements — Final Check",
+      "ru": "Чтение финансовой отчётности — итоговая проверка",
+      "kk": "Қаржылық есептілікті оқу — қорытынды тексеру"
     },
     "questions": [
       {
@@ -1370,14 +2482,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "A company grows sales quickly but margins shrink and losses increase. What should an investor conclude?"
+          "en": "A company grows sales quickly but margins shrink and losses increase. What should an investor conclude?",
+          "ru": "Компания быстро наращивает продажи, но маржа сжимается, а убытки растут. Что должен заключить инвестор?",
+          "kk": "Компания сатылымды тез өсіреді, бірақ маржа қысқарып, шығындар артады. Инвестор қандай қорытынды жасауы керек?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Revenue growth is not enough if the company cannot convert sales into profit"
+              "en": "Revenue growth is not enough if the company cannot convert sales into profit",
+              "ru": "Рост выручки недостаточен, если компания не может превращать продажи в прибыль",
+              "kk": "Компания сатылымды пайдаға айналдыра алмаса, түсім өсімі жеткіліксіз"
             },
             "is_correct": true
           },
@@ -1385,7 +2501,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Sales growth alone proves the company is healthy"
+              "en": "Sales growth alone proves the company is healthy",
+              "ru": "Один только рост продаж доказывает, что компания здорова",
+              "kk": "Сатылым өсімі ғана компанияның сау екенін дәлелдейді"
             },
             "is_correct": false
           },
@@ -1393,7 +2511,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Margins do not matter if revenue rises"
+              "en": "Margins do not matter if revenue rises",
+              "ru": "Маржа не важна, если выручка растёт",
+              "kk": "Түсім өссе, маржа маңызды емес"
             },
             "is_correct": false
           },
@@ -1401,7 +2521,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Losses are impossible when sales rise"
+              "en": "Losses are impossible when sales rise",
+              "ru": "Убытки невозможны, когда продажи растут",
+              "kk": "Сатылым өскенде шығын болуы мүмкін емес"
             },
             "is_correct": false
           }
@@ -1412,14 +2534,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "What does the balance sheet show that the income statement does not?"
+          "en": "What does the balance sheet show that the income statement does not?",
+          "ru": "Что показывает баланс, чего не показывает отчёт о прибылях и убытках?",
+          "kk": "Баланс пайда мен шығын есебі көрсетпейтін нені көрсетеді?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Assets, liabilities, and equity at a point in time"
+              "en": "Assets, liabilities, and equity at a point in time",
+              "ru": "Активы, обязательства и капитал на конкретный момент",
+              "kk": "Белгілі бір сәттегі активтер, міндеттемелер және капитал"
             },
             "is_correct": true
           },
@@ -1427,7 +2553,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Only customer reviews"
+              "en": "Only customer reviews",
+              "ru": "Только отзывы клиентов",
+              "kk": "Тек клиент пікірлері"
             },
             "is_correct": false
           },
@@ -1435,7 +2563,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Only daily stock price movement"
+              "en": "Only daily stock price movement",
+              "ru": "Только ежедневное движение цены акции",
+              "kk": "Тек акция бағасының күнделікті қозғалысы"
             },
             "is_correct": false
           },
@@ -1443,7 +2573,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Only the company's advertising budget trend"
+              "en": "Only the company's advertising budget trend",
+              "ru": "Только тренд рекламного бюджета компании",
+              "kk": "Тек компанияның жарнама бюджеті тренді"
             },
             "is_correct": false
           }
@@ -1454,14 +2586,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "Why is operating cash flow important when profit looks strong?"
+          "en": "Why is operating cash flow important when profit looks strong?",
+          "ru": "Почему операционный денежный поток важен, когда прибыль выглядит сильной?",
+          "kk": "Пайда күшті көрінгенде операциялық ақша ағыны неге маңызды?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "It tests whether core business earnings are turning into actual cash"
+              "en": "It tests whether core business earnings are turning into actual cash",
+              "ru": "Он проверяет, превращается ли прибыль основного бизнеса в реальные деньги",
+              "kk": "Ол негізгі бизнес табысы нақты ақшаға айналып жатқанын тексереді"
             },
             "is_correct": true
           },
@@ -1469,7 +2605,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "It proves the stock price must rise"
+              "en": "It proves the stock price must rise",
+              "ru": "Он доказывает, что цена акции должна вырасти",
+              "kk": "Ол акция бағасы міндетті түрде өсетінін дәлелдейді"
             },
             "is_correct": false
           },
@@ -1477,7 +2615,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "It replaces all other statements"
+              "en": "It replaces all other statements",
+              "ru": "Он заменяет все остальные отчёты",
+              "kk": "Ол барлық басқа есептерді алмастырады"
             },
             "is_correct": false
           },
@@ -1485,7 +2625,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "It measures only new debt raised"
+              "en": "It measures only new debt raised",
+              "ru": "Он измеряет только новый привлечённый долг",
+              "kk": "Ол тек жаңа тартылған қарызды өлшейді"
             },
             "is_correct": false
           }
@@ -1496,14 +2638,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "Which ratio is most directly about leverage?"
+          "en": "Which ratio is most directly about leverage?",
+          "ru": "Какой коэффициент наиболее напрямую связан с долговой нагрузкой?",
+          "kk": "Қай коэффициент қарыз жүктемесіне ең тікелей қатысты?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Debt-to-equity"
+              "en": "Debt-to-equity",
+              "ru": "Долг к капиталу",
+              "kk": "Қарыздың капиталға қатынасы"
             },
             "is_correct": true
           },
@@ -1511,7 +2657,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Operating margin"
+              "en": "Operating margin",
+              "ru": "Операционная маржа",
+              "kk": "Операциялық маржа"
             },
             "is_correct": false
           },
@@ -1519,7 +2667,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "P/E ratio"
+              "en": "P/E ratio",
+              "ru": "Коэффициент P/E",
+              "kk": "P/E коэффициенті"
             },
             "is_correct": false
           },
@@ -1527,7 +2677,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Revenue growth rate"
+              "en": "Revenue growth rate",
+              "ru": "Темп роста выручки",
+              "kk": "Түсімнің өсу қарқыны"
             },
             "is_correct": false
           }
@@ -1538,14 +2690,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "What is the best way to use financial statements together?"
+          "en": "What is the best way to use financial statements together?",
+          "ru": "Как лучше всего использовать финансовые отчёты вместе?",
+          "kk": "Қаржылық есептерді бірге қолданудың ең жақсы жолы қандай?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Income statement for profitability, balance sheet for position, cash flow for cash reality, ratios for comparison"
+              "en": "Income statement for profitability, balance sheet for position, cash flow for cash reality, ratios for comparison",
+              "ru": "Отчёт о прибылях — для прибыльности, баланс — для положения, денежный поток — для денежной реальности, коэффициенты — для сравнения",
+              "kk": "Пайда есебі — табыстылық үшін, баланс — жағдай үшін, ақша ағыны — ақша шындығы үшін, коэффициенттер — салыстыру үшін"
             },
             "is_correct": true
           },
@@ -1553,7 +2709,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Use only the statement with the biggest number"
+              "en": "Use only the statement with the biggest number",
+              "ru": "Использовать только отчёт с самым большим числом",
+              "kk": "Ең үлкен саны бар есепті ғана қолдану"
             },
             "is_correct": false
           },
@@ -1561,7 +2719,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Ignore cash flow if profit is positive"
+              "en": "Ignore cash flow if profit is positive",
+              "ru": "Игнорировать денежный поток, если прибыль положительная",
+              "kk": "Пайда оң болса, ақша ағынын елемеу"
             },
             "is_correct": false
           },
@@ -1569,7 +2729,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Use ratios without context or comparison"
+              "en": "Use ratios without context or comparison",
+              "ru": "Использовать коэффициенты без контекста и сравнения",
+              "kk": "Коэффициенттерді контекстсіз және салыстырусыз қолдану"
             },
             "is_correct": false
           }

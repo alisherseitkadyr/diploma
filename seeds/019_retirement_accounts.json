@@ -3,11 +3,16 @@
   "topic": {
     "code": "retirement_accounts",
     "orderIndex": 19,
+    "icon_path": "assets/topics/019.png",
     "title": {
-      "en": "Retirement & Tax-Advantaged Accounts"
+      "en": "Retirement & Tax-Advantaged Accounts",
+      "ru": "Пенсионные и налогово-льготные счета",
+      "kk": "Зейнетақы және салықтық жеңілдігі бар шоттар"
     },
     "description": {
-      "en": "Why tax-advantaged accounts exist, how employer matching and steady contributions compound, and how Kazakhstan's pension system works."
+      "en": "Why tax-advantaged accounts exist, how employer matching and steady contributions compound, and how Kazakhstan's pension system works.",
+      "ru": "Зачем существуют налогово-льготные счета, как софинансирование работодателя и регулярные взносы накапливаются со временем, и как работает пенсионная система Казахстана.",
+      "kk": "Салықтық жеңілдігі бар шоттар не үшін қажет, жұмыс берушінің қосымша жарнасы мен тұрақты аударымдар қалай өседі және Қазақстанның зейнетақы жүйесі қалай жұмыс істейді."
     },
     "level": "intermediate",
     "prerequisite_id": null
@@ -16,10 +21,14 @@
     {
       "code": "why_retirement_accounts_exist",
       "title": {
-        "en": "Why Retirement Accounts Exist"
+        "en": "Why Retirement Accounts Exist",
+        "ru": "Зачем существуют пенсионные счета",
+        "kk": "Зейнетақы шоттары не үшін қажет"
       },
       "description": {
-        "en": "Retirement accounts solve a timing problem: income arrives during working years, but spending continues after work slows or stops."
+        "en": "Retirement accounts solve a timing problem: income arrives during working years, but spending continues after work slows or stops.",
+        "ru": "Пенсионные счета решают проблему времени: доход поступает в рабочие годы, а расходы продолжаются, когда работа замедляется или прекращается.",
+        "kk": "Зейнетақы шоттары уақыт мәселесін шешеді: табыс еңбек жылдарында келеді, ал шығын жұмыс азайғанда немесе тоқтағанда да жалғасады."
       },
       "estimatedMinutes": 5,
       "orderIndex": 0,
@@ -31,13 +40,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Retirement is a cash-flow problem"
+              "en": "Retirement is a cash-flow problem",
+              "ru": "Пенсия — это вопрос денежного потока",
+              "kk": "Зейнетке шығу — ақша ағымы мәселесі"
             },
             "body": {
-              "en": "Retirement planning is not only about old age. It is about moving part of today's income into years when work income may be lower or gone. A retirement account creates a structure for that transfer across time."
+              "en": "Retirement planning is not only about old age. It is about moving part of today's income into years when work income may be lower or gone. A retirement account creates a structure for that transfer across time.",
+              "ru": "Планирование пенсии — это не только про старость. Это перенос части сегодняшнего дохода на годы, когда трудовой доход может быть ниже или исчезнуть. Пенсионный счет создает структуру для такого переноса во времени.",
+              "kk": "Зейнетақыны жоспарлау тек қарттық туралы емес. Бұл бүгінгі табыстың бір бөлігін еңбек табысы азаюы немесе тоқтауы мүмкін жылдарға ауыстыру. Зейнетақы шоты осы уақыт аралық аударымға құрылым береді."
             },
             "tip": {
-              "en": "The core question is: who pays future you when current work income stops?"
+              "en": "The core question is: who pays future you when current work income stops?",
+              "ru": "Главный вопрос: кто будет платить будущему вам, когда текущий трудовой доход прекратится?",
+              "kk": "Негізгі сұрақ: қазіргі еңбек табысы тоқтағанда, болашақтағы сізге кім төлейді?"
             }
           },
           {
@@ -45,10 +60,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Why ordinary saving is hard"
+              "en": "Why ordinary saving is hard",
+              "ru": "Почему обычные накопления даются трудно",
+              "kk": "Неге қарапайым жинақтау қиын"
             },
             "body": {
-              "en": "Long-term money is easy to spend when it sits in the same place as short-term money. Retirement accounts add rules, defaults, tax treatment, or employer systems that separate future income from everyday spending. The structure protects the goal from daily decisions."
+              "en": "Long-term money is easy to spend when it sits in the same place as short-term money. Retirement accounts add rules, defaults, tax treatment, or employer systems that separate future income from everyday spending. The structure protects the goal from daily decisions.",
+              "ru": "Долгосрочные деньги легко потратить, если они лежат там же, где деньги на ближайшие расходы. Пенсионные счета добавляют правила, настройки по умолчанию, налоговый режим или систему работодателя, которые отделяют будущий доход от повседневных трат. Такая структура защищает цель от ежедневных решений.",
+              "kk": "Ұзақ мерзімді ақша қысқа мерзімді ақшамен бір жерде тұрса, оны жұмсау оңай. Зейнетақы шоттары болашақ табысты күнделікті шығыннан бөлетін ережелерді, әдепкі баптауларды, салық режимін немесе жұмыс беруші жүйесін қосады. Құрылым мақсатты күнделікті шешімдерден қорғайды."
             }
           },
           {
@@ -56,13 +75,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Time does much of the work"
+              "en": "Time does much of the work",
+              "ru": "Большую часть работы делает время",
+              "kk": "Жұмыстың көп бөлігін уақыт атқарады"
             },
             "body": {
-              "en": "Small contributions matter because they can compound for decades. Starting earlier reduces the pressure to save huge amounts later. Waiting turns the same retirement goal into a much steeper monthly obligation."
+              "en": "Small contributions matter because they can compound for decades. Starting earlier reduces the pressure to save huge amounts later. Waiting turns the same retirement goal into a much steeper monthly obligation.",
+              "ru": "Небольшие взносы важны, потому что они могут накапливаться десятилетиями. Более ранний старт снижает необходимость откладывать огромные суммы позже. Ожидание превращает ту же пенсионную цель в гораздо более тяжелую ежемесячную обязанность.",
+              "kk": "Шағын жарналар маңызды, өйткені олар ондаған жыл бойы күрделі өсіммен ұлғаюы мүмкін. Ертерек бастау кейін үлкен сомалар жинау қысымын азайтады. Күту сол зейнетақы мақсатын әлдеқайда ауыр ай сайынғы міндетке айналдырады."
             },
             "example": {
-              "en": "Saving ₸25,000 monthly for 30 years creates far more opportunity for compounding than saving ₸50,000 monthly for only 10 years."
+              "en": "Saving ₸25,000 monthly for 30 years creates far more opportunity for compounding than saving ₸50,000 monthly for only 10 years.",
+              "ru": "Откладывать ₸25,000 в месяц в течение 30 лет дает намного больше возможностей для сложного роста, чем откладывать ₸50,000 в месяц всего 10 лет.",
+              "kk": "30 жыл бойы айына ₸25,000 жинау, тек 10 жыл айына ₸50,000 жинауға қарағанда күрделі өсімге әлдеқайда көп мүмкіндік береді."
             }
           },
           {
@@ -70,7 +95,9 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Same income, different time allocation"
+              "en": "Same income, different time allocation",
+              "ru": "Одинаковый доход, разное распределение во времени",
+              "kk": "Бірдей табыс, уақыт бойынша әртүрлі бөлу"
             },
             "content": {
               "en": {
@@ -113,6 +140,88 @@
                     "text": "The account is not magic. It creates a repeated rule that moves money from working years to future spending years."
                   }
                 ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Два человека зарабатывают ₸400,000 в месяц. Оба тратят деньги сейчас, но только один осознанно направляет часть дохода на будущие годы."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Человек",
+                        "Ежемесячный пенсионный взнос",
+                        "Годовая сумма, перенесенная в будущее",
+                        "Главный эффект"
+                      ],
+                      [
+                        "A",
+                        "₸0",
+                        "₸0",
+                        "Будущий доход в основном зависит от последующих решений"
+                      ],
+                      [
+                        "B",
+                        "₸40,000",
+                        "₸480,000",
+                        "Создает отдельную базу будущего дохода"
+                      ],
+                      [
+                        "B за 20 лет до учета доходности",
+                        "₸40,000 monthly",
+                        "₸9,600,000",
+                        "Время и дисциплина создают масштаб"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Счет — не магия. Он создает повторяющееся правило, которое переносит деньги из рабочих лет в годы будущих расходов."
+                  }
+                ]
+              },
+              "kk": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Екі адам айына ₸400,000 табады. Екеуі де қазір ақша жұмсайды, бірақ тек біреуі табыстың бір бөлігін кейінгі жылдарға саналы түрде бағыттайды."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Адам",
+                        "Ай сайынғы зейнетақы жарнасы",
+                        "Болашаққа ауыстырылған жылдық сома",
+                        "Негізгі әсер"
+                      ],
+                      [
+                        "A",
+                        "₸0",
+                        "₸0",
+                        "Болашақ табыс көбіне кейінгі таңдауларға тәуелді"
+                      ],
+                      [
+                        "B",
+                        "₸40,000",
+                        "₸480,000",
+                        "Болашақ табысқа арналған жеке база қалыптастырады"
+                      ],
+                      [
+                        "B 20 жыл ішінде, табыстылыққа дейін",
+                        "₸40,000 monthly",
+                        "₸9,600,000",
+                        "Уақыт пен тәртіп ауқым жасайды"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Шот сиқыр емес. Ол ақшаны еңбек жылдарынан болашақ шығын жылдарына ауыстыратын қайталанатын ереже жасайды."
+                  }
+                ]
               }
             }
           },
@@ -121,10 +230,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Separate the time job"
+              "en": "Separate the time job",
+              "ru": "Разделите деньги по временной задаче",
+              "kk": "Уақыттық міндетті бөліңіз"
             },
             "body": {
-              "en": "Classify each money choice by whether it mainly serves present spending, near-term safety, or future income."
+              "en": "Classify each money choice by whether it mainly serves present spending, near-term safety, or future income.",
+              "ru": "Классифицируйте каждое денежное решение по тому, чему оно служит: текущим расходам, краткосрочной безопасности или будущему доходу.",
+              "kk": "Әр ақша таңдауын оның қазіргі шығынға, жақын мерзімді қауіпсіздікке немесе болашақ табысқа қызмет етуі бойынша жіктеңіз."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -181,6 +294,114 @@
                   }
                 ],
                 "explanation": "Retirement accounts exist to protect future-income money from being mixed with present spending or short-term safety money."
+              },
+              "ru": {
+                "instruction": "Перетащите каждый вариант к той временной цели, которой он лучше всего служит.",
+                "categories": [
+                  {
+                    "id": "present",
+                    "label": "Текущие расходы"
+                  },
+                  {
+                    "id": "safety",
+                    "label": "Краткосрочная безопасность"
+                  },
+                  {
+                    "id": "future_income",
+                    "label": "Будущий доход"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "groceries",
+                    "text": "Ежемесячные продукты и транспорт"
+                  },
+                  {
+                    "id": "emergency_fund",
+                    "text": "Денежный резерв на случай потери работы"
+                  },
+                  {
+                    "id": "pension_contribution",
+                    "text": "Регулярный пенсионный взнос"
+                  },
+                  {
+                    "id": "vacation_spending",
+                    "text": "Отпуск, оплаченный из текущего дохода"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "groceries",
+                    "categoryId": "present"
+                  },
+                  {
+                    "itemId": "emergency_fund",
+                    "categoryId": "safety"
+                  },
+                  {
+                    "itemId": "pension_contribution",
+                    "categoryId": "future_income"
+                  },
+                  {
+                    "itemId": "vacation_spending",
+                    "categoryId": "present"
+                  }
+                ],
+                "explanation": "Пенсионные счета существуют, чтобы деньги будущего дохода не смешивались с текущими расходами или краткосрочным резервом."
+              },
+              "kk": {
+                "instruction": "Әр таңдауды оған ең сәйкес уақыт мақсатына апарыңыз.",
+                "categories": [
+                  {
+                    "id": "present",
+                    "label": "Қазіргі шығындар"
+                  },
+                  {
+                    "id": "safety",
+                    "label": "Жақын мерзімді қауіпсіздік"
+                  },
+                  {
+                    "id": "future_income",
+                    "label": "Болашақ табыс"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "groceries",
+                    "text": "Ай сайынғы азық-түлік пен көлік"
+                  },
+                  {
+                    "id": "emergency_fund",
+                    "text": "Жұмыс жоғалса арналған ақша резерві"
+                  },
+                  {
+                    "id": "pension_contribution",
+                    "text": "Тұрақты зейнетақы жарнасы"
+                  },
+                  {
+                    "id": "vacation_spending",
+                    "text": "Ағымдағы табыстан төленген демалыс"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "groceries",
+                    "categoryId": "present"
+                  },
+                  {
+                    "itemId": "emergency_fund",
+                    "categoryId": "safety"
+                  },
+                  {
+                    "itemId": "pension_contribution",
+                    "categoryId": "future_income"
+                  },
+                  {
+                    "itemId": "vacation_spending",
+                    "categoryId": "present"
+                  }
+                ],
+                "explanation": "Зейнетақы шоттары болашақ табыс ақшасын қазіргі шығын немесе қысқа мерзімді резервпен араластырмау үшін қажет."
               }
             }
           },
@@ -189,13 +410,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "The account supports the habit"
+              "en": "The account supports the habit",
+              "ru": "Счет поддерживает привычку",
+              "kk": "Шот әдетті қолдайды"
             },
             "body": {
-              "en": "Retirement accounts solve a human and financial problem: future spending needs are real, but today's spending feels closer. The account adds structure, rules, and often tax or employer benefits. Its purpose is to turn long-term saving into a repeatable system."
+              "en": "Retirement accounts solve a human and financial problem: future spending needs are real, but today's spending feels closer. The account adds structure, rules, and often tax or employer benefits. Its purpose is to turn long-term saving into a repeatable system.",
+              "ru": "Пенсионные счета решают человеческую и финансовую проблему: будущие расходы реальны, но сегодняшние траты кажутся ближе. Счет добавляет структуру, правила и часто налоговые или работодательские преимущества. Его цель — превратить долгосрочные накопления в повторяемую систему.",
+              "kk": "Зейнетақы шоттары адамдық және қаржылық мәселені шешеді: болашақ шығындар нақты, бірақ бүгінгі шығындар жақынырақ сезіледі. Шот құрылым, ереже және көбіне салықтық немесе жұмыс беруші артықшылықтарын қосады. Мақсаты — ұзақ мерзімді жинақты қайталанатын жүйеге айналдыру."
             },
             "tip": {
-              "en": "A retirement account is a bridge from working income to future income."
+              "en": "A retirement account is a bridge from working income to future income.",
+              "ru": "Пенсионный счет — это мост от трудового дохода к будущему доходу.",
+              "kk": "Зейнетақы шоты — еңбек табысынан болашақ табысқа көпір."
             }
           }
         ]
@@ -204,7 +431,9 @@
         "quiz_id": 1901,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Why Retirement Accounts Exist — Check"
+          "en": "Why Retirement Accounts Exist — Check",
+          "ru": "Зачем существуют пенсионные счета — проверка",
+          "kk": "Why Retirement Accounts Exist — Check"
         },
         "questions": [
           {
@@ -212,14 +441,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A person says retirement saving can wait because their income will probably rise later. What is the main issue?"
+              "en": "A person says retirement saving can wait because their income will probably rise later. What is the main issue?",
+              "ru": "Человек говорит, что пенсионные накопления могут подождать, потому что доход, вероятно, вырастет позже. В чем главная проблема?",
+              "kk": "A person says retirement saving can wait because their income will probably rise later. What is the main issue?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Waiting reduces compounding time and makes the future monthly saving burden larger"
+                  "en": "Waiting reduces compounding time and makes the future monthly saving burden larger",
+                  "ru": "Ожидание сокращает время сложного роста и увеличивает будущую ежемесячную нагрузку по накоплениям",
+                  "kk": "Waiting reduces compounding time and makes the future monthly saving burden larger"
                 },
                 "is_correct": true
               },
@@ -227,7 +460,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Higher future income always guarantees retirement security"
+                  "en": "Higher future income always guarantees retirement security",
+                  "ru": "Более высокий будущий доход всегда гарантирует пенсионную безопасность",
+                  "kk": "Higher future income always guarantees retirement security"
                 },
                 "is_correct": false
               },
@@ -235,7 +470,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Retirement accounts only work for people near retirement"
+                  "en": "Retirement accounts only work for people near retirement",
+                  "ru": "Пенсионные счета работают только для людей рядом с пенсией",
+                  "kk": "Retirement accounts only work for people near retirement"
                 },
                 "is_correct": false
               },
@@ -243,7 +480,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Compounding matters only for one-year goals"
+                  "en": "Compounding matters only for one-year goals",
+                  "ru": "Сложный рост важен только для целей на один год",
+                  "kk": "Compounding matters only for one-year goals"
                 },
                 "is_correct": false
               }
@@ -254,14 +493,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why is it useful to separate retirement money from everyday spending money?"
+              "en": "Why is it useful to separate retirement money from everyday spending money?",
+              "ru": "Почему полезно отделять пенсионные деньги от денег на ежедневные расходы?",
+              "kk": "Why is it useful to separate retirement money from everyday spending money?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It protects long-term income money from short-term consumption decisions"
+                  "en": "It protects long-term income money from short-term consumption decisions",
+                  "ru": "Это защищает деньги долгосрочного дохода от краткосрочных потребительских решений",
+                  "kk": "It protects long-term income money from short-term consumption decisions"
                 },
                 "is_correct": true
               },
@@ -269,7 +512,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It makes the money impossible to invest"
+                  "en": "It makes the money impossible to invest",
+                  "ru": "Это делает деньги невозможными для инвестирования",
+                  "kk": "It makes the money impossible to invest"
                 },
                 "is_correct": false
               },
@@ -277,7 +522,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It removes all market risk"
+                  "en": "It removes all market risk",
+                  "ru": "Это устраняет весь рыночный риск",
+                  "kk": "It removes all market risk"
                 },
                 "is_correct": false
               },
@@ -285,7 +532,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It means no future contributions are needed"
+                  "en": "It means no future contributions are needed",
+                  "ru": "Это значит, что будущие взносы не нужны",
+                  "kk": "It means no future contributions are needed"
                 },
                 "is_correct": false
               }
@@ -296,14 +545,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What is the best mental model for a retirement account?"
+              "en": "What is the best mental model for a retirement account?",
+              "ru": "Какая лучшая ментальная модель для пенсионного счета?",
+              "kk": "What is the best mental model for a retirement account?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A system for moving current income into future spending years"
+                  "en": "A system for moving current income into future spending years",
+                  "ru": "Система переноса текущего дохода в годы будущих расходов",
+                  "kk": "A system for moving current income into future spending years"
                 },
                 "is_correct": true
               },
@@ -311,7 +564,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "A short-term shopping account"
+                  "en": "A short-term shopping account",
+                  "ru": "Краткосрочный счет для покупок",
+                  "kk": "A short-term shopping account"
                 },
                 "is_correct": false
               },
@@ -319,7 +574,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A guaranteed way to become rich quickly"
+                  "en": "A guaranteed way to become rich quickly",
+                  "ru": "Гарантированный способ быстро разбогатеть",
+                  "kk": "A guaranteed way to become rich quickly"
                 },
                 "is_correct": false
               },
@@ -327,7 +584,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "A replacement for an emergency fund"
+                  "en": "A replacement for an emergency fund",
+                  "ru": "Замена резервного фонда",
+                  "kk": "A replacement for an emergency fund"
                 },
                 "is_correct": false
               }
@@ -339,10 +598,14 @@
     {
       "code": "tax_deferred_accounts",
       "title": {
-        "en": "Tax-Deferred Accounts"
+        "en": "Tax-Deferred Accounts",
+        "ru": "Счета с отложенным налогообложением",
+        "kk": "Салығы кейінге қалдырылған шоттар"
       },
       "description": {
-        "en": "Tax-deferred accounts delay taxation, allowing more money to compound now but creating taxable income later."
+        "en": "Tax-deferred accounts delay taxation, allowing more money to compound now but creating taxable income later.",
+        "ru": "Счета с отложенным налогообложением переносят налог на будущее, позволяя большей сумме расти сейчас, но создавая налогооблагаемый доход позже.",
+        "kk": "Tax-deferred accounts delay taxation, allowing more money to compound now but creating taxable income later."
       },
       "estimatedMinutes": 6,
       "orderIndex": 1,
@@ -354,13 +617,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Tax timing changes compounding"
+              "en": "Tax timing changes compounding",
+              "ru": "Срок уплаты налога меняет сложный рост",
+              "kk": "Tax timing changes compounding"
             },
             "body": {
-              "en": "A tax-deferred account does not make taxes disappear. It changes when tax is paid. By delaying tax, more money may stay invested today, which can increase the amount that compounds over time."
+              "en": "A tax-deferred account does not make taxes disappear. It changes when tax is paid. By delaying tax, more money may stay invested today, which can increase the amount that compounds over time.",
+              "ru": "Счет с отложенным налогообложением не отменяет налоги. Он меняет момент их уплаты. Если налог откладывается, больше денег может оставаться инвестированным сегодня, что увеличивает сумму, которая растет со временем.",
+              "kk": "A tax-deferred account does not make taxes disappear. It changes when tax is paid. By delaying tax, more money may stay invested today, which can increase the amount that compounds over time."
             },
             "tip": {
-              "en": "Deferred means later, not never."
+              "en": "Deferred means later, not never.",
+              "ru": "Отложенный означает позже, а не никогда.",
+              "kk": "Deferred means later, not never."
             }
           },
           {
@@ -368,10 +637,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "The trade-off"
+              "en": "The trade-off",
+              "ru": "Компромисс",
+              "kk": "The trade-off"
             },
             "body": {
-              "en": "With tax deferral, contributions or growth may avoid current tax, depending on the system. Later withdrawals may be taxed as income. This can help when your tax rate now is higher than your expected rate in retirement."
+              "en": "With tax deferral, contributions or growth may avoid current tax, depending on the system. Later withdrawals may be taxed as income. This can help when your tax rate now is higher than your expected rate in retirement.",
+              "ru": "При отложенном налоге взносы или рост могут не облагаться текущим налогом, в зависимости от системы. Поздние снятия могут облагаться как доход. Это помогает, если ваша налоговая ставка сейчас выше ожидаемой ставки на пенсии.",
+              "kk": "With tax deferral, contributions or growth may avoid current tax, depending on the system. Later withdrawals may be taxed as income. This can help when your tax rate now is higher than your expected rate in retirement."
             }
           },
           {
@@ -379,13 +652,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Why the account balance can look bigger"
+              "en": "Why the account balance can look bigger",
+              "ru": "Почему баланс счета может выглядеть больше",
+              "kk": "Why the account balance can look bigger"
             },
             "body": {
-              "en": "Because tax is delayed, the visible balance may include money that will partly belong to the tax authority later. Comparing a tax-deferred balance with a fully after-tax balance can be misleading. The after-tax value is what funds spending."
+              "en": "Because tax is delayed, the visible balance may include money that will partly belong to the tax authority later. Comparing a tax-deferred balance with a fully after-tax balance can be misleading. The after-tax value is what funds spending.",
+              "ru": "Поскольку налог отложен, видимый баланс может включать деньги, часть которых позже будет принадлежать налоговому органу. Сравнивать отложенный баланс с полностью посленалоговым балансом может быть ошибочно. Расходы финансирует именно сумма после налогов.",
+              "kk": "Because tax is delayed, the visible balance may include money that will partly belong to the tax authority later. Comparing a tax-deferred balance with a fully after-tax balance can be misleading. The after-tax value is what funds spending."
             },
             "example": {
-              "en": "A ₸10,000,000 deferred balance is not the same as ₸10,000,000 spendable cash if future withdrawals are taxable."
+              "en": "A ₸10,000,000 deferred balance is not the same as ₸10,000,000 spendable cash if future withdrawals are taxable.",
+              "ru": "Отложенный баланс ₸10,000,000 — это не то же самое, что ₸10,000,000 доступных денег, если будущие снятия облагаются налогом.",
+              "kk": "A ₸10,000,000 deferred balance is not the same as ₸10,000,000 spendable cash if future withdrawals are taxable."
             }
           },
           {
@@ -393,10 +672,94 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Deferral gives more capital time"
+              "en": "Deferral gives more capital time",
+              "ru": "Отсрочка дает капиталу больше времени",
+              "kk": "Deferral gives more capital time"
             },
             "content": {
               "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Suppose ₸1,000,000 can be invested. In one case tax is paid first; in the other, tax is delayed until withdrawal."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Path",
+                        "Invested today",
+                        "Tax timing",
+                        "Main idea"
+                      ],
+                      [
+                        "After-tax now",
+                        "₸900,000",
+                        "Tax paid before investing",
+                        "Less capital compounds"
+                      ],
+                      [
+                        "Tax-deferred",
+                        "₸1,000,000",
+                        "Tax paid later",
+                        "More capital compounds before withdrawal"
+                      ],
+                      [
+                        "Decision factor",
+                        "Depends",
+                        "Future tax rate matters",
+                        "Timing can help or hurt"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The benefit is strongest when deferral increases compounding and future tax rates are not higher enough to erase it."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Допустим, можно инвестировать ₸1,000,000. В одном случае налог платится сначала; в другом — откладывается до снятия."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Путь",
+                        "Инвестировано сегодня",
+                        "Срок налога",
+                        "Главная идея"
+                      ],
+                      [
+                        "После налога сейчас",
+                        "₸900,000",
+                        "Налог уплачен до инвестирования",
+                        "Меньше капитала растет сложным процентом"
+                      ],
+                      [
+                        "С отложенным налогом",
+                        "₸1,000,000",
+                        "Налог уплачивается позже",
+                        "Больше капитала растет до снятия"
+                      ],
+                      [
+                        "Фактор решения",
+                        "Зависит",
+                        "Важна будущая налоговая ставка",
+                        "Срок может помочь или навредить"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Польза сильнее всего, когда отсрочка усиливает сложный рост, а будущие налоговые ставки не настолько выше, чтобы стереть этот эффект."
+                  }
+                ]
+              },
+              "kk": {
                 "blocks": [
                   {
                     "type": "paragraph",
@@ -444,10 +807,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Spot the tax-deferred idea"
+              "en": "Spot the tax-deferred idea",
+              "ru": "Найдите идею отложенного налога",
+              "kk": "Spot the tax-deferred idea"
             },
             "body": {
-              "en": "Choose the correct interpretation of each tax-deferred situation."
+              "en": "Choose the correct interpretation of each tax-deferred situation.",
+              "ru": "Выберите правильное толкование каждой ситуации с отложенным налогом.",
+              "kk": "Choose the correct interpretation of each tax-deferred situation."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -475,6 +842,56 @@
                     "explanation": "Deferred taxation is delayed taxation, not necessarily zero taxation."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите лучший ярлык для каждого утверждения.",
+                "options": [
+                  "Налог отложен",
+                  "Стоимость после налогов",
+                  "Заблуждение"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Счет позволяет большей сумме оставаться инвестированной сейчас, но снятия позже могут облагаться налогом.",
+                    "correct_answer": "Налог отложен",
+                    "explanation": "Счет меняет срок уплаты налога, а не саму необходимость платить налоги."
+                  },
+                  {
+                    "text": "Человек сравнивает доступные пенсионные деньги после будущих налогов на снятие.",
+                    "correct_answer": "Стоимость после налогов",
+                    "explanation": "Пенсионные расходы зависят от того, что остается после налогов."
+                  },
+                  {
+                    "text": "Отложенный счет означает, что налоги можно игнорировать навсегда.",
+                    "correct_answer": "Заблуждение",
+                    "explanation": "Отложенное налогообложение — это перенесенный налог, а не обязательно нулевой налог."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Select the best label for each statement.",
+                "options": [
+                  "Салық кейінге қалдырылды",
+                  "Салықтан кейінгі құн",
+                  "Қате түсінік"
+                ],
+                "scenarios": [
+                  {
+                    "text": "An account lets more money stay invested now, but withdrawals may be taxable later.",
+                    "correct_answer": "Салық кейінге қалдырылды",
+                    "explanation": "The account changes tax timing, not the basic need to fund taxes."
+                  },
+                  {
+                    "text": "A person compares spendable retirement money after future withdrawal taxes.",
+                    "correct_answer": "Салықтан кейінгі құн",
+                    "explanation": "Retirement spending depends on what remains after tax."
+                  },
+                  {
+                    "text": "A deferred account means taxes can be ignored forever.",
+                    "correct_answer": "Қате түсінік",
+                    "explanation": "Deferred taxation is delayed taxation, not necessarily zero taxation."
+                  }
+                ]
               }
             }
           },
@@ -483,13 +900,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Think in after-tax retirement income"
+              "en": "Think in after-tax retirement income",
+              "ru": "Думайте о пенсионном доходе после налогов",
+              "kk": "Think in after-tax retirement income"
             },
             "body": {
-              "en": "Tax-deferred accounts can be powerful because they let more money work now. But the account balance is not always fully spendable. Good planning asks what the contribution saves today, how the money compounds, and what tax may apply later."
+              "en": "Tax-deferred accounts can be powerful because they let more money work now. But the account balance is not always fully spendable. Good planning asks what the contribution saves today, how the money compounds, and what tax may apply later.",
+              "ru": "Счета с отложенным налогом могут быть сильными, потому что позволяют большей сумме работать сейчас. Но баланс не всегда полностью доступен для трат. Хорошее планирование спрашивает, что взнос экономит сегодня, как деньги растут и какой налог может быть позже.",
+              "kk": "Tax-deferred accounts can be powerful because they let more money work now. But the account balance is not always fully spendable. Good planning asks what the contribution saves today, how the money compounds, and what tax may apply later."
             },
             "tip": {
-              "en": "The useful comparison is after-tax income across time, not headline account size."
+              "en": "The useful comparison is after-tax income across time, not headline account size.",
+              "ru": "Полезное сравнение — это доход после налогов во времени, а не крупный баланс на экране.",
+              "kk": "The useful comparison is after-tax income across time, not headline account size."
             }
           }
         ]
@@ -498,7 +921,9 @@
         "quiz_id": 1902,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Tax-Deferred Accounts — Check"
+          "en": "Tax-Deferred Accounts — Check",
+          "ru": "Tax-Deferred Accounts — Check",
+          "kk": "Tax-Deferred Accounts — Check"
         },
         "questions": [
           {
@@ -506,14 +931,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A person says a tax-deferred account means they will never pay tax on that money. What is the correction?"
+              "en": "A person says a tax-deferred account means they will never pay tax on that money. What is the correction?",
+              "ru": "A person says a tax-deferred account means they will never pay tax on that money. What is the correction?",
+              "kk": "A person says a tax-deferred account means they will never pay tax on that money. What is the correction?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Tax may be delayed until withdrawal rather than eliminated"
+                  "en": "Tax may be delayed until withdrawal rather than eliminated",
+                  "ru": "Tax may be delayed until withdrawal rather than eliminated",
+                  "kk": "Tax may be delayed until withdrawal rather than eliminated"
                 },
                 "is_correct": true
               },
@@ -521,7 +950,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Tax-deferred money cannot be invested"
+                  "en": "Tax-deferred money cannot be invested",
+                  "ru": "Tax-deferred money cannot be invested",
+                  "kk": "Tax-deferred money cannot be invested"
                 },
                 "is_correct": false
               },
@@ -529,7 +960,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Tax-deferred accounts always lose money"
+                  "en": "Tax-deferred accounts always lose money",
+                  "ru": "Tax-deferred accounts always lose money",
+                  "kk": "Tax-deferred accounts always lose money"
                 },
                 "is_correct": false
               },
@@ -537,7 +970,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Tax is paid twice immediately"
+                  "en": "Tax is paid twice immediately",
+                  "ru": "Tax is paid twice immediately",
+                  "kk": "Tax is paid twice immediately"
                 },
                 "is_correct": false
               }
@@ -548,14 +983,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why can tax deferral help compounding?"
+              "en": "Why can tax deferral help compounding?",
+              "ru": "Why can tax deferral help compounding?",
+              "kk": "Why can tax deferral help compounding?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "More money may remain invested before tax is paid later"
+                  "en": "More money may remain invested before tax is paid later",
+                  "ru": "More money may remain invested before tax is paid later",
+                  "kk": "More money may remain invested before tax is paid later"
                 },
                 "is_correct": true
               },
@@ -563,7 +1002,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The investment return becomes guaranteed"
+                  "en": "The investment return becomes guaranteed",
+                  "ru": "The investment return becomes guaranteed",
+                  "kk": "The investment return becomes guaranteed"
                 },
                 "is_correct": false
               },
@@ -571,7 +1012,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The account removes all fees"
+                  "en": "The account removes all fees",
+                  "ru": "The account removes all fees",
+                  "kk": "The account removes all fees"
                 },
                 "is_correct": false
               },
@@ -579,7 +1022,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The future tax rate is always zero"
+                  "en": "The future tax rate is always zero",
+                  "ru": "The future tax rate is always zero",
+                  "kk": "The future tax rate is always zero"
                 },
                 "is_correct": false
               }
@@ -590,14 +1035,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why can a tax-deferred balance overstate spendable wealth?"
+              "en": "Why can a tax-deferred balance overstate spendable wealth?",
+              "ru": "Why can a tax-deferred balance overstate spendable wealth?",
+              "kk": "Why can a tax-deferred balance overstate spendable wealth?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Some of the balance may be owed as tax when withdrawn"
+                  "en": "Some of the balance may be owed as tax when withdrawn",
+                  "ru": "Some of the balance may be owed as tax when withdrawn",
+                  "kk": "Some of the balance may be owed as tax when withdrawn"
                 },
                 "is_correct": true
               },
@@ -605,7 +1054,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The balance is always fake"
+                  "en": "The balance is always fake",
+                  "ru": "The balance is always fake",
+                  "kk": "The balance is always fake"
                 },
                 "is_correct": false
               },
@@ -613,7 +1064,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The account cannot hold real assets"
+                  "en": "The account cannot hold real assets",
+                  "ru": "The account cannot hold real assets",
+                  "kk": "The account cannot hold real assets"
                 },
                 "is_correct": false
               },
@@ -621,7 +1074,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Deferred accounts cannot be used in retirement"
+                  "en": "Deferred accounts cannot be used in retirement",
+                  "ru": "Deferred accounts cannot be used in retirement",
+                  "kk": "Deferred accounts cannot be used in retirement"
                 },
                 "is_correct": false
               }
@@ -633,10 +1088,14 @@
     {
       "code": "tax_free_accounts",
       "title": {
-        "en": "Tax-Free Accounts"
+        "en": "Tax-Free Accounts",
+        "ru": "Безналоговые счета",
+        "kk": "Салықсыз шоттар"
       },
       "description": {
-        "en": "Tax-free accounts usually use after-tax contributions but allow qualified growth or withdrawals to avoid later tax."
+        "en": "Tax-free accounts usually use after-tax contributions but allow qualified growth or withdrawals to avoid later tax.",
+        "ru": "Безналоговые счета обычно используют взносы после налогов, но позволяют квалифицированному росту или снятиям избежать налога позже.",
+        "kk": "Tax-free accounts usually use after-tax contributions but allow qualified growth or withdrawals to avoid later tax."
       },
       "estimatedMinutes": 6,
       "orderIndex": 2,
@@ -648,10 +1107,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Pay now to avoid tax later"
+              "en": "Pay now to avoid tax later",
+              "ru": "Заплатить сейчас, чтобы избежать налога позже",
+              "kk": "Pay now to avoid tax later"
             },
             "body": {
-              "en": "A tax-free account usually works in the opposite direction from tax deferral. You contribute money after tax, then qualified growth or withdrawals may avoid tax later. The appeal is certainty over future spendable value."
+              "en": "A tax-free account usually works in the opposite direction from tax deferral. You contribute money after tax, then qualified growth or withdrawals may avoid tax later. The appeal is certainty over future spendable value.",
+              "ru": "Безналоговый счет обычно работает противоположно отсрочке налога. Вы вносите деньги после налогов, а затем квалифицированный рост или снятия могут не облагаться налогом позже. Его привлекательность — в уверенности относительно будущей доступной суммы.",
+              "kk": "A tax-free account usually works in the opposite direction from tax deferral. You contribute money after tax, then qualified growth or withdrawals may avoid tax later. The appeal is certainty over future spendable value."
             }
           },
           {
@@ -659,13 +1122,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "The benefit depends on future growth"
+              "en": "The benefit depends on future growth",
+              "ru": "Польза зависит от будущего роста",
+              "kk": "The benefit depends on future growth"
             },
             "body": {
-              "en": "The longer money grows, the more valuable tax-free treatment can become. Paying tax before investing may feel painful, but if the account later grows for decades, avoiding tax on growth can matter a lot. Time magnifies the difference."
+              "en": "The longer money grows, the more valuable tax-free treatment can become. Paying tax before investing may feel painful, but if the account later grows for decades, avoiding tax on growth can matter a lot. Time magnifies the difference.",
+              "ru": "Чем дольше растут деньги, тем ценнее может быть безналоговый режим. Платить налог до инвестирования может быть неприятно, но если счет потом растет десятилетиями, освобождение роста от налога может сильно повлиять. Время усиливает разницу.",
+              "kk": "The longer money grows, the more valuable tax-free treatment can become. Paying tax before investing may feel painful, but if the account later grows for decades, avoiding tax on growth can matter a lot. Time magnifies the difference."
             },
             "tip": {
-              "en": "Tax-free growth is most valuable when growth has enough time to become large."
+              "en": "Tax-free growth is most valuable when growth has enough time to become large.",
+              "ru": "Безналоговый рост наиболее ценен, когда у роста достаточно времени стать большим.",
+              "kk": "Tax-free growth is most valuable when growth has enough time to become large."
             }
           },
           {
@@ -673,10 +1142,14 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Tax-free does not mean rule-free"
+              "en": "Tax-free does not mean rule-free",
+              "ru": "Безналоговый не означает без правил",
+              "kk": "Tax-free does not mean rule-free"
             },
             "body": {
-              "en": "Tax-free treatment usually depends on meeting account rules, contribution limits, eligible investments, or withdrawal conditions. Breaking rules can create taxes or penalties. The tax benefit is part of a system, not a blank permission slip."
+              "en": "Tax-free treatment usually depends on meeting account rules, contribution limits, eligible investments, or withdrawal conditions. Breaking rules can create taxes or penalties. The tax benefit is part of a system, not a blank permission slip.",
+              "ru": "Безналоговый режим обычно зависит от соблюдения правил счета, лимитов взносов, допустимых инвестиций или условий снятия. Нарушение правил может привести к налогам или штрафам. Налоговая льгота — часть системы, а не пустое разрешение.",
+              "kk": "Tax-free treatment usually depends on meeting account rules, contribution limits, eligible investments, or withdrawal conditions. Breaking rules can create taxes or penalties. The tax benefit is part of a system, not a blank permission slip."
             }
           },
           {
@@ -684,10 +1157,94 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Why future tax-free growth matters"
+              "en": "Why future tax-free growth matters",
+              "ru": "Почему важен будущий безналоговый рост",
+              "kk": "Why future tax-free growth matters"
             },
             "content": {
               "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A person invests ₸1,000,000 after tax. If it doubles over time, the tax treatment of the growth changes the spendable result."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Account treatment",
+                        "Starting amount",
+                        "Future value",
+                        "Tax issue"
+                      ],
+                      [
+                        "Regular taxable account",
+                        "₸1,000,000",
+                        "₸2,000,000",
+                        "Growth may be taxable"
+                      ],
+                      [
+                        "Tax-free account",
+                        "₸1,000,000",
+                        "₸2,000,000",
+                        "Qualified growth may be tax-free"
+                      ],
+                      [
+                        "Main advantage",
+                        "Same contribution",
+                        "More spendable growth",
+                        "If rules are followed"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The account is valuable not because the starting money is larger, but because future growth may be cleaner to spend."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "Человек инвестирует ₸1,000,000 после налогов. Если сумма со временем удвоится, налоговый режим роста изменит доступный результат."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Режим счета",
+                        "Начальная сумма",
+                        "Будущая стоимость",
+                        "Налоговый вопрос"
+                      ],
+                      [
+                        "Обычный налогооблагаемый счет",
+                        "₸1,000,000",
+                        "₸2,000,000",
+                        "Рост может облагаться налогом"
+                      ],
+                      [
+                        "Безналоговый счет",
+                        "₸1,000,000",
+                        "₸2,000,000",
+                        "Квалифицированный рост может быть безналоговым"
+                      ],
+                      [
+                        "Главное преимущество",
+                        "Тот же взнос",
+                        "Больше доступного роста",
+                        "Если правила соблюдены"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "Счет ценен не потому, что начальная сумма больше, а потому что будущий рост может быть чище для трат."
+                  }
+                ]
+              },
+              "kk": {
                 "blocks": [
                   {
                     "type": "paragraph",
@@ -735,10 +1292,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Tax-free or not?"
+              "en": "Tax-free or not?",
+              "ru": "Без налога или нет?",
+              "kk": "Tax-free or not?"
             },
             "body": {
-              "en": "Label each statement by the tax-free account concept it represents."
+              "en": "Label each statement by the tax-free account concept it represents.",
+              "ru": "Пометьте каждое утверждение понятием безналогового счета, которое оно отражает.",
+              "kk": "Label each statement by the tax-free account concept it represents."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -766,6 +1327,56 @@
                     "explanation": "The benefit depends on following account rules."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Choose the best label for each scenario.",
+                "options": [
+                  "Взнос после налогов",
+                  "Безналоговый рост",
+                  "Условие правил"
+                ],
+                "scenarios": [
+                  {
+                    "text": "Инвестор вносит деньги, с которых налог уже уплачен.",
+                    "correct_answer": "Взнос после налогов",
+                    "explanation": "Безналоговые счета часто начинаются с денег после налогов."
+                  },
+                  {
+                    "text": "Инвестиционная прибыль может сниматься без налога, если соблюдены правила счета.",
+                    "correct_answer": "Безналоговый рост",
+                    "explanation": "Главная польза часто в том, чтобы избежать налога на квалифицированный рост или снятия."
+                  },
+                  {
+                    "text": "Ранние или недопустимые снятия могут лишиться особого режима.",
+                    "correct_answer": "Условие правил",
+                    "explanation": "Польза зависит от соблюдения правил счета."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Choose the best label for each scenario.",
+                "options": [
+                  "Салықтан кейінгі жарна",
+                  "Салықсыз өсім",
+                  "Ереже шарты"
+                ],
+                "scenarios": [
+                  {
+                    "text": "The investor contributes money that has already been taxed.",
+                    "correct_answer": "Салықтан кейінгі жарна",
+                    "explanation": "Tax-free accounts often start with after-tax money."
+                  },
+                  {
+                    "text": "Investment gains can be withdrawn without tax if account rules are met.",
+                    "correct_answer": "Салықсыз өсім",
+                    "explanation": "The main benefit is often avoiding tax on qualified growth or withdrawals."
+                  },
+                  {
+                    "text": "Early or ineligible withdrawals may lose the special treatment.",
+                    "correct_answer": "Ереже шарты",
+                    "explanation": "The benefit depends on following account rules."
+                  }
+                ]
               }
             }
           },
@@ -774,13 +1385,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Tax-free favors long horizons"
+              "en": "Tax-free favors long horizons",
+              "ru": "Безналоговый режим выгоден при длинном горизонте",
+              "kk": "Tax-free favors long horizons"
             },
             "body": {
-              "en": "Tax-free accounts can be powerful when after-tax money grows for many years and later withdrawals meet the rules. The decision depends on today's tax cost, expected growth, future tax rates, and rule flexibility. The benefit is future spendable certainty."
+              "en": "Tax-free accounts can be powerful when after-tax money grows for many years and later withdrawals meet the rules. The decision depends on today's tax cost, expected growth, future tax rates, and rule flexibility. The benefit is future spendable certainty.",
+              "ru": "Безналоговые счета могут быть сильными, когда деньги после налогов растут много лет, а будущие снятия соответствуют правилам. Решение зависит от сегодняшней налоговой цены, ожидаемого роста, будущих ставок и гибкости правил. Польза — в будущей уверенности доступных средств.",
+              "kk": "Tax-free accounts can be powerful when after-tax money grows for many years and later withdrawals meet the rules. The decision depends on today's tax cost, expected growth, future tax rates, and rule flexibility. The benefit is future spendable certainty."
             },
             "tip": {
-              "en": "Tax-free treatment is most useful when the growth, not just the contribution, becomes large."
+              "en": "Tax-free treatment is most useful when the growth, not just the contribution, becomes large.",
+              "ru": "Безналоговый режим наиболее полезен, когда большим становится рост, а не только взнос.",
+              "kk": "Tax-free treatment is most useful when the growth, not just the contribution, becomes large."
             }
           }
         ]
@@ -789,7 +1406,9 @@
         "quiz_id": 1903,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Tax-Free Accounts — Check"
+          "en": "Tax-Free Accounts — Check",
+          "ru": "Tax-Free Accounts — Check",
+          "kk": "Tax-Free Accounts — Check"
         },
         "questions": [
           {
@@ -797,14 +1416,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why might a young investor value tax-free growth highly?"
+              "en": "Why might a young investor value tax-free growth highly?",
+              "ru": "Why might a young investor value tax-free growth highly?",
+              "kk": "Why might a young investor value tax-free growth highly?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Long time horizons can make future growth large, and qualified tax-free treatment protects that growth"
+                  "en": "Long time horizons can make future growth large, and qualified tax-free treatment protects that growth",
+                  "ru": "Long time horizons can make future growth large, and qualified tax-free treatment protects that growth",
+                  "kk": "Long time horizons can make future growth large, and qualified tax-free treatment protects that growth"
                 },
                 "is_correct": true
               },
@@ -812,7 +1435,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Young investors never pay tax on income"
+                  "en": "Young investors never pay tax on income",
+                  "ru": "Young investors never pay tax on income",
+                  "kk": "Young investors never pay tax on income"
                 },
                 "is_correct": false
               },
@@ -820,7 +1445,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Tax-free accounts guarantee high returns"
+                  "en": "Tax-free accounts guarantee high returns",
+                  "ru": "Tax-free accounts guarantee high returns",
+                  "kk": "Tax-free accounts guarantee high returns"
                 },
                 "is_correct": false
               },
@@ -828,7 +1455,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Tax-free accounts remove all contribution limits"
+                  "en": "Tax-free accounts remove all contribution limits",
+                  "ru": "Tax-free accounts remove all contribution limits",
+                  "kk": "Tax-free accounts remove all contribution limits"
                 },
                 "is_correct": false
               }
@@ -839,14 +1468,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What is a common trade-off of tax-free account design?"
+              "en": "What is a common trade-off of tax-free account design?",
+              "ru": "What is a common trade-off of tax-free account design?",
+              "kk": "What is a common trade-off of tax-free account design?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "You may contribute after-tax money now to reduce tax on qualified growth or withdrawals later"
+                  "en": "You may contribute after-tax money now to reduce tax on qualified growth or withdrawals later",
+                  "ru": "You may contribute after-tax money now to reduce tax on qualified growth or withdrawals later",
+                  "kk": "You may contribute after-tax money now to reduce tax on qualified growth or withdrawals later"
                 },
                 "is_correct": true
               },
@@ -854,7 +1487,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "You borrow from the account without repayment forever"
+                  "en": "You borrow from the account without repayment forever",
+                  "ru": "You borrow from the account without repayment forever",
+                  "kk": "You borrow from the account without repayment forever"
                 },
                 "is_correct": false
               },
@@ -862,7 +1497,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "You avoid all rules and limits"
+                  "en": "You avoid all rules and limits",
+                  "ru": "You avoid all rules and limits",
+                  "kk": "You avoid all rules and limits"
                 },
                 "is_correct": false
               },
@@ -870,7 +1507,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "You receive a guaranteed employer match in every case"
+                  "en": "You receive a guaranteed employer match in every case",
+                  "ru": "You receive a guaranteed employer match in every case",
+                  "kk": "You receive a guaranteed employer match in every case"
                 },
                 "is_correct": false
               }
@@ -881,14 +1520,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why should rules matter when using a tax-free account?"
+              "en": "Why should rules matter when using a tax-free account?",
+              "ru": "Why should rules matter when using a tax-free account?",
+              "kk": "Why should rules matter when using a tax-free account?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Breaking withdrawal or eligibility rules can reduce or remove the tax benefit"
+                  "en": "Breaking withdrawal or eligibility rules can reduce or remove the tax benefit",
+                  "ru": "Breaking withdrawal or eligibility rules can reduce or remove the tax benefit",
+                  "kk": "Breaking withdrawal or eligibility rules can reduce or remove the tax benefit"
                 },
                 "is_correct": true
               },
@@ -896,7 +1539,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Rules only apply to taxable accounts"
+                  "en": "Rules only apply to taxable accounts",
+                  "ru": "Rules only apply to taxable accounts",
+                  "kk": "Rules only apply to taxable accounts"
                 },
                 "is_correct": false
               },
@@ -904,7 +1549,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Tax-free accounts cannot hold investments"
+                  "en": "Tax-free accounts cannot hold investments",
+                  "ru": "Tax-free accounts cannot hold investments",
+                  "kk": "Tax-free accounts cannot hold investments"
                 },
                 "is_correct": false
               },
@@ -912,7 +1559,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Rules guarantee the investment will not fall"
+                  "en": "Rules guarantee the investment will not fall",
+                  "ru": "Rules guarantee the investment will not fall",
+                  "kk": "Rules guarantee the investment will not fall"
                 },
                 "is_correct": false
               }
@@ -924,10 +1573,14 @@
     {
       "code": "employer_matching",
       "title": {
-        "en": "Employer Matching"
+        "en": "Employer Matching",
+        "ru": "Софинансирование работодателя",
+        "kk": "Жұмыс берушінің қосымша жарнасы"
       },
       "description": {
-        "en": "Employer matching turns part of your contribution into extra compensation, but only if you contribute enough and follow the plan rules."
+        "en": "Employer matching turns part of your contribution into extra compensation, but only if you contribute enough and follow the plan rules.",
+        "ru": "Софинансирование работодателя превращает часть вашего взноса в дополнительную компенсацию, но только если вы вносите достаточно и соблюдаете правила плана.",
+        "kk": "Employer matching turns part of your contribution into extra compensation, but only if you contribute enough and follow the plan rules."
       },
       "estimatedMinutes": 5,
       "orderIndex": 3,
@@ -939,13 +1592,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "A match is part of pay"
+              "en": "A match is part of pay",
+              "ru": "Софинансирование — часть оплаты труда",
+              "kk": "A match is part of pay"
             },
             "body": {
-              "en": "Employer matching means the employer adds money to your retirement account when you contribute. It is not a market return; it is compensation tied to a saving behavior. Ignoring a match can mean leaving part of pay unused."
+              "en": "Employer matching means the employer adds money to your retirement account when you contribute. It is not a market return; it is compensation tied to a saving behavior. Ignoring a match can mean leaving part of pay unused.",
+              "ru": "Софинансирование означает, что работодатель добавляет деньги на ваш пенсионный счет, когда вы делаете взнос. Это не рыночная доходность, а компенсация, связанная с поведением накопления. Игнорировать match — значит оставить часть оплаты неиспользованной.",
+              "kk": "Employer matching means the employer adds money to your retirement account when you contribute. It is not a market return; it is compensation tied to a saving behavior. Ignoring a match can mean leaving part of pay unused."
             },
             "tip": {
-              "en": "Treat a reliable match as salary that requires an action to unlock."
+              "en": "Treat a reliable match as salary that requires an action to unlock.",
+              "ru": "Относитесь к надежному match как к зарплате, которую нужно разблокировать действием.",
+              "kk": "Treat a reliable match as salary that requires an action to unlock."
             }
           },
           {
@@ -953,10 +1612,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "The formula matters"
+              "en": "The formula matters",
+              "ru": "Формула имеет значение",
+              "kk": "The formula matters"
             },
             "body": {
-              "en": "A match might be 50% of your contribution up to a limit, or 100% up to a smaller limit. The value depends on salary, contribution rate, cap, and vesting rules. You need the formula to know the real benefit."
+              "en": "A match might be 50% of your contribution up to a limit, or 100% up to a smaller limit. The value depends on salary, contribution rate, cap, and vesting rules. You need the formula to know the real benefit.",
+              "ru": "A match might be 50% of your contribution up to a limit, or 100% up to a smaller limit. The value depends on salary, contribution rate, cap, and vesting rules. You need the formula to know the real benefit.",
+              "kk": "A match might be 50% of your contribution up to a limit, or 100% up to a smaller limit. The value depends on salary, contribution rate, cap, and vesting rules. You need the formula to know the real benefit."
             }
           },
           {
@@ -964,13 +1627,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Vesting changes ownership timing"
+              "en": "Vesting changes ownership timing",
+              "ru": "Вестинг меняет момент владения",
+              "kk": "Vesting changes ownership timing"
             },
             "body": {
-              "en": "Some plans require you to stay employed for a period before employer contributions fully belong to you. This is called vesting. A match can be valuable, but leaving before vesting may reduce what you keep."
+              "en": "Some plans require you to stay employed for a period before employer contributions fully belong to you. This is called vesting. A match can be valuable, but leaving before vesting may reduce what you keep.",
+              "ru": "Some plans require you to stay employed for a period before employer contributions fully belong to you. This is called vesting. A match can be valuable, but leaving before vesting may reduce what you keep.",
+              "kk": "Some plans require you to stay employed for a period before employer contributions fully belong to you. This is called vesting. A match can be valuable, but leaving before vesting may reduce what you keep."
             },
             "example": {
-              "en": "If ₸300,000 of employer match vests after two years, leaving after six months may mean keeping less or none of that match, depending on rules."
+              "en": "If ₸300,000 of employer match vests after two years, leaving after six months may mean keeping less or none of that match, depending on rules.",
+              "ru": "If ₸300,000 of employer match vests after two years, leaving after six months may mean keeping less or none of that match, depending on rules.",
+              "kk": "If ₸300,000 of employer match vests after two years, leaving after six months may mean keeping less or none of that match, depending on rules."
             }
           },
           {
@@ -978,10 +1647,106 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "How the match boosts saving"
+              "en": "How the match boosts saving",
+              "ru": "Как match усиливает накопления",
+              "kk": "How the match boosts saving"
             },
             "content": {
               "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An employee earns ₸500,000 monthly. The employer matches 50% of the employee contribution up to 6% of salary."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Employee contribution",
+                        "Employee amount",
+                        "Employer match",
+                        "Total added"
+                      ],
+                      [
+                        "3% of salary",
+                        "₸15,000",
+                        "₸7,500",
+                        "₸22,500"
+                      ],
+                      [
+                        "6% of salary",
+                        "₸30,000",
+                        "₸15,000",
+                        "₸45,000"
+                      ],
+                      [
+                        "10% of salary",
+                        "₸50,000",
+                        "₸15,000",
+                        "₸65,000"
+                      ],
+                      [
+                        "Key point",
+                        "More saving helps",
+                        "Match capped at 6%",
+                        "Formula sets limit"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The match is strongest up to the cap. Contributions above the cap may still be useful, but they do not unlock more employer money."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "An employee earns ₸500,000 monthly. The employer matches 50% of the employee contribution up to 6% of salary."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Взнос работника",
+                        "Сумма работника",
+                        "Match работодателя",
+                        "Всего добавлено"
+                      ],
+                      [
+                        "3% от зарплаты",
+                        "₸15,000",
+                        "₸7,500",
+                        "₸22,500"
+                      ],
+                      [
+                        "6% от зарплаты",
+                        "₸30,000",
+                        "₸15,000",
+                        "₸45,000"
+                      ],
+                      [
+                        "10% от зарплаты",
+                        "₸50,000",
+                        "₸15,000",
+                        "₸65,000"
+                      ],
+                      [
+                        "Ключевая мысль",
+                        "Больше накоплений помогает",
+                        "Match ограничен 6%",
+                        "Формула задает лимит"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The match is strongest up to the cap. Contributions above the cap may still be useful, but they do not unlock more employer money."
+                  }
+                ]
+              },
+              "kk": {
                 "blocks": [
                   {
                     "type": "paragraph",
@@ -1035,10 +1800,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Allocate to unlock the match"
+              "en": "Allocate to unlock the match",
+              "ru": "Распределите деньги, чтобы получить match",
+              "kk": "Allocate to unlock the match"
             },
             "body": {
-              "en": "Use a salary of ₸500,000. Split the monthly income so retirement contribution is at least ₸30,000 to capture the full match in this example."
+              "en": "Use a salary of ₸500,000. Split the monthly income so retirement contribution is at least ₸30,000 to capture the full match in this example.",
+              "ru": "Use a salary of ₸500,000. Split the monthly income so retirement contribution is at least ₸30,000 to capture the full match in this example.",
+              "kk": "Use a salary of ₸500,000. Split the monthly income so retirement contribution is at least ₸30,000 to capture the full match in this example."
             },
             "interactiveType": "input_numbers",
             "interactiveContent": {
@@ -1067,6 +1836,58 @@
                   "other_saving": "80000"
                 },
                 "explanation": "In this match formula, ₸30,000 is the contribution that reaches 6% of salary. Less than that leaves some employer match unused."
+              },
+              "ru": {
+                "instruction": "Distribute ₸500,000 across spending, retirement contribution, and other saving. The total must equal ₸500,000.",
+                "fields": [
+                  {
+                    "id": "spending",
+                    "label": "Текущие расходы"
+                  },
+                  {
+                    "id": "retirement",
+                    "label": "Пенсионный взнос"
+                  },
+                  {
+                    "id": "other_saving",
+                    "label": "Другие накопления или цели"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 500000
+                },
+                "exampleAnswer": {
+                  "spending": "390000",
+                  "retirement": "30000",
+                  "other_saving": "80000"
+                },
+                "explanation": "In this match formula, ₸30,000 is the contribution that reaches 6% of salary. Less than that leaves some employer match unused."
+              },
+              "kk": {
+                "instruction": "Distribute ₸500,000 across spending, retirement contribution, and other saving. The total must equal ₸500,000.",
+                "fields": [
+                  {
+                    "id": "spending",
+                    "label": "Қазіргі шығындар"
+                  },
+                  {
+                    "id": "retirement",
+                    "label": "Зейнетақы жарнасы"
+                  },
+                  {
+                    "id": "other_saving",
+                    "label": "Басқа жинақтар немесе мақсаттар"
+                  }
+                ],
+                "validation": {
+                  "sumMustEqual": 500000
+                },
+                "exampleAnswer": {
+                  "spending": "390000",
+                  "retirement": "30000",
+                  "other_saving": "80000"
+                },
+                "explanation": "In this match formula, ₸30,000 is the contribution that reaches 6% of salary. Less than that leaves some employer match unused."
               }
             }
           },
@@ -1075,13 +1896,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Get the match deliberately"
+              "en": "Get the match deliberately",
+              "ru": "Получайте match осознанно",
+              "kk": "Get the match deliberately"
             },
             "body": {
-              "en": "Employer matching can be one of the highest-value parts of a retirement system because it adds money before investment returns even begin. But the details matter: formula, cap, eligibility, and vesting. A good first target is often contributing enough to capture the full reliable match."
+              "en": "Employer matching can be one of the highest-value parts of a retirement system because it adds money before investment returns even begin. But the details matter: formula, cap, eligibility, and vesting. A good first target is often contributing enough to capture the full reliable match.",
+              "ru": "Employer matching can be one of the highest-value parts of a retirement system because it adds money before investment returns even begin. But the details matter: formula, cap, eligibility, and vesting. A good first target is often contributing enough to capture the full reliable match.",
+              "kk": "Employer matching can be one of the highest-value parts of a retirement system because it adds money before investment returns even begin. But the details matter: formula, cap, eligibility, and vesting. A good first target is often contributing enough to capture the full reliable match."
             },
             "tip": {
-              "en": "Match first, then optimize the rest of the plan."
+              "en": "Match first, then optimize the rest of the plan.",
+              "ru": "Сначала match, затем оптимизируйте остальной план.",
+              "kk": "Match first, then optimize the rest of the plan."
             }
           }
         ]
@@ -1090,7 +1917,9 @@
         "quiz_id": 1904,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Employer Matching — Check"
+          "en": "Employer Matching — Check",
+          "ru": "Employer Matching — Check",
+          "kk": "Employer Matching — Check"
         },
         "questions": [
           {
@@ -1098,14 +1927,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "An employer matches 50% of contributions up to 6% of salary. An employee contributes only 2%. What is the issue?"
+              "en": "An employer matches 50% of contributions up to 6% of salary. An employee contributes only 2%. What is the issue?",
+              "ru": "An employer matches 50% of contributions up to 6% of salary. An employee contributes only 2%. What is the issue?",
+              "kk": "An employer matches 50% of contributions up to 6% of salary. An employee contributes only 2%. What is the issue?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They may be leaving some available employer compensation unused"
+                  "en": "They may be leaving some available employer compensation unused",
+                  "ru": "They may be leaving some available employer compensation unused",
+                  "kk": "They may be leaving some available employer compensation unused"
                 },
                 "is_correct": true
               },
@@ -1113,7 +1946,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They automatically receive the full match anyway"
+                  "en": "They automatically receive the full match anyway",
+                  "ru": "They automatically receive the full match anyway",
+                  "kk": "They automatically receive the full match anyway"
                 },
                 "is_correct": false
               },
@@ -1121,7 +1956,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "The match makes investment risk disappear"
+                  "en": "The match makes investment risk disappear",
+                  "ru": "The match makes investment risk disappear",
+                  "kk": "The match makes investment risk disappear"
                 },
                 "is_correct": false
               },
@@ -1129,7 +1966,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "The employer contribution replaces the need to save"
+                  "en": "The employer contribution replaces the need to save",
+                  "ru": "The employer contribution replaces the need to save",
+                  "kk": "The employer contribution replaces the need to save"
                 },
                 "is_correct": false
               }
@@ -1140,14 +1979,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why does vesting matter?"
+              "en": "Why does vesting matter?",
+              "ru": "Why does vesting matter?",
+              "kk": "Why does vesting matter?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It determines when employer contributions fully belong to the employee"
+                  "en": "It determines when employer contributions fully belong to the employee",
+                  "ru": "It determines when employer contributions fully belong to the employee",
+                  "kk": "It determines when employer contributions fully belong to the employee"
                 },
                 "is_correct": true
               },
@@ -1155,7 +1998,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It changes the stock market return every day"
+                  "en": "It changes the stock market return every day",
+                  "ru": "It changes the stock market return every day",
+                  "kk": "It changes the stock market return every day"
                 },
                 "is_correct": false
               },
@@ -1163,7 +2008,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It removes contribution limits"
+                  "en": "It removes contribution limits",
+                  "ru": "It removes contribution limits",
+                  "kk": "It removes contribution limits"
                 },
                 "is_correct": false
               },
@@ -1171,7 +2018,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It guarantees the employee will never change jobs"
+                  "en": "It guarantees the employee will never change jobs",
+                  "ru": "It guarantees the employee will never change jobs",
+                  "kk": "It guarantees the employee will never change jobs"
                 },
                 "is_correct": false
               }
@@ -1182,14 +2031,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "What should you calculate to understand a match?"
+              "en": "What should you calculate to understand a match?",
+              "ru": "What should you calculate to understand a match?",
+              "kk": "What should you calculate to understand a match?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Salary, contribution rate, match formula, cap, and vesting rules"
+                  "en": "Salary, contribution rate, match formula, cap, and vesting rules",
+                  "ru": "Salary, contribution rate, match formula, cap, and vesting rules",
+                  "kk": "Salary, contribution rate, match formula, cap, and vesting rules"
                 },
                 "is_correct": true
               },
@@ -1197,7 +2050,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Only the fund's logo"
+                  "en": "Only the fund's logo",
+                  "ru": "Only the fund's logo",
+                  "kk": "Only the fund's logo"
                 },
                 "is_correct": false
               },
@@ -1205,7 +2060,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Only last year's market return"
+                  "en": "Only last year's market return",
+                  "ru": "Only last year's market return",
+                  "kk": "Only last year's market return"
                 },
                 "is_correct": false
               },
@@ -1213,7 +2070,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Only the employee's age"
+                  "en": "Only the employee's age",
+                  "ru": "Only the employee's age",
+                  "kk": "Only the employee's age"
                 },
                 "is_correct": false
               }
@@ -1225,10 +2084,14 @@
     {
       "code": "contribution_strategy",
       "title": {
-        "en": "Contribution Strategy"
+        "en": "Contribution Strategy",
+        "ru": "Стратегия взносов",
+        "kk": "Жарна стратегиясы"
       },
       "description": {
-        "en": "A contribution strategy balances match capture, emergency reserves, debt, tax treatment, automation, and gradual increases."
+        "en": "A contribution strategy balances match capture, emergency reserves, debt, tax treatment, automation, and gradual increases.",
+        "ru": "Стратегия взносов балансирует получение match, резерв, долги, налоговый режим, автоматизацию и постепенные увеличения.",
+        "kk": "A contribution strategy balances match capture, emergency reserves, debt, tax treatment, automation, and gradual increases."
       },
       "estimatedMinutes": 6,
       "orderIndex": 4,
@@ -1240,10 +2103,14 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Contribution order matters"
+              "en": "Contribution order matters",
+              "ru": "Порядок взносов важен",
+              "kk": "Contribution order matters"
             },
             "body": {
-              "en": "Retirement saving competes with rent, debt, emergencies, and short-term goals. A contribution strategy decides what gets funded first and why. The goal is not the maximum contribution immediately, but a sustainable rule that survives real life."
+              "en": "Retirement saving competes with rent, debt, emergencies, and short-term goals. A contribution strategy decides what gets funded first and why. The goal is not the maximum contribution immediately, but a sustainable rule that survives real life.",
+              "ru": "Retirement saving competes with rent, debt, emergencies, and short-term goals. A contribution strategy decides what gets funded first and why. The goal is not the maximum contribution immediately, but a sustainable rule that survives real life.",
+              "kk": "Retirement saving competes with rent, debt, emergencies, and short-term goals. A contribution strategy decides what gets funded first and why. The goal is not the maximum contribution immediately, but a sustainable rule that survives real life."
             }
           },
           {
@@ -1251,13 +2118,19 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Start with the highest-value steps"
+              "en": "Start with the highest-value steps",
+              "ru": "Начните с самых ценных шагов",
+              "kk": "Start with the highest-value steps"
             },
             "body": {
-              "en": "Many people first build a small emergency buffer, capture any reliable employer match, and avoid high-interest debt traps. After that, they raise contributions gradually. This order protects against needing to withdraw long-term money during a short-term shock."
+              "en": "Many people first build a small emergency buffer, capture any reliable employer match, and avoid high-interest debt traps. After that, they raise contributions gradually. This order protects against needing to withdraw long-term money during a short-term shock.",
+              "ru": "Many people first build a small emergency buffer, capture any reliable employer match, and avoid high-interest debt traps. After that, they raise contributions gradually. This order protects against needing to withdraw long-term money during a short-term shock.",
+              "kk": "Many people first build a small emergency buffer, capture any reliable employer match, and avoid high-interest debt traps. After that, they raise contributions gradually. This order protects against needing to withdraw long-term money during a short-term shock."
             },
             "tip": {
-              "en": "A retirement plan without a cash buffer can be broken by one emergency."
+              "en": "A retirement plan without a cash buffer can be broken by one emergency.",
+              "ru": "Пенсионный план без денежного буфера может сломаться из-за одной чрезвычайной ситуации.",
+              "kk": "A retirement plan without a cash buffer can be broken by one emergency."
             }
           },
           {
@@ -1265,13 +2138,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Automation beats repeated willpower"
+              "en": "Automation beats repeated willpower",
+              "ru": "Автоматизация сильнее постоянной силы воли",
+              "kk": "Automation beats repeated willpower"
             },
             "body": {
-              "en": "Automatic contributions turn saving into a default instead of a monthly debate. Increasing the contribution after raises can also prevent lifestyle creep. The strategy works because it changes the system, not because you feel motivated every month."
+              "en": "Automatic contributions turn saving into a default instead of a monthly debate. Increasing the contribution after raises can also prevent lifestyle creep. The strategy works because it changes the system, not because you feel motivated every month.",
+              "ru": "Automatic contributions turn saving into a default instead of a monthly debate. Increasing the contribution after raises can also prevent lifestyle creep. The strategy works because it changes the system, not because you feel motivated every month.",
+              "kk": "Automatic contributions turn saving into a default instead of a monthly debate. Increasing the contribution after raises can also prevent lifestyle creep. The strategy works because it changes the system, not because you feel motivated every month."
             },
             "example": {
-              "en": "If income rises by ₸50,000, increasing retirement contributions by ₸15,000 still leaves ₸35,000 for current life while raising future income."
+              "en": "If income rises by ₸50,000, increasing retirement contributions by ₸15,000 still leaves ₸35,000 for current life while raising future income.",
+              "ru": "If income rises by ₸50,000, increasing retirement contributions by ₸15,000 still leaves ₸35,000 for current life while raising future income.",
+              "kk": "If income rises by ₸50,000, increasing retirement contributions by ₸15,000 still leaves ₸35,000 for current life while raising future income."
             }
           },
           {
@@ -1279,10 +2158,96 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "A practical contribution ladder"
+              "en": "A practical contribution ladder",
+              "ru": "Практичная лестница взносов",
+              "kk": "A practical contribution ladder"
             },
             "content": {
               "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A worker earns ₸450,000 monthly and wants a sustainable plan. The sequence matters because each step solves a different risk."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Step",
+                        "Action",
+                        "Why it comes here"
+                      ],
+                      [
+                        "1",
+                        "Build ₸300,000 starter emergency buffer",
+                        "Avoids using debt for small shocks"
+                      ],
+                      [
+                        "2",
+                        "Contribute enough for full employer match",
+                        "Captures extra compensation"
+                      ],
+                      [
+                        "3",
+                        "Pay down very high-interest debt",
+                        "Reduces guaranteed financial drag"
+                      ],
+                      [
+                        "4",
+                        "Raise contribution by 1–2% after salary increases",
+                        "Builds retirement saving without sudden pain"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The plan is a sequence, not a single heroic contribution."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A worker earns ₸450,000 monthly and wants a sustainable plan. The sequence matters because each step solves a different risk."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Шаг",
+                        "Действие",
+                        "Почему это здесь"
+                      ],
+                      [
+                        "1",
+                        "Создать стартовый резерв ₸300,000",
+                        "Помогает не брать долг при небольших неожиданностях"
+                      ],
+                      [
+                        "2",
+                        "Вносить достаточно для полного match работодателя",
+                        "Получает дополнительную компенсацию"
+                      ],
+                      [
+                        "3",
+                        "Погасить долг с очень высокой ставкой",
+                        "Снижает гарантированное финансовое давление"
+                      ],
+                      [
+                        "4",
+                        "Повышать взнос на 1–2% после роста зарплаты",
+                        "Увеличивает пенсионные накопления без резкой боли"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "План — это последовательность, а не один героический взнос."
+                  }
+                ]
+              },
+              "kk": {
                 "blocks": [
                   {
                     "type": "paragraph",
@@ -1331,10 +2296,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Pick the next contribution move"
+              "en": "Pick the next contribution move",
+              "ru": "Выберите следующий шаг по взносам",
+              "kk": "Pick the next contribution move"
             },
             "body": {
-              "en": "Choose the best next action for each situation."
+              "en": "Choose the best next action for each situation.",
+              "ru": "Выберите лучшее следующее действие для каждой ситуации.",
+              "kk": "Choose the best next action for each situation."
             },
             "interactiveType": "scenario_selector",
             "interactiveContent": {
@@ -1368,6 +2337,68 @@
                     "explanation": "Raising contributions after income growth reduces lifestyle creep."
                   }
                 ]
+              },
+              "ru": {
+                "instruction": "Выберите самый разумный следующий шаг.",
+                "options": [
+                  "Создать буфер",
+                  "Получить match",
+                  "Снизить долг с высокой ставкой",
+                  "Постепенно увеличить взнос"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A person has no emergency cash and would use a microloan for a sudden ₸80,000 expense.",
+                    "correct_answer": "Создать буфер",
+                    "explanation": "A starter buffer protects the retirement plan from short-term shocks."
+                  },
+                  {
+                    "text": "An employer match is available, but the person contributes below the match cap.",
+                    "correct_answer": "Получить match",
+                    "explanation": "Reliable match is extra compensation tied to contribution behavior."
+                  },
+                  {
+                    "text": "A person pays very high interest on short-term debt while investing small amounts.",
+                    "correct_answer": "Снизить долг с высокой ставкой",
+                    "explanation": "High-interest debt can overwhelm investment progress."
+                  },
+                  {
+                    "text": "A person gets a raise and already has a buffer and no high-interest debt.",
+                    "correct_answer": "Постепенно увеличить взнос",
+                    "explanation": "Raising contributions after income growth reduces lifestyle creep."
+                  }
+                ]
+              },
+              "kk": {
+                "instruction": "Select the most sensible next step.",
+                "options": [
+                  "Буфер құру",
+                  "Қосымша жарнаны алу",
+                  "Жоғары пайызды қарызды азайту",
+                  "Жарнаны біртіндеп арттыру"
+                ],
+                "scenarios": [
+                  {
+                    "text": "A person has no emergency cash and would use a microloan for a sudden ₸80,000 expense.",
+                    "correct_answer": "Буфер құру",
+                    "explanation": "A starter buffer protects the retirement plan from short-term shocks."
+                  },
+                  {
+                    "text": "An employer match is available, but the person contributes below the match cap.",
+                    "correct_answer": "Қосымша жарнаны алу",
+                    "explanation": "Reliable match is extra compensation tied to contribution behavior."
+                  },
+                  {
+                    "text": "A person pays very high interest on short-term debt while investing small amounts.",
+                    "correct_answer": "Жоғары пайызды қарызды азайту",
+                    "explanation": "High-interest debt can overwhelm investment progress."
+                  },
+                  {
+                    "text": "A person gets a raise and already has a buffer and no high-interest debt.",
+                    "correct_answer": "Жарнаны біртіндеп арттыру",
+                    "explanation": "Raising contributions after income growth reduces lifestyle creep."
+                  }
+                ]
               }
             }
           },
@@ -1376,13 +2407,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Make the plan durable"
+              "en": "Make the plan durable",
+              "ru": "Сделайте план устойчивым",
+              "kk": "Make the plan durable"
             },
             "body": {
-              "en": "The best contribution strategy is one you can keep through normal problems. Capture high-value benefits, protect against emergencies, avoid expensive debt, automate contributions, and raise them when income grows. Durability matters more than an impressive first month."
+              "en": "The best contribution strategy is one you can keep through normal problems. Capture high-value benefits, protect against emergencies, avoid expensive debt, automate contributions, and raise them when income grows. Durability matters more than an impressive first month.",
+              "ru": "The best contribution strategy is one you can keep through normal problems. Capture high-value benefits, protect against emergencies, avoid expensive debt, automate contributions, and raise them when income grows. Durability matters more than an impressive first month.",
+              "kk": "The best contribution strategy is one you can keep through normal problems. Capture high-value benefits, protect against emergencies, avoid expensive debt, automate contributions, and raise them when income grows. Durability matters more than an impressive first month."
             },
             "tip": {
-              "en": "A sustainable 8% that continues can beat a painful 20% that stops."
+              "en": "A sustainable 8% that continues can beat a painful 20% that stops.",
+              "ru": "Устойчивые 8%, которые продолжаются, могут победить болезненные 20%, которые прекращаются.",
+              "kk": "A sustainable 8% that continues can beat a painful 20% that stops."
             }
           }
         ]
@@ -1391,7 +2428,9 @@
         "quiz_id": 1905,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "Contribution Strategy — Check"
+          "en": "Contribution Strategy — Check",
+          "ru": "Contribution Strategy — Check",
+          "kk": "Contribution Strategy — Check"
         },
         "questions": [
           {
@@ -1399,14 +2438,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "A person invests for retirement but has no emergency savings and often borrows for small shocks. What is the risk?"
+              "en": "A person invests for retirement but has no emergency savings and often borrows for small shocks. What is the risk?",
+              "ru": "A person invests for retirement but has no emergency savings and often borrows for small shocks. What is the risk?",
+              "kk": "A person invests for retirement but has no emergency savings and often borrows for small shocks. What is the risk?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Short-term emergencies can force expensive debt or retirement withdrawals"
+                  "en": "Short-term emergencies can force expensive debt or retirement withdrawals",
+                  "ru": "Short-term emergencies can force expensive debt or retirement withdrawals",
+                  "kk": "Short-term emergencies can force expensive debt or retirement withdrawals"
                 },
                 "is_correct": true
               },
@@ -1414,7 +2457,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Emergency savings are unnecessary if investing exists"
+                  "en": "Emergency savings are unnecessary if investing exists",
+                  "ru": "Emergency savings are unnecessary if investing exists",
+                  "kk": "Emergency savings are unnecessary if investing exists"
                 },
                 "is_correct": false
               },
@@ -1422,7 +2467,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Borrowing for shocks always improves retirement returns"
+                  "en": "Borrowing for shocks always improves retirement returns",
+                  "ru": "Borrowing for shocks always improves retirement returns",
+                  "kk": "Borrowing for shocks always improves retirement returns"
                 },
                 "is_correct": false
               },
@@ -1430,7 +2477,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Retirement accounts are designed for monthly shopping"
+                  "en": "Retirement accounts are designed for monthly shopping",
+                  "ru": "Retirement accounts are designed for monthly shopping",
+                  "kk": "Retirement accounts are designed for monthly shopping"
                 },
                 "is_correct": false
               }
@@ -1441,14 +2490,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "Why increase retirement contributions after a salary raise?"
+              "en": "Why increase retirement contributions after a salary raise?",
+              "ru": "Why increase retirement contributions after a salary raise?",
+              "kk": "Why increase retirement contributions after a salary raise?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "It raises future saving before the full raise turns into lifestyle spending"
+                  "en": "It raises future saving before the full raise turns into lifestyle spending",
+                  "ru": "It raises future saving before the full raise turns into lifestyle spending",
+                  "kk": "It raises future saving before the full raise turns into lifestyle spending"
                 },
                 "is_correct": true
               },
@@ -1456,7 +2509,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "It makes the raise disappear completely"
+                  "en": "It makes the raise disappear completely",
+                  "ru": "It makes the raise disappear completely",
+                  "kk": "It makes the raise disappear completely"
                 },
                 "is_correct": false
               },
@@ -1464,7 +2519,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "It guarantees a higher market return"
+                  "en": "It guarantees a higher market return",
+                  "ru": "It guarantees a higher market return",
+                  "kk": "It guarantees a higher market return"
                 },
                 "is_correct": false
               },
@@ -1472,7 +2529,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "It removes the need for asset allocation"
+                  "en": "It removes the need for asset allocation",
+                  "ru": "It removes the need for asset allocation",
+                  "kk": "It removes the need for asset allocation"
                 },
                 "is_correct": false
               }
@@ -1483,14 +2542,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Which contribution strategy is most durable?"
+              "en": "Which contribution strategy is most durable?",
+              "ru": "Which contribution strategy is most durable?",
+              "kk": "Which contribution strategy is most durable?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "A realistic automated contribution that captures match and grows over time"
+                  "en": "A realistic automated contribution that captures match and grows over time",
+                  "ru": "A realistic automated contribution that captures match and grows over time",
+                  "kk": "A realistic automated contribution that captures match and grows over time"
                 },
                 "is_correct": true
               },
@@ -1498,7 +2561,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "The highest possible contribution for one month, then stopping"
+                  "en": "The highest possible contribution for one month, then stopping",
+                  "ru": "The highest possible contribution for one month, then stopping",
+                  "kk": "The highest possible contribution for one month, then stopping"
                 },
                 "is_correct": false
               },
@@ -1506,7 +2571,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Skipping emergency savings to look more invested"
+                  "en": "Skipping emergency savings to look more invested",
+                  "ru": "Skipping emergency savings to look more invested",
+                  "kk": "Skipping emergency savings to look more invested"
                 },
                 "is_correct": false
               },
@@ -1514,7 +2581,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Contributing randomly only when markets rise"
+                  "en": "Contributing randomly only when markets rise",
+                  "ru": "Contributing randomly only when markets rise",
+                  "kk": "Contributing randomly only when markets rise"
                 },
                 "is_correct": false
               }
@@ -1526,10 +2595,14 @@
     {
       "code": "kz_pension_system",
       "title": {
-        "en": "KZ Pension System: UAPF + Voluntary"
+        "en": "KZ Pension System: UAPF + Voluntary",
+        "ru": "Пенсионная система РК: ЕНПФ + добровольные взносы",
+        "kk": "ҚР зейнетақы жүйесі: БЖЗҚ + ерікті жарналар"
       },
       "description": {
-        "en": "Kazakhstan's pension system centers on mandatory accumulated pension contributions through UAPF, with voluntary options adding flexibility."
+        "en": "Kazakhstan's pension system centers on mandatory accumulated pension contributions through UAPF, with voluntary options adding flexibility.",
+        "ru": "Пенсионная система Казахстана строится вокруг обязательных накопительных пенсионных взносов через ЕНПФ, а добровольные варианты добавляют гибкость.",
+        "kk": "Kazakhstan's pension system centers on mandatory accumulated pension contributions through UAPF, with voluntary options adding flexibility."
       },
       "estimatedMinutes": 6,
       "orderIndex": 5,
@@ -1541,13 +2614,19 @@
             "order": 1,
             "stepType": "introduction",
             "title": {
-              "en": "Kazakhstan uses an accumulated pension model"
+              "en": "Kazakhstan uses an accumulated pension model",
+              "ru": "Казахстан использует накопительную пенсионную модель",
+              "kk": "Kazakhstan uses an accumulated pension model"
             },
             "body": {
-              "en": "Kazakhstan's pension system includes mandatory accumulated pension contributions handled through the Unified Accumulative Pension Fund, often called UAPF. The basic idea is that part of working income is directed toward future retirement income. Voluntary contributions can add another layer."
+              "en": "Kazakhstan's pension system includes mandatory accumulated pension contributions handled through the Unified Accumulative Pension Fund, often called UAPF. The basic idea is that part of working income is directed toward future retirement income. Voluntary contributions can add another layer.",
+              "ru": "Kazakhstan's pension system includes mandatory accumulated pension contributions handled through the Unified Accumulative Pension Fund, often called UAPF. The basic idea is that part of working income is directed toward future retirement income. Voluntary contributions can add another layer.",
+              "kk": "Kazakhstan's pension system includes mandatory accumulated pension contributions handled through the Unified Accumulative Pension Fund, often called UAPF. The basic idea is that part of working income is directed toward future retirement income. Voluntary contributions can add another layer."
             },
             "tip": {
-              "en": "In Kazakhstan, pension planning is not only personal choice; part of it is built into the income system."
+              "en": "In Kazakhstan, pension planning is not only personal choice; part of it is built into the income system.",
+              "ru": "В Казахстане пенсионное планирование — не только личный выбор; часть его встроена в систему доходов.",
+              "kk": "In Kazakhstan, pension planning is not only personal choice; part of it is built into the income system."
             }
           },
           {
@@ -1555,10 +2634,14 @@
             "order": 2,
             "stepType": "explanation",
             "title": {
-              "en": "Mandatory contributions create a baseline"
+              "en": "Mandatory contributions create a baseline",
+              "ru": "Обязательные взносы создают базу",
+              "kk": "Mandatory contributions create a baseline"
             },
             "body": {
-              "en": "Mandatory pension contributions create a retirement base by moving a portion of income into a dedicated pension account. This reduces the chance that retirement saving is skipped completely. But a baseline is not always the same as a complete retirement plan."
+              "en": "Mandatory pension contributions create a retirement base by moving a portion of income into a dedicated pension account. This reduces the chance that retirement saving is skipped completely. But a baseline is not always the same as a complete retirement plan.",
+              "ru": "Mandatory pension contributions create a retirement base by moving a portion of income into a dedicated pension account. This reduces the chance that retirement saving is skipped completely. But a baseline is not always the same as a complete retirement plan.",
+              "kk": "Mandatory pension contributions create a retirement base by moving a portion of income into a dedicated pension account. This reduces the chance that retirement saving is skipped completely. But a baseline is not always the same as a complete retirement plan."
             }
           },
           {
@@ -1566,13 +2649,19 @@
             "order": 3,
             "stepType": "explanation",
             "title": {
-              "en": "Voluntary contributions add control"
+              "en": "Voluntary contributions add control",
+              "ru": "Добровольные взносы добавляют контроль",
+              "kk": "Voluntary contributions add control"
             },
             "body": {
-              "en": "Voluntary pension contributions can help people increase future retirement income beyond the mandatory level. They may be useful for irregular earners, people with higher retirement goals, or those who started saving late. The key is to understand rules, access, risk, and expected need."
+              "en": "Voluntary pension contributions can help people increase future retirement income beyond the mandatory level. They may be useful for irregular earners, people with higher retirement goals, or those who started saving late. The key is to understand rules, access, risk, and expected need.",
+              "ru": "Voluntary pension contributions can help people increase future retirement income beyond the mandatory level. They may be useful for irregular earners, people with higher retirement goals, or those who started saving late. The key is to understand rules, access, risk, and expected need.",
+              "kk": "Voluntary pension contributions can help people increase future retirement income beyond the mandatory level. They may be useful for irregular earners, people with higher retirement goals, or those who started saving late. The key is to understand rules, access, risk, and expected need."
             },
             "example": {
-              "en": "Adding ₸20,000 monthly voluntarily creates ₸240,000 per year of extra retirement funding before investment results."
+              "en": "Adding ₸20,000 monthly voluntarily creates ₸240,000 per year of extra retirement funding before investment results.",
+              "ru": "Adding ₸20,000 monthly voluntarily creates ₸240,000 per year of extra retirement funding before investment results.",
+              "kk": "Adding ₸20,000 monthly voluntarily creates ₸240,000 per year of extra retirement funding before investment results."
             }
           },
           {
@@ -1580,10 +2669,96 @@
             "order": 4,
             "stepType": "example",
             "title": {
-              "en": "Baseline versus personal target"
+              "en": "Baseline versus personal target",
+              "ru": "База против личной цели",
+              "kk": "Baseline versus personal target"
             },
             "content": {
               "en": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A worker earns ₸500,000 monthly and wants stronger future retirement income. The pension system provides a base, but the worker can still plan around the gap."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Layer",
+                        "Monthly amount",
+                        "Purpose"
+                      ],
+                      [
+                        "Mandatory contribution",
+                        "Based on income rules",
+                        "Creates pension baseline"
+                      ],
+                      [
+                        "Voluntary contribution",
+                        "₸20,000",
+                        "Adds extra future income"
+                      ],
+                      [
+                        "Separate long-term investing",
+                        "₸30,000",
+                        "Adds flexibility outside pension rules"
+                      ],
+                      [
+                        "Emergency savings",
+                        "Separate cash",
+                        "Protects long-term accounts from short-term shocks"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The pension account is one layer of the plan. A complete plan may also need flexible savings and investments outside the pension system."
+                  }
+                ]
+              },
+              "ru": {
+                "blocks": [
+                  {
+                    "type": "paragraph",
+                    "text": "A worker earns ₸500,000 monthly and wants stronger future retirement income. The pension system provides a base, but the worker can still plan around the gap."
+                  },
+                  {
+                    "type": "table",
+                    "rows": [
+                      [
+                        "Слой",
+                        "Ежемесячная сумма",
+                        "Цель"
+                      ],
+                      [
+                        "Обязательный взнос",
+                        "На основе правил дохода",
+                        "Создает пенсионную базу"
+                      ],
+                      [
+                        "Добровольный взнос",
+                        "₸20,000",
+                        "Добавляет дополнительный будущий доход"
+                      ],
+                      [
+                        "Отдельные долгосрочные инвестиции",
+                        "₸30,000",
+                        "Добавляет гибкость вне пенсионных правил"
+                      ],
+                      [
+                        "Резервные накопления",
+                        "Отдельные деньги",
+                        "Защищает долгосрочные счета от краткосрочных шоков"
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": "The pension account is one layer of the plan. A complete plan may also need flexible savings and investments outside the pension system."
+                  }
+                ]
+              },
+              "kk": {
                 "blocks": [
                   {
                     "type": "paragraph",
@@ -1632,10 +2807,14 @@
             "order": 5,
             "stepType": "interactive",
             "title": {
-              "en": "Identify the pension layer"
+              "en": "Identify the pension layer",
+              "ru": "Определите пенсионный слой",
+              "kk": "Identify the pension layer"
             },
             "body": {
-              "en": "Sort each action by whether it belongs to the mandatory pension base, voluntary pension layer, or flexible personal planning."
+              "en": "Sort each action by whether it belongs to the mandatory pension base, voluntary pension layer, or flexible personal planning.",
+              "ru": "Sort each action by whether it belongs to the mandatory pension base, voluntary pension layer, or flexible personal planning.",
+              "kk": "Sort each action by whether it belongs to the mandatory pension base, voluntary pension layer, or flexible personal planning."
             },
             "interactiveType": "drag_drop",
             "interactiveContent": {
@@ -1692,6 +2871,114 @@
                   }
                 ],
                 "explanation": "A strong retirement plan can combine the mandatory pension base, voluntary pension contributions, and flexible personal savings or investments."
+              },
+              "ru": {
+                "instruction": "Drag each item to the correct pension-planning layer.",
+                "categories": [
+                  {
+                    "id": "mandatory",
+                    "label": "Обязательная пенсионная база"
+                  },
+                  {
+                    "id": "voluntary",
+                    "label": "Добровольный пенсионный слой"
+                  },
+                  {
+                    "id": "flexible",
+                    "label": "Гибкое личное планирование"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "income_contribution",
+                    "text": "Обязательный пенсионный взнос из трудового дохода"
+                  },
+                  {
+                    "id": "extra_pension",
+                    "text": "Дополнительный добровольный пенсионный взнос"
+                  },
+                  {
+                    "id": "emergency_cash",
+                    "text": "Отдельный резервный фонд вне пенсионных правил"
+                  },
+                  {
+                    "id": "brokerage_investing",
+                    "text": "Долгосрочные инвестиции вне пенсионного счета"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "income_contribution",
+                    "categoryId": "mandatory"
+                  },
+                  {
+                    "itemId": "extra_pension",
+                    "categoryId": "voluntary"
+                  },
+                  {
+                    "itemId": "emergency_cash",
+                    "categoryId": "flexible"
+                  },
+                  {
+                    "itemId": "brokerage_investing",
+                    "categoryId": "flexible"
+                  }
+                ],
+                "explanation": "A strong retirement plan can combine the mandatory pension base, voluntary pension contributions, and flexible personal savings or investments."
+              },
+              "kk": {
+                "instruction": "Drag each item to the correct pension-planning layer.",
+                "categories": [
+                  {
+                    "id": "mandatory",
+                    "label": "Міндетті зейнетақы базасы"
+                  },
+                  {
+                    "id": "voluntary",
+                    "label": "Ерікті зейнетақы қабаты"
+                  },
+                  {
+                    "id": "flexible",
+                    "label": "Икемді жеке жоспарлау"
+                  }
+                ],
+                "items": [
+                  {
+                    "id": "income_contribution",
+                    "text": "Required pension contribution from working income"
+                  },
+                  {
+                    "id": "extra_pension",
+                    "text": "Additional voluntary pension contribution"
+                  },
+                  {
+                    "id": "emergency_cash",
+                    "text": "Separate emergency fund outside pension rules"
+                  },
+                  {
+                    "id": "brokerage_investing",
+                    "text": "Long-term investing outside the pension account"
+                  }
+                ],
+                "answers": [
+                  {
+                    "itemId": "income_contribution",
+                    "categoryId": "mandatory"
+                  },
+                  {
+                    "itemId": "extra_pension",
+                    "categoryId": "voluntary"
+                  },
+                  {
+                    "itemId": "emergency_cash",
+                    "categoryId": "flexible"
+                  },
+                  {
+                    "itemId": "brokerage_investing",
+                    "categoryId": "flexible"
+                  }
+                ],
+                "explanation": "A strong retirement plan can combine the mandatory pension base, voluntary pension contributions, and flexible personal savings or investments."
               }
             }
           },
@@ -1700,13 +2987,19 @@
             "order": 6,
             "stepType": "conclusion",
             "title": {
-              "en": "Know the baseline, then plan the gap"
+              "en": "Know the baseline, then plan the gap",
+              "ru": "Знайте базу, затем планируйте разрыв",
+              "kk": "Know the baseline, then plan the gap"
             },
             "body": {
-              "en": "Kazakhstan's pension system creates an important starting point through accumulated pension contributions. But personal retirement readiness still depends on income, contribution history, goals, inflation, and flexible savings. Use the system as a base, then decide what extra layer your future needs require."
+              "en": "Kazakhstan's pension system creates an important starting point through accumulated pension contributions. But personal retirement readiness still depends on income, contribution history, goals, inflation, and flexible savings. Use the system as a base, then decide what extra layer your future needs require.",
+              "ru": "Kazakhstan's pension system creates an important starting point through accumulated pension contributions. But personal retirement readiness still depends on income, contribution history, goals, inflation, and flexible savings. Use the system as a base, then decide what extra layer your future needs require.",
+              "kk": "Kazakhstan's pension system creates an important starting point through accumulated pension contributions. But personal retirement readiness still depends on income, contribution history, goals, inflation, and flexible savings. Use the system as a base, then decide what extra layer your future needs require."
             },
             "tip": {
-              "en": "Mandatory pension saving is a foundation, not automatically the whole building."
+              "en": "Mandatory pension saving is a foundation, not automatically the whole building.",
+              "ru": "Обязательные пенсионные накопления — это фундамент, а не автоматически все здание.",
+              "kk": "Mandatory pension saving is a foundation, not automatically the whole building."
             }
           }
         ]
@@ -1715,7 +3008,9 @@
         "quiz_id": 1906,
         "quiz_type": "subtopic_quiz",
         "title": {
-          "en": "KZ Pension System — Check"
+          "en": "KZ Pension System — Check",
+          "ru": "KZ Pension System — Check",
+          "kk": "KZ Pension System — Check"
         },
         "questions": [
           {
@@ -1723,14 +3018,18 @@
             "question_type": "single_choice",
             "order_index": 0,
             "question_text": {
-              "en": "Why should a worker not treat mandatory pension contributions as the whole retirement plan automatically?"
+              "en": "Why should a worker not treat mandatory pension contributions as the whole retirement plan automatically?",
+              "ru": "Why should a worker not treat mandatory pension contributions as the whole retirement plan automatically?",
+              "kk": "Why should a worker not treat mandatory pension contributions as the whole retirement plan automatically?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "The mandatory base may not fully match their future spending goals, inflation, or flexibility needs"
+                  "en": "The mandatory base may not fully match their future spending goals, inflation, or flexibility needs",
+                  "ru": "The mandatory base may not fully match their future spending goals, inflation, or flexibility needs",
+                  "kk": "The mandatory base may not fully match their future spending goals, inflation, or flexibility needs"
                 },
                 "is_correct": true
               },
@@ -1738,7 +3037,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Mandatory contributions are never invested"
+                  "en": "Mandatory contributions are never invested",
+                  "ru": "Mandatory contributions are never invested",
+                  "kk": "Mandatory contributions are never invested"
                 },
                 "is_correct": false
               },
@@ -1746,7 +3047,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "A pension system makes personal planning illegal"
+                  "en": "A pension system makes personal planning illegal",
+                  "ru": "A pension system makes personal planning illegal",
+                  "kk": "A pension system makes personal planning illegal"
                 },
                 "is_correct": false
               },
@@ -1754,7 +3057,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Future spending needs are always lower than expected"
+                  "en": "Future spending needs are always lower than expected",
+                  "ru": "Future spending needs are always lower than expected",
+                  "kk": "Future spending needs are always lower than expected"
                 },
                 "is_correct": false
               }
@@ -1765,14 +3070,18 @@
             "question_type": "single_choice",
             "order_index": 1,
             "question_text": {
-              "en": "What is the role of voluntary pension contributions?"
+              "en": "What is the role of voluntary pension contributions?",
+              "ru": "What is the role of voluntary pension contributions?",
+              "kk": "What is the role of voluntary pension contributions?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "They can add extra retirement funding beyond the mandatory layer"
+                  "en": "They can add extra retirement funding beyond the mandatory layer",
+                  "ru": "They can add extra retirement funding beyond the mandatory layer",
+                  "kk": "They can add extra retirement funding beyond the mandatory layer"
                 },
                 "is_correct": true
               },
@@ -1780,7 +3089,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "They replace the need to understand pension rules"
+                  "en": "They replace the need to understand pension rules",
+                  "ru": "They replace the need to understand pension rules",
+                  "kk": "They replace the need to understand pension rules"
                 },
                 "is_correct": false
               },
@@ -1788,7 +3099,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "They are the same as daily spending money"
+                  "en": "They are the same as daily spending money",
+                  "ru": "They are the same as daily spending money",
+                  "kk": "They are the same as daily spending money"
                 },
                 "is_correct": false
               },
@@ -1796,7 +3109,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "They guarantee unlimited retirement income"
+                  "en": "They guarantee unlimited retirement income",
+                  "ru": "They guarantee unlimited retirement income",
+                  "kk": "They guarantee unlimited retirement income"
                 },
                 "is_correct": false
               }
@@ -1807,14 +3122,18 @@
             "question_type": "single_choice",
             "order_index": 2,
             "question_text": {
-              "en": "Why keep some flexible savings outside pension accounts?"
+              "en": "Why keep some flexible savings outside pension accounts?",
+              "ru": "Why keep some flexible savings outside pension accounts?",
+              "kk": "Why keep some flexible savings outside pension accounts?"
             },
             "answers": [
               {
                 "id": 1,
                 "order_index": 0,
                 "answer_text": {
-                  "en": "Short-term shocks and flexible goals may need money that is not locked into retirement rules"
+                  "en": "Short-term shocks and flexible goals may need money that is not locked into retirement rules",
+                  "ru": "Short-term shocks and flexible goals may need money that is not locked into retirement rules",
+                  "kk": "Short-term shocks and flexible goals may need money that is not locked into retirement rules"
                 },
                 "is_correct": true
               },
@@ -1822,7 +3141,9 @@
                 "id": 2,
                 "order_index": 1,
                 "answer_text": {
-                  "en": "Flexible savings always earns more than pensions"
+                  "en": "Flexible savings always earns more than pensions",
+                  "ru": "Flexible savings always earns more than pensions",
+                  "kk": "Flexible savings always earns more than pensions"
                 },
                 "is_correct": false
               },
@@ -1830,7 +3151,9 @@
                 "id": 3,
                 "order_index": 2,
                 "answer_text": {
-                  "en": "Emergency money should be invested only in risky assets"
+                  "en": "Emergency money should be invested only in risky assets",
+                  "ru": "Emergency money should be invested only in risky assets",
+                  "kk": "Emergency money should be invested only in risky assets"
                 },
                 "is_correct": false
               },
@@ -1838,7 +3161,9 @@
                 "id": 4,
                 "order_index": 3,
                 "answer_text": {
-                  "en": "Pension accounts are useless if flexible savings exists"
+                  "en": "Pension accounts are useless if flexible savings exists",
+                  "ru": "Pension accounts are useless if flexible savings exists",
+                  "kk": "Pension accounts are useless if flexible savings exists"
                 },
                 "is_correct": false
               }
@@ -1852,7 +3177,9 @@
     "quiz_id": 1999,
     "quiz_type": "final_quiz",
     "title": {
-      "en": "Retirement & Tax-Advantaged Accounts — Final Check"
+      "en": "Retirement & Tax-Advantaged Accounts — Final Check",
+      "ru": "Retirement & Tax-Advantaged Accounts — Final Check",
+      "kk": "Retirement & Tax-Advantaged Accounts — Final Check"
     },
     "questions": [
       {
@@ -1860,14 +3187,18 @@
         "question_type": "single_choice",
         "order_index": 0,
         "question_text": {
-          "en": "What problem do retirement accounts mainly solve?"
+          "en": "What problem do retirement accounts mainly solve?",
+          "ru": "What problem do retirement accounts mainly solve?",
+          "kk": "What problem do retirement accounts mainly solve?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Moving part of current income into years when work income may be lower or absent"
+              "en": "Moving part of current income into years when work income may be lower or absent",
+              "ru": "Moving part of current income into years when work income may be lower or absent",
+              "kk": "Moving part of current income into years when work income may be lower or absent"
             },
             "is_correct": true
           },
@@ -1875,7 +3206,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Making short-term shopping easier"
+              "en": "Making short-term shopping easier",
+              "ru": "Making short-term shopping easier",
+              "kk": "Making short-term shopping easier"
             },
             "is_correct": false
           },
@@ -1883,7 +3216,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "Guaranteeing high investment returns"
+              "en": "Guaranteeing high investment returns",
+              "ru": "Guaranteeing high investment returns",
+              "kk": "Guaranteeing high investment returns"
             },
             "is_correct": false
           },
@@ -1891,7 +3226,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Replacing the need for cash reserves"
+              "en": "Replacing the need for cash reserves",
+              "ru": "Replacing the need for cash reserves",
+              "kk": "Replacing the need for cash reserves"
             },
             "is_correct": false
           }
@@ -1902,14 +3239,18 @@
         "question_type": "single_choice",
         "order_index": 1,
         "question_text": {
-          "en": "A tax-deferred account has a large balance. What should the owner remember?"
+          "en": "A tax-deferred account has a large balance. What should the owner remember?",
+          "ru": "A tax-deferred account has a large balance. What should the owner remember?",
+          "kk": "A tax-deferred account has a large balance. What should the owner remember?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Future withdrawals may be taxable, so after-tax spendable value matters"
+              "en": "Future withdrawals may be taxable, so after-tax spendable value matters",
+              "ru": "Future withdrawals may be taxable, so after-tax spendable value matters",
+              "kk": "Future withdrawals may be taxable, so after-tax spendable value matters"
             },
             "is_correct": true
           },
@@ -1917,7 +3258,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Deferred means tax never exists"
+              "en": "Deferred means tax never exists",
+              "ru": "Deferred means tax never exists",
+              "kk": "Deferred means tax never exists"
             },
             "is_correct": false
           },
@@ -1925,7 +3268,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "The full balance is always tax-free cash"
+              "en": "The full balance is always tax-free cash",
+              "ru": "The full balance is always tax-free cash",
+              "kk": "The full balance is always tax-free cash"
             },
             "is_correct": false
           },
@@ -1933,7 +3278,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Tax-deferred accounts cannot compound"
+              "en": "Tax-deferred accounts cannot compound",
+              "ru": "Tax-deferred accounts cannot compound",
+              "kk": "Tax-deferred accounts cannot compound"
             },
             "is_correct": false
           }
@@ -1944,14 +3291,18 @@
         "question_type": "single_choice",
         "order_index": 2,
         "question_text": {
-          "en": "What makes tax-free growth valuable over long horizons?"
+          "en": "What makes tax-free growth valuable over long horizons?",
+          "ru": "What makes tax-free growth valuable over long horizons?",
+          "kk": "What makes tax-free growth valuable over long horizons?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "Investment gains can become large, and qualified tax-free treatment may protect those gains"
+              "en": "Investment gains can become large, and qualified tax-free treatment may protect those gains",
+              "ru": "Investment gains can become large, and qualified tax-free treatment may protect those gains",
+              "kk": "Investment gains can become large, and qualified tax-free treatment may protect those gains"
             },
             "is_correct": true
           },
@@ -1959,7 +3310,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "Tax-free accounts remove all market losses"
+              "en": "Tax-free accounts remove all market losses",
+              "ru": "Tax-free accounts remove all market losses",
+              "kk": "Tax-free accounts remove all market losses"
             },
             "is_correct": false
           },
@@ -1967,7 +3320,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "After-tax contributions are always larger than pre-tax contributions"
+              "en": "After-tax contributions are always larger than pre-tax contributions",
+              "ru": "After-tax contributions are always larger than pre-tax contributions",
+              "kk": "After-tax contributions are always larger than pre-tax contributions"
             },
             "is_correct": false
           },
@@ -1975,7 +3330,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "Rules never apply to tax-free accounts"
+              "en": "Rules never apply to tax-free accounts",
+              "ru": "Rules never apply to tax-free accounts",
+              "kk": "Rules never apply to tax-free accounts"
             },
             "is_correct": false
           }
@@ -1986,14 +3343,18 @@
         "question_type": "single_choice",
         "order_index": 3,
         "question_text": {
-          "en": "Why is employer matching often a high-priority contribution target?"
+          "en": "Why is employer matching often a high-priority contribution target?",
+          "ru": "Why is employer matching often a high-priority contribution target?",
+          "kk": "Why is employer matching often a high-priority contribution target?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "It can add employer money to the account before investment returns begin"
+              "en": "It can add employer money to the account before investment returns begin",
+              "ru": "It can add employer money to the account before investment returns begin",
+              "kk": "It can add employer money to the account before investment returns begin"
             },
             "is_correct": true
           },
@@ -2001,7 +3362,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "It guarantees the account cannot fall"
+              "en": "It guarantees the account cannot fall",
+              "ru": "It guarantees the account cannot fall",
+              "kk": "It guarantees the account cannot fall"
             },
             "is_correct": false
           },
@@ -2009,7 +3372,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "It removes vesting rules"
+              "en": "It removes vesting rules",
+              "ru": "It removes vesting rules",
+              "kk": "It removes vesting rules"
             },
             "is_correct": false
           },
@@ -2017,7 +3382,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "It means the employee should never save more personally"
+              "en": "It means the employee should never save more personally",
+              "ru": "It means the employee should never save more personally",
+              "kk": "It means the employee should never save more personally"
             },
             "is_correct": false
           }
@@ -2028,14 +3395,18 @@
         "question_type": "single_choice",
         "order_index": 4,
         "question_text": {
-          "en": "In Kazakhstan, how should mandatory pension contributions be viewed in a personal retirement plan?"
+          "en": "In Kazakhstan, how should mandatory pension contributions be viewed in a personal retirement plan?",
+          "ru": "In Kazakhstan, how should mandatory pension contributions be viewed in a personal retirement plan?",
+          "kk": "In Kazakhstan, how should mandatory pension contributions be viewed in a personal retirement plan?"
         },
         "answers": [
           {
             "id": 1,
             "order_index": 0,
             "answer_text": {
-              "en": "As an important baseline that may need voluntary and flexible layers depending on goals"
+              "en": "As an important baseline that may need voluntary and flexible layers depending on goals",
+              "ru": "As an important baseline that may need voluntary and flexible layers depending on goals",
+              "kk": "As an important baseline that may need voluntary and flexible layers depending on goals"
             },
             "is_correct": true
           },
@@ -2043,7 +3414,9 @@
             "id": 2,
             "order_index": 1,
             "answer_text": {
-              "en": "As proof that no personal planning is needed"
+              "en": "As proof that no personal planning is needed",
+              "ru": "As proof that no personal planning is needed",
+              "kk": "As proof that no personal planning is needed"
             },
             "is_correct": false
           },
@@ -2051,7 +3424,9 @@
             "id": 3,
             "order_index": 2,
             "answer_text": {
-              "en": "As daily spending money"
+              "en": "As daily spending money",
+              "ru": "As daily spending money",
+              "kk": "As daily spending money"
             },
             "is_correct": false
           },
@@ -2059,7 +3434,9 @@
             "id": 4,
             "order_index": 3,
             "answer_text": {
-              "en": "As a guarantee that inflation cannot affect retirement income"
+              "en": "As a guarantee that inflation cannot affect retirement income",
+              "ru": "As a guarantee that inflation cannot affect retirement income",
+              "kk": "As a guarantee that inflation cannot affect retirement income"
             },
             "is_correct": false
           }
