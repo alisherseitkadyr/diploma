@@ -17,15 +17,23 @@ type Client interface {
 
 type HTTPClient struct {
 	baseURL    string
+	apiKey     string
 	httpClient *http.Client
 }
 
-func NewHTTPClient(baseURL string) *HTTPClient {
+func NewHTTPClient(baseURL, apiKey string) *HTTPClient {
 	return &HTTPClient{
 		baseURL: strings.TrimRight(baseURL, "/"),
+		apiKey:  apiKey,
 		httpClient: &http.Client{
 			Timeout: 2 * time.Second,
 		},
+	}
+}
+
+func (c *HTTPClient) setAPIKey(r *http.Request) {
+	if c.apiKey != "" {
+		r.Header.Set("X-API-Key", c.apiKey)
 	}
 }
 
@@ -46,6 +54,7 @@ func (c *HTTPClient) RankNextTopics(ctx context.Context, req NextTopicRankReques
 	}
 
 	httpReq.Header.Set("Content-Type", "application/json")
+	c.setAPIKey(httpReq)
 
 	resp, err := c.httpClient.Do(httpReq)
 	if err != nil {
@@ -82,6 +91,7 @@ func (c *HTTPClient) RankRepetition(ctx context.Context, req RepetitionRankReque
 	}
 
 	httpReq.Header.Set("Content-Type", "application/json")
+	c.setAPIKey(httpReq)
 
 	resp, err := c.httpClient.Do(httpReq)
 	if err != nil {

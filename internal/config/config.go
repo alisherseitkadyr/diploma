@@ -16,6 +16,7 @@ type Config struct {
 	AccessTokenTTL            time.Duration
 	RefreshTokenTTL           time.Duration
 	NextTopicMLServiceURL string
+	MLAPIKey              string
 }
 
 func Load() *Config {
@@ -42,6 +43,7 @@ func Load() *Config {
 		AccessTokenTTL:            accessTokenTTL,
 		RefreshTokenTTL:           refreshTokenTTL,
 		NextTopicMLServiceURL: os.Getenv("NEXT_TOPIC_ML_SERVICE_URL"),
+		MLAPIKey:              os.Getenv("ML_API_KEY"),
 		// ML_URL: os.Getenv("NEXT_TOPIC_ML_SERVICE_URL"),
 		// CORS_ORIGINS: os.Getenv("CORS_ORIGINS"),
 		// POSTGRES_USER: os.Getenv("POSTGRES_USER"),

@@ -60,7 +60,7 @@ func New(cfg *config.Config) *App {
 
 	var mlClient mlclient.Client
 	if cfg.NextTopicMLServiceURL != "" {
-		mlClient = mlclient.NewHTTPClient(cfg.NextTopicMLServiceURL)
+		mlClient = mlclient.NewHTTPClient(cfg.NextTopicMLServiceURL, cfg.MLAPIKey)
 	}
 
 	adaptationSvc := adaptationService.NewService(
