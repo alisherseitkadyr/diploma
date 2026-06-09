@@ -28,7 +28,9 @@ RUN apk add --no-cache curl tar && \
     apk del curl tar
 
 COPY --from=build /out/afineback /app/afineback
+COPY --from=build /out/seed /app/seed
 COPY migrations/ /app/migrations/
+COPY seeds/ /app/seeds/
 
 EXPOSE 8081
 
