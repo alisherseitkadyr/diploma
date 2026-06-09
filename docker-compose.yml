@@ -19,6 +19,21 @@ services:
     networks:
       - afine-net
 
+  ml:
+    build: ../NextTopicLessonPrediction
+    container_name: afineback-ml
+    ports:
+      - "8000:8000"
+    networks:
+      - afine-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+
   api:
     build: .
     container_name: afineback-api
@@ -69,18 +84,13 @@ services:
     restart: unless-stopped
 
   seed:
-    build:
-      context: .
-      target: seed-runner
-    depends_on:
-      migrate:
-        condition: service_completed_successfully
+    build: .
+    command: ["./seeds/runner"]
     environment:
-      DATABASE_URL: ${DATABASE_URL:-postgres://afine:afine@postgres:5432/afine?sslmode=disable}
-      SEEDS_DIR: /app/seeds
+      DATABASE_URL: ${DATABASE_URL}
+      SEEDS_DIR: seeds
     networks:
       - afine-net
-    restart: "no"
 networks:
   afine-net:
     driver: bridge

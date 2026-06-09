@@ -1,0 +1,8 @@
+services:
+  api:
+    build:
+      context: .
+      target: dev
+    volumes:
+      - .:/src
+    command: ["air", "-c", ".air.toml"]
