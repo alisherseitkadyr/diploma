@@ -7,6 +7,16 @@ RUN go mod download
 
 COPY . .
 RUN CGO_ENABLED=0 GOOS=linux go build -o /out/afineback ./cmd/server
+RUN CGO_ENABLED=0 GOOS=linux go build -o /out/seed ./seeds/runner
+
+FROM alpine:3.22 AS seed-runner
+
+WORKDIR /app
+
+COPY --from=build /out/seed /app/seed
+COPY seeds/ /app/seeds/
+
+CMD ["/app/seed"]
 
 FROM alpine:3.22
 

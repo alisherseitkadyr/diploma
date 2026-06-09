@@ -42,6 +42,12 @@ func Load() *Config {
 		AccessTokenTTL:            accessTokenTTL,
 		RefreshTokenTTL:           refreshTokenTTL,
 		NextTopicMLServiceURL: os.Getenv("NEXT_TOPIC_ML_SERVICE_URL"),
+		// ML_URL: os.Getenv("NEXT_TOPIC_ML_SERVICE_URL"),
+		// CORS_ORIGINS: os.Getenv("CORS_ORIGINS"),
+		// POSTGRES_USER: os.Getenv("POSTGRES_USER"),
+		// POSTGRES_PASSWORD: os.Getenv("POSTGRES_PASSWORD"),
+		// POSTGRES_DB: os.Getenv("POSTGRES_DB"),
+
 	}
 
 	validate(cfg)
